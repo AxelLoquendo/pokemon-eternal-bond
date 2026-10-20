@@ -1,3 +1,4 @@
+@tool
 class_name CharacterController
 extends Node2D
 
@@ -46,6 +47,8 @@ func _ready() -> void:
 	if sprite:
 		_sprite_base_y = sprite.position.y
 
+func set_sprite_base_y(y: float) -> void:
+	_sprite_base_y = y
 
 func set_move_speed(speed: float) -> void:
 	if speed <= 0.0:

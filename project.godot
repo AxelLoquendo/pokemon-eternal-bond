@@ -17,6 +17,13 @@ config/icon="res://icon.svg"
 [autoload]
 
 ObjectEvent="*uid://cxja6wlmhp334"
+MusicManager="*uid://sbr5dyqyca8s"
+FadeScreen="*uid://bdws4uincmrrw"
+WeatherManager="*uid://lllo2o5vpfc0"
+WeatherRenderer="*uid://8cw434avxdrv"
+MessageService="*uid://5mt3uwe5s5qb"
+DayNightManager="*uid://dtt3c7ipmpc74"
+GameSettings="*uid://djqhqgiq5g8ax"
 
 [debug]
 
@@ -40,6 +47,11 @@ folder_colors={
 "res://Scripts/": "teal",
 "res://Sfx/": "pink"
 }
+
+[global_group]
+
+Player=""
+Npc=""
 
 [input]
 

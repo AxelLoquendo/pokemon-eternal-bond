@@ -183,7 +183,7 @@ func _apply_ow_texture(texture: Texture2D) -> void:
 	animated_sprite.centered = true
 	animated_sprite.position = Vector2(TILE_SIZE * 0.5, TILE_SIZE - frame_size.y * 0.5)
 	if controller:
-		controller._sprite_base_y = animated_sprite.position.y
+		controller.set_sprite_base_y(animated_sprite.position.y)
 	if animated_sprite.sprite_frames.has_animation("Idle_Down"):
 		animated_sprite.animation = &"Idle_Down"
 		animated_sprite.frame = 0
