@@ -1,0 +1,2 @@
+class_name CharacterStatesController
+extends Node2D

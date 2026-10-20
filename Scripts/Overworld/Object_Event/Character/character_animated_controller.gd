@@ -1,0 +1,2 @@
+class_name CharacterAnimatedController
+extends Node2D

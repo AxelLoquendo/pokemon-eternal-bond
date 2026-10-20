@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://c6nwvulbs6xw0"]
+
+[ext_resource type="Script" uid="uid://d17orjh8bbo86" path="res://Scripts/Overworld/Object_Event/Player/player.gd" id="1_f1kh6"]
+[ext_resource type="Script" uid="uid://5v4ynuf73kgl" path="res://Scripts/Overworld/Object_Event/Player/player_data.gd" id="2_fj50q"]
+[ext_resource type="SpriteFrames" uid="uid://bowqeghbvmpy1" path="res://Datos/Overworld/Object_Event/Player_Animated.tres" id="3_fj50q"]
+[ext_resource type="Texture2D" uid="uid://cg0fvuuc136f7" path="res://Graficos/Object_Event/shadow/shadow_medium.png" id="3_jdact"]
+[ext_resource type="Script" uid="uid://bfdhxq11byi1r" path="res://Scripts/Overworld/Object_Event/Character/character_controller.gd" id="4_q63kt"]
+[ext_resource type="Script" uid="uid://cx1w881yuhtdt" path="res://Scripts/Overworld/Object_Event/Character/character_states_controller.gd" id="5_jdact"]
+[ext_resource type="Script" uid="uid://dj4b80ir5ao7y" path="res://Scripts/Overworld/Object_Event/Character/character_animated_controller.gd" id="6_votv2"]
+
+[sub_resource type="Resource" id="Resource_f1kh6"]
+script = ExtResource("2_fj50q")
+walk = 3
+run = 6
+ow_sprite = 1
+shadow_sprite = 2
+shadow_position = Vector2(7.5, 11)
+metadata/_custom_type_script = "uid://5v4ynuf73kgl"
+
+[node name="Player" type="Node2D" unique_id=2132387576]
+script = ExtResource("1_f1kh6")
+character = SubResource("Resource_f1kh6")
+
+[node name="ShadowSprite" type="Sprite2D" parent="." unique_id=1186161884]
+modulate = Color(1, 1, 1, 0.23529412)
+position = Vector2(7.5, 11)
+texture = ExtResource("3_jdact")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=527250573]
+position = Vector2(8, 0)
+sprite_frames = ExtResource("3_fj50q")
+animation = &"Idle_Down"
+
+[node name="Controller" type="Node2D" parent="." unique_id=1588539156]
+
+[node name="CharacterController" type="Node2D" parent="Controller" unique_id=497212415]
+script = ExtResource("4_q63kt")
+
+[node name="CharacterStatesController" type="Node2D" parent="Controller" unique_id=1710891413]
+script = ExtResource("5_jdact")
+
+[node name="CharacterAnimatedController" type="Node2D" parent="Controller" unique_id=647343728]
+script = ExtResource("6_votv2")
