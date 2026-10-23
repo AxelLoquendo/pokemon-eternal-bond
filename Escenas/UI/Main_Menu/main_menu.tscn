@@ -1,12 +1,14 @@
 [gd_scene format=3 uid="uid://dd3i86uojivo5"]
 
 [ext_resource type="Texture2D" uid="uid://d2tie7h2y571t" path="res://Graficos/UI/Main_Menu/scroll_bg.png" id="1_3qnhr"]
+[ext_resource type="Script" uid="uid://bh28xcukmpsdn" path="res://Scripts/Core/Boot/main_menu.gd" id="1_x057w"]
 [ext_resource type="Texture2D" uid="uid://tmcnjj7jiqxm" path="res://Graficos/UI/Main_Menu/continue.png" id="2_x057w"]
 [ext_resource type="Texture2D" uid="uid://cqnfnh7h2tewu" path="res://Graficos/UI/Main_Menu/brendan_mugshot.png" id="3_5u8en"]
 [ext_resource type="Texture2D" uid="uid://euk2qncmh7" path="res://Graficos/UI/Main_Menu/new_game.png" id="4_de4ig"]
 [ext_resource type="Texture2D" uid="uid://dj37e180l8xj6" path="res://Graficos/UI/Main_Menu/option.png" id="5_gxoke"]
 
 [node name="MainMenu" type="Node2D" unique_id=1412297491]
+script = ExtResource("1_x057w")
 
 [node name="BG" type="Sprite2D" parent="." unique_id=825462338]
 position = Vector2(256, 256)

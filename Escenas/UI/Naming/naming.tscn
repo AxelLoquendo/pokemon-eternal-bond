@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://dxhsfiu5gqm7e"]
+
+[ext_resource type="Texture2D" uid="uid://b0op4s50oigg" path="res://Graficos/UI/Naming/bg_2.png" id="1_wppye"]
+[ext_resource type="Texture2D" uid="uid://b1gp7oq0d8ty" path="res://Graficos/UI/Main_Menu/icon_shadow.png" id="2_pcwvh"]
+[ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="3_gt06x"]
+[ext_resource type="Texture2D" uid="uid://yl450kdkkl00" path="res://Graficos/Pokemon/Icons/BULBASAUR.png" id="3_l1gmm"]
+[ext_resource type="Texture2D" uid="uid://cg0fvuuc136f7" path="res://Graficos/Object_Event/shadow/shadow_medium.png" id="4_jc11r"]
+[ext_resource type="SpriteFrames" uid="uid://bowqeghbvmpy1" path="res://Datos/Overworld/Object_Event/Player_Animated.tres" id="5_ao628"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_htemk"]
+font = ExtResource("3_gt06x")
+font_color = Color(0.0627451, 0.09411765, 0.1254902, 1)
+shadow_size = 0
+shadow_color = Color(0.65882355, 0.72156864, 0.72156864, 1)
+shadow_offset = Vector2(0, 2)
+
+[node name="Naming" type="Control" unique_id=1895923364]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Bg" type="Sprite2D" parent="." unique_id=1940635084]
+position = Vector2(240, 160)
+scale = Vector2(0.9375, 0.8333333)
+texture = ExtResource("1_wppye")
+
+[node name="Mon" type="Node2D" parent="." unique_id=1973011369]
+visible = false
+
+[node name="Shadow" type="Sprite2D" parent="Mon" unique_id=1153271074]
+position = Vector2(70, 40)
+scale = Vector2(2, 2)
+texture = ExtResource("2_pcwvh")
+
+[node name="Sprite2D" type="Sprite2D" parent="Mon" unique_id=1371570141]
+position = Vector2(70, 40)
+texture = ExtResource("3_l1gmm")
+hframes = 2
+
+[node name="Character" type="Node2D" parent="." unique_id=507016801]
+
+[node name="Shadow" type="Sprite2D" parent="Character" unique_id=1190526420]
+modulate = Color(1, 1, 1, 0.36078432)
+position = Vector2(72, 63)
+scale = Vector2(2, 2)
+texture = ExtResource("4_jc11r")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Character" unique_id=1148258273]
+position = Vector2(73, 41)
+scale = Vector2(2, 2)
+sprite_frames = ExtResource("5_ao628")
+animation = &"Idle_Down"
+
+[node name="Text" type="Node" parent="." unique_id=714530550]
+
+[node name="Box_message" type="Label" parent="Text" unique_id=472307584]
+offset_left = 38.0
+offset_top = 246.0
+offset_right = 445.0
+offset_bottom = 317.0
+text = "Escribe texto usando el teclado. Pulsa Z/Enter para confirmar, o X para cancelar."
+label_settings = SubResource("LabelSettings_htemk")
+autowrap_mode = 2
+
+[node name="Pregunta" type="Label" parent="Text" unique_id=154650489]
+offset_left = 113.0
+offset_top = 5.0
+offset_right = 439.0
+offset_bottom = 40.0
+text = "¿Tú nombre?"
+label_settings = SubResource("LabelSettings_htemk")
+autowrap_mode = 2
+
+[node name="Print_Name" type="LineEdit" parent="Text" unique_id=858011231]
+offset_left = 113.0
+offset_top = 39.0
+offset_right = 442.0
+offset_bottom = 73.0
+theme_override_colors/font_color = Color(0.0627451, 0.09411765, 0.1254902, 1)
+theme_override_fonts/font = ExtResource("3_gt06x")
+theme_override_font_sizes/font_size = 24
