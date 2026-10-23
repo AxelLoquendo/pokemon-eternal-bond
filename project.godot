@@ -36,6 +36,10 @@ window/size/viewport_height=320
 window/stretch/mode="canvas_items"
 window/stretch/aspect="ignore"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/map_creator/plugin.cfg", "res://addons/map_editor/plugin.cfg")
+
 [file_customization]
 
 folder_colors={
@@ -45,7 +49,8 @@ folder_colors={
 "res://Font/": "orange",
 "res://Graficos/": "yellow",
 "res://Scripts/": "teal",
-"res://Sfx/": "pink"
+"res://Sfx/": "pink",
+"res://addons/": "gray"
 }
 
 [global_group]

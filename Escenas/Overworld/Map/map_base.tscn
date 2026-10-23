@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://nvm4yd1qhavb"]
+
+[ext_resource type="Script" uid="uid://cb2tf1f42q87k" path="res://Scripts/Overworld/Map/map.gd" id="1_smbj0"]
+[ext_resource type="Script" uid="uid://ccatwp01hwuke" path="res://Scripts/Overworld/Map/map_connection_entry.gd" id="2_ehqce"]
+[ext_resource type="TileSet" uid="uid://b64s8oqxravxk" path="res://Datos/Overworld/Tileset/collision/collision.tres" id="3_8e277"]
+[ext_resource type="Script" uid="uid://dbuxkfetxb1l6" path="res://Scripts/Overworld/Map/map_script_entry.gd" id="3_uak1k"]
+[ext_resource type="Script" uid="uid://b4ctfuylidkbh" path="res://Scripts/Overworld/Map/map_attributes.gd" id="4_6uxwl"]
+[ext_resource type="Script" uid="uid://bpwefsfp6hcjj" path="res://Scripts/Overworld/Map/map_music_controller.gd" id="6_n5y7k"]
+[ext_resource type="Script" uid="uid://qaarrnjwmo0n" path="res://Scripts/Overworld/Map/map_border_controller.gd" id="7_horkk"]
+[ext_resource type="Script" uid="uid://bsjrts0qd8o6q" path="res://Scripts/Core/Weather/weather_controller.gd" id="8_w1ixj"]
+
+[sub_resource type="Resource" id="Resource_gp5ro"]
+script = ExtResource("4_6uxwl")
+metadata/_custom_type_script = "uid://b4ctfuylidkbh"
+
+[node name="Map_Attributes" type="Node2D" unique_id=1993050852]
+script = ExtResource("1_smbj0")
+attributes = SubResource("Resource_gp5ro")
+
+[node name="Tileset" type="Node2D" parent="." unique_id=261736993]
+
+[node name="Tile0" type="TileMapLayer" parent="Tileset" unique_id=1436758875]
+
+[node name="Tile1" type="TileMapLayer" parent="Tileset" unique_id=497837947]
+
+[node name="Tile2" type="TileMapLayer" parent="Tileset" unique_id=727004056]
+
+[node name="Tile3" type="TileMapLayer" parent="Tileset" unique_id=562314614]
+z_index = 2
+
+[node name="Tile4" type="TileMapLayer" parent="Tileset" unique_id=826873359]
+z_index = 3
+
+[node name="Behaviour" type="Node2D" parent="." unique_id=1681849792]
+
+[node name="Collision" type="TileMapLayer" parent="Behaviour" unique_id=630593805]
+self_modulate = Color(1, 1, 1, 0.20784314)
+tile_set = ExtResource("3_8e277")
+
+[node name="Borde" type="TileMapLayer" parent="Behaviour" unique_id=48474854]
+
+[node name="EventObject" type="Node2D" parent="." unique_id=1092069242]
+z_index = 1
+y_sort_enabled = true
+
+[node name="Trigger" type="Node2D" parent="." unique_id=564404473]
+
+[node name="MapMusicController" type="Node2D" parent="." unique_id=1712646082]
+script = ExtResource("6_n5y7k")
+
+[node name="MapBorderController" type="Node2D" parent="." unique_id=1618371318]
+script = ExtResource("7_horkk")
+
+[node name="MapWeatherController" type="Node2D" parent="." unique_id=1357270275]
+script = ExtResource("8_w1ixj")

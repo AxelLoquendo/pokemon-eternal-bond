@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dd3i86uojivo5"]
+
+[ext_resource type="Texture2D" uid="uid://d2tie7h2y571t" path="res://Graficos/UI/Main_Menu/scroll_bg.png" id="1_3qnhr"]
+[ext_resource type="Texture2D" uid="uid://tmcnjj7jiqxm" path="res://Graficos/UI/Main_Menu/continue.png" id="2_x057w"]
+[ext_resource type="Texture2D" uid="uid://cqnfnh7h2tewu" path="res://Graficos/UI/Main_Menu/brendan_mugshot.png" id="3_5u8en"]
+[ext_resource type="Texture2D" uid="uid://euk2qncmh7" path="res://Graficos/UI/Main_Menu/new_game.png" id="4_de4ig"]
+[ext_resource type="Texture2D" uid="uid://dj37e180l8xj6" path="res://Graficos/UI/Main_Menu/option.png" id="5_gxoke"]
+
+[node name="MainMenu" type="Node2D" unique_id=1412297491]
+
+[node name="BG" type="Sprite2D" parent="." unique_id=825462338]
+position = Vector2(256, 256)
+scale = Vector2(2, 2)
+texture = ExtResource("1_3qnhr")
+
+[node name="Botones" type="Node2D" parent="." unique_id=1802101785]
+scale = Vector2(2, 2)
+
+[node name="Continuar" type="Sprite2D" parent="Botones" unique_id=1146687582]
+position = Vector2(120, 45)
+texture = ExtResource("2_x057w")
+
+[node name="Mugshot" type="Sprite2D" parent="Botones/Continuar" unique_id=910201255]
+position = Vector2(-72.5, 8)
+texture = ExtResource("3_5u8en")
+
+[node name="Nuevo_Juego" type="Sprite2D" parent="Botones" unique_id=1773703654]
+position = Vector2(60, 105)
+texture = ExtResource("4_de4ig")
+
+[node name="Opciones" type="Sprite2D" parent="Botones" unique_id=599117561]
+position = Vector2(179, 105)
+texture = ExtResource("5_gxoke")
