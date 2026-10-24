@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://d2d7elqeubn7b"]
 
+[ext_resource type="Script" uid="uid://cma5l6lxjbl0d" path="res://Scripts/Overworld/Object_Event/Game/gender_select.gd" id="1_amjvm"]
 [ext_resource type="Texture2D" uid="uid://d2tie7h2y571t" path="res://Graficos/UI/Main_Menu/scroll_bg.png" id="1_qd1g8"]
 [ext_resource type="Texture2D" uid="uid://byy4rxkui2q41" path="res://Graficos/Intro_Game/gender/tiles_male.png" id="2_amjvm"]
 [ext_resource type="Texture2D" uid="uid://csf56ei17cqrg" path="res://Graficos/Trainers/Kael.png" id="3_ckxua"]
@@ -7,22 +8,6 @@
 [ext_resource type="Texture2D" uid="uid://ds76vbmf5d7vk" path="res://Graficos/Intro_Game/gender/tiles_female.png" id="5_ia2fd"]
 [ext_resource type="Texture2D" uid="uid://d3ounjlmajik8" path="res://Graficos/Trainers/Kaida.png" id="6_b8g2r"]
 [ext_resource type="Texture2D" uid="uid://bw53cp6ymgctk" path="res://Graficos/Object_Event/player/female/kaida/normal.png" id="7_ewfxt"]
-
-[sub_resource type="Animation" id="Animation_juxio"]
-resource_name = "No_Seleccionado_F"
-length = 0.2
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Female:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.2),
-"transitions": PackedFloat32Array(1, 0.5),
-"update": 0,
-"values": [Vector2(112, 144), Vector2(80, 144)]
-}
 
 [sub_resource type="Animation" id="Animation_ckxua"]
 resource_name = "No_Seleccionado_M"
@@ -67,22 +52,6 @@ tracks/1/keys = {
 "values": [Vector2(112, 144)]
 }
 
-[sub_resource type="Animation" id="Animation_ia2fd"]
-resource_name = "Seleccionado_F"
-length = 0.2
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("Female:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.2),
-"transitions": PackedFloat32Array(1, 0.5),
-"update": 0,
-"values": [Vector2(80, 144), Vector2(112, 144)]
-}
-
 [sub_resource type="Animation" id="Animation_qd1g8"]
 resource_name = "Entrada_M"
 length = 0.2
@@ -101,14 +70,67 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ckxua"]
 _data = {
-&"No_Seleccionado_F": SubResource("Animation_juxio"),
 &"No_Seleccionado_M": SubResource("Animation_ckxua"),
 &"RESET": SubResource("Animation_amjvm"),
-&"Seleccionado_F": SubResource("Animation_ia2fd"),
 &"Seleccionado_M": SubResource("Animation_qd1g8")
 }
 
+[sub_resource type="Animation" id="Animation_b8g2r"]
+resource_name = "No_Seleccionado_F"
+length = 0.19999999999999998
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Female:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 0.5),
+"update": 0,
+"values": [Vector2(112, 144), Vector2(80, 144)]
+}
+
+[sub_resource type="Animation" id="Animation_ewfxt"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Female:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(112, 144)]
+}
+
+[sub_resource type="Animation" id="Animation_r31or"]
+resource_name = "Seleccionado_F"
+length = 0.19999999999999998
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Female:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 0.5),
+"update": 0,
+"values": [Vector2(80, 144), Vector2(112, 144)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jgy62"]
+_data = {
+&"No_Seleccionado_F": SubResource("Animation_b8g2r"),
+&"RESET": SubResource("Animation_ewfxt"),
+&"Seleccionado_F": SubResource("Animation_r31or")
+}
+
 [node name="GenderSelect" type="Node2D" unique_id=1166486678]
+script = ExtResource("1_amjvm")
 
 [node name="BG" type="Sprite2D" parent="." unique_id=1155954298]
 position = Vector2(256, 256)
@@ -147,5 +169,8 @@ hframes = 3
 vframes = 4
 frame = 1
 
-[node name="Animaciones" type="AnimationPlayer" parent="." unique_id=963894662]
+[node name="Animaciones_M" type="AnimationPlayer" parent="." unique_id=963894662]
 libraries/ = SubResource("AnimationLibrary_ckxua")
+
+[node name="Animaciones_F" type="AnimationPlayer" parent="." unique_id=1990762043]
+libraries/ = SubResource("AnimationLibrary_jgy62")

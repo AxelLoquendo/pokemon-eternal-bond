@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://dxhsfiu5gqm7e"]
 
+[ext_resource type="Script" uid="uid://cdqiln8fwioyc" path="res://Scripts/Overworld/Object_Event/Game/naming.gd" id="1_pcwvh"]
 [ext_resource type="Texture2D" uid="uid://b0op4s50oigg" path="res://Graficos/UI/Naming/bg_2.png" id="1_wppye"]
 [ext_resource type="Texture2D" uid="uid://b1gp7oq0d8ty" path="res://Graficos/UI/Main_Menu/icon_shadow.png" id="2_pcwvh"]
 [ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="3_gt06x"]
@@ -19,6 +20,7 @@ shadow_offset = Vector2(0, 2)
 [node name="Naming" type="Control" unique_id=1895923364]
 layout_mode = 3
 anchors_preset = 0
+script = ExtResource("1_pcwvh")
 
 [node name="Bg" type="Sprite2D" parent="." unique_id=1940635084]
 position = Vector2(240, 160)

@@ -122,11 +122,10 @@ func _on_continue() -> void:
 
 
 func _on_new_game() -> void:
-	# TODO: intro / gender / GameSession
-	# Por ahora puedes ir directo a un mapa de prueba si existe:
-	# get_tree().change_scene_to_file("res://Escenas/Overworld/Map/Pueblo_Alba/pueblo_alba.tscn")
-	push_warning("Nuevo juego: conecta intro u overworld aquí.")
-	_busy = false
+	NewGameState.reset()
+	if typeof(FadeScreen) != TYPE_NIL and FadeScreen.has_method("fade_out"):
+		await FadeScreen.fade_out(TitleConfig.FADE_DURATION)
+	get_tree().change_scene_to_file(TitleConfig.GENDER_SCENE)
 
 
 func _on_options() -> void:

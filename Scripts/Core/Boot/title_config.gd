@@ -1,13 +1,15 @@
 class_name TitleConfig
 extends Object
 
-## Rutas y tiempos del arranque (Eternal Bond, 480×320).
-
 const CREDITS_SCENE: String = "res://Escenas/UI/Title_Screen/creditos.tscn"
 const TITLE_SCENE: String = "res://Escenas/UI/Title_Screen/title_screen.tscn"
 const MAIN_MENU_SCENE: String = "res://Escenas/UI/Main_Menu/main_menu.tscn"
+const GENDER_SCENE: String = "res://Escenas/UI/Intro/gender_select.tscn"
+const NAMING_SCENE: String = "res://Escenas/UI/Naming/naming.tscn"
 
-## Si más adelante quieres cadena de varios splash:
+## Cambia cuando tengas GameSession listo:
+const START_MAP_SCENE: String = "res://Escenas/Overworld/Map/Prado_Natal/prado_natal.tscn"
+
 const SEQUENCE: PackedStringArray = [
 	"res://Graficos/Title_Screen/splash1.png",
 ]
