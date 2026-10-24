@@ -8,7 +8,9 @@
 [ext_resource type="SpriteFrames" uid="uid://bowqeghbvmpy1" path="res://Datos/Overworld/Object_Event/Player_Animated.tres" id="5_ao628"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_htemk"]
+line_spacing = 1.0
 font = ExtResource("3_gt06x")
+font_size = 24
 font_color = Color(0.0627451, 0.09411765, 0.1254902, 1)
 shadow_size = 0
 shadow_color = Color(0.65882355, 0.72156864, 0.72156864, 1)
@@ -20,7 +22,6 @@ anchors_preset = 0
 
 [node name="Bg" type="Sprite2D" parent="." unique_id=1940635084]
 position = Vector2(240, 160)
-scale = Vector2(0.9375, 0.8333333)
 texture = ExtResource("1_wppye")
 
 [node name="Mon" type="Node2D" parent="." unique_id=1973011369]
@@ -53,10 +54,10 @@ animation = &"Idle_Down"
 [node name="Text" type="Node" parent="." unique_id=714530550]
 
 [node name="Box_message" type="Label" parent="Text" unique_id=472307584]
-offset_left = 38.0
-offset_top = 246.0
-offset_right = 445.0
-offset_bottom = 317.0
+offset_left = 42.0
+offset_top = 226.0
+offset_right = 449.0
+offset_bottom = 310.0
 text = "Escribe texto usando el teclado. Pulsa Z/Enter para confirmar, o X para cancelar."
 label_settings = SubResource("LabelSettings_htemk")
 autowrap_mode = 2
