@@ -1,7 +1,6 @@
 class_name MapFactory
 extends Node
-## Overworld continuo: current completo + vecinos precargados (vista).
-## Colisión: todas las layers del cluster registradas en MapCollisionSystem.
+## Overworld continuo: current + vecinos. Adaptado a Controller/CharacterController.
 
 signal cluster_loaded(current: Map)
 signal current_changed(mapa: Map)
@@ -13,8 +12,19 @@ var current_map_id: MapSection.MapID = MapSection.MapID.NONE
 ## MapSection.MapID -> Map
 var loaded_maps: Dictionary = {}
 
+
 func _ready() -> void:
 	add_to_group(&"map_factory")
+
+
+func _controller_of(node: Node) -> CharacterController:
+	if node == null:
+		return null
+	var c: CharacterController = node.get_node_or_null("Controller/CharacterController") as CharacterController
+	if c != null:
+		return c
+	return node.get_node_or_null("CharacterController") as CharacterController
+
 
 func load_cluster(
 	map_id: MapSection.MapID,
@@ -39,7 +49,6 @@ func load_cluster(
 	_load_neighbors(mapa)
 	_place_player(mapa, player, cell)
 
-	# Vecinos en pausa; current activo (deferred: NPCs en grupo)
 	for id: Variant in loaded_maps.keys():
 		var m: Map = loaded_maps[id] as Map
 		if m != null:
@@ -47,8 +56,7 @@ func load_cluster(
 
 	mapa.set_as_current.call_deferred(true)
 
-	var player_controller: CharacterController = \
-		player.get_node_or_null("CharacterController") as CharacterController
+	var player_controller: CharacterController = _controller_of(player)
 	if player_controller != null:
 		MapCollisionSystem.init_entity_state(
 			player_controller,
@@ -78,7 +86,6 @@ func _promover_a_current(nuevo_id: MapSection.MapID, player: Node2D) -> void:
 
 	current_map = nuevo
 	current_map_id = nuevo_id
-	# No usar set_active_map: borraría las layers de los vecinos
 	_reparent_player_keep_global(player, nuevo)
 
 	nuevo.set_as_current(true)
@@ -180,8 +187,7 @@ func _instantiate_map(map_id: MapSection.MapID) -> Map:
 func _place_player(mapa: Map, player: Node2D, cell: Vector2i) -> void:
 	_reparent_player_keep_global(player, mapa)
 	var world_pos: Vector2 = mapa.global_position + Vector2(cell) * TILE_SIZE
-	var controller: CharacterController = \
-		player.get_node_or_null("CharacterController") as CharacterController
+	var controller: CharacterController = _controller_of(player)
 	if controller != null:
 		controller.teleport_to(world_pos)
 	else:
@@ -214,17 +220,17 @@ func _unload_all(player: Node2D) -> void:
 func _init_npcs_current(mapa: Map) -> void:
 	if not mapa.is_inside_tree():
 		return
-	for node: Node in mapa.get_tree().get_nodes_in_group(&"Npc"):
+	for node: Node in mapa.get_tree().get_nodes_in_group(&"npc"):
 		if not mapa.is_ancestor_of(node):
 			continue
-		var controller: CharacterController = \
-			node.get_node_or_null("CharacterController") as CharacterController
+		var controller: CharacterController = _controller_of(node)
 		if controller == null:
 			continue
 		MapCollisionSystem.init_entity_state(
 			controller,
 			controller.get_character_position()
 		)
+
 
 func get_current_map_id() -> MapSection.MapID:
 	return current_map_id

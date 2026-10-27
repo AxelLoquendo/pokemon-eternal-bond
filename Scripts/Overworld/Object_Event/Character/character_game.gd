@@ -1,6 +1,8 @@
 class_name CharacterGame
 extends Resource
 
+@export var name: String
+@export var id: StringName
 @export var walk: int = 0
 @export var run: int = 0
 @export var ow_sprite: ObjectEvent.owID = ObjectEvent.owID.OBJ_EVENT_NONE

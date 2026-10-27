@@ -1,5 +1,5 @@
 extends Control
-## Naming — nombre + preview OW del género elegido (animado)
+## Naming — preview OW del género + arranque vía SessionBoot → GameSession.
 
 @onready var line: LineEdit = $Text/Print_Name
 @onready var pregunta: Label = $Text/Pregunta
@@ -10,6 +10,7 @@ extends Control
 const MAX_LEN: int = 7
 const MALE_OW: String = "res://Graficos/Object_Event/player/male/kael/normal.png"
 const FEMALE_OW: String = "res://Graficos/Object_Event/player/female/kaida/normal.png"
+const GAME_SESSION_SCENE: String = "res://Escenas/Overworld/Game/game_session.tscn"
 
 const WALK: Array[StringName] = [
 	&"First_Step_Down",
@@ -123,15 +124,15 @@ func _confirm() -> void:
 		return
 	_busy = true
 	NewGameState.set_player_name(line.text if line else "")
+	SessionBoot.start_data = NewGameState.build_start_data()
 	await create_tween().tween_property(self, "modulate:a", 0.0, TitleConfig.FADE_DURATION).finished
 	if FadeScreen:
 		FadeScreen.set_covered()
-	var path: String = TitleConfig.START_MAP_SCENE
-	if ResourceLoader.exists(path):
-		get_tree().change_scene_to_file(path)
-	else:
-		push_error("Naming: falta mapa %s" % path)
+	if not ResourceLoader.exists(GAME_SESSION_SCENE):
+		push_error("Naming: falta %s" % GAME_SESSION_SCENE)
 		_busy = false
+		return
+	get_tree().change_scene_to_file(GAME_SESSION_SCENE)
 
 
 func _cancel() -> void:
