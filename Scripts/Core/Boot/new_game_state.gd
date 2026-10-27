@@ -38,6 +38,9 @@ func build_start_data() -> GameStartData:
 	data.start_position = START_TILE
 	var pd := PlayerData.new()
 	pd.name = player_name
+	pd.id = &"player"
+	pd.walk = 4
+	pd.run = 8
 	data.player_data = pd
 	return data
 

@@ -1,6 +1,5 @@
 class_name GameSession
 extends Node2D
-## Player + MapFactory (estilo Studio, sin party/pause).
 
 @export var start_data: GameStartData
 
@@ -9,10 +8,13 @@ extends Node2D
 
 var play_seconds: float = 0.0
 var _start_menu: CanvasLayer = null
+var _signpost: CanvasLayer = null
+
 
 func _ready() -> void:
 	add_to_group(&"game_session")
 	_ensure_message_ui()
+	_ensure_signpost()
 
 	if SessionBoot.start_data != null:
 		start_data = SessionBoot.start_data
@@ -24,11 +26,8 @@ func _ready() -> void:
 	if start_data == null:
 		push_error("GameSession: falta GameStartData")
 		return
-	if map_factory == null:
-		push_error("GameSession: falta nodo MapFactory")
-		return
-	if player == null:
-		push_error("GameSession: falta nodo Player")
+	if map_factory == null or player == null:
+		push_error("GameSession: falta MapFactory o Player")
 		return
 
 	_apply_player_data()
@@ -62,6 +61,16 @@ func _process(delta: float) -> void:
 	play_seconds += delta
 
 
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("buttonStart"):
+		if MessageService and MessageService.has_method("is_active") and MessageService.is_active():
+			return
+		_ensure_start_menu()
+		if _start_menu and _start_menu.has_method("is_open") and not _start_menu.is_open():
+			_start_menu.open_menu(self)
+			get_viewport().set_input_as_handled()
+
+
 func _player_controller() -> CharacterController:
 	if player == null:
 		return null
@@ -74,7 +83,7 @@ func _player_controller() -> CharacterController:
 func _apply_player_data() -> void:
 	if player == null or start_data == null:
 		return
-	if start_data.player_data != null and player.get("character") != null:
+	if start_data.player_data != null:
 		player.set("character", start_data.player_data)
 	if NewGameState and player.has_method("_apply_ow_texture"):
 		var path: String = NewGameState.ow_texture_path()
@@ -91,10 +100,14 @@ func _on_player_step_finished() -> void:
 
 func _on_cluster_loaded(mapa: Map) -> void:
 	_apply_day_night(mapa)
+	if _signpost and _signpost.has_method("try_show_for_map"):
+		_signpost.try_show_for_map(mapa)
 
 
 func _on_current_changed(mapa: Map) -> void:
 	_apply_day_night(mapa)
+	if _signpost and _signpost.has_method("try_show_for_map"):
+		_signpost.try_show_for_map(mapa)
 
 
 func _apply_day_night(mapa: Map) -> void:
@@ -105,26 +118,17 @@ func _apply_day_night(mapa: Map) -> void:
 		return
 	DayNightManager.set_outdoor(not mapa.attributes.is_indoor)
 
-func _unhandled_input(event: InputEvent) -> void:
-	if event.is_action_pressed("buttonStart"):
-		if MessageService and MessageService.has_method("is_active") and MessageService.is_active():
-			return
-		_ensure_start_menu()
-		if _start_menu and _start_menu.has_method("is_open") and _start_menu.is_open():
-			return
-		if _start_menu and _start_menu.has_method("open_menu"):
-			_start_menu.open_menu(self)
-			get_viewport().set_input_as_handled()
 
 func _ensure_message_ui() -> void:
 	if get_tree().get_first_node_in_group(&"message_ui") != null:
 		return
-	var script_path: String = "res://Scripts/Core/Message/message_ui.gd"
-	if not ResourceLoader.exists(script_path):
+	var path: String = "res://Scripts/Core/Message/message_ui.gd"
+	if not ResourceLoader.exists(path):
 		return
-	var ui: Node = (load(script_path) as Script).new()
+	var ui: Node = (load(path) as Script).new()
 	ui.name = "MessageUI"
 	add_child(ui)
+
 
 func _ensure_start_menu() -> void:
 	if _start_menu != null:
@@ -135,3 +139,14 @@ func _ensure_start_menu() -> void:
 	_start_menu = packed.instantiate() as CanvasLayer
 	_start_menu.name = "StartMenu"
 	add_child(_start_menu)
+
+
+func _ensure_signpost() -> void:
+	if _signpost != null:
+		return
+	var path: String = "res://Scripts/Core/UI/Location/location_signpost.gd"
+	if not ResourceLoader.exists(path):
+		return
+	_signpost = (load(path) as Script).new() as CanvasLayer
+	_signpost.name = "LocationSignpost"
+	add_child(_signpost)

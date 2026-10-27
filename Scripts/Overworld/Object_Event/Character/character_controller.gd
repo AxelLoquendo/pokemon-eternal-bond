@@ -17,10 +17,10 @@ const TILE_SIZE: float = 16.0
 const MOVE_SPEED: float = 64.0
 const HOLD_THRESHOLD: float = 0.12
 const BUMP_COOLDOWN: float = 0.25
-const BUMP_ANIM_SPEED: float = 1.0
 const HOP_HEIGHT: float = 11.0
 const HOP_PEAK: float = 0.38
 const HOP_SPEED_MULT: float = 1.6
+const BUMP_ANIM_SPEED: float = 1.0
 
 var current_position: Vector2
 var initial_position: Vector2
@@ -38,6 +38,9 @@ var move_speed: float = MOVE_SPEED
 var ledge_hop: bool = false
 var _sprite_base_y: float = 0.0
 
+var height_level: int = 0
+var elevated: bool = false
+
 
 func _ready() -> void:
 	entity_root.global_position = snap_to_grid(entity_root.global_position)
@@ -47,8 +50,10 @@ func _ready() -> void:
 	if sprite:
 		_sprite_base_y = sprite.position.y
 
+
 func set_sprite_base_y(y: float) -> void:
 	_sprite_base_y = y
+
 
 func set_move_speed(speed: float) -> void:
 	if speed <= 0.0:
@@ -141,16 +146,13 @@ func process_input_hold(delta: float) -> void:
 
 func start_move() -> bool:
 	initial_position = entity_root.global_position
-	var target_world: Vector2 = initial_position + direction * TILE_SIZE
-	var hop: bool = false
-
-	if EntityCollisionSystem.is_position_occupied(target_world, self):
+	var step: MoveStepResult = CollisionFacade.resolve_move(self, direction)
+	if step.blocked:
 		_play_bump()
 		movement_blocked.emit()
 		return false
-
-	target_position = target_world
-	ledge_hop = hop
+	target_position = step.target_world
+	ledge_hop = step.hop
 	move_progress = 0.0
 	moving = true
 	step_started.emit(direction, ledge_hop)
@@ -164,21 +166,14 @@ func process_move(delta: float) -> void:
 	var speed: float = move_speed
 	if ledge_hop:
 		speed *= HOP_SPEED_MULT
-
 	move_progress += (speed * delta) / dist
 	move_progress = minf(move_progress, 1.0)
-
-	entity_root.global_position = initial_position.lerp(
-		target_position,
-		_ease_move(move_progress)
-	)
-
+	entity_root.global_position = initial_position.lerp(target_position, _ease_move(move_progress))
 	if sprite:
 		if ledge_hop:
 			sprite.position.y = _sprite_base_y - _hop_height(move_progress)
 		else:
 			sprite.position.y = _sprite_base_y
-
 	if move_progress >= 1.0:
 		entity_root.global_position = target_position
 		if sprite:
@@ -187,11 +182,9 @@ func process_move(delta: float) -> void:
 		moving = false
 		ledge_hop = false
 		movement_finished.emit()
-
 		if external_move:
 			external_move = false
 			return
-
 		var next_dir: Vector2 = get_direction()
 		if next_dir != Vector2.ZERO:
 			direction = next_dir

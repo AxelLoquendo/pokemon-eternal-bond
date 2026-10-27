@@ -43,30 +43,28 @@ func _process(_delta: float) -> void:
 
 
 func _physics_process(delta: float) -> void:
-	if Engine.is_editor_hint():
+	if Engine.is_editor_hint() or _script_locked:
 		return
 	if controller == null or states == null:
 		return
-
-	if _script_locked:
+	if states.is_locked():
 		controller.set_direction(Vector2.ZERO)
-		controller.process_movement(delta)
-		states.process_state(delta)
 		return
 
 	var dir := Vector2.ZERO
-	if Input.is_action_pressed("Up"):
-		dir = Vector2.UP
-	elif Input.is_action_pressed("Down"):
-		dir = Vector2.DOWN
-	elif Input.is_action_pressed("Left"):
+	if Input.is_action_pressed("Left") or Input.is_action_pressed("ui_left"):
 		dir = Vector2.LEFT
-	elif Input.is_action_pressed("Right"):
+	elif Input.is_action_pressed("Right") or Input.is_action_pressed("ui_right"):
 		dir = Vector2.RIGHT
+	elif Input.is_action_pressed("Up") or Input.is_action_pressed("ui_up"):
+		dir = Vector2.UP
+	elif Input.is_action_pressed("Down") or Input.is_action_pressed("ui_down"):
+		dir = Vector2.DOWN
 
 	controller.set_direction(dir)
 	controller.process_movement(delta)
-	states.process_state(delta)
+	if states.has_method("process_state"):
+		states.process_state(delta)
 
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -75,6 +73,11 @@ func _unhandled_input(event: InputEvent) -> void:
 	if not event.is_action_pressed("buttonA"):
 		return
 	if controller == null or controller.moving:
+		return
+
+	var factory: Node = get_tree().get_first_node_in_group(&"map_factory")
+	if factory is MapFactory and MapEventResolver.try_interact(self, factory as MapFactory):
+		get_viewport().set_input_as_handled()
 		return
 
 	var npc: Node2D = _find_facing_npc()
@@ -93,32 +96,22 @@ func _find_facing_npc() -> Node2D:
 	var facing: Vector2 = controller.last_direction
 	if facing == Vector2.ZERO:
 		facing = Vector2.DOWN
-	var front: Vector2 = controller.get_character_position() + facing * CharacterController.TILE_SIZE
-	var front_tile := Vector2i(
-		int(round(front.x / CharacterController.TILE_SIZE)),
-		int(round(front.y / CharacterController.TILE_SIZE))
-	)
+	var front: Vector2 = controller.get_character_position() + facing * TILE_SIZE
+	var tile := Vector2i(int(round(front.x / TILE_SIZE)), int(round(front.y / TILE_SIZE)))
 	for node: Node in get_tree().get_nodes_in_group(&"npc"):
+		if not node is Node2D:
+			continue
 		var n: Node2D = node as Node2D
-		if n == null:
-			continue
-		if n.has_method("can_interact") and not n.call("can_interact"):
-			continue
-		var npc_tile: Vector2i
-		if n.has_method("get_tile_position"):
-			npc_tile = n.call("get_tile_position") as Vector2i
-		else:
-			npc_tile = Vector2i(
-				int(round(n.global_position.x / CharacterController.TILE_SIZE)),
-				int(round(n.global_position.y / CharacterController.TILE_SIZE))
-			)
-		if npc_tile == front_tile:
+		var nt := Vector2i(int(round(n.global_position.x / TILE_SIZE)), int(round(n.global_position.y / TILE_SIZE)))
+		if nt == tile:
 			return n
 	return null
 
 
 func _update_visuals() -> void:
-	if character == null or not is_node_ready():
+	if character == null:
+		return
+	if not is_node_ready():
 		return
 
 	var shadow_path: String = ObjectEvent.shadowSprite.get(character.shadow_sprite, "")
