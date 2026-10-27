@@ -9,7 +9,7 @@ var is_waiting: bool = false
 var variables: Dictionary = {}
 var runner: ScriptRunner = null
 
-## Flags de partida (más adelante → SaveService / GameFlags).
+## Flags de partida (persistidos por SaveService).
 static var global_flags: Dictionary = {}
 
 
@@ -35,12 +35,27 @@ func get_global_flag(flag_name: String, default_value: Variant = false) -> Varia
 	return global_flags.get(flag_name, default_value)
 
 
+static func clear_flags() -> void:
+	global_flags.clear()
+
+
+static func export_flags() -> Dictionary:
+	return global_flags.duplicate(true)
+
+
+static func import_flags(flags: Dictionary) -> void:
+	global_flags.clear()
+	if flags == null:
+		return
+	for k: Variant in flags.keys():
+		global_flags[str(k)] = flags[k]
+
+
 func complete_async() -> void:
 	if runner != null:
 		runner.on_async_complete()
 
 
-## Busca un CharacterController en el grupo "npc" / "player" por id exportado.
 func find_character_by_id(character_id: StringName) -> Node:
 	if character_id == &"":
 		return null
@@ -50,7 +65,7 @@ func find_character_by_id(character_id: StringName) -> Node:
 	for node: Node in tree.get_nodes_in_group(&"npc"):
 		if _node_id(node) == character_id:
 			return node
-	for node: Node in tree.get_nodes_in_group(&"player"):
+	for node: Node in tree.get_nodes_in_group(&"Player"):
 		if _node_id(node) == character_id:
 			return node
 	return null

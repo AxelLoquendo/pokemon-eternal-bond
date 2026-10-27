@@ -11,3 +11,5 @@ class_name SaveData
 @export var money: int = 0
 @export var play_seconds: float = 0.0
 @export var player_data: PlayerData
+## Flags de script (ScriptExecutionContext.global_flags)
+@export var flags: Dictionary = {}

@@ -1,5 +1,6 @@
 class_name GameSession
 extends Node2D
+## Orquesta Player + MapFactory + UI de sesión. No serializa ni mueve.
 
 @export var start_data: GameStartData
 
@@ -22,6 +23,14 @@ func _ready() -> void:
 
 	play_seconds = SessionBoot.loaded_play_seconds
 	SessionBoot.loaded_play_seconds = 0.0
+
+	# Flags de partida (load o vacíos en new game)
+	if not SessionBoot.pending_flags.is_empty():
+		ScriptExecutionContext.import_flags(SessionBoot.pending_flags)
+		SessionBoot.pending_flags.clear()
+	elif start_data != null:
+		# Nueva partida: no arrastrar flags de una sesión anterior
+		pass
 
 	if start_data == null:
 		push_error("GameSession: falta GameStartData")
@@ -144,7 +153,6 @@ func _ensure_start_menu() -> void:
 func _ensure_signpost() -> void:
 	if _signpost != null:
 		return
-	# Ruta real en tu repo
 	var path: String = "res://Scripts/Overworld/Object_Event/Game/location_signpost.gd"
 	if not ResourceLoader.exists(path):
 		push_warning("GameSession: no hay LocationSignpost en %s" % path)

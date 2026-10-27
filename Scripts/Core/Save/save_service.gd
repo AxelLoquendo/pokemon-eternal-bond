@@ -1,5 +1,5 @@
 extends Node
-## Autoload SaveService
+## Autoload SaveService — solo serializa / deserializa partida.
 
 const SAVE_PATH: String = "user://save_0.tres"
 const SAVE_VERSION: int = 1
@@ -94,19 +94,20 @@ func _capture(session: Node) -> SaveData:
 	if "play_seconds" in session:
 		data.play_seconds = float(session.play_seconds)
 
-	# EB: Player.character (PlayerData), no nodo Character
-		# EB: Player.character (PlayerData)
 	var pd: PlayerData = null
 	if "character" in player and player.character is PlayerData:
 		pd = (player.character as PlayerData).duplicate(true) as PlayerData
 	if pd != null:
 		pd.name = data.player_name
 		data.player_data = pd
-		if "money" in pd:
-			data.money = int(pd.money)
+		data.money = int(pd.money)
 	else:
 		data.player_data = null
+		data.money = 0
 		push_warning("SaveService: Player sin PlayerData en character")
+
+	# Flags de scripting
+	data.flags = ScriptExecutionContext.export_flags()
 
 	return data
 
@@ -117,6 +118,12 @@ func to_start_data(save: SaveData) -> GameStartData:
 	gs.start_position = save.position
 	if save.player_data != null:
 		gs.player_data = save.player_data.duplicate(true) as PlayerData
+		if gs.player_data.name.strip_edges().is_empty():
+			gs.player_data.name = save.player_name
+		gs.player_data.money = save.money
 	NewGameState.player_name = save.player_name
 	NewGameState.is_male = save.is_male
+	# Flags: se aplican al entrar a GameSession vía SessionBoot
+	SessionBoot.pending_flags = save.flags.duplicate(true)
+	SessionBoot.loaded_play_seconds = save.play_seconds
 	return gs

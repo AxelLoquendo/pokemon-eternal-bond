@@ -1,5 +1,5 @@
 extends Node
-## Autoload NewGameState
+## Autoload NewGameState — solo datos de nueva partida.
 
 const DEFAULT_MALE_NAME: String = "Kael"
 const DEFAULT_FEMALE_NAME: String = "Kaida"
@@ -16,6 +16,8 @@ var is_male: bool = true
 func reset() -> void:
 	is_male = true
 	player_name = DEFAULT_MALE_NAME
+	ScriptExecutionContext.clear_flags()
+	SessionBoot.pending_flags.clear()
 
 
 func apply_gender(male: bool) -> void:
@@ -41,6 +43,7 @@ func build_start_data() -> GameStartData:
 	pd.id = &"player"
 	pd.walk = 4
 	pd.run = 8
+	pd.money = 0
 	data.player_data = pd
 	return data
 

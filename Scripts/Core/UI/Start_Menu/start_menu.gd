@@ -1,5 +1,5 @@
 extends CanvasLayer
-## Menú de pausa en columna (scroll vertical de opciones).
+## Solo UI del menú de pausa. El guardado lo hace SaveService.
 
 signal closed
 
@@ -12,7 +12,7 @@ enum Option {
 	OPTIONS,
 }
 
-@onready var vbox: VBoxContainer = $Control/Container/VBoxContainer
+@onready var vbox: VBoxContainer = $Control/Container/ScrollContainer/VBoxContainer
 
 var _buttons: Array[TextureRect] = []
 var _index: int = 0
@@ -60,13 +60,11 @@ func close_menu() -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if not visible or _busy:
 		return
-
 	if event.is_action_pressed("buttonStart") or event.is_action_pressed("buttonB") \
 			or event.is_action_pressed("ui_cancel"):
 		get_viewport().set_input_as_handled()
 		close_menu()
 		return
-
 	if event.is_action_pressed("Up") or event.is_action_pressed("ui_up"):
 		_move(-1)
 		get_viewport().set_input_as_handled()
@@ -96,12 +94,11 @@ func _refresh() -> void:
 
 
 func _ensure_visible() -> void:
-	## Si metes ScrollContainer, hace scroll al ítem activo.
 	var btn: TextureRect = _buttons[_index]
 	if btn == null:
 		return
 	var scroll: ScrollContainer = vbox.get_parent() as ScrollContainer
-	if scroll == null:
+	if scroll == null and vbox.get_parent():
 		scroll = vbox.get_parent().get_parent() as ScrollContainer
 	if scroll == null:
 		return
@@ -141,16 +138,15 @@ func _do_save() -> void:
 	if session == null:
 		session = get_tree().get_first_node_in_group(&"game_session")
 	if session == null:
-		push_error("StartMenu: no hay GameSession para guardar")
+		push_error("StartMenu: no hay GameSession")
 		_busy = false
 		return
-
 	var ok: bool = SaveService.save_game(session)
 	_busy = false
 	if ok:
 		close_menu()
-		if MessageService and MessageService.has_method("show_text"):
+		if MessageService:
 			MessageService.show_text("¡Partida guardada!")
 	else:
-		if MessageService and MessageService.has_method("show_text"):
+		if MessageService:
 			MessageService.show_text("No se pudo guardar.")
