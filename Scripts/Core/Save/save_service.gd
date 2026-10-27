@@ -95,14 +95,12 @@ func _capture(session: Node) -> SaveData:
 		data.play_seconds = float(session.play_seconds)
 
 	# EB: Player.character (PlayerData), no nodo Character
+		# EB: Player.character (PlayerData)
 	var pd: PlayerData = null
 	if "character" in player and player.character is PlayerData:
 		pd = (player.character as PlayerData).duplicate(true) as PlayerData
 	if pd != null:
-		if "player_name" in pd:
-			pd.player_name = data.player_name
-		elif "display_name" in pd:
-			pd.display_name = data.player_name
+		pd.name = data.player_name
 		data.player_data = pd
 		if "money" in pd:
 			data.money = int(pd.money)

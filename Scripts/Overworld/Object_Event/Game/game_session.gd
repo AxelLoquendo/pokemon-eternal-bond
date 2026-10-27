@@ -144,8 +144,10 @@ func _ensure_start_menu() -> void:
 func _ensure_signpost() -> void:
 	if _signpost != null:
 		return
-	var path: String = "res://Scripts/Core/UI/Location/location_signpost.gd"
+	# Ruta real en tu repo
+	var path: String = "res://Scripts/Overworld/Object_Event/Game/location_signpost.gd"
 	if not ResourceLoader.exists(path):
+		push_warning("GameSession: no hay LocationSignpost en %s" % path)
 		return
 	_signpost = (load(path) as Script).new() as CanvasLayer
 	_signpost.name = "LocationSignpost"

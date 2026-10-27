@@ -21,6 +21,8 @@ const HOP_HEIGHT: float = 11.0
 const HOP_PEAK: float = 0.38
 const HOP_SPEED_MULT: float = 1.6
 const BUMP_ANIM_SPEED: float = 1.0
+const Z_GROUND: int = 0
+const Z_ELEVATED: int = 3
 
 var current_position: Vector2
 var initial_position: Vector2
@@ -268,3 +270,9 @@ func _hop_height(t: float) -> float:
 		return HOP_HEIGHT * (1.0 - (1.0 - u) * (1.0 - u))
 	var v: float = (t - HOP_PEAK) / (1.0 - HOP_PEAK)
 	return HOP_HEIGHT * (1.0 - v * v)
+
+func update_render_layer() -> void:
+	## Solo ajusta z_index del entity según elevated (puentes / altura).
+	if entity_root == null:
+		return
+	entity_root.z_index = Z_ELEVATED if elevated else Z_GROUND

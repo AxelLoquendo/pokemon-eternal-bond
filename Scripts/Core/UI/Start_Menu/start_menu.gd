@@ -146,10 +146,11 @@ func _do_save() -> void:
 		return
 
 	var ok: bool = SaveService.save_game(session)
-	if ok:
-		# Mensaje simple; si tienes MessageService con UI:
-		# MessageService.show_texts(["¡Partida guardada!"])
-		push_warning("Partida guardada.")
-	else:
-		push_error("No se pudo guardar.")
 	_busy = false
+	if ok:
+		close_menu()
+		if MessageService and MessageService.has_method("show_text"):
+			MessageService.show_text("¡Partida guardada!")
+	else:
+		if MessageService and MessageService.has_method("show_text"):
+			MessageService.show_text("No se pudo guardar.")
