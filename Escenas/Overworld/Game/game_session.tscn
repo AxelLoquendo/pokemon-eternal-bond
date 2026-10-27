@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://byu063ydwij4c"]
+
+[ext_resource type="Script" uid="uid://c1fvoedllwsmd" path="res://Scripts/Overworld/Object_Event/Game/game_session.gd" id="1_amamm"]
+[ext_resource type="PackedScene" uid="uid://c6nwvulbs6xw0" path="res://Escenas/Overworld/Player/player.tscn" id="2_ha6l2"]
+
+[node name="GameSession" type="Node2D" unique_id=1145933796]
+script = ExtResource("1_amamm")
+
+[node name="MapRoot" type="Node2D" parent="." unique_id=1605029301]
+
+[node name="Player" parent="." unique_id=2132387576 instance=ExtResource("2_ha6l2")]
