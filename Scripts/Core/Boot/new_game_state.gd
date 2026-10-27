@@ -35,10 +35,10 @@ func set_player_name(new_name: String) -> void:
 
 
 func build_start_data() -> GameStartData:
-	var data := GameStartData.new()
+	var data: GameStartData = GameStartData.new()
 	data.start_map_id = START_MAP_ID
 	data.start_position = START_TILE
-	var pd := PlayerData.new()
+	var pd: PlayerData = PlayerData.new()
 	pd.name = player_name
 	pd.id = &"player"
 	pd.walk = 4

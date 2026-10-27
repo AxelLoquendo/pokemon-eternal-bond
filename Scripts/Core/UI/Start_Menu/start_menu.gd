@@ -12,6 +12,7 @@ enum Option {
 	OPTIONS,
 }
 
+@onready var scroll: ScrollContainer = $Control/Container/ScrollContainer
 @onready var vbox: VBoxContainer = $Control/Container/ScrollContainer/VBoxContainer
 
 var _buttons: Array[TextureRect] = []
@@ -94,22 +95,17 @@ func _refresh() -> void:
 
 
 func _ensure_visible() -> void:
+	if scroll == null or _index < 0 or _index >= _buttons.size():
+		return
 	var btn: TextureRect = _buttons[_index]
 	if btn == null:
 		return
-	var scroll: ScrollContainer = vbox.get_parent() as ScrollContainer
-	if scroll == null and vbox.get_parent():
-		scroll = vbox.get_parent().get_parent() as ScrollContainer
-	if scroll == null:
-		return
-	var y: float = btn.position.y
-	var h: float = btn.size.y
-	var top: float = scroll.scroll_vertical
-	var bot: float = top + scroll.size.y
-	if y < top:
-		scroll.scroll_vertical = int(y)
-	elif y + h > bot:
-		scroll.scroll_vertical = int(y + h - scroll.size.y)
+	# Centrar el ítem en el viewport del scroll
+	var btn_y: float = btn.position.y
+	var btn_h: float = btn.size.y
+	var view_h: float = scroll.size.y
+	var target: float = btn_y - (view_h - btn_h) * 0.5
+	scroll.scroll_vertical = int(maxi(0, target))
 
 
 func _confirm() -> void:
