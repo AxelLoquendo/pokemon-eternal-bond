@@ -1,5 +1,6 @@
 class_name TileBehaviorReader
 extends RefCounted
+## Lee custom data "comportamiento". Si el TileSet no tiene esa capa → NONE.
 
 const KEY_COMPORTAMIENTO: StringName = &"comportamiento"
 const TILE_SIZE: float = 16.0
@@ -27,10 +28,8 @@ static func _read_from_map(mapa: Map, world_pos: Vector2) -> int:
 		if layer != null:
 			layers.append(layer)
 
-	# De la última hija a la primera (suele ser la capa más "arriba")
 	for i: int in range(layers.size() - 1, -1, -1):
-		var layer: TileMapLayer = layers[i]
-		var id: int = _read_layer_cell(layer, world_pos)
+		var id: int = _read_layer_cell(layers[i], world_pos)
 		if id != TileBehaviorId.Id.NONE:
 			return id
 	return TileBehaviorId.Id.NONE
@@ -40,13 +39,17 @@ static func _read_layer_cell(layer: TileMapLayer, world_pos: Vector2) -> int:
 	if layer == null or layer.tile_set == null:
 		return TileBehaviorId.Id.NONE
 
+	var tile_set: TileSet = layer.tile_set
+	if not _has_custom_data_layer(tile_set, KEY_COMPORTAMIENTO):
+		return TileBehaviorId.Id.NONE
+
 	var local_pos: Vector2 = layer.to_local(world_pos)
 	var cell: Vector2i = layer.local_to_map(local_pos)
 	var source_id: int = layer.get_cell_source_id(cell)
 	if source_id == -1:
 		return TileBehaviorId.Id.NONE
 
-	var source: TileSetSource = layer.tile_set.get_source(source_id)
+	var source: TileSetSource = tile_set.get_source(source_id)
 	var atlas_source: TileSetAtlasSource = source as TileSetAtlasSource
 	if atlas_source == null:
 		return TileBehaviorId.Id.NONE
@@ -60,7 +63,19 @@ static func _read_layer_cell(layer: TileMapLayer, world_pos: Vector2) -> int:
 	if tile_data == null:
 		return TileBehaviorId.Id.NONE
 
-	return int(tile_data.get_custom_data(KEY_COMPORTAMIENTO))
+	var raw: Variant = tile_data.get_custom_data(KEY_COMPORTAMIENTO)
+	if raw == null:
+		return TileBehaviorId.Id.NONE
+	if typeof(raw) == TYPE_INT or typeof(raw) == TYPE_FLOAT:
+		return int(raw)
+	return TileBehaviorId.Id.NONE
+
+
+static func _has_custom_data_layer(tile_set: TileSet, layer_name: StringName) -> bool:
+	for i: int in tile_set.get_custom_data_layers_count():
+		if tile_set.get_custom_data_layer_name(i) == String(layer_name):
+			return true
+	return false
 
 
 static func _world_in_map(mapa: Map, world_pos: Vector2) -> bool:
