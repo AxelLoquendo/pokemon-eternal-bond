@@ -22,6 +22,7 @@ const COL_DISABLED := Color(0.45, 0.45, 0.45, 0.85)
 
 
 func _ready() -> void:
+	has_save = SaveService.has_save()
 	_build_options()
 	_refresh_visual()
 	if typeof(FadeScreen) != TYPE_NIL and FadeScreen.has_method("fade_in"):
@@ -116,9 +117,13 @@ func _confirm() -> void:
 
 
 func _on_continue() -> void:
-	# TODO: SaveService.load + ir al overworld
-	push_warning("Continuar: aún sin sistema de guardado.")
-	_busy = false
+	var save: SaveData = SaveService.load_game()
+	if save == null:
+		_busy = false
+		return
+	SessionBoot.start_data = SaveService.to_start_data(save)
+	SessionBoot.loaded_play_seconds = save.play_seconds
+	get_tree().change_scene_to_file("res://Escenas/Overworld/Game/game_session.tscn")
 
 
 func _on_new_game() -> void:

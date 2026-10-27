@@ -8,7 +8,7 @@ extends Node2D
 @onready var map_factory: MapFactory = $MapFactory
 
 var play_seconds: float = 0.0
-
+var _start_menu: CanvasLayer = null
 
 func _ready() -> void:
 	add_to_group(&"game_session")
@@ -57,6 +57,8 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if MessageService and MessageService.has_method("is_active") and MessageService.is_active():
 		return
+	if _start_menu and _start_menu.has_method("is_open") and _start_menu.is_open():
+		return
 	play_seconds += delta
 
 
@@ -103,6 +105,16 @@ func _apply_day_night(mapa: Map) -> void:
 		return
 	DayNightManager.set_outdoor(not mapa.attributes.is_indoor)
 
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("buttonStart"):
+		if MessageService and MessageService.has_method("is_active") and MessageService.is_active():
+			return
+		_ensure_start_menu()
+		if _start_menu and _start_menu.has_method("is_open") and _start_menu.is_open():
+			return
+		if _start_menu and _start_menu.has_method("open_menu"):
+			_start_menu.open_menu(self)
+			get_viewport().set_input_as_handled()
 
 func _ensure_message_ui() -> void:
 	if get_tree().get_first_node_in_group(&"message_ui") != null:
@@ -113,3 +125,13 @@ func _ensure_message_ui() -> void:
 	var ui: Node = (load(script_path) as Script).new()
 	ui.name = "MessageUI"
 	add_child(ui)
+
+func _ensure_start_menu() -> void:
+	if _start_menu != null:
+		return
+	var packed: PackedScene = load("res://Escenas/UI/Start_Menu/start_menu.tscn") as PackedScene
+	if packed == null:
+		return
+	_start_menu = packed.instantiate() as CanvasLayer
+	_start_menu.name = "StartMenu"
+	add_child(_start_menu)
