@@ -18,6 +18,10 @@ shadow_offset = Vector2(0, 2)
 
 [node name="WorldMap" type="Node2D" unique_id=2041133124]
 script = ExtResource("1_7kaof")
+cursor_speed = null
+cursor_bounds = null
+idle_frame_time = null
+test_when_main_scene = null
 
 [node name="Bg" type="Sprite2D" parent="." unique_id=1761773438]
 position = Vector2(256, 160)
@@ -50,7 +54,7 @@ z_index = 50
 position = Vector2(129, 224)
 script = ExtResource("4_5ie2w")
 map_id = 2
-display_name = "Prado Natal"
+display_name = "Pueblo Alba"
 region_size = Vector2i(32, 16)
 show_debug = false
 metadata/_custom_type_script = "uid://bay2gdpduacob"
@@ -58,7 +62,7 @@ metadata/_custom_type_script = "uid://bay2gdpduacob"
 [node name="Map_Window" type="NinePatchRect" parent="." unique_id=859630743]
 offset_left = 232.0
 offset_top = 256.0
-offset_right = 512.0
+offset_right = 480.0
 offset_bottom = 320.0
 texture = ExtResource("5_3nqf1")
 patch_margin_left = 16
@@ -76,8 +80,8 @@ text = "Prado Natal"
 label_settings = SubResource("LabelSettings_htemk")
 
 [node name="Region_Window" type="NinePatchRect" parent="." unique_id=450723916]
-offset_left = 361.0
-offset_right = 512.0
+offset_left = 329.0
+offset_right = 480.0
 offset_bottom = 64.0
 texture = ExtResource("5_3nqf1")
 patch_margin_left = 16
