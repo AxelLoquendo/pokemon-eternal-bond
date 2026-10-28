@@ -55,21 +55,27 @@ func _build_options() -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if _busy:
 		return
+	var vp: Node = get_viewport()
 	if event.is_action_pressed("Up") or event.is_action_pressed("ui_up"):
 		_move(-1)
-		get_viewport().set_input_as_handled()
+		if vp:
+			vp.set_input_as_handled()
 	elif event.is_action_pressed("Down") or event.is_action_pressed("ui_down"):
 		_move(1)
-		get_viewport().set_input_as_handled()
+		if vp:
+			vp.set_input_as_handled()
 	elif event.is_action_pressed("Left") or event.is_action_pressed("ui_left"):
 		_move(-1)
-		get_viewport().set_input_as_handled()
+		if vp:
+			vp.set_input_as_handled()
 	elif event.is_action_pressed("Right") or event.is_action_pressed("ui_right"):
 		_move(1)
-		get_viewport().set_input_as_handled()
+		if vp:
+			vp.set_input_as_handled()
 	elif event.is_action_pressed("buttonA") or event.is_action_pressed("ui_accept"):
+		if vp:
+			vp.set_input_as_handled()  # ANTES de _confirm (puede cambiar de escena)
 		_confirm()
-		get_viewport().set_input_as_handled()
 
 
 func _move(dir: int) -> void:

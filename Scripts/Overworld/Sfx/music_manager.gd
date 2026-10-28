@@ -18,24 +18,25 @@ var _bgm_pausada_por_me: bool = false
 
 
 func _ready() -> void:
+	process_mode = Node.PROCESS_MODE_ALWAYS
 	_bgm = AudioStreamPlayer.new()
 	_bgm.name = "BGMPlayer"
 	_bgm.bus = _resolver_bus(BUS_MUSIC)
+	_bgm.process_mode = Node.PROCESS_MODE_ALWAYS
 	add_child(_bgm)
-
 	_me = AudioStreamPlayer.new()
 	_me.name = "MEPlayer"
-	_me.bus = _resolver_bus(BUS_MUSIC)  # ME es jingle musical
+	_me.bus = _resolver_bus(BUS_MUSIC)
+	_me.process_mode = Node.PROCESS_MODE_ALWAYS
 	_me.finished.connect(_on_me_finished)
 	add_child(_me)
-
 	for i: int in range(SFX_POOL_SIZE):
 		var se: AudioStreamPlayer = AudioStreamPlayer.new()
 		se.name = "SFXPlayer_%d" % i
 		se.bus = _resolver_bus(BUS_SFX)
+		se.process_mode = Node.PROCESS_MODE_ALWAYS
 		add_child(se)
 		_sfx_players.append(se)
-
 
 func _process(_delta: float) -> void:
 	if _bgm.stream == null or _ruta_actual.is_empty():

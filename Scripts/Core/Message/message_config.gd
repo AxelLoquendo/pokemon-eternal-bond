@@ -36,11 +36,11 @@ const TEXT_SPEED_SLOW: float = 4.0 / 80.0
 const TEXT_SPEED_FAST: float = 1.0 / 80.0
 
 # --- Skins (PE SPEECH_WINDOWSKINS[0], MENU_WINDOWSKINS[0]) ---
-const WINDOWSKINS_DIR: String = "res://Graficos/window_skins/"
+const WINDOWSKINS_DIR: String = "res://Graficos/Window_Skin/"
 const DEFAULT_SPEECH_SKIN: String = "speech hgss 1.png"
 const DEFAULT_CHOICE_SKIN: String = "choice 1.png"
-const PAUSE_ARROW_PATH: String = "res://Graficos/window_skins/pause_arrow.png"
-const SEL_ARROW_PATH: String = "res://Graficos/ui/sel_arrow.png"
+const PAUSE_ARROW_PATH: String = "res://Graficos/Window_Skin//pause_arrow.png"
+const SEL_ARROW_PATH: String = "res://Graficos/UI/sel_arrow.png"
 
 const MESSAGE_LAYER: int = 95
 

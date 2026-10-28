@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://svkaaam25fkd"]
+
+[ext_resource type="Texture2D" uid="uid://c2fuqlmiboa0y" path="res://Graficos/UI/World_Map/Region_map.png" id="1_sbl3x"]
+
+[node name="WorldMap" type="CanvasLayer" unique_id=1595796741]
+
+[node name="Bg" type="Sprite2D" parent="." unique_id=1761773438]
+position = Vector2(256, 160)
+scale = Vector2(2, 2)
+texture = ExtResource("1_sbl3x")
+
+[node name="MapPoints" type="Node2D" parent="." unique_id=1876264474]
