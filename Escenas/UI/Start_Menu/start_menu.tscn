@@ -9,49 +9,55 @@
 [ext_resource type="Texture2D" uid="uid://blmoscxaresuy" path="res://Graficos/UI/Start_Menu/options.png" id="6_6fv58"]
 
 [node name="StartMenu" type="CanvasLayer" unique_id=2068790811]
+layer = 500
 script = ExtResource("1_yfi8q")
 
 [node name="Control" type="Control" parent="." unique_id=1061986164]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="Container" type="BoxContainer" parent="Control" unique_id=1931410369]
-layout_mode = 0
-offset_left = 272.0
-offset_top = 8.0
-offset_right = 368.0
-offset_bottom = 220.0
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -240.0
+offset_bottom = -160.0
+grow_horizontal = 2
+grow_vertical = 2
 scale = Vector2(2, 2)
 
-[node name="ScrollContainer" type="ScrollContainer" parent="Control/Container" unique_id=460012779]
-layout_mode = 2
-horizontal_scroll_mode = 5
+[node name="GridContainer" type="GridContainer" parent="Control" unique_id=348993289]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -98.0
+offset_top = -52.0
+offset_right = 98.0
+offset_bottom = 52.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Control/Container/ScrollContainer" unique_id=837160455]
-layout_mode = 2
-
-[node name="Pokedex" type="TextureRect" parent="Control/Container/ScrollContainer/VBoxContainer" unique_id=961564058]
+[node name="Pokedex" type="TextureRect" parent="Control/GridContainer" unique_id=961564058]
 layout_mode = 2
 texture = ExtResource("1_08y3m")
 
-[node name="Pokemon" type="TextureRect" parent="Control/Container/ScrollContainer/VBoxContainer" unique_id=797478549]
+[node name="Pokemon" type="TextureRect" parent="Control/GridContainer" unique_id=797478549]
 layout_mode = 2
 texture = ExtResource("2_yfi8q")
 
-[node name="Mochila" type="TextureRect" parent="Control/Container/ScrollContainer/VBoxContainer" unique_id=542434417]
+[node name="Mochila" type="TextureRect" parent="Control/GridContainer" unique_id=542434417]
 layout_mode = 2
 texture = ExtResource("3_ibf7j")
 
-[node name="Perfil" type="TextureRect" parent="Control/Container/ScrollContainer/VBoxContainer" unique_id=182781909]
+[node name="Perfil" type="TextureRect" parent="Control/GridContainer" unique_id=182781909]
 layout_mode = 2
 texture = ExtResource("4_o0agn")
 
-[node name="Guardar" type="TextureRect" parent="Control/Container/ScrollContainer/VBoxContainer" unique_id=2118949863]
+[node name="Guardar" type="TextureRect" parent="Control/GridContainer" unique_id=2118949863]
 layout_mode = 2
 texture = ExtResource("5_or1b7")
 
-[node name="Opciones" type="TextureRect" parent="Control/Container/ScrollContainer/VBoxContainer" unique_id=967187273]
+[node name="Opciones" type="TextureRect" parent="Control/GridContainer" unique_id=967187273]
 layout_mode = 2
 texture = ExtResource("6_6fv58")
