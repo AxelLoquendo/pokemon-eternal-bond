@@ -16,6 +16,7 @@ func _ready() -> void:
 	add_to_group(&"game_session")
 	_ensure_message_ui()
 	_ensure_signpost()
+	_ensure_day_night_overlay()
 
 	if SessionBoot.start_data != null:
 		start_data = SessionBoot.start_data
@@ -160,3 +161,10 @@ func _ensure_signpost() -> void:
 	_signpost = (load(path) as Script).new() as CanvasLayer
 	_signpost.name = "LocationSignpost"
 	add_child(_signpost)
+
+func _ensure_day_night_overlay() -> void:
+	if get_node_or_null("DayNightOverlay") != null:
+		return
+	var o := DayNightOverlay.new()
+	o.name = "DayNightOverlay"
+	add_child(o)

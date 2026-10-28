@@ -79,8 +79,8 @@ func is_evening() -> bool:
 
 func current_tint() -> Color:
 	if not outdoor_tint_enabled:
-		return Color.WHITE
-	return DayNightPalette.color_at(hour, minute)
+		return DayNightPalette.COLOR_DAY
+	return DayNightPalette.color_for_period(period)
 
 
 func set_outdoor(enabled: bool) -> void:
