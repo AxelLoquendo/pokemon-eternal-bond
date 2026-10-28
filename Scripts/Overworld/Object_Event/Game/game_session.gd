@@ -121,13 +121,13 @@ func _on_current_changed(mapa: Map) -> void:
 
 
 func _apply_day_night(mapa: Map) -> void:
-	if not DayNightManager:
-		return
-	if mapa == null or mapa.attributes == null:
-		DayNightManager.set_outdoor(true)
-		return
-	DayNightManager.set_outdoor(not mapa.attributes.is_indoor)
-
+	var outdoor: bool = true
+	if mapa != null and mapa.attributes != null:
+		outdoor = not mapa.attributes.is_indoor
+	if DayNightManager:
+		DayNightManager.set_outdoor(outdoor)
+	if MapCloud:
+		MapCloud.set_outdoor(outdoor)
 
 func _ensure_message_ui() -> void:
 	if get_tree().get_first_node_in_group(&"message_ui") != null:
