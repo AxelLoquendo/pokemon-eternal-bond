@@ -1,12 +1,96 @@
 [gd_scene format=3 uid="uid://svkaaam25fkd"]
 
+[ext_resource type="Script" uid="uid://b267civakn4r1" path="res://Scripts/Overworld/Map/world_map.gd" id="1_7kaof"]
 [ext_resource type="Texture2D" uid="uid://c2fuqlmiboa0y" path="res://Graficos/UI/World_Map/Region_map.png" id="1_sbl3x"]
+[ext_resource type="Texture2D" uid="uid://bvusps0mwdiyt" path="res://Graficos/UI/World_Map/Kael_icon.png" id="2_w82xm"]
+[ext_resource type="Script" uid="uid://bay2gdpduacob" path="res://Scripts/Overworld/Map/world_map_region.gd" id="4_5ie2w"]
+[ext_resource type="Texture2D" uid="uid://dr0tiikehbf8h" path="res://Graficos/UI/World_Map/Cursor.png" id="4_gguyv"]
+[ext_resource type="Texture2D" uid="uid://spmgoc5nfkb2" path="res://Graficos/Window_Skin/choice dp.png" id="5_3nqf1"]
+[ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="6_gguyv"]
 
-[node name="WorldMap" type="CanvasLayer" unique_id=1595796741]
+[sub_resource type="LabelSettings" id="LabelSettings_htemk"]
+font = ExtResource("6_gguyv")
+font_size = 24
+font_color = Color(0.3137255, 0.3137255, 0.34509805, 1)
+shadow_size = 0
+shadow_color = Color(0, 0, 0, 0.37254903)
+shadow_offset = Vector2(0, 2)
+
+[node name="WorldMap" type="Node2D" unique_id=2041133124]
+script = ExtResource("1_7kaof")
 
 [node name="Bg" type="Sprite2D" parent="." unique_id=1761773438]
 position = Vector2(256, 160)
 scale = Vector2(2, 2)
 texture = ExtResource("1_sbl3x")
 
+[node name="PlayerPin" type="Sprite2D" parent="." unique_id=1234096792]
+position = Vector2(136, 228)
+scale = Vector2(2, 2)
+texture = ExtResource("2_w82xm")
+
+[node name="Cursor" type="Sprite2D" parent="." unique_id=1273235952]
+position = Vector2(136, 232)
+texture = ExtResource("4_gguyv")
+vframes = 3
+
 [node name="MapPoints" type="Node2D" parent="." unique_id=1876264474]
+
+[node name="Prado_Natal" type="Marker2D" parent="MapPoints" unique_id=120098230]
+z_index = 50
+position = Vector2(112, 224)
+script = ExtResource("4_5ie2w")
+map_id = 1
+display_name = "Prado Natal"
+show_debug = false
+metadata/_custom_type_script = "uid://bay2gdpduacob"
+
+[node name="Pueblo_Alba" type="Marker2D" parent="MapPoints" unique_id=333509072]
+z_index = 50
+position = Vector2(129, 224)
+script = ExtResource("4_5ie2w")
+map_id = 2
+display_name = "Prado Natal"
+region_size = Vector2i(32, 16)
+show_debug = false
+metadata/_custom_type_script = "uid://bay2gdpduacob"
+
+[node name="Map_Window" type="NinePatchRect" parent="." unique_id=859630743]
+offset_left = 232.0
+offset_top = 256.0
+offset_right = 512.0
+offset_bottom = 320.0
+texture = ExtResource("5_3nqf1")
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 16
+
+[node name="Map_Name" type="Label" parent="Map_Window" unique_id=321189658]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 17.0
+offset_right = 262.0
+offset_bottom = 43.0
+text = "Prado Natal"
+label_settings = SubResource("LabelSettings_htemk")
+
+[node name="Region_Window" type="NinePatchRect" parent="." unique_id=450723916]
+offset_left = 361.0
+offset_right = 512.0
+offset_bottom = 64.0
+texture = ExtResource("5_3nqf1")
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 16
+
+[node name="Region_Name" type="Label" parent="Region_Window" unique_id=1808807598]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 18.0
+offset_right = 132.0
+offset_bottom = 46.0
+text = "Valtherion"
+label_settings = SubResource("LabelSettings_htemk")
+horizontal_alignment = 1
