@@ -18,6 +18,8 @@ var _skin: PeWindowSkin
 var _pause_atlas: AtlasTexture
 
 var _full_text: String = ""
+var _shadow_text: String = ""
+var _plain_length: int = 0
 var _visible_chars: float = 0.0
 var _typing: bool = false
 var _text_speed: float = MessageConfig.TEXT_SPEED_MEDIUM
@@ -40,7 +42,6 @@ func setup() -> void:
 	_shadow_color = colors["shadow"]
 	visible = false
 
-	# Área blanca = body del nine-patch (entre márgenes). clip_contents = nada se sale.
 	content = Control.new()
 	content.name = "Content"
 	content.mouse_filter = Control.MOUSE_FILTER_IGNORE
@@ -81,15 +82,27 @@ func _make_label(node_name: String) -> RichTextLabel:
 	label.fit_content = false
 	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	label.mouse_filter = Control.MOUSE_FILTER_IGNORE
+
 	var font: Font = MessageConfig.load_font()
+	var fsize: int = MessageConfig.FONT_SIZE
 	if font != null:
 		label.add_theme_font_override("normal_font", font)
-	label.add_theme_font_size_override("normal_font_size", MessageConfig.FONT_SIZE)
-	return label
+		label.add_theme_font_override("bold_font", font)
+		label.add_theme_font_override("italics_font", font)
+		label.add_theme_font_override("bold_italics_font", font)
+		label.add_theme_font_override("mono_font", font)
+	label.add_theme_font_size_override("normal_font_size", fsize)
+	label.add_theme_font_size_override("bold_font_size", fsize)
+	label.add_theme_font_size_override("italics_font_size", fsize)
+	label.add_theme_font_size_override("bold_italics_font_size", fsize)
+	label.add_theme_font_size_override("mono_font_size", fsize)
 
+	return label
 
 func _setup_pause_arrow() -> void:
 	var full: Texture2D = MessageConfig.load_pause_arrow()
+	if full == null:
+		return
 	_pause_atlas = AtlasTexture.new()
 	_pause_atlas.atlas = full
 	_pause_atlas.region = Rect2(0, 0, PAUSE_FRAME_W, PAUSE_FRAME_H)
@@ -101,7 +114,7 @@ func _setup_pause_arrow() -> void:
 	pause_arrow.size = Vector2(PAUSE_FRAME_W, PAUSE_FRAME_H)
 	pause_arrow.visible = false
 	pause_arrow.mouse_filter = Control.MOUSE_FILTER_IGNORE
-	add_child(pause_arrow)  # fuera del content (sobre el borde inferior)
+	add_child(pause_arrow)
 	_place_pause_arrow()
 
 
@@ -124,7 +137,10 @@ static func resolve_text_colors(tex: Texture2D) -> Dictionary:
 		return {"base": base, "shadow": shadow}
 	var cx: int = 40 if tex.get_width() == 96 else tex.get_width() / 2
 	var cy: int = 24 if tex.get_height() == 48 else tex.get_height() / 2
-	var pixel: Color = img.get_pixel(clampi(cx, 0, tex.get_width() - 1), clampi(cy, 0, tex.get_height() - 1))
+	var pixel: Color = img.get_pixel(
+		clampi(cx, 0, tex.get_width() - 1),
+		clampi(cy, 0, tex.get_height() - 1)
+	)
 	var lum: float = pixel.r * 0.299 + pixel.g * 0.587 + pixel.b * 0.114
 	if lum < 160.0 / 255.0:
 		base = MessageConfig.LIGHT_TEXT_MAIN
@@ -138,21 +154,27 @@ func is_typing() -> bool:
 
 func display_text(text: String) -> void:
 	_layout_content()
-	# Velocidad desde opciones (GameSettings)
 	if GameSettings != null:
 		_text_speed = GameSettings.text_delay()
 	else:
 		_text_speed = MessageConfig.TEXT_SPEED_MEDIUM
+
 	_full_text = text
+	_shadow_text = MessageTextFormatter.to_shadow_bbcode(text)
+	_plain_length = MessageTextFormatter.visible_length(text)
+
 	_visible_chars = 0.0
 	_typing = true
 	visible = true
+
 	shadow_label.position = Vector2(0, 2)
-	shadow_label.text = _full_text
+	shadow_label.text = _shadow_text
 	text_label.position = Vector2.ZERO
 	text_label.text = _full_text
+
 	_apply_visible_count(0)
-	pause_arrow.visible = false
+	if pause_arrow:
+		pause_arrow.visible = false
 	_pause_frame = 0.0
 	_place_pause_arrow()
 
@@ -170,13 +192,15 @@ func skip_typing() -> void:
 func hide_window() -> void:
 	visible = false
 	_typing = false
-	pause_arrow.visible = false
+	if pause_arrow:
+		pause_arrow.visible = false
 
 
 func _finish_typing() -> void:
 	_typing = false
 	_apply_visible_count(-1)
-	pause_arrow.visible = true
+	if pause_arrow:
+		pause_arrow.visible = true
 	_pause_frame = 0.0
 	typing_finished.emit()
 
@@ -193,12 +217,12 @@ func _advance_typing(delta: float) -> void:
 	_visible_chars += cps * delta
 	var count: int = int(_visible_chars)
 	_apply_visible_count(count)
-	if count >= _full_text.length():
+	if count >= _plain_length:
 		_finish_typing()
 
 
 func _advance_pause_arrow(delta: float) -> void:
-	if not pause_arrow.visible or _pause_atlas == null:
+	if pause_arrow == null or not pause_arrow.visible or _pause_atlas == null:
 		return
 	_pause_frame += delta * PAUSE_FPS
 	var idx: int = int(_pause_frame) % PAUSE_FRAME_COUNT

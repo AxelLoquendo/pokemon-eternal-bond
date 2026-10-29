@@ -1,8 +1,7 @@
 extends RefCounted
 class_name MessageTextFormatter
-## Expande macros y deja BBCode listo para RichTextLabel.
+## Expande macros y BBCode. Genera variante de sombra (colores oscurecidos).
 
-## Colores cortos → hex (ajusta a tu paleta)
 const COLOR_ALIASES: Dictionary = {
 	"red": "#E85048",
 	"blue": "#4A90D9",
@@ -14,30 +13,83 @@ const COLOR_ALIASES: Dictionary = {
 	"black": "#404048",
 }
 
+const SHADOW_FACTOR: float = 1.5
+
 
 static func expand(raw: String, context: ScriptExecutionContext = null) -> String:
 	var t: String = raw
 
-	# --- Macros de nombre ---
 	var player_name: String = _player_name()
 	t = t.replace("\\PN", player_name)
 	t = t.replace("{PLAYER}", player_name)
 	t = t.replace("{player}", player_name)
 
-	# Rival / otros si más adelante los tienes en NewGameState
-	# t = t.replace("\\RN", NewGameState.rival_name)
-
-	# --- Variables de script: {var:foo} ---
 	if context != null:
 		t = _expand_vars(t, context)
 
-	# --- Atajos de color PE-like: \c[red]texto\c[default] ---
 	t = _expand_color_shortcuts(t)
-
-	# \n literal en strings del txt
 	t = t.replace("\\n", "\n")
-
 	return t
+
+
+static func to_shadow_bbcode(bb: String, factor: float = SHADOW_FACTOR) -> String:
+	var re: RegEx = RegEx.new()
+	re.compile("\\[color=([^\\]]+)\\]")
+	var out: String = ""
+	var pos: int = 0
+	while true:
+		var m: RegExMatch = re.search(bb, pos)
+		if m == null:
+			out += bb.substr(pos)
+			break
+		out += bb.substr(pos, m.get_start() - pos)
+		var token: String = m.get_string(1).strip_edges()
+		var dark: String = _resolve_dark_hex(token, factor)
+		out += "[color=%s]" % dark
+		pos = m.get_end()
+	return out
+
+
+## Caracteres visibles (sin tags BBCode) para el typewriter.
+static func visible_length(bb: String) -> int:
+	var plain: String = strip_bbcode(bb)
+	return plain.length()
+
+
+static func strip_bbcode(bb: String) -> String:
+	var re := RegEx.new()
+	re.compile("\\[[^\\]]*\\]")
+	return re.sub(bb, "", true)
+
+
+static func _resolve_dark_hex(token: String, factor: float) -> String:
+	var t: String = token.strip_edges()
+	if t.begins_with("#"):
+		return darken_hex(t, factor)
+	var lower: String = t.to_lower()
+	if COLOR_ALIASES.has(lower):
+		return darken_hex(COLOR_ALIASES[lower], factor)
+	# Token desconocido: oscurecer como blanco de UI
+	return darken_hex("#F8F8F8", factor)
+
+
+static func darken_hex(hex: String, factor: float = SHADOW_FACTOR) -> String:
+	var h: String = hex.strip_edges()
+	if h.begins_with("#"):
+		h = h.substr(1)
+	if h.length() != 6 and h.length() != 8:
+		return hex if hex.begins_with("#") else ("#" + hex)
+	var c: Color = Color.html("#" + h.substr(0, 6))
+	var d: Color = darken_color(c, factor)
+	return "#%02X%02X%02X" % [
+		clampi(int(round(d.r * 255.0)), 0, 255),
+		clampi(int(round(d.g * 255.0)), 0, 255),
+		clampi(int(round(d.b * 255.0)), 0, 255),
+	]
+
+
+static func darken_color(c: Color, factor: float = SHADOW_FACTOR) -> Color:
+	return Color(c.r * factor, c.g * factor, c.b * factor, c.a)
 
 
 static func _player_name() -> String:
@@ -47,7 +99,6 @@ static func _player_name() -> String:
 
 
 static func _expand_vars(t: String, context: ScriptExecutionContext) -> String:
-	# {var:last_choice} → valor de context.get_variable
 	var out: String = t
 	var start: int = 0
 	while true:
@@ -65,7 +116,6 @@ static func _expand_vars(t: String, context: ScriptExecutionContext) -> String:
 
 
 static func _expand_color_shortcuts(t: String) -> String:
-	## \c[red]hola\c  o  \c[#E85048]hola\c[default]
 	var out: String = t
 	var re_open := RegEx.new()
 	re_open.compile("\\\\c\\[([^\\]]+)\\]")
@@ -78,7 +128,7 @@ static func _expand_color_shortcuts(t: String) -> String:
 		if token == "default" or token == "/" or token == "clear":
 			insert = "[/color]"
 		else:
-			var hex: String = COLOR_ALIASES.get(token, token)
+			var hex: String = str(COLOR_ALIASES.get(token, token))
 			if not hex.begins_with("#"):
 				hex = "#" + hex
 			insert = "[color=%s]" % hex
