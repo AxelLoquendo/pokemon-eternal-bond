@@ -8,5 +8,5 @@ extends Resource
 @export var run: int = 0
 @export var money: int = 0
 @export var ow_sprite: ObjectEvent.owID = ObjectEvent.owID.OBJ_EVENT_NONE
-@export var shadow_sprite: ObjectEvent.shadowID = ObjectEvent.shadowID.NONE
-@export var shadow_position: Vector2 = Vector2(0, 0)
+@export var shadow_sprite: ObjectEvent.shadowID = ObjectEvent.shadowID.M
+@export var shadow_position: Vector2 = Vector2(7.5, 11)
