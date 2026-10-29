@@ -30,10 +30,11 @@ enum LocationStyle {
 	DP,
 	ORAS,
 	XY,
+	BW,
 }
 
 enum LocationType {
-	DEFAULT,
+	DEFAULT, ## Si LocationStyle es BW, el grafico por defecto sera la escena Map_Popup.
 	TOWN,
 	CITY,
 	ROUTE,

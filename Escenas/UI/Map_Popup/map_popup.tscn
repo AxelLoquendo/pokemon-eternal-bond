@@ -1,0 +1,135 @@
+[gd_scene format=3 uid="uid://ctxsglqlqmhux"]
+
+[ext_resource type="Texture2D" uid="uid://n50xtfmj3rya" path="res://Graficos/UI/Map_PopUp/bw_primary.png" id="1_8pou1"]
+[ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="2_wchta"]
+[ext_resource type="Texture2D" uid="uid://muumbyw230w3" path="res://Graficos/UI/Map_PopUp/bw_secondary.png" id="3_to3dm"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_htemk"]
+font = ExtResource("2_wchta")
+font_size = 12
+shadow_size = 0
+shadow_color = Color(0.4, 0.4, 0.4, 0.2627451)
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="Animation" id="Animation_8pou1"]
+resource_name = "Entrada"
+length = 0.19999999999999998
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Superior_BG:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 0.5),
+"update": 0,
+"values": [Vector2(240, -24), Vector2(240, 24)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Inferior_BG:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 0.5),
+"update": 0,
+"values": [Vector2(240, 344), Vector2(240, 296)]
+}
+
+[sub_resource type="Animation" id="Animation_wchta"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Superior_BG:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(240, 24)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Inferior_BG:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(240, 296)]
+}
+
+[sub_resource type="Animation" id="Animation_to3dm"]
+resource_name = "Salida"
+length = 0.19999999999999998
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Superior_BG:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 0.5),
+"update": 0,
+"values": [Vector2(240, 24), Vector2(240, -24)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Inferior_BG:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 0.5),
+"update": 0,
+"values": [Vector2(240, 296), Vector2(240, 344)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_y4jlb"]
+_data = {
+&"Entrada": SubResource("Animation_8pou1"),
+&"RESET": SubResource("Animation_wchta"),
+&"Salida": SubResource("Animation_to3dm")
+}
+
+[node name="MapPopup" type="Node2D" unique_id=522740631]
+
+[node name="Superior_BG" type="Sprite2D" parent="." unique_id=560378105]
+self_modulate = Color(1, 1, 1, 0.5686275)
+position = Vector2(240, 24)
+scale = Vector2(2, 2)
+texture = ExtResource("1_8pou1")
+
+[node name="Map_Name" type="Label" parent="Superior_BG" unique_id=99616764]
+offset_left = -112.0
+offset_top = -12.0
+offset_right = 6.0
+offset_bottom = 14.0
+text = "Prado Natal"
+label_settings = SubResource("LabelSettings_htemk")
+
+[node name="Inferior_BG" type="Sprite2D" parent="." unique_id=1507455299]
+self_modulate = Color(1, 1, 1, 0.5686275)
+position = Vector2(240, 296)
+scale = Vector2(2, 2)
+texture = ExtResource("3_to3dm")
+
+[node name="Time" type="Label" parent="Inferior_BG" unique_id=644260385]
+offset_left = 75.0
+offset_top = -5.0
+offset_right = 117.0
+offset_bottom = 8.0
+text = "00:00 PM"
+label_settings = SubResource("LabelSettings_htemk")
+
+[node name="Animacion_popup" type="AnimationPlayer" parent="." unique_id=774741140]
+libraries/ = SubResource("AnimationLibrary_y4jlb")
