@@ -22,6 +22,12 @@ const META_SKIP_PREVIEW: StringName = &"_skip_connection_preview"
 		if Engine.is_editor_hint() and not _preview_busy:
 			call_deferred("_refresh_connection_previews")
 
+@export_group("Editor")
+@export var show_editor_grid: bool = true
+@export var grid_color: Color = Color(1, 1, 1, 0.12)
+@export var grid_border_color: Color = Color(1, 0.85, 0.2, 0.85)
+@export var grid_every_n: int = 1  ## 1 = cada tile; 2 = cada 2 tiles, etc.
+
 var is_current: bool = false
 var _preview_nodes: Dictionary = {}
 var _preview_busy: bool = false
@@ -278,14 +284,23 @@ func _draw() -> void:
 	if attributes == null or attributes.map_size.x <= 0 or attributes.map_size.y <= 0:
 		return
 
-	draw_rect(
-		Rect2(Vector2.ZERO, Vector2(attributes.map_size) * TILE_SIZE),
-		Color.RED,
-		false,
-		2.0
-	)
-	if has_meta(META_SKIP_PREVIEW):
-		return
+	var w: float = float(attributes.map_size.x) * TILE_SIZE
+	var h: float = float(attributes.map_size.y) * TILE_SIZE
+	var step: int = maxi(1, grid_every_n)
+
+	if show_editor_grid:
+		# Verticales
+		for x: int in range(0, attributes.map_size.x + 1, step):
+			var px: float = float(x) * TILE_SIZE
+			draw_line(Vector2(px, 0.0), Vector2(px, h), grid_color, 1.0)
+		# Horizontales
+		for y: int in range(0, attributes.map_size.y + 1, step):
+			var py: float = float(y) * TILE_SIZE
+			draw_line(Vector2(0.0, py), Vector2(w, py), grid_color, 1.0)
+
+	# Límite del mapa (más visible)
+	draw_rect(Rect2(Vector2.ZERO, Vector2(w, h)), grid_border_color, false, 2.0)
+
 	_draw_connection_outlines()
 
 
