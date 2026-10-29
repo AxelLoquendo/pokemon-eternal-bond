@@ -43,6 +43,8 @@ func _on_step_started(direction: Vector2, _hop: bool) -> void:
 
 
 func _on_bump_started(direction: Vector2) -> void:
+	if MusicManager and MusicManager.has_method("reproducir_se"):
+		MusicManager.reproducir_se(SFXGame.SoundEffectID.SE_PLAYER_BUMP)
 	if sprite == null:
 		play_step_animation(direction)
 		return

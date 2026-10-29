@@ -37,24 +37,34 @@ func _convert(parsed: Array, _context: ScriptExecutionContext) -> Array[ScriptCo
 			var message_text: String = str(args[0]) if not args.is_empty() else ""
 			var msgbox_name: String = ""
 			var speaker_token: String = ""
+
 			if args.size() > 1:
 				if ScriptTextParser.MSGBOX_MAP.has(str(args[1])):
 					msgbox_name = str(args[1])
 					if args.size() > 2:
-						speaker_token = str(args[2])
+						speaker_token = str(args[2]).strip_edges()
 				else:
-					speaker_token = str(args[1])
+					# text "Hola" "Nombre"  (sin MSGBOX)
+					speaker_token = str(args[1]).strip_edges()
+
+			# Si hay MSGBOX o nombre, cerramos el bloque pendiente y creamos un text tipado
 			if not msgbox_name.is_empty() or not speaker_token.is_empty():
 				_flush_texts(commands, pending_texts)
 				pending_texts.clear()
+
 				var typed: ScriptCmdText = ScriptCmdText.new()
 				typed.message = message_text
 				typed.messages = [message_text]
 				_configure_msgbox(typed, msgbox_name)
+
+				# Nombre visible (no speaker_id de personaje)
 				if not speaker_token.is_empty():
-					typed.speaker_id = StringName(speaker_token)
+					typed.speaker_name = speaker_token
+				# Si speaker_token vacío → execute usa context.npc.character.name
+
 				commands.append(typed)
 			else:
+				# text "..."  solo → se pueden acumular páginas
 				pending_texts.append(message_text)
 			continue
 
@@ -72,13 +82,13 @@ func _convert(parsed: Array, _context: ScriptExecutionContext) -> Array[ScriptCo
 	_flush_texts(commands, pending_texts)
 	return commands
 
-
 func _flush_texts(commands: Array[ScriptCommand], texts: Array[String]) -> void:
 	if texts.is_empty():
 		return
 	var cmd: ScriptCmdText = ScriptCmdText.new()
 	cmd.message = texts[0]
 	cmd.messages = texts.duplicate()
+	# Sin MSGBOX: hide_speaker = false → nombre desde NPCData si hay contexto
 	commands.append(cmd)
 
 
@@ -87,8 +97,14 @@ func _configure_msgbox(command: ScriptCmdText, msgbox_name: String) -> void:
 		"MSGBOX_SIGN":
 			command.hide_speaker = true
 		"MSGBOX_YESNO":
+			command.hide_speaker = false
 			command.choices = ["Sí", "No"]
 			command.choice_variable = "last_choice"
+		"MSGBOX_NPC", "MSGBOX_DEFAULT", "MSGBOX_AUTOCLOSE", "MSGBOX_GETINPUT":
+			command.hide_speaker = false
+		_:
+			# Sin token MSGBOX o desconocido
+			command.hide_speaker = false
 
 
 func _create(command_name: String, args: Array) -> ScriptCommand:

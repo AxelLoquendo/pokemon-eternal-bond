@@ -16,20 +16,23 @@ func execute(context: ScriptExecutionContext) -> bool:
 	var pages: Array[String] = []
 	for m: String in messages:
 		if not m.is_empty():
-			pages.append(m)
+			pages.append(MessageTextFormatter.expand(m, context))
 	if pages.is_empty() and not message.is_empty():
-		pages.append(message)
+		pages.append(MessageTextFormatter.expand(message, context))
 	if pages.is_empty():
 		return true
 
-	var speaker: String = speaker_name
+	var speaker: String = ""
 	if hide_speaker:
 		speaker = ""
-	elif speaker.is_empty() and speaker_id != &"":
+	elif not speaker_name.strip_edges().is_empty():
+		# Nombre explícito en el .txt o en el comando
+		speaker = speaker_name.strip_edges()
+	elif speaker_id != &"":
 		var node: Node = context.find_character_by_id(speaker_id)
-		if node != null:
-			speaker = _display_name(node)
-	elif speaker.is_empty() and context.npc != null:
+		speaker = _display_name(node)
+	else:
+		# Sin argumento → CharacterGame / NPCData del NPC del contexto
 		speaker = _display_name(context.npc)
 
 	if not MessageService.message_finished.is_connected(context.complete_async):
@@ -43,7 +46,6 @@ func execute(context: ScriptExecutionContext) -> bool:
 	context.is_waiting = true
 	return false
 
-
 func _on_choice(index: int, context: ScriptExecutionContext) -> void:
 	context.set_variable(choice_variable, str(index))
 
@@ -51,15 +53,26 @@ func _on_choice(index: int, context: ScriptExecutionContext) -> void:
 func _display_name(node: Node) -> String:
 	if node == null:
 		return ""
+	# NPC / Player: resource CharacterGame / NPCData / PlayerData
+	if "character" in node:
+		var ch: Variant = node.get("character")
+		if ch != null and ch is Resource and "name" in ch:
+			var n: String = str(ch.get("name")).strip_edges()
+			if not n.is_empty():
+				return n
 	if node.has_method("get_display_name"):
-		return str(node.call("get_display_name"))
+		var n2: String = str(node.call("get_display_name")).strip_edges()
+		if not n2.is_empty():
+			return n2
+	# Compat por si algún nodo usa "data" en lugar de "character"
 	if "data" in node:
 		var data: Variant = node.get("data")
 		if data != null and data is Resource and "name" in data:
-			var n: String = str(data.get("name"))
-			if not n.is_empty():
-				return n
-	return str(node.name)
+			var n3: String = str(data.get("name")).strip_edges()
+			if not n3.is_empty():
+				return n3
+
+	return ""
 
 
 func get_display_text() -> String:

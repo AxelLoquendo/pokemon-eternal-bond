@@ -22,6 +22,7 @@ var _last_ow: ObjectEvent.owID = ObjectEvent.owID.OBJ_EVENT_NONE
 var _last_shadow: ObjectEvent.shadowID = ObjectEvent.shadowID.NONE
 var _last_shadow_pos: Vector2 = Vector2.INF
 var _script_locked: bool = false
+var _script_running: bool = false
 
 
 func _ready() -> void:
@@ -64,20 +65,38 @@ func _physics_process(delta: float) -> void:
 
 
 func can_interact() -> bool:
-	if _script_locked:
+	if _script_locked or _script_running:
 		return false
 	if character == null:
 		return false
-	return true
-
+	return not character.script_file.is_empty()
 
 func interact(player: Node2D) -> void:
 	if not can_interact():
 		return
+	_script_running = true
+	_script_locked = true
 	_freeze_for_interaction(player)
-	await get_tree().create_timer(0.5).timeout
-	_end_interaction()
+	_start_runner(player)
 
+func _start_runner(player: Node2D) -> void:
+	var file_cmd := ScriptCmdTextFile.new()
+	file_cmd.script_file_path = character.script_file
+	var runner := ScriptRunner.new()
+	runner.name = "ScriptRunner"
+	add_child(runner)
+	runner.script_finished.connect(_on_script_finished.bind(runner), CONNECT_ONE_SHOT)
+	# map = padre del NPC (EventObject / Map)
+	var map_node: Node = get_parent()
+	while map_node and not (map_node is Map):
+		map_node = map_node.get_parent()
+	runner.start_script([file_cmd], self, player, map_node)
+
+func _on_script_finished(runner: ScriptRunner) -> void:
+	_script_running = false
+	_end_interaction()
+	if is_instance_valid(runner):
+		runner.queue_free()
 
 func _freeze_for_interaction(player: Node2D) -> void:
 	_script_locked = true

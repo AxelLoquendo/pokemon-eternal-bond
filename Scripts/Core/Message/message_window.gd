@@ -76,7 +76,7 @@ func _make_label(node_name: String) -> RichTextLabel:
 	label.offset_top = INNER_PAD
 	label.offset_right = -INNER_PAD
 	label.offset_bottom = -INNER_PAD
-	label.bbcode_enabled = false
+	label.bbcode_enabled = true
 	label.scroll_active = false
 	label.fit_content = false
 	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
