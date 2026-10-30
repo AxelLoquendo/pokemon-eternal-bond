@@ -63,13 +63,15 @@ Orden: entidad y después tile. `EntityCollisionSystem` ocupa casillas de actore
 | `LEDGE_*` | Salta una casilla y aterriza en la siguiente solo en la dirección de la caída; no permite cruzarlo lateralmente ni volver hacia arriba. |
 | `WATER` | Bloquea el paso. No hay Surf implementado, así que no se permite caminar sobre el agua. |
 | `ICE` | Al aterrizar conserva la dirección y desliza hasta salir del hielo o chocar. El choque detiene el deslizamiento. |
-| `STAIRS_LEFT/RIGHT` | Se camina por la grilla; los metadatos de colisión `cambiar_nivel_altura`, `nivel_altura` y `no_block` determinan la altura y el orden de dibujo. El sprite y su sombra se desplazan suavemente 4 px hacia el lado indicado mientras está en la escalera. |
+| `STAIRS_RIGHT_LOWER/UPPER`, `STAIRS_LEFT_LOWER/UPPER` | Cada tramo lateral usa dos marcas: `LOWER` va en la casilla inferior y sube una casilla en Y al avanzar en X; `UPPER` va en la casilla superior y baja al recorrerla en sentido contrario. La transición es diagonal y reversible; si se cambia de sentido durante el traslado, inicia el regreso al aterrizar. También se puede caminar verticalmente entre ambas casillas sin activar otra diagonal, y salir desde los extremos. |
 | `TALL_GRASS` | Transitable; cada aterrizaje emite `CharacterController.tile_behavior_landed(TALL_GRASS)` como punto de integración para hierba/encuentros. El runtime aún no tiene encuentros aleatorios ni efecto visual de hierba. |
 | `SAND` | Transitable y emite el mismo evento al aterrizar; puede usarse para pasos/efectos. |
 
 `CollisionFacade` valida el destino antes de empezar. `CharacterController` llama los hooks de inicio y aterrizaje; el aterrizaje aplica primero el estado de altura y luego notifica el comportamiento. Los movimientos forzados por hielo se procesan dentro del controlador y no se confunden con un paso manual de una ruta.
 
-Los valores corresponden a `TileBehaviorId.Id` (`NONE=0`, `LEDGE_DOWN=1`, `LEDGE_UP=2`, `LEDGE_LEFT=3`, `LEDGE_RIGHT=4`, `STAIRS_LEFT=10`, `STAIRS_RIGHT=11`, `TALL_GRASS=20`, `ICE=21`, `SAND=22`, `WATER=23`).
+En `Outside.tres`, la escalera lateral derecha asigna `STAIRS_RIGHT_UPPER` al atlas `(18,12)` (casilla superior) y `STAIRS_RIGHT_LOWER` al `(18,13)` (casilla inferior). Los cuatro comportamientos están implementados; los dos de la izquierda quedan disponibles para cuando se marque su tramo correspondiente en el TileSet.
+
+Los valores corresponden a `TileBehaviorId.Id` (`NONE=0`, `LEDGE_DOWN=1`, `LEDGE_UP=2`, `LEDGE_LEFT=3`, `LEDGE_RIGHT=4`, `STAIRS_RIGHT_LOWER=10`, `STAIRS_RIGHT_UPPER=11`, `STAIRS_LEFT_LOWER=12`, `STAIRS_LEFT_UPPER=13`, `TALL_GRASS=20`, `ICE=21`, `SAND=22`, `WATER=23`).
 
 ## 7. Borde
 

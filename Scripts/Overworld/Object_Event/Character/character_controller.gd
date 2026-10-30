@@ -118,7 +118,17 @@ func process_movement(delta: float) -> void:
 		external_move = false
 		waiting_for_move = false
 		return
-
+	var resuming_from_stairs: bool = false
+	if (
+		states != null
+		and not moving
+		and states.current_state == CharacterStatesController.State.STAIRS
+	):
+		var next_cell: Vector2 = get_character_position() + get_direction() * TILE_SIZE
+		var next_is_stairs: bool = CollisionFacade.is_stairs_tile(next_cell)
+		if states.consume_stairs_input(get_direction(), next_is_stairs):
+			return
+		resuming_from_stairs = true
 	var was_bumping: bool = bump_cooldown > 0.0
 	if bump_cooldown > 0.0:
 		bump_cooldown = maxf(bump_cooldown - delta, 0.0)
@@ -133,6 +143,15 @@ func process_movement(delta: float) -> void:
 		return
 	if external_move:
 		return
+	if resuming_from_stairs:
+		var resumed_direction: Vector2 = get_direction()
+		if resumed_direction != Vector2.ZERO:
+			direction = resumed_direction
+			last_direction = resumed_direction
+			waiting_for_move = false
+			hold_time = 0.0
+			start_move()
+		return
 	process_input()
 
 
@@ -146,7 +165,7 @@ func process_input() -> void:
 		last_direction = new_direction
 		hold_time = 0.0
 		waiting_for_move = true
-		step_started.emit(direction, false)
+		facing_changed.emit(direction)
 		return
 	direction = new_direction
 	start_move()
@@ -163,7 +182,7 @@ func process_input_hold(delta: float) -> void:
 		direction = current_dir
 		last_direction = current_dir
 		hold_time = 0.0
-		step_started.emit(direction, false)
+		facing_changed.emit(direction)
 		return
 	hold_time += delta
 	if hold_time >= HOLD_THRESHOLD:
@@ -185,6 +204,8 @@ func start_move(is_forced_move: bool = false) -> bool:
 	moving = true
 	_current_move_is_forced = is_forced_move
 	last_completed_move_was_forced = false
+	if step.stairs_transition and not external_move and states != null:
+		states.begin_stairs(direction)
 	var behavior_world: Vector2 = step.behavior_world if step.hop else Vector2.ZERO
 	var step_context: TileBehaviorContext = TileBehaviorSystem.build_context(
 		self,
@@ -227,7 +248,6 @@ func process_move(delta: float) -> void:
 		ledge_hop = false
 		last_completed_move_was_forced = _current_move_is_forced
 		_current_move_is_forced = false
-
 		MapCollisionSystem.apply_cell_state(self, initial_position, target_position)
 
 		movement_finished.emit()
@@ -244,6 +264,8 @@ func process_move(delta: float) -> void:
 			forced_move_finished.emit()
 		if external_move:
 			external_move = false
+			return
+		if states != null and states.current_state == CharacterStatesController.State.STAIRS:
 			return
 		var next_dir: Vector2 = get_direction()
 		if next_dir != Vector2.ZERO:

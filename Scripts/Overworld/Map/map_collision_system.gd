@@ -84,7 +84,8 @@ static func can_enter(
 	to_world: Vector2,
 	controller: CharacterController = null,
 	via_world: Vector2 = Vector2.ZERO,
-	is_hop: bool = false
+	is_hop: bool = false,
+	is_stairs_transition: bool = false
 ) -> bool:
 	var to_data: CollisionTileData = get_tile_data_at_world(to_world)
 	var from_data: CollisionTileData = get_tile_data_at_world(from_world)
@@ -99,7 +100,7 @@ static func can_enter(
 
 	var height_ok: bool = false
 
-	if is_hop:
+	if is_hop or is_stairs_transition:
 		height_ok = true
 	elif from_data.cambiar_nivel_altura:
 		height_ok = true
@@ -126,6 +127,12 @@ static func can_enter(
 
 	if not height_ok:
 		return false
+
+	# La transición de escalera ya fue resuelta desde el behaviour de entrada.
+	# No volver a evaluar el behaviour del peldaño de salida como un paso
+	# cardinal: es normal que el destino esté marcado con el behaviour opuesto.
+	if is_stairs_transition:
+		return true
 
 	var ctx: TileBehaviorContext = TileBehaviorSystem.build_context(
 		controller,

@@ -22,10 +22,10 @@ Cada actor (jugador o NPC) es un `Node2D` con los mismos hijos base:
 Si no está bloqueado:
 
 1. Si `moving`, avanza el lerp; hop de ledge multiplica velocidad y desplaza Y. Al terminar emite `movement_finished`.
-2. Umbral de giro (`HOLD_THRESHOLD`) antes de empezar el paso en una dirección nueva.
+2. Umbral de giro (`HOLD_THRESHOLD`) antes de empezar el paso en una dirección nueva; durante la espera solo cambia a la animación idle que mira hacia esa dirección.
 3. Si no, lee `input_direction` y puede llamar a `start_move`.
 
-`start_move` pide `CollisionFacade.resolve_move`. Bloqueado → bump. Libre → `step_started(direction, hop)`.
+`start_move` pide `CollisionFacade.resolve_move`. Bloqueado → bump. Libre → emite una vez `step_started(direction, hop)` para iniciar la animación de caminar. Los cambios de dirección durante el umbral emiten `facing_changed`, evitando duplicar el ciclo de caminar antes de un paso diagonal o normal. Una transición diagonal usa el estado `STAIRS`: no encadena pasos mientras la dirección mantenida siga dentro del tramo, pero permite continuar inmediatamente si el siguiente paso sale de la escalera. Si se cambia la dirección durante el traslado, la reanuda al terminar sin aplicar el umbral de giro.
 
 `halt_for_interaction` fija o revierte la posición según el progreso del paso, para hablar sin dejar al actor a medias.
 
