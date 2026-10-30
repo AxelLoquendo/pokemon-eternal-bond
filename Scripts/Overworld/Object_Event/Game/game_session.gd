@@ -112,12 +112,14 @@ func _on_cluster_loaded(mapa: Map) -> void:
 	_apply_day_night(mapa)
 	if _signpost and _signpost.has_method("try_show_for_map"):
 		_signpost.try_show_for_map(mapa)
+	MapScriptService.trigger(mapa, MapScriptEntry.Trigger.ON_LOAD, player)
 
 
 func _on_current_changed(mapa: Map) -> void:
 	_apply_day_night(mapa)
 	if _signpost and _signpost.has_method("try_show_for_map"):
 		_signpost.try_show_for_map(mapa)
+	MapScriptService.trigger(mapa, MapScriptEntry.Trigger.ON_TRANSITION, player)
 
 
 func _apply_day_night(mapa: Map) -> void:

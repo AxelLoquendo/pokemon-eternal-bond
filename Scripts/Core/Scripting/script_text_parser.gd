@@ -6,7 +6,7 @@ class_name ScriptTextParser
 const COMANDOS_VALIDOS: Array[String] = [
 	"text", "multichoice", "label", "goto", "ifchoice", "ifflag",
 	"compare", "applymovement", "weather", "fadeout", "fadein",
-	"savegame", "waitbutton", "setflag", "clearflag", "moveplayer",
+	"specials", "waitbutton", "setflag", "clearflag", "moveplayer",
 	"faceplayer", "lock", "release", "warp", "giveitem", "sound",
 	"return", "end", "checkitem", "trainerbattle", "waitmovement",
 	"wait", "setvar", "addvar",

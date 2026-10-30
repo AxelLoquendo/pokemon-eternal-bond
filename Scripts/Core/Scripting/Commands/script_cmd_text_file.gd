@@ -115,12 +115,14 @@ func _create(command_name: String, args: Array) -> ScriptCommand:
 			return _cmd_goto(args)
 		"ifchoice":
 			return _cmd_if_choice(args)
+		"setflag":
+			return _cmd_set_flag(args, true)
+		"clearflag":
+			return _cmd_set_flag(args, false)
 		"ifflag":
 			return _cmd_if_flag(args)
-		"setflag":
-			return _cmd_flag(args, true)
-		"clearflag":
-			return _cmd_flag(args, false)
+		"specials":
+			return _cmd_specials(args)
 		"faceplayer":
 			return ScriptCmdFacePlayer.new()
 		"lock":
@@ -155,8 +157,6 @@ func _create(command_name: String, args: Array) -> ScriptCommand:
 			return _cmd_set_var(args, true)
 		"compare":
 			return _cmd_compare(args)
-		"savegame":
-			return _cmd_save_game(args)
 		_:
 			push_warning("ScriptCmdTextFile: comando no portado aún '%s'" % command_name)
 			return null
@@ -184,15 +184,24 @@ func _cmd_if_choice(args: Array) -> ScriptCmdIfChoice:
 		c.target_label = str(args[1])
 	return c
 
-
 func _cmd_if_flag(args: Array) -> ScriptCmdIfFlag:
-	var c: ScriptCmdIfFlag = ScriptCmdIfFlag.new()
-	if not args.is_empty():
-		c.flag_name = str(args[0])
-	if args.size() > 1:
-		c.target_label = str(args[1])
+	var c := ScriptCmdIfFlag.new()
+	# ifflag NAME
+	# ifflag NAME label
+	# ifflag NAME == true label
+	if args.is_empty():
+		return c
+	c.flag_id = GameFlags.from_token(str(args[0]))
+	var i: int = 1
+	if args.size() >= 3 and str(args[1]) in ["==", "="]:
+		c.expected = str(args[2]).to_lower() in ["true", "1", "yes", "si", "sí"]
+		i = 3
+	elif args.size() >= 2 and str(args[1]).to_lower() in ["true", "false", "1", "0"]:
+		c.expected = str(args[1]).to_lower() in ["true", "1"]
+		i = 2
+	if args.size() > i:
+		c.target_label = str(args[i])
 	return c
-
 
 func _cmd_flag(args: Array, value: bool) -> ScriptCmdSetFlag:
 	var c: ScriptCmdSetFlag = ScriptCmdSetFlag.new()
@@ -201,18 +210,15 @@ func _cmd_flag(args: Array, value: bool) -> ScriptCmdSetFlag:
 	c.value = value
 	return c
 
-
 func _cmd_lock(lock_player: bool) -> ScriptCmdLock:
 	var c: ScriptCmdLock = ScriptCmdLock.new()
 	c.lock_player = lock_player
 	return c
 
-
 func _cmd_wait_button() -> ScriptCmdWait:
 	var c: ScriptCmdWait = ScriptCmdWait.new()
 	c.wait_for_input = true
 	return c
-
 
 func _cmd_fade(args: Array, fade_out: bool) -> ScriptCmdFade:
 	var c: ScriptCmdFade = ScriptCmdFade.new()
@@ -221,13 +227,11 @@ func _cmd_fade(args: Array, fade_out: bool) -> ScriptCmdFade:
 		c.duration = float(args[0])
 	return c
 
-
 func _cmd_weather(args: Array) -> ScriptCmdWeather:
 	var c: ScriptCmdWeather = ScriptCmdWeather.new()
 	if not args.is_empty():
 		c.weather_name = str(args[0])
 	return c
-
 
 func _cmd_multichoice(args: Array) -> ScriptCmdText:
 	var c: ScriptCmdText = ScriptCmdText.new()
@@ -313,9 +317,18 @@ func _cmd_compare(args: Array) -> ScriptCmdCompare:
 		c.target_label = str(args[3])
 	return c
 
-func _cmd_save_game(args: Array) -> ScriptCmdSaveGame:
-	var c: ScriptCmdSaveGame = ScriptCmdSaveGame.new()
-	if not args.is_empty() and str(args[0]).strip_edges().to_lower() == "silent":
+func _cmd_set_flag(args: Array, value: bool) -> ScriptCmdSetFlag:
+	var c := ScriptCmdSetFlag.new()
+	c.value = value
+	if not args.is_empty():
+		c.flag_id = GameFlags.from_token(str(args[0]))
+	return c
+
+func _cmd_specials(args: Array) -> ScriptCmdSpecials:
+	var c := ScriptCmdSpecials.new()
+	if not args.is_empty():
+		c.special_id = ScriptSpecials.from_token(str(args[0]))
+	if args.size() >= 2 and str(args[1]).to_lower() == "silent":
 		c.silent = true
 	return c
 

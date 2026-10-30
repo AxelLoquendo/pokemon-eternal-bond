@@ -1,22 +1,23 @@
 @tool
 extends Resource
 class_name MapScriptEntry
-## Script de nivel (no NPC / no casilla). Estilo PokeDot-Engine v2.
 
 enum Trigger {
-	ON_TRANSITION,  ## Al pasar a este mapa (cluster o warp)
-	ON_LOAD,        ## Tras cargar el cluster que tiene este mapa como actual
-	ON_FRAME,       ## Cuando la condición pasa de false→true (opcional)
+	ON_TRANSITION,
+	ON_LOAD,
+	ON_FRAME,
 }
 
 @export var trigger: Trigger = Trigger.ON_LOAD
 @export_file("*.txt") var script_file: String = ""
-@export var condition_flag: StringName = &""
-@export var expected_value: String = "true"
+## Nombre del enum GameFlags.Id (ej. INTRO_DONE). Vacío = siempre.
+@export var condition_flag: String = ""
+@export var expected_value: bool = true
 
 
 func condition_matches() -> bool:
-	if condition_flag.is_empty():
+	if condition_flag.strip_edges().is_empty():
 		return true
-	var valor: Variant = ScriptExecutionContext.global_flags.get(condition_flag, false)
-	return str(valor).to_lower() == expected_value.to_lower()
+	var id: GameFlags.Id = GameFlags.from_token(condition_flag)
+	var valor: bool = bool(ScriptExecutionContext.global_flags.get(int(id), false))
+	return valor == expected_value

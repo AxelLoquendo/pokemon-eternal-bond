@@ -12,7 +12,13 @@ static func _ensure() -> void:
 	_handlers[TileBehaviorId.Id.LEDGE_UP] = LedgeBehavior.new(Vector2.UP)
 	_handlers[TileBehaviorId.Id.LEDGE_LEFT] = LedgeBehavior.new(Vector2.LEFT)
 	_handlers[TileBehaviorId.Id.LEDGE_RIGHT] = LedgeBehavior.new(Vector2.RIGHT)
-
+	_handlers[TileBehaviorId.Id.WATER] = WaterBehavior.new()
+	_handlers[TileBehaviorId.Id.ICE] = IceBehavior.new()
+	_handlers[TileBehaviorId.Id.STAIRS_LEFT] = StairsBehavior.new(Vector2.LEFT)
+	_handlers[TileBehaviorId.Id.STAIRS_RIGHT] = StairsBehavior.new(Vector2.RIGHT)
+	# TALL_GRASS / SAND: por ahora default (se puede caminar)
+	_handlers[TileBehaviorId.Id.TALL_GRASS] = TileBehaviorHandler.new()
+	_handlers[TileBehaviorId.Id.SAND] = TileBehaviorHandler.new()
 
 static func get_handler(id: int) -> TileBehaviorHandler:
 	_ensure()
