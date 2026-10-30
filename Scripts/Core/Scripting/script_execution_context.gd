@@ -45,9 +45,10 @@ static func import_flags(data: Dictionary) -> void:
 		global_flags[int(k)] = bool(data[k])
 
 func complete_async() -> void:
-	is_waiting = false
 	if runner != null and runner.has_method("on_async_complete"):
 		runner.on_async_complete()
+	else:
+		is_waiting = false
 
 func find_character_by_id(character_id: StringName) -> Node:
 	var tree: SceneTree = _tree()

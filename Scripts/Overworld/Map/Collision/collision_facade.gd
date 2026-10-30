@@ -6,7 +6,12 @@ extends RefCounted
 const TILE_SIZE: float = 16.0
 
 
-static func is_blocked(controller: CharacterController, target_world: Vector2) -> bool:
+static func is_blocked(
+	controller: CharacterController,
+	target_world: Vector2,
+	via_world: Vector2 = Vector2.ZERO,
+	is_hop: bool = false
+) -> bool:
 	if EntityCollisionSystem.is_position_occupied(target_world, controller):
 		return true
 	if not MapCollisionSystem.can_enter(
@@ -14,7 +19,9 @@ static func is_blocked(controller: CharacterController, target_world: Vector2) -
 		controller.elevated,
 		controller.get_character_position(),
 		target_world,
-		controller
+		controller,
+		via_world,
+		is_hop
 	):
 		return true
 	return false
@@ -38,30 +45,16 @@ static func resolve_move(
 	if TileBehaviorSystem.is_ledge_jump_entry(mid_behavior, direction):
 		result.behavior_world = one_step
 		result.target_world = two_step
-		if is_blocked(controller, two_step):
+		if is_blocked(controller, two_step, one_step, true):
 			result.blocked = true
 			result.hop = false
 		else:
-			var hop_ctx: TileBehaviorContext = TileBehaviorSystem.build_context(
-				controller, from_world, two_step
-			)
-			if not TileBehaviorSystem.can_enter(hop_ctx):
-				result.blocked = true
-				result.hop = false
-			else:
-				result.hop = true
+			result.hop = true
 		return result
 
 	result.behavior_world = one_step
 	result.target_world = one_step
 	result.hop = false
 	if is_blocked(controller, one_step):
-		result.blocked = true
-		return result
-
-	var ctx: TileBehaviorContext = TileBehaviorSystem.build_context(
-		controller, from_world, one_step
-	)
-	if not TileBehaviorSystem.can_enter(ctx):
 		result.blocked = true
 	return result

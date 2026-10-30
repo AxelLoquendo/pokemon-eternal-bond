@@ -11,6 +11,8 @@ const COMANDOS_VALIDOS: Array[String] = [
 	"return", "end", "checkitem", "trainerbattle", "waitmovement",
 	"wait", "setvar", "addvar",
 ]
+# Mantener aquí tokens conocidos aunque todavía no tengan ScriptCommand:
+# permite reconocer contenido futuro y distinguirlo de errores tipográficos.
 
 const MSGBOX_MAP: Dictionary = {
 	"MSGBOX_NPC": true,

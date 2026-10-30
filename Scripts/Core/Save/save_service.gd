@@ -2,7 +2,7 @@ extends Node
 ## Autoload SaveService — solo serializa / deserializa partida.
 
 const SAVE_PATH: String = "user://save_0.tres"
-const SAVE_VERSION: int = 1
+const SAVE_VERSION: int = 2
 
 signal save_completed(ok: bool)
 signal load_completed(ok: bool)
@@ -38,8 +38,15 @@ func load_game() -> SaveData:
 		return null
 	var res: Resource = load(SAVE_PATH) as Resource
 	if res is SaveData:
+		var data: SaveData = res as SaveData
+		if data.version > SAVE_VERSION:
+			push_error("SaveService: versión de guardado no compatible (%d)" % data.version)
+			load_completed.emit(false)
+			return null
+		# v1 guardaba la celda mundial y se conserva para no invalidar partidas existentes.
+		# v2 guarda la celda local al mapa actual.
 		load_completed.emit(true)
-		return res as SaveData
+		return data
 	push_error("SaveService: archivo no es SaveData")
 	load_completed.emit(false)
 	return null
@@ -63,9 +70,9 @@ func _capture(session: Node) -> SaveData:
 		push_error("SaveService: no hay Player")
 		return null
 
-	var factory: Node = session.get_node_or_null("MapFactory")
+	var factory: MapFactory = session.get_node_or_null("MapFactory") as MapFactory
 	if factory == null:
-		factory = session.get_tree().get_first_node_in_group(&"map_factory")
+		factory = session.get_tree().get_first_node_in_group(&"map_factory") as MapFactory
 	if factory == null:
 		push_error("SaveService: no hay MapFactory")
 		return null
@@ -75,21 +82,16 @@ func _capture(session: Node) -> SaveData:
 	data.is_male = NewGameState.is_male
 	data.player_name = NewGameState.player_name
 
-	var tile: float = CharacterController.TILE_SIZE
-	data.position = Vector2i(
-		int(round(player.global_position.x / tile)),
-		int(round(player.global_position.y / tile))
-	)
+	data.map_id = int(factory.get_current_map_id())
 
-	if factory.has_method("get_current_map_id"):
-		data.map_id = int(factory.call("get_current_map_id"))
-	elif "current_map_id" in factory:
-		data.map_id = int(factory.get("current_map_id"))
-
-	if "current_map" in factory and factory.current_map != null:
-		var mapa: Variant = factory.current_map
+	if factory.current_map != null:
+		var mapa: Map = factory.current_map
+		data.position = factory.world_to_current_cell(player.global_position)
 		if mapa.attributes != null and "map_name" in mapa.attributes:
 			data.map_name = str(mapa.attributes.map_name)
+	else:
+		push_error("SaveService: MapFactory no tiene current_map")
+		return null
 
 	if "play_seconds" in session:
 		data.play_seconds = float(session.play_seconds)

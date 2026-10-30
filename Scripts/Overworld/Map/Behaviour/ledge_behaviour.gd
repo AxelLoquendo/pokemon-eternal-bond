@@ -10,21 +10,22 @@ func _init(dir: Vector2) -> void:
 
 func can_enter(ctx: TileBehaviorContext) -> bool:
 	var my_id: int = _id_for_dir(jump_dir)
+	var crossed_id: int = ctx.via_behavior if ctx.is_hop else ctx.to_behavior
 
-	# Entrar al ledge en contra del salto → no
-	if ctx.to_behavior == my_id and ctx.direction == -jump_dir:
+	# El borde solo se cruza con un salto en la dirección marcada.
+	if crossed_id == my_id and ctx.direction != jump_dir:
 		return false
 
-	# Salir del ledge hacia atrás → no
-	if ctx.from_behavior == my_id and ctx.direction == -jump_dir:
+	# Desde el borde tampoco se puede retroceder hacia la caída.
+	if ctx.from_behavior == my_id and ctx.direction != jump_dir:
 		return false
 
 	return true
 
 
 func on_step_start(ctx: TileBehaviorContext) -> void:
-	# Hop al ENTRAR al tile del ledge en dirección de salto
-	if ctx.to_behavior != _id_for_dir(jump_dir):
+	var crossed_id: int = ctx.via_behavior if ctx.is_hop else ctx.to_behavior
+	if crossed_id != _id_for_dir(jump_dir):
 		return
 	if ctx.direction != jump_dir:
 		return

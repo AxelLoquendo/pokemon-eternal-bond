@@ -1,12 +1,12 @@
-# Arquitectura de PokeDot Studio
+# Arquitectura de Pokémon Eternal Bond
 
 Documento de diseño del motor de overworld. Godot 4.7, GDScript tipado estricto, grilla 16×16.
 
-Describe el código de `scripts/`, no una intención futura. Si un comportamiento no aparece aquí, no está implementado.
+Describe el código actual de `Scripts/` y sus escenas. La auditoría está en [AUDITORIA.md](AUDITORIA.md). Godot 4.7, GDScript y grilla 16×16.
 
 ## 1. Objetivo
 
-PokeDot Studio ejecuta un overworld con el ritmo de los juegos de Game Boy Advance: casilla, giro, paso, choque, NPC, mapa conectado, evento de casilla y script de texto. El combate, los ítems y la persistencia quedan fuera de este runtime a propósito.
+El proyecto ejecuta un juego de overworld con movimiento por casillas, NPC, mapas conectados, eventos y scripts de texto. También incluye flujo de título, creación de personaje, guardado/carga, clima, día/noche, audio y presentación. Combate, party, mochila y Pokédex no aparecen implementados en el runtime inspeccionado.
 
 El motor tiene que poder cambiar un subsistema sin reescribir los demás. Audio, borde, colisión, mensaje y movimiento se hablan por señales, autoloads o valores de retorno. No se leen entre sí por dentro.
 
@@ -80,15 +80,15 @@ El formato `.txt` lo parsea `ScriptTextParser`. `ScriptCmdTextFile` convierte ca
 
 El runner de un NPC es hijo del NPC. Antes de un `warp` que destruye el mapa, el comando reparenta el runner a `MapFactory` para que `release` / `end` puedan ejecutarse.
 
-El alcance overworld del intérprete está cerrado: texto, control de flujo, flags, variables, movimiento, fade, clima, sonido y warp. No hay `giveitem`, `trainerbattle` ni `savegame` implementados (pueden figurar como desconocidos o sin factory).
+El intérprete ejecuta texto, control de flujo, flags, variables, movimiento, fade, clima, sonido y warp. El parser también acepta `giveitem`, `checkitem` y `trainerbattle`, pero el conversor no los porta todavía; `savegame` no está aceptado. Ver [Sistema_Scripts.md](Sistema_Scripts.md) y [AUDITORIA.md](AUDITORIA.md).
 
 ## 8. Mensajes y presentación
 
-`MessageService` es la API. `MessageUI` pinta cajas estilo Essentials (speech / choice / name). `FadeScreen` usa alpha lineal a 0.4 s. `LocationSignpost` muestra el nombre del mapa con gráficos de `assets/ui/Location/` según estilo y tipo.
+`MessageService` es la API. `MessageUI` pinta cajas de diálogo, choices y nombre. `FadeScreen` usa alpha lineal a 0.4 s. `LocationSignpost` muestra el nombre del mapa y admite un popup específico para estilo BW. Las rutas de presentación están bajo `Graficos/`.
 
 ## 9. Fuera de alcance
 
-Combate, party, mochila, Pokédex, guardado en disco, menú de pausa completo, Surf / bici / HM como sistemas jugables.
+Combate, party, mochila, Pokédex y Surf / bici / HM como sistemas jugables. El guardado sí existe como snapshot `user://save_0.tres`; la auditoría registra los defectos encontrados y su estado de corrección.
 
 ## 10. Criterio al añadir código
 

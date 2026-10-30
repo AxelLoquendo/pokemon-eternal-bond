@@ -2,7 +2,7 @@ extends Resource
 class_name SaveData
 ## Snapshot serializable de una partida.
 
-@export var version: int = 1
+@export var version: int = 2
 @export var player_name: String = ""
 @export var is_male: bool = true
 @export var map_id: int = 0

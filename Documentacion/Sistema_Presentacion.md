@@ -25,9 +25,9 @@ El clima de un mapa sale de `MapAttributes.weather` e `weather_intensity` al act
 
 ## 4. Cartel de nombre de mapa
 
-`LocationSignpost` (creado por `GameSession`) replica el ritmo de PE `LocationWindow`:
+`LocationSignpost` (creado por `GameSession`) muestra el nombre al entrar al mapa:
 
-- Entrada 0.4 s desde arriba, visible 1.6 s, salida 0.4 s.
+- Entrada 0.35 s, visible 1.6 s y salida animada.
 - Se cancela si `MessageService.is_active()`.
 - No se repite si el **nombre** es el mismo que el anuncio anterior.
 
@@ -39,17 +39,17 @@ En `MapAttributes`:
 |---|---|
 | `map_name` | Texto del cartel |
 | `show_location_name` | Si es false, no se muestra |
-| `location_style` | `HGSS`, `PLATINUM`, `DP`, `ORAS`, `XY` |
+| `location_style` | `HGSS`, `PLATINUM`, `DP`, `ORAS`, `XY`, `BW` |
 | `location_type` | `DEFAULT`, `TOWN`, `CITY`, `ROUTE`, `FOREST`, `CAVE`, `LAKE`, `PARK`, `SEA` |
 
 ### Gráficos
 
-`LocationSignpostConfig` carga desde `res://assets/ui/Location/`:
+`LocationSignpost` muestra el nombre del mapa; la implementación actual usa un panel simple para la mayoría de estilos y una escena especial para BW (`Escenas/UI/Map_Popup/map_popup.tscn`). Los gráficos existentes viven en `Graficos/`.
 
-- HGSS / Pt: `HGSS town.png`, `Pt route.png`, etc. (prefijo + tipo).
-- DP / ORAS / XY: un solo archivo (`DP.png`, `ORAS.png`, `XY.png`).
+- En la versión actual no se encontró el catálogo descrito de banners HGSS/Pt/DP/ORAS/XY conectado a `LocationSignpost`; el anuncio normal es un panel de texto.
+- BW: utiliza `Escenas/UI/Map_Popup/map_popup.tscn`.
 
-HGSS suele ser 272×64; el banner usa el tamaño nativo del PNG y el texto centrado encima.
+El tamaño y la animación del panel deben revisarse si se incorpora el catálogo de banners por estilo.
 
 ### Señales
 

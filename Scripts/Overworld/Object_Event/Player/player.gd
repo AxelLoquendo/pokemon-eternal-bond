@@ -25,6 +25,11 @@ func _ready() -> void:
 	if Engine.is_editor_hint():
 		return
 	add_to_group(&"Player")
+	if MessageService != null:
+		if not MessageService.message_started.is_connected(_on_message_started):
+			MessageService.message_started.connect(_on_message_started)
+		if not MessageService.message_finished.is_connected(_on_message_finished):
+			MessageService.message_finished.connect(_on_message_finished)
 	if character and controller and character.walk > 0:
 		controller.set_move_speed(float(character.walk) * TILE_SIZE)
 
@@ -43,28 +48,40 @@ func _process(_delta: float) -> void:
 
 
 func _physics_process(delta: float) -> void:
-	if Engine.is_editor_hint() or _script_locked:
+	if Engine.is_editor_hint():
 		return
 	if controller == null or states == null:
 		return
-	if states.is_locked():
+	if MessageService != null and MessageService.is_active():
 		controller.set_direction(Vector2.ZERO)
 		return
 
 	var dir := Vector2.ZERO
-	if Input.is_action_pressed("Left") or Input.is_action_pressed("ui_left"):
-		dir = Vector2.LEFT
-	elif Input.is_action_pressed("Right") or Input.is_action_pressed("ui_right"):
-		dir = Vector2.RIGHT
-	elif Input.is_action_pressed("Up") or Input.is_action_pressed("ui_up"):
-		dir = Vector2.UP
-	elif Input.is_action_pressed("Down") or Input.is_action_pressed("ui_down"):
-		dir = Vector2.DOWN
+	if not _script_locked and not states.is_locked():
+		if Input.is_action_pressed("Left") or Input.is_action_pressed("ui_left"):
+			dir = Vector2.LEFT
+		elif Input.is_action_pressed("Right") or Input.is_action_pressed("ui_right"):
+			dir = Vector2.RIGHT
+		elif Input.is_action_pressed("Up") or Input.is_action_pressed("ui_up"):
+			dir = Vector2.UP
+		elif Input.is_action_pressed("Down") or Input.is_action_pressed("ui_down"):
+			dir = Vector2.DOWN
 
 	controller.set_direction(dir)
 	controller.process_movement(delta)
 	if states.has_method("process_state"):
 		states.process_state(delta)
+
+
+func _on_message_started() -> void:
+	if controller != null:
+		controller.halt_for_interaction()
+		controller.set_direction(Vector2.ZERO)
+
+
+func _on_message_finished() -> void:
+	if controller != null:
+		controller.set_direction(Vector2.ZERO)
 
 
 func _unhandled_input(event: InputEvent) -> void:
@@ -90,6 +107,7 @@ func _unhandled_input(event: InputEvent) -> void:
 func set_script_locked(locked: bool) -> void:
 	_script_locked = locked
 	if locked and controller:
+		controller.halt_for_interaction()
 		controller.set_direction(Vector2.ZERO)
 
 
@@ -122,6 +140,8 @@ func _update_visuals() -> void:
 		else:
 			shadow_sprite.texture = null
 		shadow_sprite.position = character.shadow_position
+		if controller:
+			controller.set_shadow_base_position(shadow_sprite.position)
 
 	var ow_path: String = ObjectEvent.owSprite.get(character.ow_sprite, "")
 	if ow_path != "" and animated_sprite:
@@ -171,7 +191,7 @@ func _apply_ow_texture(texture: Texture2D) -> void:
 	animated_sprite.centered = true
 	animated_sprite.position = Vector2(TILE_SIZE * 0.5, TILE_SIZE - frame_size.y * 0.5)
 	if controller:
-		controller.set_sprite_base_y(animated_sprite.position.y)
+		controller.set_sprite_base_position(animated_sprite.position)
 	if animated_sprite.sprite_frames.has_animation("Idle_Down"):
 		animated_sprite.animation = &"Idle_Down"
 		animated_sprite.frame = 0

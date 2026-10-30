@@ -11,3 +11,7 @@ func on_landed(_ctx: TileBehaviorContext) -> void:
 
 func on_step_start(_ctx: TileBehaviorContext) -> void:
 	pass
+
+
+func visual_offset() -> Vector2:
+	return Vector2.ZERO

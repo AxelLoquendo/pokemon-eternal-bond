@@ -100,4 +100,4 @@ end
 
 ## 6. Fuera de alcance del intérprete
 
-`giveitem`, `checkitem`, `trainerbattle`, `savegame` no tienen factory operativo. No forman parte del overworld cerrado.
+El parser reconoce `giveitem`, `checkitem` y `trainerbattle`, pero `ScriptCmdTextFile._create()` no los convierte en comandos ejecutables y advierte que aún no están portados. `savegame` ni siquiera forma parte de los comandos aceptados. No usar estos tokens como funcionalidad disponible; ver [AUDITORIA.md](AUDITORIA.md).

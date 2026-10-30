@@ -31,7 +31,7 @@ Si no está bloqueado:
 
 ## 3. Jugador
 
-`Player._physics_process` ignora input de movimiento si `_script_locked` o `MessageService.is_active()`.
+`Player._physics_process` ignora input manual si `_script_locked`, si el estado está bloqueado o si `MessageService.is_active()`. Aun con `_script_locked`, sigue avanzando el controlador para permitir rutas de movimiento iniciadas por scripts. Al abrir el menú o iniciar un mensaje, el paso actual se asienta en una casilla; el jugador queda detenido hasta quitar el bloqueo o cerrar el mensaje.
 
 `_unhandled_input` con A (y sin estar moviéndose):
 

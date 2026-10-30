@@ -82,7 +82,9 @@ static func can_enter(
 	elevated: bool,
 	from_world: Vector2,
 	to_world: Vector2,
-	controller: CharacterController = null
+	controller: CharacterController = null,
+	via_world: Vector2 = Vector2.ZERO,
+	is_hop: bool = false
 ) -> bool:
 	var to_data: CollisionTileData = get_tile_data_at_world(to_world)
 	var from_data: CollisionTileData = get_tile_data_at_world(from_world)
@@ -97,7 +99,9 @@ static func can_enter(
 
 	var height_ok: bool = false
 
-	if from_data.cambiar_nivel_altura:
+	if is_hop:
+		height_ok = true
+	elif from_data.cambiar_nivel_altura:
 		height_ok = true
 	elif elevated:
 		if to_data.empty:
@@ -126,7 +130,9 @@ static func can_enter(
 	var ctx: TileBehaviorContext = TileBehaviorSystem.build_context(
 		controller,
 		from_world,
-		to_world
+		to_world,
+		via_world,
+		is_hop
 	)
 	return TileBehaviorSystem.can_enter(ctx)
 
@@ -150,13 +156,13 @@ static func apply_cell_state(
 		controller.elevated = false
 		controller.update_render_layer()
 	elif to_data.cambiar_nivel_altura:
+		controller.height_level = to_data.nivel_altura
 		controller.elevated = false
 		controller.update_render_layer()
 	elif to_data.no_block:
+		controller.height_level = to_data.nivel_altura
 		if from_data.cambiar_nivel_altura or controller.elevated:
 			controller.elevated = true
-			if to_data.nivel_altura > 0:
-				controller.height_level = to_data.nivel_altura
 		else:
 			controller.elevated = false
 		controller.update_render_layer()
@@ -174,6 +180,7 @@ static func apply_cell_state(
 
 
 static func init_entity_state(controller: CharacterController, world_pos: Vector2) -> void:
+	controller.refresh_behavior_visual(world_pos)
 	var data: CollisionTileData = get_tile_data_at_world(world_pos)
 	if data.empty:
 		controller.height_level = 0
@@ -188,6 +195,7 @@ static func init_entity_state(controller: CharacterController, world_pos: Vector
 		return
 
 	if data.cambiar_nivel_altura:
+		controller.height_level = data.nivel_altura
 		controller.elevated = false
 		controller.update_render_layer()
 		return

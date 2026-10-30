@@ -83,6 +83,10 @@ func resume_route() -> void:
 func execute_next_command() -> void:
 	if not executing:
 		return
+	if character_controller.is_forced_move_active():
+		await character_controller.forced_move_finished
+		if not executing:
+			return
 	if route == null:
 		stop_route()
 		return
@@ -165,6 +169,8 @@ func _advance_command() -> void:
 
 func _on_movement_finished() -> void:
 	if not executing:
+		return
+	if character_controller.last_completed_move_was_forced:
 		return
 	pending_direction = Vector2.ZERO
 	_advance_command()

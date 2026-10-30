@@ -4,6 +4,7 @@ extends Node2D
 
 @onready var entity_root: Node2D = get_parent().get_parent() as Node2D
 @onready var sprite: AnimatedSprite2D = entity_root.get_node_or_null("AnimatedSprite2D") as AnimatedSprite2D
+@onready var shadow_sprite: Sprite2D = entity_root.get_node_or_null("ShadowSprite") as Sprite2D
 @onready var states: CharacterStatesController = $"../CharacterStatesController"
 
 signal movement_finished
@@ -12,6 +13,8 @@ signal facing_changed(direction: Vector2)
 signal step_started(direction: Vector2, hop: bool)
 signal bump_started(direction: Vector2)
 signal bump_ended(direction: Vector2)
+signal tile_behavior_landed(behavior_id: int)
+signal forced_move_finished
 
 const TILE_SIZE: float = 16.0
 const MOVE_SPEED: float = 64.0
@@ -38,6 +41,13 @@ var external_move: bool = false
 var bump_cooldown: float = 0.0
 var move_speed: float = MOVE_SPEED
 var ledge_hop: bool = false
+var forced_move_direction: Vector2 = Vector2.ZERO
+var _current_move_is_forced: bool = false
+var last_completed_move_was_forced: bool = false
+var _sprite_base_position: Vector2 = Vector2.ZERO
+var _shadow_base_position: Vector2 = Vector2.ZERO
+var _visual_offset_from: Vector2 = Vector2.ZERO
+var _visual_offset_to: Vector2 = Vector2.ZERO
 var _sprite_base_y: float = 0.0
 
 var height_level: int = 0
@@ -50,11 +60,26 @@ func _ready() -> void:
 	initial_position = entity_root.global_position
 	target_position = entity_root.global_position
 	if sprite:
-		_sprite_base_y = sprite.position.y
+		set_sprite_base_position(sprite.position)
+	if shadow_sprite:
+		set_shadow_base_position(shadow_sprite.position)
 
 
 func set_sprite_base_y(y: float) -> void:
 	_sprite_base_y = y
+	_sprite_base_position.y = y
+	_apply_visual_offset(_visual_offset_to)
+
+
+func set_sprite_base_position(position: Vector2) -> void:
+	_sprite_base_position = position
+	_sprite_base_y = position.y
+	_apply_visual_offset(_visual_offset_to)
+
+
+func set_shadow_base_position(position: Vector2) -> void:
+	_shadow_base_position = position
+	_apply_visual_offset(_visual_offset_to)
 
 
 func set_move_speed(speed: float) -> void:
@@ -146,10 +171,11 @@ func process_input_hold(delta: float) -> void:
 		start_move()
 
 
-func start_move() -> bool:
+func start_move(is_forced_move: bool = false) -> bool:
 	initial_position = entity_root.global_position
 	var step: MoveStepResult = CollisionFacade.resolve_move(self, direction)
 	if step.blocked:
+		_current_move_is_forced = false
 		_play_bump()
 		movement_blocked.emit()
 		return false
@@ -157,6 +183,19 @@ func start_move() -> bool:
 	ledge_hop = step.hop
 	move_progress = 0.0
 	moving = true
+	_current_move_is_forced = is_forced_move
+	last_completed_move_was_forced = false
+	var behavior_world: Vector2 = step.behavior_world if step.hop else Vector2.ZERO
+	var step_context: TileBehaviorContext = TileBehaviorSystem.build_context(
+		self,
+		initial_position,
+		target_position,
+		behavior_world,
+		step.hop
+	)
+	_visual_offset_from = TileBehaviorSystem.visual_offset(step_context.from_behavior)
+	_visual_offset_to = TileBehaviorSystem.visual_offset(step_context.to_behavior)
+	TileBehaviorSystem.on_step_start(step_context)
 	step_started.emit(direction, ledge_hop)
 	return true
 
@@ -171,6 +210,8 @@ func process_move(delta: float) -> void:
 	move_progress += (speed * delta) / dist
 	move_progress = minf(move_progress, 1.0)
 	entity_root.global_position = initial_position.lerp(target_position, _ease_move(move_progress))
+	MapCollisionSystem.preview_render_state(self, initial_position, target_position)
+	_apply_visual_offset(_visual_offset_from.lerp(_visual_offset_to, move_progress))
 	if sprite:
 		if ledge_hop:
 			sprite.position.y = _sprite_base_y - _hop_height(move_progress)
@@ -180,16 +221,27 @@ func process_move(delta: float) -> void:
 		entity_root.global_position = target_position
 		if sprite:
 			sprite.position.y = _sprite_base_y
+		_apply_visual_offset(_visual_offset_to)
 		current_position = target_position
 		moving = false
 		ledge_hop = false
+		last_completed_move_was_forced = _current_move_is_forced
+		_current_move_is_forced = false
 
-		var landed_ctx: TileBehaviorContext = TileBehaviorSystem.build_context(
-			self, initial_position, target_position
-		)
-		TileBehaviorSystem.on_landed(landed_ctx)
+		MapCollisionSystem.apply_cell_state(self, initial_position, target_position)
 
 		movement_finished.emit()
+		if forced_move_direction != Vector2.ZERO:
+			var forced_direction: Vector2 = forced_move_direction
+			forced_move_direction = Vector2.ZERO
+			external_move = false
+			direction = forced_direction
+			last_direction = forced_direction
+			input_direction = Vector2.ZERO
+			start_move(true)
+			return
+		if last_completed_move_was_forced:
+			forced_move_finished.emit()
 		if external_move:
 			external_move = false
 			return
@@ -221,10 +273,12 @@ func halt_for_interaction() -> bool:
 	moving = false
 	move_progress = 0.0
 	external_move = false
+	forced_move_direction = Vector2.ZERO
 	input_direction = Vector2.ZERO
 	waiting_for_move = false
 	hold_time = 0.0
 	ledge_hop = false
+	_refresh_visual_offset(tile)
 	return reached
 
 
@@ -239,13 +293,47 @@ func teleport_to(world_pos: Vector2) -> void:
 	moving = false
 	move_progress = 0.0
 	external_move = false
+	forced_move_direction = Vector2.ZERO
 	waiting_for_move = false
 	hold_time = 0.0
 	ledge_hop = false
+	_refresh_visual_offset(snapped)
 
 
 func get_character_position() -> Vector2:
 	return entity_root.global_position
+
+
+func queue_forced_move(move_direction: Vector2) -> void:
+	if move_direction == Vector2.ZERO:
+		return
+	forced_move_direction = move_direction
+
+
+func is_forced_move_active() -> bool:
+	return moving and _current_move_is_forced
+
+
+func notify_tile_behavior_landed(behavior_id: int) -> void:
+	tile_behavior_landed.emit(behavior_id)
+
+
+func refresh_behavior_visual(world_position: Vector2) -> void:
+	_refresh_visual_offset(world_position)
+
+
+func _refresh_visual_offset(world_position: Vector2) -> void:
+	var behavior_id: int = TileBehaviorReader.get_behavior_at_world(world_position)
+	_visual_offset_from = TileBehaviorSystem.visual_offset(behavior_id)
+	_visual_offset_to = _visual_offset_from
+	_apply_visual_offset(_visual_offset_to)
+
+
+func _apply_visual_offset(offset: Vector2) -> void:
+	if sprite != null:
+		sprite.position = _sprite_base_position + offset
+	if shadow_sprite != null:
+		shadow_sprite.position = _shadow_base_position + offset
 
 
 @warning_ignore("shadowed_variable_base_class")

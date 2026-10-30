@@ -1,6 +1,6 @@
 # Sistema de mensajes
 
-Cajas de texto estilo Pokémon Essentials (viewport 512×384, fuente Power Green, windowskins del proyecto).
+Cajas de texto estilo Pokémon Essentials, ajustadas al viewport 480×320 del proyecto (fuente Power Green y windowskins en `Graficos/Window_Skin/`).
 
 ## 1. Capas de responsabilidad
 
@@ -16,10 +16,10 @@ Cajas de texto estilo Pokémon Essentials (viewport 512×384, fuente Power Green
 
 ## 2. Skins
 
-- Diálogo: `assets/window_skins/speech hgss 1.png` (u otra speech configurada).
-- Choices: `assets/window_skins/choice 1.png`.
+- Diálogo: `Graficos/Window_Skin/speech hgss 1.png` (u otra speech configurada).
+- Choices: `Graficos/Window_Skin/choice 1.png`.
 - Flecha de pausa: atlas por frames (no el spritesheet completo).
-- Flecha de selección: `assets/ui/sel_arrow.png`.
+- Flecha de selección: `Graficos/UI/sel_arrow.png`.
 
 ## 3. Texto
 

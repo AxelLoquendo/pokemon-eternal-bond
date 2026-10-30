@@ -234,3 +234,13 @@ func _init_npcs_current(mapa: Map) -> void:
 
 func get_current_map_id() -> MapSection.MapID:
 	return current_map_id
+
+
+func world_to_current_cell(world_position: Vector2) -> Vector2i:
+	if current_map == null:
+		return Vector2i.ZERO
+	var local_position: Vector2 = current_map.to_local(world_position)
+	return Vector2i(
+		int(round(local_position.x / TILE_SIZE)),
+		int(round(local_position.y / TILE_SIZE))
+	)

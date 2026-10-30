@@ -153,6 +153,8 @@ func _update_visuals() -> void:
 		else:
 			shadow_sprite.texture = null
 		shadow_sprite.position = character.shadow_position
+		if controller:
+			controller.set_shadow_base_position(shadow_sprite.position)
 
 	var ow_path: String = ObjectEvent.owSprite.get(character.ow_sprite, "")
 	if ow_path != "" and animated_sprite:
@@ -202,7 +204,7 @@ func _apply_ow_texture(texture: Texture2D) -> void:
 	animated_sprite.centered = true
 	animated_sprite.position = Vector2(TILE_SIZE * 0.5, TILE_SIZE - frame_size.y * 0.5)
 	if controller:
-		controller.set_sprite_base_y(animated_sprite.position.y)
+		controller.set_sprite_base_position(animated_sprite.position)
 	if animated_sprite.sprite_frames.has_animation("Idle_Down"):
 		animated_sprite.animation = &"Idle_Down"
 		animated_sprite.frame = 0
