@@ -183,6 +183,12 @@ func process_move(delta: float) -> void:
 		current_position = target_position
 		moving = false
 		ledge_hop = false
+
+		var landed_ctx: TileBehaviorContext = TileBehaviorSystem.build_context(
+			self, initial_position, target_position
+		)
+		TileBehaviorSystem.on_landed(landed_ctx)
+
 		movement_finished.emit()
 		if external_move:
 			external_move = false
@@ -192,7 +198,6 @@ func process_move(delta: float) -> void:
 			direction = next_dir
 			last_direction = next_dir
 			start_move()
-
 
 func look_direction(new_direction: Vector2) -> void:
 	if new_direction == Vector2.ZERO:

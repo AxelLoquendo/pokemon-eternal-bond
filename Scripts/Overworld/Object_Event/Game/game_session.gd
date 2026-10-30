@@ -29,9 +29,8 @@ func _ready() -> void:
 	if not SessionBoot.pending_flags.is_empty():
 		ScriptExecutionContext.import_flags(SessionBoot.pending_flags)
 		SessionBoot.pending_flags.clear()
-	elif start_data != null:
-		# Nueva partida: no arrastrar flags de una sesión anterior
-		pass
+	else:
+		ScriptExecutionContext.clear_flags()
 
 	if start_data == null:
 		push_error("GameSession: falta GameStartData")

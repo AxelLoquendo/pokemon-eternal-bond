@@ -12,6 +12,7 @@ func on_landed(ctx: TileBehaviorContext) -> void:
 	var dir: Vector2 = ctx.direction
 	if dir == Vector2.ZERO:
 		return
-	# Empuja un paso más en la misma dirección si no está bloqueado
-	if ctx.controller.has_method("start_move"):
-		ctx.controller.call_deferred("start_move", dir)
+	# start_move() no recibe args: usa direction del controller
+	ctx.controller.direction = dir
+	ctx.controller.last_direction = dir
+	ctx.controller.call_deferred("start_move")

@@ -42,12 +42,26 @@ static func resolve_move(
 			result.blocked = true
 			result.hop = false
 		else:
-			result.hop = true
+			var hop_ctx: TileBehaviorContext = TileBehaviorSystem.build_context(
+				controller, from_world, two_step
+			)
+			if not TileBehaviorSystem.can_enter(hop_ctx):
+				result.blocked = true
+				result.hop = false
+			else:
+				result.hop = true
 		return result
 
 	result.behavior_world = one_step
 	result.target_world = one_step
 	result.hop = false
 	if is_blocked(controller, one_step):
+		result.blocked = true
+		return result
+
+	var ctx: TileBehaviorContext = TileBehaviorSystem.build_context(
+		controller, from_world, one_step
+	)
+	if not TileBehaviorSystem.can_enter(ctx):
 		result.blocked = true
 	return result
