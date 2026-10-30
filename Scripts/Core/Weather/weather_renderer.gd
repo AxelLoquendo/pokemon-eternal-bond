@@ -27,6 +27,12 @@ var _time_until_flash: float = 0.0
 var _base_tone_alpha: float = 0.0
 var _viewport_size: Vector2 = Vector2(480.0, 320.0)
 
+## Si la cámara se mueve más que esto en un frame es un warp/corte: no arrastra el clima.
+const MAX_CAM_STEP: float = 48.0
+
+var _camera: Camera2D
+var _cam_prev: Vector2 = Vector2.ZERO
+var _cam_prev_valid: bool = false
 
 func _ready() -> void:
 	layer = LAYER_INDEX
@@ -57,9 +63,11 @@ func _ready() -> void:
 
 func _process(delta: float) -> void:
 	if _active_data == null or _active_data.id == WeatherID.Id.NONE:
+		_cam_prev_valid = false
 		return
-	_update_particles(delta)
-	_update_tiles(delta)
+	var cam_delta: Vector2 = _consumir_delta_camara()
+	_update_particles(delta, cam_delta)
+	_update_tiles(delta, cam_delta)
 	_update_lightning(delta)
 
 
@@ -80,6 +88,7 @@ func _on_intensity_changed(_old_v: int, new_v: int) -> void:
 
 
 func _apply_weather(id: WeatherID.Id, intensity: int) -> void:
+	_cam_prev_valid = false
 	_active_data = WeatherCatalog.get_data(id)
 	_active_max = _intensity_to_max(intensity, _active_data)
 	_tile_x = 0.0
@@ -117,6 +126,48 @@ func _setup_tone() -> void:
 	var b: float = clampf(0.5 + t.b * 0.5, 0.0, 1.0)
 	_tone_rect.color = Color(r, g, b, _base_tone_alpha)
 
+
+## Desplazamiento de la cámara desde el frame anterior, en píxeles de pantalla.
+func _consumir_delta_camara() -> Vector2:
+	if _camera == null or not is_instance_valid(_camera):
+		_camera = get_viewport().get_camera_2d()
+	if _camera == null:
+		_cam_prev_valid = false
+		return Vector2.ZERO
+
+	var centro: Vector2 = _camera.get_screen_center_position()
+	var mov: Vector2 = Vector2.ZERO
+	if _cam_prev_valid:
+		mov = (centro - _cam_prev) * _camera.zoom
+		if mov.length() > MAX_CAM_STEP:
+			mov = Vector2.ZERO  # warp / cambio de mapa
+	_cam_prev = centro
+	_cam_prev_valid = true
+	return mov
+
+
+## Límite derecho de la zona de aparición de las partículas (la misma que usa _reset_particle).
+func _limite_derecho(tw: float) -> float:
+	var w: float = _viewport_size.x
+	var h: float = _viewport_size.y
+	var pd: Vector2 = _active_data.particle_delta
+	var gradient: float = 0.0
+	if absf(pd.y) > 0.001:
+		gradient = pd.x / pd.y
+	if absf(gradient) >= 1.0:
+		return w * 2.0  # entran por la derecha: zona de reserva [w, 2w]
+	return w + maxf(tw, -gradient * h)
+
+
+## Envuelve la partícula en horizontal dentro de su zona de aparición. Es invisible
+## (los bordes quedan fuera de pantalla) y mantiene la densidad al mover la cámara.
+func _envolver_x(s: Sprite2D) -> void:
+	var tw: float = float(s.texture.get_width())
+	var lo: float = -tw
+	var ancho: float = _limite_derecho(tw) - lo
+	if ancho <= 0.0:
+		return
+	s.position.x = lo + fposmod(s.position.x - lo, ancho)
 
 # ============================================================
 # PARTÍCULAS
@@ -228,7 +279,7 @@ func _reset_particle(index: int) -> void:
 		_lifetimes[index] = absf(distance_y / y_speed) if absf(y_speed) > 0.001 else 2.0
 
 
-func _update_particles(delta: float) -> void:
+func _update_particles(delta: float, cam_delta: Vector2) -> void:
 	if not _has_particles():
 		return
 	var pdelta: Vector2 = _active_data.particle_delta
@@ -244,6 +295,11 @@ func _update_particles(delta: float) -> void:
 			_reset_particle(i)
 			continue
 
+		# El clima pertenece al mundo: al moverse la cámara la partícula se desplaza
+		# en sentido contrario (tus animaciones siguen funcionando encima de esto).
+		s.position -= cam_delta
+		_envolver_x(s)
+
 		# Splash: visible solo los últimos 0.2 s
 		if _is_splash_index(i):
 			s.modulate.a = 1.0 if _lifetimes[i] < 0.2 else 0.0
@@ -253,9 +309,12 @@ func _update_particles(delta: float) -> void:
 		_mover_particula(s, i, dist, op_delta, delta)
 
 		var tw: float = float(s.texture.get_width())
+		var th: float = float(s.texture.get_height())
+		var tope_arriba: float = -(th + maxf(_viewport_size.x, _viewport_size.y) + 16.0)
 		if s.modulate.a < 0.25 \
 				or s.position.x < -tw \
-				or s.position.y > _viewport_size.y:
+				or s.position.y > _viewport_size.y \
+				or s.position.y < tope_arriba:
 			_reset_particle(i)
 
 
@@ -304,7 +363,7 @@ func _setup_tiles() -> void:
 		_tiles.append(s)
 
 
-func _update_tiles(delta: float) -> void:
+func _update_tiles(delta: float, cam_delta: Vector2) -> void:
 	if _tiles_wide <= 0 or _active_data == null or _active_data.tile_textures.is_empty():
 		return
 	var tex: Texture2D = _active_data.tile_textures[0]
@@ -314,8 +373,8 @@ func _update_tiles(delta: float) -> void:
 	var th: float = float(tex.get_height())
 	var tdelta: Vector2 = _active_data.tile_delta
 
-	_tile_x += tdelta.x * delta
-	_tile_y += tdelta.y * delta
+	_tile_x += tdelta.x * delta - cam_delta.x
+	_tile_y += tdelta.y * delta - cam_delta.y
 
 	while _tile_x < -tw:
 		_tile_x += tw

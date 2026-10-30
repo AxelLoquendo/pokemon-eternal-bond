@@ -29,7 +29,7 @@ func _open() -> void:
 	_busy = true
 	await _tween_alpha(bg, 1.0)
 	# BGM título si tienes el ID en SfxGame; si no, comenta la línea:
-	# MusicManager.reproducir_mapa(SFXGame.MapMusicID.BGM_TITLE)
+	MusicManager.reproducir_mapa(SFXGame.MapMusicID.BGM_TITLE)
 	_busy = false
 	_ready_for_input = true
 
@@ -38,7 +38,7 @@ func _accept() -> void:
 	_busy = true
 	_ready_for_input = false
 	if typeof(MusicManager) != TYPE_NIL and MusicManager.has_method("reproducir_se"):
-		# MusicManager.reproducir_se(SFXGame.SoundEffectID.SE_GUI_SEL_DECISION)
+		MusicManager.reproducir_se(SFXGame.SoundEffectID.SE_GUI_SEL_DECISION)
 		pass
 	await get_tree().create_timer(0.25).timeout
 	await _tween_alpha(bg, 0.0)

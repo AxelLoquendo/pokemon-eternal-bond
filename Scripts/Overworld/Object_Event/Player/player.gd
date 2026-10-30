@@ -82,6 +82,7 @@ func _unhandled_input(event: InputEvent) -> void:
 
 	var npc: Node2D = _find_facing_npc()
 	if npc != null and npc.has_method("interact"):
+		MusicManager.reproducir_se(SFXGame.SoundEffectID.SE_GUI_SEL_DECISION)
 		npc.call("interact", self)
 		get_viewport().set_input_as_handled()
 

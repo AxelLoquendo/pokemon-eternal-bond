@@ -60,18 +60,24 @@ func _unhandled_input(event: InputEvent) -> void:
 	if _busy:
 		return
 	if event.is_action_pressed("Left") or event.is_action_pressed("ui_left"):
+		_reproducir_sound()
 		_select(false)
 		get_viewport().set_input_as_handled()
 	elif event.is_action_pressed("Right") or event.is_action_pressed("ui_right"):
+		_reproducir_sound()
 		_select(true)
 		get_viewport().set_input_as_handled()
 	elif event.is_action_pressed("buttonA") or event.is_action_pressed("ui_accept"):
+		_reproducir_sound()
 		get_viewport().set_input_as_handled()
 		_confirm()
 	elif event.is_action_pressed("buttonB") or event.is_action_pressed("ui_cancel"):
+		_reproducir_sound()
 		get_viewport().set_input_as_handled()
 		_back()
 
+func _reproducir_sound() -> void:
+	MusicManager.reproducir_se(SFXGame.SoundEffectID.SE_GUI_SEL_CURSOR)
 
 func _select(male: bool) -> void:
 	if _male == male:

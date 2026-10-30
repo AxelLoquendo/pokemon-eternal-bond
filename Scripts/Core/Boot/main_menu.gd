@@ -16,9 +16,9 @@ var _buttons: Array[Sprite2D] = []
 var _busy: bool = true
 
 ## Tintes selección (ajusta a gusto).
-const COL_SELECTED := Color(1.0, 1.0, 1.0, 1.0)
-const COL_IDLE := Color(0.75, 0.75, 0.75, 1.0)
-const COL_DISABLED := Color(0.45, 0.45, 0.45, 0.85)
+const COL_SELECTED: Color = Color(1.0, 1.0, 1.0, 1.0)
+const COL_IDLE: Color = Color(0.75, 0.75, 0.75, 1.0)
+const COL_DISABLED: Color = Color(0.45, 0.45, 0.45, 0.85)
 
 
 func _ready() -> void:
@@ -57,26 +57,33 @@ func _unhandled_input(event: InputEvent) -> void:
 		return
 	var vp: Node = get_viewport()
 	if event.is_action_pressed("Up") or event.is_action_pressed("ui_up"):
+		_reproducir_sound()
 		_move(-1)
 		if vp:
 			vp.set_input_as_handled()
 	elif event.is_action_pressed("Down") or event.is_action_pressed("ui_down"):
+		_reproducir_sound()
 		_move(1)
 		if vp:
 			vp.set_input_as_handled()
 	elif event.is_action_pressed("Left") or event.is_action_pressed("ui_left"):
+		_reproducir_sound()
 		_move(-1)
 		if vp:
 			vp.set_input_as_handled()
 	elif event.is_action_pressed("Right") or event.is_action_pressed("ui_right"):
+		_reproducir_sound()
 		_move(1)
 		if vp:
 			vp.set_input_as_handled()
 	elif event.is_action_pressed("buttonA") or event.is_action_pressed("ui_accept"):
 		if vp:
 			vp.set_input_as_handled()  # ANTES de _confirm (puede cambiar de escena)
+		_reproducir_sound()
 		_confirm()
 
+func _reproducir_sound() -> void:
+	MusicManager.reproducir_se(SFXGame.SoundEffectID.SE_GUI_SEL_CURSOR)
 
 func _move(dir: int) -> void:
 	var n: int = _options.size()
