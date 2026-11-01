@@ -333,11 +333,9 @@ static func from_token(token: String) -> Id:
 		push_warning("AbilityId: id fuera de rango: %s" % t)
 		return Id.NONE
 	var keys: Array = Id.keys()
-	# Match exacto (NIDORANfE / NIDORANmA)
 	for i: int in keys.size():
 		if str(keys[i]) == t:
 			return i as Id
-	# Case-insensitive
 	var upper: String = t.to_upper()
 	for i: int in keys.size():
 		if str(keys[i]).to_upper() == upper:

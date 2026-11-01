@@ -45,8 +45,21 @@ func _save_game(context: ScriptExecutionContext) -> bool:
 
 
 func _heal_party(_context: ScriptExecutionContext) -> bool:
-	# Overworld-only por ahora: solo feedback
-	push_warning("specials HEAL_PARTY: party aún no existe; no-op")
+	var tree: SceneTree = Engine.get_main_loop() as SceneTree
+	if tree == null:
+		return true
+	var session: Node = tree.get_first_node_in_group(&"game_session")
+	if session == null:
+		return true
+	var player: Node = session.get_node_or_null("Player")
+	if player == null:
+		return true
+	var pd: PlayerData = null
+	if "character" in player and player.character is PlayerData:
+		pd = player.character as PlayerData
+	if pd == null:
+		return true
+	pd.heal_party()
 	return true
 
 

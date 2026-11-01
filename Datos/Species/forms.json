@@ -234,14 +234,14 @@
     "flags": [
       "InheritFormWithEverStone"
     ],
+    "wild_item_uncommon": "PECHABERRY",
     "evolutions": [
       {
         "into": "RATICATE",
         "method": "LevelNight",
         "param": "20"
       }
-    ],
-    "wild_item_uncommon": "PECHABERRY"
+    ]
   },
   {
     "species": "RATICATE",
@@ -348,6 +348,7 @@
     "species": "PIKACHU",
     "form": 2,
     "form_name": "Forma Coqueta",
+    "gender_ratio": "AlwaysFemale",
     "abilities": [
       "LIGHTNINGROD"
     ],
@@ -363,6 +364,7 @@
     "species": "PIKACHU",
     "form": 3,
     "form_name": "Forma Aristócrata",
+    "gender_ratio": "AlwaysFemale",
     "abilities": [
       "LIGHTNINGROD"
     ],
@@ -378,6 +380,7 @@
     "species": "PIKACHU",
     "form": 4,
     "form_name": "Forma Enmascarada",
+    "gender_ratio": "AlwaysFemale",
     "abilities": [
       "LIGHTNINGROD"
     ],
@@ -393,6 +396,7 @@
     "species": "PIKACHU",
     "form": 5,
     "form_name": "Forma Erudita",
+    "gender_ratio": "AlwaysFemale",
     "abilities": [
       "LIGHTNINGROD"
     ],
@@ -408,6 +412,7 @@
     "species": "PIKACHU",
     "form": 6,
     "form_name": "Forma Superstar",
+    "gender_ratio": "AlwaysFemale",
     "abilities": [
       "LIGHTNINGROD"
     ],
@@ -423,6 +428,7 @@
     "species": "PIKACHU",
     "form": 7,
     "form_name": "Forma Roquera",
+    "gender_ratio": "AlwaysFemale",
     "abilities": [
       "LIGHTNINGROD"
     ],
@@ -438,6 +444,7 @@
     "species": "PIKACHU",
     "form": 8,
     "form_name": "Forma Gorra Original",
+    "gender_ratio": "AlwaysMale",
     "evolutions": [
       {
         "into": "RAICHU",
@@ -450,6 +457,7 @@
     "species": "PIKACHU",
     "form": 9,
     "form_name": "Forma Gorra Hoenn",
+    "gender_ratio": "AlwaysMale",
     "evolutions": [
       {
         "into": "RAICHU",
@@ -462,6 +470,7 @@
     "species": "PIKACHU",
     "form": 10,
     "form_name": "Forma Gorra Sinnoh",
+    "gender_ratio": "AlwaysMale",
     "evolutions": [
       {
         "into": "RAICHU",
@@ -474,6 +483,7 @@
     "species": "PIKACHU",
     "form": 11,
     "form_name": "Forma Gorra Teselia",
+    "gender_ratio": "AlwaysMale",
     "evolutions": [
       {
         "into": "RAICHU",
@@ -486,6 +496,7 @@
     "species": "PIKACHU",
     "form": 12,
     "form_name": "Forma Gorra Kalos",
+    "gender_ratio": "AlwaysMale",
     "evolutions": [
       {
         "into": "RAICHU",
@@ -498,6 +509,7 @@
     "species": "PIKACHU",
     "form": 13,
     "form_name": "Forma Gorra Alola",
+    "gender_ratio": "AlwaysMale",
     "evolutions": [
       {
         "into": "RAICHU",
@@ -510,6 +522,7 @@
     "species": "PIKACHU",
     "form": 14,
     "form_name": "Forma Gorra Compañero",
+    "gender_ratio": "AlwaysMale",
     "evolutions": [
       {
         "into": "RAICHU",
@@ -522,6 +535,7 @@
     "species": "PIKACHU",
     "form": 15,
     "form_name": "Forma Gorra Trotamundos",
+    "gender_ratio": "AlwaysMale",
     "evolutions": [
       {
         "into": "RAICHU",
@@ -1302,14 +1316,14 @@
     "flags": [
       "InheritFormWithEverStone"
     ],
+    "wild_item_uncommon": "SNOWBALL",
     "evolutions": [
       {
         "into": "NINETALES",
         "method": "Item",
         "param": "ICESTONE"
       }
-    ],
-    "wild_item_uncommon": "SNOWBALL"
+    ]
   },
   {
     "species": "NINETALES",
@@ -1325,6 +1339,14 @@
     "base_spe": 109,
     "base_spa": 81,
     "base_spd": 100,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 2,
+      "spa": 0,
+      "spd": 0
+    },
     "abilities": [
       "SNOWCLOAK"
     ],
@@ -1669,6 +1691,14 @@
     "base_spe": 110,
     "base_spa": 50,
     "base_spd": 70,
+    "evs": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "abilities": [
       "SANDVEIL",
       "TANGLINGHAIR"
@@ -3743,6 +3773,11 @@
     ],
     "evolutions": [
       {
+        "into": "SLOWBRO",
+        "method": "Item",
+        "param": "GALARICACUFF"
+      },
+      {
         "into": "SLOWKING",
         "method": "Item",
         "param": "GALARICAWREATH"
@@ -4125,14 +4160,14 @@
     "flags": [
       "InheritFormWithEverStone"
     ],
+    "wild_item_common": "LEEK",
     "evolutions": [
       {
         "into": "SIRFETCHD",
         "method": "AfterBattleCounter",
         "param": "3"
       }
-    ],
-    "wild_item_common": "LEEK"
+    ]
   },
   {
     "species": "GRIMER",
@@ -4659,6 +4694,7 @@
     ],
     "weight_kg": 13.0,
     "category": "Esfera",
+    "habitat": "Grassland",
     "pokedex": "Curioso ejemplar que guarda cierta similitud con una Poké Ball. Cuanto más se altera, mayor es la descarga eléctrica que libera, a la que sigue una carcajada.",
     "generation": 8,
     "flags": [
@@ -4798,6 +4834,7 @@
     ],
     "weight_kg": 71.0,
     "category": "Esfera",
+    "habitat": "Grassland",
     "pokedex": "Su complexión superficial es muy semejante a la de un bonguri. Cuando se enoja, la electricidad que emite es veinte veces más potente que la de un rayo.",
     "generation": 8,
     "flags": [
@@ -5419,6 +5456,14 @@
     "base_spe": 100,
     "base_spa": 90,
     "base_spd": 90,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 2,
+      "spa": 0,
+      "spd": 0
+    },
     "abilities": [
       "VITALSPIRIT",
       "SCREENCLEANER"
@@ -5690,6 +5735,14 @@
     "base_spe": 100,
     "base_spa": 30,
     "base_spd": 70,
+    "evs": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "hidden_abilities": [
       "CUDCHEW"
     ],
@@ -5815,6 +5868,14 @@
     "base_spe": 100,
     "base_spa": 30,
     "base_spd": 70,
+    "evs": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "hidden_abilities": [
       "CUDCHEW"
     ],
@@ -5946,6 +6007,14 @@
     "base_spe": 100,
     "base_spa": 30,
     "base_spd": 70,
+    "evs": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "hidden_abilities": [
       "CUDCHEW"
     ],
@@ -6123,6 +6192,14 @@
     "base_spe": 95,
     "base_spa": 125,
     "base_spd": 100,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 3,
+      "spd": 0
+    },
     "abilities": [
       "COMPETITIVE"
     ],
@@ -6274,6 +6351,14 @@
     "base_spe": 100,
     "base_spa": 85,
     "base_spd": 90,
+    "evs": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "abilities": [
       "DEFIANT"
     ],
@@ -6428,6 +6513,14 @@
     "base_spe": 90,
     "base_spa": 100,
     "base_spd": 125,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 3
+    },
     "abilities": [
       "BERSERK"
     ],
@@ -7736,6 +7829,7 @@
     ],
     "weight_kg": 27.0,
     "color": "Gray",
+    "habitat": "Mountain",
     "pokedex": "Sus robustas garras son ideales para moverse por los riscos más escarpados. De sus puntas rezuma un veneno que daña los nervios de las presas que captura.",
     "generation": 8,
     "flags": [
@@ -8834,7 +8928,9 @@
     "height_m": 10.8,
     "weight_kg": 392.0,
     "pokedex": "A veces, lo que parece una estrella fugaz en el cielo nocturno podría ser Mega-Rayquaza volando tras un meteorito.",
-    "generation": 6
+    "generation": 6,
+    "mega_move": "DRAGONASCENT",
+    "mega_message": "1"
   },
   {
     "species": "DEOXYS",
@@ -8846,6 +8942,14 @@
     "base_spe": 150,
     "base_spa": 180,
     "base_spd": 20,
+    "evs": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spe": 0,
+      "spa": 1,
+      "spd": 0
+    },
     "level_moves": [
       {
         "level": 1,
@@ -9027,6 +9131,14 @@
     "base_spe": 90,
     "base_spa": 70,
     "base_spd": 160,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spe": 0,
+      "spa": 0,
+      "spd": 1
+    },
     "level_moves": [
       {
         "level": 1,
@@ -9218,6 +9330,14 @@
     "base_spe": 180,
     "base_spa": 95,
     "base_spd": 90,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 3,
+      "spa": 0,
+      "spd": 0
+    },
     "level_moves": [
       {
         "level": 1,
@@ -9442,6 +9562,14 @@
     "base_spe": 36,
     "base_spa": 59,
     "base_spd": 85,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "level_moves": [
       {
         "level": 0,
@@ -9589,6 +9717,14 @@
     "base_spe": 36,
     "base_spa": 69,
     "base_spd": 95,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 1,
+      "spe": 0,
+      "spa": 0,
+      "spd": 1
+    },
     "level_moves": [
       {
         "level": 0,
@@ -10217,6 +10353,14 @@
     "base_spe": 127,
     "base_spa": 120,
     "base_spd": 75,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 3,
+      "spa": 0,
+      "spd": 0
+    },
     "abilities": [
       "SERENEGRACE"
     ],
@@ -10514,6 +10658,14 @@
     "base_spe": 85,
     "base_spa": 100,
     "base_spd": 65,
+    "evs": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "hidden_abilities": [
       "SHARPNESS"
     ],
@@ -10740,6 +10892,14 @@
     "base_spe": 105,
     "base_spa": 50,
     "base_spd": 75,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 1,
+      "spa": 0,
+      "spd": 0
+    },
     "abilities": [
       "CHLOROPHYLL",
       "HUSTLE"
@@ -11041,14 +11201,14 @@
     "flags": [
       "InheritFormFromMother"
     ],
+    "wild_item_uncommon": "DEEPSEATOOTH",
     "evolutions": [
       {
         "into": "BASCULEGION",
         "method": "None",
         "param": ""
       }
-    ],
-    "wild_item_uncommon": "DEEPSEATOOTH"
+    ]
   },
   {
     "species": "BASCULIN",
@@ -11193,14 +11353,14 @@
     "flags": [
       "InheritFormFromMother"
     ],
+    "wild_item_uncommon": "DEEPSEASCALE",
     "evolutions": [
       {
         "into": "BASCULEGION",
         "method": "None",
         "param": ""
       }
-    ],
-    "wild_item_uncommon": "DEEPSEASCALE"
+    ]
   },
   {
     "species": "DARUMAKA",
@@ -11364,6 +11524,14 @@
     "base_spe": 55,
     "base_spa": 140,
     "base_spd": 105,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 2,
+      "spd": 0
+    },
     "base_exp": 189,
     "color": "Blue",
     "pokedex": "Cuando resulta herido, se queda inmóvil como una piedra y medita para agudizar la mente."
@@ -11537,6 +11705,14 @@
     "base_spe": 135,
     "base_spa": 30,
     "base_spd": 55,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 2,
+      "spd": 0
+    },
     "base_exp": 189,
     "abilities": [
       "GORILLATACTICS"
@@ -11849,6 +12025,11 @@
       "InheritFormWithEverStone"
     ],
     "evolutions": [
+      {
+        "into": "RUNERIGUS",
+        "method": "AfterBattleCounterMakeReady",
+        "param": "49"
+      },
       {
         "into": "RUNERIGUS",
         "method": "EventReady",
@@ -12414,6 +12595,14 @@
     "base_spe": 65,
     "base_spa": 112,
     "base_spd": 70,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 2,
+      "spd": 0
+    },
     "hidden_abilities": [
       "TINTEDLENS"
     ],
@@ -12561,6 +12750,14 @@
     "base_spe": 121,
     "base_spa": 110,
     "base_spd": 90,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 3,
+      "spa": 0,
+      "spd": 0
+    },
     "abilities": [
       "REGENERATOR"
     ],
@@ -12580,6 +12777,14 @@
     "base_spe": 101,
     "base_spa": 145,
     "base_spd": 80,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 3,
+      "spd": 0
+    },
     "abilities": [
       "VOLTABSORB"
     ],
@@ -12599,6 +12804,14 @@
     "base_spe": 91,
     "base_spa": 105,
     "base_spd": 80,
+    "evs": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "abilities": [
       "INTIMIDATE"
     ],
@@ -12618,6 +12831,14 @@
     "base_spe": 95,
     "base_spa": 170,
     "base_spd": 100,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 3,
+      "spd": 0
+    },
     "base_exp": 350,
     "abilities": [
       "TURBOBLAZE"
@@ -12697,6 +12918,14 @@
     "base_spe": 95,
     "base_spa": 120,
     "base_spd": 90,
+    "evs": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "base_exp": 350,
     "abilities": [
       "TERAVOLT"
@@ -12776,6 +13005,14 @@
     "base_spe": 95,
     "base_spa": 170,
     "base_spd": 100,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 3,
+      "spd": 0
+    },
     "base_exp": 350,
     "abilities": [
       "TURBOBLAZE"
@@ -12843,7 +13080,8 @@
       }
     ],
     "height_m": 3.6,
-    "pokedex": "Como heraldo del mundo verdadero que ha de llegar para humanos y Pokémon, ha asumido la misión de protegerlo."
+    "pokedex": "Como heraldo del mundo verdadero que ha de llegar para humanos y Pokémon, ha asumido la misión de protegerlo.",
+    "pokedex_form": "1"
   },
   {
     "species": "KYUREM",
@@ -12855,6 +13093,14 @@
     "base_spe": 95,
     "base_spa": 120,
     "base_spd": 90,
+    "evs": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "base_exp": 350,
     "abilities": [
       "TERAVOLT"
@@ -12922,7 +13168,8 @@
       }
     ],
     "height_m": 3.3,
-    "pokedex": "Se dice que lucha con el objetivo de defender el mundo ideal para humanos y Pokémon que se hará realidad en el futuro."
+    "pokedex": "Se dice que lucha con el objetivo de defender el mundo ideal para humanos y Pokémon que se hará realidad en el futuro.",
+    "pokedex_form": "2"
   },
   {
     "species": "KELDEO",
@@ -12943,7 +13190,15 @@
     "base_def": 90,
     "base_spe": 128,
     "base_spa": 77,
-    "base_spd": 77
+    "base_spd": 77,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 1,
+      "spe": 1,
+      "spa": 0,
+      "spd": 0
+    }
   },
   {
     "species": "GENESECT",
@@ -13020,6 +13275,9 @@
     ],
     "hidden_abilities": [
       "BATTLEBOND"
+    ],
+    "egg_groups": [
+      "Undiscovered"
     ]
   },
   {
@@ -13298,6 +13556,9 @@
         "move": "SOLARBEAM"
       }
     ],
+    "egg_groups": [
+      "Undiscovered"
+    ],
     "pokedex": "Hoy en día, la flor que lleva ya no se ve en la naturaleza. Se cree que alberga un temible poder.",
     "evolutions": [
       {
@@ -13533,6 +13794,14 @@
     "base_spe": 60,
     "base_spa": 140,
     "base_spd": 50,
+    "evs": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spe": 0,
+      "spa": 1,
+      "spd": 0
+    },
     "pokedex": "Al adoptar esta forma, centra su estrategia en la ofensiva, aprovechando todo el peso y la fuerza del acero para atacar al rival."
   },
   {
@@ -14243,6 +14512,7 @@
     "weight_kg": 610.0,
     "color": "Black",
     "shape": "BipedalTail",
+    "pokedex_form": "2",
     "flags": [
       "Legendary"
     ]
@@ -14267,11 +14537,11 @@
     "weight_kg": 610.0,
     "pokedex": "En crisis sin precedentes, megaevoluciona en respuesta a las emociones de la gente. Domina cualquier situación con su fuerza sin igual.",
     "generation": 9,
-    "mega_stone": "ZYGARDITE",
-    "unmega_form": -2,
     "flags": [
       "Legendary"
-    ]
+    ],
+    "mega_stone": "ZYGARDITE",
+    "unmega_form": -2
   },
   {
     "species": "DIANCIE",
@@ -15183,6 +15453,14 @@
     "base_spe": 120,
     "base_spa": 100,
     "base_spd": 60,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 0,
+      "spa": 1,
+      "spd": 0
+    },
     "base_exp": 175,
     "weight_kg": 0.3,
     "color": "Red",
@@ -15201,6 +15479,14 @@
     "base_spe": 120,
     "base_spa": 100,
     "base_spd": 60,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 0,
+      "spa": 1,
+      "spd": 0
+    },
     "base_exp": 175,
     "weight_kg": 0.3,
     "color": "Red",
@@ -15219,6 +15505,14 @@
     "base_spe": 120,
     "base_spa": 100,
     "base_spd": 60,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 0,
+      "spa": 1,
+      "spd": 0
+    },
     "base_exp": 175,
     "weight_kg": 0.3,
     "color": "Yellow",
@@ -15237,6 +15531,14 @@
     "base_spe": 120,
     "base_spa": 100,
     "base_spd": 60,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 0,
+      "spa": 1,
+      "spd": 0
+    },
     "base_exp": 175,
     "weight_kg": 0.3,
     "color": "Green",
@@ -15255,6 +15557,14 @@
     "base_spe": 120,
     "base_spa": 100,
     "base_spd": 60,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 0,
+      "spa": 1,
+      "spd": 0
+    },
     "base_exp": 175,
     "weight_kg": 0.3,
     "color": "Blue",
@@ -15273,6 +15583,14 @@
     "base_spe": 120,
     "base_spa": 100,
     "base_spd": 60,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 0,
+      "spa": 1,
+      "spd": 0
+    },
     "base_exp": 175,
     "weight_kg": 0.3,
     "color": "Blue",
@@ -15291,6 +15609,14 @@
     "base_spe": 120,
     "base_spa": 100,
     "base_spd": 60,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 0,
+      "spa": 1,
+      "spd": 0
+    },
     "base_exp": 175,
     "weight_kg": 0.3,
     "color": "Purple",
@@ -15341,6 +15667,14 @@
     "base_spe": 77,
     "base_spa": 113,
     "base_spd": 109,
+    "evs": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "base_exp": 340,
     "height_m": 3.8,
     "weight_kg": 460.0,
@@ -15362,6 +15696,14 @@
     "base_spe": 77,
     "base_spa": 157,
     "base_spd": 127,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 3,
+      "spd": 0
+    },
     "base_exp": 340,
     "height_m": 4.2,
     "weight_kg": 350.0,
@@ -15382,6 +15724,14 @@
     "base_spe": 129,
     "base_spa": 167,
     "base_spd": 97,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 1,
+      "spa": 1,
+      "spd": 0
+    },
     "base_exp": 377,
     "abilities": [
       "NEUROFORCE"
@@ -15404,12 +15754,21 @@
     "base_spe": 129,
     "base_spa": 167,
     "base_spd": 97,
+    "evs": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 1,
+      "spa": 1,
+      "spd": 0
+    },
     "base_exp": 377,
     "abilities": [
       "NEUROFORCE"
     ],
     "height_m": 7.5,
-    "color": "Yellow"
+    "color": "Yellow",
+    "pokedex_form": "3"
   },
   {
     "species": "MAGEARNA",
@@ -16151,6 +16510,14 @@
     "base_spe": 85,
     "base_spa": 95,
     "base_spd": 105,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 2
+    },
     "abilities": [
       "OWNTEMPO",
       "SYNCHRONIZE"
@@ -16492,6 +16859,14 @@
     "base_spe": 50,
     "base_spa": 85,
     "base_spd": 130,
+    "evs": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "base_exp": 340,
     "abilities": [
       "ASONECHILLINGNEIGH"
@@ -16741,6 +17116,14 @@
     "base_spe": 150,
     "base_spa": 165,
     "base_spd": 100,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 3,
+      "spd": 0
+    },
     "base_exp": 340,
     "abilities": [
       "ASONEGRIMNEIGH"
@@ -16978,6 +17361,14 @@
     "base_spe": 52,
     "base_spa": 135,
     "base_spd": 65,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 3,
+      "spd": 0
+    },
     "abilities": [
       "MINDSEYE"
     ],
@@ -17121,7 +17512,8 @@
     "base_def": 65,
     "base_spe": 78,
     "base_spa": 100,
-    "base_spd": 75
+    "base_spd": 75,
+    "gender_ratio": "AlwaysFemale"
   },
   {
     "species": "ENAMORUS",
@@ -17491,6 +17883,7 @@
     "species": "GIMMIGHOUL",
     "form": 1,
     "form_name": "Forma Andante",
+    "catch_rate": 45,
     "abilities": [
       "RUNAWAY"
     ],
@@ -17577,7 +17970,8 @@
   {
     "species": "OGERPON",
     "form": 4,
-    "form_name": ""
+    "form_name": "",
+    "pokedex_form": "0"
   },
   {
     "species": "OGERPON",
@@ -17591,6 +17985,7 @@
       "WATERABSORB"
     ],
     "color": "Blue",
+    "pokedex_form": "1",
     "flags": [
       "Legendary",
       "TeraType_WATER"
@@ -17608,6 +18003,7 @@
       "MOLDBREAKER"
     ],
     "color": "Red",
+    "pokedex_form": "2",
     "flags": [
       "Legendary",
       "TeraType_FIRE"
@@ -17625,6 +18021,7 @@
       "STURDY"
     ],
     "color": "Gray",
+    "pokedex_form": "3",
     "flags": [
       "Legendary",
       "TeraType_ROCK"
@@ -17699,6 +18096,14 @@
     "base_spe": 85,
     "base_spa": 105,
     "base_spd": 110,
+    "evs": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spe": 0,
+      "spa": 0,
+      "spd": 2
+    },
     "abilities": [
       "TERASHELL"
     ],
@@ -17721,6 +18126,14 @@
     "base_spe": 85,
     "base_spa": 130,
     "base_spd": 110,
+    "evs": {
+      "hp": 3,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
     "abilities": [
       "TERAFORMZERO"
     ],
