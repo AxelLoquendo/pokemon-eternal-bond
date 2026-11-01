@@ -4,7 +4,7 @@ extends Node2D
 @onready var controller: CharacterController = $"../CharacterController"
 @onready var animation_controller: CharacterAnimatedController = $"../CharacterAnimatedController"
 
-enum State { IDLE, WALK, RUN, STAIRS, LOCKED }
+enum State { IDLE, WALK, RUN, STAIRS, LOCKED, SLIP, FISHING, BIKE, BATTLE, SURF, DIVE }
 
 var current_state: State = State.IDLE
 var previous_state: State = State.IDLE

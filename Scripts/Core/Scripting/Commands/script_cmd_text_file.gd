@@ -157,6 +157,10 @@ func _create(command_name: String, args: Array) -> ScriptCommand:
 			return _cmd_set_var(args, true)
 		"compare":
 			return _cmd_compare(args)
+		"giveitem":
+			return _cmd_give_item(args)
+		"checkitem":
+			return _cmd_check_item(args)
 		_:
 			push_warning("ScriptCmdTextFile: comando no portado aún '%s'" % command_name)
 			return null
@@ -330,6 +334,29 @@ func _cmd_specials(args: Array) -> ScriptCmdSpecials:
 		c.special_id = ScriptSpecials.from_token(str(args[0]))
 	if args.size() >= 2 and str(args[1]).to_lower() == "silent":
 		c.silent = true
+	return c
+
+func _cmd_give_item(args: Array) -> ScriptCmdGiveItem:
+	var c := ScriptCmdGiveItem.new()
+	if not args.is_empty():
+		c.item_id = ItemId.from_token(str(args[0]))
+	if args.size() >= 2 and str(args[1]).is_valid_int():
+		c.amount = int(args[1])
+	if args.size() >= 3 and str(args[2]).to_lower() == "silent":
+		c.silent = true
+	return c
+
+
+func _cmd_check_item(args: Array) -> ScriptCmdCheckItem:
+	var c := ScriptCmdCheckItem.new()
+	if not args.is_empty():
+		c.item_id = ItemId.from_token(str(args[0]))
+	var i: int = 1
+	if args.size() >= 2 and str(args[1]).is_valid_int():
+		c.amount = int(args[1])
+		i = 2
+	if args.size() > i:
+		c.target_label = str(args[i])
 	return c
 
 func get_display_text() -> String:
