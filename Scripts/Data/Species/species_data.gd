@@ -17,7 +17,6 @@ extends Resource
 @export var growth_rate: String = "Medium"
 @export var abilities: Array[AbilityId.Id] = []
 @export var hidden_abilities: Array[AbilityId.Id] = []
-## [{ "level": 1, "move": "TACKLE" }, ...]
 @export var level_moves: Array[Dictionary] = []
 @export var tutor_move_tokens: PackedStringArray = PackedStringArray()
 @export var egg_move_tokens: PackedStringArray = PackedStringArray()
@@ -28,9 +27,11 @@ extends Resource
 @export var color: String = ""
 @export var shape: String = ""
 @export var category: String = ""
+@export var habitat: String = ""
 @export_multiline var pokedex: String = ""
 @export var generation: int = 1
-@export var evolutions_raw: PackedStringArray = PackedStringArray()
+## [{ "into": "IVYSAUR", "method": "Level", "param": "16" }, ...]
+@export var evolutions: Array[Dictionary] = []
 
 
 static func from_dict(d: Dictionary) -> SpeciesData:
@@ -54,6 +55,7 @@ static func from_dict(d: Dictionary) -> SpeciesData:
 	data.color = str(d.get("color", ""))
 	data.shape = str(d.get("shape", ""))
 	data.category = str(d.get("category", ""))
+	data.habitat = str(d.get("habitat", ""))
 	data.pokedex = str(d.get("pokedex", ""))
 	data.generation = int(d.get("generation", 1))
 
@@ -82,14 +84,15 @@ static func from_dict(d: Dictionary) -> SpeciesData:
 		data.egg_move_tokens.append(str(x))
 	for x: Variant in d.get("egg_groups", []):
 		data.egg_groups.append(str(x))
-	for x: Variant in d.get("evolutions", []):
-		data.evolutions_raw.append(str(x))
+
+	for e: Variant in d.get("evolutions", []):
+		if e is Dictionary:
+			data.evolutions.append(e as Dictionary)
 
 	return data
 
 
 func get_level_up_moves() -> Array[Dictionary]:
-	## Resuelve tokens a MoveId cuando el enum ya está importado.
 	var out: Array[Dictionary] = []
 	for lm: Dictionary in level_moves:
 		var mid: MoveId.Id = MoveId.from_token(str(lm.get("move", "")))

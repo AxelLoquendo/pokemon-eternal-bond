@@ -2,8 +2,11 @@ class_name PokemonInstance
 extends Resource
 ## Un Pokémon concreto (party / caja). No es la species del PBS.
 
+var sp: SpeciesData = SpeciesCatalog.get_species_resolved(species, form)
+
 @export var species: SpeciesId.Id = SpeciesId.Id.NONE
 @export var nickname: String = ""
+@export var form: int = 0
 @export var level: int = 1
 @export var exp: int = 0
 @export var hp: int = 0

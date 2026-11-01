@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Importa PBS → enums + JSON. Imprime entradas omitidas.
+"""Importa PBS → enums + JSON.
 
 Uso:
   python tools/import_pbs.py abilities tools/abilities.txt
   python tools/import_pbs.py moves tools/moves.txt
   python tools/import_pbs.py species tools/pokemon.txt
+  python tools/import_pbs.py forms tools/pokemon_forms.txt
   python tools/import_pbs.py all tools/PBS --root "C:/Users/ASUS/Desktop/pokemon-eternal-bond"
 """
 from __future__ import annotations
@@ -15,9 +16,24 @@ import re
 import sys
 from pathlib import Path
 
-# Mayúsculas y minúsculas: NIDORANfE, NIDORANmA, etc.
-SECTION_RE = re.compile(r"^\[([A-Za-z0-9_]+)\]$")
+# [BULBASAUR] o [VENUSAUR,1] o [NIDORANfE]
+SECTION_RE = re.compile(r"^\[([A-Za-z0-9_]+)(?:,(\d+))?\]$")
 ID_RE = re.compile(r"^[A-Za-z0-9_]+$")
+
+_EVO_NO_PARAM = {
+    "None",
+    "Happiness",
+    "HappinessMale",
+    "HappinessFemale",
+    "HappinessDay",
+    "HappinessNight",
+    "HappinessMorning",
+    "HappinessAfternoon",
+    "HappinessEvening",
+    "Trade",
+    "CollectItems",
+    "BattleDealCriticalHit",
+}
 
 
 def parse_pbs(text: str, label: str) -> list[dict]:
@@ -35,17 +51,23 @@ def parse_pbs(text: str, label: str) -> list[dict]:
         m = SECTION_RE.match(line)
         if m:
             if current is not None:
-                # current tiene id + campos; _line es metadata
-                field_count = len([k for k in current if k not in ("id", "_line")])
+                field_count = len(
+                    [k for k in current if k not in ("id", "form", "_line")]
+                )
                 if field_count == 0:
                     skipped_empty_sections += 1
                     print(
                         f"[{label}] OMITIDA sección vacía "
-                        f"id={current.get('id')} (antes de línea {line_no})"
+                        f"id={current.get('id')} form={current.get('form')} "
+                        f"(antes de línea {line_no})"
                     )
                 else:
                     items.append(current)
-            current = {"id": m.group(1), "_line": line_no}
+            current = {
+                "id": m.group(1),
+                "form": int(m.group(2)) if m.group(2) is not None else 0,
+                "_line": line_no,
+            }
             continue
         if current is None:
             print(f"[{label}] OMITIDA línea huérfana {line_no}: {line[:80]}")
@@ -57,10 +79,13 @@ def parse_pbs(text: str, label: str) -> list[dict]:
         current[key.strip()] = val.strip()
 
     if current is not None:
-        field_count = len([k for k in current if k not in ("id", "_line")])
+        field_count = len([k for k in current if k not in ("id", "form", "_line")])
         if field_count == 0:
             skipped_empty_sections += 1
-            print(f"[{label}] OMITIDA sección vacía al final id={current.get('id')}")
+            print(
+                f"[{label}] OMITIDA sección vacía al final "
+                f"id={current.get('id')} form={current.get('form')}"
+            )
         else:
             items.append(current)
 
@@ -72,7 +97,7 @@ def parse_pbs(text: str, label: str) -> list[dict]:
     return items
 
 
-FROM_TOKEN_BODY = '''
+FROM_TOKEN_BODY = """
 static func from_token(token: String) -> Id:
 	var t: String = token.strip_edges()
 	if t.is_empty():
@@ -84,11 +109,9 @@ static func from_token(token: String) -> Id:
 		push_warning("{cls}: id fuera de rango: %s" % t)
 		return Id.NONE
 	var keys: Array = Id.keys()
-	# Match exacto (NIDORANfE / NIDORANmA)
 	for i: int in keys.size():
 		if str(keys[i]) == t:
 			return i as Id
-	# Case-insensitive
 	var upper: String = t.to_upper()
 	for i: int in keys.size():
 		if str(keys[i]).to_upper() == upper:
@@ -101,7 +124,7 @@ static func to_key(id: Id) -> String:
 	if id == Id.NONE:
 		return ""
 	return str(Id.keys()[id])
-'''.lstrip("\n")
+""".lstrip("\n")
 
 
 def write_enum(class_name: str, ids: list[str], path: Path, header_note: str) -> None:
@@ -144,6 +167,75 @@ def _unique_ids(raw: list[dict], label: str) -> list[dict]:
             continue
         seen.add(i)
         out.append(r)
+    return out
+
+
+def _split_csv(s: str) -> list[str]:
+    return [x.strip() for x in s.split(",") if x.strip()]
+
+
+def _parse_level_moves(s: str, species_id: str) -> list[dict]:
+    parts = _split_csv(s)
+    out: list[dict] = []
+    i = 0
+    bad = 0
+    while i < len(parts):
+        try:
+            level = int(parts[i])
+        except ValueError:
+            bad += 1
+            if bad <= 3:
+                print(f"[species] AVISO {species_id}: token no numérico en Moves: {parts[i]!r}")
+            i += 1
+            continue
+        if i + 1 >= len(parts):
+            bad += 1
+            print(f"[species] AVISO {species_id}: nivel sin movimiento: {level}")
+            break
+        out.append({"level": level, "move": parts[i + 1]})
+        i += 2
+    if bad:
+        print(f"[species] AVISO {species_id}: {bad} tokens raros en Moves")
+    return out
+
+
+def _parse_stats(s: str, species_id: str) -> dict | None:
+    try:
+        p = [int(x) for x in _split_csv(s)]
+    except ValueError:
+        print(f"[species] OMITIDA {species_id}: BaseStats no numérico: {s!r}")
+        return None
+    if len(p) < 6:
+        print(f"[species] OMITIDA {species_id}: BaseStats incompleto ({len(p)}/6): {s!r}")
+        return None
+    return {
+        "base_hp": p[0],
+        "base_atk": p[1],
+        "base_def": p[2],
+        "base_spe": p[3],
+        "base_spa": p[4],
+        "base_spd": p[5],
+    }
+
+
+def _parse_evolutions(s: str, species_id: str) -> list[dict]:
+    parts = _split_csv(s)
+    out: list[dict] = []
+    i = 0
+    while i + 1 < len(parts):
+        into = parts[i]
+        method = parts[i + 1]
+        i += 2
+        param = ""
+        if method not in _EVO_NO_PARAM:
+            if i >= len(parts):
+                print(f"[species] AVISO {species_id}: {into},{method} sin param")
+                break
+            param = parts[i]
+            i += 1
+        out.append({"into": into, "method": method, "param": param})
+    if i < len(parts):
+        print(f"[species] AVISO {species_id}: Evolutions tokens sobrantes: {parts[i:]}")
     return out
 
 
@@ -221,60 +313,13 @@ def import_moves(src: Path, root: Path) -> int:
     return len(rows)
 
 
-def _split_csv(s: str) -> list[str]:
-    return [x.strip() for x in s.split(",") if x.strip()]
-
-
-def _parse_level_moves(s: str, species_id: str) -> list[dict]:
-    parts = _split_csv(s)
-    out: list[dict] = []
-    i = 0
-    bad = 0
-    while i < len(parts):
-        # Acepta 0, 5, -1 (prevo), etc.
-        try:
-            level = int(parts[i])
-        except ValueError:
-            bad += 1
-            if bad <= 3:
-                print(f"[species] AVISO {species_id}: token no numérico en Moves: {parts[i]!r}")
-            i += 1
-            continue
-        if i + 1 >= len(parts):
-            bad += 1
-            print(f"[species] AVISO {species_id}: nivel sin movimiento: {level}")
-            break
-        move = parts[i + 1]
-        out.append({"level": level, "move": move})
-        i += 2
-    if bad:
-        print(f"[species] AVISO {species_id}: {bad} tokens raros en Moves (tras fix debería ser 0)")
-    return out
-
-def _parse_stats(s: str, species_id: str) -> dict | None:
-    try:
-        p = [int(x) for x in _split_csv(s)]
-    except ValueError:
-        print(f"[species] OMITIDA {species_id}: BaseStats no numérico: {s!r}")
-        return None
-    if len(p) < 6:
-        print(f"[species] OMITIDA {species_id}: BaseStats incompleto ({len(p)}/6): {s!r}")
-        return None
-    return {
-        "base_hp": p[0],
-        "base_atk": p[1],
-        "base_def": p[2],
-        "base_spe": p[3],
-        "base_spa": p[4],
-        "base_spd": p[5],
-    }
-
-
 def import_species(src: Path, root: Path) -> int:
     label = "species"
     raw = _unique_ids(parse_pbs(src.read_text(encoding="utf-8"), label), label)
     rows: list[dict] = []
     ids: list[str] = []
+    missing_evo_key = 0
+
     for r in raw:
         i = r["id"]
         if not ID_RE.fullmatch(i):
@@ -286,6 +331,12 @@ def import_species(src: Path, root: Path) -> int:
         stats = _parse_stats(r["BaseStats"], i)
         if stats is None:
             continue
+
+        evo_str = r.get("Evolutions", "") or r.get("Evolution", "")
+        if "Evolutions" not in r and "Evolution" not in r:
+            missing_evo_key += 1
+        evolutions = _parse_evolutions(evo_str, i)
+
         ids.append(i)
         rows.append({
             "id": i,
@@ -309,14 +360,16 @@ def import_species(src: Path, root: Path) -> int:
             "color": r.get("Color", ""),
             "shape": r.get("Shape", ""),
             "category": r.get("Category", ""),
+            "habitat": r.get("Habitat", ""),
             "pokedex": r.get("Pokedex", ""),
             "generation": int(r.get("Generation", "1") or 1),
-            "evolutions": _split_csv(r.get("Evolutions", "")),
+            "evolutions": evolutions,
         })
         if not r.get("Types"):
             print(f"[{label}] AVISO {i}: sin Types")
         if not r.get("Abilities"):
             print(f"[{label}] AVISO {i}: sin Abilities")
+
     write_enum(
         "SpeciesId",
         ids,
@@ -324,13 +377,120 @@ def import_species(src: Path, root: Path) -> int:
         "Generado por tools/import_pbs.py species",
     )
     write_json(rows, root / "Datos/Species/species.json")
-    print(f"[{label}] OK: {len(rows)} exportadas")
+
+    with_evo = sum(1 for row in rows if row["evolutions"])
+    print(f"[{label}] OK: {len(rows)} exportadas ({with_evo} con evoluciones)")
+    if with_evo == 0:
+        print(
+            f"[{label}] AVISO: 0 evoluciones. "
+            f"Sin clave Evolutions: {missing_evo_key}/{len(rows)}."
+        )
+    for row in rows:
+        if row["id"] == "BULBASAUR":
+            print(f"[{label}] BULBASAUR evolutions = {row['evolutions']}")
+            break
+    return len(rows)
+
+
+def import_forms(src: Path, root: Path) -> int:
+    label = "forms"
+    raw = parse_pbs(src.read_text(encoding="utf-8"), label)
+    rows: list[dict] = []
+    seen: set[tuple[str, int]] = set()
+
+    for r in raw:
+        base_id = r.get("id", "")
+        form_idx = int(r.get("form", 0))
+        if form_idx <= 0:
+            print(f"[{label}] OMITIDA {base_id}: form={form_idx} (solo >0)")
+            continue
+        if not ID_RE.fullmatch(base_id):
+            print(f"[{label}] OMITIDA id inválido: {base_id!r}")
+            continue
+        key = (base_id, form_idx)
+        if key in seen:
+            print(f"[{label}] OMITIDA duplicada: {base_id},{form_idx}")
+            continue
+        seen.add(key)
+
+        tag = f"{base_id}_{form_idx}"
+        row: dict = {
+            "species": base_id,
+            "form": form_idx,
+            "form_name": r.get("FormName", ""),
+        }
+
+        if "Types" in r:
+            row["types"] = _split_csv(r["Types"])
+        if "BaseStats" in r:
+            stats = _parse_stats(r["BaseStats"], tag)
+            if stats:
+                row.update(stats)
+        if "BaseExp" in r:
+            row["base_exp"] = int(r.get("BaseExp") or 0)
+        if "Abilities" in r:
+            row["abilities"] = _split_csv(r["Abilities"])
+        if "HiddenAbilities" in r:
+            row["hidden_abilities"] = _split_csv(r["HiddenAbilities"])
+        if "Moves" in r:
+            row["level_moves"] = _parse_level_moves(r["Moves"], tag)
+        if "TutorMoves" in r:
+            row["tutor_moves"] = _split_csv(r["TutorMoves"])
+        if "EggMoves" in r:
+            row["egg_moves"] = _split_csv(r["EggMoves"])
+        if "Height" in r:
+            row["height_m"] = float(r.get("Height") or 0)
+        if "Weight" in r:
+            row["weight_kg"] = float(r.get("Weight") or 0)
+        if "Color" in r:
+            row["color"] = r.get("Color", "")
+        if "Shape" in r:
+            row["shape"] = r.get("Shape", "")
+        if "Category" in r:
+            row["category"] = r.get("Category", "")
+        if "Pokedex" in r:
+            row["pokedex"] = r.get("Pokedex", "")
+        if "Generation" in r:
+            row["generation"] = int(r.get("Generation") or 0)
+        if "MegaStone" in r:
+            row["mega_stone"] = r.get("MegaStone", "")
+        if "MegaName" in r:
+            row["mega_name"] = r.get("MegaName", "")
+        if "UnmegaForm" in r:
+            row["unmega_form"] = int(r.get("UnmegaForm") or 0)
+        if "Flags" in r:
+            row["flags"] = _split_csv(r["Flags"])
+        if "Evolutions" in r or "Evolution" in r:
+            evo_str = r.get("Evolutions", "") or r.get("Evolution", "")
+            row["evolutions"] = _parse_evolutions(evo_str, tag)
+        if "WildItemCommon" in r:
+            row["wild_item_common"] = r.get("WildItemCommon", "")
+        if "WildItemUncommon" in r:
+            row["wild_item_uncommon"] = r.get("WildItemUncommon", "")
+        if "WildItemRare" in r:
+            row["wild_item_rare"] = r.get("WildItemRare", "")
+
+        rows.append(row)
+
+    out = root / "Datos/Species/forms.json"
+    write_json(rows, out)
+    print(f"[{label}] OK: {len(rows)} formas → {out}")
+    for row in rows:
+        if row["species"] == "VENUSAUR" and row["form"] == 1:
+            print(
+                f"[{label}] VENUSAUR,1 = {row.get('form_name')!r} "
+                f"hp={row.get('base_hp')}"
+            )
+            break
     return len(rows)
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("kind", choices=["abilities", "moves", "species", "all"])
+    ap.add_argument(
+        "kind",
+        choices=["abilities", "moves", "species", "forms", "all"],
+    )
     ap.add_argument("path", type=Path)
     ap.add_argument("--root", type=Path, default=None)
     args = ap.parse_args()
@@ -349,6 +509,7 @@ def main() -> int:
             ("abilities.txt", import_abilities),
             ("moves.txt", import_moves),
             ("pokemon.txt", import_species),
+            ("pokemon_forms.txt", import_forms),
         ]:
             f = path / name
             if not f.is_file():
@@ -367,8 +528,10 @@ def main() -> int:
         import_abilities(path, root)
     elif args.kind == "moves":
         import_moves(path, root)
-    else:
+    elif args.kind == "species":
         import_species(path, root)
+    else:
+        import_forms(path, root)
     return 0
 
 
