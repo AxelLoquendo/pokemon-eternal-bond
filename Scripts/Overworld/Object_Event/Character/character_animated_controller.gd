@@ -117,7 +117,10 @@ func get_idle_animation(direction: Vector2) -> String:
 
 
 func _play(animation_name: String) -> void:
-	if sprite == null:
+	if sprite == null or sprite.sprite_frames == null:
 		return
-	if sprite.sprite_frames and sprite.sprite_frames.has_animation(animation_name):
-		sprite.play(animation_name)
+	if not sprite.sprite_frames.has_animation(animation_name):
+		return
+	if sprite.animation == animation_name and sprite.is_playing():
+		return
+	sprite.play(animation_name)

@@ -71,6 +71,7 @@ func can_interact() -> bool:
 		return false
 	return not character.script_file.is_empty()
 
+
 func interact(player: Node2D) -> void:
 	if not can_interact():
 		return
@@ -79,6 +80,7 @@ func interact(player: Node2D) -> void:
 	_freeze_for_interaction(player)
 	_start_runner(player)
 
+
 func _start_runner(player: Node2D) -> void:
 	var file_cmd := ScriptCmdTextFile.new()
 	file_cmd.script_file_path = character.script_file
@@ -86,17 +88,18 @@ func _start_runner(player: Node2D) -> void:
 	runner.name = "ScriptRunner"
 	add_child(runner)
 	runner.script_finished.connect(_on_script_finished.bind(runner), CONNECT_ONE_SHOT)
-	# map = padre del NPC (EventObject / Map)
 	var map_node: Node = get_parent()
 	while map_node and not (map_node is Map):
 		map_node = map_node.get_parent()
 	runner.start_script([file_cmd], self, player, map_node)
+
 
 func _on_script_finished(runner: ScriptRunner) -> void:
 	_script_running = false
 	_end_interaction()
 	if is_instance_valid(runner):
 		runner.queue_free()
+
 
 func _freeze_for_interaction(player: Node2D) -> void:
 	_script_locked = true
@@ -160,51 +163,29 @@ func _update_visuals() -> void:
 	if ow_path != "" and animated_sprite:
 		var texture: Texture2D = load(ow_path) as Texture2D
 		if texture:
-			_apply_ow_texture(texture)
+			_apply_ow_texture(texture, ow_path)
 
 	_last_ow = character.ow_sprite
 	_last_shadow = character.shadow_sprite
 	_last_shadow_pos = character.shadow_position
 
 
-func _apply_ow_texture(texture: Texture2D) -> void:
+func _apply_ow_texture(texture: Texture2D, ow_path: String = "") -> void:
 	if animated_sprite.sprite_frames == null:
 		animated_sprite.sprite_frames = SpriteFrames.new()
 	elif not animated_sprite.sprite_frames.resource_local_to_scene:
 		animated_sprite.sprite_frames = animated_sprite.sprite_frames.duplicate()
 
-	var frame_size: Vector2 = texture.get_size() / Vector2(3, 4)
-	var directions: Dictionary = {"Down": 0, "Up": 1, "Left": 2, "Right": 3}
-	var steps: Dictionary = {"First_Step": 0, "Idle": 1, "Second_Step": 2}
-
-	for direction: String in directions:
-		var y: int = directions[direction]
-		for step: String in steps:
-			var x: int = steps[step]
-			var animation_name: String = step + "_" + direction
-			if not animated_sprite.sprite_frames.has_animation(animation_name):
-				animated_sprite.sprite_frames.add_animation(animation_name)
-				animated_sprite.sprite_frames.set_animation_loop(animation_name, false)
-				animated_sprite.sprite_frames.set_animation_speed(animation_name, 6.0)
-
-			while animated_sprite.sprite_frames.get_frame_count(animation_name) > 0:
-				animated_sprite.sprite_frames.remove_frame(animation_name, 0)
-
-			var atlas_0 := AtlasTexture.new()
-			atlas_0.atlas = texture
-			atlas_0.region = Rect2(Vector2(x, y) * frame_size, frame_size)
-			animated_sprite.sprite_frames.add_frame(animation_name, atlas_0)
-
-			if step != "Idle":
-				var atlas_1 := AtlasTexture.new()
-				atlas_1.atlas = texture
-				atlas_1.region = Rect2(Vector2(1, y) * frame_size, frame_size)
-				animated_sprite.sprite_frames.add_frame(animation_name, atlas_1)
+	var frame_size: Vector2 = OwSpriteBuilder.build_ow_sprite_frames(
+		animated_sprite.sprite_frames,
+		texture,
+		ow_path
+	)
 
 	animated_sprite.centered = true
 	animated_sprite.position = Vector2(TILE_SIZE * 0.5, TILE_SIZE - frame_size.y * 0.5)
 	if controller:
 		controller.set_sprite_base_position(animated_sprite.position)
+
 	if animated_sprite.sprite_frames.has_animation("Idle_Down"):
-		animated_sprite.animation = &"Idle_Down"
-		animated_sprite.frame = 0
+		animated_sprite.play(&"Idle_Down")

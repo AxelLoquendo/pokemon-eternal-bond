@@ -94,12 +94,14 @@ func _apply_player_data() -> void:
 		return
 	if start_data.player_data != null:
 		player.set("character", start_data.player_data)
+
 	if NewGameState and player.has_method("_apply_ow_texture"):
 		var path: String = NewGameState.ow_texture_path()
 		if ResourceLoader.exists(path):
 			var tex: Texture2D = load(path) as Texture2D
 			if tex:
-				player.call("_apply_ow_texture", tex)
+				# Segundo argumento: carpeta donde buscar idle_*_anim.png
+				player.call("_apply_ow_texture", tex, path)
 
 
 func _on_player_step_finished() -> void:
