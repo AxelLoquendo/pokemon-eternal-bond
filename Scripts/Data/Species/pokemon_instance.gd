@@ -1,23 +1,37 @@
 class_name PokemonInstance
 extends Resource
-## Un ejemplar concreto (equipo, caja, salvaje). La species vive en SpeciesCatalog.
+## Ejemplar concreto (equipo, caja, salvaje). La species está en SpeciesCatalog.
 
 const GENDER_UNKNOWN: int = -1
 const GENDER_MALE: int = 0
 const GENDER_FEMALE: int = 1
+
+# Orden IV/EV alineado con BaseStats del PBS
+const IV_HP: int = 0
+const IV_ATK: int = 1
+const IV_DEF: int = 2
+const IV_SPE: int = 3
+const IV_SPA: int = 4
+const IV_SPD: int = 5
 
 @export var species: SpeciesId.Id = SpeciesId.Id.NONE
 @export var nickname: String = ""
 @export var form: int = 0
 @export var level: int = 1
 @export var exp: int = 0
+
 @export var hp: int = 0
 @export var max_hp: int = 0
+@export var attack: int = 0
+@export var defense: int = 0
+@export var speed: int = 0
+@export var sp_attack: int = 0
+@export var sp_defense: int = 0
+
 @export var ivs: PackedInt32Array = PackedInt32Array([0, 0, 0, 0, 0, 0])
 @export var evs: PackedInt32Array = PackedInt32Array([0, 0, 0, 0, 0, 0])
-@export var nature: String = "HARDY"
+@export var nature: NatureId.Id = NatureId.Id.HARDY
 
-# ability_index elige dentro de species.abilities cuando hidden_ability es false
 @export var ability_index: int = 0
 @export var hidden_ability: bool = false
 @export var ability: AbilityId.Id = AbilityId.Id.NONE
@@ -62,12 +76,10 @@ func resolve_ability() -> AbilityId.Id:
 	var sp: SpeciesData = get_species_data()
 	if sp == null:
 		return ability
-
 	if hidden_ability:
 		if sp.hidden_abilities.is_empty():
 			return AbilityId.Id.NONE
 		return sp.hidden_abilities[0]
-
 	if ability_index >= 0 and ability_index < sp.abilities.size():
 		return sp.abilities[ability_index]
 	if sp.abilities.is_empty():
@@ -80,11 +92,9 @@ func sync_ability() -> void:
 
 
 func get_types() -> Array[TypeId.Id]:
-	# Tera sustituye los tipos naturales (Stellar se decide en batalla).
 	if terastallized and TypeId.is_battle_type(tera_type):
-		var only_tera: Array[TypeId.Id] = [tera_type]
-		return only_tera
-
+		var only: Array[TypeId.Id] = [tera_type]
+		return only
 	var sp: SpeciesData = get_species_data()
 	if sp == null:
 		var empty: Array[TypeId.Id] = []
@@ -101,20 +111,37 @@ func ensure_tera_type() -> void:
 
 
 func recalc_stats() -> void:
-	# Solo HP por ahora; el resto de stats cuando existan natures.
-	var sp: SpeciesData = get_species_data()
 	_ensure_iv_ev()
+	var sp: SpeciesData = get_species_data()
 	if sp == null:
 		max_hp = maxi(1, max_hp)
 		hp = clampi(hp, 0, max_hp)
 		return
 
-	var iv_hp: int = int(ivs[0])
-	var ev_hp: int = int(evs[0])
-	max_hp = int((2.0 * sp.base_hp + iv_hp + ev_hp / 4.0) * level / 100.0) + level + 10
-	max_hp = maxi(1, max_hp)
-	if hp <= 0 or hp > max_hp:
+	var old_max: int = max_hp
+	max_hp = _calc_hp(sp.base_hp, int(ivs[IV_HP]), int(evs[IV_HP]))
+	attack = _calc_stat(sp.base_atk, int(ivs[IV_ATK]), int(evs[IV_ATK]), "atk")
+	defense = _calc_stat(sp.base_def, int(ivs[IV_DEF]), int(evs[IV_DEF]), "def")
+	speed = _calc_stat(sp.base_spe, int(ivs[IV_SPE]), int(evs[IV_SPE]), "spe")
+	sp_attack = _calc_stat(sp.base_spa, int(ivs[IV_SPA]), int(evs[IV_SPA]), "spa")
+	sp_defense = _calc_stat(sp.base_spd, int(ivs[IV_SPD]), int(evs[IV_SPD]), "spd")
+
+	if old_max <= 0 or hp <= 0:
 		hp = max_hp
+	elif hp > max_hp:
+		hp = max_hp
+
+
+func _calc_hp(base: int, iv: int, ev: int) -> int:
+	# floor((2*B + IV + EV/4) * Level / 100) + Level + 10
+	return int((2.0 * base + iv + ev / 4.0) * level / 100.0) + level + 10
+
+
+func _calc_stat(base: int, iv: int, ev: int, nature_key: String) -> int:
+	# floor((floor((2*B + IV + EV/4) * Level / 100) + 5) * nature)
+	var raw: int = int((2.0 * base + iv + ev / 4.0) * level / 100.0) + 5
+	var mod: float = NatureId.multiplier(nature, nature_key)
+	return maxi(1, int(raw * mod))
 
 
 func _ensure_iv_ev() -> void:
@@ -139,9 +166,7 @@ func _learn_moves_up_to_level(sp: SpeciesData) -> void:
 		if int(lm.get("level", 99)) > level:
 			continue
 		var mid: MoveId.Id = MoveId.from_token(str(lm.get("move", "")))
-		if mid == MoveId.Id.NONE:
-			continue
-		if mid in moves:
+		if mid == MoveId.Id.NONE or mid in moves:
 			continue
 		if moves.size() >= 4:
 			moves.remove_at(0)
@@ -160,6 +185,7 @@ static func create_from_species(
 	inst.form = p_form
 	inst.level = maxi(1, p_level)
 	inst.hidden_ability = use_hidden_ability
+	inst.nature = NatureId.random()
 	inst.ivs = PackedInt32Array([
 		randi_range(0, 31), randi_range(0, 31), randi_range(0, 31),
 		randi_range(0, 31), randi_range(0, 31), randi_range(0, 31),
