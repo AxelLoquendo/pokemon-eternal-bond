@@ -11,6 +11,7 @@ enum Category { PHYSICAL, SPECIAL, STATUS }
 @export var accuracy: int = 0
 @export var total_pp: int = 5
 @export var priority: int = 0
+@export var effect_chance: int = 0
 @export var target: String = "NearOther"
 @export var function_code: String = "None"
 @export var flags: PackedStringArray = PackedStringArray()
@@ -27,13 +28,12 @@ static func from_dict(d: Dictionary) -> MoveData:
 	data.accuracy = int(d.get("accuracy", 0))
 	data.total_pp = int(d.get("total_pp", 5))
 	data.priority = int(d.get("priority", 0))
+	data.effect_chance = int(d.get("effect_chance", 0))
 	data.target = str(d.get("target", "NearOther"))
 	data.function_code = str(d.get("function_code", "None"))
 	data.description = str(d.get("description", ""))
-	var fl: Variant = d.get("flags", [])
-	if fl is Array:
-		for x: Variant in fl:
-			data.flags.append(str(x))
+	for x: Variant in d.get("flags", []):
+		data.flags.append(str(x))
 	return data
 
 

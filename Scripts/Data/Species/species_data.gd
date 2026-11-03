@@ -30,8 +30,17 @@ extends Resource
 @export var habitat: String = ""
 @export_multiline var pokedex: String = ""
 @export var generation: int = 1
-## [{ "into": "IVYSAUR", "method": "Level", "param": "16" }, ...]
 @export var evolutions: Array[Dictionary] = []
+
+# EV que otorga al ser derrotado: { "hp", "atk", "def", "spe", "spa", "spd" }
+@export var yield_evs: Dictionary = {}
+@export var flags: PackedStringArray = PackedStringArray()
+@export var wild_item_common: String = ""
+@export var wild_item_uncommon: String = ""
+@export var wild_item_rare: String = ""
+@export var incense: String = ""
+@export var offspring: PackedStringArray = PackedStringArray()
+@export var form_name: String = ""
 
 
 static func from_dict(d: Dictionary) -> SpeciesData:
@@ -58,6 +67,15 @@ static func from_dict(d: Dictionary) -> SpeciesData:
 	data.habitat = str(d.get("habitat", ""))
 	data.pokedex = str(d.get("pokedex", ""))
 	data.generation = int(d.get("generation", 1))
+	data.form_name = str(d.get("form_name", ""))
+	data.wild_item_common = str(d.get("wild_item_common", ""))
+	data.wild_item_uncommon = str(d.get("wild_item_uncommon", ""))
+	data.wild_item_rare = str(d.get("wild_item_rare", ""))
+	data.incense = str(d.get("incense", ""))
+
+	var evs_raw: Variant = d.get("evs", {})
+	if evs_raw is Dictionary:
+		data.yield_evs = (evs_raw as Dictionary).duplicate()
 
 	for t: Variant in d.get("types", []):
 		var tid: TypeId.Id = TypeId.from_token(str(t))
@@ -70,9 +88,9 @@ static func from_dict(d: Dictionary) -> SpeciesData:
 			data.abilities.append(aid)
 
 	for a: Variant in d.get("hidden_abilities", []):
-		var aid2: AbilityId.Id = AbilityId.from_token(str(a))
-		if aid2 != AbilityId.Id.NONE:
-			data.hidden_abilities.append(aid2)
+		var hid: AbilityId.Id = AbilityId.from_token(str(a))
+		if hid != AbilityId.Id.NONE:
+			data.hidden_abilities.append(hid)
 
 	for lm: Variant in d.get("level_moves", []):
 		if lm is Dictionary:
@@ -84,7 +102,10 @@ static func from_dict(d: Dictionary) -> SpeciesData:
 		data.egg_move_tokens.append(str(x))
 	for x: Variant in d.get("egg_groups", []):
 		data.egg_groups.append(str(x))
-
+	for x: Variant in d.get("flags", []):
+		data.flags.append(str(x))
+	for x: Variant in d.get("offspring", []):
+		data.offspring.append(str(x))
 	for e: Variant in d.get("evolutions", []):
 		if e is Dictionary:
 			data.evolutions.append(e as Dictionary)
@@ -95,6 +116,8 @@ static func from_dict(d: Dictionary) -> SpeciesData:
 func get_level_up_moves() -> Array[Dictionary]:
 	var out: Array[Dictionary] = []
 	for lm: Dictionary in level_moves:
-		var mid: MoveId.Id = MoveId.from_token(str(lm.get("move", "")))
-		out.append({"level": int(lm.get("level", 1)), "move_id": mid})
+		out.append({
+			"level": int(lm.get("level", 1)),
+			"move_id": MoveId.from_token(str(lm.get("move", ""))),
+		})
 	return out

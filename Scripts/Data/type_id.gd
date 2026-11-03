@@ -21,8 +21,9 @@ enum Id {
 	DRAGON,
 	DARK,
 	FAIRY,
-	STELLAR,
+	STELLAR, # Terastal (SV); no entra en el chart clásico
 }
+
 
 static func from_token(token: String) -> Id:
 	var t: String = token.strip_edges().to_upper()
@@ -33,11 +34,10 @@ static func from_token(token: String) -> Id:
 		if n >= 0 and n < Id.size():
 			return n as Id
 		return Id.NONE
-	var keys: Array = Id.keys()
-	for i: int in keys.size():
-		if str(keys[i]) == t:
+	for i: int in Id.size():
+		if str(Id.keys()[i]) == t:
 			return i as Id
-	push_error("TypeId: no declarado '%s'" % token)
+	push_error("TypeId: tipo desconocido '%s'" % token)
 	return Id.NONE
 
 
@@ -45,3 +45,7 @@ static func to_key(id: Id) -> String:
 	if id == Id.NONE:
 		return ""
 	return str(Id.keys()[id])
+
+
+static func is_battle_type(id: Id) -> bool:
+	return id != Id.NONE and id != Id.STELLAR
