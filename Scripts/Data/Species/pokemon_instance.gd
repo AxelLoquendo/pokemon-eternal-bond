@@ -109,6 +109,67 @@ func ensure_tera_type() -> void:
 	if sp != null and not sp.types.is_empty():
 		tera_type = sp.types[0]
 
+func growth_rate() -> String:
+	var sp: SpeciesData = get_species_data()
+	if sp == null:
+		return "Medium"
+	return sp.growth_rate
+
+
+func sync_exp_to_level() -> void:
+	## Exp mínima del nivel actual (p. ej. al crear o forzar level).
+	exp = ExperienceGrowth.total_exp_at_level(growth_rate(), level)
+
+
+func exp_needed_for_next_level() -> int:
+	return ExperienceGrowth.exp_to_next_level(growth_rate(), level, exp)
+
+
+## Devuelve cuántos niveles subió (0 si no hubo level up).
+func gain_exp(amount: int) -> int:
+	if amount <= 0 or level >= ExperienceGrowth.MAX_LEVEL:
+		return 0
+
+	var rate: String = growth_rate()
+	exp += amount
+	var levels_gained: int = 0
+	var new_level: int = ExperienceGrowth.level_for_exp(rate, exp)
+
+	while level < new_level:
+		level += 1
+		levels_gained += 1
+		_on_level_up()
+
+	if level >= ExperienceGrowth.MAX_LEVEL:
+		level = ExperienceGrowth.MAX_LEVEL
+		exp = ExperienceGrowth.total_exp_at_level(rate, ExperienceGrowth.MAX_LEVEL)
+
+	return levels_gained
+
+
+func _on_level_up() -> void:
+	var old_max: int = max_hp
+	recalc_stats()
+	# Conserva el daño actual al subir HP máximo.
+	var missing: int = maxi(0, old_max - hp)
+	hp = maxi(1, max_hp - missing)
+
+	var sp: SpeciesData = get_species_data()
+	if sp != null:
+		_try_learn_moves_at_level(sp, level)
+
+
+func _try_learn_moves_at_level(sp: SpeciesData, at_level: int) -> void:
+	for lm: Dictionary in sp.level_moves:
+		if int(lm.get("level", -1)) != at_level:
+			continue
+		var mid: MoveId.Id = MoveId.from_token(str(lm.get("move", "")))
+		if mid == MoveId.Id.NONE or mid in moves:
+			continue
+		if moves.size() < 4:
+			moves.append(mid)
+			_refill_pp()
+		# Con 4 movimientos: la batalla/UI decidirá a cuál reemplazar.
 
 func recalc_stats() -> void:
 	_ensure_iv_ev()
@@ -206,6 +267,7 @@ static func create_from_species(
 	else:
 		inst.ensure_tera_type()
 
+	inst.sync_exp_to_level()
 	inst.recalc_stats()
 	inst.hp = inst.max_hp
 	inst._refill_pp()
