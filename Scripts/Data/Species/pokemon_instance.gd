@@ -241,7 +241,7 @@ static func create_from_species(
 	use_hidden_ability: bool = false,
 	forced_tera: TypeId.Id = TypeId.Id.NONE
 ) -> PokemonInstance:
-	var inst := PokemonInstance.new()
+	var inst: PokemonInstance = PokemonInstance.new()
 	inst.species = species_id
 	inst.form = p_form
 	inst.level = maxi(1, p_level)
@@ -259,6 +259,7 @@ static func create_from_species(
 
 	if sp != null:
 		inst.nickname = sp.name
+		inst.gender = PokemonGender.from_species(sp)
 		inst.sync_ability()
 		inst._learn_moves_up_to_level(sp)
 
