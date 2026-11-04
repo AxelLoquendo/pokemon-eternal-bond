@@ -38,6 +38,15 @@ const IV_SPD: int = 5
 @export var shiny: bool = false
 @export var gender: int = PokemonGender.UNKNOWN
 
+@export var held_item: ItemId.Id = ItemId.Id.NONE
+@export var friendship: int = 0
+@export var original_trainer: String = ""
+@export var trainer_id: int = 0
+@export var catch_ball: ItemId.Id = ItemId.Id.NONE
+
+## Move aprendido al subir de nivel con los 4 slots llenos (la UI pregunta).
+@export var pending_learn_move: MoveId.Id = MoveId.Id.NONE
+
 @export var tera_type: TypeId.Id = TypeId.Id.NONE
 @export var terastallized: bool = false
 
@@ -165,6 +174,8 @@ func _try_learn_moves_at_level(sp: SpeciesData, at_level: int) -> void:
 		if moves.size() < 4:
 			moves.append(mid)
 			_refill_pp()
+		else:
+			pending_learn_move = mid
 		# Con 4 movimientos: la batalla/UI decidirá a cuál reemplazar.
 
 func recalc_stats() -> void:
@@ -268,4 +279,82 @@ static func create_from_species(
 	inst.recalc_stats()
 	inst.hp = inst.max_hp
 	inst._refill_pp()
+	inst.friendship = 70
+	if sp != null:
+		inst.friendship = sp.base_happiness
+	inst.catch_ball = ItemId.Id.POKEBALL  # o POKEBALL cuando exista el id
 	return inst
+
+func exp_progress_ratio() -> float:
+	## 0.0–1.0 para barra de exp hacia el siguiente nivel.
+	if level >= ExperienceGrowth.MAX_LEVEL:
+		return 1.0
+	var rate: String = growth_rate()
+	var at_level: int = ExperienceGrowth.total_exp_at_level(rate, level)
+	var next: int = ExperienceGrowth.total_exp_at_level(rate, level + 1)
+	var span: int = next - at_level
+	if span <= 0:
+		return 1.0
+	return clampf(float(exp - at_level) / float(span), 0.0, 1.0)
+
+
+func status_label() -> String:
+	if is_fainted():
+		return "FNT"
+	if status.is_empty():
+		return ""
+	return status.to_upper()
+
+
+func nature_label() -> String:
+	return NatureId.to_key(nature)
+
+
+func apply_ev_yield(yield_evs: Dictionary) -> void:
+	## yield_evs del species derrotado: { "hp", "atk", ... }
+	_ensure_iv_ev()
+	var map: Dictionary = {
+		"hp": IV_HP, "atk": IV_ATK, "def": IV_DEF,
+		"spe": IV_SPE, "spa": IV_SPA, "spd": IV_SPD,
+	}
+	var total: int = 0
+	for i: int in 6:
+		total += int(evs[i])
+	for key: Variant in yield_evs.keys():
+		var idx: int = int(map.get(str(key), -1))
+		if idx < 0:
+			continue
+		var add: int = int(yield_evs[key])
+		if add <= 0:
+			continue
+		var room_total: int = maxi(0, 510 - total)
+		var room_stat: int = maxi(0, 252 - int(evs[idx]))
+		var gain: int = mini(add, mini(room_total, room_stat))
+		evs[idx] = int(evs[idx]) + gain
+		total += gain
+	recalc_stats()
+
+
+func can_learn_move(move_id: MoveId.Id) -> bool:
+	return move_id != MoveId.Id.NONE and move_id not in moves
+
+
+func learn_move_at_slot(slot: int, move_id: MoveId.Id) -> bool:
+	if not can_learn_move(move_id):
+		return false
+	if slot < 0 or slot > moves.size() or slot >= 4:
+		return false
+	if slot == moves.size() and moves.size() < 4:
+		moves.append(move_id)
+	else:
+		moves[slot] = move_id
+	pending_learn_move = MoveId.Id.NONE
+	_refill_pp()
+	return true
+
+
+func forget_move_at_slot(slot: int) -> void:
+	if slot < 0 or slot >= moves.size():
+		return
+	moves.remove_at(slot)
+	_refill_pp()

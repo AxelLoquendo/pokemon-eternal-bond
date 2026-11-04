@@ -40,6 +40,20 @@ func count_item(id: ItemId.Id) -> int:
 func has_item(id: ItemId.Id, amount: int = 1) -> bool:
 	return count_item(id) >= amount
 
+func items_in_pocket(pocket: ItemPocket.Id) -> Array[ItemId.Id]:
+	var out: Array[ItemId.Id] = []
+	if ItemCatalog == null:
+		return out
+	for k: Variant in bag.keys():
+		var id: ItemId.Id = int(k) as ItemId.Id
+		if count_item(id) <= 0:
+			continue
+		var data: ItemData = ItemCatalog.get_item(id)
+		if data == null:
+			continue
+		if data.pocket == pocket:
+			out.append(id)
+	return out
 
 # --- Party ---
 

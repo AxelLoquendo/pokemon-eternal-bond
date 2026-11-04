@@ -799,8 +799,10 @@ enum Id {
 
 
 static func from_token(token: String) -> Id:
-	return EnumTokens.parse(token, Id.keys(), Id.NONE, "ItemId") as Id
-
+	var t: String = token.strip_edges()
+	if t.to_upper().begins_with("ITEM_"):
+		t = t.substr(5)
+	return EnumTokens.parse(t, Id.keys(), Id.NONE, "ItemId") as Id
 
 static func to_key(id: Id) -> String:
 	return EnumTokens.key(id, Id.keys(), Id.NONE, "")
