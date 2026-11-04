@@ -2,10 +2,6 @@ class_name PokemonInstance
 extends Resource
 ## Ejemplar concreto (equipo, caja, salvaje). La species está en SpeciesCatalog.
 
-const GENDER_UNKNOWN: int = -1
-const GENDER_MALE: int = 0
-const GENDER_FEMALE: int = 1
-
 # Orden IV/EV alineado con BaseStats del PBS
 const IV_HP: int = 0
 const IV_ATK: int = 1
@@ -40,7 +36,7 @@ const IV_SPD: int = 5
 @export var pp: PackedInt32Array = PackedInt32Array()
 @export var status: String = ""
 @export var shiny: bool = false
-@export var gender: int = GENDER_UNKNOWN
+@export var gender: int = PokemonGender.UNKNOWN
 
 @export var tera_type: TypeId.Id = TypeId.Id.NONE
 @export var terastallized: bool = false

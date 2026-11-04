@@ -26,26 +26,10 @@ enum Id {
 
 
 static func from_token(token: String) -> Id:
-	var t: String = token.strip_edges().to_upper()
-	if t.is_empty():
-		return Id.NONE
-	if t.is_valid_int():
-		var n: int = int(t)
-		if n >= 0 and n < Id.size():
-			return n as Id
-		return Id.NONE
-	for i: int in Id.size():
-		if str(Id.keys()[i]) == t:
-			return i as Id
-	push_error("TypeId: tipo desconocido '%s'" % token)
-	return Id.NONE
-
+	return EnumTokens.parse(token, Id.keys(), Id.NONE, "TypeId") as Id
 
 static func to_key(id: Id) -> String:
-	if id == Id.NONE:
-		return ""
-	return str(Id.keys()[id])
-
+	return EnumTokens.key(id, Id.keys(), Id.NONE, "")
 
 static func is_battle_type(id: Id) -> bool:
 	return id != Id.NONE and id != Id.STELLAR

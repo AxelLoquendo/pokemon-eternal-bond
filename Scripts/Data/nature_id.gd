@@ -57,25 +57,11 @@ const _EFFECT: Dictionary = {
 
 
 static func from_token(token: String) -> Id:
-	var t: String = token.strip_edges().to_upper()
-	if t.is_empty():
-		return Id.HARDY
-	if t.is_valid_int():
-		var n: int = int(t)
-		if n >= 0 and n < Id.size():
-			return n as Id
-		return Id.HARDY
-	for i: int in Id.size():
-		if str(Id.keys()[i]) == t:
-			return i as Id
-	push_warning("NatureId: desconocida '%s', uso HARDY" % token)
-	return Id.HARDY
+	return EnumTokens.parse(token, Id.keys(), Id.HARDY, "NatureId", true) as Id
 
 
 static func to_key(id: Id) -> String:
-	if id == Id.NONE:
-		return "HARDY"
-	return str(Id.keys()[id])
+	return EnumTokens.key(id, Id.keys(), Id.NONE, "HARDY")
 
 
 static func random() -> Id:

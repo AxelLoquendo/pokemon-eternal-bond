@@ -1034,28 +1034,8 @@ enum Id {
 
 
 static func from_token(token: String) -> Id:
-	var t: String = token.strip_edges()
-	if t.is_empty():
-		return Id.NONE
-	if t.is_valid_int():
-		var n: int = int(t)
-		if n >= 0 and n < Id.size():
-			return n as Id
-		push_warning("SpeciesId: id fuera de rango: %s" % t)
-		return Id.NONE
-	var keys: Array = Id.keys()
-	for i: int in keys.size():
-		if str(keys[i]) == t:
-			return i as Id
-	var upper: String = t.to_upper()
-	for i: int in keys.size():
-		if str(keys[i]).to_upper() == upper:
-			return i as Id
-	push_error("SpeciesId: no declarado '%s'" % t)
-	return Id.NONE
+	return EnumTokens.parse(token, Id.keys(), Id.NONE, "SpeciesId") as Id
 
 
 static func to_key(id: Id) -> String:
-	if id == Id.NONE:
-		return ""
-	return str(Id.keys()[id])
+	return EnumTokens.key(id, Id.keys(), Id.NONE, "")
