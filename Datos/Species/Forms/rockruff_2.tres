@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="FormData" format=3 uid="uid://0jjkys7ejd8q"]
+
+[ext_resource type="Script" uid="uid://cr0dlqg5j6j35" path="res://Scripts/Data/Species/form_data.gd" id="1_1u4w2"]
+
+[resource]
+script = ExtResource("1_1u4w2")
+species = 744
+form = 2
+abilities = Array[int]([20])
+hidden_abilities = Array[int]([20])
+evolutions = Array[Dictionary]([{
+"into": "LYCANROC",
+"method": "LevelEvening",
+"param": "25"
+}])
+flags = PackedStringArray("InheritFormFromMother")

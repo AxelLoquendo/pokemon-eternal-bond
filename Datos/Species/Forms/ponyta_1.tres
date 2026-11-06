@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="FormData" format=3 uid="uid://l3fq5tmea3rw"]
+
+[ext_resource type="Script" uid="uid://cr0dlqg5j6j35" path="res://Scripts/Data/Species/form_data.gd" id="1_5fy53"]
+
+[resource]
+script = ExtResource("1_5fy53")
+species = 77
+form_name = "Forma Galar"
+types = Array[int]([14])
+height_m = 0.8
+weight_kg = 24.0
+color = "White"
+category = "Unicorne"
+pokedex = "Su pequeño cuerno posee poderes curativos capaces de sanar heridas no muy graves con tan solo un leve roce."
+generation = 8
+abilities = Array[int]([50, 257])
+hidden_abilities = Array[int]([107])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 5.0,
+"move": "TAILWHIP"
+}, {
+"level": 10.0,
+"move": "CONFUSION"
+}, {
+"level": 15.0,
+"move": "FAIRYWIND"
+}, {
+"level": 20.0,
+"move": "AGILITY"
+}, {
+"level": 25.0,
+"move": "PSYBEAM"
+}, {
+"level": 30.0,
+"move": "STOMP"
+}, {
+"level": 35.0,
+"move": "HEALPULSE"
+}, {
+"level": 41.0,
+"move": "TAKEDOWN"
+}, {
+"level": 45.0,
+"move": "DAZZLINGGLEAM"
+}, {
+"level": 50.0,
+"move": "PSYCHIC"
+}, {
+"level": 55.0,
+"move": "HEALINGWISH"
+}])
+flags = PackedStringArray("InheritFormWithEverStone")

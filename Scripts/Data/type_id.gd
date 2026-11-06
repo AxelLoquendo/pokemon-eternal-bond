@@ -22,6 +22,7 @@ enum Id {
 	DARK,
 	FAIRY,
 	STELLAR, # Terastal (SV); no entra en el chart clásico
+	QMARKS,
 }
 
 

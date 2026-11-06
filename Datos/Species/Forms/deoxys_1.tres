@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="FormData" format=3 uid="uid://dlxj24dxcwndk"]
+
+[ext_resource type="Script" uid="uid://cr0dlqg5j6j35" path="res://Scripts/Data/Species/form_data.gd" id="1_rdkan"]
+
+[resource]
+script = ExtResource("1_rdkan")
+species = 386
+form_name = "Forma Ataque"
+base_hp = 50
+base_atk = 180
+base_def = 20
+base_spe = 150
+base_spa = 180
+base_spd = 20
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 7.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 13.0,
+"move": "TELEPORT"
+}, {
+"level": 19.0,
+"move": "TAUNT"
+}, {
+"level": 25.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 31.0,
+"move": "PSYCHIC"
+}, {
+"level": 37.0,
+"move": "SUPERPOWER"
+}, {
+"level": 43.0,
+"move": "PSYCHOSHIFT"
+}, {
+"level": 49.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 55.0,
+"move": "COSMICPOWER"
+}, {
+"level": 61.0,
+"move": "ZAPCANNON"
+}, {
+"level": 67.0,
+"move": "PSYCHOBOOST"
+}, {
+"level": 73.0,
+"move": "HYPERBEAM"
+}])
+flags = PackedStringArray()

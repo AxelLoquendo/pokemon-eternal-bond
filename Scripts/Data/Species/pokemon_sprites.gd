@@ -1,10 +1,9 @@
-# res://Scripts/Data/Species/pokemon_sprites.gd
-# Autoload: PokemonSprites
 extends Node
+## Autoload PokemonSprites — resuelve texturas por sprite_folder.
 
 const SPRITES_ROOT: String = "res://Graficos/Pokemon/"
 
-var _cache: Dictionary = {}  # path → Texture2D
+var _cache: Dictionary = {}
 
 
 func folder_for(species: SpeciesId.Id, form: int = 0) -> String:
@@ -19,7 +18,6 @@ func folder_for(species: SpeciesId.Id, form: int = 0) -> String:
 	if form <= 0:
 		return base
 
-	# Override de forma (cuando lo tengas en forms.json).
 	if SpeciesCatalog:
 		var over: Dictionary = SpeciesCatalog.get_form_override(species, form)
 		var sub: String = str(over.get("sprite_folder", ""))
@@ -28,11 +26,21 @@ func folder_for(species: SpeciesId.Id, form: int = 0) -> String:
 	return base
 
 
-func get_front(species: SpeciesId.Id, form: int = 0, shiny: bool = false, female: bool = false) -> Texture2D:
+func get_front(
+	species: SpeciesId.Id,
+	form: int = 0,
+	shiny: bool = false,
+	female: bool = false
+) -> Texture2D:
 	return _load_kind(folder_for(species, form), "front", shiny, female)
 
 
-func get_back(species: SpeciesId.Id, form: int = 0, shiny: bool = false, female: bool = false) -> Texture2D:
+func get_back(
+	species: SpeciesId.Id,
+	form: int = 0,
+	shiny: bool = false,
+	female: bool = false
+) -> Texture2D:
 	return _load_kind(folder_for(species, form), "back", shiny, female)
 
 
@@ -60,10 +68,10 @@ func _load_kind(folder: String, kind: String, shiny: bool, female: bool) -> Text
 		var tex: Texture2D = _try_file(folder, stem)
 		if tex != null:
 			return tex
-	# Icono de forma → carpeta padre.
-	var parent: String = _parent(folder)
-	if not parent.is_empty() and kind == "icon":
-		return _try_file(parent, "icon")
+	if kind == "icon":
+		var parent: String = _parent(folder)
+		if not parent.is_empty():
+			return _try_file(parent, "icon")
 	return null
 
 

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="FormData" format=3 uid="uid://dyb8s3cxe4pci"]
+
+[ext_resource type="Script" uid="uid://cr0dlqg5j6j35" path="res://Scripts/Data/Species/form_data.gd" id="1_nwhrg"]
+
+[resource]
+script = ExtResource("1_nwhrg")
+species = 1012
+form_name = "Forma Opulenta"
+pokedex = "Absorbe la energía vital de aquellos que prueban un bocado de cualquier comida condimentada con el polvo que conforma su cuerpo."
+evolutions = Array[Dictionary]([{
+"into": "SINISTCHA",
+"method": "Item",
+"param": "MASTERPIECETEACUP"
+}])
+flags = PackedStringArray()

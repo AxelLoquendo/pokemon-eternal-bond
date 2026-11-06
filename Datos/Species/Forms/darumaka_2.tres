@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="FormData" format=3 uid="uid://cfd4n7yq7grup"]
+
+[ext_resource type="Script" uid="uid://cr0dlqg5j6j35" path="res://Scripts/Data/Species/form_data.gd" id="1_mq35i"]
+
+[resource]
+script = ExtResource("1_mq35i")
+species = 554
+form = 2
+form_name = "Forma Galar"
+types = Array[int]([15])
+height_m = 0.7
+weight_kg = 40.0
+color = "White"
+pokedex = "La adaptación a entornos nevados ha atrofiado y congelado su saca de fuego, pero ha propiciado el desarrollo de un órgano generador de frío."
+generation = 8
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 4.0,
+"move": "TAUNT"
+}, {
+"level": 8.0,
+"move": "BITE"
+}, {
+"level": 12.0,
+"move": "AVALANCHE"
+}, {
+"level": 16.0,
+"move": "WORKUP"
+}, {
+"level": 20.0,
+"move": "ICEFANG"
+}, {
+"level": 24.0,
+"move": "HEADBUTT"
+}, {
+"level": 28.0,
+"move": "ICEPUNCH"
+}, {
+"level": 32.0,
+"move": "UPROAR"
+}, {
+"level": 36.0,
+"move": "BELLYDRUM"
+}, {
+"level": 40.0,
+"move": "BLIZZARD"
+}, {
+"level": 44.0,
+"move": "THRASH"
+}, {
+"level": 48.0,
+"move": "SUPERPOWER"
+}])
+evolutions = Array[Dictionary]([{
+"into": "DARMANITAN",
+"method": "Item",
+"param": "ICESTONE"
+}])
+flags = PackedStringArray("InheritFormWithEverStone")

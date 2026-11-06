@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="FormData" format=3 uid="uid://h6n36xayiyi7"]
+
+[ext_resource type="Script" uid="uid://cr0dlqg5j6j35" path="res://Scripts/Data/Species/form_data.gd" id="1_jg44x"]
+
+[resource]
+script = ExtResource("1_jg44x")
+species = 570
+form_name = "Forma Hisui"
+types = Array[int]([1, 8])
+base_hp = 35
+base_atk = 60
+base_def = 40
+base_spe = 70
+base_spa = 85
+base_spd = 40
+color = "White"
+category = "Zorro Rencor"
+pokedex = "Es un alma difunta resucitada en Hisui que transforma su rencor en energía. Esta surge de su cabeza y adopta la forma de su oponente, disipando así su inquina."
+generation = 8
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 4.0,
+"move": "TORMENT"
+}, {
+"level": 8.0,
+"move": "HONECLAWS"
+}, {
+"level": 12.0,
+"move": "SHADOWSNEAK"
+}, {
+"level": 16.0,
+"move": "CURSE"
+}, {
+"level": 20.0,
+"move": "TAUNT"
+}, {
+"level": 24.0,
+"move": "KNOCKOFF"
+}, {
+"level": 28.0,
+"move": "SPITE"
+}, {
+"level": 32.0,
+"move": "AGILITY"
+}, {
+"level": 36.0,
+"move": "SHADOWBALL"
+}, {
+"level": 40.0,
+"move": "BITTERMALICE"
+}, {
+"level": 44.0,
+"move": "NASTYPLOT"
+}, {
+"level": 48.0,
+"move": "FOULPLAY"
+}])
+flags = PackedStringArray("InheritFormWithEverStone")

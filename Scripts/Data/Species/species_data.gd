@@ -68,11 +68,12 @@ static func from_dict(d: Dictionary) -> SpeciesData:
 	data.pokedex = str(d.get("pokedex", ""))
 	data.generation = int(d.get("generation", 1))
 	data.form_name = str(d.get("form_name", ""))
+	data.sprite_folder = str(d.get("sprite_folder", ""))
 	data.wild_item_common = str(d.get("wild_item_common", ""))
 	data.wild_item_uncommon = str(d.get("wild_item_uncommon", ""))
 	data.wild_item_rare = str(d.get("wild_item_rare", ""))
 	data.incense = str(d.get("incense", ""))
-	data.sprite_folder = str(d.get("sprite_folder", ""))
+
 
 	var evs_raw: Variant = d.get("evs", {})
 	if evs_raw is Dictionary:

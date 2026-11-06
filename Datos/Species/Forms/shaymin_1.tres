@@ -1,0 +1,56 @@
+[gd_resource type="Resource" script_class="FormData" format=3 uid="uid://cjyogqx8kmd1s"]
+
+[ext_resource type="Script" uid="uid://cr0dlqg5j6j35" path="res://Scripts/Data/Species/form_data.gd" id="1_itf4i"]
+
+[resource]
+script = ExtResource("1_itf4i")
+species = 492
+form_name = "Forma Cielo"
+types = Array[int]([12, 3])
+base_hp = 100
+base_atk = 103
+base_def = 75
+base_spe = 127
+base_spa = 120
+base_spd = 75
+height_m = 0.4
+weight_kg = 5.2
+abilities = Array[int]([32])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 10.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 19.0,
+"move": "LEECHSEED"
+}, {
+"level": 28.0,
+"move": "QUICKATTACK"
+}, {
+"level": 37.0,
+"move": "SWEETSCENT"
+}, {
+"level": 46.0,
+"move": "HEALINGWISH"
+}, {
+"level": 55.0,
+"move": "WORRYSEED"
+}, {
+"level": 64.0,
+"move": "AIRSLASH"
+}, {
+"level": 73.0,
+"move": "ENERGYBALL"
+}, {
+"level": 82.0,
+"move": "SWEETKISS"
+}, {
+"level": 91.0,
+"move": "LEAFSTORM"
+}, {
+"level": 100.0,
+"move": "SEEDFLARE"
+}])
+flags = PackedStringArray()

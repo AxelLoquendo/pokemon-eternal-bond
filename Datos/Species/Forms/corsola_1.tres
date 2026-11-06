@@ -1,0 +1,67 @@
+[gd_resource type="Resource" script_class="FormData" format=3 uid="uid://6ffi6a83ud8y"]
+
+[ext_resource type="Script" uid="uid://cr0dlqg5j6j35" path="res://Scripts/Data/Species/form_data.gd" id="1_ivh22"]
+
+[resource]
+script = ExtResource("1_ivh22")
+species = 222
+form_name = "Forma Galar"
+types = Array[int]([8])
+base_hp = 60
+base_atk = 55
+base_def = 100
+base_spe = 30
+base_spa = 65
+base_spd = 100
+weight_kg = 0.5
+color = "White"
+pokedex = "Es habitual hallarlos en lo que antaño fueron lechos oceánicos. Maldice a aquellos que le dan un puntapié confundiéndolo con un pedrusco."
+generation = 8
+abilities = Array[int]([133])
+hidden_abilities = Array[int]([130])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 5.0,
+"move": "ASTONISH"
+}, {
+"level": 10.0,
+"move": "DISABLE"
+}, {
+"level": 15.0,
+"move": "SPITE"
+}, {
+"level": 20.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 25.0,
+"move": "HEX"
+}, {
+"level": 30.0,
+"move": "CURSE"
+}, {
+"level": 35.0,
+"move": "STRENGTHSAP"
+}, {
+"level": 40.0,
+"move": "POWERGEM"
+}, {
+"level": 45.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 50.0,
+"move": "GRUDGE"
+}, {
+"level": 55.0,
+"move": "MIRRORCOAT"
+}])
+evolutions = Array[Dictionary]([{
+"into": "CURSOLA",
+"method": "Level",
+"param": "38"
+}])
+flags = PackedStringArray("InheritFormWithEverStone")
