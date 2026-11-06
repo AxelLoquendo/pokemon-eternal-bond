@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cif0rou4ovv01"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_uv3ev"]
+
+[resource]
+script = ExtResource("1_uv3ev")
+id = 746
+name = "Wishiwashi"
+types = Array[int]([11])
+base_hp = 45
+base_atk = 20
+base_def = 20
+base_spe = 40
+base_spa = 25
+base_spd = 25
+catch_rate = 60
+base_exp = 61
+growth_rate = "Fast"
+abilities = Array[int]([208])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 4.0,
+"move": "HELPINGHAND"
+}, {
+"level": 8.0,
+"move": "BEATUP"
+}, {
+"level": 12.0,
+"move": "BRINE"
+}, {
+"level": 16.0,
+"move": "TEARFULLOOK"
+}, {
+"level": 20.0,
+"move": "DIVE"
+}, {
+"level": 24.0,
+"move": "SOAK"
+}, {
+"level": 28.0,
+"move": "UPROAR"
+}, {
+"level": 32.0,
+"move": "AQUATAIL"
+}, {
+"level": 36.0,
+"move": "AQUARING"
+}, {
+"level": 40.0,
+"move": "ENDEAVOR"
+}, {
+"level": 44.0,
+"move": "HYDROPUMP"
+}, {
+"level": 48.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "BEATUP", "BRINE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COVET", "DIVE", "DOUBLETEAM", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FLIPTURN", "FRUSTRATION", "HAIL", "HELPINGHAND", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "IRONTAIL", "LIQUIDATION", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROUND", "SCALD", "SCALESHOT", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "UPROAR", "UTURN", "WATERFALL", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray("MIST", "TAKEDOWN", "WATERPULSE")
+egg_groups = PackedStringArray("Water2")
+hatch_steps = 3840
+height_m = 0.2
+weight_kg = 0.3
+color = "Blue"
+shape = "Finned"
+category = "Small Fry"
+pokedex = "Al sentirse amenazado, sus ojos emiten cierto brillo, algo que atrae a otros miembros de su especie, y juntos luchan como un mismo ente."
+generation = 7
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Individual"

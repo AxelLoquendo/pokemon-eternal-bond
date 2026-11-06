@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dig6em2roaajo"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_5s4li"]
+
+[resource]
+script = ExtResource("1_5s4li")
+id = 211
+name = "Qwilfish"
+types = Array[int]([11, 4])
+base_hp = 65
+base_atk = 95
+base_def = 85
+base_spe = 85
+base_spa = 55
+base_spd = 55
+base_exp = 88
+abilities = Array[int]([38, 33])
+hidden_abilities = Array[int]([22])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 4.0,
+"move": "HARDEN"
+}, {
+"level": 8.0,
+"move": "WATERGUN"
+}, {
+"level": 12.0,
+"move": "FELLSTINGER"
+}, {
+"level": 16.0,
+"move": "MINIMIZE"
+}, {
+"level": 20.0,
+"move": "SPIKES"
+}, {
+"level": 24.0,
+"move": "BRINE"
+}, {
+"level": 28.0,
+"move": "REVENGE"
+}, {
+"level": 28.0,
+"move": "POISONJAB"
+}, {
+"level": 32.0,
+"move": "PINMISSILE"
+}, {
+"level": 36.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 40.0,
+"move": "STOCKPILE"
+}, {
+"level": 40.0,
+"move": "SPITUP"
+}, {
+"level": 44.0,
+"move": "TOXIC"
+}, {
+"level": 48.0,
+"move": "TAKEDOWN"
+}, {
+"level": 48.0,
+"move": "AQUATAIL"
+}, {
+"level": 52.0,
+"move": "ACUPRESSURE"
+}, {
+"level": 56.0,
+"move": "DESTINYBOND"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ASSURANCE", "ATTRACT", "BLIZZARD", "BOUNCE", "BRINE", "CAPTIVATE", "CONFIDE", "DEFENSECURL", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "EXPLOSION", "FACADE", "FRUSTRATION", "GYROBALL", "HAIL", "HEADBUTT", "HEX", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "LIQUIDATION", "MIMIC", "NATURALGIFT", "PAINSPLIT", "PAYBACK", "PINMISSILE", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "REVENGE", "REVERSAL", "ROLLOUT", "ROUND", "SCALD", "SCALESHOT", "SCARYFACE", "SECRETPOWER", "SELFDESTRUCT", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNORE", "SPIKES", "STEELROLLER", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "THROATCHOP", "THUNDERWAVE", "TOXIC", "TOXICSPIKES", "VENOMDRENCH", "VENOSHOCK", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "TAKEDOWN", "AGILITY", "ACIDSPRAY", "CHILLINGWATER", "POISONTAIL", "MUDSHOT", "GUNKSHOT", "CRUNCH", "GIGAIMPACT", "HAZE", "SPITE", "FLIPTURN", "CURSE")
+egg_move_tokens = PackedStringArray("ACIDSPRAY", "AQUAJET", "ASTONISH", "BUBBLEBEAM", "FLAIL", "HAZE", "SUPERSONIC", "WATERPULSE")
+egg_groups = PackedStringArray("Water2")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 3.9
+color = "Gray"
+shape = "Finned"
+category = "Globo"
+habitat = "Sea"
+pokedex = "Bebe agua, se hincha y usa la presión del agua que ha tragado para lanzar plumas tóxicas a través de la piel. Para Qwilfish, nadar es todo un desafío."
+generation = 2
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "POISONBARB"
+offspring = PackedStringArray()

@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bo0u8tpwqkybx"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_2oebs"]
+
+[resource]
+script = ExtResource("1_2oebs")
+id = 734
+name = "Yungoos"
+types = Array[int]([1])
+base_hp = 48
+base_atk = 70
+base_def = 30
+base_spe = 45
+base_spa = 30
+base_spd = 30
+catch_rate = 255
+base_exp = 51
+abilities = Array[int]([198, 173])
+hidden_abilities = Array[int]([91])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 3.0,
+"move": "LEER"
+}, {
+"level": 7.0,
+"move": "PURSUIT"
+}, {
+"level": 7.0,
+"move": "PAYBACK"
+}, {
+"level": 10.0,
+"move": "SANDATTACK"
+}, {
+"level": 13.0,
+"move": "ODORSLEUTH"
+}, {
+"level": 13.0,
+"move": "WORKUP"
+}, {
+"level": 16.0,
+"move": "BIDE"
+}, {
+"level": 19.0,
+"move": "BITE"
+}, {
+"level": 22.0,
+"move": "MUDSLAP"
+}, {
+"level": 25.0,
+"move": "SUPERFANG"
+}, {
+"level": 28.0,
+"move": "TAKEDOWN"
+}, {
+"level": 31.0,
+"move": "SCARYFACE"
+}, {
+"level": 34.0,
+"move": "CRUNCH"
+}, {
+"level": 37.0,
+"move": "HYPERFANG"
+}, {
+"level": 37.0,
+"move": "YAWN"
+}, {
+"level": 40.0,
+"move": "THRASH"
+}, {
+"level": 43.0,
+"move": "REST"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "EARTHQUAKE", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "HIDDENPOWER", "IRONTAIL", "LASTRESORT", "MIMIC", "NATURALGIFT", "PAYBACK", "PROTECT", "REST", "RETURN", "ROCKTOMB", "ROUND", "SANDSTORM", "SECRETPOWER", "SHOCKWAVE", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "SUBSTITUTE", "SUPERFANG", "SWAGGER", "TAUNT", "THIEF", "TORMENT", "TOXIC", "UPROAR", "UTURN", "WORKUP", "TAKEDOWN", "MUDSLAP", "SCARYFACE", "FIREFANG", "THUNDERFANG", "ICEFANG", "TRAILBLAZE", "CHILLINGWATER", "BULLDOZE", "MUDSHOT", "SUNNYDAY", "RAINDANCE", "DIG", "ZENHEADBUTT", "PSYCHICFANGS", "SEEDBOMB", "CRUNCH", "HELPINGHAND", "REVERSAL", "WILDCHARGE", "DOUBLEEDGE")
+egg_move_tokens = PackedStringArray("FIREFANG", "ICEFANG", "LASTRESORT", "REVENGE", "THUNDERFANG")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.4
+weight_kg = 6.0
+color = "Brown"
+shape = "Quadruped"
+category = "Patrulla"
+pokedex = "Deambula todo el día en busca de alimento. Al anochecer, exhausto, se deja caer en cualquier lugar y se queda dormido."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "GUMSHOOS",
+"method": "LevelDay",
+"param": "20"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "PECHABERRY"
+offspring = PackedStringArray()

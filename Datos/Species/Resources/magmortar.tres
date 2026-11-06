@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qskv2acntis"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_q4qfs"]
+
+[resource]
+script = ExtResource("1_q4qfs")
+id = 467
+name = "Magmortar"
+types = Array[int]([10])
+base_hp = 75
+base_atk = 95
+base_def = 67
+base_spe = 83
+base_spa = 125
+base_spd = 95
+catch_rate = 30
+base_exp = 270
+gender_ratio = "Female25Percent"
+abilities = Array[int]([49])
+hidden_abilities = Array[int]([72])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SMOG"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "SMOKESCREEN"
+}, {
+"level": 12.0,
+"move": "CLEARSMOG"
+}, {
+"level": 16.0,
+"move": "FLAMEWHEEL"
+}, {
+"level": 20.0,
+"move": "CONFUSERAY"
+}, {
+"level": 24.0,
+"move": "SCARYFACE"
+}, {
+"level": 28.0,
+"move": "FIREPUNCH"
+}, {
+"level": 34.0,
+"move": "LAVAPLUME"
+}, {
+"level": 40.0,
+"move": "LOWKICK"
+}, {
+"level": 46.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 52.0,
+"move": "SUNNYDAY"
+}, {
+"level": 58.0,
+"move": "FIREBLAST"
+}, {
+"level": 64.0,
+"move": "HYPERBEAM"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "BURNINGJEALOUSY", "CAPTIVATE", "CONFIDE", "COUNTER", "COVET", "DOUBLEEDGE", "DOUBLETEAM", "DUALCHOP", "DYNAMICPUNCH", "EARTHQUAKE", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "FLING", "FOCUSBLAST", "FOCUSENERGY", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "INCINERATE", "IRONTAIL", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "MYSTICALFIRE", "NATURALGIFT", "OVERHEAT", "POWERSWAP", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "REST", "RETURN", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCARYFACE", "SCORCHINGSANDS", "SCREECH", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SNORE", "SOLARBEAM", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "THIEF", "THUNDERBOLT", "THUNDERPUNCH", "TORMENT", "UPROAR", "WEATHERBALL", "WILLOWISP", "TAKEDOWN", "ACIDSPRAY", "CONFUSERAY", "METRONOME", "POISONJAB", "HYPERVOICE", "ROAR", "KNOCKOFF", "HEATCRASH", "TEMPERFLARE", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 6400
+height_m = 1.6
+weight_kg = 68.0
+color = "Red"
+shape = "BipedalTail"
+category = "Explosión"
+pokedex = "Sus brazos disparan bolas de fuego a más de 2000 grados. El aliento que desprende es abrasador. Vive en cráteres volcánicos."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MAGMARIZER"
+offspring = PackedStringArray()

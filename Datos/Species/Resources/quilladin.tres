@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bej2kmqchufio"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_60epm"]
+
+[resource]
+script = ExtResource("1_60epm")
+id = 651
+name = "Quilladin"
+types = Array[int]([12])
+base_hp = 61
+base_atk = 78
+base_def = 95
+base_spe = 57
+base_spa = 56
+base_spd = 58
+base_exp = 142
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([171])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "NEEDLEARM"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "VINEWHIP"
+}, {
+"level": 8.0,
+"move": "ROLLOUT"
+}, {
+"level": 11.0,
+"move": "BITE"
+}, {
+"level": 15.0,
+"move": "LEECHSEED"
+}, {
+"level": 20.0,
+"move": "SEEDBOMB"
+}, {
+"level": 24.0,
+"move": "PINMISSILE"
+}, {
+"level": 29.0,
+"move": "TAKEDOWN"
+}, {
+"level": 34.0,
+"move": "MUDSHOT"
+}, {
+"level": 38.0,
+"move": "BULKUP"
+}, {
+"level": 43.0,
+"move": "BODYSLAM"
+}, {
+"level": 47.0,
+"move": "PAINSPLIT"
+}, {
+"level": 53.0,
+"move": "WOODHAMMER"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CUT", "DIG", "DOUBLETEAM", "DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSPLEDGE", "GYROBALL", "HELPINGHAND", "HIDDENPOWER", "HONECLAWS", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LOWKICK", "LOWSWEEP", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PAINSPLIT", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "PROTECT", "REFLECT", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SECRETPOWER", "SEEDBOMB", "SHADOWCLAW", "SLEEPTALK", "SLUDGEBOMB", "SMACKDOWN", "SNORE", "SOLARBEAM", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SUPERPOWER", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "TAUNT", "THUNDERPUNCH", "TOXIC", "WORKUP", "WORRYSEED", "ZENHEADBUTT", "TAKEDOWN", "TRAILBLAZE", "METALCLAW", "SWIFT", "MAGICALLEAF", "MUDSHOT", "RAINDANCE", "BULLETSEED", "BODYSLAM", "SPIKES", "GRASSYTERRAIN", "LEAFSTORM", "GRASSYGLIDE", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 29.0
+color = "Green"
+shape = "BipedalTail"
+category = "Corazaespín"
+pokedex = "Desvía los ataques de los enemigos con la robusta coraza que cubre su cuerpo y contraataca con sus dos afilados cuernos."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "CHESNAUGHT",
+"method": "Level",
+"param": "36"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

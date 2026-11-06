@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ck577u5vjxdqq"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hcmvf"]
+
+[resource]
+script = ExtResource("1_hcmvf")
+id = 279
+name = "Pelipper"
+types = Array[int]([11, 3])
+base_hp = 60
+base_atk = 50
+base_def = 100
+base_spe = 65
+base_spa = 95
+base_spd = 70
+base_exp = 154
+abilities = Array[int]([51, 2])
+hidden_abilities = Array[int]([44])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 1.0,
+"move": "SOAK"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "AGILITY"
+}, {
+"level": 1.0,
+"move": "AIRSLASH"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "TAILWIND"
+}, {
+"level": 1.0,
+"move": "SUPERSONIC"
+}, {
+"level": 15.0,
+"move": "WINGATTACK"
+}, {
+"level": 20.0,
+"move": "WATERPULSE"
+}, {
+"level": 28.0,
+"move": "STOCKPILE"
+}, {
+"level": 28.0,
+"move": "SWALLOW"
+}, {
+"level": 28.0,
+"move": "SPITUP"
+}, {
+"level": 34.0,
+"move": "FLING"
+}, {
+"level": 41.0,
+"move": "MIST"
+}, {
+"level": 48.0,
+"move": "ROOST"
+}, {
+"level": 55.0,
+"move": "HURRICANE"
+}, {
+"level": 62.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "AIRCUTTER", "AIRSLASH", "ATTRACT", "BLIZZARD", "BRAVEBIRD", "BRINE", "CAPTIVATE", "CONFIDE", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "DUALWINGBEAT", "ECHOEDVOICE", "ENDURE", "FACADE", "FLING", "FLY", "FRUSTRATION", "GIGAIMPACT", "GUNKSHOT", "HAIL", "HIDDENPOWER", "HURRICANE", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICYWIND", "KNOCKOFF", "LIQUIDATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "PAYBACK", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SCALD", "SECRETPOWER", "SEEDBOMB", "SHOCKWAVE", "SKYATTACK", "SKYDROP", "SLEEPTALK", "SNORE", "STEELWING", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "TAILWIND", "THIEF", "TWISTER", "UPROAR", "UTURN", "WATERPULSE", "WEATHERBALL", "WHIRLPOOL", "TAKEDOWN", "ACROBATICS", "CHILLINGWATER", "SNOWSCAPE", "BODYSLAM", "WATERFALL", "HELPINGHAND", "MUDDYWATER", "FEATHERDANCE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Flying")
+hatch_steps = 5120
+height_m = 1.2
+weight_kg = 28.0
+color = "Yellow"
+shape = "Winged"
+category = "Ave Agua"
+habitat = "Sea"
+pokedex = "Va esquivando las crestas de las olas. Cuando localiza a su presa, usa el enorme pico que tiene para sacarla del agua. También protege sus huevos con él."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "PRETTYFEATHER"
+offspring = PackedStringArray()

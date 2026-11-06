@@ -1,0 +1,119 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b7j7l0bercde7"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_o5376"]
+
+[resource]
+script = ExtResource("1_o5376")
+id = 330
+name = "Flygon"
+types = Array[int]([5, 16])
+base_hp = 80
+base_atk = 100
+base_def = 80
+base_spe = 100
+base_spa = 80
+base_spd = 80
+base_exp = 260
+growth_rate = "Parabolic"
+abilities = Array[int]([26])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "DRAGONCLAW"
+}, {
+"level": -1.0,
+"move": "DRAGONDANCE"
+}, {
+"level": -1.0,
+"move": "FEINT"
+}, {
+"level": -1.0,
+"move": "DIG"
+}, {
+"level": -1.0,
+"move": "CRUNCH"
+}, {
+"level": -1.0,
+"move": "SUPERPOWER"
+}, {
+"level": -1.0,
+"move": "FISSURE"
+}, {
+"level": -1.0,
+"move": "ASTONISH"
+}, {
+"level": -1.0,
+"move": "BITE"
+}, {
+"level": 1.0,
+"move": "OUTRAGE"
+}, {
+"level": 1.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 1.0,
+"move": "LASERFOCUS"
+}, {
+"level": 1.0,
+"move": "BULLDOZE"
+}, {
+"level": 1.0,
+"move": "SANDATTACK"
+}, {
+"level": 1.0,
+"move": "SUPERSONIC"
+}, {
+"level": 12.0,
+"move": "MUDSLAP"
+}, {
+"level": 16.0,
+"move": "SANDTOMB"
+}, {
+"level": 20.0,
+"move": "DRAGONTAIL"
+}, {
+"level": 24.0,
+"move": "SCREECH"
+}, {
+"level": 28.0,
+"move": "BUGBUZZ"
+}, {
+"level": 32.0,
+"move": "SANDSTORM"
+}, {
+"level": 38.0,
+"move": "EARTHPOWER"
+}, {
+"level": 44.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 52.0,
+"move": "UPROAR"
+}, {
+"level": 60.0,
+"move": "DRAGONRUSH"
+}, {
+"level": 68.0,
+"move": "BOOMBURST"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AIRCUTTER", "AIRSLASH", "ATTRACT", "BODYSLAM", "BREAKINGSWIPE", "BRUTALSWING", "BUGBITE", "BUGBUZZ", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "DEFOG", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONDANCE", "DRAGONPULSE", "DRAGONTAIL", "DUALWINGBEAT", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FIRESPIN", "FLAMETHROWER", "FLY", "FOCUSENERGY", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "GIGAIMPACT", "HEADBUTT", "HEATWAVE", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "INCINERATE", "IRONTAIL", "LASERFOCUS", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "OUTRAGE", "POWERUPPUNCH", "PROTECT", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROOST", "ROUND", "SANDSTORM", "SANDTOMB", "SCALESHOT", "SCORCHINGSANDS", "SCREECH", "SECRETPOWER", "SIGNALBEAM", "SILVERWIND", "SLEEPTALK", "SNORE", "SOLARBEAM", "STEELWING", "STONEEDGE", "STRENGTH", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWIFT", "TAILWIND", "THROATCHOP", "THUNDERPUNCH", "TWISTER", "UPROAR", "UTURN", "TAKEDOWN", "AGILITY", "STEALTHROCK", "HELPINGHAND", "VACUUMWAVE", "DRAGONCHEER", "ALLURINGVOICE", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug", "Dragon")
+hatch_steps = 5120
+height_m = 2.0
+weight_kg = 82.0
+color = "Green"
+shape = "Winged"
+category = "Místico"
+habitat = "RoughTerrain"
+pokedex = "El aleteo de sus alas es muy melódico. Para evitar que el enemigo lo descubra, levanta con las alas una nube de arena del desierto, tras la cual se oculta."
+generation = 3
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

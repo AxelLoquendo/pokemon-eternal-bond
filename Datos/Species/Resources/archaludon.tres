@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://tyyatr86ymdv"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_btfck"]
+
+[resource]
+script = ExtResource("1_btfck")
+id = 1018
+name = "Archaludon"
+types = Array[int]([9, 16])
+base_hp = 90
+base_atk = 105
+base_def = 130
+base_spe = 85
+base_spa = 125
+base_spd = 65
+catch_rate = 10
+base_exp = 300
+abilities = Array[int]([192, 5])
+hidden_abilities = Array[int]([242])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "ELECTROSHOT"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "METALCLAW"
+}, {
+"level": 6.0,
+"move": "ROCKSMASH"
+}, {
+"level": 12.0,
+"move": "HONECLAWS"
+}, {
+"level": 18.0,
+"move": "METALSOUND"
+}, {
+"level": 24.0,
+"move": "BREAKINGSWIPE"
+}, {
+"level": 30.0,
+"move": "DRAGONTAIL"
+}, {
+"level": 36.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 42.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 48.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 54.0,
+"move": "FLASHCANNON"
+}, {
+"level": 60.0,
+"move": "METALBURST"
+}, {
+"level": 66.0,
+"move": "HYPERBEAM"
+}])
+tutor_move_tokens = PackedStringArray("AURASPHERE", "BODYPRESS", "BODYSLAM", "BREAKINGSWIPE", "BRICKBREAK", "DARKPULSE", "DOUBLEEDGE", "DRACOMETEOR", "DRAGONCHEER", "DRAGONCLAW", "DRAGONPULSE", "DRAGONTAIL", "EARTHQUAKE", "ENDURE", "FACADE", "FLASHCANNON", "FOULPLAY", "GIGAIMPACT", "GYROBALL", "HARDPRESS", "HEAVYSLAM", "HYPERBEAM", "IRONDEFENSE", "IRONHEAD", "LIGHTSCREEN", "METALCLAW", "METALSOUND", "METEORBEAM", "OUTRAGE", "PROTECT", "REFLECT", "REST", "ROAR", "ROCKSLIDE", "ROCKTOMB", "SCARYFACE", "SLEEPTALK", "SMACKDOWN", "SNARL", "SOLARBEAM", "STEALTHROCK", "STEELBEAM", "STONEEDGE", "SUBSTITUTE", "SWORDSDANCE", "TAKEDOWN", "THUNDER", "THUNDERBOLT", "THUNDERWAVE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral", "Dragon")
+hatch_steps = 3840
+height_m = 2.0
+weight_kg = 60.0
+color = "White"
+shape = "BipedalTail"
+category = "Aleación"
+habitat = "Mountain"
+pokedex = "Excava hoyos en las montañas para procurarse alimento. Su robustez es tal que apenas se inmuta aunque lo afecte de lleno un derrumbe."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 3.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

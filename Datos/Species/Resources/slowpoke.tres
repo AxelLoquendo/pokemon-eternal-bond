@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dco61hsdtytlw"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ck5jf"]
+
+[resource]
+script = ExtResource("1_ck5jf")
+id = 79
+name = "Slowpoke"
+types = Array[int]([11, 14])
+base_hp = 90
+base_atk = 65
+base_def = 65
+base_spe = 15
+base_spa = 40
+base_spd = 40
+catch_rate = 190
+base_exp = 63
+abilities = Array[int]([12, 20])
+hidden_abilities = Array[int]([144])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "CURSE"
+}, {
+"level": 3.0,
+"move": "GROWL"
+}, {
+"level": 6.0,
+"move": "WATERGUN"
+}, {
+"level": 9.0,
+"move": "YAWN"
+}, {
+"level": 12.0,
+"move": "CONFUSION"
+}, {
+"level": 15.0,
+"move": "DISABLE"
+}, {
+"level": 18.0,
+"move": "WATERPULSE"
+}, {
+"level": 21.0,
+"move": "HEADBUTT"
+}, {
+"level": 24.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 27.0,
+"move": "AMNESIA"
+}, {
+"level": 30.0,
+"move": "SURF"
+}, {
+"level": 33.0,
+"move": "SLACKOFF"
+}, {
+"level": 36.0,
+"move": "PSYCHIC"
+}, {
+"level": 39.0,
+"move": "PSYCHUP"
+}, {
+"level": 42.0,
+"move": "RAINDANCE"
+}, {
+"level": 45.0,
+"move": "HEALPULSE"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "AMNESIA", "AQUATAIL", "ATTRACT", "BLIZZARD", "BLOCK", "BODYSLAM", "BRINE", "BULLDOZE", "CALMMIND", "CAPTIVATE", "CONFIDE", "DIG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "EARTHQUAKE", "ECHOEDVOICE", "ENDURE", "EXPANDINGFORCE", "FACADE", "FIREBLAST", "FLAMETHROWER", "FLASH", "FRUSTRATION", "FUTURESIGHT", "GRASSKNOT", "HAIL", "HEADBUTT", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "IMPRISON", "INCINERATE", "IRONTAIL", "LIGHTSCREEN", "LIQUIDATION", "MAGICCOAT", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PAYDAY", "PROTECT", "PSYCHIC", "PSYCHICTERRAIN", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SCALD", "SECRETPOWER", "SHADOWBALL", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNORE", "STOREDPOWER", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SURF", "SWAGGER", "SWIFT", "TELEKINESIS", "THUNDERWAVE", "TRIATTACK", "TRICK", "TRICKROOM", "WATERPULSE", "WEATHERBALL", "WHIRLPOOL", "WONDERROOM", "ZENHEADBUTT", "TAKEDOWN", "PSYBEAM", "CHILLINGWATER", "AVALANCHE", "SNOWSCAPE", "FOULPLAY", "WATERFALL", "HELPINGHAND", "CURSE")
+egg_move_tokens = PackedStringArray("BELCH", "BELLYDRUM", "BLOCK", "FUTURESIGHT", "SNORE", "STOMP", "WONDERROOM", "ZENHEADBUTT")
+egg_groups = PackedStringArray("Monster", "Water1")
+hatch_steps = 5120
+height_m = 1.2
+weight_kg = 36.0
+color = "Pink"
+shape = "Quadruped"
+category = "Atontado"
+habitat = "WatersEdge"
+pokedex = "Con la cola, atrapa a su rival metiéndolo bajo agua en las riberas de los ríos. Suele olvidar lo que estaba haciendo y pasarse días enteros holgazaneando en la orilla."
+evolutions = Array[Dictionary]([{
+"into": "SLOWBRO",
+"method": "Level",
+"param": "37"
+}, {
+"into": "SLOWKING",
+"method": "CableLinkItem",
+"param": "KINGSROCK"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "LAGGINGTAIL"
+offspring = PackedStringArray()

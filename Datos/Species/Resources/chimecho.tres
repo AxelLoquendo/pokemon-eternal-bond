@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://04bw5oigq28s"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_p77t8"]
+
+[resource]
+script = ExtResource("1_p77t8")
+id = 358
+name = "Chimecho"
+types = Array[int]([14])
+base_hp = 75
+base_atk = 50
+base_def = 80
+base_spe = 65
+base_spa = 95
+base_spd = 90
+base_exp = 159
+growth_rate = "Fast"
+abilities = Array[int]([26])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "HEALINGWISH"
+}, {
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 1.0,
+"move": "LASTRESORT"
+}, {
+"level": 1.0,
+"move": "ENTRAINMENT"
+}, {
+"level": 13.0,
+"move": "YAWN"
+}, {
+"level": 16.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 16.0,
+"move": "STOREDPOWER"
+}, {
+"level": 19.0,
+"move": "TAKEDOWN"
+}, {
+"level": 22.0,
+"move": "EXTRASENSORY"
+}, {
+"level": 27.0,
+"move": "HEALBELL"
+}, {
+"level": 32.0,
+"move": "UPROAR"
+}, {
+"level": 37.0,
+"move": "SAFEGUARD"
+}, {
+"level": 42.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 47.0,
+"move": "HEALPULSE"
+}, {
+"level": 52.0,
+"move": "PSYCHIC"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BIND", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "DAZZLINGGLEAM", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "ECHOEDVOICE", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GRASSKNOT", "GRAVITY", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "ICYWIND", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "NATURALGIFT", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLLOUT", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "TELEKINESIS", "THUNDERWAVE", "TORMENT", "TRICK", "TRICKROOM", "UPROAR", "ZENHEADBUTT", "TAKEDOWN", "CHARM", "FAKETEARS", "PSYBEAM", "DISARMINGVOICE", "SNARL", "SWIFT", "DRAININGKISS", "STOREDPOWER", "IMPRISON", "ENCORE", "BATONPASS", "FUTURESIGHT", "EXPANDINGFORCE", "CURSE", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray("COSMICPOWER", "CURSE", "DISABLE", "FUTURESIGHT", "HYPNOSIS", "PERISHSONG", "RECOVER", "STOREDPOWER", "WISH")
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 6400
+height_m = 0.6
+weight_kg = 1.0
+color = "Blue"
+shape = "HeadArms"
+category = "Sonido Aire"
+habitat = "Grassland"
+pokedex = "Se ponen a volar sin parar cuando llega la estación cálida. Se comunica con otros a través de siete tipos de grito distintos muy característicos."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "CLEANSETAG"
+offspring = PackedStringArray()

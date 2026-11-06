@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d4kv6h0tvd8l8"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_u4plb"]
+
+[resource]
+script = ExtResource("1_u4plb")
+id = 9
+name = "Blastoise"
+types = Array[int]([11])
+base_hp = 79
+base_atk = 83
+base_def = 100
+base_spe = 78
+base_spa = 85
+base_spd = 105
+base_exp = 265
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([67])
+hidden_abilities = Array[int]([44])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "FLASHCANNON"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "WITHDRAW"
+}, {
+"level": 9.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 12.0,
+"move": "BITE"
+}, {
+"level": 15.0,
+"move": "WATERPULSE"
+}, {
+"level": 20.0,
+"move": "PROTECT"
+}, {
+"level": 25.0,
+"move": "RAINDANCE"
+}, {
+"level": 30.0,
+"move": "AQUATAIL"
+}, {
+"level": 35.0,
+"move": "SHELLSMASH"
+}, {
+"level": 42.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 49.0,
+"move": "HYDROPUMP"
+}, {
+"level": 56.0,
+"move": "SKULLBASH"
+}, {
+"level": 56.0,
+"move": "WAVECRASH"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "AURASPHERE", "AVALANCHE", "BLIZZARD", "BODYPRESS", "BODYSLAM", "BRICKBREAK", "BRINE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "CRUNCH", "DARKPULSE", "DEFENSECURL", "DIG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DRAGONPULSE", "DRAGONTAIL", "DYNAMICPUNCH", "EARTHQUAKE", "ENDURE", "FACADE", "FALSESWIPE", "FLASHCANNON", "FLING", "FLIPTURN", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "GYROBALL", "HAIL", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYDROCANNON", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "LIQUIDATION", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDDYWATER", "MUDSLAP", "NATURALGIFT", "OUTRAGE", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SCALD", "SECRETPOWER", "SEISMICTOSS", "SIGNALBEAM", "SLEEPTALK", "SMACKDOWN", "SNORE", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "TERRAINPULSE", "WATERFALL", "WATERPLEDGE", "WATERPULSE", "WEATHERBALL", "WHIRLPOOL", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "SCARYFACE", "CHILLINGWATER", "MUDSHOT", "ICESPINNER", "HAZE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Monster", "Water1")
+hatch_steps = 5120
+height_m = 1.6
+weight_kg = 85.5
+color = "Blue"
+shape = "BipedalTail"
+category = "Marisco"
+habitat = "WatersEdge"
+pokedex = "Lanza chorros de agua por los tubos del caparazón con gran precisión. Tiene tanta puntería que no fallaría al tirar contra una lata pequeña a 50 metros."
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 3.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

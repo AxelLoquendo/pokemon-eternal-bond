@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfvtfeb1l5v5y"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_axysh"]
+
+[resource]
+script = ExtResource("1_axysh")
+id = 207
+name = "Gligar"
+types = Array[int]([5, 3])
+base_hp = 65
+base_atk = 75
+base_def = 105
+base_spe = 85
+base_spa = 35
+base_spd = 65
+catch_rate = 60
+base_exp = 86
+growth_rate = "Parabolic"
+abilities = Array[int]([52, 8])
+hidden_abilities = Array[int]([17])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 4.0,
+"move": "SANDATTACK"
+}, {
+"level": 7.0,
+"move": "HARDEN"
+}, {
+"level": 10.0,
+"move": "KNOCKOFF"
+}, {
+"level": 13.0,
+"move": "QUICKATTACK"
+}, {
+"level": 16.0,
+"move": "FURYCUTTER"
+}, {
+"level": 19.0,
+"move": "MUDSLAP"
+}, {
+"level": 19.0,
+"move": "POISONTAIL"
+}, {
+"level": 22.0,
+"move": "ACROBATICS"
+}, {
+"level": 27.0,
+"move": "SLASH"
+}, {
+"level": 30.0,
+"move": "UTURN"
+}, {
+"level": 35.0,
+"move": "SCREECH"
+}, {
+"level": 40.0,
+"move": "XSCISSOR"
+}, {
+"level": 45.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 45.0,
+"move": "CRABHAMMER"
+}, {
+"level": 50.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 55.0,
+"move": "GUILLOTINE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AQUATAIL", "ATTRACT", "BRICKBREAK", "BUGBITE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "CUT", "DARKPULSE", "DEFOG", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FALSESWIPE", "FLING", "FRUSTRATION", "FURYCUTTER", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "IRONTAIL", "KNOCKOFF", "MIMIC", "NATURALGIFT", "PAYBACK", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROOST", "ROUND", "SANDSTORM", "SECRETPOWER", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "STEALTHROCK", "STEELWING", "STONEEDGE", "STRENGTH", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAILWIND", "TAUNT", "THIEF", "THROATCHOP", "TORMENT", "UTURN", "VENOSHOCK", "XSCISSOR", "TAKEDOWN", "AGILITY", "MUDSLAP", "SCARYFACE", "FIREFANG", "THUNDERFANG", "ICEFANG", "POISONTAIL", "METALCLAW", "MUDSHOT", "PSYCHICFANGS", "SPIKES", "TOXICSPIKES", "GUNKSHOT", "CRUNCH", "BATONPASS", "TOXIC", "SANDTOMB", "LUNGE", "HIGHHORSEPOWER", "DUALWINGBEAT", "SCALESHOT", "SKITTERSMACK", "BREAKINGSWIPE")
+egg_move_tokens = PackedStringArray("AGILITY", "BATONPASS", "COUNTER", "CROSSPOISON", "DOUBLEEDGE", "FEINT", "METALCLAW", "NIGHTSLASH", "POISONTAIL", "POWERTRICK", "SANDTOMB", "WINGATTACK")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 1.1
+weight_kg = 64.8
+color = "Purple"
+shape = "Winged"
+category = "Escorpiala"
+habitat = "Mountain"
+pokedex = "Planea por el aire sin hacer ruido. Se agarra a la cara del rival con las garras traseras y las pinzas delanteras, inyectándole veneno por el aguijón."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "GLISCOR",
+"method": "NightHoldItem",
+"param": "RAZORFANG"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bhsgiv1nakl48"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_c1kys"]
+
+[resource]
+script = ExtResource("1_c1kys")
+id = 876
+name = "Indeedee"
+types = Array[int]([14, 1])
+base_hp = 60
+base_atk = 65
+base_def = 55
+base_spe = 95
+base_spa = 105
+base_spd = 95
+catch_rate = 30
+base_exp = 166
+base_happiness = 140
+growth_rate = "Fast"
+abilities = Array[int]([39, 28])
+hidden_abilities = Array[int]([227])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "STOREDPOWER"
+}, {
+"level": 1.0,
+"move": "PLAYNICE"
+}, {
+"level": 5.0,
+"move": "ENCORE"
+}, {
+"level": 10.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 15.0,
+"move": "PSYBEAM"
+}, {
+"level": 20.0,
+"move": "HELPINGHAND"
+}, {
+"level": 25.0,
+"move": "AFTERYOU"
+}, {
+"level": 30.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 30.0,
+"move": "HEALINGWISH"
+}, {
+"level": 35.0,
+"move": "PSYCHIC"
+}, {
+"level": 40.0,
+"move": "CALMMIND"
+}, {
+"level": 45.0,
+"move": "POWERSPLIT"
+}, {
+"level": 50.0,
+"move": "PSYCHICTERRAIN"
+}, {
+"level": 55.0,
+"move": "LASTRESORT"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "CALMMIND", "CAPTIVATE", "CONFIDE", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAININGKISS", "DRAINPUNCH", "ENCORE", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "FACADE", "FRUSTRATION", "FUTURESIGHT", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "IMPRISON", "MAGICALLEAF", "MAGICROOM", "METRONOME", "MIMIC", "MYSTICALFIRE", "NATURALGIFT", "PAYDAY", "PLAYROUGH", "POWERSWAP", "PROTECT", "PSYCHIC", "PSYCHICTERRAIN", "PSYSHOCK", "REST", "RETURN", "ROUND", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SNORE", "STOREDPOWER", "SUBSTITUTE", "SWAGGER", "SWIFT", "TERRAINPULSE", "TOXIC", "TRIATTACK", "TRICK", "TRICKROOM", "WONDERROOM", "ZENHEADBUTT", "TAKEDOWN", "PSYBEAM", "DISARMINGVOICE", "BODYSLAM", "SKILLSWAP", "GRAVITY", "PSYCHUP", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray("EXTRASENSORY", "FAKEOUT", "PSYCHUP")
+egg_groups = PackedStringArray("Fairy")
+hatch_steps = 10240
+height_m = 0.9
+weight_kg = 28.0
+color = "Purple"
+shape = "BipedalTail"
+category = "Sensorio"
+pokedex = "Percibe las emociones del objetivo con los cuernos de la cabeza. Los machos están atentos a cualquier cosa que necesite su Entrenador."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Macho"

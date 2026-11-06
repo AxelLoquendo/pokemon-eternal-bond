@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfordsbthv8e8"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_e5ouh"]
+
+[resource]
+script = ExtResource("1_e5ouh")
+id = 278
+name = "Wingull"
+types = Array[int]([11, 3])
+base_hp = 40
+base_atk = 30
+base_def = 30
+base_spe = 85
+base_spa = 55
+base_spd = 30
+catch_rate = 190
+base_exp = 54
+abilities = Array[int]([51, 93])
+hidden_abilities = Array[int]([44])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 5.0,
+"move": "QUICKATTACK"
+}, {
+"level": 10.0,
+"move": "SUPERSONIC"
+}, {
+"level": 15.0,
+"move": "WINGATTACK"
+}, {
+"level": 20.0,
+"move": "WATERPULSE"
+}, {
+"level": 26.0,
+"move": "AGILITY"
+}, {
+"level": 30.0,
+"move": "AIRSLASH"
+}, {
+"level": 35.0,
+"move": "MIST"
+}, {
+"level": 40.0,
+"move": "ROOST"
+}, {
+"level": 45.0,
+"move": "HURRICANE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "AIRCUTTER", "AIRSLASH", "ATTRACT", "BLIZZARD", "BRINE", "CAPTIVATE", "CONFIDE", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "DUALWINGBEAT", "ECHOEDVOICE", "ENDURE", "FACADE", "FLY", "FRUSTRATION", "HAIL", "HIDDENPOWER", "HURRICANE", "ICEBEAM", "ICYWIND", "KNOCKOFF", "LIQUIDATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SCALD", "SECRETPOWER", "SHOCKWAVE", "SKYATTACK", "SLEEPTALK", "SNORE", "STEELWING", "SUBSTITUTE", "SWAGGER", "SWIFT", "TAILWIND", "THIEF", "TWISTER", "UPROAR", "UTURN", "WATERPULSE", "TAKEDOWN", "ACROBATICS", "CHILLINGWATER", "SNOWSCAPE", "WATERFALL", "SURF", "HELPINGHAND", "HYDROPUMP", "BRAVEBIRD", "WHIRLPOOL", "MUDDYWATER", "FEATHERDANCE")
+egg_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "AIRCUTTER", "AQUARING", "GUST", "KNOCKOFF", "MIST", "SOAK", "TWISTER", "WIDEGUARD")
+egg_groups = PackedStringArray("Water1", "Flying")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 9.5
+color = "White"
+shape = "Winged"
+category = "Gaviota"
+habitat = "Sea"
+pokedex = "Hace su nido en acantilados escarpados, a la orilla del mar. Como le cuesta batir las alas durante mucho tiempo, se deja llevar por las corrientes de aire ascendentes."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "PELIPPER",
+"method": "Level",
+"param": "25"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+wild_item_common = "PRETTYFEATHER"
+offspring = PackedStringArray()

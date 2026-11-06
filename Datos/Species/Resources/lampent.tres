@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ial57xuau6yu"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ipjp5"]
+
+[resource]
+script = ExtResource("1_ipjp5")
+id = 608
+name = "Lampent"
+types = Array[int]([8, 10])
+base_hp = 60
+base_atk = 40
+base_def = 60
+base_spe = 55
+base_spa = 95
+base_spd = 60
+catch_rate = 90
+base_exp = 130
+growth_rate = "Parabolic"
+abilities = Array[int]([18, 49])
+hidden_abilities = Array[int]([151])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "SMOG"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "MINIMIZE"
+}, {
+"level": 12.0,
+"move": "CONFUSERAY"
+}, {
+"level": 16.0,
+"move": "HEX"
+}, {
+"level": 20.0,
+"move": "WILLOWISP"
+}, {
+"level": 24.0,
+"move": "FIRESPIN"
+}, {
+"level": 28.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 32.0,
+"move": "CURSE"
+}, {
+"level": 36.0,
+"move": "SHADOWBALL"
+}, {
+"level": 40.0,
+"move": "INFERNO"
+}, {
+"level": 46.0,
+"move": "IMPRISON"
+}, {
+"level": 52.0,
+"move": "PAINSPLIT"
+}, {
+"level": 58.0,
+"move": "OVERHEAT"
+}, {
+"level": 64.0,
+"move": "MEMENTO"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BURNINGJEALOUSY", "CALMMIND", "CAPTIVATE", "CONFIDE", "DARKPULSE", "DOUBLETEAM", "DREAMEATER", "EMBARGO", "ENDURE", "ENERGYBALL", "FACADE", "FIREBLAST", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLASH", "FRUSTRATION", "HEATWAVE", "HEX", "HIDDENPOWER", "IMPRISON", "INCINERATE", "MIMIC", "MYSTICALFIRE", "NATURALGIFT", "OVERHEAT", "PAINSPLIT", "PAYBACK", "POLTERGEIST", "PROTECT", "PSYCHIC", "PSYCHUP", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SOLARBEAM", "SPITE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "TOXIC", "TRICK", "TRICKROOM", "WILLOWISP", "CONFUSERAY", "NIGHTSHADE", "FLAREBLITZ", "HAZE", "LASHOUT", "TEMPERFLARE", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 13.0
+color = "Black"
+shape = "HeadArms"
+category = "Farolillo"
+pokedex = "Aparece hacia el final de la vida y absorbe el alma en cuanto esta se separa del cuerpo."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "CHANDELURE",
+"method": "Item",
+"param": "DUSKSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

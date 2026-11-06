@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bhnvsmql00501"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wjr76"]
+
+[resource]
+script = ExtResource("1_wjr76")
+id = 404
+name = "Luxio"
+types = Array[int]([13])
+base_hp = 60
+base_atk = 85
+base_def = 49
+base_spe = 60
+base_spa = 60
+base_spd = 49
+catch_rate = 120
+base_exp = 127
+base_happiness = 100
+growth_rate = "Parabolic"
+abilities = Array[int]([79, 22])
+hidden_abilities = Array[int]([62])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 1.0,
+"move": "CHARGE"
+}, {
+"level": 12.0,
+"move": "BITE"
+}, {
+"level": 18.0,
+"move": "SPARK"
+}, {
+"level": 24.0,
+"move": "ROAR"
+}, {
+"level": 31.0,
+"move": "VOLTSWITCH"
+}, {
+"level": 36.0,
+"move": "SCARYFACE"
+}, {
+"level": 42.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 48.0,
+"move": "CRUNCH"
+}, {
+"level": 54.0,
+"move": "DISCHARGE"
+}, {
+"level": 60.0,
+"move": "SWAGGER"
+}, {
+"level": 68.0,
+"move": "WILDCHARGE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "CRUNCH", "DOUBLETEAM", "EERIEIMPULSE", "ELECTROBALL", "ENDURE", "FACADE", "FAKETEARS", "FIREFANG", "FLASH", "FRUSTRATION", "FURYCUTTER", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "ICEFANG", "IRONTAIL", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "MUDSLAP", "NATURALGIFT", "PLAYROUGH", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROAR", "ROUND", "SCARYFACE", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNARL", "SNORE", "STRENGTH", "SUBSTITUTE", "SWAGGER", "SWIFT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERFANG", "THUNDERWAVE", "VOLTSWITCH", "WILDCHARGE", "TAKEDOWN", "CONFUSERAY", "TRAILBLAZE", "SUNNYDAY", "ELECTRICTERRAIN", "CHARGE", "DOUBLEEDGE", "ELECTROWEB")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.9
+weight_kg = 30.5
+color = "Blue"
+shape = "Quadruped"
+category = "Chispa"
+pokedex = "Sus garras emiten electricidad que puede debilitar a sus rivales. Viven en grupos pequeños. Para comunicarse se tocan con las patas delanteras."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "LUXRAY",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

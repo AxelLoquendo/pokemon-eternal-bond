@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://lytv2ndcjujg"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_458my"]
+
+[resource]
+script = ExtResource("1_458my")
+id = 361
+name = "Snorunt"
+types = Array[int]([15])
+base_hp = 50
+base_atk = 50
+base_def = 50
+base_spe = 50
+base_spa = 50
+base_spd = 50
+catch_rate = 190
+base_exp = 60
+abilities = Array[int]([39, 115])
+hidden_abilities = Array[int]([141])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "HEADBUTT"
+}, {
+"level": 5.0,
+"move": "LEER"
+}, {
+"level": 10.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 15.0,
+"move": "ICESHARD"
+}, {
+"level": 20.0,
+"move": "PROTECT"
+}, {
+"level": 25.0,
+"move": "ICYWIND"
+}, {
+"level": 30.0,
+"move": "FROSTBREATH"
+}, {
+"level": 35.0,
+"move": "BITE"
+}, {
+"level": 40.0,
+"move": "ICEFANG"
+}, {
+"level": 45.0,
+"move": "HAIL"
+}, {
+"level": 45.0,
+"move": "SNOWSCAPE"
+}, {
+"level": 50.0,
+"move": "WEATHERBALL"
+}, {
+"level": 55.0,
+"move": "CRUNCH"
+}, {
+"level": 60.0,
+"move": "BLIZZARD"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "AVALANCHE", "BLIZZARD", "BLOCK", "BODYSLAM", "CAPTIVATE", "CONFIDE", "CRUNCH", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FAKETEARS", "FLASH", "FROSTBREATH", "FRUSTRATION", "HAIL", "HEADBUTT", "HEX", "HIDDENPOWER", "ICEBEAM", "ICEFANG", "ICYWIND", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROLLOUT", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SNORE", "SPIKES", "SPITE", "SUBSTITUTE", "SWAGGER", "WATERPULSE", "WEATHERBALL", "TAKEDOWN", "TRAILBLAZE", "CHILLINGWATER", "SNOWSCAPE", "ICESPINNER", "HELPINGHAND", "ICICLESPEAR")
+egg_move_tokens = PackedStringArray("BLOCK", "DISABLE", "FAKETEARS", "HEX", "ICICLECRASH", "ROLLOUT", "SPIKES", "SWITCHEROO", "WEATHERBALL")
+egg_groups = PackedStringArray("Fairy", "Mineral")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 16.8
+color = "Gray"
+shape = "Bipedal"
+category = "Gorro Nieve"
+habitat = "Cave"
+pokedex = "Tienden a desplazarse en grupos de cinco Snorunt. En las zonas de nieve se dice que, cuando se les ve entrada la noche, es porque va a nevar a la mañana siguiente."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "GLALIE",
+"method": "Level",
+"param": "42"
+}, {
+"into": "FROSLASS",
+"method": "ItemFemale",
+"param": "DAWNSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SNOWBALL"
+offspring = PackedStringArray()

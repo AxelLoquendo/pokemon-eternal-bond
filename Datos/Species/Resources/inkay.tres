@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bb06ai134kisx"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_etwjm"]
+
+[resource]
+script = ExtResource("1_etwjm")
+id = 686
+name = "Inkay"
+types = Array[int]([17, 14])
+base_hp = 53
+base_atk = 54
+base_def = 53
+base_spe = 45
+base_spa = 37
+base_spd = 46
+catch_rate = 190
+base_exp = 58
+abilities = Array[int]([126, 21])
+hidden_abilities = Array[int]([151])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 3.0,
+"move": "HYPNOSIS"
+}, {
+"level": 6.0,
+"move": "WRAP"
+}, {
+"level": 9.0,
+"move": "PAYBACK"
+}, {
+"level": 12.0,
+"move": "PLUCK"
+}, {
+"level": 15.0,
+"move": "PSYBEAM"
+}, {
+"level": 18.0,
+"move": "SWAGGER"
+}, {
+"level": 21.0,
+"move": "SLASH"
+}, {
+"level": 24.0,
+"move": "NIGHTSLASH"
+}, {
+"level": 27.0,
+"move": "PSYCHOCUT"
+}, {
+"level": 31.0,
+"move": "SWITCHEROO"
+}, {
+"level": 33.0,
+"move": "FOULPLAY"
+}, {
+"level": 36.0,
+"move": "TOPSYTURVY"
+}, {
+"level": 39.0,
+"move": "SUPERPOWER"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ALLYSWITCH", "ATTRACT", "BATONPASS", "BIND", "CALMMIND", "CAPTIVATE", "CONFIDE", "CUT", "DARKPULSE", "DOUBLETEAM", "EMBARGO", "ENDURE", "EXPANDINGFORCE", "FACADE", "FAKETEARS", "FLAMETHROWER", "FLASH", "FLING", "FOULPLAY", "FRUSTRATION", "FUTURESIGHT", "GUARDSWAP", "HIDDENPOWER", "KNOCKOFF", "LASHOUT", "LIGHTSCREEN", "LIQUIDATION", "MIMIC", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "PROTECT", "PSYCHIC", "PSYCHOCUT", "PSYCHUP", "RAINDANCE", "REFLECT", "REST", "RETALIATE", "RETURN", "ROCKSLIDE", "ROLEPLAY", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNATCH", "SNORE", "SPITE", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERBOLT", "TORMENT", "TOXIC", "TRICKROOM", "PSYBEAM", "SWIFT", "PSYSHOCK", "SKILLSWAP", "TRICK", "HELPINGHAND", "GRAVITY", "LUNGE")
+egg_move_tokens = PackedStringArray("ACUPRESSURE", "DESTINYBOND", "DISABLE")
+egg_groups = PackedStringArray("Water1", "Water2")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 3.5
+color = "Blue"
+shape = "Multiped"
+category = "Rotación"
+pokedex = "Los enemigos que contemplan el titilante fulgor de su brillante cuerpo terminan mareándose y pierden las ganas de continuar combatiendo."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "MALAMAR",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

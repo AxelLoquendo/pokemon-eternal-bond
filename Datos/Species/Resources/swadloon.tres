@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b7c2vhj4iytc8"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_1cdiv"]
+
+[resource]
+script = ExtResource("1_1cdiv")
+id = 541
+name = "Swadloon"
+types = Array[int]([7, 12])
+base_hp = 55
+base_atk = 63
+base_def = 90
+base_spe = 42
+base_spa = 50
+base_spd = 80
+catch_rate = 120
+base_exp = 133
+growth_rate = "Parabolic"
+abilities = Array[int]([102, 34])
+hidden_abilities = Array[int]([142])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "PROTECT"
+}, {
+"level": 1.0,
+"move": "GRASSWHISTLE"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "STRINGSHOT"
+}, {
+"level": 1.0,
+"move": "BUGBITE"
+}, {
+"level": 1.0,
+"move": "RAZORLEAF"
+}, {
+"level": 22.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 29.0,
+"move": "ENDURE"
+}, {
+"level": 31.0,
+"move": "STICKYWEB"
+}, {
+"level": 36.0,
+"move": "BUGBUZZ"
+}, {
+"level": 43.0,
+"move": "FLAIL"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BUGBITE", "CALMMIND", "CAPTIVATE", "CONFIDE", "CUT", "DOUBLETEAM", "DREAMEATER", "ELECTROWEB", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "HIDDENPOWER", "IRONDEFENSE", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PAYBACK", "PROTECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "TOXIC", "WORRYSEED", "TAKEDOWN", "CHARM", "TRAILBLAZE", "POUNCE", "MAGICALLEAF", "RAINDANCE", "BATONPASS", "GRASSYTERRAIN", "BUGBUZZ", "LUNGE", "GRASSYGLIDE", "SKITTERSMACK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.5
+weight_kg = 7.3
+color = "Green"
+shape = "HeadArms"
+category = "Arropado"
+pokedex = "Se guarece del frío envolviéndose en hojas. se desplaza por el bosque comiendo a su paso hojas caídas."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "LEAVANNY",
+"method": "Happiness",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MENTALHERB"
+offspring = PackedStringArray()

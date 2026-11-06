@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bvepkiqnyhba7"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_12hcc"]
+
+[resource]
+script = ExtResource("1_12hcc")
+id = 394
+name = "Prinplup"
+types = Array[int]([11])
+base_hp = 64
+base_atk = 66
+base_def = 68
+base_spe = 50
+base_spa = 81
+base_spd = 76
+base_exp = 142
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([67])
+hidden_abilities = Array[int]([172])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "METALCLAW"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 11.0,
+"move": "CHARM"
+}, {
+"level": 15.0,
+"move": "PECK"
+}, {
+"level": 19.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 24.0,
+"move": "SWAGGER"
+}, {
+"level": 28.0,
+"move": "FURYATTACK"
+}, {
+"level": 33.0,
+"move": "BRINE"
+}, {
+"level": 37.0,
+"move": "WHIRLPOOL"
+}, {
+"level": 42.0,
+"move": "MIST"
+}, {
+"level": 46.0,
+"move": "DRILLPECK"
+}, {
+"level": 50.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BLIZZARD", "BRICKBREAK", "BRINE", "CAPTIVATE", "CONFIDE", "COVET", "CUT", "DEFOG", "DIG", "DIVE", "DOUBLETEAM", "ECHOEDVOICE", "ENDURE", "FACADE", "FLING", "FRUSTRATION", "GRASSKNOT", "HAIL", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "ICEBEAM", "ICYWIND", "MIMIC", "MUDSLAP", "NATURALGIFT", "PLUCK", "PROTECT", "QUASH", "RAINDANCE", "REST", "RETURN", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCALD", "SECRETPOWER", "SHADOWCLAW", "SIGNALBEAM", "SLEEPTALK", "SNORE", "STEALTHROCK", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "WATERFALL", "WATERPLEDGE", "WATERPULSE", "WHIRLPOOL", "WORKUP", "TAKEDOWN", "CHARM", "AGILITY", "DISARMINGVOICE", "CHILLINGWATER", "METALCLAW", "SWIFT", "SNOWSCAPE", "LIQUIDATION", "ICESPINNER", "HELPINGHAND", "HYDROPUMP", "HAZE", "WEATHERBALL", "FLIPTURN", "PSYCHUP", "DOUBLEEDGE", "TRIPLEAXEL", "FEATHERDANCE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Field")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 23.0
+color = "Blue"
+shape = "BipedalTail"
+category = "Pingüino"
+pokedex = "Vive solo, alejado de los demás. Cada uno piensa que es el más importante. Los golpes de sus alas pueden partir los árboles más gruesos."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "EMPOLEON",
+"method": "Level",
+"param": "36"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

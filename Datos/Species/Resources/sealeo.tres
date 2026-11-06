@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://gnhalmj5hdr6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_edsac"]
+
+[resource]
+script = ExtResource("1_edsac")
+id = 364
+name = "Sealeo"
+types = Array[int]([15, 11])
+base_hp = 90
+base_atk = 60
+base_def = 70
+base_spe = 45
+base_spa = 75
+base_spd = 70
+catch_rate = 120
+base_exp = 144
+growth_rate = "Parabolic"
+abilities = Array[int]([47, 115])
+hidden_abilities = Array[int]([12])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SWAGGER"
+}, {
+"level": 1.0,
+"move": "ROLLOUT"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 12.0,
+"move": "POWDERSNOW"
+}, {
+"level": 16.0,
+"move": "REST"
+}, {
+"level": 20.0,
+"move": "SNORE"
+}, {
+"level": 24.0,
+"move": "BRINE"
+}, {
+"level": 28.0,
+"move": "AURORABEAM"
+}, {
+"level": 35.0,
+"move": "ENCORE"
+}, {
+"level": 40.0,
+"move": "BODYSLAM"
+}, {
+"level": 46.0,
+"move": "SURF"
+}, {
+"level": 52.0,
+"move": "BLIZZARD"
+}, {
+"level": 58.0,
+"move": "HAIL"
+}, {
+"level": 64.0,
+"move": "SHEERCOLD"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "BLIZZARD", "BODYSLAM", "BRINE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DEFENSECURL", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "EARTHQUAKE", "ECHOEDVOICE", "ENCORE", "ENDURE", "FACADE", "FROSTBREATH", "FRUSTRATION", "HAIL", "HEADBUTT", "HIDDENPOWER", "ICEBEAM", "ICICLESPEAR", "ICYWIND", "IRONTAIL", "MIMIC", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SECRETPOWER", "SIGNALBEAM", "SLEEPTALK", "SNORE", "STEELROLLER", "STRENGTH", "SUBSTITUTE", "SUPERFANG", "SURF", "SWAGGER", "WATERFALL", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Field")
+hatch_steps = 5120
+height_m = 1.1
+weight_kg = 87.6
+color = "Blue"
+shape = "Finned"
+category = "Rodabola"
+habitat = "Sea"
+pokedex = "Sealeo vive en manadas sobre placas de hielo. Puede romper el hielo usando sus potentes aletas y se zambulle en el mar cinco veces al día para pescar."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "WALREIN",
+"method": "Level",
+"param": "44"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

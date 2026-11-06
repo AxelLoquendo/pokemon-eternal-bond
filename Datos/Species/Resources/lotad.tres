@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://e4ljqqalb8ha"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6its3"]
+
+[resource]
+script = ExtResource("1_6its3")
+id = 270
+name = "Lotad"
+types = Array[int]([11, 12])
+base_hp = 40
+base_atk = 30
+base_def = 30
+base_spe = 30
+base_spa = 40
+base_spd = 50
+catch_rate = 255
+base_exp = 44
+growth_rate = "Parabolic"
+abilities = Array[int]([33, 44])
+hidden_abilities = Array[int]([20])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 3.0,
+"move": "ABSORB"
+}, {
+"level": 6.0,
+"move": "WATERGUN"
+}, {
+"level": 9.0,
+"move": "MIST"
+}, {
+"level": 12.0,
+"move": "MEGADRAIN"
+}, {
+"level": 16.0,
+"move": "FLAIL"
+}, {
+"level": 20.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 24.0,
+"move": "NATUREPOWER"
+}, {
+"level": 24.0,
+"move": "LEECHSEED"
+}, {
+"level": 28.0,
+"move": "GIGADRAIN"
+}, {
+"level": 33.0,
+"move": "RAINDANCE"
+}, {
+"level": 38.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 43.0,
+"move": "ENERGYBALL"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BODYSLAM", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DOUBLEEDGE", "DOUBLETEAM", "ECHOEDVOICE", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "HAIL", "HEADBUTT", "HIDDENPOWER", "ICEBEAM", "ICYWIND", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROUND", "SCALD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SURF", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "THIEF", "UPROAR", "WATERPULSE", "WHIRLPOOL", "ZENHEADBUTT", "TAKEDOWN", "DISARMINGVOICE", "TRAILBLAZE", "CHILLINGWATER", "MAGICALLEAF", "GRASSYTERRAIN", "WEATHERBALL", "MUDDYWATER")
+egg_move_tokens = PackedStringArray("COUNTER", "FLAIL", "LEECHSEED", "RAZORLEAF", "SWEETSCENT", "SYNTHESIS", "TEETERDANCE", "TICKLE", "WATERGUN")
+egg_groups = PackedStringArray("Water1", "Grass")
+hatch_steps = 3840
+height_m = 0.5
+weight_kg = 2.6
+color = "Green"
+shape = "Insectoid"
+category = "Alga"
+habitat = "WatersEdge"
+pokedex = "Vive en charcas de agua clara. Ayuda a los Pokémon pequeños a cruzar las charcas transportándolos sobre la hoja que tiene."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "LOMBRE",
+"method": "Level",
+"param": "14"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MENTALHERB"
+offspring = PackedStringArray()

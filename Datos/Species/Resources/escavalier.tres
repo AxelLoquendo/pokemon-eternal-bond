@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://2m0dojsvko3x"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_oiowh"]
+
+[resource]
+script = ExtResource("1_oiowh")
+id = 589
+name = "Escavalier"
+types = Array[int]([7, 9])
+base_hp = 70
+base_atk = 135
+base_def = 105
+base_spe = 20
+base_spa = 60
+base_spd = 105
+catch_rate = 75
+base_exp = 173
+abilities = Array[int]([68, 75])
+hidden_abilities = Array[int]([142])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FELLSTINGER"
+}, {
+"level": 1.0,
+"move": "ENDURE"
+}, {
+"level": 1.0,
+"move": "FLAIL"
+}, {
+"level": 1.0,
+"move": "SCARYFACE"
+}, {
+"level": 1.0,
+"move": "TAKEDOWN"
+}, {
+"level": 1.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "FURYCUTTER"
+}, {
+"level": 1.0,
+"move": "QUICKGUARD"
+}, {
+"level": 12.0,
+"move": "FALSESWIPE"
+}, {
+"level": 16.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 20.0,
+"move": "HEADBUTT"
+}, {
+"level": 24.0,
+"move": "REVERSAL"
+}, {
+"level": 28.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 32.0,
+"move": "XSCISSOR"
+}, {
+"level": 36.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 40.0,
+"move": "IRONHEAD"
+}, {
+"level": 44.0,
+"move": "BUGBUZZ"
+}, {
+"level": 48.0,
+"move": "GIGAIMPACT"
+}, {
+"level": 52.0,
+"move": "METALBURST"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "ATTRACT", "BRUTALSWING", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CLOSECOMBAT", "CONFIDE", "CUT", "DOUBLETEAM", "DRILLRUN", "ENCORE", "ENDURE", "ENERGYBALL", "FACADE", "FALSESWIPE", "FOCUSBLAST", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "IRONDEFENSE", "IRONHEAD", "KNOCKOFF", "LASERFOCUS", "MEGAHORN", "MIMIC", "NATURALGIFT", "POISONJAB", "PROTECT", "RAINDANCE", "RAZORSHELL", "REST", "RETURN", "REVENGE", "REVERSAL", "ROCKSMASH", "ROUND", "SCARYFACE", "SCREECH", "SECRETPOWER", "SIGNALBEAM", "SLEEPTALK", "SMARTSTRIKE", "SNORE", "STEELBEAM", "STRUGGLEBUG", "SUBSTITUTE", "SWAGGER", "SWORDSDANCE", "TAUNT", "TOXIC", "XSCISSOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 1.0
+weight_kg = 33.0
+color = "Gray"
+shape = "HeadArms"
+category = "Soldado"
+pokedex = "Pokémon que evolucionó poniéndose el caparazón de Shelmet. Su armazón de acero le protege todo el cuerpo."
+generation = 5
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

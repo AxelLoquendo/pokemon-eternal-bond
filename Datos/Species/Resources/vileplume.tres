@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://wkxjknfdbrhi"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_w86qr"]
+
+[resource]
+script = ExtResource("1_w86qr")
+id = 45
+name = "Vileplume"
+types = Array[int]([12, 4])
+base_hp = 75
+base_atk = 80
+base_def = 85
+base_spe = 50
+base_spa = 110
+base_spd = 90
+base_exp = 245
+growth_rate = "Parabolic"
+abilities = Array[int]([34])
+hidden_abilities = Array[int]([27])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "PETALBLIZZARD"
+}, {
+"level": 1.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 1.0,
+"move": "MEGADRAIN"
+}, {
+"level": 1.0,
+"move": "POISONPOWDER"
+}, {
+"level": 1.0,
+"move": "STUNSPORE"
+}, {
+"level": 1.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 1.0,
+"move": "GIGADRAIN"
+}, {
+"level": 1.0,
+"move": "TOXIC"
+}, {
+"level": 1.0,
+"move": "MOONBLAST"
+}, {
+"level": 1.0,
+"move": "GRASSYTERRAIN"
+}, {
+"level": 1.0,
+"move": "MOONLIGHT"
+}, {
+"level": 1.0,
+"move": "PETALDANCE"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 1.0,
+"move": "ACID"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BODYSLAM", "BULLETSEED", "CAPTIVATE", "CHARM", "CONFIDE", "CORROSIVEGAS", "CUT", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FLING", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "MIMIC", "NATURALGIFT", "NATUREPOWER", "POLLENPUFF", "PROTECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "TOXIC", "VENOSHOCK", "WORRYSEED", "ACIDSPRAY", "TRAILBLAZE", "MAGICALLEAF", "HELPINGHAND", "LEAFSTORM", "SOLARBLADE", "WEATHERBALL", "PETALBLIZZARD")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 1.2
+weight_kg = 18.6
+color = "Red"
+shape = "Bipedal"
+category = "Flor"
+habitat = "Grassland"
+pokedex = "En las estaciones en las que produce más polen, Vileplume tiñe de amarillo el aire al caminar. El polen es altamente tóxico y provoca parálisis."
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "ABSORBBULB"
+offspring = PackedStringArray()

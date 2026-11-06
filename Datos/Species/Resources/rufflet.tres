@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://duytcpa6dn7sf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_vhhiu"]
+
+[resource]
+script = ExtResource("1_vhhiu")
+id = 627
+name = "Rufflet"
+types = Array[int]([1, 3])
+base_hp = 70
+base_atk = 83
+base_def = 50
+base_spe = 60
+base_spa = 37
+base_spd = 50
+catch_rate = 190
+base_exp = 70
+gender_ratio = "AlwaysMale"
+growth_rate = "Slow"
+abilities = Array[int]([51, 125])
+hidden_abilities = Array[int]([55])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 6.0,
+"move": "HONECLAWS"
+}, {
+"level": 12.0,
+"move": "WINGATTACK"
+}, {
+"level": 18.0,
+"move": "TAILWIND"
+}, {
+"level": 24.0,
+"move": "SCARYFACE"
+}, {
+"level": 30.0,
+"move": "AERIALACE"
+}, {
+"level": 36.0,
+"move": "SLASH"
+}, {
+"level": 42.0,
+"move": "WHIRLWIND"
+}, {
+"level": 48.0,
+"move": "CRUSHCLAW"
+}, {
+"level": 55.0,
+"move": "AIRSLASH"
+}, {
+"level": 60.0,
+"move": "DEFOG"
+}, {
+"level": 66.0,
+"move": "THRASH"
+}, {
+"level": 72.0,
+"move": "BRAVEBIRD"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "AIRSLASH", "ASSURANCE", "ATTRACT", "BRAVEBIRD", "BULKUP", "CAPTIVATE", "CLOSECOMBAT", "CONFIDE", "CUT", "DEFOG", "DOUBLETEAM", "DUALWINGBEAT", "ENDURE", "FACADE", "FLY", "FRUSTRATION", "HEATWAVE", "HIDDENPOWER", "HONECLAWS", "HURRICANE", "MIMIC", "NATURALGIFT", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROOST", "ROUND", "SCARYFACE", "SECRETPOWER", "SHADOWCLAW", "SKYDROP", "SLEEPTALK", "SNORE", "STEELWING", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWIFT", "TAILWIND", "TOXIC", "UTURN", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "ACROBATICS", "AIRCUTTER", "BODYSLAM", "HELPINGHAND", "DOUBLEEDGE", "FEATHERDANCE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 10.5
+color = "White"
+shape = "Winged"
+category = "Aguilucho"
+pokedex = "Desafía indiscriminadamente a rivales poderosos. Librar numerosas batallas lo hace fuerte."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "BRAVIARY",
+"method": "Level",
+"param": "54"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

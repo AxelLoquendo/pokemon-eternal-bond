@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bpuvicnrgfkf3"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gkine"]
+
+[resource]
+script = ExtResource("1_gkine")
+id = 446
+name = "Munchlax"
+types = Array[int]([1])
+base_hp = 135
+base_atk = 85
+base_def = 40
+base_spe = 5
+base_spa = 40
+base_spd = 85
+catch_rate = 50
+base_exp = 78
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Slow"
+abilities = Array[int]([53, 47])
+hidden_abilities = Array[int]([82])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "LICK"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 4.0,
+"move": "DEFENSECURL"
+}, {
+"level": 8.0,
+"move": "RECYCLE"
+}, {
+"level": 12.0,
+"move": "COVET"
+}, {
+"level": 16.0,
+"move": "BITE"
+}, {
+"level": 20.0,
+"move": "STOCKPILE"
+}, {
+"level": 20.0,
+"move": "SWALLOW"
+}, {
+"level": 24.0,
+"move": "SCREECH"
+}, {
+"level": 28.0,
+"move": "BODYSLAM"
+}, {
+"level": 32.0,
+"move": "FLING"
+}, {
+"level": 36.0,
+"move": "AMNESIA"
+}, {
+"level": 40.0,
+"move": "METRONOME"
+}, {
+"level": 44.0,
+"move": "FLAIL"
+}, {
+"level": 48.0,
+"move": "BELLYDRUM"
+}, {
+"level": 52.0,
+"move": "LASTRESORT"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "AMNESIA", "ATTRACT", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CHARM", "CONFIDE", "COVET", "DOUBLETEAM", "EARTHQUAKE", "ENCORE", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLING", "FOCUSPUNCH", "FRUSTRATION", "GUNKSHOT", "HEADBUTT", "HIDDENPOWER", "HYDROPUMP", "HYPERVOICE", "ICEBEAM", "ICEPUNCH", "ICYWIND", "INCINERATE", "LASTRESORT", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAYDAY", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "RAINDANCE", "RECYCLE", "REST", "RETALIATE", "RETURN", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SCREECH", "SECRETPOWER", "SEEDBOMB", "SELFDESTRUCT", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SNATCH", "SNORE", "SOLARBEAM", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SURF", "SWAGGER", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "WHIRLPOOL", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "TRAILBLAZE", "CHILLINGWATER", "DIG", "CRUNCH", "HELPINGHAND", "GIGAIMPACT", "DOUBLEEDGE", "CURSE")
+egg_move_tokens = PackedStringArray("AFTERYOU", "BELCH", "CHARM", "COUNTER", "CURSE", "DOUBLEEDGE", "FISSURE", "GASTROACID", "LICK", "SELFDESTRUCT", "WHIRLWIND", "ZENHEADBUTT")
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 10240
+height_m = 0.6
+weight_kg = 105.0
+color = "Black"
+shape = "Bipedal"
+category = "Comilón"
+pokedex = "Engulle su peso en comida una vez al día. Se lo traga todo sin apenas masticar. Esconde comida bajo el largo pelo de su cuerpo, pero más tarde lo olvida."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "SNORLAX",
+"method": "Happiness",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "LEFTOVERS"
+wild_item_uncommon = "LEFTOVERS"
+wild_item_rare = "LEFTOVERS"
+incense = "FULLINCENSE"
+offspring = PackedStringArray()

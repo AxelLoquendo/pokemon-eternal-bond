@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dyrtsm5m7q4ml"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_xmbmj"]
+
+[resource]
+script = ExtResource("1_xmbmj")
+id = 925
+name = "Maushold"
+types = Array[int]([1])
+base_hp = 74
+base_atk = 75
+base_def = 70
+base_spe = 111
+base_spa = 65
+base_spd = 75
+catch_rate = 75
+base_exp = 165
+gender_ratio = "Genderless"
+growth_rate = "Fast"
+abilities = Array[int]([132, 167])
+hidden_abilities = Array[int]([101])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TIDYUP"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "FOLLOWME"
+}, {
+"level": 1.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 5.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 8.0,
+"move": "HELPINGHAND"
+}, {
+"level": 11.0,
+"move": "SUPERFANG"
+}, {
+"level": 14.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 18.0,
+"move": "BULLETSEED"
+}, {
+"level": 22.0,
+"move": "ENCORE"
+}, {
+"level": 29.0,
+"move": "PLAYROUGH"
+}, {
+"level": 33.0,
+"move": "HYPERVOICE"
+}, {
+"level": 37.0,
+"move": "CHARM"
+}, {
+"level": 41.0,
+"move": "BEATUP"
+}, {
+"level": 46.0,
+"move": "COPYCAT"
+}, {
+"level": 53.0,
+"move": "POPULATIONBOMB"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "BATONPASS", "BULLETSEED", "CHARM", "CHILLINGWATER", "CRUNCH", "DIG", "DOUBLEEDGE", "ENCORE", "ENDURE", "FACADE", "FAKETEARS", "GIGAIMPACT", "GRASSKNOT", "HELPINGHAND", "HYPERBEAM", "HYPERVOICE", "LOWKICK", "LOWSWEEP", "MUDSHOT", "MUDSLAP", "PLAYROUGH", "PROTECT", "RAINDANCE", "REST", "SEEDBOMB", "SHADOWCLAW", "SLEEPTALK", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SWIFT", "TAKEDOWN", "TAUNT", "THIEF", "THUNDERWAVE", "TRAILBLAZE", "UTURN", "WATERPULSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field", "Fairy")
+hatch_steps = 2560
+height_m = 0.3
+weight_kg = 2.8
+color = "White"
+shape = "MultiBody"
+category = "Familia"
+habitat = "Urban"
+pokedex = "Construyen grandes nidos que dividen en varias cámaras destinadas a distintas funciones, como dormir o comer."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Familia de Cuatro"

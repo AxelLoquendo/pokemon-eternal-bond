@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://oqetwdh2tq2v"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_oprpw"]
+
+[resource]
+script = ExtResource("1_oprpw")
+id = 707
+name = "Klefki"
+types = Array[int]([9, 18])
+base_hp = 57
+base_atk = 80
+base_def = 91
+base_spe = 75
+base_spa = 80
+base_spd = 87
+catch_rate = 75
+base_exp = 165
+growth_rate = "Fast"
+abilities = Array[int]([158])
+hidden_abilities = Array[int]([170])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 4.0,
+"move": "TACKLE"
+}, {
+"level": 8.0,
+"move": "FAIRYWIND"
+}, {
+"level": 12.0,
+"move": "TORMENT"
+}, {
+"level": 16.0,
+"move": "FAIRYLOCK"
+}, {
+"level": 16.0,
+"move": "CRAFTYSHIELD"
+}, {
+"level": 20.0,
+"move": "METALSOUND"
+}, {
+"level": 24.0,
+"move": "DRAININGKISS"
+}, {
+"level": 28.0,
+"move": "RECYCLE"
+}, {
+"level": 32.0,
+"move": "IMPRISON"
+}, {
+"level": 36.0,
+"move": "FLASHCANNON"
+}, {
+"level": 40.0,
+"move": "PLAYROUGH"
+}, {
+"level": 44.0,
+"move": "MAGICROOM"
+}, {
+"level": 48.0,
+"move": "FOULPLAY"
+}, {
+"level": 52.0,
+"move": "LASTRESORT"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "CALMMIND", "CAPTIVATE", "CONFIDE", "COVET", "CUT", "DAZZLINGGLEAM", "DEFOG", "DOUBLETEAM", "DRAININGKISS", "ENDURE", "FACADE", "FLASHCANNON", "FOULPLAY", "FRUSTRATION", "GIGAIMPACT", "HIDDENPOWER", "HYPERBEAM", "IMPRISON", "IRONDEFENSE", "LASTRESORT", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MAGNETRISE", "MIMIC", "MISTYTERRAIN", "NATURALGIFT", "PLAYROUGH", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SLEEPTALK", "SNORE", "SPIKES", "STEELBEAM", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "THIEF", "THUNDERWAVE", "TORMENT", "TOXIC", "SWIFT", "SANDSTORM", "TRICKROOM", "SKITTERSMACK", "METALSOUND")
+egg_move_tokens = PackedStringArray("MAGNETRISE", "SWITCHEROO")
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 5120
+height_m = 0.2
+weight_kg = 3.0
+color = "Gray"
+shape = "Head"
+category = "Llavero"
+pokedex = "Tiene el hábito de coleccionar llaves. Cuando un enemigo lo ataca, las hace tintinear como método de intimidación."
+generation = 6
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

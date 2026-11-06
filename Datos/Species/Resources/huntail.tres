@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bi128o7uukw1k"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_pfpgp"]
+
+[resource]
+script = ExtResource("1_pfpgp")
+id = 367
+name = "Huntail"
+types = Array[int]([11])
+base_hp = 55
+base_atk = 104
+base_def = 105
+base_spe = 52
+base_spa = 94
+base_spd = 75
+catch_rate = 60
+base_exp = 170
+growth_rate = "Erratic"
+abilities = Array[int]([33])
+hidden_abilities = Array[int]([41])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 1.0,
+"move": "SHELLSMASH"
+}, {
+"level": 1.0,
+"move": "WHIRLPOOL"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 5.0,
+"move": "SCREECH"
+}, {
+"level": 9.0,
+"move": "SCARYFACE"
+}, {
+"level": 11.0,
+"move": "RAINDANCE"
+}, {
+"level": 14.0,
+"move": "WATERPULSE"
+}, {
+"level": 16.0,
+"move": "ICEFANG"
+}, {
+"level": 19.0,
+"move": "BRINE"
+}, {
+"level": 23.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 26.0,
+"move": "DIVE"
+}, {
+"level": 29.0,
+"move": "BATONPASS"
+}, {
+"level": 34.0,
+"move": "CRUNCH"
+}, {
+"level": 39.0,
+"move": "AQUATAIL"
+}, {
+"level": 45.0,
+"move": "COIL"
+}, {
+"level": 50.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "BIND", "BLIZZARD", "BODYSLAM", "BOUNCE", "BRINE", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICYWIND", "INFESTATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKTOMB", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNATCH", "SNORE", "SUBSTITUTE", "SUCKERPUNCH", "SUPERFANG", "SURF", "SWAGGER", "SWIFT", "WATERFALL", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1")
+hatch_steps = 5120
+height_m = 1.7
+weight_kg = 27.0
+color = "Blue"
+shape = "Serpentine"
+category = "Abisal"
+habitat = "Sea"
+pokedex = "Para soportar la presión del mar a gran profundidad desarrolla una espina dorsal muy gruesa y fuerte. La cola, con forma de pez, tiene ojos que brillan."
+generation = 3
+yield_evs = {
+"atk": 1.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "DEEPSEATOOTH"
+offspring = PackedStringArray()

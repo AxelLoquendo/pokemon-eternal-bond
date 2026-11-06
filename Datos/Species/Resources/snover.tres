@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bi31t0rubs6xm"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_arkea"]
+
+[resource]
+script = ExtResource("1_arkea")
+id = 459
+name = "Snover"
+types = Array[int]([12, 15])
+base_hp = 60
+base_atk = 62
+base_def = 50
+base_spe = 40
+base_spa = 62
+base_spd = 60
+catch_rate = 120
+base_exp = 67
+growth_rate = "Slow"
+abilities = Array[int]([117])
+hidden_abilities = Array[int]([43])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 5.0,
+"move": "LEAFAGE"
+}, {
+"level": 10.0,
+"move": "MIST"
+}, {
+"level": 15.0,
+"move": "ICESHARD"
+}, {
+"level": 20.0,
+"move": "RAZORLEAF"
+}, {
+"level": 25.0,
+"move": "ICYWIND"
+}, {
+"level": 30.0,
+"move": "SWAGGER"
+}, {
+"level": 35.0,
+"move": "INGRAIN"
+}, {
+"level": 41.0,
+"move": "WOODHAMMER"
+}, {
+"level": 45.0,
+"move": "BLIZZARD"
+}, {
+"level": 50.0,
+"move": "SHEERCOLD"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "AVALANCHE", "BLIZZARD", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FROSTBREATH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "HAIL", "HEADBUTT", "HIDDENPOWER", "ICEBEAM", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LIGHTSCREEN", "MAGICALLEAF", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "WATERPULSE", "WEATHERBALL", "WORRYSEED", "TAKEDOWN", "TRAILBLAZE", "CHILLINGWATER", "SNOWSCAPE", "BODYSLAM", "ICESPINNER", "HELPINGHAND", "LEAFSTORM", "ICICLESPEAR", "DOUBLEEDGE", "CURSE")
+egg_move_tokens = PackedStringArray("DOUBLEEDGE", "GROWTH", "LEECHSEED", "MAGICALLEAF", "MIST", "SEEDBOMB", "SKULLBASH", "STOMP")
+egg_groups = PackedStringArray("Monster", "Grass")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 50.5
+color = "White"
+shape = "BipedalTail"
+category = "Árbol Nieve"
+pokedex = "Vive en montañas nevadas. Apenas tiene contacto con los humanos. En primavera, le crecen las bayas con apariencia de helado alrededor de la panza."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "ABOMASNOW",
+"method": "Level",
+"param": "40"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "NEVERMELTICE"
+offspring = PackedStringArray()

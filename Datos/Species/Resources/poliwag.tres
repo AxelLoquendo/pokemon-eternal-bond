@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://kr26eaj7rhl6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_g2hpm"]
+
+[resource]
+script = ExtResource("1_g2hpm")
+id = 60
+name = "Poliwag"
+types = Array[int]([11])
+base_hp = 40
+base_atk = 50
+base_def = 40
+base_spe = 90
+base_spa = 40
+base_spd = 40
+catch_rate = 255
+base_exp = 60
+growth_rate = "Parabolic"
+abilities = Array[int]([11, 6])
+hidden_abilities = Array[int]([33])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "HYPNOSIS"
+}, {
+"level": 6.0,
+"move": "POUND"
+}, {
+"level": 12.0,
+"move": "MUDSHOT"
+}, {
+"level": 18.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 24.0,
+"move": "RAINDANCE"
+}, {
+"level": 30.0,
+"move": "BODYSLAM"
+}, {
+"level": 36.0,
+"move": "EARTHPOWER"
+}, {
+"level": 42.0,
+"move": "HYDROPUMP"
+}, {
+"level": 48.0,
+"move": "BELLYDRUM"
+}, {
+"level": 54.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DEFENSECURL", "DIG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "ENCORE", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "HAIL", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PROTECT", "PSYCHIC", "RAINDANCE", "REST", "RETURN", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "THIEF", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "TAKEDOWN", "MUDSLAP", "LOWKICK", "CHILLINGWATER", "SWIFT", "LIQUIDATION", "AMNESIA", "HAZE", "FOCUSPUNCH", "WEATHERBALL")
+egg_move_tokens = PackedStringArray("BUBBLEBEAM", "ENCORE", "ENDEAVOR", "HAZE", "MINDREADER", "MIST", "MUDSHOT", "SPLASH", "WATERPULSE")
+egg_groups = PackedStringArray("Water1")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 12.4
+color = "Blue"
+shape = "HeadLegs"
+category = "Renacuajo"
+habitat = "WatersEdge"
+pokedex = "Tiene una piel muy fina que deja ver las vísceras en espiral que posee. Ahora bien, esta piel tiene la ventaja de ser flexible, por lo que hace rebotar ataques."
+evolutions = Array[Dictionary]([{
+"into": "POLIWHIRL",
+"method": "Level",
+"param": "25"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

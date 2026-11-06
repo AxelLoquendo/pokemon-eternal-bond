@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d17ctneyuk0vy"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_0j0co"]
+
+[resource]
+script = ExtResource("1_0j0co")
+id = 577
+name = "Solosis"
+types = Array[int]([14])
+base_hp = 45
+base_atk = 30
+base_def = 40
+base_spe = 20
+base_spa = 105
+base_spd = 50
+catch_rate = 200
+base_exp = 58
+growth_rate = "Parabolic"
+abilities = Array[int]([142, 98])
+hidden_abilities = Array[int]([144])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 4.0,
+"move": "RECOVER"
+}, {
+"level": 8.0,
+"move": "ENDEAVOR"
+}, {
+"level": 12.0,
+"move": "PSYBEAM"
+}, {
+"level": 16.0,
+"move": "CHARM"
+}, {
+"level": 20.0,
+"move": "PSYSHOCK"
+}, {
+"level": 24.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 24.0,
+"move": "REFLECT"
+}, {
+"level": 28.0,
+"move": "ALLYSWITCH"
+}, {
+"level": 33.0,
+"move": "PAINSPLIT"
+}, {
+"level": 36.0,
+"move": "PSYCHIC"
+}, {
+"level": 40.0,
+"move": "SKILLSWAP"
+}, {
+"level": 44.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 48.0,
+"move": "WONDERROOM"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ALLYSWITCH", "ATTRACT", "CALMMIND", "CAPTIVATE", "CHARM", "CONFIDE", "DOUBLETEAM", "DREAMEATER", "EMBARGO", "ENCORE", "ENDEAVOR", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "EXPLOSION", "FACADE", "FLASH", "FLASHCANNON", "FRUSTRATION", "FUTURESIGHT", "GRAVITY", "GUARDSWAP", "GYROBALL", "HELPINGHAND", "HIDDENPOWER", "IMPRISON", "INFESTATION", "IRONDEFENSE", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "NATURALGIFT", "PAINSPLIT", "POWERSWAP", "PROTECT", "PSYCHIC", "PSYCHICTERRAIN", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROCKSLIDE", "ROCKTOMB", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "STEELROLLER", "STOREDPOWER", "SUBSTITUTE", "SWAGGER", "TELEKINESIS", "THUNDER", "THUNDERWAVE", "TOXIC", "TRICK", "TRICKROOM", "WONDERROOM", "ZENHEADBUTT", "PSYBEAM", "CONFUSERAY", "SWIFT", "NIGHTSHADE", "SUNNYDAY")
+egg_move_tokens = PackedStringArray("ACIDARMOR", "ASTONISH", "CONFUSERAY")
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 1.0
+color = "Green"
+shape = "Head"
+category = "Célula"
+pokedex = "Puede vivir en cualquier ambiente gracias al líquido especial que recubre su cuerpo. Se comunica con sus compañeros por telepatía."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "DUOSION",
+"method": "Level",
+"param": "32"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

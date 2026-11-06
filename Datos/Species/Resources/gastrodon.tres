@@ -1,0 +1,75 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://5koftm5jsdol"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ha3i2"]
+
+[resource]
+script = ExtResource("1_ha3i2")
+id = 423
+name = "Gastrodon"
+types = Array[int]([11, 5])
+base_hp = 111
+base_atk = 83
+base_def = 68
+base_spe = 39
+base_spa = 92
+base_spd = 82
+catch_rate = 75
+base_exp = 166
+abilities = Array[int]([60, 114])
+hidden_abilities = Array[int]([159])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "RECOVER"
+}, {
+"level": 15.0,
+"move": "WATERPULSE"
+}, {
+"level": 20.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 25.0,
+"move": "BODYSLAM"
+}, {
+"level": 33.0,
+"move": "MUDDYWATER"
+}, {
+"level": 39.0,
+"move": "EARTHPOWER"
+}, {
+"level": 46.0,
+"move": "RAINDANCE"
+}, {
+"level": 53.0,
+"move": "MEMENTO"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ANCIENTPOWER", "ATTRACT", "BLIZZARD", "BLOCK", "BODYSLAM", "BRINE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DIG", "DIVE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FLASH", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HEADBUTT", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICYWIND", "INFESTATION", "MIMIC", "MUDDYWATER", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PAINSPLIT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCALD", "SECRETPOWER", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNORE", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "STRINGSHOT", "SUBSTITUTE", "SURF", "SWAGGER", "WATERFALL", "WATERPULSE", "WEATHERBALL", "WHIRLPOOL", "TAKEDOWN", "CHILLINGWATER", "SNOWSCAPE", "ROCKBLAST", "SPIKES", "LIQUIDATION", "STEALTHROCK", "HELPINGHAND", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Amorphous")
+hatch_steps = 5120
+height_m = 0.9
+weight_kg = 29.9
+color = "Purple"
+shape = "Serpentine"
+category = "Babosa Marina"
+pokedex = "Posee un cuerpo flexible sin huesos. Si pierde alguna parte, le vuelve a crecer. Al parecer, hace mucho tiempo tenía una gran concha protectora."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("InheritFormFromMother")
+offspring = PackedStringArray()
+form_name = "Forma Mar Oeste"

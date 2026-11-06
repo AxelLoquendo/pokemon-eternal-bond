@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dyan2aw6hmtd"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_3qg1q"]
+
+[resource]
+script = ExtResource("1_3qg1q")
+id = 88
+name = "Grimer"
+types = Array[int]([4])
+base_hp = 80
+base_atk = 80
+base_def = 50
+base_spe = 25
+base_spa = 40
+base_spd = 50
+catch_rate = 190
+base_exp = 65
+abilities = Array[int]([1, 60])
+hidden_abilities = Array[int]([143])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "POISONGAS"
+}, {
+"level": 4.0,
+"move": "HARDEN"
+}, {
+"level": 7.0,
+"move": "MUDSLAP"
+}, {
+"level": 12.0,
+"move": "DISABLE"
+}, {
+"level": 15.0,
+"move": "SLUDGE"
+}, {
+"level": 18.0,
+"move": "SMOG"
+}, {
+"level": 18.0,
+"move": "MUDSHOT"
+}, {
+"level": 21.0,
+"move": "MINIMIZE"
+}, {
+"level": 26.0,
+"move": "FLING"
+}, {
+"level": 26.0,
+"move": "TOXIC"
+}, {
+"level": 29.0,
+"move": "SLUDGEBOMB"
+}, {
+"level": 32.0,
+"move": "SLUDGEWAVE"
+}, {
+"level": 37.0,
+"move": "SCREECH"
+}, {
+"level": 40.0,
+"move": "GUNKSHOT"
+}, {
+"level": 43.0,
+"move": "ACIDARMOR"
+}, {
+"level": 46.0,
+"move": "BELCH"
+}, {
+"level": 48.0,
+"move": "MEMENTO"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "CAPTIVATE", "CONFIDE", "DIG", "DOUBLETEAM", "DYNAMICPUNCH", "ENDURE", "EXPLOSION", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLING", "FRUSTRATION", "GIGADRAIN", "GUNKSHOT", "HIDDENPOWER", "ICEPUNCH", "INCINERATE", "INFESTATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAINSPLIT", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNORE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "TORMENT", "VENOSHOCK", "TAKEDOWN", "SCARYFACE", "ACIDSPRAY", "CONFUSERAY", "HEX", "MUDSHOT", "SANDSTORM", "ZENHEADBUTT", "DRAINPUNCH", "METRONOME", "IMPRISON", "HELPINGHAND", "HAZE", "TOXIC", "CURSE")
+egg_move_tokens = PackedStringArray("ACIDSPRAY", "CURSE", "HAZE", "IMPRISON", "LICK", "MEANLOOK", "POWERUPPUNCH", "SCARYFACE", "SHADOWPUNCH", "SHADOWSNEAK", "SPITUP", "STOCKPILE", "SWALLOW")
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 0.9
+weight_kg = 30.0
+color = "Purple"
+shape = "HeadArms"
+category = "Lodo"
+habitat = "Urban"
+pokedex = "Nacido del lodo contaminado del mar, el alimento preferido de Grimer es la basura. Se alimenta de lo que encuentra en las aguas residuales de las fábricas."
+evolutions = Array[Dictionary]([{
+"into": "MUK",
+"method": "Level",
+"param": "38"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "BLACKSLUDGE"
+offspring = PackedStringArray()

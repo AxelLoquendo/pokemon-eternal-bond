@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dggdum86qfiwq"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_38gl8"]
+
+[resource]
+script = ExtResource("1_38gl8")
+id = 595
+name = "Joltik"
+types = Array[int]([7, 13])
+base_hp = 50
+base_atk = 47
+base_def = 50
+base_spe = 65
+base_spa = 57
+base_spd = 50
+catch_rate = 190
+base_exp = 64
+abilities = Array[int]([14, 127])
+hidden_abilities = Array[int]([68])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "FURYCUTTER"
+}, {
+"level": 4.0,
+"move": "ELECTROWEB"
+}, {
+"level": 8.0,
+"move": "BUGBITE"
+}, {
+"level": 12.0,
+"move": "STRINGSHOT"
+}, {
+"level": 16.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 20.0,
+"move": "ELECTROBALL"
+}, {
+"level": 24.0,
+"move": "AGILITY"
+}, {
+"level": 28.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 32.0,
+"move": "SLASH"
+}, {
+"level": 37.0,
+"move": "DISCHARGE"
+}, {
+"level": 40.0,
+"move": "SCREECH"
+}, {
+"level": 44.0,
+"move": "GASTROACID"
+}, {
+"level": 48.0,
+"move": "BUGBUZZ"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "BOUNCE", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "CROSSPOISON", "CUT", "DOUBLETEAM", "ELECTROBALL", "ELECTROWEB", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "HIDDENPOWER", "INFESTATION", "LEECHLIFE", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "NATURALGIFT", "PINMISSILE", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROUND", "SCREECH", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SPEEDSWAP", "STRUGGLEBUG", "SUBSTITUTE", "SWAGGER", "SWIFT", "THIEF", "THUNDERBOLT", "THUNDERWAVE", "TOXIC", "VOLTSWITCH", "WILDCHARGE", "XSCISSOR", "POUNCE", "HELPINGHAND", "THUNDER", "LUNGE")
+egg_move_tokens = PackedStringArray("DOUBLETEAM", "INFESTATION", "LUNGE", "POISONSTING", "STRUGGLEBUG")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 0.1
+weight_kg = 0.6
+color = "Yellow"
+shape = "Insectoid"
+category = "Lapa"
+pokedex = "Se agarra a Pokémon de gran tamaño, absorbe su electricidad estática y la guarda en una bolsa interna."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "GALVANTULA",
+"method": "Level",
+"param": "36"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

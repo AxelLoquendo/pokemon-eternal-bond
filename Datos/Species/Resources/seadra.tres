@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ddtv1f66dwvgj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gog58"]
+
+[resource]
+script = ExtResource("1_gog58")
+id = 117
+name = "Seadra"
+types = Array[int]([11])
+base_hp = 55
+base_atk = 65
+base_def = 95
+base_spe = 85
+base_spa = 95
+base_spd = 45
+catch_rate = 75
+base_exp = 154
+abilities = Array[int]([38, 97])
+hidden_abilities = Array[int]([6])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "SMOKESCREEN"
+}, {
+"level": 1.0,
+"move": "TWISTER"
+}, {
+"level": 15.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 20.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 25.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 30.0,
+"move": "AGILITY"
+}, {
+"level": 37.0,
+"move": "LASERFOCUS"
+}, {
+"level": 37.0,
+"move": "WATERPULSE"
+}, {
+"level": 44.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 51.0,
+"move": "HYDROPUMP"
+}, {
+"level": 58.0,
+"move": "DRAGONDANCE"
+}, {
+"level": 65.0,
+"move": "RAINDANCE"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "BLIZZARD", "BOUNCE", "BRINE", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DRAGONDANCE", "DRAGONPULSE", "ENDURE", "FACADE", "FLASHCANNON", "FLIPTURN", "FOCUSENERGY", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HEADBUTT", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICYWIND", "LASERFOCUS", "LIQUIDATION", "MIMIC", "MUDDYWATER", "NATURALGIFT", "OUTRAGE", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROUND", "SCALD", "SCALESHOT", "SECRETPOWER", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "TWISTER", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "SCARYFACE", "CHILLINGWATER", "SNOWSCAPE", "WEATHERBALL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Dragon")
+hatch_steps = 5120
+height_m = 1.2
+weight_kg = 25.0
+color = "Blue"
+shape = "HeadBase"
+category = "Dragón"
+habitat = "Sea"
+pokedex = "Las púas venenosas que cubren su cuerpo tienen mucho valor a la hora de preparar remedios de hierbas tradicionales. Como algo amenace su nido, atacará sin piedad."
+evolutions = Array[Dictionary]([{
+"into": "KINGDRA",
+"method": "CableLinkItem",
+"param": "DRAGONSCALE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "DRAGONSCALE"
+offspring = PackedStringArray()

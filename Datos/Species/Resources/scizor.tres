@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://crl0c8p5668q4"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_a3vhm"]
+
+[resource]
+script = ExtResource("1_a3vhm")
+id = 212
+name = "Scizor"
+types = Array[int]([7, 9])
+base_hp = 70
+base_atk = 130
+base_def = 100
+base_spe = 65
+base_spa = 55
+base_spd = 80
+catch_rate = 25
+base_exp = 175
+abilities = Array[int]([68, 101])
+hidden_abilities = Array[int]([135])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "BULLETPUNCH"
+}, {
+"level": 1.0,
+"move": "WINGATTACK"
+}, {
+"level": 1.0,
+"move": "AGILITY"
+}, {
+"level": 1.0,
+"move": "AIRSLASH"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "FURYCUTTER"
+}, {
+"level": 1.0,
+"move": "FALSESWIPE"
+}, {
+"level": 12.0,
+"move": "METALCLAW"
+}, {
+"level": 16.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 20.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 24.0,
+"move": "SLASH"
+}, {
+"level": 28.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 32.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 36.0,
+"move": "IRONHEAD"
+}, {
+"level": 40.0,
+"move": "XSCISSOR"
+}, {
+"level": 44.0,
+"move": "LASERFOCUS"
+}, {
+"level": 44.0,
+"move": "SWORDSDANCE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "AIRSLASH", "ASSURANCE", "ATTRACT", "BATONPASS", "BRICKBREAK", "BRUTALSWING", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "COUNTER", "CROSSPOISON", "CUT", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "DUALWINGBEAT", "ENDURE", "FACADE", "FALSESWIPE", "FLASHCANNON", "FLING", "FOCUSENERGY", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "IRONDEFENSE", "IRONHEAD", "KNOCKOFF", "LASERFOCUS", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "OMINOUSWIND", "PROTECT", "PSYCHOCUT", "RAINDANCE", "REST", "RETURN", "REVERSAL", "ROCKSMASH", "ROOST", "ROUND", "SAFEGUARD", "SANDSTORM", "SANDTOMB", "SECRETPOWER", "SILVERWIND", "SLEEPTALK", "SNORE", "STEELBEAM", "STEELWING", "STRENGTH", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAILWIND", "THIEF", "UTURN", "VENOSHOCK", "XSCISSOR", "TAKEDOWN", "SCARYFACE", "TRAILBLAZE", "POUNCE", "METALCLAW", "AIRCUTTER", "HELPINGHAND", "CLOSECOMBAT", "VACUUMWAVE", "LUNGE", "SKITTERSMACK", "CURSE", "HARDPRESS")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 6400
+height_m = 1.8
+weight_kg = 118.0
+color = "Red"
+shape = "MultiWinged"
+category = "Tenaza"
+habitat = "Grassland"
+pokedex = "Scizor tiene un cuerpo duro como el acero en el que los ataques comunes apenas hacen mella. Este Pokémon bate las alas para regular su temperatura corporal."
+generation = 2
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

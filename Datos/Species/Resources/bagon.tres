@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c487jqlx3qm8r"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_f1nlu"]
+
+[resource]
+script = ExtResource("1_f1nlu")
+id = 371
+name = "Bagon"
+types = Array[int]([16])
+base_hp = 45
+base_atk = 75
+base_def = 60
+base_spe = 50
+base_spa = 40
+base_spd = 30
+base_exp = 60
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([69])
+hidden_abilities = Array[int]([125])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 5.0,
+"move": "BITE"
+}, {
+"level": 10.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 15.0,
+"move": "HEADBUTT"
+}, {
+"level": 20.0,
+"move": "SCARYFACE"
+}, {
+"level": 25.0,
+"move": "CRUNCH"
+}, {
+"level": 31.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 35.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 40.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 45.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 50.0,
+"move": "OUTRAGE"
+}, {
+"level": 55.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BODYSLAM", "BRICKBREAK", "CAPTIVATE", "CONFIDE", "CRUNCH", "CUT", "DOUBLEEDGE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONDANCE", "DRAGONPULSE", "ENDURE", "FACADE", "FIREBLAST", "FIREFANG", "FLAMETHROWER", "FOCUSENERGY", "FRUSTRATION", "FURYCUTTER", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "HYDROPUMP", "HYPERVOICE", "INCINERATE", "IRONDEFENSE", "MIMIC", "MUDSLAP", "NATURALGIFT", "OUTRAGE", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCARYFACE", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TWISTER", "ZENHEADBUTT", "TAKEDOWN", "THUNDERFANG", "FIRESPIN", "DRAGONTAIL", "IRONHEAD", "HELPINGHAND", "DRAGONCHEER")
+egg_move_tokens = PackedStringArray("DEFENSECURL", "DRAGONDANCE", "DRAGONRUSH", "FIREFANG", "HYDROPUMP", "THRASH", "TWISTER")
+egg_groups = PackedStringArray("Dragon")
+hatch_steps = 10240
+height_m = 0.6
+weight_kg = 42.1
+color = "Blue"
+shape = "Bipedal"
+category = "Cabeza Roca"
+habitat = "RoughTerrain"
+pokedex = "Aunque pequeño, este Pokémon es muy fuerte porque su cuerpo es puro músculo. Propina cabezazos con el cráneo, que es tan duro como el hierro."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "SHELGON",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "DRAGONFANG"
+offspring = PackedStringArray()

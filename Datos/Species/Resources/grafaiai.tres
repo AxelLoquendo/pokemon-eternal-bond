@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://sr2icp7d4b3q"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_efxq4"]
+
+[resource]
+script = ExtResource("1_efxq4")
+id = 945
+name = "Grafaiai"
+types = Array[int]([4, 1])
+base_hp = 63
+base_atk = 95
+base_def = 65
+base_spe = 110
+base_spa = 80
+base_spd = 72
+catch_rate = 90
+base_exp = 170
+growth_rate = "Parabolic"
+abilities = Array[int]([84, 143])
+hidden_abilities = Array[int]([158])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "DOODLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 5.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 8.0,
+"move": "FURYSWIPES"
+}, {
+"level": 11.0,
+"move": "SWITCHEROO"
+}, {
+"level": 14.0,
+"move": "POISONFANG"
+}, {
+"level": 18.0,
+"move": "FLATTER"
+}, {
+"level": 21.0,
+"move": "SLASH"
+}, {
+"level": 25.0,
+"move": "UTURN"
+}, {
+"level": 33.0,
+"move": "POISONJAB"
+}, {
+"level": 37.0,
+"move": "TAUNT"
+}, {
+"level": 40.0,
+"move": "SUBSTITUTE"
+}, {
+"level": 45.0,
+"move": "KNOCKOFF"
+}, {
+"level": 51.0,
+"move": "GUNKSHOT"
+}])
+tutor_move_tokens = PackedStringArray("ACIDSPRAY", "ACROBATICS", "BATONPASS", "DIG", "DOUBLEEDGE", "ENCORE", "ENDEAVOR", "ENDURE", "FACADE", "FLING", "FOULPLAY", "GIGAIMPACT", "GUNKSHOT", "HELPINGHAND", "KNOCKOFF", "LOWKICK", "LOWSWEEP", "METRONOME", "MUDSHOT", "MUDSLAP", "NASTYPLOT", "POISONJAB", "POISONTAIL", "POUNCE", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "SCARYFACE", "SHADOWCLAW", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SWORDSDANCE", "TAKEDOWN", "TAUNT", "THIEF", "THROATCHOP", "TOXIC", "TRAILBLAZE", "UTURN", "VENOSHOCK", "XSCISSOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 27.2
+color = "Gray"
+shape = "BipedalTail"
+category = "Mono Veneno"
+habitat = "Forest"
+pokedex = "El color de su saliva venenosa varía según su alimentación. Se embadurna los dedos con ella para pintar motivos en los árboles del bosque."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cs2tw3p0ae5d1"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_c3elj"]
+
+[resource]
+script = ExtResource("1_c3elj")
+id = 708
+name = "Phantump"
+types = Array[int]([8, 12])
+base_hp = 43
+base_atk = 70
+base_def = 48
+base_spe = 38
+base_spa = 50
+base_spd = 60
+catch_rate = 120
+base_exp = 62
+abilities = Array[int]([30, 119])
+hidden_abilities = Array[int]([139])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 4.0,
+"move": "BRANCHPOKE"
+}, {
+"level": 8.0,
+"move": "LEECHSEED"
+}, {
+"level": 12.0,
+"move": "CONFUSERAY"
+}, {
+"level": 16.0,
+"move": "WILLOWISP"
+}, {
+"level": 20.0,
+"move": "HEX"
+}, {
+"level": 24.0,
+"move": "GROWTH"
+}, {
+"level": 28.0,
+"move": "HORNLEECH"
+}, {
+"level": 32.0,
+"move": "CURSE"
+}, {
+"level": 36.0,
+"move": "PHANTOMFORCE"
+}, {
+"level": 40.0,
+"move": "INGRAIN"
+}, {
+"level": 44.0,
+"move": "WOODHAMMER"
+}, {
+"level": 48.0,
+"move": "DESTINYBOND"
+}, {
+"level": 52.0,
+"move": "FORESTSCURSE"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CUT", "DARKPULSE", "DIG", "DOUBLETEAM", "DREAMEATER", "ENDURE", "ENERGYBALL", "FACADE", "FOULPLAY", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "HEX", "HIDDENPOWER", "IMPRISON", "MAGICALLEAF", "MAGICCOAT", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PAINSPLIT", "PHANTOMFORCE", "POISONJAB", "POLTERGEIST", "PROTECT", "PSYCHIC", "REFLECT", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SHADOWCLAW", "SKILLSWAP", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SOLARBEAM", "SPITE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TELEKINESIS", "THIEF", "TOXIC", "TRICK", "TRICKROOM", "VENOMDRENCH", "WILLOWISP", "WORRYSEED", "CONFUSERAY", "TRAILBLAZE", "NIGHTSHADE", "RAINDANCE", "GRASSYTERRAIN", "LASHOUT", "PSYCHUP", "CURSE")
+egg_move_tokens = PackedStringArray("DISABLE", "GRUDGE", "SUCKERPUNCH")
+egg_groups = PackedStringArray("Grass", "Amorphous")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 7.0
+color = "Brown"
+shape = "HeadArms"
+category = "Tocón"
+pokedex = "Pokémon que nace cuando un espíritu se adentra en un tocón podrido. Habita en bosques que son poco frecuentados por humanos."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "TREVENANT",
+"method": "Trade",
+"param": ""
+}, {
+"into": "TREVENANT",
+"method": "Item",
+"param": "LINKINGCORD"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

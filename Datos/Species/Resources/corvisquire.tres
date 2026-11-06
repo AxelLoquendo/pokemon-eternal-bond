@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cp7bc1mm5olbl"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_8lyqf"]
+
+[resource]
+script = ExtResource("1_8lyqf")
+id = 822
+name = "Corvisquire"
+types = Array[int]([3])
+base_hp = 68
+base_atk = 67
+base_def = 55
+base_spe = 77
+base_spa = 43
+base_spd = 55
+catch_rate = 120
+base_exp = 128
+growth_rate = "Parabolic"
+abilities = Array[int]([51, 127])
+hidden_abilities = Array[int]([145])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "POWERTRIP"
+}, {
+"level": 1.0,
+"move": "HONECLAWS"
+}, {
+"level": 12.0,
+"move": "FURYATTACK"
+}, {
+"level": 16.0,
+"move": "PLUCK"
+}, {
+"level": 22.0,
+"move": "TAUNT"
+}, {
+"level": 28.0,
+"move": "SCARYFACE"
+}, {
+"level": 34.0,
+"move": "DRILLPECK"
+}, {
+"level": 40.0,
+"move": "SWAGGER"
+}, {
+"level": 46.0,
+"move": "BRAVEBIRD"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "AIRSLASH", "ASSURANCE", "ATTRACT", "BRAVEBIRD", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "DUALWINGBEAT", "ENDURE", "FACADE", "FAKETEARS", "FLY", "FOCUSENERGY", "FRUSTRATION", "HIDDENPOWER", "MIMIC", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "PROTECT", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROUND", "SCARYFACE", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "SWIFT", "TAUNT", "THIEF", "TOXIC", "UTURN", "WORKUP", "TAKEDOWN", "AERIALACE", "AIRCUTTER", "SUNNYDAY", "TAILWIND", "HURRICANE", "SPITE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 3840
+height_m = 0.8
+weight_kg = 16.0
+color = "Blue"
+shape = "Winged"
+category = "Cuervo"
+pokedex = "Su inteligencia le permite servirse de objetos. Por ejemplo, recoge y lanza piedras con las patas, o utiliza cuerdas para atrapar a su oponente."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "CORVIKNIGHT",
+"method": "Level",
+"param": "38"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

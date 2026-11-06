@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ctahc421kcfbb"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_qbft1"]
+
+[resource]
+script = ExtResource("1_qbft1")
+id = 997
+name = "Arctibax"
+types = Array[int]([16, 15])
+base_hp = 90
+base_atk = 95
+base_def = 66
+base_spe = 62
+base_spa = 45
+base_spd = 65
+catch_rate = 25
+base_exp = 182
+growth_rate = "Slow"
+abilities = Array[int]([292])
+hidden_abilities = Array[int]([115])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "DRAGONTAIL"
+}, {
+"level": 6.0,
+"move": "ICYWIND"
+}, {
+"level": 12.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 18.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 24.0,
+"move": "BITE"
+}, {
+"level": 29.0,
+"move": "ICEFANG"
+}, {
+"level": 40.0,
+"move": "TAKEDOWN"
+}, {
+"level": 45.0,
+"move": "ICEBEAM"
+}, {
+"level": 50.0,
+"move": "CRUNCH"
+}, {
+"level": 55.0,
+"move": "ICICLECRASH"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AVALANCHE", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "CRUNCH", "DIG", "DRACOMETEOR", "DRAGONCLAW", "DRAGONPULSE", "DRAGONTAIL", "ENDURE", "FACADE", "HELPINGHAND", "ICEBEAM", "ICEFANG", "ICICLESPEAR", "ICYWIND", "IRONHEAD", "OUTRAGE", "PROTECT", "RAINDANCE", "REST", "SCARYFACE", "SLEEPTALK", "SNOWSCAPE", "SUBSTITUTE", "SWORDSDANCE", "TAKEDOWN")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Dragon", "Mineral")
+hatch_steps = 10240
+height_m = 0.8
+weight_kg = 30.0
+color = "Gray"
+shape = "BipedalTail"
+category = "Aleta Hielo"
+habitat = "Mountain"
+pokedex = "Congela el aire a su alrededor para cubrirse el rostro con una máscara de hielo protectora y dotar su placa dorsal de cuchillas glaciales."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "BAXCALIBUR",
+"method": "Level",
+"param": "54"
+}])
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

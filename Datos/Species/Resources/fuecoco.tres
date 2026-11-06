@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://l6aqks5mmxsp"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hkrwo"]
+
+[resource]
+script = ExtResource("1_hkrwo")
+id = 909
+name = "Fuecoco"
+types = Array[int]([10])
+base_hp = 67
+base_atk = 45
+base_def = 59
+base_spe = 36
+base_spa = 63
+base_spd = 40
+base_exp = 62
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([66])
+hidden_abilities = Array[int]([109])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 7.0,
+"move": "ROUND"
+}, {
+"level": 12.0,
+"move": "BITE"
+}, {
+"level": 15.0,
+"move": "INCINERATE"
+}, {
+"level": 17.0,
+"move": "YAWN"
+}, {
+"level": 21.0,
+"move": "SNARL"
+}, {
+"level": 25.0,
+"move": "ROAR"
+}, {
+"level": 28.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 32.0,
+"move": "HYPERVOICE"
+}, {
+"level": 36.0,
+"move": "FIREBLAST"
+}])
+tutor_move_tokens = PackedStringArray("BODYSLAM", "CRUNCH", "CURSE", "DIG", "DISARMINGVOICE", "ENCORE", "ENDURE", "FACADE", "FIREBLAST", "FIREFANG", "FIREPLEDGE", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "HEATWAVE", "HELPINGHAND", "HYPERVOICE", "MUDSLAP", "OUTRAGE", "OVERHEAT", "PROTECT", "REST", "ROAR", "SEEDBOMB", "SLEEPTALK", "SNARL", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "TEMPERFLARE", "THUNDERFANG", "WILLOWISP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("BELCH", "CURSE", "ENCORE", "SLACKOFF")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 9.8
+color = "Red"
+shape = "BipedalTail"
+category = "Fuegodrilo"
+habitat = "RoughTerrain"
+pokedex = "Yace sobre rocas calientes, cuyo calor transforma en energía ígnea tras absorberlo por sus escamas rectangulares."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "CROCALOR",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

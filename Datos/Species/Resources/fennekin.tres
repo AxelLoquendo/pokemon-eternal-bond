@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://brxeq83vma0ck"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_fe6k3"]
+
+[resource]
+script = ExtResource("1_fe6k3")
+id = 653
+name = "Fennekin"
+types = Array[int]([10])
+base_hp = 40
+base_atk = 45
+base_def = 40
+base_spe = 60
+base_spa = 62
+base_spd = 60
+base_exp = 61
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([66])
+hidden_abilities = Array[int]([170])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 5.0,
+"move": "EMBER"
+}, {
+"level": 11.0,
+"move": "HOWL"
+}, {
+"level": 14.0,
+"move": "FLAMECHARGE"
+}, {
+"level": 17.0,
+"move": "PSYBEAM"
+}, {
+"level": 20.0,
+"move": "FIRESPIN"
+}, {
+"level": 25.0,
+"move": "LUCKYCHANT"
+}, {
+"level": 25.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 31.0,
+"move": "PSYSHOCK"
+}, {
+"level": 35.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 38.0,
+"move": "WILLOWISP"
+}, {
+"level": 41.0,
+"move": "PSYCHIC"
+}, {
+"level": 43.0,
+"move": "SUNNYDAY"
+}, {
+"level": 46.0,
+"move": "MAGICROOM"
+}, {
+"level": 48.0,
+"move": "FIREBLAST"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "CAPTIVATE", "CONFIDE", "COVET", "CUT", "DOUBLETEAM", "DREAMEATER", "ECHOEDVOICE", "EMBARGO", "ENDURE", "FACADE", "FIREBLAST", "FIREPLEDGE", "FLAMECHARGE", "FLAMETHROWER", "FOULPLAY", "FRUSTRATION", "GRASSKNOT", "HEATWAVE", "HIDDENPOWER", "INCINERATE", "IRONTAIL", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MIMIC", "NATURALGIFT", "OVERHEAT", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "THIEF", "TOXIC", "WILLOWISP", "WORKUP", "TAKEDOWN", "CHARM", "AGILITY", "MUDSLAP", "PSYBEAM", "FIRESPIN", "SWIFT", "MUDSHOT", "STOREDPOWER", "IMPRISON", "SKILLSWAP", "TRICK", "ENCORE", "CALMMIND", "HELPINGHAND", "PSYCHICTERRAIN", "TRICKROOM", "FLAREBLITZ", "BURNINGJEALOUSY")
+egg_move_tokens = PackedStringArray("HEATWAVE", "HYPNOSIS", "MAGICCOAT", "PSYCHICTERRAIN", "WISH")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 9.4
+color = "Red"
+shape = "Quadruped"
+category = "Zorro"
+pokedex = "Tras masticar e ingerir pequeñas ramas se siente pletórico y expulsa aire caliente por sus grandes orejas a temperaturas superiores a los 200 °C."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "BRAIXEN",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

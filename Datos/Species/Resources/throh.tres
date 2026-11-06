@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dcq2wgqx4ek1h"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_foyuf"]
+
+[resource]
+script = ExtResource("1_foyuf")
+id = 538
+name = "Throh"
+types = Array[int]([2])
+base_hp = 120
+base_atk = 100
+base_def = 85
+base_spe = 45
+base_spa = 30
+base_spd = 85
+base_exp = 163
+gender_ratio = "AlwaysMale"
+abilities = Array[int]([62, 39])
+hidden_abilities = Array[int]([104])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "BIND"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 5.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 10.0,
+"move": "CIRCLETHROW"
+}, {
+"level": 15.0,
+"move": "WIDEGUARD"
+}, {
+"level": 20.0,
+"move": "REVENGE"
+}, {
+"level": 25.0,
+"move": "BULKUP"
+}, {
+"level": 30.0,
+"move": "STORMTHROW"
+}, {
+"level": 35.0,
+"move": "VITALTHROW"
+}, {
+"level": 40.0,
+"move": "SEISMICTOSS"
+}, {
+"level": 45.0,
+"move": "ENDURE"
+}, {
+"level": 50.0,
+"move": "REVERSAL"
+}, {
+"level": 55.0,
+"move": "SUPERPOWER"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BIND", "BLOCK", "BODYSLAM", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "COACHING", "CONFIDE", "DIG", "DOUBLETEAM", "EARTHQUAKE", "ENDURE", "FACADE", "FIREPUNCH", "FLING", "FOCUSBLAST", "FOCUSENERGY", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "HELPINGHAND", "HIDDENPOWER", "ICEPUNCH", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "MIMIC", "NATURALGIFT", "PAINSPLIT", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCARYFACE", "SECRETPOWER", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "TAUNT", "THUNDERPUNCH", "TOXIC", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 5120
+height_m = 1.3
+weight_kg = 55.5
+color = "Red"
+shape = "Bipedal"
+category = "Judo"
+pokedex = "Su carácter le empuja a sentir ansias de lanzar por los aires a rivales mayores que él. Forman manadas de cinco."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "BLACKBELT"
+offspring = PackedStringArray()

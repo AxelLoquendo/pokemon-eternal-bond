@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ck1l4x12l6r7e"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hjy20"]
+
+[resource]
+script = ExtResource("1_hjy20")
+id = 43
+name = "Oddish"
+types = Array[int]([12, 4])
+base_hp = 45
+base_atk = 50
+base_def = 55
+base_spe = 30
+base_spa = 75
+base_spd = 65
+catch_rate = 255
+base_exp = 64
+growth_rate = "Parabolic"
+abilities = Array[int]([34])
+hidden_abilities = Array[int]([50])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 4.0,
+"move": "ACID"
+}, {
+"level": 8.0,
+"move": "SWEETSCENT"
+}, {
+"level": 12.0,
+"move": "MEGADRAIN"
+}, {
+"level": 14.0,
+"move": "POISONPOWDER"
+}, {
+"level": 16.0,
+"move": "STUNSPORE"
+}, {
+"level": 18.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 20.0,
+"move": "GIGADRAIN"
+}, {
+"level": 24.0,
+"move": "TOXIC"
+}, {
+"level": 28.0,
+"move": "MOONBLAST"
+}, {
+"level": 32.0,
+"move": "GRASSYTERRAIN"
+}, {
+"level": 36.0,
+"move": "MOONLIGHT"
+}, {
+"level": 40.0,
+"move": "PETALDANCE"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BULLETSEED", "CAPTIVATE", "CHARM", "CONFIDE", "CUT", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HIDDENPOWER", "INFESTATION", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PROTECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "TOXIC", "VENOSHOCK", "WORRYSEED", "ACIDSPRAY", "TRAILBLAZE", "MAGICALLEAF", "HELPINGHAND", "LEAFSTORM")
+egg_move_tokens = PackedStringArray("AFTERYOU", "CHARM", "FLAIL", "INGRAIN", "LEECHSEED", "NATUREPOWER", "RAZORLEAF", "STRENGTHSAP", "SYNTHESIS", "TEETERDANCE", "TICKLE")
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 5.4
+color = "Blue"
+shape = "HeadLegs"
+category = "Hierbajo"
+habitat = "Grassland"
+pokedex = "Este Pokémon crece absorbiendo luz de luna. Durante el día, se entierra en el suelo y sólo deja las hojas fuera. Así evita que los enemigos lo detecten."
+evolutions = Array[Dictionary]([{
+"into": "GLOOM",
+"method": "Level",
+"param": "21"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "ABSORBBULB"
+offspring = PackedStringArray()

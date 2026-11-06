@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://utnson0n41rf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ck3v8"]
+
+[resource]
+script = ExtResource("1_ck3v8")
+id = 410
+name = "Shieldon"
+types = Array[int]([6, 9])
+base_hp = 30
+base_atk = 42
+base_def = 118
+base_spe = 30
+base_spa = 42
+base_spd = 88
+base_exp = 70
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Erratic"
+abilities = Array[int]([5])
+hidden_abilities = Array[int]([43])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 6.0,
+"move": "TAUNT"
+}, {
+"level": 10.0,
+"move": "METALSOUND"
+}, {
+"level": 15.0,
+"move": "TAKEDOWN"
+}, {
+"level": 19.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 24.0,
+"move": "SWAGGER"
+}, {
+"level": 28.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 33.0,
+"move": "ENDURE"
+}, {
+"level": 37.0,
+"move": "METALBURST"
+}, {
+"level": 42.0,
+"move": "IRONHEAD"
+}, {
+"level": 46.0,
+"move": "HEAVYSLAM"
+}])
+tutor_move_tokens = PackedStringArray("ANCIENTPOWER", "ATTRACT", "BLIZZARD", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DIG", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FIREBLAST", "FLAMETHROWER", "FLASHCANNON", "FRUSTRATION", "HEADBUTT", "HIDDENPOWER", "ICEBEAM", "INCINERATE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGNETRISE", "MIMIC", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SECRETPOWER", "SHOCKWAVE", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEALTHROCK", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "THUNDER", "THUNDERBOLT", "TORMENT", "TAKEDOWN", "SCARYFACE", "TRAILBLAZE", "BODYSLAM", "ROCKBLAST", "STOMPINGTANTRUM", "POWERGEM", "HEAVYSLAM", "STEELBEAM", "SANDTOMB", "DOUBLEEDGE", "SCORCHINGSANDS", "METALSOUND", "CURSE", "HARDPRESS")
+egg_move_tokens = PackedStringArray("BODYSLAM", "COUNTER", "CURSE", "DOUBLEEDGE", "FISSURE", "FOCUSENERGY", "GUARDSPLIT", "HEADBUTT", "ROCKBLAST", "SCARYFACE", "SCREECH", "WIDEGUARD")
+egg_groups = PackedStringArray("Monster")
+hatch_steps = 7680
+height_m = 0.5
+weight_kg = 57.0
+color = "Gray"
+shape = "Quadruped"
+category = "Escudo"
+pokedex = "Vivía en la jungla hace unos 100 millones de años. Su protección facial es tremendamente dura. Se abrillanta la cara frotándola contra los árboles."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "BASTIODON",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

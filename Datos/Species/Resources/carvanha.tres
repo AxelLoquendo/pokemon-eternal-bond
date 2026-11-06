@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://de5fmfydmkixr"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_72xb1"]
+
+[resource]
+script = ExtResource("1_72xb1")
+id = 318
+name = "Carvanha"
+types = Array[int]([11, 17])
+base_hp = 45
+base_atk = 90
+base_def = 20
+base_spe = 65
+base_spa = 65
+base_spd = 20
+catch_rate = 225
+base_exp = 61
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([24])
+hidden_abilities = Array[int]([3])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "AQUAJET"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "POISONFANG"
+}, {
+"level": 8.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 12.0,
+"move": "SCARYFACE"
+}, {
+"level": 16.0,
+"move": "BITE"
+}, {
+"level": 20.0,
+"move": "ICEFANG"
+}, {
+"level": 24.0,
+"move": "SCREECH"
+}, {
+"level": 28.0,
+"move": "SWAGGER"
+}, {
+"level": 32.0,
+"move": "CRUNCH"
+}, {
+"level": 36.0,
+"move": "AGILITY"
+}, {
+"level": 40.0,
+"move": "LIQUIDATION"
+}, {
+"level": 44.0,
+"move": "TAKEDOWN"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ANCIENTPOWER", "ASSURANCE", "ATTRACT", "BLIZZARD", "BOUNCE", "BRINE", "CAPTIVATE", "CONFIDE", "CRUNCH", "DARKPULSE", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FLIPTURN", "FOCUSENERGY", "FRUSTRATION", "FURYCUTTER", "HAIL", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICEFANG", "ICYWIND", "LIQUIDATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAYBACK", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROUND", "SCALD", "SCALESHOT", "SCARYFACE", "SCREECH", "SECRETPOWER", "SLEEPTALK", "SNARL", "SNORE", "SPITE", "SUBSTITUTE", "SUPERFANG", "SURF", "SWAGGER", "SWIFT", "TAUNT", "THIEF", "TORMENT", "UPROAR", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("ANCIENTPOWER", "DESTINYBOND", "DOUBLEEDGE", "HYDROPUMP", "SWIFT", "THRASH", "WATERPULSE")
+egg_groups = PackedStringArray("Water2")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 20.8
+color = "Red"
+shape = "Finned"
+category = "Feroz"
+habitat = "Sea"
+pokedex = "Los Carvanha van en grupo atacando barcos hasta que los hunden. Aunque dicen que es un Pokémon muy violento, huye en cuanto se queda solo."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "SHARPEDO",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "DEEPSEATOOTH"
+offspring = PackedStringArray()

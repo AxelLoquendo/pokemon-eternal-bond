@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dn2daccqxyonp"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_o5ima"]
+
+[resource]
+script = ExtResource("1_o5ima")
+id = 970
+name = "Glimmora"
+types = Array[int]([6, 4])
+base_hp = 83
+base_atk = 55
+base_def = 90
+base_spe = 86
+base_spa = 130
+base_spd = 81
+catch_rate = 25
+base_exp = 184
+growth_rate = "Parabolic"
+abilities = Array[int]([293])
+hidden_abilities = Array[int]([212])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "MORTALSPIN"
+}, {
+"level": 1.0,
+"move": "SMACKDOWN"
+}, {
+"level": 1.0,
+"move": "SPIKYSHIELD"
+}, {
+"level": 1.0,
+"move": "ROCKTHROW"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 7.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 11.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 15.0,
+"move": "ROCKPOLISH"
+}, {
+"level": 18.0,
+"move": "STEALTHROCK"
+}, {
+"level": 22.0,
+"move": "VENOSHOCK"
+}, {
+"level": 26.0,
+"move": "SANDSTORM"
+}, {
+"level": 29.0,
+"move": "SELFDESTRUCT"
+}, {
+"level": 33.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 39.0,
+"move": "POWERGEM"
+}, {
+"level": 44.0,
+"move": "ACIDARMOR"
+}, {
+"level": 50.0,
+"move": "SLUDGEWAVE"
+}])
+tutor_move_tokens = PackedStringArray("ACIDSPRAY", "CONFUSERAY", "DAZZLINGGLEAM", "EARTHPOWER", "ENDURE", "ENERGYBALL", "FACADE", "FLASHCANNON", "GIGAIMPACT", "GUNKSHOT", "HYPERBEAM", "IRONDEFENSE", "LIGHTSCREEN", "METEORBEAM", "MUDSHOT", "POWERGEM", "PROTECT", "RAINDANCE", "REFLECT", "REST", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "SANDSTORM", "SANDTOMB", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SMACKDOWN", "SOLARBEAM", "SPIKES", "STEALTHROCK", "STONEEDGE", "SUBSTITUTE", "SUNNYDAY", "TOXIC", "TOXICSPIKES", "VENOSHOCK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 7680
+height_m = 1.5
+weight_kg = 45.0
+color = "Blue"
+shape = "Head"
+category = "Mineral"
+habitat = "Cave"
+pokedex = "En cuanto percibe peligro, abre sus pétalos de cristal y despide rayos por su cuerpo en forma de cono."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

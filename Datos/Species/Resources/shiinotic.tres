@@ -1,0 +1,82 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://rniaw1npbpnk"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6vppy"]
+
+[resource]
+script = ExtResource("1_6vppy")
+id = 756
+name = "Shiinotic"
+types = Array[int]([12, 18])
+base_hp = 60
+base_atk = 45
+base_def = 80
+base_spe = 30
+base_spa = 90
+base_spd = 100
+catch_rate = 75
+base_exp = 142
+abilities = Array[int]([35, 27])
+hidden_abilities = Array[int]([44])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "CONFUSERAY"
+}, {
+"level": 1.0,
+"move": "INGRAIN"
+}, {
+"level": 12.0,
+"move": "MEGADRAIN"
+}, {
+"level": 16.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 20.0,
+"move": "MOONLIGHT"
+}, {
+"level": 27.0,
+"move": "STRENGTHSAP"
+}, {
+"level": 32.0,
+"move": "GIGADRAIN"
+}, {
+"level": 38.0,
+"move": "DAZZLINGGLEAM"
+}, {
+"level": 44.0,
+"move": "SPORE"
+}, {
+"level": 50.0,
+"move": "MOONBLAST"
+}, {
+"level": 56.0,
+"move": "DREAMEATER"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "AMNESIA", "ATTRACT", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAININGKISS", "DRAINPUNCH", "DREAMEATER", "ENDURE", "ENERGYBALL", "FACADE", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MIMIC", "NATURALGIFT", "NATUREPOWER", "POLLENPUFF", "PROTECT", "RAINDANCE", "RECYCLE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SIGNALBEAM", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "THUNDERWAVE", "TOXIC", "WEATHERBALL", "WONDERROOM", "WORRYSEED")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 11.5
+color = "Purple"
+shape = "Bipedal"
+category = "Luminiscente"
+pokedex = "Las esporas parpadeantes que despide tienen un efecto somnífero. Absorbe la vitalidad de su presa cuando esta se queda dormida."
+generation = 7
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 2.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "TINYMUSHROOM"
+wild_item_uncommon = "BIGMUSHROOM"
+offspring = PackedStringArray()

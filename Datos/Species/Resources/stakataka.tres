@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qph78harchbu"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wlyyy"]
+
+[resource]
+script = ExtResource("1_wlyyy")
+id = 805
+name = "Stakataka"
+types = Array[int]([6, 9])
+base_hp = 61
+base_atk = 131
+base_def = 211
+base_spe = 13
+base_spa = 53
+base_spd = 101
+catch_rate = 30
+base_exp = 285
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([224])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 5.0,
+"move": "ROCKTHROW"
+}, {
+"level": 10.0,
+"move": "PROTECT"
+}, {
+"level": 15.0,
+"move": "STOMP"
+}, {
+"level": 20.0,
+"move": "BLOCK"
+}, {
+"level": 25.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 30.0,
+"move": "WIDEGUARD"
+}, {
+"level": 35.0,
+"move": "AUTOTOMIZE"
+}, {
+"level": 40.0,
+"move": "ROCKBLAST"
+}, {
+"level": 45.0,
+"move": "MAGNETRISE"
+}, {
+"level": 50.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 55.0,
+"move": "IRONHEAD"
+}, {
+"level": 60.0,
+"move": "TAKEDOWN"
+}, {
+"level": 65.0,
+"move": "STEALTHROCK"
+}, {
+"level": 70.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "BIND", "BLOCK", "BODYPRESS", "BODYSLAM", "BRUTALSWING", "BULLDOZE", "EARTHQUAKE", "ENDURE", "FACADE", "FLASHCANNON", "FRUSTRATION", "GIGAIMPACT", "GRAVITY", "GYROBALL", "HEATCRASH", "HEAVYSLAM", "HIDDENPOWER", "HIGHHORSEPOWER", "INFESTATION", "IRONDEFENSE", "IRONHEAD", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MAGNETRISE", "MEGAKICK", "METEORBEAM", "MIMIC", "NATURALGIFT", "PROTECT", "RECYCLE", "REFLECT", "REST", "RETURN", "ROCKBLAST", "ROCKPOLISH", "ROCKSLIDE", "ROCKTOMB", "ROLEPLAY", "ROUND", "SAFEGUARD", "SANDSTORM", "SECRETPOWER", "SKILLSWAP", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEALTHROCK", "STEELBEAM", "STEELROLLER", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SUPERPOWER", "TELEKINESIS", "TOXIC", "TRICKROOM", "WONDERROOM", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 5.5
+weight_kg = 820.0
+color = "Gray"
+shape = "Quadruped"
+category = "Muro"
+pokedex = "Extraña criatura que podría ser un Ultraente. Parece un muro rocoso hasta que se mueve de repente y ataca."
+generation = 7
+yield_evs = {
+"atk": 0.0,
+"def": 3.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("UltraBeast")
+offspring = PackedStringArray()

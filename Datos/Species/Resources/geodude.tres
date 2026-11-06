@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfvpkjj0kjp7b"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_r2a3j"]
+
+[resource]
+script = ExtResource("1_r2a3j")
+id = 74
+name = "Geodude"
+types = Array[int]([6, 5])
+base_hp = 40
+base_atk = 80
+base_def = 100
+base_spe = 20
+base_spa = 30
+base_spd = 30
+catch_rate = 255
+base_exp = 60
+growth_rate = "Parabolic"
+abilities = Array[int]([69, 5])
+hidden_abilities = Array[int]([8])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 4.0,
+"move": "SANDSTORM"
+}, {
+"level": 6.0,
+"move": "ROCKPOLISH"
+}, {
+"level": 10.0,
+"move": "ROLLOUT"
+}, {
+"level": 12.0,
+"move": "HARDEN"
+}, {
+"level": 12.0,
+"move": "BULLDOZE"
+}, {
+"level": 16.0,
+"move": "ROCKTHROW"
+}, {
+"level": 18.0,
+"move": "SMACKDOWN"
+}, {
+"level": 24.0,
+"move": "SELFDESTRUCT"
+}, {
+"level": 28.0,
+"move": "STEALTHROCK"
+}, {
+"level": 30.0,
+"move": "ROCKBLAST"
+}, {
+"level": 34.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 36.0,
+"move": "EXPLOSION"
+}, {
+"level": 40.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 42.0,
+"move": "STONEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ANCIENTPOWER", "ATTRACT", "BLOCK", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLING", "FOCUSPUNCH", "FRUSTRATION", "GYROBALL", "HEADBUTT", "HIDDENPOWER", "INCINERATE", "IRONDEFENSE", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "POWERUPPUNCH", "PROTECT", "REST", "RETURN", "ROCKCLIMB", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEALTHROCK", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "THUNDERPUNCH", "TAKEDOWN", "SCARYFACE", "MUDSHOT", "ROCKBLAST", "STOMPINGTANTRUM", "HIGHHORSEPOWER", "CURSE")
+egg_move_tokens = PackedStringArray("AUTOTOMIZE", "BLOCK", "CURSE", "FLAIL", "HAMMERARM", "MEGAPUNCH", "WIDEGUARD")
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 3840
+height_m = 0.4
+weight_kg = 20.0
+color = "Brown"
+shape = "HeadArms"
+category = "Roca"
+habitat = "Mountain"
+pokedex = "Sube caminos de montaña usando sólo la fuerza de los brazos. Como parece un canto rodado por el camino, algunos montañeros se llegan a tropezar con él."
+evolutions = Array[Dictionary]([{
+"into": "GRAVELER",
+"method": "Level",
+"param": "25"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "EVERSTONE"
+offspring = PackedStringArray()

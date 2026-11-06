@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bgn44kffabft6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_o7o2w"]
+
+[resource]
+script = ExtResource("1_o7o2w")
+id = 306
+name = "Aggron"
+types = Array[int]([9, 6])
+base_hp = 70
+base_atk = 110
+base_def = 180
+base_spe = 50
+base_spa = 60
+base_spd = 60
+base_exp = 265
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([5, 69])
+hidden_abilities = Array[int]([134])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "METALCLAW"
+}, {
+"level": 1.0,
+"move": "ROCKTOMB"
+}, {
+"level": 12.0,
+"move": "ROAR"
+}, {
+"level": 16.0,
+"move": "HEADBUTT"
+}, {
+"level": 20.0,
+"move": "PROTECT"
+}, {
+"level": 24.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 28.0,
+"move": "IRONHEAD"
+}, {
+"level": 35.0,
+"move": "METALSOUND"
+}, {
+"level": 40.0,
+"move": "TAKEDOWN"
+}, {
+"level": 48.0,
+"move": "AUTOTOMIZE"
+}, {
+"level": 56.0,
+"move": "IRONTAIL"
+}, {
+"level": 64.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 72.0,
+"move": "HEAVYSLAM"
+}, {
+"level": 80.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 88.0,
+"move": "METALBURST"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ANCIENTPOWER", "AQUATAIL", "ATTRACT", "AVALANCHE", "BLIZZARD", "BLOCK", "BODYPRESS", "BODYSLAM", "BRICKBREAK", "BRUTALSWING", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "CRUNCH", "CUT", "DARKPULSE", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAGONCLAW", "DRAGONPULSE", "DRAGONTAIL", "DYNAMICPUNCH", "EARTHPOWER", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLASHCANNON", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HEADBUTT", "HEAVYSLAM", "HIDDENPOWER", "HIGHHORSEPOWER", "HONECLAWS", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICEPUNCH", "ICYWIND", "INCINERATE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LOWKICK", "MAGNETRISE", "MEGAKICK", "MEGAPUNCH", "METEORBEAM", "MIMIC", "MUDSLAP", "NATURALGIFT", "OUTRAGE", "PAYBACK", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETURN", "REVERSAL", "ROAR", "ROCKBLAST", "ROCKCLIMB", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SANDTOMB", "SCARYFACE", "SCREECH", "SECRETPOWER", "SEISMICTOSS", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SMACKDOWN", "SMARTSTRIKE", "SNORE", "SOLARBEAM", "SPITE", "STEALTHROCK", "STEELBEAM", "STEELROLLER", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SURF", "SWAGGER", "TAUNT", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "UPROAR", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Monster")
+hatch_steps = 8960
+height_m = 2.1
+weight_kg = 360.0
+color = "Gray"
+shape = "BipedalTail"
+category = "Coraza Férrea"
+habitat = "Mountain"
+pokedex = "Los cuernos de hierro que tiene le crecen poco a poco. Sirven para determinar la edad que tiene. Luce los desperfectos de su coraza en recuerdo de sus combates."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 3.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "HARDSTONE"
+offspring = PackedStringArray()

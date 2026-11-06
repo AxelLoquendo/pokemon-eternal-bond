@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://xblku5jtpuqy"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_3tql6"]
+
+[resource]
+script = ExtResource("1_3tql6")
+id = 759
+name = "Stufful"
+types = Array[int]([1, 2])
+base_hp = 70
+base_atk = 75
+base_def = 50
+base_spe = 50
+base_spa = 45
+base_spd = 50
+catch_rate = 140
+base_exp = 68
+abilities = Array[int]([218, 103])
+hidden_abilities = Array[int]([56])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 8.0,
+"move": "PAYBACK"
+}, {
+"level": 12.0,
+"move": "BRUTALSWING"
+}, {
+"level": 16.0,
+"move": "ENDURE"
+}, {
+"level": 20.0,
+"move": "STRENGTH"
+}, {
+"level": 24.0,
+"move": "TAKEDOWN"
+}, {
+"level": 28.0,
+"move": "FLAIL"
+}, {
+"level": 32.0,
+"move": "HAMMERARM"
+}, {
+"level": 36.0,
+"move": "THRASH"
+}, {
+"level": 40.0,
+"move": "PAINSPLIT"
+}, {
+"level": 44.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 48.0,
+"move": "SUPERPOWER"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BIND", "BRICKBREAK", "BRUTALSWING", "BULKUP", "BULLDOZE", "CAPTIVATE", "CHARM", "COACHING", "CONFIDE", "DOUBLETEAM", "DUALCHOP", "EARTHQUAKE", "ENDURE", "FACADE", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "HIDDENPOWER", "ICEPUNCH", "IRONHEAD", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "MIMIC", "NATURALGIFT", "PAINSPLIT", "PAYBACK", "PROTECT", "REST", "RETURN", "ROAR", "ROCKSLIDE", "ROCKTOMB", "ROLEPLAY", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "SWORDSDANCE", "TAUNT", "THUNDERPUNCH", "TOXIC", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("DEFENSECURL", "FORCEPALM", "ROLLOUT", "STOMP")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.5
+weight_kg = 6.8
+color = "Pink"
+shape = "Quadruped"
+category = "Rabieta"
+pokedex = "Pese a su aspecto encantador, cuando se enoja, sus pataletas son tan feroces que pueden derribar hasta a un luchador profesional."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "BEWEAR",
+"method": "Level",
+"param": "27"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

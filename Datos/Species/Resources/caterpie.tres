@@ -1,0 +1,55 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dhcvvdfbuod4w"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_jkju1"]
+
+[resource]
+script = ExtResource("1_jkju1")
+id = 10
+name = "Caterpie"
+types = Array[int]([7])
+base_hp = 45
+base_atk = 30
+base_def = 35
+base_spe = 45
+base_spa = 20
+base_spd = 20
+catch_rate = 255
+base_exp = 39
+abilities = Array[int]([19])
+hidden_abilities = Array[int]([50])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "STRINGSHOT"
+}, {
+"level": 9.0,
+"move": "BUGBITE"
+}])
+tutor_move_tokens = PackedStringArray("BUGBITE", "ELECTROWEB", "STRINGSHOT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.3
+weight_kg = 2.9
+color = "Green"
+shape = "Insectoid"
+category = "Gusano"
+habitat = "Forest"
+pokedex = "Tiene un apetito voraz. Es capaz de devorar hojas que superan su tamaño en un abrir y cerrar de ojos. Libera un hedor terrible por las antenas."
+evolutions = Array[Dictionary]([{
+"into": "METAPOD",
+"method": "Level",
+"param": "7"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

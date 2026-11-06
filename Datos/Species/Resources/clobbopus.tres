@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b18d6tvh7kq6q"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_lk2sy"]
+
+[resource]
+script = ExtResource("1_lk2sy")
+id = 852
+name = "Clobbopus"
+types = Array[int]([2])
+base_hp = 50
+base_atk = 68
+base_def = 60
+base_spe = 32
+base_spa = 50
+base_spd = 50
+catch_rate = 180
+base_exp = 62
+growth_rate = "Parabolic"
+abilities = Array[int]([7])
+hidden_abilities = Array[int]([101])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ROCKSMASH"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 5.0,
+"move": "FEINT"
+}, {
+"level": 10.0,
+"move": "BIND"
+}, {
+"level": 15.0,
+"move": "DETECT"
+}, {
+"level": 20.0,
+"move": "BRICKBREAK"
+}, {
+"level": 25.0,
+"move": "BULKUP"
+}, {
+"level": 30.0,
+"move": "SUBMISSION"
+}, {
+"level": 35.0,
+"move": "TAUNT"
+}, {
+"level": 40.0,
+"move": "REVERSAL"
+}, {
+"level": 45.0,
+"move": "SUPERPOWER"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BRICKBREAK", "BRINE", "BULKUP", "CAPTIVATE", "CLOSECOMBAT", "COACHING", "CONFIDE", "DIVE", "DOUBLETEAM", "ENDURE", "FACADE", "FOCUSBLAST", "FRUSTRATION", "HIDDENPOWER", "ICEPUNCH", "LIQUIDATION", "MEGAPUNCH", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PAYBACK", "PROTECT", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "TAUNT", "TOXIC", "WATERFALL", "WORKUP")
+egg_move_tokens = PackedStringArray("CIRCLETHROW", "PAINSPLIT", "POWERUPPUNCH", "SEISMICTOSS", "SOAK", "SUCKERPUNCH")
+egg_groups = PackedStringArray("Water1", "Humanlike")
+hatch_steps = 6400
+height_m = 0.6
+weight_kg = 4.0
+color = "Brown"
+shape = "Multiped"
+category = "Malcriado"
+pokedex = "Emerge a tierra firme en busca de alimento. Su extrema curiosidad lo induce a golpear con los tentáculos todo lo que entra en su campo visual."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "GRAPPLOCT",
+"method": "HasMove",
+"param": "TAUNT"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://0n0lhgtrfblj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_v73kv"]
+
+[resource]
+script = ExtResource("1_v73kv")
+id = 973
+name = "Flamigo"
+types = Array[int]([3, 2])
+base_hp = 82
+base_atk = 115
+base_def = 74
+base_spe = 90
+base_spa = 75
+base_spd = 64
+catch_rate = 100
+base_exp = 175
+growth_rate = "Parabolic"
+abilities = Array[int]([113, 77])
+hidden_abilities = Array[int]([272])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "COPYCAT"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 5.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 9.0,
+"move": "DETECT"
+}, {
+"level": 12.0,
+"move": "WINGATTACK"
+}, {
+"level": 15.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 18.0,
+"move": "LOWKICK"
+}, {
+"level": 21.0,
+"move": "FEINT"
+}, {
+"level": 27.0,
+"move": "PAYBACK"
+}, {
+"level": 31.0,
+"move": "ROOST"
+}, {
+"level": 35.0,
+"move": "AIRSLASH"
+}, {
+"level": 39.0,
+"move": "MEGAKICK"
+}, {
+"level": 44.0,
+"move": "WIDEGUARD"
+}, {
+"level": 48.0,
+"move": "THROATCHOP"
+}, {
+"level": 54.0,
+"move": "BRAVEBIRD"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "BULKUP", "CHILLINGWATER", "CLOSECOMBAT", "DUALWINGBEAT", "ENDEAVOR", "ENDURE", "FACADE", "FEATHERDANCE", "FLING", "FLY", "GIGAIMPACT", "HURRICANE", "HYPERBEAM", "LIQUIDATION", "LOWKICK", "LOWSWEEP", "LUNGE", "POUNCE", "PROTECT", "PSYCHUP", "REST", "REVERSAL", "SLEEPTALK", "SUBSTITUTE", "SWORDSDANCE", "TAILWIND", "TAKEDOWN", "TAUNT", "THIEF", "THROATCHOP", "UPPERHAND", "UTURN", "WATERPULSE")
+egg_move_tokens = PackedStringArray("DOUBLETEAM", "QUICKGUARD", "SKYATTACK")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 5120
+height_m = 1.6
+weight_kg = 37.0
+color = "Pink"
+shape = "Winged"
+category = "Sincronizado"
+habitat = "WatersEdge"
+pokedex = "Al parecer, se anudan la base del cuello para impedir que la energía que tienen almacenada en el estómago escape por el pico."
+generation = 9
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

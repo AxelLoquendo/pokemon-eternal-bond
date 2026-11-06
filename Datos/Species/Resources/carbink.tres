@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dcf64sgio4tdf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_20icc"]
+
+[resource]
+script = ExtResource("1_20icc")
+id = 703
+name = "Carbink"
+types = Array[int]([6, 18])
+base_hp = 50
+base_atk = 50
+base_def = 150
+base_spe = 50
+base_spa = 50
+base_spd = 150
+catch_rate = 60
+base_exp = 100
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([29])
+hidden_abilities = Array[int]([5])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 5.0,
+"move": "GUARDSPLIT"
+}, {
+"level": 10.0,
+"move": "SMACKDOWN"
+}, {
+"level": 15.0,
+"move": "FLAIL"
+}, {
+"level": 20.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 25.0,
+"move": "ROCKPOLISH"
+}, {
+"level": 30.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 35.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 40.0,
+"move": "SKILLSWAP"
+}, {
+"level": 45.0,
+"move": "POWERGEM"
+}, {
+"level": 50.0,
+"move": "STEALTHROCK"
+}, {
+"level": 55.0,
+"move": "MOONBLAST"
+}, {
+"level": 60.0,
+"move": "STONEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ALLYSWITCH", "BODYPRESS", "CALMMIND", "CHARM", "CONFIDE", "COVET", "DAZZLINGGLEAM", "DOUBLETEAM", "EARTHPOWER", "ENDURE", "EXPLOSION", "FACADE", "FLASH", "FRUSTRATION", "GRAVITY", "GUARDSWAP", "GYROBALL", "HAIL", "HIDDENPOWER", "IRONDEFENSE", "LIGHTSCREEN", "MAGICCOAT", "MAGNETRISE", "METEORBEAM", "MIMIC", "MISTYEXPLOSION", "NATURALGIFT", "NATUREPOWER", "POWERGEM", "PROTECT", "PSYCHIC", "PSYCHUP", "REFLECT", "REST", "RETURN", "ROCKPOLISH", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SAFEGUARD", "SANDSTORM", "SANDTOMB", "SECRETPOWER", "SKILLSWAP", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TELEKINESIS", "TERRAINPULSE", "TOXIC", "TRICKROOM", "WONDERROOM", "TAKEDOWN", "RAINDANCE", "BODYSLAM", "ROCKBLAST", "SPIKES", "FLASHCANNON", "IRONHEAD", "HEAVYSLAM", "MISTYTERRAIN", "GIGAIMPACT", "HYPERBEAM", "DOUBLEEDGE", "ENDEAVOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Fairy", "Mineral")
+hatch_steps = 6400
+height_m = 0.3
+weight_kg = 5.7
+color = "Gray"
+shape = "Head"
+category = "Joya"
+pokedex = "Nace en las profundidades subterráneas, a altas temperaturas y a gran presión. Irradia energía por la roca que tiene en la cabeza."
+generation = 6
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cjgi2tbk3e8y"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_dpq4g"]
+
+[resource]
+script = ExtResource("1_dpq4g")
+id = 650
+name = "Chespin"
+types = Array[int]([12])
+base_hp = 56
+base_atk = 61
+base_def = 65
+base_spe = 38
+base_spa = 48
+base_spd = 45
+base_exp = 63
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([171])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "VINEWHIP"
+}, {
+"level": 8.0,
+"move": "ROLLOUT"
+}, {
+"level": 11.0,
+"move": "BITE"
+}, {
+"level": 15.0,
+"move": "LEECHSEED"
+}, {
+"level": 18.0,
+"move": "PINMISSILE"
+}, {
+"level": 27.0,
+"move": "TAKEDOWN"
+}, {
+"level": 32.0,
+"move": "SEEDBOMB"
+}, {
+"level": 35.0,
+"move": "MUDSHOT"
+}, {
+"level": 39.0,
+"move": "BULKUP"
+}, {
+"level": 42.0,
+"move": "BODYSLAM"
+}, {
+"level": 45.0,
+"move": "PAINSPLIT"
+}, {
+"level": 48.0,
+"move": "WOODHAMMER"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CUT", "DIG", "DOUBLETEAM", "DRAINPUNCH", "DUALCHOP", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSPLEDGE", "GYROBALL", "HELPINGHAND", "HIDDENPOWER", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LOWKICK", "LOWSWEEP", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PAINSPLIT", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "PROTECT", "REFLECT", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SECRETPOWER", "SEEDBOMB", "SHADOWCLAW", "SLEEPTALK", "SLUDGEBOMB", "SMACKDOWN", "SNORE", "SOLARBEAM", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SUPERPOWER", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "TAUNT", "THUNDERPUNCH", "TOXIC", "WORKUP", "WORRYSEED", "ZENHEADBUTT", "TAKEDOWN", "TRAILBLAZE", "METALCLAW", "SWIFT", "MAGICALLEAF", "MUDSHOT", "RAINDANCE", "BULLETSEED", "BODYSLAM", "SPIKES", "GRASSYTERRAIN", "LEAFSTORM", "GRASSYGLIDE", "CURSE")
+egg_move_tokens = PackedStringArray("BELLYDRUM", "CURSE", "DEFENSECURL", "POWERUPPUNCH", "QUICKGUARD", "ROLLOUT", "SPIKES", "SYNTHESIS")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 9.0
+color = "Green"
+shape = "BipedalTail"
+category = "Erizo"
+pokedex = "Cuando acumula energía, las suaves púas de su cabeza se vuelven tan duras y afiladas que hasta pueden atravesar rocas."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "QUILLADIN",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

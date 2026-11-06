@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dcmd0pi4fj3cm"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_vmuwf"]
+
+[resource]
+script = ExtResource("1_vmuwf")
+id = 76
+name = "Golem"
+types = Array[int]([6, 5])
+base_hp = 80
+base_atk = 120
+base_def = 130
+base_spe = 45
+base_spa = 55
+base_spd = 65
+base_exp = 248
+growth_rate = "Parabolic"
+abilities = Array[int]([69, 5])
+hidden_abilities = Array[int]([8])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "HEAVYSLAM"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 1.0,
+"move": "ROCKPOLISH"
+}, {
+"level": 4.0,
+"move": "SANDSTORM"
+}, {
+"level": 10.0,
+"move": "ROLLOUT"
+}, {
+"level": 12.0,
+"move": "HARDEN"
+}, {
+"level": 16.0,
+"move": "ROCKTHROW"
+}, {
+"level": 18.0,
+"move": "SMACKDOWN"
+}, {
+"level": 22.0,
+"move": "BULLDOZE"
+}, {
+"level": 24.0,
+"move": "SELFDESTRUCT"
+}, {
+"level": 30.0,
+"move": "STEALTHROCK"
+}, {
+"level": 34.0,
+"move": "ROCKBLAST"
+}, {
+"level": 40.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 44.0,
+"move": "EXPLOSION"
+}, {
+"level": 50.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 54.0,
+"move": "STONEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ANCIENTPOWER", "ATTRACT", "BLOCK", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "GYROBALL", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "INCINERATE", "IRONDEFENSE", "IRONHEAD", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "POWERUPPUNCH", "PROTECT", "REST", "RETURN", "ROAR", "ROCKCLIMB", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "THUNDERPUNCH", "TAKEDOWN", "SCARYFACE", "MUDSHOT", "ROCKBLAST", "BODYPRESS", "HEAVYSLAM", "HIGHHORSEPOWER", "CURSE", "HARDPRESS")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 3840
+height_m = 1.4
+weight_kg = 300.0
+color = "Brown"
+shape = "Bipedal"
+category = "Megatón"
+habitat = "Mountain"
+pokedex = "Dicen que vive en cráteres volcánicos situados en altas cimas. Una vez al año, muda la piel y crece. La muda se deshace y es absorbida por la tierra."
+yield_evs = {
+"atk": 0.0,
+"def": 3.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "EVERSTONE"
+offspring = PackedStringArray()

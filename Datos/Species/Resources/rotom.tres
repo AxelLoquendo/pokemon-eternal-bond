@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d0sa17u036jmi"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_2brkp"]
+
+[resource]
+script = ExtResource("1_2brkp")
+id = 479
+name = "Rotom"
+types = Array[int]([13, 8])
+base_hp = 50
+base_atk = 50
+base_def = 77
+base_spe = 91
+base_spa = 95
+base_spd = 77
+base_exp = 154
+gender_ratio = "Genderless"
+abilities = Array[int]([26])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 5.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 10.0,
+"move": "CONFUSERAY"
+}, {
+"level": 15.0,
+"move": "CHARGE"
+}, {
+"level": 20.0,
+"move": "ELECTROBALL"
+}, {
+"level": 25.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 30.0,
+"move": "SHOCKWAVE"
+}, {
+"level": 35.0,
+"move": "HEX"
+}, {
+"level": 40.0,
+"move": "SUBSTITUTE"
+}, {
+"level": 45.0,
+"move": "TRICK"
+}, {
+"level": 50.0,
+"move": "DISCHARGE"
+}, {
+"level": 55.0,
+"move": "UPROAR"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "CHARGEBEAM", "CONFIDE", "DARKPULSE", "DOUBLETEAM", "DREAMEATER", "EERIEIMPULSE", "ELECTRICTERRAIN", "ELECTROBALL", "ELECTROWEB", "ENDURE", "FACADE", "FLASH", "FOULPLAY", "FRUSTRATION", "HELPINGHAND", "HEX", "HIDDENPOWER", "HYPERVOICE", "LIGHTSCREEN", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "OMINOUSWIND", "PAINSPLIT", "POLTERGEIST", "PROTECT", "PSYCHUP", "RAINDANCE", "REFLECT", "REST", "RETURN", "RISINGVOLTAGE", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNATCH", "SNORE", "SPITE", "STOREDPOWER", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "SWIFT", "TELEKINESIS", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TRICK", "UPROAR", "VOLTSWITCH", "WILLOWISP", "CONFUSERAY", "NIGHTSHADE", "CHARGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 0.3
+color = "Red"
+shape = "Head"
+category = "Plasma"
+pokedex = "Su cuerpo está hecho de plasma. Puede infiltrarse en dispositivos electrónicos e inutilizarlos. Le encanta realizar fechorías."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Normal"

@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cq6dh0ra3ynpq"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_q1lt8"]
+
+[resource]
+script = ExtResource("1_q1lt8")
+id = 378
+name = "Regice"
+types = Array[int]([15])
+base_hp = 80
+base_atk = 50
+base_def = 100
+base_spe = 50
+base_spa = 100
+base_spd = 200
+catch_rate = 3
+base_exp = 290
+base_happiness = 35
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([29])
+hidden_abilities = Array[int]([115])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "CHARGEBEAM"
+}, {
+"level": 1.0,
+"move": "ICYWIND"
+}, {
+"level": 6.0,
+"move": "BULLDOZE"
+}, {
+"level": 12.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 18.0,
+"move": "STOMP"
+}, {
+"level": 24.0,
+"move": "ICEBEAM"
+}, {
+"level": 30.0,
+"move": "CURSE"
+}, {
+"level": 36.0,
+"move": "AMNESIA"
+}, {
+"level": 42.0,
+"move": "HAMMERARM"
+}, {
+"level": 48.0,
+"move": "BLIZZARD"
+}, {
+"level": 54.0,
+"move": "SUPERPOWER"
+}, {
+"level": 60.0,
+"move": "LOCKON"
+}, {
+"level": 66.0,
+"move": "ZAPCANNON"
+}, {
+"level": 72.0,
+"move": "HYPERBEAM"
+}, {
+"level": 78.0,
+"move": "EXPLOSION"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ANCIENTPOWER", "AURORAVEIL", "AVALANCHE", "BLIZZARD", "BLOCK", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CHARGEBEAM", "CONFIDE", "COUNTER", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FLASHCANNON", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FROSTBREATH", "FRUSTRATION", "GIGAIMPACT", "GRAVITY", "HAIL", "HEADBUTT", "HEAVYSLAM", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICEPUNCH", "ICICLESPEAR", "ICYWIND", "IRONHEAD", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROCKCLIMB", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEISMICTOSS", "SELFDESTRUCT", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "SNOWSCAPE", "BODYPRESS", "ICESPINNER", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 20480
+height_m = 1.8
+weight_kg = 175.0
+color = "Blue"
+shape = "Bipedal"
+category = "Iceberg"
+habitat = "Cave"
+pokedex = "Está formado en su totalidad por hielo de la Antártica. Todas las investigaciones parecen indicar que dicho hielo procede de alguna glaciación."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 3.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ctf7q4a2s5he0"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_1m8k7"]
+
+[resource]
+script = ExtResource("1_1m8k7")
+id = 241
+name = "Miltank"
+types = Array[int]([1])
+base_hp = 95
+base_atk = 80
+base_def = 105
+base_spe = 100
+base_spa = 40
+base_spd = 70
+base_exp = 172
+gender_ratio = "AlwaysFemale"
+growth_rate = "Slow"
+abilities = Array[int]([47, 113])
+hidden_abilities = Array[int]([157])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 5.0,
+"move": "ROLLOUT"
+}, {
+"level": 10.0,
+"move": "DEFENSECURL"
+}, {
+"level": 15.0,
+"move": "STOMP"
+}, {
+"level": 20.0,
+"move": "HEALBELL"
+}, {
+"level": 25.0,
+"move": "HEADBUTT"
+}, {
+"level": 30.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 35.0,
+"move": "MILKDRINK"
+}, {
+"level": 40.0,
+"move": "BODYSLAM"
+}, {
+"level": 45.0,
+"move": "PLAYROUGH"
+}, {
+"level": 50.0,
+"move": "CHARM"
+}, {
+"level": 55.0,
+"move": "HIGHHORSEPOWER"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BLIZZARD", "BLOCK", "BODYPRESS", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CHARM", "CONFIDE", "COUNTER", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHQUAKE", "ECHOEDVOICE", "ENDURE", "FACADE", "FIREPUNCH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "GYROBALL", "HEADBUTT", "HEALBELL", "HEAVYSLAM", "HELPINGHAND", "HIDDENPOWER", "HIGHHORSEPOWER", "HYPERBEAM", "ICEBEAM", "ICEPUNCH", "ICYWIND", "IRONHEAD", "IRONTAIL", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "PLAYROUGH", "POWERUPPUNCH", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETALIATE", "RETURN", "REVERSAL", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SNORE", "SOLARBEAM", "STEALTHROCK", "STEELROLLER", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SURF", "SWAGGER", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "WATERPULSE", "WHIRLPOOL", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("BELCH", "CURSE", "DOUBLEEDGE", "FOCUSPUNCH", "HAMMERARM", "HELPINGHAND", "PRESENT", "REVERSAL", "SEISMICTOSS")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.2
+weight_kg = 75.5
+color = "Pink"
+shape = "BipedalTail"
+category = "Lechera"
+habitat = "Grassland"
+pokedex = "Miltank da al día 20 litros de una dulce leche que gusta a grandes y pequeños. Aquellos a los que no les agrada la leche, la toman en forma de yogurt."
+generation = 2
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "MOOMOOMILK"
+wild_item_uncommon = "MOOMOOMILK"
+wild_item_rare = "MOOMOOMILK"
+offspring = PackedStringArray()

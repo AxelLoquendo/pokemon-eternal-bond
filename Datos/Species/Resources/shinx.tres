@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bmuu8llcifrpf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6ks15"]
+
+[resource]
+script = ExtResource("1_6ks15")
+id = 403
+name = "Shinx"
+types = Array[int]([13])
+base_hp = 45
+base_atk = 65
+base_def = 34
+base_spe = 45
+base_spa = 40
+base_spd = 34
+catch_rate = 235
+base_exp = 53
+growth_rate = "Parabolic"
+abilities = Array[int]([79, 22])
+hidden_abilities = Array[int]([62])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 8.0,
+"move": "CHARGE"
+}, {
+"level": 12.0,
+"move": "BITE"
+}, {
+"level": 16.0,
+"move": "SPARK"
+}, {
+"level": 20.0,
+"move": "ROAR"
+}, {
+"level": 24.0,
+"move": "VOLTSWITCH"
+}, {
+"level": 28.0,
+"move": "SCARYFACE"
+}, {
+"level": 32.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 36.0,
+"move": "CRUNCH"
+}, {
+"level": 40.0,
+"move": "DISCHARGE"
+}, {
+"level": 44.0,
+"move": "SWAGGER"
+}, {
+"level": 48.0,
+"move": "WILDCHARGE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "CRUNCH", "DOUBLETEAM", "EERIEIMPULSE", "ELECTROBALL", "ENDURE", "FACADE", "FAKETEARS", "FIREFANG", "FLASH", "FRUSTRATION", "FURYCUTTER", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "ICEFANG", "IRONTAIL", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "MUDSLAP", "NATURALGIFT", "PLAYROUGH", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROAR", "ROUND", "SCARYFACE", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNARL", "SNORE", "STRENGTH", "SUBSTITUTE", "SWAGGER", "SWIFT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERFANG", "THUNDERWAVE", "VOLTSWITCH", "WILDCHARGE", "TAKEDOWN", "CONFUSERAY", "TRAILBLAZE", "SUNNYDAY", "ELECTRICTERRAIN", "CHARGE", "DOUBLEEDGE", "ELECTROWEB")
+egg_move_tokens = PackedStringArray("BABYDOLLEYES", "DOUBLEKICK", "EERIEIMPULSE", "FAKETEARS", "FIREFANG", "HELPINGHAND", "HOWL", "ICEFANG", "NIGHTSLASH", "QUICKATTACK", "SHOCKWAVE", "SWIFT", "TAKEDOWN", "THUNDERFANG")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 9.5
+color = "Blue"
+shape = "Quadruped"
+category = "Flash"
+pokedex = "Si siente peligro, todo su pelaje brilla. Aprovecha la ceguera temporal de su rival para huir. Los músculos de sus patas delanteras generan electricidad."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "LUXIO",
+"method": "Level",
+"param": "15"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bwnt5rho0if4x"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_tw88a"]
+
+[resource]
+script = ExtResource("1_tw88a")
+id = 711
+name = "Gourgeist"
+types = Array[int]([8, 12])
+base_hp = 55
+base_atk = 85
+base_def = 122
+base_spe = 99
+base_spa = 58
+base_spd = 75
+catch_rate = 60
+base_exp = 173
+abilities = Array[int]([53, 119])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "EXPLOSION"
+}, {
+"level": 1.0,
+"move": "MOONBLAST"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "SHADOWSNEAK"
+}, {
+"level": 1.0,
+"move": "CONFUSERAY"
+}, {
+"level": 12.0,
+"move": "RAZORLEAF"
+}, {
+"level": 16.0,
+"move": "LEECHSEED"
+}, {
+"level": 20.0,
+"move": "BULLETSEED"
+}, {
+"level": 24.0,
+"move": "SCARYFACE"
+}, {
+"level": 28.0,
+"move": "WORRYSEED"
+}, {
+"level": 32.0,
+"move": "SEEDBOMB"
+}, {
+"level": 36.0,
+"move": "TRICKORTREAT"
+}, {
+"level": 36.0,
+"move": "SHADOWBALL"
+}, {
+"level": 40.0,
+"move": "TRICK"
+}, {
+"level": 44.0,
+"move": "PAINSPLIT"
+}, {
+"level": 48.0,
+"move": "PHANTOMFORCE"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BRUTALSWING", "BULLETSEED", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "DARKPULSE", "DOUBLETEAM", "DREAMEATER", "ENDURE", "ENERGYBALL", "EXPLOSION", "FACADE", "FIREBLAST", "FLAMECHARGE", "FLAMETHROWER", "FLASH", "FOCUSBLAST", "FOULPLAY", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "GYROBALL", "HEX", "HIDDENPOWER", "HYPERBEAM", "IMPRISON", "INCINERATE", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "MYSTICALFIRE", "NASTYPLOT", "NATURALGIFT", "NATUREPOWER", "PAINSPLIT", "PHANTOMFORCE", "POLTERGEIST", "POWERWHIP", "PROTECT", "PSYCHIC", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROLEPLAY", "ROUND", "SAFEGUARD", "SCARYFACE", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SKILLSWAP", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SPITE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "TELEKINESIS", "THIEF", "TOXIC", "TRICK", "TRICKROOM", "WILLOWISP", "WORRYSEED")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 9.5
+color = "Brown"
+shape = "HeadBase"
+category = "Calabaza"
+pokedex = "En las noches de luna nueva deambula por las calles de las ciudades y emite espeluznantes alaridos que maldicen a quienes los oyen."
+generation = 6
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("InheritFormFromMother")
+offspring = PackedStringArray()
+form_name = "Tamaño Pequeño"

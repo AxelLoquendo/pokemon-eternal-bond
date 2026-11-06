@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://muldqxt7okpl"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_4kkql"]
+
+[resource]
+script = ExtResource("1_4kkql")
+id = 705
+name = "Sliggoo"
+types = Array[int]([16])
+base_hp = 68
+base_atk = 75
+base_def = 53
+base_spe = 60
+base_spa = 83
+base_spd = 113
+base_exp = 158
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([157, 93])
+hidden_abilities = Array[int]([183])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 1.0,
+"move": "ACIDARMOR"
+}, {
+"level": 15.0,
+"move": "PROTECT"
+}, {
+"level": 20.0,
+"move": "FLAIL"
+}, {
+"level": 25.0,
+"move": "WATERPULSE"
+}, {
+"level": 30.0,
+"move": "RAINDANCE"
+}, {
+"level": 35.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 43.0,
+"move": "CURSE"
+}, {
+"level": 49.0,
+"move": "BODYSLAM"
+}, {
+"level": 56.0,
+"move": "MUDDYWATER"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BODYSLAM", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONPULSE", "ENDURE", "FACADE", "FRUSTRATION", "HIDDENPOWER", "ICEBEAM", "INFESTATION", "IRONTAIL", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "OUTRAGE", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROUND", "SECRETPOWER", "SHOCKWAVE", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "THUNDERBOLT", "TOXIC", "WATERPULSE", "TAKEDOWN", "CHARM", "ACIDSPRAY", "CHILLINGWATER", "THUNDER", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Dragon")
+hatch_steps = 10240
+height_m = 0.8
+weight_kg = 17.5
+color = "Purple"
+shape = "Serpentine"
+category = "Molusco"
+pokedex = "Segrega una mucosidad que corroe todo lo que toca y consigue así ahuyentar al enemigo. Sus ojos han involucionado, por lo que no puede ver."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "GOODRA",
+"method": "LevelRain",
+"param": "50"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 2.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SHEDSHELL"
+offspring = PackedStringArray()

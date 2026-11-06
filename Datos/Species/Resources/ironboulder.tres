@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b65fj8a85nap6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cr5kl"]
+
+[resource]
+script = ExtResource("1_cr5kl")
+id = 1022
+name = "Ferromole"
+types = Array[int]([6, 14])
+base_hp = 90
+base_atk = 120
+base_def = 80
+base_spe = 124
+base_spa = 68
+base_spd = 108
+catch_rate = 10
+base_exp = 295
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([285])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "HORNATTACK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "ROCKTHROW"
+}, {
+"level": 1.0,
+"move": "ELECTRICTERRAIN"
+}, {
+"level": 7.0,
+"move": "QUICKATTACK"
+}, {
+"level": 14.0,
+"move": "SLASH"
+}, {
+"level": 21.0,
+"move": "AGILITY"
+}, {
+"level": 28.0,
+"move": "PSYCHOCUT"
+}, {
+"level": 35.0,
+"move": "COUNTER"
+}, {
+"level": 42.0,
+"move": "ROCKTOMB"
+}, {
+"level": 49.0,
+"move": "SACREDSWORD"
+}, {
+"level": 56.0,
+"move": "MIGHTYCLEAVE"
+}, {
+"level": 63.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 70.0,
+"move": "MEGAHORN"
+}, {
+"level": 77.0,
+"move": "QUICKGUARD"
+}, {
+"level": 84.0,
+"move": "STONEEDGE"
+}, {
+"level": 91.0,
+"move": "GIGAIMPACT"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "AIRSLASH", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CLOSECOMBAT", "DOUBLEEDGE", "EARTHQUAKE", "ELECTRICTERRAIN", "ENDURE", "FACADE", "GIGAIMPACT", "HYPERBEAM", "IRONDEFENSE", "IRONHEAD", "METEORBEAM", "POISONJAB", "PROTECT", "PSYCHIC", "PSYSHOCK", "REST", "ROCKBLAST", "ROCKTOMB", "SANDSTORM", "SCARYFACE", "SLEEPTALK", "SOLARBLADE", "STONEEDGE", "SUBSTITUTE", "SWORDSDANCE", "TAKEDOWN", "TAUNT", "THROATCHOP", "WILDCHARGE", "XSCISSOR", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 6400
+height_m = 1.5
+weight_kg = 162.5
+color = "Gray"
+shape = "Quadruped"
+category = "Paradoja"
+habitat = "Rare"
+pokedex = "Su cuerpo parece estar compuesto enteramente de metal. Debe su nombre a un objeto descrito en un tomo antiguo."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 3.0
+}
+flags = PackedStringArray("Paradox")
+offspring = PackedStringArray()

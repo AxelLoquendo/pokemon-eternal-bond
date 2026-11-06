@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c4snx3uuhml27"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6tlbd"]
+
+[resource]
+script = ExtResource("1_6tlbd")
+id = 548
+name = "Petilil"
+types = Array[int]([12])
+base_hp = 45
+base_atk = 35
+base_def = 50
+base_spe = 30
+base_spa = 70
+base_spd = 50
+catch_rate = 190
+base_exp = 56
+gender_ratio = "AlwaysFemale"
+abilities = Array[int]([34, 20])
+hidden_abilities = Array[int]([102])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 3.0,
+"move": "HELPINGHAND"
+}, {
+"level": 6.0,
+"move": "STUNSPORE"
+}, {
+"level": 9.0,
+"move": "MEGADRAIN"
+}, {
+"level": 12.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 12.0,
+"move": "CHARM"
+}, {
+"level": 15.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 18.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 21.0,
+"move": "GIGADRAIN"
+}, {
+"level": 24.0,
+"move": "LEECHSEED"
+}, {
+"level": 27.0,
+"move": "AFTERYOU"
+}, {
+"level": 30.0,
+"move": "ENERGYBALL"
+}, {
+"level": 33.0,
+"move": "SYNTHESIS"
+}, {
+"level": 36.0,
+"move": "SUNNYDAY"
+}, {
+"level": 39.0,
+"move": "ENTRAINMENT"
+}, {
+"level": 42.0,
+"move": "LEAFSTORM"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "CAPTIVATE", "CHARM", "CONFIDE", "COVET", "CUT", "DOUBLETEAM", "DREAMEATER", "ENCORE", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "LASERFOCUS", "LEAFSTORM", "MAGICALLEAF", "MIMIC", "NATURALGIFT", "NATUREPOWER", "POLLENPUFF", "PROTECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "TOXIC", "WORRYSEED", "TRAILBLAZE", "BULLETSEED")
+egg_move_tokens = PackedStringArray("HEALINGWISH", "INGRAIN", "SWEETSCENT", "WORRYSEED")
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 6.6
+color = "Green"
+shape = "HeadBase"
+category = "Bulbo"
+pokedex = "Habita tierras húmedas ricas en nutrientes donde la cosecha es abundante."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "LILLIGANT",
+"method": "Item",
+"param": "SUNSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "ABSORBBULB"
+offspring = PackedStringArray()

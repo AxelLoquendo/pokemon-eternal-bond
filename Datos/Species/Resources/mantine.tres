@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://yqut1w374iru"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_pcmsw"]
+
+[resource]
+script = ExtResource("1_pcmsw")
+id = 226
+name = "Mantine"
+types = Array[int]([11, 3])
+base_hp = 85
+base_atk = 40
+base_def = 70
+base_spe = 70
+base_spa = 80
+base_spd = 140
+catch_rate = 25
+base_exp = 170
+growth_rate = "Slow"
+abilities = Array[int]([33, 11])
+hidden_abilities = Array[int]([41])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PSYBEAM"
+}, {
+"level": 1.0,
+"move": "BULLETSEED"
+}, {
+"level": 1.0,
+"move": "ROOST"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "SUPERSONIC"
+}, {
+"level": 1.0,
+"move": "WINGATTACK"
+}, {
+"level": 12.0,
+"move": "WATERPULSE"
+}, {
+"level": 16.0,
+"move": "WIDEGUARD"
+}, {
+"level": 20.0,
+"move": "AGILITY"
+}, {
+"level": 24.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 28.0,
+"move": "HEADBUTT"
+}, {
+"level": 32.0,
+"move": "AIRSLASH"
+}, {
+"level": 36.0,
+"move": "AQUARING"
+}, {
+"level": 40.0,
+"move": "BOUNCE"
+}, {
+"level": 44.0,
+"move": "TAKEDOWN"
+}, {
+"level": 48.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "AIRCUTTER", "AIRSLASH", "AMNESIA", "AQUATAIL", "ASSURANCE", "ATTRACT", "BLIZZARD", "BODYPRESS", "BODYSLAM", "BOUNCE", "BRINE", "BULLDOZE", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DEFOG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DUALWINGBEAT", "EARTHQUAKE", "ENDURE", "FACADE", "FRUSTRATION", "GIGAIMPACT", "GUNKSHOT", "HAIL", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HURRICANE", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICYWIND", "IRONHEAD", "LIQUIDATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "ROOST", "ROUND", "SCALD", "SECRETPOWER", "SEEDBOMB", "SIGNALBEAM", "SLEEPTALK", "SNORE", "STRINGSHOT", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "TAILWIND", "WATERFALL", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray("AMNESIA", "CONFUSERAY", "HAZE", "HYDROPUMP", "MIRRORCOAT", "SLAM", "SPLASH", "TAILWIND", "TWISTER", "WIDEGUARD")
+egg_groups = PackedStringArray("Water1")
+hatch_steps = 6400
+height_m = 2.1
+weight_kg = 220.0
+color = "Purple"
+shape = "Winged"
+category = "Milano"
+habitat = "Sea"
+pokedex = "En días soleados, es posible ver bancos de Mantine saltando con elegancia sobre las olas del mar. A este Pokémon no le molesta que se le pegue un Remoraid."
+generation = 2
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 2.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

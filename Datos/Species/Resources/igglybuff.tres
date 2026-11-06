@@ -1,0 +1,73 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b37t0ttgf6yy3"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_e6eu8"]
+
+[resource]
+script = ExtResource("1_e6eu8")
+id = 174
+name = "Igglybuff"
+types = Array[int]([1, 18])
+base_hp = 90
+base_atk = 30
+base_def = 15
+base_spe = 15
+base_spa = 40
+base_spd = 20
+catch_rate = 170
+base_exp = 42
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+abilities = Array[int]([56, 172])
+hidden_abilities = Array[int]([132])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SING"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "COPYCAT"
+}, {
+"level": 4.0,
+"move": "DEFENSECURL"
+}, {
+"level": 8.0,
+"move": "SWEETKISS"
+}, {
+"level": 12.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 16.0,
+"move": "DISABLE"
+}, {
+"level": 20.0,
+"move": "CHARM"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BOUNCE", "CAPTIVATE", "CHARM", "CONFIDE", "COUNTER", "COVET", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAININGKISS", "DREAMEATER", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FAKETEARS", "FIREBLAST", "FLAMETHROWER", "FLASH", "FLING", "FRUSTRATION", "GRASSKNOT", "GRAVITY", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "ICYWIND", "INCINERATE", "LASTRESORT", "LIGHTSCREEN", "MAGICCOAT", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MISTYTERRAIN", "MUDSLAP", "NATURALGIFT", "PAINSPLIT", "PLAYROUGH", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLEPLAY", "ROLLOUT", "ROUND", "SAFEGUARD", "SCREECH", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "THUNDERWAVE", "UPROAR", "WATERPULSE", "WILDCHARGE", "WORKUP", "TAKEDOWN", "DISARMINGVOICE", "TRAILBLAZE", "SWIFT", "DAZZLINGGLEAM", "ENCORE", "ALLURINGVOICE")
+egg_move_tokens = PackedStringArray("COVET", "FAKETEARS", "GRAVITY", "HEALPULSE", "LASTRESORT", "MISTYTERRAIN", "PERISHSONG", "PRESENT", "ROLLOUT", "WISH")
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 2560
+height_m = 0.3
+weight_kg = 1.0
+color = "Pink"
+shape = "Bipedal"
+category = "Globo"
+habitat = "Grassland"
+pokedex = "Es suave, flexible y capaz de botar. Cuando canta sin parar con todas sus fuerzas, se va poniendo de un color rosa cada vez más intenso."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "JIGGLYPUFF",
+"method": "Happiness",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

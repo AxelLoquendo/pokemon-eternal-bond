@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b4cnkmxmg3n4l"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_4ddam"]
+
+[resource]
+script = ExtResource("1_4ddam")
+id = 217
+name = "Ursaring"
+types = Array[int]([1])
+base_hp = 90
+base_atk = 130
+base_def = 75
+base_spe = 55
+base_spa = 75
+base_spd = 75
+catch_rate = 60
+base_exp = 175
+abilities = Array[int]([62, 95])
+hidden_abilities = Array[int]([127])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FLING"
+}, {
+"level": 1.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 1.0,
+"move": "CHARM"
+}, {
+"level": 1.0,
+"move": "COVET"
+}, {
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "LICK"
+}, {
+"level": 1.0,
+"move": "FAKETEARS"
+}, {
+"level": 8.0,
+"move": "FURYSWIPES"
+}, {
+"level": 13.0,
+"move": "PAYBACK"
+}, {
+"level": 17.0,
+"move": "SWEETSCENT"
+}, {
+"level": 22.0,
+"move": "SLASH"
+}, {
+"level": 25.0,
+"move": "PLAYNICE"
+}, {
+"level": 29.0,
+"move": "PLAYROUGH"
+}, {
+"level": 35.0,
+"move": "SCARYFACE"
+}, {
+"level": 41.0,
+"move": "REST"
+}, {
+"level": 41.0,
+"move": "SNORE"
+}, {
+"level": 48.0,
+"move": "HIGHHORSEPOWER"
+}, {
+"level": 56.0,
+"move": "THRASH"
+}, {
+"level": 64.0,
+"move": "HAMMERARM"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "AVALANCHE", "BODYSLAM", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "COVET", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHQUAKE", "ENDURE", "FACADE", "FIREPUNCH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "GUNKSHOT", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "HYPERVOICE", "ICEPUNCH", "LASERFOCUS", "LASTRESORT", "LOWKICK", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAYBACK", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SECRETPOWER", "SEEDBOMB", "SEISMICTOSS", "SHADOWCLAW", "SLEEPTALK", "SMACKDOWN", "SNORE", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "THIEF", "THROATCHOP", "THUNDERPUNCH", "TORMENT", "UPROAR", "WORKUP", "TAKEDOWN", "CHARM", "FAKETEARS", "SCARYFACE", "TRAILBLAZE", "METALCLAW", "CRUNCH", "PLAYROUGH", "HELPINGHAND", "CLOSECOMBAT", "HIGHHORSEPOWER")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.8
+weight_kg = 125.8
+color = "Brown"
+shape = "BipedalTail"
+category = "Hibernante"
+habitat = "Mountain"
+pokedex = "En los bosques que habita, dicen que hay arroyos y árboles gigantes donde guarda su alimento. A diario, pasea por el bosque para recolectar comida."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "URSALUNA",
+"method": "ItemNight",
+"param": "PEATBLOCK"
+}])
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

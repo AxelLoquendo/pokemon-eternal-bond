@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dpgwfxhxr25kn"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_0uoec"]
+
+[resource]
+script = ExtResource("1_0uoec")
+id = 177
+name = "Natu"
+types = Array[int]([14, 3])
+base_hp = 40
+base_atk = 50
+base_def = 45
+base_spe = 70
+base_spa = 70
+base_spd = 45
+catch_rate = 190
+base_exp = 64
+abilities = Array[int]([28, 48])
+hidden_abilities = Array[int]([156])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 5.0,
+"move": "STOREDPOWER"
+}, {
+"level": 10.0,
+"move": "TELEPORT"
+}, {
+"level": 15.0,
+"move": "CONFUSERAY"
+}, {
+"level": 20.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 26.0,
+"move": "PSYCHOSHIFT"
+}, {
+"level": 30.0,
+"move": "POWERSWAP"
+}, {
+"level": 35.0,
+"move": "GUARDSWAP"
+}, {
+"level": 35.0,
+"move": "PSYCHIC"
+}, {
+"level": 40.0,
+"move": "WISH"
+}, {
+"level": 45.0,
+"move": "FUTURESIGHT"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AIRCUTTER", "AIRSLASH", "ALLYSWITCH", "ATTRACT", "BATONPASS", "CALMMIND", "CAPTIVATE", "CONFIDE", "COSMICPOWER", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "DUALWINGBEAT", "ENDURE", "EXPANDINGFORCE", "FACADE", "FLASH", "FRUSTRATION", "FUTURESIGHT", "GIGADRAIN", "GRASSKNOT", "GUARDSWAP", "HEATWAVE", "HIDDENPOWER", "IMPRISON", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MIMIC", "NATURALGIFT", "OMINOUSWIND", "PAINSPLIT", "PLUCK", "POWERSWAP", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROOST", "ROUND", "SECRETPOWER", "SHADOWBALL", "SIGNALBEAM", "SILVERWIND", "SKILLSWAP", "SKYATTACK", "SLEEPTALK", "SNORE", "SOLARBEAM", "STEELWING", "STOREDPOWER", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "TELEKINESIS", "THIEF", "THUNDERWAVE", "TRICK", "TRICKROOM", "TWISTER", "UTURN", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("ALLYSWITCH", "DRILLPECK", "FEATHERDANCE", "HAZE", "QUICKATTACK", "ROOST", "SIMPLEBEAM", "SUCKERPUNCH", "ZENHEADBUTT")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 5120
+height_m = 0.2
+weight_kg = 2.0
+color = "Green"
+shape = "Winged"
+category = "Pajarito"
+habitat = "Forest"
+pokedex = "Da saltitos por los árboles bajos de la sabana para picotear los brotes nuevos. Los ojos de un Natu dan la sensación de estar siempre observando algo."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "XATU",
+"method": "Level",
+"param": "25"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

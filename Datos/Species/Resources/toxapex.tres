@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bvp0awj21fx0s"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_a6f7t"]
+
+[resource]
+script = ExtResource("1_a6f7t")
+id = 748
+name = "Toxapex"
+types = Array[int]([4, 11])
+base_hp = 50
+base_atk = 63
+base_def = 152
+base_spe = 35
+base_spa = 53
+base_spd = 142
+catch_rate = 75
+base_exp = 173
+abilities = Array[int]([196, 7])
+hidden_abilities = Array[int]([144])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "BANEFULBUNKER"
+}, {
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "WIDEGUARD"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 15.0,
+"move": "VENOSHOCK"
+}, {
+"level": 20.0,
+"move": "RECOVER"
+}, {
+"level": 25.0,
+"move": "PINMISSILE"
+}, {
+"level": 30.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 35.0,
+"move": "LIQUIDATION"
+}, {
+"level": 42.0,
+"move": "VENOMDRENCH"
+}, {
+"level": 42.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 49.0,
+"move": "POISONJAB"
+}, {
+"level": 56.0,
+"move": "TOXIC"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BLIZZARD", "BLOCK", "BRINE", "CAPTIVATE", "CONFIDE", "COVET", "CROSSPOISON", "DOUBLETEAM", "ENDURE", "FACADE", "FROSTBREATH", "FRUSTRATION", "GASTROACID", "GUNKSHOT", "HAIL", "HEX", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "INFESTATION", "IRONDEFENSE", "KNOCKOFF", "LIGHTSCREEN", "LIQUIDATION", "MAGICCOAT", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PAINSPLIT", "PAYBACK", "PINMISSILE", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SCALD", "SECRETPOWER", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SMACKDOWN", "SNATCH", "SNORE", "SPITE", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "TOXICSPIKES", "VENOMDRENCH", "VENOSHOCK", "WATERPULSE", "SCARYFACE", "ACIDSPRAY", "POUNCE", "CHILLINGWATER", "BODYSLAM", "ICESPINNER", "GIGAIMPACT", "HYPERBEAM", "HAZE", "LUNGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 14.5
+color = "Blue"
+shape = "Multiped"
+category = "Estrellatroz"
+pokedex = "Ataca a su enemigo lanzándole unas espinas extremadamente venenosas. Si este se acerca, lo acribilla con las garras de sus extremidades."
+generation = 7
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "POISONBARB"
+offspring = PackedStringArray()

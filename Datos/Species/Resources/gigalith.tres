@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dnb5wpjoxs0xh"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_lacxl"]
+
+[resource]
+script = ExtResource("1_lacxl")
+id = 526
+name = "Gigalith"
+types = Array[int]([6])
+base_hp = 85
+base_atk = 135
+base_def = 130
+base_spe = 25
+base_spa = 60
+base_spd = 80
+base_exp = 258
+growth_rate = "Parabolic"
+abilities = Array[int]([5, 45])
+hidden_abilities = Array[int]([159])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWERGEM"
+}, {
+"level": 1.0,
+"move": "SANDATTACK"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "STEALTHROCK"
+}, {
+"level": 12.0,
+"move": "MUDSLAP"
+}, {
+"level": 16.0,
+"move": "SMACKDOWN"
+}, {
+"level": 20.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 24.0,
+"move": "HEADBUTT"
+}, {
+"level": 30.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 36.0,
+"move": "ROCKBLAST"
+}, {
+"level": 42.0,
+"move": "SANDSTORM"
+}, {
+"level": 48.0,
+"move": "STONEEDGE"
+}, {
+"level": 54.0,
+"move": "EXPLOSION"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLOCK", "BODYPRESS", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FLASHCANNON", "FRUSTRATION", "GIGAIMPACT", "GRAVITY", "HEAVYSLAM", "HIDDENPOWER", "HYPERBEAM", "IRONDEFENSE", "IRONHEAD", "LASERFOCUS", "METEORBEAM", "MIMIC", "NATURALGIFT", "NATUREPOWER", "POWERGEM", "PROTECT", "REST", "RETURN", "ROCKBLAST", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SECRETPOWER", "SELFDESTRUCT", "SLEEPTALK", "SMACKDOWN", "SNORE", "SOLARBEAM", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "THROATCHOP", "TOXIC", "WEATHERBALL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 3840
+height_m = 1.7
+weight_kg = 260.0
+color = "Blue"
+shape = "Multiped"
+category = "Presurizado"
+pokedex = "Con los cristales naranjas de su cuerpo, absorbe la energía de los rayos del sol, la amplifica y la expulsa por la boca."
+generation = 5
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "EVERSTONE"
+wild_item_uncommon = "HARDSTONE"
+offspring = PackedStringArray()

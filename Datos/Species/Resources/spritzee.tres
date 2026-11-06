@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://n1wg5honn0t1"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_2gu5l"]
+
+[resource]
+script = ExtResource("1_2gu5l")
+id = 682
+name = "Spritzee"
+types = Array[int]([18])
+base_hp = 78
+base_atk = 52
+base_def = 60
+base_spe = 23
+base_spa = 63
+base_spd = 65
+catch_rate = 200
+base_exp = 68
+abilities = Array[int]([131])
+hidden_abilities = Array[int]([165])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FAIRYWIND"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 3.0,
+"move": "SWEETKISS"
+}, {
+"level": 6.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 9.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 12.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 15.0,
+"move": "DRAININGKISS"
+}, {
+"level": 18.0,
+"move": "ATTRACT"
+}, {
+"level": 21.0,
+"move": "FLAIL"
+}, {
+"level": 24.0,
+"move": "MISTYTERRAIN"
+}, {
+"level": 27.0,
+"move": "PSYCHIC"
+}, {
+"level": 30.0,
+"move": "CHARM"
+}, {
+"level": 33.0,
+"move": "CALMMIND"
+}, {
+"level": 36.0,
+"move": "MOONBLAST"
+}, {
+"level": 39.0,
+"move": "SKILLSWAP"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ALLYSWITCH", "ATTRACT", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "COVET", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAININGKISS", "DREAMEATER", "ECHOEDVOICE", "ENCORE", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FAKETEARS", "FLASH", "FLASHCANNON", "FRUSTRATION", "GYROBALL", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "MISTYEXPLOSION", "MISTYTERRAIN", "NASTYPLOT", "NATURALGIFT", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SKILLSWAP", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TELEKINESIS", "THUNDERBOLT", "TORMENT", "TOXIC", "TRICKROOM")
+egg_move_tokens = PackedStringArray("AFTERYOU", "DISABLE", "WISH")
+egg_groups = PackedStringArray("Fairy")
+hatch_steps = 5120
+height_m = 0.2
+weight_kg = 0.5
+color = "Pink"
+shape = "HeadArms"
+category = "Aroma"
+pokedex = "Su cuerpo emana una fragancia que embelesa a quien la huele. La fragancia es diferente según los alimentos que ingiere."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "AROMATISSE",
+"method": "CableLinkItem",
+"param": "SACHET"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

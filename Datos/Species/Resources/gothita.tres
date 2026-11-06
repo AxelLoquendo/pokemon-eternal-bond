@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cv0v5u6x5vedj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_uy2lr"]
+
+[resource]
+script = ExtResource("1_uy2lr")
+id = 574
+name = "Gothita"
+types = Array[int]([14])
+base_hp = 45
+base_atk = 30
+base_def = 50
+base_spe = 45
+base_spa = 55
+base_spd = 65
+catch_rate = 200
+base_exp = 58
+gender_ratio = "Female75Percent"
+growth_rate = "Parabolic"
+abilities = Array[int]([119, 172])
+hidden_abilities = Array[int]([23])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 4.0,
+"move": "PLAYNICE"
+}, {
+"level": 8.0,
+"move": "TICKLE"
+}, {
+"level": 12.0,
+"move": "PSYBEAM"
+}, {
+"level": 16.0,
+"move": "CHARM"
+}, {
+"level": 20.0,
+"move": "PSYSHOCK"
+}, {
+"level": 24.0,
+"move": "HYPNOSIS"
+}, {
+"level": 28.0,
+"move": "FAKETEARS"
+}, {
+"level": 33.0,
+"move": "PSYCHUP"
+}, {
+"level": 36.0,
+"move": "PSYCHIC"
+}, {
+"level": 40.0,
+"move": "FLATTER"
+}, {
+"level": 44.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 48.0,
+"move": "MAGICROOM"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "COVET", "DARKPULSE", "DOUBLETEAM", "DREAMEATER", "EMBARGO", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "FACADE", "FAKETEARS", "FLASH", "FLING", "FOULPLAY", "FRUSTRATION", "FUTURESIGHT", "GRASSKNOT", "GRAVITY", "GUARDSWAP", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MIMIC", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROCKSLIDE", "ROCKTOMB", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "STOREDPOWER", "SUBSTITUTE", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERBOLT", "THUNDERWAVE", "TORMENT", "TOXIC", "TRICK", "TRICKROOM", "UPROAR", "ZENHEADBUTT", "PSYBEAM", "SWIFT", "IMPRISON", "PSYCHICTERRAIN", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray("FAKEOUT", "HEALPULSE", "MEANLOOK", "MIRRORCOAT", "TORMENT")
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 5.8
+color = "Purple"
+shape = "Bipedal"
+category = "Inquisitivo"
+pokedex = "Clava su mirada en Pokémon y Entrenadores como si observara algo solo perceptible por él."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "GOTHORITA",
+"method": "Level",
+"param": "32"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

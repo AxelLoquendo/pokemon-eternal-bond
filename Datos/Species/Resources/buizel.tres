@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ba0x4mq5e5taw"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_3f4p2"]
+
+[resource]
+script = ExtResource("1_3f4p2")
+id = 418
+name = "Buizel"
+types = Array[int]([11])
+base_hp = 55
+base_atk = 65
+base_def = 35
+base_spe = 85
+base_spa = 60
+base_spd = 30
+catch_rate = 190
+base_exp = 66
+abilities = Array[int]([33])
+hidden_abilities = Array[int]([41])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 4.0,
+"move": "GROWL"
+}, {
+"level": 7.0,
+"move": "TAILWHIP"
+}, {
+"level": 7.0,
+"move": "SOAK"
+}, {
+"level": 11.0,
+"move": "QUICKATTACK"
+}, {
+"level": 15.0,
+"move": "WATERGUN"
+}, {
+"level": 18.0,
+"move": "BITE"
+}, {
+"level": 21.0,
+"move": "SWIFT"
+}, {
+"level": 24.0,
+"move": "AQUAJET"
+}, {
+"level": 27.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 31.0,
+"move": "WHIRLPOOL"
+}, {
+"level": 35.0,
+"move": "WATERFALL"
+}, {
+"level": 35.0,
+"move": "LIQUIDATION"
+}, {
+"level": 38.0,
+"move": "AQUATAIL"
+}, {
+"level": 41.0,
+"move": "AGILITY"
+}, {
+"level": 45.0,
+"move": "HYDROPUMP"
+}, {
+"level": 49.0,
+"move": "WAVECRASH"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "BLIZZARD", "BRICKBREAK", "BRINE", "BULKUP", "CAPTIVATE", "CONFIDE", "DIG", "DIVE", "DOUBLETEAM", "ECHOEDVOICE", "ENDURE", "FACADE", "FOCUSPUNCH", "FRUSTRATION", "HAIL", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "ICEBEAM", "ICEPUNCH", "ICYWIND", "IRONTAIL", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "TAKEDOWN", "AGILITY", "ICEFANG", "LOWKICK", "THIEF", "CHILLINGWATER", "LOWSWEEP", "FLING", "TAUNT", "CRUNCH", "LIQUIDATION", "ICESPINNER", "BATONPASS", "HYDROPUMP", "ROAR", "FLIPTURN")
+egg_move_tokens = PackedStringArray("AQUARING", "AQUATAIL", "BATONPASS", "FURYCUTTER", "FURYSWIPES", "HEADBUTT", "HELPINGHAND", "MUDSLAP", "SLASH", "SOAK", "SWITCHEROO")
+egg_groups = PackedStringArray("Water1", "Field")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 29.5
+color = "Brown"
+shape = "Quadruped"
+category = "Nutria Marina"
+pokedex = "Posee un flotador en forma de collar hinchable. Flota en el agua con la cabeza fuera. Nada rotando sus colas, y cuando bucea, el flotador se pliega."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "FLOATZEL",
+"method": "Level",
+"param": "26"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

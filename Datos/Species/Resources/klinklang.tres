@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d3fj7pi7eufjg"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_eqxli"]
+
+[resource]
+script = ExtResource("1_eqxli")
+id = 601
+name = "Klinklang"
+types = Array[int]([9])
+base_hp = 60
+base_atk = 100
+base_def = 115
+base_spe = 90
+base_spa = 70
+base_spd = 85
+catch_rate = 30
+base_exp = 260
+gender_ratio = "Genderless"
+growth_rate = "Parabolic"
+abilities = Array[int]([57, 58])
+hidden_abilities = Array[int]([29])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GEARUP"
+}, {
+"level": 1.0,
+"move": "MAGNETICFLUX"
+}, {
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 1.0,
+"move": "VISEGRIP"
+}, {
+"level": 1.0,
+"move": "BIND"
+}, {
+"level": 1.0,
+"move": "CHARGE"
+}, {
+"level": 12.0,
+"move": "CHARGEBEAM"
+}, {
+"level": 16.0,
+"move": "METALSOUND"
+}, {
+"level": 20.0,
+"move": "AUTOTOMIZE"
+}, {
+"level": 24.0,
+"move": "DISCHARGE"
+}, {
+"level": 28.0,
+"move": "SCREECH"
+}, {
+"level": 32.0,
+"move": "GEARGRIND"
+}, {
+"level": 36.0,
+"move": "LOCKON"
+}, {
+"level": 42.0,
+"move": "SHIFTGEAR"
+}, {
+"level": 48.0,
+"move": "ZAPCANNON"
+}, {
+"level": 56.0,
+"move": "HYPERBEAM"
+}, {
+"level": 64.0,
+"move": "ELECTRICTERRAIN"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ASSURANCE", "BIND", "CHARGEBEAM", "CONFIDE", "DOUBLETEAM", "ELECTRICTERRAIN", "ENDURE", "FACADE", "FLASHCANNON", "FRUSTRATION", "GIGAIMPACT", "GRAVITY", "HIDDENPOWER", "HYPERBEAM", "IRONDEFENSE", "MAGICCOAT", "MAGNETRISE", "MIMIC", "NATURALGIFT", "POWERGEM", "PROTECT", "RECYCLE", "REST", "RETURN", "RISINGVOLTAGE", "ROCKPOLISH", "ROCKSMASH", "ROUND", "SANDSTORM", "SCREECH", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "STEELBEAM", "STEELROLLER", "SUBSTITUTE", "SWAGGER", "TELEKINESIS", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TOXIC", "TRICKROOM", "UPROAR", "VOLTSWITCH", "WILDCHARGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 81.0
+color = "Gray"
+shape = "MultiBody"
+category = "Engranaje"
+pokedex = "Recarga su energía rápidamente haciendo girar con gran velocidad el engranaje con un núcleo rojo."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 3.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

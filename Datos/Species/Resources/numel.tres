@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cj8kxtmj1wtdi"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wmwpa"]
+
+[resource]
+script = ExtResource("1_wmwpa")
+id = 322
+name = "Numel"
+types = Array[int]([10, 5])
+base_hp = 60
+base_atk = 60
+base_def = 40
+base_spe = 35
+base_spa = 65
+base_spd = 45
+catch_rate = 255
+base_exp = 61
+abilities = Array[int]([12, 86])
+hidden_abilities = Array[int]([20])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "EMBER"
+}, {
+"level": 8.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 12.0,
+"move": "BULLDOZE"
+}, {
+"level": 15.0,
+"move": "FLAMEWHEEL"
+}, {
+"level": 15.0,
+"move": "INCINERATE"
+}, {
+"level": 19.0,
+"move": "AMNESIA"
+}, {
+"level": 22.0,
+"move": "LAVAPLUME"
+}, {
+"level": 26.0,
+"move": "EARTHPOWER"
+}, {
+"level": 29.0,
+"move": "CURSE"
+}, {
+"level": 31.0,
+"move": "TAKEDOWN"
+}, {
+"level": 36.0,
+"move": "YAWN"
+}, {
+"level": 40.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 43.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 47.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ECHOEDVOICE", "ENDURE", "FACADE", "FIREBLAST", "FLAMECHARGE", "FLAMETHROWER", "FRUSTRATION", "HEADBUTT", "HEATWAVE", "HIDDENPOWER", "INCINERATE", "IRONHEAD", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "OVERHEAT", "PROTECT", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SECRETPOWER", "SLEEPTALK", "SNORE", "STEALTHROCK", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "WILLOWISP", "TAKEDOWN", "CHARM", "SCARYFACE", "TRAILBLAZE", "FIRESPIN", "MUDSHOT", "RAINDANCE", "ZENHEADBUTT", "STOMPINGTANTRUM", "BODYPRESS", "FLASHCANNON", "HEAVYSLAM", "AMNESIA", "HELPINGHAND", "STONEEDGE", "FLAREBLITZ", "ROAR", "HIGHHORSEPOWER", "HEATCRASH", "LASHOUT", "ENDEAVOR", "TEMPERFLARE", "SCORCHINGSANDS", "CURSE")
+egg_move_tokens = PackedStringArray("ANCIENTPOWER", "BODYSLAM", "DEFENSECURL", "GROWTH", "HEATWAVE", "HEAVYSLAM", "HOWL", "IRONHEAD", "ROLLOUT", "SCARYFACE", "SPITUP", "STOCKPILE", "STOMP", "SWALLOW", "YAWN")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 24.0
+color = "Yellow"
+shape = "Quadruped"
+category = "Torpe"
+habitat = "Mountain"
+pokedex = "Un Numel almacena magma en ebullición dentro de la joroba del lomo. Es robusto y puede cargar hasta con 100 kg. Ayuda a la gente en su trabajo desde hace mucho."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "CAMERUPT",
+"method": "Level",
+"param": "33"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

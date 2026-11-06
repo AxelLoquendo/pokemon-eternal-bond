@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ctts5x6xuvy4c"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_qa0db"]
+
+[resource]
+script = ExtResource("1_qa0db")
+id = 1
+name = "Bulbasaur"
+types = Array[int]([12, 4])
+base_hp = 45
+base_atk = 49
+base_def = 49
+base_spe = 45
+base_spa = 65
+base_spd = 65
+base_exp = 64
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([34])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 3.0,
+"move": "VINEWHIP"
+}, {
+"level": 6.0,
+"move": "GROWTH"
+}, {
+"level": 9.0,
+"move": "LEECHSEED"
+}, {
+"level": 12.0,
+"move": "RAZORLEAF"
+}, {
+"level": 15.0,
+"move": "POISONPOWDER"
+}, {
+"level": 15.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 18.0,
+"move": "SEEDBOMB"
+}, {
+"level": 21.0,
+"move": "TAKEDOWN"
+}, {
+"level": 24.0,
+"move": "SWEETSCENT"
+}, {
+"level": 27.0,
+"move": "SYNTHESIS"
+}, {
+"level": 30.0,
+"move": "WORRYSEED"
+}, {
+"level": 33.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 33.0,
+"move": "POWERWHIP"
+}, {
+"level": 36.0,
+"move": "SOLARBEAM"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ATTRACT", "BIND", "BODYSLAM", "BULLETSEED", "CAPTIVATE", "CHARM", "CONFIDE", "CUT", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "ECHOEDVOICE", "ENDURE", "ENERGYBALL", "FACADE", "FALSESWIPE", "FLASH", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "GRASSKNOT", "GRASSPLEDGE", "GRASSYGLIDE", "GRASSYTERRAIN", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "KNOCKOFF", "LEAFSTORM", "LIGHTSCREEN", "MAGICALLEAF", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "POWERWHIP", "PROTECT", "REST", "RETURN", "ROCKSMASH", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "STRENGTH", "STRINGSHOT", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "TOXIC", "VENOSHOCK", "WEATHERBALL", "WORKUP", "WORRYSEED", "TAKEDOWN", "ACIDSPRAY", "TRAILBLAZE", "CURSE")
+egg_move_tokens = PackedStringArray("AMNESIA", "CHARM", "CURSE", "GRASSYTERRAIN", "INGRAIN", "LEAFSTORM", "MAGICALLEAF", "NATUREPOWER", "PETALDANCE", "POWERWHIP", "SKULLBASH", "SLUDGE", "TOXIC")
+egg_groups = PackedStringArray("Monster", "Grass")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 6.9
+color = "Green"
+shape = "Quadruped"
+category = "Semilla"
+habitat = "Grassland"
+pokedex = "A Bulbasaur es fácil verle echándose una siesta al sol. La semilla que tiene en el lomo va creciendo cada vez más a medida que absorbe los rayos del sol."
+evolutions = Array[Dictionary]([{
+"into": "IVYSAUR",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

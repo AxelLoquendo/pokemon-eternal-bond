@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dn4cl6yo56xpi"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_2snk0"]
+
+[resource]
+script = ExtResource("1_2snk0")
+id = 7
+name = "Squirtle"
+types = Array[int]([11])
+base_hp = 44
+base_atk = 48
+base_def = 65
+base_spe = 43
+base_spa = 50
+base_spd = 64
+base_exp = 63
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([67])
+hidden_abilities = Array[int]([44])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 3.0,
+"move": "WATERGUN"
+}, {
+"level": 6.0,
+"move": "WITHDRAW"
+}, {
+"level": 9.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 12.0,
+"move": "BITE"
+}, {
+"level": 15.0,
+"move": "WATERPULSE"
+}, {
+"level": 18.0,
+"move": "PROTECT"
+}, {
+"level": 21.0,
+"move": "RAINDANCE"
+}, {
+"level": 24.0,
+"move": "AQUATAIL"
+}, {
+"level": 27.0,
+"move": "SHELLSMASH"
+}, {
+"level": 30.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 33.0,
+"move": "HYDROPUMP"
+}, {
+"level": 36.0,
+"move": "SKULLBASH"
+}, {
+"level": 36.0,
+"move": "WAVECRASH"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "AURASPHERE", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BRINE", "CAPTIVATE", "CONFIDE", "COUNTER", "DEFENSECURL", "DIG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DRAGONPULSE", "DYNAMICPUNCH", "ENDURE", "FACADE", "FALSESWIPE", "FLING", "FLIPTURN", "FOCUSPUNCH", "FRUSTRATION", "GYROBALL", "HAIL", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDDYWATER", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SCALD", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "WATERFALL", "WATERPLEDGE", "WATERPULSE", "WEATHERBALL", "WHIRLPOOL", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "CHILLINGWATER", "MUDSHOT", "LIQUIDATION", "ICESPINNER", "HAZE")
+egg_move_tokens = PackedStringArray("AQUAJET", "AQUARING", "AURASPHERE", "FAKEOUT", "FLAIL", "HAZE", "LIFEDEW", "MIRRORCOAT", "MIST", "MUDDYWATER", "WATERSPOUT", "YAWN")
+egg_groups = PackedStringArray("Monster", "Water1")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 9.0
+color = "Blue"
+shape = "BipedalTail"
+category = "Tortuguita"
+habitat = "WatersEdge"
+pokedex = "El caparazón de Squirtle no sólo lo protege; su forma redondeada y sus hendiduras reducen su resistencia al agua y le permiten nadar más rápido."
+evolutions = Array[Dictionary]([{
+"into": "WARTORTLE",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

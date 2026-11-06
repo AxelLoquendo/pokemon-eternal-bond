@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cafowmlc0vype"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_2qmmk"]
+
+[resource]
+script = ExtResource("1_2qmmk")
+id = 580
+name = "Ducklett"
+types = Array[int]([11, 3])
+base_hp = 62
+base_atk = 44
+base_def = 50
+base_spe = 55
+base_spa = 44
+base_spd = 50
+catch_rate = 190
+base_exp = 61
+abilities = Array[int]([51, 145])
+hidden_abilities = Array[int]([93])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 3.0,
+"move": "WATERSPORT"
+}, {
+"level": 6.0,
+"move": "DEFOG"
+}, {
+"level": 9.0,
+"move": "WINGATTACK"
+}, {
+"level": 13.0,
+"move": "WATERPULSE"
+}, {
+"level": 15.0,
+"move": "AERIALACE"
+}, {
+"level": 19.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 21.0,
+"move": "FEATHERDANCE"
+}, {
+"level": 24.0,
+"move": "AQUARING"
+}, {
+"level": 27.0,
+"move": "AIRSLASH"
+}, {
+"level": 30.0,
+"move": "ROOST"
+}, {
+"level": 34.0,
+"move": "RAINDANCE"
+}, {
+"level": 37.0,
+"move": "TAILWIND"
+}, {
+"level": 41.0,
+"move": "BRAVEBIRD"
+}, {
+"level": 46.0,
+"move": "HURRICANE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "CAPTIVATE", "CONFIDE", "DEFOG", "DIVE", "DOUBLETEAM", "ENDEAVOR", "ENDURE", "FACADE", "FLY", "FRUSTRATION", "HAIL", "HIDDENPOWER", "ICEBEAM", "ICYWIND", "LIQUIDATION", "MIMIC", "NATURALGIFT", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "STEELWING", "SUBSTITUTE", "SURF", "SWAGGER", "TAILWIND", "TOXIC", "UPROAR", "WATERPULSE", "DISARMINGVOICE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT", "AIRCUTTER", "AIRSLASH", "HELPINGHAND", "HURRICANE", "BRAVEBIRD", "DOUBLEEDGE", "WHIRLPOOL", "FEATHERDANCE")
+egg_move_tokens = PackedStringArray("AIRCUTTER", "AQUAJET", "BRINE", "GUST", "LUCKYCHANT", "MEFIRST", "MIRRORMOVE", "MUDSPORT", "STEELWING")
+egg_groups = PackedStringArray("Water1", "Flying")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 5.5
+color = "Blue"
+shape = "Winged"
+category = "Ave Agua"
+pokedex = "Cuando se ve atacado, las plumas que lo recubren despiden ráfagas de agua que lo ayudan a escapar."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "SWANNA",
+"method": "Level",
+"param": "35"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

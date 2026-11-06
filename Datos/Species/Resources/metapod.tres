@@ -1,0 +1,48 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dorayg1g84hi5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_50yq2"]
+
+[resource]
+script = ExtResource("1_50yq2")
+id = 11
+name = "Metapod"
+types = Array[int]([7])
+base_hp = 50
+base_atk = 20
+base_def = 55
+base_spe = 30
+base_spa = 25
+base_spd = 25
+catch_rate = 120
+base_exp = 72
+abilities = Array[int]([61])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "HARDEN"
+}])
+tutor_move_tokens = PackedStringArray("BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.7
+weight_kg = 9.9
+color = "Green"
+shape = "Serpentine"
+category = "Capullo"
+habitat = "Forest"
+pokedex = "La capa que le recubre el cuerpo es dura como una plancha de hierro. Metapod apenas se mueve para que las vísceras evolucionen dentro de su coraza."
+evolutions = Array[Dictionary]([{
+"into": "BUTTERFREE",
+"method": "Level",
+"param": "10"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

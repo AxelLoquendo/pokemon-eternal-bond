@@ -1,0 +1,49 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bctxki1ftduj1"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gycrg"]
+
+[resource]
+script = ExtResource("1_gycrg")
+id = 266
+name = "Silcoon"
+types = Array[int]([7])
+base_hp = 50
+base_atk = 35
+base_def = 55
+base_spe = 15
+base_spa = 25
+base_spd = 25
+catch_rate = 120
+base_exp = 72
+abilities = Array[int]([61])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "HARDEN"
+}])
+tutor_move_tokens = PackedStringArray("BUGBITE", "ELECTROWEB", "IRONDEFENSE", "STRINGSHOT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.6
+weight_kg = 10.0
+color = "White"
+shape = "Head"
+category = "Capullo"
+habitat = "Forest"
+pokedex = "Se prepara para la evolución usando la energía que almacenó mientras era un Wurmple. Los dos ojos que tiene le sirven para vigilar lo que ocurre en su territorio."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "BEAUTIFLY",
+"method": "Level",
+"param": "10"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

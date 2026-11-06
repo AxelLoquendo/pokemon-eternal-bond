@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dsgr7nbs27aeb"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_w6na5"]
+
+[resource]
+script = ExtResource("1_w6na5")
+id = 974
+name = "Cetoddle"
+types = Array[int]([15])
+base_hp = 108
+base_atk = 68
+base_def = 45
+base_spe = 43
+base_spa = 30
+base_spd = 40
+catch_rate = 150
+base_exp = 67
+growth_rate = "Parabolic"
+abilities = Array[int]([47, 81])
+hidden_abilities = Array[int]([125])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 6.0,
+"move": "GROWL"
+}, {
+"level": 9.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 12.0,
+"move": "ICESHARD"
+}, {
+"level": 15.0,
+"move": "REST"
+}, {
+"level": 19.0,
+"move": "TAKEDOWN"
+}, {
+"level": 25.0,
+"move": "FLAIL"
+}, {
+"level": 27.0,
+"move": "AVALANCHE"
+}, {
+"level": 31.0,
+"move": "BOUNCE"
+}, {
+"level": 36.0,
+"move": "BODYSLAM"
+}, {
+"level": 40.0,
+"move": "AMNESIA"
+}, {
+"level": 44.0,
+"move": "ICESPINNER"
+}, {
+"level": 49.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 53.0,
+"move": "BLIZZARD"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "AVALANCHE", "BLIZZARD", "BODYPRESS", "BODYSLAM", "BULLDOZE", "CHARM", "CHILLINGWATER", "CURSE", "DOUBLEEDGE", "EARTHQUAKE", "ENDURE", "FACADE", "HEAVYSLAM", "HELPINGHAND", "HIGHHORSEPOWER", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICEFANG", "ICESPINNER", "ICICLESPEAR", "ICYWIND", "KNOCKOFF", "LIQUIDATION", "PLAYROUGH", "PROTECT", "RAINDANCE", "REST", "SLEEPTALK", "SNOWSCAPE", "STOMPINGTANTRUM", "SUBSTITUTE", "TAKEDOWN", "WATERPULSE")
+egg_move_tokens = PackedStringArray("BELLYDRUM", "ENTRAINMENT", "ICICLECRASH", "SUPERPOWER", "YAWN")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 6400
+height_m = 1.2
+weight_kg = 45.0
+color = "White"
+shape = "BipedalTail"
+category = "Geoballena"
+habitat = "Mountain"
+pokedex = "Los miembros de esta especie, emparentada al parecer con los Wailmer, abandonaron hace ya mucho tiempo el mar para vivir en tierra firme."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "CETITAN",
+"method": "Item",
+"param": "ICESTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

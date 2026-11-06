@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://mq2wo8fsuyv2"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_m15h8"]
+
+[resource]
+script = ExtResource("1_m15h8")
+id = 296
+name = "Makuhita"
+types = Array[int]([2])
+base_hp = 72
+base_atk = 60
+base_def = 30
+base_spe = 25
+base_spa = 20
+base_spd = 30
+catch_rate = 180
+base_exp = 47
+gender_ratio = "Female25Percent"
+growth_rate = "Fluctuating"
+abilities = Array[int]([47, 62])
+hidden_abilities = Array[int]([125])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 4.0,
+"move": "SANDATTACK"
+}, {
+"level": 7.0,
+"move": "ARMTHRUST"
+}, {
+"level": 10.0,
+"move": "FAKEOUT"
+}, {
+"level": 13.0,
+"move": "FORCEPALM"
+}, {
+"level": 16.0,
+"move": "WHIRLWIND"
+}, {
+"level": 19.0,
+"move": "KNOCKOFF"
+}, {
+"level": 22.0,
+"move": "VITALTHROW"
+}, {
+"level": 22.0,
+"move": "BULKUP"
+}, {
+"level": 25.0,
+"move": "BELLYDRUM"
+}, {
+"level": 28.0,
+"move": "DETECT"
+}, {
+"level": 31.0,
+"move": "SEISMICTOSS"
+}, {
+"level": 34.0,
+"move": "FOCUSPUNCH"
+}, {
+"level": 37.0,
+"move": "ENDURE"
+}, {
+"level": 40.0,
+"move": "CLOSECOMBAT"
+}, {
+"level": 43.0,
+"move": "REVERSAL"
+}, {
+"level": 46.0,
+"move": "HEAVYSLAM"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHQUAKE", "ENDURE", "FACADE", "FIREPUNCH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "ICEPUNCH", "KNOCKOFF", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "POISONJAB", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLEPLAY", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SMACKDOWN", "SNORE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SURF", "SWAGGER", "THUNDERPUNCH", "VACUUMWAVE", "WHIRLPOOL", "WORKUP", "TAKEDOWN", "THIEF", "CHILLINGWATER", "SWIFT", "MUDSHOT", "ZENHEADBUTT", "DRAINPUNCH", "STOMPINGTANTRUM", "TAUNT", "BODYPRESS", "HEAVYSLAM", "REVERSAL", "STONEEDGE", "CLOSECOMBAT", "COACHING", "UPPERHAND")
+egg_move_tokens = PackedStringArray("BULLETPUNCH", "COUNTER", "CROSSCHOP", "DETECT", "DYNAMICPUNCH", "FEINT", "HELPINGHAND", "REVENGE", "WIDEGUARD")
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 86.4
+color = "Yellow"
+shape = "Bipedal"
+category = "Valiente"
+habitat = "Mountain"
+pokedex = "Lo que más le gusta es fortalecer su cuerpo. Si notas que el suelo de una cueva tiembla y el sonido retumba, es porque Makuhita está entrenándose."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "HARIYAMA",
+"method": "Level",
+"param": "24"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "BLACKBELT"
+offspring = PackedStringArray()

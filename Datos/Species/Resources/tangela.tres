@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://csjc4pn6bpbq6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_n7dcr"]
+
+[resource]
+script = ExtResource("1_n7dcr")
+id = 114
+name = "Tangela"
+types = Array[int]([12])
+base_hp = 65
+base_atk = 55
+base_def = 115
+base_spe = 60
+base_spa = 100
+base_spd = 40
+base_exp = 87
+abilities = Array[int]([34, 102])
+hidden_abilities = Array[int]([144])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "BIND"
+}, {
+"level": 4.0,
+"move": "STUNSPORE"
+}, {
+"level": 8.0,
+"move": "GROWTH"
+}, {
+"level": 12.0,
+"move": "MEGADRAIN"
+}, {
+"level": 16.0,
+"move": "VINEWHIP"
+}, {
+"level": 20.0,
+"move": "POISONPOWDER"
+}, {
+"level": 24.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 28.0,
+"move": "KNOCKOFF"
+}, {
+"level": 32.0,
+"move": "GIGADRAIN"
+}, {
+"level": 36.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 40.0,
+"move": "SLAM"
+}, {
+"level": 44.0,
+"move": "TICKLE"
+}, {
+"level": 48.0,
+"move": "POWERWHIP"
+}, {
+"level": 52.0,
+"move": "INGRAIN"
+}, {
+"level": 56.0,
+"move": "GRASSYTERRAIN"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ANCIENTPOWER", "ATTRACT", "BIND", "BODYSLAM", "BULLETSEED", "CAPTIVATE", "CONFIDE", "CUT", "DOUBLEEDGE", "DOUBLETEAM", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "KNOCKOFF", "LEAFSTORM", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PAINSPLIT", "POWERSWAP", "POWERWHIP", "PROTECT", "PSYCHUP", "REFLECT", "REST", "RETURN", "ROCKSMASH", "ROUND", "SECRETPOWER", "SEEDBOMB", "SHOCKWAVE", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "THIEF", "WORRYSEED")
+egg_move_tokens = PackedStringArray("AMNESIA", "CONFUSION", "ENDEAVOR", "FLAIL", "LEAFSTORM", "LEECHSEED", "MEGADRAIN", "NATUREPOWER", "POWERSWAP", "RAGEPOWDER")
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 35.0
+color = "Blue"
+shape = "HeadLegs"
+category = "Enredadera"
+habitat = "Grassland"
+pokedex = "Se le desprenden los tentáculos en cuanto se los agarran. No sólo no le duele, sino que le permite huir rápido. Al día siguiente le crecen otros."
+evolutions = Array[Dictionary]([{
+"into": "TANGROWTH",
+"method": "HasMove",
+"param": "ANCIENTPOWER"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

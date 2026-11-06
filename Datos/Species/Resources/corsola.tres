@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b4ut3u7k1gtpw"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_87i1g"]
+
+[resource]
+script = ExtResource("1_87i1g")
+id = 222
+name = "Corsola"
+types = Array[int]([11, 6])
+base_hp = 65
+base_atk = 55
+base_def = 95
+base_spe = 35
+base_spa = 65
+base_spd = 95
+catch_rate = 60
+base_exp = 144
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+abilities = Array[int]([55, 30])
+hidden_abilities = Array[int]([144])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 5.0,
+"move": "WATERGUN"
+}, {
+"level": 10.0,
+"move": "AQUARING"
+}, {
+"level": 15.0,
+"move": "ENDURE"
+}, {
+"level": 20.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 25.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 30.0,
+"move": "FLAIL"
+}, {
+"level": 35.0,
+"move": "LIFEDEW"
+}, {
+"level": 40.0,
+"move": "POWERGEM"
+}, {
+"level": 45.0,
+"move": "EARTHPOWER"
+}, {
+"level": 50.0,
+"move": "RECOVER"
+}, {
+"level": 55.0,
+"move": "MIRRORCOAT"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ANCIENTPOWER", "ATTRACT", "BLIZZARD", "BODYSLAM", "BRINE", "BULLDOZE", "CALMMIND", "CAPTIVATE", "CONFIDE", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "EXPLOSION", "FACADE", "FRUSTRATION", "HAIL", "HEADBUTT", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICICLESPEAR", "ICYWIND", "IRONDEFENSE", "LIGHTSCREEN", "LIQUIDATION", "MAGICCOAT", "METEORBEAM", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "POWERGEM", "PROTECT", "PSYCHIC", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROCKBLAST", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SAFEGUARD", "SANDSTORM", "SCALD", "SCREECH", "SECRETPOWER", "SELFDESTRUCT", "SHADOWBALL", "SLEEPTALK", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SURF", "SWAGGER", "THROATCHOP", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray("AMNESIA", "AQUARING", "CONFUSERAY", "CURSE", "HEADSMASH", "ICICLESPEAR", "INGRAIN", "LIQUIDATION", "MIST", "NATUREPOWER", "SCREECH", "WATERPULSE")
+egg_groups = PackedStringArray("Water1", "Water3")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 5.0
+color = "Pink"
+shape = "Insectoid"
+category = "Coral"
+habitat = "Sea"
+pokedex = "Corsola vive en las cálidas aguas de los mares del Sur. Cuando hay contaminación, las bellas ramas coralinas que le cubren se decoloran y se caen a pedazos."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "CURSOLA",
+"method": "None",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "LUMINOUSMOSS"
+offspring = PackedStringArray()

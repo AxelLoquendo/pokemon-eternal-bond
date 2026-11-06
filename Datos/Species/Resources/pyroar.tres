@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dv6aufniwjkx2"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_yk7tr"]
+
+[resource]
+script = ExtResource("1_yk7tr")
+id = 668
+name = "Pyroar"
+types = Array[int]([10, 1])
+base_hp = 86
+base_atk = 68
+base_def = 72
+base_spe = 106
+base_spa = 109
+base_spd = 66
+catch_rate = 65
+base_exp = 177
+gender_ratio = "FemaleSevenEighths"
+growth_rate = "Parabolic"
+abilities = Array[int]([79, 127])
+hidden_abilities = Array[int]([153])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "HYPERBEAM"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "WORKUP"
+}, {
+"level": 11.0,
+"move": "HEADBUTT"
+}, {
+"level": 15.0,
+"move": "NOBLEROAR"
+}, {
+"level": 20.0,
+"move": "TAKEDOWN"
+}, {
+"level": 23.0,
+"move": "FIREFANG"
+}, {
+"level": 28.0,
+"move": "ENDEAVOR"
+}, {
+"level": 33.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 38.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 42.0,
+"move": "CRUNCH"
+}, {
+"level": 48.0,
+"move": "HYPERVOICE"
+}, {
+"level": 51.0,
+"move": "INCINERATE"
+}, {
+"level": 57.0,
+"move": "OVERHEAT"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BOUNCE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DARKPULSE", "DIG", "DOUBLETEAM", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FIREBLAST", "FLAMECHARGE", "FLAMETHROWER", "FRUSTRATION", "GIGAIMPACT", "HEATWAVE", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "HYPERVOICE", "INCINERATE", "IRONTAIL", "MIMIC", "NATURALGIFT", "OVERHEAT", "PAYBACK", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSMASH", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNARL", "SNATCH", "SNORE", "SOLARBEAM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "THIEF", "TOXIC", "WILDCHARGE", "WILLOWISP", "WORKUP", "TAKEDOWN", "MUDSLAP", "FIREFANG", "THUNDERFANG", "ACROBATICS", "TRAILBLAZE", "FIRESPIN", "SWIFT", "PSYCHICFANGS", "BODYSLAM", "CRUNCH", "FLAREBLITZ", "BURNINGJEALOUSY", "DOUBLEEDGE", "TEMPERFLARE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.5
+weight_kg = 81.5
+color = "Brown"
+shape = "Quadruped"
+category = "Regio"
+pokedex = "El macho con la melena de fuego más grande de toda la manada es el líder de sus compañeros."
+generation = 6
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d1b3qw3vaalgj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ehacy"]
+
+[resource]
+script = ExtResource("1_ehacy")
+id = 230
+name = "Kingdra"
+types = Array[int]([11, 16])
+base_hp = 75
+base_atk = 95
+base_def = 95
+base_spe = 85
+base_spa = 95
+base_spd = 95
+base_exp = 270
+abilities = Array[int]([33, 97])
+hidden_abilities = Array[int]([6])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WHIRLPOOL"
+}, {
+"level": 1.0,
+"move": "YAWN"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "SMOKESCREEN"
+}, {
+"level": 1.0,
+"move": "TWISTER"
+}, {
+"level": 15.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 20.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 25.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 30.0,
+"move": "AGILITY"
+}, {
+"level": 37.0,
+"move": "LASERFOCUS"
+}, {
+"level": 37.0,
+"move": "WATERPULSE"
+}, {
+"level": 44.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 51.0,
+"move": "HYDROPUMP"
+}, {
+"level": 58.0,
+"move": "DRAGONDANCE"
+}, {
+"level": 65.0,
+"move": "RAINDANCE"
+}, {
+"level": 72.0,
+"move": "WAVECRASH"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "BLIZZARD", "BODYSLAM", "BOUNCE", "BREAKINGSWIPE", "BRINE", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONDANCE", "DRAGONPULSE", "ENDURE", "FACADE", "FLASHCANNON", "FLIPTURN", "FOCUSENERGY", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HEADBUTT", "HIDDENPOWER", "HURRICANE", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICYWIND", "IRONHEAD", "LASERFOCUS", "LIQUIDATION", "MIMIC", "MUDDYWATER", "NATURALGIFT", "OUTRAGE", "PROTECT", "QUASH", "RAINDANCE", "REST", "RETURN", "ROUND", "SCALD", "SCALESHOT", "SECRETPOWER", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "TWISTER", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "TAKEDOWN", "SCARYFACE", "CHILLINGWATER", "SNOWSCAPE", "WEATHERBALL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Dragon")
+hatch_steps = 5120
+height_m = 1.8
+weight_kg = 152.0
+color = "Blue"
+shape = "HeadBase"
+category = "Dragón"
+habitat = "Sea"
+pokedex = "Duerme tranquilamente en el fondo del mar. Cuando sale a la superficie, crea un enorme torbellino que puede tragarse botes enteros."
+generation = 2
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "DRAGONSCALE"
+offspring = PackedStringArray()

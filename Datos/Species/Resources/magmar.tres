@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://0s5vmj4jentk"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_fp8cb"]
+
+[resource]
+script = ExtResource("1_fp8cb")
+id = 126
+name = "Magmar"
+types = Array[int]([10])
+base_hp = 65
+base_atk = 95
+base_def = 57
+base_spe = 93
+base_spa = 100
+base_spd = 85
+base_exp = 173
+gender_ratio = "Female25Percent"
+abilities = Array[int]([49])
+hidden_abilities = Array[int]([72])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SMOG"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "SMOKESCREEN"
+}, {
+"level": 12.0,
+"move": "CLEARSMOG"
+}, {
+"level": 16.0,
+"move": "FLAMEWHEEL"
+}, {
+"level": 20.0,
+"move": "CONFUSERAY"
+}, {
+"level": 24.0,
+"move": "SCARYFACE"
+}, {
+"level": 28.0,
+"move": "FIREPUNCH"
+}, {
+"level": 34.0,
+"move": "LAVAPLUME"
+}, {
+"level": 40.0,
+"move": "LOWKICK"
+}, {
+"level": 46.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 52.0,
+"move": "SUNNYDAY"
+}, {
+"level": 58.0,
+"move": "FIREBLAST"
+}, {
+"level": 64.0,
+"move": "HYPERBEAM"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BRICKBREAK", "BURNINGJEALOUSY", "CAPTIVATE", "CONFIDE", "COUNTER", "COVET", "DOUBLEEDGE", "DOUBLETEAM", "DUALCHOP", "DYNAMICPUNCH", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "FLING", "FOCUSBLAST", "FOCUSENERGY", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "INCINERATE", "IRONTAIL", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "OVERHEAT", "POWERSWAP", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "REST", "RETURN", "ROCKCLIMB", "ROCKSMASH", "ROUND", "SCARYFACE", "SCORCHINGSANDS", "SCREECH", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "THIEF", "THUNDERPUNCH", "UPROAR", "WILLOWISP", "TAKEDOWN", "ACIDSPRAY", "CONFUSERAY", "METRONOME", "POISONJAB", "TAUNT", "ROAR", "KNOCKOFF", "HEATCRASH", "TEMPERFLARE", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 6400
+height_m = 1.3
+weight_kg = 44.5
+color = "Red"
+shape = "BipedalTail"
+category = "Escupefuego"
+habitat = "Mountain"
+pokedex = "Al luchar, expulsa violentas llamas para intimidar a su rival. Estos estallidos de fuego crean ondas de calor que abrasan la hierba y los árboles de la zona."
+evolutions = Array[Dictionary]([{
+"into": "MAGMORTAR",
+"method": "CableLinkItem",
+"param": "MAGMARIZER"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MAGMARIZER"
+offspring = PackedStringArray()

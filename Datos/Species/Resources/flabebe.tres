@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cxra7oaqn7l8r"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_fyrr3"]
+
+[resource]
+script = ExtResource("1_fyrr3")
+id = 669
+name = "Flabébé"
+types = Array[int]([18])
+base_hp = 44
+base_atk = 38
+base_def = 39
+base_spe = 42
+base_spa = 61
+base_spd = 79
+catch_rate = 225
+base_exp = 61
+gender_ratio = "AlwaysFemale"
+abilities = Array[int]([166])
+hidden_abilities = Array[int]([180])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "VINEWHIP"
+}, {
+"level": 6.0,
+"move": "FAIRYWIND"
+}, {
+"level": 10.0,
+"move": "LUCKYCHANT"
+}, {
+"level": 10.0,
+"move": "SAFEGUARD"
+}, {
+"level": 15.0,
+"move": "RAZORLEAF"
+}, {
+"level": 20.0,
+"move": "WISH"
+}, {
+"level": 22.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 24.0,
+"move": "GRASSYTERRAIN"
+}, {
+"level": 28.0,
+"move": "PETALBLIZZARD"
+}, {
+"level": 33.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 33.0,
+"move": "SYNTHESIS"
+}, {
+"level": 37.0,
+"move": "MISTYTERRAIN"
+}, {
+"level": 41.0,
+"move": "MOONBLAST"
+}, {
+"level": 45.0,
+"move": "PETALDANCE"
+}, {
+"level": 48.0,
+"move": "SOLARBEAM"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ALLYSWITCH", "ATTRACT", "CALMMIND", "CAPTIVATE", "CONFIDE", "COVET", "DAZZLINGGLEAM", "DOUBLETEAM", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "MAGICCOAT", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PROTECT", "PSYCHIC", "RAINDANCE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "TOXIC", "WORRYSEED", "CHARM", "DISARMINGVOICE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT", "MAGICALLEAF", "DRAININGKISS", "STOREDPOWER", "LIGHTSCREEN", "POLLENPUFF", "BATONPASS", "GRASSYTERRAIN", "MISTYTERRAIN", "PETALBLIZZARD", "ALLURINGVOICE")
+egg_move_tokens = PackedStringArray("CAMOUFLAGE", "CAPTIVATE", "COPYCAT", "TEARFULLOOK")
+egg_groups = PackedStringArray("Fairy")
+hatch_steps = 5120
+height_m = 0.1
+weight_kg = 0.1
+color = "White"
+shape = "HeadArms"
+category = "Monoflor"
+pokedex = "Puede controlar el poder oculto de las flores. La flor que lleva consigo es como si formara parte de su cuerpo."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "FLOETTE",
+"method": "Level",
+"param": "19"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray("InheritFormFromMother")
+offspring = PackedStringArray()
+form_name = "Forma Flor Roja"

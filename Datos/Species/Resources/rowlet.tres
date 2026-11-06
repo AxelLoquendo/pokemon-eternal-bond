@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://biydsmew036pc"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_x1vbs"]
+
+[resource]
+script = ExtResource("1_x1vbs")
+id = 722
+name = "Rowlet"
+types = Array[int]([12, 3])
+base_hp = 68
+base_atk = 55
+base_def = 55
+base_spe = 42
+base_spa = 50
+base_spd = 50
+base_exp = 64
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([203])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 3.0,
+"move": "LEAFAGE"
+}, {
+"level": 6.0,
+"move": "ASTONISH"
+}, {
+"level": 9.0,
+"move": "PECK"
+}, {
+"level": 12.0,
+"move": "SHADOWSNEAK"
+}, {
+"level": 15.0,
+"move": "RAZORLEAF"
+}, {
+"level": 18.0,
+"move": "SYNTHESIS"
+}, {
+"level": 21.0,
+"move": "PLUCK"
+}, {
+"level": 24.0,
+"move": "NASTYPLOT"
+}, {
+"level": 27.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 30.0,
+"move": "LEAFBLADE"
+}, {
+"level": 33.0,
+"move": "FEATHERDANCE"
+}, {
+"level": 36.0,
+"move": "BRAVEBIRD"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BATONPASS", "BRAVEBIRD", "CAPTIVATE", "CONFIDE", "COVET", "DEFOG", "DOUBLETEAM", "DUALWINGBEAT", "ECHOEDVOICE", "ENDURE", "ENERGYBALL", "FACADE", "FALSESWIPE", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSPLEDGE", "GRASSYGLIDE", "HIDDENPOWER", "LEAFBLADE", "LIGHTSCREEN", "MIMIC", "NASTYPLOT", "NATURALGIFT", "NATUREPOWER", "PROTECT", "REST", "RETURN", "ROOST", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SHADOWCLAW", "SKYATTACK", "SLEEPTALK", "SNORE", "SOLARBEAM", "STEELWING", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "SYNTHESIS", "TOXIC", "WORKUP", "WORRYSEED", "TAKEDOWN", "CONFUSERAY", "TRAILBLAZE", "AERIALACE", "MAGICALLEAF", "AIRCUTTER", "NIGHTSHADE", "RAINDANCE", "BULLETSEED", "AIRSLASH", "HELPINGHAND", "GRASSYTERRAIN", "LEAFSTORM", "HAZE", "KNOCKOFF", "FEATHERDANCE")
+egg_move_tokens = PackedStringArray("CONFUSERAY", "DEFOG", "DOUBLETEAM", "KNOCKOFF")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 3840
+height_m = 0.3
+weight_kg = 1.5
+color = "Brown"
+shape = "Winged"
+category = "Pluma Hoja"
+pokedex = "Es cauteloso, desconfiado y de naturaleza nocturna. Durante el día acumula energía mediante la fotosíntesis."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "DARTRIX",
+"method": "Level",
+"param": "17"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

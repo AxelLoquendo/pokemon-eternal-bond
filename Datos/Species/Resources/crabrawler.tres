@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1gq2iojfpvba"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wckw0"]
+
+[resource]
+script = ExtResource("1_wckw0")
+id = 739
+name = "Crabrawler"
+types = Array[int]([2])
+base_hp = 47
+base_atk = 82
+base_def = 57
+base_spe = 63
+base_spa = 42
+base_spd = 47
+catch_rate = 225
+base_exp = 68
+abilities = Array[int]([52, 89])
+hidden_abilities = Array[int]([83])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "BUBBLE"
+}, {
+"level": 1.0,
+"move": "VISEGRIP"
+}, {
+"level": 5.0,
+"move": "ROCKSMASH"
+}, {
+"level": 9.0,
+"move": "LEER"
+}, {
+"level": 13.0,
+"move": "PURSUIT"
+}, {
+"level": 13.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 17.0,
+"move": "PROTECT"
+}, {
+"level": 22.0,
+"move": "POWERUPPUNCH"
+}, {
+"level": 22.0,
+"move": "BRICKBREAK"
+}, {
+"level": 25.0,
+"move": "DIZZYPUNCH"
+}, {
+"level": 25.0,
+"move": "SLAM"
+}, {
+"level": 29.0,
+"move": "PAYBACK"
+}, {
+"level": 33.0,
+"move": "REVERSAL"
+}, {
+"level": 37.0,
+"move": "CRABHAMMER"
+}, {
+"level": 42.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 45.0,
+"move": "DYNAMICPUNCH"
+}, {
+"level": 49.0,
+"move": "CLOSECOMBAT"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BRICKBREAK", "BRUTALSWING", "BULKUP", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "DRAINPUNCH", "DUALCHOP", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FROSTBREATH", "FRUSTRATION", "HIDDENPOWER", "ICEPUNCH", "IRONDEFENSE", "IRONHEAD", "MIMIC", "NATURALGIFT", "PAYBACK", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "STONEEDGE", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "THIEF", "THUNDERPUNCH", "TOXIC", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "MUDSLAP", "CHILLINGWATER", "SWIFT", "MUDSHOT", "DIG", "BODYSLAM", "STOMPINGTANTRUM", "GUNKSHOT", "LIQUIDATION", "AMNESIA", "HELPINGHAND", "REVERSAL", "CLOSECOMBAT", "KNOCKOFF", "COACHING", "UPPERHAND")
+egg_move_tokens = PackedStringArray("AMNESIA", "ENDEAVOR", "SUPERPOWER", "WIDEGUARD")
+egg_groups = PackedStringArray("Water3")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 7.0
+color = "Purple"
+shape = "Insectoid"
+category = "Púgil"
+pokedex = "Usa hábilmente sus robustas pinzas tanto para atacar como para defenderse. Las peleas entre congéneres parecen combates de boxeo."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "CRABOMINABLE",
+"method": "LocationFlag",
+"param": "IceRock"
+}, {
+"into": "CRABOMINABLE",
+"method": "Item",
+"param": "ICESTONE"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "ASPEARBERRY"
+offspring = PackedStringArray()

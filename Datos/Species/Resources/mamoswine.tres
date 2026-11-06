@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dqmvhigv7xjfj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_tvcgb"]
+
+[resource]
+script = ExtResource("1_tvcgb")
+id = 473
+name = "Mamoswine"
+types = Array[int]([15, 5])
+base_hp = 110
+base_atk = 130
+base_def = 80
+base_spe = 80
+base_spa = 70
+base_spd = 60
+catch_rate = 50
+base_exp = 265
+growth_rate = "Slow"
+abilities = Array[int]([12, 81])
+hidden_abilities = Array[int]([47])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 1.0,
+"move": "ICEFANG"
+}, {
+"level": 1.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "FLAIL"
+}, {
+"level": 15.0,
+"move": "ICESHARD"
+}, {
+"level": 20.0,
+"move": "MIST"
+}, {
+"level": 25.0,
+"move": "ENDURE"
+}, {
+"level": 30.0,
+"move": "ICYWIND"
+}, {
+"level": 37.0,
+"move": "AMNESIA"
+}, {
+"level": 44.0,
+"move": "TAKEDOWN"
+}, {
+"level": 51.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 58.0,
+"move": "BLIZZARD"
+}, {
+"level": 65.0,
+"move": "THRASH"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ANCIENTPOWER", "ATTRACT", "AVALANCHE", "BLIZZARD", "BLOCK", "BODYPRESS", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HAIL", "HEADBUTT", "HEAVYSLAM", "HIDDENPOWER", "HIGHHORSEPOWER", "HYPERBEAM", "ICEBEAM", "ICEFANG", "ICICLESPEAR", "ICYWIND", "IRONHEAD", "KNOCKOFF", "LIGHTSCREEN", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROAR", "ROCKBLAST", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCARYFACE", "SECRETPOWER", "SLEEPTALK", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "TAKEDOWN", "CHARM", "TRAILBLAZE", "SNOWSCAPE", "REVERSAL", "HAZE", "SMACKDOWN", "THROATCHOP", "CURSE", "HARDPRESS")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 2.5
+weight_kg = 291.0
+color = "Brown"
+shape = "Quadruped"
+category = "2colmillos"
+pokedex = "Sus impresionantes colmillos están hechos de hielo. Su población se redujo tras la glaciación. Hubo un tiempo en el que se lo consideró extinto."
+generation = 4
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

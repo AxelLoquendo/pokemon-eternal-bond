@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bvtyrnpa7ycke"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_vxeov"]
+
+[resource]
+script = ExtResource("1_vxeov")
+id = 951
+name = "Capsakid"
+types = Array[int]([12])
+base_hp = 50
+base_atk = 62
+base_def = 40
+base_spe = 50
+base_spa = 62
+base_spd = 40
+catch_rate = 190
+base_exp = 61
+abilities = Array[int]([34, 15])
+hidden_abilities = Array[int]([103])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "LEAFAGE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "BITE"
+}, {
+"level": 10.0,
+"move": "GROWTH"
+}, {
+"level": 13.0,
+"move": "RAZORLEAF"
+}, {
+"level": 17.0,
+"move": "SUNNYDAY"
+}, {
+"level": 21.0,
+"move": "BULLETSEED"
+}, {
+"level": 24.0,
+"move": "HEADBUTT"
+}, {
+"level": 28.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 38.0,
+"move": "CRUNCH"
+}, {
+"level": 44.0,
+"move": "SEEDBOMB"
+}, {
+"level": 48.0,
+"move": "SOLARBEAM"
+}])
+tutor_move_tokens = PackedStringArray("BULLETSEED", "CRUNCH", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HELPINGHAND", "LEAFSTORM", "MAGICALLEAF", "PROTECT", "REST", "SANDSTORM", "SEEDBOMB", "SLEEPTALK", "SOLARBEAM", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "TAKEDOWN", "THIEF", "TRAILBLAZE", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("INGRAIN", "LEECHSEED", "RAGEPOWDER", "ROLLOUT", "WORRYSEED")
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 3.0
+color = "Green"
+shape = "BipedalTail"
+category = "Habanero"
+habitat = "Grassland"
+pokedex = "Cuanto más se expone al sol, más aumenta la cantidad de capsaicinoides de su cuerpo y, por lo tanto, la pungencia de sus movimientos."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "SCOVILLAIN",
+"method": "Item",
+"param": "FIRESTONE"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

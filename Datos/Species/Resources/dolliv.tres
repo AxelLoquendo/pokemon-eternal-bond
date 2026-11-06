@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cpkqnxyduvh18"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_2ysoq"]
+
+[resource]
+script = ExtResource("1_2ysoq")
+id = 929
+name = "Dolliv"
+types = Array[int]([12, 1])
+base_hp = 52
+base_atk = 53
+base_def = 60
+base_spe = 33
+base_spa = 78
+base_spd = 78
+catch_rate = 120
+base_exp = 124
+growth_rate = "Parabolic"
+abilities = Array[int]([48])
+hidden_abilities = Array[int]([139])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "ABSORB"
+}, {
+"level": 7.0,
+"move": "GROWTH"
+}, {
+"level": 10.0,
+"move": "RAZORLEAF"
+}, {
+"level": 13.0,
+"move": "HELPINGHAND"
+}, {
+"level": 16.0,
+"move": "FLAIL"
+}, {
+"level": 20.0,
+"move": "MEGADRAIN"
+}, {
+"level": 23.0,
+"move": "GRASSYTERRAIN"
+}, {
+"level": 29.0,
+"move": "SEEDBOMB"
+}, {
+"level": 34.0,
+"move": "ENERGYBALL"
+}, {
+"level": 37.0,
+"move": "LEECHSEED"
+}, {
+"level": 42.0,
+"move": "TERRAINPULSE"
+}])
+tutor_move_tokens = PackedStringArray("BULLETSEED", "CHARM", "EARTHPOWER", "ENDURE", "ENERGYBALL", "FACADE", "GIGADRAIN", "GRASSKNOT", "GRASSYTERRAIN", "HELPINGHAND", "LEAFSTORM", "MAGICALLEAF", "PROTECT", "REST", "SEEDBOMB", "SLEEPTALK", "SOLARBEAM", "SOLARBLADE", "SUBSTITUTE", "SUNNYDAY", "SWIFT", "TRAILBLAZE", "WEATHERBALL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 11.9
+color = "Green"
+shape = "HeadBase"
+category = "Aceituna"
+habitat = "Grassland"
+pokedex = "No duda en compartir su delicioso aceite de fresco aroma. Convive con los seres humanos desde hace mucho tiempo."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "ARBOLIVA",
+"method": "Level",
+"param": "35"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

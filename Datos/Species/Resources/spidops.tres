@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://6maigsyboct7"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_u834k"]
+
+[resource]
+script = ExtResource("1_u834k")
+id = 918
+name = "Spidops"
+types = Array[int]([7])
+base_hp = 60
+base_atk = 79
+base_def = 92
+base_spe = 35
+base_spa = 52
+base_spd = 86
+catch_rate = 120
+base_exp = 141
+growth_rate = "Erratic"
+abilities = Array[int]([15])
+hidden_abilities = Array[int]([198])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "SILKTRAP"
+}, {
+"level": 1.0,
+"move": "STRINGSHOT"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 8.0,
+"move": "ASSURANCE"
+}, {
+"level": 11.0,
+"move": "FEINT"
+}, {
+"level": 14.0,
+"move": "BUGBITE"
+}, {
+"level": 19.0,
+"move": "BLOCK"
+}, {
+"level": 24.0,
+"move": "COUNTER"
+}, {
+"level": 28.0,
+"move": "HEADBUTT"
+}, {
+"level": 33.0,
+"move": "STICKYWEB"
+}, {
+"level": 37.0,
+"move": "GASTROACID"
+}, {
+"level": 41.0,
+"move": "CIRCLETHROW"
+}, {
+"level": 45.0,
+"move": "THROATCHOP"
+}, {
+"level": 49.0,
+"move": "SKITTERSMACK"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "BODYSLAM", "BRICKBREAK", "BUGBITE", "BUGBUZZ", "BULLETSEED", "ELECTROWEB", "ENDURE", "FACADE", "FALSESWIPE", "FLING", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "KNOCKOFF", "LEECHLIFE", "LOWKICK", "LUNGE", "PAINSPLIT", "POISONJAB", "POUNCE", "PROTECT", "RAINDANCE", "REST", "REVERSAL", "ROCKTOMB", "SCARYFACE", "SHADOWCLAW", "SKITTERSMACK", "SLEEPTALK", "SPIKES", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "TAUNT", "THIEF", "THROATCHOP", "TOXICSPIKES", "TRAILBLAZE", "UPPERHAND", "UTURN", "XSCISSOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 1.0
+weight_kg = 16.5
+color = "Green"
+shape = "Insectoid"
+category = "Trampa"
+habitat = "Forest"
+pokedex = "Se adhiere con su hilo a ramas y techos, por los que se desplaza en silencio. Acaba con su presa antes de que esta se percate de su presencia."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

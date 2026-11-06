@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b0janqqxv1opv"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ldna6"]
+
+[resource]
+script = ExtResource("1_ldna6")
+id = 632
+name = "Durant"
+types = Array[int]([7, 9])
+base_hp = 58
+base_atk = 109
+base_def = 112
+base_spe = 109
+base_spa = 48
+base_spd = 48
+catch_rate = 90
+base_exp = 169
+abilities = Array[int]([68, 55])
+hidden_abilities = Array[int]([54])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FURYCUTTER"
+}, {
+"level": 1.0,
+"move": "SANDATTACK"
+}, {
+"level": 4.0,
+"move": "VISEGRIP"
+}, {
+"level": 8.0,
+"move": "METALCLAW"
+}, {
+"level": 12.0,
+"move": "BEATUP"
+}, {
+"level": 16.0,
+"move": "BUGBITE"
+}, {
+"level": 20.0,
+"move": "BITE"
+}, {
+"level": 24.0,
+"move": "AGILITY"
+}, {
+"level": 28.0,
+"move": "DIG"
+}, {
+"level": 32.0,
+"move": "XSCISSOR"
+}, {
+"level": 36.0,
+"move": "CRUNCH"
+}, {
+"level": 40.0,
+"move": "METALSOUND"
+}, {
+"level": 44.0,
+"move": "IRONHEAD"
+}, {
+"level": 48.0,
+"move": "ENTRAINMENT"
+}, {
+"level": 52.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 56.0,
+"move": "GUILLOTINE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "ATTRACT", "BATONPASS", "BEATUP", "BUGBITE", "CAPTIVATE", "CONFIDE", "CRUNCH", "CUT", "DIG", "DOUBLETEAM", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FLASHCANNON", "FRUSTRATION", "GIGAIMPACT", "HELPINGHAND", "HIDDENPOWER", "HONECLAWS", "IRONDEFENSE", "IRONHEAD", "MIMIC", "NATURALGIFT", "PROTECT", "REST", "RETALIATE", "RETURN", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SCREECH", "SECRETPOWER", "SHADOWCLAW", "SKITTERSMACK", "SLEEPTALK", "SNORE", "STEELBEAM", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "STRUGGLEBUG", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "THUNDERFANG", "THUNDERWAVE", "TOXIC", "XSCISSOR")
+egg_move_tokens = PackedStringArray("FIRSTIMPRESSION", "FLAIL", "INFESTATION", "METALBURST", "STRUGGLEBUG")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 33.0
+color = "Gray"
+shape = "Insectoid"
+category = "Hormigacero"
+pokedex = "Abre agujeros en las montañas. Los intrincados túneles son obras laberínticas de los Durant."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

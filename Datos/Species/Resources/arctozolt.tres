@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://352w0c0cd4if"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_71qqb"]
+
+[resource]
+script = ExtResource("1_71qqb")
+id = 881
+name = "Arctozolt"
+types = Array[int]([13, 15])
+base_hp = 90
+base_atk = 100
+base_def = 90
+base_spe = 55
+base_spa = 90
+base_spd = 80
+base_exp = 177
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([10, 9])
+hidden_abilities = Array[int]([202])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 7.0,
+"move": "CHARGE"
+}, {
+"level": 14.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 21.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 28.0,
+"move": "PLUCK"
+}, {
+"level": 35.0,
+"move": "AVALANCHE"
+}, {
+"level": 42.0,
+"move": "FREEZEDRY"
+}, {
+"level": 49.0,
+"move": "SLAM"
+}, {
+"level": 56.0,
+"move": "DISCHARGE"
+}, {
+"level": 63.0,
+"move": "BOLTBEAK"
+}, {
+"level": 70.0,
+"move": "ICICLECRASH"
+}, {
+"level": 77.0,
+"move": "BLIZZARD"
+}])
+tutor_move_tokens = PackedStringArray("AVALANCHE", "BLIZZARD", "BODYSLAM", "BULLDOZE", "CONFIDE", "DOUBLETEAM", "ELECTROBALL", "ENDURE", "FACADE", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICEFANG", "ICICLESPEAR", "ICYWIND", "IRONTAIL", "LOWKICK", "MEGAKICK", "MEGAPUNCH", "METEORBEAM", "MIMIC", "NATURALGIFT", "PAYBACK", "PROTECT", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SURF", "SWAGGER", "TAUNT", "THUNDER", "THUNDERBOLT", "THUNDERFANG", "THUNDERPUNCH", "THUNDERWAVE", "TOXIC", "WILDCHARGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 8960
+height_m = 2.3
+weight_kg = 150.0
+color = "Blue"
+shape = "BipedalTail"
+category = "Fósil"
+pokedex = "Antiguamente vivía en el mar y usaba el hielo del cuerpo para conservar los alimentos. Su extrema lentitud, sin embargo, lo condenó a la extinción."
+generation = 8
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

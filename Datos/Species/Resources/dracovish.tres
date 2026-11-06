@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://sigsc23ykfjl"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_o3myp"]
+
+[resource]
+script = ExtResource("1_o3myp")
+id = 882
+name = "Dracovish"
+types = Array[int]([11, 16])
+base_hp = 90
+base_atk = 90
+base_def = 100
+base_spe = 75
+base_spa = 70
+base_spd = 80
+base_exp = 177
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([11, 173])
+hidden_abilities = Array[int]([146])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 7.0,
+"move": "PROTECT"
+}, {
+"level": 14.0,
+"move": "BRUTALSWING"
+}, {
+"level": 21.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 28.0,
+"move": "BITE"
+}, {
+"level": 35.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 42.0,
+"move": "STOMP"
+}, {
+"level": 49.0,
+"move": "SUPERFANG"
+}, {
+"level": 56.0,
+"move": "CRUNCH"
+}, {
+"level": 63.0,
+"move": "FISHIOUSREND"
+}, {
+"level": 70.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 77.0,
+"move": "DRAGONRUSH"
+}])
+tutor_move_tokens = PackedStringArray("BODYSLAM", "BRINE", "BRUTALSWING", "BULLDOZE", "CONFIDE", "CRUNCH", "DIVE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONPULSE", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FRUSTRATION", "GIGAIMPACT", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "ICEFANG", "IRONHEAD", "LEECHLIFE", "LIQUIDATION", "LOWKICK", "MEGAKICK", "METEORBEAM", "MIMIC", "NATURALGIFT", "OUTRAGE", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "RETURN", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "WATERFALL", "WHIRLPOOL", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 8960
+height_m = 2.3
+weight_kg = 215.0
+color = "Green"
+shape = "HeadLegs"
+category = "Fósil"
+pokedex = "Exhibe con orgullo su inmensa capacidad motriz, que le permite superar los 60 km/h, pero solo puede respirar bajo el agua."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

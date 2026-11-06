@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ct7vb77quwe1f"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_j3anx"]
+
+[resource]
+script = ExtResource("1_j3anx")
+id = 827
+name = "Nickit"
+types = Array[int]([17])
+base_hp = 40
+base_atk = 28
+base_def = 28
+base_spe = 50
+base_spa = 47
+base_spd = 52
+catch_rate = 255
+base_exp = 49
+growth_rate = "Fast"
+abilities = Array[int]([50, 84])
+hidden_abilities = Array[int]([198])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 4.0,
+"move": "BEATUP"
+}, {
+"level": 8.0,
+"move": "HONECLAWS"
+}, {
+"level": 12.0,
+"move": "SNARL"
+}, {
+"level": 16.0,
+"move": "ASSURANCE"
+}, {
+"level": 20.0,
+"move": "NASTYPLOT"
+}, {
+"level": 24.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 28.0,
+"move": "NIGHTSLASH"
+}, {
+"level": 32.0,
+"move": "TAILSLAP"
+}, {
+"level": 36.0,
+"move": "FOULPLAY"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ASSURANCE", "ATTRACT", "BATONPASS", "BEATUP", "CAPTIVATE", "CONFIDE", "DIG", "DOUBLETEAM", "ENDURE", "FACADE", "FAKETEARS", "FOULPLAY", "FRUSTRATION", "HIDDENPOWER", "LASHOUT", "MIMIC", "MUDSHOT", "NASTYPLOT", "NATURALGIFT", "PLAYROUGH", "PROTECT", "REST", "RETURN", "ROUND", "SCREECH", "SECRETPOWER", "SLEEPTALK", "SNARL", "SNORE", "SUBSTITUTE", "SWAGGER", "SWIFT", "TAILSLAP", "TAUNT", "THIEF", "TOXIC")
+egg_move_tokens = PackedStringArray("HOWL", "KNOCKOFF", "QUICKGUARD", "TORMENT")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.6
+weight_kg = 8.9
+color = "Brown"
+shape = "Quadruped"
+category = "Zorro"
+pokedex = "Prudente y astuto, borra con la cola las huellas que deja al huir tras robarle el alimento a otro Pokémon."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "THIEVUL",
+"method": "Level",
+"param": "18"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

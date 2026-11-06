@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://6jp2td25arx5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_l66r0"]
+
+[resource]
+script = ExtResource("1_l66r0")
+id = 901
+name = "Ursaluna"
+types = Array[int]([5, 1])
+base_hp = 130
+base_atk = 140
+base_def = 105
+base_spe = 50
+base_spa = 45
+base_spd = 80
+catch_rate = 20
+base_exp = 275
+base_happiness = 70
+abilities = Array[int]([62, 171])
+hidden_abilities = Array[int]([127])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "HEADLONGRUSH"
+}, {
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "LICK"
+}, {
+"level": 1.0,
+"move": "FAKETEARS"
+}, {
+"level": 1.0,
+"move": "COVET"
+}, {
+"level": 8.0,
+"move": "FURYSWIPES"
+}, {
+"level": 13.0,
+"move": "PAYBACK"
+}, {
+"level": 17.0,
+"move": "SWEETSCENT"
+}, {
+"level": 22.0,
+"move": "SLASH"
+}, {
+"level": 25.0,
+"move": "PLAYNICE"
+}, {
+"level": 29.0,
+"move": "PLAYROUGH"
+}, {
+"level": 35.0,
+"move": "SCARYFACE"
+}, {
+"level": 41.0,
+"move": "REST"
+}, {
+"level": 41.0,
+"move": "SNORE"
+}, {
+"level": 48.0,
+"move": "HIGHHORSEPOWER"
+}, {
+"level": 56.0,
+"move": "THRASH"
+}, {
+"level": 64.0,
+"move": "HAMMERARM"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AVALANCHE", "BODYPRESS", "BODYSLAM", "BRICKBREAK", "BULKUP", "BULLDOZE", "CHARM", "CLOSECOMBAT", "CRUNCH", "CURSE", "DIG", "DOUBLEEDGE", "DRAINPUNCH", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FAKETEARS", "FIREPUNCH", "FLING", "FOCUSPUNCH", "GIGAIMPACT", "GUNKSHOT", "HARDPRESS", "HEAVYSLAM", "HELPINGHAND", "HIGHHORSEPOWER", "HYPERBEAM", "HYPERVOICE", "ICEPUNCH", "LOWKICK", "METALCLAW", "METRONOME", "PLAYROUGH", "PROTECT", "RAINDANCE", "REST", "ROAR", "ROCKSLIDE", "ROCKTOMB", "SCARYFACE", "SEEDBOMB", "SHADOWCLAW", "SLEEPTALK", "SMACKDOWN", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SUNNYDAY", "SUPERCELLSLAM", "SWIFT", "SWORDSDANCE", "TAKEDOWN", "TAUNT", "THIEF", "THROATCHOP", "THUNDERPUNCH", "TRAILBLAZE", "UPROAR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5140
+height_m = 2.4
+weight_kg = 290.0
+color = "Brown"
+shape = "Quadruped"
+category = "Turba"
+habitat = "Mountain"
+pokedex = "Se tiene la teoría de que el terreno pantanoso de Hisui favoreció el desarrollo de su constitución robusta, así como su capacidad de manipular la turba."
+generation = 8
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

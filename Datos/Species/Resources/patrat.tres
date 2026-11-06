@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfctcpf0y1fgj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_todce"]
+
+[resource]
+script = ExtResource("1_todce")
+id = 504
+name = "Patrat"
+types = Array[int]([1])
+base_hp = 45
+base_atk = 55
+base_def = 39
+base_spe = 42
+base_spa = 35
+base_spd = 39
+catch_rate = 255
+base_exp = 51
+abilities = Array[int]([50, 51])
+hidden_abilities = Array[int]([148])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 3.0,
+"move": "LEER"
+}, {
+"level": 6.0,
+"move": "BITE"
+}, {
+"level": 8.0,
+"move": "BIDE"
+}, {
+"level": 11.0,
+"move": "DETECT"
+}, {
+"level": 13.0,
+"move": "SANDATTACK"
+}, {
+"level": 16.0,
+"move": "CRUNCH"
+}, {
+"level": 18.0,
+"move": "HYPNOSIS"
+}, {
+"level": 21.0,
+"move": "SUPERFANG"
+}, {
+"level": 23.0,
+"move": "AFTERYOU"
+}, {
+"level": 26.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 28.0,
+"move": "WORKUP"
+}, {
+"level": 31.0,
+"move": "HYPERFANG"
+}, {
+"level": 33.0,
+"move": "NASTYPLOT"
+}, {
+"level": 36.0,
+"move": "MEANLOOK"
+}, {
+"level": 38.0,
+"move": "BATONPASS"
+}, {
+"level": 41.0,
+"move": "SLAM"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "AQUATAIL", "ATTRACT", "CAPTIVATE", "CONFIDE", "COVET", "CUT", "DIG", "DOUBLETEAM", "ENDEAVOR", "ENDURE", "FACADE", "FLING", "FRUSTRATION", "GRASSKNOT", "GUNKSHOT", "HELPINGHAND", "HIDDENPOWER", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "LOWKICK", "MIMIC", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROUND", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SWAGGER", "SWORDSDANCE", "THUNDERBOLT", "TOXIC", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("ASSURANCE", "BULLETSEED", "FLAIL", "FORESIGHT", "IRONTAIL", "PURSUIT", "REVENGE", "SCREECH", "TEARFULLOOK")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.5
+weight_kg = 11.6
+color = "Brown"
+shape = "Quadruped"
+category = "Explorador"
+pokedex = "Siempre está alerta y no quita la mirada de su madriguera. Cuando no está vigilando, le invade la inquietud."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "WATCHOG",
+"method": "Level",
+"param": "20"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

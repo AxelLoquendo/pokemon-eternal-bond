@@ -1,7 +1,7 @@
 extends Node
-## Autoload SpeciesCatalog — species base + overrides de forma.
+## Autoload SpeciesCatalog — species en .tres + overrides de forma (JSON).
 
-const SPECIES_PATH: String = "res://Datos/Species/species.json"
+const RESOURCES_DIR: String = "res://Datos/Species/Resources/"
 const FORMS_PATH: String = "res://Datos/Species/forms.json"
 
 var _by_id: Dictionary = {}  # SpeciesId.Id → SpeciesData
@@ -16,29 +16,29 @@ func _ready() -> void:
 func reload() -> void:
 	_by_id.clear()
 	_forms.clear()
-	_load_species()
+	_load_species_tres()
 	_load_forms()
 
 
-func _load_species() -> void:
-	if not FileAccess.file_exists(SPECIES_PATH):
-		push_warning("SpeciesCatalog: falta %s" % SPECIES_PATH)
+func _load_species_tres() -> void:
+	var dir: DirAccess = DirAccess.open(RESOURCES_DIR)
+	if dir == null:
+		push_warning("SpeciesCatalog: falta carpeta %s" % RESOURCES_DIR)
 		return
-	var f := FileAccess.open(SPECIES_PATH, FileAccess.READ)
-	if f == null:
-		return
-	var parsed: Variant = JSON.parse_string(f.get_as_text())
-	f.close()
-	if typeof(parsed) != TYPE_ARRAY:
-		return
-	for entry: Variant in parsed:
-		if typeof(entry) != TYPE_DICTIONARY:
-			continue
-		var data: SpeciesData = SpeciesData.from_dict(entry)
-		if data.id == SpeciesId.Id.NONE:
-			continue
-		_by_id[data.id] = data
-	print("SpeciesCatalog: %d species" % _by_id.size())
+
+	dir.list_dir_begin()
+	var name: String = dir.get_next()
+	while name != "":
+		if not dir.current_is_dir() and name.ends_with(".tres"):
+			var path: String = RESOURCES_DIR.path_join(name)
+			var res: Resource = load(path)
+			if res is SpeciesData:
+				var data: SpeciesData = res as SpeciesData
+				if data.id != SpeciesId.Id.NONE:
+					_by_id[data.id] = data
+		name = dir.get_next()
+	dir.list_dir_end()
+	print("SpeciesCatalog: %d species (.tres)" % _by_id.size())
 
 
 func _load_forms() -> void:
@@ -134,6 +134,8 @@ func _apply_form_override(data: SpeciesData, over: Dictionary) -> void:
 		data.pokedex = str(over["pokedex"])
 	if over.has("generation"):
 		data.generation = int(over["generation"])
+	if over.has("form_name"):
+		data.form_name = str(over["form_name"])
 	if over.has("types"):
 		data.types.clear()
 		for t: Variant in over["types"]:

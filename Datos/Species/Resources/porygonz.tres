@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cna5oqd278ypa"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_n0pof"]
+
+[resource]
+script = ExtResource("1_n0pof")
+id = 474
+name = "Porygon-Z"
+types = Array[int]([1])
+base_hp = 85
+base_atk = 80
+base_def = 70
+base_spe = 90
+base_spa = 135
+base_spd = 75
+catch_rate = 30
+base_exp = 268
+gender_ratio = "Genderless"
+abilities = Array[int]([91, 88])
+hidden_abilities = Array[int]([148])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TRICKROOM"
+}, {
+"level": 1.0,
+"move": "NASTYPLOT"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "CONVERSION"
+}, {
+"level": 1.0,
+"move": "RECYCLE"
+}, {
+"level": 1.0,
+"move": "MAGNETRISE"
+}, {
+"level": 15.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 20.0,
+"move": "PSYBEAM"
+}, {
+"level": 25.0,
+"move": "CONVERSION2"
+}, {
+"level": 30.0,
+"move": "AGILITY"
+}, {
+"level": 35.0,
+"move": "RECOVER"
+}, {
+"level": 40.0,
+"move": "DISCHARGE"
+}, {
+"level": 45.0,
+"move": "TRIATTACK"
+}, {
+"level": 50.0,
+"move": "MAGICCOAT"
+}, {
+"level": 55.0,
+"move": "LOCKON"
+}, {
+"level": 60.0,
+"move": "ZAPCANNON"
+}, {
+"level": 65.0,
+"move": "HYPERBEAM"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "ALLYSWITCH", "BLIZZARD", "CHARGEBEAM", "CONFIDE", "DARKPULSE", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "EERIEIMPULSE", "ELECTROWEB", "EMBARGO", "ENDURE", "FACADE", "FLASH", "FOULPLAY", "FRUSTRATION", "GIGAIMPACT", "GRAVITY", "GUARDSWAP", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICYWIND", "IRONTAIL", "LASTRESORT", "MAGICCOAT", "MAGNETRISE", "MIMIC", "NASTYPLOT", "NATURALGIFT", "PAINSPLIT", "POWERSWAP", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REST", "RETURN", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SOLARBEAM", "SPEEDSWAP", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TELEKINESIS", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TRIATTACK", "TRICK", "TRICKROOM", "UPROAR", "WONDERROOM", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 5120
+height_m = 0.9
+weight_kg = 34.0
+color = "Red"
+shape = "HeadArms"
+category = "Virtual"
+pokedex = "Se le instaló un software para mejorarlo. Sin embargo, algo salió mal y a raíz de ello comenzó a comportarse de manera extraña."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

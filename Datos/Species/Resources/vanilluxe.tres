@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d37lwopotgaww"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cpl7q"]
+
+[resource]
+script = ExtResource("1_cpl7q")
+id = 584
+name = "Vanilluxe"
+types = Array[int]([15])
+base_hp = 71
+base_atk = 95
+base_def = 85
+base_spe = 79
+base_spa = 110
+base_spd = 95
+base_exp = 268
+growth_rate = "Slow"
+abilities = Array[int]([115, 117])
+hidden_abilities = Array[int]([133])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WEATHERBALL"
+}, {
+"level": 1.0,
+"move": "ICICLECRASH"
+}, {
+"level": 1.0,
+"move": "FREEZEDRY"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "TAUNT"
+}, {
+"level": 1.0,
+"move": "MIST"
+}, {
+"level": 12.0,
+"move": "ICYWIND"
+}, {
+"level": 16.0,
+"move": "AVALANCHE"
+}, {
+"level": 20.0,
+"move": "HAIL"
+}, {
+"level": 24.0,
+"move": "ICICLESPEAR"
+}, {
+"level": 28.0,
+"move": "UPROAR"
+}, {
+"level": 32.0,
+"move": "ACIDARMOR"
+}, {
+"level": 38.0,
+"move": "MIRRORCOAT"
+}, {
+"level": 44.0,
+"move": "ICEBEAM"
+}, {
+"level": 52.0,
+"move": "BLIZZARD"
+}, {
+"level": 60.0,
+"move": "SHEERCOLD"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "AVALANCHE", "BEATUP", "BLIZZARD", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "ENDURE", "EXPLOSION", "FACADE", "FLASHCANNON", "FROSTBREATH", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HIDDENPOWER", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICICLESPEAR", "ICYWIND", "IMPRISON", "IRONDEFENSE", "LIGHTSCREEN", "MAGICCOAT", "MAGNETRISE", "MIMIC", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROUND", "SECRETPOWER", "SELFDESTRUCT", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "TAUNT", "TOXIC", "UPROAR", "WATERPULSE", "WEATHERBALL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 5120
+height_m = 1.3
+weight_kg = 57.5
+color = "White"
+shape = "MultiBody"
+category = "Nievegélida"
+pokedex = "Si sus dos cabezas se irritan al mismo tiempo, genera una ventisca desde su cuerno cubriendo su entorno con nieve."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "NEVERMELTICE"
+offspring = PackedStringArray()

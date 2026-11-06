@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dteblojgjff6q"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_h1u8t"]
+
+[resource]
+script = ExtResource("1_h1u8t")
+id = 20
+name = "Raticate"
+types = Array[int]([1])
+base_hp = 55
+base_atk = 81
+base_def = 60
+base_spe = 97
+base_spa = 50
+base_spd = 70
+catch_rate = 127
+base_exp = 145
+abilities = Array[int]([50, 62])
+hidden_abilities = Array[int]([55])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCARYFACE"
+}, {
+"level": 1.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 4.0,
+"move": "QUICKATTACK"
+}, {
+"level": 7.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 10.0,
+"move": "BITE"
+}, {
+"level": 13.0,
+"move": "LASERFOCUS"
+}, {
+"level": 16.0,
+"move": "TAKEDOWN"
+}, {
+"level": 19.0,
+"move": "ASSURANCE"
+}, {
+"level": 24.0,
+"move": "CRUNCH"
+}, {
+"level": 29.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 34.0,
+"move": "SUPERFANG"
+}, {
+"level": 39.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 44.0,
+"move": "ENDEAVOR"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BODYSLAM", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COUNTER", "COVET", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICYWIND", "IRONTAIL", "LASTRESORT", "MIMIC", "MUDSLAP", "NATURALGIFT", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSMASH", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SUPERFANG", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "THIEF", "THROATCHOP", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "UPROAR", "WILDCHARGE", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.7
+weight_kg = 18.5
+color = "Brown"
+shape = "Quadruped"
+category = "Ratón"
+habitat = "Grassland"
+pokedex = "A Raticate le crecen unos colmillos firmes y fuertes. Para mantenerlos afilados, roe rocas, troncos e incluso las paredes de las casas."
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "CHILANBERRY"
+offspring = PackedStringArray()

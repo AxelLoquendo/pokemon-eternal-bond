@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c46ry0cavotu7"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gh1nn"]
+
+[resource]
+script = ExtResource("1_gh1nn")
+id = 530
+name = "Excadrill"
+types = Array[int]([5, 9])
+base_hp = 110
+base_atk = 135
+base_def = 60
+base_spe = 88
+base_spa = 50
+base_spd = 65
+catch_rate = 60
+base_exp = 178
+abilities = Array[int]([146, 159])
+hidden_abilities = Array[int]([104])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "HORNDRILL"
+}, {
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 1.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "HONECLAWS"
+}, {
+"level": 12.0,
+"move": "FURYSWIPES"
+}, {
+"level": 16.0,
+"move": "METALCLAW"
+}, {
+"level": 20.0,
+"move": "SANDSTORM"
+}, {
+"level": 24.0,
+"move": "CRUSHCLAW"
+}, {
+"level": 28.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 34.0,
+"move": "DIG"
+}, {
+"level": 40.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 46.0,
+"move": "DRILLRUN"
+}, {
+"level": 52.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 58.0,
+"move": "FISSURE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BRICKBREAK", "BRUTALSWING", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CUT", "DIG", "DOUBLETEAM", "DRILLRUN", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FLING", "FOCUSBLAST", "FRUSTRATION", "GIGAIMPACT", "HIDDENPOWER", "HIGHHORSEPOWER", "HONECLAWS", "HYPERBEAM", "IRONDEFENSE", "IRONHEAD", "MAGNETRISE", "MIMIC", "MUDSHOT", "NATURALGIFT", "POISONJAB", "PROTECT", "REST", "RETURN", "ROCKBLAST", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCORCHINGSANDS", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SLUDGEBOMB", "SMARTSTRIKE", "SNORE", "STEALTHROCK", "STEELBEAM", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SWAGGER", "SWORDSDANCE", "TOXIC", "XSCISSOR", "TAKEDOWN", "MUDSLAP", "SCARYFACE", "METALCLAW", "SUNNYDAY", "BODYSLAM", "HELPINGHAND", "DOUBLEEDGE", "THROATCHOP", "METALSOUND", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 40.4
+color = "Gray"
+shape = "Bipedal"
+category = "Subterráneo"
+pokedex = "Construye madrigueras laberínticas a 100m bajo tierra. A veces abre agujeros en los túneles de metro."
+generation = 5
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

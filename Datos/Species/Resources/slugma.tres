@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://blpxsh4nv13yk"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_7cbkw"]
+
+[resource]
+script = ExtResource("1_7cbkw")
+id = 218
+name = "Slugma"
+types = Array[int]([10])
+base_hp = 40
+base_atk = 40
+base_def = 40
+base_spe = 20
+base_spa = 70
+base_spd = 40
+catch_rate = 190
+base_exp = 50
+abilities = Array[int]([40, 49])
+hidden_abilities = Array[int]([133])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "YAWN"
+}, {
+"level": 1.0,
+"move": "SMOG"
+}, {
+"level": 6.0,
+"move": "EMBER"
+}, {
+"level": 8.0,
+"move": "ROCKTHROW"
+}, {
+"level": 13.0,
+"move": "HARDEN"
+}, {
+"level": 20.0,
+"move": "CLEARSMOG"
+}, {
+"level": 22.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 27.0,
+"move": "INCINERATE"
+}, {
+"level": 29.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 34.0,
+"move": "LAVAPLUME"
+}, {
+"level": 36.0,
+"move": "AMNESIA"
+}, {
+"level": 41.0,
+"move": "BODYSLAM"
+}, {
+"level": 43.0,
+"move": "RECOVER"
+}, {
+"level": 48.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 50.0,
+"move": "EARTHPOWER"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ANCIENTPOWER", "ATTRACT", "BODYSLAM", "CAPTIVATE", "CONFIDE", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "ENDURE", "FACADE", "FIREBLAST", "FLAMECHARGE", "FLAMETHROWER", "FRUSTRATION", "HEATWAVE", "HIDDENPOWER", "INCINERATE", "INFESTATION", "IRONDEFENSE", "LIGHTSCREEN", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "OVERHEAT", "PAINSPLIT", "PROTECT", "REFLECT", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "WILLOWISP", "TAKEDOWN", "FIRESPIN", "BULLDOZE", "MUDSHOT", "ROCKBLAST", "POWERGEM", "STEALTHROCK", "AMNESIA", "EARTHQUAKE", "STONEEDGE", "SMACKDOWN", "HIGHHORSEPOWER", "HEATCRASH", "TEMPERFLARE", "CURSE")
+egg_move_tokens = PackedStringArray("ACIDARMOR", "CURSE", "EARTHPOWER", "GUARDSWAP", "HEATWAVE", "INFERNO", "MEMENTO", "ROLLOUT", "SMOKESCREEN", "SPITUP", "STOCKPILE", "SWALLOW")
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 35.0
+color = "Red"
+shape = "Serpentine"
+category = "Lava"
+habitat = "Mountain"
+pokedex = "Es una especie de Pokémon que vive en zonas volcánicas. Si su cuerpo se enfría, la piel se le endurece y lo inmoviliza. Para evitarlo, duerme cerca del magma."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "MAGCARGO",
+"method": "Level",
+"param": "38"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

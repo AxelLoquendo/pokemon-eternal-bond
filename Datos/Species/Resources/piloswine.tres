@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b3eobr2btvh5k"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_r3lmg"]
+
+[resource]
+script = ExtResource("1_r3lmg")
+id = 221
+name = "Piloswine"
+types = Array[int]([15, 5])
+base_hp = 100
+base_atk = 100
+base_def = 80
+base_spe = 50
+base_spa = 60
+base_spd = 60
+catch_rate = 75
+base_exp = 158
+growth_rate = "Slow"
+abilities = Array[int]([12, 81])
+hidden_abilities = Array[int]([47])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "ICEFANG"
+}, {
+"level": 1.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "FLAIL"
+}, {
+"level": 15.0,
+"move": "ICESHARD"
+}, {
+"level": 20.0,
+"move": "MIST"
+}, {
+"level": 25.0,
+"move": "ENDURE"
+}, {
+"level": 30.0,
+"move": "ICYWIND"
+}, {
+"level": 37.0,
+"move": "AMNESIA"
+}, {
+"level": 44.0,
+"move": "TAKEDOWN"
+}, {
+"level": 51.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 58.0,
+"move": "BLIZZARD"
+}, {
+"level": 65.0,
+"move": "THRASH"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ANCIENTPOWER", "ATTRACT", "AVALANCHE", "BLIZZARD", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HEADBUTT", "HIDDENPOWER", "HIGHHORSEPOWER", "HYPERBEAM", "ICEBEAM", "ICEFANG", "ICICLESPEAR", "ICYWIND", "LIGHTSCREEN", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCARYFACE", "SECRETPOWER", "SLEEPTALK", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "TAKEDOWN", "CHARM", "TRAILBLAZE", "SNOWSCAPE", "REVERSAL", "HAZE", "SMACKDOWN", "THROATCHOP", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.1
+weight_kg = 55.8
+color = "Brown"
+shape = "Quadruped"
+category = "Puerco"
+habitat = "Cave"
+pokedex = "Está cubierto por un pelaje tupido y de largas cerdas que le permite soportar el frío. Usa los colmillos para desenterrar los alimentos cubiertos por el hielo."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "MAMOSWINE",
+"method": "HasMove",
+"param": "ANCIENTPOWER"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

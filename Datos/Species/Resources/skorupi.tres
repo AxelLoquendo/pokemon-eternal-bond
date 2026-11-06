@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://6lrgb1q7341l"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_rsumn"]
+
+[resource]
+script = ExtResource("1_rsumn")
+id = 451
+name = "Skorupi"
+types = Array[int]([4, 7])
+base_hp = 40
+base_atk = 50
+base_def = 90
+base_spe = 65
+base_spa = 30
+base_spd = 55
+catch_rate = 120
+base_exp = 66
+growth_rate = "Slow"
+abilities = Array[int]([4, 97])
+hidden_abilities = Array[int]([51])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 3.0,
+"move": "HONECLAWS"
+}, {
+"level": 6.0,
+"move": "FELLSTINGER"
+}, {
+"level": 9.0,
+"move": "POISONFANG"
+}, {
+"level": 12.0,
+"move": "BITE"
+}, {
+"level": 15.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 18.0,
+"move": "BUGBITE"
+}, {
+"level": 21.0,
+"move": "VENOSHOCK"
+}, {
+"level": 24.0,
+"move": "KNOCKOFF"
+}, {
+"level": 27.0,
+"move": "SCARYFACE"
+}, {
+"level": 30.0,
+"move": "PINMISSILE"
+}, {
+"level": 33.0,
+"move": "TOXIC"
+}, {
+"level": 36.0,
+"move": "NIGHTSLASH"
+}, {
+"level": 39.0,
+"move": "CROSSPOISON"
+}, {
+"level": 42.0,
+"move": "XSCISSOR"
+}, {
+"level": 45.0,
+"move": "ACUPRESSURE"
+}, {
+"level": 48.0,
+"move": "CRUNCH"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "AQUATAIL", "ASSURANCE", "ATTRACT", "BRICKBREAK", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "CROSSPOISON", "CRUNCH", "CUT", "DARKPULSE", "DIG", "DOUBLETEAM", "ENDURE", "FACADE", "FALSESWIPE", "FLASH", "FLING", "FRUSTRATION", "FURYCUTTER", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "INFESTATION", "IRONTAIL", "KNOCKOFF", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAYBACK", "PINMISSILE", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCARYFACE", "SCREECH", "SECRETPOWER", "SHADOWBALL", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "STRENGTH", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "TAUNT", "THIEF", "TORMENT", "TOXIC", "TOXICSPIKES", "VENOSHOCK", "XSCISSOR")
+egg_move_tokens = PackedStringArray("AGILITY", "CONFUSERAY", "NIGHTSLASH", "POISONTAIL", "SANDATTACK", "SCREECH", "SLASH", "WHIRLWIND")
+egg_groups = PackedStringArray("Bug", "Water3")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 12.0
+color = "Purple"
+shape = "Insectoid"
+category = "Escorpión"
+pokedex = "Agarra a sus presas con las garras de la cola y les inyecta veneno. Espera hasta que hace efecto. Se entierra en la arena y espera a que pase una presa."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "DRAPION",
+"method": "Level",
+"param": "40"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "POISONBARB"
+offspring = PackedStringArray()

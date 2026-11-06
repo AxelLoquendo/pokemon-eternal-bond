@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://do6dmyfxxbypr"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_vmd5a"]
+
+[resource]
+script = ExtResource("1_vmd5a")
+id = 497
+name = "Serperior"
+types = Array[int]([12])
+base_hp = 75
+base_atk = 75
+base_def = 95
+base_spe = 113
+base_spa = 75
+base_spd = 95
+base_exp = 264
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([126])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "VINEWHIP"
+}, {
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 13.0,
+"move": "GROWTH"
+}, {
+"level": 16.0,
+"move": "LEAFTORNADO"
+}, {
+"level": 16.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 20.0,
+"move": "LEECHSEED"
+}, {
+"level": 24.0,
+"move": "MEGADRAIN"
+}, {
+"level": 28.0,
+"move": "SLAM"
+}, {
+"level": 32.0,
+"move": "LEAFBLADE"
+}, {
+"level": 38.0,
+"move": "COIL"
+}, {
+"level": 44.0,
+"move": "GIGADRAIN"
+}, {
+"level": 50.0,
+"move": "WRINGOUT"
+}, {
+"level": 50.0,
+"move": "GASTROACID"
+}, {
+"level": 56.0,
+"move": "LEAFSTORM"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AQUATAIL", "ATTRACT", "BIND", "BRUTALSWING", "CALMMIND", "CAPTIVATE", "CONFIDE", "CUT", "DEFOG", "DOUBLETEAM", "DRAGONPULSE", "DRAGONTAIL", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRENZYPLANT", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSPLEDGE", "HIDDENPOWER", "HYPERBEAM", "IRONTAIL", "KNOCKOFF", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "NATUREPOWER", "OUTRAGE", "PROTECT", "REFLECT", "REST", "RETURN", "ROCKSMASH", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNATCH", "SNORE", "SOLARBEAM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "TAUNT", "TORMENT", "TOXIC", "WORKUP", "WORRYSEED", "TAKEDOWN", "SCARYFACE", "TRAILBLAZE", "SWIFT", "MAGICALLEAF", "BULLETSEED", "BODYSLAM", "HELPINGHAND", "GRASSYTERRAIN", "LEAFSTORM", "GRASSYGLIDE", "SCALESHOT", "DOUBLEEDGE", "PETALBLIZZARD", "BREAKINGSWIPE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field", "Grass")
+hatch_steps = 5120
+height_m = 3.3
+weight_kg = 63.0
+color = "Green"
+shape = "Serpentine"
+category = "Realeza"
+pokedex = "Yergue su cabeza para intimidar al rival. Sólo lucha con todo su potencial ante enemigos muy fuertes."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 3.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

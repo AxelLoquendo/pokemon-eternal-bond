@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bbl3jdvhpqemd"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_y0pb8"]
+
+[resource]
+script = ExtResource("1_y0pb8")
+id = 667
+name = "Litleo"
+types = Array[int]([10, 1])
+base_hp = 62
+base_atk = 50
+base_def = 58
+base_spe = 72
+base_spa = 73
+base_spd = 54
+catch_rate = 220
+base_exp = 74
+gender_ratio = "FemaleSevenEighths"
+growth_rate = "Parabolic"
+abilities = Array[int]([79, 127])
+hidden_abilities = Array[int]([153])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 5.0,
+"move": "EMBER"
+}, {
+"level": 8.0,
+"move": "WORKUP"
+}, {
+"level": 11.0,
+"move": "HEADBUTT"
+}, {
+"level": 15.0,
+"move": "NOBLEROAR"
+}, {
+"level": 20.0,
+"move": "TAKEDOWN"
+}, {
+"level": 23.0,
+"move": "FIREFANG"
+}, {
+"level": 28.0,
+"move": "ENDEAVOR"
+}, {
+"level": 33.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 36.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 39.0,
+"move": "CRUNCH"
+}, {
+"level": 43.0,
+"move": "HYPERVOICE"
+}, {
+"level": 46.0,
+"move": "INCINERATE"
+}, {
+"level": 50.0,
+"move": "OVERHEAT"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DARKPULSE", "DIG", "DOUBLETEAM", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FIREBLAST", "FLAMECHARGE", "FLAMETHROWER", "FRUSTRATION", "HEATWAVE", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "INCINERATE", "IRONTAIL", "MIMIC", "NATURALGIFT", "OVERHEAT", "PAYBACK", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSMASH", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNARL", "SNATCH", "SNORE", "SOLARBEAM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "THIEF", "TOXIC", "WILDCHARGE", "WILLOWISP", "WORKUP", "TAKEDOWN", "MUDSLAP", "FIREFANG", "THUNDERFANG", "ACROBATICS", "TRAILBLAZE", "FIRESPIN", "SWIFT", "PSYCHICFANGS", "BODYSLAM", "CRUNCH", "FLAREBLITZ", "DOUBLEEDGE")
+egg_move_tokens = PackedStringArray("ENTRAINMENT", "FIRESPIN", "FLAREBLITZ", "SNATCH", "YAWN")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 13.5
+color = "Brown"
+shape = "Quadruped"
+category = "Leoncito"
+pokedex = "Cuanto más poderoso es el enemigo al que se enfrenta, más calor desprende su mechón y más energía recorre todo su cuerpo."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "PYROAR",
+"method": "Level",
+"param": "35"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

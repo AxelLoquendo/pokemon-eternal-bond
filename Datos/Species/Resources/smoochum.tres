@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b4pqexcfyjurq"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_nl8t0"]
+
+[resource]
+script = ExtResource("1_nl8t0")
+id = 238
+name = "Smoochum"
+types = Array[int]([15, 14])
+base_hp = 45
+base_atk = 30
+base_def = 15
+base_spe = 65
+base_spa = 85
+base_spd = 65
+base_exp = 61
+gender_ratio = "AlwaysFemale"
+abilities = Array[int]([12, 108])
+hidden_abilities = Array[int]([93])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "LICK"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 4.0,
+"move": "POWDERSNOW"
+}, {
+"level": 8.0,
+"move": "COPYCAT"
+}, {
+"level": 12.0,
+"move": "CONFUSION"
+}, {
+"level": 16.0,
+"move": "COVET"
+}, {
+"level": 20.0,
+"move": "SING"
+}, {
+"level": 24.0,
+"move": "FAKETEARS"
+}, {
+"level": 28.0,
+"move": "ICEPUNCH"
+}, {
+"level": 32.0,
+"move": "PSYCHIC"
+}, {
+"level": 36.0,
+"move": "SWEETKISS"
+}, {
+"level": 40.0,
+"move": "MEANLOOK"
+}, {
+"level": 44.0,
+"move": "PERISHSONG"
+}, {
+"level": 48.0,
+"move": "BLIZZARD"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "AURORAVEIL", "AVALANCHE", "BLIZZARD", "BODYSLAM", "CALMMIND", "CAPTIVATE", "CHARM", "CONFIDE", "COUNTER", "COVET", "DOUBLEEDGE", "DOUBLETEAM", "DRAININGKISS", "DREAMEATER", "DYNAMICPUNCH", "ECHOEDVOICE", "ENCORE", "ENDURE", "FACADE", "FAKETEARS", "FLASH", "FLING", "FROSTBREATH", "FRUSTRATION", "GRASSKNOT", "HAIL", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "ICEBEAM", "ICEPUNCH", "ICYWIND", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLEPLAY", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNORE", "STOREDPOWER", "SUBSTITUTE", "SWAGGER", "THIEF", "TRICK", "TRICKROOM", "UPROAR", "WATERPULSE", "WONDERROOM", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("FAKEOUT", "ICEPUNCH", "ROLEPLAY", "WISH")
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 6400
+height_m = 0.4
+weight_kg = 6.0
+color = "Pink"
+shape = "Bipedal"
+category = "Beso"
+habitat = "Urban"
+pokedex = "Smoochum va corriendo por todos lados, pero se cae también con frecuencia. Y en cuanto tiene ocasión, se mira en algún sitio para ver si se ha manchado la cara."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "JYNX",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cnua15ctnbw83"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_g770e"]
+
+[resource]
+script = ExtResource("1_g770e")
+id = 551
+name = "Sandile"
+types = Array[int]([5, 17])
+base_hp = 50
+base_atk = 72
+base_def = 35
+base_spe = 65
+base_spa = 35
+base_spd = 35
+catch_rate = 180
+base_exp = 58
+growth_rate = "Parabolic"
+abilities = Array[int]([22, 153])
+hidden_abilities = Array[int]([83])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWERTRIP"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 3.0,
+"move": "SANDATTACK"
+}, {
+"level": 6.0,
+"move": "HONECLAWS"
+}, {
+"level": 9.0,
+"move": "SANDTOMB"
+}, {
+"level": 12.0,
+"move": "SCARYFACE"
+}, {
+"level": 15.0,
+"move": "BITE"
+}, {
+"level": 18.0,
+"move": "TORMENT"
+}, {
+"level": 21.0,
+"move": "DIG"
+}, {
+"level": 24.0,
+"move": "SWAGGER"
+}, {
+"level": 27.0,
+"move": "CRUNCH"
+}, {
+"level": 30.0,
+"move": "SANDSTORM"
+}, {
+"level": 33.0,
+"move": "FOULPLAY"
+}, {
+"level": 36.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 39.0,
+"move": "THRASH"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ASSURANCE", "ATTRACT", "BEATUP", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "CUT", "DARKPULSE", "DIG", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "EMBARGO", "ENDURE", "FACADE", "FIREFANG", "FOCUSENERGY", "FOULPLAY", "FRUSTRATION", "HIDDENPOWER", "HONECLAWS", "INCINERATE", "IRONTAIL", "LASHOUT", "MIMIC", "NATURALGIFT", "PAYBACK", "PROTECT", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCARYFACE", "SCORCHINGSANDS", "SECRETPOWER", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SNARL", "SNATCH", "SNORE", "SPITE", "STEALTHROCK", "STONEEDGE", "SUBSTITUTE", "SWAGGER", "TAUNT", "THIEF", "THUNDERFANG", "TORMENT", "TOXIC", "UPROAR", "TAKEDOWN", "MUDSLAP", "MUDSHOT", "FLING", "BRICKBREAK", "SHADOWCLAW", "BODYSLAM", "GRASSKNOT", "STOMPINGTANTRUM", "HELPINGHAND", "DOUBLEEDGE", "CURSE")
+egg_move_tokens = PackedStringArray("AQUATAIL", "COUNTER", "DOUBLEEDGE", "SPITE")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 15.2
+color = "Brown"
+shape = "Quadruped"
+category = "Desierdrilo"
+pokedex = "Se desplaza hundido en la arena, dejando al descubierto solo los ojos y la nariz. Una membrana negra le protege los ojos."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "KROKOROK",
+"method": "Level",
+"param": "29"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "BLACKGLASSES"
+offspring = PackedStringArray()

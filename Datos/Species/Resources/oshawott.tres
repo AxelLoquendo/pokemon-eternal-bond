@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://1hkwb78f0jsl"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6i8y1"]
+
+[resource]
+script = ExtResource("1_6i8y1")
+id = 501
+name = "Oshawott"
+types = Array[int]([11])
+base_hp = 55
+base_atk = 55
+base_def = 45
+base_spe = 45
+base_spa = 63
+base_spd = 45
+base_exp = 62
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([67])
+hidden_abilities = Array[int]([75])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "TAILWHIP"
+}, {
+"level": 7.0,
+"move": "WATERGUN"
+}, {
+"level": 11.0,
+"move": "WATERSPORT"
+}, {
+"level": 11.0,
+"move": "SOAK"
+}, {
+"level": 13.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 17.0,
+"move": "RAZORSHELL"
+}, {
+"level": 19.0,
+"move": "FURYCUTTER"
+}, {
+"level": 23.0,
+"move": "WATERPULSE"
+}, {
+"level": 25.0,
+"move": "REVENGE"
+}, {
+"level": 25.0,
+"move": "AERIALACE"
+}, {
+"level": 29.0,
+"move": "AQUAJET"
+}, {
+"level": 31.0,
+"move": "ENCORE"
+}, {
+"level": 35.0,
+"move": "AQUATAIL"
+}, {
+"level": 37.0,
+"move": "RETALIATE"
+}, {
+"level": 41.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 43.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AQUATAIL", "ATTRACT", "BLIZZARD", "CAPTIVATE", "CONFIDE", "COVET", "CUT", "DIG", "DIVE", "DOUBLETEAM", "ENDURE", "FACADE", "FALSESWIPE", "FLING", "FRUSTRATION", "GRASSKNOT", "HAIL", "HELPINGHAND", "HIDDENPOWER", "ICEBEAM", "ICYWIND", "IRONTAIL", "MIMIC", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKSMASH", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWORDSDANCE", "TAUNT", "TOXIC", "WATERFALL", "WATERPLEDGE", "WATERPULSE", "WORKUP", "XSCISSOR", "TAKEDOWN", "THIEF", "CHILLINGWATER", "SWIFT", "AVALANCHE", "SNOWSCAPE", "AIRSLASH", "LIQUIDATION", "ENCORE", "HYDROPUMP", "KNOCKOFF", "FLIPTURN", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray("AIRSLASH", "ASSURANCE", "BRINE", "COPYCAT", "DETECT", "NIGHTSLASH", "SACREDSWORD", "SCREECH", "TRUMPCARD")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 5.9
+color = "Blue"
+shape = "BipedalTail"
+category = "Nutria"
+pokedex = "La vieira de su ombligo está hecha del mismo material que sus garras. Puede sacarla y usarla de daga."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "DEWOTT",
+"method": "Level",
+"param": "17"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

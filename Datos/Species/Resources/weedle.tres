@@ -1,0 +1,55 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bc7h4tqaairo5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cdddm"]
+
+[resource]
+script = ExtResource("1_cdddm")
+id = 13
+name = "Weedle"
+types = Array[int]([7, 4])
+base_hp = 40
+base_atk = 35
+base_def = 30
+base_spe = 50
+base_spa = 20
+base_spd = 20
+catch_rate = 255
+base_exp = 39
+abilities = Array[int]([19])
+hidden_abilities = Array[int]([50])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "STRINGSHOT"
+}, {
+"level": 9.0,
+"move": "BUGBITE"
+}])
+tutor_move_tokens = PackedStringArray("BUGBITE", "ELECTROWEB", "STRINGSHOT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.3
+weight_kg = 3.2
+color = "Brown"
+shape = "Insectoid"
+category = "Oruga"
+habitat = "Forest"
+pokedex = "Weedle tiene un finísimo sentido del olfato. Puede distinguir las hojas que le gustan de las que no olisqueándolas con su gran nariz roja."
+evolutions = Array[Dictionary]([{
+"into": "KAKUNA",
+"method": "Level",
+"param": "7"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

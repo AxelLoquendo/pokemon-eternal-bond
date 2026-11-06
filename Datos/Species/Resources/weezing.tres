@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://pcdkfb4gkajv"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wn38w"]
+
+[resource]
+script = ExtResource("1_wn38w")
+id = 110
+name = "Weezing"
+types = Array[int]([4])
+base_hp = 65
+base_atk = 90
+base_def = 120
+base_spe = 60
+base_spa = 85
+base_spd = 70
+catch_rate = 60
+base_exp = 172
+abilities = Array[int]([26, 256])
+hidden_abilities = Array[int]([1])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 1.0,
+"move": "HEATWAVE"
+}, {
+"level": 1.0,
+"move": "POISONGAS"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "SMOG"
+}, {
+"level": 1.0,
+"move": "SMOKESCREEN"
+}, {
+"level": 12.0,
+"move": "CLEARSMOG"
+}, {
+"level": 16.0,
+"move": "ASSURANCE"
+}, {
+"level": 20.0,
+"move": "SLUDGE"
+}, {
+"level": 24.0,
+"move": "HAZE"
+}, {
+"level": 28.0,
+"move": "SELFDESTRUCT"
+}, {
+"level": 32.0,
+"move": "SLUDGEBOMB"
+}, {
+"level": 38.0,
+"move": "TOXIC"
+}, {
+"level": 44.0,
+"move": "BELCH"
+}, {
+"level": 50.0,
+"move": "EXPLOSION"
+}, {
+"level": 56.0,
+"move": "MEMENTO"
+}, {
+"level": 62.0,
+"move": "DESTINYBOND"
+}])
+tutor_move_tokens = PackedStringArray("ASSURANCE", "ATTRACT", "CAPTIVATE", "CONFIDE", "CORROSIVEGAS", "DARKPULSE", "DOUBLETEAM", "ENDURE", "EXPLOSION", "FACADE", "FIREBLAST", "FLAMETHROWER", "FLASH", "FRUSTRATION", "GIGAIMPACT", "GYROBALL", "HEATWAVE", "HIDDENPOWER", "HYPERBEAM", "INCINERATE", "INFESTATION", "MIMIC", "NATURALGIFT", "PAINSPLIT", "PAYBACK", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROLLOUT", "ROUND", "SCREECH", "SECRETPOWER", "SELFDESTRUCT", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNORE", "SPITE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "THIEF", "THUNDER", "THUNDERBOLT", "TORMENT", "TOXIC", "TOXICSPIKES", "UPROAR", "VENOMDRENCH", "VENOSHOCK", "WILLOWISP", "TAKEDOWN", "SCARYFACE", "ACIDSPRAY", "PSYBEAM", "BODYSLAM", "GUNKSHOT", "HAZE", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 1.2
+weight_kg = 9.5
+color = "Purple"
+shape = "MultiBody"
+category = "Gas Veneno"
+habitat = "Urban"
+pokedex = "Al diluir sus gases tóxicos mediante un proceso especial, se extrae un perfume delicioso. Para Weezing, los gases que emana la basura son una exquisitez."
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SMOKEBALL"
+offspring = PackedStringArray()

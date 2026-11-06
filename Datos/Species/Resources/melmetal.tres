@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bxjfg14gwgdb6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ogjma"]
+
+[resource]
+script = ExtResource("1_ogjma")
+id = 809
+name = "Melmetal"
+types = Array[int]([9])
+base_hp = 135
+base_atk = 143
+base_def = 143
+base_spe = 34
+base_spa = 80
+base_spd = 65
+catch_rate = 3
+base_exp = 300
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([89])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "THUNDERPUNCH"
+}, {
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 1.0,
+"move": "HEADBUTT"
+}, {
+"level": 24.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 32.0,
+"move": "ACIDARMOR"
+}, {
+"level": 40.0,
+"move": "FLASHCANNON"
+}, {
+"level": 48.0,
+"move": "MEGAPUNCH"
+}, {
+"level": 56.0,
+"move": "PROTECT"
+}, {
+"level": 64.0,
+"move": "DISCHARGE"
+}, {
+"level": 72.0,
+"move": "DYNAMICPUNCH"
+}, {
+"level": 80.0,
+"move": "SUPERPOWER"
+}, {
+"level": 88.0,
+"move": "DOUBLEIRONBASH"
+}, {
+"level": 96.0,
+"move": "HYPERBEAM"
+}])
+tutor_move_tokens = PackedStringArray("BODYPRESS", "BODYSLAM", "BRICKBREAK", "BRUTALSWING", "CONFIDE", "DARKESTLARIAT", "DOUBLETEAM", "EARTHQUAKE", "ELECTRICTERRAIN", "ENDURE", "FACADE", "FLASHCANNON", "FRUSTRATION", "GIGAIMPACT", "GYROBALL", "HEADBUTT", "HEAVYSLAM", "HIDDENPOWER", "HIGHHORSEPOWER", "HYPERBEAM", "ICEBEAM", "ICEPUNCH", "IRONDEFENSE", "IRONHEAD", "MEGAKICK", "MEGAPUNCH", "MIMIC", "NATURALGIFT", "PROTECT", "REST", "RETURN", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SECRETPOWER", "SELFDESTRUCT", "SLEEPTALK", "SNORE", "SOLARBEAM", "STEELBEAM", "STEELROLLER", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "TOXIC")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 2.5
+weight_kg = 800.0
+color = "Gray"
+shape = "Bipedal"
+category = "Tuerca"
+pokedex = "Al final de su vida, su cuerpo se oxida y se hace pedazos. Poco tiempo después, estos fragmentos que quedan dan vida a varios Meltan."
+generation = 7
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Mythical")
+offspring = PackedStringArray()

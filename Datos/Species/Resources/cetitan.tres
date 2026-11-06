@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://vcua46ujy5bf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_5biik"]
+
+[resource]
+script = ExtResource("1_5biik")
+id = 975
+name = "Cetitan"
+types = Array[int]([15])
+base_hp = 170
+base_atk = 113
+base_def = 65
+base_spe = 73
+base_spa = 45
+base_spd = 55
+catch_rate = 50
+base_exp = 182
+growth_rate = "Parabolic"
+abilities = Array[int]([47, 202])
+hidden_abilities = Array[int]([125])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 6.0,
+"move": "GROWL"
+}, {
+"level": 9.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 12.0,
+"move": "ICESHARD"
+}, {
+"level": 15.0,
+"move": "REST"
+}, {
+"level": 19.0,
+"move": "TAKEDOWN"
+}, {
+"level": 25.0,
+"move": "FLAIL"
+}, {
+"level": 27.0,
+"move": "AVALANCHE"
+}, {
+"level": 31.0,
+"move": "BOUNCE"
+}, {
+"level": 36.0,
+"move": "BODYSLAM"
+}, {
+"level": 40.0,
+"move": "AMNESIA"
+}, {
+"level": 44.0,
+"move": "ICESPINNER"
+}, {
+"level": 49.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 53.0,
+"move": "BLIZZARD"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "AVALANCHE", "BLIZZARD", "BODYPRESS", "BODYSLAM", "BULLDOZE", "CHARM", "CHILLINGWATER", "CURSE", "DOUBLEEDGE", "EARTHQUAKE", "ENDURE", "FACADE", "GIGAIMPACT", "HARDPRESS", "HEAVYSLAM", "HELPINGHAND", "HIGHHORSEPOWER", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICEFANG", "ICEPUNCH", "ICESPINNER", "ICICLESPEAR", "ICYWIND", "KNOCKOFF", "LIQUIDATION", "PLAYROUGH", "PROTECT", "RAINDANCE", "REST", "SLEEPTALK", "SNOWSCAPE", "STOMPINGTANTRUM", "SUBSTITUTE", "TAKEDOWN", "WATERPULSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 6400
+height_m = 4.5
+weight_kg = 700.0
+color = "White"
+shape = "BipedalTail"
+category = "Geoballena"
+habitat = "Mountain"
+pokedex = "Este Pokémon vive en áreas cubiertas de nieve y hielo. Se protege con su fuerte musculatura y una gruesa capa de grasa subcutánea."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

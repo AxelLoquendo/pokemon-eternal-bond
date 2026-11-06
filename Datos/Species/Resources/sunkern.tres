@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c7wei0wpgjv8i"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cf5sw"]
+
+[resource]
+script = ExtResource("1_cf5sw")
+id = 191
+name = "Sunkern"
+types = Array[int]([12])
+base_hp = 30
+base_atk = 30
+base_def = 30
+base_spe = 30
+base_spa = 30
+base_spd = 30
+catch_rate = 235
+base_exp = 36
+growth_rate = "Parabolic"
+abilities = Array[int]([34, 94])
+hidden_abilities = Array[int]([48])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 4.0,
+"move": "INGRAIN"
+}, {
+"level": 7.0,
+"move": "ABSORB"
+}, {
+"level": 10.0,
+"move": "MEGADRAIN"
+}, {
+"level": 13.0,
+"move": "LEECHSEED"
+}, {
+"level": 16.0,
+"move": "RAZORLEAF"
+}, {
+"level": 19.0,
+"move": "WORRYSEED"
+}, {
+"level": 22.0,
+"move": "GIGADRAIN"
+}, {
+"level": 25.0,
+"move": "ENDEAVOR"
+}, {
+"level": 28.0,
+"move": "SYNTHESIS"
+}, {
+"level": 31.0,
+"move": "SOLARBEAM"
+}, {
+"level": 36.0,
+"move": "SUNNYDAY"
+}, {
+"level": 37.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 39.0,
+"move": "SEEDBOMB"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BULLETSEED", "CAPTIVATE", "CONFIDE", "CUT", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "HELPINGHAND", "HIDDENPOWER", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PROTECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "UPROAR", "WORRYSEED", "TAKEDOWN", "TRAILBLAZE", "MAGICALLEAF", "RAINDANCE", "ENCORE", "GRASSYTERRAIN", "LEAFSTORM", "WEATHERBALL", "CURSE")
+egg_move_tokens = PackedStringArray("CURSE", "ENCORE", "GRASSYTERRAIN", "HELPINGHAND", "INGRAIN", "LEECHSEED", "MORNINGSUN", "NATUREPOWER", "SWEETSCENT")
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 1.8
+color = "Yellow"
+shape = "Head"
+category = "Semilla"
+habitat = "Grassland"
+pokedex = "Intenta moverse poco para conservar los nutrientes que ha guardado en su interior y poder evolucionar. Ni siquiera come: sólo se alimenta del rocío de la mañana."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "SUNFLORA",
+"method": "Item",
+"param": "SUNSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

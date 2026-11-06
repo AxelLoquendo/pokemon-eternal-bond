@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://btl6hc6pwaov5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_g3mxj"]
+
+[resource]
+script = ExtResource("1_g3mxj")
+id = 940
+name = "Wattrel"
+types = Array[int]([13, 3])
+base_hp = 40
+base_atk = 40
+base_def = 35
+base_spe = 70
+base_spa = 55
+base_spd = 40
+catch_rate = 180
+base_exp = 56
+growth_rate = "Parabolic"
+abilities = Array[int]([296, 10])
+hidden_abilities = Array[int]([172])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 4.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 7.0,
+"move": "QUICKATTACK"
+}, {
+"level": 11.0,
+"move": "PLUCK"
+}, {
+"level": 15.0,
+"move": "SPARK"
+}, {
+"level": 19.0,
+"move": "UPROAR"
+}, {
+"level": 23.0,
+"move": "ROOST"
+}, {
+"level": 27.0,
+"move": "DUALWINGBEAT"
+}, {
+"level": 32.0,
+"move": "AGILITY"
+}, {
+"level": 37.0,
+"move": "VOLTSWITCH"
+}, {
+"level": 43.0,
+"move": "DISCHARGE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "CHARGE", "CHARGEBEAM", "DUALWINGBEAT", "EERIEIMPULSE", "ELECTRICTERRAIN", "ELECTROBALL", "ELECTROWEB", "ENDEAVOR", "ENDURE", "FACADE", "FEATHERDANCE", "FLY", "HURRICANE", "PROTECT", "REST", "SLEEPTALK", "SUBSTITUTE", "SWIFT", "TAILWIND", "TAKEDOWN", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "UPROAR", "UTURN", "VOLTSWITCH", "WEATHERBALL", "WILDCHARGE")
+egg_move_tokens = PackedStringArray("ENDEAVOR", "FEATHERDANCE", "SPITUP", "STOCKPILE", "SWALLOW", "WEATHERBALL")
+egg_groups = PackedStringArray("Water1", "Flying")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 3.6
+color = "Black"
+shape = "Winged"
+category = "Paíño"
+habitat = "WatersEdge"
+pokedex = "Los huesos de sus alas producen electricidad con las corrientes de aire. Para cazar, se zambulle en el mar y electrocuta a su presa."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "KILOWATTREL",
+"method": "Level",
+"param": "25"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

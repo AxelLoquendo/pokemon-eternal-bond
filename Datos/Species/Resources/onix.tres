@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cung7ifxflfbf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ywhs7"]
+
+[resource]
+script = ExtResource("1_ywhs7")
+id = 95
+name = "Onix"
+types = Array[int]([6, 5])
+base_hp = 35
+base_atk = 45
+base_def = 160
+base_spe = 70
+base_spa = 30
+base_spd = 45
+base_exp = 77
+abilities = Array[int]([69, 5])
+hidden_abilities = Array[int]([133])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "BIND"
+}, {
+"level": 1.0,
+"move": "ROCKTHROW"
+}, {
+"level": 4.0,
+"move": "SMACKDOWN"
+}, {
+"level": 8.0,
+"move": "ROCKPOLISH"
+}, {
+"level": 12.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 16.0,
+"move": "CURSE"
+}, {
+"level": 20.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 24.0,
+"move": "SCREECH"
+}, {
+"level": 28.0,
+"move": "SANDTOMB"
+}, {
+"level": 32.0,
+"move": "STEALTHROCK"
+}, {
+"level": 36.0,
+"move": "SLAM"
+}, {
+"level": 40.0,
+"move": "SANDSTORM"
+}, {
+"level": 44.0,
+"move": "DIG"
+}, {
+"level": 48.0,
+"move": "IRONTAIL"
+}, {
+"level": 52.0,
+"move": "STONEEDGE"
+}, {
+"level": 56.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ANCIENTPOWER", "ATTRACT", "BIND", "BLOCK", "BODYPRESS", "BODYSLAM", "BREAKINGSWIPE", "BRUTALSWING", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAGONDANCE", "DRAGONPULSE", "DRAGONTAIL", "DRILLRUN", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FLASHCANNON", "FRUSTRATION", "GYROBALL", "HEADBUTT", "HEAVYSLAM", "HIDDENPOWER", "HIGHHORSEPOWER", "IRONHEAD", "IRONTAIL", "METEORBEAM", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "PAYBACK", "PROTECT", "PSYCHUP", "REST", "RETURN", "ROAR", "ROCKBLAST", "ROCKCLIMB", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SANDTOMB", "SCARYFACE", "SCORCHINGSANDS", "SCREECH", "SECRETPOWER", "SELFDESTRUCT", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "TORMENT", "TWISTER")
+egg_move_tokens = PackedStringArray("BLOCK", "DEFENSECURL", "DRAGONTAIL", "FLAIL", "HEADSMASH", "HEAVYSLAM", "ROCKBLAST", "ROLLOUT", "WIDEGUARD")
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 6400
+height_m = 8.8
+weight_kg = 210.0
+color = "Gray"
+shape = "Serpentine"
+category = "Serpiente Roca"
+habitat = "Cave"
+pokedex = "Tiene un imán en el cerebro que le sirve de brújula para no perder la orientación cuando esta cavando túneles. Según crece, se le redondea y suaviza el cuerpo."
+evolutions = Array[Dictionary]([{
+"into": "STEELIX",
+"method": "CableLinkItem",
+"param": "METALCOAT"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

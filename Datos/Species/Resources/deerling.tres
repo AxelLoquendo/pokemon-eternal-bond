@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://1vkrh1346ksn"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_lddhs"]
+
+[resource]
+script = ExtResource("1_lddhs")
+id = 585
+name = "Deerling"
+types = Array[int]([1, 12])
+base_hp = 60
+base_atk = 60
+base_def = 50
+base_spe = 75
+base_spa = 40
+base_spd = 50
+catch_rate = 190
+base_exp = 67
+abilities = Array[int]([34, 157])
+hidden_abilities = Array[int]([32])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "CAMOUFLAGE"
+}, {
+"level": 4.0,
+"move": "GROWL"
+}, {
+"level": 7.0,
+"move": "SANDATTACK"
+}, {
+"level": 10.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 13.0,
+"move": "LEECHSEED"
+}, {
+"level": 16.0,
+"move": "FEINTATTACK"
+}, {
+"level": 16.0,
+"move": "BULLETSEED"
+}, {
+"level": 20.0,
+"move": "TAKEDOWN"
+}, {
+"level": 24.0,
+"move": "JUMPKICK"
+}, {
+"level": 24.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 28.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 28.0,
+"move": "ENERGYBALL"
+}, {
+"level": 32.0,
+"move": "CHARM"
+}, {
+"level": 41.0,
+"move": "NATUREPOWER"
+}, {
+"level": 42.0,
+"move": "SOLARBEAM"
+}, {
+"level": 46.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BOUNCE", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "ECHOEDVOICE", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "HIDDENPOWER", "LASTRESORT", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "THUNDERWAVE", "TOXIC", "WILDCHARGE", "WORKUP", "WORRYSEED", "TAKEDOWN", "CHARM", "FAKETEARS", "AGILITY", "TRAILBLAZE", "BULLDOZE", "MAGICALLEAF", "DIG", "BULLETSEED", "ZENHEADBUTT", "BODYSLAM", "PLAYROUGH", "HELPINGHAND", "BATONPASS", "GRASSYTERRAIN", "LEAFSTORM", "GRASSYGLIDE", "DOUBLEEDGE", "ENDEAVOR")
+egg_move_tokens = PackedStringArray("AGILITY", "BATONPASS", "FAKETEARS", "GRASSWHISTLE", "HEADBUTT", "NATURALGIFT", "ODORSLEUTH", "SLEEPTALK", "SYNTHESIS", "WORRYSEED")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 19.5
+color = "Pink"
+shape = "Quadruped"
+category = "Estacional"
+pokedex = "Durante los cambios de estación su pelaje y olor cambian. Esto anuncia el comienzo de una estación."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "SAWSBUCK",
+"method": "Level",
+"param": "34"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Primavera"

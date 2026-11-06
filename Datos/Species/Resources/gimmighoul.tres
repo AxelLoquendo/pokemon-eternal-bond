@@ -1,0 +1,54 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cq8dqp6t10o1s"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_prp7p"]
+
+[resource]
+script = ExtResource("1_prp7p")
+id = 999
+name = "Gimmighoul"
+types = Array[int]([8])
+base_hp = 45
+base_atk = 30
+base_def = 70
+base_spe = 10
+base_spa = 75
+base_spd = 70
+base_exp = 60
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([155])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}])
+tutor_move_tokens = PackedStringArray("CONFUSERAY", "ENDURE", "HEX", "LIGHTSCREEN", "NASTYPLOT", "NIGHTSHADE", "POWERGEM", "PROTECT", "REFLECT", "REST", "SHADOWBALL", "SLEEPTALK", "SUBSTITUTE", "TAKEDOWN", "THIEF")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 12800
+height_m = 0.3
+weight_kg = 5.0
+color = "Brown"
+shape = "Head"
+category = "Cofre"
+habitat = "Urban"
+pokedex = "El cofre en el que nació data de hace 1500 años aproximadamente. Absorbe la energía vital de los granujas que intentan hacerse con su tesoro."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "GHOLDENGO",
+"method": "LevelCoins",
+"param": "999"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Cofre"

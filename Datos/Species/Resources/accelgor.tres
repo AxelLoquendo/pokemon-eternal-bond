@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://5y3yidh0hcjh"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ookft"]
+
+[resource]
+script = ExtResource("1_ookft")
+id = 617
+name = "Accelgor"
+types = Array[int]([7])
+base_hp = 80
+base_atk = 70
+base_def = 40
+base_spe = 145
+base_spa = 100
+base_spd = 60
+catch_rate = 75
+base_exp = 173
+abilities = Array[int]([93, 60])
+hidden_abilities = Array[int]([84])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERSHURIKEN"
+}, {
+"level": 1.0,
+"move": "ACID"
+}, {
+"level": 1.0,
+"move": "CURSE"
+}, {
+"level": 1.0,
+"move": "YAWN"
+}, {
+"level": 1.0,
+"move": "ACIDARMOR"
+}, {
+"level": 1.0,
+"move": "GUARDSWAP"
+}, {
+"level": 1.0,
+"move": "BODYSLAM"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 1.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 12.0,
+"move": "MEGADRAIN"
+}, {
+"level": 16.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 20.0,
+"move": "SWIFT"
+}, {
+"level": 24.0,
+"move": "AGILITY"
+}, {
+"level": 28.0,
+"move": "GIGADRAIN"
+}, {
+"level": 32.0,
+"move": "POWERSWAP"
+}, {
+"level": 36.0,
+"move": "UTURN"
+}, {
+"level": 40.0,
+"move": "RECOVER"
+}, {
+"level": 44.0,
+"move": "BUGBUZZ"
+}, {
+"level": 48.0,
+"move": "FINALGAMBIT"
+}, {
+"level": 52.0,
+"move": "TOXIC"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "BATONPASS", "BODYSLAM", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "DRAINPUNCH", "ENCORE", "ENDURE", "ENERGYBALL", "FACADE", "FOCUSBLAST", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GIGAIMPACT", "GUARDSWAP", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "KNOCKOFF", "LASERFOCUS", "LEECHLIFE", "MIMIC", "MUDSHOT", "NATURALGIFT", "POWERSWAP", "PROTECT", "RAINDANCE", "REST", "RETURN", "REVERSAL", "ROUND", "SANDSTORM", "SECRETPOWER", "SIGNALBEAM", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SPIKES", "STRUGGLEBUG", "SUBSTITUTE", "SWAGGER", "SWIFT", "TOXIC", "TOXICSPIKES", "UTURN", "VENOMDRENCH", "VENOSHOCK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.8
+weight_kg = 25.3
+color = "Red"
+shape = "HeadArms"
+category = "Sincaparazón"
+pokedex = "Se siente ligero una vez liberado de su caparazón. Lucha y se mueve como un ninja."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

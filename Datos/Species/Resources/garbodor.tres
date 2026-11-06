@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://crqu04kqfoied"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_0kv7f"]
+
+[resource]
+script = ExtResource("1_0kv7f")
+id = 569
+name = "Garbodor"
+types = Array[int]([4])
+base_hp = 80
+base_atk = 95
+base_def = 82
+base_spe = 75
+base_spa = 60
+base_spd = 82
+catch_rate = 60
+base_exp = 166
+abilities = Array[int]([1, 133])
+hidden_abilities = Array[int]([106])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TAKEDOWN"
+}, {
+"level": 1.0,
+"move": "METALCLAW"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "POISONGAS"
+}, {
+"level": 1.0,
+"move": "RECYCLE"
+}, {
+"level": 1.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 9.0,
+"move": "AMNESIA"
+}, {
+"level": 12.0,
+"move": "CLEARSMOG"
+}, {
+"level": 15.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 18.0,
+"move": "SLUDGE"
+}, {
+"level": 21.0,
+"move": "STOCKPILE"
+}, {
+"level": 21.0,
+"move": "SWALLOW"
+}, {
+"level": 24.0,
+"move": "BODYSLAM"
+}, {
+"level": 27.0,
+"move": "SLUDGEBOMB"
+}, {
+"level": 30.0,
+"move": "TOXIC"
+}, {
+"level": 33.0,
+"move": "BELCH"
+}, {
+"level": 39.0,
+"move": "PAINSPLIT"
+}, {
+"level": 43.0,
+"move": "GUNKSHOT"
+}, {
+"level": 48.0,
+"move": "EXPLOSION"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ATTRACT", "BODYPRESS", "BODYSLAM", "CAPTIVATE", "CONFIDE", "CORROSIVEGAS", "CROSSPOISON", "DARKPULSE", "DOUBLETEAM", "DRAINPUNCH", "ENDURE", "EXPLOSION", "FACADE", "FLING", "FOCUSBLAST", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GUNKSHOT", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "MIMIC", "NATURALGIFT", "PAINSPLIT", "PAYBACK", "PROTECT", "PSYCHIC", "RAINDANCE", "RECYCLE", "REST", "RETURN", "ROCKBLAST", "ROCKPOLISH", "ROUND", "SCREECH", "SECRETPOWER", "SEEDBOMB", "SELFDESTRUCT", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SMACKDOWN", "SNORE", "SOLARBEAM", "SPIKES", "SPITE", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "THIEF", "THUNDERBOLT", "TOXIC", "TOXICSPIKES", "VENOMDRENCH", "VENOSHOCK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 5120
+height_m = 1.9
+weight_kg = 107.3
+color = "Green"
+shape = "Bipedal"
+category = "Vertedero"
+pokedex = "Traga basura y la integra en su cuerpo. Despide veneno líquido por la punta de los dedos de su mano derecha."
+generation = 5
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "SILKSCARF"
+wild_item_uncommon = "BLACKSLUDGE"
+offspring = PackedStringArray()

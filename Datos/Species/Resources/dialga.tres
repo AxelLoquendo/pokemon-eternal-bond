@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cg6xaqmir2pna"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_2evu5"]
+
+[resource]
+script = ExtResource("1_2evu5")
+id = 483
+name = "Dialga"
+types = Array[int]([9, 16])
+base_hp = 100
+base_atk = 120
+base_def = 120
+base_spe = 90
+base_spa = 150
+base_spd = 100
+catch_rate = 3
+base_exp = 340
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([46])
+hidden_abilities = Array[int]([140])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCARYFACE"
+}, {
+"level": 1.0,
+"move": "METALCLAW"
+}, {
+"level": 8.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 16.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 24.0,
+"move": "SLASH"
+}, {
+"level": 32.0,
+"move": "FLASHCANNON"
+}, {
+"level": 40.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 48.0,
+"move": "AURASPHERE"
+}, {
+"level": 56.0,
+"move": "POWERGEM"
+}, {
+"level": 64.0,
+"move": "METALBURST"
+}, {
+"level": 72.0,
+"move": "EARTHPOWER"
+}, {
+"level": 80.0,
+"move": "IRONTAIL"
+}, {
+"level": 88.0,
+"move": "ROAROFTIME"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ANCIENTPOWER", "AURASPHERE", "BLIZZARD", "BODYPRESS", "BODYSLAM", "BREAKINGSWIPE", "BRICKBREAK", "BULKUP", "BULLDOZE", "CONFIDE", "CUT", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONPULSE", "DRAGONTAIL", "EARTHPOWER", "EARTHQUAKE", "ECHOEDVOICE", "ENDURE", "FACADE", "FIREBLAST", "FLAMETHROWER", "FLASH", "FLASHCANNON", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "GRAVITY", "HEADBUTT", "HEAVYSLAM", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "INCINERATE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGNETRISE", "MIMIC", "MUDSLAP", "NATURALGIFT", "OUTRAGE", "OVERHEAT", "POWERGEM", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SAFEGUARD", "SANDSTORM", "SCALESHOT", "SCARYFACE", "SECRETPOWER", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNORE", "STEALTHROCK", "STEELBEAM", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TRICKROOM", "TWISTER", "TAKEDOWN", "METALCLAW", "TRICK", "FOCUSBLAST", "METALSOUND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 5.4
+weight_kg = 683.0
+color = "White"
+shape = "Quadruped"
+category = "Temporal"
+pokedex = "Aparece en los mitos de Sinnoh como una vieja deidad. Tiene el poder de controlar el tiempo y viajar así libremente al pasado y al futuro."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

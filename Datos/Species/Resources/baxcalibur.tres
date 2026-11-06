@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ida7i4fe565j"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_qntqd"]
+
+[resource]
+script = ExtResource("1_qntqd")
+id = 998
+name = "Baxcalibur"
+types = Array[int]([16, 15])
+base_hp = 115
+base_atk = 145
+base_def = 92
+base_spe = 87
+base_spa = 75
+base_spd = 86
+catch_rate = 10
+base_exp = 300
+growth_rate = "Slow"
+abilities = Array[int]([292])
+hidden_abilities = Array[int]([115])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "GLAIVERUSH"
+}, {
+"level": 1.0,
+"move": "DRAGONTAIL"
+}, {
+"level": 1.0,
+"move": "BREAKINGSWIPE"
+}, {
+"level": 1.0,
+"move": "SNOWSCAPE"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "ICESHARD"
+}, {
+"level": 6.0,
+"move": "ICYWIND"
+}, {
+"level": 12.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 18.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 24.0,
+"move": "BITE"
+}, {
+"level": 29.0,
+"move": "ICEFANG"
+}, {
+"level": 35.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 42.0,
+"move": "TAKEDOWN"
+}, {
+"level": 48.0,
+"move": "ICEBEAM"
+}, {
+"level": 55.0,
+"move": "CRUNCH"
+}, {
+"level": 62.0,
+"move": "ICICLECRASH"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AVALANCHE", "BLIZZARD", "BODYPRESS", "BODYSLAM", "BREAKINGSWIPE", "BRICKBREAK", "BULLDOZE", "CRUNCH", "DIG", "DOUBLEEDGE", "DRACOMETEOR", "DRAGONCHEER", "DRAGONCLAW", "DRAGONDANCE", "DRAGONPULSE", "DRAGONTAIL", "EARTHQUAKE", "ENDURE", "FACADE", "FALSESWIPE", "GIGAIMPACT", "HELPINGHAND", "HIGHHORSEPOWER", "HYPERBEAM", "ICEBEAM", "ICEFANG", "ICICLESPEAR", "ICYWIND", "IRONHEAD", "OUTRAGE", "PROTECT", "RAINDANCE", "REST", "SCALESHOT", "SCARYFACE", "SLEEPTALK", "SNOWSCAPE", "STOMPINGTANTRUM", "SUBSTITUTE", "SWORDSDANCE", "TAKEDOWN", "THUNDERFANG", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Dragon", "Mineral")
+hatch_steps = 10240
+height_m = 2.1
+weight_kg = 210.0
+color = "Gray"
+shape = "BipedalTail"
+category = "Dragón Hielo"
+habitat = "Mountain"
+pokedex = "Exhala un aliento extremadamente frío por la boca que es capaz de congelar al instante incluso magma al rojo vivo."
+generation = 9
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

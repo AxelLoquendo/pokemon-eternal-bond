@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://batgdq7v7kfau"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gvg82"]
+
+[resource]
+script = ExtResource("1_gvg82")
+id = 439
+name = "Mime Jr."
+types = Array[int]([14, 18])
+base_hp = 20
+base_atk = 25
+base_def = 45
+base_spe = 60
+base_spa = 70
+base_spd = 90
+catch_rate = 145
+base_exp = 62
+abilities = Array[int]([43, 111])
+hidden_abilities = Array[int]([101])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "COPYCAT"
+}, {
+"level": 4.0,
+"move": "BATONPASS"
+}, {
+"level": 8.0,
+"move": "ENCORE"
+}, {
+"level": 12.0,
+"move": "CONFUSION"
+}, {
+"level": 16.0,
+"move": "ROLEPLAY"
+}, {
+"level": 20.0,
+"move": "PROTECT"
+}, {
+"level": 24.0,
+"move": "RECYCLE"
+}, {
+"level": 28.0,
+"move": "PSYBEAM"
+}, {
+"level": 32.0,
+"move": "MIMIC"
+}, {
+"level": 36.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 36.0,
+"move": "REFLECT"
+}, {
+"level": 36.0,
+"move": "SAFEGUARD"
+}, {
+"level": 40.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 44.0,
+"move": "DAZZLINGGLEAM"
+}, {
+"level": 48.0,
+"move": "PSYCHIC"
+}, {
+"level": 52.0,
+"move": "TEETERDANCE"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BATONPASS", "BRICKBREAK", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "COVET", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAINPUNCH", "DREAMEATER", "ENCORE", "ENDURE", "FACADE", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "FUTURESIGHT", "GRASSKNOT", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "ICYWIND", "INFESTATION", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MIMIC", "MISTYTERRAIN", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "PROTECT", "PSYCHIC", "PSYCHICTERRAIN", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "SOLARBEAM", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TORMENT", "TRICK", "TRICKROOM", "UPROAR", "WONDERROOM")
+egg_move_tokens = PackedStringArray("CHARM", "CONFUSERAY", "FAKEOUT", "FUTURESIGHT", "HEALINGWISH", "HYPNOSIS", "ICYWIND", "MAGICROOM", "MIMIC", "POWERSPLIT", "TEETERDANCE", "TICKLE", "TRICK")
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 6400
+height_m = 0.6
+weight_kg = 13.0
+color = "Pink"
+shape = "Bipedal"
+category = "Mimo"
+pokedex = "Suele imitar a sus enemigos. Cuando lo hace, su rival no puede apartar los ojos de él. Le gusta los sitios donde se reúne gente."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "MRMIME",
+"method": "HasMove",
+"param": "MIMIC"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+incense = "ODDINCENSE"
+offspring = PackedStringArray()

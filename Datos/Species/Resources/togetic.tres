@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dmux4aatb0enk"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ney17"]
+
+[resource]
+script = ExtResource("1_ney17")
+id = 176
+name = "Togetic"
+types = Array[int]([18, 3])
+base_hp = 55
+base_atk = 40
+base_def = 85
+base_spe = 40
+base_spa = 80
+base_spd = 105
+catch_rate = 75
+base_exp = 142
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Fast"
+abilities = Array[int]([55, 32])
+hidden_abilities = Array[int]([105])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FAIRYWIND"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "SWEETKISS"
+}, {
+"level": 1.0,
+"move": "LIFEDEW"
+}, {
+"level": 12.0,
+"move": "CHARM"
+}, {
+"level": 16.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 20.0,
+"move": "YAWN"
+}, {
+"level": 24.0,
+"move": "METRONOME"
+}, {
+"level": 28.0,
+"move": "AFTERYOU"
+}, {
+"level": 32.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 36.0,
+"move": "SAFEGUARD"
+}, {
+"level": 40.0,
+"move": "FOLLOWME"
+}, {
+"level": 44.0,
+"move": "BATONPASS"
+}, {
+"level": 48.0,
+"move": "LASTRESORT"
+}, {
+"level": 52.0,
+"move": "WISH"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AFTERYOU", "AIRCUTTER", "ANCIENTPOWER", "ATTRACT", "BATONPASS", "BODYSLAM", "BRICKBREAK", "CAPTIVATE", "CHARM", "CONFIDE", "COUNTER", "COVET", "DAZZLINGGLEAM", "DEFENSECURL", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "DRAININGKISS", "DRAINPUNCH", "DREAMEATER", "DUALWINGBEAT", "ECHOEDVOICE", "ENCORE", "ENDEAVOR", "ENDURE", "FACADE", "FIREBLAST", "FLAMETHROWER", "FLASH", "FLING", "FLY", "FOCUSPUNCH", "FRUSTRATION", "FUTURESIGHT", "GIGAIMPACT", "GRASSKNOT", "HEADBUTT", "HEALBELL", "HEATWAVE", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "HYPERVOICE", "IMPRISON", "INCINERATE", "LASTRESORT", "LIGHTSCREEN", "MAGICALLEAF", "MAGICCOAT", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "MYSTICALFIRE", "NASTYPLOT", "NATURALGIFT", "OMINOUSWIND", "PLAYROUGH", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "REFLECT", "REST", "RETALIATE", "RETURN", "ROCKSMASH", "ROLLOUT", "ROOST", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SILVERWIND", "SLEEPTALK", "SMARTSTRIKE", "SNORE", "SOFTBOILED", "SOLARBEAM", "STEELWING", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "TELEKINESIS", "THUNDERWAVE", "TRIATTACK", "TRICK", "TWISTER", "UPROAR", "WATERPULSE", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Flying", "Fairy")
+hatch_steps = 2560
+height_m = 0.6
+weight_kg = 3.2
+color = "White"
+shape = "Bipedal"
+category = "Felicidad"
+habitat = "Forest"
+pokedex = "Dicen que Togetic es un Pokémon que trae buena suerte y que, si detecta a alguien que tenga un corazón puro, viene para compartir su alegría con él."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "TOGEKISS",
+"method": "Item",
+"param": "SHINYSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 2.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

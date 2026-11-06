@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dx182mk0hdme5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_0esbw"]
+
+[resource]
+script = ExtResource("1_0esbw")
+id = 915
+name = "Lechonk"
+types = Array[int]([1])
+base_hp = 54
+base_atk = 45
+base_def = 40
+base_spe = 35
+base_spa = 35
+base_spd = 45
+catch_rate = 255
+base_exp = 51
+abilities = Array[int]([165, 82])
+hidden_abilities = Array[int]([47])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 8.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 12.0,
+"move": "MUDSHOT"
+}, {
+"level": 15.0,
+"move": "COVET"
+}, {
+"level": 17.0,
+"move": "DIG"
+}, {
+"level": 21.0,
+"move": "HEADBUTT"
+}, {
+"level": 24.0,
+"move": "YAWN"
+}, {
+"level": 27.0,
+"move": "TAKEDOWN"
+}, {
+"level": 30.0,
+"move": "WORKUP"
+}, {
+"level": 32.0,
+"move": "UPROAR"
+}, {
+"level": 35.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("BODYSLAM", "BULLDOZE", "BULLETSEED", "CHILLINGWATER", "CURSE", "DIG", "DISARMINGVOICE", "DOUBLEEDGE", "ENDEAVOR", "ENDURE", "FACADE", "HELPINGHAND", "HYPERVOICE", "IRONHEAD", "MUDSHOT", "MUDSLAP", "PLAYROUGH", "PROTECT", "RAINDANCE", "REST", "SEEDBOMB", "SLEEPTALK", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "TAKEDOWN", "THIEF", "TRAILBLAZE", "UPROAR", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("ENDEAVOR", "SPITUP", "STOCKPILE", "STUFFCHEEKS", "SWALLOW")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.5
+weight_kg = 10.2
+color = "Gray"
+shape = "Quadruped"
+category = "Gorrino"
+habitat = "Grassland"
+pokedex = "Posee un olfato muy desarrollado que emplea únicamente para buscar comida, actividad a la que dedica el día entero."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "OINKOLOGNE",
+"method": "Level",
+"param": "18"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

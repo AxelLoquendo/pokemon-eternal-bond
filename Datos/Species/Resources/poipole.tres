@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dngtphcd20jmp"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_3hw84"]
+
+[resource]
+script = ExtResource("1_3hw84")
+id = 803
+name = "Poipole"
+types = Array[int]([4])
+base_hp = 67
+base_atk = 73
+base_def = 67
+base_spe = 73
+base_spa = 73
+base_spd = 67
+base_exp = 210
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([224])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "HELPINGHAND"
+}, {
+"level": 1.0,
+"move": "ACID"
+}, {
+"level": 7.0,
+"move": "FURYATTACK"
+}, {
+"level": 14.0,
+"move": "FELLSTINGER"
+}, {
+"level": 21.0,
+"move": "CHARM"
+}, {
+"level": 28.0,
+"move": "VENOSHOCK"
+}, {
+"level": 35.0,
+"move": "VENOMDRENCH"
+}, {
+"level": 42.0,
+"move": "NASTYPLOT"
+}, {
+"level": 49.0,
+"move": "POISONJAB"
+}, {
+"level": 56.0,
+"move": "GASTROACID"
+}, {
+"level": 63.0,
+"move": "TOXIC"
+}])
+tutor_move_tokens = PackedStringArray("CHARM", "CONFIDE", "COVET", "DRAGONPULSE", "ECHOEDVOICE", "ENDURE", "FACADE", "FRUSTRATION", "GASTROACID", "GUNKSHOT", "HELPINGHAND", "HIDDENPOWER", "IRONTAIL", "MIMIC", "NASTYPLOT", "NATURALGIFT", "PINMISSILE", "POISONJAB", "PROTECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SIGNALBEAM", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNATCH", "SNORE", "SUBSTITUTE", "TOXIC", "TOXICSPIKES", "UPROAR", "VENOMDRENCH", "VENOSHOCK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 0.6
+weight_kg = 1.8
+color = "Purple"
+shape = "BipedalTail"
+category = "Pin Veneno"
+pokedex = "En su mundo, este Ultraente se considera tan entrañable como para ser elegido compañero de viaje."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "NAGANADEL",
+"method": "HasMove",
+"param": "DRAGONPULSE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray("UltraBeast")
+offspring = PackedStringArray()

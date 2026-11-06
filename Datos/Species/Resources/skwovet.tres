@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qmnmqwvdof3p"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hucdp"]
+
+[resource]
+script = ExtResource("1_hucdp")
+id = 819
+name = "Skwovet"
+types = Array[int]([1])
+base_hp = 70
+base_atk = 55
+base_def = 55
+base_spe = 25
+base_spa = 35
+base_spd = 35
+catch_rate = 255
+base_exp = 55
+abilities = Array[int]([167])
+hidden_abilities = Array[int]([82])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 5.0,
+"move": "BITE"
+}, {
+"level": 10.0,
+"move": "STUFFCHEEKS"
+}, {
+"level": 15.0,
+"move": "STOCKPILE"
+}, {
+"level": 15.0,
+"move": "SWALLOW"
+}, {
+"level": 15.0,
+"move": "SPITUP"
+}, {
+"level": 20.0,
+"move": "BODYSLAM"
+}, {
+"level": 25.0,
+"move": "REST"
+}, {
+"level": 30.0,
+"move": "COUNTER"
+}, {
+"level": 35.0,
+"move": "BULLETSEED"
+}, {
+"level": 40.0,
+"move": "SUPERFANG"
+}, {
+"level": 45.0,
+"move": "BELCH"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ASSURANCE", "ATTRACT", "BODYSLAM", "BRUTALSWING", "BULLETSEED", "CAPTIVATE", "CONFIDE", "CRUNCH", "DIG", "DOUBLETEAM", "ENDURE", "FACADE", "FLING", "FRUSTRATION", "GYROBALL", "HIDDENPOWER", "HYPERVOICE", "IRONTAIL", "MIMIC", "MUDSHOT", "NATURALGIFT", "PAYBACK", "PROTECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "TAILSLAP", "THIEF", "TOXIC", "UPROAR", "TAKEDOWN", "MUDSLAP", "TRAILBLAZE", "SUPERFANG", "DOUBLEEDGE", "ENDEAVOR", "CURSE")
+egg_move_tokens = PackedStringArray("BELLYDRUM", "DEFENSECURL", "LASTRESORT", "ROLLOUT")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 2.5
+color = "Brown"
+shape = "BipedalTail"
+category = "Abazón"
+pokedex = "Siempre están comiendo bayas, por lo que son más robustos de lo que aparentan. Frecuentan los huertos en busca de su preciado manjar."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "GREEDENT",
+"method": "Level",
+"param": "24"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "ORANBERRY"
+offspring = PackedStringArray()

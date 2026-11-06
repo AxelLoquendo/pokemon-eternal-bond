@@ -1,0 +1,68 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dqsjhi4xj3qqo"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_0c0am"]
+
+[resource]
+script = ExtResource("1_0c0am")
+id = 236
+name = "Tyrogue"
+types = Array[int]([2])
+base_hp = 35
+base_atk = 35
+base_def = 35
+base_spe = 35
+base_spa = 35
+base_spd = 35
+catch_rate = 75
+base_exp = 42
+gender_ratio = "AlwaysMale"
+abilities = Array[int]([62, 80])
+hidden_abilities = Array[int]([72])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HELPINGHAND"
+}, {
+"level": 1.0,
+"move": "FAKEOUT"
+}, {
+"level": 1.0,
+"move": "FOCUSENERGY"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "COVET", "DOUBLEEDGE", "DOUBLETEAM", "EARTHQUAKE", "ENDURE", "FACADE", "FOCUSENERGY", "FRUSTRATION", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "LASERFOCUS", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROLEPLAY", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "THIEF", "UPROAR", "VACUUMWAVE", "WORKUP", "TAKEDOWN", "UPPERHAND")
+egg_move_tokens = PackedStringArray("BULLETPUNCH", "COUNTER", "FEINT", "HELPINGHAND", "HIGHJUMPKICK", "MACHPUNCH", "MINDREADER", "RAPIDSPIN", "VACUUMWAVE")
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 6400
+height_m = 0.7
+weight_kg = 21.0
+color = "Purple"
+shape = "Bipedal"
+category = "Peleón"
+habitat = "Urban"
+pokedex = "Se pone demasiado nervioso si no lo sacan a entrenarse cada día. Por esta razón, su entrenador debe mantener una rutina de entrenamiento regular durante la cría."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "HITMONLEE",
+"method": "AttackGreater",
+"param": "20"
+}, {
+"into": "HITMONCHAN",
+"method": "DefenseGreater",
+"param": "20"
+}, {
+"into": "HITMONTOP",
+"method": "AtkDefEqual",
+"param": "20"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

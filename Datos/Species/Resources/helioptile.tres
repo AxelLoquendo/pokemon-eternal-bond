@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cbwtmwo1obvd3"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ylv3r"]
+
+[resource]
+script = ExtResource("1_ylv3r")
+id = 694
+name = "Helioptile"
+types = Array[int]([13, 1])
+base_hp = 44
+base_atk = 38
+base_def = 33
+base_spe = 70
+base_spa = 61
+base_spd = 43
+catch_rate = 190
+base_exp = 58
+abilities = Array[int]([87, 8])
+hidden_abilities = Array[int]([94])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 4.0,
+"move": "POUND"
+}, {
+"level": 8.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 12.0,
+"move": "QUICKATTACK"
+}, {
+"level": 16.0,
+"move": "CHARGE"
+}, {
+"level": 20.0,
+"move": "BULLDOZE"
+}, {
+"level": 24.0,
+"move": "VOLTSWITCH"
+}, {
+"level": 28.0,
+"move": "PARABOLICCHARGE"
+}, {
+"level": 32.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 36.0,
+"move": "THUNDERBOLT"
+}, {
+"level": 40.0,
+"move": "ELECTRIFY"
+}, {
+"level": 44.0,
+"move": "THUNDER"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ALLYSWITCH", "ATTRACT", "BULLDOZE", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "CUT", "DARKPULSE", "DIG", "DOUBLETEAM", "DRAGONTAIL", "ELECTRICTERRAIN", "ELECTROBALL", "ELECTROWEB", "ENDURE", "FACADE", "FLASH", "FRUSTRATION", "GRASSKNOT", "HIDDENPOWER", "IRONTAIL", "LIGHTSCREEN", "LOWSWEEP", "MAGNETRISE", "MIMIC", "NATURALGIFT", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SANDSTORM", "SCALESHOT", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TOXIC", "UTURN", "VOLTSWITCH", "WILDCHARGE")
+egg_move_tokens = PackedStringArray("DRAGONRUSH", "DRAGONTAIL", "GLARE")
+egg_groups = PackedStringArray("Monster", "Dragon")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 6.0
+color = "Yellow"
+shape = "BipedalTail"
+category = "Generador"
+pokedex = "Habita en los desiertos y, cuando toma el sol, acumula energía, lo que le permite vivir sin la necesidad de ingerir alimentos."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "HELIOLISK",
+"method": "Item",
+"param": "SUNSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

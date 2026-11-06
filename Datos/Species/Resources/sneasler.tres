@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://vf0ono6p7nqx"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cvj3m"]
+
+[resource]
+script = ExtResource("1_cvj3m")
+id = 903
+name = "Sneasler"
+types = Array[int]([2, 4])
+base_hp = 80
+base_atk = 130
+base_def = 60
+base_spe = 120
+base_spa = 40
+base_spd = 80
+catch_rate = 20
+base_exp = 102
+base_happiness = 35
+growth_rate = "Parabolic"
+abilities = Array[int]([46, 84])
+hidden_abilities = Array[int]([143])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "DIRECLAW"
+}, {
+"level": 1.0,
+"move": "FLING"
+}, {
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "ROCKSMASH"
+}, {
+"level": 6.0,
+"move": "TAUNT"
+}, {
+"level": 12.0,
+"move": "QUICKATTACK"
+}, {
+"level": 18.0,
+"move": "METALCLAW"
+}, {
+"level": 24.0,
+"move": "POISONJAB"
+}, {
+"level": 30.0,
+"move": "BRICKBREAK"
+}, {
+"level": 36.0,
+"move": "HONECLAWS"
+}, {
+"level": 42.0,
+"move": "SLASH"
+}, {
+"level": 48.0,
+"move": "AGILITY"
+}, {
+"level": 54.0,
+"move": "SCREECH"
+}, {
+"level": 60.0,
+"move": "CLOSECOMBAT"
+}])
+tutor_move_tokens = PackedStringArray("ACIDSPRAY", "ACROBATICS", "AERIALACE", "AGILITY", "BRICKBREAK", "BULKUP", "CALMMIND", "CLOSECOMBAT", "COACHING", "DIG", "ENDURE", "FACADE", "FALSESWIPE", "FIREPUNCH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "GIGAIMPACT", "GRASSKNOT", "GUNKSHOT", "HYPERBEAM", "LASHOUT", "LOWKICK", "LOWSWEEP", "METALCLAW", "NASTYPLOT", "POISONJAB", "POISONTAIL", "PROTECT", "RAINDANCE", "REST", "REVERSAL", "ROCKSLIDE", "ROCKTOMB", "SHADOWBALL", "SHADOWCLAW", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SPITE", "SUBSTITUTE", "SUNNYDAY", "SWIFT", "SWORDSDANCE", "TAKEDOWN", "TAUNT", "THIEF", "THROATCHOP", "TOXIC", "TOXICSPIKES", "TRAILBLAZE", "UPPERHAND", "UTURN", "VACUUMWAVE", "VENOSHOCK", "XSCISSOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5355
+height_m = 1.3
+weight_kg = 43.0
+color = "Blue"
+shape = "BipedalTail"
+category = "Escalada"
+habitat = "Mountain"
+pokedex = "Gracias a su fortaleza física y potente veneno, ninguna especie de las alturas heladas le planta cara. Es de personalidad solitaria y no forma manadas."
+generation = 8
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("DefaultForm_1", "InheritFormWithEverStone")
+offspring = PackedStringArray()

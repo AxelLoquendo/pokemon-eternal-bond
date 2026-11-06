@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bg1t1a7bm3dxk"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_j35i1"]
+
+[resource]
+script = ExtResource("1_j35i1")
+id = 370
+name = "Luvdisc"
+types = Array[int]([11])
+base_hp = 43
+base_atk = 30
+base_def = 55
+base_spe = 97
+base_spa = 40
+base_spd = 65
+catch_rate = 225
+base_exp = 116
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+abilities = Array[int]([33])
+hidden_abilities = Array[int]([93])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "CHARM"
+}, {
+"level": 4.0,
+"move": "WATERGUN"
+}, {
+"level": 7.0,
+"move": "AGILITY"
+}, {
+"level": 13.0,
+"move": "TEARFULLOOK"
+}, {
+"level": 13.0,
+"move": "WISH"
+}, {
+"level": 17.0,
+"move": "WATERPULSE"
+}, {
+"level": 20.0,
+"move": "ATTRACT"
+}, {
+"level": 22.0,
+"move": "DRAININGKISS"
+}, {
+"level": 22.0,
+"move": "BRINE"
+}, {
+"level": 26.0,
+"move": "FLAIL"
+}, {
+"level": 31.0,
+"move": "SWEETKISS"
+}, {
+"level": 34.0,
+"move": "TAKEDOWN"
+}, {
+"level": 37.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 40.0,
+"move": "AQUARING"
+}, {
+"level": 42.0,
+"move": "SOAK"
+}, {
+"level": 46.0,
+"move": "HYDROPUMP"
+}, {
+"level": 49.0,
+"move": "SAFEGUARD"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BOUNCE", "BRINE", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FRUSTRATION", "HAIL", "HIDDENPOWER", "ICEBEAM", "ICYWIND", "LIQUIDATION", "MIMIC", "NATURALGIFT", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "TAKEDOWN", "CHARM", "AGILITY", "DRAININGKISS", "SNOWSCAPE", "HYDROPUMP", "FLIPTURN", "SCALESHOT", "ENDEAVOR")
+egg_move_tokens = PackedStringArray("AQUAJET", "AQUARING", "ENTRAINMENT", "HEALPULSE", "SPLASH", "SUPERSONIC")
+egg_groups = PackedStringArray("Water2")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 8.7
+color = "Pink"
+shape = "Finned"
+category = "Cita"
+habitat = "Sea"
+pokedex = "Para Luvdisc, las ramas de Corsola son su nido. Existe una antigua costumbre que consiste en regalar un Luvdisc para expresar un sentimiento amoroso."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+wild_item_common = "HEARTSCALE"
+offspring = PackedStringArray()

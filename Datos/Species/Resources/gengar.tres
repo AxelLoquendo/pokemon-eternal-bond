@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://1fm7qfnwdb1i"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_5l1yd"]
+
+[resource]
+script = ExtResource("1_5l1yd")
+id = 94
+name = "Gengar"
+types = Array[int]([8, 4])
+base_hp = 60
+base_atk = 65
+base_def = 60
+base_spe = 110
+base_spa = 130
+base_spd = 75
+base_exp = 250
+growth_rate = "Parabolic"
+abilities = Array[int]([130])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SHADOWPUNCH"
+}, {
+"level": 1.0,
+"move": "PERISHSONG"
+}, {
+"level": 1.0,
+"move": "REFLECTTYPE"
+}, {
+"level": 1.0,
+"move": "LICK"
+}, {
+"level": 1.0,
+"move": "CONFUSERAY"
+}, {
+"level": 1.0,
+"move": "HYPNOSIS"
+}, {
+"level": 1.0,
+"move": "MEANLOOK"
+}, {
+"level": 12.0,
+"move": "PAYBACK"
+}, {
+"level": 16.0,
+"move": "SPITE"
+}, {
+"level": 20.0,
+"move": "CURSE"
+}, {
+"level": 24.0,
+"move": "HEX"
+}, {
+"level": 30.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 36.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 42.0,
+"move": "DARKPULSE"
+}, {
+"level": 48.0,
+"move": "SHADOWBALL"
+}, {
+"level": 54.0,
+"move": "DESTINYBOND"
+}, {
+"level": 60.0,
+"move": "DREAMEATER"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BODYSLAM", "BRICKBREAK", "CAPTIVATE", "CONFIDE", "CORROSIVEGAS", "COUNTER", "DARKPULSE", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DREAMEATER", "DYNAMICPUNCH", "EMBARGO", "ENCORE", "ENDURE", "ENERGYBALL", "EXPLOSION", "FACADE", "FIREPUNCH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FOULPLAY", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "HEADBUTT", "HEX", "HIDDENPOWER", "HYPERBEAM", "ICEPUNCH", "ICYWIND", "IMPRISON", "INFESTATION", "KNOCKOFF", "LASERFOCUS", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "NASTYPLOT", "NATURALGIFT", "OMINOUSWIND", "PAINSPLIT", "PAYBACK", "PHANTOMFORCE", "POISONJAB", "POLTERGEIST", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROCKSMASH", "ROLEPLAY", "ROUND", "SCARYFACE", "SECRETPOWER", "SEISMICTOSS", "SELFDESTRUCT", "SHADOWBALL", "SHADOWCLAW", "SKILLSWAP", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNATCH", "SNORE", "SPITE", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "TORMENT", "TOXIC", "TRICK", "TRICKROOM", "UPROAR", "VENOSHOCK", "WILLOWISP", "WONDERROOM", "ACIDSPRAY", "CONFUSERAY", "NIGHTSHADE", "THUNDERWAVE", "TOXICSPIKES", "GUNKSHOT", "HAZE", "CURSE", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 1.5
+weight_kg = 40.5
+color = "Purple"
+shape = "BipedalTail"
+category = "Sombra"
+habitat = "Cave"
+pokedex = "Si una noche oscura ves que tu sombra se adelanta de repente, en realidad estarás viendo a Gengar haciéndose pasar por la misma."
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

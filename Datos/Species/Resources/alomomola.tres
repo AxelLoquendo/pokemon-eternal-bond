@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://6g8h26pwc28p"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ihtgf"]
+
+[resource]
+script = ExtResource("1_ihtgf")
+id = 594
+name = "Alomomola"
+types = Array[int]([11])
+base_hp = 165
+base_atk = 75
+base_def = 80
+base_spe = 65
+base_spa = 40
+base_spd = 45
+catch_rate = 75
+base_exp = 165
+growth_rate = "Fast"
+abilities = Array[int]([131, 93])
+hidden_abilities = Array[int]([144])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PLAYNICE"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "WATERSPORT"
+}, {
+"level": 5.0,
+"move": "AQUARING"
+}, {
+"level": 9.0,
+"move": "AQUAJET"
+}, {
+"level": 13.0,
+"move": "WIDEGUARD"
+}, {
+"level": 13.0,
+"move": "HELPINGHAND"
+}, {
+"level": 13.0,
+"move": "DOUBLESLAP"
+}, {
+"level": 17.0,
+"move": "HEALPULSE"
+}, {
+"level": 21.0,
+"move": "PROTECT"
+}, {
+"level": 25.0,
+"move": "WATERPULSE"
+}, {
+"level": 29.0,
+"move": "HEALINGWISH"
+}, {
+"level": 29.0,
+"move": "WAKEUPSLAP"
+}, {
+"level": 33.0,
+"move": "SOAK"
+}, {
+"level": 37.0,
+"move": "WISH"
+}, {
+"level": 41.0,
+"move": "BRINE"
+}, {
+"level": 45.0,
+"move": "SAFEGUARD"
+}, {
+"level": 49.0,
+"move": "WHIRLPOOL"
+}, {
+"level": 55.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BOUNCE", "CALMMIND", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLETEAM", "ENDURE", "FACADE", "FRUSTRATION", "HAIL", "HELPINGHAND", "HIDDENPOWER", "ICEBEAM", "ICYWIND", "KNOCKOFF", "LIGHTSCREEN", "LIQUIDATION", "MAGICCOAT", "MIMIC", "NATURALGIFT", "PAINSPLIT", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SCALD", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "WATERFALL", "WATERPULSE", "TAKEDOWN", "ACROBATICS", "CHILLINGWATER", "SNOWSCAPE", "ZENHEADBUTT", "BODYSLAM", "SKILLSWAP", "PLAYROUGH", "BATONPASS", "MISTYTERRAIN", "HYDROPUMP", "GIGAIMPACT", "HYPERBEAM", "FLIPTURN", "SCALESHOT", "WHIRLPOOL", "ALLURINGVOICE")
+egg_move_tokens = PackedStringArray("ENDURE", "MIRRORCOAT", "MIST", "PAINSPLIT", "REFRESH", "TICKLE")
+egg_groups = PackedStringArray("Water1", "Water2")
+hatch_steps = 10240
+height_m = 1.2
+weight_kg = 31.6
+color = "Pink"
+shape = "Finned"
+category = "Socorrista"
+pokedex = "Vive flotando a la deriva en mar abierto. Siempre que encuentra un Pokémon herido, lo abraza y lo lleva a la costa."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

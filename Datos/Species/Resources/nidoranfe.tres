@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://df00wly2pjfn7"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_jiwgv"]
+
+[resource]
+script = ExtResource("1_jiwgv")
+id = 29
+name = "Nidoran♀"
+types = Array[int]([4])
+base_hp = 55
+base_atk = 47
+base_def = 52
+base_spe = 41
+base_spa = 40
+base_spd = 40
+catch_rate = 235
+base_exp = 55
+gender_ratio = "AlwaysFemale"
+growth_rate = "Parabolic"
+abilities = Array[int]([38, 79])
+hidden_abilities = Array[int]([55])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 5.0,
+"move": "SCRATCH"
+}, {
+"level": 10.0,
+"move": "TAILWHIP"
+}, {
+"level": 15.0,
+"move": "FURYSWIPES"
+}, {
+"level": 20.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 25.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 30.0,
+"move": "BITE"
+}, {
+"level": 35.0,
+"move": "HELPINGHAND"
+}, {
+"level": 40.0,
+"move": "TOXIC"
+}, {
+"level": 45.0,
+"move": "FLATTER"
+}, {
+"level": 50.0,
+"move": "CRUNCH"
+}, {
+"level": 55.0,
+"move": "EARTHPOWER"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BEATUP", "BLIZZARD", "BODYSLAM", "CAPTIVATE", "CHARM", "CONFIDE", "COUNTER", "CRUNCH", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "ECHOEDVOICE", "ENDURE", "FACADE", "FOCUSENERGY", "FRUSTRATION", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HONECLAWS", "ICEBEAM", "IRONTAIL", "MIMIC", "MUDSLAP", "NATURALGIFT", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSMASH", "ROUND", "SECRETPOWER", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SWAGGER", "THIEF", "THUNDER", "THUNDERBOLT", "TOXIC", "TOXICSPIKES", "VENOMDRENCH", "VENOSHOCK", "WATERPULSE")
+egg_move_tokens = PackedStringArray("BEATUP", "CHARM", "COUNTER", "DISABLE", "FOCUSENERGY", "POISONFANG", "POISONTAIL", "SKULLBASH", "SUPERSONIC", "TAKEDOWN", "VENOMDRENCH")
+egg_groups = PackedStringArray("Monster", "Field")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 7.0
+color = "Blue"
+shape = "Quadruped"
+category = "Pin Veneno"
+habitat = "Grassland"
+pokedex = "Dado su pequeño tamaño, se cree que desarrolló las púas venenosas a modo de protección. Cuando se enfada, libera una horrible sustancia tóxica por el cuerno."
+evolutions = Array[Dictionary]([{
+"into": "NIDORINA",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray("NIDORANfE", "NIDORANmA")

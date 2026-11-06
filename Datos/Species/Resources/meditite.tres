@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c6hb2vjob8v0q"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_nequq"]
+
+[resource]
+script = ExtResource("1_nequq")
+id = 307
+name = "Meditite"
+types = Array[int]([2, 14])
+base_hp = 30
+base_atk = 40
+base_def = 55
+base_spe = 60
+base_spa = 40
+base_spd = 55
+catch_rate = 180
+base_exp = 56
+abilities = Array[int]([74])
+hidden_abilities = Array[int]([140])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 1.0,
+"move": "WORKUP"
+}, {
+"level": 4.0,
+"move": "LOWKICK"
+}, {
+"level": 9.0,
+"move": "DETECT"
+}, {
+"level": 12.0,
+"move": "ENDURE"
+}, {
+"level": 15.0,
+"move": "FEINT"
+}, {
+"level": 17.0,
+"move": "FORCEPALM"
+}, {
+"level": 20.0,
+"move": "PSYBEAM"
+}, {
+"level": 23.0,
+"move": "CALMMIND"
+}, {
+"level": 25.0,
+"move": "MINDREADER"
+}, {
+"level": 25.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 28.0,
+"move": "HIGHJUMPKICK"
+}, {
+"level": 31.0,
+"move": "PSYCHUP"
+}, {
+"level": 33.0,
+"move": "ACUPRESSURE"
+}, {
+"level": 36.0,
+"move": "POWERTRICK"
+}, {
+"level": 39.0,
+"move": "REVERSAL"
+}, {
+"level": 41.0,
+"move": "RECOVER"
+}, {
+"level": 44.0,
+"move": "COUNTER"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BRICKBREAK", "BULKUP", "CALMMIND", "CAPTIVATE", "CONFIDE", "COUNTER", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DREAMEATER", "DYNAMICPUNCH", "ENDURE", "FACADE", "FIREPUNCH", "FLASH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GRASSKNOT", "GRAVITY", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "ICEPUNCH", "LIGHTSCREEN", "LOWKICK", "LOWSWEEP", "MAGICCOAT", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAINSPLIT", "POISONJAB", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETALIATE", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLEPLAY", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SIGNALBEAM", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "VACUUMWAVE", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "PSYBEAM", "THIEF", "TRAILBLAZE", "AERIALACE", "STOREDPOWER", "NIGHTSHADE", "TAUNT", "IMPRISON", "SKILLSWAP", "BATONPASS", "REVERSAL", "PSYCHICTERRAIN", "TRICKROOM", "CLOSECOMBAT", "EXPANDINGFORCE", "UPPERHAND")
+egg_move_tokens = PackedStringArray("BATONPASS", "BULLETPUNCH", "DYNAMICPUNCH", "FAKEOUT", "FIREPUNCH", "GUARDSWAP", "ICEPUNCH", "POWERSWAP", "PSYCHOCUT", "QUICKGUARD", "THUNDERPUNCH")
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 11.2
+color = "Blue"
+shape = "Bipedal"
+category = "Meditador"
+habitat = "Mountain"
+pokedex = "Medita sin parar durante muchas horas al día. Su práctica del yoga es rigurosa; como resultado, logra canalizar su energía espiritual hasta llegar a volar."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "MEDICHAM",
+"method": "Level",
+"param": "37"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

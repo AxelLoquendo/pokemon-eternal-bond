@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dwoaiwupmnog5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hfd0a"]
+
+[resource]
+script = ExtResource("1_hfd0a")
+id = 942
+name = "Maschiff"
+types = Array[int]([17])
+base_hp = 60
+base_atk = 78
+base_def = 60
+base_spe = 51
+base_spa = 40
+base_spd = 51
+catch_rate = 150
+base_exp = 68
+growth_rate = "Parabolic"
+abilities = Array[int]([22, 50])
+hidden_abilities = Array[int]([198])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "SCARYFACE"
+}, {
+"level": 4.0,
+"move": "LICK"
+}, {
+"level": 7.0,
+"move": "SNARL"
+}, {
+"level": 10.0,
+"move": "HONECLAWS"
+}, {
+"level": 14.0,
+"move": "BITE"
+}, {
+"level": 18.0,
+"move": "ROAR"
+}, {
+"level": 22.0,
+"move": "HEADBUTT"
+}, {
+"level": 26.0,
+"move": "PAYBACK"
+}, {
+"level": 31.0,
+"move": "CRUNCH"
+}, {
+"level": 35.0,
+"move": "SWAGGER"
+}, {
+"level": 39.0,
+"move": "REVERSAL"
+}, {
+"level": 43.0,
+"move": "JAWLOCK"
+}, {
+"level": 49.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("BODYSLAM", "CHARM", "CRUNCH", "DARKPULSE", "DIG", "DOUBLEEDGE", "ENDEAVOR", "ENDURE", "FACADE", "FAKETEARS", "FIREFANG", "HELPINGHAND", "ICEFANG", "LASHOUT", "PLAYROUGH", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "REVERSAL", "ROAR", "SCARYFACE", "SLEEPTALK", "SNARL", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "TAUNT", "THIEF", "THUNDERFANG", "TRAILBLAZE")
+egg_move_tokens = PackedStringArray("DESTINYBOND", "ENDEAVOR", "PLAYROUGH", "RETALIATE")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 16.0
+color = "Brown"
+shape = "Quadruped"
+category = "Rascal"
+habitat = "Urban"
+pokedex = "Mantiene el ceño fruncido para que sus rivales lo tomen en serio, pero hasta el niño más llorón estallaría en carcajadas al ver su mueca."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "MABOSSTIFF",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

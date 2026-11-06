@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://vdcgowqfupwt"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_nk16t"]
+
+[resource]
+script = ExtResource("1_nk16t")
+id = 972
+name = "Houndstone"
+types = Array[int]([8])
+base_hp = 72
+base_atk = 101
+base_def = 100
+base_spe = 68
+base_spa = 50
+base_spd = 97
+catch_rate = 60
+base_exp = 171
+growth_rate = "Parabolic"
+abilities = Array[int]([146])
+hidden_abilities = Array[int]([218])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "LASTRESPECTS"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 3.0,
+"move": "LICK"
+}, {
+"level": 6.0,
+"move": "TAILWHIP"
+}, {
+"level": 6.0,
+"move": "BITE"
+}, {
+"level": 9.0,
+"move": "ROAR"
+}, {
+"level": 12.0,
+"move": "HEADBUTT"
+}, {
+"level": 16.0,
+"move": "DIG"
+}, {
+"level": 24.0,
+"move": "REST"
+}, {
+"level": 28.0,
+"move": "CRUNCH"
+}, {
+"level": 36.0,
+"move": "PLAYROUGH"
+}, {
+"level": 41.0,
+"move": "HELPINGHAND"
+}, {
+"level": 46.0,
+"move": "PHANTOMFORCE"
+}, {
+"level": 51.0,
+"move": "CHARM"
+}, {
+"level": 58.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("BODYPRESS", "BULLDOZE", "CHARM", "CONFUSERAY", "CRUNCH", "DIG", "DOUBLEEDGE", "ENDEAVOR", "ENDURE", "FACADE", "FIREFANG", "GIGAIMPACT", "HELPINGHAND", "HEX", "HYPERBEAM", "ICEFANG", "MUDSHOT", "MUDSLAP", "NIGHTSHADE", "PAINSPLIT", "PHANTOMFORCE", "PLAYROUGH", "POLTERGEIST", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "ROAR", "SANDSTORM", "SCARYFACE", "SHADOWBALL", "SLEEPTALK", "SNARL", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "THIEF", "THUNDERFANG", "TRICK", "UPROAR", "WILLOWISP")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 2.0
+weight_kg = 15.0
+color = "White"
+shape = "Quadruped"
+category = "Can Fantasma"
+habitat = "Mountain"
+pokedex = "Pasa la mayor parte del tiempo durmiendo en cementerios. De todos los Pokémon perro, es el que profesa una mayor lealtad por su Entrenador."
+generation = 9
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

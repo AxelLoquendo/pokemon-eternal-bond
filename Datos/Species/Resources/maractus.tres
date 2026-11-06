@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bc5nwavut6pkm"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_yogoq"]
+
+[resource]
+script = ExtResource("1_yogoq")
+id = 556
+name = "Maractus"
+types = Array[int]([12])
+base_hp = 75
+base_atk = 86
+base_def = 67
+base_spe = 60
+base_spa = 106
+base_spd = 67
+catch_rate = 255
+base_exp = 161
+abilities = Array[int]([11, 34])
+hidden_abilities = Array[int]([114])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SPIKYSHIELD"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "AFTERYOU"
+}, {
+"level": 1.0,
+"move": "INGRAIN"
+}, {
+"level": 4.0,
+"move": "GROWTH"
+}, {
+"level": 8.0,
+"move": "MEGADRAIN"
+}, {
+"level": 12.0,
+"move": "LEECHSEED"
+}, {
+"level": 16.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 20.0,
+"move": "PINMISSILE"
+}, {
+"level": 24.0,
+"move": "GIGADRAIN"
+}, {
+"level": 28.0,
+"move": "SWEETSCENT"
+}, {
+"level": 32.0,
+"move": "SYNTHESIS"
+}, {
+"level": 36.0,
+"move": "PETALBLIZZARD"
+}, {
+"level": 40.0,
+"move": "COTTONSPORE"
+}, {
+"level": 44.0,
+"move": "SUNNYDAY"
+}, {
+"level": 48.0,
+"move": "SOLARBEAM"
+}, {
+"level": 52.0,
+"move": "ACUPRESSURE"
+}, {
+"level": 56.0,
+"move": "PETALDANCE"
+}, {
+"level": 60.0,
+"move": "COTTONGUARD"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AFTERYOU", "ASSURANCE", "ATTRACT", "BOUNCE", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "DRAINPUNCH", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "KNOCKOFF", "LEAFSTORM", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PINMISSILE", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SCREECH", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SOLARBEAM", "SPIKES", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "THROATCHOP", "TOXIC", "UPROAR", "WEATHERBALL", "WORRYSEED")
+egg_move_tokens = PackedStringArray("WOODHAMMER", "WORRYSEED")
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 28.0
+color = "Green"
+shape = "HeadBase"
+category = "Cactus"
+pokedex = "Vive en territorio árido. Emite un sonido parecido a unas maracas si se mueve de forma rítmica."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MIRACLESEED"
+offspring = PackedStringArray()

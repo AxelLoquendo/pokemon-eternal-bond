@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dv1a57667lmv0"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_elksh"]
+
+[resource]
+script = ExtResource("1_elksh")
+id = 696
+name = "Tyrunt"
+types = Array[int]([6, 16])
+base_hp = 58
+base_atk = 89
+base_def = 77
+base_spe = 48
+base_spa = 45
+base_spd = 45
+base_exp = 72
+gender_ratio = "FemaleOneEighth"
+abilities = Array[int]([173])
+hidden_abilities = Array[int]([5])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 4.0,
+"move": "ROAR"
+}, {
+"level": 8.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 12.0,
+"move": "CHARM"
+}, {
+"level": 16.0,
+"move": "BITE"
+}, {
+"level": 20.0,
+"move": "DRAGONTAIL"
+}, {
+"level": 24.0,
+"move": "STOMP"
+}, {
+"level": 28.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 32.0,
+"move": "CRUNCH"
+}, {
+"level": 36.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 40.0,
+"move": "THRASH"
+}, {
+"level": 44.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 48.0,
+"move": "HORNDRILL"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ASSURANCE", "ATTRACT", "BLOCK", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CHARM", "CLOSECOMBAT", "CONFIDE", "CRUNCH", "DARKPULSE", "DIG", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONDANCE", "DRAGONPULSE", "DRAGONTAIL", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FIREFANG", "FRUSTRATION", "HIDDENPOWER", "HONECLAWS", "HYPERVOICE", "ICEFANG", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LASHOUT", "METEORBEAM", "MIMIC", "NATURALGIFT", "OUTRAGE", "PLAYROUGH", "PROTECT", "PSYCHICFANGS", "REST", "RETURN", "ROAR", "ROCKBLAST", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SCALESHOT", "SCARYFACE", "SECRETPOWER", "SLEEPTALK", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "THUNDERFANG", "TOXIC", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("CURSE", "POISONFANG", "ROCKPOLISH", "ROCKTHROW")
+egg_groups = PackedStringArray("Monster", "Dragon")
+hatch_steps = 7680
+height_m = 0.8
+weight_kg = 26.0
+color = "Brown"
+shape = "BipedalTail"
+category = "Heredero"
+pokedex = "Pokémon recreado a partir de fósiles. Cuando sucede algo que no es de su agrado, se enfurece y se vuelve violento."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "TYRANTRUM",
+"method": "LevelDay",
+"param": "39"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

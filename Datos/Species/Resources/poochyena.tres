@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b0foga7tepvyu"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_7py7s"]
+
+[resource]
+script = ExtResource("1_7py7s")
+id = 261
+name = "Poochyena"
+types = Array[int]([17])
+base_hp = 35
+base_atk = 55
+base_def = 35
+base_spe = 35
+base_spa = 30
+base_spd = 30
+catch_rate = 255
+base_exp = 56
+abilities = Array[int]([50, 95])
+hidden_abilities = Array[int]([155])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 4.0,
+"move": "HOWL"
+}, {
+"level": 7.0,
+"move": "SANDATTACK"
+}, {
+"level": 10.0,
+"move": "BITE"
+}, {
+"level": 13.0,
+"move": "MUDSLAP"
+}, {
+"level": 13.0,
+"move": "LEER"
+}, {
+"level": 16.0,
+"move": "ROAR"
+}, {
+"level": 19.0,
+"move": "SWAGGER"
+}, {
+"level": 22.0,
+"move": "ASSURANCE"
+}, {
+"level": 25.0,
+"move": "SCARYFACE"
+}, {
+"level": 28.0,
+"move": "HEADBUTT"
+}, {
+"level": 28.0,
+"move": "TAUNT"
+}, {
+"level": 31.0,
+"move": "CRUNCH"
+}, {
+"level": 34.0,
+"move": "YAWN"
+}, {
+"level": 36.0,
+"move": "TAKEDOWN"
+}, {
+"level": 40.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 44.0,
+"move": "PLAYROUGH"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "CAPTIVATE", "CONFIDE", "COUNTER", "COVET", "DARKPULSE", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EMBARGO", "ENDURE", "FACADE", "FOULPLAY", "FRUSTRATION", "HEADBUTT", "HIDDENPOWER", "HYPERVOICE", "INCINERATE", "IRONTAIL", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSMASH", "ROUND", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SNARL", "SNATCH", "SNORE", "SPITE", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SUPERFANG", "SWAGGER", "TAUNT", "THIEF", "TORMENT", "UPROAR", "TAKEDOWN", "CHARM", "SCARYFACE", "FIREFANG", "THUNDERFANG", "ICEFANG", "TRAILBLAZE", "PSYCHICFANGS", "CRUNCH", "PLAYROUGH", "HELPINGHAND", "LASHOUT", "ENDEAVOR")
+egg_move_tokens = PackedStringArray("ASTONISH", "COVET", "FIREFANG", "ICEFANG", "LEER", "PLAYROUGH", "POISONFANG", "SUCKERPUNCH", "THUNDERFANG", "YAWN")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.5
+weight_kg = 13.6
+color = "Gray"
+shape = "Quadruped"
+category = "Mordisco"
+habitat = "Grassland"
+pokedex = "Amenaza al enemigo enseñándole con violencia los colmillos. Persigue a su presa cuando huye, pero, si le atacan, sale huyendo a todo correr."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "MIGHTYENA",
+"method": "Level",
+"param": "18"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

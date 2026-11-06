@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bd3h1djjtsk7k"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_pqxjy"]
+
+[resource]
+script = ExtResource("1_pqxjy")
+id = 747
+name = "Mareanie"
+types = Array[int]([4, 11])
+base_hp = 50
+base_atk = 53
+base_def = 62
+base_spe = 45
+base_spa = 43
+base_spd = 52
+catch_rate = 190
+base_exp = 61
+abilities = Array[int]([196, 7])
+hidden_abilities = Array[int]([144])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 5.0,
+"move": "WIDEGUARD"
+}, {
+"level": 10.0,
+"move": "BITE"
+}, {
+"level": 15.0,
+"move": "VENOSHOCK"
+}, {
+"level": 20.0,
+"move": "RECOVER"
+}, {
+"level": 25.0,
+"move": "PINMISSILE"
+}, {
+"level": 30.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 35.0,
+"move": "LIQUIDATION"
+}, {
+"level": 40.0,
+"move": "VENOMDRENCH"
+}, {
+"level": 40.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 45.0,
+"move": "POISONJAB"
+}, {
+"level": 50.0,
+"move": "TOXIC"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BLIZZARD", "BRINE", "CAPTIVATE", "CONFIDE", "COVET", "DOUBLETEAM", "ENDURE", "FACADE", "FROSTBREATH", "FRUSTRATION", "GASTROACID", "GUNKSHOT", "HAIL", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "INFESTATION", "IRONDEFENSE", "KNOCKOFF", "LIQUIDATION", "MAGICCOAT", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PAINSPLIT", "PAYBACK", "PINMISSILE", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SCALD", "SECRETPOWER", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNATCH", "SNORE", "SPITE", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "TOXICSPIKES", "VENOMDRENCH", "VENOSHOCK", "WATERPULSE", "ACIDSPRAY", "POUNCE", "CHILLINGWATER", "ICESPINNER", "HAZE", "LUNGE")
+egg_move_tokens = PackedStringArray("HAZE", "INFESTATION", "SPITUP", "STOCKPILE", "SWALLOW")
+egg_groups = PackedStringArray("Water1")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 8.0
+color = "Blue"
+shape = "HeadBase"
+category = "Estrellatroz"
+pokedex = "Reptan por las profundidades marinas o junto a la costa. Les encantan las ramas de coral que crecen en la cabeza de los Corsola."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "TOXAPEX",
+"method": "Level",
+"param": "38"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "POISONBARB"
+offspring = PackedStringArray()

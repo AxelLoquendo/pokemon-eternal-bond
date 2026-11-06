@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://2yi5yxy8780y"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_sk6rq"]
+
+[resource]
+script = ExtResource("1_sk6rq")
+id = 737
+name = "Charjabug"
+types = Array[int]([7, 13])
+base_hp = 57
+base_atk = 82
+base_def = 95
+base_spe = 36
+base_spa = 55
+base_spd = 75
+catch_rate = 120
+base_exp = 140
+abilities = Array[int]([217])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "CHARGE"
+}, {
+"level": 1.0,
+"move": "VISEGRIP"
+}, {
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 1.0,
+"move": "STRINGSHOT"
+}, {
+"level": 1.0,
+"move": "BUGBITE"
+}, {
+"level": 15.0,
+"move": "BITE"
+}, {
+"level": 23.0,
+"move": "SPARK"
+}, {
+"level": 29.0,
+"move": "STICKYWEB"
+}, {
+"level": 36.0,
+"move": "XSCISSOR"
+}, {
+"level": 43.0,
+"move": "CRUNCH"
+}, {
+"level": 50.0,
+"move": "DIG"
+}, {
+"level": 57.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 64.0,
+"move": "DISCHARGE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "ATTRACT", "BUGBITE", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "CRUNCH", "DIG", "DOUBLETEAM", "EERIEIMPULSE", "ELECTROBALL", "ELECTROWEB", "ENDURE", "FACADE", "FRUSTRATION", "HIDDENPOWER", "IRONDEFENSE", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "MUDSHOT", "NATURALGIFT", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROUND", "SCREECH", "SECRETPOWER", "SHOCKWAVE", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "THUNDERBOLT", "THUNDERWAVE", "TOXIC", "VOLTSWITCH", "WILDCHARGE", "XSCISSOR", "TAKEDOWN", "MUDSLAP", "STRUGGLEBUG", "POUNCE", "BATONPASS", "ELECTRICTERRAIN", "THUNDER", "CHARGE", "LUNGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.5
+weight_kg = 10.5
+color = "Green"
+shape = "Serpentine"
+category = "Batería"
+pokedex = "Escondido bajo la hojarasca, permanece casi inmóvil mientras come humus con fruición. Quien lo pisa en un descuido se lleva una descarga."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "VIKAVOLT",
+"method": "Item",
+"param": "THUNDERSTONE"
+}, {
+"into": "VIKAVOLT",
+"method": "LocationFlag",
+"param": "Magnetic"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "CELLBATTERY"
+offspring = PackedStringArray()

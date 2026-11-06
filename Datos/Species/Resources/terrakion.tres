@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cdu4joj0erbg2"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_f0fhk"]
+
+[resource]
+script = ExtResource("1_f0fhk")
+id = 639
+name = "Terrakion"
+types = Array[int]([6, 2])
+base_hp = 91
+base_atk = 129
+base_def = 90
+base_spe = 108
+base_spa = 72
+base_spd = 90
+catch_rate = 3
+base_exp = 290
+base_happiness = 35
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([154])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "HELPINGHAND"
+}, {
+"level": 1.0,
+"move": "WORKUP"
+}, {
+"level": 7.0,
+"move": "SMACKDOWN"
+}, {
+"level": 14.0,
+"move": "QUICKGUARD"
+}, {
+"level": 21.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 28.0,
+"move": "RETALIATE"
+}, {
+"level": 35.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 42.0,
+"move": "TAKEDOWN"
+}, {
+"level": 49.0,
+"move": "SACREDSWORD"
+}, {
+"level": 56.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 63.0,
+"move": "STONEEDGE"
+}, {
+"level": 70.0,
+"move": "CLOSECOMBAT"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AIRSLASH", "BLOCK", "BRICKBREAK", "BULLDOZE", "CALMMIND", "CLOSECOMBAT", "COACHING", "CONFIDE", "CUT", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FALSESWIPE", "FOCUSBLAST", "FRUSTRATION", "GIGAIMPACT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "IRONHEAD", "LASERFOCUS", "MEGAHORN", "MIMIC", "NATURALGIFT", "POISONJAB", "PROTECT", "PSYCHUP", "REFLECT", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROAR", "ROCKBLAST", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SAFEGUARD", "SANDSTORM", "SCARYFACE", "SECRETPOWER", "SLEEPTALK", "SMACKDOWN", "SMARTSTRIKE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "TOXIC", "WORKUP", "XSCISSOR", "ZENHEADBUTT", "TAKEDOWN", "BODYSLAM", "AURASPHERE", "HIGHHORSEPOWER", "DOUBLEEDGE", "UPPERHAND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 20480
+height_m = 1.9
+weight_kg = 260.0
+color = "Gray"
+shape = "Quadruped"
+category = "Gruta"
+pokedex = "Su potencia al embestir es capaz de derribar las murallas de un castillo. Las leyendas hablan de sus proezas."
+generation = 5
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dv2hsf62pyqnp"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_81ycv"]
+
+[resource]
+script = ExtResource("1_81ycv")
+id = 356
+name = "Dusclops"
+types = Array[int]([8])
+base_hp = 40
+base_atk = 70
+base_def = 130
+base_spe = 25
+base_spa = 60
+base_spd = 130
+catch_rate = 90
+base_exp = 159
+base_happiness = 35
+growth_rate = "Fast"
+abilities = Array[int]([46])
+hidden_abilities = Array[int]([119])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "SHADOWPUNCH"
+}, {
+"level": 1.0,
+"move": "FIREPUNCH"
+}, {
+"level": 1.0,
+"move": "ICEPUNCH"
+}, {
+"level": 1.0,
+"move": "THUNDERPUNCH"
+}, {
+"level": 1.0,
+"move": "GRAVITY"
+}, {
+"level": 1.0,
+"move": "BIND"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "DISABLE"
+}, {
+"level": 1.0,
+"move": "SHADOWSNEAK"
+}, {
+"level": 12.0,
+"move": "CONFUSERAY"
+}, {
+"level": 16.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 20.0,
+"move": "PAYBACK"
+}, {
+"level": 24.0,
+"move": "WILLOWISP"
+}, {
+"level": 28.0,
+"move": "MEANLOOK"
+}, {
+"level": 32.0,
+"move": "HEX"
+}, {
+"level": 36.0,
+"move": "CURSE"
+}, {
+"level": 42.0,
+"move": "SHADOWBALL"
+}, {
+"level": 48.0,
+"move": "FUTURESIGHT"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BIND", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COUNTER", "DARKPULSE", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "DYNAMICPUNCH", "EARTHQUAKE", "EMBARGO", "ENDURE", "FACADE", "FIREPUNCH", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "FUTURESIGHT", "GIGAIMPACT", "GRAVITY", "HEADBUTT", "HELPINGHAND", "HEX", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICEPUNCH", "ICYWIND", "IMPRISON", "INFESTATION", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "PAINSPLIT", "PAYBACK", "POLTERGEIST", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "REVENGE", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SKILLSWAP", "SKITTERSMACK", "SLEEPTALK", "SNATCH", "SNORE", "SPITE", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERPUNCH", "TORMENT", "TRICK", "TRICKROOM", "WILLOWISP", "WONDERROOM", "CONFUSERAY", "NIGHTSHADE", "LEECHLIFE", "PHANTOMFORCE", "HAZE", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 6400
+height_m = 1.6
+weight_kg = 30.6
+color = "Black"
+shape = "Bipedal"
+category = "Atrayente"
+habitat = "Forest"
+pokedex = "Se piensa que su cuerpo es hueco y que sólo contiene una fantasmagórica bola de fuego. Con todo, nadie ha podido confirmar esta teoría."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "DUSKNOIR",
+"method": "CableLinkItem",
+"param": "REAPERCLOTH"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SPELLTAG"
+offspring = PackedStringArray()

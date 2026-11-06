@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://mss75m8as52i"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_w37m0"]
+
+[resource]
+script = ExtResource("1_w37m0")
+id = 328
+name = "Trapinch"
+types = Array[int]([5])
+base_hp = 45
+base_atk = 100
+base_def = 45
+base_spe = 10
+base_spa = 45
+base_spd = 45
+catch_rate = 255
+base_exp = 58
+growth_rate = "Parabolic"
+abilities = Array[int]([52, 71])
+hidden_abilities = Array[int]([125])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SANDATTACK"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 4.0,
+"move": "LASERFOCUS"
+}, {
+"level": 8.0,
+"move": "BITE"
+}, {
+"level": 12.0,
+"move": "MUDSLAP"
+}, {
+"level": 16.0,
+"move": "SANDTOMB"
+}, {
+"level": 20.0,
+"move": "BULLDOZE"
+}, {
+"level": 24.0,
+"move": "DIG"
+}, {
+"level": 28.0,
+"move": "CRUNCH"
+}, {
+"level": 32.0,
+"move": "SANDSTORM"
+}, {
+"level": 36.0,
+"move": "EARTHPOWER"
+}, {
+"level": 40.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 44.0,
+"move": "SUPERPOWER"
+}, {
+"level": 48.0,
+"move": "FISSURE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BUGBITE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FOCUSENERGY", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PROTECT", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCORCHINGSANDS", "SECRETPOWER", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRENGTH", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "TAKEDOWN", "STEALTHROCK", "STONEEDGE")
+egg_move_tokens = PackedStringArray("BUGBITE", "EARTHPOWER", "FEINT", "FIRSTIMPRESSION", "FLAIL", "FOCUSENERGY", "FURYCUTTER", "GUST", "MUDSHOT", "QUICKATTACK")
+egg_groups = PackedStringArray("Bug", "Dragon")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 15.0
+color = "Brown"
+shape = "Insectoid"
+category = "Hormigaleón"
+habitat = "RoughTerrain"
+pokedex = "Tiene unas enormes fauces con las que destruye piedras. Como tiene una cabeza muy grande, le cuesta conseguir ponerse de pie si se cae de espaldas."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "VIBRAVA",
+"method": "Level",
+"param": "35"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SOFTSAND"
+offspring = PackedStringArray()

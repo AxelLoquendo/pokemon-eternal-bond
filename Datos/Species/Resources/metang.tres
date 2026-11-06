@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cnog26anh21mv"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_lye6e"]
+
+[resource]
+script = ExtResource("1_lye6e")
+id = 375
+name = "Metang"
+types = Array[int]([9, 14])
+base_hp = 60
+base_atk = 75
+base_def = 100
+base_spe = 50
+base_spa = 55
+base_spd = 80
+catch_rate = 3
+base_exp = 147
+base_happiness = 35
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([29])
+hidden_abilities = Array[int]([135])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "CONFUSION"
+}, {
+"level": 0.0,
+"move": "METALCLAW"
+}, {
+"level": 1.0,
+"move": "BULLETPUNCH"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HONECLAWS"
+}, {
+"level": 6.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 12.0,
+"move": "MAGNETRISE"
+}, {
+"level": 18.0,
+"move": "FLASHCANNON"
+}, {
+"level": 26.0,
+"move": "TAKEDOWN"
+}, {
+"level": 34.0,
+"move": "PSYCHIC"
+}, {
+"level": 42.0,
+"move": "SCARYFACE"
+}, {
+"level": 50.0,
+"move": "METEORMASH"
+}, {
+"level": 58.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 66.0,
+"move": "AGILITY"
+}, {
+"level": 74.0,
+"move": "HYPERBEAM"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "ALLYSWITCH", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CONFIDE", "COSMICPOWER", "CUT", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHQUAKE", "ENDURE", "EXPANDINGFORCE", "EXPLOSION", "FACADE", "FLASH", "FLASHCANNON", "FRUSTRATION", "FURYCUTTER", "GRASSKNOT", "GRAVITY", "GYROBALL", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "LIGHTSCREEN", "MAGNETRISE", "METEORBEAM", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "PSYCHOCUT", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SCARYFACE", "SECRETPOWER", "SELFDESTRUCT", "SHADOWBALL", "SIGNALBEAM", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "STEALTHROCK", "STEELBEAM", "STEELROLLER", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TELEKINESIS", "THUNDERPUNCH", "TRICK", "ZENHEADBUTT", "TAKEDOWN", "TRAILBLAZE", "METALCLAW", "HEAVYSLAM", "GIGAIMPACT", "FOCUSPUNCH", "FUTURESIGHT", "HARDPRESS", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 10240
+height_m = 1.2
+weight_kg = 202.5
+color = "Blue"
+shape = "HeadArms"
+category = "Garrahierro"
+habitat = "RoughTerrain"
+pokedex = "Sus brazos acaban en unas garras que acumulan energía destructiva con la que rasga planchas de hierro como si fueran de papel. Vuela a más de 100 km por hora."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "METAGROSS",
+"method": "Level",
+"param": "45"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "METALCOAT"
+offspring = PackedStringArray()

@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bsxcbk4l0p7py"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_qws4b"]
+
+[resource]
+script = ExtResource("1_qws4b")
+id = 867
+name = "Runerigus"
+types = Array[int]([5, 8])
+base_hp = 58
+base_atk = 95
+base_def = 145
+base_spe = 30
+base_spa = 50
+base_spd = 105
+catch_rate = 90
+base_exp = 169
+abilities = Array[int]([254])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SHADOWCLAW"
+}, {
+"level": 1.0,
+"move": "SCARYFACE"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 1.0,
+"move": "HAZE"
+}, {
+"level": 1.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 12.0,
+"move": "DISABLE"
+}, {
+"level": 16.0,
+"move": "BRUTALSWING"
+}, {
+"level": 20.0,
+"move": "CRAFTYSHIELD"
+}, {
+"level": 24.0,
+"move": "HEX"
+}, {
+"level": 28.0,
+"move": "MEANLOOK"
+}, {
+"level": 32.0,
+"move": "SLAM"
+}, {
+"level": 38.0,
+"move": "CURSE"
+}, {
+"level": 44.0,
+"move": "SHADOWBALL"
+}, {
+"level": 50.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 56.0,
+"move": "POWERSPLIT"
+}, {
+"level": 56.0,
+"move": "GUARDSPLIT"
+}, {
+"level": 62.0,
+"move": "DESTINYBOND"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "AMNESIA", "ATTRACT", "BODYPRESS", "BRUTALSWING", "BULLDOZE", "CALMMIND", "CAPTIVATE", "CONFIDE", "DARKPULSE", "DOUBLEEDGE", "DOUBLETEAM", "DRAGONPULSE", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "ENERGYBALL", "FACADE", "FAKETEARS", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "GUARDSWAP", "HEX", "HIDDENPOWER", "HYPERBEAM", "IMPRISON", "IRONDEFENSE", "MIMIC", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "PHANTOMFORCE", "POLTERGEIST", "POWERSWAP", "PROTECT", "PSYCHIC", "RAINDANCE", "REST", "RETURN", "REVENGE", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SAFEGUARD", "SANDSTORM", "SANDTOMB", "SCARYFACE", "SECRETPOWER", "SHADOWBALL", "SHADOWCLAW", "SKILLSWAP", "SLEEPTALK", "SNORE", "STEALTHROCK", "STONEEDGE", "SUBSTITUTE", "SWAGGER", "TAUNT", "THIEF", "TOXIC", "TOXICSPIKES", "TRICK", "TRICKROOM", "WILLOWISP", "WONDERROOM", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("MEMENTO")
+egg_groups = PackedStringArray("Mineral", "Amorphous")
+hatch_steps = 6400
+height_m = 1.6
+weight_kg = 66.6
+color = "Gray"
+shape = "HeadBase"
+category = "Resquemor"
+pokedex = "Una poderosa maldición pesa sobre esta antigua imagen grabada, que ha cobrado vida tras adueñarse del alma de Yamask."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("DefaultForm_1", "InheritFormWithEverStone")
+offspring = PackedStringArray()

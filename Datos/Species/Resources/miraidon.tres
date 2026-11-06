@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://0jjhthnvyvje"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_njnm2"]
+
+[resource]
+script = ExtResource("1_njnm2")
+id = 1008
+name = "Miraidon"
+types = Array[int]([13, 16])
+base_hp = 100
+base_atk = 85
+base_def = 100
+base_spe = 135
+base_spa = 135
+base_spd = 115
+catch_rate = 3
+base_exp = 335
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([278])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 1.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 1.0,
+"move": "ELECTRICTERRAIN"
+}, {
+"level": 7.0,
+"move": "SHOCKWAVE"
+}, {
+"level": 14.0,
+"move": "CHARGE"
+}, {
+"level": 21.0,
+"move": "PARABOLICCHARGE"
+}, {
+"level": 28.0,
+"move": "DISCHARGE"
+}, {
+"level": 35.0,
+"move": "AGILITY"
+}, {
+"level": 42.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 56.0,
+"move": "ELECTRODRIFT"
+}, {
+"level": 63.0,
+"move": "METALSOUND"
+}, {
+"level": 70.0,
+"move": "MIRRORCOAT"
+}, {
+"level": 77.0,
+"move": "OUTRAGE"
+}, {
+"level": 84.0,
+"move": "THUNDER"
+}, {
+"level": 91.0,
+"move": "OVERHEAT"
+}, {
+"level": 98.0,
+"move": "HYPERBEAM"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AGILITY", "BODYSLAM", "CALMMIND", "CHARGE", "CHARGEBEAM", "CONFUSERAY", "CRUNCH", "DAZZLINGGLEAM", "DRACOMETEOR", "DRAGONCHEER", "DRAGONCLAW", "DRAGONPULSE", "DRAGONTAIL", "EERIEIMPULSE", "ELECTRICTERRAIN", "ELECTROBALL", "ENDURE", "FACADE", "FLASHCANNON", "GIGAIMPACT", "HEAVYSLAM", "HELPINGHAND", "HYPERBEAM", "LIGHTSCREEN", "METALSOUND", "OUTRAGE", "OVERHEAT", "POWERGEM", "PROTECT", "REFLECT", "REST", "SCARYFACE", "SLEEPTALK", "SNARL", "SOLARBEAM", "SUBSTITUTE", "SUPERCELLSLAM", "SWORDSDANCE", "TAKEDOWN", "TAUNT", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "UTURN", "VOLTSWITCH", "WILDCHARGE", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 12800
+height_m = 3.5
+weight_kg = 240.0
+color = "Blue"
+shape = "Quadruped"
+category = "Paradoja"
+habitat = "Rare"
+pokedex = "Pese a las similitudes con los Cyclizar, es mucho más fuerte y despiadado que ellos. Está rodeado de incógnitas."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Paradox", "Legendary")
+offspring = PackedStringArray()

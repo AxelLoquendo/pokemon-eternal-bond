@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cbtb36lw2udo5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_sunam"]
+
+[resource]
+script = ExtResource("1_sunam")
+id = 769
+name = "Sandygast"
+types = Array[int]([8, 5])
+base_hp = 55
+base_atk = 55
+base_def = 80
+base_spe = 15
+base_spa = 70
+base_spd = 45
+catch_rate = 140
+base_exp = 64
+abilities = Array[int]([195])
+hidden_abilities = Array[int]([8])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 5.0,
+"move": "ASTONISH"
+}, {
+"level": 10.0,
+"move": "SANDTOMB"
+}, {
+"level": 15.0,
+"move": "MEGADRAIN"
+}, {
+"level": 20.0,
+"move": "SANDATTACK"
+}, {
+"level": 25.0,
+"move": "BULLDOZE"
+}, {
+"level": 30.0,
+"move": "HYPNOSIS"
+}, {
+"level": 35.0,
+"move": "GIGADRAIN"
+}, {
+"level": 40.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 45.0,
+"move": "SHADOWBALL"
+}, {
+"level": 50.0,
+"move": "EARTHPOWER"
+}, {
+"level": 55.0,
+"move": "SHOREUP"
+}, {
+"level": 60.0,
+"move": "SANDSTORM"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "AMNESIA", "ATTRACT", "BLOCK", "BRINE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "ENERGYBALL", "FACADE", "FRUSTRATION", "GIGADRAIN", "GRAVITY", "HIDDENPOWER", "INFESTATION", "IRONDEFENSE", "MIMIC", "MUDSHOT", "NATURALGIFT", "PAINSPLIT", "POLTERGEIST", "PROTECT", "PSYCHIC", "RECYCLE", "REST", "RETURN", "ROCKPOLISH", "ROCKSLIDE", "ROCKTOMB", "ROLEPLAY", "ROUND", "SANDSTORM", "SANDTOMB", "SCORCHINGSANDS", "SECRETPOWER", "SHADOWBALL", "SKILLSWAP", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SPITE", "STEALTHROCK", "STONEEDGE", "SUBSTITUTE", "SWAGGER", "TOXIC", "TRICK", "MUDSLAP", "SCARYFACE", "CONFUSERAY", "CHILLINGWATER", "HEX", "NIGHTSHADE", "FLING", "SUNNYDAY", "RAINDANCE", "IMPRISON", "FLASHCANNON", "CURSE")
+egg_move_tokens = PackedStringArray("ANCIENTPOWER", "CURSE", "DESTINYBOND", "SPITUP", "STOCKPILE", "SWALLOW")
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 3840
+height_m = 0.5
+weight_kg = 70.0
+color = "Brown"
+shape = "Serpentine"
+category = "Montiarena"
+pokedex = "Los montículos de arena que los niños no allanan antes de irse a casa pueden acabar poseídos por un espíritu y convertirse en este Pokémon."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "PALOSSAND",
+"method": "Level",
+"param": "42"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SPELLTAG"
+offspring = PackedStringArray()

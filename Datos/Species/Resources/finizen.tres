@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dhaquy0tg1c08"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cx801"]
+
+[resource]
+script = ExtResource("1_cx801")
+id = 963
+name = "Finizen"
+types = Array[int]([11])
+base_hp = 70
+base_atk = 45
+base_def = 40
+base_spe = 75
+base_spa = 45
+base_spd = 40
+catch_rate = 200
+base_exp = 63
+growth_rate = "Slow"
+abilities = Array[int]([41])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "SUPERSONIC"
+}, {
+"level": 7.0,
+"move": "ASTONISH"
+}, {
+"level": 10.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 13.0,
+"move": "AQUAJET"
+}, {
+"level": 17.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 21.0,
+"move": "DIVE"
+}, {
+"level": 25.0,
+"move": "CHARM"
+}, {
+"level": 29.0,
+"move": "ACROBATICS"
+}, {
+"level": 34.0,
+"move": "ENCORE"
+}, {
+"level": 39.0,
+"move": "AQUATAIL"
+}, {
+"level": 44.0,
+"move": "MIST"
+}, {
+"level": 50.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AGILITY", "BLIZZARD", "BODYSLAM", "CHARM", "CHILLINGWATER", "DISARMINGVOICE", "DRAININGKISS", "ENCORE", "ENDURE", "FACADE", "FLING", "HAZE", "HELPINGHAND", "HYDROPUMP", "ICEBEAM", "ICYWIND", "LIQUIDATION", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "SLEEPTALK", "SUBSTITUTE", "SURF", "SWIFT", "TAKEDOWN", "WATERFALL", "WATERPULSE", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("BOOMBURST", "BOUNCE", "COUNTER", "HAZE", "TICKLE")
+egg_groups = PackedStringArray("Field", "Water2")
+hatch_steps = 10240
+height_m = 1.3
+weight_kg = 60.2
+color = "Blue"
+shape = "Finned"
+category = "Delfín"
+habitat = "Sea"
+pokedex = "Le gusta jugar con sus congéneres con el anillo de agua de su aleta caudal. Utiliza ultrasonidos para percibir las emociones de otros seres."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "PALAFIN",
+"method": "Level",
+"param": "38"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

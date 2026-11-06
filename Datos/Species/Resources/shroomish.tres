@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://sg1phipa4qi0"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ev5ra"]
+
+[resource]
+script = ExtResource("1_ev5ra")
+id = 285
+name = "Shroomish"
+types = Array[int]([12])
+base_hp = 60
+base_atk = 40
+base_def = 60
+base_spe = 35
+base_spa = 40
+base_spd = 60
+catch_rate = 255
+base_exp = 59
+growth_rate = "Fluctuating"
+abilities = Array[int]([27, 90])
+hidden_abilities = Array[int]([95])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "STUNSPORE"
+}, {
+"level": 8.0,
+"move": "LEECHSEED"
+}, {
+"level": 12.0,
+"move": "MEGADRAIN"
+}, {
+"level": 15.0,
+"move": "HEADBUTT"
+}, {
+"level": 19.0,
+"move": "POISONPOWDER"
+}, {
+"level": 22.0,
+"move": "WORRYSEED"
+}, {
+"level": 26.0,
+"move": "GIGADRAIN"
+}, {
+"level": 29.0,
+"move": "GROWTH"
+}, {
+"level": 33.0,
+"move": "TOXIC"
+}, {
+"level": 36.0,
+"move": "SEEDBOMB"
+}, {
+"level": 40.0,
+"move": "SPORE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "ENDURE", "ENERGYBALL", "FACADE", "FALSESWIPE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "MIMIC", "NATURALGIFT", "PROTECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNATCH", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "TOXIC", "VENOSHOCK", "WORRYSEED", "TAKEDOWN", "CHARM", "FAKETEARS", "POUNCE", "SWIFT", "MAGICALLEAF", "RAINDANCE", "ZENHEADBUTT", "GUNKSHOT", "GRASSYTERRAIN")
+egg_move_tokens = PackedStringArray("CHARM", "FAKETEARS", "HELPINGHAND", "SEEDBOMB", "WORRYSEED")
+egg_groups = PackedStringArray("Fairy", "Grass")
+hatch_steps = 3840
+height_m = 0.4
+weight_kg = 4.5
+color = "Brown"
+shape = "HeadLegs"
+category = "Hongo"
+habitat = "Forest"
+pokedex = "Le encanta alimentarse de la tierra abonada y húmeda de los bosques. Si vas a un bosque después de que haya llovido, verás a Shroomish engullendo tierra."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "BRELOOM",
+"method": "Level",
+"param": "23"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "TINYMUSHROOM"
+wild_item_uncommon = "BIGMUSHROOM"
+offspring = PackedStringArray()

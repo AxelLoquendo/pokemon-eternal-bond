@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bfks6nb1ugiky"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_rriih"]
+
+[resource]
+script = ExtResource("1_rriih")
+id = 186
+name = "Politoed"
+types = Array[int]([11])
+base_hp = 90
+base_atk = 75
+base_def = 75
+base_spe = 70
+base_spa = 90
+base_spd = 100
+base_exp = 250
+growth_rate = "Parabolic"
+abilities = Array[int]([11, 6])
+hidden_abilities = Array[int]([2])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "BOUNCE"
+}, {
+"level": -1.0,
+"move": "SWAGGER"
+}, {
+"level": -1.0,
+"move": "HYPERVOICE"
+}, {
+"level": -1.0,
+"move": "PERISHSONG"
+}, {
+"level": -1.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": -1.0,
+"move": "BODYSLAM"
+}, {
+"level": -1.0,
+"move": "EARTHPOWER"
+}, {
+"level": -1.0,
+"move": "WATERGUN"
+}, {
+"level": -1.0,
+"move": "HYPNOSIS"
+}, {
+"level": -1.0,
+"move": "MUDSHOT"
+}, {
+"level": 1.0,
+"move": "RAINDANCE"
+}, {
+"level": 1.0,
+"move": "HYDROPUMP"
+}, {
+"level": 1.0,
+"move": "BELLYDRUM"
+}, {
+"level": 1.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 1.0,
+"move": "POUND"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BODYSLAM", "BOUNCE", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "DEFENSECURL", "DIG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHPOWER", "EARTHQUAKE", "ECHOEDVOICE", "ENCORE", "ENDEAVOR", "ENDURE", "FACADE", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICEPUNCH", "ICYWIND", "LIQUIDATION", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDDYWATER", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PAYBACK", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "RAINDANCE", "REST", "RETURN", "ROCKSMASH", "ROUND", "SCALD", "SCREECH", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "THIEF", "UPROAR", "WATERFALL", "WATERPULSE", "WEATHERBALL", "WHIRLPOOL", "TAKEDOWN", "LOWKICK", "CHILLINGWATER", "SWIFT", "LOWSWEEP", "AMNESIA", "HAZE", "PSYCHUP")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1")
+hatch_steps = 5120
+height_m = 1.1
+weight_kg = 33.9
+color = "Green"
+shape = "Bipedal"
+category = "Rana"
+habitat = "WatersEdge"
+pokedex = "El mechón rizado de Politoed confirma su condición de rey. Dicen que cuanto más le crece y más se le riza, mayor es el respeto que recibe de sus súbditos."
+generation = 2
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 3.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "KINGSROCK"
+offspring = PackedStringArray()

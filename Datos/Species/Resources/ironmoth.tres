@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dhscjef1xrkpf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_llcgj"]
+
+[resource]
+script = ExtResource("1_llcgj")
+id = 994
+name = "Ferropolilla"
+types = Array[int]([10, 4])
+base_hp = 80
+base_atk = 70
+base_def = 60
+base_spe = 110
+base_spa = 140
+base_spd = 110
+catch_rate = 30
+base_exp = 285
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([285])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "ELECTRICTERRAIN"
+}, {
+"level": 1.0,
+"move": "WHIRLWIND"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 1.0,
+"move": "GUST"
+}, {
+"level": 7.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 14.0,
+"move": "FIRESPIN"
+}, {
+"level": 21.0,
+"move": "TAKEDOWN"
+}, {
+"level": 28.0,
+"move": "LUNGE"
+}, {
+"level": 35.0,
+"move": "SCREECH"
+}, {
+"level": 42.0,
+"move": "DISCHARGE"
+}, {
+"level": 49.0,
+"move": "SLUDGEWAVE"
+}, {
+"level": 56.0,
+"move": "FIERYDANCE"
+}, {
+"level": 63.0,
+"move": "METALSOUND"
+}, {
+"level": 70.0,
+"move": "MORNINGSUN"
+}, {
+"level": 77.0,
+"move": "HURRICANE"
+}, {
+"level": 84.0,
+"move": "BUGBUZZ"
+}, {
+"level": 91.0,
+"move": "OVERHEAT"
+}])
+tutor_move_tokens = PackedStringArray("ACIDSPRAY", "ACROBATICS", "AGILITY", "AIRSLASH", "BUGBUZZ", "CHARGEBEAM", "CONFUSERAY", "DAZZLINGGLEAM", "ELECTRICTERRAIN", "ENDURE", "ENERGYBALL", "FACADE", "FIREBLAST", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "FLASHCANNON", "GIGAIMPACT", "HEATWAVE", "HELPINGHAND", "HURRICANE", "HYPERBEAM", "LIGHTSCREEN", "LUNGE", "METALSOUND", "METEORBEAM", "OVERHEAT", "POUNCE", "PROTECT", "PSYCHIC", "REST", "SLEEPTALK", "SLUDGEWAVE", "SOLARBEAM", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWIFT", "TAKEDOWN", "TOXIC", "TOXICSPIKES", "UTURN", "VENOSHOCK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 12800
+height_m = 1.2
+weight_kg = 36.0
+color = "Yellow"
+shape = "MultiWinged"
+category = "Paradoja"
+habitat = "Rare"
+pokedex = "Se asemeja a un extraño objeto descrito en una revista esotérica como \"un ovni enviado con el objetivo de espiar a la raza humana\"."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Paradox")
+wild_item_uncommon = "BOOSTERENERGY"
+offspring = PackedStringArray()

@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dm51hg3usuhtg"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_4h2pm"]
+
+[resource]
+script = ExtResource("1_4h2pm")
+id = 274
+name = "Nuzleaf"
+types = Array[int]([12, 17])
+base_hp = 70
+base_atk = 70
+base_def = 40
+base_spe = 60
+base_spa = 60
+base_spd = 40
+catch_rate = 120
+base_exp = 119
+growth_rate = "Parabolic"
+abilities = Array[int]([34, 48])
+hidden_abilities = Array[int]([124])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "RAZORLEAF"
+}, {
+"level": 1.0,
+"move": "AIRCUTTER"
+}, {
+"level": 1.0,
+"move": "TORMENT"
+}, {
+"level": 1.0,
+"move": "FAKEOUT"
+}, {
+"level": 1.0,
+"move": "SWAGGER"
+}, {
+"level": 1.0,
+"move": "EXPLOSION"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 9.0,
+"move": "GROWTH"
+}, {
+"level": 12.0,
+"move": "ROLLOUT"
+}, {
+"level": 18.0,
+"move": "MEGADRAIN"
+}, {
+"level": 24.0,
+"move": "PAYBACK"
+}, {
+"level": 30.0,
+"move": "SYNTHESIS"
+}, {
+"level": 30.0,
+"move": "NATUREPOWER"
+}, {
+"level": 36.0,
+"move": "SUNNYDAY"
+}, {
+"level": 43.0,
+"move": "EXTRASENSORY"
+}, {
+"level": 50.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 57.0,
+"move": "LEAFBLADE"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ASSURANCE", "ATTRACT", "BEATUP", "BODYSLAM", "BRICKBREAK", "BULLETSEED", "CAPTIVATE", "CONFIDE", "CUT", "DARKPULSE", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EMBARGO", "ENDURE", "ENERGYBALL", "EXPLOSION", "FACADE", "FALSESWIPE", "FLASH", "FLING", "FOULPLAY", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "LASHOUT", "LEAFBLADE", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "NATUREPOWER", "PAYBACK", "POWERSWAP", "POWERUPPUNCH", "PROTECT", "PSYCHUP", "REST", "RETALIATE", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SECRETPOWER", "SEEDBOMB", "SELFDESTRUCT", "SHADOWBALL", "SLEEPTALK", "SNARL", "SNORE", "SOLARBEAM", "SOLARBLADE", "SPITE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "SYNTHESIS", "THIEF", "TORMENT", "WORRYSEED", "TAKEDOWN", "SCARYFACE", "TRAILBLAZE", "CHILLINGWATER", "MAGICALLEAF", "AIRCUTTER", "RAINDANCE", "LEAFSTORM", "KNOCKOFF", "UPROAR", "WEATHERBALL", "ENDEAVOR", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field", "Grass")
+hatch_steps = 3840
+height_m = 1.0
+weight_kg = 28.0
+color = "Brown"
+shape = "Bipedal"
+category = "Astuto"
+habitat = "Forest"
+pokedex = "Vive en los bosques y se le da muy bien subirse a los árboles. La nariz que tiene, grande y puntiaguda, es su punto débil. Si se la pellizcan, pierde fuerza."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "SHIFTRY",
+"method": "Item",
+"param": "LEAFSTONE"
+}])
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "POWERHERB"
+offspring = PackedStringArray()

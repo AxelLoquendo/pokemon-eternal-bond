@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://defqpi8bd7mx6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_a6ase"]
+
+[resource]
+script = ExtResource("1_a6ase")
+id = 97
+name = "Hypno"
+types = Array[int]([14])
+base_hp = 85
+base_atk = 73
+base_def = 70
+base_spe = 67
+base_spa = 73
+base_spd = 115
+catch_rate = 75
+base_exp = 169
+abilities = Array[int]([15, 108])
+hidden_abilities = Array[int]([39])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SWITCHEROO"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "HYPNOSIS"
+}, {
+"level": 1.0,
+"move": "DISABLE"
+}, {
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 13.0,
+"move": "HEADBUTT"
+}, {
+"level": 17.0,
+"move": "POISONGAS"
+}, {
+"level": 21.0,
+"move": "PSYBEAM"
+}, {
+"level": 25.0,
+"move": "PSYCHUP"
+}, {
+"level": 29.0,
+"move": "MINDREADER"
+}, {
+"level": 32.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 37.0,
+"move": "SWAGGER"
+}, {
+"level": 42.0,
+"move": "PSYCHIC"
+}, {
+"level": 47.0,
+"move": "NASTYPLOT"
+}, {
+"level": 51.0,
+"move": "PSYSHOCK"
+}, {
+"level": 56.0,
+"move": "FUTURESIGHT"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BODYSLAM", "BRICKBREAK", "CALMMIND", "CAPTIVATE", "CONFIDE", "COUNTER", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DREAMEATER", "DYNAMICPUNCH", "ENDURE", "FACADE", "FIREPUNCH", "FLASH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FOULPLAY", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "ICEPUNCH", "LIGHTSCREEN", "LOWKICK", "LOWSWEEP", "MAGICCOAT", "MAGICROOM", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "NASTYPLOT", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERPUNCH", "THUNDERWAVE", "TORMENT", "TRICK", "TRICKROOM", "ZENHEADBUTT", "TAKEDOWN", "SCARYFACE", "PSYBEAM", "CONFUSERAY", "TRAILBLAZE", "HEX", "SWIFT", "DRAININGKISS", "STOREDPOWER", "NIGHTSHADE", "BODYPRESS", "IMPRISON", "ENCORE", "HELPINGHAND", "BATONPASS", "PSYCHICTERRAIN", "HAZE", "TOXIC", "KNOCKOFF", "ENDEAVOR", "FUTURESIGHT", "EXPANDINGFORCE", "CURSE", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 5120
+height_m = 1.6
+weight_kg = 75.6
+color = "Yellow"
+shape = "Bipedal"
+category = "Hipnosis"
+habitat = "Grassland"
+pokedex = "Lleva un péndulo en la mano cuyo balanceo y brillo sumen a su rival en un profundo estado de hipnosis. Mientras busca a su presa, saca brillo al péndulo."
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 2.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

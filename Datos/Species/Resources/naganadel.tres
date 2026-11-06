@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ujlskmatwel5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cb18u"]
+
+[resource]
+script = ExtResource("1_cb18u")
+id = 804
+name = "Naganadel"
+types = Array[int]([4, 16])
+base_hp = 73
+base_atk = 73
+base_def = 73
+base_spe = 121
+base_spa = 127
+base_spd = 73
+base_exp = 270
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([224])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "AIRCUTTER"
+}, {
+"level": 1.0,
+"move": "AIRSLASH"
+}, {
+"level": 1.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "HELPINGHAND"
+}, {
+"level": 1.0,
+"move": "ACID"
+}, {
+"level": 7.0,
+"move": "FURYATTACK"
+}, {
+"level": 14.0,
+"move": "FELLSTINGER"
+}, {
+"level": 21.0,
+"move": "CHARM"
+}, {
+"level": 28.0,
+"move": "VENOSHOCK"
+}, {
+"level": 35.0,
+"move": "VENOMDRENCH"
+}, {
+"level": 42.0,
+"move": "NASTYPLOT"
+}, {
+"level": 49.0,
+"move": "POISONJAB"
+}, {
+"level": 56.0,
+"move": "GASTROACID"
+}, {
+"level": 63.0,
+"move": "TOXIC"
+}, {
+"level": 70.0,
+"move": "DRAGONRUSH"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AIRSLASH", "ALLYSWITCH", "ASSURANCE", "BREAKINGSWIPE", "CHARM", "CONFIDE", "CROSSPOISON", "DARKPULSE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONDANCE", "DRAGONPULSE", "DRAGONTAIL", "DUALWINGBEAT", "ECHOEDVOICE", "ENDURE", "FACADE", "FIREBLAST", "FLAMETHROWER", "FLY", "FRUSTRATION", "GASTROACID", "GIGAIMPACT", "GUNKSHOT", "HEATWAVE", "HELPINGHAND", "HEX", "HIDDENPOWER", "HYPERBEAM", "IRONTAIL", "LASERFOCUS", "LEECHLIFE", "MIMIC", "NASTYPLOT", "NATURALGIFT", "OUTRAGE", "PINMISSILE", "POISONJAB", "PROTECT", "REST", "RETURN", "ROUND", "SCALESHOT", "SECRETPOWER", "SHADOWCLAW", "SHOCKWAVE", "SIGNALBEAM", "SKYATTACK", "SKYDROP", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SMARTSTRIKE", "SNARL", "SNATCH", "SNORE", "SPIKES", "SUBSTITUTE", "SWIFT", "TAILWIND", "THIEF", "THROATCHOP", "THUNDERBOLT", "TOXIC", "TOXICSPIKES", "UPROAR", "UTURN", "VENOMDRENCH", "VENOSHOCK", "XSCISSOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 3.6
+weight_kg = 150.0
+color = "Purple"
+shape = "Winged"
+category = "Pin Veneno"
+pokedex = "Una de las temibles criaturas conocidas como Ultraentes. En su cuerpo almacena cientos de litros de veneno."
+generation = 7
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("UltraBeast")
+offspring = PackedStringArray()

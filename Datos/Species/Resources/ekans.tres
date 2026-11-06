@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bn8nypvkgv5kt"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_codal"]
+
+[resource]
+script = ExtResource("1_codal")
+id = 23
+name = "Ekans"
+types = Array[int]([4])
+base_hp = 35
+base_atk = 60
+base_def = 44
+base_spe = 55
+base_spa = 40
+base_spd = 54
+catch_rate = 255
+base_exp = 58
+abilities = Array[int]([22, 61])
+hidden_abilities = Array[int]([127])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "POISONSTING"
+}, {
+"level": 9.0,
+"move": "BITE"
+}, {
+"level": 12.0,
+"move": "GLARE"
+}, {
+"level": 17.0,
+"move": "SCREECH"
+}, {
+"level": 20.0,
+"move": "ACID"
+}, {
+"level": 25.0,
+"move": "STOCKPILE"
+}, {
+"level": 25.0,
+"move": "SWALLOW"
+}, {
+"level": 25.0,
+"move": "SPITUP"
+}, {
+"level": 28.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 33.0,
+"move": "SLUDGEBOMB"
+}, {
+"level": 36.0,
+"move": "GASTROACID"
+}, {
+"level": 38.0,
+"move": "BELCH"
+}, {
+"level": 41.0,
+"move": "HAZE"
+}, {
+"level": 44.0,
+"move": "COIL"
+}, {
+"level": 49.0,
+"move": "GUNKSHOT"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "BIND", "BODYSLAM", "BRUTALSWING", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DARKPULSE", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHQUAKE", "ENDURE", "FACADE", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GUNKSHOT", "HEADBUTT", "HIDDENPOWER", "INFESTATION", "IRONTAIL", "MIMIC", "NATURALGIFT", "PAYBACK", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNATCH", "SNORE", "SPITE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "THIEF", "TORMENT", "VENOSHOCK", "TAKEDOWN", "MUDSLAP", "SCARYFACE", "FIREFANG", "ACIDSPRAY", "TRAILBLAZE", "POISONTAIL", "SNARL", "MUDSHOT", "PSYCHICFANGS", "TOXICSPIKES", "LEECHLIFE", "CRUNCH", "HAZE", "TOXIC", "KNOCKOFF", "LASHOUT", "SCALESHOT", "SKITTERSMACK")
+egg_move_tokens = PackedStringArray("BEATUP", "DISABLE", "POISONFANG", "POISONTAIL", "SCARYFACE", "SLAM", "SPITE", "SUCKERPUNCH", "SWITCHEROO")
+egg_groups = PackedStringArray("Field", "Dragon")
+hatch_steps = 5120
+height_m = 2.0
+weight_kg = 6.9
+color = "Purple"
+shape = "Serpentine"
+category = "Serpiente"
+habitat = "Grassland"
+pokedex = "Se enrosca para descansar. Esta posición le permite responder rápidamente en caso de amenaza, levantando la cabeza con ferocidad en cualquier dirección."
+evolutions = Array[Dictionary]([{
+"into": "ARBOK",
+"method": "Level",
+"param": "22"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cpo8an8aupu1s"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_5nl4c"]
+
+[resource]
+script = ExtResource("1_5nl4c")
+id = 414
+name = "Mothim"
+types = Array[int]([7, 3])
+base_hp = 70
+base_atk = 94
+base_def = 50
+base_spe = 66
+base_spa = 94
+base_spd = 50
+base_exp = 148
+gender_ratio = "AlwaysMale"
+abilities = Array[int]([68])
+hidden_abilities = Array[int]([110])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "QUIVERDANCE"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 10.0,
+"move": "PROTECT"
+}, {
+"level": 15.0,
+"move": "BUGBITE"
+}, {
+"level": 20.0,
+"move": "STRINGSHOT"
+}, {
+"level": 23.0,
+"move": "CONFUSION"
+}, {
+"level": 26.0,
+"move": "GUST"
+}, {
+"level": 29.0,
+"move": "POISONPOWDER"
+}, {
+"level": 32.0,
+"move": "PSYBEAM"
+}, {
+"level": 35.0,
+"move": "ROOST"
+}, {
+"level": 38.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 41.0,
+"move": "AIRSLASH"
+}, {
+"level": 44.0,
+"move": "PSYCHIC"
+}, {
+"level": 47.0,
+"move": "LUNGE"
+}, {
+"level": 50.0,
+"move": "BUGBUZZ"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AIRCUTTER", "ATTRACT", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "DEFOG", "DOUBLETEAM", "DREAMEATER", "ELECTROWEB", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SIGNALBEAM", "SILVERWIND", "SKILLSWAP", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "THIEF", "TWISTER", "UTURN", "VENOSHOCK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.9
+weight_kg = 23.3
+color = "Yellow"
+shape = "MultiWinged"
+category = "Polilla"
+pokedex = "Le encanta la miel de las flores y roba la que recoge Combee. No tiene nido. Vuela sobre los campos y las montañas en busca de miel floral."
+generation = 4
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("DefaultForm_0")
+wild_item_uncommon = "SILVERPOWDER"
+offspring = PackedStringArray()

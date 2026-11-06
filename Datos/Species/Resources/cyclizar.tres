@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dojv40nff4lkt"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_nc6h8"]
+
+[resource]
+script = ExtResource("1_nc6h8")
+id = 967
+name = "Cyclizar"
+types = Array[int]([16, 1])
+base_hp = 70
+base_atk = 95
+base_def = 65
+base_spe = 121
+base_spa = 85
+base_spd = 65
+catch_rate = 190
+base_exp = 175
+growth_rate = "Parabolic"
+abilities = Array[int]([61])
+hidden_abilities = Array[int]([144])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 7.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 11.0,
+"move": "TAUNT"
+}, {
+"level": 14.0,
+"move": "BREAKINGSWIPE"
+}, {
+"level": 18.0,
+"move": "QUICKATTACK"
+}, {
+"level": 23.0,
+"move": "BITE"
+}, {
+"level": 27.0,
+"move": "UTURN"
+}, {
+"level": 31.0,
+"move": "SHEDTAIL"
+}, {
+"level": 36.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 40.0,
+"move": "SHIFTGEAR"
+}, {
+"level": 45.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 51.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 57.0,
+"move": "DRAGONRUSH"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "BODYSLAM", "BREAKINGSWIPE", "CRUNCH", "DOUBLEEDGE", "DRACOMETEOR", "DRAGONCHEER", "DRAGONCLAW", "DRAGONPULSE", "DRAGONTAIL", "ENDEAVOR", "ENDURE", "FACADE", "FIREFANG", "GIGAIMPACT", "HYPERBEAM", "HYPERVOICE", "ICESPINNER", "IRONHEAD", "KNOCKOFF", "MUDSHOT", "MUDSLAP", "OUTRAGE", "OVERHEAT", "PROTECT", "RAINDANCE", "REST", "SCALESHOT", "SLEEPTALK", "SUBSTITUTE", "SUNNYDAY", "SUPERCELLSLAM", "TAKEDOWN", "TAUNT", "TEMPERFLARE", "THIEF", "THUNDERBOLT", "THUNDERFANG", "TRAILBLAZE", "UPROAR", "UTURN", "WILDCHARGE")
+egg_move_tokens = PackedStringArray("AQUATAIL", "IRONTAIL", "KNOCKOFF", "POWERWHIP")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 7680
+height_m = 1.6
+weight_kg = 63.0
+color = "Green"
+shape = "BipedalTail"
+category = "Montura"
+habitat = "Grassland"
+pokedex = "Según parece, ha permitido que los humanos monten en él desde tiempos remotos. Aparece en pinturas rupestres de hace diez mil años."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

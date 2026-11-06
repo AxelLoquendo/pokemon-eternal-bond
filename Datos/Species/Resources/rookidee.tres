@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://byyhr8gr1ng42"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_vi7tt"]
+
+[resource]
+script = ExtResource("1_vi7tt")
+id = 821
+name = "Rookidee"
+types = Array[int]([3])
+base_hp = 38
+base_atk = 47
+base_def = 35
+base_spe = 57
+base_spa = 33
+base_spd = 35
+catch_rate = 255
+base_exp = 49
+growth_rate = "Parabolic"
+abilities = Array[int]([51, 127])
+hidden_abilities = Array[int]([145])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "POWERTRIP"
+}, {
+"level": 8.0,
+"move": "HONECLAWS"
+}, {
+"level": 12.0,
+"move": "FURYATTACK"
+}, {
+"level": 16.0,
+"move": "PLUCK"
+}, {
+"level": 20.0,
+"move": "TAUNT"
+}, {
+"level": 24.0,
+"move": "SCARYFACE"
+}, {
+"level": 28.0,
+"move": "DRILLPECK"
+}, {
+"level": 32.0,
+"move": "SWAGGER"
+}, {
+"level": 36.0,
+"move": "BRAVEBIRD"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "AIRSLASH", "ASSURANCE", "ATTRACT", "BRAVEBIRD", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "DUALWINGBEAT", "ENDURE", "FACADE", "FAKETEARS", "FLY", "FOCUSENERGY", "FRUSTRATION", "HIDDENPOWER", "MIMIC", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "PROTECT", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROUND", "SCARYFACE", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "SWIFT", "TAUNT", "THIEF", "TOXIC", "UTURN", "WORKUP", "TAKEDOWN", "AERIALACE", "AIRCUTTER", "TAILWIND", "SPITE")
+egg_move_tokens = PackedStringArray("DEFOG", "ROCKSMASH", "ROOST", "SANDATTACK", "SKYATTACK", "SPITE", "TAILWIND")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 3840
+height_m = 0.2
+weight_kg = 1.8
+color = "Blue"
+shape = "Winged"
+category = "Pajarito"
+pokedex = "De naturaleza valiente, planta cara a cualquier rival, por muy fuerte que sea. Los contraataques que recibe le sirven para fortalecerse."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "CORVISQUIRE",
+"method": "Level",
+"param": "18"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

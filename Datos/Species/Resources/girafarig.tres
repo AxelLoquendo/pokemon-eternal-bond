@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8vrrkq10rxkj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_c6akk"]
+
+[resource]
+script = ExtResource("1_c6akk")
+id = 203
+name = "Girafarig"
+types = Array[int]([1, 14])
+base_hp = 70
+base_atk = 80
+base_def = 65
+base_spe = 85
+base_spa = 90
+base_spd = 65
+catch_rate = 60
+base_exp = 159
+abilities = Array[int]([39, 48])
+hidden_abilities = Array[int]([157])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWERSWAP"
+}, {
+"level": 1.0,
+"move": "GUARDSWAP"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 5.0,
+"move": "CONFUSION"
+}, {
+"level": 10.0,
+"move": "ASSURANCE"
+}, {
+"level": 14.0,
+"move": "STOMP"
+}, {
+"level": 19.0,
+"move": "PSYBEAM"
+}, {
+"level": 23.0,
+"move": "AGILITY"
+}, {
+"level": 28.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 32.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 32.0,
+"move": "TWINBEAM"
+}, {
+"level": 37.0,
+"move": "CRUNCH"
+}, {
+"level": 41.0,
+"move": "BATONPASS"
+}, {
+"level": 46.0,
+"move": "NASTYPLOT"
+}, {
+"level": 50.0,
+"move": "PSYCHIC"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BODYSLAM", "BULLDOZE", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "EARTHQUAKE", "ECHOEDVOICE", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FOULPLAY", "FRUSTRATION", "GRASSKNOT", "GRAVITY", "HEADBUTT", "HIDDENPOWER", "HYPERVOICE", "IRONTAIL", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETALIATE", "RETURN", "ROCKSMASH", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "SWIFT", "TELEKINESIS", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TRICK", "TRICKROOM", "UPROAR", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "AGILITY", "LOWKICK", "PSYBEAM", "CONFUSERAY", "TRAILBLAZE", "STOREDPOWER", "PSYCHICFANGS", "IMPRISON", "CRUNCH", "AMNESIA", "HELPINGHAND", "BATONPASS", "PSYCHICTERRAIN", "GIGAIMPACT", "HYPERBEAM", "HIGHHORSEPOWER", "ENDEAVOR", "FUTURESIGHT", "EXPANDINGFORCE", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray("AMNESIA", "BEATUP", "DOUBLEKICK", "FUTURESIGHT", "MAGICCOAT", "MEANLOOK", "MIRRORCOAT", "TAKEDOWN", "WISH")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.5
+weight_kg = 41.5
+color = "Yellow"
+shape = "Quadruped"
+category = "Grancuello"
+habitat = "Grassland"
+pokedex = "Girafarig es herbívoro: come hierba y brotes de los árboles. Mientras se alimenta, mueve la cola como si también masticara y tragara con ella."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "FARIGIRAF",
+"method": "HasMove",
+"param": "TWINBEAM"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

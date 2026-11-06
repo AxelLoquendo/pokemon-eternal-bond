@@ -1,0 +1,52 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bfsnskavwhyqy"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_7h3mq"]
+
+[resource]
+script = ExtResource("1_7h3mq")
+id = 63
+name = "Abra"
+types = Array[int]([14])
+base_hp = 25
+base_atk = 20
+base_def = 15
+base_spe = 90
+base_spa = 105
+base_spd = 55
+catch_rate = 200
+base_exp = 62
+gender_ratio = "Female25Percent"
+growth_rate = "Parabolic"
+abilities = Array[int]([28, 39])
+hidden_abilities = Array[int]([98])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TELEPORT"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BODYSLAM", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COUNTER", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DREAMEATER", "DYNAMICPUNCH", "EMBARGO", "ENCORE", "ENDURE", "ENERGYBALL", "FACADE", "FIREPUNCH", "FLASH", "FLING", "FOCUSPUNCH", "FOULPLAY", "FRUSTRATION", "GRASSKNOT", "GRAVITY", "GUARDSWAP", "HEADBUTT", "HIDDENPOWER", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "NATURALGIFT", "POWERSWAP", "PROTECT", "PSYCHIC", "PSYCHICTERRAIN", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "SPEEDSWAP", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERPUNCH", "THUNDERWAVE", "TORMENT", "TRIATTACK", "TRICK", "TRICKROOM", "WONDERROOM", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("ALLYSWITCH", "CONFUSION", "ENCORE", "FIREPUNCH", "GUARDSPLIT", "GUARDSWAP", "ICEPUNCH", "KNOCKOFF", "MAGICCOAT", "POWERTRICK", "PSYCHOSHIFT", "THUNDERPUNCH")
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 5120
+height_m = 0.9
+weight_kg = 19.5
+color = "Brown"
+shape = "BipedalTail"
+category = "Psi"
+habitat = "Urban"
+pokedex = "Es un Pokémon que duerme 18 horas al día. Se ha demostrado que cada hora utiliza teletransporte para cambiar de sitio. Puede usar sus poderes dormido."
+evolutions = Array[Dictionary]([{
+"into": "KADABRA",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "TWISTEDSPOON"
+offspring = PackedStringArray()

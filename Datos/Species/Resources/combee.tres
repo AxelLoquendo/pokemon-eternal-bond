@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bo0fjudcq8p5c"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_foy6m"]
+
+[resource]
+script = ExtResource("1_foy6m")
+id = 415
+name = "Combee"
+types = Array[int]([7, 3])
+base_hp = 30
+base_atk = 30
+base_def = 42
+base_spe = 70
+base_spa = 30
+base_spd = 42
+catch_rate = 120
+base_exp = 49
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([118])
+hidden_abilities = Array[int]([55])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 1.0,
+"move": "GUST"
+}, {
+"level": 1.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 1.0,
+"move": "BUGBITE"
+}])
+tutor_move_tokens = PackedStringArray("AIRCUTTER", "BUGBITE", "BUGBUZZ", "DUALWINGBEAT", "ENDEAVOR", "MUDSLAP", "OMINOUSWIND", "SNORE", "STRINGSHOT", "TAILWIND", "STRUGGLEBUG", "SLEEPTALK", "LUNGE", "SKITTERSMACK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.3
+weight_kg = 5.5
+color = "Yellow"
+shape = "MultiBody"
+category = "Abejita"
+pokedex = "Está formado por otros tres Pokémon. Le lleva miel floral a Vespiquen. Almacenan miel en su colonia, y por la noche, se apiñan para dormir."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "VESPIQUEN",
+"method": "LevelFemale",
+"param": "21"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "HONEY"
+offspring = PackedStringArray()

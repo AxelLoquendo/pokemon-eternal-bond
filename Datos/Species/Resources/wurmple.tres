@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://beebxxis8q1u6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_xbycc"]
+
+[resource]
+script = ExtResource("1_xbycc")
+id = 265
+name = "Wurmple"
+types = Array[int]([7])
+base_hp = 45
+base_atk = 45
+base_def = 35
+base_spe = 20
+base_spa = 20
+base_spd = 30
+catch_rate = 255
+base_exp = 56
+abilities = Array[int]([19])
+hidden_abilities = Array[int]([50])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "STRINGSHOT"
+}, {
+"level": 5.0,
+"move": "POISONSTING"
+}, {
+"level": 15.0,
+"move": "BUGBITE"
+}])
+tutor_move_tokens = PackedStringArray("BUGBITE", "ELECTROWEB", "SNORE", "STRINGSHOT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.3
+weight_kg = 3.6
+color = "Red"
+shape = "Insectoid"
+category = "Gusano"
+habitat = "Forest"
+pokedex = "Se encarama a las ramas de los árboles y come hojas. El hilo que escupe por la boca se solidifica al contacto con el aire y ralentiza los movimientos del enemigo."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "SILCOON",
+"method": "Silcoon",
+"param": "7"
+}, {
+"into": "CASCOON",
+"method": "Cascoon",
+"param": "7"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "PECHABERRY"
+wild_item_uncommon = "BRIGHTPOWDER"
+offspring = PackedStringArray()

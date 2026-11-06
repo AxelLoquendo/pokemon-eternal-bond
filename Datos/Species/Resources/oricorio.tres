@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfk2f31xj7jfk"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gdtp7"]
+
+[resource]
+script = ExtResource("1_gdtp7")
+id = 741
+name = "Oricorio"
+types = Array[int]([10, 3])
+base_hp = 75
+base_atk = 70
+base_def = 70
+base_spe = 93
+base_spa = 98
+base_spd = 70
+base_exp = 167
+gender_ratio = "Female75Percent"
+abilities = Array[int]([216])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 4.0,
+"move": "GROWL"
+}, {
+"level": 6.0,
+"move": "PECK"
+}, {
+"level": 10.0,
+"move": "HELPINGHAND"
+}, {
+"level": 13.0,
+"move": "AIRCUTTER"
+}, {
+"level": 16.0,
+"move": "BATONPASS"
+}, {
+"level": 20.0,
+"move": "FEATHERDANCE"
+}, {
+"level": 23.0,
+"move": "DOUBLESLAP"
+}, {
+"level": 23.0,
+"move": "ACROBATICS"
+}, {
+"level": 26.0,
+"move": "TEETERDANCE"
+}, {
+"level": 30.0,
+"move": "ROOST"
+}, {
+"level": 33.0,
+"move": "CAPTIVATE"
+}, {
+"level": 33.0,
+"move": "FLATTER"
+}, {
+"level": 36.0,
+"move": "AIRSLASH"
+}, {
+"level": 40.0,
+"move": "REVELATIONDANCE"
+}, {
+"level": 43.0,
+"move": "MIRRORMOVE"
+}, {
+"level": 43.0,
+"move": "AGILITY"
+}, {
+"level": 47.0,
+"move": "HURRICANE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "ATTRACT", "CALMMIND", "CAPTIVATE", "CONFIDE", "COVET", "DEFOG", "DOUBLETEAM", "EMBARGO", "ENDURE", "FACADE", "FLY", "FRUSTRATION", "HELPINGHAND", "HIDDENPOWER", "ICYWIND", "MIMIC", "NATURALGIFT", "PROTECT", "QUASH", "REST", "RETURN", "ROLEPLAY", "ROOST", "ROUND", "SAFEGUARD", "SANDSTORM", "SECRETPOWER", "SKYATTACK", "SLEEPTALK", "SNORE", "STEELWING", "SUBSTITUTE", "SWAGGER", "SWORDSDANCE", "TAILWIND", "TAUNT", "TOXIC", "UTURN", "WORKUP", "TAKEDOWN", "CHARM", "AGILITY", "TRAILBLAZE", "SWIFT", "AIRCUTTER", "SUNNYDAY", "RAINDANCE", "AIRSLASH", "BATONPASS", "REVERSAL", "HURRICANE", "DUALWINGBEAT", "PSYCHUP", "FEATHERDANCE", "ALLURINGVOICE")
+egg_move_tokens = PackedStringArray("CAPTIVATE", "PLUCK", "SAFEGUARD", "TAILWIND")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 3.4
+color = "Red"
+shape = "Winged"
+category = "Danza"
+pokedex = "Forma que toma Oricorio al libar néctar rojo. Hace arder el corazón de sus adversarios con su cálida danza."
+generation = 7
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("InheritFormFromMother")
+wild_item_uncommon = "HONEY"
+offspring = PackedStringArray()
+form_name = "Forma Estilo Apasionado"

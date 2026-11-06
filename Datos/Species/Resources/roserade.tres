@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfgmrhrgdlbii"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_j8k2t"]
+
+[resource]
+script = ExtResource("1_j8k2t")
+id = 407
+name = "Roserade"
+types = Array[int]([12, 4])
+base_hp = 60
+base_atk = 70
+base_def = 65
+base_spe = 90
+base_spa = 125
+base_spd = 105
+catch_rate = 75
+base_exp = 258
+growth_rate = "Parabolic"
+abilities = Array[int]([30, 38])
+hidden_abilities = Array[int]([101])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GRASSYTERRAIN"
+}, {
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "VENOMDRENCH"
+}, {
+"level": 1.0,
+"move": "MEGADRAIN"
+}, {
+"level": 1.0,
+"move": "LEECHSEED"
+}, {
+"level": 1.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 1.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 1.0,
+"move": "GIGADRAIN"
+}, {
+"level": 1.0,
+"move": "SYNTHESIS"
+}, {
+"level": 1.0,
+"move": "TOXIC"
+}, {
+"level": 1.0,
+"move": "PETALBLIZZARD"
+}, {
+"level": 1.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 1.0,
+"move": "INGRAIN"
+}, {
+"level": 1.0,
+"move": "PETALDANCE"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 1.0,
+"move": "STUNSPORE"
+}, {
+"level": 1.0,
+"move": "WORRYSEED"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BULLETSEED", "CAPTIVATE", "CONFIDE", "COVET", "CUT", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HIDDENPOWER", "HYPERBEAM", "LASERFOCUS", "LEAFSTORM", "MAGICALLEAF", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "PINMISSILE", "POISONJAB", "POWERWHIP", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROUND", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SPIKES", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "SYNTHESIS", "TOXIC", "TOXICSPIKES", "UPROAR", "VENOMDRENCH", "VENOSHOCK", "WEATHERBALL", "WORRYSEED")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Fairy", "Grass")
+hatch_steps = 5120
+height_m = 0.9
+weight_kg = 14.5
+color = "Green"
+shape = "Bipedal"
+category = "Ramillete"
+pokedex = "Atrae a las presas con un dulce aroma y las derrota con los látigos espinosos de sus brazos. Cada una de sus manos contiene toxinas diferentes."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "POISONBARB"
+offspring = PackedStringArray()

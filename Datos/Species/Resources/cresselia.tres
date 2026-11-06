@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cp27x23fj5whk"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_neyiu"]
+
+[resource]
+script = ExtResource("1_neyiu")
+id = 488
+name = "Cresselia"
+types = Array[int]([14])
+base_hp = 120
+base_atk = 70
+base_def = 110
+base_spe = 85
+base_spa = 75
+base_spd = 120
+catch_rate = 3
+base_exp = 300
+base_happiness = 100
+gender_ratio = "AlwaysFemale"
+growth_rate = "Slow"
+abilities = Array[int]([26])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 1.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 6.0,
+"move": "MIST"
+}, {
+"level": 12.0,
+"move": "AURORABEAM"
+}, {
+"level": 18.0,
+"move": "PSYBEAM"
+}, {
+"level": 24.0,
+"move": "PSYCHOSHIFT"
+}, {
+"level": 24.0,
+"move": "ALLYSWITCH"
+}, {
+"level": 30.0,
+"move": "SLASH"
+}, {
+"level": 36.0,
+"move": "PSYCHOCUT"
+}, {
+"level": 42.0,
+"move": "MOONLIGHT"
+}, {
+"level": 48.0,
+"move": "SAFEGUARD"
+}, {
+"level": 54.0,
+"move": "PSYCHIC"
+}, {
+"level": 60.0,
+"move": "MOONBLAST"
+}, {
+"level": 66.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 72.0,
+"move": "LUNARDANCE"
+}, {
+"level": 72.0,
+"move": "LUNARBLESSING"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BODYSLAM", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "DOUBLETEAM", "DREAMEATER", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "FACADE", "FLASH", "FRUSTRATION", "FURYCUTTER", "FUTURESIGHT", "GIGAIMPACT", "GRASSKNOT", "GRAVITY", "GUARDSWAP", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICYWIND", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERSWAP", "PROTECT", "PSYCHIC", "PSYCHOCUT", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNORE", "SOLARBEAM", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TELEKINESIS", "THUNDERWAVE", "TRICK", "TRICKROOM", "ZENHEADBUTT", "SCARYFACE", "PSYBEAM", "CONFUSERAY", "DAZZLINGGLEAM", "POWERGEM", "THUNDERBOLT", "PSYCHICTERRAIN", "THUNDER")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 1.5
+weight_kg = 85.6
+color = "Yellow"
+shape = "Serpentine"
+category = "Lunar"
+pokedex = "En las noches de media luna, la aurora de su cola se extiende y ondea más hermosa que nunca. Se dice que representa un cuarto lunar."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 3.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

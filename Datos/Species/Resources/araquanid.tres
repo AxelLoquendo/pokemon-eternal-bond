@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b8714asxm7esl"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_olc2g"]
+
+[resource]
+script = ExtResource("1_olc2g")
+id = 752
+name = "Araquanid"
+types = Array[int]([11, 7])
+base_hp = 68
+base_atk = 70
+base_def = 92
+base_spe = 42
+base_spa = 50
+base_spd = 132
+catch_rate = 100
+base_exp = 159
+abilities = Array[int]([199])
+hidden_abilities = Array[int]([11])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WIDEGUARD"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "INFESTATION"
+}, {
+"level": 1.0,
+"move": "BUGBITE"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 12.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 16.0,
+"move": "AQUARING"
+}, {
+"level": 20.0,
+"move": "HEADBUTT"
+}, {
+"level": 26.0,
+"move": "CRUNCH"
+}, {
+"level": 32.0,
+"move": "SOAK"
+}, {
+"level": 38.0,
+"move": "ENTRAINMENT"
+}, {
+"level": 44.0,
+"move": "LUNGE"
+}, {
+"level": 50.0,
+"move": "LIQUIDATION"
+}, {
+"level": 56.0,
+"move": "LEECHLIFE"
+}, {
+"level": 62.0,
+"move": "MIRRORCOAT"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "CRUNCH", "DIVE", "DOUBLETEAM", "ENDURE", "FACADE", "FROSTBREATH", "FRUSTRATION", "GIGADRAIN", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "INFESTATION", "IRONDEFENSE", "LASERFOCUS", "LEECHLIFE", "LIQUIDATION", "MAGICCOAT", "MAGICROOM", "MIMIC", "NATURALGIFT", "POISONJAB", "PROTECT", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SCALD", "SECRETPOWER", "SIGNALBEAM", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "WATERFALL", "WATERPULSE", "WONDERROOM", "XSCISSOR", "SCARYFACE", "TRAILBLAZE", "POUNCE", "CHILLINGWATER", "BODYSLAM", "GIGAIMPACT", "HYPERBEAM", "LUNGE", "ENDEAVOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Bug")
+hatch_steps = 3840
+height_m = 1.8
+weight_kg = 82.0
+color = "Green"
+shape = "Insectoid"
+category = "Pompa"
+pokedex = "Propina cabezazos con su burbuja. Los Pokémon de menor tamaño quedan atrapados en su interior y perecen ahogados."
+generation = 7
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 2.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MYSTICWATER"
+offspring = PackedStringArray()

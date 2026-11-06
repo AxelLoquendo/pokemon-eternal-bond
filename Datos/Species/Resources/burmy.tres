@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dofa0aqms42d"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_y4uag"]
+
+[resource]
+script = ExtResource("1_y4uag")
+id = 412
+name = "Burmy"
+types = Array[int]([7])
+base_hp = 40
+base_atk = 29
+base_def = 45
+base_spe = 36
+base_spa = 29
+base_spd = 45
+catch_rate = 120
+base_exp = 45
+abilities = Array[int]([61])
+hidden_abilities = Array[int]([142])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 10.0,
+"move": "TACKLE"
+}, {
+"level": 15.0,
+"move": "BUGBITE"
+}, {
+"level": 20.0,
+"move": "STRINGSHOT"
+}])
+tutor_move_tokens = PackedStringArray("BUGBITE", "ELECTROWEB", "HIDDENPOWER", "PROTECT", "SNORE", "STRINGSHOT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.2
+weight_kg = 3.4
+color = "Green"
+shape = "HeadBase"
+category = "Larva"
+pokedex = "Para protegerse de los vientos fríos invernales, se cubre con un caparazón de ramas y hojas. Si su capullo es quebrado en batalla, rápidamente lo rehace."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "WORMADAM",
+"method": "LevelFemale",
+"param": "20"
+}, {
+"into": "MOTHIM",
+"method": "LevelMale",
+"param": "20"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray("InheritFormFromMother")
+offspring = PackedStringArray()
+form_name = "Forma Tronco Planta"

@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bllfwdx8k04ox"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wl6vf"]
+
+[resource]
+script = ExtResource("1_wl6vf")
+id = 345
+name = "Lileep"
+types = Array[int]([6, 12])
+base_hp = 66
+base_atk = 41
+base_def = 77
+base_spe = 23
+base_spa = 61
+base_spd = 87
+base_exp = 71
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Erratic"
+abilities = Array[int]([21])
+hidden_abilities = Array[int]([114])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 4.0,
+"move": "ACID"
+}, {
+"level": 8.0,
+"move": "CONFUSERAY"
+}, {
+"level": 12.0,
+"move": "INGRAIN"
+}, {
+"level": 16.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 20.0,
+"move": "MEGADRAIN"
+}, {
+"level": 24.0,
+"move": "BRINE"
+}, {
+"level": 28.0,
+"move": "AMNESIA"
+}, {
+"level": 32.0,
+"move": "GASTROACID"
+}, {
+"level": 36.0,
+"move": "GIGADRAIN"
+}, {
+"level": 41.0,
+"move": "STOCKPILE"
+}, {
+"level": 41.0,
+"move": "SPITUP"
+}, {
+"level": 41.0,
+"move": "SWALLOW"
+}, {
+"level": 44.0,
+"move": "ENERGYBALL"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ANCIENTPOWER", "ATTRACT", "BIND", "BODYSLAM", "BRINE", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GRASSKNOT", "HIDDENPOWER", "INFESTATION", "METEORBEAM", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PAINSPLIT", "PROTECT", "REST", "RETURN", "ROCKBLAST", "ROCKPOLISH", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SANDSTORM", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SMACKDOWN", "SNORE", "SOLARBEAM", "STEALTHROCK", "STRINGSHOT", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "WORRYSEED")
+egg_move_tokens = PackedStringArray("BIND", "CURSE", "MEGADRAIN", "MIRRORCOAT", "RECOVER", "TICKLE")
+egg_groups = PackedStringArray("Water3")
+hatch_steps = 7680
+height_m = 1.0
+weight_kg = 23.8
+color = "Purple"
+shape = "HeadBase"
+category = "Lila Mar"
+habitat = "Sea"
+pokedex = "Se disfraza de alga marina moviendo los tentáculos. Si una presa se le acerca despistada, será engullida de golpe. Se extinguió hace 100 millones de años."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "CRADILY",
+"method": "Level",
+"param": "40"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "BIGROOT"
+offspring = PackedStringArray()

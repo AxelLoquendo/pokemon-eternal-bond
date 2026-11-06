@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cxs3630v4tm2c"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_febkv"]
+
+[resource]
+script = ExtResource("1_febkv")
+id = 314
+name = "Illumise"
+types = Array[int]([7])
+base_hp = 65
+base_atk = 47
+base_def = 75
+base_spe = 85
+base_spa = 73
+base_spd = 85
+catch_rate = 150
+base_exp = 151
+gender_ratio = "AlwaysFemale"
+growth_rate = "Fluctuating"
+abilities = Array[int]([12, 110])
+hidden_abilities = Array[int]([158])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PLAYNICE"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "SWEETSCENT"
+}, {
+"level": 9.0,
+"move": "CHARM"
+}, {
+"level": 12.0,
+"move": "QUICKATTACK"
+}, {
+"level": 15.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 19.0,
+"move": "MOONLIGHT"
+}, {
+"level": 22.0,
+"move": "WISH"
+}, {
+"level": 26.0,
+"move": "ENCORE"
+}, {
+"level": 29.0,
+"move": "FLATTER"
+}, {
+"level": 33.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 36.0,
+"move": "HELPINGHAND"
+}, {
+"level": 40.0,
+"move": "BUGBUZZ"
+}, {
+"level": 43.0,
+"move": "PLAYROUGH"
+}, {
+"level": 47.0,
+"move": "COVET"
+}, {
+"level": 47.0,
+"move": "INFESTATION"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AIRCUTTER", "ATTRACT", "BODYSLAM", "BRICKBREAK", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COUNTER", "COVET", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "ENDURE", "FACADE", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "GIGADRAIN", "HELPINGHAND", "HIDDENPOWER", "ICEPUNCH", "INFESTATION", "LIGHTSCREEN", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "POWERUPPUNCH", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHOCKWAVE", "SILVERWIND", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "UTURN", "WATERPULSE", "ZENHEADBUTT", "TAKEDOWN", "CHARM", "FAKETEARS", "CONFUSERAY", "DISARMINGVOICE", "TRAILBLAZE", "POUNCE", "DRAININGKISS", "AIRSLASH", "TRICK", "ENCORE", "PLAYROUGH", "BATONPASS", "ENDEAVOR", "SKITTERSMACK")
+egg_move_tokens = PackedStringArray("AROMATHERAPY", "BATONPASS", "CONFUSERAY", "ENCORE", "FAKETEARS", "GROWTH")
+egg_groups = PackedStringArray("Bug", "Humanlike")
+hatch_steps = 3840
+height_m = 0.6
+weight_kg = 17.7
+color = "Purple"
+shape = "Bipedal"
+category = "Luciérnaga"
+habitat = "Forest"
+pokedex = "Este Pokémon nocturno sólo está activo de noche. Guía a un enjambre de Volbeat para que hagan dibujos en el cielo de la noche y saben hacer hasta 200 distintos."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "BRIGHTPOWDER"
+offspring = PackedStringArray("VOLBEAT", "ILLUMISE")

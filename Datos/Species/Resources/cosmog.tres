@@ -1,0 +1,53 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://brwim1t8hn4ks"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_l8y3n"]
+
+[resource]
+script = ExtResource("1_l8y3n")
+id = 789
+name = "Cosmog"
+types = Array[int]([14])
+base_hp = 43
+base_atk = 29
+base_def = 31
+base_spe = 37
+base_spa = 29
+base_spd = 31
+base_exp = 40
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([109])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SPLASH"
+}, {
+"level": 1.0,
+"move": "TELEPORT"
+}])
+tutor_move_tokens = PackedStringArray()
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 0.2
+weight_kg = 0.1
+color = "Blue"
+shape = "Head"
+category = "Nebulosa"
+pokedex = "En tiempos remotos recibía el nombre de Hijo de las estrellas. Cuentan que proviene de otro mundo, pero poco más se sabe al respecto."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "COSMOEM",
+"method": "Level",
+"param": "43"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dhcuedbwpgcnn"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_vbix5"]
+
+[resource]
+script = ExtResource("1_vbix5")
+id = 832
+name = "Dubwool"
+types = Array[int]([1])
+base_hp = 72
+base_atk = 80
+base_def = 100
+base_spe = 88
+base_spa = 60
+base_spd = 90
+catch_rate = 127
+base_exp = 172
+abilities = Array[int]([218, 80])
+hidden_abilities = Array[int]([171])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 1.0,
+"move": "COPYCAT"
+}, {
+"level": 12.0,
+"move": "GUARDSPLIT"
+}, {
+"level": 16.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 21.0,
+"move": "HEADBUTT"
+}, {
+"level": 27.0,
+"move": "TAKEDOWN"
+}, {
+"level": 32.0,
+"move": "GUARDSWAP"
+}, {
+"level": 38.0,
+"move": "REVERSAL"
+}, {
+"level": 44.0,
+"move": "COTTONGUARD"
+}, {
+"level": 50.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 56.0,
+"move": "LASTRESORT"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "BATONPASS", "BODYPRESS", "BODYSLAM", "BOUNCE", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "ELECTROBALL", "ENDURE", "FACADE", "FRUSTRATION", "GIGAIMPACT", "GRASSYGLIDE", "GUARDSWAP", "HIDDENPOWER", "HYPERBEAM", "MEGAKICK", "MIMIC", "NATURALGIFT", "PAYBACK", "PROTECT", "REST", "RETALIATE", "RETURN", "REVERSAL", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "SWORDSDANCE", "THUNDERWAVE", "TOXIC", "WILDCHARGE", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 1.3
+weight_kg = 43.0
+color = "White"
+shape = "Quadruped"
+category = "Oveja"
+pokedex = "Sus espléndidos cuernos sirven de reclamo para atraer al sexo opuesto. No los utiliza como arma."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://rruvlby3sw8l"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hu0mx"]
+
+[resource]
+script = ExtResource("1_hu0mx")
+id = 1005
+name = "Bramaluna"
+types = Array[int]([16, 17])
+base_hp = 105
+base_atk = 139
+base_def = 71
+base_spe = 119
+base_spa = 55
+base_spd = 101
+catch_rate = 10
+base_exp = 295
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([283])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "BREAKINGSWIPE"
+}, {
+"level": -1.0,
+"move": "SCALESHOT"
+}, {
+"level": -1.0,
+"move": "SUNNYDAY"
+}, {
+"level": -1.0,
+"move": "JAWLOCK"
+}, {
+"level": 1.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 1.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 7.0,
+"move": "INCINERATE"
+}, {
+"level": 14.0,
+"move": "HEADBUTT"
+}, {
+"level": 21.0,
+"move": "SCARYFACE"
+}, {
+"level": 28.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 35.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 42.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 49.0,
+"move": "NIGHTSLASH"
+}, {
+"level": 56.0,
+"move": "DRAGONDANCE"
+}, {
+"level": 63.0,
+"move": "DRAGONRUSH"
+}, {
+"level": 70.0,
+"move": "FLY"
+}, {
+"level": 77.0,
+"move": "THROATCHOP"
+}, {
+"level": 84.0,
+"move": "ROOST"
+}, {
+"level": 91.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AIRSLASH", "BODYPRESS", "BODYSLAM", "BREAKINGSWIPE", "BRICKBREAK", "CRUNCH", "DARKPULSE", "DIG", "DOUBLEEDGE", "DRACOMETEOR", "DRAGONCHEER", "DRAGONCLAW", "DRAGONDANCE", "DRAGONPULSE", "DRAGONTAIL", "EARTHQUAKE", "ENDURE", "FACADE", "FIREBLAST", "FIREFANG", "FIRESPIN", "FLAMETHROWER", "FLY", "GIGAIMPACT", "HEATWAVE", "HURRICANE", "HYDROPUMP", "HYPERBEAM", "HYPERVOICE", "IRONHEAD", "KNOCKOFF", "LASHOUT", "METALCLAW", "OUTRAGE", "PROTECT", "REST", "ROAR", "ROCKSLIDE", "SCALESHOT", "SCARYFACE", "SHADOWCLAW", "SLEEPTALK", "SNARL", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SUNNYDAY", "TAILWIND", "TAKEDOWN", "TAUNT", "THROATCHOP", "THUNDERFANG", "UTURN", "XSCISSOR", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 12800
+height_m = 2.0
+weight_kg = 380.0
+color = "Blue"
+shape = "Quadruped"
+category = "Paradoja"
+habitat = "Rare"
+pokedex = "Según un artículo publicado en cierta revista de dudosa veracidad, este Pokémon guarda relación con un fenómeno que tiene lugar en otra región."
+generation = 9
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Paradox")
+wild_item_uncommon = "BOOSTERENERGY"
+offspring = PackedStringArray()

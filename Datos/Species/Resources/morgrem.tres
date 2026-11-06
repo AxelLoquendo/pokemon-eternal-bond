@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bk711yxgmp3ij"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hx8o1"]
+
+[resource]
+script = ExtResource("1_hx8o1")
+id = 860
+name = "Morgrem"
+types = Array[int]([17, 18])
+base_hp = 65
+base_atk = 60
+base_def = 45
+base_spe = 70
+base_spa = 75
+base_spd = 55
+catch_rate = 120
+base_exp = 130
+gender_ratio = "AlwaysMale"
+abilities = Array[int]([158, 119])
+hidden_abilities = Array[int]([124])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "FALSESURRENDER"
+}, {
+"level": 1.0,
+"move": "FAKEOUT"
+}, {
+"level": 1.0,
+"move": "CONFIDE"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 1.0,
+"move": "FLATTER"
+}, {
+"level": 12.0,
+"move": "FAKETEARS"
+}, {
+"level": 16.0,
+"move": "ASSURANCE"
+}, {
+"level": 20.0,
+"move": "SWAGGER"
+}, {
+"level": 24.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 28.0,
+"move": "TORMENT"
+}, {
+"level": 35.0,
+"move": "DARKPULSE"
+}, {
+"level": 40.0,
+"move": "NASTYPLOT"
+}, {
+"level": 46.0,
+"move": "PLAYROUGH"
+}, {
+"level": 52.0,
+"move": "FOULPLAY"
+}])
+tutor_move_tokens = PackedStringArray("ASSURANCE", "ATTRACT", "BURNINGJEALOUSY", "CAPTIVATE", "CONFIDE", "DARKPULSE", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAININGKISS", "DRAINPUNCH", "ENDURE", "FACADE", "FAKETEARS", "FOULPLAY", "FRUSTRATION", "HIDDENPOWER", "LASHOUT", "LEECHLIFE", "LIGHTSCREEN", "LOWKICK", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "NASTYPLOT", "NATURALGIFT", "PLAYROUGH", "PROTECT", "REFLECT", "REST", "RETALIATE", "RETURN", "REVENGE", "ROUND", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "TAUNT", "THIEF", "THROATCHOP", "THUNDERWAVE", "TOXIC", "TRICK", "UPROAR", "TAKEDOWN", "SCARYFACE", "TRAILBLAZE", "CHILLINGWATER", "FLING", "IMPRISON", "MISTYTERRAIN")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Fairy", "Humanlike")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 12.5
+color = "Pink"
+shape = "Bipedal"
+category = "Malicioso"
+pokedex = "Su estrategia consiste en postrarse ante el rival y fingir una disculpa para ensartarlo con el mechón que tiene en la espalda, afilado cual lanza."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "GRIMMSNARL",
+"method": "Level",
+"param": "42"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b4l68spk7qfqh"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_sbh6c"]
+
+[resource]
+script = ExtResource("1_sbh6c")
+id = 721
+name = "Volcanion"
+types = Array[int]([10, 11])
+base_hp = 80
+base_atk = 110
+base_def = 120
+base_spe = 70
+base_spa = 130
+base_spd = 90
+catch_rate = 3
+base_exp = 300
+base_happiness = 100
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([11])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FIRESPIN"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "STEAMERUPTION"
+}, {
+"level": 6.0,
+"move": "LEER"
+}, {
+"level": 12.0,
+"move": "WEATHERBALL"
+}, {
+"level": 18.0,
+"move": "FLAMECHARGE"
+}, {
+"level": 24.0,
+"move": "WATERPULSE"
+}, {
+"level": 30.0,
+"move": "SCARYFACE"
+}, {
+"level": 36.0,
+"move": "INCINERATE"
+}, {
+"level": 42.0,
+"move": "STOMP"
+}, {
+"level": 48.0,
+"move": "SCALD"
+}, {
+"level": 54.0,
+"move": "TAKEDOWN"
+}, {
+"level": 60.0,
+"move": "MIST"
+}, {
+"level": 60.0,
+"move": "HAZE"
+}, {
+"level": 66.0,
+"move": "HYDROPUMP"
+}, {
+"level": 78.0,
+"move": "FLAREBLITZ"
+}, {
+"level": 84.0,
+"move": "OVERHEAT"
+}, {
+"level": 90.0,
+"move": "EXPLOSION"
+}])
+tutor_move_tokens = PackedStringArray("BODYPRESS", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CONFIDE", "CUT", "DEFOG", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FIREBLAST", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "FLASHCANNON", "FLING", "FOCUSBLAST", "FOCUSENERGY", "FRUSTRATION", "GIGAIMPACT", "GYROBALL", "HEATCRASH", "HEATWAVE", "HEAVYSLAM", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "INCINERATE", "LIQUIDATION", "MIMIC", "MISTYTERRAIN", "MUDSHOT", "NATURALGIFT", "OVERHEAT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROUND", "SANDSTORM", "SCALD", "SCARYFACE", "SCORCHINGSANDS", "SECRETPOWER", "SELFDESTRUCT", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SMACKDOWN", "SNORE", "SOLARBEAM", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "THUNDERFANG", "TOXIC", "WATERPULSE", "WEATHERBALL", "WILLOWISP", "TAKEDOWN", "FIREFANG", "ROCKTOMB", "DIG", "TAUNT", "WILDCHARGE", "HAZE", "DOUBLEEDGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 1.7
+weight_kg = 195.0
+color = "Brown"
+shape = "Quadruped"
+category = "Vapor"
+pokedex = "Expulsa su vapor interno desde los brazos de su espalda. Tiene suficiente poder para derribar una montaña."
+generation = 6
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Mythical")
+offspring = PackedStringArray()

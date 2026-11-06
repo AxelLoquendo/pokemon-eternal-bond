@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bijcx0b2ui8u2"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_endfk"]
+
+[resource]
+script = ExtResource("1_endfk")
+id = 636
+name = "Larvesta"
+types = Array[int]([7, 10])
+base_hp = 55
+base_atk = 85
+base_def = 55
+base_spe = 60
+base_spa = 50
+base_spd = 55
+base_exp = 72
+growth_rate = "Slow"
+abilities = Array[int]([49])
+hidden_abilities = Array[int]([68])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "STRINGSHOT"
+}, {
+"level": 6.0,
+"move": "FLAMECHARGE"
+}, {
+"level": 12.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 18.0,
+"move": "FLAMEWHEEL"
+}, {
+"level": 24.0,
+"move": "BUGBITE"
+}, {
+"level": 30.0,
+"move": "SCREECH"
+}, {
+"level": 36.0,
+"move": "LEECHLIFE"
+}, {
+"level": 42.0,
+"move": "BUGBUZZ"
+}, {
+"level": 48.0,
+"move": "TAKEDOWN"
+}, {
+"level": 54.0,
+"move": "AMNESIA"
+}, {
+"level": 60.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 66.0,
+"move": "FLAREBLITZ"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AMNESIA", "ATTRACT", "BUGBITE", "BUGBUZZ", "CALMMIND", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "ENDURE", "FACADE", "FIREBLAST", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "FRUSTRATION", "GIGADRAIN", "HEATWAVE", "HIDDENPOWER", "INCINERATE", "LEECHLIFE", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "NATURALGIFT", "OVERHEAT", "PROTECT", "PSYCHIC", "REST", "RETURN", "ROUND", "SAFEGUARD", "SCREECH", "SECRETPOWER", "SIGNALBEAM", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TOXIC", "UTURN", "WILDCHARGE", "WILLOWISP", "ZENHEADBUTT", "TAKEDOWN", "TRAILBLAZE", "POUNCE", "FIRESPIN", "BODYSLAM", "LUNGE", "DOUBLEEDGE")
+egg_move_tokens = PackedStringArray("ABSORB", "HARDEN", "THRASH")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 10240
+height_m = 1.1
+weight_kg = 28.8
+color = "White"
+shape = "Insectoid"
+category = "Antorcha"
+pokedex = "Vive en las laderas de los volcanes. Emite fuego por sus cinco cuernos para ahuyentar a sus enemigos."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "VOLCARONA",
+"method": "Level",
+"param": "59"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

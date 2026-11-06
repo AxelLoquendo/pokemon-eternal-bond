@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b31fgwtodg2jj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gpayp"]
+
+[resource]
+script = ExtResource("1_gpayp")
+id = 982
+name = "Dudunsparce"
+types = Array[int]([1])
+base_hp = 125
+base_atk = 100
+base_def = 80
+base_spe = 55
+base_spa = 85
+base_spd = 75
+base_exp = 182
+growth_rate = "Parabolic"
+abilities = Array[int]([32, 50])
+hidden_abilities = Array[int]([155])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FLAIL"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 4.0,
+"move": "MUDSLAP"
+}, {
+"level": 8.0,
+"move": "ROLLOUT"
+}, {
+"level": 12.0,
+"move": "GLARE"
+}, {
+"level": 16.0,
+"move": "SCREECH"
+}, {
+"level": 20.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 24.0,
+"move": "DRILLRUN"
+}, {
+"level": 28.0,
+"move": "YAWN"
+}, {
+"level": 32.0,
+"move": "HYPERDRILL"
+}, {
+"level": 36.0,
+"move": "ROOST"
+}, {
+"level": 40.0,
+"move": "DRAGONRUSH"
+}, {
+"level": 44.0,
+"move": "COIL"
+}, {
+"level": 48.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 52.0,
+"move": "ENDEAVOR"
+}, {
+"level": 56.0,
+"move": "HURRICANE"
+}, {
+"level": 62.0,
+"move": "BOOMBURST"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "AIRSLASH", "AMNESIA", "BATONPASS", "BLIZZARD", "BODYPRESS", "BODYSLAM", "BREAKINGSWIPE", "BULLDOZE", "CALMMIND", "CHILLINGWATER", "CURSE", "DIG", "DOUBLEEDGE", "DRAGONTAIL", "DRILLRUN", "DUALWINGBEAT", "EARTHPOWER", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FIREBLAST", "FLAMETHROWER", "GIGAIMPACT", "GYROBALL", "HEAVYSLAM", "HELPINGHAND", "HEX", "HURRICANE", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICESPINNER", "LUNGE", "MUDSHOT", "MUDSLAP", "OUTRAGE", "PAINSPLIT", "POISONJAB", "POISONTAIL", "POUNCE", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "ROCKSLIDE", "ROCKTOMB", "SANDSTORM", "SCALESHOT", "SCARYFACE", "SHADOWBALL", "SKITTERSMACK", "SLEEPTALK", "SMARTSTRIKE", "SOLARBEAM", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "TAILWIND", "TAKEDOWN", "THIEF", "THROATCHOP", "THUNDER", "THUNDERBOLT", "TOXIC", "UPROAR", "WILDCHARGE", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 3.6
+weight_kg = 39.2
+color = "Yellow"
+shape = "Serpentine"
+category = "Serpiente tierra"
+habitat = "Cave"
+pokedex = "Usa su dura cola para horadar el lecho rocoso en las profundidades de la tierra y establecer su madriguera, cuyos túneles se extienden 10 km."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Binodular"

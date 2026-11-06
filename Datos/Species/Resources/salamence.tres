@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://4aqfuuol7yus"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_oovnl"]
+
+[resource]
+script = ExtResource("1_oovnl")
+id = 373
+name = "Salamence"
+types = Array[int]([16, 3])
+base_hp = 95
+base_atk = 135
+base_def = 80
+base_spe = 100
+base_spa = 110
+base_spd = 80
+base_exp = 300
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([22])
+hidden_abilities = Array[int]([153])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "FLY"
+}, {
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 1.0,
+"move": "DRAGONTAIL"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 1.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 1.0,
+"move": "DUALWINGBEAT"
+}, {
+"level": 1.0,
+"move": "ROOST"
+}, {
+"level": 15.0,
+"move": "HEADBUTT"
+}, {
+"level": 20.0,
+"move": "SCARYFACE"
+}, {
+"level": 25.0,
+"move": "CRUNCH"
+}, {
+"level": 33.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 39.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 46.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 55.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 64.0,
+"move": "OUTRAGE"
+}, {
+"level": 73.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AIRCUTTER", "AIRSLASH", "AQUATAIL", "ATTRACT", "BODYSLAM", "BREAKINGSWIPE", "BRICKBREAK", "BRUTALSWING", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "CUT", "DEFENSECURL", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONDANCE", "DRAGONPULSE", "DRAGONTAIL", "DUALWINGBEAT", "EARTHQUAKE", "ENDURE", "FACADE", "FIREBLAST", "FIREFANG", "FLAMETHROWER", "FLY", "FOCUSENERGY", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HEADBUTT", "HEATWAVE", "HIDDENPOWER", "HONECLAWS", "HURRICANE", "HYDROPUMP", "HYPERBEAM", "HYPERVOICE", "INCINERATE", "IRONDEFENSE", "IRONTAIL", "LASERFOCUS", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "OUTRAGE", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROOST", "ROUND", "SCARYFACE", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SNORE", "STEELWING", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "THUNDERFANG", "TWISTER", "ZENHEADBUTT", "TAKEDOWN", "FIRESPIN", "PSYCHICFANGS", "IRONHEAD", "HELPINGHAND", "TEMPERFLARE", "DRAGONCHEER")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Dragon")
+hatch_steps = 10240
+height_m = 1.5
+weight_kg = 102.6
+color = "Blue"
+shape = "Quadruped"
+category = "Dragón"
+habitat = "RoughTerrain"
+pokedex = "Después de muchos años, su estructura celular sufrió una mutación repentina y le crecieron alas. Cuando se enfada, no se atiene a razones y entra en cólera."
+generation = 3
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "DRAGONFANG"
+offspring = PackedStringArray()

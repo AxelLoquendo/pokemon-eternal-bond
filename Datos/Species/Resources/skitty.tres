@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c13gl1pc5drgc"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_kbaf2"]
+
+[resource]
+script = ExtResource("1_kbaf2")
+id = 300
+name = "Skitty"
+types = Array[int]([1])
+base_hp = 50
+base_atk = 45
+base_def = 45
+base_spe = 50
+base_spa = 35
+base_spd = 35
+catch_rate = 255
+base_exp = 52
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+abilities = Array[int]([56, 96])
+hidden_abilities = Array[int]([147])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FAKEOUT"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 4.0,
+"move": "TACKLE"
+}, {
+"level": 7.0,
+"move": "SING"
+}, {
+"level": 10.0,
+"move": "ATTRACT"
+}, {
+"level": 13.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 16.0,
+"move": "FURYSWIPES"
+}, {
+"level": 19.0,
+"move": "COPYCAT"
+}, {
+"level": 22.0,
+"move": "PAYBACK"
+}, {
+"level": 25.0,
+"move": "CHARM"
+}, {
+"level": 31.0,
+"move": "FACADE"
+}, {
+"level": 34.0,
+"move": "COVET"
+}, {
+"level": 37.0,
+"move": "HEALBELL"
+}, {
+"level": 40.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 43.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 46.0,
+"move": "PLAYROUGH"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BODYSLAM", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COVET", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "ECHOEDVOICE", "ENDURE", "FACADE", "FLASH", "FRUSTRATION", "GRASSKNOT", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "ICEBEAM", "ICYWIND", "IRONTAIL", "LASTRESORT", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROLLOUT", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "SWIFT", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "UPROAR", "WATERPULSE", "WILDCHARGE", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("BATONPASS", "COSMICPOWER", "FAKEOUT", "FAKETEARS", "HELPINGHAND", "LASTRESORT", "SIMPLEBEAM", "SUCKERPUNCH", "TICKLE", "UPROAR", "WISH", "ZENHEADBUTT")
+egg_groups = PackedStringArray("Field", "Fairy")
+hatch_steps = 3840
+height_m = 0.6
+weight_kg = 11.0
+color = "Pink"
+shape = "Quadruped"
+category = "Gatito"
+habitat = "Forest"
+pokedex = "La forma de ser de Skitty, entrañable y adorable, lo hace tremendamente popular. En combate, hincha la cola y amenaza a su rival con un agudo gruñido."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "DELCATTY",
+"method": "Item",
+"param": "MOONSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

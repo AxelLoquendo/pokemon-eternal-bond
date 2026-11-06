@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c6ujp3kk7xxpc"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_fqrua"]
+
+[resource]
+script = ExtResource("1_fqrua")
+id = 35
+name = "Clefairy"
+types = Array[int]([18])
+base_hp = 70
+base_atk = 45
+base_def = 48
+base_spe = 35
+base_spa = 60
+base_spd = 65
+catch_rate = 150
+base_exp = 113
+base_happiness = 140
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+abilities = Array[int]([56, 98])
+hidden_abilities = Array[int]([132])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SING"
+}, {
+"level": 1.0,
+"move": "SWEETKISS"
+}, {
+"level": 1.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 1.0,
+"move": "CHARM"
+}, {
+"level": 1.0,
+"move": "SPLASH"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "COPYCAT"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 4.0,
+"move": "STOREDPOWER"
+}, {
+"level": 8.0,
+"move": "ENCORE"
+}, {
+"level": 8.0,
+"move": "MINIMIZE"
+}, {
+"level": 12.0,
+"move": "AFTERYOU"
+}, {
+"level": 16.0,
+"move": "LIFEDEW"
+}, {
+"level": 20.0,
+"move": "METRONOME"
+}, {
+"level": 24.0,
+"move": "MOONLIGHT"
+}, {
+"level": 28.0,
+"move": "GRAVITY"
+}, {
+"level": 32.0,
+"move": "METEORMASH"
+}, {
+"level": 36.0,
+"move": "FOLLOWME"
+}, {
+"level": 40.0,
+"move": "COSMICPOWER"
+}, {
+"level": 44.0,
+"move": "MOONBLAST"
+}, {
+"level": 48.0,
+"move": "HEALINGWISH"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ALLYSWITCH", "AMNESIA", "ATTRACT", "BATONPASS", "BLIZZARD", "BODYSLAM", "BOUNCE", "BRICKBREAK", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "COSMICPOWER", "COUNTER", "COVET", "DAZZLINGGLEAM", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAININGKISS", "DRAINPUNCH", "DREAMEATER", "DUALWINGBEAT", "DYNAMICPUNCH", "ECHOEDVOICE", "ENCORE", "ENDEAVOR", "ENDURE", "FACADE", "FAKETEARS", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "GRASSKNOT", "GRAVITY", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "ICEBEAM", "ICEPUNCH", "ICYWIND", "IMPRISON", "INCINERATE", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "LIGHTSCREEN", "MAGICALLEAF", "MAGICCOAT", "MEGAKICK", "MEGAPUNCH", "METEORBEAM", "METRONOME", "MIMIC", "MISTYEXPLOSION", "MISTYTERRAIN", "MUDSLAP", "MYSTICALFIRE", "NATURALGIFT", "PLAYROUGH", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETALIATE", "RETURN", "ROCKSMASH", "ROLEPLAY", "ROLLOUT", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNATCH", "SNORE", "SOFTBOILED", "SOLARBEAM", "STEALTHROCK", "STOREDPOWER", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TELEKINESIS", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "TRIATTACK", "TRICK", "UPROAR", "WATERPULSE", "WONDERROOM", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "PSYBEAM", "THIEF", "DISARMINGVOICE", "CHILLINGWATER", "SWIFT", "NIGHTSHADE", "SKILLSWAP", "ALLURINGVOICE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Fairy")
+hatch_steps = 2560
+height_m = 0.6
+weight_kg = 7.5
+color = "Pink"
+shape = "BipedalTail"
+category = "Hada"
+habitat = "Mountain"
+pokedex = "Cuando hay luna llena, salen en grupo para jugar. Al amanecer, los Clefairy, agotados, regresan a sus refugios de montaña para dormir acurrucados unos contra otros."
+evolutions = Array[Dictionary]([{
+"into": "CLEFABLE",
+"method": "Item",
+"param": "MOONSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MOONSTONE"
+offspring = PackedStringArray()

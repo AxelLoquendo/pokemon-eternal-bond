@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://12xhmveo0shq"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_u8wj5"]
+
+[resource]
+script = ExtResource("1_u8wj5")
+id = 49
+name = "Venomoth"
+types = Array[int]([7, 4])
+base_hp = 70
+base_atk = 65
+base_def = 60
+base_spe = 90
+base_spa = 90
+base_spd = 75
+catch_rate = 75
+base_exp = 158
+abilities = Array[int]([19, 110])
+hidden_abilities = Array[int]([147])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "AIRSLASH"
+}, {
+"level": 0.0,
+"move": "GUST"
+}, {
+"level": 1.0,
+"move": "QUIVERDANCE"
+}, {
+"level": 1.0,
+"move": "WHIRLWIND"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "DISABLE"
+}, {
+"level": 1.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 1.0,
+"move": "SUPERSONIC"
+}, {
+"level": 11.0,
+"move": "CONFUSION"
+}, {
+"level": 13.0,
+"move": "POISONPOWDER"
+}, {
+"level": 17.0,
+"move": "PSYBEAM"
+}, {
+"level": 23.0,
+"move": "STUNSPORE"
+}, {
+"level": 25.0,
+"move": "BUGBUZZ"
+}, {
+"level": 25.0,
+"move": "MEGADRAIN"
+}, {
+"level": 29.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 37.0,
+"move": "LEECHLIFE"
+}, {
+"level": 41.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 47.0,
+"move": "POISONFANG"
+}, {
+"level": 55.0,
+"move": "PSYCHIC"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AIRCUTTER", "ATTRACT", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "LEECHLIFE", "MIMIC", "NATURALGIFT", "OMINOUSWIND", "PROTECT", "PSYCHIC", "REST", "RETURN", "ROOST", "ROUND", "SECRETPOWER", "SIGNALBEAM", "SILVERWIND", "SKILLSWAP", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "THIEF", "TWISTER", "UTURN", "VENOSHOCK", "ZENHEADBUTT", "TAKEDOWN", "AGILITY", "ACIDSPRAY", "PSYBEAM", "CONFUSERAY", "POUNCE", "NIGHTSHADE", "AIRSLASH", "TOXICSPIKES", "BATONPASS", "TOXIC", "LUNGE", "ENDEAVOR", "SLUDGEWAVE", "SKITTERSMACK", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 1.5
+weight_kg = 12.5
+color = "Purple"
+shape = "MultiWinged"
+category = "Polilla Veneno"
+habitat = "Forest"
+pokedex = "Es nocturno, solo actúa en la oscuridad. Su alimento preferido son los pequeños insectos que se concentran por la noche cerca de los focos de luz."
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SHEDSHELL"
+offspring = PackedStringArray()

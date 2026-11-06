@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c11k7wvgh21pm"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_lkgbw"]
+
+[resource]
+script = ExtResource("1_lkgbw")
+id = 528
+name = "Swoobat"
+types = Array[int]([14, 3])
+base_hp = 67
+base_atk = 57
+base_def = 55
+base_spe = 114
+base_spa = 77
+base_spd = 55
+base_exp = 149
+abilities = Array[int]([109, 103])
+hidden_abilities = Array[int]([86])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GUST"
+}, {
+"level": 1.0,
+"move": "ATTRACT"
+}, {
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 1.0,
+"move": "ENDEAVOR"
+}, {
+"level": 15.0,
+"move": "AIRCUTTER"
+}, {
+"level": 20.0,
+"move": "IMPRISON"
+}, {
+"level": 25.0,
+"move": "ASSURANCE"
+}, {
+"level": 30.0,
+"move": "AMNESIA"
+}, {
+"level": 35.0,
+"move": "AIRSLASH"
+}, {
+"level": 40.0,
+"move": "PSYCHIC"
+}, {
+"level": 45.0,
+"move": "CALMMIND"
+}, {
+"level": 50.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 55.0,
+"move": "SIMPLEBEAM"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AFTERYOU", "AIRSLASH", "ALLYSWITCH", "AMNESIA", "ASSURANCE", "ATTRACT", "BATONPASS", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "DEFOG", "DOUBLETEAM", "DREAMEATER", "DUALWINGBEAT", "EMBARGO", "ENDEAVOR", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "FACADE", "FAKETEARS", "FLASH", "FLY", "FRUSTRATION", "FUTURESIGHT", "GIGADRAIN", "GIGAIMPACT", "GYROBALL", "HEATWAVE", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "IMPRISON", "KNOCKOFF", "LASERFOCUS", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "NASTYPLOT", "NATURALGIFT", "PLUCK", "PROTECT", "PSYCHIC", "PSYCHICFANGS", "PSYCHOCUT", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROOST", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SKYATTACK", "SLEEPTALK", "SNORE", "SPEEDSWAP", "STEELWING", "STOREDPOWER", "SUBSTITUTE", "SUPERFANG", "SWAGGER", "SWIFT", "TAILWIND", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERWAVE", "TORMENT", "TOXIC", "TRICK", "TRICKROOM", "UPROAR", "UTURN", "VENOMDRENCH", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field", "Flying")
+hatch_steps = 3840
+height_m = 0.9
+weight_kg = 10.5
+color = "Blue"
+shape = "Winged"
+category = "Galante"
+pokedex = "Todos rebosan de alborozo cuando perciben las ondas ultrasónicas emitidas por el macho para cortejar a la hembra."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

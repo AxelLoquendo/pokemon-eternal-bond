@@ -1,0 +1,72 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d3al43lh3ak2b"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_lgtdr"]
+
+[resource]
+script = ExtResource("1_lgtdr")
+id = 433
+name = "Chingling"
+types = Array[int]([14])
+base_hp = 45
+base_atk = 30
+base_def = 50
+base_spe = 45
+base_spa = 65
+base_spd = 50
+catch_rate = 120
+base_exp = 57
+growth_rate = "Fast"
+abilities = Array[int]([26])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 4.0,
+"move": "GROWL"
+}, {
+"level": 7.0,
+"move": "ASTONISH"
+}, {
+"level": 10.0,
+"move": "CONFUSION"
+}, {
+"level": 13.0,
+"move": "YAWN"
+}, {
+"level": 16.0,
+"move": "LASTRESORT"
+}, {
+"level": 19.0,
+"move": "ENTRAINMENT"
+}, {
+"level": 32.0,
+"move": "UPROAR"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BIND", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "DAZZLINGGLEAM", "DOUBLETEAM", "DREAMEATER", "ECHOEDVOICE", "ENDURE", "FACADE", "FLASH", "FRUSTRATION", "GRASSKNOT", "GRAVITY", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "ICYWIND", "KNOCKOFF", "LASTRESORT", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "NATURALGIFT", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLLOUT", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAUNT", "TELEKINESIS", "THUNDERWAVE", "TORMENT", "TRICK", "TRICKROOM", "UPROAR", "ZENHEADBUTT", "STOREDPOWER", "ENERGYBALL", "BATONPASS", "DOUBLEEDGE", "FUTURESIGHT", "CURSE", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray("COSMICPOWER", "CURSE", "DISABLE", "FUTURESIGHT", "HYPNOSIS", "PERISHSONG", "RECOVER", "STOREDPOWER", "WISH")
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 6400
+height_m = 0.2
+weight_kg = 0.6
+color = "Yellow"
+shape = "Bipedal"
+category = "Campana"
+pokedex = "Emite chillidos al agitar la esfera de su garganta. Se mueve con enérgicos saltos. Ensordece a sus rivales con sonidos de alta frecuencia."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "CHIMECHO",
+"method": "HappinessNight",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "CLEANSETAG"
+incense = "PUREINCENSE"
+offspring = PackedStringArray()

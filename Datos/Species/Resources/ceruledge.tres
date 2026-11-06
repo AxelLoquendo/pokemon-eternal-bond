@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c3gkb35q2hsql"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ho6dg"]
+
+[resource]
+script = ExtResource("1_ho6dg")
+id = 937
+name = "Ceruledge"
+types = Array[int]([10, 8])
+base_hp = 75
+base_atk = 125
+base_def = 80
+base_spe = 85
+base_spa = 60
+base_spd = 100
+catch_rate = 25
+base_exp = 263
+base_happiness = 20
+growth_rate = "Slow"
+abilities = Array[int]([18])
+hidden_abilities = Array[int]([133])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "NIGHTSLASH"
+}, {
+"level": -1.0,
+"move": "SOLARBLADE"
+}, {
+"level": -1.0,
+"move": "QUICKGUARD"
+}, {
+"level": -1.0,
+"move": "SHADOWSNEAK"
+}, {
+"level": -1.0,
+"move": "SHADOWCLAW"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 8.0,
+"move": "CLEARSMOG"
+}, {
+"level": 12.0,
+"move": "FIRESPIN"
+}, {
+"level": 16.0,
+"move": "WILLOWISP"
+}, {
+"level": 20.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 24.0,
+"move": "FLAMECHARGE"
+}, {
+"level": 28.0,
+"move": "INCINERATE"
+}, {
+"level": 32.0,
+"move": "LAVAPLUME"
+}, {
+"level": 37.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 42.0,
+"move": "ALLYSWITCH"
+}, {
+"level": 48.0,
+"move": "BITTERBLADE"
+}, {
+"level": 56.0,
+"move": "PSYCHOCUT"
+}, {
+"level": 62.0,
+"move": "FLAREBLITZ"
+}])
+tutor_move_tokens = PackedStringArray("BRICKBREAK", "BULKUP", "CLOSECOMBAT", "CONFUSERAY", "CURSE", "DRAGONCLAW", "ENDURE", "FACADE", "FALSESWIPE", "FIREBLAST", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "FLING", "HEATWAVE", "HELPINGHAND", "HEX", "IRONDEFENSE", "IRONHEAD", "LIGHTSCREEN", "NIGHTSHADE", "OVERHEAT", "PHANTOMFORCE", "POISONJAB", "POLTERGEIST", "PROTECT", "PSYCHUP", "REFLECT", "REST", "SHADOWBALL", "SHADOWCLAW", "SLEEPTALK", "SOLARBLADE", "SPITE", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "SWORDSDANCE", "TAKEDOWN", "TAUNT", "THROATCHOP", "VACUUMWAVE", "WILLOWISP", "XSCISSOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 8960
+height_m = 1.6
+weight_kg = 62.0
+color = "Blue"
+shape = "Bipedal"
+category = "Piroespada"
+habitat = "RoughTerrain"
+pokedex = "Las afiladas llamas que cubren sus brazos están avivadas por la frustración de un espadachín que cayó antes de poder cumplir su cometido."
+generation = 9
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

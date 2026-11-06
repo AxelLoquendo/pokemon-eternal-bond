@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dbpbkncahdd67"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_x56vl"]
+
+[resource]
+script = ExtResource("1_x56vl")
+id = 965
+name = "Varoom"
+types = Array[int]([9, 4])
+base_hp = 45
+base_atk = 70
+base_def = 63
+base_spe = 47
+base_spa = 30
+base_spd = 45
+catch_rate = 190
+base_exp = 60
+abilities = Array[int]([142])
+hidden_abilities = Array[int]([112])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POISONGAS"
+}, {
+"level": 1.0,
+"move": "LICK"
+}, {
+"level": 4.0,
+"move": "SMOG"
+}, {
+"level": 7.0,
+"move": "TAUNT"
+}, {
+"level": 10.0,
+"move": "ASSURANCE"
+}, {
+"level": 13.0,
+"move": "SLUDGE"
+}, {
+"level": 17.0,
+"move": "GYROBALL"
+}, {
+"level": 21.0,
+"move": "HEADBUTT"
+}, {
+"level": 25.0,
+"move": "SCREECH"
+}, {
+"level": 28.0,
+"move": "IRONHEAD"
+}, {
+"level": 32.0,
+"move": "SWAGGER"
+}, {
+"level": 36.0,
+"move": "POISONJAB"
+}, {
+"level": 41.0,
+"move": "UPROAR"
+}, {
+"level": 46.0,
+"move": "SPINOUT"
+}, {
+"level": 50.0,
+"move": "GUNKSHOT"
+}])
+tutor_move_tokens = PackedStringArray("ACIDSPRAY", "BODYSLAM", "BULLDOZE", "CURSE", "DOUBLEEDGE", "ENDURE", "FACADE", "FLASHCANNON", "GUNKSHOT", "GYROBALL", "HAZE", "IRONDEFENSE", "IRONHEAD", "METALSOUND", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "SANDSTORM", "SCARYFACE", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "STEELBEAM", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "TAUNT", "THIEF", "TOXIC", "TOXICSPIKES", "UPROAR", "VENOSHOCK", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("HAZE", "PARTINGSHOT", "SELFDESTRUCT", "TORMENT", "TOXIC")
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 35.0
+color = "Gray"
+shape = "Head"
+category = "Monocilindro"
+habitat = "RoughTerrain"
+pokedex = "Se dice que surgió cuando un misterioso Pokémon venenoso tomó posesión de un motor abandonado en un desguace."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "REVAVROOM",
+"method": "Level",
+"param": "40"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

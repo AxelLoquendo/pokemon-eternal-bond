@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cpmoximdwjj12"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wcpqk"]
+
+[resource]
+script = ExtResource("1_wcpqk")
+id = 44
+name = "Gloom"
+types = Array[int]([12, 4])
+base_hp = 60
+base_atk = 65
+base_def = 70
+base_spe = 40
+base_spa = 85
+base_spd = 75
+catch_rate = 120
+base_exp = 138
+growth_rate = "Parabolic"
+abilities = Array[int]([34])
+hidden_abilities = Array[int]([1])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 1.0,
+"move": "ACID"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 12.0,
+"move": "MEGADRAIN"
+}, {
+"level": 14.0,
+"move": "POISONPOWDER"
+}, {
+"level": 16.0,
+"move": "STUNSPORE"
+}, {
+"level": 18.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 20.0,
+"move": "GIGADRAIN"
+}, {
+"level": 26.0,
+"move": "TOXIC"
+}, {
+"level": 32.0,
+"move": "MOONBLAST"
+}, {
+"level": 38.0,
+"move": "GRASSYTERRAIN"
+}, {
+"level": 44.0,
+"move": "MOONLIGHT"
+}, {
+"level": 50.0,
+"move": "PETALDANCE"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BULLETSEED", "CAPTIVATE", "CHARM", "CONFIDE", "CUT", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FLING", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HIDDENPOWER", "INFESTATION", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PROTECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "TOXIC", "VENOSHOCK", "WORRYSEED", "ACIDSPRAY", "TRAILBLAZE", "MAGICALLEAF", "HELPINGHAND", "POLLENPUFF", "LEAFSTORM", "PETALBLIZZARD")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 8.6
+color = "Blue"
+shape = "Bipedal"
+category = "Hierbajo"
+habitat = "Grassland"
+pokedex = "De su boca cae una miel muy nociva que desprende un hedor que puede provocar la pérdida de memoria. Con todo, hay quien afirma deleitarse con su fetidez."
+evolutions = Array[Dictionary]([{
+"into": "VILEPLUME",
+"method": "Item",
+"param": "LEAFSTONE"
+}, {
+"into": "BELLOSSOM",
+"method": "Item",
+"param": "SUNSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "ABSORBBULB"
+offspring = PackedStringArray()

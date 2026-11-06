@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b2nraod5lnl11"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_khkku"]
+
+[resource]
+script = ExtResource("1_khkku")
+id = 989
+name = "Pelarena"
+types = Array[int]([13, 5])
+base_hp = 85
+base_atk = 81
+base_def = 97
+base_spe = 101
+base_spa = 121
+base_spd = 85
+catch_rate = 30
+base_exp = 285
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([283])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "SUNNYDAY"
+}, {
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 1.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 1.0,
+"move": "ELECTRICTERRAIN"
+}, {
+"level": 1.0,
+"move": "SUPERSONIC"
+}, {
+"level": 7.0,
+"move": "SPARK"
+}, {
+"level": 14.0,
+"move": "BULLDOZE"
+}, {
+"level": 21.0,
+"move": "CHARGEBEAM"
+}, {
+"level": 28.0,
+"move": "TRIATTACK"
+}, {
+"level": 35.0,
+"move": "SCREECH"
+}, {
+"level": 42.0,
+"move": "HEAVYSLAM"
+}, {
+"level": 49.0,
+"move": "METALSOUND"
+}, {
+"level": 56.0,
+"move": "DISCHARGE"
+}, {
+"level": 63.0,
+"move": "EARTHPOWER"
+}, {
+"level": 70.0,
+"move": "MIRRORCOAT"
+}, {
+"level": 77.0,
+"move": "GRAVITY"
+}, {
+"level": 84.0,
+"move": "ZAPCANNON"
+}, {
+"level": 91.0,
+"move": "MAGNETICFLUX"
+}])
+tutor_move_tokens = PackedStringArray("BODYPRESS", "BODYSLAM", "BULLDOZE", "CHARGE", "CHARGEBEAM", "EARTHPOWER", "EARTHQUAKE", "EERIEIMPULSE", "ELECTRICTERRAIN", "ELECTROBALL", "ELECTROWEB", "ENDURE", "FACADE", "FLASHCANNON", "GIGAIMPACT", "GRAVITY", "HEAVYSLAM", "HIGHHORSEPOWER", "HYPERBEAM", "IRONDEFENSE", "LIGHTSCREEN", "METALSOUND", "MUDSHOT", "POWERGEM", "PROTECT", "REFLECT", "REST", "SANDSTORM", "SANDTOMB", "SCORCHINGSANDS", "SLEEPTALK", "SPIKES", "STEALTHROCK", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "SUPERCELLSLAM", "SWIFT", "TAKEDOWN", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "VOLTSWITCH", "WILDCHARGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 12800
+height_m = 2.3
+weight_kg = 60.0
+color = "Gray"
+shape = "MultiBody"
+category = "Paradoja"
+habitat = "Rare"
+pokedex = "Su aspecto recuerda ligeramente a un supuesto Magneton que ha vivido 10000 años y cuya imagen se publicó en una revista esotérica."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Paradox")
+wild_item_uncommon = "BOOSTERENERGY"
+offspring = PackedStringArray()

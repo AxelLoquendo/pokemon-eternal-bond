@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cri3ya7da0skq"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_rm7vc"]
+
+[resource]
+script = ExtResource("1_rm7vc")
+id = 968
+name = "Orthworm"
+types = Array[int]([9])
+base_hp = 70
+base_atk = 85
+base_def = 145
+base_spe = 65
+base_spa = 60
+base_spd = 55
+catch_rate = 25
+base_exp = 240
+growth_rate = "Slow"
+abilities = Array[int]([274])
+hidden_abilities = Array[int]([8])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 7.0,
+"move": "MUDSLAP"
+}, {
+"level": 12.0,
+"move": "SMACKDOWN"
+}, {
+"level": 16.0,
+"move": "BULLDOZE"
+}, {
+"level": 21.0,
+"move": "IRONHEAD"
+}, {
+"level": 26.0,
+"move": "TAKEDOWN"
+}, {
+"level": 30.0,
+"move": "DIG"
+}, {
+"level": 34.0,
+"move": "SANDSTORM"
+}, {
+"level": 38.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 43.0,
+"move": "IRONTAIL"
+}, {
+"level": 47.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 52.0,
+"move": "SHEDTAIL"
+}])
+tutor_move_tokens = PackedStringArray("BODYPRESS", "BODYSLAM", "BULLDOZE", "CURSE", "DIG", "DOUBLEEDGE", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FLASHCANNON", "GIGAIMPACT", "HEAVYSLAM", "HELPINGHAND", "HIGHHORSEPOWER", "HYPERBEAM", "IRONDEFENSE", "IRONHEAD", "METALSOUND", "MUDSHOT", "MUDSLAP", "PROTECT", "REST", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "SANDSTORM", "SANDTOMB", "SLEEPTALK", "SMACKDOWN", "SPIKES", "STEALTHROCK", "STEELBEAM", "STOMPINGTANTRUM", "SUBSTITUTE", "TAKEDOWN")
+egg_move_tokens = PackedStringArray("COIL", "CURSE", "METALBURST")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 8960
+height_m = 2.5
+weight_kg = 310.0
+color = "Pink"
+shape = "Serpentine"
+category = "Lombriz"
+habitat = "RoughTerrain"
+pokedex = "Cuando lo atacan, usa los pelos de su cuerpo a modo de puños y hace llover un aluvión de puñetazos sobre sus enemigos."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

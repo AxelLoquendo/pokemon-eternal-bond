@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cfemoq1xpjy8g"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_qgf6o"]
+
+[resource]
+script = ExtResource("1_qgf6o")
+id = 868
+name = "Milcery"
+types = Array[int]([18])
+base_hp = 45
+base_atk = 40
+base_def = 40
+base_spe = 34
+base_spa = 50
+base_spd = 61
+catch_rate = 200
+base_exp = 54
+gender_ratio = "AlwaysFemale"
+abilities = Array[int]([175])
+hidden_abilities = Array[int]([165])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "AROMATICMIST"
+}, {
+"level": 5.0,
+"move": "SWEETKISS"
+}, {
+"level": 10.0,
+"move": "SWEETSCENT"
+}, {
+"level": 15.0,
+"move": "DRAININGKISS"
+}, {
+"level": 20.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 20.0,
+"move": "CHARM"
+}, {
+"level": 25.0,
+"move": "ATTRACT"
+}, {
+"level": 30.0,
+"move": "ACIDARMOR"
+}, {
+"level": 35.0,
+"move": "DAZZLINGGLEAM"
+}, {
+"level": 40.0,
+"move": "RECOVER"
+}, {
+"level": 45.0,
+"move": "MISTYTERRAIN"
+}, {
+"level": 50.0,
+"move": "ENTRAINMENT"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "CAPTIVATE", "CHARM", "CONFIDE", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAININGKISS", "ENDURE", "FACADE", "FLING", "FRUSTRATION", "HELPINGHAND", "HIDDENPOWER", "MIMIC", "MISTYTERRAIN", "NATURALGIFT", "PROTECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "STOREDPOWER", "SUBSTITUTE", "SWAGGER", "TOXIC")
+egg_move_tokens = PackedStringArray("BABYDOLLEYES", "LASTRESORT")
+egg_groups = PackedStringArray("Fairy", "Amorphous")
+hatch_steps = 5120
+height_m = 0.2
+weight_kg = 0.3
+color = "White"
+shape = "Head"
+category = "Nata"
+pokedex = "Su cremoso cuerpo surgió a partir de la unión de partículas odoríferas de dulces aromas presentes en el aire."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "ALCREMIE",
+"method": "HoldItem",
+"param": "STRAWBERRYSWEET"
+}, {
+"into": "ALCREMIE",
+"method": "HoldItem",
+"param": "BERRYSWEET"
+}, {
+"into": "ALCREMIE",
+"method": "HoldItem",
+"param": "LOVESWEET"
+}, {
+"into": "ALCREMIE",
+"method": "HoldItem",
+"param": "STARSWEET"
+}, {
+"into": "ALCREMIE",
+"method": "HoldItem",
+"param": "CLOVERSWEET"
+}, {
+"into": "ALCREMIE",
+"method": "HoldItem",
+"param": "FLOWERSWEET"
+}, {
+"into": "ALCREMIE",
+"method": "HoldItem",
+"param": "RIBBONSWEET"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

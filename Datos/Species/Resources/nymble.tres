@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bj0k1s2uuaeij"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_j5sgj"]
+
+[resource]
+script = ExtResource("1_j5sgj")
+id = 919
+name = "Nymble"
+types = Array[int]([7])
+base_hp = 33
+base_atk = 46
+base_def = 40
+base_spe = 45
+base_spa = 21
+base_spd = 25
+catch_rate = 190
+base_exp = 42
+base_happiness = 20
+abilities = Array[int]([68])
+hidden_abilities = Array[int]([110])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 4.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 6.0,
+"move": "ASTONISH"
+}, {
+"level": 9.0,
+"move": "ASSURANCE"
+}, {
+"level": 11.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 14.0,
+"move": "SCREECH"
+}, {
+"level": 18.0,
+"move": "ENDURE"
+}, {
+"level": 22.0,
+"move": "BUGBITE"
+}, {
+"level": 26.0,
+"move": "FEINT"
+}, {
+"level": 30.0,
+"move": "AGILITY"
+}, {
+"level": 38.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 41.0,
+"move": "FIRSTIMPRESSION"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "BUGBITE", "BUGBUZZ", "ENDURE", "FACADE", "LEECHLIFE", "POUNCE", "PROTECT", "RAINDANCE", "REST", "SKITTERSMACK", "SLEEPTALK", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "THIEF", "TRAILBLAZE", "UTURN", "XSCISSOR")
+egg_move_tokens = PackedStringArray("COUNTER", "SKITTERSMACK")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 0.2
+weight_kg = 1.0
+color = "Gray"
+shape = "Insectoid"
+category = "Saltamontes"
+habitat = "Grassland"
+pokedex = "Mantiene plegado su tercer par de patas, cuya fuerza le permite saltar a más de 10 m de altura para huir en caso de apuro."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "LOKIX",
+"method": "Level",
+"param": "24"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

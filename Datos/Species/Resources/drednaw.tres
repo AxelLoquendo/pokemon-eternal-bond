@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cics1ckhk2oyn"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_dbpcp"]
+
+[resource]
+script = ExtResource("1_dbpcp")
+id = 834
+name = "Drednaw"
+types = Array[int]([11, 6])
+base_hp = 90
+base_atk = 115
+base_def = 90
+base_spe = 74
+base_spa = 48
+base_spd = 68
+catch_rate = 75
+base_exp = 170
+abilities = Array[int]([173, 75])
+hidden_abilities = Array[int]([33])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "ROCKTOMB"
+}, {
+"level": 1.0,
+"move": "RAZORSHELL"
+}, {
+"level": 1.0,
+"move": "CRUNCH"
+}, {
+"level": 1.0,
+"move": "ROCKPOLISH"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 21.0,
+"move": "HEADBUTT"
+}, {
+"level": 30.0,
+"move": "COUNTER"
+}, {
+"level": 39.0,
+"move": "JAWLOCK"
+}, {
+"level": 48.0,
+"move": "LIQUIDATION"
+}, {
+"level": 57.0,
+"move": "BODYSLAM"
+}, {
+"level": 66.0,
+"move": "HEADSMASH"
+}])
+tutor_move_tokens = PackedStringArray("ASSURANCE", "ATTRACT", "BLIZZARD", "BODYPRESS", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "DIG", "DIVE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FALSESWIPE", "FRUSTRATION", "GIGAIMPACT", "HIDDENPOWER", "HIGHHORSEPOWER", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICEFANG", "IRONDEFENSE", "IRONTAIL", "LIQUIDATION", "MEGAHORN", "METEORBEAM", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PAYBACK", "POISONJAB", "PROTECT", "RAINDANCE", "RAZORSHELL", "REST", "RETURN", "REVENGE", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCALD", "SCALESHOT", "SCARYFACE", "SECRETPOWER", "SKITTERSMACK", "SLEEPTALK", "SMARTSTRIKE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SUPERPOWER", "SURF", "SWAGGER", "SWORDSDANCE", "THROATCHOP", "TOXIC", "WATERFALL", "WHIRLPOOL", "TAKEDOWN", "WATERPULSE", "CHILLINGWATER", "DRAGONTAIL", "ICESPINNER", "SUPERFANG", "DOUBLEEDGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Monster", "Water1")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 115.5
+color = "Green"
+shape = "Quadruped"
+category = "Mordisco"
+pokedex = "Su cuello extensible le permite alcanzar a los rivales a distancia. Hundiendo sus afilados dientes, les da el golpe de gracia."
+generation = 8
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

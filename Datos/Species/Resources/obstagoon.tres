@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://csk5pg7d3t30h"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_7bkhg"]
+
+[resource]
+script = ExtResource("1_7bkhg")
+id = 862
+name = "Obstagoon"
+types = Array[int]([17, 1])
+base_hp = 93
+base_atk = 90
+base_def = 101
+base_spe = 95
+base_spa = 60
+base_spd = 81
+base_exp = 260
+abilities = Array[int]([120, 62])
+hidden_abilities = Array[int]([128])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "OBSTRUCT"
+}, {
+"level": 1.0,
+"move": "CROSSCHOP"
+}, {
+"level": 1.0,
+"move": "SUBMISSION"
+}, {
+"level": 1.0,
+"move": "NIGHTSLASH"
+}, {
+"level": 1.0,
+"move": "SWITCHEROO"
+}, {
+"level": 1.0,
+"move": "PINMISSILE"
+}, {
+"level": 1.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "SANDATTACK"
+}, {
+"level": 1.0,
+"move": "LICK"
+}, {
+"level": 9.0,
+"move": "SNARL"
+}, {
+"level": 12.0,
+"move": "HEADBUTT"
+}, {
+"level": 15.0,
+"move": "HONECLAWS"
+}, {
+"level": 18.0,
+"move": "FURYSWIPES"
+}, {
+"level": 23.0,
+"move": "REST"
+}, {
+"level": 28.0,
+"move": "TAKEDOWN"
+}, {
+"level": 35.0,
+"move": "SCARYFACE"
+}, {
+"level": 42.0,
+"move": "COUNTER"
+}, {
+"level": 49.0,
+"move": "TAUNT"
+}, {
+"level": 56.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ASSURANCE", "ATTRACT", "BLIZZARD", "BODYPRESS", "BODYSLAM", "BRICKBREAK", "BULKUP", "CAPTIVATE", "CLOSECOMBAT", "CONFIDE", "CROSSPOISON", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FAKETEARS", "FIREPUNCH", "FLING", "FOCUSENERGY", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "GUNKSHOT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICEPUNCH", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "LASHOUT", "LOWKICK", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSHOT", "NATURALGIFT", "PAYBACK", "PINMISSILE", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROUND", "SCARYFACE", "SCREECH", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SHADOWCLAW", "SLEEPTALK", "SNARL", "SNORE", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "SURF", "SWAGGER", "SWIFT", "TAUNT", "THIEF", "THROATCHOP", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "TRICK", "WHIRLPOOL", "WORKUP", "XSCISSOR")
+egg_move_tokens = PackedStringArray("KNOCKOFF", "PARTINGSHOT", "QUICKGUARD")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 1.6
+weight_kg = 46.0
+color = "Gray"
+shape = "BipedalTail"
+category = "Bloqueador"
+pokedex = "La potencia de su voz es realmente pasmosa. La técnica que usa para intimidar al rival mientras grita recibe el nombre de Obstrucción."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 3.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("DefaultForm_1", "InheritFormWithEverStone")
+offspring = PackedStringArray()

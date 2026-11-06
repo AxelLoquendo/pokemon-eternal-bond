@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://boko63uvol7nw"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_h6j6j"]
+
+[resource]
+script = ExtResource("1_h6j6j")
+id = 640
+name = "Virizion"
+types = Array[int]([12, 2])
+base_hp = 91
+base_atk = 90
+base_def = 72
+base_spe = 108
+base_spa = 90
+base_spd = 129
+catch_rate = 3
+base_exp = 290
+base_happiness = 35
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([154])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "TAKEDOWN"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "HELPINGHAND"
+}, {
+"level": 1.0,
+"move": "WORKUP"
+}, {
+"level": 7.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 14.0,
+"move": "QUICKGUARD"
+}, {
+"level": 21.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 28.0,
+"move": "RETALIATE"
+}, {
+"level": 35.0,
+"move": "GIGADRAIN"
+}, {
+"level": 42.0,
+"move": "SYNTHESIS"
+}, {
+"level": 49.0,
+"move": "SACREDSWORD"
+}, {
+"level": 56.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 63.0,
+"move": "LEAFBLADE"
+}, {
+"level": 70.0,
+"move": "CLOSECOMBAT"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AIRSLASH", "BLOCK", "BOUNCE", "BRICKBREAK", "CALMMIND", "CLOSECOMBAT", "COACHING", "CONFIDE", "CUT", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FALSESWIPE", "FLASH", "FOCUSBLAST", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "LASERFOCUS", "LEAFBLADE", "LEAFSTORM", "LIGHTSCREEN", "MAGICALLEAF", "MEGAHORN", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PROTECT", "PSYCHUP", "REFLECT", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROAR", "ROCKSMASH", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SMARTSTRIKE", "SNORE", "SOLARBEAM", "SOLARBLADE", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWIFT", "SWORDSDANCE", "SYNTHESIS", "TAUNT", "TOXIC", "WORKUP", "WORRYSEED", "XSCISSOR", "ZENHEADBUTT", "TAKEDOWN", "SCARYFACE", "TRAILBLAZE", "BULLETSEED", "BODYSLAM", "AURASPHERE", "VACUUMWAVE", "DOUBLEEDGE", "UPPERHAND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 20480
+height_m = 2.0
+weight_kg = 200.0
+color = "Green"
+shape = "Quadruped"
+category = "Prado"
+pokedex = "Sus cuernos son hojas afiladas. Sacude a sus enemigos con sus relampagueantes movimientos y los reduce."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 3.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

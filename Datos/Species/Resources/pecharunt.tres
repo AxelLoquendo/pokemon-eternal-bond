@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dnetle3ln2lt0"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_m7qcw"]
+
+[resource]
+script = ExtResource("1_m7qcw")
+id = 1025
+name = "Pecharunt"
+types = Array[int]([4, 8])
+base_hp = 88
+base_atk = 88
+base_def = 160
+base_spe = 88
+base_spa = 88
+base_spd = 88
+catch_rate = 3
+base_exp = 300
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([307])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "DEFENSECURL"
+}, {
+"level": -1.0,
+"move": "ROLLOUT"
+}, {
+"level": -1.0,
+"move": "MEANLOOK"
+}, {
+"level": 1.0,
+"move": "SMOG"
+}, {
+"level": 1.0,
+"move": "POISONGAS"
+}, {
+"level": 1.0,
+"move": "MEMENTO"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 8.0,
+"move": "WITHDRAW"
+}, {
+"level": 16.0,
+"move": "DESTINYBOND"
+}, {
+"level": 24.0,
+"move": "FAKETEARS"
+}, {
+"level": 32.0,
+"move": "PARTINGSHOT"
+}, {
+"level": 40.0,
+"move": "SHADOWBALL"
+}, {
+"level": 48.0,
+"move": "MALIGNANTCHAIN"
+}, {
+"level": 56.0,
+"move": "TOXIC"
+}, {
+"level": 64.0,
+"move": "NASTYPLOT"
+}, {
+"level": 72.0,
+"move": "RECOVER"
+}])
+tutor_move_tokens = PackedStringArray("ACIDSPRAY", "CURSE", "ENDURE", "FAKETEARS", "FOULPLAY", "GUNKSHOT", "HEX", "IMPRISON", "NASTYPLOT", "NIGHTSHADE", "PHANTOMFORCE", "POLTERGEIST", "PROTECT", "REST", "SHADOWBALL", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SPITE", "SUBSTITUTE", "TOXIC", "VENOSHOCK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 2560
+height_m = 0.3
+weight_kg = 0.3
+color = "Purple"
+shape = "HeadArms"
+category = "Controlador"
+habitat = "Rare"
+pokedex = "Su caparazón con forma de melocotón alberga un potente veneno con el que prepara un mochi tóxico que ofrece a humanos y Pokémon."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 3.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Mythical")
+offspring = PackedStringArray()

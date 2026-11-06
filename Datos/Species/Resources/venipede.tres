@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bv1myhquwrws5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_62xi3"]
+
+[resource]
+script = ExtResource("1_62xi3")
+id = 543
+name = "Venipede"
+types = Array[int]([7, 4])
+base_hp = 30
+base_atk = 45
+base_def = 59
+base_spe = 57
+base_spa = 30
+base_spd = 39
+catch_rate = 255
+base_exp = 52
+growth_rate = "Parabolic"
+abilities = Array[int]([38, 68])
+hidden_abilities = Array[int]([3])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 4.0,
+"move": "ROLLOUT"
+}, {
+"level": 8.0,
+"move": "PROTECT"
+}, {
+"level": 12.0,
+"move": "POISONTAIL"
+}, {
+"level": 16.0,
+"move": "SCREECH"
+}, {
+"level": 20.0,
+"move": "BUGBITE"
+}, {
+"level": 24.0,
+"move": "VENOSHOCK"
+}, {
+"level": 28.0,
+"move": "TAKEDOWN"
+}, {
+"level": 32.0,
+"move": "AGILITY"
+}, {
+"level": 36.0,
+"move": "TOXIC"
+}, {
+"level": 40.0,
+"move": "VENOMDRENCH"
+}, {
+"level": 44.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "BUGBITE", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "GYROBALL", "HEX", "HIDDENPOWER", "INFESTATION", "IRONDEFENSE", "MIMIC", "NATURALGIFT", "PAYBACK", "PINMISSILE", "POISONJAB", "PROTECT", "REST", "RETURN", "ROCKSMASH", "ROUND", "SCREECH", "SECRETPOWER", "SIGNALBEAM", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SPIKES", "STEELROLLER", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TOXIC", "TOXICSPIKES", "VENOMDRENCH", "VENOSHOCK")
+egg_move_tokens = PackedStringArray("BITE", "FURYCUTTER")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.4
+weight_kg = 5.3
+color = "Red"
+shape = "Insectoid"
+category = "Ciempiés"
+pokedex = "Percibe su entorno con su sentido del tacto, residente en su cabeza y cola. Su carácter es violento por naturaleza."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "WHIRLIPEDE",
+"method": "Level",
+"param": "22"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "POISONBARB"
+offspring = PackedStringArray()

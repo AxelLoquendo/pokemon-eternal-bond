@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b7a15cvc7hfki"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_frggj"]
+
+[resource]
+script = ExtResource("1_frggj")
+id = 611
+name = "Fraxure"
+types = Array[int]([16])
+base_hp = 66
+base_atk = 117
+base_def = 70
+base_spe = 67
+base_spa = 40
+base_spd = 50
+catch_rate = 60
+base_exp = 144
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([79, 104])
+hidden_abilities = Array[int]([127])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 1.0,
+"move": "FALSESWIPE"
+}, {
+"level": 9.0,
+"move": "ASSURANCE"
+}, {
+"level": 12.0,
+"move": "TAUNT"
+}, {
+"level": 15.0,
+"move": "SLASH"
+}, {
+"level": 18.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 21.0,
+"move": "SCARYFACE"
+}, {
+"level": 24.0,
+"move": "CRUNCH"
+}, {
+"level": 27.0,
+"move": "DRAGONDANCE"
+}, {
+"level": 30.0,
+"move": "DUALCHOP"
+}, {
+"level": 30.0,
+"move": "BREAKINGSWIPE"
+}, {
+"level": 33.0,
+"move": "LASERFOCUS"
+}, {
+"level": 33.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 36.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 41.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 46.0,
+"move": "OUTRAGE"
+}, {
+"level": 51.0,
+"move": "GUILLOTINE"
+}, {
+"level": 56.0,
+"move": "GIGAIMPACT"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AQUATAIL", "ASSURANCE", "ATTRACT", "BREAKINGSWIPE", "CAPTIVATE", "CONFIDE", "CRUNCH", "CUT", "DIG", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONDANCE", "DRAGONPULSE", "DRAGONTAIL", "DUALCHOP", "ENDEAVOR", "ENDURE", "FACADE", "FALSESWIPE", "FLING", "FOCUSENERGY", "FRUSTRATION", "GIGAIMPACT", "HIDDENPOWER", "HONECLAWS", "INCINERATE", "IRONTAIL", "LOWKICK", "MIMIC", "NATURALGIFT", "OUTRAGE", "PAYBACK", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "REVERSAL", "ROAR", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCALESHOT", "SCARYFACE", "SECRETPOWER", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "TOXIC", "XSCISSOR", "TAKEDOWN", "TRAILBLAZE", "BULLDOZE", "SNARL", "BRICKBREAK", "IRONHEAD", "SURF", "DOUBLEEDGE", "DRAGONCHEER")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Monster", "Dragon")
+hatch_steps = 10240
+height_m = 1.0
+weight_kg = 36.0
+color = "Green"
+shape = "BipedalTail"
+category = "Bocahacha"
+pokedex = "Sus colmillos pueden hacer añicos rocas inmensas. Las luchas territoriales de los Fraxure son encarnizadas."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "HAXORUS",
+"method": "Level",
+"param": "48"
+}])
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

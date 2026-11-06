@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d1pyl7gxkjc1k"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_mjmsw"]
+
+[resource]
+script = ExtResource("1_mjmsw")
+id = 931
+name = "Squawkabilly"
+types = Array[int]([1, 3])
+base_hp = 82
+base_atk = 96
+base_def = 51
+base_spe = 92
+base_spa = 45
+base_spd = 51
+catch_rate = 190
+base_exp = 146
+growth_rate = "Erratic"
+abilities = Array[int]([22, 55])
+hidden_abilities = Array[int]([62])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "MIMIC"
+}, {
+"level": 6.0,
+"move": "QUICKATTACK"
+}, {
+"level": 10.0,
+"move": "TORMENT"
+}, {
+"level": 13.0,
+"move": "AERIALACE"
+}, {
+"level": 17.0,
+"move": "FURYATTACK"
+}, {
+"level": 20.0,
+"move": "TAUNT"
+}, {
+"level": 24.0,
+"move": "UPROAR"
+}, {
+"level": 27.0,
+"move": "COPYCAT"
+}, {
+"level": 30.0,
+"move": "FLY"
+}, {
+"level": 34.0,
+"move": "FACADE"
+}, {
+"level": 38.0,
+"move": "SWAGGER"
+}, {
+"level": 42.0,
+"move": "BRAVEBIRD"
+}, {
+"level": 47.0,
+"move": "ROOST"
+}, {
+"level": 52.0,
+"move": "REVERSAL"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "DOUBLEEDGE", "DUALWINGBEAT", "ENDEAVOR", "ENDURE", "FACADE", "FAKETEARS", "FEATHERDANCE", "FLY", "FOULPLAY", "GIGAIMPACT", "HEATWAVE", "HELPINGHAND", "HURRICANE", "HYPERBEAM", "HYPERVOICE", "LASHOUT", "POUNCE", "PROTECT", "REST", "REVERSAL", "SCARYFACE", "SLEEPTALK", "SUBSTITUTE", "SUNNYDAY", "TAILWIND", "TAKEDOWN", "TAUNT", "THIEF", "UPROAR", "UTURN")
+egg_move_tokens = PackedStringArray("DOUBLEEDGE", "FINALGAMBIT", "FLATTER", "PARTINGSHOT")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 3840
+height_m = 0.6
+weight_kg = 2.4
+color = "Green"
+shape = "Winged"
+category = "Loro"
+habitat = "Urban"
+pokedex = "Los Squawkabilly de plumas verdes son los predominantes. Arman mucho ruido al buscar comida por las mañanas y las noches."
+generation = 9
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Plumaje Verde"

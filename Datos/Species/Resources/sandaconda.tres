@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dj7xlhrn8qh5n"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_t0iho"]
+
+[resource]
+script = ExtResource("1_t0iho")
+id = 844
+name = "Sandaconda"
+types = Array[int]([5])
+base_hp = 72
+base_atk = 107
+base_def = 125
+base_spe = 71
+base_spa = 65
+base_spd = 70
+catch_rate = 120
+base_exp = 179
+abilities = Array[int]([245, 61])
+hidden_abilities = Array[int]([8])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SKULLBASH"
+}, {
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 1.0,
+"move": "SANDATTACK"
+}, {
+"level": 1.0,
+"move": "MINIMIZE"
+}, {
+"level": 1.0,
+"move": "BRUTALSWING"
+}, {
+"level": 15.0,
+"move": "BULLDOZE"
+}, {
+"level": 20.0,
+"move": "HEADBUTT"
+}, {
+"level": 25.0,
+"move": "GLARE"
+}, {
+"level": 30.0,
+"move": "DIG"
+}, {
+"level": 35.0,
+"move": "SANDSTORM"
+}, {
+"level": 42.0,
+"move": "SLAM"
+}, {
+"level": 49.0,
+"move": "COIL"
+}, {
+"level": 51.0,
+"move": "SANDTOMB"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYPRESS", "BRUTALSWING", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DIG", "DOUBLETEAM", "DRILLRUN", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FIREFANG", "FRUSTRATION", "GIGAIMPACT", "HIDDENPOWER", "HIGHHORSEPOWER", "HURRICANE", "HYPERBEAM", "IRONDEFENSE", "IRONHEAD", "MIMIC", "MUDSHOT", "NATURALGIFT", "OUTRAGE", "PROTECT", "REST", "RETURN", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCALESHOT", "SCORCHINGSANDS", "SCREECH", "SECRETPOWER", "SKITTERSMACK", "SLEEPTALK", "SNORE", "STEALTHROCK", "STONEEDGE", "SUBSTITUTE", "SWAGGER", "TOXIC", "ZENHEADBUTT", "TAKEDOWN", "MUDSLAP", "SCARYFACE", "THUNDERFANG", "POISONTAIL", "BODYSLAM", "ENDEAVOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field", "Dragon")
+hatch_steps = 5120
+height_m = 3.8
+weight_kg = 65.5
+color = "Green"
+shape = "Serpentine"
+category = "Serpiente arena"
+pokedex = "Se retuerce para expulsar por los orificios nasales hasta 100 kg de arena. La ausencia de esta mina su ánimo."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dqpwwo5mp4let"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_l1kl1"]
+
+[resource]
+script = ExtResource("1_l1kl1")
+id = 104
+name = "Cubone"
+types = Array[int]([5])
+base_hp = 50
+base_atk = 50
+base_def = 95
+base_spe = 35
+base_spa = 40
+base_spd = 50
+catch_rate = 190
+base_exp = 64
+abilities = Array[int]([69, 31])
+hidden_abilities = Array[int]([4])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 4.0,
+"move": "TAILWHIP"
+}, {
+"level": 8.0,
+"move": "FALSESWIPE"
+}, {
+"level": 12.0,
+"move": "HEADBUTT"
+}, {
+"level": 16.0,
+"move": "RETALIATE"
+}, {
+"level": 20.0,
+"move": "FLING"
+}, {
+"level": 24.0,
+"move": "STOMPINGTANTRUM"
+}, {
+"level": 29.0,
+"move": "BONERUSH"
+}, {
+"level": 32.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 36.0,
+"move": "ENDEAVOR"
+}, {
+"level": 40.0,
+"move": "BONEMERANG"
+}, {
+"level": 44.0,
+"move": "THRASH"
+}, {
+"level": 48.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BRUTALSWING", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHPOWER", "EARTHQUAKE", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FALSESWIPE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLING", "FOCUSENERGY", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "HEADBUTT", "HIDDENPOWER", "ICEBEAM", "ICYWIND", "INCINERATE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "KNOCKOFF", "LOWKICK", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "REST", "RETALIATE", "RETURN", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SCORCHINGSANDS", "SCREECH", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "THIEF", "THUNDERPUNCH", "UPROAR")
+egg_move_tokens = PackedStringArray("ANCIENTPOWER", "BELLYDRUM", "CURSE", "DETECT", "DOUBLEKICK", "IRONHEAD", "LEER", "PERISHSONG", "SCREECH", "SKULLBASH")
+egg_groups = PackedStringArray("Monster")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 6.5
+color = "Brown"
+shape = "BipedalTail"
+category = "Solitario"
+habitat = "Mountain"
+pokedex = "Le apena no volver a ver a su madre. La luna llena le recuerda a ella y se pone a chillar. Las marcas que tiene en el cráneo que lleva son debido a sus lágrimas."
+evolutions = Array[Dictionary]([{
+"into": "MAROWAK",
+"method": "Level",
+"param": "28"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "THICKCLUB"
+offspring = PackedStringArray()

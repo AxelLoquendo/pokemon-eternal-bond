@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dgwia4wqapd3u"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_377l0"]
+
+[resource]
+script = ExtResource("1_377l0")
+id = 182
+name = "Bellossom"
+types = Array[int]([12])
+base_hp = 75
+base_atk = 80
+base_def = 95
+base_spe = 50
+base_spa = 90
+base_spd = 100
+base_exp = 245
+growth_rate = "Parabolic"
+abilities = Array[int]([34])
+hidden_abilities = Array[int]([131])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "PETALBLIZZARD"
+}, {
+"level": 1.0,
+"move": "QUIVERDANCE"
+}, {
+"level": 1.0,
+"move": "MEGADRAIN"
+}, {
+"level": 1.0,
+"move": "POISONPOWDER"
+}, {
+"level": 1.0,
+"move": "STUNSPORE"
+}, {
+"level": 1.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 1.0,
+"move": "GIGADRAIN"
+}, {
+"level": 1.0,
+"move": "TOXIC"
+}, {
+"level": 1.0,
+"move": "MOONBLAST"
+}, {
+"level": 1.0,
+"move": "GRASSYTERRAIN"
+}, {
+"level": 1.0,
+"move": "MOONLIGHT"
+}, {
+"level": 1.0,
+"move": "PETALDANCE"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 1.0,
+"move": "ACID"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BATONPASS", "BULLETSEED", "CAPTIVATE", "CHARM", "CONFIDE", "CUT", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FLING", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "LASERFOCUS", "LEAFBLADE", "LEAFSTORM", "MAGICALLEAF", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PLAYROUGH", "PROTECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "TOXIC", "UPROAR", "VENOSHOCK", "WORRYSEED", "ACIDSPRAY", "TRAILBLAZE", "ENCORE", "POLLENPUFF", "SOLARBLADE", "WEATHERBALL", "ENDEAVOR", "PETALBLIZZARD", "TRIPLEAXEL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 5.8
+color = "Green"
+shape = "Bipedal"
+category = "Flor"
+habitat = "Grassland"
+pokedex = "A los pétalos de las flores se les acentúa el color si están expuestas a la luz solar. Cuando persiste el tiempo nublado, dicen que invoca al sol mediante un baile ritual."
+generation = 2
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 3.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "ABSORBBULB"
+offspring = PackedStringArray()

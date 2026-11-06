@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cmd68lvmwno3c"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_3wl13"]
+
+[resource]
+script = ExtResource("1_3wl13")
+id = 578
+name = "Duosion"
+types = Array[int]([14])
+base_hp = 65
+base_atk = 40
+base_def = 50
+base_spe = 30
+base_spa = 125
+base_spd = 60
+catch_rate = 100
+base_exp = 130
+growth_rate = "Parabolic"
+abilities = Array[int]([142, 98])
+hidden_abilities = Array[int]([144])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 1.0,
+"move": "RECOVER"
+}, {
+"level": 1.0,
+"move": "ENDEAVOR"
+}, {
+"level": 12.0,
+"move": "PSYBEAM"
+}, {
+"level": 16.0,
+"move": "CHARM"
+}, {
+"level": 20.0,
+"move": "PSYSHOCK"
+}, {
+"level": 24.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 24.0,
+"move": "REFLECT"
+}, {
+"level": 28.0,
+"move": "ALLYSWITCH"
+}, {
+"level": 35.0,
+"move": "PAINSPLIT"
+}, {
+"level": 40.0,
+"move": "PSYCHIC"
+}, {
+"level": 46.0,
+"move": "SKILLSWAP"
+}, {
+"level": 52.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 58.0,
+"move": "WONDERROOM"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ALLYSWITCH", "ATTRACT", "CALMMIND", "CAPTIVATE", "CHARM", "CONFIDE", "DOUBLETEAM", "DREAMEATER", "EMBARGO", "ENCORE", "ENDEAVOR", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "EXPLOSION", "FACADE", "FLASH", "FLASHCANNON", "FRUSTRATION", "FUTURESIGHT", "GRAVITY", "GUARDSWAP", "GYROBALL", "HELPINGHAND", "HIDDENPOWER", "IMPRISON", "INFESTATION", "IRONDEFENSE", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "NATURALGIFT", "PAINSPLIT", "POWERSWAP", "PROTECT", "PSYCHIC", "PSYCHICTERRAIN", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROCKSLIDE", "ROCKTOMB", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "STEELROLLER", "STOREDPOWER", "SUBSTITUTE", "SWAGGER", "TELEKINESIS", "THUNDER", "THUNDERWAVE", "TOXIC", "TRICK", "TRICKROOM", "WONDERROOM", "ZENHEADBUTT", "PSYBEAM", "CONFUSERAY", "SWIFT", "NIGHTSHADE", "SUNNYDAY")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 8.0
+color = "Green"
+shape = "Head"
+category = "Mitosis"
+pokedex = "Cuando las dos partes de su cerebro piensan lo mismo, saca todo su poder a relucir."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "REUNICLUS",
+"method": "Level",
+"param": "41"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

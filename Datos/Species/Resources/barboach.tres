@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://7tunergp82f5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wwkv0"]
+
+[resource]
+script = ExtResource("1_wwkv0")
+id = 339
+name = "Barboach"
+types = Array[int]([11, 5])
+base_hp = 50
+base_atk = 48
+base_def = 43
+base_spe = 60
+base_spa = 46
+base_spd = 41
+catch_rate = 190
+base_exp = 58
+abilities = Array[int]([12, 107])
+hidden_abilities = Array[int]([93])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 6.0,
+"move": "REST"
+}, {
+"level": 6.0,
+"move": "SNORE"
+}, {
+"level": 12.0,
+"move": "WATERPULSE"
+}, {
+"level": 18.0,
+"move": "AMNESIA"
+}, {
+"level": 24.0,
+"move": "AQUATAIL"
+}, {
+"level": 31.0,
+"move": "MUDDYWATER"
+}, {
+"level": 36.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 42.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 48.0,
+"move": "FISSURE"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "AQUATAIL", "ATTRACT", "BLIZZARD", "BOUNCE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DRAGONDANCE", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FRUSTRATION", "FUTURESIGHT", "HAIL", "HEADBUTT", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "MIMIC", "MUDDYWATER", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKTOMB", "ROUND", "SANDSTORM", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "TAKEDOWN", "CHILLINGWATER", "SWIFT", "SUNNYDAY", "ZENHEADBUTT", "STOMPINGTANTRUM", "ROCKSLIDE", "LIQUIDATION", "STEALTHROCK", "HELPINGHAND", "STONEEDGE", "OUTRAGE", "HIGHHORSEPOWER")
+egg_move_tokens = PackedStringArray("DRAGONDANCE", "EARTHPOWER", "FLAIL", "HYDROPUMP", "MUDDYWATER", "MUDSHOT", "SPARK", "TAKEDOWN", "THRASH", "WHIRLPOOL")
+egg_groups = PackedStringArray("Water2")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 1.9
+color = "Gray"
+shape = "Finned"
+category = "Bigotudo"
+habitat = "WatersEdge"
+pokedex = "Tiene el cuerpo cubierto de una película viscosa. Esta capa actúa como barrera y evita que los gérmenes del agua fangosa penetren en el cuerpo de Barboach."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "WHISCASH",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

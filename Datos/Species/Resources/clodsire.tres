@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1khuwbmgalmw"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_7bo3m"]
+
+[resource]
+script = ExtResource("1_7bo3m")
+id = 980
+name = "Clodsire"
+types = Array[int]([4, 5])
+base_hp = 130
+base_atk = 75
+base_def = 60
+base_spe = 20
+base_spa = 45
+base_spd = 100
+catch_rate = 90
+base_exp = 151
+abilities = Array[int]([38, 11])
+hidden_abilities = Array[int]([109])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "AMNESIA"
+}, {
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 4.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 8.0,
+"move": "MUDSHOT"
+}, {
+"level": 12.0,
+"move": "POISONTAIL"
+}, {
+"level": 16.0,
+"move": "SLAM"
+}, {
+"level": 21.0,
+"move": "YAWN"
+}, {
+"level": 24.0,
+"move": "POISONJAB"
+}, {
+"level": 30.0,
+"move": "SLUDGEWAVE"
+}, {
+"level": 36.0,
+"move": "MEGAHORN"
+}, {
+"level": 40.0,
+"move": "TOXIC"
+}, {
+"level": 48.0,
+"move": "EARTHQUAKE"
+}])
+tutor_move_tokens = PackedStringArray("ACIDSPRAY", "AMNESIA", "BODYPRESS", "BODYSLAM", "BULLDOZE", "CHILLINGWATER", "CURSE", "DIG", "DOUBLEEDGE", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "GIGAIMPACT", "GUNKSHOT", "HAZE", "HEAVYSLAM", "HELPINGHAND", "HIGHHORSEPOWER", "HYDROPUMP", "HYPERBEAM", "IRONHEAD", "LIQUIDATION", "LOWKICK", "MUDDYWATER", "MUDSHOT", "MUDSLAP", "POISONJAB", "POISONTAIL", "PROTECT", "RAINDANCE", "REST", "ROCKSLIDE", "ROCKTOMB", "SANDSTORM", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SPIKES", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SURF", "TAKEDOWN", "TOXIC", "TOXICSPIKES", "TRAILBLAZE", "VENOSHOCK", "WATERFALL", "WATERPULSE", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Field")
+hatch_steps = 5120
+height_m = 1.8
+weight_kg = 223.0
+color = "Brown"
+shape = "Quadruped"
+category = "Pez Púas"
+habitat = "WatersEdge"
+pokedex = "Cuando se siente amenazado, repele al enemigo con sus gruesas púas retráctiles. Esta técnica tan peligrosa es un arma de doble filo."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("DefaultForm_1", "InheritFormWithEverStone")
+offspring = PackedStringArray()

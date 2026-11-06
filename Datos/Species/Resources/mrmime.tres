@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b78cvjcpe46ix"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_t5je5"]
+
+[resource]
+script = ExtResource("1_t5je5")
+id = 122
+name = "Mr. Mime"
+types = Array[int]([14, 18])
+base_hp = 40
+base_atk = 45
+base_def = 65
+base_spe = 90
+base_spa = 100
+base_spd = 120
+base_exp = 161
+abilities = Array[int]([43, 111])
+hidden_abilities = Array[int]([101])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "QUICKGUARD"
+}, {
+"level": 1.0,
+"move": "WIDEGUARD"
+}, {
+"level": 1.0,
+"move": "POWERSWAP"
+}, {
+"level": 1.0,
+"move": "GUARDSWAP"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "COPYCAT"
+}, {
+"level": 1.0,
+"move": "BATONPASS"
+}, {
+"level": 1.0,
+"move": "ENCORE"
+}, {
+"level": 12.0,
+"move": "CONFUSION"
+}, {
+"level": 16.0,
+"move": "ROLEPLAY"
+}, {
+"level": 20.0,
+"move": "PROTECT"
+}, {
+"level": 24.0,
+"move": "RECYCLE"
+}, {
+"level": 28.0,
+"move": "PSYBEAM"
+}, {
+"level": 32.0,
+"move": "MIMIC"
+}, {
+"level": 36.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 36.0,
+"move": "REFLECT"
+}, {
+"level": 36.0,
+"move": "SAFEGUARD"
+}, {
+"level": 40.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 44.0,
+"move": "DAZZLINGGLEAM"
+}, {
+"level": 48.0,
+"move": "PSYCHIC"
+}, {
+"level": 52.0,
+"move": "TEETERDANCE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ALLYSWITCH", "ATTRACT", "BATONPASS", "BODYSLAM", "BRICKBREAK", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "COUNTER", "COVET", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DREAMEATER", "ENCORE", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "FACADE", "FIREPUNCH", "FLASH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FOULPLAY", "FRUSTRATION", "FUTURESIGHT", "GIGAIMPACT", "GRASSKNOT", "GUARDSWAP", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "ICEPUNCH", "ICYWIND", "INFESTATION", "IRONDEFENSE", "LIGHTSCREEN", "MAGICALLEAF", "MAGICCOAT", "MAGICROOM", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MISTYTERRAIN", "MUDSLAP", "MYSTICALFIRE", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "POWERSWAP", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "PSYCHICTERRAIN", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "SOLARBEAM", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "TORMENT", "TRICK", "TRICKROOM", "UPROAR", "WONDERROOM", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("CHARM", "CONFUSERAY", "FAKEOUT", "FUTURESIGHT", "HEALINGWISH", "HYPNOSIS", "ICYWIND", "MAGICROOM", "MIMIC", "POWERSPLIT", "TEETERDANCE", "TICKLE", "TRICK")
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 6400
+height_m = 1.3
+weight_kg = 54.5
+color = "Pink"
+shape = "Bipedal"
+category = "Barrera"
+habitat = "Urban"
+pokedex = "Domina la pantomima. Con sus gestos puede convencer a sus espectadores de la existencia de algo invisible y, cuando se lo creen, las ilusiones se hacen realidad."
+evolutions = Array[Dictionary]([{
+"into": "MRRIME",
+"method": "None",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 2.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

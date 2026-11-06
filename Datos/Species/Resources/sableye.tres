@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cm5tm80nlbik8"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ijx5u"]
+
+[resource]
+script = ExtResource("1_ijx5u")
+id = 302
+name = "Sableye"
+types = Array[int]([17, 8])
+base_hp = 50
+base_atk = 75
+base_def = 75
+base_spe = 50
+base_spa = 65
+base_spd = 65
+base_exp = 133
+base_happiness = 35
+growth_rate = "Parabolic"
+abilities = Array[int]([51, 100])
+hidden_abilities = Array[int]([158])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 3.0,
+"move": "ASTONISH"
+}, {
+"level": 6.0,
+"move": "CONFUSERAY"
+}, {
+"level": 9.0,
+"move": "SHADOWSNEAK"
+}, {
+"level": 12.0,
+"move": "FAKEOUT"
+}, {
+"level": 15.0,
+"move": "DISABLE"
+}, {
+"level": 18.0,
+"move": "DETECT"
+}, {
+"level": 21.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 24.0,
+"move": "FURYSWIPES"
+}, {
+"level": 27.0,
+"move": "KNOCKOFF"
+}, {
+"level": 30.0,
+"move": "QUASH"
+}, {
+"level": 33.0,
+"move": "SHADOWCLAW"
+}, {
+"level": 36.0,
+"move": "MEANLOOK"
+}, {
+"level": 39.0,
+"move": "POWERGEM"
+}, {
+"level": 42.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 45.0,
+"move": "SHADOWBALL"
+}, {
+"level": 48.0,
+"move": "FOULPLAY"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ALLYSWITCH", "ATTRACT", "BODYSLAM", "BRICKBREAK", "CALMMIND", "CAPTIVATE", "CONFIDE", "COUNTER", "CUT", "DARKPULSE", "DAZZLINGGLEAM", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DREAMEATER", "DYNAMICPUNCH", "EMBARGO", "ENCORE", "ENDURE", "FACADE", "FIREPUNCH", "FLASH", "FLING", "FOCUSPUNCH", "FOULPLAY", "FRUSTRATION", "FURYCUTTER", "GRAVITY", "GYROBALL", "HEADBUTT", "HELPINGHAND", "HEX", "HIDDENPOWER", "HONECLAWS", "ICEPUNCH", "ICYWIND", "IMPRISON", "INCINERATE", "KNOCKOFF", "LASHOUT", "LOWKICK", "LOWSWEEP", "MAGICCOAT", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "OMINOUSWIND", "PAINSPLIT", "PAYBACK", "POISONJAB", "POLTERGEIST", "POWERGEM", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "PSYCHUP", "QUASH", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKSMASH", "ROCKTOMB", "ROLEPLAY", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHADOWCLAW", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNARL", "SNATCH", "SNORE", "SPITE", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERPUNCH", "TORMENT", "TRICK", "WATERPULSE", "WILLOWISP", "WONDERROOM", "ZENHEADBUTT", "TAKEDOWN", "PSYBEAM", "CONFUSERAY", "METALCLAW", "MUDSHOT", "NIGHTSHADE", "BULKUP", "REFLECT", "LIGHTSCREEN", "THUNDERWAVE", "SKILLSWAP", "XSCISSOR", "GIGADRAIN", "ENERGYBALL", "PHANTOMFORCE", "GIGAIMPACT", "HYPERBEAM", "SKITTERSMACK", "THROATCHOP")
+egg_move_tokens = PackedStringArray("FEINT", "FLATTER", "IMPRISON", "MEANLOOK", "METALBURST", "MOONLIGHT", "RECOVER", "SUCKERPUNCH", "TORMENT", "TRICK")
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 6400
+height_m = 0.5
+weight_kg = 11.0
+color = "Purple"
+shape = "Bipedal"
+category = "Oscuridad"
+habitat = "Cave"
+pokedex = "Cava conductos en cuevas usando sus afiladas garras para buscar rocas con las que alimentarse. Sableye permanece al acecho en la oscuridad; no es fácil verlo."
+generation = 3
+yield_evs = {
+"atk": 1.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "WIDELENS"
+offspring = PackedStringArray()

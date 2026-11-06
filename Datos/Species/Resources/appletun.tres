@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://7v1wg7ueeofg"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_nim2q"]
+
+[resource]
+script = ExtResource("1_nim2q")
+id = 842
+name = "Appletun"
+types = Array[int]([12, 16])
+base_hp = 110
+base_atk = 85
+base_def = 80
+base_spe = 30
+base_spa = 100
+base_spd = 80
+base_exp = 170
+growth_rate = "Erratic"
+abilities = Array[int]([247, 82])
+hidden_abilities = Array[int]([47])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "HEADBUTT"
+}, {
+"level": 1.0,
+"move": "RECYCLE"
+}, {
+"level": 1.0,
+"move": "WITHDRAW"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 4.0,
+"move": "CURSE"
+}, {
+"level": 8.0,
+"move": "STOMP"
+}, {
+"level": 12.0,
+"move": "LEECHSEED"
+}, {
+"level": 16.0,
+"move": "PROTECT"
+}, {
+"level": 20.0,
+"move": "BULLETSEED"
+}, {
+"level": 24.0,
+"move": "RECOVER"
+}, {
+"level": 28.0,
+"move": "APPLEACID"
+}, {
+"level": 32.0,
+"move": "BODYSLAM"
+}, {
+"level": 36.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 40.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 44.0,
+"move": "ENERGYBALL"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ATTRACT", "BODYPRESS", "BODYSLAM", "BULLDOZE", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONPULSE", "EARTHQUAKE", "ENDURE", "ENERGYBALL", "FACADE", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "GYROBALL", "HEAVYSLAM", "HIDDENPOWER", "HIGHHORSEPOWER", "HYPERBEAM", "IRONDEFENSE", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "OUTRAGE", "PAYBACK", "PROTECT", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "TOXIC", "TAKEDOWN", "TRAILBLAZE", "POUNCE", "MAGICALLEAF", "DRAGONTAIL", "RAINDANCE", "ZENHEADBUTT", "STOMPINGTANTRUM", "IRONHEAD", "HELPINGHAND", "GRASSYTERRAIN", "LEAFSTORM", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass", "Dragon")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 13.0
+color = "Green"
+shape = "Quadruped"
+category = "Manzanéctar"
+pokedex = "Su cuerpo está recubierto de néctar. La piel de la espalda es tan dulce que los niños de antaño solían tomarla como merienda."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

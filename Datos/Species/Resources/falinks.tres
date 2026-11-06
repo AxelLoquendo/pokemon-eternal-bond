@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cwgor40t15lyy"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_p88pm"]
+
+[resource]
+script = ExtResource("1_p88pm")
+id = 870
+name = "Falinks"
+types = Array[int]([2])
+base_hp = 65
+base_atk = 100
+base_def = 100
+base_spe = 75
+base_spa = 70
+base_spd = 60
+base_exp = 165
+gender_ratio = "Genderless"
+abilities = Array[int]([4])
+hidden_abilities = Array[int]([128])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 5.0,
+"move": "ROCKSMASH"
+}, {
+"level": 10.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 15.0,
+"move": "HEADBUTT"
+}, {
+"level": 20.0,
+"move": "BULKUP"
+}, {
+"level": 25.0,
+"move": "ENDURE"
+}, {
+"level": 30.0,
+"move": "REVERSAL"
+}, {
+"level": 35.0,
+"move": "FIRSTIMPRESSION"
+}, {
+"level": 40.0,
+"move": "NORETREAT"
+}, {
+"level": 45.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 50.0,
+"move": "CLOSECOMBAT"
+}, {
+"level": 55.0,
+"move": "MEGAHORN"
+}, {
+"level": 60.0,
+"move": "COUNTER"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ASSURANCE", "BEATUP", "BRICKBREAK", "BULKUP", "CLOSECOMBAT", "COACHING", "CONFIDE", "DOUBLETEAM", "ENDURE", "FACADE", "FALSESWIPE", "FOCUSBLAST", "FOCUSENERGY", "FRUSTRATION", "GIGAIMPACT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "IRONDEFENSE", "IRONHEAD", "MEGAHORN", "MIMIC", "NATURALGIFT", "PAYBACK", "POISONJAB", "PROTECT", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SCREECH", "SECRETPOWER", "SLEEPTALK", "SMARTSTRIKE", "SNORE", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "SWORDSDANCE", "THROATCHOP", "TOXIC", "ZENHEADBUTT", "TAKEDOWN", "TRAILBLAZE", "SUNNYDAY", "RAINDANCE", "BODYSLAM", "BODYPRESS", "KNOCKOFF", "LUNGE", "HIGHHORSEPOWER", "UPROAR", "PSYCHUP", "ENDEAVOR", "UPPERHAND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Fairy", "Mineral")
+hatch_steps = 6400
+height_m = 3.0
+weight_kg = 62.0
+color = "Yellow"
+shape = "MultiBody"
+category = "Formación"
+pokedex = "Pokémon formado por seis individuos que cambian de formación al luchar, haciendo gala de un notable espíritu de equipo. Obedecen al líder sin rechistar."
+generation = 8
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

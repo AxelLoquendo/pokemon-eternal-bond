@@ -1,0 +1,82 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cwtb7numdev4h"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_44cmi"]
+
+[resource]
+script = ExtResource("1_44cmi")
+id = 443
+name = "Gible"
+types = Array[int]([16, 5])
+base_hp = 58
+base_atk = 70
+base_def = 45
+base_spe = 42
+base_spa = 40
+base_spd = 45
+base_exp = 60
+growth_rate = "Slow"
+abilities = Array[int]([8])
+hidden_abilities = Array[int]([24])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SANDTOMB"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 6.0,
+"move": "SANDATTACK"
+}, {
+"level": 12.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 18.0,
+"move": "BULLDOZE"
+}, {
+"level": 25.0,
+"move": "BITE"
+}, {
+"level": 30.0,
+"move": "SLASH"
+}, {
+"level": 36.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 42.0,
+"move": "DIG"
+}, {
+"level": 48.0,
+"move": "SANDSTORM"
+}, {
+"level": 54.0,
+"move": "TAKEDOWN"
+}, {
+"level": 60.0,
+"move": "DRAGONRUSH"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CUT", "DIG", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONPULSE", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FIREBLAST", "FLAMETHROWER", "FRUSTRATION", "FURYCUTTER", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "INCINERATE", "IRONHEAD", "IRONTAIL", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "OUTRAGE", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCALESHOT", "SCARYFACE", "SCORCHINGSANDS", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SNORE", "STEALTHROCK", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TWISTER", "TAKEDOWN", "FIREFANG", "THUNDERFANG", "METALCLAW", "DRAGONTAIL", "FALSESWIPE", "SWORDSDANCE", "HELPINGHAND", "DOUBLEEDGE", "DRAGONCHEER")
+egg_move_tokens = PackedStringArray("BODYSLAM", "DOUBLEEDGE", "DRAGONBREATH", "IRONHEAD", "METALCLAW", "MUDSHOT", "OUTRAGE", "SANDTOMB", "SCARYFACE", "THRASH", "TWISTER")
+egg_groups = PackedStringArray("Monster", "Dragon")
+hatch_steps = 10240
+height_m = 0.7
+weight_kg = 20.5
+color = "Blue"
+shape = "BipedalTail"
+category = "Terrascualo"
+pokedex = "Anida en pequeños agujeros en las paredes de cuevas. Cuando una presa pasa cerca, salta hacia ella. Antes vivía en el trópico."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "GABITE",
+"method": "Level",
+"param": "24"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

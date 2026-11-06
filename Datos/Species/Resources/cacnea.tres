@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://coijhdqim3yf2"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_a7gki"]
+
+[resource]
+script = ExtResource("1_a7gki")
+id = 331
+name = "Cacnea"
+types = Array[int]([12])
+base_hp = 50
+base_atk = 85
+base_def = 40
+base_spe = 35
+base_spa = 85
+base_spd = 40
+catch_rate = 190
+base_exp = 67
+base_happiness = 35
+growth_rate = "Parabolic"
+abilities = Array[int]([8])
+hidden_abilities = Array[int]([11])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "ABSORB"
+}, {
+"level": 7.0,
+"move": "GROWTH"
+}, {
+"level": 10.0,
+"move": "LEECHSEED"
+}, {
+"level": 13.0,
+"move": "SANDATTACK"
+}, {
+"level": 16.0,
+"move": "POISONJAB"
+}, {
+"level": 16.0,
+"move": "BULLETSEED"
+}, {
+"level": 19.0,
+"move": "ASSURANCE"
+}, {
+"level": 19.0,
+"move": "POWERTRIP"
+}, {
+"level": 22.0,
+"move": "INGRAIN"
+}, {
+"level": 26.0,
+"move": "PAYBACK"
+}, {
+"level": 30.0,
+"move": "SPIKES"
+}, {
+"level": 34.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 38.0,
+"move": "PINMISSILE"
+}, {
+"level": 42.0,
+"move": "ENERGYBALL"
+}, {
+"level": 46.0,
+"move": "COTTONSPORE"
+}, {
+"level": 50.0,
+"move": "SANDSTORM"
+}, {
+"level": 54.0,
+"move": "DESTINYBOND"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLOCK", "BODYSLAM", "BRICKBREAK", "BULLETSEED", "CAPTIVATE", "CONFIDE", "COUNTER", "CUT", "DARKPULSE", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DYNAMICPUNCH", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "GRASSKNOT", "HEADBUTT", "HIDDENPOWER", "LOWKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "NATUREPOWER", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "PROTECT", "REST", "RETURN", "ROLEPLAY", "ROUND", "SANDSTORM", "SECRETPOWER", "SEEDBOMB", "SEISMICTOSS", "SLEEPTALK", "SNORE", "SOLARBEAM", "SPITE", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "THUNDERPUNCH", "VENOSHOCK", "WORRYSEED", "TAKEDOWN", "SCARYFACE", "THIEF", "TRAILBLAZE", "BULLDOZE", "SWIFT", "MAGICALLEAF", "RAINDANCE", "DIG", "FOULPLAY", "SPIKES", "TOXICSPIKES", "ENCORE", "HELPINGHAND", "GRASSYTERRAIN", "LEAFSTORM", "GRASSYGLIDE", "ENDEAVOR", "SKITTERSMACK", "THROATCHOP", "CURSE")
+egg_move_tokens = PackedStringArray("ACID", "BELCH", "BLOCK", "COUNTER", "DISABLE", "DYNAMICPUNCH", "FELLSTINGER", "LOWKICK", "MAGICALLEAF", "POWERUPPUNCH", "SEEDBOMB", "SWITCHEROO", "TEETERDANCE", "WORRYSEED")
+egg_groups = PackedStringArray("Grass", "Humanlike")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 51.3
+color = "Green"
+shape = "Bipedal"
+category = "Cactus"
+habitat = "RoughTerrain"
+pokedex = "Cacnea vive en desiertos donde nunca llueve. Para luchar, balancea los brazos muy gruesos y cubiertos de pinchos. Una vez al año, le brota una flor amarilla."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "CACTURNE",
+"method": "Level",
+"param": "32"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "STICKYBARB"
+offspring = PackedStringArray()

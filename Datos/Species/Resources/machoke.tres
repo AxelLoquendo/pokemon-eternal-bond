@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://duangxegfddp1"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_row5d"]
+
+[resource]
+script = ExtResource("1_row5d")
+id = 67
+name = "Machoke"
+types = Array[int]([2])
+base_hp = 80
+base_atk = 100
+base_def = 70
+base_spe = 45
+base_spa = 50
+base_spd = 60
+catch_rate = 90
+base_exp = 142
+gender_ratio = "Female25Percent"
+growth_rate = "Parabolic"
+abilities = Array[int]([62, 99])
+hidden_abilities = Array[int]([80])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "LOWKICK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 1.0,
+"move": "REVENGE"
+}, {
+"level": 12.0,
+"move": "LOWSWEEP"
+}, {
+"level": 16.0,
+"move": "KNOCKOFF"
+}, {
+"level": 20.0,
+"move": "SCARYFACE"
+}, {
+"level": 24.0,
+"move": "VITALTHROW"
+}, {
+"level": 31.0,
+"move": "STRENGTH"
+}, {
+"level": 36.0,
+"move": "DUALCHOP"
+}, {
+"level": 42.0,
+"move": "BULKUP"
+}, {
+"level": 48.0,
+"move": "SEISMICTOSS"
+}, {
+"level": 54.0,
+"move": "DYNAMICPUNCH"
+}, {
+"level": 60.0,
+"move": "CROSSCHOP"
+}, {
+"level": 66.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "CLOSECOMBAT", "COACHING", "CONFIDE", "COUNTER", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DUALCHOP", "DYNAMICPUNCH", "EARTHQUAKE", "ENCORE", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLING", "FOCUSBLAST", "FOCUSENERGY", "FOCUSPUNCH", "FRUSTRATION", "HEADBUTT", "HEAVYSLAM", "HELPINGHAND", "HIDDENPOWER", "ICEPUNCH", "INCINERATE", "KNOCKOFF", "LIGHTSCREEN", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLEPLAY", "ROUND", "SCARYFACE", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SMACKDOWN", "SNORE", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "THIEF", "THUNDERPUNCH", "VACUUMWAVE", "WORKUP")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 5120
+height_m = 1.5
+weight_kg = 70.5
+color = "Gray"
+shape = "Bipedal"
+category = "Superpoder"
+habitat = "Mountain"
+pokedex = "Machoke lleva un cinturón para controlar su abrumadora energía. Como es tan peligroso, nadie se lo ha quitado nunca. Utiliza su fuerza para ayudar a la gente."
+evolutions = Array[Dictionary]([{
+"into": "MACHAMP",
+"method": "Trade",
+"param": ""
+}, {
+"into": "MACHAMP",
+"method": "Item",
+"param": "LINKINGCORD"
+}])
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "FOCUSBAND"
+offspring = PackedStringArray()

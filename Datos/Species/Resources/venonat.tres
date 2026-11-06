@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ve57pxt1165d"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ssrw5"]
+
+[resource]
+script = ExtResource("1_ssrw5")
+id = 48
+name = "Venonat"
+types = Array[int]([7, 4])
+base_hp = 60
+base_atk = 55
+base_def = 50
+base_spe = 45
+base_spa = 40
+base_spd = 55
+catch_rate = 190
+base_exp = 61
+abilities = Array[int]([14, 110])
+hidden_abilities = Array[int]([50])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "DISABLE"
+}, {
+"level": 1.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 5.0,
+"move": "SUPERSONIC"
+}, {
+"level": 11.0,
+"move": "CONFUSION"
+}, {
+"level": 13.0,
+"move": "POISONPOWDER"
+}, {
+"level": 17.0,
+"move": "PSYBEAM"
+}, {
+"level": 23.0,
+"move": "STUNSPORE"
+}, {
+"level": 25.0,
+"move": "MEGADRAIN"
+}, {
+"level": 25.0,
+"move": "BUGBUZZ"
+}, {
+"level": 29.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 35.0,
+"move": "LEECHLIFE"
+}, {
+"level": 37.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 41.0,
+"move": "POISONFANG"
+}, {
+"level": 47.0,
+"move": "PSYCHIC"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BUGBITE", "CAPTIVATE", "CONFIDE", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "HIDDENPOWER", "INFESTATION", "LEECHLIFE", "MIMIC", "NATURALGIFT", "PROTECT", "PSYCHIC", "REST", "RETURN", "ROUND", "SECRETPOWER", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "THIEF", "VENOSHOCK", "ZENHEADBUTT", "TAKEDOWN", "AGILITY", "ACIDSPRAY", "PSYBEAM", "CONFUSERAY", "POUNCE", "NIGHTSHADE", "TOXICSPIKES", "ENERGYBALL", "BATONPASS", "BUGBUZZ", "TOXIC", "LUNGE", "ENDEAVOR", "SKITTERSMACK", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray("AGILITY", "BATONPASS", "BUGBITE", "MORNINGSUN", "RAGEPOWDER", "SCREECH", "TOXICSPIKES")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 30.0
+color = "Purple"
+shape = "Bipedal"
+category = "Insecto"
+habitat = "Forest"
+pokedex = "Dicen que evolucionó con una fina capa de pelo rígido a modo de protección. Tiene unos ojos tan grandes que no hay presa que le pase desapercibida."
+evolutions = Array[Dictionary]([{
+"into": "VENOMOTH",
+"method": "Level",
+"param": "31"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

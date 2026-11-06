@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b7ywtl026ywde"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_q6bcb"]
+
+[resource]
+script = ExtResource("1_q6bcb")
+id = 192
+name = "Sunflora"
+types = Array[int]([12])
+base_hp = 75
+base_atk = 75
+base_def = 55
+base_spe = 30
+base_spa = 105
+base_spd = 85
+catch_rate = 120
+base_exp = 149
+growth_rate = "Parabolic"
+abilities = Array[int]([34, 94])
+hidden_abilities = Array[int]([48])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FLOWERSHIELD"
+}, {
+"level": 1.0,
+"move": "ENDEAVOR"
+}, {
+"level": 1.0,
+"move": "SYNTHESIS"
+}, {
+"level": 1.0,
+"move": "SEEDBOMB"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 4.0,
+"move": "INGRAIN"
+}, {
+"level": 7.0,
+"move": "ABSORB"
+}, {
+"level": 10.0,
+"move": "MEGADRAIN"
+}, {
+"level": 13.0,
+"move": "LEECHSEED"
+}, {
+"level": 16.0,
+"move": "RAZORLEAF"
+}, {
+"level": 19.0,
+"move": "WORRYSEED"
+}, {
+"level": 22.0,
+"move": "GIGADRAIN"
+}, {
+"level": 25.0,
+"move": "BULLETSEED"
+}, {
+"level": 28.0,
+"move": "PETALDANCE"
+}, {
+"level": 31.0,
+"move": "SOLARBEAM"
+}, {
+"level": 37.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 39.0,
+"move": "SUNNYDAY"
+}, {
+"level": 43.0,
+"move": "LEAFSTORM"
+}, {
+"level": 50.0,
+"move": "PETALBLIZZARD"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BULLETSEED", "CAPTIVATE", "CONFIDE", "CUT", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PROTECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "UPROAR", "WORRYSEED", "TAKEDOWN", "TRAILBLAZE", "MAGICALLEAF", "RAINDANCE", "DAZZLINGGLEAM", "ENCORE", "GRASSYTERRAIN", "LEAFSTORM", "WEATHERBALL", "GRASSYGLIDE", "PETALBLIZZARD", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 8.5
+color = "Yellow"
+shape = "Bipedal"
+category = "Sol"
+habitat = "Grassland"
+pokedex = "Transforma la energía solar en nutrientes. De día, cuando hace calor, está en continuo movimiento. Sólo se detiene cuando comienza a anochecer."
+generation = 2
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

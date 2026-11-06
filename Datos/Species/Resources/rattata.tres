@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qjqyhcb8vahv"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_mng6o"]
+
+[resource]
+script = ExtResource("1_mng6o")
+id = 19
+name = "Rattata"
+types = Array[int]([1])
+base_hp = 30
+base_atk = 56
+base_def = 35
+base_spe = 72
+base_spa = 25
+base_spd = 35
+catch_rate = 255
+base_exp = 51
+abilities = Array[int]([50, 62])
+hidden_abilities = Array[int]([55])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 4.0,
+"move": "QUICKATTACK"
+}, {
+"level": 7.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 10.0,
+"move": "BITE"
+}, {
+"level": 13.0,
+"move": "LASERFOCUS"
+}, {
+"level": 16.0,
+"move": "TAKEDOWN"
+}, {
+"level": 19.0,
+"move": "ASSURANCE"
+}, {
+"level": 22.0,
+"move": "CRUNCH"
+}, {
+"level": 25.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 28.0,
+"move": "SUPERFANG"
+}, {
+"level": 31.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 34.0,
+"move": "ENDEAVOR"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BODYSLAM", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COUNTER", "COVET", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "GRASSKNOT", "HEADBUTT", "HIDDENPOWER", "ICEBEAM", "ICYWIND", "IRONTAIL", "LASTRESORT", "MIMIC", "MUDSLAP", "NATURALGIFT", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKSMASH", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SUPERFANG", "SWAGGER", "SWIFT", "TAUNT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "UPROAR", "UTURN", "WILDCHARGE", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("BITE", "COUNTER", "FINALGAMBIT", "FLAMEWHEEL", "FURYSWIPES", "LASTRESORT", "REVENGE", "REVERSAL", "SCREECH", "UPROAR")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.3
+weight_kg = 3.5
+color = "Purple"
+shape = "Quadruped"
+category = "Ratón"
+habitat = "Grassland"
+pokedex = "Rattata es cauto como él solo. Hasta cuando duerme mueve las orejas para oír todo lo que pueda suponer un peligro. Cava su madriguera en cualquier sitio."
+evolutions = Array[Dictionary]([{
+"into": "RATICATE",
+"method": "Level",
+"param": "20"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "CHILANBERRY"
+offspring = PackedStringArray()

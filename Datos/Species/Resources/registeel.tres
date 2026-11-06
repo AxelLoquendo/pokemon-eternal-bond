@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c77bjh3ijyfml"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_8qtvf"]
+
+[resource]
+script = ExtResource("1_8qtvf")
+id = 379
+name = "Registeel"
+types = Array[int]([9])
+base_hp = 80
+base_atk = 75
+base_def = 150
+base_spe = 50
+base_spa = 75
+base_spd = 150
+catch_rate = 3
+base_exp = 290
+base_happiness = 35
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([29])
+hidden_abilities = Array[int]([135])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "CHARGEBEAM"
+}, {
+"level": 1.0,
+"move": "METALCLAW"
+}, {
+"level": 6.0,
+"move": "BULLDOZE"
+}, {
+"level": 12.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 18.0,
+"move": "STOMP"
+}, {
+"level": 24.0,
+"move": "IRONHEAD"
+}, {
+"level": 24.0,
+"move": "FLASHCANNON"
+}, {
+"level": 30.0,
+"move": "CURSE"
+}, {
+"level": 36.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 36.0,
+"move": "AMNESIA"
+}, {
+"level": 42.0,
+"move": "HAMMERARM"
+}, {
+"level": 48.0,
+"move": "HEAVYSLAM"
+}, {
+"level": 54.0,
+"move": "SUPERPOWER"
+}, {
+"level": 60.0,
+"move": "LOCKON"
+}, {
+"level": 66.0,
+"move": "ZAPCANNON"
+}, {
+"level": 72.0,
+"move": "HYPERBEAM"
+}, {
+"level": 78.0,
+"move": "EXPLOSION"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AMNESIA", "ANCIENTPOWER", "BLOCK", "BODYPRESS", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CHARGEBEAM", "CONFIDE", "COUNTER", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FLASHCANNON", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "GRAVITY", "HEADBUTT", "HEAVYSLAM", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "ICEPUNCH", "IRONDEFENSE", "IRONHEAD", "MAGNETRISE", "MEGAKICK", "MEGAPUNCH", "METEORBEAM", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROCKCLIMB", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SAFEGUARD", "SANDSTORM", "SANDTOMB", "SECRETPOWER", "SEISMICTOSS", "SELFDESTRUCT", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNORE", "STEALTHROCK", "STEELBEAM", "STEELROLLER", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "TAKEDOWN", "METALCLAW", "ICESPINNER", "METALSOUND", "CURSE", "HARDPRESS")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 20480
+height_m = 1.9
+weight_kg = 205.0
+color = "Gray"
+shape = "Bipedal"
+category = "Hierro"
+habitat = "Cave"
+pokedex = "Su cuerpo está compuesto del metal más duro que hay; una misteriosa sustancia que, además de ser muy sólida, se contrae y dilata con facilidad."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

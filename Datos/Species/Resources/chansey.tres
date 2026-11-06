@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://brddrokbwomr7"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_tf3k1"]
+
+[resource]
+script = ExtResource("1_tf3k1")
+id = 113
+name = "Chansey"
+types = Array[int]([1])
+base_hp = 250
+base_atk = 5
+base_def = 5
+base_spe = 50
+base_spa = 35
+base_spd = 105
+catch_rate = 30
+base_exp = 395
+base_happiness = 140
+gender_ratio = "AlwaysFemale"
+growth_rate = "Fast"
+abilities = Array[int]([30, 32])
+hidden_abilities = Array[int]([131])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SWEETKISS"
+}, {
+"level": 1.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 1.0,
+"move": "COVET"
+}, {
+"level": 1.0,
+"move": "CHARM"
+}, {
+"level": 1.0,
+"move": "MINIMIZE"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "COPYCAT"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 4.0,
+"move": "TAILWHIP"
+}, {
+"level": 8.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 12.0,
+"move": "LIFEDEW"
+}, {
+"level": 16.0,
+"move": "SING"
+}, {
+"level": 20.0,
+"move": "FLING"
+}, {
+"level": 24.0,
+"move": "TAKEDOWN"
+}, {
+"level": 28.0,
+"move": "HEALPULSE"
+}, {
+"level": 32.0,
+"move": "HELPINGHAND"
+}, {
+"level": 36.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 40.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 44.0,
+"move": "SOFTBOILED"
+}, {
+"level": 48.0,
+"move": "LASTRESORT"
+}, {
+"level": 52.0,
+"move": "HEALINGWISH"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "COUNTER", "COVET", "DAZZLINGGLEAM", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DREAMEATER", "DYNAMICPUNCH", "EARTHQUAKE", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "GRAVITY", "HAIL", "HEADBUTT", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICEPUNCH", "ICYWIND", "INCINERATE", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "LIGHTSCREEN", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "RECYCLE", "REST", "RETALIATE", "RETURN", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SAFEGUARD", "SANDSTORM", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHOCKWAVE", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "SOFTBOILED", "SOLARBEAM", "STEALTHROCK", "STOMPINGTANTRUM", "STOREDPOWER", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TELEKINESIS", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "TRIATTACK", "UPROAR", "WATERPULSE", "WILDCHARGE", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "THIEF", "DISARMINGVOICE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT", "SNOWSCAPE", "ELECTRICTERRAIN", "FOCUSBLAST")
+egg_move_tokens = PackedStringArray("AROMATHERAPY", "COUNTER", "GRAVITY", "HEALBELL", "HELPINGHAND", "METRONOME", "PRESENT", "SEISMICTOSS")
+egg_groups = PackedStringArray("Fairy")
+hatch_steps = 10240
+height_m = 1.1
+weight_kg = 34.6
+color = "Pink"
+shape = "BipedalTail"
+category = "Huevo"
+habitat = "Urban"
+pokedex = "Pone a diario huevos con un enorme valor nutritivo. Están tan ricos que hasta quien no tenga hambre se los comerá en un abrir y cerrar de ojos."
+evolutions = Array[Dictionary]([{
+"into": "BLISSEY",
+"method": "Happiness",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "LUCKYPUNCH"
+offspring = PackedStringArray()

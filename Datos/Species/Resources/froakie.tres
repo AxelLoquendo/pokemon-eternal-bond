@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://crdyrcxvapv6n"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cxlp8"]
+
+[resource]
+script = ExtResource("1_cxlp8")
+id = 656
+name = "Froakie"
+types = Array[int]([11])
+base_hp = 41
+base_atk = 56
+base_def = 40
+base_spe = 71
+base_spa = 62
+base_spd = 44
+base_exp = 63
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([67])
+hidden_abilities = Array[int]([168])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 5.0,
+"move": "BUBBLE"
+}, {
+"level": 5.0,
+"move": "WATERGUN"
+}, {
+"level": 8.0,
+"move": "QUICKATTACK"
+}, {
+"level": 10.0,
+"move": "LICK"
+}, {
+"level": 14.0,
+"move": "WATERPULSE"
+}, {
+"level": 18.0,
+"move": "SMOKESCREEN"
+}, {
+"level": 21.0,
+"move": "ROUND"
+}, {
+"level": 25.0,
+"move": "FLING"
+}, {
+"level": 29.0,
+"move": "SMACKDOWN"
+}, {
+"level": 35.0,
+"move": "SUBSTITUTE"
+}, {
+"level": 39.0,
+"move": "BOUNCE"
+}, {
+"level": 43.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 48.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "ATTRACT", "BLIZZARD", "BOUNCE", "CAPTIVATE", "CONFIDE", "CUT", "DIG", "DIVE", "DOUBLETEAM", "ECHOEDVOICE", "ENDURE", "FACADE", "FLING", "FRUSTRATION", "GRASSKNOT", "HIDDENPOWER", "ICEBEAM", "ICYWIND", "MIMIC", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLEPLAY", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SMACKDOWN", "SNATCH", "SNORE", "SPITE", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "TAUNT", "THIEF", "TOXIC", "UTURN", "WATERFALL", "WATERPLEDGE", "WATERPULSE", "WORKUP", "TAKEDOWN", "MUDSLAP", "TRAILBLAZE", "CHILLINGWATER", "SWIFT", "MUDSHOT", "SNOWSCAPE", "FALSESWIPE", "SPIKES", "TOXICSPIKES", "LIQUIDATION", "HELPINGHAND", "HYDROPUMP")
+egg_move_tokens = PackedStringArray("BESTOW", "CAMOUFLAGE", "MINDREADER", "MUDSPORT", "POWERUPPUNCH", "TOXICSPIKES", "WATERSPORT")
+egg_groups = PackedStringArray("Water1")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 7.0
+color = "Blue"
+shape = "Quadruped"
+category = "Burburrana"
+pokedex = "Secreta burbujas tanto por la espalda como por el pecho. Gracias a la elasticidad de estas, puede parar ataques y reducir el daño recibido."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "FROGADIER",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

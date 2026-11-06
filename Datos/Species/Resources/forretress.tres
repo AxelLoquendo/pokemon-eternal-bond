@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://exbyudy3dmfp"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_nhu1t"]
+
+[resource]
+script = ExtResource("1_nhu1t")
+id = 205
+name = "Forretress"
+types = Array[int]([7, 9])
+base_hp = 75
+base_atk = 90
+base_def = 140
+base_spe = 40
+base_spa = 60
+base_spd = 60
+catch_rate = 75
+base_exp = 163
+abilities = Array[int]([5])
+hidden_abilities = Array[int]([142])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "HEAVYSLAM"
+}, {
+"level": 0.0,
+"move": "AUTOTOMIZE"
+}, {
+"level": 1.0,
+"move": "ZAPCANNON"
+}, {
+"level": 1.0,
+"move": "MAGNETRISE"
+}, {
+"level": 1.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 1.0,
+"move": "BUGBITE"
+}, {
+"level": 6.0,
+"move": "SELFDESTRUCT"
+}, {
+"level": 12.0,
+"move": "TAKEDOWN"
+}, {
+"level": 17.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 20.0,
+"move": "REFLECT"
+}, {
+"level": 20.0,
+"move": "ROLLOUT"
+}, {
+"level": 23.0,
+"move": "CURSE"
+}, {
+"level": 28.0,
+"move": "SPIKES"
+}, {
+"level": 32.0,
+"move": "PAYBACK"
+}, {
+"level": 36.0,
+"move": "EXPLOSION"
+}, {
+"level": 42.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 46.0,
+"move": "GYROBALL"
+}, {
+"level": 50.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BLOCK", "BODYSLAM", "BUGBITE", "BUGBUZZ", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRILLRUN", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FLASHCANNON", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRAVITY", "GYROBALL", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "IRONDEFENSE", "LASERFOCUS", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "NATURALGIFT", "PAINSPLIT", "PAYBACK", "PROTECT", "REFLECT", "REST", "RETURN", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SECRETPOWER", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRENGTH", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TELEKINESIS", "VENOSHOCK", "VOLTSWITCH", "TAKEDOWN", "POUNCE", "SWIFT", "RAINDANCE", "SMARTSTRIKE", "SEEDBOMB", "ROCKBLAST", "THUNDERWAVE", "POISONJAB", "BODYPRESS", "SPIKES", "TOXICSPIKES", "IRONHEAD", "STEALTHROCK", "HEAVYSLAM", "ICESPINNER", "HELPINGHAND", "EARTHPOWER", "REVERSAL", "STONEEDGE", "STEELBEAM", "SANDTOMB", "LUNGE", "METALSOUND", "CURSE", "HARDPRESS")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 1.2
+weight_kg = 125.8
+color = "Purple"
+shape = "Head"
+category = "Larva"
+habitat = "Forest"
+pokedex = "Se esconde dentro de su concha de acero reforzado. Sólo la abre para atrapar a su presa, pero ocurre tan rápido que no da tiempo a ver su interior."
+generation = 2
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

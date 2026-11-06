@@ -41,7 +41,7 @@ extends Resource
 @export var incense: String = ""
 @export var offspring: PackedStringArray = PackedStringArray()
 @export var form_name: String = ""
-
+@export var sprite_folder: String = ""
 
 static func from_dict(d: Dictionary) -> SpeciesData:
 	var data := SpeciesData.new()
@@ -72,6 +72,7 @@ static func from_dict(d: Dictionary) -> SpeciesData:
 	data.wild_item_uncommon = str(d.get("wild_item_uncommon", ""))
 	data.wild_item_rare = str(d.get("wild_item_rare", ""))
 	data.incense = str(d.get("incense", ""))
+	data.sprite_folder = str(d.get("sprite_folder", ""))
 
 	var evs_raw: Variant = d.get("evs", {})
 	if evs_raw is Dictionary:

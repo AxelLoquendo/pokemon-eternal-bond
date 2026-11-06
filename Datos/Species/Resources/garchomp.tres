@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://jgwyp38w7q13"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wi4ie"]
+
+[resource]
+script = ExtResource("1_wi4ie")
+id = 445
+name = "Garchomp"
+types = Array[int]([16, 5])
+base_hp = 108
+base_atk = 130
+base_def = 95
+base_spe = 102
+base_spa = 80
+base_spd = 85
+base_exp = 300
+growth_rate = "Slow"
+abilities = Array[int]([8])
+hidden_abilities = Array[int]([24])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "CRUNCH"
+}, {
+"level": 1.0,
+"move": "DUALCHOP"
+}, {
+"level": 1.0,
+"move": "SANDTOMB"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "SANDATTACK"
+}, {
+"level": 1.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 18.0,
+"move": "BULLDOZE"
+}, {
+"level": 27.0,
+"move": "BITE"
+}, {
+"level": 34.0,
+"move": "SLASH"
+}, {
+"level": 42.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 52.0,
+"move": "DIG"
+}, {
+"level": 62.0,
+"move": "SANDSTORM"
+}, {
+"level": 72.0,
+"move": "TAKEDOWN"
+}, {
+"level": 82.0,
+"move": "DRAGONRUSH"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AQUATAIL", "ATTRACT", "BODYSLAM", "BREAKINGSWIPE", "BRICKBREAK", "BRUTALSWING", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "CUT", "DIG", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONPULSE", "DRAGONTAIL", "DUALCHOP", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FALSESWIPE", "FIREBLAST", "FIREFANG", "FLAMETHROWER", "FLING", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "INCINERATE", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "OUTRAGE", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCALESHOT", "SCARYFACE", "SCORCHINGSANDS", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SURF", "SWAGGER", "SWIFT", "SWORDSDANCE", "TWISTER", "WHIRLPOOL", "TAKEDOWN", "THUNDERFANG", "METALCLAW", "SPIKES", "POWERGEM", "LIQUIDATION", "HELPINGHAND", "DOUBLEEDGE", "DRAGONCHEER")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Monster", "Dragon")
+hatch_steps = 10240
+height_m = 1.9
+weight_kg = 95.0
+color = "Blue"
+shape = "BipedalTail"
+category = "Mach"
+pokedex = "Cuando despliega su cuerpo y sus alas, parece un avión a reacción. Vuela a velocidad sónica. Sus alas crean cuchillas de viento que talan cualquier árbol."
+generation = 4
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

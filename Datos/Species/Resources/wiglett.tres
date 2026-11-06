@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bfdrdoxkogaox"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_b58uv"]
+
+[resource]
+script = ExtResource("1_b58uv")
+id = 960
+name = "Wiglett"
+types = Array[int]([11])
+base_hp = 10
+base_atk = 55
+base_def = 25
+base_spe = 95
+base_spa = 35
+base_spd = 25
+catch_rate = 255
+base_exp = 49
+abilities = Array[int]([183, 155])
+hidden_abilities = Array[int]([8])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "SANDATTACK"
+}, {
+"level": 4.0,
+"move": "MUDSLAP"
+}, {
+"level": 8.0,
+"move": "WRAP"
+}, {
+"level": 12.0,
+"move": "AQUAJET"
+}, {
+"level": 20.0,
+"move": "WATERPULSE"
+}, {
+"level": 20.0,
+"move": "SLAM"
+}, {
+"level": 24.0,
+"move": "HEADBUTT"
+}, {
+"level": 28.0,
+"move": "DIG"
+}, {
+"level": 32.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 36.0,
+"move": "THROATCHOP"
+}, {
+"level": 40.0,
+"move": "LIQUIDATION"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "BLIZZARD", "BULLDOZE", "CHILLINGWATER", "DIG", "EARTHPOWER", "ENDURE", "FACADE", "FOULPLAY", "HELPINGHAND", "HYDROPUMP", "ICEBEAM", "LIQUIDATION", "MUDDYWATER", "MUDSHOT", "MUDSLAP", "PROTECT", "RAINDANCE", "REST", "SANDSTORM", "SLEEPTALK", "STOMPINGTANTRUM", "SUBSTITUTE", "SURF", "SWIFT", "TAKEDOWN", "THROATCHOP", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray("FINALGAMBIT", "MEMENTO")
+egg_groups = PackedStringArray("Water3")
+hatch_steps = 5120
+height_m = 1.2
+weight_kg = 1.8
+color = "White"
+shape = "HeadBase"
+category = "Cóngrigo"
+habitat = "Sea"
+pokedex = "Puede percibir el olor de los Veluza a 20m de distancia, lo que le permite ocultarse bajo la arena a tiempo."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "WUGTRIO",
+"method": "Level",
+"param": "26"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c0hlxvs25xo45"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ym3se"]
+
+[resource]
+script = ExtResource("1_ym3se")
+id = 420
+name = "Cherubi"
+types = Array[int]([12])
+base_hp = 45
+base_atk = 35
+base_def = 45
+base_spe = 35
+base_spa = 62
+base_spd = 53
+catch_rate = 190
+base_exp = 55
+abilities = Array[int]([34])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "MORNINGSUN"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "LEAFAGE"
+}, {
+"level": 10.0,
+"move": "GROWTH"
+}, {
+"level": 15.0,
+"move": "HELPINGHAND"
+}, {
+"level": 20.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 26.0,
+"move": "LEECHSEED"
+}, {
+"level": 30.0,
+"move": "TAKEDOWN"
+}, {
+"level": 35.0,
+"move": "PETALBLIZZARD"
+}, {
+"level": 40.0,
+"move": "WORRYSEED"
+}, {
+"level": 45.0,
+"move": "SOLARBEAM"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAININGKISS", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HELPINGHAND", "HIDDENPOWER", "MAGICALLEAF", "MIMIC", "NATURALGIFT", "NATUREPOWER", "POLLENPUFF", "PROTECT", "REST", "RETURN", "ROLLOUT", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "WEATHERBALL", "WORRYSEED")
+egg_move_tokens = PackedStringArray("AROMATHERAPY", "DEFENSECURL", "FLOWERSHIELD", "GRASSYTERRAIN", "HEALINGWISH", "HEALPULSE", "NATUREPOWER", "RAZORLEAF", "ROLLOUT", "SEEDBOMB", "SWEETSCENT", "TICKLE", "WEATHERBALL")
+egg_groups = PackedStringArray("Fairy", "Grass")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 3.3
+color = "Pink"
+shape = "MultiBody"
+category = "Cereza"
+pokedex = "La pequeña esfera, dulce y sabrosa, contiene los nutrientes necesarios para evolucionar. Está tan rica que los Starly siempre intentan comérsela."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "CHERRIM",
+"method": "Level",
+"param": "25"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MIRACLESEED"
+offspring = PackedStringArray()

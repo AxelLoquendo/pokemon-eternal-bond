@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bul008bgdyq1h"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_0t262"]
+
+[resource]
+script = ExtResource("1_0t262")
+id = 46
+name = "Paras"
+types = Array[int]([7, 12])
+base_hp = 35
+base_atk = 70
+base_def = 55
+base_spe = 25
+base_spa = 45
+base_spd = 55
+catch_rate = 190
+base_exp = 57
+abilities = Array[int]([27, 87])
+hidden_abilities = Array[int]([6])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 6.0,
+"move": "STUNSPORE"
+}, {
+"level": 6.0,
+"move": "POISONPOWDER"
+}, {
+"level": 11.0,
+"move": "ABSORB"
+}, {
+"level": 17.0,
+"move": "FURYCUTTER"
+}, {
+"level": 22.0,
+"move": "SPORE"
+}, {
+"level": 27.0,
+"move": "SLASH"
+}, {
+"level": 33.0,
+"move": "GROWTH"
+}, {
+"level": 38.0,
+"move": "GIGADRAIN"
+}, {
+"level": 43.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 49.0,
+"move": "RAGEPOWDER"
+}, {
+"level": 54.0,
+"move": "XSCISSOR"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AFTERYOU", "ATTRACT", "BODYSLAM", "BRICKBREAK", "BUGBITE", "BULLETSEED", "CAPTIVATE", "CONFIDE", "COUNTER", "CUT", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FALSESWIPE", "FLASH", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "GRASSKNOT", "HIDDENPOWER", "HONECLAWS", "KNOCKOFF", "LEECHLIFE", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PROTECT", "REST", "RETURN", "ROCKSMASH", "ROUND", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "THIEF", "VENOSHOCK", "WORRYSEED", "XSCISSOR")
+egg_move_tokens = PackedStringArray("AGILITY", "BUGBITE", "COUNTER", "CROSSPOISON", "FELLSTINGER", "FLAIL", "GRASSYTERRAIN", "LEECHSEED", "METALCLAW", "PSYBEAM", "SCREECH", "SWEETSCENT", "WIDEGUARD")
+egg_groups = PackedStringArray("Bug", "Grass")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 5.4
+color = "Red"
+shape = "Insectoid"
+category = "Hongo"
+habitat = "Forest"
+pokedex = "Lleva dos setas parásitas, llamadas tochukaso, que se alimentan a partir de los nutrientes del propio Paras. Las setas se usan como elixir de vida."
+evolutions = Array[Dictionary]([{
+"into": "PARASECT",
+"method": "Level",
+"param": "24"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "TINYMUSHROOM"
+wild_item_uncommon = "BIGMUSHROOM"
+offspring = PackedStringArray()

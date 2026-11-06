@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b2cks24i0tdvq"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_xpkmj"]
+
+[resource]
+script = ExtResource("1_xpkmj")
+id = 851
+name = "Centiskorch"
+types = Array[int]([10, 7])
+base_hp = 100
+base_atk = 115
+base_def = 65
+base_spe = 65
+base_spa = 90
+base_spd = 90
+catch_rate = 75
+base_exp = 184
+abilities = Array[int]([18, 73])
+hidden_abilities = Array[int]([49])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "INFERNO"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "SMOKESCREEN"
+}, {
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 15.0,
+"move": "FLAMEWHEEL"
+}, {
+"level": 20.0,
+"move": "BUGBITE"
+}, {
+"level": 25.0,
+"move": "COIL"
+}, {
+"level": 32.0,
+"move": "SLAM"
+}, {
+"level": 39.0,
+"move": "FIRESPIN"
+}, {
+"level": 46.0,
+"move": "CRUNCH"
+}, {
+"level": 53.0,
+"move": "FIRELASH"
+}, {
+"level": 60.0,
+"move": "LUNGE"
+}, {
+"level": 67.0,
+"move": "BURNUP"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BRUTALSWING", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "CRUNCH", "DOUBLETEAM", "ENDURE", "FACADE", "FIREBLAST", "FIREFANG", "FIRESPIN", "FLAMETHROWER", "FLAREBLITZ", "FRUSTRATION", "GIGAIMPACT", "HEATCRASH", "HEATWAVE", "HIDDENPOWER", "HYPERBEAM", "LEECHLIFE", "MIMIC", "MYSTICALFIRE", "NATURALGIFT", "OVERHEAT", "POWERWHIP", "PROTECT", "REST", "RETURN", "ROUND", "SCALD", "SCORCHINGSANDS", "SECRETPOWER", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "THUNDERFANG", "TOXIC", "VENOSHOCK", "WILLOWISP", "XSCISSOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 3.0
+weight_kg = 120.0
+color = "Red"
+shape = "Multiped"
+category = "Radiador"
+pokedex = "Cuando genera calor, su temperatura corporal alcanza aproximadamente los 800 °C. Usa el cuerpo a modo de látigo para lanzarse al ataque."
+generation = 8
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

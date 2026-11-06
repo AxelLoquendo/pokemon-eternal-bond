@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://tqd8rfirf7lf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_4fxej"]
+
+[resource]
+script = ExtResource("1_4fxej")
+id = 127
+name = "Pinsir"
+types = Array[int]([7])
+base_hp = 65
+base_atk = 125
+base_def = 100
+base_spe = 85
+base_spa = 55
+base_spd = 70
+base_exp = 175
+growth_rate = "Slow"
+abilities = Array[int]([52, 104])
+hidden_abilities = Array[int]([153])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "VISEGRIP"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 4.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 8.0,
+"move": "BIND"
+}, {
+"level": 12.0,
+"move": "SEISMICTOSS"
+}, {
+"level": 16.0,
+"move": "BUGBITE"
+}, {
+"level": 20.0,
+"move": "STORMTHROW"
+}, {
+"level": 24.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 28.0,
+"move": "VITALTHROW"
+}, {
+"level": 32.0,
+"move": "XSCISSOR"
+}, {
+"level": 36.0,
+"move": "STRENGTH"
+}, {
+"level": 40.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 44.0,
+"move": "SUBMISSION"
+}, {
+"level": 48.0,
+"move": "GUILLOTINE"
+}, {
+"level": 52.0,
+"move": "SUPERPOWER"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BIND", "BODYSLAM", "BRICKBREAK", "BRUTALSWING", "BUGBITE", "BULKUP", "BULLDOZE", "CAPTIVATE", "CLOSECOMBAT", "CONFIDE", "CUT", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHQUAKE", "ENDURE", "FACADE", "FALSESWIPE", "FLING", "FOCUSBLAST", "FOCUSENERGY", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HIGHHORSEPOWER", "HYPERBEAM", "IRONDEFENSE", "KNOCKOFF", "MIMIC", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "REVENGE", "REVERSAL", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEALTHROCK", "STONEEDGE", "STRENGTH", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWORDSDANCE", "THIEF", "THROATCHOP", "XSCISSOR")
+egg_move_tokens = PackedStringArray("BUGBITE", "CLOSECOMBAT", "FEINT", "FLAIL", "FURYATTACK", "QUICKATTACK", "SUPERPOWER", "THRASH")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 6400
+height_m = 1.5
+weight_kg = 55.0
+color = "Brown"
+shape = "Bipedal"
+category = "Escarabajo"
+habitat = "Forest"
+pokedex = "Sus cuernos tienen fuerza para destrozar grandes troncos. Como odia el frío, cavan madrigueras bajo tierra donde duermen cuando bajan las temperaturas."
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c4seid5352bfa"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_1yeyb"]
+
+[resource]
+script = ExtResource("1_1yeyb")
+id = 334
+name = "Altaria"
+types = Array[int]([16, 3])
+base_hp = 75
+base_atk = 70
+base_def = 90
+base_spe = 80
+base_spa = 70
+base_spd = 105
+base_exp = 172
+growth_rate = "Erratic"
+abilities = Array[int]([30])
+hidden_abilities = Array[int]([13])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 1.0,
+"move": "HURRICANE"
+}, {
+"level": 1.0,
+"move": "PLUCK"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 1.0,
+"move": "MIST"
+}, {
+"level": 12.0,
+"move": "FURYATTACK"
+}, {
+"level": 16.0,
+"move": "ROUND"
+}, {
+"level": 20.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 24.0,
+"move": "SAFEGUARD"
+}, {
+"level": 28.0,
+"move": "SING"
+}, {
+"level": 32.0,
+"move": "COTTONGUARD"
+}, {
+"level": 38.0,
+"move": "TAKEDOWN"
+}, {
+"level": 44.0,
+"move": "MOONBLAST"
+}, {
+"level": 50.0,
+"move": "PERISHSONG"
+}, {
+"level": 56.0,
+"move": "SKYATTACK"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "AIRCUTTER", "ATTRACT", "BODYSLAM", "BREAKINGSWIPE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONDANCE", "DRAGONPULSE", "DREAMEATER", "DUALWINGBEAT", "EARTHQUAKE", "ECHOEDVOICE", "ENDURE", "FACADE", "FALSESWIPE", "FIREBLAST", "FIRESPIN", "FLAMETHROWER", "FLY", "FRUSTRATION", "GIGAIMPACT", "HEALBELL", "HEATWAVE", "HIDDENPOWER", "HONECLAWS", "HURRICANE", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "INCINERATE", "IRONTAIL", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "OUTRAGE", "PLAYROUGH", "PLUCK", "POWERSWAP", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKSMASH", "ROOST", "ROUND", "SAFEGUARD", "SECRETPOWER", "SKYATTACK", "SLEEPTALK", "SNORE", "SOLARBEAM", "STEELWING", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "THIEF", "TWISTER", "UPROAR", "WONDERROOM", "TAKEDOWN", "ACROBATICS", "DISARMINGVOICE", "TRAILBLAZE", "SNOWSCAPE", "WILLOWISP", "HELPINGHAND", "BRAVEBIRD", "HAZE", "WEATHERBALL", "ENDEAVOR", "FEATHERDANCE", "DRAGONCHEER", "ALLURINGVOICE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Flying", "Dragon")
+hatch_steps = 5120
+height_m = 1.1
+weight_kg = 20.6
+color = "Blue"
+shape = "Winged"
+category = "Cantor"
+habitat = "Forest"
+pokedex = "Canturrea con una bella voz de soprano. Vuela entre las nubes blancas del cielo azul. Lanza ardientes bolas de fuego por el pico."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 2.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

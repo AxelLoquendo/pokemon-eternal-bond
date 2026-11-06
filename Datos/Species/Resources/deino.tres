@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cmtn4sedv6dw0"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_51bdh"]
+
+[resource]
+script = ExtResource("1_51bdh")
+id = 633
+name = "Deino"
+types = Array[int]([17, 16])
+base_hp = 52
+base_atk = 65
+base_def = 50
+base_spe = 38
+base_spa = 45
+base_spd = 50
+base_exp = 60
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([55])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 4.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 8.0,
+"move": "BITE"
+}, {
+"level": 12.0,
+"move": "ROAR"
+}, {
+"level": 16.0,
+"move": "ASSURANCE"
+}, {
+"level": 20.0,
+"move": "HEADBUTT"
+}, {
+"level": 24.0,
+"move": "WORKUP"
+}, {
+"level": 28.0,
+"move": "SLAM"
+}, {
+"level": 32.0,
+"move": "CRUNCH"
+}, {
+"level": 36.0,
+"move": "SCARYFACE"
+}, {
+"level": 40.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 44.0,
+"move": "BODYSLAM"
+}, {
+"level": 48.0,
+"move": "HYPERVOICE"
+}, {
+"level": 52.0,
+"move": "DRAGONRUSH"
+}, {
+"level": 56.0,
+"move": "NASTYPLOT"
+}, {
+"level": 60.0,
+"move": "OUTRAGE"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ASSURANCE", "ATTRACT", "BODYSLAM", "CAPTIVATE", "CONFIDE", "CRUNCH", "DARKPULSE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONPULSE", "DRAGONTAIL", "EARTHPOWER", "ENDURE", "FACADE", "FIREFANG", "FOCUSENERGY", "FRUSTRATION", "HIDDENPOWER", "HYPERVOICE", "ICEFANG", "INCINERATE", "MIMIC", "NASTYPLOT", "NATURALGIFT", "OUTRAGE", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKSMASH", "ROUND", "SCARYFACE", "SCREECH", "SECRETPOWER", "SHOCKWAVE", "SLEEPTALK", "SNORE", "SPITE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "TAUNT", "THIEF", "THUNDERFANG", "THUNDERWAVE", "TORMENT", "TOXIC", "UPROAR", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "SNARL", "DRAGONCHEER")
+egg_move_tokens = PackedStringArray("ASTONISH", "BELCH", "DOUBLEHIT", "HEADSMASH")
+egg_groups = PackedStringArray("Dragon")
+hatch_steps = 10240
+height_m = 0.8
+weight_kg = 17.3
+color = "Blue"
+shape = "Quadruped"
+category = "Tosco"
+pokedex = "No ve, por eso va haciendo placajes y dando mordiscos a diestro y siniestro. Su cuerpo está plagado de heridas."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "ZWEILOUS",
+"method": "Level",
+"param": "50"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

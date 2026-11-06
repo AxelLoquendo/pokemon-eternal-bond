@@ -1,0 +1,57 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c6k76ww5awxx4"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gtxeh"]
+
+[resource]
+script = ExtResource("1_gtxeh")
+id = 790
+name = "Cosmoem"
+types = Array[int]([14])
+base_hp = 43
+base_atk = 29
+base_def = 131
+base_spe = 37
+base_spa = 29
+base_spd = 131
+base_exp = 140
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([5])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "COSMICPOWER"
+}, {
+"level": 1.0,
+"move": "TELEPORT"
+}])
+tutor_move_tokens = PackedStringArray("COSMICPOWER")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 0.1
+weight_kg = 999.9
+color = "Blue"
+shape = "Head"
+category = "Protostrella"
+pokedex = "Permanece inmóvil, como si estuviera muerto, aunque al tocarlo se percibe un ligero calor. Antaño se le llamaba Crisálida de las Estrellas."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "SOLGALEO",
+"method": "LevelDay",
+"param": "53"
+}, {
+"into": "LUNALA",
+"method": "LevelNight",
+"param": "53"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

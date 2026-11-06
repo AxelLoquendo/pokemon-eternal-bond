@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dkjyvuvbdif8c"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_bhjkx"]
+
+[resource]
+script = ExtResource("1_bhjkx")
+id = 227
+name = "Skarmory"
+types = Array[int]([9, 3])
+base_hp = 65
+base_atk = 80
+base_def = 140
+base_spe = 70
+base_spa = 40
+base_spd = 70
+catch_rate = 25
+base_exp = 163
+growth_rate = "Slow"
+abilities = Array[int]([51, 5])
+hidden_abilities = Array[int]([133])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "SANDATTACK"
+}, {
+"level": 8.0,
+"move": "FURYATTACK"
+}, {
+"level": 12.0,
+"move": "METALCLAW"
+}, {
+"level": 16.0,
+"move": "AGILITY"
+}, {
+"level": 20.0,
+"move": "WINGATTACK"
+}, {
+"level": 24.0,
+"move": "SLASH"
+}, {
+"level": 28.0,
+"move": "STEELWING"
+}, {
+"level": 32.0,
+"move": "AUTOTOMIZE"
+}, {
+"level": 32.0,
+"move": "PAYBACK"
+}, {
+"level": 36.0,
+"move": "DRILLPECK"
+}, {
+"level": 40.0,
+"move": "METALSOUND"
+}, {
+"level": 44.0,
+"move": "SPIKES"
+}, {
+"level": 48.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 52.0,
+"move": "BRAVEBIRD"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "AIRCUTTER", "AIRSLASH", "ASSURANCE", "ATTRACT", "BODYPRESS", "BRAVEBIRD", "CAPTIVATE", "CONFIDE", "COUNTER", "CUT", "DARKPULSE", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "DUALWINGBEAT", "ENDURE", "FACADE", "FLASH", "FLASHCANNON", "FLY", "FRUSTRATION", "FURYCUTTER", "GUARDSWAP", "HIDDENPOWER", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "PAYBACK", "PLUCK", "PROTECT", "REST", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROOST", "ROUND", "SANDSTORM", "SANDTOMB", "SECRETPOWER", "SKYATTACK", "SKYDROP", "SLEEPTALK", "SNORE", "SPIKES", "STEALTHROCK", "STEELBEAM", "STEELWING", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAILWIND", "TAUNT", "THIEF", "TORMENT", "TWISTER", "XSCISSOR", "TAKEDOWN", "METALCLAW", "DRILLRUN", "REVERSAL", "GIGAIMPACT", "HURRICANE", "HYPERBEAM", "METALSOUND", "CURSE")
+egg_move_tokens = PackedStringArray("AIRCUTTER", "ASSURANCE", "BRAVEBIRD", "CURSE", "DRILLPECK", "FEINT", "GUARDSWAP", "NIGHTSLASH", "ROOST", "SKYATTACK", "WHIRLWIND")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 6400
+height_m = 1.7
+weight_kg = 50.5
+color = "Gray"
+shape = "Winged"
+category = "Coraza Ave"
+habitat = "RoughTerrain"
+pokedex = "Tiene el cuerpo y las alas de acero. Hace mucho, la gente usaba las plumas que se le caían a Skarmory para forjar espadas y cuchillos."
+generation = 2
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "METALCOAT"
+offspring = PackedStringArray()

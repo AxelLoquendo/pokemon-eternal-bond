@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://0ej2e8bi3162"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_uvpgf"]
+
+[resource]
+script = ExtResource("1_uvpgf")
+id = 319
+name = "Sharpedo"
+types = Array[int]([11, 17])
+base_hp = 70
+base_atk = 120
+base_def = 40
+base_spe = 95
+base_spa = 95
+base_spd = 40
+catch_rate = 60
+base_exp = 161
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([24])
+hidden_abilities = Array[int]([3])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SLASH"
+}, {
+"level": 1.0,
+"move": "NIGHTSLASH"
+}, {
+"level": 1.0,
+"move": "AQUAJET"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "POISONFANG"
+}, {
+"level": 1.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 12.0,
+"move": "SCARYFACE"
+}, {
+"level": 16.0,
+"move": "BITE"
+}, {
+"level": 20.0,
+"move": "ICEFANG"
+}, {
+"level": 24.0,
+"move": "SCREECH"
+}, {
+"level": 28.0,
+"move": "SWAGGER"
+}, {
+"level": 34.0,
+"move": "CRUNCH"
+}, {
+"level": 40.0,
+"move": "AGILITY"
+}, {
+"level": 46.0,
+"move": "LIQUIDATION"
+}, {
+"level": 52.0,
+"move": "TAKEDOWN"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ANCIENTPOWER", "ASSURANCE", "ATTRACT", "AVALANCHE", "BLIZZARD", "BOUNCE", "BRINE", "BULLDOZE", "CAPTIVATE", "CLOSECOMBAT", "CONFIDE", "CRUNCH", "DARKPULSE", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "EARTHQUAKE", "ENDURE", "FACADE", "FLIPTURN", "FOCUSENERGY", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HAIL", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICEFANG", "ICYWIND", "LIQUIDATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAYBACK", "POISONJAB", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCALD", "SCALESHOT", "SCARYFACE", "SCREECH", "SECRETPOWER", "SLEEPTALK", "SNARL", "SNORE", "SPITE", "STRENGTH", "SUBSTITUTE", "SUPERFANG", "SURF", "SWAGGER", "SWIFT", "TAUNT", "THIEF", "TORMENT", "UPROAR", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water2")
+hatch_steps = 5120
+height_m = 1.8
+weight_kg = 88.8
+color = "Blue"
+shape = "Finned"
+category = "Voraz"
+habitat = "Sea"
+pokedex = "Este Pokémon, muy violento y astuto, es el terror de los mares. La textura de su piel reduce al mínimo la resistencia al agua. Llega a alcanzar los 120 km por hora."
+generation = 3
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "DEEPSEATOOTH"
+offspring = PackedStringArray()

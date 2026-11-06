@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://nuwyrpw6blq6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gdvu2"]
+
+[resource]
+script = ExtResource("1_gdvu2")
+id = 886
+name = "Drakloak"
+types = Array[int]([16, 8])
+base_hp = 68
+base_atk = 80
+base_def = 50
+base_spe = 102
+base_spa = 60
+base_spd = 50
+base_exp = 144
+growth_rate = "Slow"
+abilities = Array[int]([29, 151])
+hidden_abilities = Array[int]([130])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "INFESTATION"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 6.0,
+"move": "LOCKON"
+}, {
+"level": 12.0,
+"move": "ASSURANCE"
+}, {
+"level": 18.0,
+"move": "HEX"
+}, {
+"level": 24.0,
+"move": "AGILITY"
+}, {
+"level": 30.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 36.0,
+"move": "UTURN"
+}, {
+"level": 42.0,
+"move": "DRAGONDANCE"
+}, {
+"level": 48.0,
+"move": "PHANTOMFORCE"
+}, {
+"level": 54.0,
+"move": "TAKEDOWN"
+}, {
+"level": 61.0,
+"move": "DRAGONRUSH"
+}, {
+"level": 66.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 72.0,
+"move": "LASTRESORT"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AGILITY", "ALLYSWITCH", "ASSURANCE", "ATTRACT", "BATONPASS", "BEATUP", "BREAKINGSWIPE", "BRINE", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONDANCE", "DRAGONPULSE", "ENDURE", "FACADE", "FIREBLAST", "FLAMETHROWER", "FRUSTRATION", "HELPINGHAND", "HEX", "HIDDENPOWER", "HYDROPUMP", "MIMIC", "NATURALGIFT", "OUTRAGE", "PHANTOMFORCE", "PROTECT", "PSYCHICFANGS", "REST", "RETURN", "ROUND", "SCALD", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SNORE", "STEELWING", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TOXIC", "UTURN", "WILLOWISP", "TAKEDOWN", "CONFUSERAY", "POUNCE", "NIGHTSHADE", "DRAGONTAIL", "SUNNYDAY", "REFLECT", "LIGHTSCREEN", "DOUBLEEDGE", "CURSE", "DRAGONCHEER")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Amorphous", "Dragon")
+hatch_steps = 10240
+height_m = 1.4
+weight_kg = 11.0
+color = "Green"
+shape = "HeadArms"
+category = "Cuidador"
+pokedex = "Vuela a una velocidad de 200 km/h. Lucha junto a un Dreepy, al que cuida hasta el momento de su evolución."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "DRAGAPULT",
+"method": "Level",
+"param": "60"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

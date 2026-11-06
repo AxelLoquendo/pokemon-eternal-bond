@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d1jcwewkgi2gd"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_u0wqr"]
+
+[resource]
+script = ExtResource("1_u0wqr")
+id = 496
+name = "Servine"
+types = Array[int]([12])
+base_hp = 60
+base_atk = 60
+base_def = 75
+base_spe = 83
+base_spa = 60
+base_spd = 75
+base_exp = 145
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([126])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "VINEWHIP"
+}, {
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 13.0,
+"move": "GROWTH"
+}, {
+"level": 16.0,
+"move": "LEAFTORNADO"
+}, {
+"level": 16.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 20.0,
+"move": "LEECHSEED"
+}, {
+"level": 24.0,
+"move": "MEGADRAIN"
+}, {
+"level": 28.0,
+"move": "SLAM"
+}, {
+"level": 32.0,
+"move": "LEAFBLADE"
+}, {
+"level": 36.0,
+"move": "COIL"
+}, {
+"level": 40.0,
+"move": "GIGADRAIN"
+}, {
+"level": 44.0,
+"move": "WRINGOUT"
+}, {
+"level": 44.0,
+"move": "GASTROACID"
+}, {
+"level": 48.0,
+"move": "LEAFSTORM"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AQUATAIL", "ATTRACT", "BIND", "CALMMIND", "CAPTIVATE", "CONFIDE", "CUT", "DEFOG", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GRASSKNOT", "GRASSPLEDGE", "HIDDENPOWER", "IRONTAIL", "KNOCKOFF", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PROTECT", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNATCH", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "TAUNT", "TORMENT", "TOXIC", "WORKUP", "WORRYSEED", "TAKEDOWN", "TRAILBLAZE", "SWIFT", "MAGICALLEAF", "BULLETSEED", "HELPINGHAND", "GRASSYTERRAIN", "LEAFSTORM", "GRASSYGLIDE", "DOUBLEEDGE", "PETALBLIZZARD")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field", "Grass")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 16.0
+color = "Green"
+shape = "BipedalTail"
+category = "Serp. Hierba"
+pokedex = "Se oculta a la sombra de la vegetación para evitar enfrentamientos. Usa con destreza el látigo para contraatacar."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "SERPERIOR",
+"method": "Level",
+"param": "36"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

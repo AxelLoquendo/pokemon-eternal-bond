@@ -1,0 +1,74 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://74r0shptcthl"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_7voyu"]
+
+[resource]
+script = ExtResource("1_7voyu")
+id = 298
+name = "Azurill"
+types = Array[int]([1, 18])
+base_hp = 50
+base_atk = 20
+base_def = 40
+base_spe = 20
+base_spa = 20
+base_spd = 40
+catch_rate = 150
+base_exp = 38
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+abilities = Array[int]([47, 37])
+hidden_abilities = Array[int]([157])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SPLASH"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 3.0,
+"move": "HELPINGHAND"
+}, {
+"level": 6.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 9.0,
+"move": "CHARM"
+}, {
+"level": 12.0,
+"move": "SLAM"
+}, {
+"level": 15.0,
+"move": "BOUNCE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BODYSLAM", "BOUNCE", "BRUTALSWING", "CAPTIVATE", "CHARM", "CONFIDE", "COVET", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "DRAININGKISS", "ENCORE", "ENDURE", "FACADE", "FAKETEARS", "FRUSTRATION", "HAIL", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "ICEBEAM", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LIGHTSCREEN", "MIMIC", "MUDDYWATER", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROLLOUT", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "UPROAR", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "WORKUP", "TAKEDOWN", "ALLURINGVOICE")
+egg_move_tokens = PackedStringArray("AQUAJET", "BELLYDRUM", "BODYSLAM", "COPYCAT", "ENCORE", "FAKETEARS", "MUDDYWATER", "PERISHSONG", "PRESENT", "SING", "SLAM", "SOAK", "SUPERSONIC", "TICKLE")
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 2560
+height_m = 0.2
+weight_kg = 2.0
+color = "Blue"
+shape = "HeadLegs"
+category = "A Topos"
+habitat = "WatersEdge"
+pokedex = "Su cola es una especie de pelota de goma que bota y contiene los nutrientes que necesita. En días soleados, se reúne con otros en la orilla para jugar chapoteando."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "MARILL",
+"method": "Happiness",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+incense = "SEAINCENSE"
+offspring = PackedStringArray()

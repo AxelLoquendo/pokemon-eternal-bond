@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b5cf5val62jfd"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ww0x8"]
+
+[resource]
+script = ExtResource("1_ww0x8")
+id = 620
+name = "Mienshao"
+types = Array[int]([2])
+base_hp = 65
+base_atk = 125
+base_def = 60
+base_spe = 105
+base_spa = 95
+base_spd = 60
+base_exp = 179
+growth_rate = "Parabolic"
+abilities = Array[int]([39, 144])
+hidden_abilities = Array[int]([120])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "QUICKGUARD"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "DETECT"
+}, {
+"level": 1.0,
+"move": "FAKEOUT"
+}, {
+"level": 1.0,
+"move": "REVERSAL"
+}, {
+"level": 15.0,
+"move": "FURYSWIPES"
+}, {
+"level": 20.0,
+"move": "WIDEGUARD"
+}, {
+"level": 25.0,
+"move": "FORCEPALM"
+}, {
+"level": 30.0,
+"move": "UTURN"
+}, {
+"level": 35.0,
+"move": "DRAINPUNCH"
+}, {
+"level": 40.0,
+"move": "HONECLAWS"
+}, {
+"level": 45.0,
+"move": "AURASPHERE"
+}, {
+"level": 53.0,
+"move": "BOUNCE"
+}, {
+"level": 59.0,
+"move": "CALMMIND"
+}, {
+"level": 66.0,
+"move": "HIGHJUMPKICK"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "ALLYSWITCH", "ASSURANCE", "ATTRACT", "AURASPHERE", "BATONPASS", "BLAZEKICK", "BOUNCE", "BRICKBREAK", "BRUTALSWING", "BULKUP", "CALMMIND", "CAPTIVATE", "CLOSECOMBAT", "COACHING", "CONFIDE", "DIG", "DOUBLETEAM", "DRAINPUNCH", "DUALCHOP", "ENDURE", "FACADE", "FLING", "FOCUSBLAST", "FOCUSENERGY", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "KNOCKOFF", "LASERFOCUS", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "MIMIC", "NATURALGIFT", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "PROTECT", "PSYCHUP", "RAINDANCE", "REFLECT", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLEPLAY", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "TOXIC", "UTURN", "WORKUP", "TAKEDOWN", "TRAILBLAZE", "ICESPINNER", "VACUUMWAVE", "DOUBLEEDGE", "TRIPLEAXEL", "UPPERHAND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field", "Humanlike")
+hatch_steps = 6400
+height_m = 1.4
+weight_kg = 35.5
+color = "Purple"
+shape = "BipedalTail"
+category = "Artemarcial"
+pokedex = "Golpea a sus enemigos con el pelaje de sus brazos, que usa a manera de látigos para encadenar ataques que nadie puede parar una vez iniciados."
+generation = 5
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

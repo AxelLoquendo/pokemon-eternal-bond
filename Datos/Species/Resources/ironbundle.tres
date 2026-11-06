@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://kf5cli2k2r27"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_n7lp2"]
+
+[resource]
+script = ExtResource("1_n7lp2")
+id = 991
+name = "Ferrosaco"
+types = Array[int]([15, 11])
+base_hp = 56
+base_atk = 80
+base_def = 114
+base_spe = 136
+base_spa = 124
+base_spd = 60
+catch_rate = 50
+base_exp = 285
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([285])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "ELECTRICTERRAIN"
+}, {
+"level": 1.0,
+"move": "PRESENT"
+}, {
+"level": 7.0,
+"move": "POWDERSNOW"
+}, {
+"level": 14.0,
+"move": "WHIRLPOOL"
+}, {
+"level": 21.0,
+"move": "TAKEDOWN"
+}, {
+"level": 28.0,
+"move": "DRILLPECK"
+}, {
+"level": 35.0,
+"move": "HELPINGHAND"
+}, {
+"level": 42.0,
+"move": "FREEZEDRY"
+}, {
+"level": 49.0,
+"move": "FLIPTURN"
+}, {
+"level": 56.0,
+"move": "ICEBEAM"
+}, {
+"level": 63.0,
+"move": "AGILITY"
+}, {
+"level": 70.0,
+"move": "SNOWSCAPE"
+}, {
+"level": 77.0,
+"move": "HYDROPUMP"
+}, {
+"level": 84.0,
+"move": "AURORAVEIL"
+}, {
+"level": 91.0,
+"move": "BLIZZARD"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AGILITY", "AIRCUTTER", "AVALANCHE", "BLIZZARD", "BODYSLAM", "CHILLINGWATER", "ELECTRICTERRAIN", "ENCORE", "ENDURE", "FACADE", "FLING", "FLIPTURN", "GIGAIMPACT", "HELPINGHAND", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICEPUNCH", "ICESPINNER", "ICYWIND", "PLAYROUGH", "PROTECT", "RAINDANCE", "REST", "SLEEPTALK", "SNOWSCAPE", "SUBSTITUTE", "SWIFT", "TAKEDOWN", "TAUNT", "THIEF", "UTURN", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 12800
+height_m = 0.6
+weight_kg = 11.0
+color = "Red"
+shape = "Winged"
+category = "Paradoja"
+habitat = "Rare"
+pokedex = "Tiene una forma similar a la del robot construido por una civilización antigua mencionado en cierto artículo de una revista esotérica."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 3.0
+}
+flags = PackedStringArray("Paradox")
+wild_item_uncommon = "BOOSTERENERGY"
+offspring = PackedStringArray()

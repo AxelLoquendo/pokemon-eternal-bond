@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://doqlk8a65k8bb"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_rfljo"]
+
+[resource]
+script = ExtResource("1_rfljo")
+id = 926
+name = "Fidough"
+types = Array[int]([18])
+base_hp = 37
+base_atk = 55
+base_def = 70
+base_spe = 65
+base_spa = 30
+base_spd = 55
+catch_rate = 190
+base_exp = 62
+growth_rate = "Parabolic"
+abilities = Array[int]([20])
+hidden_abilities = Array[int]([103])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 3.0,
+"move": "LICK"
+}, {
+"level": 6.0,
+"move": "TAILWHIP"
+}, {
+"level": 8.0,
+"move": "COVET"
+}, {
+"level": 11.0,
+"move": "BITE"
+}, {
+"level": 15.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 18.0,
+"move": "PLAYROUGH"
+}, {
+"level": 22.0,
+"move": "WORKUP"
+}, {
+"level": 26.0,
+"move": "BATONPASS"
+}, {
+"level": 30.0,
+"move": "ROAR"
+}, {
+"level": 33.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 36.0,
+"move": "CHARM"
+}, {
+"level": 40.0,
+"move": "CRUNCH"
+}, {
+"level": 45.0,
+"move": "LASTRESORT"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ALLURINGVOICE", "BATONPASS", "BODYSLAM", "CHARM", "CRUNCH", "DAZZLINGGLEAM", "DIG", "DOUBLEEDGE", "ENDEAVOR", "ENDURE", "FACADE", "FIREFANG", "HELPINGHAND", "ICEFANG", "MISTYTERRAIN", "MUDSHOT", "MUDSLAP", "PLAYROUGH", "PROTECT", "PSYCHICFANGS", "PSYCHUP", "RAINDANCE", "REST", "ROAR", "SLEEPTALK", "SNARL", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "THUNDERFANG", "TRAILBLAZE")
+egg_move_tokens = PackedStringArray("COPYCAT", "HOWL", "SWEETSCENT", "WISH", "YAWN")
+egg_groups = PackedStringArray("Field", "Mineral")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 10.9
+color = "Yellow"
+shape = "Quadruped"
+category = "Perrito"
+habitat = "Urban"
+pokedex = "Resulta húmedo y suave al tacto. Hace fermentar las cosas a su alrededor con la levadura de su aliento."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "DACHSBUN",
+"method": "Level",
+"param": "26"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

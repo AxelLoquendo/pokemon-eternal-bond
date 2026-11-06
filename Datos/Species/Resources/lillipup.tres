@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bhb170w0vqfqo"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_1chmi"]
+
+[resource]
+script = ExtResource("1_1chmi")
+id = 506
+name = "Lillipup"
+types = Array[int]([1])
+base_hp = 45
+base_atk = 60
+base_def = 45
+base_spe = 55
+base_spa = 25
+base_spd = 45
+catch_rate = 255
+base_exp = 55
+growth_rate = "Parabolic"
+abilities = Array[int]([72, 53])
+hidden_abilities = Array[int]([50])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "WORKUP"
+}, {
+"level": 8.0,
+"move": "BITE"
+}, {
+"level": 12.0,
+"move": "RETALIATE"
+}, {
+"level": 17.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 20.0,
+"move": "PLAYROUGH"
+}, {
+"level": 24.0,
+"move": "CRUNCH"
+}, {
+"level": 28.0,
+"move": "TAKEDOWN"
+}, {
+"level": 32.0,
+"move": "HELPINGHAND"
+}, {
+"level": 36.0,
+"move": "REVERSAL"
+}, {
+"level": 40.0,
+"move": "ROAR"
+}, {
+"level": 44.0,
+"move": "LASTRESORT"
+}, {
+"level": 48.0,
+"move": "GIGAIMPACT"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AFTERYOU", "ATTRACT", "CAPTIVATE", "CHARM", "CONFIDE", "COVET", "CRUNCH", "DIG", "DOUBLETEAM", "ENDURE", "FACADE", "FIREFANG", "FRUSTRATION", "GIGAIMPACT", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "ICEFANG", "LASTRESORT", "MIMIC", "NATURALGIFT", "PAYBACK", "PLAYROUGH", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "RETALIATE", "RETURN", "REVERSAL", "ROAR", "ROCKSMASH", "ROCKTOMB", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SNARL", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "THUNDERBOLT", "THUNDERFANG", "THUNDERWAVE", "TOXIC", "UPROAR", "WILDCHARGE", "WORKUP")
+egg_move_tokens = PackedStringArray("AFTERYOU", "COVET", "HOWL", "LICK", "MUDSLAP", "YAWN")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.4
+weight_kg = 4.1
+color = "Brown"
+shape = "Quadruped"
+category = "Perrito"
+pokedex = "Los mechones que cubren su cara actúan como un magnífico radar para detectar con precisión lo que hay a su alrededor."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "HERDIER",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

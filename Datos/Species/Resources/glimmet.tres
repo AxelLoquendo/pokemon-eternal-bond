@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bp66q307ls413"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wvfyn"]
+
+[resource]
+script = ExtResource("1_wvfyn")
+id = 969
+name = "Glimmet"
+types = Array[int]([6, 4])
+base_hp = 48
+base_atk = 35
+base_def = 42
+base_spe = 60
+base_spa = 105
+base_spd = 60
+catch_rate = 70
+base_exp = 70
+growth_rate = "Parabolic"
+abilities = Array[int]([293])
+hidden_abilities = Array[int]([212])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ROCKTHROW"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "SMACKDOWN"
+}, {
+"level": 7.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 11.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 15.0,
+"move": "ROCKPOLISH"
+}, {
+"level": 18.0,
+"move": "STEALTHROCK"
+}, {
+"level": 22.0,
+"move": "VENOSHOCK"
+}, {
+"level": 26.0,
+"move": "SANDSTORM"
+}, {
+"level": 29.0,
+"move": "SELFDESTRUCT"
+}, {
+"level": 33.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 37.0,
+"move": "POWERGEM"
+}, {
+"level": 41.0,
+"move": "ACIDARMOR"
+}, {
+"level": 46.0,
+"move": "SLUDGEWAVE"
+}])
+tutor_move_tokens = PackedStringArray("ACIDSPRAY", "CONFUSERAY", "DAZZLINGGLEAM", "ENDURE", "FACADE", "GUNKSHOT", "IRONDEFENSE", "LIGHTSCREEN", "METEORBEAM", "MUDSHOT", "POWERGEM", "PROTECT", "RAINDANCE", "REFLECT", "REST", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "SANDSTORM", "SANDTOMB", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SMACKDOWN", "SPIKES", "STEALTHROCK", "STONEEDGE", "SUBSTITUTE", "SUNNYDAY", "TOXIC", "TOXICSPIKES", "VENOSHOCK")
+egg_move_tokens = PackedStringArray("EXPLOSION", "MEMENTO", "TOXIC")
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 7680
+height_m = 0.7
+weight_kg = 8.0
+color = "Blue"
+shape = "Head"
+category = "Mineral"
+habitat = "Cave"
+pokedex = "Absorbe nutrientes de las paredes de las cuevas. Cubre su cuerpo con pétalos hechos de energía venenosa cristalizada."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "GLIMMORA",
+"method": "Level",
+"param": "35"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

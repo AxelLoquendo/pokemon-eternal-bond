@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bq6mf72oe0vlr"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_5urrb"]
+
+[resource]
+script = ExtResource("1_5urrb")
+id = 25
+name = "Pikachu"
+types = Array[int]([13])
+base_hp = 35
+base_atk = 55
+base_def = 40
+base_spe = 90
+base_spa = 50
+base_spd = 50
+catch_rate = 190
+base_exp = 112
+abilities = Array[int]([9])
+hidden_abilities = Array[int]([31])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PLAYNICE"
+}, {
+"level": 1.0,
+"move": "SWEETKISS"
+}, {
+"level": 1.0,
+"move": "NUZZLE"
+}, {
+"level": 1.0,
+"move": "NASTYPLOT"
+}, {
+"level": 1.0,
+"move": "CHARM"
+}, {
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 4.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 8.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 12.0,
+"move": "ELECTROBALL"
+}, {
+"level": 16.0,
+"move": "FEINT"
+}, {
+"level": 20.0,
+"move": "SPARK"
+}, {
+"level": 24.0,
+"move": "AGILITY"
+}, {
+"level": 28.0,
+"move": "SLAM"
+}, {
+"level": 28.0,
+"move": "IRONTAIL"
+}, {
+"level": 32.0,
+"move": "DISCHARGE"
+}, {
+"level": 36.0,
+"move": "THUNDERBOLT"
+}, {
+"level": 40.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 44.0,
+"move": "THUNDER"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "BODYSLAM", "BRICKBREAK", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "COUNTER", "COVET", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAININGKISS", "DYNAMICPUNCH", "ECHOEDVOICE", "ELECTRICTERRAIN", "ELECTROBALL", "ELECTROWEB", "ENCORE", "ENDURE", "FACADE", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "GRASSKNOT", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "LIGHTSCREEN", "MAGNETRISE", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "PAYDAY", "PLAYROUGH", "PROTECT", "RAINDANCE", "REFLECT", "REST", "RETURN", "REVERSAL", "RISINGVOLTAGE", "ROCKSMASH", "ROLLOUT", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "UPROAR", "VOLTSWITCH", "VOLTTACKLE", "WILDCHARGE", "TAKEDOWN", "FAKETEARS", "DISARMINGVOICE", "TRAILBLAZE", "EERIEIMPULSE", "CHARGE", "ENDEAVOR", "ALLURINGVOICE", "UPPERHAND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field", "Fairy")
+hatch_steps = 2560
+height_m = 0.4
+weight_kg = 6.0
+color = "Yellow"
+shape = "Quadruped"
+category = "Ratón"
+habitat = "Forest"
+pokedex = "Tiene unas bolsas en las mejillas en las que almacena electricidad. Cuando la libera de golpe, la potencia de la descarga es igual a la de un rayo."
+evolutions = Array[Dictionary]([{
+"into": "RAICHU",
+"method": "Item",
+"param": "THUNDERSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "LIGHTBALL"
+offspring = PackedStringArray()

@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ch1or2a5e0pk5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_qn417"]
+
+[resource]
+script = ExtResource("1_qn417")
+id = 431
+name = "Glameow"
+types = Array[int]([1])
+base_hp = 49
+base_atk = 55
+base_def = 42
+base_spe = 85
+base_spa = 42
+base_spd = 37
+catch_rate = 190
+base_exp = 62
+gender_ratio = "Female75Percent"
+growth_rate = "Fast"
+abilities = Array[int]([7, 20])
+hidden_abilities = Array[int]([51])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FAKEOUT"
+}, {
+"level": 5.0,
+"move": "SCRATCH"
+}, {
+"level": 8.0,
+"move": "GROWL"
+}, {
+"level": 13.0,
+"move": "HYPNOSIS"
+}, {
+"level": 17.0,
+"move": "AERIALACE"
+}, {
+"level": 20.0,
+"move": "FURYSWIPES"
+}, {
+"level": 25.0,
+"move": "CHARM"
+}, {
+"level": 29.0,
+"move": "TAUNT"
+}, {
+"level": 32.0,
+"move": "RETALIATE"
+}, {
+"level": 37.0,
+"move": "SLASH"
+}, {
+"level": 41.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 44.0,
+"move": "ATTRACT"
+}, {
+"level": 48.0,
+"move": "HONECLAWS"
+}, {
+"level": 50.0,
+"move": "PLAYROUGH"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "CAPTIVATE", "CONFIDE", "COVET", "CUT", "DIG", "DOUBLETEAM", "DREAMEATER", "ECHOEDVOICE", "ENDURE", "FACADE", "FLASH", "FOULPLAY", "FRUSTRATION", "FURYCUTTER", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "HYPERVOICE", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAYBACK", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNATCH", "SNORE", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SUPERFANG", "SWAGGER", "SWIFT", "TAUNT", "THIEF", "THUNDER", "THUNDERBOLT", "TORMENT", "UTURN", "WATERPULSE", "WORKUP")
+egg_move_tokens = PackedStringArray("ASSURANCE", "BITE", "FAKETEARS", "FLAIL", "LASTRESORT", "QUICKATTACK", "SANDATTACK", "TAILWHIP")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 3.9
+color = "Gray"
+shape = "Quadruped"
+category = "Gastuto"
+pokedex = "Araña cuando está enfadado y ronronea cuando esta cariñoso. Su imprevisibilidad es famosa. Hipnotiza ligeramente a sus enemigos con su mirada fija."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "PURUGLY",
+"method": "Level",
+"param": "38"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

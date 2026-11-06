@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cwxfsbedb8ekd"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_krmc3"]
+
+[resource]
+script = ExtResource("1_krmc3")
+id = 1007
+name = "Koraidon"
+types = Array[int]([2, 16])
+base_hp = 100
+base_atk = 135
+base_def = 115
+base_spe = 135
+base_spa = 85
+base_spd = 100
+catch_rate = 3
+base_exp = 335
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([282])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "BREAKINGSWIPE"
+}, {
+"level": 1.0,
+"move": "SUNNYDAY"
+}, {
+"level": 7.0,
+"move": "ROCKSMASH"
+}, {
+"level": 14.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 21.0,
+"move": "DRAINPUNCH"
+}, {
+"level": 28.0,
+"move": "BRICKBREAK"
+}, {
+"level": 35.0,
+"move": "AGILITY"
+}, {
+"level": 42.0,
+"move": "DRAGONCLAW"
+}, {
+"level": 49.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 56.0,
+"move": "COLLISIONCOURSE"
+}, {
+"level": 63.0,
+"move": "SCREECH"
+}, {
+"level": 70.0,
+"move": "COUNTER"
+}, {
+"level": 77.0,
+"move": "OUTRAGE"
+}, {
+"level": 84.0,
+"move": "CLOSECOMBAT"
+}, {
+"level": 91.0,
+"move": "FLAREBLITZ"
+}, {
+"level": 98.0,
+"move": "GIGAIMPACT"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AGILITY", "BODYPRESS", "BODYSLAM", "BREAKINGSWIPE", "BRICKBREAK", "BULKUP", "BULLDOZE", "CLOSECOMBAT", "CRUNCH", "DIG", "DOUBLEEDGE", "DRACOMETEOR", "DRAGONCHEER", "DRAGONCLAW", "DRAGONPULSE", "DRAGONTAIL", "DRAINPUNCH", "DUALWINGBEAT", "ENDURE", "FACADE", "FIREBLAST", "FIREFANG", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "FOCUSBLAST", "FOCUSPUNCH", "GIGAIMPACT", "HEATCRASH", "HEATWAVE", "HEAVYSLAM", "HELPINGHAND", "HYPERBEAM", "ICEFANG", "IRONHEAD", "LOWKICK", "LOWSWEEP", "METEORBEAM", "MUDSHOT", "MUDSLAP", "OUTRAGE", "OVERHEAT", "PROTECT", "REST", "REVERSAL", "ROAR", "SCALESHOT", "SCARYFACE", "SHADOWCLAW", "SLEEPTALK", "SNARL", "SOLARBEAM", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "SWORDSDANCE", "TAKEDOWN", "TAUNT", "TEMPERFLARE", "THUNDERFANG", "UPROAR", "UTURN", "WILDCHARGE", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 12800
+height_m = 2.5
+weight_kg = 303.0
+color = "Red"
+shape = "Quadruped"
+category = "Paradoja"
+habitat = "Rare"
+pokedex = "Procede de la paradoja de un Cyclizar, viene de un tiempo donde suelen ser mucho más violentos y fornidos. Se desconoce totalmente su relación con el entorno y otros seres vivos."
+generation = 9
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Paradox", "Legendary")
+offspring = PackedStringArray()

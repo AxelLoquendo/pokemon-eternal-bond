@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cvm1jcguxcipu"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_et5vu"]
+
+[resource]
+script = ExtResource("1_et5vu")
+id = 64
+name = "Kadabra"
+types = Array[int]([14])
+base_hp = 40
+base_atk = 35
+base_def = 30
+base_spe = 105
+base_spa = 120
+base_spd = 70
+catch_rate = 100
+base_exp = 140
+gender_ratio = "Female25Percent"
+growth_rate = "Parabolic"
+abilities = Array[int]([28, 39])
+hidden_abilities = Array[int]([98])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 1.0,
+"move": "KINESIS"
+}, {
+"level": 1.0,
+"move": "DISABLE"
+}, {
+"level": 1.0,
+"move": "TELEPORT"
+}, {
+"level": 5.0,
+"move": "PSYBEAM"
+}, {
+"level": 10.0,
+"move": "REFLECT"
+}, {
+"level": 15.0,
+"move": "ALLYSWITCH"
+}, {
+"level": 20.0,
+"move": "PSYCHOCUT"
+}, {
+"level": 25.0,
+"move": "RECOVER"
+}, {
+"level": 30.0,
+"move": "PSYSHOCK"
+}, {
+"level": 35.0,
+"move": "PSYCHIC"
+}, {
+"level": 40.0,
+"move": "ROLEPLAY"
+}, {
+"level": 45.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 50.0,
+"move": "CALMMIND"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BODYSLAM", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COUNTER", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DREAMEATER", "DYNAMICPUNCH", "EMBARGO", "ENCORE", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "FACADE", "FIREPUNCH", "FLASH", "FLING", "FOCUSPUNCH", "FOULPLAY", "FRUSTRATION", "FUTURESIGHT", "GRASSKNOT", "GRAVITY", "GUARDSWAP", "HEADBUTT", "HIDDENPOWER", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "LIGHTSCREEN", "MAGICCOAT", "MAGICROOM", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "NATURALGIFT", "POWERSWAP", "PROTECT", "PSYCHIC", "PSYCHICTERRAIN", "PSYCHOCUT", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "SPEEDSWAP", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERPUNCH", "THUNDERWAVE", "TORMENT", "TRIATTACK", "TRICK", "TRICKROOM", "WONDERROOM", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 5120
+height_m = 1.3
+weight_kg = 56.5
+color = "Brown"
+shape = "BipedalTail"
+category = "Psi"
+habitat = "Urban"
+pokedex = "Dicen que un chico que tenía capacidades psíquicas se transformó de repente en Kadabra mientras ayudaba en un estudio sobre poderes extrasensoriales."
+evolutions = Array[Dictionary]([{
+"into": "ALAKAZAM",
+"method": "Trade",
+"param": ""
+}, {
+"into": "ALAKAZAM",
+"method": "Item",
+"param": "LINKINGCORD"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "TWISTEDSPOON"
+offspring = PackedStringArray()

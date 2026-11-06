@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cwbm4kx4kuw2v"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hsfk4"]
+
+[resource]
+script = ExtResource("1_hsfk4")
+id = 820
+name = "Greedent"
+types = Array[int]([1])
+base_hp = 120
+base_atk = 95
+base_def = 95
+base_spe = 20
+base_spa = 55
+base_spd = 75
+catch_rate = 90
+base_exp = 161
+abilities = Array[int]([167])
+hidden_abilities = Array[int]([82])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "COVET"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 1.0,
+"move": "BITE"
+}, {
+"level": 1.0,
+"move": "STUFFCHEEKS"
+}, {
+"level": 15.0,
+"move": "STOCKPILE"
+}, {
+"level": 15.0,
+"move": "SWALLOW"
+}, {
+"level": 15.0,
+"move": "SPITUP"
+}, {
+"level": 20.0,
+"move": "BODYSLAM"
+}, {
+"level": 27.0,
+"move": "REST"
+}, {
+"level": 34.0,
+"move": "COUNTER"
+}, {
+"level": 41.0,
+"move": "BULLETSEED"
+}, {
+"level": 48.0,
+"move": "SUPERFANG"
+}, {
+"level": 55.0,
+"move": "BELCH"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ASSURANCE", "ATTRACT", "BODYPRESS", "BODYSLAM", "BRUTALSWING", "BULLETSEED", "CAPTIVATE", "CONFIDE", "CRUNCH", "DIG", "DOUBLETEAM", "EARTHQUAKE", "ENDURE", "FACADE", "FIREFANG", "FLING", "FRUSTRATION", "GIGAIMPACT", "GYROBALL", "HIDDENPOWER", "HYPERBEAM", "HYPERVOICE", "ICEFANG", "IRONTAIL", "MIMIC", "MUDSHOT", "NATURALGIFT", "PAYBACK", "PROTECT", "PSYCHICFANGS", "REST", "RETURN", "ROUND", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "SWORDSDANCE", "TAILSLAP", "THIEF", "THUNDERFANG", "TOXIC", "UPROAR", "WILDCHARGE", "TAKEDOWN", "MUDSLAP", "TRAILBLAZE", "BULLDOZE", "SUNNYDAY", "RAINDANCE", "KNOCKOFF", "SUPERFANG", "HIGHHORSEPOWER", "DOUBLEEDGE", "ENDEAVOR", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 6.0
+color = "Brown"
+shape = "BipedalTail"
+category = "Avaricia"
+pokedex = "Sus incisivos, de fuerza y dureza extraordinarias, le permiten mordisquear incluso las bayas más duras. Es un Pokémon muy común en Galar."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SITRUSBERRY"
+offspring = PackedStringArray()

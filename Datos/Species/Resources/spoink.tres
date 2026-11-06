@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bdvmcyvpgev6y"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_p3d10"]
+
+[resource]
+script = ExtResource("1_p3d10")
+id = 325
+name = "Spoink"
+types = Array[int]([14])
+base_hp = 60
+base_atk = 25
+base_def = 35
+base_spe = 60
+base_spa = 70
+base_spd = 80
+catch_rate = 255
+base_exp = 66
+growth_rate = "Fast"
+abilities = Array[int]([47, 20])
+hidden_abilities = Array[int]([82])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SPLASH"
+}, {
+"level": 7.0,
+"move": "CONFUSION"
+}, {
+"level": 10.0,
+"move": "GROWL"
+}, {
+"level": 14.0,
+"move": "PSYBEAM"
+}, {
+"level": 18.0,
+"move": "PSYCHUP"
+}, {
+"level": 21.0,
+"move": "MAGICCOAT"
+}, {
+"level": 22.0,
+"move": "CONFUSERAY"
+}, {
+"level": 26.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 29.0,
+"move": "POWERGEM"
+}, {
+"level": 29.0,
+"move": "REST"
+}, {
+"level": 33.0,
+"move": "SNORE"
+}, {
+"level": 38.0,
+"move": "PSYSHOCK"
+}, {
+"level": 40.0,
+"move": "PAYBACK"
+}, {
+"level": 44.0,
+"move": "PSYCHIC"
+}, {
+"level": 50.0,
+"move": "BOUNCE"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BODYSLAM", "BOUNCE", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COVET", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "ENDURE", "FACADE", "FLASH", "FRUSTRATION", "GRASSKNOT", "HEADBUTT", "HEALBELL", "HIDDENPOWER", "ICYWIND", "IRONTAIL", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "NATURALGIFT", "PAYBACK", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLEPLAY", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERWAVE", "TORMENT", "TRICK", "TRICKROOM", "ZENHEADBUTT", "TAKEDOWN", "PSYBEAM", "CONFUSERAY", "TRAILBLAZE", "CHILLINGWATER", "SNARL", "STOREDPOWER", "NIGHTSHADE", "SNOWSCAPE", "DAZZLINGGLEAM", "IMPRISON", "FLASHCANNON", "POWERGEM", "ENCORE", "AMNESIA", "HELPINGHAND", "PSYCHICTERRAIN", "LUNGE", "UPROAR", "ENDEAVOR", "FUTURESIGHT", "EXPANDINGFORCE")
+egg_move_tokens = PackedStringArray("AMNESIA", "EXTRASENSORY", "FUTURESIGHT", "MIRRORCOAT", "SIMPLEBEAM", "TRICK", "WHIRLWIND", "ZENHEADBUTT")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 30.6
+color = "Black"
+shape = "HeadArms"
+category = "Saltarín"
+habitat = "Mountain"
+pokedex = "Manipula energía psicoquinética a su antojo. No deja de botar ni cuando está dormido. Le encanta comer setas que crecen bajo tierra."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "GRUMPIG",
+"method": "Level",
+"param": "32"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

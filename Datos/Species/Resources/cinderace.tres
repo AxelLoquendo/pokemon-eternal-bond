@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d3mnkaa4xvk0y"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_1kuvh"]
+
+[resource]
+script = ExtResource("1_1kuvh")
+id = 815
+name = "Cinderace"
+types = Array[int]([10])
+base_hp = 80
+base_atk = 116
+base_def = 75
+base_spe = 119
+base_spa = 65
+base_spd = 75
+base_exp = 265
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([66])
+hidden_abilities = Array[int]([236])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "PYROBALL"
+}, {
+"level": 1.0,
+"move": "FEINT"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 12.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 19.0,
+"move": "FLAMECHARGE"
+}, {
+"level": 24.0,
+"move": "AGILITY"
+}, {
+"level": 30.0,
+"move": "HEADBUTT"
+}, {
+"level": 38.0,
+"move": "COUNTER"
+}, {
+"level": 46.0,
+"move": "BOUNCE"
+}, {
+"level": 54.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 62.0,
+"move": "COURTCHANGE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AGILITY", "ALLYSWITCH", "ASSURANCE", "ATTRACT", "BATONPASS", "BLASTBURN", "BLAZEKICK", "BOUNCE", "BULKUP", "CAPTIVATE", "COACHING", "CONFIDE", "DOUBLETEAM", "ELECTROBALL", "ENDURE", "FACADE", "FIREBLAST", "FIREFANG", "FIREPLEDGE", "FIREPUNCH", "FIRESPIN", "FLAMETHROWER", "FLAREBLITZ", "FOCUSBLAST", "FOCUSENERGY", "FRUSTRATION", "GIGAIMPACT", "GUNKSHOT", "HEATWAVE", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "IRONHEAD", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MIMIC", "MUDSHOT", "NATURALGIFT", "OVERHEAT", "PROTECT", "REST", "RETURN", "REVENGE", "REVERSAL", "ROUND", "SCORCHINGSANDS", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SNARL", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAUNT", "TOXIC", "UTURN", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "MUDSLAP", "TRAILBLAZE", "FLAMECHARGE", "FLING", "SWORDSDANCE", "WILLOWISP", "SMACKDOWN", "SUPERFANG", "WEATHERBALL", "BURNINGJEALOUSY", "DOUBLEEDGE", "TEMPERFLARE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field", "Humanlike")
+hatch_steps = 5120
+height_m = 1.4
+weight_kg = 33.0
+color = "White"
+shape = "BipedalTail"
+category = "Delantero"
+pokedex = "Destaca tanto en ataque como en defensa. Se crece cuando recibe una ovación, pero a veces se luce tanto que termina viéndose en apuros."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 3.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

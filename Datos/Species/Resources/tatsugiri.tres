@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ccfnsh5u3mitn"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_w60w5"]
+
+[resource]
+script = ExtResource("1_w60w5")
+id = 978
+name = "Tatsugiri"
+types = Array[int]([16, 11])
+base_hp = 68
+base_atk = 50
+base_def = 60
+base_spe = 82
+base_spa = 120
+base_spd = 95
+catch_rate = 100
+base_exp = 166
+growth_rate = "Parabolic"
+abilities = Array[int]([271])
+hidden_abilities = Array[int]([114])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SPLASH"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 6.0,
+"move": "HARDEN"
+}, {
+"level": 12.0,
+"move": "HELPINGHAND"
+}, {
+"level": 17.0,
+"move": "WATERPULSE"
+}, {
+"level": 23.0,
+"move": "SOAK"
+}, {
+"level": 28.0,
+"move": "TAUNT"
+}, {
+"level": 34.0,
+"move": "MEMENTO"
+}, {
+"level": 39.0,
+"move": "MUDDYWATER"
+}, {
+"level": 43.0,
+"move": "NASTYPLOT"
+}, {
+"level": 47.0,
+"move": "MIRRORCOAT"
+}, {
+"level": 52.0,
+"move": "DRAGONPULSE"
+}])
+tutor_move_tokens = PackedStringArray("BATONPASS", "CHILLINGWATER", "DRACOMETEOR", "DRAGONCHEER", "DRAGONDANCE", "DRAGONPULSE", "ENDURE", "FACADE", "GIGAIMPACT", "HELPINGHAND", "HYDROPUMP", "HYPERBEAM", "ICYWIND", "LUNGE", "MUDDYWATER", "NASTYPLOT", "OUTRAGE", "PROTECT", "RAINDANCE", "REST", "SLEEPTALK", "SUBSTITUTE", "SURF", "TAKEDOWN", "TAUNT", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray("BATONPASS", "COUNTER", "RAPIDSPIN")
+egg_groups = PackedStringArray("Water2")
+hatch_steps = 8960
+height_m = 0.3
+weight_kg = 8.0
+color = "Pink"
+shape = "Serpentine"
+category = "Mimetismo"
+habitat = "Sea"
+pokedex = "Es un Pokémon de gran astucia. Atrae a sus presas fingiendo estar débil para otorgarle a su compañero la oportunidad de atacar."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Curvada"

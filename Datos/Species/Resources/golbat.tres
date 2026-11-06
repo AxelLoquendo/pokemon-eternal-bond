@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ej2bk4sedcur"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ghiv5"]
+
+[resource]
+script = ExtResource("1_ghiv5")
+id = 42
+name = "Golbat"
+types = Array[int]([4, 3])
+base_hp = 75
+base_atk = 80
+base_def = 70
+base_spe = 90
+base_spa = 65
+base_spd = 75
+catch_rate = 90
+base_exp = 159
+abilities = Array[int]([39])
+hidden_abilities = Array[int]([151])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCREECH"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "SUPERSONIC"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "MEANLOOK"
+}, {
+"level": 15.0,
+"move": "POISONFANG"
+}, {
+"level": 20.0,
+"move": "QUICKGUARD"
+}, {
+"level": 27.0,
+"move": "AIRCUTTER"
+}, {
+"level": 34.0,
+"move": "BITE"
+}, {
+"level": 41.0,
+"move": "HAZE"
+}, {
+"level": 48.0,
+"move": "VENOSHOCK"
+}, {
+"level": 55.0,
+"move": "CONFUSERAY"
+}, {
+"level": 62.0,
+"move": "AIRSLASH"
+}, {
+"level": 69.0,
+"move": "LEECHLIFE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "AIRCUTTER", "AIRSLASH", "ASSURANCE", "ATTRACT", "BRAVEBIRD", "CAPTIVATE", "CONFIDE", "CRUNCH", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "DUALWINGBEAT", "ENDURE", "FACADE", "FLY", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "HEATWAVE", "HIDDENPOWER", "HYPERBEAM", "LEECHLIFE", "MIMIC", "NASTYPLOT", "NATURALGIFT", "OMINOUSWIND", "PAYBACK", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SCREECH", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SLUDGEBOMB", "SNATCH", "SNORE", "STEELWING", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SWAGGER", "SWIFT", "TAILWIND", "TAUNT", "THIEF", "TORMENT", "TWISTER", "UPROAR", "UTURN", "VENOMDRENCH", "VENOSHOCK", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 3840
+height_m = 1.6
+weight_kg = 55.0
+color = "Purple"
+shape = "Winged"
+category = "Murciélago"
+habitat = "Cave"
+pokedex = "Tiene colmillos que atraviesan el pelaje más grueso. Se ceba chupando la sangre a la gente y a otros Pokémon. Revolotea en la oscuridad y ataca por la espalda."
+evolutions = Array[Dictionary]([{
+"into": "CROBAT",
+"method": "Happiness",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

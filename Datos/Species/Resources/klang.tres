@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cg1hx5vbqy2tr"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_3gg1e"]
+
+[resource]
+script = ExtResource("1_3gg1e")
+id = 600
+name = "Klang"
+types = Array[int]([9])
+base_hp = 60
+base_atk = 80
+base_def = 95
+base_spe = 50
+base_spa = 70
+base_spd = 85
+catch_rate = 60
+base_exp = 154
+gender_ratio = "Genderless"
+growth_rate = "Parabolic"
+abilities = Array[int]([57, 58])
+hidden_abilities = Array[int]([29])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 1.0,
+"move": "VISEGRIP"
+}, {
+"level": 1.0,
+"move": "BIND"
+}, {
+"level": 1.0,
+"move": "CHARGE"
+}, {
+"level": 12.0,
+"move": "CHARGEBEAM"
+}, {
+"level": 16.0,
+"move": "METALSOUND"
+}, {
+"level": 20.0,
+"move": "AUTOTOMIZE"
+}, {
+"level": 24.0,
+"move": "DISCHARGE"
+}, {
+"level": 28.0,
+"move": "SCREECH"
+}, {
+"level": 32.0,
+"move": "GEARGRIND"
+}, {
+"level": 36.0,
+"move": "LOCKON"
+}, {
+"level": 42.0,
+"move": "SHIFTGEAR"
+}, {
+"level": 48.0,
+"move": "ZAPCANNON"
+}, {
+"level": 54.0,
+"move": "HYPERBEAM"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ASSURANCE", "BIND", "CHARGEBEAM", "CONFIDE", "DOUBLETEAM", "ENDURE", "FACADE", "FLASHCANNON", "FRUSTRATION", "GRAVITY", "HIDDENPOWER", "HYPERBEAM", "IRONDEFENSE", "MAGICCOAT", "MAGNETRISE", "MIMIC", "NATURALGIFT", "POWERGEM", "PROTECT", "RECYCLE", "REST", "RETURN", "RISINGVOLTAGE", "ROCKPOLISH", "ROCKSMASH", "ROUND", "SANDSTORM", "SCREECH", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "STEELBEAM", "STEELROLLER", "SUBSTITUTE", "SWAGGER", "TELEKINESIS", "THUNDERBOLT", "THUNDERWAVE", "TOXIC", "UPROAR", "VOLTSWITCH", "WILDCHARGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 51.0
+color = "Gray"
+shape = "MultiBody"
+category = "Engranaje"
+pokedex = "Hace girar sus engranajes menores frenéticamente para lanzarlos en sus ataques. Es peligroso si no regresan."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "KLINKLANG",
+"method": "Level",
+"param": "49"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

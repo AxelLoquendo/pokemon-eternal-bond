@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dcxairwmif0q4"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_y38km"]
+
+[resource]
+script = ExtResource("1_y38km")
+id = 155
+name = "Cyndaquil"
+types = Array[int]([10])
+base_hp = 39
+base_atk = 52
+base_def = 43
+base_spe = 65
+base_spa = 60
+base_spd = 50
+base_exp = 62
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([66])
+hidden_abilities = Array[int]([18])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 6.0,
+"move": "SMOKESCREEN"
+}, {
+"level": 10.0,
+"move": "EMBER"
+}, {
+"level": 13.0,
+"move": "QUICKATTACK"
+}, {
+"level": 19.0,
+"move": "FLAMEWHEEL"
+}, {
+"level": 22.0,
+"move": "DEFENSECURL"
+}, {
+"level": 28.0,
+"move": "FLAMECHARGE"
+}, {
+"level": 31.0,
+"move": "SWIFT"
+}, {
+"level": 37.0,
+"move": "LAVAPLUME"
+}, {
+"level": 40.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 46.0,
+"move": "INFERNO"
+}, {
+"level": 49.0,
+"move": "ROLLOUT"
+}, {
+"level": 55.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 58.0,
+"move": "BURNUP"
+}, {
+"level": 58.0,
+"move": "OVERHEAT"
+}, {
+"level": 64.0,
+"move": "ERUPTION"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BODYSLAM", "CAPTIVATE", "CONFIDE", "COVET", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FIREBLAST", "FIREPLEDGE", "FLAMECHARGE", "FLAMETHROWER", "FRUSTRATION", "HEADBUTT", "HEATWAVE", "HIDDENPOWER", "INCINERATE", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "OVERHEAT", "PROTECT", "REST", "RETURN", "ROLLOUT", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "WILDCHARGE", "WILLOWISP", "WORKUP", "TAKEDOWN", "FIREFANG", "FIRESPIN", "ZENHEADBUTT", "IRONHEAD", "PLAYROUGH", "REVERSAL", "FLAREBLITZ", "ROAR", "BURNINGJEALOUSY", "TEMPERFLARE", "CURSE")
+egg_move_tokens = PackedStringArray("COVET", "CRUSHCLAW", "DOUBLEEDGE", "DOUBLEKICK", "EXTRASENSORY", "FLAREBLITZ", "FURYSWIPES", "HOWL", "NATUREPOWER", "QUICKATTACK", "REVERSAL", "THRASH")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 7.9
+color = "Yellow"
+shape = "Bipedal"
+category = "Ratónfuego"
+habitat = "Grassland"
+pokedex = "Se protege con el fuego que le arde en el lomo. Si está enfadado, las llamas son fieras, pero, si está cansado, sólo suelta chispas que no llegan a inflamarse."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "QUILAVA",
+"method": "Level",
+"param": "14"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

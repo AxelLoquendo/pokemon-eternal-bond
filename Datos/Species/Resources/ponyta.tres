@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://5vjp2j1yvvdw"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_w6456"]
+
+[resource]
+script = ExtResource("1_w6456")
+id = 77
+name = "Ponyta"
+types = Array[int]([10])
+base_hp = 50
+base_atk = 85
+base_def = 55
+base_spe = 90
+base_spa = 65
+base_spd = 65
+catch_rate = 190
+base_exp = 82
+abilities = Array[int]([50, 18])
+hidden_abilities = Array[int]([49])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 5.0,
+"move": "TAILWHIP"
+}, {
+"level": 10.0,
+"move": "EMBER"
+}, {
+"level": 15.0,
+"move": "FLAMECHARGE"
+}, {
+"level": 20.0,
+"move": "AGILITY"
+}, {
+"level": 25.0,
+"move": "FLAMEWHEEL"
+}, {
+"level": 30.0,
+"move": "STOMP"
+}, {
+"level": 35.0,
+"move": "FIRESPIN"
+}, {
+"level": 41.0,
+"move": "TAKEDOWN"
+}, {
+"level": 45.0,
+"move": "INFERNO"
+}, {
+"level": 50.0,
+"move": "FIREBLAST"
+}, {
+"level": 55.0,
+"move": "FLAREBLITZ"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ALLYSWITCH", "ATTRACT", "BODYSLAM", "BOUNCE", "CAPTIVATE", "CHARM", "CONFIDE", "DOUBLEEDGE", "DOUBLETEAM", "ECHOEDVOICE", "ENDURE", "EXPANDINGFORCE", "FACADE", "FIREBLAST", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "FRUSTRATION", "HEADBUTT", "HEATWAVE", "HIDDENPOWER", "HIGHHORSEPOWER", "INCINERATE", "IRONTAIL", "LOWKICK", "MIMIC", "MYSTICALFIRE", "NATURALGIFT", "OVERHEAT", "PLAYROUGH", "PROTECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "SOLARBEAM", "SOLARBLADE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "WILDCHARGE", "WILLOWISP")
+egg_move_tokens = PackedStringArray("ALLYSWITCH", "CHARM", "DOUBLEEDGE", "DOUBLEKICK", "FLAMEWHEEL", "HIGHHORSEPOWER", "HORNDRILL", "HYPNOSIS", "LOWKICK", "MORNINGSUN", "THRASH")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 30.0
+color = "Yellow"
+shape = "Quadruped"
+category = "Caballo Fuego"
+habitat = "Grassland"
+pokedex = "Al nacer, es muy débil y apenas puede ponerse en pie. Con todo, se va haciendo más fuerte al tropezarse y caerse en su intento por seguir a sus progenitores."
+evolutions = Array[Dictionary]([{
+"into": "RAPIDASH",
+"method": "Level",
+"param": "40"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dk5iout2164gp"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_8vqfi"]
+
+[resource]
+script = ExtResource("1_8vqfi")
+id = 962
+name = "Bombirdier"
+types = Array[int]([3, 17])
+base_hp = 70
+base_atk = 103
+base_def = 85
+base_spe = 82
+base_spa = 60
+base_spd = 85
+catch_rate = 25
+base_exp = 243
+growth_rate = "Slow"
+abilities = Array[int]([145, 51])
+hidden_abilities = Array[int]([286])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "MEMENTO"
+}, {
+"level": 1.0,
+"move": "HONECLAWS"
+}, {
+"level": 1.0,
+"move": "WINGATTACK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 7.0,
+"move": "THIEF"
+}, {
+"level": 11.0,
+"move": "ROCKTHROW"
+}, {
+"level": 16.0,
+"move": "WHIRLWIND"
+}, {
+"level": 20.0,
+"move": "PLUCK"
+}, {
+"level": 24.0,
+"move": "TORMENT"
+}, {
+"level": 29.0,
+"move": "ROCKTOMB"
+}, {
+"level": 36.0,
+"move": "PAYBACK"
+}, {
+"level": 42.0,
+"move": "DUALWINGBEAT"
+}, {
+"level": 47.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 53.0,
+"move": "KNOCKOFF"
+}, {
+"level": 60.0,
+"move": "PARTINGSHOT"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "CURSE", "DARKPULSE", "DRILLRUN", "DUALWINGBEAT", "ENDEAVOR", "ENDURE", "FACADE", "FEATHERDANCE", "FLY", "FOULPLAY", "GIGAIMPACT", "HEATWAVE", "HURRICANE", "HYPERBEAM", "HYPERVOICE", "ICYWIND", "KNOCKOFF", "LASHOUT", "NASTYPLOT", "POWERGEM", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "SANDSTORM", "SCARYFACE", "SLEEPTALK", "SNARL", "STEALTHROCK", "STONEEDGE", "SUBSTITUTE", "SUNNYDAY", "TAILWIND", "TAKEDOWN", "TAUNT", "THIEF", "UTURN")
+egg_move_tokens = PackedStringArray("FEATHERDANCE", "POWERTRIP", "ROOST", "SKYATTACK", "SUCKERPUNCH")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 8960
+height_m = 1.5
+weight_kg = 42.9
+color = "White"
+shape = "Winged"
+category = "Arrojador"
+habitat = "Mountain"
+pokedex = "Mete cosas en su bolsa, fabricada con el plumón de su pecho y con plumas mudadas, para luego dejarlas caer desde las alturas por diversión."
+generation = 9
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bq572ascv7tf0"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ngs73"]
+
+[resource]
+script = ExtResource("1_ngs73")
+id = 71
+name = "Victreebel"
+types = Array[int]([12, 4])
+base_hp = 80
+base_atk = 105
+base_def = 65
+base_spe = 70
+base_spa = 100
+base_spd = 70
+base_exp = 245
+growth_rate = "Parabolic"
+abilities = Array[int]([34])
+hidden_abilities = Array[int]([82])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "STOCKPILE"
+}, {
+"level": -1.0,
+"move": "SWALLOW"
+}, {
+"level": -1.0,
+"move": "SPITUP"
+}, {
+"level": -1.0,
+"move": "GASTROACID"
+}, {
+"level": -1.0,
+"move": "LEAFSTORM"
+}, {
+"level": -1.0,
+"move": "POWERWHIP"
+}, {
+"level": 0.0,
+"move": "LEAFTORNADO"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 1.0,
+"move": "POISONPOWDER"
+}, {
+"level": 1.0,
+"move": "STUNSPORE"
+}, {
+"level": 1.0,
+"move": "ACID"
+}, {
+"level": 1.0,
+"move": "KNOCKOFF"
+}, {
+"level": 1.0,
+"move": "POISONJAB"
+}, {
+"level": 1.0,
+"move": "SLAM"
+}, {
+"level": 1.0,
+"move": "VINEWHIP"
+}, {
+"level": 1.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 1.0,
+"move": "RAZORLEAF"
+}, {
+"level": 44.0,
+"move": "LEAFBLADE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BIND", "BODYSLAM", "BULLETSEED", "CAPTIVATE", "CONFIDE", "CUT", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "KNOCKOFF", "MIMIC", "NATURALGIFT", "NATUREPOWER", "POISONJAB", "PROTECT", "REFLECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "THIEF", "VENOSHOCK", "WORRYSEED", "SCARYFACE", "ACIDSPRAY", "TRAILBLAZE", "POUNCE", "SWIFT", "MAGICALLEAF", "LEECHLIFE", "ENCORE", "GRASSYTERRAIN", "LEAFSTORM", "TOXIC", "BUGBITE", "LUNGE", "WEATHERBALL", "GRASSYGLIDE", "SLUDGEWAVE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 1.7
+weight_kg = 15.5
+color = "Green"
+shape = "HeadBase"
+category = "Atrapamoscas"
+habitat = "Forest"
+pokedex = "Tiene una enredadera que le sale de la cabeza. Cuando la agita y colea, recuerda a un animal y así consigue atraer a sus presas. Si se le acerca un rival, lo engulle."
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

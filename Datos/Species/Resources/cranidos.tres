@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://rud2fn2ay8kl"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cdapf"]
+
+[resource]
+script = ExtResource("1_cdapf")
+id = 408
+name = "Cranidos"
+types = Array[int]([6])
+base_hp = 67
+base_atk = 125
+base_def = 40
+base_spe = 58
+base_spa = 30
+base_spd = 30
+base_exp = 70
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Erratic"
+abilities = Array[int]([104])
+hidden_abilities = Array[int]([125])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "HEADBUTT"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 6.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 10.0,
+"move": "ROCKPOLISH"
+}, {
+"level": 10.0,
+"move": "ROCKSMASH"
+}, {
+"level": 15.0,
+"move": "TAKEDOWN"
+}, {
+"level": 19.0,
+"move": "SCARYFACE"
+}, {
+"level": 24.0,
+"move": "ASSURANCE"
+}, {
+"level": 28.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 28.0,
+"move": "SLAM"
+}, {
+"level": 33.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 37.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 42.0,
+"move": "SCREECH"
+}, {
+"level": 46.0,
+"move": "HEADSMASH"
+}])
+tutor_move_tokens = PackedStringArray("ANCIENTPOWER", "ATTRACT", "BLIZZARD", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DIG", "DOUBLETEAM", "DRAGONPULSE", "EARTHPOWER", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLING", "FRUSTRATION", "HEADBUTT", "HIDDENPOWER", "ICEBEAM", "INCINERATE", "IRONHEAD", "IRONTAIL", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAYBACK", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKCLIMB", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SECRETPOWER", "SHOCKWAVE", "SLEEPTALK", "SMACKDOWN", "SNORE", "SPITE", "STEALTHROCK", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWORDSDANCE", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "UPROAR", "ZENHEADBUTT", "TAKEDOWN", "SCARYFACE", "TRAILBLAZE", "BODYSLAM", "ROCKBLAST", "STOMPINGTANTRUM", "CRUNCH", "DOUBLEEDGE", "CURSE", "DRAGONCHEER")
+egg_move_tokens = PackedStringArray("CRUNCH", "CURSE", "DOUBLEEDGE", "HAMMERARM", "IRONHEAD", "LEER", "SLAM", "STOMP", "THRASH", "WHIRLWIND")
+egg_groups = PackedStringArray("Monster")
+hatch_steps = 7680
+height_m = 0.9
+weight_kg = 31.5
+color = "Blue"
+shape = "BipedalTail"
+category = "Cabezazo"
+pokedex = "Vivía en la jungla hace unos 100 millones de años. Su cráneo es tan duro como el hierro. Fue recreado a partir de un fósil con forma esférica."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "RAMPARDOS",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

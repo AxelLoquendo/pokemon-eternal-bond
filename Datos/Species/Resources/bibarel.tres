@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://5p10j7vk88d2"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_r6y42"]
+
+[resource]
+script = ExtResource("1_r6y42")
+id = 400
+name = "Bibarel"
+types = Array[int]([1, 11])
+base_hp = 79
+base_atk = 85
+base_def = 60
+base_spe = 71
+base_spa = 55
+base_spd = 60
+catch_rate = 127
+base_exp = 144
+abilities = Array[int]([86, 109])
+hidden_abilities = Array[int]([141])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "AQUAJET"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 5.0,
+"move": "DEFENSECURL"
+}, {
+"level": 9.0,
+"move": "ROLLOUT"
+}, {
+"level": 13.0,
+"move": "HEADBUTT"
+}, {
+"level": 18.0,
+"move": "TAUNT"
+}, {
+"level": 23.0,
+"move": "YAWN"
+}, {
+"level": 28.0,
+"move": "CRUNCH"
+}, {
+"level": 33.0,
+"move": "TAKEDOWN"
+}, {
+"level": 38.0,
+"move": "SUPERFANG"
+}, {
+"level": 43.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 48.0,
+"move": "AMNESIA"
+}, {
+"level": 53.0,
+"move": "SUPERPOWER"
+}, {
+"level": 58.0,
+"move": "CURSE"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "BLIZZARD", "BULLDOZE", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COVET", "CUT", "DIG", "DIVE", "DOUBLETEAM", "ECHOEDVOICE", "ENDURE", "FACADE", "FLING", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "GRASSKNOT", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICYWIND", "IRONTAIL", "LASTRESORT", "LIQUIDATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKCLIMB", "ROCKSMASH", "ROLLOUT", "ROUND", "SCALD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SLEEPTALK", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SUPERPOWER", "SURF", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "WORKUP")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Field")
+hatch_steps = 3840
+height_m = 1.0
+weight_kg = 31.5
+color = "Brown"
+shape = "BipedalTail"
+category = "Castor"
+pokedex = "Para anidar, crea presas en los ríos con maderas y barro. Tiene fama de trabajador. Un río en el que un Bibarel cree una presa jamás se desbordará."
+generation = 4
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

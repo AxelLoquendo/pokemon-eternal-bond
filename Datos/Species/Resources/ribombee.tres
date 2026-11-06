@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dj1ddbtpfoudk"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_yiagw"]
+
+[resource]
+script = ExtResource("1_yiagw")
+id = 743
+name = "Ribombee"
+types = Array[int]([7, 18])
+base_hp = 60
+base_atk = 55
+base_def = 60
+base_spe = 124
+base_spa = 95
+base_spd = 70
+catch_rate = 75
+base_exp = 162
+abilities = Array[int]([118, 19])
+hidden_abilities = Array[int]([175])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "POLLENPUFF"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "FAIRYWIND"
+}, {
+"level": 1.0,
+"move": "STUNSPORE"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 18.0,
+"move": "DRAININGKISS"
+}, {
+"level": 24.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 32.0,
+"move": "COVET"
+}, {
+"level": 32.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 40.0,
+"move": "SWITCHEROO"
+}, {
+"level": 48.0,
+"move": "DAZZLINGGLEAM"
+}, {
+"level": 56.0,
+"move": "BUGBUZZ"
+}, {
+"level": 64.0,
+"move": "QUIVERDANCE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AFTERYOU", "ALLYSWITCH", "ATTRACT", "BATONPASS", "BUGBITE", "BUGBUZZ", "CALMMIND", "CAPTIVATE", "CHARM", "CONFIDE", "COVET", "DAZZLINGGLEAM", "DEFOG", "DOUBLETEAM", "DRAININGKISS", "DREAMEATER", "DUALWINGBEAT", "ENDURE", "ENERGYBALL", "FACADE", "FAKETEARS", "FRUSTRATION", "GIGAIMPACT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "IMPRISON", "INFESTATION", "LASTRESORT", "LEECHLIFE", "LIGHTSCREEN", "MAGICALLEAF", "MAGICROOM", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PLAYROUGH", "POLLENPUFF", "PROTECT", "PSYCHIC", "PSYCHUP", "REFLECT", "REST", "RETURN", "ROOST", "ROUND", "SAFEGUARD", "SECRETPOWER", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNORE", "SOLARBEAM", "SPEEDSWAP", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "TELEKINESIS", "THIEF", "TOXIC", "TRICK", "UTURN", "WONDERROOM", "TAKEDOWN", "AGILITY", "STRUGGLEBUG", "TRAILBLAZE", "POUNCE", "STOREDPOWER", "GRASSKNOT", "LUNGE", "SKITTERSMACK", "ALLURINGVOICE", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug", "Fairy")
+hatch_steps = 5120
+height_m = 0.2
+weight_kg = 0.5
+color = "Yellow"
+shape = "MultiWinged"
+category = "Mosca Abeja"
+pokedex = "Algunas de las bolas de polen que fabrican son extremadamente nutritivas, por lo que a veces se venden como suplementos alimenticios."
+generation = 7
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "HONEY"
+offspring = PackedStringArray()

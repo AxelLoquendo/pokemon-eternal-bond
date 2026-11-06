@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://wawkdg0542qe"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6igll"]
+
+[resource]
+script = ExtResource("1_6igll")
+id = 138
+name = "Omanyte"
+types = Array[int]([6, 11])
+base_hp = 35
+base_atk = 40
+base_def = 100
+base_spe = 35
+base_spa = 90
+base_spd = 55
+base_exp = 71
+gender_ratio = "FemaleOneEighth"
+abilities = Array[int]([33, 75])
+hidden_abilities = Array[int]([133])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "BIND"
+}, {
+"level": 1.0,
+"move": "WITHDRAW"
+}, {
+"level": 5.0,
+"move": "ROLLOUT"
+}, {
+"level": 10.0,
+"move": "SANDATTACK"
+}, {
+"level": 15.0,
+"move": "WATERGUN"
+}, {
+"level": 20.0,
+"move": "LEER"
+}, {
+"level": 25.0,
+"move": "MUDSHOT"
+}, {
+"level": 30.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 35.0,
+"move": "BRINE"
+}, {
+"level": 41.0,
+"move": "PROTECT"
+}, {
+"level": 45.0,
+"move": "ROCKBLAST"
+}, {
+"level": 50.0,
+"move": "SURF"
+}, {
+"level": 55.0,
+"move": "SHELLSMASH"
+}, {
+"level": 60.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("ANCIENTPOWER", "ATTRACT", "BIND", "BLIZZARD", "BODYSLAM", "BRINE", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "ENDURE", "FACADE", "FRUSTRATION", "GYROBALL", "HAIL", "HEADBUTT", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "IRONDEFENSE", "KNOCKOFF", "METEORBEAM", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKBLAST", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SCALD", "SECRETPOWER", "SLEEPTALK", "SMACKDOWN", "SNORE", "SPIKES", "STEALTHROCK", "SUBSTITUTE", "SURF", "SWAGGER", "THIEF", "TOXICSPIKES", "WATERFALL", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray("AURORABEAM", "BITE", "BUBBLEBEAM", "HAZE", "KNOCKOFF", "MUDDYWATER", "REFLECTTYPE", "SLAM", "SPIKES", "SUPERSONIC", "TICKLE", "TOXICSPIKES", "WATERPULSE", "WHIRLPOOL")
+egg_groups = PackedStringArray("Water1", "Water3")
+hatch_steps = 7680
+height_m = 0.4
+weight_kg = 7.5
+color = "Blue"
+shape = "Multiped"
+category = "Espiral"
+habitat = "Sea"
+pokedex = "Es un Pokémon ancestral que se extinguió hace mucho tiempo y se recuperó a partir de fósiles. Si le atacan, se esconderá dentro de su dura concha."
+evolutions = Array[Dictionary]([{
+"into": "OMASTAR",
+"method": "Level",
+"param": "40"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

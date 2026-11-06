@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bf2xv54ggcc7u"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_5vmgr"]
+
+[resource]
+script = ExtResource("1_5vmgr")
+id = 365
+name = "Walrein"
+types = Array[int]([15, 11])
+base_hp = 110
+base_atk = 80
+base_def = 90
+base_spe = 65
+base_spa = 95
+base_spd = 90
+base_exp = 265
+growth_rate = "Parabolic"
+abilities = Array[int]([47, 115])
+hidden_abilities = Array[int]([12])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SWAGGER"
+}, {
+"level": 1.0,
+"move": "CRUNCH"
+}, {
+"level": 1.0,
+"move": "ICEFANG"
+}, {
+"level": 1.0,
+"move": "ROLLOUT"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 12.0,
+"move": "POWDERSNOW"
+}, {
+"level": 16.0,
+"move": "REST"
+}, {
+"level": 20.0,
+"move": "SNORE"
+}, {
+"level": 24.0,
+"move": "BRINE"
+}, {
+"level": 28.0,
+"move": "AURORABEAM"
+}, {
+"level": 35.0,
+"move": "ENCORE"
+}, {
+"level": 40.0,
+"move": "BODYSLAM"
+}, {
+"level": 48.0,
+"move": "SURF"
+}, {
+"level": 56.0,
+"move": "BLIZZARD"
+}, {
+"level": 64.0,
+"move": "HAIL"
+}, {
+"level": 72.0,
+"move": "SHEERCOLD"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "AVALANCHE", "BLIZZARD", "BLOCK", "BODYPRESS", "BODYSLAM", "BRINE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "DEFENSECURL", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "EARTHQUAKE", "ECHOEDVOICE", "ENCORE", "ENDURE", "FACADE", "FROSTBREATH", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HAIL", "HEADBUTT", "HEAVYSLAM", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICEFANG", "ICICLESPEAR", "ICYWIND", "IRONHEAD", "IRONTAIL", "LIQUIDATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SECRETPOWER", "SIGNALBEAM", "SLEEPTALK", "SNORE", "STEELROLLER", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUPERFANG", "SURF", "SWAGGER", "SWORDSDANCE", "WATERFALL", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Field")
+hatch_steps = 5120
+height_m = 1.4
+weight_kg = 150.6
+color = "Blue"
+shape = "Quadruped"
+category = "Rompehielo"
+habitat = "Sea"
+pokedex = "Para proteger a su manada, el líder luchará hasta el final contra todo lo que invada su territorio. En el transcurso del combate puede perder los colmillos."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 3.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://xfpufdsxmd8m"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_dda4x"]
+
+[resource]
+script = ExtResource("1_dda4x")
+id = 52
+name = "Meowth"
+types = Array[int]([1])
+base_hp = 40
+base_atk = 45
+base_def = 35
+base_spe = 90
+base_spa = 40
+base_spd = 40
+catch_rate = 255
+base_exp = 58
+abilities = Array[int]([53, 101])
+hidden_abilities = Array[int]([127])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FAKEOUT"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 4.0,
+"move": "FEINT"
+}, {
+"level": 8.0,
+"move": "SCRATCH"
+}, {
+"level": 12.0,
+"move": "PAYDAY"
+}, {
+"level": 16.0,
+"move": "BITE"
+}, {
+"level": 20.0,
+"move": "TAUNT"
+}, {
+"level": 24.0,
+"move": "ASSURANCE"
+}, {
+"level": 29.0,
+"move": "FURYSWIPES"
+}, {
+"level": 32.0,
+"move": "SCREECH"
+}, {
+"level": 36.0,
+"move": "SLASH"
+}, {
+"level": 40.0,
+"move": "NASTYPLOT"
+}, {
+"level": 44.0,
+"move": "PLAYROUGH"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AMNESIA", "ASSURANCE", "ATTRACT", "BODYSLAM", "CAPTIVATE", "CHARM", "CONFIDE", "COVET", "CUT", "DARKPULSE", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "ECHOEDVOICE", "ENDURE", "FACADE", "FLASH", "FOULPLAY", "FRUSTRATION", "GUNKSHOT", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "HYPERVOICE", "ICYWIND", "IRONTAIL", "KNOCKOFF", "LASHOUT", "LASTRESORT", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "PAYDAY", "PLAYROUGH", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROUND", "SCREECH", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNATCH", "SNORE", "SPITE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAUNT", "THIEF", "THROATCHOP", "THUNDER", "THUNDERBOLT", "TORMENT", "UPROAR", "UTURN", "WATERPULSE", "WORKUP", "TAKEDOWN", "FAKETEARS", "AGILITY", "TRAILBLAZE", "CHILLINGWATER", "SNARL", "METALCLAW", "FALSESWIPE", "THUNDERWAVE", "POWERGEM", "HELPINGHAND", "PAINSPLIT", "ENDEAVOR")
+egg_move_tokens = PackedStringArray("AMNESIA", "CHARM", "COVET", "FLAIL", "FOULPLAY", "HYPNOSIS", "LASTRESORT", "SPITE", "TAILWHIP")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 4.2
+color = "Yellow"
+shape = "Quadruped"
+category = "Gato Araña"
+habitat = "Urban"
+pokedex = "Retrae sus afiladas uñas en las zarpas y camina a hurtadillas. Así pasa inadvertido. No se sabe por qué, pero adora las monedas brillantes que resplandecen."
+evolutions = Array[Dictionary]([{
+"into": "PERSIAN",
+"method": "Level",
+"param": "28"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "QUICKCLAW"
+offspring = PackedStringArray()

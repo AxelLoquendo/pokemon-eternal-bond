@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://g82w00tgl68a"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wjrqk"]
+
+[resource]
+script = ExtResource("1_wjrqk")
+id = 101
+name = "Electrode"
+types = Array[int]([13])
+base_hp = 60
+base_atk = 50
+base_def = 70
+base_spe = 150
+base_spa = 80
+base_spd = 80
+catch_rate = 60
+base_exp = 172
+gender_ratio = "Genderless"
+abilities = Array[int]([43, 9])
+hidden_abilities = Array[int]([106])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "MAGNETICFLUX"
+}, {
+"level": 1.0,
+"move": "CHARGE"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "EERIEIMPULSE"
+}, {
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 9.0,
+"move": "SPARK"
+}, {
+"level": 11.0,
+"move": "ROLLOUT"
+}, {
+"level": 13.0,
+"move": "SCREECH"
+}, {
+"level": 16.0,
+"move": "CHARGEBEAM"
+}, {
+"level": 20.0,
+"move": "SWIFT"
+}, {
+"level": 22.0,
+"move": "ELECTROBALL"
+}, {
+"level": 26.0,
+"move": "SELFDESTRUCT"
+}, {
+"level": 29.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 36.0,
+"move": "MAGNETRISE"
+}, {
+"level": 41.0,
+"move": "DISCHARGE"
+}, {
+"level": 47.0,
+"move": "EXPLOSION"
+}, {
+"level": 54.0,
+"move": "GYROBALL"
+}, {
+"level": 58.0,
+"move": "MIRRORCOAT"
+}])
+tutor_move_tokens = PackedStringArray("CHARGEBEAM", "CONFIDE", "DOUBLETEAM", "ENDURE", "EXPLOSION", "FACADE", "FLASH", "FOULPLAY", "FRUSTRATION", "GIGAIMPACT", "GYROBALL", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "LIGHTSCREEN", "MAGICCOAT", "MAGNETRISE", "MIMIC", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROLLOUT", "ROUND", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SUCKERPUNCH", "SWAGGER", "SWIFT", "TAUNT", "TELEKINESIS", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TORMENT", "VOLTSWITCH", "WILDCHARGE", "TAKEDOWN", "AGILITY", "SCARYFACE", "ELECTROBALL", "EERIEIMPULSE", "HELPINGHAND", "ELECTRICTERRAIN", "CHARGE", "DOUBLEEDGE", "SUPERCELLSLAM", "ELECTROWEB", "METALSOUND", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 5120
+height_m = 1.2
+weight_kg = 66.6
+color = "Red"
+shape = "Head"
+category = "Bola"
+habitat = "Urban"
+pokedex = "Se agrupa con muchos otros junto a las plantas de energía eléctrica. Como se alimenta de electricidad, causa grandes y caóticos apagones en ciudades próximas."
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

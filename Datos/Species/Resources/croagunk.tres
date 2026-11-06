@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dtdx2ucl1bmk1"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_mgse0"]
+
+[resource]
+script = ExtResource("1_mgse0")
+id = 453
+name = "Croagunk"
+types = Array[int]([4, 2])
+base_hp = 48
+base_atk = 61
+base_def = 40
+base_spe = 50
+base_spa = 61
+base_spd = 40
+catch_rate = 140
+base_exp = 60
+base_happiness = 100
+abilities = Array[int]([107, 87])
+hidden_abilities = Array[int]([143])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 4.0,
+"move": "ASTONISH"
+}, {
+"level": 8.0,
+"move": "TAUNT"
+}, {
+"level": 12.0,
+"move": "FLATTER"
+}, {
+"level": 16.0,
+"move": "REVENGE"
+}, {
+"level": 16.0,
+"move": "LOWKICK"
+}, {
+"level": 20.0,
+"move": "VENOSHOCK"
+}, {
+"level": 24.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 28.0,
+"move": "SWAGGER"
+}, {
+"level": 32.0,
+"move": "POISONJAB"
+}, {
+"level": 36.0,
+"move": "TOXIC"
+}, {
+"level": 40.0,
+"move": "NASTYPLOT"
+}, {
+"level": 44.0,
+"move": "SLUDGEBOMB"
+}, {
+"level": 48.0,
+"move": "BELCH"
+}])
+tutor_move_tokens = PackedStringArray("ASSURANCE", "ATTRACT", "BATONPASS", "BOUNCE", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "COACHING", "CONFIDE", "DARKPULSE", "DIG", "DOUBLETEAM", "DRAINPUNCH", "DUALCHOP", "EARTHQUAKE", "EMBARGO", "ENCORE", "ENDURE", "FACADE", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FOULPLAY", "FRUSTRATION", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "LASHOUT", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "REVENGE", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLEPLAY", "ROUND", "SCREECH", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNATCH", "SNORE", "SPITE", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SUPERFANG", "SWAGGER", "TAUNT", "THIEF", "THUNDERPUNCH", "TORMENT", "TOXIC", "VACUUMWAVE", "VENOMDRENCH", "VENOSHOCK", "WORKUP", "XSCISSOR", "TAKEDOWN", "SCARYFACE", "ACIDSPRAY", "CHILLINGWATER", "AERIALACE", "MUDSHOT", "SHADOWCLAW", "REVERSAL", "UPPERHAND")
+egg_move_tokens = PackedStringArray("ACUPRESSURE", "BULLETPUNCH", "COUNTER", "CROSSCHOP", "DYNAMICPUNCH", "FAKEOUT", "FEINT", "HEADBUTT", "QUICKGUARD", "VACUUMWAVE")
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 2560
+height_m = 0.7
+weight_kg = 23.0
+color = "Blue"
+shape = "Bipedal"
+category = "Boca Tóxica"
+pokedex = "Pilla desprevenidos a sus rivales para pincharles. Tiene bolsas venenosas en las mejillas. Cuando las infla emite un sonido para intimidar."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "TOXICROAK",
+"method": "Level",
+"param": "37"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "BLACKSLUDGE"
+offspring = PackedStringArray()

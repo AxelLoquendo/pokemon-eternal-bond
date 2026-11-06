@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qlurktpc7sun"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_uammw"]
+
+[resource]
+script = ExtResource("1_uammw")
+id = 413
+name = "Wormadam"
+types = Array[int]([7, 12])
+base_hp = 60
+base_atk = 59
+base_def = 85
+base_spe = 36
+base_spa = 79
+base_spd = 105
+base_exp = 148
+gender_ratio = "AlwaysFemale"
+abilities = Array[int]([107])
+hidden_abilities = Array[int]([142])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "QUIVERDANCE"
+}, {
+"level": 1.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 10.0,
+"move": "PROTECT"
+}, {
+"level": 15.0,
+"move": "BUGBITE"
+}, {
+"level": 20.0,
+"move": "STRINGSHOT"
+}, {
+"level": 23.0,
+"move": "CONFUSION"
+}, {
+"level": 26.0,
+"move": "RAZORLEAF"
+}, {
+"level": 29.0,
+"move": "GROWTH"
+}, {
+"level": 32.0,
+"move": "PSYBEAM"
+}, {
+"level": 35.0,
+"move": "INFESTATION"
+}, {
+"level": 38.0,
+"move": "FLAIL"
+}, {
+"level": 41.0,
+"move": "ATTRACT"
+}, {
+"level": 44.0,
+"move": "PSYCHIC"
+}, {
+"level": 47.0,
+"move": "LEAFSTORM"
+}, {
+"level": 50.0,
+"move": "BUGBUZZ"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BUGBITE", "BUGBUZZ", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DIG", "DOUBLETEAM", "DREAMEATER", "ELECTROWEB", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "MIMIC", "NATURALGIFT", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "TELEKINESIS", "THIEF", "UPROAR", "VENOSHOCK", "WORRYSEED")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.5
+weight_kg = 6.5
+color = "Green"
+shape = "HeadBase"
+category = "Larva"
+pokedex = "Cuando Burmy evolucionó, su caparazón pasó a formar parte de este Pokémon. Los materiales que encuentra pasan a formar parte de su cuerpo."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 2.0,
+"spe": 0.0
+}
+flags = PackedStringArray("InheritFormFromMother")
+wild_item_uncommon = "SILVERPOWDER"
+offspring = PackedStringArray()
+form_name = "Forma Tronco Planta"

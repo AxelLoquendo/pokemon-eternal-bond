@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://udd4al1x6ouj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_oug7s"]
+
+[resource]
+script = ExtResource("1_oug7s")
+id = 659
+name = "Bunnelby"
+types = Array[int]([1])
+base_hp = 38
+base_atk = 36
+base_def = 38
+base_spe = 57
+base_spa = 32
+base_spd = 36
+catch_rate = 255
+base_exp = 47
+abilities = Array[int]([53, 167])
+hidden_abilities = Array[int]([37])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 3.0,
+"move": "TACKLE"
+}, {
+"level": 6.0,
+"move": "LASERFOCUS"
+}, {
+"level": 9.0,
+"move": "QUICKATTACK"
+}, {
+"level": 12.0,
+"move": "MUDSHOT"
+}, {
+"level": 15.0,
+"move": "FLAIL"
+}, {
+"level": 18.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 21.0,
+"move": "BULLDOZE"
+}, {
+"level": 24.0,
+"move": "DIG"
+}, {
+"level": 27.0,
+"move": "BOUNCE"
+}, {
+"level": 30.0,
+"move": "TAKEDOWN"
+}, {
+"level": 33.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 36.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 39.0,
+"move": "SUPERFANG"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "BOUNCE", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CUT", "DIG", "DOUBLETEAM", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FLING", "FRUSTRATION", "GRASSKNOT", "HIDDENPOWER", "IRONHEAD", "IRONTAIL", "LASTRESORT", "MIMIC", "MUDSHOT", "NATURALGIFT", "NATUREPOWER", "PAYBACK", "POWERUPPUNCH", "PROTECT", "RECYCLE", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SECRETPOWER", "SLEEPTALK", "SLUDGEBOMB", "SMACKDOWN", "SNORE", "SPIKES", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUPERFANG", "SURF", "SWAGGER", "SWORDSDANCE", "THIEF", "TORMENT", "TOXIC", "UTURN", "WILDCHARGE", "WORKUP")
+egg_move_tokens = PackedStringArray("DEFENSECURL", "ROLLOUT")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.4
+weight_kg = 5.0
+color = "Brown"
+shape = "BipedalTail"
+category = "Excavador"
+pokedex = "Usa sus grandes orejas para excavar en la tierra y así crear madrigueras. Puede pasarse una noche entera cavando sin parar."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "DIGGERSBY",
+"method": "Level",
+"param": "20"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

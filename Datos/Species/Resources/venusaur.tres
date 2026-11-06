@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dlypd7j6ditui"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_w7fmi"]
+
+[resource]
+script = ExtResource("1_w7fmi")
+id = 3
+name = "Venusaur"
+types = Array[int]([12, 4])
+base_hp = 80
+base_atk = 82
+base_def = 83
+base_spe = 80
+base_spa = 100
+base_spd = 100
+base_exp = 263
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([34])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "PETALBLIZZARD"
+}, {
+"level": 1.0,
+"move": "PETALDANCE"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "VINEWHIP"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 9.0,
+"move": "LEECHSEED"
+}, {
+"level": 12.0,
+"move": "RAZORLEAF"
+}, {
+"level": 15.0,
+"move": "POISONPOWDER"
+}, {
+"level": 15.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 20.0,
+"move": "SEEDBOMB"
+}, {
+"level": 25.0,
+"move": "TAKEDOWN"
+}, {
+"level": 30.0,
+"move": "SWEETSCENT"
+}, {
+"level": 37.0,
+"move": "SYNTHESIS"
+}, {
+"level": 44.0,
+"move": "WORRYSEED"
+}, {
+"level": 51.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 51.0,
+"move": "POWERWHIP"
+}, {
+"level": 58.0,
+"move": "SOLARBEAM"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ATTRACT", "BIND", "BLOCK", "BODYSLAM", "BULLDOZE", "BULLETSEED", "CAPTIVATE", "CHARM", "CONFIDE", "CUT", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ECHOEDVOICE", "ENDURE", "ENERGYBALL", "FACADE", "FALSESWIPE", "FLASH", "FRENZYPLANT", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSPLEDGE", "GRASSYGLIDE", "GRASSYTERRAIN", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "KNOCKOFF", "LEAFSTORM", "LIGHTSCREEN", "MAGICALLEAF", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "OUTRAGE", "POWERWHIP", "PROTECT", "REST", "RETURN", "ROAR", "ROCKCLIMB", "ROCKSMASH", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "STOMPINGTANTRUM", "STRENGTH", "STRINGSHOT", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "TERRAINPULSE", "TOXIC", "VENOSHOCK", "WEATHERBALL", "WORKUP", "WORRYSEED", "TAKEDOWN", "SCARYFACE", "ACIDSPRAY", "TRAILBLAZE", "POISONJAB", "PETALBLIZZARD", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Monster", "Grass")
+hatch_steps = 5120
+height_m = 2.0
+weight_kg = 100.0
+color = "Green"
+shape = "Quadruped"
+category = "Semilla"
+habitat = "Grassland"
+pokedex = "Según parece, la flor de Venusaur adquiere unos colores muy vivos con una buena nutrición y mucho sol. El aroma delicado de esta flor calma los ánimos."
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

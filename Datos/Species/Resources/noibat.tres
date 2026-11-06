@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://br3stn5mpafw7"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_2vvij"]
+
+[resource]
+script = ExtResource("1_2vvij")
+id = 714
+name = "Noibat"
+types = Array[int]([3, 16])
+base_hp = 40
+base_atk = 30
+base_def = 35
+base_spe = 55
+base_spa = 45
+base_spd = 40
+catch_rate = 190
+base_exp = 49
+abilities = Array[int]([119, 151])
+hidden_abilities = Array[int]([140])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 4.0,
+"move": "GUST"
+}, {
+"level": 8.0,
+"move": "SUPERSONIC"
+}, {
+"level": 12.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 16.0,
+"move": "WINGATTACK"
+}, {
+"level": 20.0,
+"move": "BITE"
+}, {
+"level": 24.0,
+"move": "AIRCUTTER"
+}, {
+"level": 28.0,
+"move": "WHIRLWIND"
+}, {
+"level": 32.0,
+"move": "SUPERFANG"
+}, {
+"level": 36.0,
+"move": "AIRSLASH"
+}, {
+"level": 40.0,
+"move": "SCREECH"
+}, {
+"level": 44.0,
+"move": "ROOST"
+}, {
+"level": 49.0,
+"move": "TAILWIND"
+}, {
+"level": 52.0,
+"move": "HURRICANE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "AIRSLASH", "ATTRACT", "BRICKBREAK", "CAPTIVATE", "CONFIDE", "CUT", "DARKPULSE", "DEFOG", "DOUBLETEAM", "DRACOMETEOR", "DRAGONPULSE", "DREAMEATER", "DUALWINGBEAT", "ECHOEDVOICE", "ENDURE", "FACADE", "FLY", "FRUSTRATION", "HEATWAVE", "HIDDENPOWER", "HURRICANE", "HYPERVOICE", "IRONTAIL", "LEECHLIFE", "MIMIC", "NATURALGIFT", "OUTRAGE", "PROTECT", "PSYCHIC", "REST", "RETURN", "ROOST", "ROUND", "SCREECH", "SECRETPOWER", "SHADOWBALL", "SHADOWCLAW", "SKYATTACK", "SLEEPTALK", "SNATCH", "SNORE", "SOLARBEAM", "STEELWING", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SWAGGER", "SWIFT", "TAILWIND", "TAUNT", "THIEF", "TORMENT", "TOXIC", "UPROAR", "UTURN", "WATERPULSE", "WILDCHARGE", "XSCISSOR", "TAKEDOWN", "AIRCUTTER", "DRAGONCLAW")
+egg_move_tokens = PackedStringArray("DEFOG", "DRAGONRUSH")
+egg_groups = PackedStringArray("Flying", "Dragon")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 8.0
+color = "Purple"
+shape = "Winged"
+category = "Onda Sónica"
+pokedex = "Habita en cuevas donde reina la más absoluta oscuridad y emite ondas ultrasónicas de 200 000 Hz a través de sus enormes orejas."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "NOIVERN",
+"method": "Level",
+"param": "48"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

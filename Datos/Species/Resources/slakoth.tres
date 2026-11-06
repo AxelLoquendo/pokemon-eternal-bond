@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ol4t5ufq38jn"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ffi7x"]
+
+[resource]
+script = ExtResource("1_ffi7x")
+id = 287
+name = "Slakoth"
+types = Array[int]([1])
+base_hp = 60
+base_atk = 60
+base_def = 60
+base_spe = 30
+base_spa = 35
+base_spd = 35
+catch_rate = 255
+base_exp = 56
+growth_rate = "Slow"
+abilities = Array[int]([54])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "YAWN"
+}, {
+"level": 6.0,
+"move": "ENCORE"
+}, {
+"level": 9.0,
+"move": "SLACKOFF"
+}, {
+"level": 14.0,
+"move": "REST"
+}, {
+"level": 14.0,
+"move": "HEADBUTT"
+}, {
+"level": 17.0,
+"move": "AMNESIA"
+}, {
+"level": 22.0,
+"move": "COVET"
+}, {
+"level": 25.0,
+"move": "THROATCHOP"
+}, {
+"level": 30.0,
+"move": "COUNTER"
+}, {
+"level": 33.0,
+"move": "FLAIL"
+}, {
+"level": 38.0,
+"move": "PLAYROUGH"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AFTERYOU", "ATTRACT", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BULKUP", "CAPTIVATE", "CONFIDE", "COUNTER", "COVET", "CUT", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLING", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "ICEBEAM", "ICEPUNCH", "ICYWIND", "INCINERATE", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "WATERPULSE", "WORKUP", "TAKEDOWN", "THIEF", "CHILLINGWATER", "METALCLAW", "MUDSHOT", "FALSESWIPE", "ZENHEADBUTT", "SEEDBOMB", "METRONOME", "POISONJAB", "XSCISSOR", "ENCORE", "PLAYROUGH", "AMNESIA", "HELPINGHAND", "THROATCHOP", "CURSE")
+egg_move_tokens = PackedStringArray("AFTERYOU", "BODYSLAM", "CRUSHCLAW", "CURSE", "HAMMERARM", "NIGHTSLASH", "SLASH", "SNORE", "TICKLE")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.8
+weight_kg = 24.0
+color = "Brown"
+shape = "Quadruped"
+category = "Gandul"
+habitat = "Forest"
+pokedex = "Duerme prácticamente día y noche. Nunca cambia de madriguera, aunque a veces suele recorrer grandes distancias nadando en las aguas de los ríos."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "VIGOROTH",
+"method": "Level",
+"param": "18"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

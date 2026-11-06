@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bqvg4wmrfs3ci"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_xwg3x"]
+
+[resource]
+script = ExtResource("1_xwg3x")
+id = 152
+name = "Chikorita"
+types = Array[int]([12])
+base_hp = 45
+base_atk = 49
+base_def = 65
+base_spe = 45
+base_spa = 49
+base_spd = 65
+base_exp = 64
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([102])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 6.0,
+"move": "RAZORLEAF"
+}, {
+"level": 9.0,
+"move": "POISONPOWDER"
+}, {
+"level": 12.0,
+"move": "SYNTHESIS"
+}, {
+"level": 17.0,
+"move": "REFLECT"
+}, {
+"level": 20.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 23.0,
+"move": "NATUREPOWER"
+}, {
+"level": 23.0,
+"move": "LEECHSEED"
+}, {
+"level": 28.0,
+"move": "SWEETSCENT"
+}, {
+"level": 31.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 34.0,
+"move": "BODYSLAM"
+}, {
+"level": 39.0,
+"move": "SAFEGUARD"
+}, {
+"level": 42.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 42.0,
+"move": "GIGADRAIN"
+}, {
+"level": 45.0,
+"move": "SOLARBEAM"
+}])
+tutor_move_tokens = PackedStringArray("ANCIENTPOWER", "ATTRACT", "BODYSLAM", "BULLETSEED", "CAPTIVATE", "CONFIDE", "COUNTER", "CUT", "DOUBLEEDGE", "DOUBLETEAM", "ECHOEDVOICE", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "GRASSKNOT", "GRASSPLEDGE", "HEADBUTT", "HIDDENPOWER", "IRONTAIL", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "PROTECT", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "WORKUP", "WORRYSEED", "TAKEDOWN", "CHARM", "FAKETEARS", "TRAILBLAZE", "MAGICALLEAF", "ENCORE", "HELPINGHAND", "GRASSYTERRAIN", "LEAFSTORM", "SOLARBLADE", "GRASSYGLIDE", "CURSE")
+egg_move_tokens = PackedStringArray("ANCIENTPOWER", "AROMATHERAPY", "BODYSLAM", "COUNTER", "FLAIL", "GRASSYTERRAIN", "HEALPULSE", "INGRAIN", "LEAFSTORM", "LEECHSEED", "NATUREPOWER", "VINEWHIP")
+egg_groups = PackedStringArray("Monster", "Grass")
+hatch_steps = 5120
+height_m = 0.9
+weight_kg = 6.4
+color = "Green"
+shape = "Quadruped"
+category = "Hoja"
+habitat = "Grassland"
+pokedex = "Al luchar, agita la hoja de la cabeza para impresionar al rival, pero también libera una suave fragancia que apacigua los ánimos y crea un ambiente amistoso."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "BAYLEEF",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

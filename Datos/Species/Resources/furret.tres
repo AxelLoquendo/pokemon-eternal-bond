@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://beelanjlr73y3"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_1cgb3"]
+
+[resource]
+script = ExtResource("1_1cgb3")
+id = 162
+name = "Furret"
+types = Array[int]([1])
+base_hp = 85
+base_atk = 76
+base_def = 64
+base_spe = 90
+base_spa = 45
+base_spd = 55
+catch_rate = 90
+base_exp = 145
+abilities = Array[int]([50, 51])
+hidden_abilities = Array[int]([119])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "AGILITY"
+}, {
+"level": 1.0,
+"move": "COIL"
+}, {
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 13.0,
+"move": "FURYSWIPES"
+}, {
+"level": 17.0,
+"move": "HELPINGHAND"
+}, {
+"level": 21.0,
+"move": "FOLLOWME"
+}, {
+"level": 28.0,
+"move": "SLAM"
+}, {
+"level": 32.0,
+"move": "REST"
+}, {
+"level": 36.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 42.0,
+"move": "AMNESIA"
+}, {
+"level": 46.0,
+"move": "BATONPASS"
+}, {
+"level": 50.0,
+"move": "REVERSAL"
+}, {
+"level": 56.0,
+"move": "HYPERVOICE"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BRUTALSWING", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COVET", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "ECHOEDVOICE", "ENDURE", "FACADE", "FIREPUNCH", "FLAMETHROWER", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "GRASSKNOT", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKSMASH", "ROLLOUT", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SUPERFANG", "SURF", "SWAGGER", "SWIFT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "TRICK", "UPROAR", "UTURN", "WATERPULSE", "WHIRLPOOL", "WORKUP", "TAKEDOWN", "CHARM", "AGILITY", "TRAILBLAZE", "CHILLINGWATER", "ZENHEADBUTT", "SEEDBOMB", "PLAYROUGH", "AMNESIA", "BATONPASS", "REVERSAL", "ENDEAVOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 1.8
+weight_kg = 32.5
+color = "Brown"
+shape = "Quadruped"
+category = "Alargado"
+habitat = "Grassland"
+pokedex = "Es de constitución delgada, lo que le sirve para escabullirse con gran habilidad por cualquier hueco y escapar. Aunque tiene patas cortas, es ágil y veloz."
+generation = 2
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

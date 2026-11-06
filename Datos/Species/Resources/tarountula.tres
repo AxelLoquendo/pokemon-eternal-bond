@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://deaw2xppbhwak"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6pyxb"]
+
+[resource]
+script = ExtResource("1_6pyxb")
+id = 917
+name = "Tarountula"
+types = Array[int]([7])
+base_hp = 35
+base_atk = 41
+base_def = 45
+base_spe = 20
+base_spa = 29
+base_spd = 40
+catch_rate = 255
+base_exp = 42
+growth_rate = "Erratic"
+abilities = Array[int]([15])
+hidden_abilities = Array[int]([198])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "STRINGSHOT"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 8.0,
+"move": "ASSURANCE"
+}, {
+"level": 11.0,
+"move": "FEINT"
+}, {
+"level": 14.0,
+"move": "BUGBITE"
+}, {
+"level": 18.0,
+"move": "BLOCK"
+}, {
+"level": 22.0,
+"move": "COUNTER"
+}, {
+"level": 25.0,
+"move": "HEADBUTT"
+}, {
+"level": 29.0,
+"move": "STICKYWEB"
+}, {
+"level": 33.0,
+"move": "GASTROACID"
+}, {
+"level": 36.0,
+"move": "CIRCLETHROW"
+}, {
+"level": 40.0,
+"move": "THROATCHOP"
+}, {
+"level": 44.0,
+"move": "SKITTERSMACK"
+}])
+tutor_move_tokens = PackedStringArray("BODYSLAM", "BUGBITE", "BUGBUZZ", "BULLETSEED", "ENDURE", "FACADE", "FALSESWIPE", "GIGADRAIN", "GRASSKNOT", "KNOCKOFF", "LEECHLIFE", "LUNGE", "POISONJAB", "POUNCE", "PROTECT", "RAINDANCE", "REST", "SHADOWCLAW", "SKITTERSMACK", "SLEEPTALK", "SPIKES", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "THIEF", "THROATCHOP", "TOXICSPIKES", "TRAILBLAZE", "XSCISSOR")
+egg_move_tokens = PackedStringArray("FIRSTIMPRESSION", "LUNGE", "MEMENTO", "SUCKERPUNCH")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.3
+weight_kg = 4.0
+color = "White"
+shape = "Insectoid"
+category = "Ovillo"
+habitat = "Forest"
+pokedex = "La bola de hilo que le rodea el cuerpo es lo bastante elástica como para repeler las guadañas de los Scyther, su enemigo natural."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "SPIDOPS",
+"method": "Level",
+"param": "15"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

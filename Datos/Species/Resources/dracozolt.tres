@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bn0p405ef6810"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_yetft"]
+
+[resource]
+script = ExtResource("1_yetft")
+id = 880
+name = "Dracozolt"
+types = Array[int]([13, 16])
+base_hp = 90
+base_atk = 100
+base_def = 90
+base_spe = 75
+base_spa = 80
+base_spd = 70
+base_exp = 177
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([10, 55])
+hidden_abilities = Array[int]([146])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 7.0,
+"move": "CHARGE"
+}, {
+"level": 14.0,
+"move": "AERIALACE"
+}, {
+"level": 21.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 28.0,
+"move": "PLUCK"
+}, {
+"level": 35.0,
+"move": "DRAGONTAIL"
+}, {
+"level": 42.0,
+"move": "STOMP"
+}, {
+"level": 49.0,
+"move": "SLAM"
+}, {
+"level": 56.0,
+"move": "DISCHARGE"
+}, {
+"level": 63.0,
+"move": "BOLTBEAK"
+}, {
+"level": 70.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 77.0,
+"move": "DRAGONRUSH"
+}])
+tutor_move_tokens = PackedStringArray("BODYSLAM", "BREAKINGSWIPE", "BRUTALSWING", "BULLDOZE", "CONFIDE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONPULSE", "EARTHPOWER", "EARTHQUAKE", "ELECTROBALL", "ENDURE", "FACADE", "FIREBLAST", "FIREFANG", "FIRESPIN", "FLAMETHROWER", "FRUSTRATION", "GIGAIMPACT", "HIDDENPOWER", "HIGHHORSEPOWER", "HYPERBEAM", "IRONTAIL", "LOWKICK", "MEGAKICK", "MEGAPUNCH", "METEORBEAM", "MIMIC", "NATURALGIFT", "OUTRAGE", "PROTECT", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "THUNDER", "THUNDERBOLT", "THUNDERFANG", "THUNDERPUNCH", "THUNDERWAVE", "TOXIC", "WILDCHARGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 8960
+height_m = 1.8
+weight_kg = 190.0
+color = "Green"
+shape = "BipedalTail"
+category = "Fósil"
+pokedex = "La robustez de su tren inferior lo hacía invencible en la antigüedad, pero se extinguió tras comerse todas las plantas de las que se nutría."
+generation = 8
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

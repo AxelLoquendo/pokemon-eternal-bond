@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dw3cig55oojen"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hvu4m"]
+
+[resource]
+script = ExtResource("1_hvu4m")
+id = 841
+name = "Flapple"
+types = Array[int]([12, 16])
+base_hp = 70
+base_atk = 110
+base_def = 80
+base_spe = 70
+base_spa = 95
+base_spd = 60
+base_exp = 170
+growth_rate = "Erratic"
+abilities = Array[int]([247, 82])
+hidden_abilities = Array[int]([55])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "WINGATTACK"
+}, {
+"level": 1.0,
+"move": "RECYCLE"
+}, {
+"level": 1.0,
+"move": "WITHDRAW"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 1.0,
+"move": "TWISTER"
+}, {
+"level": 4.0,
+"move": "ACIDSPRAY"
+}, {
+"level": 8.0,
+"move": "ACROBATICS"
+}, {
+"level": 12.0,
+"move": "LEECHSEED"
+}, {
+"level": 16.0,
+"move": "PROTECT"
+}, {
+"level": 20.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 24.0,
+"move": "DRAGONDANCE"
+}, {
+"level": 28.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 32.0,
+"move": "GRAVAPPLE"
+}, {
+"level": 36.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 40.0,
+"move": "FLY"
+}, {
+"level": 44.0,
+"move": "DRAGONRUSH"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AIRSLASH", "ATTRACT", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONDANCE", "DRAGONPULSE", "DUALWINGBEAT", "ENDURE", "ENERGYBALL", "FACADE", "FLY", "FOCUSENERGY", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "HEAVYSLAM", "HIDDENPOWER", "HYPERBEAM", "IRONDEFENSE", "MIMIC", "NATURALGIFT", "OUTRAGE", "PROTECT", "REST", "RETURN", "ROUND", "SCARYFACE", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TOXIC", "UTURN", "TAKEDOWN", "ACIDSPRAY", "TRAILBLAZE", "POUNCE", "AERIALACE", "MAGICALLEAF", "GRASSYTERRAIN", "LEAFSTORM", "ENDEAVOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass", "Dragon")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 1.0
+color = "Green"
+shape = "Winged"
+category = "Manzanala"
+pokedex = "Ha evolucionado tras ingerir una manzana ácida. Las bolsas de las mejillas albergan un fluido cuya extrema acidez llega a provocar quemaduras."
+generation = 8
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

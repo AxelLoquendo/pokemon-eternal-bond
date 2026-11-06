@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ouheo3xpn568"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_p261v"]
+
+[resource]
+script = ExtResource("1_p261v")
+id = 62
+name = "Poliwrath"
+types = Array[int]([11, 2])
+base_hp = 90
+base_atk = 95
+base_def = 95
+base_spe = 70
+base_spa = 70
+base_spd = 90
+base_exp = 255
+growth_rate = "Parabolic"
+abilities = Array[int]([11, 6])
+hidden_abilities = Array[int]([33])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "CIRCLETHROW"
+}, {
+"level": -1.0,
+"move": "DYNAMICPUNCH"
+}, {
+"level": -1.0,
+"move": "RAINDANCE"
+}, {
+"level": -1.0,
+"move": "EARTHPOWER"
+}, {
+"level": -1.0,
+"move": "HYDROPUMP"
+}, {
+"level": -1.0,
+"move": "BELLYDRUM"
+}, {
+"level": -1.0,
+"move": "WATERGUN"
+}, {
+"level": -1.0,
+"move": "POUND"
+}, {
+"level": -1.0,
+"move": "MUDSHOT"
+}, {
+"level": 0.0,
+"move": "SUBMISSION"
+}, {
+"level": 1.0,
+"move": "MINDREADER"
+}, {
+"level": 1.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 1.0,
+"move": "BODYSLAM"
+}, {
+"level": 1.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 1.0,
+"move": "HYPNOSIS"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "CLOSECOMBAT", "COACHING", "CONFIDE", "COUNTER", "DARKESTLARIAT", "DEFENSECURL", "DIG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DUALCHOP", "DYNAMICPUNCH", "EARTHPOWER", "EARTHQUAKE", "ENCORE", "ENDEAVOR", "ENDURE", "FACADE", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HIGHHORSEPOWER", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICEPUNCH", "ICYWIND", "LIQUIDATION", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDDYWATER", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "RAINDANCE", "REST", "RETURN", "REVERSAL", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCALD", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SURF", "SWAGGER", "THIEF", "THROATCHOP", "VACUUMWAVE", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "WORKUP", "TAKEDOWN", "SCARYFACE", "LOWKICK", "CHILLINGWATER", "SWIFT", "TAUNT", "AMNESIA", "BATONPASS", "HAZE", "KNOCKOFF", "WEATHERBALL", "PSYCHUP", "UPPERHAND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1")
+hatch_steps = 5120
+height_m = 1.3
+weight_kg = 54.0
+color = "Blue"
+shape = "Bipedal"
+category = "Renacuajo"
+habitat = "WatersEdge"
+pokedex = "Tiene músculos fornidos y desarrollados, que nunca se cansan por más que los use. Cruzar el océano Pacífico un par de veces no le supone ningún esfuerzo."
+yield_evs = {
+"atk": 0.0,
+"def": 3.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "KINGSROCK"
+offspring = PackedStringArray()

@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c7gxlegh7ddol"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_8raw6"]
+
+[resource]
+script = ExtResource("1_8raw6")
+id = 324
+name = "Torkoal"
+types = Array[int]([10])
+base_hp = 70
+base_atk = 85
+base_def = 140
+base_spe = 20
+base_spa = 85
+base_spd = 70
+catch_rate = 90
+base_exp = 165
+abilities = Array[int]([73, 70])
+hidden_abilities = Array[int]([75])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SMOG"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 4.0,
+"move": "WITHDRAW"
+}, {
+"level": 8.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 12.0,
+"move": "SMOKESCREEN"
+}, {
+"level": 16.0,
+"move": "CLEARSMOG"
+}, {
+"level": 20.0,
+"move": "FLAMEWHEEL"
+}, {
+"level": 24.0,
+"move": "PROTECT"
+}, {
+"level": 28.0,
+"move": "LAVAPLUME"
+}, {
+"level": 32.0,
+"move": "BODYSLAM"
+}, {
+"level": 36.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 40.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 44.0,
+"move": "CURSE"
+}, {
+"level": 48.0,
+"move": "HEATWAVE"
+}, {
+"level": 52.0,
+"move": "AMNESIA"
+}, {
+"level": 56.0,
+"move": "INFERNO"
+}, {
+"level": 60.0,
+"move": "SHELLSMASH"
+}, {
+"level": 64.0,
+"move": "ERUPTION"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "AMNESIA", "ATTRACT", "BODYPRESS", "BODYSLAM", "BULLDOZE", "BURNINGJEALOUSY", "CAPTIVATE", "CONFIDE", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FIREBLAST", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FRUSTRATION", "GIGAIMPACT", "GYROBALL", "HEADBUTT", "HEATCRASH", "HEATWAVE", "HIDDENPOWER", "HYPERBEAM", "INCINERATE", "IRONDEFENSE", "IRONTAIL", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "OVERHEAT", "PROTECT", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SCORCHINGSANDS", "SECRETPOWER", "SELFDESTRUCT", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "WEATHERBALL", "WILLOWISP", "TAKEDOWN", "SANDSTORM", "ZENHEADBUTT", "HEAVYSLAM", "HELPINGHAND", "FLAREBLITZ", "TEMPERFLARE", "CURSE")
+egg_move_tokens = PackedStringArray("ANCIENTPOWER", "CLEARSMOG", "ERUPTION", "FISSURE", "FLAIL", "SKULLBASH", "SUPERPOWER", "YAWN")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 80.4
+color = "Brown"
+shape = "Quadruped"
+category = "Carbón"
+habitat = "Mountain"
+pokedex = "Lucha usando la energía que obtiene quemando carbón. Cuando suelta humo por los orificios nasales, emite un sonido que recuerda a la chimenea de una locomotora."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "CHARCOAL"
+offspring = PackedStringArray()

@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dlg4lkygdk72n"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_jc1mh"]
+
+[resource]
+script = ExtResource("1_jc1mh")
+id = 179
+name = "Mareep"
+types = Array[int]([13])
+base_hp = 55
+base_atk = 40
+base_def = 40
+base_spe = 35
+base_spa = 65
+base_spd = 45
+catch_rate = 235
+base_exp = 56
+growth_rate = "Parabolic"
+abilities = Array[int]([9])
+hidden_abilities = Array[int]([57])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 4.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 8.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 11.0,
+"move": "COTTONSPORE"
+}, {
+"level": 15.0,
+"move": "CHARGE"
+}, {
+"level": 18.0,
+"move": "TAKEDOWN"
+}, {
+"level": 22.0,
+"move": "ELECTROBALL"
+}, {
+"level": 25.0,
+"move": "CONFUSERAY"
+}, {
+"level": 29.0,
+"move": "POWERGEM"
+}, {
+"level": 32.0,
+"move": "DISCHARGE"
+}, {
+"level": 36.0,
+"move": "COTTONGUARD"
+}, {
+"level": 39.0,
+"move": "CHARGEBEAM"
+}, {
+"level": 39.0,
+"move": "DAZZLINGGLEAM"
+}, {
+"level": 43.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 46.0,
+"move": "THUNDER"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BODYSLAM", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "ECHOEDVOICE", "ELECTROWEB", "ENDURE", "FACADE", "FLASH", "FRUSTRATION", "HEADBUTT", "HEALBELL", "HIDDENPOWER", "IRONTAIL", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "NATURALGIFT", "PROTECT", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "SWIFT", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "WILDCHARGE", "TAKEDOWN", "AGILITY", "CONFUSERAY", "TRAILBLAZE", "VOLTSWITCH", "SUNNYDAY", "DIG", "ELECTROBALL", "DAZZLINGGLEAM", "EERIEIMPULSE", "POWERGEM", "HELPINGHAND", "ELECTRICTERRAIN", "CHARGE", "ENDEAVOR")
+egg_move_tokens = PackedStringArray("AFTERYOU", "AGILITY", "BODYSLAM", "CHARGE", "EERIEIMPULSE", "ELECTRICTERRAIN", "FLATTER", "SANDATTACK", "SCREECH", "TAKEDOWN")
+egg_groups = PackedStringArray("Monster", "Field")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 7.8
+color = "White"
+shape = "Quadruped"
+category = "Lana"
+habitat = "Grassland"
+pokedex = "Tiene un pelaje lanudo y suave que produce carga estática por el roce. Cuanto más se carga de electricidad estática, más brilla la cola."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "FLAAFFY",
+"method": "Level",
+"param": "15"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

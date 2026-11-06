@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bvhuljmhmal8c"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_lgk7l"]
+
+[resource]
+script = ExtResource("1_lgk7l")
+id = 362
+name = "Glalie"
+types = Array[int]([15])
+base_hp = 80
+base_atk = 80
+base_def = 80
+base_spe = 80
+base_spa = 80
+base_spd = 80
+catch_rate = 75
+base_exp = 168
+abilities = Array[int]([39, 115])
+hidden_abilities = Array[int]([141])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "FREEZEDRY"
+}, {
+"level": 1.0,
+"move": "SHEERCOLD"
+}, {
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 1.0,
+"move": "HEADBUTT"
+}, {
+"level": 15.0,
+"move": "ICESHARD"
+}, {
+"level": 20.0,
+"move": "PROTECT"
+}, {
+"level": 25.0,
+"move": "ICYWIND"
+}, {
+"level": 30.0,
+"move": "FROSTBREATH"
+}, {
+"level": 35.0,
+"move": "BITE"
+}, {
+"level": 40.0,
+"move": "ICEFANG"
+}, {
+"level": 47.0,
+"move": "HAIL"
+}, {
+"level": 47.0,
+"move": "SNOWSCAPE"
+}, {
+"level": 54.0,
+"move": "WEATHERBALL"
+}, {
+"level": 61.0,
+"move": "CRUNCH"
+}, {
+"level": 68.0,
+"move": "BLIZZARD"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "AVALANCHE", "BLIZZARD", "BLOCK", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "DARKPULSE", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FAKETEARS", "FLASH", "FROSTBREATH", "FRUSTRATION", "GIGAIMPACT", "GYROBALL", "HAIL", "HEADBUTT", "HEX", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICEFANG", "ICICLESPEAR", "ICYWIND", "IRONHEAD", "LASERFOCUS", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "PAYBACK", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROLLOUT", "ROUND", "SAFEGUARD", "SCARYFACE", "SECRETPOWER", "SELFDESTRUCT", "SHADOWBALL", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SPIKES", "SPITE", "STEELROLLER", "SUBSTITUTE", "SUPERFANG", "SWAGGER", "TAUNT", "TORMENT", "WATERPULSE", "WEATHERBALL", "TAKEDOWN", "TRAILBLAZE", "CHILLINGWATER", "SNOWSCAPE", "FOULPLAY", "ICESPINNER", "HELPINGHAND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Fairy", "Mineral")
+hatch_steps = 5120
+height_m = 1.5
+weight_kg = 256.5
+color = "Gray"
+shape = "Head"
+category = "Cara"
+habitat = "Cave"
+pokedex = "Un Glalie tiene el poder de congelar al instante la humedad de la atmósfera: así forma una nube de cristales de hielo con forma de diamantes a su alrededor."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

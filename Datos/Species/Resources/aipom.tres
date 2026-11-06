@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://doclbjswue81n"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_3kldk"]
+
+[resource]
+script = ExtResource("1_3kldk")
+id = 190
+name = "Aipom"
+types = Array[int]([1])
+base_hp = 55
+base_atk = 70
+base_def = 55
+base_spe = 85
+base_spa = 40
+base_spd = 55
+base_exp = 72
+growth_rate = "Fast"
+abilities = Array[int]([50, 53])
+hidden_abilities = Array[int]([92])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 4.0,
+"move": "SANDATTACK"
+}, {
+"level": 8.0,
+"move": "ASTONISH"
+}, {
+"level": 11.0,
+"move": "BATONPASS"
+}, {
+"level": 15.0,
+"move": "TICKLE"
+}, {
+"level": 18.0,
+"move": "FURYSWIPES"
+}, {
+"level": 22.0,
+"move": "SWIFT"
+}, {
+"level": 25.0,
+"move": "SCREECH"
+}, {
+"level": 29.0,
+"move": "AGILITY"
+}, {
+"level": 32.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 36.0,
+"move": "FLING"
+}, {
+"level": 39.0,
+"move": "NASTYPLOT"
+}, {
+"level": 43.0,
+"move": "LASTRESORT"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "ATTRACT", "BODYSLAM", "BOUNCE", "BRICKBREAK", "CAPTIVATE", "CONFIDE", "COUNTER", "COVET", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "DYNAMICPUNCH", "ENDURE", "FACADE", "FIREPUNCH", "FLING", "FOCUSPUNCH", "FOULPLAY", "FRUSTRATION", "FURYCUTTER", "GRASSKNOT", "GUNKSHOT", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "ICEPUNCH", "IRONTAIL", "KNOCKOFF", "LASTRESORT", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKSMASH", "ROLEPLAY", "ROUND", "SECRETPOWER", "SEEDBOMB", "SEISMICTOSS", "SHADOWBALL", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNATCH", "SNORE", "SOLARBEAM", "SPITE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAUNT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "UPROAR", "UTURN", "WATERPULSE", "WORKUP", "TAKEDOWN", "AGILITY", "TRAILBLAZE", "CHILLINGWATER", "MUDSHOT", "HELPINGHAND", "BATONPASS", "SMACKDOWN", "ENDEAVOR", "THROATCHOP", "UPPERHAND")
+egg_move_tokens = PackedStringArray("AGILITY", "BEATUP", "BOUNCE", "COUNTER", "COVET", "FAKEOUT", "QUICKGUARD", "REVENGE", "SCREECH", "SLAM", "SPITE", "SWITCHEROO")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 11.5
+color = "Purple"
+shape = "BipedalTail"
+category = "Cola Larga"
+habitat = "Forest"
+pokedex = "Su cola termina en una especie de mano a la que puede dar muy buen uso. Pero, como se ha acostumbrado a usarla mucho, las de verdad se le han vuelto algo torpes."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "AMBIPOM",
+"method": "HasMove",
+"param": "DOUBLEHIT"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

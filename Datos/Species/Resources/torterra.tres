@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c811laoffi1uv"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_vttr6"]
+
+[resource]
+script = ExtResource("1_vttr6")
+id = 389
+name = "Torterra"
+types = Array[int]([12, 5])
+base_hp = 95
+base_atk = 109
+base_def = 105
+base_spe = 56
+base_spa = 75
+base_spd = 85
+base_exp = 263
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([75])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 1.0,
+"move": "WOODHAMMER"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "WITHDRAW"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "RAZORLEAF"
+}, {
+"level": 6.0,
+"move": "LEAFAGE"
+}, {
+"level": 10.0,
+"move": "GROWTH"
+}, {
+"level": 17.0,
+"move": "CURSE"
+}, {
+"level": 22.0,
+"move": "BITE"
+}, {
+"level": 27.0,
+"move": "MEGADRAIN"
+}, {
+"level": 33.0,
+"move": "LEECHSEED"
+}, {
+"level": 39.0,
+"move": "SYNTHESIS"
+}, {
+"level": 45.0,
+"move": "CRUNCH"
+}, {
+"level": 51.0,
+"move": "GIGADRAIN"
+}, {
+"level": 57.0,
+"move": "LEAFSTORM"
+}, {
+"level": 63.0,
+"move": "HEADLONGRUSH"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLOCK", "BULLDOZE", "BULLETSEED", "CAPTIVATE", "CONFIDE", "CUT", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRENZYPLANT", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSPLEDGE", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "IRONHEAD", "IRONTAIL", "LIGHTSCREEN", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "OUTRAGE", "PROTECT", "REFLECT", "REST", "RETURN", "ROAR", "ROCKCLIMB", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SAFEGUARD", "SANDSTORM", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SOLARBEAM", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "WORKUP", "WORRYSEED", "TAKEDOWN", "SCARYFACE", "TRAILBLAZE", "MAGICALLEAF", "MUDSHOT", "ZENHEADBUTT", "BODYSLAM", "ROCKBLAST", "BODYPRESS", "IRONDEFENSE", "CRUNCH", "HYPERVOICE", "HEAVYSLAM", "AMNESIA", "GRASSYTERRAIN", "LEAFSTORM", "SANDTOMB", "SMACKDOWN", "HIGHHORSEPOWER", "GRASSYGLIDE", "DOUBLEEDGE", "SCORCHINGSANDS", "CURSE", "HARDPRESS")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Monster", "Grass")
+hatch_steps = 5120
+height_m = 2.2
+weight_kg = 310.0
+color = "Green"
+shape = "Quadruped"
+category = "Continente"
+pokedex = "Algunos Pokémon pequeños se juntan en su espalda para hacer sus nidos. Las gentes de antaño creían que el planeta se sustentaba en la espalda de uno."
+generation = 4
+yield_evs = {
+"atk": 2.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

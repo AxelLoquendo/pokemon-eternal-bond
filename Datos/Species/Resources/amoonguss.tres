@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bbmwaj53rf621"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_s40qe"]
+
+[resource]
+script = ExtResource("1_s40qe")
+id = 591
+name = "Amoonguss"
+types = Array[int]([12, 4])
+base_hp = 114
+base_atk = 85
+base_def = 70
+base_spe = 30
+base_spa = 85
+base_spd = 80
+catch_rate = 75
+base_exp = 162
+abilities = Array[int]([27])
+hidden_abilities = Array[int]([144])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 1.0,
+"move": "STUNSPORE"
+}, {
+"level": 12.0,
+"move": "MEGADRAIN"
+}, {
+"level": 16.0,
+"move": "SYNTHESIS"
+}, {
+"level": 20.0,
+"move": "CLEARSMOG"
+}, {
+"level": 24.0,
+"move": "SWEETSCENT"
+}, {
+"level": 28.0,
+"move": "GIGADRAIN"
+}, {
+"level": 32.0,
+"move": "INGRAIN"
+}, {
+"level": 36.0,
+"move": "TOXIC"
+}, {
+"level": 42.0,
+"move": "RAGEPOWDER"
+}, {
+"level": 48.0,
+"move": "SOLARBEAM"
+}, {
+"level": 54.0,
+"move": "SPORE"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BODYSLAM", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FOULPLAY", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYTERRAIN", "HEX", "HIDDENPOWER", "HYPERBEAM", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PAYBACK", "POLLENPUFF", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROUND", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "TOXIC", "VENOSHOCK", "WORRYSEED", "SCARYFACE", "MAGICALLEAF", "BULLETSEED", "LEAFSTORM")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 10.5
+color = "White"
+shape = "HeadArms"
+category = "Hongo"
+pokedex = "Aunque intenta pasar por parte superior de una Poké Ball para atraer a sus presas, consigue engañar a pocos."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "TINYMUSHROOM"
+wild_item_uncommon = "BIGMUSHROOM"
+offspring = PackedStringArray()

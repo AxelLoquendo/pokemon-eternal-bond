@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bsj2hajmqco6s"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wv4ay"]
+
+[resource]
+script = ExtResource("1_wv4ay")
+id = 92
+name = "Gastly"
+types = Array[int]([8, 4])
+base_hp = 30
+base_atk = 35
+base_def = 30
+base_spe = 80
+base_spa = 100
+base_spd = 35
+catch_rate = 190
+base_exp = 62
+growth_rate = "Parabolic"
+abilities = Array[int]([26])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "LICK"
+}, {
+"level": 1.0,
+"move": "CONFUSERAY"
+}, {
+"level": 4.0,
+"move": "HYPNOSIS"
+}, {
+"level": 8.0,
+"move": "MEANLOOK"
+}, {
+"level": 12.0,
+"move": "PAYBACK"
+}, {
+"level": 16.0,
+"move": "SPITE"
+}, {
+"level": 20.0,
+"move": "CURSE"
+}, {
+"level": 24.0,
+"move": "HEX"
+}, {
+"level": 28.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 32.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 36.0,
+"move": "DARKPULSE"
+}, {
+"level": 40.0,
+"move": "SHADOWBALL"
+}, {
+"level": 44.0,
+"move": "DESTINYBOND"
+}, {
+"level": 48.0,
+"move": "DREAMEATER"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "CAPTIVATE", "CONFIDE", "CORROSIVEGAS", "DARKPULSE", "DAZZLINGGLEAM", "DOUBLETEAM", "DREAMEATER", "EMBARGO", "ENDURE", "ENERGYBALL", "EXPLOSION", "FACADE", "FIREPUNCH", "FOULPLAY", "FRUSTRATION", "GIGADRAIN", "HEX", "HIDDENPOWER", "ICEPUNCH", "ICYWIND", "INFESTATION", "KNOCKOFF", "MIMIC", "NATURALGIFT", "OMINOUSWIND", "PAINSPLIT", "PAYBACK", "POISONJAB", "POLTERGEIST", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROUND", "SCARYFACE", "SECRETPOWER", "SELFDESTRUCT", "SHADOWBALL", "SKILLSWAP", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNATCH", "SNORE", "SPITE", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERBOLT", "THUNDERPUNCH", "TORMENT", "TOXIC", "TRICK", "TRICKROOM", "UPROAR", "VENOSHOCK", "WILLOWISP", "WONDERROOM", "ACIDSPRAY", "CONFUSERAY", "NIGHTSHADE", "IMPRISON", "GUNKSHOT", "NASTYPLOT", "THUNDER", "HAZE", "CURSE")
+egg_move_tokens = PackedStringArray("ASTONISH", "CLEARSMOG", "DISABLE", "FIREPUNCH", "GRUDGE", "HAZE", "ICEPUNCH", "PERISHSONG", "REFLECTTYPE", "SCARYFACE", "SMOG", "THUNDERPUNCH", "TOXIC")
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 1.3
+weight_kg = 0.1
+color = "Purple"
+shape = "Head"
+category = "Gas"
+habitat = "Cave"
+pokedex = "Tiene mucha materia gaseosa. Cuando es arrastrado por un vendaval mengua. Se agrupan bajo los aleros de las casas para resguardarse del viento."
+evolutions = Array[Dictionary]([{
+"into": "HAUNTER",
+"method": "Level",
+"param": "25"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://v32xn8qnr74q"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_c04a8"]
+
+[resource]
+script = ExtResource("1_c04a8")
+id = 61
+name = "Poliwhirl"
+types = Array[int]([11])
+base_hp = 65
+base_atk = 65
+base_def = 65
+base_spe = 90
+base_spa = 50
+base_spd = 50
+catch_rate = 120
+base_exp = 135
+growth_rate = "Parabolic"
+abilities = Array[int]([11, 6])
+hidden_abilities = Array[int]([33])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "HYPNOSIS"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "MUDSHOT"
+}, {
+"level": 18.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 24.0,
+"move": "RAINDANCE"
+}, {
+"level": 32.0,
+"move": "BODYSLAM"
+}, {
+"level": 40.0,
+"move": "EARTHPOWER"
+}, {
+"level": 48.0,
+"move": "HYDROPUMP"
+}, {
+"level": 56.0,
+"move": "BELLYDRUM"
+}, {
+"level": 66.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "DEFENSECURL", "DIG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENCORE", "ENDEAVOR", "ENDURE", "FACADE", "FLING", "FOCUSPUNCH", "FRUSTRATION", "HAIL", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICEPUNCH", "ICYWIND", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDDYWATER", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "RAINDANCE", "REST", "RETURN", "ROCKSMASH", "ROUND", "SCALD", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "THIEF", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "TAKEDOWN", "LOWKICK", "CHILLINGWATER", "SWIFT", "LOWSWEEP", "LIQUIDATION", "AMNESIA", "HAZE", "WEATHERBALL", "PSYCHUP")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 20.0
+color = "Blue"
+shape = "Bipedal"
+category = "Renacuajo"
+habitat = "WatersEdge"
+pokedex = "Tiene la piel húmeda y lubricada con un fluido aceitoso. Gracias a esta película grasa, puede escapar de las garras de cualquier rival en pleno combate."
+evolutions = Array[Dictionary]([{
+"into": "POLIWRATH",
+"method": "Item",
+"param": "WATERSTONE"
+}, {
+"into": "POLITOED",
+"method": "CableLinkItem",
+"param": "KINGSROCK"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "KINGSROCK"
+offspring = PackedStringArray()

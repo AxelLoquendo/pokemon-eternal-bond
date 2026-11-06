@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bddjw0u5ghnv5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_kbp8r"]
+
+[resource]
+script = ExtResource("1_kbp8r")
+id = 987
+name = "Melenaleteo"
+types = Array[int]([8, 18])
+base_hp = 55
+base_atk = 55
+base_def = 55
+base_spe = 135
+base_spa = 135
+base_spd = 135
+catch_rate = 30
+base_exp = 285
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([283])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "SUNNYDAY"
+}, {
+"level": 1.0,
+"move": "CONFUSERAY"
+}, {
+"level": 1.0,
+"move": "SPITE"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 7.0,
+"move": "PSYBEAM"
+}, {
+"level": 14.0,
+"move": "MEANLOOK"
+}, {
+"level": 21.0,
+"move": "MEMENTO"
+}, {
+"level": 28.0,
+"move": "WISH"
+}, {
+"level": 35.0,
+"move": "DAZZLINGGLEAM"
+}, {
+"level": 42.0,
+"move": "SHADOWBALL"
+}, {
+"level": 49.0,
+"move": "MYSTICALFIRE"
+}, {
+"level": 56.0,
+"move": "POWERGEM"
+}, {
+"level": 63.0,
+"move": "PSYSHOCK"
+}, {
+"level": 70.0,
+"move": "PHANTOMFORCE"
+}, {
+"level": 77.0,
+"move": "PAINSPLIT"
+}, {
+"level": 84.0,
+"move": "MOONBLAST"
+}, {
+"level": 91.0,
+"move": "PERISHSONG"
+}])
+tutor_move_tokens = PackedStringArray("CALMMIND", "CHARGEBEAM", "CHARM", "CONFUSERAY", "DARKPULSE", "DAZZLINGGLEAM", "DISARMINGVOICE", "DRAININGKISS", "ENDURE", "ENERGYBALL", "FAKETEARS", "GIGAIMPACT", "HELPINGHAND", "HEX", "HYPERBEAM", "HYPERVOICE", "ICYWIND", "IMPRISON", "MAGICALLEAF", "MISTYTERRAIN", "NIGHTSHADE", "PAINSPLIT", "PHANTOMFORCE", "POLTERGEIST", "POWERGEM", "PROTECT", "PSYBEAM", "PSYSHOCK", "REST", "SHADOWBALL", "SLEEPTALK", "SPITE", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "SWIFT", "TAUNT", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TRICKROOM")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 12800
+height_m = 1.4
+weight_kg = 4.0
+color = "Gray"
+shape = "Head"
+category = "Paradoja"
+habitat = "Rare"
+pokedex = "Sus rasgos distintivos se asemejan a los del espíritu de un reptil volador mencionado en una revista esotérica."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray("Paradox")
+wild_item_uncommon = "BOOSTERENERGY"
+offspring = PackedStringArray()

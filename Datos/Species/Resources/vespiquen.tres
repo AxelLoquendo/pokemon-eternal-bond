@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://blpn2qk6odt6t"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_k4xmj"]
+
+[resource]
+script = ExtResource("1_k4xmj")
+id = 416
+name = "Vespiquen"
+types = Array[int]([7, 3])
+base_hp = 70
+base_atk = 80
+base_def = 102
+base_spe = 40
+base_spa = 80
+base_spd = 102
+base_exp = 166
+gender_ratio = "AlwaysFemale"
+growth_rate = "Parabolic"
+abilities = Array[int]([46])
+hidden_abilities = Array[int]([127])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "SLASH"
+}, {
+"level": 1.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 1.0,
+"move": "BUGBITE"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 1.0,
+"move": "GUST"
+}, {
+"level": 1.0,
+"move": "POISONSTING"
+}, {
+"level": 1.0,
+"move": "CONFUSERAY"
+}, {
+"level": 4.0,
+"move": "FURYCUTTER"
+}, {
+"level": 8.0,
+"move": "AROMATICMIST"
+}, {
+"level": 12.0,
+"move": "FELLSTINGER"
+}, {
+"level": 16.0,
+"move": "FURYSWIPES"
+}, {
+"level": 20.0,
+"move": "SWAGGER"
+}, {
+"level": 24.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 24.0,
+"move": "ROOST"
+}, {
+"level": 28.0,
+"move": "AIRSLASH"
+}, {
+"level": 32.0,
+"move": "POWERGEM"
+}, {
+"level": 36.0,
+"move": "TOXIC"
+}, {
+"level": 40.0,
+"move": "ATTACKORDER"
+}, {
+"level": 40.0,
+"move": "DEFENDORDER"
+}, {
+"level": 44.0,
+"move": "DESTINYBOND"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AIRCUTTER", "AIRSLASH", "ASSURANCE", "ATTRACT", "BEATUP", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "CROSSPOISON", "CUT", "DEFOG", "DOUBLETEAM", "DUALWINGBEAT", "ENDEAVOR", "ENDURE", "FACADE", "FLASH", "FLING", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HEX", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "INFESTATION", "LASERFOCUS", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "PINMISSILE", "POWERGEM", "PROTECT", "QUASH", "RAINDANCE", "REST", "RETURN", "REVENGE", "REVERSAL", "ROOST", "ROUND", "SCREECH", "SECRETPOWER", "SIGNALBEAM", "SILVERWIND", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "THIEF", "TOXIC", "TOXICSPIKES", "UPROAR", "UTURN", "VENOSHOCK", "XSCISSOR", "TAKEDOWN", "AGILITY", "SCARYFACE", "CONFUSERAY", "POUNCE", "TAUNT", "SPIKES", "HELPINGHAND", "POLLENPUFF", "HURRICANE", "SPITE", "LUNGE", "SKITTERSMACK", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 1.2
+weight_kg = 38.5
+color = "Yellow"
+shape = "MultiWinged"
+category = "Colmena"
+pokedex = "Su abdomen es un panal de larvas que alimenta con la miel recogida por Combee. Libera feromonas para hacer que hagan lo que diga cuando combate."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "POISONBARB"
+offspring = PackedStringArray()

@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://eo53ephnai5r"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_g05i1"]
+
+[resource]
+script = ExtResource("1_g05i1")
+id = 527
+name = "Woobat"
+types = Array[int]([14, 3])
+base_hp = 65
+base_atk = 45
+base_def = 43
+base_spe = 72
+base_spa = 55
+base_spd = 43
+catch_rate = 190
+base_exp = 65
+abilities = Array[int]([109, 103])
+hidden_abilities = Array[int]([86])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GUST"
+}, {
+"level": 1.0,
+"move": "ATTRACT"
+}, {
+"level": 5.0,
+"move": "CONFUSION"
+}, {
+"level": 10.0,
+"move": "ENDEAVOR"
+}, {
+"level": 15.0,
+"move": "AIRCUTTER"
+}, {
+"level": 20.0,
+"move": "IMPRISON"
+}, {
+"level": 25.0,
+"move": "ASSURANCE"
+}, {
+"level": 30.0,
+"move": "AMNESIA"
+}, {
+"level": 35.0,
+"move": "AIRSLASH"
+}, {
+"level": 40.0,
+"move": "PSYCHIC"
+}, {
+"level": 45.0,
+"move": "CALMMIND"
+}, {
+"level": 50.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 55.0,
+"move": "SIMPLEBEAM"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AFTERYOU", "AIRSLASH", "ALLYSWITCH", "AMNESIA", "ASSURANCE", "ATTRACT", "BATONPASS", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "DEFOG", "DOUBLETEAM", "DREAMEATER", "DUALWINGBEAT", "EMBARGO", "ENDEAVOR", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "FACADE", "FAKETEARS", "FLASH", "FLY", "FRUSTRATION", "FUTURESIGHT", "GIGADRAIN", "GYROBALL", "HEATWAVE", "HELPINGHAND", "HIDDENPOWER", "IMPRISON", "KNOCKOFF", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "NASTYPLOT", "NATURALGIFT", "PLUCK", "PROTECT", "PSYCHIC", "PSYCHOCUT", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROOST", "ROUND", "SAFEGUARD", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SKILLSWAP", "SLEEPTALK", "SNORE", "SPEEDSWAP", "STEELWING", "STOREDPOWER", "SUBSTITUTE", "SUPERFANG", "SWAGGER", "SWIFT", "TAILWIND", "TAUNT", "TELEKINESIS", "THIEF", "THUNDERWAVE", "TORMENT", "TOXIC", "TRICK", "TRICKROOM", "UPROAR", "UTURN", "VENOMDRENCH", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("FLATTER", "KNOCKOFF", "PSYCHOSHIFT", "ROOST", "SUPERSONIC")
+egg_groups = PackedStringArray("Field", "Flying")
+hatch_steps = 3840
+height_m = 0.4
+weight_kg = 2.1
+color = "Blue"
+shape = "Winged"
+category = "Murciélago"
+pokedex = "Este peculiar Pokémon pega sus fosas nasales a la pared para dormir y, cuando las retira, deja un corazón marcado."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "SWOOBAT",
+"method": "Happiness",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

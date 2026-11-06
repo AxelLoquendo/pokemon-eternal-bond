@@ -1,0 +1,82 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c3ey0rorieub5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ngmmh"]
+
+[resource]
+script = ExtResource("1_ngmmh")
+id = 251
+name = "Celebi"
+types = Array[int]([14, 12])
+base_hp = 100
+base_atk = 100
+base_def = 100
+base_spe = 100
+base_spa = 100
+base_spd = 100
+base_exp = 300
+base_happiness = 100
+gender_ratio = "Genderless"
+growth_rate = "Parabolic"
+abilities = Array[int]([30])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 1.0,
+"move": "HEALBELL"
+}, {
+"level": 10.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 20.0,
+"move": "BATONPASS"
+}, {
+"level": 30.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 40.0,
+"move": "LIFEDEW"
+}, {
+"level": 50.0,
+"move": "LEECHSEED"
+}, {
+"level": 60.0,
+"move": "RECOVER"
+}, {
+"level": 70.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 80.0,
+"move": "HEALINGWISH"
+}, {
+"level": 90.0,
+"move": "LEAFSTORM"
+}, {
+"level": 100.0,
+"move": "PERISHSONG"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ALLYSWITCH", "ANCIENTPOWER", "AURASPHERE", "BATONPASS", "CALMMIND", "CHARGEBEAM", "CONFIDE", "CUT", "DAZZLINGGLEAM", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "DUALWINGBEAT", "EARTHPOWER", "ECHOEDVOICE", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "FACADE", "FLASH", "FLING", "FRUSTRATION", "FUTURESIGHT", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "IMPRISON", "LASERFOCUS", "LASTRESORT", "LEAFBLADE", "LEAFSTORM", "LIGHTSCREEN", "MAGICALLEAF", "MAGICCOAT", "MAGICROOM", "METRONOME", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "NATUREPOWER", "POLLENPUFF", "PROTECT", "PSYCHIC", "PSYCHICTERRAIN", "PSYCHOCUT", "PSYCHUP", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SANDSTORM", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SILVERWIND", "SKILLSWAP", "SLEEPTALK", "SNORE", "SOLARBEAM", "SOLARBLADE", "STEALTHROCK", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "SYNTHESIS", "TELEKINESIS", "THUNDERWAVE", "TRICK", "TRICKROOM", "UPROAR", "UTURN", "WATERPULSE", "WEATHERBALL", "WONDERROOM", "WORRYSEED", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 0.6
+weight_kg = 5.0
+color = "Green"
+shape = "Bipedal"
+category = "Viajetiempo"
+habitat = "Forest"
+pokedex = "Vino del futuro haciendo un viaje en el tiempo. Hay quien piensa que, mientras Celebi siga apareciendo, el futuro será brillante y esperanzador."
+generation = 2
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 3.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Mythical")
+wild_item_common = "LUMBERRY"
+wild_item_uncommon = "LUMBERRY"
+wild_item_rare = "LUMBERRY"
+offspring = PackedStringArray()

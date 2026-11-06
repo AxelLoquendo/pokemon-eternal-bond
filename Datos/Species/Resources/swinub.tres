@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b3w877ovxewkg"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_08wb4"]
+
+[resource]
+script = ExtResource("1_08wb4")
+id = 220
+name = "Swinub"
+types = Array[int]([15, 5])
+base_hp = 50
+base_atk = 50
+base_def = 40
+base_spe = 50
+base_spa = 30
+base_spd = 30
+catch_rate = 225
+base_exp = 50
+growth_rate = "Slow"
+abilities = Array[int]([12, 81])
+hidden_abilities = Array[int]([47])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 5.0,
+"move": "POWDERSNOW"
+}, {
+"level": 10.0,
+"move": "FLAIL"
+}, {
+"level": 15.0,
+"move": "ICESHARD"
+}, {
+"level": 20.0,
+"move": "MIST"
+}, {
+"level": 25.0,
+"move": "ENDURE"
+}, {
+"level": 30.0,
+"move": "ICYWIND"
+}, {
+"level": 35.0,
+"move": "AMNESIA"
+}, {
+"level": 40.0,
+"move": "TAKEDOWN"
+}, {
+"level": 45.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 50.0,
+"move": "BLIZZARD"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ANCIENTPOWER", "ATTRACT", "AVALANCHE", "BLIZZARD", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "HAIL", "HEADBUTT", "HIDDENPOWER", "ICEBEAM", "ICICLESPEAR", "ICYWIND", "LIGHTSCREEN", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCARYFACE", "SECRETPOWER", "SLEEPTALK", "SNORE", "STEALTHROCK", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "TAKEDOWN", "CHARM", "ICEFANG", "TRAILBLAZE", "SNOWSCAPE", "STOMPINGTANTRUM", "REVERSAL", "STONEEDGE", "HAZE", "SMACKDOWN", "HIGHHORSEPOWER", "CURSE")
+egg_move_tokens = PackedStringArray("ANCIENTPOWER", "BITE", "BODYSLAM", "CURSE", "DOUBLEEDGE", "FISSURE", "FREEZEDRY", "ICICLECRASH", "ICICLESPEAR", "MUDSHOT", "TAKEDOWN")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 6.5
+color = "Brown"
+shape = "Quadruped"
+category = "Cerdo"
+habitat = "Cave"
+pokedex = "Busca alimento frotando el hocico contra el suelo. Su comida preferida es una seta que crece bajo la hierba marchita. A veces descubre fuentes termales."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "PILOSWINE",
+"method": "Level",
+"param": "33"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

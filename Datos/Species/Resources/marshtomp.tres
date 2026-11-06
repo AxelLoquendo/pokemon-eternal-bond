@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dwkyeakhslrpk"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_b7qd8"]
+
+[resource]
+script = ExtResource("1_b7qd8")
+id = 259
+name = "Marshtomp"
+types = Array[int]([11, 5])
+base_hp = 70
+base_atk = 85
+base_def = 70
+base_spe = 50
+base_spa = 60
+base_spd = 70
+base_exp = 142
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([67])
+hidden_abilities = Array[int]([6])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "MUDSHOT"
+}, {
+"level": -1.0,
+"move": "ROCKSMASH"
+}, {
+"level": 1.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 1.0,
+"move": "SURF"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 9.0,
+"move": "ROCKTHROW"
+}, {
+"level": 12.0,
+"move": "PROTECT"
+}, {
+"level": 15.0,
+"move": "SUPERSONIC"
+}, {
+"level": 20.0,
+"move": "WATERPULSE"
+}, {
+"level": 25.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 30.0,
+"move": "TAKEDOWN"
+}, {
+"level": 35.0,
+"move": "AMNESIA"
+}, {
+"level": 40.0,
+"move": "MUDDYWATER"
+}, {
+"level": 45.0,
+"move": "SCREECH"
+}, {
+"level": 50.0,
+"move": "ENDEAVOR"
+}, {
+"level": 55.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ANCIENTPOWER", "AQUATAIL", "ATTRACT", "AVALANCHE", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "DEFENSECURL", "DIG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHPOWER", "EARTHQUAKE", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FLING", "FRUSTRATION", "HAIL", "HEADBUTT", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICEPUNCH", "ICYWIND", "IRONTAIL", "LOWKICK", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDDYWATER", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDTOMB", "SCALD", "SCREECH", "SECRETPOWER", "SEISMICTOSS", "SLEEPTALK", "SLUDGEWAVE", "SNORE", "STEALTHROCK", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SURF", "SWAGGER", "UPROAR", "WATERFALL", "WATERPLEDGE", "WATERPULSE", "WHIRLPOOL", "WORKUP", "TAKEDOWN", "CHILLINGWATER", "LIQUIDATION", "HELPINGHAND", "ROAR", "FOCUSPUNCH", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Monster", "Water1")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 28.0
+color = "Blue"
+shape = "BipedalTail"
+category = "Pez Lodo"
+habitat = "WatersEdge"
+pokedex = "Tiene unas patas traseras fortísimas que le permiten mantenerse erguido. Como se debilita si se le seca la piel, juega en el lodo para mantenerse hidratado."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "SWAMPERT",
+"method": "Level",
+"param": "36"
+}])
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

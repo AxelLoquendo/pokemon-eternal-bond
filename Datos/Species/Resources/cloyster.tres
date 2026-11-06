@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b4k3aap5wsqyi"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_pursa"]
+
+[resource]
+script = ExtResource("1_pursa")
+id = 91
+name = "Cloyster"
+types = Array[int]([11, 15])
+base_hp = 50
+base_atk = 95
+base_def = 180
+base_spe = 70
+base_spa = 85
+base_spd = 45
+catch_rate = 60
+base_exp = 184
+growth_rate = "Slow"
+abilities = Array[int]([75, 92])
+hidden_abilities = Array[int]([142])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "ICICLESPEAR"
+}, {
+"level": 1.0,
+"move": "ICICLECRASH"
+}, {
+"level": 1.0,
+"move": "TOXICSPIKES"
+}, {
+"level": 1.0,
+"move": "SPIKES"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "WHIRLPOOL"
+}, {
+"level": 1.0,
+"move": "SUPERSONIC"
+}, {
+"level": 1.0,
+"move": "AURORABEAM"
+}, {
+"level": 1.0,
+"move": "PROTECT"
+}, {
+"level": 1.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 1.0,
+"move": "ICEBEAM"
+}, {
+"level": 1.0,
+"move": "SHELLSMASH"
+}, {
+"level": 1.0,
+"move": "HYDROPUMP"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "WITHDRAW"
+}, {
+"level": 1.0,
+"move": "ICESHARD"
+}, {
+"level": 5.0,
+"move": "RAZORSHELL"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "AVALANCHE", "BLIZZARD", "BRINE", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "EXPLOSION", "FACADE", "FROSTBREATH", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICICLESPEAR", "ICYWIND", "IRONDEFENSE", "LIGHTSCREEN", "LIQUIDATION", "MIMIC", "MUDSHOT", "NATURALGIFT", "PAYBACK", "PINMISSILE", "POISONJAB", "PROTECT", "RAINDANCE", "RAZORSHELL", "REST", "RETURN", "ROCKBLAST", "ROUND", "SCREECH", "SECRETPOWER", "SELFDESTRUCT", "SIGNALBEAM", "SLEEPTALK", "SMARTSTRIKE", "SNORE", "SPIKES", "STEELROLLER", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "TORMENT", "TOXICSPIKES", "TRIATTACK", "WATERPULSE", "WEATHERBALL", "WHIRLPOOL", "TAKEDOWN", "SCARYFACE", "CHILLINGWATER", "SNOWSCAPE", "BODYSLAM", "WATERFALL", "DRILLRUN", "ICESPINNER", "HELPINGHAND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water3")
+hatch_steps = 5120
+height_m = 1.5
+weight_kg = 132.5
+color = "Purple"
+shape = "Head"
+category = "Bivalvo"
+habitat = "Sea"
+pokedex = "Puede nadar por el mar tragando agua y expulsándola por el conducto que tiene en la parte trasera. Del mismo modo lanza los pinchos que tiene sobre la concha."
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_common = "PEARL"
+wild_item_uncommon = "BIGPEARL"
+offspring = PackedStringArray()

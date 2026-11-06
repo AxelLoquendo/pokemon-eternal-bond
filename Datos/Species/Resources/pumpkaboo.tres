@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dpoaw3fsrws17"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_842p8"]
+
+[resource]
+script = ExtResource("1_842p8")
+id = 710
+name = "Pumpkaboo"
+types = Array[int]([8, 12])
+base_hp = 44
+base_atk = 66
+base_def = 70
+base_spe = 56
+base_spa = 44
+base_spd = 55
+catch_rate = 120
+base_exp = 67
+abilities = Array[int]([53, 119])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 4.0,
+"move": "SHADOWSNEAK"
+}, {
+"level": 8.0,
+"move": "CONFUSERAY"
+}, {
+"level": 12.0,
+"move": "RAZORLEAF"
+}, {
+"level": 16.0,
+"move": "LEECHSEED"
+}, {
+"level": 20.0,
+"move": "BULLETSEED"
+}, {
+"level": 24.0,
+"move": "SCARYFACE"
+}, {
+"level": 28.0,
+"move": "WORRYSEED"
+}, {
+"level": 32.0,
+"move": "SEEDBOMB"
+}, {
+"level": 36.0,
+"move": "TRICKORTREAT"
+}, {
+"level": 36.0,
+"move": "SHADOWBALL"
+}, {
+"level": 40.0,
+"move": "TRICK"
+}, {
+"level": 44.0,
+"move": "PAINSPLIT"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BULLETSEED", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "DARKPULSE", "DOUBLETEAM", "DREAMEATER", "ENDURE", "ENERGYBALL", "EXPLOSION", "FACADE", "FIREBLAST", "FLAMECHARGE", "FLAMETHROWER", "FLASH", "FOULPLAY", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "GYROBALL", "HEX", "HIDDENPOWER", "IMPRISON", "INCINERATE", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "MYSTICALFIRE", "NATURALGIFT", "NATUREPOWER", "PAINSPLIT", "POLTERGEIST", "PROTECT", "PSYCHIC", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROLEPLAY", "ROUND", "SAFEGUARD", "SCARYFACE", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SKILLSWAP", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SPITE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "TELEKINESIS", "THIEF", "TOXIC", "TRICK", "TRICKROOM", "WILLOWISP", "WORRYSEED")
+egg_move_tokens = PackedStringArray("CURSE", "DESTINYBOND", "DISABLE")
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 3.5
+color = "Brown"
+shape = "Head"
+category = "Calabaza"
+pokedex = "En el interior de la calabaza reside un espíritu que ha permanecido atrapado en este mundo. Entra en acción al caer la noche."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "GOURGEIST",
+"method": "Trade",
+"param": ""
+}, {
+"into": "GOURGEIST",
+"method": "Item",
+"param": "LINKINGCORD"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("InheritFormFromMother")
+offspring = PackedStringArray()
+form_name = "Tamaño Pequeño"

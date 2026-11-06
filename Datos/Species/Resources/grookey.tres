@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dkvumqpels63o"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hlnnb"]
+
+[resource]
+script = ExtResource("1_hlnnb")
+id = 810
+name = "Grookey"
+types = Array[int]([12])
+base_hp = 50
+base_atk = 65
+base_def = 50
+base_spe = 65
+base_spa = 40
+base_spd = 40
+base_exp = 62
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([229])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 6.0,
+"move": "BRANCHPOKE"
+}, {
+"level": 8.0,
+"move": "TAUNT"
+}, {
+"level": 12.0,
+"move": "RAZORLEAF"
+}, {
+"level": 17.0,
+"move": "SCREECH"
+}, {
+"level": 20.0,
+"move": "KNOCKOFF"
+}, {
+"level": 24.0,
+"move": "SLAM"
+}, {
+"level": 28.0,
+"move": "UPROAR"
+}, {
+"level": 32.0,
+"move": "WOODHAMMER"
+}, {
+"level": 36.0,
+"move": "ENDEAVOR"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "ASSURANCE", "ATTRACT", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "DRAINPUNCH", "ENDURE", "ENERGYBALL", "FACADE", "FALSESWIPE", "FLING", "FOCUSENERGY", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSPLEDGE", "GRASSYGLIDE", "HIDDENPOWER", "LOWKICK", "MAGICALLEAF", "MEGAKICK", "MEGAPUNCH", "MIMIC", "NATURALGIFT", "PROTECT", "REST", "RETURN", "ROUND", "SCREECH", "SECRETPOWER", "SLEEPTALK", "SNORE", "SOLARBEAM", "SOLARBLADE", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "TOXIC", "UPROAR", "UTURN", "WORKUP", "TAKEDOWN", "THIEF", "TRAILBLAZE", "BULLETSEED", "BODYSLAM", "SEEDBOMB", "GRASSYTERRAIN", "LEAFSTORM", "KNOCKOFF", "ENDEAVOR")
+egg_move_tokens = PackedStringArray("FAKEOUT", "GROWTH", "HAMMERARM", "LEECHSEED", "NATUREPOWER", "STRENGTH", "WORRYSEED")
+egg_groups = PackedStringArray("Field", "Grass")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 5.0
+color = "Green"
+shape = "BipedalTail"
+category = "Chimpancé"
+pokedex = "Ataca golpeando sin cesar con su baqueta, con un entusiasmo que crece a medida que acelera el ritmo."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "THWACKEY",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

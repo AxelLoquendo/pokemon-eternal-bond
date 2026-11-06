@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8klkfv0cpxqo"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_yymit"]
+
+[resource]
+script = ExtResource("1_yymit")
+id = 406
+name = "Budew"
+types = Array[int]([12, 4])
+base_hp = 40
+base_atk = 30
+base_def = 35
+base_spe = 55
+base_spa = 50
+base_spd = 70
+catch_rate = 255
+base_exp = 56
+growth_rate = "Parabolic"
+abilities = Array[int]([30, 38])
+hidden_abilities = Array[int]([102])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "GROWTH"
+}, {
+"level": 1.0,
+"move": "STUNSPORE"
+}, {
+"level": 1.0,
+"move": "WORRYSEED"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BULLETSEED", "CAPTIVATE", "CONFIDE", "COVET", "CUT", "DAZZLINGGLEAM", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "HIDDENPOWER", "LEAFSTORM", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "PINMISSILE", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROUND", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "SOLARBEAM", "SPIKES", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "SYNTHESIS", "UPROAR", "VENOSHOCK", "WEATHERBALL", "WORRYSEED")
+egg_move_tokens = PackedStringArray("COTTONSPORE", "EXTRASENSORY", "LEAFSTORM", "LIFEDEW", "MINDREADER", "PINMISSILE", "POWERWHIP", "RAZORLEAF", "SEEDBOMB", "SLEEPPOWDER", "SPIKES", "SYNTHESIS")
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 5120
+height_m = 0.2
+weight_kg = 1.2
+color = "Green"
+shape = "Bipedal"
+category = "Brote"
+pokedex = "En invierno cierra su capullo para protegerse del frío. En primavera el capullo se abre y esparce polen. Vive junto a los estanques de agua clara."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "ROSELIA",
+"method": "HappinessDay",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "POISONBARB"
+incense = "ROSEINCENSE"
+offspring = PackedStringArray()

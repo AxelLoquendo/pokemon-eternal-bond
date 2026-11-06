@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://drnn8sjm083tb"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_h7gq0"]
+
+[resource]
+script = ExtResource("1_h7gq0")
+id = 995
+name = "Ferropúas"
+types = Array[int]([6, 13])
+base_hp = 100
+base_atk = 134
+base_def = 110
+base_spe = 72
+base_spa = 70
+base_spd = 84
+catch_rate = 30
+base_exp = 285
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([285])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "ELECTRICTERRAIN"
+}, {
+"level": 1.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 1.0,
+"move": "THUNDERFANG"
+}, {
+"level": 1.0,
+"move": "ICEFANG"
+}, {
+"level": 1.0,
+"move": "FIREFANG"
+}, {
+"level": 1.0,
+"move": "ROCKTHROW"
+}, {
+"level": 7.0,
+"move": "SCREECH"
+}, {
+"level": 21.0,
+"move": "ROCKTOMB"
+}, {
+"level": 28.0,
+"move": "BITE"
+}, {
+"level": 35.0,
+"move": "CHARGE"
+}, {
+"level": 42.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 49.0,
+"move": "SANDSTORM"
+}, {
+"level": 56.0,
+"move": "WILDCHARGE"
+}, {
+"level": 63.0,
+"move": "PINMISSILE"
+}, {
+"level": 70.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 77.0,
+"move": "STEALTHROCK"
+}, {
+"level": 84.0,
+"move": "STONEEDGE"
+}, {
+"level": 91.0,
+"move": "GIGAIMPACT"
+}])
+tutor_move_tokens = PackedStringArray("BLIZZARD", "BODYPRESS", "BODYSLAM", "BREAKINGSWIPE", "BRICKBREAK", "BULLDOZE", "CHARGE", "CHARGEBEAM", "CRUNCH", "CURSE", "DIG", "DOUBLEEDGE", "DRAGONCLAW", "DRAGONDANCE", "DRAGONTAIL", "EARTHPOWER", "EARTHQUAKE", "EERIEIMPULSE", "ELECTRICTERRAIN", "ELECTROBALL", "ELECTROWEB", "ENDURE", "FACADE", "FIREBLAST", "FIREFANG", "FIREPUNCH", "FLAMETHROWER", "FLING", "FOCUSBLAST", "GIGAIMPACT", "HEAVYSLAM", "HIGHHORSEPOWER", "HYPERBEAM", "ICEBEAM", "ICEFANG", "ICEPUNCH", "IRONDEFENSE", "IRONHEAD", "LOWKICK", "METALCLAW", "METEORBEAM", "POWERGEM", "PROTECT", "RAINDANCE", "REST", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "SANDSTORM", "SANDTOMB", "SCARYFACE", "SLEEPTALK", "SMACKDOWN", "SNARL", "SPIKES", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SUNNYDAY", "SUPERCELLSLAM", "SWORDSDANCE", "TAKEDOWN", "TAUNT", "THUNDER", "THUNDERBOLT", "THUNDERFANG", "THUNDERPUNCH", "THUNDERWAVE", "VOLTSWITCH", "WILDCHARGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 12800
+height_m = 1.6
+weight_kg = 303.0
+color = "Green"
+shape = "BipedalTail"
+category = "Paradoja"
+habitat = "Rare"
+pokedex = "Guarda similitudes con el supuesto aspecto que, según cierta revista de dudosa veracidad, tendrá Tyranitar dentro de mil millones de años."
+generation = 9
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Paradox")
+wild_item_uncommon = "BOOSTERENERGY"
+offspring = PackedStringArray()

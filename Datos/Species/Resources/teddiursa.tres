@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d01d7vham8it6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_c71hw"]
+
+[resource]
+script = ExtResource("1_c71hw")
+id = 216
+name = "Teddiursa"
+types = Array[int]([1])
+base_hp = 60
+base_atk = 80
+base_def = 50
+base_spe = 40
+base_spa = 50
+base_spd = 50
+catch_rate = 120
+base_exp = 66
+abilities = Array[int]([53, 95])
+hidden_abilities = Array[int]([118])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FLING"
+}, {
+"level": 1.0,
+"move": "COVET"
+}, {
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 1.0,
+"move": "LICK"
+}, {
+"level": 1.0,
+"move": "FAKETEARS"
+}, {
+"level": 8.0,
+"move": "FURYSWIPES"
+}, {
+"level": 13.0,
+"move": "PAYBACK"
+}, {
+"level": 17.0,
+"move": "SWEETSCENT"
+}, {
+"level": 22.0,
+"move": "SLASH"
+}, {
+"level": 25.0,
+"move": "PLAYNICE"
+}, {
+"level": 29.0,
+"move": "PLAYROUGH"
+}, {
+"level": 33.0,
+"move": "CHARM"
+}, {
+"level": 37.0,
+"move": "REST"
+}, {
+"level": 37.0,
+"move": "SNORE"
+}, {
+"level": 41.0,
+"move": "THRASH"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BODYSLAM", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "COVET", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHQUAKE", "ENDURE", "FACADE", "FIREPUNCH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GUNKSHOT", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "HYPERVOICE", "ICEPUNCH", "LASTRESORT", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAYBACK", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SECRETPOWER", "SEEDBOMB", "SEISMICTOSS", "SHADOWCLAW", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "THIEF", "THUNDERPUNCH", "TORMENT", "WORKUP", "TAKEDOWN", "CHARM", "FAKETEARS", "LOWKICK", "TRAILBLAZE", "METALCLAW", "AVALANCHE", "CRUNCH", "PLAYROUGH", "HELPINGHAND", "CLOSECOMBAT", "SMACKDOWN", "UPROAR")
+egg_move_tokens = PackedStringArray("BELLYDRUM", "CLOSECOMBAT", "COUNTER", "CROSSCHOP", "CRUNCH", "DOUBLEEDGE", "FAKETEARS", "METALCLAW", "NIGHTSLASH", "PLAYROUGH", "SEISMICTOSS", "TAKEDOWN", "YAWN")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 8.8
+color = "Brown"
+shape = "BipedalTail"
+category = "Osito"
+habitat = "Mountain"
+pokedex = "Le encanta chuparse las palmas, que tiene llenas de dulce miel. Teddiursa fabrica la suya propia mezclando frutos y el polen recogido por Beedrill."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "URSARING",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

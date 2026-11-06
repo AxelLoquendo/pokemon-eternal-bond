@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b02wnh2lyg0oc"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_t2t4c"]
+
+[resource]
+script = ExtResource("1_t2t4c")
+id = 189
+name = "Jumpluff"
+types = Array[int]([12, 3])
+base_hp = 75
+base_atk = 55
+base_def = 70
+base_spe = 110
+base_spa = 55
+base_spd = 95
+base_exp = 230
+growth_rate = "Parabolic"
+abilities = Array[int]([34, 102])
+hidden_abilities = Array[int]([151])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SPLASH"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "SYNTHESIS"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 8.0,
+"move": "TACKLE"
+}, {
+"level": 10.0,
+"move": "FAIRYWIND"
+}, {
+"level": 12.0,
+"move": "POISONPOWDER"
+}, {
+"level": 12.0,
+"move": "STUNSPORE"
+}, {
+"level": 12.0,
+"move": "SLEEPPOWDER"
+}, {
+"level": 15.0,
+"move": "BULLETSEED"
+}, {
+"level": 20.0,
+"move": "LEECHSEED"
+}, {
+"level": 24.0,
+"move": "MEGADRAIN"
+}, {
+"level": 30.0,
+"move": "ACROBATICS"
+}, {
+"level": 35.0,
+"move": "COTTONSPORE"
+}, {
+"level": 39.0,
+"move": "RAGEPOWDER"
+}, {
+"level": 43.0,
+"move": "GIGADRAIN"
+}, {
+"level": 49.0,
+"move": "UTURN"
+}, {
+"level": 49.0,
+"move": "BOUNCE"
+}, {
+"level": 54.0,
+"move": "WORRYSEED"
+}, {
+"level": 55.0,
+"move": "MEMENTO"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "ATTRACT", "BOUNCE", "BULLETSEED", "CAPTIVATE", "CONFIDE", "DAZZLINGGLEAM", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "MIMIC", "NATURALGIFT", "PROTECT", "PSYCHUP", "REFLECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SEEDBOMB", "SILVERWIND", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "UTURN", "WORRYSEED", "TAKEDOWN", "CHARM", "THIEF", "TRAILBLAZE", "MAGICALLEAF", "FLING", "RAINDANCE", "LIGHTSCREEN", "TAILWIND", "ENCORE", "POLLENPUFF", "BATONPASS", "GRASSYTERRAIN", "LEAFSTORM", "LUNGE", "ENDEAVOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Fairy", "Grass")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 3.0
+color = "Blue"
+shape = "BipedalTail"
+category = "Diente León"
+habitat = "Grassland"
+pokedex = "Jumpluff se vale de los cálidos vientos del sur para volar a tierras lejanas. Si llega a zonas de aire frío en pleno vuelo, descenderá y tomará tierra."
+generation = 2
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 3.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

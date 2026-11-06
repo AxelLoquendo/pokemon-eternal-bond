@@ -1,0 +1,78 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c0hk7b443uypj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_fuu3y"]
+
+[resource]
+script = ExtResource("1_fuu3y")
+id = 955
+name = "Flittle"
+types = Array[int]([14])
+base_hp = 30
+base_atk = 35
+base_def = 30
+base_spe = 75
+base_spa = 55
+base_spd = 30
+catch_rate = 120
+base_exp = 51
+growth_rate = "Parabolic"
+abilities = Array[int]([107, 119])
+hidden_abilities = Array[int]([3])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 5.0,
+"move": "CONFUSION"
+}, {
+"level": 8.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 11.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 15.0,
+"move": "QUICKATTACK"
+}, {
+"level": 19.0,
+"move": "PSYBEAM"
+}, {
+"level": 24.0,
+"move": "PLUCK"
+}, {
+"level": 29.0,
+"move": "AGILITY"
+}, {
+"level": 34.0,
+"move": "UPROAR"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "BATONPASS", "CALMMIND", "CONFUSERAY", "DISARMINGVOICE", "ENDURE", "FACADE", "FOULPLAY", "HELPINGHAND", "LIGHTSCREEN", "MUDSLAP", "POUNCE", "PROTECT", "PSYBEAM", "PSYCHIC", "PSYCHICTERRAIN", "PSYSHOCK", "RAINDANCE", "REFLECT", "REST", "SANDSTORM", "SEEDBOMB", "SKILLSWAP", "SLEEPTALK", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "SWIFT", "TAKEDOWN", "THIEF", "TRICK", "TRICKROOM", "UPROAR", "UTURN", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("ALLYSWITCH", "HYPNOSIS", "ROOST")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 5120
+height_m = 0.2
+weight_kg = 1.5
+color = "Yellow"
+shape = "HeadLegs"
+category = "Volantes"
+habitat = "Grassland"
+pokedex = "La punta de sus extremidades levita a 1 cm del suelo a causa del poder psíquico que emiten los volantes de su abdomen."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "ESPATHRA",
+"method": "Level",
+"param": "35"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

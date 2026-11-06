@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://twd2tomcjmqf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_3lbtm"]
+
+[resource]
+script = ExtResource("1_3lbtm")
+id = 258
+name = "Mudkip"
+types = Array[int]([11])
+base_hp = 50
+base_atk = 70
+base_def = 50
+base_spe = 40
+base_spa = 50
+base_spd = 50
+base_exp = 62
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([67])
+hidden_abilities = Array[int]([6])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 3.0,
+"move": "WATERGUN"
+}, {
+"level": 6.0,
+"move": "ROCKSMASH"
+}, {
+"level": 9.0,
+"move": "ROCKTHROW"
+}, {
+"level": 12.0,
+"move": "PROTECT"
+}, {
+"level": 15.0,
+"move": "SUPERSONIC"
+}, {
+"level": 18.0,
+"move": "WATERPULSE"
+}, {
+"level": 21.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 24.0,
+"move": "TAKEDOWN"
+}, {
+"level": 27.0,
+"move": "AMNESIA"
+}, {
+"level": 30.0,
+"move": "SURF"
+}, {
+"level": 33.0,
+"move": "SCREECH"
+}, {
+"level": 36.0,
+"move": "ENDEAVOR"
+}, {
+"level": 39.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ANCIENTPOWER", "AQUATAIL", "ATTRACT", "AVALANCHE", "BLIZZARD", "BODYSLAM", "CAPTIVATE", "CONFIDE", "DEFENSECURL", "DIG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "HAIL", "HEADBUTT", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "IRONTAIL", "LOWKICK", "MIMIC", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SCALD", "SCREECH", "SECRETPOWER", "SLEEPTALK", "SLUDGEWAVE", "SNORE", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SURF", "SWAGGER", "UPROAR", "WATERFALL", "WATERPLEDGE", "WATERPULSE", "WHIRLPOOL", "WORKUP", "TAKEDOWN", "CHILLINGWATER", "MUDSHOT", "LIQUIDATION", "ROAR", "MUDDYWATER", "CURSE")
+egg_move_tokens = PackedStringArray("ANCIENTPOWER", "BITE", "COUNTER", "CURSE", "DOUBLEEDGE", "MIRRORCOAT", "MUDSLAP", "SLUDGE", "STOMP", "UPROAR", "WHIRLPOOL", "WIDEGUARD", "YAWN")
+egg_groups = PackedStringArray("Monster", "Water1")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 7.6
+color = "Blue"
+shape = "Quadruped"
+category = "Pez Lodo"
+habitat = "WatersEdge"
+pokedex = "En tierra firme, puede levantar grandes cantos rodados haciendo palanca con sus cuatro patas. Duerme enterrado en el suelo, cerca del agua."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "MARSHTOMP",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

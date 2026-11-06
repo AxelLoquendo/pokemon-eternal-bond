@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dbx6d0wtxiu6s"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_3w4vq"]
+
+[resource]
+script = ExtResource("1_3w4vq")
+id = 856
+name = "Hatenna"
+types = Array[int]([14])
+base_hp = 42
+base_atk = 30
+base_def = 45
+base_spe = 39
+base_spa = 56
+base_spd = 53
+catch_rate = 235
+base_exp = 53
+gender_ratio = "AlwaysFemale"
+growth_rate = "Slow"
+abilities = Array[int]([131, 107])
+hidden_abilities = Array[int]([156])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 1.0,
+"move": "PLAYNICE"
+}, {
+"level": 5.0,
+"move": "LIFEDEW"
+}, {
+"level": 10.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 15.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 15.0,
+"move": "AROMATICMIST"
+}, {
+"level": 20.0,
+"move": "PSYBEAM"
+}, {
+"level": 25.0,
+"move": "HEALPULSE"
+}, {
+"level": 30.0,
+"move": "DAZZLINGGLEAM"
+}, {
+"level": 35.0,
+"move": "CALMMIND"
+}, {
+"level": 40.0,
+"move": "PSYCHIC"
+}, {
+"level": 45.0,
+"move": "HEALINGWISH"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BATONPASS", "CALMMIND", "CAPTIVATE", "CHARM", "CONFIDE", "DARKPULSE", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAININGKISS", "ENDURE", "EXPANDINGFORCE", "FACADE", "FRUSTRATION", "GIGADRAIN", "HELPINGHAND", "HIDDENPOWER", "IMPRISON", "LIGHTSCREEN", "MAGICALLEAF", "MIMIC", "MYSTICALFIRE", "NATURALGIFT", "PLAYROUGH", "PROTECT", "PSYCHIC", "PSYSHOCK", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SKILLSWAP", "SLEEPTALK", "SNORE", "STOREDPOWER", "SUBSTITUTE", "SWAGGER", "THUNDERWAVE", "TOXIC", "PSYBEAM", "DISARMINGVOICE", "SWIFT", "REFLECT", "METRONOME", "TRICK", "PSYCHICTERRAIN", "MISTYTERRAIN", "TRICKROOM", "PSYCHUP", "FUTURESIGHT")
+egg_move_tokens = PackedStringArray("AFTERYOU", "AROMATICMIST", "NUZZLE", "QUASH")
+egg_groups = PackedStringArray("Fairy")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 3.4
+color = "Pink"
+shape = "HeadLegs"
+category = "Calma"
+pokedex = "Percibe los sentimientos de los seres vivos con la protuberancia de la cabeza. Solo abre su corazón a quienes muestren un carácter sosegado."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "HATTREM",
+"method": "Level",
+"param": "32"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

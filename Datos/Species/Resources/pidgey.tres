@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dyt6d4epba1lo"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_31slk"]
+
+[resource]
+script = ExtResource("1_31slk")
+id = 16
+name = "Pidgey"
+types = Array[int]([1, 3])
+base_hp = 40
+base_atk = 45
+base_def = 40
+base_spe = 56
+base_spa = 35
+base_spd = 35
+catch_rate = 255
+base_exp = 50
+growth_rate = "Parabolic"
+abilities = Array[int]([51, 77])
+hidden_abilities = Array[int]([145])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "SANDATTACK"
+}, {
+"level": 9.0,
+"move": "GUST"
+}, {
+"level": 13.0,
+"move": "QUICKATTACK"
+}, {
+"level": 17.0,
+"move": "WHIRLWIND"
+}, {
+"level": 21.0,
+"move": "TWISTER"
+}, {
+"level": 25.0,
+"move": "FEATHERDANCE"
+}, {
+"level": 29.0,
+"move": "AGILITY"
+}, {
+"level": 33.0,
+"move": "WINGATTACK"
+}, {
+"level": 37.0,
+"move": "ROOST"
+}, {
+"level": 41.0,
+"move": "TAILWIND"
+}, {
+"level": 45.0,
+"move": "AERIALACE"
+}, {
+"level": 49.0,
+"move": "AIRSLASH"
+}, {
+"level": 53.0,
+"move": "HURRICANE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AIRCUTTER", "ATTRACT", "CAPTIVATE", "CONFIDE", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FLY", "FRUSTRATION", "HEATWAVE", "HIDDENPOWER", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SECRETPOWER", "SKYATTACK", "SLEEPTALK", "SNORE", "STEELWING", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "THIEF", "TWISTER", "UPROAR", "UTURN", "WORKUP")
+egg_move_tokens = PackedStringArray("AIRCUTTER", "AIRSLASH", "BRAVEBIRD", "UPROAR")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 3840
+height_m = 0.3
+weight_kg = 1.8
+color = "Brown"
+shape = "Winged"
+category = "Pajarito"
+habitat = "Forest"
+pokedex = "Pidgey tiene un sentido de la orientación muy desarrollado. Aunque se encuentre muy lejos de las zonas que le resultan familiares, es capaz de regresar a su nido."
+evolutions = Array[Dictionary]([{
+"into": "PIDGEOTTO",
+"method": "Level",
+"param": "18"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

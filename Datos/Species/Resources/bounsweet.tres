@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bm22fhudxyq1l"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_sxanx"]
+
+[resource]
+script = ExtResource("1_sxanx")
+id = 761
+name = "Bounsweet"
+types = Array[int]([12])
+base_hp = 42
+base_atk = 30
+base_def = 38
+base_spe = 32
+base_spa = 30
+base_spd = 38
+catch_rate = 235
+base_exp = 42
+gender_ratio = "AlwaysFemale"
+growth_rate = "Parabolic"
+abilities = Array[int]([102, 12])
+hidden_abilities = Array[int]([175])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SPLASH"
+}, {
+"level": 4.0,
+"move": "PLAYNICE"
+}, {
+"level": 8.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 12.0,
+"move": "RAZORLEAF"
+}, {
+"level": 16.0,
+"move": "SWEETSCENT"
+}, {
+"level": 20.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 24.0,
+"move": "FLAIL"
+}, {
+"level": 28.0,
+"move": "TEETERDANCE"
+}, {
+"level": 32.0,
+"move": "AROMATICMIST"
+}, {
+"level": 36.0,
+"move": "AROMATHERAPY"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BOUNCE", "CAPTIVATE", "CHARM", "CONFIDE", "COVET", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAININGKISS", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FRUSTRATION", "GIGADRAIN", "GRASSKNOT", "GRASSYGLIDE", "HELPINGHAND", "HIDDENPOWER", "LIGHTSCREEN", "MAGICALLEAF", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PLAYROUGH", "PROTECT", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SLEEPTALK", "SNORE", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SYNTHESIS", "TOXIC", "WORRYSEED", "ZENHEADBUTT", "TAKEDOWN", "TRAILBLAZE", "SWIFT", "BULLETSEED", "GRASSYTERRAIN", "LEAFSTORM")
+egg_move_tokens = PackedStringArray("ACUPRESSURE", "ENDEAVOR", "SYNTHESIS")
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 3.2
+color = "Purple"
+shape = "HeadLegs"
+category = "Fruto"
+pokedex = "El dulce aroma que desprenden los convierte en presa de los Pokémon pájaro, pero, al no ser muy avispados, no se alteran en absoluto."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "STEENEE",
+"method": "Level",
+"param": "18"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "GRASSYSEED"
+offspring = PackedStringArray()

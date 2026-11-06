@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qispj5qnwnma"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_pik2q"]
+
+[resource]
+script = ExtResource("1_pik2q")
+id = 120
+name = "Staryu"
+types = Array[int]([11])
+base_hp = 30
+base_atk = 45
+base_def = 55
+base_spe = 85
+base_spa = 70
+base_spd = 55
+catch_rate = 225
+base_exp = 68
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([35, 30])
+hidden_abilities = Array[int]([148])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 4.0,
+"move": "WATERGUN"
+}, {
+"level": 8.0,
+"move": "CONFUSERAY"
+}, {
+"level": 12.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 16.0,
+"move": "MINIMIZE"
+}, {
+"level": 20.0,
+"move": "SWIFT"
+}, {
+"level": 24.0,
+"move": "PSYBEAM"
+}, {
+"level": 28.0,
+"move": "BRINE"
+}, {
+"level": 32.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 36.0,
+"move": "POWERGEM"
+}, {
+"level": 40.0,
+"move": "PSYCHIC"
+}, {
+"level": 44.0,
+"move": "SURF"
+}, {
+"level": 48.0,
+"move": "RECOVER"
+}, {
+"level": 52.0,
+"move": "COSMICPOWER"
+}, {
+"level": 56.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("BLIZZARD", "BRINE", "CONFIDE", "COSMICPOWER", "DAZZLINGGLEAM", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FLASH", "FLASHCANNON", "FLIPTURN", "FRUSTRATION", "GRAVITY", "GYROBALL", "HAIL", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "NATURALGIFT", "PAINSPLIT", "POWERGEM", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETURN", "ROLLOUT", "ROUND", "SCALD", "SECRETPOWER", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TRIATTACK", "TWISTER", "WATERFALL", "WATERPULSE", "WHIRLPOOL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water3")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 34.5
+color = "Brown"
+shape = "HeadBase"
+category = "Estrellada"
+habitat = "Sea"
+pokedex = "De noche, se agrupan y hacen brillar su núcleo rojo. Los destellos se intercalan con el centelleo estelar. Si les arrancan alguna parte del cuerpo, la regeneran."
+evolutions = Array[Dictionary]([{
+"into": "STARMIE",
+"method": "Item",
+"param": "WATERSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+wild_item_common = "STARDUST"
+wild_item_uncommon = "STARPIECE"
+offspring = PackedStringArray()

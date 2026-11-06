@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://5o3bdtotbqgi"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_4taq7"]
+
+[resource]
+script = ExtResource("1_4taq7")
+id = 1001
+name = "Wo-Chien"
+types = Array[int]([17, 12])
+base_hp = 85
+base_atk = 85
+base_def = 100
+base_spe = 70
+base_spa = 95
+base_spd = 135
+catch_rate = 6
+base_exp = 285
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([291])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "SPITE"
+}, {
+"level": 1.0,
+"move": "MEANLOOK"
+}, {
+"level": 5.0,
+"move": "TICKLE"
+}, {
+"level": 10.0,
+"move": "PAYBACK"
+}, {
+"level": 15.0,
+"move": "POISONPOWDER"
+}, {
+"level": 15.0,
+"move": "STUNSPORE"
+}, {
+"level": 20.0,
+"move": "MEGADRAIN"
+}, {
+"level": 25.0,
+"move": "LEECHSEED"
+}, {
+"level": 30.0,
+"move": "GROWTH"
+}, {
+"level": 35.0,
+"move": "INGRAIN"
+}, {
+"level": 40.0,
+"move": "DARKPULSE"
+}, {
+"level": 45.0,
+"move": "GIGADRAIN"
+}, {
+"level": 50.0,
+"move": "RUINATION"
+}, {
+"level": 55.0,
+"move": "FOULPLAY"
+}, {
+"level": 60.0,
+"move": "POWERWHIP"
+}, {
+"level": 65.0,
+"move": "GRASSYTERRAIN"
+}, {
+"level": 70.0,
+"move": "KNOCKOFF"
+}, {
+"level": 75.0,
+"move": "LEAFSTORM"
+}])
+tutor_move_tokens = PackedStringArray("BODYPRESS", "BODYSLAM", "BULLETSEED", "DARKPULSE", "ENDURE", "ENERGYBALL", "FACADE", "FOULPLAY", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYTERRAIN", "HEX", "HYPERBEAM", "KNOCKOFF", "LASHOUT", "LEAFSTORM", "LIGHTSCREEN", "MAGICALLEAF", "MUDSHOT", "MUDSLAP", "POLLENPUFF", "PROTECT", "RAINDANCE", "REFLECT", "REST", "SCARYFACE", "SEEDBOMB", "SLEEPTALK", "SNARL", "SOLARBEAM", "SOLARBLADE", "SPITE", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "TAUNT", "TRAILBLAZE", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 12800
+height_m = 1.5
+weight_kg = 74.2
+color = "Brown"
+shape = "Serpentine"
+category = "Debacle"
+habitat = "Rare"
+pokedex = "Este Pokémon nació al imbuirse en hojas marchitas el rencor de una persona castigada por enumerar las fechorías de su rey en unas tablillas."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 3.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

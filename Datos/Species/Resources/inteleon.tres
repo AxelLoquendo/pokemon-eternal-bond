@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://q5be58bqg5w4"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ydmpi"]
+
+[resource]
+script = ExtResource("1_ydmpi")
+id = 818
+name = "Inteleon"
+types = Array[int]([11])
+base_hp = 70
+base_atk = 85
+base_def = 65
+base_spe = 120
+base_spa = 125
+base_spd = 65
+base_exp = 265
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([67])
+hidden_abilities = Array[int]([97])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "SNIPESHOT"
+}, {
+"level": 1.0,
+"move": "ACROBATICS"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "BIND"
+}, {
+"level": 12.0,
+"move": "WATERPULSE"
+}, {
+"level": 19.0,
+"move": "TEARFULLOOK"
+}, {
+"level": 24.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 30.0,
+"move": "UTURN"
+}, {
+"level": 38.0,
+"move": "LIQUIDATION"
+}, {
+"level": 46.0,
+"move": "SOAK"
+}, {
+"level": 54.0,
+"move": "RAINDANCE"
+}, {
+"level": 62.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AGILITY", "AIRSLASH", "ATTRACT", "BATONPASS", "BLIZZARD", "BOUNCE", "BREAKINGSWIPE", "CAPTIVATE", "CONFIDE", "DARKPULSE", "DIVE", "DOUBLETEAM", "ENDURE", "FACADE", "FLING", "FOCUSENERGY", "FRUSTRATION", "GIGAIMPACT", "HIDDENPOWER", "HYDROCANNON", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICICLESPEAR", "ICYWIND", "LIGHTSCREEN", "LIQUIDATION", "METRONOME", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PROTECT", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SCALD", "SCALESHOT", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "SWORDSDANCE", "TOXIC", "UTURN", "WATERFALL", "WATERPLEDGE", "WEATHERBALL", "WHIRLPOOL", "WORKUP", "TAKEDOWN", "WATERPULSE", "CHILLINGWATER", "AIRCUTTER", "SNOWSCAPE", "TAUNT", "HAZE", "SMACKDOWN", "VACUUMWAVE", "FLIPTURN", "PSYCHUP", "SKITTERSMACK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Field")
+hatch_steps = 5120
+height_m = 1.9
+weight_kg = 45.2
+color = "Blue"
+shape = "BipedalTail"
+category = "Agente"
+pokedex = "Dispara chorros de agua por la punta de los dedos a 3 mach de velocidad. Con su membrana nictitante puede ver los puntos débiles del rival."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 3.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

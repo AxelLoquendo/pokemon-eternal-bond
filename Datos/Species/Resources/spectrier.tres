@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d2ymmm6evh8vq"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_q03uq"]
+
+[resource]
+script = ExtResource("1_q03uq")
+id = 897
+name = "Spectrier"
+types = Array[int]([8])
+base_hp = 100
+base_atk = 65
+base_def = 60
+base_spe = 130
+base_spa = 145
+base_spd = 80
+catch_rate = 3
+base_exp = 290
+base_happiness = 35
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([265])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 6.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 12.0,
+"move": "HEX"
+}, {
+"level": 18.0,
+"move": "STOMP"
+}, {
+"level": 24.0,
+"move": "CONFUSERAY"
+}, {
+"level": 30.0,
+"move": "HAZE"
+}, {
+"level": 36.0,
+"move": "SHADOWBALL"
+}, {
+"level": 42.0,
+"move": "TAKEDOWN"
+}, {
+"level": 48.0,
+"move": "AGILITY"
+}, {
+"level": 54.0,
+"move": "THRASH"
+}, {
+"level": 60.0,
+"move": "DISABLE"
+}, {
+"level": 66.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 72.0,
+"move": "NASTYPLOT"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ASSURANCE", "BODYSLAM", "BULLDOZE", "CALMMIND", "CONFIDE", "CRUNCH", "DARKPULSE", "DOUBLETEAM", "ENDURE", "FACADE", "FOULPLAY", "FRUSTRATION", "GIGAIMPACT", "HEX", "HIDDENPOWER", "HYPERBEAM", "LASHOUT", "MIMIC", "MUDSHOT", "NASTYPLOT", "NATURALGIFT", "PAYBACK", "PHANTOMFORCE", "PROTECT", "PSYCHOCUT", "REST", "RETURN", "ROUND", "SCARYFACE", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SNARL", "SNORE", "STOMPINGTANTRUM", "SUBSTITUTE", "SWAGGER", "SWIFT", "TAUNT", "TOXIC", "UPROAR", "WILLOWISP", "TAKEDOWN", "CONFUSERAY", "DRAININGKISS", "NIGHTSHADE", "PSYCHIC", "HAZE", "POLTERGEIST", "PAINSPLIT", "DOUBLEEDGE", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 2.0
+weight_kg = 44.5
+color = "Black"
+shape = "Quadruped"
+category = "Corcel Veloz"
+pokedex = "Examina su entorno con todos los sentidos, salvo la vista. Se dice que sus coces son capaces de robarle el alma a quien las recibe."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b4jn53ovupdlu"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_2uerc"]
+
+[resource]
+script = ExtResource("1_2uerc")
+id = 353
+name = "Shuppet"
+types = Array[int]([8])
+base_hp = 44
+base_atk = 75
+base_def = 35
+base_spe = 45
+base_spa = 63
+base_spd = 33
+catch_rate = 225
+base_exp = 59
+base_happiness = 35
+growth_rate = "Fast"
+abilities = Array[int]([15, 119])
+hidden_abilities = Array[int]([130])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 4.0,
+"move": "SCREECH"
+}, {
+"level": 7.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 10.0,
+"move": "SPITE"
+}, {
+"level": 16.0,
+"move": "WILLOWISP"
+}, {
+"level": 19.0,
+"move": "SHADOWSNEAK"
+}, {
+"level": 19.0,
+"move": "PAINSPLIT"
+}, {
+"level": 22.0,
+"move": "HEX"
+}, {
+"level": 26.0,
+"move": "CURSE"
+}, {
+"level": 30.0,
+"move": "SHADOWBALL"
+}, {
+"level": 34.0,
+"move": "ROLEPLAY"
+}, {
+"level": 38.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 42.0,
+"move": "KNOCKOFF"
+}, {
+"level": 42.0,
+"move": "TRICK"
+}, {
+"level": 46.0,
+"move": "GRUDGE"
+}, {
+"level": 48.0,
+"move": "PHANTOMFORCE"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BODYSLAM", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "DARKPULSE", "DAZZLINGGLEAM", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "EMBARGO", "ENDURE", "FACADE", "FLASH", "FOULPLAY", "FRUSTRATION", "GUNKSHOT", "HEADBUTT", "HIDDENPOWER", "ICYWIND", "KNOCKOFF", "MAGICCOAT", "MAGICROOM", "MIMIC", "NATURALGIFT", "OMINOUSWIND", "PAINSPLIT", "PAYBACK", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROLEPLAY", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SKILLSWAP", "SLEEPTALK", "SNATCH", "SNORE", "SPITE", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SWAGGER", "TAUNT", "TELEKINESIS", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TORMENT", "TRICK", "TRICKROOM", "WILLOWISP", "SCARYFACE", "PSYBEAM", "CONFUSERAY", "POUNCE", "HEX", "NIGHTSHADE", "METRONOME", "IMPRISON", "ENCORE", "HELPINGHAND", "NASTYPLOT", "PHANTOMFORCE", "POLTERGEIST", "LASHOUT", "SKITTERSMACK", "CURSE")
+egg_move_tokens = PackedStringArray("ASTONISH", "CONFUSERAY", "DESTINYBOND", "DISABLE", "GUNKSHOT", "IMPRISON", "PHANTOMFORCE", "SHADOWSNEAK")
+egg_groups = PackedStringArray("Amorphous")
+hatch_steps = 6400
+height_m = 0.6
+weight_kg = 2.3
+color = "Black"
+shape = "Head"
+category = "Títere"
+habitat = "Urban"
+pokedex = "Este Pokémon deambula en la oscuridad de la noche en busca de sentimientos negativos, como el rencor y la envidia. Antes del amanecer, se retira a su hogar."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "BANETTE",
+"method": "Level",
+"param": "37"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SPELLTAG"
+offspring = PackedStringArray()

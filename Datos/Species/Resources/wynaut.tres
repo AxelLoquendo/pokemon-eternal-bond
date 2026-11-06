@@ -1,0 +1,72 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bytho8gbaogwy"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gircu"]
+
+[resource]
+script = ExtResource("1_gircu")
+id = 360
+name = "Wynaut"
+types = Array[int]([14])
+base_hp = 95
+base_atk = 23
+base_def = 48
+base_spe = 23
+base_spa = 23
+base_spd = 48
+catch_rate = 125
+base_exp = 52
+abilities = Array[int]([23])
+hidden_abilities = Array[int]([140])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "COUNTER"
+}, {
+"level": 1.0,
+"move": "MIRRORCOAT"
+}, {
+"level": 1.0,
+"move": "SAFEGUARD"
+}, {
+"level": 1.0,
+"move": "DESTINYBOND"
+}, {
+"level": 1.0,
+"move": "SPLASH"
+}, {
+"level": 1.0,
+"move": "CHARM"
+}, {
+"level": 1.0,
+"move": "ENCORE"
+}, {
+"level": 1.0,
+"move": "AMNESIA"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "CHARM", "ENCORE", "SAFEGUARD")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 14.0
+color = "Blue"
+shape = "BipedalTail"
+category = "Radiante"
+habitat = "Cave"
+pokedex = "Wynaut disfruta comiendo fruta dulce. Usa los brazos con pinta de oreja que tiene. Se reúne con otros en huertos frutales, atraído por el aroma."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "WOBBUFFET",
+"method": "Level",
+"param": "15"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 1.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+incense = "LAXINCENSE"
+offspring = PackedStringArray()

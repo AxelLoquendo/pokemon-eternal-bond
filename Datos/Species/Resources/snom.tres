@@ -1,0 +1,53 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cwe62m4moyryf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ckhfk"]
+
+[resource]
+script = ExtResource("1_ckhfk")
+id = 872
+name = "Snom"
+types = Array[int]([15, 7])
+base_hp = 30
+base_atk = 25
+base_def = 35
+base_spe = 20
+base_spa = 45
+base_spd = 30
+catch_rate = 190
+base_exp = 37
+abilities = Array[int]([19])
+hidden_abilities = Array[int]([246])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "STRUGGLEBUG"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "ENDURE", "FACADE", "FRUSTRATION", "HIDDENPOWER", "ICICLESPEAR", "ICYWIND", "MIMIC", "NATURALGIFT", "PROTECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "TOXIC", "STRUGGLEBUG", "POUNCE", "BUGBITE", "LUNGE")
+egg_move_tokens = PackedStringArray("BUGBITE", "FAIRYWIND", "MIRRORCOAT")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 3.8
+color = "White"
+shape = "Serpentine"
+category = "Gusano"
+pokedex = "Teje un hilo gélido que le permite aferrarse a las ramas y simula ser un carámbano mientras duerme."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "FROSMOTH",
+"method": "HappinessNight",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SNOWBALL"
+offspring = PackedStringArray()

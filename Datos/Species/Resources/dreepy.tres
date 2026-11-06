@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cefk763sb566d"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6l1vv"]
+
+[resource]
+script = ExtResource("1_6l1vv")
+id = 885
+name = "Dreepy"
+types = Array[int]([16, 8])
+base_hp = 28
+base_atk = 60
+base_def = 30
+base_spe = 82
+base_spa = 40
+base_spd = 30
+base_exp = 54
+growth_rate = "Slow"
+abilities = Array[int]([29, 151])
+hidden_abilities = Array[int]([130])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "INFESTATION"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "BITE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BATONPASS", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "DRACOMETEOR", "ENDURE", "FACADE", "FRUSTRATION", "HELPINGHAND", "HIDDENPOWER", "MIMIC", "NATURALGIFT", "PROTECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "SWIFT", "THUNDERWAVE", "TOXIC", "CONFUSERAY", "DRAGONTAIL", "CURSE")
+egg_move_tokens = PackedStringArray("CONFUSERAY", "CURSE", "DISABLE", "DOUBLETEAM", "DRAGONTAIL", "GRUDGE", "SUCKERPUNCH")
+egg_groups = PackedStringArray("Amorphous", "Dragon")
+hatch_steps = 10240
+height_m = 0.5
+weight_kg = 2.0
+color = "Green"
+shape = "Serpentine"
+category = "Resentido"
+pokedex = "Habitaba los mares en tiempos inmemoriales. Ha revivido en forma de Pokémon de tipo Fantasma para vagar por su antigua morada."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "DRAKLOAK",
+"method": "Level",
+"param": "50"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

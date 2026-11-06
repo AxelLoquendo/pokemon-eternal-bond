@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d3l3r3vue0s6d"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cqh0r"]
+
+[resource]
+script = ExtResource("1_cqh0r")
+id = 277
+name = "Swellow"
+types = Array[int]([1, 3])
+base_hp = 60
+base_atk = 85
+base_def = 60
+base_spe = 125
+base_spa = 75
+base_spd = 50
+base_exp = 159
+growth_rate = "Parabolic"
+abilities = Array[int]([62])
+hidden_abilities = Array[int]([113])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PLUCK"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 5.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 9.0,
+"move": "QUICKATTACK"
+}, {
+"level": 13.0,
+"move": "WINGATTACK"
+}, {
+"level": 17.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 21.0,
+"move": "AERIALACE"
+}, {
+"level": 27.0,
+"move": "QUICKGUARD"
+}, {
+"level": 33.0,
+"move": "AGILITY"
+}, {
+"level": 39.0,
+"move": "AIRSLASH"
+}, {
+"level": 45.0,
+"move": "ENDEAVOR"
+}, {
+"level": 51.0,
+"move": "BRAVEBIRD"
+}, {
+"level": 57.0,
+"move": "REVERSAL"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AIRCUTTER", "ATTRACT", "CAPTIVATE", "CONFIDE", "COUNTER", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FLY", "FRUSTRATION", "GIGAIMPACT", "HEATWAVE", "HIDDENPOWER", "HYPERBEAM", "LASERFOCUS", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SECRETPOWER", "SKYATTACK", "SLEEPTALK", "SNORE", "STEELWING", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "THIEF", "TWISTER", "UTURN", "WORKUP")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 3840
+height_m = 0.7
+weight_kg = 19.8
+color = "Blue"
+shape = "Winged"
+category = "Buche"
+habitat = "Grassland"
+pokedex = "Swellow se lanza al agua para atrapar a su presa y no se le escapa ni una. Suele ir volando en busca de tierras de clima cálido."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

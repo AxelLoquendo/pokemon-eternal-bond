@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://hg04kajp6fa7"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_j4i6p"]
+
+[resource]
+script = ExtResource("1_j4i6p")
+id = 41
+name = "Zubat"
+types = Array[int]([4, 3])
+base_hp = 40
+base_atk = 45
+base_def = 35
+base_spe = 55
+base_spa = 30
+base_spd = 40
+catch_rate = 255
+base_exp = 49
+abilities = Array[int]([39])
+hidden_abilities = Array[int]([151])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "SUPERSONIC"
+}, {
+"level": 5.0,
+"move": "ASTONISH"
+}, {
+"level": 10.0,
+"move": "MEANLOOK"
+}, {
+"level": 15.0,
+"move": "POISONFANG"
+}, {
+"level": 20.0,
+"move": "QUICKGUARD"
+}, {
+"level": 25.0,
+"move": "AIRCUTTER"
+}, {
+"level": 30.0,
+"move": "BITE"
+}, {
+"level": 35.0,
+"move": "HAZE"
+}, {
+"level": 40.0,
+"move": "VENOSHOCK"
+}, {
+"level": 45.0,
+"move": "CONFUSERAY"
+}, {
+"level": 50.0,
+"move": "AIRSLASH"
+}, {
+"level": 55.0,
+"move": "LEECHLIFE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "AIRCUTTER", "AIRSLASH", "ASSURANCE", "ATTRACT", "BRAVEBIRD", "CAPTIVATE", "CONFIDE", "CRUNCH", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "DUALWINGBEAT", "ENDURE", "FACADE", "FLY", "FRUSTRATION", "GIGADRAIN", "HEATWAVE", "HIDDENPOWER", "LEECHLIFE", "MIMIC", "NASTYPLOT", "NATURALGIFT", "OMINOUSWIND", "PAYBACK", "PLUCK", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SLUDGEBOMB", "SNATCH", "SNORE", "STEELWING", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SWAGGER", "SWIFT", "TAILWIND", "TAUNT", "THIEF", "TORMENT", "TWISTER", "UPROAR", "UTURN", "VENOMDRENCH", "VENOSHOCK", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("BRAVEBIRD", "CURSE", "DEFOG", "GUST", "HYPNOSIS", "QUICKATTACK", "VENOMDRENCH", "WHIRLWIND", "WINGATTACK", "ZENHEADBUTT")
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 3840
+height_m = 0.8
+weight_kg = 7.5
+color = "Purple"
+shape = "Winged"
+category = "Murciélago"
+habitat = "Cave"
+pokedex = "Debido al tiempo que pasaron en oscuras cavernas, sus ojos están atrofiados y desprovistos de visión. Utilizan ondas ultrasónicas para detectar obstáculos."
+evolutions = Array[Dictionary]([{
+"into": "GOLBAT",
+"method": "Level",
+"param": "22"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

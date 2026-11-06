@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://wx5qome3vhrn"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hm7qq"]
+
+[resource]
+script = ExtResource("1_hm7qq")
+id = 596
+name = "Galvantula"
+types = Array[int]([7, 13])
+base_hp = 70
+base_atk = 77
+base_def = 60
+base_spe = 108
+base_spa = 97
+base_spd = 60
+catch_rate = 75
+base_exp = 165
+abilities = Array[int]([14, 127])
+hidden_abilities = Array[int]([68])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "STICKYWEB"
+}, {
+"level": 1.0,
+"move": "ABSORB"
+}, {
+"level": 1.0,
+"move": "FURYCUTTER"
+}, {
+"level": 1.0,
+"move": "ELECTROWEB"
+}, {
+"level": 1.0,
+"move": "BUGBITE"
+}, {
+"level": 12.0,
+"move": "STRINGSHOT"
+}, {
+"level": 16.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 20.0,
+"move": "ELECTROBALL"
+}, {
+"level": 24.0,
+"move": "AGILITY"
+}, {
+"level": 28.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 32.0,
+"move": "SLASH"
+}, {
+"level": 39.0,
+"move": "DISCHARGE"
+}, {
+"level": 44.0,
+"move": "SCREECH"
+}, {
+"level": 50.0,
+"move": "GASTROACID"
+}, {
+"level": 56.0,
+"move": "BUGBUZZ"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "BOUNCE", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "CROSSPOISON", "CUT", "DOUBLETEAM", "ELECTROBALL", "ELECTROWEB", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GIGAIMPACT", "HIDDENPOWER", "HYPERBEAM", "INFESTATION", "LEECHLIFE", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "NATURALGIFT", "PINMISSILE", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROUND", "SCREECH", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SPEEDSWAP", "STRUGGLEBUG", "SUBSTITUTE", "SWAGGER", "SWIFT", "THIEF", "THROATCHOP", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TOXIC", "VOLTSWITCH", "WILDCHARGE", "XSCISSOR", "POUNCE", "HELPINGHAND", "CHARGE", "LUNGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 14.3
+color = "Yellow"
+shape = "Insectoid"
+category = "Electroaraña"
+pokedex = "Pone trampas con hilos electrificados. De este modo, electrocuta a sus enemigos y los inmoviliza por completo."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

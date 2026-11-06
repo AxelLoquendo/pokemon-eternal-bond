@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ctpveod6xiaww"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_is0e5"]
+
+[resource]
+script = ExtResource("1_is0e5")
+id = 542
+name = "Leavanny"
+types = Array[int]([7, 12])
+base_hp = 75
+base_atk = 103
+base_def = 80
+base_spe = 92
+base_spa = 70
+base_spd = 80
+base_exp = 250
+growth_rate = "Parabolic"
+abilities = Array[int]([68, 34])
+hidden_abilities = Array[int]([142])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "SLASH"
+}, {
+"level": -1.0,
+"move": "BUGBITE"
+}, {
+"level": 1.0,
+"move": "FALSESWIPE"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "STRINGSHOT"
+}, {
+"level": 1.0,
+"move": "RAZORLEAF"
+}, {
+"level": 22.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 29.0,
+"move": "FELLSTINGER"
+}, {
+"level": 32.0,
+"move": "HELPINGHAND"
+}, {
+"level": 36.0,
+"move": "LEAFBLADE"
+}, {
+"level": 39.0,
+"move": "XSCISSOR"
+}, {
+"level": 43.0,
+"move": "ENTRAINMENT"
+}, {
+"level": 46.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 50.0,
+"move": "LEAFSTORM"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BUGBITE", "CALMMIND", "CAPTIVATE", "CONFIDE", "CUT", "DOUBLETEAM", "DREAMEATER", "ELECTROWEB", "ENDURE", "ENERGYBALL", "FACADE", "FALSESWIPE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "IRONDEFENSE", "KNOCKOFF", "LASERFOCUS", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PAYBACK", "POISONJAB", "PROTECT", "REFLECT", "REST", "RETALIATE", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SHADOWCLAW", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SOLARBEAM", "STEELWING", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "THROATCHOP", "TOXIC", "WORRYSEED", "XSCISSOR", "TAKEDOWN", "CHARM", "AGILITY", "LOWKICK", "TRAILBLAZE", "POUNCE", "MAGICALLEAF", "RAINDANCE", "BULLETSEED", "AIRSLASH", "POLLENPUFF", "BATONPASS", "GRASSYTERRAIN", "LEAFSTORM", "BUGBUZZ", "LUNGE", "GRASSYGLIDE", "TRIPLEAXEL", "SKITTERSMACK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 1.2
+weight_kg = 20.5
+color = "Yellow"
+shape = "Bipedal"
+category = "Cuidador"
+pokedex = "Calienta sus huevos con el calor desprendido por el humus. Hace mantillas con las hojas para Sewaddle."
+generation = 5
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MENTALHERB"
+offspring = PackedStringArray()

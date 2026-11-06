@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c320o6b8oloum"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_1af06"]
+
+[resource]
+script = ExtResource("1_1af06")
+id = 875
+name = "Eiscue"
+types = Array[int]([15])
+base_hp = 75
+base_atk = 80
+base_def = 110
+base_spe = 50
+base_spa = 65
+base_spd = 90
+catch_rate = 60
+base_exp = 165
+growth_rate = "Slow"
+abilities = Array[int]([248])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 6.0,
+"move": "MIST"
+}, {
+"level": 12.0,
+"move": "WEATHERBALL"
+}, {
+"level": 18.0,
+"move": "ICYWIND"
+}, {
+"level": 24.0,
+"move": "HEADBUTT"
+}, {
+"level": 30.0,
+"move": "AMNESIA"
+}, {
+"level": 36.0,
+"move": "FREEZEDRY"
+}, {
+"level": 42.0,
+"move": "HAIL"
+}, {
+"level": 42.0,
+"move": "SNOWSCAPE"
+}, {
+"level": 48.0,
+"move": "AURORAVEIL"
+}, {
+"level": 54.0,
+"move": "SURF"
+}, {
+"level": 60.0,
+"move": "BLIZZARD"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "AMNESIA", "ATTRACT", "AVALANCHE", "BLIZZARD", "BRINE", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLETEAM", "ENDURE", "FACADE", "FRUSTRATION", "HAIL", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICEPUNCH", "ICICLESPEAR", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "LIQUIDATION", "MIMIC", "NATURALGIFT", "PROTECT", "REFLECT", "REST", "RETURN", "REVERSAL", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "WATERFALL", "WEATHERBALL", "WHIRLPOOL", "ZENHEADBUTT", "TAKEDOWN", "WATERPULSE", "CHILLINGWATER", "RAINDANCE", "SNOWSCAPE", "BODYSLAM", "ICESPINNER", "GIGAIMPACT", "HYPERBEAM", "FLIPTURN", "DOUBLEEDGE", "FEATHERDANCE")
+egg_move_tokens = PackedStringArray("AQUARING", "BELLYDRUM", "DOUBLEEDGE", "HEADSMASH", "ICICLECRASH", "SOAK")
+egg_groups = PackedStringArray("Water1", "Field")
+hatch_steps = 6400
+height_m = 1.4
+weight_kg = 89.0
+color = "Blue"
+shape = "BipedalTail"
+category = "Pingüino"
+pokedex = "La corriente lo ha transportado hasta aquí desde un lugar sumamente gélido. Utiliza el hielo para mantener la cara refrigerada en todo momento."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Cara de Hielo"

@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c5ybpfr5d8b7f"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_y4w4l"]
+
+[resource]
+script = ExtResource("1_y4w4l")
+id = 899
+name = "Wyrdeer"
+types = Array[int]([1, 14])
+base_hp = 103
+base_atk = 105
+base_def = 72
+base_spe = 65
+base_spa = 105
+base_spd = 75
+base_exp = 263
+base_happiness = 70
+growth_rate = "Slow"
+abilities = Array[int]([22, 119])
+hidden_abilities = Array[int]([157])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "PSYSHIELDBASH"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 3.0,
+"move": "LEER"
+}, {
+"level": 7.0,
+"move": "ASTONISH"
+}, {
+"level": 10.0,
+"move": "HYPNOSIS"
+}, {
+"level": 13.0,
+"move": "STOMP"
+}, {
+"level": 16.0,
+"move": "SANDATTACK"
+}, {
+"level": 21.0,
+"move": "TAKEDOWN"
+}, {
+"level": 23.0,
+"move": "CONFUSERAY"
+}, {
+"level": 27.0,
+"move": "CALMMIND"
+}, {
+"level": 32.0,
+"move": "ROLEPLAY"
+}, {
+"level": 37.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 49.0,
+"move": "IMPRISON"
+}, {
+"level": 55.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 62.0,
+"move": "MEGAHORN"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "BODYSLAM", "BULLDOZE", "CALMMIND", "CHARGEBEAM", "CONFUSERAY", "CURSE", "DIG", "DOUBLEEDGE", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "FACADE", "FUTURESIGHT", "GIGAIMPACT", "GRAVITY", "HELPINGHAND", "HIGHHORSEPOWER", "HYPERBEAM", "IMPRISON", "LIGHTSCREEN", "LUNGE", "PROTECT", "PSYBEAM", "PSYCHIC", "PSYCHICNOISE", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "REFLECT", "REST", "ROAR", "SCARYFACE", "SHADOWBALL", "SKILLSWAP", "SLEEPTALK", "SOLARBEAM", "SPITE", "STOREDPOWER", "SUBSTITUTE", "SUNNYDAY", "SWIFT", "TAKEDOWN", "THIEF", "THROATCHOP", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TRAILBLAZE", "TRICK", "TRICKROOM", "UPROAR", "WILDCHARGE", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5355
+height_m = 1.8
+weight_kg = 95.1
+color = "Gray"
+shape = "Quadruped"
+category = "Gran Cuerno"
+habitat = "Grassland"
+pokedex = "Sus orbes negros brillan con un fulgor misterioso cuando erige muros invisibles. El pelaje que se desprende de sus barbas es muy codiciado para crear ropajes."
+generation = 8
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

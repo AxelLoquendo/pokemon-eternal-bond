@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dec7614dqqpfn"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hnmqy"]
+
+[resource]
+script = ExtResource("1_hnmqy")
+id = 99
+name = "Kingler"
+types = Array[int]([11])
+base_hp = 55
+base_atk = 130
+base_def = 115
+base_spe = 75
+base_spa = 50
+base_spd = 50
+catch_rate = 60
+base_exp = 166
+abilities = Array[int]([52, 75])
+hidden_abilities = Array[int]([125])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WIDEGUARD"
+}, {
+"level": 1.0,
+"move": "HAMMERARM"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "METALCLAW"
+}, {
+"level": 12.0,
+"move": "MUDSHOT"
+}, {
+"level": 16.0,
+"move": "PROTECT"
+}, {
+"level": 20.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 24.0,
+"move": "STOMP"
+}, {
+"level": 31.0,
+"move": "FLAIL"
+}, {
+"level": 36.0,
+"move": "RAZORSHELL"
+}, {
+"level": 42.0,
+"move": "SLAM"
+}, {
+"level": 48.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 54.0,
+"move": "CRABHAMMER"
+}, {
+"level": 60.0,
+"move": "GUILLOTINE"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ALLYSWITCH", "AMNESIA", "ANCIENTPOWER", "ATTRACT", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BRINE", "BRUTALSWING", "CAPTIVATE", "CONFIDE", "CUT", "DIG", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "FACADE", "FALSESWIPE", "FLING", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HAIL", "HIDDENPOWER", "HIGHHORSEPOWER", "HONECLAWS", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICYWIND", "IRONDEFENSE", "KNOCKOFF", "LIQUIDATION", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "PROTECT", "QUASH", "RAINDANCE", "RAZORSHELL", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SURF", "SWAGGER", "SWORDSDANCE", "THIEF", "WATERPULSE", "WHIRLPOOL", "XSCISSOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water3")
+hatch_steps = 5120
+height_m = 1.3
+weight_kg = 60.0
+color = "Red"
+shape = "Insectoid"
+category = "Tenaza"
+habitat = "WatersEdge"
+pokedex = "Tiene una pinza enorme y descomunal que agita en el aire para comunicarse con los demás. Lo malo es que pesa tanto que se cansa enseguida."
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

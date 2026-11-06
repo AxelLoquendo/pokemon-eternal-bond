@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://drpmiaju6msf5"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_4njex"]
+
+[resource]
+script = ExtResource("1_4njex")
+id = 817
+name = "Drizzile"
+types = Array[int]([11])
+base_hp = 65
+base_atk = 60
+base_def = 55
+base_spe = 90
+base_spa = 95
+base_spd = 55
+base_exp = 147
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([67])
+hidden_abilities = Array[int]([97])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "BIND"
+}, {
+"level": 12.0,
+"move": "WATERPULSE"
+}, {
+"level": 19.0,
+"move": "TEARFULLOOK"
+}, {
+"level": 24.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 30.0,
+"move": "UTURN"
+}, {
+"level": 36.0,
+"move": "LIQUIDATION"
+}, {
+"level": 42.0,
+"move": "SOAK"
+}, {
+"level": 48.0,
+"move": "RAINDANCE"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BATONPASS", "BOUNCE", "CAPTIVATE", "CONFIDE", "DIVE", "DOUBLETEAM", "ENDURE", "FACADE", "FLING", "FRUSTRATION", "HIDDENPOWER", "LIGHTSCREEN", "LIQUIDATION", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PROTECT", "RAINDANCE", "REFLECT", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "TOXIC", "UTURN", "WATERPLEDGE", "WEATHERBALL", "WHIRLPOOL", "WORKUP", "TAKEDOWN", "WATERPULSE", "CHILLINGWATER", "WATERFALL", "HYDROPUMP", "HAZE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Field")
+hatch_steps = 5120
+height_m = 0.7
+weight_kg = 11.5
+color = "Blue"
+shape = "BipedalTail"
+category = "Acuartija"
+pokedex = "Es inteligente, pero no muestra especial interés por nada. Distribuye trampas por su territorio para mantener alejados a sus enemigos."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "INTELEON",
+"method": "Level",
+"param": "35"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

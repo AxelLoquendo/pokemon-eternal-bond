@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c2sfipvs8qy3o"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ek3sg"]
+
+[resource]
+script = ExtResource("1_ek3sg")
+id = 952
+name = "Scovillain"
+types = Array[int]([12, 10])
+base_hp = 65
+base_atk = 108
+base_def = 65
+base_spe = 75
+base_spa = 108
+base_spd = 65
+catch_rate = 75
+base_exp = 170
+abilities = Array[int]([34, 15])
+hidden_abilities = Array[int]([141])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "SPICYEXTRACT"
+}, {
+"level": -1.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "FIREFANG"
+}, {
+"level": 1.0,
+"move": "LEAFAGE"
+}, {
+"level": 4.0,
+"move": "BITE"
+}, {
+"level": 10.0,
+"move": "GROWTH"
+}, {
+"level": 13.0,
+"move": "RAZORLEAF"
+}, {
+"level": 17.0,
+"move": "SUNNYDAY"
+}, {
+"level": 21.0,
+"move": "BULLETSEED"
+}, {
+"level": 24.0,
+"move": "HEADBUTT"
+}, {
+"level": 28.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": 33.0,
+"move": "WORRYSEED"
+}, {
+"level": 38.0,
+"move": "CRUNCH"
+}, {
+"level": 44.0,
+"move": "SEEDBOMB"
+}, {
+"level": 48.0,
+"move": "SOLARBEAM"
+}, {
+"level": 48.0,
+"move": "OVERHEAT"
+}])
+tutor_move_tokens = PackedStringArray("BULLETSEED", "BURNINGJEALOUSY", "CRUNCH", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FIREBLAST", "FIREFANG", "FLAMETHROWER", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "HELPINGHAND", "HYPERBEAM", "LASHOUT", "LEAFSTORM", "MAGICALLEAF", "OVERHEAT", "PROTECT", "REST", "SANDSTORM", "SCARYFACE", "SEEDBOMB", "SLEEPTALK", "SOLARBEAM", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "TAKEDOWN", "TEMPERFLARE", "THIEF", "TRAILBLAZE", "WILLOWISP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass")
+hatch_steps = 5120
+height_m = 0.9
+weight_kg = 15.0
+color = "Green"
+shape = "BipedalTail"
+category = "Habanero"
+habitat = "Grassland"
+pokedex = "La cabeza roja transforma los capsaicinoides de su cuerpo en energía flamígera, lo que le permite arrojar llamaradas extremadamente abrasadoras."
+generation = 9
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

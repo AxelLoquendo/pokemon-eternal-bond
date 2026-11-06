@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dadbhubowg6mk"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_06fh7"]
+
+[resource]
+script = ExtResource("1_06fh7")
+id = 846
+name = "Arrokuda"
+types = Array[int]([11])
+base_hp = 41
+base_atk = 63
+base_def = 40
+base_spe = 66
+base_spa = 40
+base_spd = 30
+catch_rate = 255
+base_exp = 56
+growth_rate = "Slow"
+abilities = Array[int]([33])
+hidden_abilities = Array[int]([239])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "AQUAJET"
+}, {
+"level": 6.0,
+"move": "FURYATTACK"
+}, {
+"level": 12.0,
+"move": "BITE"
+}, {
+"level": 18.0,
+"move": "AGILITY"
+}, {
+"level": 24.0,
+"move": "DIVE"
+}, {
+"level": 30.0,
+"move": "LASERFOCUS"
+}, {
+"level": 30.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 36.0,
+"move": "CRUNCH"
+}, {
+"level": 42.0,
+"move": "LIQUIDATION"
+}, {
+"level": 48.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ASSURANCE", "ATTRACT", "BOUNCE", "BRICKBREAK", "CAPTIVATE", "CLOSECOMBAT", "CONFIDE", "CRUNCH", "DIVE", "DOUBLETEAM", "DRILLRUN", "ENDURE", "FACADE", "FOCUSENERGY", "FRUSTRATION", "HIDDENPOWER", "ICEFANG", "LIQUIDATION", "MIMIC", "NATURALGIFT", "POISONJAB", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "RETURN", "ROUND", "SCALD", "SCALESHOT", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "SWIFT", "THROATCHOP", "TOXIC", "WATERFALL", "WHIRLPOOL", "TAKEDOWN", "WATERPULSE", "CHILLINGWATER", "SURF", "HYDROPUMP", "FLIPTURN", "DOUBLEEDGE")
+egg_move_tokens = PackedStringArray("ACUPRESSURE", "NIGHTSLASH", "SLASH", "THRASH")
+egg_groups = PackedStringArray("Water2")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 1.0
+color = "Brown"
+shape = "Finned"
+category = "Arremetida"
+pokedex = "Se siente muy orgulloso de su afilada mandíbula. En cuanto detecta el más mínimo movimiento, va directo al objetivo para cargar contra él."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "BARRASKEWDA",
+"method": "Level",
+"param": "26"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

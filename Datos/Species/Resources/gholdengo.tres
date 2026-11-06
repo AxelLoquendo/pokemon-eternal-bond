@@ -1,0 +1,78 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cvqfaxdx7l4pc"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_mus4k"]
+
+[resource]
+script = ExtResource("1_mus4k")
+id = 1000
+name = "Gholdengo"
+types = Array[int]([9, 8])
+base_hp = 87
+base_atk = 60
+base_def = 95
+base_spe = 84
+base_spa = 133
+base_spd = 91
+base_exp = 275
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([276])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 7.0,
+"move": "NIGHTSHADE"
+}, {
+"level": 14.0,
+"move": "CONFUSERAY"
+}, {
+"level": 21.0,
+"move": "SUBSTITUTE"
+}, {
+"level": 28.0,
+"move": "METALSOUND"
+}, {
+"level": 35.0,
+"move": "SHADOWBALL"
+}, {
+"level": 42.0,
+"move": "RECOVER"
+}, {
+"level": 49.0,
+"move": "POWERGEM"
+}, {
+"level": 56.0,
+"move": "MAKEITRAIN"
+}, {
+"level": 63.0,
+"move": "NASTYPLOT"
+}, {
+"level": 70.0,
+"move": "MEMENTO"
+}])
+tutor_move_tokens = PackedStringArray("CHARGEBEAM", "CONFUSERAY", "DAZZLINGGLEAM", "ELECTROBALL", "ENDURE", "FLASHCANNON", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "GIGAIMPACT", "HEAVYSLAM", "HEX", "HYPERBEAM", "IRONHEAD", "LIGHTSCREEN", "LOWKICK", "LOWSWEEP", "METALSOUND", "NASTYPLOT", "NIGHTSHADE", "POLTERGEIST", "POWERGEM", "PROTECT", "PSYCHIC", "PSYSHOCK", "REFLECT", "REST", "SANDSTORM", "SHADOWBALL", "SLEEPTALK", "STEELBEAM", "SUBSTITUTE", "TAKEDOWN", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "TRICK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 12800
+height_m = 1.2
+weight_kg = 30.0
+color = "Yellow"
+shape = "Bipedal"
+category = "Tesoro"
+habitat = "Urban"
+pokedex = "Se dice que su cuerpo está formado por 1000 monedas. Es capaz de hacer buenas migas con cualquiera rápidamente por su sociabilidad."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

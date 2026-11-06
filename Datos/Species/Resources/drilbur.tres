@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c54iqhafdpecs"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_8vviy"]
+
+[resource]
+script = ExtResource("1_8vviy")
+id = 529
+name = "Drilbur"
+types = Array[int]([5])
+base_hp = 60
+base_atk = 85
+base_def = 40
+base_spe = 68
+base_spa = 30
+base_spd = 45
+catch_rate = 120
+base_exp = 66
+abilities = Array[int]([146, 159])
+hidden_abilities = Array[int]([104])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 1.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 4.0,
+"move": "SCRATCH"
+}, {
+"level": 8.0,
+"move": "HONECLAWS"
+}, {
+"level": 12.0,
+"move": "FURYSWIPES"
+}, {
+"level": 16.0,
+"move": "METALCLAW"
+}, {
+"level": 20.0,
+"move": "SANDSTORM"
+}, {
+"level": 24.0,
+"move": "CRUSHCLAW"
+}, {
+"level": 28.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 32.0,
+"move": "DIG"
+}, {
+"level": 36.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 40.0,
+"move": "DRILLRUN"
+}, {
+"level": 44.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 48.0,
+"move": "FISSURE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CUT", "DIG", "DOUBLETEAM", "DRILLRUN", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FLING", "FRUSTRATION", "HIDDENPOWER", "HIGHHORSEPOWER", "HONECLAWS", "IRONDEFENSE", "MIMIC", "MUDSHOT", "NATURALGIFT", "POISONJAB", "PROTECT", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCORCHINGSANDS", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SLUDGEBOMB", "SNORE", "STEALTHROCK", "STRENGTH", "SUBSTITUTE", "SWAGGER", "SWORDSDANCE", "TOXIC", "XSCISSOR", "TAKEDOWN", "MUDSLAP", "METALCLAW", "SUNNYDAY", "STOMPINGTANTRUM", "HELPINGHAND", "DOUBLEEDGE", "METALSOUND", "CURSE")
+egg_move_tokens = PackedStringArray("METALSOUND", "SLASH", "SUBMISSION")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 8.5
+color = "Gray"
+shape = "BipedalTail"
+category = "Topo"
+pokedex = "Cuando junta las garras y comienza a dar vueltas frenéticas, avanza bajo tierra a gran velocidad."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "EXCADRILL",
+"method": "Level",
+"param": "31"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

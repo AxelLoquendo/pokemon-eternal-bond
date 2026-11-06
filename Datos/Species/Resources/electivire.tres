@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bjgbjvj6i2mup"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_u3x0t"]
+
+[resource]
+script = ExtResource("1_u3x0t")
+id = 466
+name = "Electivire"
+types = Array[int]([13])
+base_hp = 75
+base_atk = 123
+base_def = 67
+base_spe = 95
+base_spa = 95
+base_spd = 85
+catch_rate = 30
+base_exp = 270
+gender_ratio = "Female25Percent"
+abilities = Array[int]([78])
+hidden_abilities = Array[int]([72])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WILDCHARGE"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 1.0,
+"move": "CHARGE"
+}, {
+"level": 12.0,
+"move": "SWIFT"
+}, {
+"level": 16.0,
+"move": "SHOCKWAVE"
+}, {
+"level": 20.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 24.0,
+"move": "SCREECH"
+}, {
+"level": 28.0,
+"move": "THUNDERPUNCH"
+}, {
+"level": 34.0,
+"move": "DISCHARGE"
+}, {
+"level": 40.0,
+"move": "LOWKICK"
+}, {
+"level": 46.0,
+"move": "THUNDERBOLT"
+}, {
+"level": 52.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 58.0,
+"move": "THUNDER"
+}, {
+"level": 64.0,
+"move": "GIGAIMPACT"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COUNTER", "COVET", "DARKESTLARIAT", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DUALCHOP", "DYNAMICPUNCH", "EARTHQUAKE", "ELECTRICTERRAIN", "ELECTROBALL", "ELECTROWEB", "ENDURE", "FACADE", "FIREPUNCH", "FLAMETHROWER", "FLASH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GIGAIMPACT", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "ICEPUNCH", "IRONTAIL", "LIGHTSCREEN", "LOWKICK", "LOWSWEEP", "MAGNETRISE", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCREECH", "SECRETPOWER", "SEISMICTOSS", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SWAGGER", "SWIFT", "TAUNT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "TORMENT", "UPROAR", "VOLTSWITCH", "WEATHERBALL", "WILDCHARGE", "TAKEDOWN", "TRAILBLAZE", "BULKUP", "REFLECT", "METRONOME", "EERIEIMPULSE", "CHARGE", "KNOCKOFF", "SUPERCELLSLAM", "METALSOUND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 6400
+height_m = 1.8
+weight_kg = 138.6
+color = "Yellow"
+shape = "BipedalTail"
+category = "Rayo"
+pokedex = "Toca a su enemigo con las puntas de sus dos colas y le suelta una descarga de 20.000 voltios. Al exaltarse, se golpea con ímpetu el pecho."
+generation = 4
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "ELECTIRIZER"
+offspring = PackedStringArray()

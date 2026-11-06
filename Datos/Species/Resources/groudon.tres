@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d2jx4srlnykw3"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_fsyxq"]
+
+[resource]
+script = ExtResource("1_fsyxq")
+id = 383
+name = "Groudon"
+types = Array[int]([5])
+base_hp = 100
+base_atk = 150
+base_def = 140
+base_spe = 90
+base_spa = 100
+base_spd = 90
+catch_rate = 3
+base_exp = 335
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([70])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "MUDSHOT"
+}, {
+"level": 1.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 1.0,
+"move": "LAVAPLUME"
+}, {
+"level": 1.0,
+"move": "SCARYFACE"
+}, {
+"level": 1.0,
+"move": "PRECIPICEBLADES"
+}, {
+"level": 9.0,
+"move": "EARTHPOWER"
+}, {
+"level": 18.0,
+"move": "BULKUP"
+}, {
+"level": 27.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 36.0,
+"move": "HAMMERARM"
+}, {
+"level": 45.0,
+"move": "FISSURE"
+}, {
+"level": 54.0,
+"move": "REST"
+}, {
+"level": 72.0,
+"move": "FIREBLAST"
+}, {
+"level": 81.0,
+"move": "SOLARBEAM"
+}, {
+"level": 90.0,
+"move": "ERUPTION"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ANCIENTPOWER", "BLOCK", "BODYSLAM", "BRICKBREAK", "BRUTALSWING", "BULKUP", "BULLDOZE", "CONFIDE", "COUNTER", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAGONCLAW", "DRAGONPULSE", "DRAGONTAIL", "DYNAMICPUNCH", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLING", "FOCUSBLAST", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HEADBUTT", "HEATCRASH", "HEAVYSLAM", "HIDDENPOWER", "HIGHHORSEPOWER", "HONECLAWS", "HYPERBEAM", "INCINERATE", "IRONHEAD", "IRONTAIL", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "OVERHEAT", "POWERUPPUNCH", "PROTECT", "PSYCHUP", "REST", "RETURN", "ROAR", "ROCKCLIMB", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SAFEGUARD", "SANDSTORM", "SCARYFACE", "SCORCHINGSANDS", "SECRETPOWER", "SEISMICTOSS", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SMACKDOWN", "SNORE", "SOLARBEAM", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "UPROAR", "TAKEDOWN", "FIREFANG", "METALCLAW", "ZENHEADBUTT", "ROCKBLAST", "BODYPRESS", "SPIKES", "WILLOWISP", "CRUNCH", "HEATWAVE", "HELPINGHAND", "SANDTOMB", "FOCUSPUNCH")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 3.5
+weight_kg = 950.0
+color = "Red"
+shape = "BipedalTail"
+category = "Continente"
+habitat = "RoughTerrain"
+pokedex = "En la mitología se considera a Groudon el creador de la tierra. Duerme enterrado en magma y dicen que, al despertar, hace que los volcanes entren en erupción."
+generation = 3
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

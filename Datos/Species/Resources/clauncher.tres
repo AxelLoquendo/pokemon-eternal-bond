@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cvumasue6qj5o"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_n5y32"]
+
+[resource]
+script = ExtResource("1_n5y32")
+id = 692
+name = "Clauncher"
+types = Array[int]([11])
+base_hp = 50
+base_atk = 53
+base_def = 62
+base_spe = 44
+base_spa = 58
+base_spd = 63
+catch_rate = 225
+base_exp = 66
+growth_rate = "Slow"
+abilities = Array[int]([178])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SPLASH"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 5.0,
+"move": "VISEGRIP"
+}, {
+"level": 10.0,
+"move": "FLAIL"
+}, {
+"level": 15.0,
+"move": "AQUAJET"
+}, {
+"level": 20.0,
+"move": "SMACKDOWN"
+}, {
+"level": 25.0,
+"move": "HONECLAWS"
+}, {
+"level": 30.0,
+"move": "WATERPULSE"
+}, {
+"level": 35.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 40.0,
+"move": "AURASPHERE"
+}, {
+"level": 45.0,
+"move": "BOUNCE"
+}, {
+"level": 50.0,
+"move": "MUDDYWATER"
+}, {
+"level": 55.0,
+"move": "CRABHAMMER"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "AURASPHERE", "BOUNCE", "CAPTIVATE", "CONFIDE", "CUT", "DIVE", "DOUBLETEAM", "DRAGONPULSE", "ENDURE", "FACADE", "FLASHCANNON", "FLIPTURN", "FRUSTRATION", "HELPINGHAND", "HIDDENPOWER", "ICEBEAM", "ICYWIND", "IRONTAIL", "MIMIC", "MUDDYWATER", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SMACKDOWN", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWORDSDANCE", "TERRAINPULSE", "TOXIC", "UTURN", "VENOSHOCK", "WATERFALL", "WATERPULSE", "TAKEDOWN", "MUDSLAP", "THIEF", "POUNCE", "CHILLINGWATER", "MUDSHOT", "DARKPULSE", "LIQUIDATION", "HYDROPUMP", "BLIZZARD", "WEATHERBALL")
+egg_move_tokens = PackedStringArray("AQUATAIL", "BUBBLEBEAM", "ENTRAINMENT")
+egg_groups = PackedStringArray("Water1", "Water3")
+hatch_steps = 3840
+height_m = 0.5
+weight_kg = 8.3
+color = "Blue"
+shape = "Insectoid"
+category = "Proyectagua"
+pokedex = "Abate a enemigos voladores disparando agua a presión con su enorme pinza como si de una pistola se tratara."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "CLAWITZER",
+"method": "Level",
+"param": "37"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

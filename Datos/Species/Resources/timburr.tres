@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://s8s8d5hbt56d"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_sg7sy"]
+
+[resource]
+script = ExtResource("1_sg7sy")
+id = 532
+name = "Timburr"
+types = Array[int]([2])
+base_hp = 75
+base_atk = 80
+base_def = 55
+base_spe = 35
+base_spa = 25
+base_spd = 35
+catch_rate = 180
+base_exp = 61
+gender_ratio = "Female25Percent"
+growth_rate = "Parabolic"
+abilities = Array[int]([62, 125])
+hidden_abilities = Array[int]([89])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "LOWKICK"
+}, {
+"level": 8.0,
+"move": "ROCKTHROW"
+}, {
+"level": 12.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 16.0,
+"move": "BULKUP"
+}, {
+"level": 20.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 24.0,
+"move": "SLAM"
+}, {
+"level": 28.0,
+"move": "SCARYFACE"
+}, {
+"level": 32.0,
+"move": "DYNAMICPUNCH"
+}, {
+"level": 36.0,
+"move": "HAMMERARM"
+}, {
+"level": 40.0,
+"move": "STONEEDGE"
+}, {
+"level": 44.0,
+"move": "SUPERPOWER"
+}, {
+"level": 48.0,
+"move": "FOCUSPUNCH"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BLOCK", "BRICKBREAK", "BRUTALSWING", "BULKUP", "CAPTIVATE", "COACHING", "CONFIDE", "DIG", "DOUBLETEAM", "DRAINPUNCH", "ENDURE", "FACADE", "FIREPUNCH", "FLING", "FOCUSBLAST", "FOCUSENERGY", "FOCUSPUNCH", "FRUSTRATION", "GRASSKNOT", "HELPINGHAND", "HIDDENPOWER", "ICEPUNCH", "KNOCKOFF", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "MIMIC", "NATURALGIFT", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCARYFACE", "SECRETPOWER", "SLEEPTALK", "SMACKDOWN", "SNORE", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "TAUNT", "THUNDERPUNCH", "TOXIC", "WORKUP", "TAKEDOWN", "THIEF", "CLOSECOMBAT", "DOUBLEEDGE", "CURSE")
+egg_move_tokens = PackedStringArray("COUNTER", "DEFOG", "DETECT", "MACHPUNCH", "POWERUPPUNCH", "WIDEGUARD")
+egg_groups = PackedStringArray("Humanlike")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 12.5
+color = "Gray"
+shape = "Bipedal"
+category = "Musculoso"
+pokedex = "Siempre lleva vigas de madera. Cuando las transporta sin dificultad, es señal de que va a evolucionar. Normalmente ayuda en obras de construcción."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "GURDURR",
+"method": "Level",
+"param": "25"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

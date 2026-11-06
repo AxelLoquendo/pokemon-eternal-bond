@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b035jd4w8bm76"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_rhwh7"]
+
+[resource]
+script = ExtResource("1_rhwh7")
+id = 284
+name = "Masquerain"
+types = Array[int]([7, 3])
+base_hp = 70
+base_atk = 60
+base_def = 62
+base_spe = 80
+base_spa = 100
+base_spd = 82
+catch_rate = 75
+base_exp = 159
+abilities = Array[int]([22])
+hidden_abilities = Array[int]([127])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WHIRLWIND"
+}, {
+"level": 1.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 1.0,
+"move": "AGILITY"
+}, {
+"level": 1.0,
+"move": "MIST"
+}, {
+"level": 1.0,
+"move": "HAZE"
+}, {
+"level": 1.0,
+"move": "AQUAJET"
+}, {
+"level": 1.0,
+"move": "BATONPASS"
+}, {
+"level": 1.0,
+"move": "STICKYWEB"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 1.0,
+"move": "SOAK"
+}, {
+"level": 17.0,
+"move": "GUST"
+}, {
+"level": 22.0,
+"move": "SCARYFACE"
+}, {
+"level": 22.0,
+"move": "AIRCUTTER"
+}, {
+"level": 26.0,
+"move": "STUNSPORE"
+}, {
+"level": 32.0,
+"move": "SUPERSONIC"
+}, {
+"level": 32.0,
+"move": "AIRSLASH"
+}, {
+"level": 38.0,
+"move": "GIGADRAIN"
+}, {
+"level": 44.0,
+"move": "BUGBUZZ"
+}, {
+"level": 52.0,
+"move": "QUIVERDANCE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AIRCUTTER", "ATTRACT", "BLIZZARD", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "DEFOG", "DOUBLEEDGE", "DOUBLETEAM", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICYWIND", "INFESTATION", "LIQUIDATION", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SCALD", "SECRETPOWER", "SHADOWBALL", "SIGNALBEAM", "SILVERWIND", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "THIEF", "TWISTER", "UTURN", "WATERPULSE", "TAKEDOWN", "AGILITY", "SCARYFACE", "ACROBATICS", "PSYBEAM", "POUNCE", "CHILLINGWATER", "MUDSHOT", "FOULPLAY", "AIRSLASH", "WATERFALL", "LEECHLIFE", "SURF", "HELPINGHAND", "BATONPASS", "HYDROPUMP", "HURRICANE", "HAZE", "LUNGE", "WEATHERBALL", "DUALWINGBEAT", "SKITTERSMACK")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Bug")
+hatch_steps = 3840
+height_m = 0.8
+weight_kg = 3.6
+color = "Blue"
+shape = "MultiWinged"
+category = "Globocular"
+habitat = "WatersEdge"
+pokedex = "Intimida al enemigo con los ojos que tiene dibujados en las antenas. Como no puede volar si se le mojan las alas, se protege de la lluvia bajo aleros y grandes árboles."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SILVERPOWDER"
+offspring = PackedStringArray()

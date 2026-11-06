@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://17td787ku22t"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6wuh3"]
+
+[resource]
+script = ExtResource("1_6wuh3")
+id = 674
+name = "Pancham"
+types = Array[int]([2])
+base_hp = 67
+base_atk = 82
+base_def = 62
+base_spe = 43
+base_spa = 46
+base_spd = 48
+catch_rate = 220
+base_exp = 70
+abilities = Array[int]([89, 104])
+hidden_abilities = Array[int]([113])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "ARMTHRUST"
+}, {
+"level": 8.0,
+"move": "TAUNT"
+}, {
+"level": 12.0,
+"move": "CIRCLETHROW"
+}, {
+"level": 16.0,
+"move": "LOWSWEEP"
+}, {
+"level": 20.0,
+"move": "WORKUP"
+}, {
+"level": 24.0,
+"move": "SLASH"
+}, {
+"level": 28.0,
+"move": "VITALTHROW"
+}, {
+"level": 33.0,
+"move": "CRUNCH"
+}, {
+"level": 36.0,
+"move": "BODYSLAM"
+}, {
+"level": 40.0,
+"move": "PARTINGSHOT"
+}, {
+"level": 44.0,
+"move": "ENTRAINMENT"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BLOCK", "BODYSLAM", "BRICKBREAK", "BULKUP", "BULLDOZE", "CAPTIVATE", "COACHING", "CONFIDE", "COVET", "CRUNCH", "CUT", "DARKPULSE", "DIG", "DOUBLETEAM", "DRAINPUNCH", "DUALCHOP", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FALSESWIPE", "FIREPUNCH", "FLING", "FOCUSPUNCH", "FOULPLAY", "FRUSTRATION", "GRASSKNOT", "GUNKSHOT", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "ICEPUNCH", "IRONHEAD", "KNOCKOFF", "LASHOUT", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "MIMIC", "NATURALGIFT", "PAYBACK", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SLUDGEBOMB", "SNATCH", "SNORE", "SPITE", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SURF", "SWAGGER", "SWORDSDANCE", "TAUNT", "THUNDERPUNCH", "TORMENT", "TOXIC", "UPROAR", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("POWERTRIP", "QUASH", "QUICKGUARD", "SEISMICTOSS", "STORMTHROW")
+egg_groups = PackedStringArray("Field", "Humanlike")
+hatch_steps = 6400
+height_m = 0.6
+weight_kg = 8.0
+color = "White"
+shape = "BipedalTail"
+category = "Juguetón"
+pokedex = "Se esfuerza mucho para que el enemigo no lo menosprecie, pero su mirada no intimida demasiado. Se caracteriza por mascar siempre una hoja."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "PANGORO",
+"method": "LevelDarkInParty",
+"param": "32"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MENTALHERB"
+offspring = PackedStringArray()

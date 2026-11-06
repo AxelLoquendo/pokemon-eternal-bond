@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://5igfhgneqvuc"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_e3wh4"]
+
+[resource]
+script = ExtResource("1_e3wh4")
+id = 900
+name = "Kleavor"
+types = Array[int]([7, 6])
+base_hp = 70
+base_atk = 135
+base_def = 95
+base_spe = 85
+base_spa = 45
+base_spd = 70
+base_exp = 175
+base_happiness = 70
+abilities = Array[int]([68, 125])
+hidden_abilities = Array[int]([288])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "STONEAXE"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "FURYCUTTER"
+}, {
+"level": 8.0,
+"move": "FALSESWIPE"
+}, {
+"level": 12.0,
+"move": "SMACKDOWN"
+}, {
+"level": 16.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 20.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 24.0,
+"move": "SLASH"
+}, {
+"level": 28.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 32.0,
+"move": "AGILITY"
+}, {
+"level": 36.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 40.0,
+"move": "XSCISSOR"
+}, {
+"level": 44.0,
+"move": "SWORDSDANCE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "AIRCUTTER", "AIRSLASH", "BATONPASS", "BRICKBREAK", "BUGBITE", "BUGBUZZ", "CLOSECOMBAT", "DOUBLEEDGE", "DUALWINGBEAT", "ENDURE", "FACADE", "FALSESWIPE", "GIGAIMPACT", "HELPINGHAND", "HYPERBEAM", "LIGHTSCREEN", "LUNGE", "POUNCE", "PROTECT", "RAINDANCE", "REST", "REVERSAL", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "SANDSTORM", "SCARYFACE", "SKITTERSMACK", "SLEEPTALK", "SMACKDOWN", "STEALTHROCK", "STONEEDGE", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWIFT", "SWORDSDANCE", "TAILWIND", "TAKEDOWN", "THIEF", "TRAILBLAZE", "UTURN", "VACUUMWAVE", "XSCISSOR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 6630
+height_m = 1.8
+weight_kg = 89.0
+color = "Brown"
+shape = "MultiWinged"
+category = "Hacha"
+habitat = "Grassland"
+pokedex = "Las dos toscas hachas le permiten talar árboles mientras su piel pétrea lo protege. Dada su naturaleza agresiva, es aconsejable escapar en caso de verlo."
+generation = 8
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

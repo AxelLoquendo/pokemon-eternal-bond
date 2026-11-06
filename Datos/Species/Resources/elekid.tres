@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://5muelx1exab0"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_g64mh"]
+
+[resource]
+script = ExtResource("1_g64mh")
+id = 239
+name = "Elekid"
+types = Array[int]([13])
+base_hp = 45
+base_atk = 63
+base_def = 37
+base_spe = 95
+base_spa = 65
+base_spd = 55
+base_exp = 72
+gender_ratio = "Female25Percent"
+abilities = Array[int]([9])
+hidden_abilities = Array[int]([72])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 4.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 8.0,
+"move": "CHARGE"
+}, {
+"level": 12.0,
+"move": "SWIFT"
+}, {
+"level": 16.0,
+"move": "SHOCKWAVE"
+}, {
+"level": 20.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 24.0,
+"move": "SCREECH"
+}, {
+"level": 28.0,
+"move": "THUNDERPUNCH"
+}, {
+"level": 32.0,
+"move": "DISCHARGE"
+}, {
+"level": 36.0,
+"move": "LOWKICK"
+}, {
+"level": 40.0,
+"move": "THUNDERBOLT"
+}, {
+"level": 44.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 48.0,
+"move": "THUNDER"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "BRICKBREAK", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "COUNTER", "COVET", "DOUBLEEDGE", "DOUBLETEAM", "DUALCHOP", "DYNAMICPUNCH", "ELECTROBALL", "ELECTROWEB", "ENDURE", "FACADE", "FIREPUNCH", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "ICEPUNCH", "LIGHTSCREEN", "LOWKICK", "MAGNETRISE", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "RAINDANCE", "REST", "RETURN", "ROCKSMASH", "ROUND", "SCREECH", "SECRETPOWER", "SEISMICTOSS", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "SWIFT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "UPROAR", "VOLTSWITCH", "WILDCHARGE", "TAKEDOWN", "TRAILBLAZE", "TAUNT", "EERIEIMPULSE", "ELECTRICTERRAIN", "FOCUSBLAST", "CHARGE", "KNOCKOFF", "SUPERCELLSLAM", "METALSOUND")
+egg_move_tokens = PackedStringArray("CROSSCHOP", "DYNAMICPUNCH", "FEINT", "FIREPUNCH", "FOCUSPUNCH", "HAMMERARM", "ICEPUNCH")
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 6400
+height_m = 0.6
+weight_kg = 23.5
+color = "Yellow"
+shape = "Bipedal"
+category = "Eléctrico"
+habitat = "Grassland"
+pokedex = "Acumula electricidad. Si entra en contacto con metal y la descarga accidentalmente, agita los brazos en círculo para recargarse."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "ELECTABUZZ",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "ELECTIRIZER"
+offspring = PackedStringArray()

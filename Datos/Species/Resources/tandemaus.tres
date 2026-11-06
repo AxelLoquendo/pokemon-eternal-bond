@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cqepppuow4l4n"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_uot30"]
+
+[resource]
+script = ExtResource("1_uot30")
+id = 924
+name = "Tandemaus"
+types = Array[int]([1])
+base_hp = 50
+base_atk = 50
+base_def = 45
+base_spe = 75
+base_spa = 40
+base_spd = 45
+catch_rate = 150
+base_exp = 61
+gender_ratio = "Genderless"
+growth_rate = "Fast"
+abilities = Array[int]([50, 53])
+hidden_abilities = Array[int]([20])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 5.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 8.0,
+"move": "HELPINGHAND"
+}, {
+"level": 11.0,
+"move": "SUPERFANG"
+}, {
+"level": 14.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 18.0,
+"move": "BULLETSEED"
+}, {
+"level": 22.0,
+"move": "ENCORE"
+}, {
+"level": 26.0,
+"move": "PLAYROUGH"
+}, {
+"level": 30.0,
+"move": "HYPERVOICE"
+}, {
+"level": 33.0,
+"move": "CHARM"
+}, {
+"level": 37.0,
+"move": "BEATUP"
+}, {
+"level": 41.0,
+"move": "COPYCAT"
+}, {
+"level": 46.0,
+"move": "POPULATIONBOMB"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "BATONPASS", "BULLETSEED", "CHARM", "CRUNCH", "DIG", "DOUBLEEDGE", "ENCORE", "ENDURE", "FACADE", "FAKETEARS", "GRASSKNOT", "HELPINGHAND", "HYPERVOICE", "LOWKICK", "LOWSWEEP", "MUDSHOT", "MUDSLAP", "PLAYROUGH", "PROTECT", "RAINDANCE", "REST", "SEEDBOMB", "SHADOWCLAW", "SLEEPTALK", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SWIFT", "TAKEDOWN", "TAUNT", "THIEF", "THUNDERWAVE", "UTURN", "WATERPULSE")
+egg_move_tokens = PackedStringArray("AFTERYOU", "BATONPASS", "BITE", "FEINT", "SWITCHEROO", "TICKLE")
+egg_groups = PackedStringArray("Field", "Fairy")
+hatch_steps = 2560
+height_m = 0.3
+weight_kg = 1.8
+color = "White"
+shape = "MultiBody"
+category = "Pareja"
+habitat = "Urban"
+pokedex = "Cuando encuentran un material que les parece útil para su nido, lo recortan con sus incisivos y lo acarrean, todo en perfecta compenetración."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "MAUSHOLD",
+"method": "LevelRandForm",
+"param": "25"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

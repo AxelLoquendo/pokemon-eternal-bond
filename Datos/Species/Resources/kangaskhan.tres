@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://kgq743a2a4e0"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_tw703"]
+
+[resource]
+script = ExtResource("1_tw703")
+id = 115
+name = "Kangaskhan"
+types = Array[int]([1])
+base_hp = 105
+base_atk = 95
+base_def = 80
+base_spe = 90
+base_spa = 40
+base_spd = 80
+base_exp = 172
+gender_ratio = "AlwaysFemale"
+abilities = Array[int]([48, 113])
+hidden_abilities = Array[int]([39])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 4.0,
+"move": "GROWL"
+}, {
+"level": 8.0,
+"move": "FAKEOUT"
+}, {
+"level": 12.0,
+"move": "BITE"
+}, {
+"level": 16.0,
+"move": "STOMP"
+}, {
+"level": 20.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 24.0,
+"move": "HEADBUTT"
+}, {
+"level": 28.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 32.0,
+"move": "DOUBLEHIT"
+}, {
+"level": 36.0,
+"move": "CRUNCH"
+}, {
+"level": 40.0,
+"move": "ENDURE"
+}, {
+"level": 44.0,
+"move": "REVERSAL"
+}, {
+"level": 48.0,
+"move": "OUTRAGE"
+}, {
+"level": 52.0,
+"move": "LASTRESORT"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AQUATAIL", "ASSURANCE", "ATTRACT", "AVALANCHE", "BEATUP", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CONFIDE", "COUNTER", "COVET", "CRUNCH", "CUT", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DYNAMICPUNCH", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FLAMETHROWER", "FLING", "FOCUSBLAST", "FOCUSENERGY", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GIGAIMPACT", "HAIL", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICEPUNCH", "ICYWIND", "INCINERATE", "IRONTAIL", "LOWKICK", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "OUTRAGE", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "REVERSAL", "ROAR", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SAFEGUARD", "SANDSTORM", "SECRETPOWER", "SEISMICTOSS", "SHADOWBALL", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNORE", "SOLARBEAM", "SPITE", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SURF", "SWAGGER", "TERRAINPULSE", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "UPROAR", "WATERPULSE", "WHIRLPOOL", "WORKUP")
+egg_move_tokens = PackedStringArray("CIRCLETHROW", "COUNTER", "CRUSHCLAW", "DISABLE", "DOUBLEEDGE", "ENDEAVOR", "FOCUSENERGY", "HAMMERARM", "STOMP", "UPROAR")
+egg_groups = PackedStringArray("Monster")
+hatch_steps = 5120
+height_m = 2.2
+weight_kg = 80.0
+color = "Brown"
+shape = "BipedalTail"
+category = "Padres"
+habitat = "Grassland"
+pokedex = "Si te cruzas con uno que esté jugando, no lo molestes ni intentes atraparlo. Seguro que uno de sus progenitores anda cerca y reaccionará con enfado y violencia."
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

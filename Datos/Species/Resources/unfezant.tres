@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ci6apjix6g4yf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_f8pus"]
+
+[resource]
+script = ExtResource("1_f8pus")
+id = 521
+name = "Unfezant"
+types = Array[int]([1, 3])
+base_hp = 80
+base_atk = 115
+base_def = 80
+base_spe = 93
+base_spa = 65
+base_spd = 55
+base_exp = 244
+growth_rate = "Parabolic"
+abilities = Array[int]([145, 105])
+hidden_abilities = Array[int]([79])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GUST"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 12.0,
+"move": "TAUNT"
+}, {
+"level": 16.0,
+"move": "AIRCUTTER"
+}, {
+"level": 20.0,
+"move": "SWAGGER"
+}, {
+"level": 26.0,
+"move": "FEATHERDANCE"
+}, {
+"level": 36.0,
+"move": "DETECT"
+}, {
+"level": 42.0,
+"move": "AIRSLASH"
+}, {
+"level": 50.0,
+"move": "ROOST"
+}, {
+"level": 58.0,
+"move": "TAILWIND"
+}, {
+"level": 66.0,
+"move": "SKYATTACK"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "AIRSLASH", "ATTRACT", "BRAVEBIRD", "CAPTIVATE", "CONFIDE", "DEFOG", "DOUBLETEAM", "DUALWINGBEAT", "ECHOEDVOICE", "ENDURE", "FACADE", "FLY", "FOCUSENERGY", "FRUSTRATION", "GIGAIMPACT", "HEATWAVE", "HIDDENPOWER", "HURRICANE", "HYPERBEAM", "MIMIC", "NATURALGIFT", "PLUCK", "PROTECT", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROOST", "ROUND", "SECRETPOWER", "SKYATTACK", "SLEEPTALK", "SNORE", "STEELWING", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TAILWIND", "TAUNT", "TOXIC", "UPROAR", "UTURN", "WORKUP")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 3840
+height_m = 1.2
+weight_kg = 29.0
+color = "Gray"
+shape = "Winged"
+category = "Altanero"
+pokedex = "El macho hace gala de ornamentación en la cabeza. No es dado a hacerse amigo de alguien que no sea su entrenador."
+generation = 5
+yield_evs = {
+"atk": 3.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

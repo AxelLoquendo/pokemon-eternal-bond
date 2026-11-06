@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cd53jxb4pqe7h"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ajwam"]
+
+[resource]
+script = ExtResource("1_ajwam")
+id = 709
+name = "Trevenant"
+types = Array[int]([8, 12])
+base_hp = 85
+base_atk = 110
+base_def = 76
+base_spe = 56
+base_spa = 65
+base_spd = 82
+catch_rate = 60
+base_exp = 166
+abilities = Array[int]([30, 119])
+hidden_abilities = Array[int]([139])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "SHADOWCLAW"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "BRANCHPOKE"
+}, {
+"level": 1.0,
+"move": "LEECHSEED"
+}, {
+"level": 12.0,
+"move": "CONFUSERAY"
+}, {
+"level": 16.0,
+"move": "WILLOWISP"
+}, {
+"level": 20.0,
+"move": "HEX"
+}, {
+"level": 24.0,
+"move": "GROWTH"
+}, {
+"level": 28.0,
+"move": "HORNLEECH"
+}, {
+"level": 32.0,
+"move": "CURSE"
+}, {
+"level": 36.0,
+"move": "PHANTOMFORCE"
+}, {
+"level": 40.0,
+"move": "INGRAIN"
+}, {
+"level": 44.0,
+"move": "WOODHAMMER"
+}, {
+"level": 48.0,
+"move": "DESTINYBOND"
+}, {
+"level": 52.0,
+"move": "FORESTSCURSE"
+}])
+tutor_move_tokens = PackedStringArray("ALLYSWITCH", "ATTRACT", "BLOCK", "BRUTALSWING", "BULLDOZE", "CALMMIND", "CAPTIVATE", "CONFIDE", "CUT", "DARKPULSE", "DIG", "DOUBLETEAM", "DRAINPUNCH", "DREAMEATER", "EARTHQUAKE", "ENDURE", "ENERGYBALL", "FACADE", "FOCUSBLAST", "FOULPLAY", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "HEX", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "IMPRISON", "LEAFSTORM", "MAGICALLEAF", "MAGICCOAT", "MIMIC", "NATURALGIFT", "NATUREPOWER", "PAINSPLIT", "PHANTOMFORCE", "POISONJAB", "POLTERGEIST", "POWERUPPUNCH", "PROTECT", "PSYCHIC", "REFLECT", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROLEPLAY", "ROUND", "SAFEGUARD", "SECRETPOWER", "SEEDBOMB", "SHADOWBALL", "SHADOWCLAW", "SKILLSWAP", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SOLARBEAM", "SPITE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TELEKINESIS", "THIEF", "TOXIC", "TRICK", "TRICKROOM", "VENOMDRENCH", "WILLOWISP", "WORRYSEED", "XSCISSOR", "TAKEDOWN", "SCARYFACE", "CONFUSERAY", "TRAILBLAZE", "NIGHTSHADE", "RAINDANCE", "GRASSYTERRAIN", "HAZE", "KNOCKOFF", "BURNINGJEALOUSY", "LASHOUT", "PSYCHUP", "CURSE", "PSYCHICNOISE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass", "Amorphous")
+hatch_steps = 5120
+height_m = 1.5
+weight_kg = 71.0
+color = "Brown"
+shape = "Multiped"
+category = "Árbol Viejo"
+pokedex = "Puede controlar los árboles a su voluntad. Retiene hasta el fin de sus días a los humanos que se adentran en el bosque y lo mancillan."
+generation = 6
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

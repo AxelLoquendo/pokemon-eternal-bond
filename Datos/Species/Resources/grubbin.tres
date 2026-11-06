@@ -1,0 +1,75 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bqct7yhagtrrt"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ke4nq"]
+
+[resource]
+script = ExtResource("1_ke4nq")
+id = 736
+name = "Grubbin"
+types = Array[int]([7])
+base_hp = 47
+base_atk = 62
+base_def = 45
+base_spe = 46
+base_spa = 55
+base_spd = 45
+catch_rate = 255
+base_exp = 60
+abilities = Array[int]([68])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "VISEGRIP"
+}, {
+"level": 1.0,
+"move": "MUDSLAP"
+}, {
+"level": 5.0,
+"move": "STRINGSHOT"
+}, {
+"level": 10.0,
+"move": "BUGBITE"
+}, {
+"level": 15.0,
+"move": "BITE"
+}, {
+"level": 21.0,
+"move": "SPARK"
+}, {
+"level": 25.0,
+"move": "STICKYWEB"
+}, {
+"level": 30.0,
+"move": "XSCISSOR"
+}, {
+"level": 35.0,
+"move": "CRUNCH"
+}, {
+"level": 40.0,
+"move": "DIG"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "ATTRACT", "BUGBITE", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "CRUNCH", "DIG", "DOUBLETEAM", "ELECTROWEB", "ENDURE", "FACADE", "FRUSTRATION", "HIDDENPOWER", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "MUDSHOT", "NATURALGIFT", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROUND", "SCREECH", "SECRETPOWER", "SHOCKWAVE", "SKITTERSMACK", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "THUNDERBOLT", "THUNDERWAVE", "TOXIC", "VOLTSWITCH", "WILDCHARGE", "XSCISSOR", "TAKEDOWN", "MUDSLAP", "STRUGGLEBUG", "POUNCE", "BATONPASS", "ELECTRICTERRAIN", "CHARGE", "LUNGE")
+egg_move_tokens = PackedStringArray("DISCHARGE", "HARDEN")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.4
+weight_kg = 4.4
+color = "Gray"
+shape = "Insectoid"
+category = "Pupa"
+pokedex = "Inmoviliza al rival con el hilo viscoso que secreta y lo atrapa con sus duras y fuertes mandíbulas para atacarlo sin cuartel."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "CHARJABUG",
+"method": "Level",
+"param": "20"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

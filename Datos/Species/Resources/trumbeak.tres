@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dejm5gwjapb5y"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_4h2jd"]
+
+[resource]
+script = ExtResource("1_4h2jd")
+id = 732
+name = "Trumbeak"
+types = Array[int]([1, 3])
+base_hp = 55
+base_atk = 85
+base_def = 50
+base_spe = 75
+base_spa = 40
+base_spd = 50
+catch_rate = 120
+base_exp = 124
+abilities = Array[int]([51, 92])
+hidden_abilities = Array[int]([53])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 1.0,
+"move": "ROCKBLAST"
+}, {
+"level": 1.0,
+"move": "PECK"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "ROCKSMASH"
+}, {
+"level": 13.0,
+"move": "SUPERSONIC"
+}, {
+"level": 16.0,
+"move": "PLUCK"
+}, {
+"level": 21.0,
+"move": "ROOST"
+}, {
+"level": 24.0,
+"move": "FURYATTACK"
+}, {
+"level": 29.0,
+"move": "SCREECH"
+}, {
+"level": 32.0,
+"move": "DRILLPECK"
+}, {
+"level": 37.0,
+"move": "BULLETSEED"
+}, {
+"level": 40.0,
+"move": "FEATHERDANCE"
+}, {
+"level": 45.0,
+"move": "HYPERVOICE"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ATTRACT", "BRICKBREAK", "CAPTIVATE", "CONFIDE", "DEFOG", "DOUBLETEAM", "ECHOEDVOICE", "ENDURE", "FLAMECHARGE", "FLY", "FRUSTRATION", "GUNKSHOT", "HEATWAVE", "HIDDENPOWER", "HYPERVOICE", "KNOCKOFF", "MIMIC", "NATURALGIFT", "PROTECT", "REST", "RETURN", "ROOST", "ROUND", "SECRETPOWER", "SKYATTACK", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEELWING", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWORDSDANCE", "TAILWIND", "THIEF", "TOXIC", "UPROAR", "UTURN", "WORKUP", "TAKEDOWN", "ACROBATICS", "FACADE", "SWIFT", "AIRCUTTER", "BULLETSEED", "AIRSLASH", "ROCKBLAST", "HELPINGHAND", "BRAVEBIRD", "DUALWINGBEAT", "ENDEAVOR", "FEATHERDANCE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Flying")
+hatch_steps = 3840
+height_m = 0.6
+weight_kg = 14.8
+color = "Black"
+shape = "Winged"
+category = "Trompeta"
+pokedex = "Almacena en su pico las semillas de las bayas de las que se alimenta para usarlas como arma contra enemigos y posibles presas."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "TOUCANNON",
+"method": "Level",
+"param": "28"
+}])
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "SITRUSBERRY"
+offspring = PackedStringArray()

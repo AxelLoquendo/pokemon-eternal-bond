@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cppaf45e0ikbg"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_oaeq8"]
+
+[resource]
+script = ExtResource("1_oaeq8")
+id = 310
+name = "Manectric"
+types = Array[int]([13])
+base_hp = 70
+base_atk = 75
+base_def = 60
+base_spe = 105
+base_spa = 105
+base_spd = 60
+base_exp = 166
+growth_rate = "Slow"
+abilities = Array[int]([9, 31])
+hidden_abilities = Array[int]([58])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FIREFANG"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "HOWL"
+}, {
+"level": 12.0,
+"move": "QUICKATTACK"
+}, {
+"level": 16.0,
+"move": "SHOCKWAVE"
+}, {
+"level": 20.0,
+"move": "BITE"
+}, {
+"level": 24.0,
+"move": "THUNDERFANG"
+}, {
+"level": 30.0,
+"move": "ROAR"
+}, {
+"level": 36.0,
+"move": "DISCHARGE"
+}, {
+"level": 42.0,
+"move": "CHARGE"
+}, {
+"level": 48.0,
+"move": "WILDCHARGE"
+}, {
+"level": 54.0,
+"move": "THUNDER"
+}, {
+"level": 60.0,
+"move": "ELECTRICTERRAIN"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "BODYSLAM", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "CRUNCH", "DOUBLEEDGE", "DOUBLETEAM", "EERIEIMPULSE", "ELECTRICTERRAIN", "ELECTROBALL", "ENDURE", "FACADE", "FIREFANG", "FLAMETHROWER", "FLASH", "FRUSTRATION", "GIGAIMPACT", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "HYPERVOICE", "ICEFANG", "IRONTAIL", "LASERFOCUS", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "MUDSLAP", "NATURALGIFT", "OVERHEAT", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "RETURN", "RISINGVOLTAGE", "ROAR", "ROUND", "SCARYFACE", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNARL", "SNORE", "STRENGTH", "SUBSTITUTE", "SWAGGER", "SWIFT", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERFANG", "THUNDERWAVE", "UPROAR", "VOLTSWITCH", "WILDCHARGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.5
+weight_kg = 40.2
+color = "Yellow"
+shape = "Quadruped"
+category = "Descarga"
+habitat = "Grassland"
+pokedex = "Como los rayos caen cerca de donde está, se pensó que Manectric nacía de ellos. En combate, crea nubes de tormenta. Descarga electricidad desde su melena."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

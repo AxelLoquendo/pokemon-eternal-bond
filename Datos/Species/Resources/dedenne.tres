@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c058uof37knxw"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_kcd47"]
+
+[resource]
+script = ExtResource("1_kcd47")
+id = 702
+name = "Dedenne"
+types = Array[int]([13, 18])
+base_hp = 67
+base_atk = 58
+base_def = 57
+base_spe = 101
+base_spa = 81
+base_spd = 67
+catch_rate = 180
+base_exp = 151
+abilities = Array[int]([167, 53])
+hidden_abilities = Array[int]([57])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "NUZZLE"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 5.0,
+"move": "TACKLE"
+}, {
+"level": 10.0,
+"move": "CHARGE"
+}, {
+"level": 15.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 20.0,
+"move": "CHARM"
+}, {
+"level": 25.0,
+"move": "PARABOLICCHARGE"
+}, {
+"level": 30.0,
+"move": "VOLTSWITCH"
+}, {
+"level": 35.0,
+"move": "REST"
+}, {
+"level": 35.0,
+"move": "SNORE"
+}, {
+"level": 40.0,
+"move": "DISCHARGE"
+}, {
+"level": 45.0,
+"move": "PLAYROUGH"
+}, {
+"level": 50.0,
+"move": "SUPERFANG"
+}, {
+"level": 55.0,
+"move": "ENTRAINMENT"
+}, {
+"level": 60.0,
+"move": "THUNDER"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ALLYSWITCH", "ATTRACT", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "COVET", "CUT", "DAZZLINGGLEAM", "DIG", "DOUBLETEAM", "EERIEIMPULSE", "ELECTRICTERRAIN", "ELECTROBALL", "ELECTROWEB", "ENDURE", "FACADE", "FLASH", "FLING", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "HELPINGHAND", "HIDDENPOWER", "IRONTAIL", "LASTRESORT", "MAGNETRISE", "MIMIC", "NATURALGIFT", "PLAYROUGH", "PROTECT", "RAINDANCE", "RECYCLE", "REST", "RETALIATE", "RETURN", "RISINGVOLTAGE", "ROUND", "SECRETPOWER", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "SWAGGER", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "TOXIC", "UTURN", "VOLTSWITCH", "WILDCHARGE", "TAKEDOWN", "AGILITY", "TRAILBLAZE", "SWIFT", "DRAININGKISS", "SEEDBOMB", "LIGHTSCREEN", "MISTYTERRAIN", "HYPERBEAM", "CHARGE", "ENDEAVOR")
+egg_move_tokens = PackedStringArray("COVET", "MAGNETRISE", "TEARFULLOOK")
+egg_groups = PackedStringArray("Field", "Fairy")
+hatch_steps = 5120
+height_m = 0.2
+weight_kg = 2.2
+color = "Yellow"
+shape = "BipedalTail"
+category = "Antenas"
+pokedex = "Sus bigotes hacen la función de antenas, por lo que puede enviar y recibir ondas eléctricas para comunicarse a grandes distancias."
+generation = 6
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 2.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cj8eagbq76u6b"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_inq43"]
+
+[resource]
+script = ExtResource("1_inq43")
+id = 874
+name = "Stonjourner"
+types = Array[int]([6])
+base_hp = 100
+base_atk = 125
+base_def = 135
+base_spe = 70
+base_spa = 20
+base_spd = 20
+catch_rate = 60
+base_exp = 165
+growth_rate = "Slow"
+abilities = Array[int]([249])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "ROCKTHROW"
+}, {
+"level": 1.0,
+"move": "BLOCK"
+}, {
+"level": 6.0,
+"move": "ROCKPOLISH"
+}, {
+"level": 12.0,
+"move": "ROCKTOMB"
+}, {
+"level": 18.0,
+"move": "GRAVITY"
+}, {
+"level": 24.0,
+"move": "STOMP"
+}, {
+"level": 30.0,
+"move": "STEALTHROCK"
+}, {
+"level": 36.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 42.0,
+"move": "BODYSLAM"
+}, {
+"level": 48.0,
+"move": "WIDEGUARD"
+}, {
+"level": 54.0,
+"move": "HEAVYSLAM"
+}, {
+"level": 60.0,
+"move": "STONEEDGE"
+}, {
+"level": 66.0,
+"move": "MEGAKICK"
+}])
+tutor_move_tokens = PackedStringArray("ASSURANCE", "ATTRACT", "BODYPRESS", "BODYSLAM", "BRUTALSWING", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FRUSTRATION", "GIGAIMPACT", "HEATCRASH", "HEAVYSLAM", "HIDDENPOWER", "HYPERBEAM", "IMPRISON", "IRONDEFENSE", "MEGAKICK", "METEORBEAM", "MIMIC", "NATURALGIFT", "PROTECT", "REST", "RETURN", "ROCKBLAST", "ROCKSLIDE", "ROCKTOMB", "ROUND", "SAFEGUARD", "SANDSTORM", "SANDTOMB", "SECRETPOWER", "SELFDESTRUCT", "SLEEPTALK", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "TOXIC", "WONDERROOM", "TAKEDOWN", "LOWKICK", "LOWSWEEP", "SUNNYDAY", "POWERGEM", "GRAVITY", "SMACKDOWN", "HIGHHORSEPOWER", "PSYCHUP", "ENDEAVOR", "CURSE", "HARDPRESS")
+egg_move_tokens = PackedStringArray("ANCIENTPOWER", "CURSE")
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 6400
+height_m = 2.5
+weight_kg = 520.0
+color = "Gray"
+shape = "HeadLegs"
+category = "Megalito"
+pokedex = "Pasa el tiempo observando inmóvil el recorrido del sol sobre las extensas praderas que habita. Se especializa en técnicas de ágiles patadas."
+generation = 8
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

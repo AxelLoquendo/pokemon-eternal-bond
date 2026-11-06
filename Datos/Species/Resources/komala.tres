@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bfruipeol038g"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_vdaxo"]
+
+[resource]
+script = ExtResource("1_vdaxo")
+id = 775
+name = "Komala"
+types = Array[int]([1])
+base_hp = 65
+base_atk = 115
+base_def = 65
+base_spe = 65
+base_spa = 75
+base_spd = 95
+base_exp = 168
+growth_rate = "Slow"
+abilities = Array[int]([213])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 1.0,
+"move": "ROLLOUT"
+}, {
+"level": 6.0,
+"move": "STOCKPILE"
+}, {
+"level": 6.0,
+"move": "SPITUP"
+}, {
+"level": 6.0,
+"move": "SWALLOW"
+}, {
+"level": 11.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 16.0,
+"move": "YAWN"
+}, {
+"level": 21.0,
+"move": "SLAM"
+}, {
+"level": 26.0,
+"move": "FLAIL"
+}, {
+"level": 31.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 36.0,
+"move": "PSYCHUP"
+}, {
+"level": 41.0,
+"move": "WOODHAMMER"
+}, {
+"level": 46.0,
+"move": "THRASH"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "ATTRACT", "BRICKBREAK", "BULKUP", "BULLDOZE", "CALMMIND", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "HIDDENPOWER", "IRONHEAD", "KNOCKOFF", "LASTRESORT", "LOWSWEEP", "MIMIC", "NATURALGIFT", "PAYBACK", "PROTECT", "PSYCHUP", "QUASH", "RETURN", "ROCKSLIDE", "ROUND", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWORDSDANCE", "TOXIC", "UTURN", "WORKUP", "ZENHEADBUTT", "TAKEDOWN", "CHARM", "LOWKICK", "THIEF", "TRAILBLAZE", "METALCLAW", "ROCKTOMB", "FLING", "RAINDANCE", "BODYSLAM", "SEEDBOMB", "GUNKSHOT", "ICESPINNER", "PLAYROUGH", "REVERSAL", "GIGAIMPACT", "HYPERBEAM", "SUPERFANG", "DOUBLEEDGE", "CURSE")
+egg_move_tokens = PackedStringArray("CHARM", "PLAYROUGH", "SING", "WISH")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 19.9
+color = "Blue"
+shape = "Bipedal"
+category = "Dormitador"
+pokedex = "Duerme continuamente desde que nace. Cuando el sueño en el que está sumido es especialmente profundo se queda inmóvil."
+generation = 7
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

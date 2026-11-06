@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bbf0numlmfeen"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_jslpa"]
+
+[resource]
+script = ExtResource("1_jslpa")
+id = 957
+name = "Tinkatink"
+types = Array[int]([18, 9])
+base_hp = 50
+base_atk = 45
+base_def = 45
+base_spe = 58
+base_spa = 35
+base_spd = 64
+catch_rate = 190
+base_exp = 59
+gender_ratio = "AlwaysFemale"
+growth_rate = "Parabolic"
+abilities = Array[int]([104, 20])
+hidden_abilities = Array[int]([124])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FAIRYWIND"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 5.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 8.0,
+"move": "METALCLAW"
+}, {
+"level": 11.0,
+"move": "COVET"
+}, {
+"level": 14.0,
+"move": "ROCKSMASH"
+}, {
+"level": 17.0,
+"move": "DRAININGKISS"
+}, {
+"level": 21.0,
+"move": "SWEETKISS"
+}, {
+"level": 24.0,
+"move": "BRUTALSWING"
+}, {
+"level": 27.0,
+"move": "SLAM"
+}, {
+"level": 31.0,
+"move": "FLASHCANNON"
+}, {
+"level": 35.0,
+"move": "PLAYROUGH"
+}, {
+"level": 39.0,
+"move": "FAKEOUT"
+}, {
+"level": 43.0,
+"move": "FLATTER"
+}, {
+"level": 47.0,
+"move": "SKITTERSMACK"
+}, {
+"level": 52.0,
+"move": "KNOCKOFF"
+}])
+tutor_move_tokens = PackedStringArray("DRAININGKISS", "ENCORE", "ENDEAVOR", "ENDURE", "FACADE", "FAKETEARS", "FLASHCANNON", "FLING", "FOULPLAY", "HELPINGHAND", "KNOCKOFF", "LIGHTSCREEN", "METALCLAW", "METALSOUND", "METRONOME", "PLAYROUGH", "POUNCE", "PROTECT", "REFLECT", "REST", "ROCKSLIDE", "ROCKTOMB", "SKILLSWAP", "SKITTERSMACK", "SLEEPTALK", "STEALTHROCK", "STEELBEAM", "STONEEDGE", "SUBSTITUTE", "SWORDSDANCE", "THIEF", "THUNDERWAVE")
+egg_move_tokens = PackedStringArray("FEINT", "ICEHAMMER", "QUASH")
+egg_groups = PackedStringArray("Fairy")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 8.9
+color = "Pink"
+shape = "Bipedal"
+category = "Forja"
+habitat = "RoughTerrain"
+pokedex = "Agita su martillo forjado a mano para ahuyentar a posibles amenazas, pero los Pokémon que se alimentan a base de metal suelen robárselo."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "TINKATUFF",
+"method": "Level",
+"param": "24"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

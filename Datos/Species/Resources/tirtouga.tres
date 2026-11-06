@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bngksjt2g4yan"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_gt104"]
+
+[resource]
+script = ExtResource("1_gt104")
+id = 564
+name = "Tirtouga"
+types = Array[int]([11, 6])
+base_hp = 54
+base_atk = 78
+base_def = 103
+base_spe = 22
+base_spa = 53
+base_spd = 45
+base_exp = 71
+gender_ratio = "FemaleOneEighth"
+abilities = Array[int]([116, 5])
+hidden_abilities = Array[int]([33])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "WITHDRAW"
+}, {
+"level": 3.0,
+"move": "PROTECT"
+}, {
+"level": 6.0,
+"move": "AQUAJET"
+}, {
+"level": 9.0,
+"move": "SMACKDOWN"
+}, {
+"level": 12.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 15.0,
+"move": "BITE"
+}, {
+"level": 18.0,
+"move": "WIDEGUARD"
+}, {
+"level": 21.0,
+"move": "BRINE"
+}, {
+"level": 24.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 27.0,
+"move": "CRUNCH"
+}, {
+"level": 30.0,
+"move": "CURSE"
+}, {
+"level": 33.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 36.0,
+"move": "AQUATAIL"
+}, {
+"level": 39.0,
+"move": "RAINDANCE"
+}, {
+"level": 42.0,
+"move": "HYDROPUMP"
+}, {
+"level": 45.0,
+"move": "SHELLSMASH"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "BLIZZARD", "BLOCK", "BODYSLAM", "BRINE", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "DIG", "DIVE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FRUSTRATION", "GUARDSWAP", "HIDDENPOWER", "HYDROPUMP", "ICEBEAM", "ICYWIND", "IRONDEFENSE", "IRONTAIL", "KNOCKOFF", "LIQUIDATION", "METEORBEAM", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKBLAST", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SCALD", "SECRETPOWER", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEALTHROCK", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("BLOCK", "KNOCKOFF", "ROCKTHROW", "ROLLOUT", "SLAM", "WATERPULSE")
+egg_groups = PackedStringArray("Water1", "Water3")
+hatch_steps = 7680
+height_m = 0.7
+weight_kg = 16.5
+color = "Blue"
+shape = "Quadruped"
+category = "Pretortuga"
+pokedex = "Ya pululaba por las aguas hace 100 millones de años. también va a Tierra a veces en busca de alimento."
+generation = 5
+evolutions = Array[Dictionary]([{
+"into": "CARRACOSTA",
+"method": "Level",
+"param": "37"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

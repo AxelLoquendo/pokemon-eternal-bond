@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bf2e3a0g6w47o"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ubqwv"]
+
+[resource]
+script = ExtResource("1_ubqwv")
+id = 712
+name = "Bergmite"
+types = Array[int]([15])
+base_hp = 55
+base_atk = 69
+base_def = 85
+base_spe = 28
+base_spa = 32
+base_spd = 35
+catch_rate = 190
+base_exp = 61
+abilities = Array[int]([20, 115])
+hidden_abilities = Array[int]([5])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 3.0,
+"move": "TACKLE"
+}, {
+"level": 6.0,
+"move": "POWDERSNOW"
+}, {
+"level": 9.0,
+"move": "CURSE"
+}, {
+"level": 12.0,
+"move": "ICYWIND"
+}, {
+"level": 15.0,
+"move": "PROTECT"
+}, {
+"level": 18.0,
+"move": "AVALANCHE"
+}, {
+"level": 21.0,
+"move": "BITE"
+}, {
+"level": 24.0,
+"move": "ICEFANG"
+}, {
+"level": 27.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 30.0,
+"move": "RECOVER"
+}, {
+"level": 33.0,
+"move": "CRUNCH"
+}, {
+"level": 36.0,
+"move": "TAKEDOWN"
+}, {
+"level": 39.0,
+"move": "BLIZZARD"
+}, {
+"level": 42.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "AVALANCHE", "BLIZZARD", "CAPTIVATE", "CONFIDE", "CRUNCH", "DOUBLETEAM", "ENDURE", "FACADE", "FLASH", "FLASHCANNON", "FROSTBREATH", "FRUSTRATION", "GYROBALL", "HAIL", "HIDDENPOWER", "ICEBEAM", "ICEFANG", "ICICLESPEAR", "ICYWIND", "IRONDEFENSE", "MIMIC", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SAFEGUARD", "SECRETPOWER", "SLEEPTALK", "SNORE", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "WATERPULSE", "TAKEDOWN", "CHILLINGWATER", "BULLDOZE", "SNOWSCAPE", "BODYSLAM", "ICESPINNER", "DOUBLEEDGE", "CURSE")
+egg_move_tokens = PackedStringArray("AURORAVEIL", "MIRRORCOAT", "MIST")
+egg_groups = PackedStringArray("Monster", "Mineral")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 99.5
+color = "Blue"
+shape = "Quadruped"
+category = "Témpano"
+pokedex = "Envuelve su cuerpo en una capa de hielo que le permite evitar los ataques del enemigo. Si se resquebraja, la recompone con aire gélido."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "AVALUGG",
+"method": "Level",
+"param": "37"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

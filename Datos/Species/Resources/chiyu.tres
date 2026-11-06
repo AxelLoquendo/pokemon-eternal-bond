@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dluo372x8q2we"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6x8i0"]
+
+[resource]
+script = ExtResource("1_6x8i0")
+id = 1004
+name = "Chi-Yu"
+types = Array[int]([17, 10])
+base_hp = 55
+base_atk = 80
+base_def = 80
+base_spe = 100
+base_spa = 135
+base_spd = 120
+catch_rate = 6
+base_exp = 285
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([270])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 1.0,
+"move": "SPITE"
+}, {
+"level": 1.0,
+"move": "MEANLOOK"
+}, {
+"level": 5.0,
+"move": "FLAMEWHEEL"
+}, {
+"level": 10.0,
+"move": "PAYBACK"
+}, {
+"level": 15.0,
+"move": "WILLOWISP"
+}, {
+"level": 20.0,
+"move": "FLAMECHARGE"
+}, {
+"level": 25.0,
+"move": "INCINERATE"
+}, {
+"level": 30.0,
+"move": "CONFUSERAY"
+}, {
+"level": 35.0,
+"move": "NASTYPLOT"
+}, {
+"level": 40.0,
+"move": "DARKPULSE"
+}, {
+"level": 45.0,
+"move": "LAVAPLUME"
+}, {
+"level": 50.0,
+"move": "RUINATION"
+}, {
+"level": 55.0,
+"move": "BOUNCE"
+}, {
+"level": 60.0,
+"move": "SWAGGER"
+}, {
+"level": 65.0,
+"move": "INFERNO"
+}, {
+"level": 70.0,
+"move": "MEMENTO"
+}, {
+"level": 75.0,
+"move": "OVERHEAT"
+}])
+tutor_move_tokens = PackedStringArray("BURNINGJEALOUSY", "CONFUSERAY", "CRUNCH", "DARKPULSE", "ENDURE", "FACADE", "FIREBLAST", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "GIGAIMPACT", "HEATWAVE", "HEX", "HYPERBEAM", "LASHOUT", "LIGHTSCREEN", "NASTYPLOT", "OVERHEAT", "PROTECT", "PSYCHIC", "REFLECT", "REST", "SCARYFACE", "SLEEPTALK", "SNARL", "SPITE", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "TAUNT", "TEMPERFLARE", "WILLOWISP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 12800
+height_m = 0.4
+weight_kg = 4.9
+color = "Red"
+shape = "Finned"
+category = "Debacle"
+habitat = "Rare"
+pokedex = "Controla a su voluntad llamas de hasta 3000ºC. Nada tranquilamente por los mares de magma que crea al derretir las rocas y la grava a su paso."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://s0q27rwd633q"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_bsmey"]
+
+[resource]
+script = ExtResource("1_bsmey")
+id = 943
+name = "Mabosstiff"
+types = Array[int]([17])
+base_hp = 80
+base_atk = 120
+base_def = 90
+base_spe = 85
+base_spa = 60
+base_spd = 70
+catch_rate = 75
+base_exp = 177
+growth_rate = "Parabolic"
+abilities = Array[int]([22, 277])
+hidden_abilities = Array[int]([198])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "COMEUPPANCE"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "SCARYFACE"
+}, {
+"level": 4.0,
+"move": "LICK"
+}, {
+"level": 7.0,
+"move": "SNARL"
+}, {
+"level": 10.0,
+"move": "HONECLAWS"
+}, {
+"level": 14.0,
+"move": "BITE"
+}, {
+"level": 18.0,
+"move": "ROAR"
+}, {
+"level": 22.0,
+"move": "HEADBUTT"
+}, {
+"level": 26.0,
+"move": "PAYBACK"
+}, {
+"level": 34.0,
+"move": "CRUNCH"
+}, {
+"level": 39.0,
+"move": "SWAGGER"
+}, {
+"level": 43.0,
+"move": "REVERSAL"
+}, {
+"level": 48.0,
+"move": "JAWLOCK"
+}, {
+"level": 55.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 60.0,
+"move": "OUTRAGE"
+}])
+tutor_move_tokens = PackedStringArray("BODYSLAM", "CHARM", "CRUNCH", "CURSE", "DARKPULSE", "DIG", "DOUBLEEDGE", "ENDEAVOR", "ENDURE", "FACADE", "FAKETEARS", "FIREFANG", "GIGAIMPACT", "HELPINGHAND", "HYPERBEAM", "HYPERVOICE", "ICEFANG", "LASHOUT", "OUTRAGE", "PAINSPLIT", "PLAYROUGH", "PROTECT", "PSYCHICFANGS", "RAINDANCE", "REST", "REVERSAL", "ROAR", "SCARYFACE", "SLEEPTALK", "SNARL", "SPITE", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "TAUNT", "THIEF", "THUNDERFANG", "TRAILBLAZE", "WILDCHARGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.1
+weight_kg = 61.0
+color = "Gray"
+shape = "Quadruped"
+category = "Jefazo"
+habitat = "Urban"
+pokedex = "Almacena energía en la papada y la libera toda de golpe para arrasar con sus rivales."
+generation = 9
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

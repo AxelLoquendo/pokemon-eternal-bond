@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bp6ngthe1fpdo"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_x3rml"]
+
+[resource]
+script = ExtResource("1_x3rml")
+id = 272
+name = "Ludicolo"
+types = Array[int]([11, 12])
+base_hp = 80
+base_atk = 70
+base_def = 70
+base_spe = 70
+base_spa = 90
+base_spd = 100
+base_exp = 240
+growth_rate = "Parabolic"
+abilities = Array[int]([33, 44])
+hidden_abilities = Array[int]([20])
+level_moves = Array[Dictionary]([{
+"level": -1.0,
+"move": "TEETERDANCE"
+}, {
+"level": -1.0,
+"move": "KNOCKOFF"
+}, {
+"level": -1.0,
+"move": "FLAIL"
+}, {
+"level": -1.0,
+"move": "MIST"
+}, {
+"level": -1.0,
+"move": "MEGADRAIN"
+}, {
+"level": -1.0,
+"move": "FURYSWIPES"
+}, {
+"level": -1.0,
+"move": "ZENHEADBUTT"
+}, {
+"level": -1.0,
+"move": "ENERGYBALL"
+}, {
+"level": -1.0,
+"move": "HYDROPUMP"
+}, {
+"level": -1.0,
+"move": "ASTONISH"
+}, {
+"level": -1.0,
+"move": "GROWL"
+}, {
+"level": -1.0,
+"move": "ABSORB"
+}, {
+"level": -1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "FAKEOUT"
+}, {
+"level": 1.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 1.0,
+"move": "NATUREPOWER"
+}, {
+"level": 1.0,
+"move": "GIGADRAIN"
+}, {
+"level": 1.0,
+"move": "RAINDANCE"
+}])
+tutor_move_tokens = PackedStringArray("AMNESIA", "ATTRACT", "BLIZZARD", "BODYSLAM", "BRICKBREAK", "BULLETSEED", "CAPTIVATE", "CONFIDE", "COUNTER", "DIVE", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DYNAMICPUNCH", "ECHOEDVOICE", "ENCORE", "ENDURE", "ENERGYBALL", "FACADE", "FIREPUNCH", "FLASH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "HAIL", "HEADBUTT", "HIDDENPOWER", "HONECLAWS", "HYDROPUMP", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICEPUNCH", "ICYWIND", "KNOCKOFF", "LEAFSTORM", "MEGAKICK", "MEGAPUNCH", "METRONOME", "MIMIC", "MUDDYWATER", "MUDSHOT", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKCLIMB", "ROCKSMASH", "ROUND", "SCALD", "SECRETPOWER", "SEEDBOMB", "SEISMICTOSS", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SURF", "SWAGGER", "SWORDSDANCE", "SYNTHESIS", "THIEF", "THUNDERPUNCH", "UPROAR", "WATERFALL", "WATERPULSE", "WEATHERBALL", "WHIRLPOOL", "ZENHEADBUTT", "TAKEDOWN", "DISARMINGVOICE", "TRAILBLAZE", "CHILLINGWATER", "SWIFT", "MAGICALLEAF", "ICESPINNER", "GRASSYTERRAIN")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Grass")
+hatch_steps = 3840
+height_m = 1.5
+weight_kg = 55.0
+color = "Green"
+shape = "Bipedal"
+category = "Optimista"
+habitat = "WatersEdge"
+pokedex = "Cuando oye música festiva, las células se le revolucionan y comienza a bailar con mucho ritmo. No se acobarda ni delante del enemigo más fuerte."
+generation = 3
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 3.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MENTALHERB"
+offspring = PackedStringArray()

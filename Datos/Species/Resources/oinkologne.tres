@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c5lxfwi027idg"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_uymig"]
+
+[resource]
+script = ExtResource("1_uymig")
+id = 916
+name = "Oinkologne"
+types = Array[int]([1])
+base_hp = 110
+base_atk = 100
+base_def = 75
+base_spe = 65
+base_spa = 59
+base_spd = 80
+catch_rate = 100
+base_exp = 171
+abilities = Array[int]([279, 82])
+hidden_abilities = Array[int]([47])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 8.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 12.0,
+"move": "MUDSHOT"
+}, {
+"level": 15.0,
+"move": "COVET"
+}, {
+"level": 17.0,
+"move": "DIG"
+}, {
+"level": 23.0,
+"move": "HEADBUTT"
+}, {
+"level": 26.0,
+"move": "TAKEDOWN"
+}, {
+"level": 27.0,
+"move": "YAWN"
+}, {
+"level": 34.0,
+"move": "WORKUP"
+}, {
+"level": 38.0,
+"move": "UPROAR"
+}, {
+"level": 42.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 48.0,
+"move": "EARTHPOWER"
+}, {
+"level": 54.0,
+"move": "BELCH"
+}])
+tutor_move_tokens = PackedStringArray("BODYPRESS", "BODYSLAM", "BULLDOZE", "BULLETSEED", "CHILLINGWATER", "CURSE", "DIG", "DISARMINGVOICE", "DOUBLEEDGE", "EARTHPOWER", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "GIGAIMPACT", "HELPINGHAND", "HIGHHORSEPOWER", "HYPERBEAM", "HYPERVOICE", "IRONHEAD", "LASHOUT", "MUDSHOT", "MUDSLAP", "PLAYROUGH", "PROTECT", "RAINDANCE", "REST", "SEEDBOMB", "SLEEPTALK", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "SUPERFANG", "TAKEDOWN", "THIEF", "TRAILBLAZE", "UPROAR", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 1.0
+weight_kg = 120.0
+color = "Gray"
+shape = "Quadruped"
+category = "Gorrino"
+habitat = "Grassland"
+pokedex = "Su piel suave y lustrosa es su mayor orgullo. Desprende una fragancia concentrada por la punta de la cola."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 2.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Macho"

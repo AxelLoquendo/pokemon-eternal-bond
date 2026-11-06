@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cp16r56a35cfj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_7w0s8"]
+
+[resource]
+script = ExtResource("1_7w0s8")
+id = 729
+name = "Brionne"
+types = Array[int]([11])
+base_hp = 60
+base_atk = 69
+base_def = 69
+base_spe = 50
+base_spa = 91
+base_spd = 81
+base_exp = 147
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([67])
+hidden_abilities = Array[int]([204])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "DISARMINGVOICE"
+}, {
+"level": 9.0,
+"move": "AQUAJET"
+}, {
+"level": 12.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 15.0,
+"move": "ICYWIND"
+}, {
+"level": 20.0,
+"move": "SING"
+}, {
+"level": 25.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 30.0,
+"move": "ENCORE"
+}, {
+"level": 35.0,
+"move": "MISTYTERRAIN"
+}, {
+"level": 40.0,
+"move": "HYPERVOICE"
+}, {
+"level": 45.0,
+"move": "MOONBLAST"
+}, {
+"level": 50.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AMNESIA", "AQUATAIL", "ATTRACT", "BLIZZARD", "BRINE", "CAPTIVATE", "CHARM", "CONFIDE", "COVET", "DIVE", "DOUBLETEAM", "DRAININGKISS", "ECHOEDVOICE", "ENCORE", "ENDURE", "FACADE", "FLIPTURN", "FRUSTRATION", "HAIL", "HELPINGHAND", "HIDDENPOWER", "HYDROPUMP", "HYPERVOICE", "ICEBEAM", "ICYWIND", "IRONTAIL", "MIMIC", "MISTYTERRAIN", "NATURALGIFT", "PLAYROUGH", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROUND", "SCALD", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "TRIPLEAXEL", "UPROAR", "WATERFALL", "WATERPLEDGE", "WATERPULSE", "WHIRLPOOL", "WONDERROOM", "WORKUP", "DISARMINGVOICE", "CHILLINGWATER", "SWIFT", "BODYSLAM", "ICESPINNER")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Field")
+hatch_steps = 3840
+height_m = 0.6
+weight_kg = 17.5
+color = "Blue"
+shape = "Finned"
+category = "Fama"
+pokedex = "Un bailarín consumado. Crea globos de agua con los que golpea a sus rivales una y otra vez sin dejar de bailar."
+generation = 7
+evolutions = Array[Dictionary]([{
+"into": "PRIMARINA",
+"method": "Level",
+"param": "34"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://3c7ox1lgnac1"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_d35k6"]
+
+[resource]
+script = ExtResource("1_d35k6")
+id = 713
+name = "Avalugg"
+types = Array[int]([15])
+base_hp = 95
+base_atk = 117
+base_def = 184
+base_spe = 28
+base_spa = 44
+base_spd = 46
+catch_rate = 55
+base_exp = 180
+abilities = Array[int]([20, 115])
+hidden_abilities = Array[int]([5])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "BODYSLAM"
+}, {
+"level": 1.0,
+"move": "WIDEGUARD"
+}, {
+"level": 1.0,
+"move": "RAPIDSPIN"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "POWDERSNOW"
+}, {
+"level": 9.0,
+"move": "CURSE"
+}, {
+"level": 12.0,
+"move": "ICYWIND"
+}, {
+"level": 15.0,
+"move": "PROTECT"
+}, {
+"level": 18.0,
+"move": "AVALANCHE"
+}, {
+"level": 21.0,
+"move": "BITE"
+}, {
+"level": 24.0,
+"move": "ICEFANG"
+}, {
+"level": 27.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 30.0,
+"move": "RECOVER"
+}, {
+"level": 33.0,
+"move": "CRUNCH"
+}, {
+"level": 36.0,
+"move": "TAKEDOWN"
+}, {
+"level": 41.0,
+"move": "BLIZZARD"
+}, {
+"level": 46.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 51.0,
+"move": "SKULLBASH"
+}, {
+"level": 51.0,
+"move": "ICICLECRASH"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "AVALANCHE", "BLIZZARD", "BLOCK", "BODYPRESS", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "DOUBLETEAM", "EARTHQUAKE", "ENDURE", "FACADE", "FLASH", "FLASHCANNON", "FROSTBREATH", "FRUSTRATION", "GIGAIMPACT", "GYROBALL", "HAIL", "HEAVYSLAM", "HIDDENPOWER", "HIGHHORSEPOWER", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICEFANG", "ICICLESPEAR", "ICYWIND", "IRONDEFENSE", "IRONHEAD", "MIMIC", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROAR", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SAFEGUARD", "SECRETPOWER", "SLEEPTALK", "SNORE", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUPERPOWER", "SURF", "SWAGGER", "TOXIC", "WATERPULSE", "TAKEDOWN", "SCARYFACE", "CHILLINGWATER", "SNOWSCAPE", "ICESPINNER", "DOUBLEEDGE", "CURSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Monster", "Mineral")
+hatch_steps = 5120
+height_m = 2.0
+weight_kg = 505.0
+color = "Blue"
+shape = "Quadruped"
+category = "Iceberg"
+pokedex = "Su cuerpo, cubierto de hielo, es tan duro como el propio acero. Su abultada figura le permite arramblar con todo lo que se encuentra a su paso."
+generation = 6
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

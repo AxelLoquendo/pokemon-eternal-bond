@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d3120o8t8e0bt"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_0yo0y"]
+
+[resource]
+script = ExtResource("1_0yo0y")
+id = 1019
+name = "Hydrapple"
+types = Array[int]([12, 16])
+base_hp = 106
+base_atk = 80
+base_def = 110
+base_spe = 44
+base_spa = 120
+base_spd = 80
+catch_rate = 10
+base_exp = 270
+growth_rate = "Erratic"
+abilities = Array[int]([299, 144])
+hidden_abilities = Array[int]([60])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "FICKLEBEAM"
+}, {
+"level": -1.0,
+"move": "YAWN"
+}, {
+"level": -1.0,
+"move": "DOUBLEHIT"
+}, {
+"level": -1.0,
+"move": "INFESTATION"
+}, {
+"level": 1.0,
+"move": "WITHDRAW"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 1.0,
+"move": "RECYCLE"
+}, {
+"level": 1.0,
+"move": "ASTONISH"
+}, {
+"level": 4.0,
+"move": "DRAGONTAIL"
+}, {
+"level": 8.0,
+"move": "GROWTH"
+}, {
+"level": 12.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 16.0,
+"move": "PROTECT"
+}, {
+"level": 20.0,
+"move": "BULLETSEED"
+}, {
+"level": 28.0,
+"move": "SYRUPBOMB"
+}, {
+"level": 32.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 36.0,
+"move": "RECOVER"
+}, {
+"level": 40.0,
+"move": "ENERGYBALL"
+}, {
+"level": 44.0,
+"move": "SUBSTITUTE"
+}, {
+"level": 54.0,
+"move": "POWERWHIP"
+}])
+tutor_move_tokens = PackedStringArray("BODYPRESS", "BODYSLAM", "BREAKINGSWIPE", "BUGBITE", "BULLETSEED", "CURSE", "DOUBLEEDGE", "DRACOMETEOR", "DRAGONCHEER", "DRAGONPULSE", "DRAGONTAIL", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "ENERGYBALL", "FACADE", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRASSYGLIDE", "GRASSYTERRAIN", "GYROBALL", "HEAVYSLAM", "HYDROPUMP", "HYPERBEAM", "LEAFSTORM", "MAGICALLEAF", "NASTYPLOT", "OUTRAGE", "POLLENPUFF", "POUNCE", "PROTECT", "RAINDANCE", "REFLECT", "REST", "SEEDBOMB", "SLEEPTALK", "SOLARBEAM", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "UPROAR")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Grass", "Dragon")
+hatch_steps = 2560
+height_m = 1.8
+weight_kg = 93.0
+color = "Green"
+shape = "MultiBody"
+category = "Manzanhidra"
+habitat = "Forest"
+pokedex = "Se trata de siete seres llamados Viborappli que viven juntos en una manzana de caramelo. El del centro es el líder del grupo."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

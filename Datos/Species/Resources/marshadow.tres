@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cg0o0ka36h8gv"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_krb6a"]
+
+[resource]
+script = ExtResource("1_krb6a")
+id = 802
+name = "Marshadow"
+types = Array[int]([2, 8])
+base_hp = 90
+base_atk = 125
+base_def = 80
+base_spe = 125
+base_spa = 90
+base_spd = 90
+catch_rate = 3
+base_exp = 300
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([101])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "THUNDERPUNCH"
+}, {
+"level": 1.0,
+"move": "FIREPUNCH"
+}, {
+"level": 1.0,
+"move": "ICEPUNCH"
+}, {
+"level": 1.0,
+"move": "COPYCAT"
+}, {
+"level": 1.0,
+"move": "SHADOWSNEAK"
+}, {
+"level": 1.0,
+"move": "FEINT"
+}, {
+"level": 1.0,
+"move": "COUNTER"
+}, {
+"level": 9.0,
+"move": "ROLEPLAY"
+}, {
+"level": 18.0,
+"move": "SHADOWPUNCH"
+}, {
+"level": 27.0,
+"move": "FORCEPALM"
+}, {
+"level": 36.0,
+"move": "ASSURANCE"
+}, {
+"level": 45.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 54.0,
+"move": "DRAINPUNCH"
+}, {
+"level": 63.0,
+"move": "PSYCHUP"
+}, {
+"level": 72.0,
+"move": "SPECTRALTHIEF"
+}, {
+"level": 81.0,
+"move": "LASERFOCUS"
+}, {
+"level": 90.0,
+"move": "ENDEAVOR"
+}, {
+"level": 99.0,
+"move": "CLOSECOMBAT"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AGILITY", "ASSURANCE", "AURASPHERE", "BLAZEKICK", "BOUNCE", "BRICKBREAK", "BULKUP", "CALMMIND", "CLOSECOMBAT", "COACHING", "CONFIDE", "DOUBLETEAM", "DRAINPUNCH", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FALSESWIPE", "FIREPUNCH", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FOULPLAY", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "HEX", "HIDDENPOWER", "HYPERBEAM", "ICEPUNCH", "IRONHEAD", "KNOCKOFF", "LASERFOCUS", "LASTRESORT", "LOWKICK", "LOWSWEEP", "MEGAKICK", "MEGAPUNCH", "MIMIC", "NATURALGIFT", "OUTRAGE", "PAYBACK", "PHANTOMFORCE", "POISONJAB", "POLTERGEIST", "PROTECT", "PSYCHUP", "REST", "RETURN", "REVENGE", "REVERSAL", "ROCKSLIDE", "ROCKTOMB", "ROLEPLAY", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHADOWCLAW", "SKITTERSMACK", "SLEEPTALK", "SMACKDOWN", "SNATCH", "SNORE", "STONEEDGE", "SUBSTITUTE", "SUPERPOWER", "SWAGGER", "SWIFT", "THIEF", "THROATCHOP", "THUNDERPUNCH", "TOXIC", "WILLOWISP", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 0.7
+weight_kg = 22.2
+color = "Gray"
+shape = "Bipedal"
+category = "Morasombra"
+pokedex = "Se oculta en la sombra de su oponente y copia sus movimientos y su fuerza. Su imitación resulta más poderosa que el original."
+generation = 7
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray("Mythical")
+offspring = PackedStringArray()

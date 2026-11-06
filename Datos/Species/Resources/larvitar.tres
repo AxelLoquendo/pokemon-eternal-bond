@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ceuccvqwyy18l"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_asa3n"]
+
+[resource]
+script = ExtResource("1_asa3n")
+id = 246
+name = "Larvitar"
+types = Array[int]([6, 5])
+base_hp = 50
+base_atk = 64
+base_def = 50
+base_spe = 41
+base_spa = 45
+base_spd = 50
+base_exp = 60
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([62])
+hidden_abilities = Array[int]([8])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 3.0,
+"move": "ROCKTHROW"
+}, {
+"level": 6.0,
+"move": "PAYBACK"
+}, {
+"level": 9.0,
+"move": "BITE"
+}, {
+"level": 12.0,
+"move": "SCARYFACE"
+}, {
+"level": 15.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 18.0,
+"move": "STOMPINGTANTRUM"
+}, {
+"level": 21.0,
+"move": "SCREECH"
+}, {
+"level": 24.0,
+"move": "DARKPULSE"
+}, {
+"level": 24.0,
+"move": "SMACKDOWN"
+}, {
+"level": 27.0,
+"move": "CRUNCH"
+}, {
+"level": 31.0,
+"move": "EARTHQUAKE"
+}, {
+"level": 33.0,
+"move": "STONEEDGE"
+}, {
+"level": 36.0,
+"move": "THRASH"
+}, {
+"level": 39.0,
+"move": "SANDSTORM"
+}, {
+"level": 42.0,
+"move": "HYPERBEAM"
+}])
+tutor_move_tokens = PackedStringArray("ANCIENTPOWER", "ASSURANCE", "ATTRACT", "BODYSLAM", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CRUNCH", "DARKPULSE", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAGONDANCE", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "FACADE", "FOCUSENERGY", "FRUSTRATION", "HEADBUTT", "HIDDENPOWER", "HYPERBEAM", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MIMIC", "MUDDYWATER", "MUDSLAP", "NATURALGIFT", "OUTRAGE", "PAYBACK", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SANDSTORM", "SANDTOMB", "SCARYFACE", "SCREECH", "SECRETPOWER", "SLEEPTALK", "SMACKDOWN", "SNARL", "SNORE", "SPITE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "TAUNT", "TORMENT", "UPROAR", "TAKEDOWN", "MUDSHOT", "ROCKBLAST", "HELPINGHAND", "GIGAIMPACT", "CURSE")
+egg_move_tokens = PackedStringArray("ANCIENTPOWER", "ASSURANCE", "CURSE", "DRAGONDANCE", "FOCUSENERGY", "IRONDEFENSE", "IRONHEAD", "OUTRAGE", "STOMP")
+egg_groups = PackedStringArray("Monster")
+hatch_steps = 10240
+height_m = 0.6
+weight_kg = 72.0
+color = "Green"
+shape = "BipedalTail"
+category = "Piel Roca"
+habitat = "Mountain"
+pokedex = "Nace bajo tierra a gran profundidad y se abre paso hasta la superficie comiendo lo que encuentra en su camino. Hasta que no llega arriba, no conoce a sus padres."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "PUPITAR",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

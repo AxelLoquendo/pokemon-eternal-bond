@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b0gy6hnyg0wrb"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_n158d"]
+
+[resource]
+script = ExtResource("1_n158d")
+id = 493
+name = "Arceus"
+types = Array[int]([1])
+base_hp = 120
+base_atk = 120
+base_def = 120
+base_spe = 120
+base_spa = 120
+base_spd = 120
+catch_rate = 3
+base_exp = 360
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([121])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SEISMICTOSS"
+}, {
+"level": 1.0,
+"move": "COSMICPOWER"
+}, {
+"level": 10.0,
+"move": "GRAVITY"
+}, {
+"level": 20.0,
+"move": "EARTHPOWER"
+}, {
+"level": 30.0,
+"move": "HYPERVOICE"
+}, {
+"level": 40.0,
+"move": "EXTREMESPEED"
+}, {
+"level": 50.0,
+"move": "HEALINGWISH"
+}, {
+"level": 60.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 70.0,
+"move": "RECOVER"
+}, {
+"level": 80.0,
+"move": "HYPERBEAM"
+}, {
+"level": 90.0,
+"move": "PERISHSONG"
+}, {
+"level": 100.0,
+"move": "JUDGMENT"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ANCIENTPOWER", "AQUATAIL", "AVALANCHE", "BLIZZARD", "BRICKBREAK", "BRINE", "BULLDOZE", "BULLETSEED", "CALMMIND", "CHARGEBEAM", "CONFIDE", "CUT", "DARKPULSE", "DEFOG", "DIVE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONCLAW", "DRAGONPULSE", "DREAMEATER", "EARTHPOWER", "EARTHQUAKE", "ECHOEDVOICE", "ENDURE", "ENERGYBALL", "FACADE", "FIREBLAST", "FLAMETHROWER", "FLASH", "FLASHCANNON", "FLY", "FOCUSBLAST", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "GIGAIMPACT", "GRASSKNOT", "GRAVITY", "HAIL", "HEADBUTT", "HEATWAVE", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "HYPERVOICE", "ICEBEAM", "ICYWIND", "INCINERATE", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "LASERFOCUS", "LASTRESORT", "LIGHTSCREEN", "LIQUIDATION", "MAGICCOAT", "MIMIC", "MUDSLAP", "NATURALGIFT", "OMINOUSWIND", "OUTRAGE", "OVERHEAT", "PAYBACK", "POISONJAB", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "QUASH", "RAINDANCE", "RECYCLE", "REFLECT", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SAFEGUARD", "SANDSTORM", "SECRETPOWER", "SHADOWBALL", "SHADOWCLAW", "SHOCKWAVE", "SIGNALBEAM", "SILVERWIND", "SLEEPTALK", "SLUDGEBOMB", "SNARL", "SNORE", "SOLARBEAM", "STEALTHROCK", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SURF", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAILWIND", "TELEKINESIS", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TRICK", "TRICKROOM", "TWISTER", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "WILLOWISP", "WORKUP", "XSCISSOR", "ZENHEADBUTT", "TAKEDOWN", "AGILITY", "SCARYFACE", "ACIDSPRAY", "CONFUSERAY", "TRAILBLAZE", "CHILLINGWATER", "HEX", "MAGICALLEAF", "STOREDPOWER", "DRAGONTAIL", "FOULPLAY", "BULKUP", "AIRSLASH", "BODYSLAM", "DAZZLINGGLEAM", "STOMPINGTANTRUM", "TAUNT", "BODYPRESS", "IMPRISON", "DRAGONDANCE", "POWERGEM", "GUNKSHOT", "AURASPHERE", "HEAVYSLAM", "ELECTRICTERRAIN", "GRASSYTERRAIN", "PSYCHICTERRAIN", "MISTYTERRAIN", "HYDROPUMP", "WILDCHARGE", "PHANTOMFORCE", "HURRICANE", "BUGBUZZ", "FLAREBLITZ", "STEELBEAM", "DOUBLEEDGE", "SUPERCELLSLAM", "SCORCHINGSANDS", "FUTURESIGHT", "METEORBEAM")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 3.2
+weight_kg = 320.0
+color = "White"
+shape = "Quadruped"
+category = "Alfa"
+pokedex = "Según la mitología de Sinnoh, Arceus surgió de un huevo en un lugar en el que no había nada y después dio forma al Universo con sus 1.000 brazos."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 3.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Mythical")
+offspring = PackedStringArray()
+form_name = "Tipo Normal"

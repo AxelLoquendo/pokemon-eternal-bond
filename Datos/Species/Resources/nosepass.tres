@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bf603r2dppn4w"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_7qmo0"]
+
+[resource]
+script = ExtResource("1_7qmo0")
+id = 299
+name = "Nosepass"
+types = Array[int]([6])
+base_hp = 30
+base_atk = 45
+base_def = 135
+base_spe = 30
+base_spa = 45
+base_spd = 90
+catch_rate = 255
+base_exp = 75
+abilities = Array[int]([5, 42])
+hidden_abilities = Array[int]([159])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 4.0,
+"move": "HARDEN"
+}, {
+"level": 7.0,
+"move": "BLOCK"
+}, {
+"level": 10.0,
+"move": "ROCKTHROW"
+}, {
+"level": 13.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 16.0,
+"move": "REST"
+}, {
+"level": 19.0,
+"move": "SPARK"
+}, {
+"level": 22.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 25.0,
+"move": "POWERGEM"
+}, {
+"level": 28.0,
+"move": "ROCKBLAST"
+}, {
+"level": 31.0,
+"move": "DISCHARGE"
+}, {
+"level": 34.0,
+"move": "SANDSTORM"
+}, {
+"level": 37.0,
+"move": "EARTHPOWER"
+}, {
+"level": 40.0,
+"move": "STONEEDGE"
+}, {
+"level": 43.0,
+"move": "LOCKON"
+}, {
+"level": 43.0,
+"move": "ZAPCANNON"
+}])
+tutor_move_tokens = PackedStringArray("ANCIENTPOWER", "ATTRACT", "BLOCK", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DAZZLINGGLEAM", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "DYNAMICPUNCH", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FIREPUNCH", "FRUSTRATION", "GRAVITY", "HEADBUTT", "HIDDENPOWER", "ICEPUNCH", "IRONDEFENSE", "MAGICCOAT", "MAGNETRISE", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAINSPLIT", "PROTECT", "REST", "RETURN", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SECRETPOWER", "SHOCKWAVE", "SLEEPTALK", "SMACKDOWN", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "TORMENT", "VOLTSWITCH", "TAKEDOWN", "ROCKBLAST", "BODYPRESS", "FLASHCANNON", "POWERGEM", "HEAVYSLAM", "HELPINGHAND", "STEELBEAM", "SANDTOMB", "HIGHHORSEPOWER", "METEORBEAM", "CURSE")
+egg_move_tokens = PackedStringArray("BLOCK", "DOUBLEEDGE", "ROLLOUT", "WIDEGUARD")
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 5120
+height_m = 1.0
+weight_kg = 97.0
+color = "Gray"
+shape = "Bipedal"
+category = "Brújula"
+habitat = "Cave"
+pokedex = "Su cuerpo emite un magnetismo de gran alcance. Se alimenta de las presas que atrae. La fuerza que ejerce se intensifica en las estaciones frías."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "PROBOPASS",
+"method": "LocationFlag",
+"param": "Magnetic"
+}, {
+"into": "PROBOPASS",
+"method": "Item",
+"param": "THUNDERSTONE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "MAGNET"
+offspring = PackedStringArray()

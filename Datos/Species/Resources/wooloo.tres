@@ -1,0 +1,82 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c504fvkl7ov8v"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6tqxj"]
+
+[resource]
+script = ExtResource("1_6tqxj")
+id = 831
+name = "Wooloo"
+types = Array[int]([1])
+base_hp = 42
+base_atk = 40
+base_def = 55
+base_spe = 48
+base_spa = 40
+base_spd = 45
+catch_rate = 255
+base_exp = 122
+abilities = Array[int]([218, 50])
+hidden_abilities = Array[int]([171])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 4.0,
+"move": "DEFENSECURL"
+}, {
+"level": 8.0,
+"move": "COPYCAT"
+}, {
+"level": 12.0,
+"move": "GUARDSPLIT"
+}, {
+"level": 16.0,
+"move": "DOUBLEKICK"
+}, {
+"level": 21.0,
+"move": "HEADBUTT"
+}, {
+"level": 25.0,
+"move": "TAKEDOWN"
+}, {
+"level": 28.0,
+"move": "GUARDSWAP"
+}, {
+"level": 32.0,
+"move": "REVERSAL"
+}, {
+"level": 36.0,
+"move": "COTTONGUARD"
+}, {
+"level": 40.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "ATTRACT", "CAPTIVATE", "CONFIDE", "DOUBLETEAM", "ELECTROBALL", "ENDURE", "FACADE", "FRUSTRATION", "GRASSYGLIDE", "GUARDSWAP", "HIDDENPOWER", "MIMIC", "NATURALGIFT", "PAYBACK", "PROTECT", "REST", "RETURN", "REVERSAL", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SWAGGER", "THUNDERWAVE", "TOXIC", "WILDCHARGE")
+egg_move_tokens = PackedStringArray("COUNTER", "STOMP", "SWAGGER")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 3840
+height_m = 0.6
+weight_kg = 6.0
+color = "White"
+shape = "Quadruped"
+category = "Oveja"
+pokedex = "Su lana rizada es tan acolchada que no se hace daño ni aunque se caiga por un precipicio."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "DUBWOOL",
+"method": "Level",
+"param": "24"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

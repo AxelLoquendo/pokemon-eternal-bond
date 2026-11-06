@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cb4crs7o4hcxr"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_6a0t5"]
+
+[resource]
+script = ExtResource("1_6a0t5")
+id = 626
+name = "Bouffalant"
+types = Array[int]([1])
+base_hp = 95
+base_atk = 110
+base_def = 95
+base_spe = 55
+base_spa = 40
+base_spd = 95
+base_exp = 172
+abilities = Array[int]([120, 157])
+hidden_abilities = Array[int]([43])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 5.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 10.0,
+"move": "FURYATTACK"
+}, {
+"level": 15.0,
+"move": "REVENGE"
+}, {
+"level": 20.0,
+"move": "SCARYFACE"
+}, {
+"level": 25.0,
+"move": "HORNATTACK"
+}, {
+"level": 30.0,
+"move": "REVERSAL"
+}, {
+"level": 35.0,
+"move": "THROATCHOP"
+}, {
+"level": 40.0,
+"move": "HEADCHARGE"
+}, {
+"level": 45.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 50.0,
+"move": "MEGAHORN"
+}, {
+"level": 55.0,
+"move": "GIGAIMPACT"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AMNESIA", "ASSURANCE", "ATTRACT", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CLOSECOMBAT", "CONFIDE", "CUT", "DOUBLETEAM", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FOCUSENERGY", "FRUSTRATION", "GIGAIMPACT", "HIDDENPOWER", "HIGHHORSEPOWER", "IRONHEAD", "LASHOUT", "MEGAHORN", "MIMIC", "MUDSHOT", "NATURALGIFT", "OUTRAGE", "PAYBACK", "POISONJAB", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "REVENGE", "REVERSAL", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCARYFACE", "SECRETPOWER", "SLEEPTALK", "SMARTSTRIKE", "SNORE", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SURF", "SWAGGER", "SWORDSDANCE", "TAUNT", "THROATCHOP", "TOXIC", "UPROAR", "WILDCHARGE", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("BELCH", "COTTONGUARD", "ENDEAVOR", "HEADBUTT", "MUDSLAP", "SKULLBASH", "STOMP")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.6
+weight_kg = 94.5
+color = "Brown"
+shape = "Quadruped"
+category = "Torocabezazo"
+pokedex = "Embiste con la cabeza sin distinción. Su potencia es capaz de hacer descarrilar un tren en marcha."
+generation = 5
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://camv8ov6hqdrs"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_cfe6o"]
+
+[resource]
+script = ExtResource("1_cfe6o")
+id = 954
+name = "Rabsca"
+types = Array[int]([7, 14])
+base_hp = 75
+base_atk = 50
+base_def = 85
+base_spe = 45
+base_spa = 115
+base_spd = 100
+base_exp = 165
+growth_rate = "Fast"
+abilities = Array[int]([28])
+hidden_abilities = Array[int]([140])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "REVIVALBLESSING"
+}, {
+"level": -1.0,
+"move": "SAFEGUARD"
+}, {
+"level": -1.0,
+"move": "PSYCHUP"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "CONFUSION"
+}, {
+"level": 1.0,
+"move": "DEFENSECURL"
+}, {
+"level": 4.0,
+"move": "SANDATTACK"
+}, {
+"level": 7.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 11.0,
+"move": "ROLLOUT"
+}, {
+"level": 15.0,
+"move": "PSYBEAM"
+}, {
+"level": 20.0,
+"move": "BUGBITE"
+}, {
+"level": 24.0,
+"move": "TAKEDOWN"
+}, {
+"level": 29.0,
+"move": "EXTRASENSORY"
+}, {
+"level": 35.0,
+"move": "LUNGE"
+}, {
+"level": 40.0,
+"move": "POWERSWAP"
+}, {
+"level": 40.0,
+"move": "SPEEDSWAP"
+}, {
+"level": 40.0,
+"move": "GUARDSWAP"
+}, {
+"level": 45.0,
+"move": "BUGBUZZ"
+}, {
+"level": 50.0,
+"move": "PSYCHIC"
+}])
+tutor_move_tokens = PackedStringArray("BUGBITE", "BUGBUZZ", "CALMMIND", "CONFUSERAY", "DAZZLINGGLEAM", "DIG", "EARTHPOWER", "ELECTROBALL", "ENDURE", "ENERGYBALL", "EXPANDINGFORCE", "FACADE", "FLING", "FUTURESIGHT", "GIGAIMPACT", "GRAVITY", "GUNKSHOT", "HYPERBEAM", "IMPRISON", "IRONDEFENSE", "LEECHLIFE", "LIGHTSCREEN", "LUNGE", "MUDSHOT", "MUDSLAP", "POLTERGEIST", "POUNCE", "POWERGEM", "PROTECT", "PSYBEAM", "PSYCHIC", "PSYCHICNOISE", "PSYCHICTERRAIN", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "REFLECT", "REST", "ROCKTOMB", "SANDSTORM", "SHADOWBALL", "SKILLSWAP", "SKITTERSMACK", "SLEEPTALK", "SLUDGEBOMB", "STOREDPOWER", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "TAKEDOWN", "THIEF", "TRICK", "TRICKROOM", "WEATHERBALL", "XSCISSOR", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 5120
+height_m = 0.3
+weight_kg = 3.5
+color = "Green"
+shape = "Insectoid"
+category = "Pelotero"
+habitat = "RoughTerrain"
+pokedex = "El cuerpo que sostiene la bola apenas se mueve, por lo que se cree que el cuerpo en el interior de esta es quien controla sus acciones."
+generation = 9
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

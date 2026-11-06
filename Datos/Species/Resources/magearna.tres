@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfle07r3qteen"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ycsjc"]
+
+[resource]
+script = ExtResource("1_ycsjc")
+id = 801
+name = "Magearna"
+types = Array[int]([9, 18])
+base_hp = 80
+base_atk = 95
+base_def = 115
+base_spe = 65
+base_spa = 130
+base_spd = 115
+catch_rate = 3
+base_exp = 300
+base_happiness = 0
+gender_ratio = "Genderless"
+growth_rate = "Slow"
+abilities = Array[int]([220])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "GYROBALL"
+}, {
+"level": 1.0,
+"move": "HELPINGHAND"
+}, {
+"level": 6.0,
+"move": "DEFENSECURL"
+}, {
+"level": 12.0,
+"move": "ROLLOUT"
+}, {
+"level": 18.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 24.0,
+"move": "GEARUP"
+}, {
+"level": 24.0,
+"move": "MAGNETICFLUX"
+}, {
+"level": 30.0,
+"move": "PSYBEAM"
+}, {
+"level": 36.0,
+"move": "AURORABEAM"
+}, {
+"level": 42.0,
+"move": "MINDREADER"
+}, {
+"level": 48.0,
+"move": "SHIFTGEAR"
+}, {
+"level": 54.0,
+"move": "CRAFTYSHIELD"
+}, {
+"level": 54.0,
+"move": "TRICK"
+}, {
+"level": 60.0,
+"move": "IRONHEAD"
+}, {
+"level": 66.0,
+"move": "AURASPHERE"
+}, {
+"level": 72.0,
+"move": "FLASHCANNON"
+}, {
+"level": 78.0,
+"move": "PAINSPLIT"
+}, {
+"level": 84.0,
+"move": "ZAPCANNON"
+}, {
+"level": 90.0,
+"move": "FLEURCANNON"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "AGILITY", "AURASPHERE", "BATONPASS", "BRICKBREAK", "CALMMIND", "CHARGEBEAM", "CONFIDE", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAININGKISS", "ECHOEDVOICE", "EERIEIMPULSE", "ELECTROBALL", "ELECTROWEB", "EMBARGO", "ENCORE", "ENDURE", "ENERGYBALL", "EXPLOSION", "FALSESWIPE", "FLASHCANNON", "FOCUSBLAST", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "GUARDSWAP", "GYROBALL", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "IMPRISON", "IRONDEFENSE", "IRONHEAD", "LASTRESORT", "LIGHTSCREEN", "MAGNETRISE", "MIMIC", "MISTYEXPLOSION", "NATURALGIFT", "PAINSPLIT", "POWERSWAP", "PROTECT", "REFLECT", "REST", "RETURN", "ROUND", "SECRETPOWER", "SELFDESTRUCT", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SNORE", "SOLARBEAM", "SPEEDSWAP", "STEELBEAM", "STEELROLLER", "STOREDPOWER", "SUBSTITUTE", "SWAGGER", "THUNDERBOLT", "THUNDERWAVE", "TRIATTACK", "TRICK", "TRICKROOM", "VOLTSWITCH", "ZENHEADBUTT", "TAKEDOWN", "PSYBEAM", "CONFUSERAY", "DISARMINGVOICE", "FACADE", "SWIFT", "SUNNYDAY", "SNOWSCAPE", "PSYSHOCK", "BODYSLAM", "SLEEPTALK", "SPIKES", "SKILLSWAP", "PSYCHIC", "HEAVYSLAM", "ICESPINNER", "PLAYROUGH", "MISTYTERRAIN", "GRAVITY", "METALSOUND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 30720
+height_m = 1.0
+weight_kg = 80.5
+color = "Gray"
+shape = "Bipedal"
+category = "Artificial"
+pokedex = "Pokémon artificial creado hace más de 500 años. Es capaz de entender el lenguaje humano pero carece de la facultad del habla."
+generation = 7
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Mythical")
+offspring = PackedStringArray()

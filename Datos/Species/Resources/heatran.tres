@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dmit1hsew82kr"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_72dww"]
+
+[resource]
+script = ExtResource("1_72dww")
+id = 485
+name = "Heatran"
+types = Array[int]([10, 9])
+base_hp = 91
+base_atk = 90
+base_def = 106
+base_spe = 77
+base_spa = 130
+base_spd = 106
+catch_rate = 3
+base_exp = 300
+base_happiness = 100
+growth_rate = "Slow"
+abilities = Array[int]([18])
+hidden_abilities = Array[int]([49])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "FIRESPIN"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 6.0,
+"move": "METALCLAW"
+}, {
+"level": 12.0,
+"move": "ANCIENTPOWER"
+}, {
+"level": 18.0,
+"move": "FIREFANG"
+}, {
+"level": 24.0,
+"move": "SCARYFACE"
+}, {
+"level": 30.0,
+"move": "IRONHEAD"
+}, {
+"level": 36.0,
+"move": "CRUNCH"
+}, {
+"level": 42.0,
+"move": "LAVAPLUME"
+}, {
+"level": 48.0,
+"move": "METALSOUND"
+}, {
+"level": 54.0,
+"move": "EARTHPOWER"
+}, {
+"level": 60.0,
+"move": "HEATWAVE"
+}, {
+"level": 66.0,
+"move": "STONEEDGE"
+}, {
+"level": 72.0,
+"move": "MAGMASTORM"
+}])
+tutor_move_tokens = PackedStringArray("ANCIENTPOWER", "ATTRACT", "BODYPRESS", "BODYSLAM", "BUGBITE", "BULLDOZE", "BURNINGJEALOUSY", "CAPTIVATE", "CONFIDE", "CRUNCH", "DARKPULSE", "DIG", "DOUBLETEAM", "DRAGONPULSE", "EARTHPOWER", "EARTHQUAKE", "ENDURE", "EXPLOSION", "FACADE", "FIREBLAST", "FIREFANG", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLASHCANNON", "FRUSTRATION", "GIGAIMPACT", "HEADBUTT", "HEATCRASH", "HEATWAVE", "HEAVYSLAM", "HIDDENPOWER", "HYPERBEAM", "INCINERATE", "IRONDEFENSE", "IRONHEAD", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "OVERHEAT", "PAYBACK", "PROTECT", "REST", "RETURN", "ROAR", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCARYFACE", "SCORCHINGSANDS", "SECRETPOWER", "SELFDESTRUCT", "SLEEPTALK", "SNORE", "SOLARBEAM", "STEALTHROCK", "STEELBEAM", "STEELROLLER", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "TAUNT", "TORMENT", "UPROAR", "WILLOWISP", "TAKEDOWN", "POUNCE", "METALCLAW", "SANDSTORM", "ROCKBLAST", "POWERGEM", "FLAREBLITZ", "LUNGE", "METALSOUND", "HARDPRESS")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 2560
+height_m = 1.7
+weight_kg = 430.0
+color = "Brown"
+shape = "Quadruped"
+category = "Domo Lava"
+pokedex = "Habita en cuevas volcánicas. Cava con sus pies en forma de cruz para trepar por techos y paredes. Su sangre fluye ardiendo como si fuera magma."
+generation = 4
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 3.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray("Legendary")
+offspring = PackedStringArray()

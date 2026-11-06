@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://of38w77ir255"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_if08y"]
+
+[resource]
+script = ExtResource("1_if08y")
+id = 906
+name = "Sprigatito"
+types = Array[int]([12])
+base_hp = 40
+base_atk = 61
+base_def = 54
+base_spe = 65
+base_spa = 45
+base_spd = 45
+base_exp = 62
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([168])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 1.0,
+"move": "LEAFAGE"
+}, {
+"level": 7.0,
+"move": "BITE"
+}, {
+"level": 10.0,
+"move": "HONECLAWS"
+}, {
+"level": 13.0,
+"move": "MAGICALLEAF"
+}, {
+"level": 15.0,
+"move": "QUICKATTACK"
+}, {
+"level": 17.0,
+"move": "SEEDBOMB"
+}, {
+"level": 21.0,
+"move": "UTURN"
+}, {
+"level": 25.0,
+"move": "WORRYSEED"
+}, {
+"level": 28.0,
+"move": "SLASH"
+}, {
+"level": 32.0,
+"move": "ENERGYBALL"
+}, {
+"level": 36.0,
+"move": "PLAYROUGH"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AGILITY", "BULLETSEED", "CHARM", "DISARMINGVOICE", "ENDURE", "ENERGYBALL", "FACADE", "FAKETEARS", "GIGADRAIN", "GRASSKNOT", "GRASSPLEDGE", "GRASSYGLIDE", "GRASSYTERRAIN", "HELPINGHAND", "LEAFSTORM", "MAGICALLEAF", "MUDSLAP", "NASTYPLOT", "PETALBLIZZARD", "PLAYROUGH", "PROTECT", "REST", "SEEDBOMB", "SHADOWCLAW", "SLEEPTALK", "SOLARBEAM", "SUBSTITUTE", "SWIFT", "TAKEDOWN", "TAUNT", "TRAILBLAZE", "UTURN")
+egg_move_tokens = PackedStringArray("ALLYSWITCH", "COPYCAT", "LEECHSEED", "PETALBLIZZARD", "SUCKERPUNCH")
+egg_groups = PackedStringArray("Field", "Grass")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 4.1
+color = "Green"
+shape = "Quadruped"
+category = "Gato Planta"
+habitat = "Grassland"
+pokedex = "Su sedoso pelaje se asemeja en composición a las plantas. Se lava la cara con diligencia para que no se le seque."
+generation = 9
+evolutions = Array[Dictionary]([{
+"into": "FLORAGATO",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

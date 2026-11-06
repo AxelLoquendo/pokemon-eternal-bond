@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bor8nr8kh5jmm"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_lqwne"]
+
+[resource]
+script = ExtResource("1_lqwne")
+id = 4
+name = "Charmander"
+types = Array[int]([10])
+base_hp = 39
+base_atk = 52
+base_def = 43
+base_spe = 65
+base_spa = 60
+base_spd = 50
+base_exp = 62
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([66])
+hidden_abilities = Array[int]([94])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 4.0,
+"move": "EMBER"
+}, {
+"level": 8.0,
+"move": "SMOKESCREEN"
+}, {
+"level": 12.0,
+"move": "DRAGONBREATH"
+}, {
+"level": 17.0,
+"move": "FIREFANG"
+}, {
+"level": 20.0,
+"move": "SLASH"
+}, {
+"level": 24.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 28.0,
+"move": "SCARYFACE"
+}, {
+"level": 32.0,
+"move": "FIRESPIN"
+}, {
+"level": 36.0,
+"move": "INFERNO"
+}, {
+"level": 40.0,
+"move": "FLAREBLITZ"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "ATTRACT", "BEATUP", "BODYSLAM", "BRICKBREAK", "CAPTIVATE", "CONFIDE", "COUNTER", "CRUNCH", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAGONCLAW", "DRAGONDANCE", "DRAGONPULSE", "DYNAMICPUNCH", "ECHOEDVOICE", "ENDURE", "FACADE", "FALSESWIPE", "FIREBLAST", "FIREFANG", "FIREPLEDGE", "FIREPUNCH", "FIRESPIN", "FLAMECHARGE", "FLAMETHROWER", "FLAREBLITZ", "FLING", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "HIDDENPOWER", "HONECLAWS", "INCINERATE", "IRONTAIL", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "OUTRAGE", "OVERHEAT", "POWERUPPUNCH", "PROTECT", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCARYFACE", "SECRETPOWER", "SEISMICTOSS", "SHADOWCLAW", "SLEEPTALK", "SNORE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "THUNDERPUNCH", "WEATHERBALL", "WILLOWISP", "WORKUP", "TAKEDOWN", "METALCLAW", "DRAGONTAIL", "FOCUSBLAST", "ROAR", "TEMPERFLARE", "BREAKINGSWIPE")
+egg_move_tokens = PackedStringArray("AIRCUTTER", "ANCIENTPOWER", "BEATUP", "BELLYDRUM", "BITE", "COUNTER", "CRUNCH", "DRAGONDANCE", "DRAGONRUSH", "DRAGONTAIL", "FLAREBLITZ", "METALCLAW", "OUTRAGE", "WINGATTACK")
+egg_groups = PackedStringArray("Monster", "Dragon")
+hatch_steps = 5120
+height_m = 0.6
+weight_kg = 8.5
+color = "Red"
+shape = "BipedalTail"
+category = "Lagartija"
+habitat = "Mountain"
+pokedex = "La llama que tiene en la punta de la cola arde según sus sentimientos. Llamea levemente cuando está alegre y arde vigorosamente cuando está enfadado."
+evolutions = Array[Dictionary]([{
+"into": "CHARMELEON",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

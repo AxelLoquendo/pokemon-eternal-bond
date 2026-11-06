@@ -1,0 +1,68 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://6bbhoruh0e2o"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_a885u"]
+
+[resource]
+script = ExtResource("1_a885u")
+id = 172
+name = "Pichu"
+types = Array[int]([13])
+base_hp = 20
+base_atk = 40
+base_def = 15
+base_spe = 60
+base_spa = 35
+base_spd = 35
+catch_rate = 190
+base_exp = 41
+abilities = Array[int]([9])
+hidden_abilities = Array[int]([31])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 1.0,
+"move": "TAILWHIP"
+}, {
+"level": 4.0,
+"move": "PLAYNICE"
+}, {
+"level": 8.0,
+"move": "SWEETKISS"
+}, {
+"level": 12.0,
+"move": "NUZZLE"
+}, {
+"level": 16.0,
+"move": "NASTYPLOT"
+}, {
+"level": 20.0,
+"move": "CHARM"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "BODYSLAM", "CAPTIVATE", "CHARGEBEAM", "CHARM", "CONFIDE", "COUNTER", "COVET", "DEFENSECURL", "DOUBLEEDGE", "DOUBLETEAM", "ECHOEDVOICE", "ELECTRICTERRAIN", "ELECTROWEB", "ENCORE", "ENDURE", "FACADE", "FLASH", "FLING", "FRUSTRATION", "GRASSKNOT", "HEADBUTT", "HELPINGHAND", "HIDDENPOWER", "IRONTAIL", "LIGHTSCREEN", "MAGNETRISE", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "PLAYROUGH", "PROTECT", "RAINDANCE", "REFLECT", "REST", "RETURN", "REVERSAL", "ROLLOUT", "ROUND", "SECRETPOWER", "SEISMICTOSS", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWIFT", "THUNDER", "THUNDERBOLT", "THUNDERPUNCH", "THUNDERWAVE", "UPROAR", "VOLTSWITCH", "WILDCHARGE", "TAKEDOWN", "DISARMINGVOICE", "TRAILBLAZE", "ELECTROBALL", "CHARGE")
+egg_move_tokens = PackedStringArray("CHARGE", "DISARMINGVOICE", "ELECTRICTERRAIN", "ENCORE", "FAKEOUT", "FLAIL", "PRESENT", "REVERSAL", "THUNDERPUNCH", "TICKLE", "WISH")
+egg_groups = PackedStringArray("Undiscovered")
+hatch_steps = 2560
+height_m = 0.3
+weight_kg = 2.0
+color = "Yellow"
+shape = "Quadruped"
+category = "Ratoncito"
+habitat = "Forest"
+pokedex = "Sigue sin poder contener o retener electricidad. Cuando se asusta, descarga energía de forma accidental. Con todo, a medida que pasa el tiempo va mejorando."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "PIKACHU",
+"method": "Happiness",
+"param": ""
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

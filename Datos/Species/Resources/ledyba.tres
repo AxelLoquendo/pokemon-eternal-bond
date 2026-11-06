@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://7tl68meii67y"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_r1k2c"]
+
+[resource]
+script = ExtResource("1_r1k2c")
+id = 165
+name = "Ledyba"
+types = Array[int]([7, 3])
+base_hp = 40
+base_atk = 20
+base_def = 30
+base_spe = 55
+base_spa = 40
+base_spd = 80
+catch_rate = 255
+base_exp = 53
+growth_rate = "Fast"
+abilities = Array[int]([68, 48])
+hidden_abilities = Array[int]([155])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "SUPERSONIC"
+}, {
+"level": 8.0,
+"move": "SWIFT"
+}, {
+"level": 12.0,
+"move": "LIGHTSCREEN"
+}, {
+"level": 12.0,
+"move": "REFLECT"
+}, {
+"level": 12.0,
+"move": "SAFEGUARD"
+}, {
+"level": 15.0,
+"move": "MACHPUNCH"
+}, {
+"level": 19.0,
+"move": "ROOST"
+}, {
+"level": 22.0,
+"move": "STRUGGLEBUG"
+}, {
+"level": 26.0,
+"move": "BATONPASS"
+}, {
+"level": 29.0,
+"move": "AGILITY"
+}, {
+"level": 33.0,
+"move": "BUGBUZZ"
+}, {
+"level": 36.0,
+"move": "AIRSLASH"
+}, {
+"level": 40.0,
+"move": "DOUBLEEDGE"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AIRCUTTER", "ATTRACT", "BRICKBREAK", "BUGBITE", "BUGBUZZ", "CAPTIVATE", "CONFIDE", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DYNAMICPUNCH", "ENDURE", "FACADE", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "GIGADRAIN", "HEADBUTT", "HIDDENPOWER", "ICEPUNCH", "INFESTATION", "KNOCKOFF", "LIGHTSCREEN", "MEGAPUNCH", "MIMIC", "NATURALGIFT", "OMINOUSWIND", "POWERUPPUNCH", "PROTECT", "REFLECT", "REST", "RETURN", "ROLLOUT", "ROOST", "ROUND", "SAFEGUARD", "SECRETPOWER", "SILVERWIND", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRINGSHOT", "STRUGGLEBUG", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAILWIND", "THIEF", "THUNDERPUNCH", "UPROAR", "UTURN")
+egg_move_tokens = PackedStringArray("BUGBITE", "COUNTER", "ENCORE", "KNOCKOFF", "PSYBEAM", "SCREECH", "TAILWIND")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 1.0
+weight_kg = 10.8
+color = "Red"
+shape = "Winged"
+category = "5estrellas"
+habitat = "Forest"
+pokedex = "Segrega un fluido por los seis puntos de unión que tiene entre patas y cuerpo. Al variar la esencia de éste, consigue expresar su estado de ánimo."
+generation = 2
+evolutions = Array[Dictionary]([{
+"into": "LEDIAN",
+"method": "Level",
+"param": "18"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

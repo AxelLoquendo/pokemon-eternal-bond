@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bh6q0clwnbu62"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_5jjpp"]
+
+[resource]
+script = ExtResource("1_5jjpp")
+id = 693
+name = "Clawitzer"
+types = Array[int]([11])
+base_hp = 71
+base_atk = 73
+base_def = 88
+base_spe = 59
+base_spa = 120
+base_spd = 89
+catch_rate = 55
+base_exp = 100
+growth_rate = "Slow"
+abilities = Array[int]([178])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "DARKPULSE"
+}, {
+"level": 1.0,
+"move": "DRAGONPULSE"
+}, {
+"level": 1.0,
+"move": "HEALPULSE"
+}, {
+"level": 1.0,
+"move": "SPLASH"
+}, {
+"level": 1.0,
+"move": "WATERGUN"
+}, {
+"level": 1.0,
+"move": "VISEGRIP"
+}, {
+"level": 1.0,
+"move": "FLAIL"
+}, {
+"level": 15.0,
+"move": "AQUAJET"
+}, {
+"level": 20.0,
+"move": "SMACKDOWN"
+}, {
+"level": 25.0,
+"move": "HONECLAWS"
+}, {
+"level": 30.0,
+"move": "WATERPULSE"
+}, {
+"level": 35.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 42.0,
+"move": "AURASPHERE"
+}, {
+"level": 49.0,
+"move": "BOUNCE"
+}, {
+"level": 56.0,
+"move": "MUDDYWATER"
+}, {
+"level": 63.0,
+"move": "CRABHAMMER"
+}])
+tutor_move_tokens = PackedStringArray("AQUATAIL", "ATTRACT", "AURASPHERE", "BOUNCE", "CAPTIVATE", "CONFIDE", "CUT", "DARKPULSE", "DIVE", "DOUBLETEAM", "DRAGONPULSE", "ENDURE", "FACADE", "FLASHCANNON", "FLIPTURN", "FOCUSBLAST", "FRUSTRATION", "GIGAIMPACT", "HELPINGHAND", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICYWIND", "IRONTAIL", "LASERFOCUS", "LIQUIDATION", "MIMIC", "MUDDYWATER", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROUND", "SCALD", "SECRETPOWER", "SHADOWBALL", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SMACKDOWN", "SNORE", "SUBSTITUTE", "SURF", "SWAGGER", "SWORDSDANCE", "TERRAINPULSE", "TOXIC", "UTURN", "VENOSHOCK", "WATERFALL", "WATERPULSE", "TAKEDOWN", "MUDSLAP", "SCARYFACE", "THIEF", "POUNCE", "CHILLINGWATER", "MUDSHOT", "BODYSLAM", "HYDROPUMP", "BLIZZARD", "WEATHERBALL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1", "Water3")
+hatch_steps = 3840
+height_m = 1.3
+weight_kg = 35.3
+color = "Blue"
+shape = "Serpentine"
+category = "Lanzachorro"
+pokedex = "Posee una enorme pinza que dispara bolas de agua que podrían atravesar incluso el casco de un petrolero."
+generation = 6
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

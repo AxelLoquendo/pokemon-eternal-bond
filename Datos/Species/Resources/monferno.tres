@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://6tra1oejjadj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_dw2q7"]
+
+[resource]
+script = ExtResource("1_dw2q7")
+id = 391
+name = "Monferno"
+types = Array[int]([10, 2])
+base_hp = 64
+base_atk = 78
+base_def = 52
+base_spe = 81
+base_spa = 78
+base_spd = 52
+base_exp = 142
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([66])
+hidden_abilities = Array[int]([89])
+level_moves = Array[Dictionary]([{
+"level": 0.0,
+"move": "MACHPUNCH"
+}, {
+"level": 1.0,
+"move": "NASTYPLOT"
+}, {
+"level": 1.0,
+"move": "FACADE"
+}, {
+"level": 1.0,
+"move": "FLAMETHROWER"
+}, {
+"level": 1.0,
+"move": "SCRATCH"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 1.0,
+"move": "EMBER"
+}, {
+"level": 9.0,
+"move": "TAUNT"
+}, {
+"level": 12.0,
+"move": "POWERUPPUNCH"
+}, {
+"level": 16.0,
+"move": "FURYSWIPES"
+}, {
+"level": 19.0,
+"move": "FLAMEWHEEL"
+}, {
+"level": 26.0,
+"move": "FEINT"
+}, {
+"level": 29.0,
+"move": "TORMENT"
+}, {
+"level": 36.0,
+"move": "CLOSECOMBAT"
+}, {
+"level": 39.0,
+"move": "FIRESPIN"
+}, {
+"level": 46.0,
+"move": "ACROBATICS"
+}, {
+"level": 49.0,
+"move": "SLACKOFF"
+}, {
+"level": 56.0,
+"move": "FLAREBLITZ"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "ATTRACT", "BRICKBREAK", "BULKUP", "CAPTIVATE", "CONFIDE", "COVET", "CUT", "DIG", "DOUBLETEAM", "DUALCHOP", "ENDEAVOR", "ENDURE", "FACADE", "FIREBLAST", "FIREPLEDGE", "FIREPUNCH", "FLAMECHARGE", "FLAMETHROWER", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GRASSKNOT", "GUNKSHOT", "HEADBUTT", "HEATWAVE", "HELPINGHAND", "HIDDENPOWER", "HONECLAWS", "INCINERATE", "IRONTAIL", "LOWKICK", "LOWSWEEP", "MIMIC", "MUDSLAP", "NASTYPLOT", "NATURALGIFT", "OVERHEAT", "POISONJAB", "POWERUPPUNCH", "PROTECT", "REST", "RETALIATE", "RETURN", "ROCKCLIMB", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLEPLAY", "ROLLOUT", "ROUND", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SNORE", "STEALTHROCK", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "THUNDERPUNCH", "TORMENT", "UTURN", "VACUUMWAVE", "WILLOWISP", "WORKUP", "TAKEDOWN", "FAKETEARS", "AGILITY", "THIEF", "FIRESPIN", "ZENHEADBUTT", "DRAINPUNCH", "METRONOME", "ENCORE", "REVERSAL", "FLAREBLITZ", "CLOSECOMBAT", "SMACKDOWN", "KNOCKOFF", "UPROAR", "BURNINGJEALOUSY", "LASHOUT", "PSYCHUP", "DOUBLEEDGE", "TEMPERFLARE", "UPPERHAND")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Field", "Humanlike")
+hatch_steps = 5120
+height_m = 0.9
+weight_kg = 22.0
+color = "Brown"
+shape = "BipedalTail"
+category = "Juguetón"
+pokedex = "Intimida a sus enemigos desplegando el fuego en su cola para parecer más grande. Utiliza techos y paredes para lanzar ataques aéreos."
+generation = 4
+evolutions = Array[Dictionary]([{
+"into": "INFERNAPE",
+"method": "Level",
+"param": "36"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

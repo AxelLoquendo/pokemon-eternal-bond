@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bit0mw607mf4q"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_xhktb"]
+
+[resource]
+script = ExtResource("1_xhktb")
+id = 684
+name = "Swirlix"
+types = Array[int]([18])
+base_hp = 62
+base_atk = 48
+base_def = 66
+base_spe = 49
+base_spa = 59
+base_spd = 57
+catch_rate = 200
+base_exp = 68
+abilities = Array[int]([175])
+hidden_abilities = Array[int]([84])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "SWEETSCENT"
+}, {
+"level": 3.0,
+"move": "PLAYNICE"
+}, {
+"level": 6.0,
+"move": "FAIRYWIND"
+}, {
+"level": 9.0,
+"move": "AROMATHERAPY"
+}, {
+"level": 12.0,
+"move": "DRAININGKISS"
+}, {
+"level": 15.0,
+"move": "FAKETEARS"
+}, {
+"level": 18.0,
+"move": "ROUND"
+}, {
+"level": 21.0,
+"move": "STRINGSHOT"
+}, {
+"level": 24.0,
+"move": "COTTONSPORE"
+}, {
+"level": 27.0,
+"move": "ENERGYBALL"
+}, {
+"level": 30.0,
+"move": "WISH"
+}, {
+"level": 33.0,
+"move": "PLAYROUGH"
+}, {
+"level": 36.0,
+"move": "COTTONGUARD"
+}, {
+"level": 39.0,
+"move": "ENDEAVOR"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "AMNESIA", "ATTRACT", "CALMMIND", "CAPTIVATE", "CHARM", "CONFIDE", "COVET", "DAZZLINGGLEAM", "DOUBLETEAM", "DRAININGKISS", "DREAMEATER", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FAKETEARS", "FLAMETHROWER", "FLASH", "FRUSTRATION", "GASTROACID", "HEALBELL", "HELPINGHAND", "HIDDENPOWER", "LIGHTSCREEN", "MAGICCOAT", "MIMIC", "MISTYEXPLOSION", "NATURALGIFT", "PLAYROUGH", "PROTECT", "PSYCHIC", "PSYCHUP", "RAINDANCE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SECRETPOWER", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SURF", "SWAGGER", "THIEF", "THUNDERBOLT", "TOXIC")
+egg_move_tokens = PackedStringArray("AFTERYOU", "COPYCAT", "STICKYWEB", "YAWN")
+egg_groups = PackedStringArray("Fairy")
+hatch_steps = 5120
+height_m = 0.4
+weight_kg = 3.5
+color = "White"
+shape = "HeadLegs"
+category = "Chuchería"
+pokedex = "Escupe hebras pegajosas de color blanco y textura parecida a las del algodón de azúcar, con las que envuelve al enemigo y le impide que se mueva."
+generation = 6
+evolutions = Array[Dictionary]([{
+"into": "SLURPUFF",
+"method": "CableLinkItem",
+"param": "WHIPPEDDREAM"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 1.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

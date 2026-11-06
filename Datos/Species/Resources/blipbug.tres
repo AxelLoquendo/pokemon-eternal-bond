@@ -1,0 +1,49 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bhoyahrq0fhg1"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_ir41u"]
+
+[resource]
+script = ExtResource("1_ir41u")
+id = 824
+name = "Blipbug"
+types = Array[int]([7])
+base_hp = 25
+base_atk = 20
+base_def = 20
+base_spe = 45
+base_spa = 25
+base_spd = 45
+catch_rate = 255
+base_exp = 36
+abilities = Array[int]([68, 14])
+hidden_abilities = Array[int]([140])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "STRUGGLEBUG"
+}])
+tutor_move_tokens = PackedStringArray()
+egg_move_tokens = PackedStringArray("INFESTATION", "RECOVER", "STICKYWEB", "SUPERSONIC")
+egg_groups = PackedStringArray("Bug")
+hatch_steps = 3840
+height_m = 0.4
+weight_kg = 8.0
+color = "Blue"
+shape = "Insectoid"
+category = "Pupa"
+pokedex = "Es habitual verlo en el campo. Los pelos que tiene son sensores con los que percibe lo que ocurre a su alrededor. Es muy inteligente."
+generation = 8
+evolutions = Array[Dictionary]([{
+"into": "DOTTLER",
+"method": "Level",
+"param": "10"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 1.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

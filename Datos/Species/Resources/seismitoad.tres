@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ky7wdbtkjdqy"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_wdnh6"]
+
+[resource]
+script = ExtResource("1_wdnh6")
+id = 537
+name = "Seismitoad"
+types = Array[int]([11, 5])
+base_hp = 105
+base_atk = 95
+base_def = 75
+base_spe = 74
+base_spa = 85
+base_spd = 75
+base_exp = 255
+growth_rate = "Parabolic"
+abilities = Array[int]([33, 143])
+hidden_abilities = Array[int]([11])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "DRAINPUNCH"
+}, {
+"level": 1.0,
+"move": "GASTROACID"
+}, {
+"level": 1.0,
+"move": "ECHOEDVOICE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 1.0,
+"move": "ACID"
+}, {
+"level": 1.0,
+"move": "SUPERSONIC"
+}, {
+"level": 12.0,
+"move": "MUDSHOT"
+}, {
+"level": 16.0,
+"move": "ROUND"
+}, {
+"level": 20.0,
+"move": "BUBBLEBEAM"
+}, {
+"level": 24.0,
+"move": "FLAIL"
+}, {
+"level": 30.0,
+"move": "UPROAR"
+}, {
+"level": 39.0,
+"move": "AQUARING"
+}, {
+"level": 46.0,
+"move": "HYPERVOICE"
+}, {
+"level": 54.0,
+"move": "MUDDYWATER"
+}, {
+"level": 62.0,
+"move": "RAINDANCE"
+}, {
+"level": 70.0,
+"move": "HYDROPUMP"
+}])
+tutor_move_tokens = PackedStringArray("AFTERYOU", "ATTRACT", "BOUNCE", "BRICKBREAK", "BULLDOZE", "CAPTIVATE", "CONFIDE", "DIG", "DIVE", "DOUBLETEAM", "DRAINPUNCH", "EARTHPOWER", "EARTHQUAKE", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GASTROACID", "GIGAIMPACT", "GRASSKNOT", "HAIL", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "HYPERVOICE", "ICEPUNCH", "ICYWIND", "INFESTATION", "KNOCKOFF", "LIQUIDATION", "LOWKICK", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDDYWATER", "MUDSHOT", "NATURALGIFT", "PAYBACK", "POISONJAB", "POWERUPPUNCH", "POWERWHIP", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCALD", "SCREECH", "SECRETPOWER", "SLEEPTALK", "SLUDGEBOMB", "SLUDGEWAVE", "SNORE", "STEALTHROCK", "STOMPINGTANTRUM", "STRENGTH", "SUBSTITUTE", "SURF", "SWAGGER", "TOXIC", "UPROAR", "VENOMDRENCH", "VENOSHOCK", "WATERPULSE", "WEATHERBALL")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Water1")
+hatch_steps = 5120
+height_m = 1.5
+weight_kg = 62.0
+color = "Blue"
+shape = "Bipedal"
+category = "Vibrante"
+pokedex = "Aumenta la potencia de sus puñetazos haciendo vibrar sus puños. Es capaz de quebrar una roca de un solo golpe."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 3.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

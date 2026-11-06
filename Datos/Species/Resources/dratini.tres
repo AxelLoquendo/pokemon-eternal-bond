@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cdjlm1kwbdwhj"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_r77ql"]
+
+[resource]
+script = ExtResource("1_r77ql")
+id = 147
+name = "Dratini"
+types = Array[int]([16])
+base_hp = 41
+base_atk = 64
+base_def = 45
+base_spe = 50
+base_spa = 50
+base_spd = 50
+base_exp = 60
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([61])
+hidden_abilities = Array[int]([63])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "WRAP"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 5.0,
+"move": "TWISTER"
+}, {
+"level": 10.0,
+"move": "THUNDERWAVE"
+}, {
+"level": 15.0,
+"move": "DRAGONTAIL"
+}, {
+"level": 20.0,
+"move": "AGILITY"
+}, {
+"level": 25.0,
+"move": "SLAM"
+}, {
+"level": 31.0,
+"move": "AQUATAIL"
+}, {
+"level": 35.0,
+"move": "DRAGONRUSH"
+}, {
+"level": 40.0,
+"move": "SAFEGUARD"
+}, {
+"level": 45.0,
+"move": "RAINDANCE"
+}, {
+"level": 50.0,
+"move": "DRAGONDANCE"
+}, {
+"level": 55.0,
+"move": "OUTRAGE"
+}, {
+"level": 60.0,
+"move": "HYPERBEAM"
+}])
+tutor_move_tokens = PackedStringArray("AGILITY", "AQUATAIL", "ATTRACT", "BIND", "BLIZZARD", "BODYSLAM", "BREAKINGSWIPE", "BRUTALSWING", "CAPTIVATE", "CONFIDE", "DOUBLEEDGE", "DOUBLETEAM", "DRACOMETEOR", "DRAGONDANCE", "DRAGONPULSE", "DRAGONTAIL", "ENDURE", "FACADE", "FIREBLAST", "FIRESPIN", "FLAMETHROWER", "FRUSTRATION", "GIGAIMPACT", "HAIL", "HEADBUTT", "HIDDENPOWER", "HYDROPUMP", "HYPERBEAM", "ICEBEAM", "ICYWIND", "INCINERATE", "IRONTAIL", "LIGHTSCREEN", "MIMIC", "NATURALGIFT", "OUTRAGE", "PROTECT", "RAINDANCE", "REST", "RETURN", "ROUND", "SAFEGUARD", "SCALESHOT", "SECRETPOWER", "SHOCKWAVE", "SLEEPTALK", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SURF", "SWAGGER", "SWIFT", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TWISTER", "WATERFALL", "WATERPULSE", "WHIRLPOOL", "TAKEDOWN", "CHILLINGWATER", "IRONHEAD", "HELPINGHAND", "HAZE", "DRAGONCHEER")
+egg_move_tokens = PackedStringArray("AQUAJET", "DRAGONBREATH", "DRAGONDANCE", "DRAGONRUSH", "EXTREMESPEED", "HAZE", "MIST", "SUPERSONIC", "WATERPULSE")
+egg_groups = PackedStringArray("Water1", "Dragon")
+hatch_steps = 10240
+height_m = 1.8
+weight_kg = 3.3
+color = "Blue"
+shape = "Serpentine"
+category = "Dragón"
+habitat = "WatersEdge"
+pokedex = "Está mudando la piel continuamente. Es algo que necesita hacer porque la energía que tiene en su interior alcanza niveles que resultan incontrolables."
+evolutions = Array[Dictionary]([{
+"into": "DRAGONAIR",
+"method": "Level",
+"param": "30"
+}])
+yield_evs = {
+"atk": 1.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "DRAGONSCALE"
+offspring = PackedStringArray()

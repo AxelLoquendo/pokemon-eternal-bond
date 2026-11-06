@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://beh71wmpbjs33"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_qt4cn"]
+
+[resource]
+script = ExtResource("1_qt4cn")
+id = 252
+name = "Treecko"
+types = Array[int]([12])
+base_hp = 40
+base_atk = 45
+base_def = 35
+base_spe = 70
+base_spa = 65
+base_spd = 55
+base_exp = 62
+gender_ratio = "FemaleOneEighth"
+growth_rate = "Parabolic"
+abilities = Array[int]([65])
+hidden_abilities = Array[int]([84])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "POUND"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 3.0,
+"move": "LEAFAGE"
+}, {
+"level": 6.0,
+"move": "QUICKATTACK"
+}, {
+"level": 9.0,
+"move": "MEGADRAIN"
+}, {
+"level": 12.0,
+"move": "DETECT"
+}, {
+"level": 15.0,
+"move": "QUICKGUARD"
+}, {
+"level": 18.0,
+"move": "ASSURANCE"
+}, {
+"level": 21.0,
+"move": "GIGADRAIN"
+}, {
+"level": 24.0,
+"move": "SLAM"
+}, {
+"level": 27.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 30.0,
+"move": "ENERGYBALL"
+}, {
+"level": 33.0,
+"move": "SCREECH"
+}, {
+"level": 36.0,
+"move": "ENDEAVOR"
+}, {
+"level": 39.0,
+"move": "LEAFSTORM"
+}])
+tutor_move_tokens = PackedStringArray("ACROBATICS", "AERIALACE", "AGILITY", "ASSURANCE", "ATTRACT", "BODYSLAM", "BRICKBREAK", "BULLETSEED", "CAPTIVATE", "CONFIDE", "COUNTER", "CRUNCH", "CUT", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "DRAINPUNCH", "DYNAMICPUNCH", "ENDEAVOR", "ENDURE", "ENERGYBALL", "FACADE", "FLASH", "FLING", "FOCUSPUNCH", "FRUSTRATION", "FURYCUTTER", "GIGADRAIN", "GRASSKNOT", "GRASSPLEDGE", "GRASSYGLIDE", "GRASSYTERRAIN", "HEADBUTT", "HIDDENPOWER", "IRONTAIL", "LEAFSTORM", "LOWKICK", "MAGICALLEAF", "MEGAKICK", "MEGAPUNCH", "MIMIC", "MUDSLAP", "NATURALGIFT", "NATUREPOWER", "POWERUPPUNCH", "PROTECT", "REST", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROUND", "SAFEGUARD", "SCREECH", "SECRETPOWER", "SEEDBOMB", "SEISMICTOSS", "SLEEPTALK", "SNORE", "SOLARBEAM", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "SWORDSDANCE", "SYNTHESIS", "THUNDERPUNCH", "WORKUP", "WORRYSEED", "TAKEDOWN", "THIEF", "TRAILBLAZE", "DRAGONTAIL", "HELPINGHAND", "BREAKINGSWIPE", "UPPERHAND")
+egg_move_tokens = PackedStringArray("ABSORB", "CRUNCH", "CRUSHCLAW", "DOUBLEKICK", "DRAGONBREATH", "ENDEAVOR", "GRASSYTERRAIN", "LEAFSTORM", "LEECHSEED", "MAGICALLEAF", "NIGHTSLASH", "SLASH", "SYNTHESIS", "WORRYSEED")
+egg_groups = PackedStringArray("Monster", "Dragon")
+hatch_steps = 5120
+height_m = 0.5
+weight_kg = 5.0
+color = "Green"
+shape = "BipedalTail"
+category = "Geco Bosque"
+habitat = "Forest"
+pokedex = "Hace su nido en un árbol gigante y defiende ferozmente su territorio de cualquier peligro. Dicen que es el protector de los árboles del bosque."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "GROVYLE",
+"method": "Level",
+"param": "16"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

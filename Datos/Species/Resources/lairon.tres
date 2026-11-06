@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8kua483pgbf"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_hyn07"]
+
+[resource]
+script = ExtResource("1_hyn07")
+id = 305
+name = "Lairon"
+types = Array[int]([9, 6])
+base_hp = 60
+base_atk = 90
+base_def = 140
+base_spe = 40
+base_spa = 50
+base_spd = 50
+catch_rate = 90
+base_exp = 151
+base_happiness = 35
+growth_rate = "Slow"
+abilities = Array[int]([5, 69])
+hidden_abilities = Array[int]([134])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "HARDEN"
+}, {
+"level": 1.0,
+"move": "METALCLAW"
+}, {
+"level": 1.0,
+"move": "ROCKTOMB"
+}, {
+"level": 12.0,
+"move": "ROAR"
+}, {
+"level": 16.0,
+"move": "HEADBUTT"
+}, {
+"level": 20.0,
+"move": "PROTECT"
+}, {
+"level": 24.0,
+"move": "ROCKSLIDE"
+}, {
+"level": 28.0,
+"move": "IRONHEAD"
+}, {
+"level": 35.0,
+"move": "METALSOUND"
+}, {
+"level": 40.0,
+"move": "TAKEDOWN"
+}, {
+"level": 46.0,
+"move": "AUTOTOMIZE"
+}, {
+"level": 52.0,
+"move": "IRONTAIL"
+}, {
+"level": 58.0,
+"move": "IRONDEFENSE"
+}, {
+"level": 64.0,
+"move": "HEAVYSLAM"
+}, {
+"level": 70.0,
+"move": "DOUBLEEDGE"
+}, {
+"level": 76.0,
+"move": "METALBURST"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "ANCIENTPOWER", "ATTRACT", "BODYPRESS", "BODYSLAM", "BULLDOZE", "CAPTIVATE", "CONFIDE", "CUT", "DEFENSECURL", "DIG", "DOUBLEEDGE", "DOUBLETEAM", "EARTHPOWER", "EARTHQUAKE", "ENDEAVOR", "ENDURE", "FACADE", "FRUSTRATION", "FURYCUTTER", "HEADBUTT", "HEAVYSLAM", "HIDDENPOWER", "HONECLAWS", "IRONDEFENSE", "IRONHEAD", "IRONTAIL", "MAGNETRISE", "MIMIC", "MUDSLAP", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETURN", "REVERSAL", "ROAR", "ROCKBLAST", "ROCKPOLISH", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLLOUT", "ROUND", "SANDSTORM", "SANDTOMB", "SCREECH", "SECRETPOWER", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNORE", "SPITE", "STEALTHROCK", "STEELBEAM", "STEELROLLER", "STOMPINGTANTRUM", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "UPROAR", "WATERPULSE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Monster")
+hatch_steps = 8960
+height_m = 0.9
+weight_kg = 120.0
+color = "Gray"
+shape = "Quadruped"
+category = "Coraza Férrea"
+habitat = "Mountain"
+pokedex = "Si dos Lairon se encuentran en su hábitat natural, luchan por su territorio golpeándose con sus cuerpos de acero. El estruendo que forman se oye a kilómetros."
+generation = 3
+evolutions = Array[Dictionary]([{
+"into": "AGGRON",
+"method": "Level",
+"param": "42"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 2.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+wild_item_uncommon = "HARDSTONE"
+offspring = PackedStringArray()

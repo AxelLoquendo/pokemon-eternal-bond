@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://5t27l867103n"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_pl8xo"]
+
+[resource]
+script = ExtResource("1_pl8xo")
+id = 631
+name = "Heatmor"
+types = Array[int]([10])
+base_hp = 85
+base_atk = 97
+base_def = 66
+base_spe = 65
+base_spa = 105
+base_spd = 66
+catch_rate = 90
+base_exp = 169
+abilities = Array[int]([82, 18])
+hidden_abilities = Array[int]([73])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "LICK"
+}, {
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 5.0,
+"move": "FURYSWIPES"
+}, {
+"level": 10.0,
+"move": "INCINERATE"
+}, {
+"level": 15.0,
+"move": "BUGBITE"
+}, {
+"level": 20.0,
+"move": "STOCKPILE"
+}, {
+"level": 20.0,
+"move": "SWALLOW"
+}, {
+"level": 20.0,
+"move": "SPITUP"
+}, {
+"level": 25.0,
+"move": "SLASH"
+}, {
+"level": 30.0,
+"move": "BIND"
+}, {
+"level": 35.0,
+"move": "FIRELASH"
+}, {
+"level": 40.0,
+"move": "HONECLAWS"
+}, {
+"level": 45.0,
+"move": "AMNESIA"
+}, {
+"level": 50.0,
+"move": "FIRESPIN"
+}, {
+"level": 55.0,
+"move": "INFERNO"
+}, {
+"level": 60.0,
+"move": "FLAREBLITZ"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AMNESIA", "ATTRACT", "BIND", "BODYSLAM", "BRUTALSWING", "BUGBITE", "BURNINGJEALOUSY", "CAPTIVATE", "CONFIDE", "CUT", "DIG", "DOUBLETEAM", "DRAINPUNCH", "ENDURE", "FACADE", "FIREBLAST", "FIREPUNCH", "FIRESPIN", "FLAMETHROWER", "FLAREBLITZ", "FLING", "FOCUSBLAST", "FOCUSPUNCH", "FRUSTRATION", "GASTROACID", "GIGADRAIN", "GIGAIMPACT", "HEATWAVE", "HIDDENPOWER", "HONECLAWS", "INCINERATE", "KNOCKOFF", "LOWKICK", "MIMIC", "NATURALGIFT", "OVERHEAT", "POWERUPPUNCH", "PROTECT", "RAINDANCE", "RECYCLE", "REST", "RETURN", "ROCKSMASH", "ROCKTOMB", "ROUND", "SCORCHINGSANDS", "SECRETPOWER", "SHADOWCLAW", "SLEEPTALK", "SNATCH", "SNORE", "SOLARBEAM", "STOMPINGTANTRUM", "SUBSTITUTE", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "TAUNT", "THIEF", "THROATCHOP", "THUNDERPUNCH", "TOXIC", "WILLOWISP")
+egg_move_tokens = PackedStringArray("BELCH", "CURSE", "NIGHTSLASH", "SUCKERPUNCH", "TICKLE")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.4
+weight_kg = 58.0
+color = "Red"
+shape = "BipedalTail"
+category = "Hormiguero"
+pokedex = "Usa su lengua de fuego para derretir la armadura de los Durant y llegar así hasta su interior."
+generation = 5
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 2.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

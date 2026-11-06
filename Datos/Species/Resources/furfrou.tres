@@ -1,0 +1,80 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://do6w8e3h8v45j"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_5l0b1"]
+
+[resource]
+script = ExtResource("1_5l0b1")
+id = 676
+name = "Furfrou"
+types = Array[int]([1])
+base_hp = 75
+base_atk = 80
+base_def = 60
+base_spe = 102
+base_spa = 65
+base_spd = 90
+catch_rate = 160
+base_exp = 165
+abilities = Array[int]([169])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "GROWL"
+}, {
+"level": 5.0,
+"move": "SANDATTACK"
+}, {
+"level": 9.0,
+"move": "BABYDOLLEYES"
+}, {
+"level": 12.0,
+"move": "HEADBUTT"
+}, {
+"level": 15.0,
+"move": "TAILWHIP"
+}, {
+"level": 22.0,
+"move": "BITE"
+}, {
+"level": 27.0,
+"move": "ODORSLEUTH"
+}, {
+"level": 33.0,
+"move": "RETALIATE"
+}, {
+"level": 35.0,
+"move": "TAKEDOWN"
+}, {
+"level": 38.0,
+"move": "CHARM"
+}, {
+"level": 42.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 48.0,
+"move": "COTTONGUARD"
+}])
+tutor_move_tokens = PackedStringArray("ATTRACT", "CAPTIVATE", "CHARGEBEAM", "CONFIDE", "DARKPULSE", "DIG", "DOUBLETEAM", "ECHOEDVOICE", "ENDEAVOR", "ENDURE", "FACADE", "FLASH", "FRUSTRATION", "GIGAIMPACT", "GRASSKNOT", "HELPINGHAND", "HIDDENPOWER", "HYPERVOICE", "IRONTAIL", "LASTRESORT", "MIMIC", "NATURALGIFT", "PROTECT", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROAR", "ROCKSMASH", "ROLEPLAY", "ROUND", "SECRETPOWER", "SLEEPTALK", "SNARL", "SNORE", "SUBSTITUTE", "SUNNYDAY", "SURF", "SWAGGER", "THUNDERWAVE", "TOXIC", "UPROAR", "UTURN", "WILDCHARGE", "WORKUP", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("CAPTIVATE", "MIMIC", "REFRESH", "ROLEPLAY", "WORKUP")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 5120
+height_m = 1.2
+weight_kg = 28.0
+color = "White"
+shape = "Quadruped"
+category = "Caniche"
+pokedex = "Cuando le esquilan su mullido pelaje, no solo mejora su apariencia, sino que aumenta su agilidad."
+generation = 6
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 1.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
+form_name = "Forma Salvaje"

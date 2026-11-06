@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://3rfjjyne0jee"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_v72m3"]
+
+[resource]
+script = ExtResource("1_v72m3")
+id = 359
+name = "Absol"
+types = Array[int]([17])
+base_hp = 65
+base_atk = 130
+base_def = 60
+base_spe = 75
+base_spa = 75
+base_spd = 60
+catch_rate = 30
+base_exp = 163
+base_happiness = 35
+growth_rate = "Parabolic"
+abilities = Array[int]([46, 105])
+hidden_abilities = Array[int]([154])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "QUICKATTACK"
+}, {
+"level": 1.0,
+"move": "LEER"
+}, {
+"level": 5.0,
+"move": "DOUBLETEAM"
+}, {
+"level": 10.0,
+"move": "KNOCKOFF"
+}, {
+"level": 15.0,
+"move": "DETECT"
+}, {
+"level": 20.0,
+"move": "TAUNT"
+}, {
+"level": 25.0,
+"move": "SLASH"
+}, {
+"level": 30.0,
+"move": "NIGHTSLASH"
+}, {
+"level": 35.0,
+"move": "FOCUSENERGY"
+}, {
+"level": 40.0,
+"move": "SUCKERPUNCH"
+}, {
+"level": 45.0,
+"move": "SWORDSDANCE"
+}, {
+"level": 50.0,
+"move": "FUTURESIGHT"
+}, {
+"level": 55.0,
+"move": "PERISHSONG"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AIRSLASH", "ASSURANCE", "ATTRACT", "BATONPASS", "BLIZZARD", "BODYSLAM", "BOUNCE", "BRUTALSWING", "CALMMIND", "CAPTIVATE", "CHARGEBEAM", "CLOSECOMBAT", "CONFIDE", "COUNTER", "CUT", "DARKPULSE", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "ECHOEDVOICE", "ENDURE", "FACADE", "FALSESWIPE", "FIREBLAST", "FLAMETHROWER", "FLASH", "FOCUSENERGY", "FOULPLAY", "FRUSTRATION", "FURYCUTTER", "FUTURESIGHT", "GIGAIMPACT", "HAIL", "HEADBUTT", "HEX", "HIDDENPOWER", "HONECLAWS", "HYPERBEAM", "ICEBEAM", "ICYWIND", "INCINERATE", "IRONTAIL", "KNOCKOFF", "LASERFOCUS", "MAGICCOAT", "MEGAHORN", "MIMIC", "MUDSLAP", "NATURALGIFT", "PAYBACK", "PLAYROUGH", "PROTECT", "PSYCHOCUT", "PSYCHUP", "RAINDANCE", "REST", "RETALIATE", "RETURN", "ROCKSLIDE", "ROCKSMASH", "ROCKTOMB", "ROLEPLAY", "ROUND", "SANDSTORM", "SECRETPOWER", "SHADOWBALL", "SHADOWCLAW", "SHOCKWAVE", "SLEEPTALK", "SNARL", "SNATCH", "SNORE", "SPITE", "STONEEDGE", "STRENGTH", "SUBSTITUTE", "SUCKERPUNCH", "SUNNYDAY", "SUPERPOWER", "SWAGGER", "SWIFT", "SWORDSDANCE", "TAUNT", "THIEF", "THROATCHOP", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TORMENT", "WATERPULSE", "WILLOWISP", "XSCISSOR", "ZENHEADBUTT")
+egg_move_tokens = PackedStringArray("ASSURANCE", "BATONPASS", "BITE", "CURSE", "DOUBLEEDGE", "FEINT", "HEX", "MAGICCOAT", "MEANLOOK", "MEGAHORN", "PERISHSONG", "PLAYROUGH", "SUCKERPUNCH", "ZENHEADBUTT")
+egg_groups = PackedStringArray("Field")
+hatch_steps = 6400
+height_m = 1.2
+weight_kg = 47.0
+color = "White"
+shape = "Quadruped"
+category = "Catástrofe"
+habitat = "Mountain"
+pokedex = "Detecta con precisión cualquier cambio producido en la atmósfera o la tierra y predice catástrofes naturales. Es un Pokémon longevo que vive 100 años."
+generation = 3
+yield_evs = {
+"atk": 2.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 0.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()

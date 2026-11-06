@@ -1,0 +1,88 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://btskw48ynymd6"]
+
+[ext_resource type="Script" uid="uid://bw062qj353yrw" path="res://Scripts/Data/Species/species_data.gd" id="1_yxlwv"]
+
+[resource]
+script = ExtResource("1_yxlwv")
+id = 137
+name = "Porygon"
+types = Array[int]([1])
+base_hp = 65
+base_atk = 60
+base_def = 70
+base_spe = 40
+base_spa = 85
+base_spd = 75
+base_exp = 79
+gender_ratio = "Genderless"
+abilities = Array[int]([36, 88])
+hidden_abilities = Array[int]([148])
+level_moves = Array[Dictionary]([{
+"level": 1.0,
+"move": "TACKLE"
+}, {
+"level": 1.0,
+"move": "CONVERSION"
+}, {
+"level": 5.0,
+"move": "RECYCLE"
+}, {
+"level": 10.0,
+"move": "MAGNETRISE"
+}, {
+"level": 15.0,
+"move": "THUNDERSHOCK"
+}, {
+"level": 20.0,
+"move": "PSYBEAM"
+}, {
+"level": 25.0,
+"move": "CONVERSION2"
+}, {
+"level": 30.0,
+"move": "AGILITY"
+}, {
+"level": 35.0,
+"move": "RECOVER"
+}, {
+"level": 40.0,
+"move": "DISCHARGE"
+}, {
+"level": 45.0,
+"move": "TRIATTACK"
+}, {
+"level": 50.0,
+"move": "MAGICCOAT"
+}, {
+"level": 55.0,
+"move": "LOCKON"
+}, {
+"level": 60.0,
+"move": "ZAPCANNON"
+}])
+tutor_move_tokens = PackedStringArray("AERIALACE", "AGILITY", "ALLYSWITCH", "BLIZZARD", "CHARGEBEAM", "CONFIDE", "DOUBLEEDGE", "DOUBLETEAM", "DREAMEATER", "EERIEIMPULSE", "ELECTROWEB", "ENDURE", "FACADE", "FLASH", "FOULPLAY", "FRUSTRATION", "GIGAIMPACT", "GRAVITY", "GUARDSWAP", "HIDDENPOWER", "HYPERBEAM", "ICEBEAM", "ICYWIND", "IRONTAIL", "LASTRESORT", "MAGICCOAT", "MAGNETRISE", "MIMIC", "NATURALGIFT", "PAINSPLIT", "POWERSWAP", "PROTECT", "PSYCHIC", "PSYCHUP", "PSYSHOCK", "RAINDANCE", "RECYCLE", "REST", "RETURN", "ROUND", "SECRETPOWER", "SHADOWBALL", "SHOCKWAVE", "SIGNALBEAM", "SLEEPTALK", "SNORE", "SOLARBEAM", "SPEEDSWAP", "SUBSTITUTE", "SUNNYDAY", "SWAGGER", "SWIFT", "TELEKINESIS", "THIEF", "THUNDER", "THUNDERBOLT", "THUNDERWAVE", "TRIATTACK", "TRICK", "TRICKROOM", "WONDERROOM", "ZENHEADBUTT", "TAKEDOWN", "PSYBEAM", "CHARGE")
+egg_move_tokens = PackedStringArray()
+egg_groups = PackedStringArray("Mineral")
+hatch_steps = 5120
+height_m = 0.8
+weight_kg = 36.5
+color = "Pink"
+shape = "HeadLegs"
+category = "Virtual"
+habitat = "Urban"
+pokedex = "Un Pokémon formado por códigos de programación. Se mueve libre en el ciberespacio. Como no respira, la gente quiere probarlo en cualquier sitio."
+evolutions = Array[Dictionary]([{
+"into": "PORYGON2",
+"method": "CableLinkItem",
+"param": "UPGRADE"
+}])
+yield_evs = {
+"atk": 0.0,
+"def": 0.0,
+"hp": 0.0,
+"spa": 1.0,
+"spd": 0.0,
+"spe": 0.0
+}
+flags = PackedStringArray()
+offspring = PackedStringArray()
