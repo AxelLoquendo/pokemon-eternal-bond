@@ -19,9 +19,9 @@ extends Resource
 @export var gender_ratio: String = "Female50Percent"
 @export var growth_rate: String = "MediumFast"
 
-## Tokens de habilidad (cuando exista AbilityId se resolverán ahí).
-@export var ability_tokens: PackedStringArray = PackedStringArray()
-@export var hidden_ability_tokens: PackedStringArray = PackedStringArray()
+## Hasta 3 habilidades normales + 1 oculta (estilo expansion).
+@export var abilities: Array[AbilityId.Id] = []
+@export var hidden_ability: AbilityId.Id = AbilityId.Id.NONE
 
 @export var height_m: float = 0.0
 @export var weight_kg: float = 0.0

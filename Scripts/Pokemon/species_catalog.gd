@@ -64,13 +64,15 @@ func _make(
 		name: String,
 		types: Array,
 		hp: int, atk: int, def: int, spa: int, spd: int, spe: int,
-		catch_rate: int, base_exp: int
+		catch_rate: int, base_exp: int,
+		ability: AbilityId.Id = AbilityId.Id.NONE,
+		hidden: AbilityId.Id = AbilityId.Id.NONE
 	) -> SpeciesData:
 	var data := SpeciesData.new()
 	data.id = id
 	data.display_name = name
 	for t: TypeId.Id in types:
-		data.types.append(t as TypeId.Id)
+		data.types.append(t)
 	data.base_hp = hp
 	data.base_atk = atk
 	data.base_def = def
@@ -79,6 +81,9 @@ func _make(
 	data.base_spe = spe
 	data.catch_rate = catch_rate
 	data.base_exp = base_exp
+	if ability != AbilityId.Id.NONE:
+		data.abilities.append(ability)
+	data.hidden_ability = hidden
 	return data
 
 
