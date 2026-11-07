@@ -1,50 +1,103 @@
 extends Node
-## Carga Datos/Moves/moves.json (tools/import_expansion.py).
+## Catálogo de movimientos: índice crudo + MoveData bajo demanda.
 
 const PATH: String = "res://Datos/Moves/moves.json"
 
-var _by_id: Dictionary = {} ## MoveId.Id -> MoveData
+var _raw: Dictionary = {}
+var _cache: Dictionary = {}
+var _ids: Array = []
+var _loaded: bool = false
 
 
 func _ready() -> void:
-	_load_from_json()
+	call_deferred("warm_index")
 
 
-func get_move(id: MoveId.Id) -> MoveData:
-	return _by_id.get(id) as MoveData
+func warm_index() -> void:
+	if _loaded:
+		return
+	_build_index()
 
 
-func has_move(id: MoveId.Id) -> bool:
-	return _by_id.has(id)
+func is_ready() -> bool:
+	return _loaded
 
 
 func count() -> int:
-	return _by_id.size()
+	_ensure()
+	return _ids.size()
+
+
+func has_move(id: MoveId.Id) -> bool:
+	if id == MoveId.Id.NONE:
+		return false
+	_ensure()
+	return _cache.has(id) or _raw.has(id)
+
+
+func get_move(id: MoveId.Id) -> MoveData:
+	if id == MoveId.Id.NONE:
+		return null
+	if _cache.has(id):
+		return _cache[id] as MoveData
+	_ensure()
+	if not _raw.has(id):
+		return null
+	var data: MoveData = _from_dict(_raw[id] as Dictionary)
+	_raw.erase(id)
+	if data != null and data.is_valid():
+		_cache[id] = data
+		return data
+	return null
 
 
 func get_display_name(id: MoveId.Id) -> String:
-	var data: MoveData = get_move(id)
-	if data != null and not data.display_name.is_empty():
-		return data.display_name
+	if id == MoveId.Id.NONE:
+		return ""
+	if _cache.has(id):
+		return (_cache[id] as MoveData).display_name
+	_ensure()
+	if _raw.has(id):
+		var n: String = str((_raw[id] as Dictionary).get("display_name", ""))
+		if not n.is_empty():
+			return n
 	return MoveId.to_token(id)
 
 
-func _load_from_json() -> void:
-	_by_id.clear()
+func clear_cache() -> void:
+	_cache.clear()
+
+
+func _ensure() -> void:
+	if not _loaded:
+		_build_index()
+
+
+func _build_index() -> void:
+	_raw.clear()
+	_ids.clear()
 	if not FileAccess.file_exists(PATH):
 		push_error("MoveCatalog: no existe %s" % PATH)
+		_loaded = true
 		return
-	var parsed: Variant = JSON.parse_string(FileAccess.get_file_as_string(PATH))
+	var text: String = FileAccess.get_file_as_string(PATH)
+	var parsed: Variant = JSON.parse_string(text)
+	text = ""
 	if typeof(parsed) != TYPE_ARRAY:
 		push_error("MoveCatalog: JSON inválido")
+		_loaded = true
 		return
 	for entry: Variant in parsed:
 		if typeof(entry) != TYPE_DICTIONARY:
 			continue
-		var data: MoveData = _from_dict(entry as Dictionary)
-		if data != null and data.is_valid():
-			_by_id[data.id] = data
-	print("MoveCatalog: %d movimientos cargados" % _by_id.size())
+		var d: Dictionary = entry
+		var mid: MoveId.Id = MoveId.from_token(str(d.get("id", "")))
+		if mid == MoveId.Id.NONE:
+			continue
+		_raw[mid] = d
+		_ids.append(mid)
+	_loaded = true
+	print("MoveCatalog: índice %d movimientos (lazy)" % _ids.size())
 
 
 func _from_dict(e: Dictionary) -> MoveData:

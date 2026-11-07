@@ -1,47 +1,179 @@
 extends Node
-## Carga Datos/Pokemon/species.json (tools/import_expansion.py).
+## Catálogo de especies optimizado para poca RAM.
+## - El JSON se indexa una vez (diccionarios crudos), no crea SpeciesData al arrancar.
+## - SpeciesData se materializa solo al pedir get_data() y se cachea.
+## - La indexación de species (el archivo grande) corre en hilo de fondo.
 
 const PATH: String = "res://Datos/Pokemon/species.json"
 
-var _by_id: Dictionary = {} ## SpeciesId.Id -> SpeciesData
+## SpeciesId.Id -> Dictionary (entrada JSON sin convertir)
+var _raw: Dictionary = {}
+## SpeciesId.Id -> SpeciesData (solo los usados)
+var _cache: Dictionary = {}
+## Lista de ids válidos (para Pokédex / iteración ligera)
+var _ids: Array = []
+var _loaded: bool = false
+var _loading: bool = false
 
 
 func _ready() -> void:
-	_load_from_json()
+	# No bloquea el primer frame del título / boot.
+	call_deferred("warm_index")
 
 
-func get_data(id: SpeciesId.Id) -> SpeciesData:
-	return _by_id.get(id) as SpeciesData
+## Arranca la indexación si aún no está. Seguro llamar varias veces.
+func warm_index() -> void:
+	if _loaded or _loading:
+		return
+	_loading = true
+	WorkerThreadPool.add_task(_thread_build_index, true)
 
 
-func has_species(id: SpeciesId.Id) -> bool:
-	return _by_id.has(id)
-
-
-func all_ids() -> Array:
-	return _by_id.keys()
+func is_ready() -> bool:
+	return _loaded
 
 
 func count() -> int:
-	return _by_id.size()
+	_wait_ready()
+	return _ids.size()
 
 
-func _load_from_json() -> void:
-	_by_id.clear()
+func all_ids() -> Array:
+	_wait_ready()
+	return _ids.duplicate()
+
+
+func has_species(id: SpeciesId.Id) -> bool:
+	if id == SpeciesId.Id.NONE:
+		return false
+	if _cache.has(id):
+		return true
+	_wait_ready()
+	return _raw.has(id) or _cache.has(id)
+
+
+func get_data(id: SpeciesId.Id) -> SpeciesData:
+	if id == SpeciesId.Id.NONE:
+		return null
+	if _cache.has(id):
+		return _cache[id] as SpeciesData
+	_wait_ready()
+	if not _raw.has(id):
+		return null
+	var data: SpeciesData = _from_dict(_raw[id] as Dictionary)
+	# Liberar el dict crudo: ya no hace falta duplicar en RAM.
+	_raw.erase(id)
+	if data != null and data.is_valid():
+		_cache[id] = data
+		return data
+	return null
+
+
+## Nombre sin materializar SpeciesData (listas, mensajes, Pokédex).
+func get_display_name(id: SpeciesId.Id) -> String:
+	if id == SpeciesId.Id.NONE:
+		return ""
+	if _cache.has(id):
+		return (_cache[id] as SpeciesData).display_name
+	_wait_ready()
+	if _raw.has(id):
+		var n: String = str((_raw[id] as Dictionary).get("display_name", ""))
+		if not n.is_empty():
+			return n
+	return SpeciesId.to_token(id)
+
+
+func get_national_dex(id: SpeciesId.Id) -> int:
+	if id == SpeciesId.Id.NONE:
+		return 0
+	if _cache.has(id):
+		return (_cache[id] as SpeciesData).national_dex
+	_wait_ready()
+	if _raw.has(id):
+		return int((_raw[id] as Dictionary).get("national_dex", 0))
+	return 0
+
+
+## Libera SpeciesData cacheados (p. ej. al volver al título). El índice crudo se mantiene.
+func clear_cache() -> void:
+	_cache.clear()
+
+
+## Vuelve a cargar desde disco (debug / hot-reload de JSON).
+func reload() -> void:
+	_cache.clear()
+	_raw.clear()
+	_ids.clear()
+	_loaded = false
+	_loading = false
+	warm_index()
+
+
+func _wait_ready() -> void:
+	if _loaded:
+		return
+	if not _loading:
+		# Nadie indexando: hacerlo ya en este hilo.
+		_build_index_from_file()
+		return
+	# Hilo en curso: esperar un poco; si no termina, fallback síncrono.
+	var spins: int = 0
+	while _loading and not _loaded and spins < 3000:
+		OS.delay_msec(1)
+		spins += 1
+	if not _loaded:
+		_build_index_from_file()
+
+
+func _thread_build_index() -> void:
+	var raw: Dictionary = {}
+	var ids: Array = []
+	var err: String = _parse_file_into(raw, ids)
+	call_deferred("_apply_index", raw, ids, err)
+
+
+func _apply_index(raw: Dictionary, ids: Array, err: String) -> void:
+	if not err.is_empty():
+		push_error("SpeciesCatalog: %s" % err)
+	_raw = raw
+	_ids = ids
+	_loaded = true
+	_loading = false
+	print("SpeciesCatalog: índice %d especies (lazy SpeciesData)" % _ids.size())
+
+
+func _build_index_from_file() -> void:
+	var raw: Dictionary = {}
+	var ids: Array = []
+	var err: String = _parse_file_into(raw, ids)
+	if not err.is_empty():
+		push_error("SpeciesCatalog: %s" % err)
+	_raw = raw
+	_ids = ids
+	_loaded = true
+	_loading = false
+	print("SpeciesCatalog: índice %d especies (sync)" % _ids.size())
+
+
+func _parse_file_into(raw: Dictionary, ids: Array) -> String:
 	if not FileAccess.file_exists(PATH):
-		push_error("SpeciesCatalog: no existe %s" % PATH)
-		return
-	var parsed: Variant = JSON.parse_string(FileAccess.get_file_as_string(PATH))
+		return "no existe %s" % PATH
+	var text: String = FileAccess.get_file_as_string(PATH)
+	var parsed: Variant = JSON.parse_string(text)
+	text = "" # ayudar al GC
 	if typeof(parsed) != TYPE_ARRAY:
-		push_error("SpeciesCatalog: JSON inválido")
-		return
+		return "JSON inválido"
 	for entry: Variant in parsed:
 		if typeof(entry) != TYPE_DICTIONARY:
 			continue
-		var data: SpeciesData = _from_dict(entry as Dictionary)
-		if data != null and data.is_valid():
-			_by_id[data.id] = data
-	print("SpeciesCatalog: %d especies cargadas" % _by_id.size())
+		var d: Dictionary = entry
+		var token: String = str(d.get("id", ""))
+		var sid: SpeciesId.Id = SpeciesId.from_token(token)
+		if sid == SpeciesId.Id.NONE:
+			continue
+		raw[sid] = d
+		ids.append(sid)
+	return ""
 
 
 func _from_dict(e: Dictionary) -> SpeciesData:

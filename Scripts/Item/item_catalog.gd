@@ -1,31 +1,66 @@
 extends Node
-## Carga Datos/Items/items.json (tools/import_expansion.py).
+## Catálogo de ítems: índice crudo + ItemData bajo demanda.
 
 const PATH: String = "res://Datos/Items/items.json"
 
-var _by_id: Dictionary = {} ## ItemId.Id -> ItemData
+var _raw: Dictionary = {}
+var _cache: Dictionary = {}
+var _ids: Array = []
+var _loaded: bool = false
 
 
 func _ready() -> void:
-	_load_from_json()
+	call_deferred("warm_index")
 
 
-func get_item(id: ItemId.Id) -> ItemData:
-	return _by_id.get(id) as ItemData
+func warm_index() -> void:
+	if _loaded:
+		return
+	_build_index()
 
 
-func has_item(id: ItemId.Id) -> bool:
-	return _by_id.has(id)
+func is_ready() -> bool:
+	return _loaded
 
 
 func count() -> int:
-	return _by_id.size()
+	_ensure()
+	return _ids.size()
+
+
+func has_item(id: ItemId.Id) -> bool:
+	if id == ItemId.Id.NONE:
+		return false
+	_ensure()
+	return _cache.has(id) or _raw.has(id)
+
+
+func get_item(id: ItemId.Id) -> ItemData:
+	if id == ItemId.Id.NONE:
+		return null
+	if _cache.has(id):
+		return _cache[id] as ItemData
+	_ensure()
+	if not _raw.has(id):
+		return null
+	var data: ItemData = _from_dict(_raw[id] as Dictionary)
+	_raw.erase(id)
+	if data != null and data.is_valid():
+		_cache[id] = data
+		return data
+	return null
 
 
 func get_display_name(id: ItemId.Id) -> String:
-	var data: ItemData = get_item(id)
-	if data != null and not data.display_name.is_empty():
-		return data.display_name
+	if id == ItemId.Id.NONE:
+		return ""
+	if _cache.has(id):
+		return (_cache[id] as ItemData).display_name
+	_ensure()
+	if _raw.has(id):
+		var n: String = str((_raw[id] as Dictionary).get("display_name", ""))
+		if not n.is_empty():
+			return n
 	return ItemId.to_token(id)
 
 
@@ -36,22 +71,40 @@ func stack_limit(id: ItemId.Id) -> int:
 	return 999
 
 
-func _load_from_json() -> void:
-	_by_id.clear()
+func clear_cache() -> void:
+	_cache.clear()
+
+
+func _ensure() -> void:
+	if not _loaded:
+		_build_index()
+
+
+func _build_index() -> void:
+	_raw.clear()
+	_ids.clear()
 	if not FileAccess.file_exists(PATH):
 		push_error("ItemCatalog: no existe %s" % PATH)
+		_loaded = true
 		return
-	var parsed: Variant = JSON.parse_string(FileAccess.get_file_as_string(PATH))
+	var text: String = FileAccess.get_file_as_string(PATH)
+	var parsed: Variant = JSON.parse_string(text)
+	text = ""
 	if typeof(parsed) != TYPE_ARRAY:
 		push_error("ItemCatalog: JSON inválido")
+		_loaded = true
 		return
 	for entry: Variant in parsed:
 		if typeof(entry) != TYPE_DICTIONARY:
 			continue
-		var data: ItemData = _from_dict(entry as Dictionary)
-		if data != null and data.is_valid():
-			_by_id[data.id] = data
-	print("ItemCatalog: %d ítems cargados" % _by_id.size())
+		var d: Dictionary = entry
+		var iid: ItemId.Id = ItemId.from_token(str(d.get("id", "")))
+		if iid == ItemId.Id.NONE:
+			continue
+		_raw[iid] = d
+		_ids.append(iid)
+	_loaded = true
+	print("ItemCatalog: índice %d ítems (lazy)" % _ids.size())
 
 
 func _from_dict(e: Dictionary) -> ItemData:

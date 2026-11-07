@@ -3,9 +3,10 @@ class_name WorldMap
 extends Node2D
 ## Cursor libre en el mapa; al pasar por un WorldMapRegion actualiza Map_Name.
 ## Idle del cursor: 3 frames del Sprite2D (vframes = 3).
+const TILE_SIZE: int = 16
 
 @export var region_id: MapSection.RegionID = MapSection.RegionID.VALTHERION
-@export var cursor_speed: float = 180.0
+@export var cursor_speed: float = 1.0
 ## Límites del cursor en coords de esta escena (ventana de juego).
 @export var cursor_bounds: Rect2 = Rect2(0, 0, 480, 320)
 @export var idle_frame_time: float = 0.2
@@ -68,13 +69,13 @@ func _process(delta: float) -> void:
 func _read_move_input() -> void:
 	_move = Vector2.ZERO
 	if Input.is_action_pressed("Left") or Input.is_action_pressed("ui_left"):
-		_move.x -= 1.0
+		_move.x -= TILE_SIZE
 	if Input.is_action_pressed("Right") or Input.is_action_pressed("ui_right"):
-		_move.x += 1.0
+		_move.x += TILE_SIZE
 	if Input.is_action_pressed("Up") or Input.is_action_pressed("ui_up"):
-		_move.y -= 1.0
+		_move.y -= TILE_SIZE
 	if Input.is_action_pressed("Down") or Input.is_action_pressed("ui_down"):
-		_move.y += 1.0
+		_move.y += TILE_SIZE
 	if _move != Vector2.ZERO:
 		_move = _move.normalized()
 
