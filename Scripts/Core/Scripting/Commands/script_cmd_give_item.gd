@@ -15,7 +15,7 @@ func execute(context: ScriptExecutionContext) -> bool:
 	BagService.add(tree, item_id, amount)
 	if silent:
 		return true
-	var name: String = ItemCatalog.get_display_name(item_id) if ItemCatalog else ItemId.to_key(item_id)
+	var name: String = ItemCatalog.get_display_name(item_id) if ItemCatalog else ItemId.to_token(item_id)
 	var msg: String
 	if amount == 1:
 		msg = "¡Obtuviste %s!" % name

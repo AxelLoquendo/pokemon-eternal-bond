@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://d17orjh8bbo86" path="res://Scripts/Overworld/Object_Event/Player/player.gd" id="1_f1kh6"]
 [ext_resource type="Script" uid="uid://5v4ynuf73kgl" path="res://Scripts/Overworld/Object_Event/Player/player_data.gd" id="2_fj50q"]
-[ext_resource type="Script" uid="uid://dl8f10ofueita" path="res://Scripts/Data/Species/pokemon_instance.gd" id="2_votv2"]
+[ext_resource type="Script" uid="uid://xm7fmhd37777" path="res://Scripts/Pokemon/pokemon_instance.gd" id="2_sm625"]
 [ext_resource type="Texture2D" uid="uid://cg0fvuuc136f7" path="res://Graficos/Object_Event/shadow/shadow_medium.png" id="3_jdact"]
 [ext_resource type="Script" uid="uid://bfdhxq11byi1r" path="res://Scripts/Overworld/Object_Event/Character/character_controller.gd" id="4_q63kt"]
 [ext_resource type="Script" uid="uid://cx1w881yuhtdt" path="res://Scripts/Overworld/Object_Event/Character/character_states_controller.gd" id="5_jdact"]
@@ -263,6 +263,7 @@ texture = ExtResource("3_jdact")
 position = Vector2(8, 0)
 sprite_frames = SubResource("SpriteFrames_to6yr")
 animation = &"Idle_Down"
+frame_progress = 0.62404776
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1519300156]
 offset = Vector2(7.5, 0)
