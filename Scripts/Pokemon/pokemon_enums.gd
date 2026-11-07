@@ -1,0 +1,58 @@
+class_name PokemonEnums
+extends Object
+
+enum Nature {
+	HARDY, LONELY, BRAVE, ADAMANT, NAUGHTY,
+	BOLD, DOCILE, RELAXED, IMPISH, LAX,
+	TIMID, HASTY, SERIOUS, JOLLY, NAIVE,
+	MODEST, MILD, QUIET, BASHFUL, RASH,
+	CALM, GENTLE, SASSY, CAREFUL, QUIRKY,
+}
+
+enum Growth {
+	MEDIUM_FAST,
+	ERRATIC,
+	FLUCTUATING,
+	MEDIUM_SLOW,
+	FAST,
+	SLOW,
+}
+
+enum EggGroup {
+	NONE,
+	MONSTER,
+	WATER_1,
+	BUG,
+	FLYING,
+	FIELD,
+	FAIRY,
+	GRASS,
+	HUMAN_LIKE,
+	WATER_3,
+	MINERAL,
+	AMORPHOUS,
+	WATER_2,
+	DITTO,
+	DRAGON,
+	NO_EGGS,
+}
+
+enum BodyColor {
+	RED, BLUE, YELLOW, GREEN, BLACK,
+	BROWN, PURPLE, GRAY, WHITE, PINK,
+}
+
+enum Stat {
+	HP, ATK, DEF, SPE, SPA, SPD,
+}
+
+## gender_ratio de SpeciesInfo
+const GENDER_MALE_ONLY: int = 0
+const GENDER_FEMALE_ONLY: int = 254
+const GENDER_UNKNOWN: int = 255
+
+enum Gender {
+	MALE,
+	FEMALE,
+	GENDERLESS,
+}
