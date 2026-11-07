@@ -1,0 +1,18 @@
+En tools/import_expansion.py busca:
+
+    dex_numbers: dict[str, int] = {}
+    dex_header = src / "include/constants/pokedex.h"
+    if dex_header.is_file():
+        n = 0
+        for name in parse_enum(read(dex_header), "NATIONAL_DEX_")[0]:
+            n += 1
+            dex_numbers[name] = n
+
+Sustituye el bucle por:
+
+        n = 0
+        for name in parse_enum(read(dex_header), "NATIONAL_DEX_")[0]:
+            if name == "NONE":
+                continue
+            n += 1
+            dex_numbers[name] = n

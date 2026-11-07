@@ -1,11 +1,13 @@
 extends Node
-## Catálogo de ítems. Registro mínimo en código; luego import desde expansion.
+## Carga Datos/Items/items.json (tools/import_expansion.py).
 
-var _by_id: Dictionary = {} # ItemId.Id -> ItemData
+const PATH: String = "res://Datos/Items/items.json"
+
+var _by_id: Dictionary = {} ## ItemId.Id -> ItemData
 
 
 func _ready() -> void:
-	_register_starter_set()
+	_load_from_json()
 
 
 func get_item(id: ItemId.Id) -> ItemData:
@@ -14,6 +16,10 @@ func get_item(id: ItemId.Id) -> ItemData:
 
 func has_item(id: ItemId.Id) -> bool:
 	return _by_id.has(id)
+
+
+func count() -> int:
+	return _by_id.size()
 
 
 func get_display_name(id: ItemId.Id) -> String:
@@ -30,74 +36,64 @@ func stack_limit(id: ItemId.Id) -> int:
 	return 999
 
 
-func _register_starter_set() -> void:
-	_add(_make(ItemId.Id.POKE_BALL, "Poké Ball", ItemPocket.Id.BALLS, 200,
-		"Un dispositivo para capturar Pokémon salvajes."))
-	_add(_make(ItemId.Id.GREAT_BALL, "Super Ball", ItemPocket.Id.BALLS, 600,
-		"Una Ball con más éxito que la Poké Ball."))
-	_add(_make(ItemId.Id.ULTRA_BALL, "Ultra Ball", ItemPocket.Id.BALLS, 800,
-		"Una Ball con aún más éxito que la Super Ball."))
-
-	_add(_make(ItemId.Id.POTION, "Poción", ItemPocket.Id.MEDICINE, 200,
-		"Restaura 20 PS de un Pokémon."))
-	_add(_make(ItemId.Id.SUPER_POTION, "Superpoción", ItemPocket.Id.MEDICINE, 700,
-		"Restaura 60 PS de un Pokémon."))
-	_add(_make(ItemId.Id.HYPER_POTION, "Hiperpoción", ItemPocket.Id.MEDICINE, 1500,
-		"Restaura 120 PS de un Pokémon."))
-	_add(_make(ItemId.Id.FULL_RESTORE, "Restau. Todo", ItemPocket.Id.MEDICINE, 3000,
-		"Restaura todos los PS y cura los problemas de estado."))
-
-	_add(_make(ItemId.Id.ANTIDOTE, "Antídoto", ItemPocket.Id.MEDICINE, 200,
-		"Cura el envenenamiento."))
-	_add(_make(ItemId.Id.AWAKENING, "Despertar", ItemPocket.Id.MEDICINE, 100,
-		"Despierta a un Pokémon dormido."))
-	_add(_make(ItemId.Id.PARALYZE_HEAL, "Antiparaliz", ItemPocket.Id.MEDICINE, 200,
-		"Cura la parálisis."))
-	_add(_make(ItemId.Id.BURN_HEAL, "Antiquemar", ItemPocket.Id.MEDICINE, 200,
-		"Cura las quemaduras."))
-	_add(_make(ItemId.Id.ICE_HEAL, "Antihielo", ItemPocket.Id.MEDICINE, 200,
-		"Descongela a un Pokémon."))
-	_add(_make(ItemId.Id.FULL_HEAL, "Cura total", ItemPocket.Id.MEDICINE, 400,
-		"Cura cualquier problema de estado."))
-	_add(_make(ItemId.Id.REVIVE, "Revivir", ItemPocket.Id.MEDICINE, 2000,
-		"Revive a un Pokémon debilitado con la mitad de sus PS."))
-	_add(_make(ItemId.Id.MAX_REVIVE, "Max Revivir", ItemPocket.Id.MEDICINE, 4000,
-		"Revive a un Pokémon debilitado con todos sus PS."))
-
-	_add(_make(ItemId.Id.RARE_CANDY, "Carameloraro", ItemPocket.Id.ITEMS, 0,
-		"Sube un nivel a un Pokémon."))
-	_add(_make(ItemId.Id.ESCAPE_ROPE, "Cuerda Huida", ItemPocket.Id.ITEMS, 1000,
-		"Permite escapar de cuevas y lugares similares."))
-	_add(_make(ItemId.Id.REPEL, "Repelente", ItemPocket.Id.ITEMS, 400,
-		"Repele Pokémon salvajes débiles un tiempo."))
-	_add(_make(ItemId.Id.SUPER_REPEL, "Superrepelente", ItemPocket.Id.ITEMS, 700,
-		"Repele Pokémon salvajes débiles más tiempo."))
-	_add(_make(ItemId.Id.MAX_REPEL, "Máx. Repelente", ItemPocket.Id.ITEMS, 900,
-		"Repele Pokémon salvajes débiles mucho más tiempo."))
+func _load_from_json() -> void:
+	_by_id.clear()
+	if not FileAccess.file_exists(PATH):
+		push_error("ItemCatalog: no existe %s" % PATH)
+		return
+	var parsed: Variant = JSON.parse_string(FileAccess.get_file_as_string(PATH))
+	if typeof(parsed) != TYPE_ARRAY:
+		push_error("ItemCatalog: JSON inválido")
+		return
+	for entry: Variant in parsed:
+		if typeof(entry) != TYPE_DICTIONARY:
+			continue
+		var data: ItemData = _from_dict(entry as Dictionary)
+		if data != null and data.is_valid():
+			_by_id[data.id] = data
+	print("ItemCatalog: %d ítems cargados" % _by_id.size())
 
 
-func _make(
-		id: ItemId.Id,
-		name: String,
-		pocket: ItemPocket.Id,
-		price: int,
-		description: String,
-		stack_limit: int = 999,
-		important: bool = false
-	) -> ItemData:
+func _from_dict(e: Dictionary) -> ItemData:
+	var id: ItemId.Id = ItemId.from_token(str(e.get("id", "")))
+	if id == ItemId.Id.NONE:
+		return null
 	var data := ItemData.new()
 	data.id = id
-	data.display_name = name
-	data.pocket = pocket
-	data.price = price
-	data.description = description
-	data.stack_limit = stack_limit
-	data.important = important
+	data.display_name = str(e.get("display_name", ""))
+	data.description = str(e.get("description", ""))
+	data.pocket = _pocket(str(e.get("pocket", "ITEMS")))
+	data.price = int(e.get("price", 0))
+	data.important = bool(e.get("important", false))
+	data.hold_effect = str(e.get("hold_effect", ""))
+	data.hold_effect_param = int(e.get("hold_effect_param", 0))
+	data.field_use = str(e.get("field_use", ""))
+	data.battle_use = str(e.get("battle_use", ""))
+	data.sort_type = str(e.get("sort_type", ""))
+	data.fling_power = int(e.get("fling_power", 0))
+	data.tm_move = MoveId.from_token(str(e.get("tm_move", "")))
+	if data.pocket == ItemPocket.Id.KEY_ITEMS or data.important:
+		data.stack_limit = 1
+	else:
+		data.stack_limit = 999
 	return data
 
 
-func _add(data: ItemData) -> void:
-	if data == null or not data.is_valid():
-		push_warning("ItemCatalog: entrada inválida")
-		return
-	_by_id[data.id] = data
+func _pocket(token: String) -> ItemPocket.Id:
+	match token:
+		"MEDICINE":
+			return ItemPocket.Id.MEDICINE
+		"BALLS":
+			return ItemPocket.Id.BALLS
+		"BATTLE":
+			return ItemPocket.Id.BATTLE
+		"BERRIES":
+			return ItemPocket.Id.BERRIES
+		"KEY_ITEMS":
+			return ItemPocket.Id.KEY_ITEMS
+		"TMS":
+			return ItemPocket.Id.TMS
+		"NONE":
+			return ItemPocket.Id.NONE
+		_:
+			return ItemPocket.Id.ITEMS

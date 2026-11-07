@@ -1,11 +1,13 @@
 extends Node
-## Catálogo de habilidades. Set mínimo; luego import desde expansion.
+## Carga Datos/Abilities/abilities.json (tools/import_expansion.py).
 
-var _by_id: Dictionary = {} # AbilityId.Id -> AbilityData
+const PATH: String = "res://Datos/Abilities/abilities.json"
+
+var _by_id: Dictionary = {} ## AbilityId.Id -> AbilityData
 
 
 func _ready() -> void:
-	_register_starter_set()
+	_load_from_json()
 
 
 func get_ability(id: AbilityId.Id) -> AbilityData:
@@ -16,6 +18,10 @@ func has_ability(id: AbilityId.Id) -> bool:
 	return _by_id.has(id)
 
 
+func count() -> int:
+	return _by_id.size()
+
+
 func get_display_name(id: AbilityId.Id) -> String:
 	var data: AbilityData = get_ability(id)
 	if data != null and not data.display_name.is_empty():
@@ -23,47 +29,38 @@ func get_display_name(id: AbilityId.Id) -> String:
 	return AbilityId.to_token(id)
 
 
-func _register_starter_set() -> void:
-	_add(_make(AbilityId.Id.OVERGROW, "Espesura",
-		"Potencia los movimientos de tipo Planta del Pokémon cuando le quedan pocos PS."))
-	_add(_make(AbilityId.Id.BLAZE, "Mar Llamas",
-		"Potencia los movimientos de tipo Fuego del Pokémon cuando le quedan pocos PS."))
-	_add(_make(AbilityId.Id.TORRENT, "Torrente",
-		"Potencia los movimientos de tipo Agua del Pokémon cuando le quedan pocos PS."))
-	_add(_make(AbilityId.Id.STATIC, "Elec. Estática",
-		"Puede paralizar al rival al contacto."))
-	_add(_make(AbilityId.Id.LIGHTNING_ROD, "Pararrayos",
-		"Atrae y anula movimientos Eléctricos y sube el Ataque Especial."))
-	_add(_make(AbilityId.Id.CHLOROPHYLL, "Clorofila",
-		"Duplica la Velocidad con sol intenso."))
-	_add(_make(AbilityId.Id.THICK_FAT, "Sebo",
-		"Reduce el daño de movimientos de Fuego y Hielo."))
-	_add(_make(AbilityId.Id.SOLAR_POWER, "Poder Solar",
-		"Con sol intenso sube el Ataque Especial, pero pierde PS cada turno."))
-	_add(_make(AbilityId.Id.LEVITATE, "Levitación",
-		"Inmune a movimientos de tipo Tierra."))
-	_add(_make(AbilityId.Id.PRESSURE, "Presión",
-		"Hace que el rival gaste 1 PP extra al usar un movimiento."))
-	_add(_make(AbilityId.Id.INTIMIDATE, "Intimidación",
-		"Baja el Ataque del rival al entrar en combate."))
-	_add(_make(AbilityId.Id.HUGE_POWER, "Potencia",
-		"Duplica el Ataque."))
-	_add(_make(AbilityId.Id.WONDER_GUARD, "Superguarda",
-		"Solo recibe daño de movimientos supereficaces."))
-	_add(_make(AbilityId.Id.TABLETS_OF_RUIN, "Tablilla Debacle",
-		"Reduce el Ataque de todos los Pokémon excepto el de esta habilidad."))
+func _load_from_json() -> void:
+	_by_id.clear()
+	if not FileAccess.file_exists(PATH):
+		push_error("AbilityCatalog: no existe %s" % PATH)
+		return
+	var parsed: Variant = JSON.parse_string(FileAccess.get_file_as_string(PATH))
+	if typeof(parsed) != TYPE_ARRAY:
+		push_error("AbilityCatalog: JSON inválido")
+		return
+	for entry: Variant in parsed:
+		if typeof(entry) != TYPE_DICTIONARY:
+			continue
+		var data: AbilityData = _from_dict(entry as Dictionary)
+		if data != null and data.is_valid():
+			_by_id[data.id] = data
+	print("AbilityCatalog: %d habilidades cargadas" % _by_id.size())
 
 
-func _make(id: AbilityId.Id, name: String, description: String) -> AbilityData:
+func _from_dict(e: Dictionary) -> AbilityData:
+	var id: AbilityId.Id = AbilityId.from_token(str(e.get("id", "")))
+	if id == AbilityId.Id.NONE:
+		return null
 	var data := AbilityData.new()
 	data.id = id
-	data.display_name = name
-	data.description = description
+	data.display_name = str(e.get("display_name", ""))
+	data.description = str(e.get("description", ""))
+	data.ai_rating = int(e.get("ai_rating", 0))
+	data.cant_be_copied = bool(e.get("cant_be_copied", false))
+	data.cant_be_swapped = bool(e.get("cant_be_swapped", false))
+	data.cant_be_traced = bool(e.get("cant_be_traced", false))
+	data.cant_be_suppressed = bool(e.get("cant_be_suppressed", false))
+	data.cant_be_overwritten = bool(e.get("cant_be_overwritten", false))
+	data.breakable = bool(e.get("breakable", false))
+	data.fails_on_imposter = bool(e.get("fails_on_imposter", false))
 	return data
-
-
-func _add(data: AbilityData) -> void:
-	if data == null or not data.is_valid():
-		push_warning("AbilityCatalog: entrada inválida")
-		return
-	_by_id[data.id] = data
