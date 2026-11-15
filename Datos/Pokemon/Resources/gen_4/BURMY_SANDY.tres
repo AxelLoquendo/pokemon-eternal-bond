@@ -1,0 +1,55 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b8yv05fosf75o"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_h5bpg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_k1kvo"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dhsoe"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fan5u"]
+
+[sub_resource type="Resource" id="Resource_bfwc7"]
+script = ExtResource("3_dhsoe")
+move = 182
+
+[sub_resource type="Resource" id="Resource_ur4bw"]
+script = ExtResource("3_dhsoe")
+level = 10
+move = 33
+
+[sub_resource type="Resource" id="Resource_pbu2l"]
+script = ExtResource("3_dhsoe")
+level = 15
+move = 450
+
+[sub_resource type="Resource" id="Resource_kxqoo"]
+script = ExtResource("3_dhsoe")
+level = 20
+move = 81
+
+[resource]
+script = ExtResource("4_fan5u")
+id = 1057
+display_name = "Burmy"
+category = "Bagworm"
+national_dex = 412
+pokedex = "It weaves a cloak together with sand, mud,
+and silk it spits out. This earthen cloak
+is ruined by wind and rain, so the Pokémon
+hides away in caves and other such places."
+type_1 = 7
+base_hp = 40
+base_atk = 29
+base_def = 45
+base_spa = 29
+base_spd = 45
+base_spe = 36
+ev_spd = 1
+catch_rate = 120
+base_exp = 45
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 61
+ability_hidden = 142
+height_dm = 2
+weight_hg = 34
+body_color = 5
+level_moves = Array[ExtResource("3_dhsoe")]([SubResource("Resource_bfwc7"), SubResource("Resource_ur4bw"), SubResource("Resource_pbu2l"), SubResource("Resource_kxqoo")])
+form_species = Array[int]([412, 1057, 1058])

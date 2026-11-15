@@ -1,19 +1,24 @@
 class_name SpeciesData
 extends Resource
 ## Ficha de una especie o forma. Una forma = un SpeciesId.
+## Campos fijos usan enum suelto (como PokeDot / expansion) para el Inspector.
 
 const ABILITY_SLOTS: int = 3 ## [0] y [1] normales, [2] oculta
 
+@export_group("Identity")
 @export var id: SpeciesId.Id = SpeciesId.Id.NONE
 @export var display_name: String = ""
 @export var category: String = ""
 @export var national_dex: int = 0
 @export_multiline var pokedex: String = ""
 
-@export var types: Array[TypeId.Id] = []
-## TYPE_NONE = no forzado. Si no es NONE, el individuo nace con este tera.
+@export_group("Types")
+@export var type_1: TypeId.Id = TypeId.Id.NONE
+@export var type_2: TypeId.Id = TypeId.Id.NONE
+## NONE = no forzado. Si no es NONE, el individuo nace con este tera.
 @export var force_tera_type: TypeId.Id = TypeId.Id.NONE
 
+@export_group("Base Stats")
 @export var base_hp: int = 1
 @export var base_atk: int = 1
 @export var base_def: int = 1
@@ -21,6 +26,7 @@ const ABILITY_SLOTS: int = 3 ## [0] y [1] normales, [2] oculta
 @export var base_spd: int = 1
 @export var base_spe: int = 1
 
+@export_group("EV Yield")
 @export var ev_hp: int = 0
 @export var ev_atk: int = 0
 @export var ev_def: int = 0
@@ -28,6 +34,7 @@ const ABILITY_SLOTS: int = 3 ## [0] y [1] normales, [2] oculta
 @export var ev_spd: int = 0
 @export var ev_spe: int = 0
 
+@export_group("General")
 @export var catch_rate: int = 45
 @export var base_exp: int = 0
 @export var base_friendship: int = 50
@@ -35,17 +42,25 @@ const ABILITY_SLOTS: int = 3 ## [0] y [1] normales, [2] oculta
 @export var gender_ratio: int = 127
 @export var growth_rate: PokemonEnums.Growth = PokemonEnums.Growth.MEDIUM_FAST
 @export var egg_cycles: int = 20
-@export var egg_groups: Array[PokemonEnums.EggGroup] = []
+@export var egg_group_1: PokemonEnums.EggGroup = PokemonEnums.EggGroup.NONE
+@export var egg_group_2: PokemonEnums.EggGroup = PokemonEnums.EggGroup.NONE
 
-@export var abilities: Array[AbilityId.Id] = []
+@export_group("Abilities")
+@export var ability_1: AbilityId.Id = AbilityId.Id.NONE
+@export var ability_2: AbilityId.Id = AbilityId.Id.NONE
+@export var ability_hidden: AbilityId.Id = AbilityId.Id.NONE
+
+@export_group("Held Items")
 @export var item_common: ItemId.Id = ItemId.Id.NONE
 @export var item_rare: ItemId.Id = ItemId.Id.NONE
 
+@export_group("Pokédex measure")
 @export var height_dm: int = 0
 @export var weight_hg: int = 0
 @export var body_color: PokemonEnums.BodyColor = PokemonEnums.BodyColor.RED
 @export var no_flip: bool = false
 
+@export_group("Flags")
 @export var is_restricted_legendary: bool = false
 @export var is_sub_legendary: bool = false
 @export var is_mythical: bool = false
@@ -64,10 +79,12 @@ const ABILITY_SLOTS: int = 3 ## [0] y [1] normales, [2] oculta
 @export var cannot_be_traded: bool = false
 @export var perfect_iv_count: int = 0
 
-## { "level": int, "move": MoveId.Id }
-@export var level_moves: Array[Dictionary] = []
+@export_group("Learnsets")
+@export var level_moves: Array[LevelUpMove] = []
 @export var tutor_moves: Array[MoveId.Id] = []
 @export var egg_moves: Array[MoveId.Id] = []
+
+@export_group("Evolution & forms")
 @export var evolutions: Array[EvolutionData] = []
 ## Otras formas de la misma familia (formSpeciesIdTable).
 @export var form_species: Array[SpeciesId.Id] = []
@@ -79,6 +96,28 @@ func is_valid() -> bool:
 
 
 func hidden_ability() -> AbilityId.Id:
-	if abilities.size() >= ABILITY_SLOTS:
-		return abilities[ABILITY_SLOTS - 1]
-	return AbilityId.Id.NONE
+	return ability_hidden
+
+
+## Compat: lista de tipos no-NONE (código antiguo que iteraba `types`).
+func types() -> Array[TypeId.Id]:
+	var out: Array[TypeId.Id] = []
+	if type_1 != TypeId.Id.NONE:
+		out.append(type_1)
+	if type_2 != TypeId.Id.NONE:
+		out.append(type_2)
+	return out
+
+
+## Compat: [ability_1, ability_2, ability_hidden]
+func abilities() -> Array[AbilityId.Id]:
+	return [ability_1, ability_2, ability_hidden]
+
+
+func egg_groups() -> Array[PokemonEnums.EggGroup]:
+	var out: Array[PokemonEnums.EggGroup] = []
+	if egg_group_1 != PokemonEnums.EggGroup.NONE:
+		out.append(egg_group_1)
+	if egg_group_2 != PokemonEnums.EggGroup.NONE:
+		out.append(egg_group_2)
+	return out

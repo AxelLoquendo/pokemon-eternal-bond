@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bwk45hu0le3gt"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_hgl2w"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_w7bpp"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_droq4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_33lmo"]
+
+[sub_resource type="Resource" id="Resource_vlsjk"]
+script = ExtResource("3_droq4")
+move = 225
+
+[sub_resource type="Resource" id="Resource_oj0xv"]
+script = ExtResource("3_droq4")
+move = 246
+
+[sub_resource type="Resource" id="Resource_wy1nt"]
+script = ExtResource("3_droq4")
+move = 422
+
+[sub_resource type="Resource" id="Resource_ip0ky"]
+script = ExtResource("3_droq4")
+move = 568
+
+[sub_resource type="Resource" id="Resource_hxh1y"]
+script = ExtResource("3_droq4")
+level = 8
+move = 163
+
+[sub_resource type="Resource" id="Resource_mi431"]
+script = ExtResource("3_droq4")
+level = 16
+move = 242
+
+[sub_resource type="Resource" id="Resource_vpnyi"]
+script = ExtResource("3_droq4")
+level = 24
+move = 428
+
+[sub_resource type="Resource" id="Resource_arn7r"]
+script = ExtResource("3_droq4")
+level = 32
+move = 337
+
+[sub_resource type="Resource" id="Resource_qfbd1"]
+script = ExtResource("3_droq4")
+level = 40
+move = 85
+
+[sub_resource type="Resource" id="Resource_2x8ar"]
+script = ExtResource("3_droq4")
+level = 48
+move = 559
+
+[sub_resource type="Resource" id="Resource_ovw2e"]
+script = ExtResource("3_droq4")
+level = 56
+move = 304
+
+[sub_resource type="Resource" id="Resource_300m3"]
+script = ExtResource("3_droq4")
+level = 64
+move = 87
+
+[sub_resource type="Resource" id="Resource_fkgep"]
+script = ExtResource("3_droq4")
+level = 72
+move = 286
+
+[sub_resource type="Resource" id="Resource_ivftw"]
+script = ExtResource("3_droq4")
+level = 80
+move = 200
+
+[sub_resource type="Resource" id="Resource_hbdxq"]
+script = ExtResource("3_droq4")
+level = 88
+move = 550
+
+[resource]
+script = ExtResource("4_33lmo")
+id = 644
+display_name = "Zekrom"
+category = "Deep Black"
+national_dex = 644
+pokedex = "This legendary Pokémon can scorch the
+world with lightning. It has a generator
+that creates electricity in its tail. It
+assists those with strong ideals."
+type_1 = 17
+type_2 = 14
+base_hp = 100
+base_atk = 150
+base_def = 120
+base_spa = 120
+base_spd = 100
+base_spe = 90
+ev_atk = 3
+catch_rate = 3
+base_exp = 340
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 164
+height_dm = 29
+weight_hg = 3450
+body_color = 4
+level_moves = Array[ExtResource("3_droq4")]([SubResource("Resource_vlsjk"), SubResource("Resource_oj0xv"), SubResource("Resource_wy1nt"), SubResource("Resource_ip0ky"), SubResource("Resource_hxh1y"), SubResource("Resource_mi431"), SubResource("Resource_vpnyi"), SubResource("Resource_arn7r"), SubResource("Resource_qfbd1"), SubResource("Resource_2x8ar"), SubResource("Resource_ovw2e"), SubResource("Resource_300m3"), SubResource("Resource_fkgep"), SubResource("Resource_ivftw"), SubResource("Resource_hbdxq")])

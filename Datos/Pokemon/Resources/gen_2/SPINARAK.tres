@@ -1,0 +1,124 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c61ht0cy5luqs"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_aliq0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3uldi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_v3a0w"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8jwg4"]
+
+[sub_resource type="Resource" id="Resource_dr7wa"]
+script = ExtResource("1_aliq0")
+method = "LEVEL"
+param = "22"
+target = 168
+
+[sub_resource type="Resource" id="Resource_vfcrh"]
+script = ExtResource("3_v3a0w")
+move = 40
+
+[sub_resource type="Resource" id="Resource_mqoww"]
+script = ExtResource("3_v3a0w")
+move = 81
+
+[sub_resource type="Resource" id="Resource_wg28r"]
+script = ExtResource("3_v3a0w")
+level = 5
+move = 71
+
+[sub_resource type="Resource" id="Resource_km75e"]
+script = ExtResource("3_v3a0w")
+level = 8
+move = 611
+
+[sub_resource type="Resource" id="Resource_kyuiv"]
+script = ExtResource("3_v3a0w")
+level = 12
+move = 184
+
+[sub_resource type="Resource" id="Resource_bwd6c"]
+script = ExtResource("3_v3a0w")
+level = 15
+move = 101
+
+[sub_resource type="Resource" id="Resource_bcbkd"]
+script = ExtResource("3_v3a0w")
+level = 19
+move = 425
+
+[sub_resource type="Resource" id="Resource_80hjc"]
+script = ExtResource("3_v3a0w")
+level = 22
+move = 154
+
+[sub_resource type="Resource" id="Resource_acklh"]
+script = ExtResource("3_v3a0w")
+level = 26
+move = 389
+
+[sub_resource type="Resource" id="Resource_owlxu"]
+script = ExtResource("3_v3a0w")
+level = 29
+move = 97
+
+[sub_resource type="Resource" id="Resource_3yyiq"]
+script = ExtResource("3_v3a0w")
+level = 33
+move = 42
+
+[sub_resource type="Resource" id="Resource_xike2"]
+script = ExtResource("3_v3a0w")
+level = 36
+move = 94
+
+[sub_resource type="Resource" id="Resource_vdqno"]
+script = ExtResource("3_v3a0w")
+level = 40
+move = 398
+
+[sub_resource type="Resource" id="Resource_cfbfs"]
+script = ExtResource("3_v3a0w")
+level = 44
+move = 440
+
+[sub_resource type="Resource" id="Resource_qwsh5"]
+script = ExtResource("3_v3a0w")
+level = 47
+move = 564
+
+[sub_resource type="Resource" id="Resource_3flfh"]
+script = ExtResource("3_v3a0w")
+level = 51
+move = 635
+
+[resource]
+script = ExtResource("4_8jwg4")
+id = 167
+display_name = "Spinarak"
+category = "String Spit"
+national_dex = 167
+pokedex = "The web it spins can be considered its
+second nervous system. It is said that a
+Spinarak determines its prey by the tiny
+vibrations it feels through the web."
+type_1 = 7
+type_2 = 4
+base_hp = 40
+base_atk = 60
+base_def = 40
+base_spa = 40
+base_spd = 40
+base_spe = 30
+ev_atk = 1
+catch_rate = 255
+base_exp = 50
+growth_rate = 4
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 68
+ability_2 = 15
+ability_hidden = 97
+height_dm = 5
+weight_hg = 85
+body_color = 3
+level_moves = Array[ExtResource("3_v3a0w")]([SubResource("Resource_vfcrh"), SubResource("Resource_mqoww"), SubResource("Resource_wg28r"), SubResource("Resource_km75e"), SubResource("Resource_kyuiv"), SubResource("Resource_bwd6c"), SubResource("Resource_bcbkd"), SubResource("Resource_80hjc"), SubResource("Resource_acklh"), SubResource("Resource_owlxu"), SubResource("Resource_3yyiq"), SubResource("Resource_xike2"), SubResource("Resource_vdqno"), SubResource("Resource_cfbfs"), SubResource("Resource_qwsh5"), SubResource("Resource_3flfh")])
+egg_moves = Array[int]([60, 50, 49, 226, 228, 324, 390, 41, 527, 476, 400, 224, 642])
+evolutions = Array[ExtResource("1_aliq0")]([SubResource("Resource_dr7wa")])

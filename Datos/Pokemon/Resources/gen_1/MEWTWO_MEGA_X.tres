@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c48l2lv7e8uo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_266qu"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_soa6t"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ii1v4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_aa3ws"]
+
+[sub_resource type="Resource" id="Resource_k4teu"]
+script = ExtResource("3_ii1v4")
+move = 50
+
+[sub_resource type="Resource" id="Resource_myamh"]
+script = ExtResource("3_ii1v4")
+move = 93
+
+[sub_resource type="Resource" id="Resource_si7mi"]
+script = ExtResource("3_ii1v4")
+move = 129
+
+[sub_resource type="Resource" id="Resource_3iw6u"]
+script = ExtResource("3_ii1v4")
+move = 719
+
+[sub_resource type="Resource" id="Resource_w42n8"]
+script = ExtResource("3_ii1v4")
+level = 8
+move = 246
+
+[sub_resource type="Resource" id="Resource_pwq66"]
+script = ExtResource("3_ii1v4")
+level = 16
+move = 427
+
+[sub_resource type="Resource" id="Resource_reldf"]
+script = ExtResource("3_ii1v4")
+level = 24
+move = 219
+
+[sub_resource type="Resource" id="Resource_ntt2y"]
+script = ExtResource("3_ii1v4")
+level = 32
+move = 133
+
+[sub_resource type="Resource" id="Resource_026we"]
+script = ExtResource("3_ii1v4")
+level = 40
+move = 396
+
+[sub_resource type="Resource" id="Resource_yenhv"]
+script = ExtResource("3_ii1v4")
+level = 48
+move = 94
+
+[sub_resource type="Resource" id="Resource_5mw0x"]
+script = ExtResource("3_ii1v4")
+level = 56
+move = 384
+
+[sub_resource type="Resource" id="Resource_00wbd"]
+script = ExtResource("3_ii1v4")
+level = 56
+move = 385
+
+[sub_resource type="Resource" id="Resource_rbt6c"]
+script = ExtResource("3_ii1v4")
+level = 64
+move = 54
+
+[sub_resource type="Resource" id="Resource_c33yu"]
+script = ExtResource("3_ii1v4")
+level = 72
+move = 540
+
+[sub_resource type="Resource" id="Resource_4w1sh"]
+script = ExtResource("3_ii1v4")
+level = 80
+move = 105
+
+[sub_resource type="Resource" id="Resource_0a63c"]
+script = ExtResource("3_ii1v4")
+level = 88
+move = 248
+
+[resource]
+script = ExtResource("4_aa3ws")
+id = 919
+display_name = "Mewtwo"
+category = "Genetic"
+national_dex = 150
+pokedex = "Psychic power has augmented its muscles.
+It has a grip strength of one ton and can
+sprint a hundred meters in two seconds
+flat!"
+type_1 = 15
+type_2 = 2
+base_hp = 106
+base_atk = 190
+base_def = 100
+base_spa = 154
+base_spd = 100
+base_spe = 130
+ev_spa = 3
+catch_rate = 3
+base_exp = 390
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 80
+ability_2 = 80
+ability_hidden = 80
+height_dm = 23
+weight_hg = 1270
+body_color = 6
+level_moves = Array[ExtResource("3_ii1v4")]([SubResource("Resource_k4teu"), SubResource("Resource_myamh"), SubResource("Resource_si7mi"), SubResource("Resource_3iw6u"), SubResource("Resource_w42n8"), SubResource("Resource_pwq66"), SubResource("Resource_reldf"), SubResource("Resource_ntt2y"), SubResource("Resource_026we"), SubResource("Resource_yenhv"), SubResource("Resource_5mw0x"), SubResource("Resource_00wbd"), SubResource("Resource_rbt6c"), SubResource("Resource_c33yu"), SubResource("Resource_4w1sh"), SubResource("Resource_0a63c")])
+form_species = Array[int]([150, 919, 920])

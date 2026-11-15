@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bxfkyeav8wt4q"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mrdx0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hppsp"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dn5dj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hed02"]
+
+[sub_resource type="Resource" id="Resource_wjkl6"]
+script = ExtResource("1_mrdx0")
+method = "ITEM"
+param = "ITEM_FIRE_STONE"
+target = 38
+
+[sub_resource type="Resource" id="Resource_am06g"]
+script = ExtResource("3_dn5dj")
+move = 39
+
+[sub_resource type="Resource" id="Resource_50q6a"]
+script = ExtResource("3_dn5dj")
+move = 52
+
+[sub_resource type="Resource" id="Resource_fkxua"]
+script = ExtResource("3_dn5dj")
+level = 4
+move = 50
+
+[sub_resource type="Resource" id="Resource_lf2t0"]
+script = ExtResource("3_dn5dj")
+level = 8
+move = 98
+
+[sub_resource type="Resource" id="Resource_fa6j1"]
+script = ExtResource("3_dn5dj")
+level = 12
+move = 180
+
+[sub_resource type="Resource" id="Resource_6r7xt"]
+script = ExtResource("3_dn5dj")
+level = 16
+move = 510
+
+[sub_resource type="Resource" id="Resource_0k1vb"]
+script = ExtResource("3_dn5dj")
+level = 20
+move = 109
+
+[sub_resource type="Resource" id="Resource_3gf05"]
+script = ExtResource("3_dn5dj")
+level = 24
+move = 261
+
+[sub_resource type="Resource" id="Resource_kjbcm"]
+script = ExtResource("3_dn5dj")
+level = 28
+move = 326
+
+[sub_resource type="Resource" id="Resource_4cevo"]
+script = ExtResource("3_dn5dj")
+level = 32
+move = 53
+
+[sub_resource type="Resource" id="Resource_0b7mv"]
+script = ExtResource("3_dn5dj")
+level = 36
+move = 286
+
+[sub_resource type="Resource" id="Resource_kxinm"]
+script = ExtResource("3_dn5dj")
+level = 40
+move = 83
+
+[sub_resource type="Resource" id="Resource_cnul3"]
+script = ExtResource("3_dn5dj")
+level = 44
+move = 219
+
+[sub_resource type="Resource" id="Resource_qxpmc"]
+script = ExtResource("3_dn5dj")
+level = 48
+move = 517
+
+[sub_resource type="Resource" id="Resource_5truc"]
+script = ExtResource("3_dn5dj")
+level = 52
+move = 126
+
+[resource]
+script = ExtResource("4_hed02")
+id = 37
+display_name = "Vulpix"
+category = "Fox"
+national_dex = 37
+pokedex = "It can freely control fire, making fiery
+orbs fly like will-o'-the-wisps. Just
+before evolution, its six tails grow hot 
+as if on fire."
+type_1 = 11
+base_hp = 38
+base_atk = 41
+base_def = 40
+base_spa = 50
+base_spd = 65
+base_spe = 65
+ev_spe = 1
+catch_rate = 190
+base_exp = 60
+gender_ratio = 191
+egg_group_1 = 5
+ability_1 = 18
+ability_hidden = 70
+item_rare = 426
+height_dm = 6
+weight_hg = 99
+body_color = 5
+level_moves = Array[ExtResource("3_dn5dj")]([SubResource("Resource_am06g"), SubResource("Resource_50q6a"), SubResource("Resource_fkxua"), SubResource("Resource_lf2t0"), SubResource("Resource_fa6j1"), SubResource("Resource_6r7xt"), SubResource("Resource_0k1vb"), SubResource("Resource_3gf05"), SubResource("Resource_kjbcm"), SubResource("Resource_4cevo"), SubResource("Resource_0b7mv"), SubResource("Resource_kxinm"), SubResource("Resource_cnul3"), SubResource("Resource_qxpmc"), SubResource("Resource_5truc")])
+egg_moves = Array[int]([185, 95, 175, 180, 50, 336, 257, 394, 326, 384, 290, 506, 541, 445])
+evolutions = Array[ExtResource("1_mrdx0")]([SubResource("Resource_wjkl6")])
+form_species = Array[int]([37, 961])

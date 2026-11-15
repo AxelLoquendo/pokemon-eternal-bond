@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bk8wjgkvbaqec"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_iq4hu"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_orb5k"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_751f4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_75yn5"]
+
+[sub_resource type="Resource" id="Resource_r324j"]
+script = ExtResource("3_751f4")
+move = 28
+
+[sub_resource type="Resource" id="Resource_sbl0h"]
+script = ExtResource("3_751f4")
+move = 43
+
+[sub_resource type="Resource" id="Resource_vhkdv"]
+script = ExtResource("3_751f4")
+move = 468
+
+[sub_resource type="Resource" id="Resource_5uox0"]
+script = ExtResource("3_751f4")
+move = 644
+
+[sub_resource type="Resource" id="Resource_5md2l"]
+script = ExtResource("3_751f4")
+level = 9
+move = 328
+
+[sub_resource type="Resource" id="Resource_wsxbj"]
+script = ExtResource("3_751f4")
+level = 12
+move = 184
+
+[sub_resource type="Resource" id="Resource_fr0a1"]
+script = ExtResource("3_751f4")
+level = 15
+move = 44
+
+[sub_resource type="Resource" id="Resource_pfu7s"]
+script = ExtResource("3_751f4")
+level = 18
+move = 259
+
+[sub_resource type="Resource" id="Resource_2jq52"]
+script = ExtResource("3_751f4")
+level = 21
+move = 91
+
+[sub_resource type="Resource" id="Resource_kc1ju"]
+script = ExtResource("3_751f4")
+level = 24
+move = 207
+
+[sub_resource type="Resource" id="Resource_ffilk"]
+script = ExtResource("3_751f4")
+level = 27
+move = 242
+
+[sub_resource type="Resource" id="Resource_bmmrv"]
+script = ExtResource("3_751f4")
+level = 32
+move = 201
+
+[sub_resource type="Resource" id="Resource_kr1xk"]
+script = ExtResource("3_751f4")
+level = 35
+move = 492
+
+[sub_resource type="Resource" id="Resource_otqtk"]
+script = ExtResource("3_751f4")
+level = 44
+move = 89
+
+[sub_resource type="Resource" id="Resource_jcurc"]
+script = ExtResource("3_751f4")
+level = 51
+move = 37
+
+[sub_resource type="Resource" id="Resource_7asnl"]
+script = ExtResource("3_751f4")
+level = 58
+move = 200
+
+[resource]
+script = ExtResource("4_75yn5")
+id = 553
+display_name = "Krookodile"
+category = "Intimidate"
+national_dex = 553
+pokedex = "Very violent Pokémon, they never allow
+their prey to escape. Their jaws are so
+powerful, they can crush the body of
+an automobile."
+type_1 = 5
+type_2 = 18
+base_hp = 95
+base_atk = 117
+base_def = 80
+base_spa = 65
+base_spd = 70
+base_spe = 92
+ev_atk = 3
+base_exp = 229
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 22
+ability_2 = 153
+ability_hidden = 83
+item_common = 440
+height_dm = 15
+weight_hg = 963
+level_moves = Array[ExtResource("3_751f4")]([SubResource("Resource_r324j"), SubResource("Resource_sbl0h"), SubResource("Resource_vhkdv"), SubResource("Resource_5uox0"), SubResource("Resource_5md2l"), SubResource("Resource_wsxbj"), SubResource("Resource_fr0a1"), SubResource("Resource_pfu7s"), SubResource("Resource_2jq52"), SubResource("Resource_kc1ju"), SubResource("Resource_ffilk"), SubResource("Resource_bmmrv"), SubResource("Resource_kr1xk"), SubResource("Resource_otqtk"), SubResource("Resource_jcurc"), SubResource("Resource_7asnl")])

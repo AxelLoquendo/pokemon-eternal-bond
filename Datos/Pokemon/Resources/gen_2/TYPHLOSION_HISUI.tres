@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dtyq04anskq74"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_oh0bv"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_50wtm"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3oae6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kitat"]
+
+[sub_resource type="Resource" id="Resource_pyque"]
+script = ExtResource("3_3oae6")
+level = 0
+move = 772
+
+[sub_resource type="Resource" id="Resource_rexg4"]
+script = ExtResource("3_3oae6")
+move = 360
+
+[sub_resource type="Resource" id="Resource_6ksh7"]
+script = ExtResource("3_3oae6")
+move = 284
+
+[sub_resource type="Resource" id="Resource_64844"]
+script = ExtResource("3_3oae6")
+move = 108
+
+[sub_resource type="Resource" id="Resource_rjh1e"]
+script = ExtResource("3_3oae6")
+move = 33
+
+[sub_resource type="Resource" id="Resource_04ewe"]
+script = ExtResource("3_3oae6")
+move = 52
+
+[sub_resource type="Resource" id="Resource_g1xkc"]
+script = ExtResource("3_3oae6")
+move = 43
+
+[sub_resource type="Resource" id="Resource_1q78k"]
+script = ExtResource("3_3oae6")
+move = 38
+
+[sub_resource type="Resource" id="Resource_mixgc"]
+script = ExtResource("3_3oae6")
+level = 13
+move = 98
+
+[sub_resource type="Resource" id="Resource_1c1g7"]
+script = ExtResource("3_3oae6")
+level = 20
+move = 172
+
+[sub_resource type="Resource" id="Resource_u5wpq"]
+script = ExtResource("3_3oae6")
+level = 24
+move = 111
+
+[sub_resource type="Resource" id="Resource_8qa54"]
+script = ExtResource("3_3oae6")
+level = 31
+move = 129
+
+[sub_resource type="Resource" id="Resource_062as"]
+script = ExtResource("3_3oae6")
+level = 35
+move = 488
+
+[sub_resource type="Resource" id="Resource_jfoto"]
+script = ExtResource("3_3oae6")
+level = 43
+move = 436
+
+[sub_resource type="Resource" id="Resource_7x42t"]
+script = ExtResource("3_3oae6")
+level = 48
+move = 53
+
+[sub_resource type="Resource" id="Resource_40ljk"]
+script = ExtResource("3_3oae6")
+level = 56
+move = 517
+
+[sub_resource type="Resource" id="Resource_1cwvp"]
+script = ExtResource("3_3oae6")
+level = 61
+move = 205
+
+[sub_resource type="Resource" id="Resource_8t8jj"]
+script = ExtResource("3_3oae6")
+level = 74
+move = 315
+
+[resource]
+script = ExtResource("4_kitat")
+id = 997
+display_name = "Typhlosion"
+category = "Ghost Flame"
+national_dex = 157
+pokedex = "Said to purify lost, forsaken souls with
+its flames and guide them to the afterlife.
+It's believed its form was influenced by
+the energy of Mt. Coronet in ancient times."
+type_1 = 11
+type_2 = 8
+base_hp = 73
+base_atk = 84
+base_def = 78
+base_spa = 119
+base_spd = 85
+base_spe = 95
+ev_spa = 3
+base_exp = 267
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 66
+ability_hidden = 119
+height_dm = 16
+weight_hg = 698
+body_color = 2
+level_moves = Array[ExtResource("3_3oae6")]([SubResource("Resource_pyque"), SubResource("Resource_rexg4"), SubResource("Resource_6ksh7"), SubResource("Resource_64844"), SubResource("Resource_rjh1e"), SubResource("Resource_04ewe"), SubResource("Resource_g1xkc"), SubResource("Resource_1q78k"), SubResource("Resource_mixgc"), SubResource("Resource_1c1g7"), SubResource("Resource_u5wpq"), SubResource("Resource_8qa54"), SubResource("Resource_062as"), SubResource("Resource_jfoto"), SubResource("Resource_7x42t"), SubResource("Resource_40ljk"), SubResource("Resource_1cwvp"), SubResource("Resource_8t8jj")])
+form_species = Array[int]([157, 997])

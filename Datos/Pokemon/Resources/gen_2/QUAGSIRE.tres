@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://brg00etrmjk75"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qeq4s"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0vqbm"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ewma6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ymwly"]
+
+[sub_resource type="Resource" id="Resource_u6mi6"]
+script = ExtResource("3_ewma6")
+move = 39
+
+[sub_resource type="Resource" id="Resource_27leq"]
+script = ExtResource("3_ewma6")
+move = 55
+
+[sub_resource type="Resource" id="Resource_ebnw2"]
+script = ExtResource("3_ewma6")
+move = 240
+
+[sub_resource type="Resource" id="Resource_divvb"]
+script = ExtResource("3_ewma6")
+move = 341
+
+[sub_resource type="Resource" id="Resource_rouy5"]
+script = ExtResource("3_ewma6")
+level = 12
+move = 54
+
+[sub_resource type="Resource" id="Resource_u3fkk"]
+script = ExtResource("3_ewma6")
+level = 12
+move = 114
+
+[sub_resource type="Resource" id="Resource_6i01m"]
+script = ExtResource("3_ewma6")
+level = 16
+move = 21
+
+[sub_resource type="Resource" id="Resource_yusgr"]
+script = ExtResource("3_ewma6")
+level = 23
+move = 281
+
+[sub_resource type="Resource" id="Resource_mmltr"]
+script = ExtResource("3_ewma6")
+level = 28
+move = 401
+
+[sub_resource type="Resource" id="Resource_tqe8t"]
+script = ExtResource("3_ewma6")
+level = 34
+move = 330
+
+[sub_resource type="Resource" id="Resource_jm8ki"]
+script = ExtResource("3_ewma6")
+level = 40
+move = 133
+
+[sub_resource type="Resource" id="Resource_p6keo"]
+script = ExtResource("3_ewma6")
+level = 46
+move = 92
+
+[sub_resource type="Resource" id="Resource_fvq4c"]
+script = ExtResource("3_ewma6")
+level = 52
+move = 89
+
+[resource]
+script = ExtResource("4_ymwly")
+id = 195
+display_name = "Quagsire"
+category = "Water Fish"
+national_dex = 195
+pokedex = "A Quagsire hunts by leaving its mouth wide
+open in water and waiting for its prey to
+blunder in. Because it doesn't move, it
+does not get very hungry."
+type_1 = 12
+type_2 = 5
+base_hp = 95
+base_atk = 85
+base_def = 85
+base_spa = 65
+base_spd = 65
+base_spe = 35
+ev_hp = 2
+catch_rate = 90
+base_exp = 151
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 6
+ability_2 = 11
+ability_hidden = 109
+height_dm = 14
+weight_hg = 750
+body_color = 1
+level_moves = Array[ExtResource("3_ewma6")]([SubResource("Resource_u6mi6"), SubResource("Resource_27leq"), SubResource("Resource_ebnw2"), SubResource("Resource_divvb"), SubResource("Resource_rouy5"), SubResource("Resource_u3fkk"), SubResource("Resource_6i01m"), SubResource("Resource_yusgr"), SubResource("Resource_mmltr"), SubResource("Resource_tqe8t"), SubResource("Resource_jm8ki"), SubResource("Resource_p6keo"), SubResource("Resource_fvq4c")])

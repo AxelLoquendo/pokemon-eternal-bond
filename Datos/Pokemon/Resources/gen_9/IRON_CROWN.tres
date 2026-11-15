@@ -1,0 +1,119 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dyja4skkhmbpe"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_hi2om"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5f3kl"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_op6od"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_854jb"]
+
+[sub_resource type="Resource" id="Resource_ugdi8"]
+script = ExtResource("3_op6od")
+move = 43
+
+[sub_resource type="Resource" id="Resource_1kx11"]
+script = ExtResource("3_op6od")
+move = 604
+
+[sub_resource type="Resource" id="Resource_664di"]
+script = ExtResource("3_op6od")
+move = 93
+
+[sub_resource type="Resource" id="Resource_r4fbj"]
+script = ExtResource("3_op6od")
+move = 232
+
+[sub_resource type="Resource" id="Resource_nhuh2"]
+script = ExtResource("3_op6od")
+level = 7
+move = 647
+
+[sub_resource type="Resource" id="Resource_tnfqv"]
+script = ExtResource("3_op6od")
+level = 14
+move = 163
+
+[sub_resource type="Resource" id="Resource_twx6l"]
+script = ExtResource("3_op6od")
+level = 21
+move = 334
+
+[sub_resource type="Resource" id="Resource_pit2y"]
+script = ExtResource("3_op6od")
+level = 28
+move = 473
+
+[sub_resource type="Resource" id="Resource_mr080"]
+script = ExtResource("3_op6od")
+level = 35
+move = 427
+
+[sub_resource type="Resource" id="Resource_y6kxt"]
+script = ExtResource("3_op6od")
+level = 42
+move = 430
+
+[sub_resource type="Resource" id="Resource_x6g6k"]
+script = ExtResource("3_op6od")
+level = 49
+move = 533
+
+[sub_resource type="Resource" id="Resource_4vvge"]
+script = ExtResource("3_op6od")
+level = 56
+move = 839
+
+[sub_resource type="Resource" id="Resource_20jp6"]
+script = ExtResource("3_op6od")
+level = 63
+move = 248
+
+[sub_resource type="Resource" id="Resource_q5777"]
+script = ExtResource("3_op6od")
+level = 70
+move = 521
+
+[sub_resource type="Resource" id="Resource_8m0wy"]
+script = ExtResource("3_op6od")
+level = 77
+move = 501
+
+[sub_resource type="Resource" id="Resource_o1mmd"]
+script = ExtResource("3_op6od")
+level = 84
+move = 368
+
+[sub_resource type="Resource" id="Resource_tj6a5"]
+script = ExtResource("3_op6od")
+level = 91
+move = 63
+
+[resource]
+script = ExtResource("4_854jb")
+id = 1430
+display_name = "Iron Crown"
+category = "Paradox"
+national_dex = 1023
+pokedex = "It resembles a mysterious object
+introduced in a paranormal magazine
+as a cutting-edge weapon
+shaped like Cobalion."
+type_1 = 9
+type_2 = 15
+base_hp = 90
+base_atk = 72
+base_def = 100
+base_spa = 122
+base_spd = 108
+base_spe = 98
+ev_spa = 3
+catch_rate = 10
+base_exp = 295
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 50
+ability_1 = 282
+item_rare = 764
+height_dm = 16
+weight_hg = 1560
+body_color = 1
+level_moves = Array[ExtResource("3_op6od")]([SubResource("Resource_ugdi8"), SubResource("Resource_1kx11"), SubResource("Resource_664di"), SubResource("Resource_r4fbj"), SubResource("Resource_nhuh2"), SubResource("Resource_tnfqv"), SubResource("Resource_twx6l"), SubResource("Resource_pit2y"), SubResource("Resource_mr080"), SubResource("Resource_y6kxt"), SubResource("Resource_x6g6k"), SubResource("Resource_4vvge"), SubResource("Resource_20jp6"), SubResource("Resource_q5777"), SubResource("Resource_8m0wy"), SubResource("Resource_o1mmd"), SubResource("Resource_tj6a5")])

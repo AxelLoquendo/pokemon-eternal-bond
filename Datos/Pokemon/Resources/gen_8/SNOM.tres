@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dwfrnux4ribki"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_bqk2l"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pdaeh"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_t06y8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_l54bb"]
+
+[sub_resource type="Resource" id="Resource_3d35q"]
+script = ExtResource("3_t06y8")
+move = 522
+
+[sub_resource type="Resource" id="Resource_0y8dv"]
+script = ExtResource("3_t06y8")
+move = 181
+
+[resource]
+script = ExtResource("4_l54bb")
+id = 872
+display_name = "Snom"
+category = "Worm"
+national_dex = 872
+pokedex = "It spits out thread imbued with a frigid
+sort of energy and uses it to tie its body
+to branches, disguising itself as an
+icicle while it sleeps."
+type_1 = 16
+type_2 = 7
+base_hp = 30
+base_atk = 25
+base_def = 35
+base_spa = 45
+base_spd = 30
+base_spe = 20
+ev_spa = 1
+catch_rate = 190
+base_exp = 37
+egg_group_1 = 3
+ability_1 = 19
+ability_hidden = 246
+item_rare = 458
+height_dm = 3
+weight_hg = 38
+body_color = 8
+level_moves = Array[ExtResource("3_t06y8")]([SubResource("Resource_3d35q"), SubResource("Resource_0y8dv")])
+egg_moves = Array[int]([584, 243, 450])

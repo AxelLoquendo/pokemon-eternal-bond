@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bpnu1v1p7gqks"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0t500"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_151ae"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rjaq8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fc6ll"]
+
+[sub_resource type="Resource" id="Resource_17edc"]
+script = ExtResource("1_0t500")
+method = "LEVEL"
+param = "15"
+target = 162
+
+[sub_resource type="Resource" id="Resource_gv6t0"]
+script = ExtResource("3_rjaq8")
+move = 10
+
+[sub_resource type="Resource" id="Resource_puncj"]
+script = ExtResource("3_rjaq8")
+level = 4
+move = 111
+
+[sub_resource type="Resource" id="Resource_ssktp"]
+script = ExtResource("3_rjaq8")
+level = 7
+move = 98
+
+[sub_resource type="Resource" id="Resource_f1rgv"]
+script = ExtResource("3_rjaq8")
+level = 13
+move = 154
+
+[sub_resource type="Resource" id="Resource_c87eq"]
+script = ExtResource("3_rjaq8")
+level = 16
+move = 270
+
+[sub_resource type="Resource" id="Resource_plh4a"]
+script = ExtResource("3_rjaq8")
+level = 19
+move = 266
+
+[sub_resource type="Resource" id="Resource_et12o"]
+script = ExtResource("3_rjaq8")
+level = 25
+move = 21
+
+[sub_resource type="Resource" id="Resource_c6kv3"]
+script = ExtResource("3_rjaq8")
+level = 28
+move = 156
+
+[sub_resource type="Resource" id="Resource_nxarx"]
+script = ExtResource("3_rjaq8")
+level = 31
+move = 389
+
+[sub_resource type="Resource" id="Resource_5eo24"]
+script = ExtResource("3_rjaq8")
+level = 36
+move = 133
+
+[sub_resource type="Resource" id="Resource_nbr1l"]
+script = ExtResource("3_rjaq8")
+level = 39
+move = 226
+
+[sub_resource type="Resource" id="Resource_a7h6n"]
+script = ExtResource("3_rjaq8")
+level = 42
+move = 38
+
+[sub_resource type="Resource" id="Resource_wy0i8"]
+script = ExtResource("3_rjaq8")
+level = 47
+move = 304
+
+[resource]
+script = ExtResource("4_fc6ll")
+id = 161
+display_name = "Sentret"
+category = "Scout"
+national_dex = 161
+pokedex = "They take turns standing guard when it
+is time to sleep. The sentry awakens the
+others if it senses danger. If one becomes
+separated, it turns sleepless with fear."
+type_1 = 1
+base_hp = 35
+base_atk = 46
+base_def = 34
+base_spa = 35
+base_spd = 45
+base_spe = 20
+ev_atk = 1
+catch_rate = 255
+base_exp = 43
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 50
+ability_2 = 51
+ability_hidden = 119
+height_dm = 8
+weight_hg = 60
+body_color = 5
+level_moves = Array[ExtResource("3_rjaq8")]([SubResource("Resource_gv6t0"), SubResource("Resource_puncj"), SubResource("Resource_ssktp"), SubResource("Resource_f1rgv"), SubResource("Resource_c87eq"), SubResource("Resource_plh4a"), SubResource("Resource_et12o"), SubResource("Resource_c6kv3"), SubResource("Resource_nxarx"), SubResource("Resource_5eo24"), SubResource("Resource_nbr1l"), SubResource("Resource_a7h6n"), SubResource("Resource_wy0i8")])
+egg_moves = Array[int]([38, 228, 163, 116, 179, 271, 274, 387, 204, 343, 363, 231, 445, 608])
+evolutions = Array[ExtResource("1_0t500")]([SubResource("Resource_17edc")])

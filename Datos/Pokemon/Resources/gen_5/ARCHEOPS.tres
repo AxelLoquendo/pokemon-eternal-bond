@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b70vcg7fww7qf"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ofjpt"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2sg5k"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kembc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_17lqw"]
+
+[sub_resource type="Resource" id="Resource_emio0"]
+script = ExtResource("3_kembc")
+move = 98
+
+[sub_resource type="Resource" id="Resource_1fon1"]
+script = ExtResource("3_kembc")
+move = 43
+
+[sub_resource type="Resource" id="Resource_tfar4"]
+script = ExtResource("3_kembc")
+move = 88
+
+[sub_resource type="Resource" id="Resource_2kbos"]
+script = ExtResource("3_kembc")
+move = 17
+
+[sub_resource type="Resource" id="Resource_rpq63"]
+script = ExtResource("3_kembc")
+level = 9
+move = 225
+
+[sub_resource type="Resource" id="Resource_ocj7k"]
+script = ExtResource("3_kembc")
+level = 12
+move = 246
+
+[sub_resource type="Resource" id="Resource_kavof"]
+script = ExtResource("3_kembc")
+level = 15
+move = 365
+
+[sub_resource type="Resource" id="Resource_rhrn5"]
+script = ExtResource("3_kembc")
+level = 18
+move = 501
+
+[sub_resource type="Resource" id="Resource_pu688"]
+script = ExtResource("3_kembc")
+level = 21
+move = 369
+
+[sub_resource type="Resource" id="Resource_qm1gp"]
+script = ExtResource("3_kembc")
+level = 24
+move = 157
+
+[sub_resource type="Resource" id="Resource_x1kn5"]
+script = ExtResource("3_kembc")
+level = 27
+move = 184
+
+[sub_resource type="Resource" id="Resource_itp4n"]
+script = ExtResource("3_kembc")
+level = 30
+move = 242
+
+[sub_resource type="Resource" id="Resource_qddlt"]
+script = ExtResource("3_kembc")
+level = 33
+move = 97
+
+[sub_resource type="Resource" id="Resource_hn871"]
+script = ExtResource("3_kembc")
+level = 36
+move = 366
+
+[sub_resource type="Resource" id="Resource_u1b3x"]
+script = ExtResource("3_kembc")
+level = 41
+move = 337
+
+[sub_resource type="Resource" id="Resource_o4etj"]
+script = ExtResource("3_kembc")
+level = 46
+move = 37
+
+[sub_resource type="Resource" id="Resource_ua4cf"]
+script = ExtResource("3_kembc")
+level = 51
+move = 283
+
+[resource]
+script = ExtResource("4_17lqw")
+id = 567
+display_name = "Archeops"
+category = "First Bird"
+national_dex = 567
+pokedex = "They are intelligent and will cooperate
+to catch prey. When one Archeops
+had the prey cornered, another would
+swoop on it."
+type_1 = 6
+type_2 = 3
+base_hp = 75
+base_atk = 140
+base_def = 65
+base_spa = 112
+base_spd = 65
+base_spe = 110
+ev_atk = 2
+base_exp = 177
+gender_ratio = 31
+egg_cycles = 30
+egg_group_1 = 4
+egg_group_2 = 9
+ability_1 = 129
+height_dm = 14
+weight_hg = 320
+body_color = 2
+level_moves = Array[ExtResource("3_kembc")]([SubResource("Resource_emio0"), SubResource("Resource_1fon1"), SubResource("Resource_tfar4"), SubResource("Resource_2kbos"), SubResource("Resource_rpq63"), SubResource("Resource_ocj7k"), SubResource("Resource_kavof"), SubResource("Resource_rhrn5"), SubResource("Resource_pu688"), SubResource("Resource_qm1gp"), SubResource("Resource_x1kn5"), SubResource("Resource_itp4n"), SubResource("Resource_qddlt"), SubResource("Resource_hn871"), SubResource("Resource_u1b3x"), SubResource("Resource_o4etj"), SubResource("Resource_ua4cf")])

@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://q2yya2ucjgen"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0jmot"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jtymw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_t8wg3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_igrju"]
+
+[sub_resource type="Resource" id="Resource_rlari"]
+script = ExtResource("3_t8wg3")
+move = 33
+
+[sub_resource type="Resource" id="Resource_72hhy"]
+script = ExtResource("3_t8wg3")
+move = 286
+
+[sub_resource type="Resource" id="Resource_j31r2"]
+script = ExtResource("3_t8wg3")
+level = 5
+move = 332
+
+[sub_resource type="Resource" id="Resource_klg12"]
+script = ExtResource("3_t8wg3")
+level = 10
+move = 184
+
+[sub_resource type="Resource" id="Resource_oqn7a"]
+script = ExtResource("3_t8wg3")
+level = 15
+move = 458
+
+[sub_resource type="Resource" id="Resource_0c7d8"]
+script = ExtResource("3_t8wg3")
+level = 20
+move = 319
+
+[sub_resource type="Resource" id="Resource_kydkt"]
+script = ExtResource("3_t8wg3")
+level = 25
+move = 306
+
+[sub_resource type="Resource" id="Resource_pldt7"]
+script = ExtResource("3_t8wg3")
+level = 30
+move = 403
+
+[sub_resource type="Resource" id="Resource_3gk3x"]
+script = ExtResource("3_t8wg3")
+level = 35
+move = 161
+
+[sub_resource type="Resource" id="Resource_jsipy"]
+script = ExtResource("3_t8wg3")
+level = 40
+move = 404
+
+[sub_resource type="Resource" id="Resource_ab5n2"]
+script = ExtResource("3_t8wg3")
+level = 45
+move = 442
+
+[sub_resource type="Resource" id="Resource_75nkx"]
+script = ExtResource("3_t8wg3")
+level = 50
+move = 36
+
+[sub_resource type="Resource" id="Resource_hp2jw"]
+script = ExtResource("3_t8wg3")
+level = 55
+move = 38
+
+[resource]
+script = ExtResource("4_igrju")
+id = 772
+display_name = "Type: Null"
+category = "Synthetic"
+national_dex = 772
+pokedex = "Due to the danger that this synthetic
+Pokémon may go on a rampage, it wears a
+control mask to restrain its capabilities.
+It has some hidden special power."
+type_1 = 1
+base_hp = 95
+base_atk = 95
+base_def = 95
+base_spa = 95
+base_spd = 95
+base_spe = 59
+ev_hp = 2
+catch_rate = 3
+base_exp = 107
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 4
+height_dm = 19
+weight_hg = 1205
+body_color = 7
+level_moves = Array[ExtResource("3_t8wg3")]([SubResource("Resource_rlari"), SubResource("Resource_72hhy"), SubResource("Resource_j31r2"), SubResource("Resource_klg12"), SubResource("Resource_oqn7a"), SubResource("Resource_0c7d8"), SubResource("Resource_kydkt"), SubResource("Resource_pldt7"), SubResource("Resource_3gk3x"), SubResource("Resource_jsipy"), SubResource("Resource_ab5n2"), SubResource("Resource_75nkx"), SubResource("Resource_hp2jw")])

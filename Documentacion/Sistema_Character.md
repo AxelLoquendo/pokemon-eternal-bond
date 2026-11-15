@@ -9,7 +9,7 @@ Cada actor (jugador o NPC) es un `Node2D` con los mismos hijos base:
 | `Character` | `Character` | Sprite y `CharacterBase` (`walk`, nombre, id) |
 | `CharacterController` | `CharacterController` | Grilla, lerp, lock |
 | `CharacterAnimatedController` | `CharacterAnimatedController` | Frames y sonido de salto |
-| `CharacterState` | `CharacterStates` | IDLE / WALK / RUN / LOCKED |
+| `CharacterState` | `CharacterStates` | IDLE / WALK / RUN / STAIRS / LOCKED; además declara estados preparados para otras mecánicas |
 | `PlayerController` o `NpcController` | — | De dónde sale la dirección |
 | `MoveRouteController` | NPC (y player si un script lo crea) | Cola de `MoveCommand` |
 
@@ -56,4 +56,11 @@ Durante el script, `NpcController` no procesa wander / look around si está lock
 
 ## 6. Estados
 
-`CharacterStates.State`: `IDLE`, `WALK`, `RUN`, `LOCKED`. En `LOCKED` el controlador no acepta nuevos pasos.
+`CharacterStates.State` declara `IDLE`, `WALK`, `RUN`, `STAIRS`, `LOCKED`, `SLIP`, `FISHING`, `BIKE`, `BATTLE`, `SURF` y `DIVE`. Declarar un estado enum no implementa su mecánica: los estados que sí tienen recorrido de juego observado son IDLE, WALK, RUN, LOCKED y STAIRS; SLIP/otros deben considerarse extensión pendiente salvo que se encuentre un controlador específico conectado.
+
+- `IDLE`: espera dirección y orienta al actor.
+- `WALK`/`RUN`: mueve con velocidad configurada para caminar/correr.
+- `LOCKED`: evita nuevos pasos manuales; el controlador puede seguir actualizando una ruta ordenada por script.
+- `STAIRS`: estado breve de transición diagonal. Conserva la dirección del tramo para evitar repetir el paso diagonal; la salida por el extremo sigue permitiendo encadenar el movimiento sin exigir soltar y volver a pulsar.
+
+El estado no decide por sí solo colisión ni dibuja frames: el `CharacterController` consulta el resultado del paso y `CharacterAnimatedController` reproduce la animación correspondiente.

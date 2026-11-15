@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://3nl84mbu5nou"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_turvd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_12wj3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pibgu"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_b04f4"]
+
+[sub_resource type="Resource" id="Resource_5qkl7"]
+script = ExtResource("1_turvd")
+method = "LEVEL"
+param = "48"
+target = 691
+
+[sub_resource type="Resource" id="Resource_s3l8k"]
+script = ExtResource("3_pibgu")
+move = 33
+
+[sub_resource type="Resource" id="Resource_skiix"]
+script = ExtResource("3_pibgu")
+move = 108
+
+[sub_resource type="Resource" id="Resource_jk5w0"]
+script = ExtResource("3_pibgu")
+level = 5
+move = 51
+
+[sub_resource type="Resource" id="Resource_t5kjf"]
+script = ExtResource("3_pibgu")
+level = 10
+move = 55
+
+[sub_resource type="Resource" id="Resource_1v7v0"]
+script = ExtResource("3_pibgu")
+level = 15
+move = 39
+
+[sub_resource type="Resource" id="Resource_6jl0d"]
+script = ExtResource("3_pibgu")
+level = 20
+move = 104
+
+[sub_resource type="Resource" id="Resource_hfx0u"]
+script = ExtResource("3_pibgu")
+level = 25
+move = 342
+
+[sub_resource type="Resource" id="Resource_1hb37"]
+script = ExtResource("3_pibgu")
+level = 30
+move = 352
+
+[sub_resource type="Resource" id="Resource_vkl5s"]
+script = ExtResource("3_pibgu")
+level = 35
+move = 92
+
+[sub_resource type="Resource" id="Resource_c35xq"]
+script = ExtResource("3_pibgu")
+level = 40
+move = 406
+
+[sub_resource type="Resource" id="Resource_s8d6q"]
+script = ExtResource("3_pibgu")
+level = 45
+move = 401
+
+[sub_resource type="Resource" id="Resource_dwgux"]
+script = ExtResource("3_pibgu")
+level = 50
+move = 188
+
+[sub_resource type="Resource" id="Resource_3kceq"]
+script = ExtResource("3_pibgu")
+level = 55
+move = 56
+
+[resource]
+script = ExtResource("4_b04f4")
+id = 690
+display_name = "Skrelp"
+category = "Mock Kelp"
+national_dex = 690
+pokedex = "Camouflaged as rotten kelp, it hides
+from foes while storing up power for its
+evolution. They spray liquid poison on
+prey that approach unawares."
+type_1 = 4
+type_2 = 12
+base_hp = 50
+base_atk = 60
+base_def = 60
+base_spa = 60
+base_spd = 60
+base_spe = 30
+ev_spd = 1
+catch_rate = 225
+base_exp = 64
+egg_group_1 = 2
+egg_group_2 = 14
+ability_1 = 38
+ability_2 = 143
+ability_hidden = 91
+height_dm = 5
+weight_hg = 73
+body_color = 5
+level_moves = Array[ExtResource("3_pibgu")]([SubResource("Resource_s3l8k"), SubResource("Resource_skiix"), SubResource("Resource_jk5w0"), SubResource("Resource_t5kjf"), SubResource("Resource_1v7v0"), SubResource("Resource_6jl0d"), SubResource("Resource_hfx0u"), SubResource("Resource_1hb37"), SubResource("Resource_vkl5s"), SubResource("Resource_c35xq"), SubResource("Resource_s8d6q"), SubResource("Resource_dwgux"), SubResource("Resource_3kceq")])
+egg_moves = Array[int]([390, 583, 114, 151, 599])
+evolutions = Array[ExtResource("1_turvd")]([SubResource("Resource_5qkl7")])

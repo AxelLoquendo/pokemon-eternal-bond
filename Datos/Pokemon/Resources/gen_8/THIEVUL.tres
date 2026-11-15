@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8i1us3yn67r"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_i1pgw"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lt4y4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_iqoat"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hq5g1"]
+
+[sub_resource type="Resource" id="Resource_yte60"]
+script = ExtResource("3_iqoat")
+level = 0
+move = 168
+
+[sub_resource type="Resource" id="Resource_vx7jd"]
+script = ExtResource("3_iqoat")
+move = 168
+
+[sub_resource type="Resource" id="Resource_ro1ed"]
+script = ExtResource("3_iqoat")
+move = 98
+
+[sub_resource type="Resource" id="Resource_6aups"]
+script = ExtResource("3_iqoat")
+move = 39
+
+[sub_resource type="Resource" id="Resource_bk5ud"]
+script = ExtResource("3_iqoat")
+move = 251
+
+[sub_resource type="Resource" id="Resource_8cnu7"]
+script = ExtResource("3_iqoat")
+move = 468
+
+[sub_resource type="Resource" id="Resource_vocto"]
+script = ExtResource("3_iqoat")
+level = 12
+move = 555
+
+[sub_resource type="Resource" id="Resource_ymog4"]
+script = ExtResource("3_iqoat")
+level = 16
+move = 372
+
+[sub_resource type="Resource" id="Resource_q41kv"]
+script = ExtResource("3_iqoat")
+level = 22
+move = 417
+
+[sub_resource type="Resource" id="Resource_g0h78"]
+script = ExtResource("3_iqoat")
+level = 28
+move = 389
+
+[sub_resource type="Resource" id="Resource_bha1h"]
+script = ExtResource("3_iqoat")
+level = 34
+move = 400
+
+[sub_resource type="Resource" id="Resource_jky42"]
+script = ExtResource("3_iqoat")
+level = 40
+move = 541
+
+[sub_resource type="Resource" id="Resource_q6plw"]
+script = ExtResource("3_iqoat")
+level = 46
+move = 492
+
+[sub_resource type="Resource" id="Resource_788dg"]
+script = ExtResource("3_iqoat")
+level = 52
+move = 575
+
+[resource]
+script = ExtResource("4_hq5g1")
+id = 828
+display_name = "Thievul"
+category = "Fox"
+national_dex = 828
+pokedex = "It secretly marks potential targets with
+a scent. By following the scent, it
+stalks its targets and steals from them
+when they least expect it."
+type_1 = 18
+base_hp = 70
+base_atk = 58
+base_def = 58
+base_spa = 87
+base_spd = 92
+base_spe = 90
+ev_spd = 2
+catch_rate = 127
+base_exp = 159
+growth_rate = 4
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 50
+ability_2 = 84
+ability_hidden = 198
+height_dm = 12
+weight_hg = 199
+body_color = 5
+level_moves = Array[ExtResource("3_iqoat")]([SubResource("Resource_yte60"), SubResource("Resource_vx7jd"), SubResource("Resource_ro1ed"), SubResource("Resource_6aups"), SubResource("Resource_bk5ud"), SubResource("Resource_8cnu7"), SubResource("Resource_vocto"), SubResource("Resource_ymog4"), SubResource("Resource_q41kv"), SubResource("Resource_g0h78"), SubResource("Resource_bha1h"), SubResource("Resource_jky42"), SubResource("Resource_q6plw"), SubResource("Resource_788dg")])

@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qp08jjk7yse4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vhp8u"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ci1w8"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_v2qwp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bjriw"]
+
+[sub_resource type="Resource" id="Resource_l6eyd"]
+script = ExtResource("1_vhp8u")
+method = "LEVEL"
+param = "41"
+target = 576
+
+[sub_resource type="Resource" id="Resource_ckngd"]
+script = ExtResource("3_v2qwp")
+move = 1
+
+[sub_resource type="Resource" id="Resource_5ja31"]
+script = ExtResource("3_v2qwp")
+move = 93
+
+[sub_resource type="Resource" id="Resource_42bha"]
+script = ExtResource("3_v2qwp")
+move = 321
+
+[sub_resource type="Resource" id="Resource_sryyg"]
+script = ExtResource("3_v2qwp")
+move = 589
+
+[sub_resource type="Resource" id="Resource_0lrya"]
+script = ExtResource("3_v2qwp")
+level = 12
+move = 60
+
+[sub_resource type="Resource" id="Resource_h315h"]
+script = ExtResource("3_v2qwp")
+level = 16
+move = 204
+
+[sub_resource type="Resource" id="Resource_alohh"]
+script = ExtResource("3_v2qwp")
+level = 20
+move = 473
+
+[sub_resource type="Resource" id="Resource_0yvsy"]
+script = ExtResource("3_v2qwp")
+level = 24
+move = 95
+
+[sub_resource type="Resource" id="Resource_tucn6"]
+script = ExtResource("3_v2qwp")
+level = 28
+move = 313
+
+[sub_resource type="Resource" id="Resource_a7apu"]
+script = ExtResource("3_v2qwp")
+level = 35
+move = 244
+
+[sub_resource type="Resource" id="Resource_lk67c"]
+script = ExtResource("3_v2qwp")
+level = 46
+move = 260
+
+[sub_resource type="Resource" id="Resource_d6c32"]
+script = ExtResource("3_v2qwp")
+level = 52
+move = 248
+
+[sub_resource type="Resource" id="Resource_rpf6v"]
+script = ExtResource("3_v2qwp")
+level = 58
+move = 478
+
+[resource]
+script = ExtResource("4_bjriw")
+id = 575
+display_name = "Gothorita"
+category = "Manipulate"
+national_dex = 575
+pokedex = "Starlight is the source of their power.
+They use hypnosis to control people and
+Pokémon. Tales of Gothorita leading them
+astray are told in every corner."
+type_1 = 15
+base_hp = 60
+base_atk = 45
+base_def = 70
+base_spa = 75
+base_spd = 85
+base_spe = 55
+ev_spd = 2
+catch_rate = 100
+base_exp = 137
+gender_ratio = 191
+growth_rate = 3
+egg_group_1 = 8
+ability_1 = 119
+ability_hidden = 23
+height_dm = 7
+weight_hg = 180
+body_color = 6
+level_moves = Array[ExtResource("3_v2qwp")]([SubResource("Resource_ckngd"), SubResource("Resource_5ja31"), SubResource("Resource_42bha"), SubResource("Resource_sryyg"), SubResource("Resource_0lrya"), SubResource("Resource_h315h"), SubResource("Resource_alohh"), SubResource("Resource_0yvsy"), SubResource("Resource_tucn6"), SubResource("Resource_a7apu"), SubResource("Resource_lk67c"), SubResource("Resource_d6c32"), SubResource("Resource_rpf6v")])
+evolutions = Array[ExtResource("1_vhp8u")]([SubResource("Resource_l6eyd")])

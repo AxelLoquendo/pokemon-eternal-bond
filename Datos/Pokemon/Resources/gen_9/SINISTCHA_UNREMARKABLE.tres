@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c11gw3ftakomt"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ds1q4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_old04"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5ifb0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_lklgo"]
+
+[sub_resource type="Resource" id="Resource_h322p"]
+script = ExtResource("3_5ifb0")
+level = 0
+move = 830
+
+[sub_resource type="Resource" id="Resource_mahxl"]
+script = ExtResource("3_5ifb0")
+move = 78
+
+[sub_resource type="Resource" id="Resource_4ur64"]
+script = ExtResource("3_5ifb0")
+move = 110
+
+[sub_resource type="Resource" id="Resource_fmgrn"]
+script = ExtResource("3_5ifb0")
+move = 310
+
+[sub_resource type="Resource" id="Resource_w2jba"]
+script = ExtResource("3_5ifb0")
+level = 6
+move = 71
+
+[sub_resource type="Resource" id="Resource_ajgyu"]
+script = ExtResource("3_5ifb0")
+level = 12
+move = 719
+
+[sub_resource type="Resource" id="Resource_5ys5w"]
+script = ExtResource("3_5ifb0")
+level = 18
+move = 492
+
+[sub_resource type="Resource" id="Resource_4g712"]
+script = ExtResource("3_5ifb0")
+level = 24
+move = 72
+
+[sub_resource type="Resource" id="Resource_hdsgx"]
+script = ExtResource("3_5ifb0")
+level = 30
+move = 506
+
+[sub_resource type="Resource" id="Resource_ev7ow"]
+script = ExtResource("3_5ifb0")
+level = 36
+move = 476
+
+[sub_resource type="Resource" id="Resource_fpnmo"]
+script = ExtResource("3_5ifb0")
+level = 42
+move = 631
+
+[sub_resource type="Resource" id="Resource_ej44q"]
+script = ExtResource("3_5ifb0")
+level = 48
+move = 247
+
+[sub_resource type="Resource" id="Resource_lpcbk"]
+script = ExtResource("3_5ifb0")
+level = 54
+move = 262
+
+[sub_resource type="Resource" id="Resource_172b3"]
+script = ExtResource("3_5ifb0")
+level = 60
+move = 437
+
+[resource]
+script = ExtResource("4_lklgo")
+id = 1411
+display_name = "Sinistcha"
+category = "Matcha"
+national_dex = 1013
+pokedex = "It pretends to be tea, trying to fool
+people into drinking it so it can
+drain their life-force. Its ruse is
+generally unsuccessful."
+type_1 = 13
+type_2 = 8
+base_hp = 71
+base_atk = 60
+base_def = 106
+base_spa = 121
+base_spd = 80
+base_spe = 70
+ev_spa = 2
+catch_rate = 60
+base_exp = 178
+gender_ratio = 255
+egg_group_1 = 10
+egg_group_2 = 11
+ability_1 = 299
+ability_hidden = 85
+height_dm = 2
+weight_hg = 22
+body_color = 3
+level_moves = Array[ExtResource("3_5ifb0")]([SubResource("Resource_h322p"), SubResource("Resource_mahxl"), SubResource("Resource_4ur64"), SubResource("Resource_fmgrn"), SubResource("Resource_w2jba"), SubResource("Resource_ajgyu"), SubResource("Resource_5ys5w"), SubResource("Resource_4g712"), SubResource("Resource_hdsgx"), SubResource("Resource_ev7ow"), SubResource("Resource_fpnmo"), SubResource("Resource_ej44q"), SubResource("Resource_lpcbk"), SubResource("Resource_172b3")])
+form_species = Array[int]([1411, 1412])

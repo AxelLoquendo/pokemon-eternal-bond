@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dc52hsefeu5sq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_akj6v"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_h7smf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_04vm7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_uwb2v"]
+
+[sub_resource type="Resource" id="Resource_temwv"]
+script = ExtResource("3_04vm7")
+level = 0
+move = 833
+
+[sub_resource type="Resource" id="Resource_wafkr"]
+script = ExtResource("3_04vm7")
+move = 43
+
+[sub_resource type="Resource" id="Resource_115l1"]
+script = ExtResource("3_04vm7")
+move = 232
+
+[sub_resource type="Resource" id="Resource_bucq8"]
+script = ExtResource("3_04vm7")
+level = 6
+move = 249
+
+[sub_resource type="Resource" id="Resource_r00s5"]
+script = ExtResource("3_04vm7")
+level = 12
+move = 468
+
+[sub_resource type="Resource" id="Resource_jggw2"]
+script = ExtResource("3_04vm7")
+level = 18
+move = 319
+
+[sub_resource type="Resource" id="Resource_io4su"]
+script = ExtResource("3_04vm7")
+level = 24
+move = 712
+
+[sub_resource type="Resource" id="Resource_iw1uh"]
+script = ExtResource("3_04vm7")
+level = 30
+move = 525
+
+[sub_resource type="Resource" id="Resource_4n443"]
+script = ExtResource("3_04vm7")
+level = 36
+move = 334
+
+[sub_resource type="Resource" id="Resource_ik5r4"]
+script = ExtResource("3_04vm7")
+level = 42
+move = 116
+
+[sub_resource type="Resource" id="Resource_00m2p"]
+script = ExtResource("3_04vm7")
+level = 48
+move = 337
+
+[sub_resource type="Resource" id="Resource_y66qq"]
+script = ExtResource("3_04vm7")
+level = 54
+move = 430
+
+[sub_resource type="Resource" id="Resource_hnj8v"]
+script = ExtResource("3_04vm7")
+level = 60
+move = 368
+
+[sub_resource type="Resource" id="Resource_xswq0"]
+script = ExtResource("3_04vm7")
+level = 66
+move = 63
+
+[resource]
+script = ExtResource("4_uwb2v")
+id = 1425
+display_name = "Archaludon"
+category = "Alloy"
+national_dex = 1018
+pokedex = "It gathers static electricity
+from its surroundings. The beams
+it launches when down on all fours
+are tremendously powerful."
+type_1 = 9
+type_2 = 17
+base_hp = 90
+base_atk = 105
+base_def = 130
+base_spa = 125
+base_spd = 65
+base_spe = 85
+ev_def = 3
+catch_rate = 10
+base_exp = 300
+egg_cycles = 30
+egg_group_1 = 10
+egg_group_2 = 14
+ability_1 = 192
+ability_2 = 5
+ability_hidden = 242
+height_dm = 20
+weight_hg = 600
+body_color = 8
+level_moves = Array[ExtResource("3_04vm7")]([SubResource("Resource_temwv"), SubResource("Resource_wafkr"), SubResource("Resource_115l1"), SubResource("Resource_bucq8"), SubResource("Resource_r00s5"), SubResource("Resource_jggw2"), SubResource("Resource_io4su"), SubResource("Resource_iw1uh"), SubResource("Resource_4n443"), SubResource("Resource_ik5r4"), SubResource("Resource_00m2p"), SubResource("Resource_y66qq"), SubResource("Resource_hnj8v"), SubResource("Resource_xswq0")])

@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cplgc8hcci7fs"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qyn6m"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1gbmn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ac6uv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hjpdk"]
+
+[sub_resource type="Resource" id="Resource_pudpu"]
+script = ExtResource("1_qyn6m")
+method = "LEVEL"
+param = "16"
+target = 153
+
+[sub_resource type="Resource" id="Resource_manwg"]
+script = ExtResource("3_ac6uv")
+move = 33
+
+[sub_resource type="Resource" id="Resource_nkwrm"]
+script = ExtResource("3_ac6uv")
+move = 45
+
+[sub_resource type="Resource" id="Resource_85fc4"]
+script = ExtResource("3_ac6uv")
+level = 6
+move = 75
+
+[sub_resource type="Resource" id="Resource_kpewm"]
+script = ExtResource("3_ac6uv")
+level = 9
+move = 77
+
+[sub_resource type="Resource" id="Resource_wudgk"]
+script = ExtResource("3_ac6uv")
+level = 12
+move = 235
+
+[sub_resource type="Resource" id="Resource_ev4vq"]
+script = ExtResource("3_ac6uv")
+level = 17
+move = 115
+
+[sub_resource type="Resource" id="Resource_2b8rk"]
+script = ExtResource("3_ac6uv")
+level = 20
+move = 345
+
+[sub_resource type="Resource" id="Resource_modra"]
+script = ExtResource("3_ac6uv")
+level = 23
+move = 73
+
+[sub_resource type="Resource" id="Resource_2vxa5"]
+script = ExtResource("3_ac6uv")
+level = 28
+move = 230
+
+[sub_resource type="Resource" id="Resource_lqsb1"]
+script = ExtResource("3_ac6uv")
+level = 31
+move = 113
+
+[sub_resource type="Resource" id="Resource_12t5u"]
+script = ExtResource("3_ac6uv")
+level = 34
+move = 34
+
+[sub_resource type="Resource" id="Resource_13gbs"]
+script = ExtResource("3_ac6uv")
+level = 39
+move = 219
+
+[sub_resource type="Resource" id="Resource_sceoe"]
+script = ExtResource("3_ac6uv")
+level = 42
+move = 202
+
+[sub_resource type="Resource" id="Resource_0ldbj"]
+script = ExtResource("3_ac6uv")
+level = 45
+move = 76
+
+[resource]
+script = ExtResource("4_hjpdk")
+id = 152
+display_name = "Chikorita"
+category = "Leaf"
+national_dex = 152
+pokedex = "It waves its leaf around to keep foes
+at bay. However, a sweet fragrance also
+wafts from the leaf, creating a friendly
+atmosphere that becalms the battlers."
+type_1 = 13
+base_hp = 45
+base_atk = 49
+base_def = 65
+base_spa = 49
+base_spd = 65
+base_spe = 45
+ev_spd = 1
+base_exp = 64
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 7
+ability_1 = 65
+ability_hidden = 102
+height_dm = 9
+weight_hg = 64
+body_color = 3
+level_moves = Array[ExtResource("3_ac6uv")]([SubResource("Resource_manwg"), SubResource("Resource_nkwrm"), SubResource("Resource_85fc4"), SubResource("Resource_kpewm"), SubResource("Resource_wudgk"), SubResource("Resource_ev4vq"), SubResource("Resource_2b8rk"), SubResource("Resource_modra"), SubResource("Resource_2vxa5"), SubResource("Resource_lqsb1"), SubResource("Resource_12t5u"), SubResource("Resource_13gbs"), SubResource("Resource_sceoe"), SubResource("Resource_0ldbj")])
+egg_moves = Array[int]([22, 73, 68, 246, 175, 267, 275, 320, 437, 312, 378, 34, 287, 505, 580])
+evolutions = Array[ExtResource("1_qyn6m")]([SubResource("Resource_pudpu")])

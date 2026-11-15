@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bgidawu76bdr7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0fflh"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_e7xi3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_doced"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_queav"]
+
+[sub_resource type="Resource" id="Resource_37u01"]
+script = ExtResource("3_doced")
+level = 0
+move = 400
+
+[sub_resource type="Resource" id="Resource_auuh1"]
+script = ExtResource("3_doced")
+move = 400
+
+[sub_resource type="Resource" id="Resource_c4bkf"]
+script = ExtResource("3_doced")
+move = 415
+
+[sub_resource type="Resource" id="Resource_47cgw"]
+script = ExtResource("3_doced")
+move = 42
+
+[sub_resource type="Resource" id="Resource_pw2ci"]
+script = ExtResource("3_doced")
+move = 608
+
+[sub_resource type="Resource" id="Resource_s8es0"]
+script = ExtResource("3_doced")
+move = 33
+
+[sub_resource type="Resource" id="Resource_15ubn"]
+script = ExtResource("3_doced")
+move = 43
+
+[sub_resource type="Resource" id="Resource_y1ubw"]
+script = ExtResource("3_doced")
+move = 28
+
+[sub_resource type="Resource" id="Resource_2ktr7"]
+script = ExtResource("3_doced")
+move = 122
+
+[sub_resource type="Resource" id="Resource_aqnjq"]
+script = ExtResource("3_doced")
+level = 9
+move = 555
+
+[sub_resource type="Resource" id="Resource_g3xpt"]
+script = ExtResource("3_doced")
+level = 12
+move = 29
+
+[sub_resource type="Resource" id="Resource_srnas"]
+script = ExtResource("3_doced")
+level = 15
+move = 468
+
+[sub_resource type="Resource" id="Resource_x3hgk"]
+script = ExtResource("3_doced")
+level = 18
+move = 154
+
+[sub_resource type="Resource" id="Resource_wfgxp"]
+script = ExtResource("3_doced")
+level = 23
+move = 156
+
+[sub_resource type="Resource" id="Resource_6wffq"]
+script = ExtResource("3_doced")
+level = 28
+move = 36
+
+[sub_resource type="Resource" id="Resource_mya0a"]
+script = ExtResource("3_doced")
+level = 33
+move = 184
+
+[sub_resource type="Resource" id="Resource_df1qw"]
+script = ExtResource("3_doced")
+level = 38
+move = 68
+
+[sub_resource type="Resource" id="Resource_soj2a"]
+script = ExtResource("3_doced")
+level = 43
+move = 269
+
+[sub_resource type="Resource" id="Resource_ku08o"]
+script = ExtResource("3_doced")
+level = 48
+move = 38
+
+[resource]
+script = ExtResource("4_queav")
+id = 988
+display_name = "Linoone"
+category = "Rushing"
+national_dex = 264
+pokedex = "This very aggressive Pokémon will
+recklessly challenge opponents stronger
+than itself. It uses its long tongue to
+taunt them to then tackle forcefully."
+type_1 = 18
+type_2 = 1
+base_hp = 78
+base_atk = 70
+base_def = 61
+base_spa = 50
+base_spd = 61
+base_spe = 100
+ev_spe = 2
+catch_rate = 90
+base_exp = 147
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 53
+ability_2 = 82
+ability_hidden = 95
+height_dm = 5
+weight_hg = 325
+body_color = 8
+level_moves = Array[ExtResource("3_doced")]([SubResource("Resource_37u01"), SubResource("Resource_auuh1"), SubResource("Resource_c4bkf"), SubResource("Resource_47cgw"), SubResource("Resource_pw2ci"), SubResource("Resource_s8es0"), SubResource("Resource_15ubn"), SubResource("Resource_y1ubw"), SubResource("Resource_2ktr7"), SubResource("Resource_aqnjq"), SubResource("Resource_g3xpt"), SubResource("Resource_srnas"), SubResource("Resource_x3hgk"), SubResource("Resource_wfgxp"), SubResource("Resource_6wffq"), SubResource("Resource_mya0a"), SubResource("Resource_df1qw"), SubResource("Resource_soj2a"), SubResource("Resource_ku08o")])
+form_species = Array[int]([264, 988])

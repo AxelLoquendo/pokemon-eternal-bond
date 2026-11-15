@@ -1,0 +1,127 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://big0flrdsovo4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_tqes3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lvcml"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ulo60"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_f8lc0"]
+
+[sub_resource type="Resource" id="Resource_e8muw"]
+script = ExtResource("1_tqes3")
+method = "ITEM"
+param = "ITEM_SHINY_STONE"
+target = 468
+
+[sub_resource type="Resource" id="Resource_wq3lg"]
+script = ExtResource("3_ulo60")
+level = 0
+move = 584
+
+[sub_resource type="Resource" id="Resource_gsdla"]
+script = ExtResource("3_ulo60")
+move = 584
+
+[sub_resource type="Resource" id="Resource_pr3cd"]
+script = ExtResource("3_ulo60")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ykxe1"]
+script = ExtResource("3_ulo60")
+move = 1
+
+[sub_resource type="Resource" id="Resource_sb1s7"]
+script = ExtResource("3_ulo60")
+move = 186
+
+[sub_resource type="Resource" id="Resource_w5g0i"]
+script = ExtResource("3_ulo60")
+move = 719
+
+[sub_resource type="Resource" id="Resource_copu7"]
+script = ExtResource("3_ulo60")
+level = 12
+move = 204
+
+[sub_resource type="Resource" id="Resource_umu43"]
+script = ExtResource("3_ulo60")
+level = 16
+move = 246
+
+[sub_resource type="Resource" id="Resource_s6u4a"]
+script = ExtResource("3_ulo60")
+level = 20
+move = 281
+
+[sub_resource type="Resource" id="Resource_8ggwx"]
+script = ExtResource("3_ulo60")
+level = 24
+move = 118
+
+[sub_resource type="Resource" id="Resource_r0aod"]
+script = ExtResource("3_ulo60")
+level = 28
+move = 495
+
+[sub_resource type="Resource" id="Resource_1r7a4"]
+script = ExtResource("3_ulo60")
+level = 32
+move = 38
+
+[sub_resource type="Resource" id="Resource_2ykok"]
+script = ExtResource("3_ulo60")
+level = 36
+move = 219
+
+[sub_resource type="Resource" id="Resource_tkon2"]
+script = ExtResource("3_ulo60")
+level = 40
+move = 266
+
+[sub_resource type="Resource" id="Resource_3xxif"]
+script = ExtResource("3_ulo60")
+level = 44
+move = 226
+
+[sub_resource type="Resource" id="Resource_fd4qj"]
+script = ExtResource("3_ulo60")
+level = 48
+move = 387
+
+[sub_resource type="Resource" id="Resource_kxktr"]
+script = ExtResource("3_ulo60")
+level = 52
+move = 273
+
+[resource]
+script = ExtResource("4_f8lc0")
+id = 176
+display_name = "Togetic"
+category = "Happiness"
+national_dex = 176
+pokedex = "It is said to be a Pokémon that brings good
+fortune. When it spots someone who is pure
+of heart, a Togetic appears and shares its
+happiness with that person."
+type_1 = 3
+base_hp = 55
+base_atk = 40
+base_def = 85
+base_spa = 80
+base_spd = 105
+base_spe = 40
+ev_spd = 2
+catch_rate = 75
+base_exp = 142
+gender_ratio = 31
+growth_rate = 4
+egg_cycles = 10
+egg_group_1 = 4
+egg_group_2 = 6
+ability_1 = 55
+ability_2 = 32
+ability_hidden = 105
+height_dm = 6
+weight_hg = 32
+body_color = 8
+no_flip = true
+level_moves = Array[ExtResource("3_ulo60")]([SubResource("Resource_wq3lg"), SubResource("Resource_gsdla"), SubResource("Resource_pr3cd"), SubResource("Resource_ykxe1"), SubResource("Resource_sb1s7"), SubResource("Resource_w5g0i"), SubResource("Resource_copu7"), SubResource("Resource_umu43"), SubResource("Resource_s6u4a"), SubResource("Resource_8ggwx"), SubResource("Resource_r0aod"), SubResource("Resource_1r7a4"), SubResource("Resource_2ykok"), SubResource("Resource_tkon2"), SubResource("Resource_3xxif"), SubResource("Resource_fd4qj"), SubResource("Resource_kxktr")])
+evolutions = Array[ExtResource("1_tqes3")]([SubResource("Resource_e8muw")])

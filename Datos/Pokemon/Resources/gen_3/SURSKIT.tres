@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://wnhe67yl6nh6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_se048"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_v5882"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8a2eq"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_e8usc"]
+
+[sub_resource type="Resource" id="Resource_cxh4r"]
+script = ExtResource("1_se048")
+method = "LEVEL"
+param = "22"
+target = 284
+
+[sub_resource type="Resource" id="Resource_uj35h"]
+script = ExtResource("3_8a2eq")
+move = 55
+
+[sub_resource type="Resource" id="Resource_gj3j7"]
+script = ExtResource("3_8a2eq")
+level = 6
+move = 98
+
+[sub_resource type="Resource" id="Resource_0oo28"]
+script = ExtResource("3_8a2eq")
+level = 9
+move = 230
+
+[sub_resource type="Resource" id="Resource_n6qrp"]
+script = ExtResource("3_8a2eq")
+level = 14
+move = 487
+
+[sub_resource type="Resource" id="Resource_hqggg"]
+script = ExtResource("3_8a2eq")
+level = 17
+move = 61
+
+[sub_resource type="Resource" id="Resource_aqjym"]
+script = ExtResource("3_8a2eq")
+level = 22
+move = 97
+
+[sub_resource type="Resource" id="Resource_5y5he"]
+script = ExtResource("3_8a2eq")
+level = 25
+move = 54
+
+[sub_resource type="Resource" id="Resource_td4yk"]
+script = ExtResource("3_8a2eq")
+level = 25
+move = 114
+
+[sub_resource type="Resource" id="Resource_genli"]
+script = ExtResource("3_8a2eq")
+level = 35
+move = 226
+
+[sub_resource type="Resource" id="Resource_ibkpw"]
+script = ExtResource("3_8a2eq")
+level = 38
+move = 564
+
+[resource]
+script = ExtResource("4_e8usc")
+id = 283
+display_name = "Surskit"
+category = "Pond Skater"
+national_dex = 283
+pokedex = "They gather on puddles after evening
+downpours, gliding across the surface
+of water as if sliding. It secretes honey
+with a sweet aroma from its head."
+type_1 = 7
+type_2 = 12
+base_hp = 40
+base_atk = 30
+base_def = 32
+base_spa = 50
+base_spd = 52
+base_spe = 65
+ev_spe = 1
+catch_rate = 200
+base_exp = 54
+egg_cycles = 15
+egg_group_1 = 2
+egg_group_2 = 3
+ability_1 = 33
+ability_hidden = 44
+item_rare = 153
+height_dm = 5
+weight_hg = 17
+body_color = 1
+level_moves = Array[ExtResource("3_8a2eq")]([SubResource("Resource_uj35h"), SubResource("Resource_gj3j7"), SubResource("Resource_0oo28"), SubResource("Resource_n6qrp"), SubResource("Resource_hqggg"), SubResource("Resource_aqjym"), SubResource("Resource_5y5he"), SubResource("Resource_td4yk"), SubResource("Resource_genli"), SubResource("Resource_ibkpw")])
+egg_moves = Array[int]([193, 341, 60, 56, 170, 324, 450, 453, 203, 565, 471, 642])
+evolutions = Array[ExtResource("1_se048")]([SubResource("Resource_cxh4r")])

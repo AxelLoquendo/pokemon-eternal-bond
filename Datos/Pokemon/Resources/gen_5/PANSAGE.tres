@@ -1,0 +1,121 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cypw85jd3gfd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_5b64t"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_awxko"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bjun7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_in1ci"]
+
+[sub_resource type="Resource" id="Resource_7km3m"]
+script = ExtResource("1_5b64t")
+method = "ITEM"
+param = "ITEM_LEAF_STONE"
+target = 512
+
+[sub_resource type="Resource" id="Resource_0xlg4"]
+script = ExtResource("3_bjun7")
+move = 10
+
+[sub_resource type="Resource" id="Resource_h7tkn"]
+script = ExtResource("3_bjun7")
+move = 589
+
+[sub_resource type="Resource" id="Resource_suw67"]
+script = ExtResource("3_bjun7")
+level = 4
+move = 43
+
+[sub_resource type="Resource" id="Resource_inr2w"]
+script = ExtResource("3_bjun7")
+level = 7
+move = 122
+
+[sub_resource type="Resource" id="Resource_ruyul"]
+script = ExtResource("3_bjun7")
+level = 10
+move = 22
+
+[sub_resource type="Resource" id="Resource_yqia8"]
+script = ExtResource("3_bjun7")
+level = 13
+move = 154
+
+[sub_resource type="Resource" id="Resource_gkpyr"]
+script = ExtResource("3_bjun7")
+level = 16
+move = 73
+
+[sub_resource type="Resource" id="Resource_mlnc1"]
+script = ExtResource("3_bjun7")
+level = 19
+move = 44
+
+[sub_resource type="Resource" id="Resource_i57so"]
+script = ExtResource("3_bjun7")
+level = 22
+move = 402
+
+[sub_resource type="Resource" id="Resource_hebrn"]
+script = ExtResource("3_bjun7")
+level = 25
+move = 259
+
+[sub_resource type="Resource" id="Resource_8s1lw"]
+script = ExtResource("3_bjun7")
+level = 28
+move = 374
+
+[sub_resource type="Resource" id="Resource_gb86d"]
+script = ExtResource("3_bjun7")
+level = 31
+move = 512
+
+[sub_resource type="Resource" id="Resource_fqlag"]
+script = ExtResource("3_bjun7")
+level = 34
+move = 447
+
+[sub_resource type="Resource" id="Resource_fu60p"]
+script = ExtResource("3_bjun7")
+level = 37
+move = 278
+
+[sub_resource type="Resource" id="Resource_bh6fy"]
+script = ExtResource("3_bjun7")
+level = 40
+move = 363
+
+[sub_resource type="Resource" id="Resource_kkdbj"]
+script = ExtResource("3_bjun7")
+level = 43
+move = 242
+
+[resource]
+script = ExtResource("4_in1ci")
+id = 511
+display_name = "Pansage"
+category = "Grass Monkey"
+national_dex = 511
+pokedex = "This Pokémon dwells deep in the forest.
+It's good at finding berries and gathers
+them from all over. It's kind enough to
+share them with friends."
+type_1 = 13
+base_hp = 50
+base_atk = 53
+base_def = 48
+base_spa = 53
+base_spd = 48
+base_spe = 64
+ev_spe = 1
+catch_rate = 190
+base_exp = 63
+gender_ratio = 31
+egg_group_1 = 5
+ability_1 = 82
+ability_hidden = 65
+height_dm = 6
+weight_hg = 105
+body_color = 3
+level_moves = Array[ExtResource("3_bjun7")]([SubResource("Resource_0xlg4"), SubResource("Resource_h7tkn"), SubResource("Resource_suw67"), SubResource("Resource_inr2w"), SubResource("Resource_ruyul"), SubResource("Resource_yqia8"), SubResource("Resource_gkpyr"), SubResource("Resource_mlnc1"), SubResource("Resource_i57so"), SubResource("Resource_hebrn"), SubResource("Resource_8s1lw"), SubResource("Resource_gb86d"), SubResource("Resource_fqlag"), SubResource("Resource_fu60p"), SubResource("Resource_bh6fy"), SubResource("Resource_kkdbj")])
+egg_moves = Array[int]([343, 67, 321, 417, 272, 310, 320, 345, 331, 437, 574, 596])
+evolutions = Array[ExtResource("1_5b64t")]([SubResource("Resource_7km3m")])

@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cbkxyt1gvbifr"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jynrk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ousvy"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_govo8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_asta1"]
+
+[sub_resource type="Resource" id="Resource_6vx0m"]
+script = ExtResource("3_govo8")
+move = 44
+
+[sub_resource type="Resource" id="Resource_if7j2"]
+script = ExtResource("3_govo8")
+move = 98
+
+[sub_resource type="Resource" id="Resource_br5tf"]
+script = ExtResource("3_govo8")
+move = 232
+
+[sub_resource type="Resource" id="Resource_2ffcu"]
+script = ExtResource("3_govo8")
+move = 336
+
+[sub_resource type="Resource" id="Resource_2m8i1"]
+script = ExtResource("3_govo8")
+move = 469
+
+[sub_resource type="Resource" id="Resource_htdu3"]
+script = ExtResource("3_govo8")
+level = 11
+move = 163
+
+[sub_resource type="Resource" id="Resource_l8osg"]
+script = ExtResource("3_govo8")
+level = 22
+move = 334
+
+[sub_resource type="Resource" id="Resource_lfojg"]
+script = ExtResource("3_govo8")
+level = 33
+move = 442
+
+[sub_resource type="Resource" id="Resource_0qr38"]
+script = ExtResource("3_govo8")
+level = 44
+move = 368
+
+[sub_resource type="Resource" id="Resource_d5h81"]
+script = ExtResource("3_govo8")
+level = 55
+move = 242
+
+[sub_resource type="Resource" id="Resource_psbh0"]
+script = ExtResource("3_govo8")
+level = 66
+move = 585
+
+[sub_resource type="Resource" id="Resource_6q30o"]
+script = ExtResource("3_govo8")
+level = 77
+move = 370
+
+[sub_resource type="Resource" id="Resource_s2b0k"]
+script = ExtResource("3_govo8")
+level = 88
+move = 416
+
+[resource]
+script = ExtResource("4_asta1")
+id = 889
+display_name = "Zamazenta"
+category = "Warrior"
+national_dex = 889
+pokedex = "In times past, it worked together with a
+king of the people to save the Galar
+region. It absorbs metal that it then
+uses in battle."
+type_1 = 2
+base_hp = 92
+base_atk = 120
+base_def = 115
+base_spa = 80
+base_spd = 115
+base_spe = 138
+ev_spe = 3
+catch_rate = 10
+base_exp = 330
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 235
+height_dm = 29
+weight_hg = 2100
+level_moves = Array[ExtResource("3_govo8")]([SubResource("Resource_6vx0m"), SubResource("Resource_if7j2"), SubResource("Resource_br5tf"), SubResource("Resource_2ffcu"), SubResource("Resource_2m8i1"), SubResource("Resource_htdu3"), SubResource("Resource_l8osg"), SubResource("Resource_lfojg"), SubResource("Resource_0qr38"), SubResource("Resource_d5h81"), SubResource("Resource_psbh0"), SubResource("Resource_6q30o"), SubResource("Resource_s2b0k")])
+form_species = Array[int]([889, 1228])

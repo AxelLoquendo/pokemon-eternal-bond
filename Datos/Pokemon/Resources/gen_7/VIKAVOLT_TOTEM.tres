@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b838ut12ytaix"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fk0f7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7lfif"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8sbuv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_g2wup"]
+
+[sub_resource type="Resource" id="Resource_2ftcy"]
+script = ExtResource("3_8sbuv")
+level = 0
+move = 85
+
+[sub_resource type="Resource" id="Resource_mg51k"]
+script = ExtResource("3_8sbuv")
+move = 11
+
+[sub_resource type="Resource" id="Resource_wgpnj"]
+script = ExtResource("3_8sbuv")
+move = 91
+
+[sub_resource type="Resource" id="Resource_sxdpp"]
+script = ExtResource("3_8sbuv")
+move = 189
+
+[sub_resource type="Resource" id="Resource_s5cs6"]
+script = ExtResource("3_8sbuv")
+move = 334
+
+[sub_resource type="Resource" id="Resource_smevm"]
+script = ExtResource("3_8sbuv")
+move = 404
+
+[sub_resource type="Resource" id="Resource_0iin4"]
+script = ExtResource("3_8sbuv")
+move = 450
+
+[sub_resource type="Resource" id="Resource_fvgpl"]
+script = ExtResource("3_8sbuv")
+move = 81
+
+[sub_resource type="Resource" id="Resource_afgs0"]
+script = ExtResource("3_8sbuv")
+move = 242
+
+[sub_resource type="Resource" id="Resource_r7ebx"]
+script = ExtResource("3_8sbuv")
+move = 268
+
+[sub_resource type="Resource" id="Resource_nmwep"]
+script = ExtResource("3_8sbuv")
+move = 435
+
+[sub_resource type="Resource" id="Resource_6d0tf"]
+script = ExtResource("3_8sbuv")
+level = 15
+move = 44
+
+[sub_resource type="Resource" id="Resource_03c8r"]
+script = ExtResource("3_8sbuv")
+level = 23
+move = 209
+
+[sub_resource type="Resource" id="Resource_7mxf0"]
+script = ExtResource("3_8sbuv")
+level = 29
+move = 564
+
+[sub_resource type="Resource" id="Resource_2b5hv"]
+script = ExtResource("3_8sbuv")
+level = 36
+move = 405
+
+[sub_resource type="Resource" id="Resource_aldci"]
+script = ExtResource("3_8sbuv")
+level = 43
+move = 12
+
+[sub_resource type="Resource" id="Resource_l3oi8"]
+script = ExtResource("3_8sbuv")
+level = 50
+move = 19
+
+[sub_resource type="Resource" id="Resource_vis1d"]
+script = ExtResource("3_8sbuv")
+level = 57
+move = 97
+
+[sub_resource type="Resource" id="Resource_8eyjx"]
+script = ExtResource("3_8sbuv")
+level = 64
+move = 192
+
+[resource]
+script = ExtResource("4_g2wup")
+id = 1478
+display_name = "Vikavolt"
+category = "Stag Beetle"
+national_dex = 738
+type_1 = 7
+type_2 = 14
+base_hp = 77
+base_atk = 70
+base_def = 90
+base_spa = 145
+base_spd = 75
+base_spe = 43
+ev_spa = 3
+base_exp = 225
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 26
+height_dm = 26
+weight_hg = 1475
+body_color = 1
+level_moves = Array[ExtResource("3_8sbuv")]([SubResource("Resource_2ftcy"), SubResource("Resource_mg51k"), SubResource("Resource_wgpnj"), SubResource("Resource_sxdpp"), SubResource("Resource_s5cs6"), SubResource("Resource_smevm"), SubResource("Resource_0iin4"), SubResource("Resource_fvgpl"), SubResource("Resource_afgs0"), SubResource("Resource_r7ebx"), SubResource("Resource_nmwep"), SubResource("Resource_6d0tf"), SubResource("Resource_03c8r"), SubResource("Resource_7mxf0"), SubResource("Resource_2b5hv"), SubResource("Resource_aldci"), SubResource("Resource_l3oi8"), SubResource("Resource_vis1d"), SubResource("Resource_8eyjx")])
+form_species = Array[int]([738, 1478])

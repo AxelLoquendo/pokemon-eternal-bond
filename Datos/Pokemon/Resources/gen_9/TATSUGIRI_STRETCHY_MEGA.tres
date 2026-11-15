@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dlav5vy6dfjsu"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fsrwk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_uhycc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_oqr6p"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qu2c1"]
+
+[sub_resource type="Resource" id="Resource_y5bql"]
+script = ExtResource("3_oqr6p")
+move = 55
+
+[sub_resource type="Resource" id="Resource_aya5v"]
+script = ExtResource("3_oqr6p")
+move = 150
+
+[sub_resource type="Resource" id="Resource_jc88k"]
+script = ExtResource("3_oqr6p")
+level = 6
+move = 106
+
+[sub_resource type="Resource" id="Resource_gtoy8"]
+script = ExtResource("3_oqr6p")
+level = 12
+move = 270
+
+[sub_resource type="Resource" id="Resource_0rvr1"]
+script = ExtResource("3_oqr6p")
+level = 17
+move = 352
+
+[sub_resource type="Resource" id="Resource_kk3bm"]
+script = ExtResource("3_oqr6p")
+level = 23
+move = 487
+
+[sub_resource type="Resource" id="Resource_bw2l8"]
+script = ExtResource("3_oqr6p")
+level = 28
+move = 269
+
+[sub_resource type="Resource" id="Resource_b7yik"]
+script = ExtResource("3_oqr6p")
+level = 34
+move = 262
+
+[sub_resource type="Resource" id="Resource_5egw5"]
+script = ExtResource("3_oqr6p")
+level = 39
+move = 330
+
+[sub_resource type="Resource" id="Resource_dlci2"]
+script = ExtResource("3_oqr6p")
+level = 43
+move = 417
+
+[sub_resource type="Resource" id="Resource_choio"]
+script = ExtResource("3_oqr6p")
+level = 47
+move = 243
+
+[sub_resource type="Resource" id="Resource_0sob1"]
+script = ExtResource("3_oqr6p")
+level = 52
+move = 406
+
+[resource]
+script = ExtResource("4_qu2c1")
+id = 1571
+display_name = "Tatsugiri"
+category = "Mimicry"
+national_dex = 978
+pokedex = "Using the energy of Mega Evolution, it
+creates a dish to ride upon, allowing it
+to move with total freedom-even through
+the air."
+type_1 = 17
+type_2 = 12
+base_hp = 68
+base_atk = 65
+base_def = 90
+base_spa = 135
+base_spd = 125
+base_spe = 92
+ev_spa = 2
+catch_rate = 100
+base_exp = 166
+growth_rate = 3
+egg_cycles = 35
+egg_group_1 = 12
+ability_1 = 114
+ability_hidden = 114
+height_dm = 6
+weight_hg = 240
+body_color = 2
+level_moves = Array[ExtResource("3_oqr6p")]([SubResource("Resource_y5bql"), SubResource("Resource_aya5v"), SubResource("Resource_jc88k"), SubResource("Resource_gtoy8"), SubResource("Resource_0rvr1"), SubResource("Resource_kk3bm"), SubResource("Resource_bw2l8"), SubResource("Resource_b7yik"), SubResource("Resource_5egw5"), SubResource("Resource_dlci2"), SubResource("Resource_choio"), SubResource("Resource_0sob1")])
+egg_moves = Array[int]([226, 68, 229])
+form_species = Array[int]([1367, 1368, 1369, 1569, 1570, 1571])

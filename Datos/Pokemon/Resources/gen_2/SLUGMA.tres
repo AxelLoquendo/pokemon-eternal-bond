@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://byapvpai0k6ny"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_06olf"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_k105m"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gxhdt"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sfhtv"]
+
+[sub_resource type="Resource" id="Resource_oyqgt"]
+script = ExtResource("1_06olf")
+method = "LEVEL"
+param = "38"
+target = 219
+
+[sub_resource type="Resource" id="Resource_dpmux"]
+script = ExtResource("3_gxhdt")
+move = 123
+
+[sub_resource type="Resource" id="Resource_a35rv"]
+script = ExtResource("3_gxhdt")
+move = 281
+
+[sub_resource type="Resource" id="Resource_dlkbi"]
+script = ExtResource("3_gxhdt")
+level = 6
+move = 52
+
+[sub_resource type="Resource" id="Resource_gnvy8"]
+script = ExtResource("3_gxhdt")
+level = 8
+move = 88
+
+[sub_resource type="Resource" id="Resource_homgb"]
+script = ExtResource("3_gxhdt")
+level = 13
+move = 106
+
+[sub_resource type="Resource" id="Resource_k5alf"]
+script = ExtResource("3_gxhdt")
+level = 20
+move = 499
+
+[sub_resource type="Resource" id="Resource_8ncnp"]
+script = ExtResource("3_gxhdt")
+level = 22
+move = 246
+
+[sub_resource type="Resource" id="Resource_wqijr"]
+script = ExtResource("3_gxhdt")
+level = 27
+move = 510
+
+[sub_resource type="Resource" id="Resource_posfe"]
+script = ExtResource("3_gxhdt")
+level = 29
+move = 157
+
+[sub_resource type="Resource" id="Resource_ukiji"]
+script = ExtResource("3_gxhdt")
+level = 34
+move = 436
+
+[sub_resource type="Resource" id="Resource_ysa0b"]
+script = ExtResource("3_gxhdt")
+level = 36
+move = 133
+
+[sub_resource type="Resource" id="Resource_pxw8g"]
+script = ExtResource("3_gxhdt")
+level = 41
+move = 34
+
+[sub_resource type="Resource" id="Resource_jd47n"]
+script = ExtResource("3_gxhdt")
+level = 43
+move = 105
+
+[sub_resource type="Resource" id="Resource_ebaro"]
+script = ExtResource("3_gxhdt")
+level = 48
+move = 53
+
+[sub_resource type="Resource" id="Resource_jvw87"]
+script = ExtResource("3_gxhdt")
+level = 50
+move = 414
+
+[resource]
+script = ExtResource("4_sfhtv")
+id = 218
+display_name = "Slugma"
+category = "Lava"
+national_dex = 218
+pokedex = "It is a species of Pokémon that lives in
+volcanic areas. If its body cools, its skin
+hardens and immobilizes it. To avoid that,
+it sleeps near magma."
+type_1 = 11
+base_hp = 40
+base_atk = 40
+base_def = 40
+base_spa = 70
+base_spd = 40
+base_spe = 20
+ev_spa = 1
+catch_rate = 190
+base_exp = 50
+egg_group_1 = 11
+ability_1 = 40
+ability_2 = 49
+ability_hidden = 133
+height_dm = 7
+weight_hg = 350
+level_moves = Array[ExtResource("3_gxhdt")]([SubResource("Resource_dpmux"), SubResource("Resource_a35rv"), SubResource("Resource_dlkbi"), SubResource("Resource_gnvy8"), SubResource("Resource_homgb"), SubResource("Resource_k5alf"), SubResource("Resource_8ncnp"), SubResource("Resource_wqijr"), SubResource("Resource_posfe"), SubResource("Resource_ukiji"), SubResource("Resource_ysa0b"), SubResource("Resource_pxw8g"), SubResource("Resource_jd47n"), SubResource("Resource_ebaro"), SubResource("Resource_jvw87")])
+egg_moves = Array[int]([151, 257, 174, 108, 262, 254, 255, 256, 205, 517, 414, 385])
+evolutions = Array[ExtResource("1_06olf")]([SubResource("Resource_oyqgt")])

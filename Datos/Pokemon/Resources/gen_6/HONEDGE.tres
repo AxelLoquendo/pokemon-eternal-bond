@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bi0aa70eqehvo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ej1k4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_e4uqf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_w8bba"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mblhf"]
+
+[sub_resource type="Resource" id="Resource_oucco"]
+script = ExtResource("1_ej1k4")
+method = "LEVEL"
+param = "35"
+target = 680
+
+[sub_resource type="Resource" id="Resource_rwbex"]
+script = ExtResource("3_w8bba")
+move = 33
+
+[sub_resource type="Resource" id="Resource_wamel"]
+script = ExtResource("3_w8bba")
+move = 210
+
+[sub_resource type="Resource" id="Resource_3fae3"]
+script = ExtResource("3_w8bba")
+level = 4
+move = 425
+
+[sub_resource type="Resource" id="Resource_ugjto"]
+script = ExtResource("3_w8bba")
+level = 8
+move = 475
+
+[sub_resource type="Resource" id="Resource_3jug7"]
+script = ExtResource("3_w8bba")
+level = 12
+move = 332
+
+[sub_resource type="Resource" id="Resource_pxu3e"]
+script = ExtResource("3_w8bba")
+level = 16
+move = 319
+
+[sub_resource type="Resource" id="Resource_ecfgs"]
+script = ExtResource("3_w8bba")
+level = 20
+move = 163
+
+[sub_resource type="Resource" id="Resource_nlkv5"]
+script = ExtResource("3_w8bba")
+level = 24
+move = 400
+
+[sub_resource type="Resource" id="Resource_neqdt"]
+script = ExtResource("3_w8bba")
+level = 28
+move = 514
+
+[sub_resource type="Resource" id="Resource_pb3gr"]
+script = ExtResource("3_w8bba")
+level = 32
+move = 334
+
+[sub_resource type="Resource" id="Resource_ufdjw"]
+script = ExtResource("3_w8bba")
+level = 36
+move = 442
+
+[sub_resource type="Resource" id="Resource_otbm2"]
+script = ExtResource("3_w8bba")
+level = 40
+move = 379
+
+[sub_resource type="Resource" id="Resource_hdjbd"]
+script = ExtResource("3_w8bba")
+level = 44
+move = 14
+
+[sub_resource type="Resource" id="Resource_qg8ka"]
+script = ExtResource("3_w8bba")
+level = 48
+move = 533
+
+[resource]
+script = ExtResource("4_mblhf")
+id = 679
+display_name = "Honedge"
+category = "Sword"
+national_dex = 679
+pokedex = "If anyone dares to grab its hilt, it
+wraps a blue cloth around that person's
+arm and drains that person's life
+energy completely."
+type_1 = 9
+type_2 = 8
+base_hp = 45
+base_atk = 80
+base_def = 100
+base_spa = 35
+base_spd = 37
+base_spe = 28
+ev_def = 1
+catch_rate = 180
+base_exp = 65
+egg_group_1 = 10
+ability_1 = 99
+height_dm = 8
+weight_hg = 20
+body_color = 5
+level_moves = Array[ExtResource("3_w8bba")]([SubResource("Resource_rwbex"), SubResource("Resource_wamel"), SubResource("Resource_3fae3"), SubResource("Resource_ugjto"), SubResource("Resource_3jug7"), SubResource("Resource_pxu3e"), SubResource("Resource_ecfgs"), SubResource("Resource_nlkv5"), SubResource("Resource_neqdt"), SubResource("Resource_pb3gr"), SubResource("Resource_ufdjw"), SubResource("Resource_otbm2"), SubResource("Resource_hdjbd"), SubResource("Resource_qg8ka")])
+egg_moves = Array[int]([319, 425, 194, 469])
+evolutions = Array[ExtResource("1_ej1k4")]([SubResource("Resource_oucco")])

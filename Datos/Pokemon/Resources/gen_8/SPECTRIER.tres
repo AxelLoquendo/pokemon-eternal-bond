@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cws0l41qd57ui"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_l7ahv"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6hw1w"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qb4ol"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_oaowx"]
+
+[sub_resource type="Resource" id="Resource_4fwwu"]
+script = ExtResource("3_qb4ol")
+move = 33
+
+[sub_resource type="Resource" id="Resource_66lkh"]
+script = ExtResource("3_qb4ol")
+move = 39
+
+[sub_resource type="Resource" id="Resource_4e8f1"]
+script = ExtResource("3_qb4ol")
+level = 6
+move = 24
+
+[sub_resource type="Resource" id="Resource_ee7oo"]
+script = ExtResource("3_qb4ol")
+level = 12
+move = 506
+
+[sub_resource type="Resource" id="Resource_owvmp"]
+script = ExtResource("3_qb4ol")
+level = 18
+move = 23
+
+[sub_resource type="Resource" id="Resource_mx6n5"]
+script = ExtResource("3_qb4ol")
+level = 24
+move = 109
+
+[sub_resource type="Resource" id="Resource_cjlm7"]
+script = ExtResource("3_qb4ol")
+level = 30
+move = 114
+
+[sub_resource type="Resource" id="Resource_khiq0"]
+script = ExtResource("3_qb4ol")
+level = 36
+move = 247
+
+[sub_resource type="Resource" id="Resource_2hrtn"]
+script = ExtResource("3_qb4ol")
+level = 42
+move = 36
+
+[sub_resource type="Resource" id="Resource_3to4g"]
+script = ExtResource("3_qb4ol")
+level = 48
+move = 97
+
+[sub_resource type="Resource" id="Resource_7yptn"]
+script = ExtResource("3_qb4ol")
+level = 54
+move = 37
+
+[sub_resource type="Resource" id="Resource_j3t5c"]
+script = ExtResource("3_qb4ol")
+level = 60
+move = 50
+
+[sub_resource type="Resource" id="Resource_5r8bb"]
+script = ExtResource("3_qb4ol")
+level = 66
+move = 38
+
+[sub_resource type="Resource" id="Resource_ayce1"]
+script = ExtResource("3_qb4ol")
+level = 72
+move = 417
+
+[resource]
+script = ExtResource("4_oaowx")
+id = 897
+display_name = "Spectrier"
+category = "Swift Horse"
+national_dex = 897
+pokedex = "It probes its surroundings with all its
+senses save one--it doesn't use its sense
+of sight. Spectrier's kicks are said to
+separate soul from body."
+type_1 = 8
+base_hp = 100
+base_atk = 65
+base_def = 60
+base_spa = 145
+base_spd = 80
+base_spe = 130
+ev_spa = 3
+catch_rate = 3
+base_exp = 290
+base_friendship = 35
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 265
+height_dm = 20
+weight_hg = 445
+body_color = 4
+level_moves = Array[ExtResource("3_qb4ol")]([SubResource("Resource_4fwwu"), SubResource("Resource_66lkh"), SubResource("Resource_4e8f1"), SubResource("Resource_ee7oo"), SubResource("Resource_owvmp"), SubResource("Resource_mx6n5"), SubResource("Resource_cjlm7"), SubResource("Resource_khiq0"), SubResource("Resource_2hrtn"), SubResource("Resource_3to4g"), SubResource("Resource_7yptn"), SubResource("Resource_j3t5c"), SubResource("Resource_5r8bb"), SubResource("Resource_ayce1")])

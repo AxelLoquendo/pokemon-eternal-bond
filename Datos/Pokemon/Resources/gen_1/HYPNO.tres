@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dh230uji51pa4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_753ht"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_sydqs"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4mhx2"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_b3axd"]
+
+[sub_resource type="Resource" id="Resource_edpvj"]
+script = ExtResource("3_4mhx2")
+move = 1
+
+[sub_resource type="Resource" id="Resource_n56ns"]
+script = ExtResource("3_4mhx2")
+move = 50
+
+[sub_resource type="Resource" id="Resource_re5c3"]
+script = ExtResource("3_4mhx2")
+move = 93
+
+[sub_resource type="Resource" id="Resource_2tffd"]
+script = ExtResource("3_4mhx2")
+move = 95
+
+[sub_resource type="Resource" id="Resource_htm1d"]
+script = ExtResource("3_4mhx2")
+move = 415
+
+[sub_resource type="Resource" id="Resource_pt1tw"]
+script = ExtResource("3_4mhx2")
+level = 13
+move = 29
+
+[sub_resource type="Resource" id="Resource_cjdbw"]
+script = ExtResource("3_4mhx2")
+level = 17
+move = 139
+
+[sub_resource type="Resource" id="Resource_tm6i8"]
+script = ExtResource("3_4mhx2")
+level = 21
+move = 60
+
+[sub_resource type="Resource" id="Resource_hg3i2"]
+script = ExtResource("3_4mhx2")
+level = 25
+move = 244
+
+[sub_resource type="Resource" id="Resource_mwpte"]
+script = ExtResource("3_4mhx2")
+level = 32
+move = 428
+
+[sub_resource type="Resource" id="Resource_y2ot5"]
+script = ExtResource("3_4mhx2")
+level = 37
+move = 207
+
+[sub_resource type="Resource" id="Resource_0s7pw"]
+script = ExtResource("3_4mhx2")
+level = 42
+move = 94
+
+[sub_resource type="Resource" id="Resource_ic8fk"]
+script = ExtResource("3_4mhx2")
+level = 47
+move = 417
+
+[sub_resource type="Resource" id="Resource_n77db"]
+script = ExtResource("3_4mhx2")
+level = 51
+move = 473
+
+[sub_resource type="Resource" id="Resource_td8gd"]
+script = ExtResource("3_4mhx2")
+level = 56
+move = 248
+
+[resource]
+script = ExtResource("4_b3axd")
+id = 97
+display_name = "Hypno"
+category = "Hypnosis"
+national_dex = 97
+pokedex = "The arcing movement and glitter of the
+pendulum in a Hypno's hand lull the foe
+into deep hypnosis. While searching for
+prey, it polishes the pendulum."
+type_1 = 15
+base_hp = 85
+base_atk = 73
+base_def = 70
+base_spa = 73
+base_spd = 115
+base_spe = 67
+ev_spd = 2
+catch_rate = 75
+base_exp = 169
+egg_group_1 = 8
+ability_1 = 15
+ability_hidden = 39
+height_dm = 16
+weight_hg = 756
+body_color = 2
+level_moves = Array[ExtResource("3_4mhx2")]([SubResource("Resource_edpvj"), SubResource("Resource_n56ns"), SubResource("Resource_re5c3"), SubResource("Resource_2tffd"), SubResource("Resource_htm1d"), SubResource("Resource_pt1tw"), SubResource("Resource_cjdbw"), SubResource("Resource_tm6i8"), SubResource("Resource_hg3i2"), SubResource("Resource_mwpte"), SubResource("Resource_y2ot5"), SubResource("Resource_0s7pw"), SubResource("Resource_ic8fk"), SubResource("Resource_n77db"), SubResource("Resource_td8gd")])

@@ -1,0 +1,132 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cquqyxvr5klcb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_i5bav"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0ojp5"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_e7h5x"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_355re"]
+
+[sub_resource type="Resource" id="Resource_0milo"]
+script = ExtResource("3_e7h5x")
+level = 0
+move = 483
+
+[sub_resource type="Resource" id="Resource_5wsf8"]
+script = ExtResource("3_e7h5x")
+move = 483
+
+[sub_resource type="Resource" id="Resource_mqp7v"]
+script = ExtResource("3_e7h5x")
+move = 368
+
+[sub_resource type="Resource" id="Resource_f2gd3"]
+script = ExtResource("3_e7h5x")
+move = 389
+
+[sub_resource type="Resource" id="Resource_2rdvg"]
+script = ExtResource("3_e7h5x")
+move = 33
+
+[sub_resource type="Resource" id="Resource_8whyh"]
+script = ExtResource("3_e7h5x")
+move = 182
+
+[sub_resource type="Resource" id="Resource_so7xh"]
+script = ExtResource("3_e7h5x")
+move = 450
+
+[sub_resource type="Resource" id="Resource_g0qho"]
+script = ExtResource("3_e7h5x")
+level = 10
+move = 182
+
+[sub_resource type="Resource" id="Resource_uvqq6"]
+script = ExtResource("3_e7h5x")
+level = 15
+move = 450
+
+[sub_resource type="Resource" id="Resource_or72a"]
+script = ExtResource("3_e7h5x")
+level = 20
+move = 81
+
+[sub_resource type="Resource" id="Resource_ayw5k"]
+script = ExtResource("3_e7h5x")
+level = 23
+move = 93
+
+[sub_resource type="Resource" id="Resource_7c5kk"]
+script = ExtResource("3_e7h5x")
+level = 26
+move = 368
+
+[sub_resource type="Resource" id="Resource_gdu8u"]
+script = ExtResource("3_e7h5x")
+level = 29
+move = 319
+
+[sub_resource type="Resource" id="Resource_m1ydt"]
+script = ExtResource("3_e7h5x")
+level = 32
+move = 60
+
+[sub_resource type="Resource" id="Resource_pcnmx"]
+script = ExtResource("3_e7h5x")
+level = 35
+move = 611
+
+[sub_resource type="Resource" id="Resource_vjilu"]
+script = ExtResource("3_e7h5x")
+level = 38
+move = 175
+
+[sub_resource type="Resource" id="Resource_fxcbx"]
+script = ExtResource("3_e7h5x")
+level = 41
+move = 213
+
+[sub_resource type="Resource" id="Resource_fwlxp"]
+script = ExtResource("3_e7h5x")
+level = 44
+move = 94
+
+[sub_resource type="Resource" id="Resource_ov0oa"]
+script = ExtResource("3_e7h5x")
+level = 47
+move = 442
+
+[sub_resource type="Resource" id="Resource_y6stf"]
+script = ExtResource("3_e7h5x")
+level = 50
+move = 405
+
+[resource]
+script = ExtResource("4_355re")
+id = 1060
+display_name = "Wormadam"
+category = "Bagworm"
+national_dex = 413
+pokedex = "Its body, composed of refuse, blends in to
+the scenery enough to be inconspicuous.
+This seems to be the perfect way for it to
+evade the detection of predators."
+type_1 = 7
+type_2 = 9
+base_hp = 60
+base_atk = 69
+base_def = 95
+base_spa = 69
+base_spd = 95
+base_spe = 36
+ev_def = 1
+ev_spd = 1
+base_exp = 148
+gender_ratio = 254
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 107
+ability_hidden = 142
+item_rare = 436
+height_dm = 5
+weight_hg = 65
+level_moves = Array[ExtResource("3_e7h5x")]([SubResource("Resource_0milo"), SubResource("Resource_5wsf8"), SubResource("Resource_mqp7v"), SubResource("Resource_f2gd3"), SubResource("Resource_2rdvg"), SubResource("Resource_8whyh"), SubResource("Resource_so7xh"), SubResource("Resource_g0qho"), SubResource("Resource_uvqq6"), SubResource("Resource_or72a"), SubResource("Resource_ayw5k"), SubResource("Resource_7c5kk"), SubResource("Resource_gdu8u"), SubResource("Resource_m1ydt"), SubResource("Resource_pcnmx"), SubResource("Resource_vjilu"), SubResource("Resource_fxcbx"), SubResource("Resource_fwlxp"), SubResource("Resource_ov0oa"), SubResource("Resource_y6stf")])
+form_species = Array[int]([413, 1059, 1060])

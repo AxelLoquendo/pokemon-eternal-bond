@@ -1,0 +1,129 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bfetoggqpmelj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_gcgnr"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hstsp"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_20t8u"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_uvqxa"]
+
+[sub_resource type="Resource" id="Resource_sw551"]
+script = ExtResource("1_gcgnr")
+method = "LEVEL"
+param = "24"
+target = 297
+
+[sub_resource type="Resource" id="Resource_uawnp"]
+script = ExtResource("3_20t8u")
+move = 33
+
+[sub_resource type="Resource" id="Resource_sfvdp"]
+script = ExtResource("3_20t8u")
+move = 116
+
+[sub_resource type="Resource" id="Resource_svqg7"]
+script = ExtResource("3_20t8u")
+level = 4
+move = 28
+
+[sub_resource type="Resource" id="Resource_4qhgh"]
+script = ExtResource("3_20t8u")
+level = 7
+move = 292
+
+[sub_resource type="Resource" id="Resource_me5si"]
+script = ExtResource("3_20t8u")
+level = 10
+move = 252
+
+[sub_resource type="Resource" id="Resource_4mhv6"]
+script = ExtResource("3_20t8u")
+level = 13
+move = 395
+
+[sub_resource type="Resource" id="Resource_mcsyc"]
+script = ExtResource("3_20t8u")
+level = 16
+move = 18
+
+[sub_resource type="Resource" id="Resource_pgerx"]
+script = ExtResource("3_20t8u")
+level = 19
+move = 282
+
+[sub_resource type="Resource" id="Resource_2tjsi"]
+script = ExtResource("3_20t8u")
+level = 22
+move = 339
+
+[sub_resource type="Resource" id="Resource_gudms"]
+script = ExtResource("3_20t8u")
+level = 25
+move = 187
+
+[sub_resource type="Resource" id="Resource_jrgmg"]
+script = ExtResource("3_20t8u")
+level = 28
+move = 197
+
+[sub_resource type="Resource" id="Resource_r8qd0"]
+script = ExtResource("3_20t8u")
+level = 31
+move = 69
+
+[sub_resource type="Resource" id="Resource_fpye0"]
+script = ExtResource("3_20t8u")
+level = 34
+move = 264
+
+[sub_resource type="Resource" id="Resource_8wjs8"]
+script = ExtResource("3_20t8u")
+level = 37
+move = 203
+
+[sub_resource type="Resource" id="Resource_egphe"]
+script = ExtResource("3_20t8u")
+level = 40
+move = 370
+
+[sub_resource type="Resource" id="Resource_62vnk"]
+script = ExtResource("3_20t8u")
+level = 43
+move = 179
+
+[sub_resource type="Resource" id="Resource_b42sd"]
+script = ExtResource("3_20t8u")
+level = 46
+move = 484
+
+[resource]
+script = ExtResource("4_uvqxa")
+id = 296
+display_name = "Makuhita"
+category = "Guts"
+national_dex = 296
+pokedex = "It loves to toughen up its body above all
+else. If you hear quaking rumbles in a cave,
+it is the sound of Makuhita undertaking
+strenuous training."
+type_1 = 2
+base_hp = 72
+base_atk = 60
+base_def = 30
+base_spa = 20
+base_spd = 30
+base_spe = 25
+ev_hp = 1
+catch_rate = 180
+base_exp = 47
+gender_ratio = 63
+growth_rate = 2
+egg_group_1 = 8
+ability_1 = 47
+ability_2 = 62
+ability_hidden = 125
+item_rare = 431
+height_dm = 10
+weight_hg = 864
+body_color = 2
+level_moves = Array[ExtResource("3_20t8u")]([SubResource("Resource_uawnp"), SubResource("Resource_sfvdp"), SubResource("Resource_svqg7"), SubResource("Resource_4qhgh"), SubResource("Resource_me5si"), SubResource("Resource_4mhv6"), SubResource("Resource_mcsyc"), SubResource("Resource_pgerx"), SubResource("Resource_2tjsi"), SubResource("Resource_gudms"), SubResource("Resource_jrgmg"), SubResource("Resource_r8qd0"), SubResource("Resource_fpye0"), SubResource("Resource_8wjs8"), SubResource("Resource_egphe"), SubResource("Resource_62vnk"), SubResource("Resource_b42sd")])
+egg_moves = Array[int]([185, 197, 193, 270, 238, 279, 223, 68, 358, 418, 364, 469, 264, 498])
+evolutions = Array[ExtResource("1_gcgnr")]([SubResource("Resource_sw551")])

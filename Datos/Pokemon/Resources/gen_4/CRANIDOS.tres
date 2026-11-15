@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bddqqhkjrrtln"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xk8bj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_x13om"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ft57i"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rr6wx"]
+
+[sub_resource type="Resource" id="Resource_3s88q"]
+script = ExtResource("1_xk8bj")
+method = "LEVEL"
+param = "30"
+target = 409
+
+[sub_resource type="Resource" id="Resource_n3lmi"]
+script = ExtResource("3_ft57i")
+move = 29
+
+[sub_resource type="Resource" id="Resource_usddl"]
+script = ExtResource("3_ft57i")
+move = 43
+
+[sub_resource type="Resource" id="Resource_wrxsa"]
+script = ExtResource("3_ft57i")
+level = 6
+move = 116
+
+[sub_resource type="Resource" id="Resource_y8w8v"]
+script = ExtResource("3_ft57i")
+level = 10
+move = 249
+
+[sub_resource type="Resource" id="Resource_l60rj"]
+script = ExtResource("3_ft57i")
+level = 15
+move = 36
+
+[sub_resource type="Resource" id="Resource_bbvvp"]
+script = ExtResource("3_ft57i")
+level = 19
+move = 184
+
+[sub_resource type="Resource" id="Resource_73o4m"]
+script = ExtResource("3_ft57i")
+level = 24
+move = 372
+
+[sub_resource type="Resource" id="Resource_t5824"]
+script = ExtResource("3_ft57i")
+level = 28
+move = 21
+
+[sub_resource type="Resource" id="Resource_8ttkx"]
+script = ExtResource("3_ft57i")
+level = 33
+move = 246
+
+[sub_resource type="Resource" id="Resource_ilre5"]
+script = ExtResource("3_ft57i")
+level = 37
+move = 428
+
+[sub_resource type="Resource" id="Resource_nxht7"]
+script = ExtResource("3_ft57i")
+level = 42
+move = 103
+
+[sub_resource type="Resource" id="Resource_y0mhq"]
+script = ExtResource("3_ft57i")
+level = 46
+move = 457
+
+[resource]
+script = ExtResource("4_rr6wx")
+id = 408
+display_name = "Cranidos"
+category = "Head Butt"
+national_dex = 408
+pokedex = "A lifelong jungle dweller from 100 million
+years ago, its skull is as hard as iron. 
+It would snap obstructing trees with
+headbutts."
+type_1 = 6
+base_hp = 67
+base_atk = 125
+base_def = 40
+base_spa = 30
+base_spd = 30
+base_spe = 58
+ev_atk = 1
+base_exp = 70
+gender_ratio = 31
+growth_rate = 1
+egg_cycles = 30
+egg_group_1 = 1
+ability_1 = 104
+ability_hidden = 125
+height_dm = 9
+weight_hg = 315
+body_color = 1
+level_moves = Array[ExtResource("3_ft57i")]([SubResource("Resource_n3lmi"), SubResource("Resource_usddl"), SubResource("Resource_wrxsa"), SubResource("Resource_y8w8v"), SubResource("Resource_l60rj"), SubResource("Resource_bbvvp"), SubResource("Resource_73o4m"), SubResource("Resource_t5824"), SubResource("Resource_8ttkx"), SubResource("Resource_ilre5"), SubResource("Resource_nxht7"), SubResource("Resource_y0mhq")])
+egg_moves = Array[int]([242, 37, 38, 43, 21, 23, 18, 359, 174, 231, 442])
+evolutions = Array[ExtResource("1_xk8bj")]([SubResource("Resource_3s88q")])

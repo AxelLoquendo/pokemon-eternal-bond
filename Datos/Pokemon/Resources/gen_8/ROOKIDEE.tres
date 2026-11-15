@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://vr6cht5umclj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_u2qtv"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_nqgbf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qsfsi"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sg2a0"]
+
+[sub_resource type="Resource" id="Resource_v5hgn"]
+script = ExtResource("1_u2qtv")
+method = "LEVEL"
+param = "18"
+target = 822
+
+[sub_resource type="Resource" id="Resource_lv72v"]
+script = ExtResource("3_qsfsi")
+move = 43
+
+[sub_resource type="Resource" id="Resource_nxfm1"]
+script = ExtResource("3_qsfsi")
+move = 64
+
+[sub_resource type="Resource" id="Resource_dl40r"]
+script = ExtResource("3_qsfsi")
+level = 4
+move = 644
+
+[sub_resource type="Resource" id="Resource_5lumd"]
+script = ExtResource("3_qsfsi")
+level = 8
+move = 468
+
+[sub_resource type="Resource" id="Resource_q7w24"]
+script = ExtResource("3_qsfsi")
+level = 12
+move = 31
+
+[sub_resource type="Resource" id="Resource_ib7g5"]
+script = ExtResource("3_qsfsi")
+level = 16
+move = 365
+
+[sub_resource type="Resource" id="Resource_m3gnj"]
+script = ExtResource("3_qsfsi")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_ikxgw"]
+script = ExtResource("3_qsfsi")
+level = 24
+move = 184
+
+[sub_resource type="Resource" id="Resource_vijmj"]
+script = ExtResource("3_qsfsi")
+level = 28
+move = 65
+
+[sub_resource type="Resource" id="Resource_auxl6"]
+script = ExtResource("3_qsfsi")
+level = 32
+move = 207
+
+[sub_resource type="Resource" id="Resource_ggsve"]
+script = ExtResource("3_qsfsi")
+level = 36
+move = 413
+
+[resource]
+script = ExtResource("4_sg2a0")
+id = 821
+display_name = "Rookidee"
+category = "Tiny Bird"
+national_dex = 821
+pokedex = "It will bravely challenge any opponent,
+no matter how powerful. This Pokémon
+benefits from every battle--even a
+defeat increases its strength a bit."
+type_1 = 3
+base_hp = 38
+base_atk = 47
+base_def = 35
+base_spa = 33
+base_spd = 35
+base_spe = 57
+ev_spe = 1
+catch_rate = 255
+base_exp = 49
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 51
+ability_2 = 127
+ability_hidden = 145
+height_dm = 2
+weight_hg = 18
+body_color = 1
+level_moves = Array[ExtResource("3_qsfsi")]([SubResource("Resource_lv72v"), SubResource("Resource_nxfm1"), SubResource("Resource_dl40r"), SubResource("Resource_5lumd"), SubResource("Resource_q7w24"), SubResource("Resource_ib7g5"), SubResource("Resource_m3gnj"), SubResource("Resource_ikxgw"), SubResource("Resource_vijmj"), SubResource("Resource_auxl6"), SubResource("Resource_ggsve")])
+egg_moves = Array[int]([143, 28, 366, 432, 249, 180, 355])
+evolutions = Array[ExtResource("1_u2qtv")]([SubResource("Resource_v5hgn")])

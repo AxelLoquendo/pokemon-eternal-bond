@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://16f1gj5sxt0x"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_hibwc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6l1h3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_m46dl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xyokb"]
+
+[sub_resource type="Resource" id="Resource_6xun3"]
+script = ExtResource("1_hibwc")
+method = "LEVEL"
+param = "17"
+target = 502
+
+[sub_resource type="Resource" id="Resource_g1p3c"]
+script = ExtResource("3_m46dl")
+move = 33
+
+[sub_resource type="Resource" id="Resource_7lxwi"]
+script = ExtResource("3_m46dl")
+level = 5
+move = 39
+
+[sub_resource type="Resource" id="Resource_oksyp"]
+script = ExtResource("3_m46dl")
+level = 7
+move = 55
+
+[sub_resource type="Resource" id="Resource_praf3"]
+script = ExtResource("3_m46dl")
+level = 11
+move = 487
+
+[sub_resource type="Resource" id="Resource_l3c3u"]
+script = ExtResource("3_m46dl")
+level = 13
+move = 116
+
+[sub_resource type="Resource" id="Resource_dfgdu"]
+script = ExtResource("3_m46dl")
+level = 17
+move = 534
+
+[sub_resource type="Resource" id="Resource_go8ir"]
+script = ExtResource("3_m46dl")
+level = 19
+move = 210
+
+[sub_resource type="Resource" id="Resource_4631i"]
+script = ExtResource("3_m46dl")
+level = 23
+move = 352
+
+[sub_resource type="Resource" id="Resource_jjk1n"]
+script = ExtResource("3_m46dl")
+level = 25
+move = 332
+
+[sub_resource type="Resource" id="Resource_8pcbp"]
+script = ExtResource("3_m46dl")
+level = 29
+move = 453
+
+[sub_resource type="Resource" id="Resource_0arwg"]
+script = ExtResource("3_m46dl")
+level = 31
+move = 227
+
+[sub_resource type="Resource" id="Resource_o0xvd"]
+script = ExtResource("3_m46dl")
+level = 35
+move = 401
+
+[sub_resource type="Resource" id="Resource_bq4f2"]
+script = ExtResource("3_m46dl")
+level = 37
+move = 514
+
+[sub_resource type="Resource" id="Resource_t0iuq"]
+script = ExtResource("3_m46dl")
+level = 41
+move = 14
+
+[sub_resource type="Resource" id="Resource_kooqm"]
+script = ExtResource("3_m46dl")
+level = 43
+move = 56
+
+[resource]
+script = ExtResource("4_xyokb")
+id = 501
+display_name = "Oshawott"
+category = "Sea Otter"
+national_dex = 501
+pokedex = "The scalchop on its stomach isn't just
+used for battle, it can be used to break
+open hard berries as well. It is made
+from the same element as its claws."
+type_1 = 12
+base_hp = 55
+base_atk = 55
+base_def = 45
+base_spa = 63
+base_spd = 45
+base_spe = 45
+ev_spa = 1
+base_exp = 62
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 67
+ability_hidden = 75
+height_dm = 5
+weight_hg = 59
+body_color = 1
+level_moves = Array[ExtResource("3_m46dl")]([SubResource("Resource_g1p3c"), SubResource("Resource_7lxwi"), SubResource("Resource_oksyp"), SubResource("Resource_praf3"), SubResource("Resource_l3c3u"), SubResource("Resource_dfgdu"), SubResource("Resource_go8ir"), SubResource("Resource_4631i"), SubResource("Resource_jjk1n"), SubResource("Resource_8pcbp"), SubResource("Resource_0arwg"), SubResource("Resource_o0xvd"), SubResource("Resource_bq4f2"), SubResource("Resource_t0iuq"), SubResource("Resource_kooqm")])
+egg_moves = Array[int]([383, 197, 403, 372, 362, 400, 376, 103, 533])
+evolutions = Array[ExtResource("1_hibwc")]([SubResource("Resource_6xun3")])

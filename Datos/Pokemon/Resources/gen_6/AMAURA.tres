@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cm365lrtwlmdy"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xkgxa"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hy4e2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wxjqi"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_de6kp"]
+
+[sub_resource type="Resource" id="Resource_sv0st"]
+script = ExtResource("3_wxjqi")
+move = 181
+
+[sub_resource type="Resource" id="Resource_xnjtf"]
+script = ExtResource("3_wxjqi")
+move = 45
+
+[sub_resource type="Resource" id="Resource_gywy0"]
+script = ExtResource("3_wxjqi")
+level = 4
+move = 227
+
+[sub_resource type="Resource" id="Resource_3d6vf"]
+script = ExtResource("3_wxjqi")
+level = 8
+move = 246
+
+[sub_resource type="Resource" id="Resource_c3fab"]
+script = ExtResource("3_wxjqi")
+level = 12
+move = 196
+
+[sub_resource type="Resource" id="Resource_2cecs"]
+script = ExtResource("3_wxjqi")
+level = 16
+move = 496
+
+[sub_resource type="Resource" id="Resource_7iceb"]
+script = ExtResource("3_wxjqi")
+level = 20
+move = 54
+
+[sub_resource type="Resource" id="Resource_ty5o4"]
+script = ExtResource("3_wxjqi")
+level = 24
+move = 62
+
+[sub_resource type="Resource" id="Resource_5rjkh"]
+script = ExtResource("3_wxjqi")
+level = 28
+move = 86
+
+[sub_resource type="Resource" id="Resource_5p2sa"]
+script = ExtResource("3_wxjqi")
+level = 32
+move = 267
+
+[sub_resource type="Resource" id="Resource_rxuyl"]
+script = ExtResource("3_wxjqi")
+level = 36
+move = 573
+
+[sub_resource type="Resource" id="Resource_67xkk"]
+script = ExtResource("3_wxjqi")
+level = 40
+move = 58
+
+[sub_resource type="Resource" id="Resource_lw6qe"]
+script = ExtResource("3_wxjqi")
+level = 44
+move = 113
+
+[sub_resource type="Resource" id="Resource_vxgp8"]
+script = ExtResource("3_wxjqi")
+level = 48
+move = 258
+
+[sub_resource type="Resource" id="Resource_cboxm"]
+script = ExtResource("3_wxjqi")
+level = 52
+move = 59
+
+[sub_resource type="Resource" id="Resource_th3aj"]
+script = ExtResource("3_wxjqi")
+level = 56
+move = 63
+
+[resource]
+script = ExtResource("4_de6kp")
+id = 698
+display_name = "Amaura"
+category = "Tundra"
+national_dex = 698
+pokedex = "This ancient Pokémon was restored from
+part of its body that had been frozen in
+ice for over 100 million years. It lived in a
+cold land where there were no predators."
+type_1 = 6
+type_2 = 16
+base_hp = 77
+base_atk = 59
+base_def = 50
+base_spa = 67
+base_spd = 63
+base_spe = 46
+ev_hp = 1
+base_exp = 72
+gender_ratio = 31
+egg_cycles = 30
+egg_group_1 = 1
+ability_1 = 174
+ability_hidden = 117
+height_dm = 13
+weight_hg = 252
+body_color = 1
+level_moves = Array[ExtResource("3_wxjqi")]([SubResource("Resource_sv0st"), SubResource("Resource_xnjtf"), SubResource("Resource_gywy0"), SubResource("Resource_3d6vf"), SubResource("Resource_c3fab"), SubResource("Resource_2cecs"), SubResource("Resource_7iceb"), SubResource("Resource_ty5o4"), SubResource("Resource_5rjkh"), SubResource("Resource_5p2sa"), SubResource("Resource_rxuyl"), SubResource("Resource_67xkk"), SubResource("Resource_lw6qe"), SubResource("Resource_vxgp8"), SubResource("Resource_cboxm"), SubResource("Resource_th3aj")])
+egg_moves = Array[int]([114, 112, 243, 393, 435])

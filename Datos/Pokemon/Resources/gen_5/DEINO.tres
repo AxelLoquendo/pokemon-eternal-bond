@@ -1,0 +1,127 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bdeptslm5bppr"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_hsrdt"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_bygdh"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_lu3af"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_n00jj"]
+
+[sub_resource type="Resource" id="Resource_s4t72"]
+script = ExtResource("1_hsrdt")
+method = "LEVEL"
+param = "50"
+target = 634
+
+[sub_resource type="Resource" id="Resource_4h5qf"]
+script = ExtResource("3_lu3af")
+move = 33
+
+[sub_resource type="Resource" id="Resource_afq8n"]
+script = ExtResource("3_lu3af")
+move = 116
+
+[sub_resource type="Resource" id="Resource_5iuea"]
+script = ExtResource("3_lu3af")
+level = 4
+move = 225
+
+[sub_resource type="Resource" id="Resource_gffmb"]
+script = ExtResource("3_lu3af")
+level = 8
+move = 44
+
+[sub_resource type="Resource" id="Resource_7446c"]
+script = ExtResource("3_lu3af")
+level = 12
+move = 46
+
+[sub_resource type="Resource" id="Resource_6s6p5"]
+script = ExtResource("3_lu3af")
+level = 16
+move = 372
+
+[sub_resource type="Resource" id="Resource_kkbav"]
+script = ExtResource("3_lu3af")
+level = 20
+move = 29
+
+[sub_resource type="Resource" id="Resource_7tuqn"]
+script = ExtResource("3_lu3af")
+level = 24
+move = 526
+
+[sub_resource type="Resource" id="Resource_kv71y"]
+script = ExtResource("3_lu3af")
+level = 28
+move = 21
+
+[sub_resource type="Resource" id="Resource_ox3dh"]
+script = ExtResource("3_lu3af")
+level = 32
+move = 242
+
+[sub_resource type="Resource" id="Resource_jiben"]
+script = ExtResource("3_lu3af")
+level = 36
+move = 184
+
+[sub_resource type="Resource" id="Resource_fev1r"]
+script = ExtResource("3_lu3af")
+level = 40
+move = 406
+
+[sub_resource type="Resource" id="Resource_bniu3"]
+script = ExtResource("3_lu3af")
+level = 44
+move = 34
+
+[sub_resource type="Resource" id="Resource_f44ia"]
+script = ExtResource("3_lu3af")
+level = 48
+move = 304
+
+[sub_resource type="Resource" id="Resource_jbvev"]
+script = ExtResource("3_lu3af")
+level = 52
+move = 407
+
+[sub_resource type="Resource" id="Resource_1bivb"]
+script = ExtResource("3_lu3af")
+level = 56
+move = 417
+
+[sub_resource type="Resource" id="Resource_akkdj"]
+script = ExtResource("3_lu3af")
+level = 60
+move = 200
+
+[resource]
+script = ExtResource("4_n00jj")
+id = 633
+display_name = "Deino"
+category = "Irate"
+national_dex = 633
+pokedex = "Lacking sight, it's unaware of its
+surroundings, so it bumps into things and
+eats anything that moves. Approaching
+it carelessly is dangerous."
+type_1 = 18
+type_2 = 17
+base_hp = 52
+base_atk = 65
+base_def = 50
+base_spa = 45
+base_spd = 50
+base_spe = 38
+ev_atk = 1
+base_exp = 60
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 14
+ability_1 = 55
+height_dm = 8
+weight_hg = 173
+body_color = 1
+level_moves = Array[ExtResource("3_lu3af")]([SubResource("Resource_4h5qf"), SubResource("Resource_afq8n"), SubResource("Resource_5iuea"), SubResource("Resource_gffmb"), SubResource("Resource_7446c"), SubResource("Resource_6s6p5"), SubResource("Resource_kkbav"), SubResource("Resource_7tuqn"), SubResource("Resource_kv71y"), SubResource("Resource_ox3dh"), SubResource("Resource_jiben"), SubResource("Resource_fev1r"), SubResource("Resource_bniu3"), SubResource("Resource_f44ia"), SubResource("Resource_jbvev"), SubResource("Resource_1bivb"), SubResource("Resource_akkdj")])
+egg_moves = Array[int]([424, 422, 423, 458, 310, 414, 103, 457, 372, 399, 562])
+evolutions = Array[ExtResource("1_hsrdt")]([SubResource("Resource_s4t72")])

@@ -1,0 +1,130 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dy5etutbdq3t4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ex4ka"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ek4q4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_stjd3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4oos2"]
+
+[sub_resource type="Resource" id="Resource_ulq2y"]
+script = ExtResource("3_stjd3")
+level = 0
+move = 729
+
+[sub_resource type="Resource" id="Resource_mg85d"]
+script = ExtResource("3_stjd3")
+move = 33
+
+[sub_resource type="Resource" id="Resource_cshnk"]
+script = ExtResource("3_stjd3")
+move = 45
+
+[sub_resource type="Resource" id="Resource_vndni"]
+script = ExtResource("3_stjd3")
+move = 51
+
+[sub_resource type="Resource" id="Resource_8l7cd"]
+script = ExtResource("3_stjd3")
+move = 110
+
+[sub_resource type="Resource" id="Resource_howvr"]
+script = ExtResource("3_stjd3")
+move = 174
+
+[sub_resource type="Resource" id="Resource_bb616"]
+script = ExtResource("3_stjd3")
+level = 9
+move = 281
+
+[sub_resource type="Resource" id="Resource_0p7b5"]
+script = ExtResource("3_stjd3")
+level = 12
+move = 93
+
+[sub_resource type="Resource" id="Resource_uf74e"]
+script = ExtResource("3_stjd3")
+level = 15
+move = 50
+
+[sub_resource type="Resource" id="Resource_aib67"]
+script = ExtResource("3_stjd3")
+level = 18
+move = 352
+
+[sub_resource type="Resource" id="Resource_4xdl3"]
+script = ExtResource("3_stjd3")
+level = 21
+move = 29
+
+[sub_resource type="Resource" id="Resource_h0w6r"]
+script = ExtResource("3_stjd3")
+level = 24
+move = 428
+
+[sub_resource type="Resource" id="Resource_gkga3"]
+script = ExtResource("3_stjd3")
+level = 27
+move = 133
+
+[sub_resource type="Resource" id="Resource_incbr"]
+script = ExtResource("3_stjd3")
+level = 30
+move = 57
+
+[sub_resource type="Resource" id="Resource_6557n"]
+script = ExtResource("3_stjd3")
+level = 33
+move = 303
+
+[sub_resource type="Resource" id="Resource_ihwa1"]
+script = ExtResource("3_stjd3")
+level = 36
+move = 94
+
+[sub_resource type="Resource" id="Resource_qcbnl"]
+script = ExtResource("3_stjd3")
+level = 39
+move = 244
+
+[sub_resource type="Resource" id="Resource_wwv10"]
+script = ExtResource("3_stjd3")
+level = 42
+move = 240
+
+[sub_resource type="Resource" id="Resource_kky3g"]
+script = ExtResource("3_stjd3")
+level = 45
+move = 505
+
+[resource]
+script = ExtResource("4_4oos2")
+id = 978
+display_name = "Slowbro"
+category = "Hermit Crab"
+national_dex = 80
+pokedex = "A Shellder bite set off a chemical reaction
+with the spices inside Slowbro's body,
+causing Slowbro to become a
+Poison-type Pokémon."
+type_1 = 4
+type_2 = 15
+base_hp = 95
+base_atk = 100
+base_def = 95
+base_spa = 100
+base_spd = 70
+base_spe = 30
+ev_atk = 2
+catch_rate = 75
+base_exp = 172
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 259
+ability_2 = 20
+ability_hidden = 144
+item_rare = 465
+height_dm = 16
+weight_hg = 705
+body_color = 9
+no_flip = true
+level_moves = Array[ExtResource("3_stjd3")]([SubResource("Resource_ulq2y"), SubResource("Resource_mg85d"), SubResource("Resource_cshnk"), SubResource("Resource_vndni"), SubResource("Resource_8l7cd"), SubResource("Resource_howvr"), SubResource("Resource_bb616"), SubResource("Resource_0p7b5"), SubResource("Resource_uf74e"), SubResource("Resource_aib67"), SubResource("Resource_4xdl3"), SubResource("Resource_h0w6r"), SubResource("Resource_gkga3"), SubResource("Resource_incbr"), SubResource("Resource_6557n"), SubResource("Resource_ihwa1"), SubResource("Resource_qcbnl"), SubResource("Resource_wwv10"), SubResource("Resource_kky3g")])
+form_species = Array[int]([80, 913, 978])

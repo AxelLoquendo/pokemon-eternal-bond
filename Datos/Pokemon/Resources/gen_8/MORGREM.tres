@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://da2j5aqooktks"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ird26"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_aviwe"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fvpok"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ot0ih"]
+
+[sub_resource type="Resource" id="Resource_rqtq8"]
+script = ExtResource("1_ird26")
+method = "LEVEL"
+param = "42"
+target = 861
+
+[sub_resource type="Resource" id="Resource_44ekq"]
+script = ExtResource("3_fvpok")
+level = 0
+move = 721
+
+[sub_resource type="Resource" id="Resource_op5db"]
+script = ExtResource("3_fvpok")
+move = 44
+
+[sub_resource type="Resource" id="Resource_pyq43"]
+script = ExtResource("3_fvpok")
+move = 252
+
+[sub_resource type="Resource" id="Resource_1odah"]
+script = ExtResource("3_fvpok")
+move = 260
+
+[sub_resource type="Resource" id="Resource_62jdp"]
+script = ExtResource("3_fvpok")
+move = 590
+
+[sub_resource type="Resource" id="Resource_o7t5g"]
+script = ExtResource("3_fvpok")
+level = 12
+move = 313
+
+[sub_resource type="Resource" id="Resource_quowq"]
+script = ExtResource("3_fvpok")
+level = 16
+move = 372
+
+[sub_resource type="Resource" id="Resource_obq0g"]
+script = ExtResource("3_fvpok")
+level = 20
+move = 207
+
+[sub_resource type="Resource" id="Resource_lttrh"]
+script = ExtResource("3_fvpok")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_iqjqj"]
+script = ExtResource("3_fvpok")
+level = 28
+move = 259
+
+[sub_resource type="Resource" id="Resource_7rxjs"]
+script = ExtResource("3_fvpok")
+level = 35
+move = 399
+
+[sub_resource type="Resource" id="Resource_pn0sn"]
+script = ExtResource("3_fvpok")
+level = 40
+move = 417
+
+[sub_resource type="Resource" id="Resource_jcu61"]
+script = ExtResource("3_fvpok")
+level = 46
+move = 583
+
+[sub_resource type="Resource" id="Resource_kyxl0"]
+script = ExtResource("3_fvpok")
+level = 52
+move = 492
+
+[resource]
+script = ExtResource("4_ot0ih")
+id = 860
+display_name = "Morgrem"
+category = "Devious"
+national_dex = 860
+pokedex = "When it gets down on all fours as if to
+beg for forgiveness, it's trying to lure
+opponents in so that it can stab them
+with its spear-like hair."
+type_1 = 18
+type_2 = 19
+base_hp = 65
+base_atk = 60
+base_def = 45
+base_spa = 75
+base_spd = 55
+base_spe = 70
+ev_spa = 2
+catch_rate = 120
+base_exp = 130
+gender_ratio = 0
+egg_group_1 = 6
+egg_group_2 = 8
+ability_1 = 158
+ability_2 = 119
+ability_hidden = 124
+height_dm = 8
+weight_hg = 125
+body_color = 9
+level_moves = Array[ExtResource("3_fvpok")]([SubResource("Resource_44ekq"), SubResource("Resource_op5db"), SubResource("Resource_pyq43"), SubResource("Resource_1odah"), SubResource("Resource_62jdp"), SubResource("Resource_o7t5g"), SubResource("Resource_quowq"), SubResource("Resource_obq0g"), SubResource("Resource_lttrh"), SubResource("Resource_iqjqj"), SubResource("Resource_7rxjs"), SubResource("Resource_pn0sn"), SubResource("Resource_jcu61"), SubResource("Resource_kyxl0")])
+evolutions = Array[ExtResource("1_ird26")]([SubResource("Resource_rqtq8")])

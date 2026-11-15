@@ -1,0 +1,127 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b1ow0jqww2xx2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_a2658"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_k1hcj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_boqjg"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nk5e5"]
+
+[sub_resource type="Resource" id="Resource_ncdk1"]
+script = ExtResource("1_a2658")
+method = "LEVEL"
+param = "36"
+target = 257
+
+[sub_resource type="Resource" id="Resource_nxn0j"]
+script = ExtResource("3_boqjg")
+level = 0
+move = 24
+
+[sub_resource type="Resource" id="Resource_lm7h1"]
+script = ExtResource("3_boqjg")
+move = 53
+
+[sub_resource type="Resource" id="Resource_drl7m"]
+script = ExtResource("3_boqjg")
+move = 297
+
+[sub_resource type="Resource" id="Resource_xjdil"]
+script = ExtResource("3_boqjg")
+move = 10
+
+[sub_resource type="Resource" id="Resource_mv6uj"]
+script = ExtResource("3_boqjg")
+move = 45
+
+[sub_resource type="Resource" id="Resource_m3aes"]
+script = ExtResource("3_boqjg")
+move = 52
+
+[sub_resource type="Resource" id="Resource_asuw1"]
+script = ExtResource("3_boqjg")
+move = 98
+
+[sub_resource type="Resource" id="Resource_4dqs6"]
+script = ExtResource("3_boqjg")
+level = 9
+move = 488
+
+[sub_resource type="Resource" id="Resource_8x1pv"]
+script = ExtResource("3_boqjg")
+level = 12
+move = 197
+
+[sub_resource type="Resource" id="Resource_bvh37"]
+script = ExtResource("3_boqjg")
+level = 15
+move = 28
+
+[sub_resource type="Resource" id="Resource_d288h"]
+script = ExtResource("3_boqjg")
+level = 20
+move = 332
+
+[sub_resource type="Resource" id="Resource_ifxv7"]
+script = ExtResource("3_boqjg")
+level = 25
+move = 163
+
+[sub_resource type="Resource" id="Resource_ci64c"]
+script = ExtResource("3_boqjg")
+level = 30
+move = 340
+
+[sub_resource type="Resource" id="Resource_xlpox"]
+script = ExtResource("3_boqjg")
+level = 35
+move = 116
+
+[sub_resource type="Resource" id="Resource_ylui7"]
+script = ExtResource("3_boqjg")
+level = 40
+move = 299
+
+[sub_resource type="Resource" id="Resource_f3fsk"]
+script = ExtResource("3_boqjg")
+level = 45
+move = 339
+
+[sub_resource type="Resource" id="Resource_qfw68"]
+script = ExtResource("3_boqjg")
+level = 50
+move = 179
+
+[sub_resource type="Resource" id="Resource_x1x5n"]
+script = ExtResource("3_boqjg")
+level = 55
+move = 394
+
+[resource]
+script = ExtResource("4_nk5e5")
+id = 256
+display_name = "Combusken"
+category = "Young Fowl"
+national_dex = 256
+pokedex = "It lashes out with 10 kicks per second.
+Its strong fighting instinct compels it
+to keep up its offensive until the
+opponent gives up."
+type_1 = 11
+type_2 = 2
+base_hp = 60
+base_atk = 85
+base_def = 60
+base_spa = 85
+base_spd = 60
+base_spe = 55
+ev_atk = 1
+ev_spa = 1
+base_exp = 142
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 66
+ability_hidden = 3
+height_dm = 9
+weight_hg = 195
+level_moves = Array[ExtResource("3_boqjg")]([SubResource("Resource_nxn0j"), SubResource("Resource_lm7h1"), SubResource("Resource_drl7m"), SubResource("Resource_xjdil"), SubResource("Resource_mv6uj"), SubResource("Resource_m3aes"), SubResource("Resource_asuw1"), SubResource("Resource_4dqs6"), SubResource("Resource_8x1pv"), SubResource("Resource_bvh37"), SubResource("Resource_d288h"), SubResource("Resource_ifxv7"), SubResource("Resource_ci64c"), SubResource("Resource_xlpox"), SubResource("Resource_ylui7"), SubResource("Resource_f3fsk"), SubResource("Resource_qfw68"), SubResource("Resource_x1x5n")])
+evolutions = Array[ExtResource("1_a2658")]([SubResource("Resource_ncdk1")])

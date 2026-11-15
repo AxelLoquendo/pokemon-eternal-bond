@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d0rctktv6n6hg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_c3o46"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3prne"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_byiqp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_aclgm"]
+
+[sub_resource type="Resource" id="Resource_d4xvl"]
+script = ExtResource("3_byiqp")
+move = 33
+
+[sub_resource type="Resource" id="Resource_37ij2"]
+script = ExtResource("3_byiqp")
+move = 39
+
+[sub_resource type="Resource" id="Resource_ratbw"]
+script = ExtResource("3_byiqp")
+level = 3
+move = 574
+
+[sub_resource type="Resource" id="Resource_1swlc"]
+script = ExtResource("3_byiqp")
+level = 6
+move = 497
+
+[sub_resource type="Resource" id="Resource_okg2l"]
+script = ExtResource("3_byiqp")
+level = 9
+move = 341
+
+[sub_resource type="Resource" id="Resource_6bniv"]
+script = ExtResource("3_byiqp")
+level = 12
+move = 343
+
+[sub_resource type="Resource" id="Resource_ghktk"]
+script = ExtResource("3_byiqp")
+level = 15
+move = 91
+
+[sub_resource type="Resource" id="Resource_41lsw"]
+script = ExtResource("3_byiqp")
+level = 17
+move = 29
+
+[sub_resource type="Resource" id="Resource_n23a8"]
+script = ExtResource("3_byiqp")
+level = 23
+move = 281
+
+[sub_resource type="Resource" id="Resource_r36ky"]
+script = ExtResource("3_byiqp")
+level = 28
+move = 36
+
+[sub_resource type="Resource" id="Resource_818gu"]
+script = ExtResource("3_byiqp")
+level = 30
+move = 526
+
+[sub_resource type="Resource" id="Resource_nyoef"]
+script = ExtResource("3_byiqp")
+level = 34
+move = 253
+
+[sub_resource type="Resource" id="Resource_uam2i"]
+script = ExtResource("3_byiqp")
+level = 39
+move = 38
+
+[sub_resource type="Resource" id="Resource_6fk2p"]
+script = ExtResource("3_byiqp")
+level = 45
+move = 414
+
+[sub_resource type="Resource" id="Resource_4okrk"]
+script = ExtResource("3_byiqp")
+level = 51
+move = 562
+
+[resource]
+script = ExtResource("4_aclgm")
+id = 1300
+display_name = "Oinkologne"
+category = "Hog"
+national_dex = 916
+pokedex = "This is a meticulous Pokémon that
+likes to keep things tidy. It
+shrouds itself in a floral aroma that
+soothes the Pokémon around it."
+type_1 = 1
+base_hp = 115
+base_atk = 90
+base_def = 70
+base_spa = 59
+base_spd = 90
+base_spe = 65
+ev_hp = 2
+catch_rate = 100
+base_exp = 171
+gender_ratio = 254
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 165
+ability_2 = 82
+ability_hidden = 47
+height_dm = 10
+weight_hg = 1200
+body_color = 7
+level_moves = Array[ExtResource("3_byiqp")]([SubResource("Resource_d4xvl"), SubResource("Resource_37ij2"), SubResource("Resource_ratbw"), SubResource("Resource_1swlc"), SubResource("Resource_okg2l"), SubResource("Resource_6bniv"), SubResource("Resource_ghktk"), SubResource("Resource_41lsw"), SubResource("Resource_n23a8"), SubResource("Resource_r36ky"), SubResource("Resource_818gu"), SubResource("Resource_nyoef"), SubResource("Resource_uam2i"), SubResource("Resource_6fk2p"), SubResource("Resource_4okrk")])
+form_species = Array[int]([1299, 1300])

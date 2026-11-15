@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://rlbyro4twbfd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_b4h16"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_juqwr"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0wbmi"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kj6ar"]
+
+[sub_resource type="Resource" id="Resource_ifejq"]
+script = ExtResource("3_0wbmi")
+move = 33
+
+[sub_resource type="Resource" id="Resource_6772h"]
+script = ExtResource("3_0wbmi")
+move = 45
+
+[sub_resource type="Resource" id="Resource_5r6bw"]
+script = ExtResource("3_0wbmi")
+level = 7
+move = 229
+
+[sub_resource type="Resource" id="Resource_c6lp6"]
+script = ExtResource("3_0wbmi")
+level = 11
+move = 269
+
+[sub_resource type="Resource" id="Resource_uy776"]
+script = ExtResource("3_0wbmi")
+level = 14
+move = 712
+
+[sub_resource type="Resource" id="Resource_c8j65"]
+script = ExtResource("3_0wbmi")
+level = 18
+move = 98
+
+[sub_resource type="Resource" id="Resource_boein"]
+script = ExtResource("3_0wbmi")
+level = 23
+move = 44
+
+[sub_resource type="Resource" id="Resource_m6hky"]
+script = ExtResource("3_0wbmi")
+level = 27
+move = 369
+
+[sub_resource type="Resource" id="Resource_jthx0"]
+script = ExtResource("3_0wbmi")
+level = 31
+move = 806
+
+[sub_resource type="Resource" id="Resource_qftn6"]
+script = ExtResource("3_0wbmi")
+level = 36
+move = 337
+
+[sub_resource type="Resource" id="Resource_gmbw1"]
+script = ExtResource("3_0wbmi")
+level = 40
+move = 508
+
+[sub_resource type="Resource" id="Resource_qj21q"]
+script = ExtResource("3_0wbmi")
+level = 45
+move = 406
+
+[sub_resource type="Resource" id="Resource_6ja2c"]
+script = ExtResource("3_0wbmi")
+level = 51
+move = 38
+
+[sub_resource type="Resource" id="Resource_tmmq2"]
+script = ExtResource("3_0wbmi")
+level = 57
+move = 407
+
+[resource]
+script = ExtResource("4_kj6ar")
+id = 1356
+display_name = "Cyclizar"
+category = "Mount"
+national_dex = 967
+pokedex = "It can sprint at over 70 mph while
+carrying a human. The rider's body
+heat warms Cyclizar's back and lifts
+the Pokémon's spirit."
+type_1 = 17
+type_2 = 1
+base_hp = 70
+base_atk = 95
+base_def = 65
+base_spa = 85
+base_spd = 65
+base_spe = 121
+ev_spe = 2
+catch_rate = 190
+base_exp = 175
+growth_rate = 3
+egg_cycles = 30
+egg_group_1 = 5
+ability_1 = 61
+ability_hidden = 144
+height_dm = 16
+weight_hg = 630
+body_color = 3
+level_moves = Array[ExtResource("3_0wbmi")]([SubResource("Resource_ifejq"), SubResource("Resource_6772h"), SubResource("Resource_5r6bw"), SubResource("Resource_c6lp6"), SubResource("Resource_uy776"), SubResource("Resource_c8j65"), SubResource("Resource_boein"), SubResource("Resource_m6hky"), SubResource("Resource_jthx0"), SubResource("Resource_qftn6"), SubResource("Resource_gmbw1"), SubResource("Resource_qj21q"), SubResource("Resource_6ja2c"), SubResource("Resource_tmmq2")])
+egg_moves = Array[int]([401, 231, 282, 438])

@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b8d7lher038fc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jmy0s"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1e83p"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_b8bvt"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tqrfs"]
+
+[sub_resource type="Resource" id="Resource_enp4f"]
+script = ExtResource("3_b8bvt")
+move = 529
+
+[sub_resource type="Resource" id="Resource_ji60b"]
+script = ExtResource("3_b8bvt")
+move = 365
+
+[sub_resource type="Resource" id="Resource_k0fva"]
+script = ExtResource("3_b8bvt")
+move = 64
+
+[sub_resource type="Resource" id="Resource_dpdkn"]
+script = ExtResource("3_b8bvt")
+move = 45
+
+[sub_resource type="Resource" id="Resource_wmwyr"]
+script = ExtResource("3_b8bvt")
+move = 43
+
+[sub_resource type="Resource" id="Resource_kcshd"]
+script = ExtResource("3_b8bvt")
+level = 4
+move = 43
+
+[sub_resource type="Resource" id="Resource_61p1d"]
+script = ExtResource("3_b8bvt")
+level = 8
+move = 372
+
+[sub_resource type="Resource" id="Resource_w5a5r"]
+script = ExtResource("3_b8bvt")
+level = 11
+move = 31
+
+[sub_resource type="Resource" id="Resource_b8as4"]
+script = ExtResource("3_b8bvt")
+level = 15
+move = 332
+
+[sub_resource type="Resource" id="Resource_y73pw"]
+script = ExtResource("3_b8bvt")
+level = 18
+move = 17
+
+[sub_resource type="Resource" id="Resource_upl2o"]
+script = ExtResource("3_b8bvt")
+level = 23
+move = 36
+
+[sub_resource type="Resource" id="Resource_ykpb1"]
+script = ExtResource("3_b8bvt")
+level = 27
+move = 97
+
+[sub_resource type="Resource" id="Resource_vo7mt"]
+script = ExtResource("3_b8bvt")
+level = 32
+move = 116
+
+[sub_resource type="Resource" id="Resource_3xvsl"]
+script = ExtResource("3_b8bvt")
+level = 36
+move = 355
+
+[sub_resource type="Resource" id="Resource_etauv"]
+script = ExtResource("3_b8bvt")
+level = 41
+move = 65
+
+[sub_resource type="Resource" id="Resource_gr2yf"]
+script = ExtResource("3_b8bvt")
+level = 45
+move = 529
+
+[resource]
+script = ExtResource("4_tqrfs")
+id = 22
+display_name = "Fearow"
+category = "Beak"
+national_dex = 22
+pokedex = "Its long neck and elongated beak are
+ideal for catching prey in soil or water.
+It deftly moves this extended and skinny
+beak to pluck prey."
+type_1 = 1
+type_2 = 3
+base_hp = 65
+base_atk = 90
+base_def = 65
+base_spa = 61
+base_spd = 61
+base_spe = 100
+ev_spe = 2
+catch_rate = 90
+base_exp = 155
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 51
+ability_hidden = 97
+item_rare = 434
+height_dm = 12
+weight_hg = 380
+body_color = 5
+level_moves = Array[ExtResource("3_b8bvt")]([SubResource("Resource_enp4f"), SubResource("Resource_ji60b"), SubResource("Resource_k0fva"), SubResource("Resource_dpdkn"), SubResource("Resource_wmwyr"), SubResource("Resource_kcshd"), SubResource("Resource_61p1d"), SubResource("Resource_w5a5r"), SubResource("Resource_b8as4"), SubResource("Resource_y73pw"), SubResource("Resource_upl2o"), SubResource("Resource_ykpb1"), SubResource("Resource_vo7mt"), SubResource("Resource_3xvsl"), SubResource("Resource_etauv"), SubResource("Resource_gr2yf")])

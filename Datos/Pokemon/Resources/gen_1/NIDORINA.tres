@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ua2upypdcivn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_lh8vt"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_f0a28"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_g35dw"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1hw8l"]
+
+[sub_resource type="Resource" id="Resource_i22n5"]
+script = ExtResource("1_lh8vt")
+method = "ITEM"
+param = "ITEM_MOON_STONE"
+target = 31
+
+[sub_resource type="Resource" id="Resource_s6ujj"]
+script = ExtResource("3_g35dw")
+move = 45
+
+[sub_resource type="Resource" id="Resource_h7mvx"]
+script = ExtResource("3_g35dw")
+move = 40
+
+[sub_resource type="Resource" id="Resource_4x5gx"]
+script = ExtResource("3_g35dw")
+move = 10
+
+[sub_resource type="Resource" id="Resource_7pwoo"]
+script = ExtResource("3_g35dw")
+move = 39
+
+[sub_resource type="Resource" id="Resource_mbwo4"]
+script = ExtResource("3_g35dw")
+level = 15
+move = 154
+
+[sub_resource type="Resource" id="Resource_p38ev"]
+script = ExtResource("3_g35dw")
+level = 22
+move = 390
+
+[sub_resource type="Resource" id="Resource_awuuw"]
+script = ExtResource("3_g35dw")
+level = 29
+move = 24
+
+[sub_resource type="Resource" id="Resource_tcbvb"]
+script = ExtResource("3_g35dw")
+level = 36
+move = 44
+
+[sub_resource type="Resource" id="Resource_k2exd"]
+script = ExtResource("3_g35dw")
+level = 43
+move = 270
+
+[sub_resource type="Resource" id="Resource_uxnxs"]
+script = ExtResource("3_g35dw")
+level = 50
+move = 92
+
+[sub_resource type="Resource" id="Resource_hubik"]
+script = ExtResource("3_g35dw")
+level = 57
+move = 260
+
+[sub_resource type="Resource" id="Resource_mbb74"]
+script = ExtResource("3_g35dw")
+level = 64
+move = 242
+
+[sub_resource type="Resource" id="Resource_v3thi"]
+script = ExtResource("3_g35dw")
+level = 71
+move = 414
+
+[resource]
+script = ExtResource("4_1hw8l")
+id = 30
+display_name = "Nidorina"
+category = "Poison Pin"
+national_dex = 30
+pokedex = "When it is with its friends or
+family, its barbs are tucked away to
+prevent injury. It appears to become
+nervous if separated from the others."
+type_1 = 4
+base_hp = 70
+base_atk = 62
+base_def = 67
+base_spa = 55
+base_spd = 55
+base_spe = 56
+ev_hp = 2
+catch_rate = 120
+base_exp = 128
+gender_ratio = 254
+growth_rate = 3
+ability_1 = 38
+ability_hidden = 55
+height_dm = 8
+weight_hg = 200
+body_color = 1
+level_moves = Array[ExtResource("3_g35dw")]([SubResource("Resource_s6ujj"), SubResource("Resource_h7mvx"), SubResource("Resource_4x5gx"), SubResource("Resource_7pwoo"), SubResource("Resource_mbwo4"), SubResource("Resource_p38ev"), SubResource("Resource_awuuw"), SubResource("Resource_tcbvb"), SubResource("Resource_k2exd"), SubResource("Resource_uxnxs"), SubResource("Resource_hubik"), SubResource("Resource_mbb74"), SubResource("Resource_v3thi")])
+evolutions = Array[ExtResource("1_lh8vt")]([SubResource("Resource_i22n5")])

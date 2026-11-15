@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bf5orvb00l0ha"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vagkh"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_b8h1e"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ymle1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_av8w8"]
+
+[sub_resource type="Resource" id="Resource_j1opv"]
+script = ExtResource("3_ymle1")
+move = 35
+
+[sub_resource type="Resource" id="Resource_kxrkt"]
+script = ExtResource("3_ymle1")
+move = 43
+
+[sub_resource type="Resource" id="Resource_ehllq"]
+script = ExtResource("3_ymle1")
+level = 7
+move = 101
+
+[sub_resource type="Resource" id="Resource_on1d8"]
+script = ExtResource("3_ymle1")
+level = 13
+move = 100
+
+[sub_resource type="Resource" id="Resource_gttx5"]
+script = ExtResource("3_ymle1")
+level = 19
+move = 282
+
+[sub_resource type="Resource" id="Resource_m10ws"]
+script = ExtResource("3_ymle1")
+level = 25
+move = 191
+
+[sub_resource type="Resource" id="Resource_h1vm8"]
+script = ExtResource("3_ymle1")
+level = 31
+move = 94
+
+[sub_resource type="Resource" id="Resource_pb5au"]
+script = ExtResource("3_ymle1")
+level = 37
+move = 182
+
+[sub_resource type="Resource" id="Resource_i3ayp"]
+script = ExtResource("3_ymle1")
+level = 43
+move = 285
+
+[sub_resource type="Resource" id="Resource_ytc4q"]
+script = ExtResource("3_ymle1")
+level = 49
+move = 428
+
+[sub_resource type="Resource" id="Resource_l0wjj"]
+script = ExtResource("3_ymle1")
+level = 55
+move = 133
+
+[sub_resource type="Resource" id="Resource_4vp0j"]
+script = ExtResource("3_ymle1")
+level = 55
+move = 334
+
+[sub_resource type="Resource" id="Resource_vnjcn"]
+script = ExtResource("3_ymle1")
+level = 61
+move = 105
+
+[sub_resource type="Resource" id="Resource_ncaqj"]
+script = ExtResource("3_ymle1")
+level = 67
+move = 354
+
+[sub_resource type="Resource" id="Resource_o4v85"]
+script = ExtResource("3_ymle1")
+level = 73
+move = 68
+
+[sub_resource type="Resource" id="Resource_pd02e"]
+script = ExtResource("3_ymle1")
+level = 73
+move = 243
+
+[resource]
+script = ExtResource("4_av8w8")
+id = 1055
+display_name = "Deoxys"
+category = "DNA"
+national_dex = 386
+pokedex = "When it changes form, an aurora
+appears. It absorbs attacks by
+altering its cellular structure."
+type_1 = 15
+base_hp = 50
+base_atk = 70
+base_def = 160
+base_spa = 70
+base_spd = 160
+base_spe = 90
+ev_def = 2
+ev_spd = 1
+catch_rate = 3
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 46
+height_dm = 17
+weight_hg = 608
+level_moves = Array[ExtResource("3_ymle1")]([SubResource("Resource_j1opv"), SubResource("Resource_kxrkt"), SubResource("Resource_ehllq"), SubResource("Resource_on1d8"), SubResource("Resource_gttx5"), SubResource("Resource_m10ws"), SubResource("Resource_h1vm8"), SubResource("Resource_pb5au"), SubResource("Resource_i3ayp"), SubResource("Resource_ytc4q"), SubResource("Resource_l0wjj"), SubResource("Resource_4vp0j"), SubResource("Resource_vnjcn"), SubResource("Resource_ncaqj"), SubResource("Resource_o4v85"), SubResource("Resource_pd02e")])
+form_species = Array[int]([386, 1054, 1055, 1056])

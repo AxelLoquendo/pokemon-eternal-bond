@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dik8ns2o5svwd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jrxgf"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_a7j4s"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rvb48"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cp3oc"]
+
+[sub_resource type="Resource" id="Resource_gst01"]
+script = ExtResource("3_rvb48")
+move = 542
+
+[sub_resource type="Resource" id="Resource_urlk2"]
+script = ExtResource("3_rvb48")
+move = 33
+
+[sub_resource type="Resource" id="Resource_wcocw"]
+script = ExtResource("3_rvb48")
+move = 28
+
+[sub_resource type="Resource" id="Resource_4dvad"]
+script = ExtResource("3_rvb48")
+move = 16
+
+[sub_resource type="Resource" id="Resource_dv1qx"]
+script = ExtResource("3_rvb48")
+move = 98
+
+[sub_resource type="Resource" id="Resource_slpw7"]
+script = ExtResource("3_rvb48")
+level = 5
+move = 28
+
+[sub_resource type="Resource" id="Resource_fnhr1"]
+script = ExtResource("3_rvb48")
+level = 9
+move = 16
+
+[sub_resource type="Resource" id="Resource_3ejl7"]
+script = ExtResource("3_rvb48")
+level = 13
+move = 98
+
+[sub_resource type="Resource" id="Resource_icyhk"]
+script = ExtResource("3_rvb48")
+level = 17
+move = 18
+
+[sub_resource type="Resource" id="Resource_6gsfd"]
+script = ExtResource("3_rvb48")
+level = 22
+move = 239
+
+[sub_resource type="Resource" id="Resource_0eoxn"]
+script = ExtResource("3_rvb48")
+level = 27
+move = 297
+
+[sub_resource type="Resource" id="Resource_yr6jp"]
+script = ExtResource("3_rvb48")
+level = 32
+move = 97
+
+[sub_resource type="Resource" id="Resource_x78ju"]
+script = ExtResource("3_rvb48")
+level = 38
+move = 17
+
+[sub_resource type="Resource" id="Resource_mpvep"]
+script = ExtResource("3_rvb48")
+level = 44
+move = 355
+
+[sub_resource type="Resource" id="Resource_jsflb"]
+script = ExtResource("3_rvb48")
+level = 50
+move = 366
+
+[sub_resource type="Resource" id="Resource_h6ucr"]
+script = ExtResource("3_rvb48")
+level = 56
+move = 332
+
+[sub_resource type="Resource" id="Resource_i7d16"]
+script = ExtResource("3_rvb48")
+level = 62
+move = 403
+
+[sub_resource type="Resource" id="Resource_4qsvn"]
+script = ExtResource("3_rvb48")
+level = 68
+move = 542
+
+[resource]
+script = ExtResource("4_cp3oc")
+id = 911
+display_name = "Pidgeot"
+category = "Bird"
+national_dex = 18
+pokedex = "With its muscular strength now greatly
+increased, it can fly continuously
+for two weeks without resting."
+type_1 = 1
+type_2 = 3
+base_hp = 83
+base_atk = 80
+base_def = 80
+base_spa = 135
+base_spd = 80
+base_spe = 121
+ev_spe = 3
+base_exp = 290
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 99
+ability_2 = 99
+ability_hidden = 99
+height_dm = 22
+weight_hg = 505
+body_color = 5
+level_moves = Array[ExtResource("3_rvb48")]([SubResource("Resource_gst01"), SubResource("Resource_urlk2"), SubResource("Resource_wcocw"), SubResource("Resource_4dvad"), SubResource("Resource_dv1qx"), SubResource("Resource_slpw7"), SubResource("Resource_fnhr1"), SubResource("Resource_3ejl7"), SubResource("Resource_icyhk"), SubResource("Resource_6gsfd"), SubResource("Resource_0eoxn"), SubResource("Resource_yr6jp"), SubResource("Resource_x78ju"), SubResource("Resource_mpvep"), SubResource("Resource_jsflb"), SubResource("Resource_h6ucr"), SubResource("Resource_i7d16"), SubResource("Resource_4qsvn")])
+form_species = Array[int]([18, 911])

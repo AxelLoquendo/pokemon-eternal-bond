@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cw5a2xaogll8g"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rn66a"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jkfpw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_45o48"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jwp7q"]
+
+[sub_resource type="Resource" id="Resource_oc28f"]
+script = ExtResource("3_45o48")
+move = 10
+
+[sub_resource type="Resource" id="Resource_v2ldk"]
+script = ExtResource("3_45o48")
+move = 150
+
+[sub_resource type="Resource" id="Resource_k01hv"]
+script = ExtResource("3_45o48")
+move = 310
+
+[sub_resource type="Resource" id="Resource_j0fci"]
+script = ExtResource("3_45o48")
+move = 383
+
+[sub_resource type="Resource" id="Resource_fca62"]
+script = ExtResource("3_45o48")
+move = 452
+
+[sub_resource type="Resource" id="Resource_2orkb"]
+script = ExtResource("3_45o48")
+level = 6
+move = 425
+
+[sub_resource type="Resource" id="Resource_f7y7f"]
+script = ExtResource("3_45o48")
+level = 12
+move = 104
+
+[sub_resource type="Resource" id="Resource_qiodd"]
+script = ExtResource("3_45o48")
+level = 18
+move = 608
+
+[sub_resource type="Resource" id="Resource_uardg"]
+script = ExtResource("3_45o48")
+level = 24
+move = 102
+
+[sub_resource type="Resource" id="Resource_dwnoe"]
+script = ExtResource("3_45o48")
+level = 30
+move = 468
+
+[sub_resource type="Resource" id="Resource_jjnq7"]
+script = ExtResource("3_45o48")
+level = 36
+move = 163
+
+[sub_resource type="Resource" id="Resource_78i4u"]
+script = ExtResource("3_45o48")
+level = 42
+move = 421
+
+[sub_resource type="Resource" id="Resource_ohx8y"]
+script = ExtResource("3_45o48")
+level = 48
+move = 204
+
+[sub_resource type="Resource" id="Resource_vc2va"]
+script = ExtResource("3_45o48")
+level = 54
+move = 583
+
+[sub_resource type="Resource" id="Resource_a5mfr"]
+script = ExtResource("3_45o48")
+level = 60
+move = 220
+
+[resource]
+script = ExtResource("4_jwp7q")
+id = 1523
+display_name = "Mimikyu"
+category = "Disguise"
+national_dex = 778
+type_1 = 8
+type_2 = 19
+base_hp = 55
+base_atk = 90
+base_def = 80
+base_spa = 50
+base_spd = 105
+base_spe = 96
+ev_spd = 2
+base_exp = 167
+egg_group_1 = 11
+ability_1 = 209
+item_rare = 515
+height_dm = 24
+weight_hg = 28
+body_color = 2
+level_moves = Array[ExtResource("3_45o48")]([SubResource("Resource_oc28f"), SubResource("Resource_v2ldk"), SubResource("Resource_k01hv"), SubResource("Resource_j0fci"), SubResource("Resource_fca62"), SubResource("Resource_2orkb"), SubResource("Resource_f7y7f"), SubResource("Resource_qiodd"), SubResource("Resource_uardg"), SubResource("Resource_dwnoe"), SubResource("Resource_jjnq7"), SubResource("Resource_78i4u"), SubResource("Resource_ohx8y"), SubResource("Resource_vc2va"), SubResource("Resource_a5mfr")])
+egg_moves = Array[int]([288, 194, 174, 171])
+form_species = Array[int]([778, 1206, 1481, 1523])

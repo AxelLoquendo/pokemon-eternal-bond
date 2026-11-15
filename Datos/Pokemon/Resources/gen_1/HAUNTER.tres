@@ -1,0 +1,119 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://brad7gveolxsm"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_tg62v"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_kcl8n"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0dxoy"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5f1sg"]
+
+[sub_resource type="Resource" id="Resource_ddolu"]
+script = ExtResource("1_tg62v")
+method = "TRADE"
+param = "0"
+target = 94
+
+[sub_resource type="Resource" id="Resource_r6ddo"]
+script = ExtResource("1_tg62v")
+method = "ITEM"
+param = "ITEM_LINKING_CORD"
+target = 94
+
+[sub_resource type="Resource" id="Resource_csqly"]
+script = ExtResource("3_0dxoy")
+level = 0
+move = 325
+
+[sub_resource type="Resource" id="Resource_4ocsb"]
+script = ExtResource("3_0dxoy")
+move = 95
+
+[sub_resource type="Resource" id="Resource_3hh1f"]
+script = ExtResource("3_0dxoy")
+move = 109
+
+[sub_resource type="Resource" id="Resource_gk5up"]
+script = ExtResource("3_0dxoy")
+move = 122
+
+[sub_resource type="Resource" id="Resource_ml0xl"]
+script = ExtResource("3_0dxoy")
+move = 212
+
+[sub_resource type="Resource" id="Resource_derkc"]
+script = ExtResource("3_0dxoy")
+level = 12
+move = 371
+
+[sub_resource type="Resource" id="Resource_gvvjd"]
+script = ExtResource("3_0dxoy")
+level = 16
+move = 180
+
+[sub_resource type="Resource" id="Resource_qoa3w"]
+script = ExtResource("3_0dxoy")
+level = 20
+move = 174
+
+[sub_resource type="Resource" id="Resource_2bq3m"]
+script = ExtResource("3_0dxoy")
+level = 24
+move = 506
+
+[sub_resource type="Resource" id="Resource_bay11"]
+script = ExtResource("3_0dxoy")
+level = 30
+move = 101
+
+[sub_resource type="Resource" id="Resource_ok11u"]
+script = ExtResource("3_0dxoy")
+level = 36
+move = 389
+
+[sub_resource type="Resource" id="Resource_07d58"]
+script = ExtResource("3_0dxoy")
+level = 42
+move = 399
+
+[sub_resource type="Resource" id="Resource_wygoo"]
+script = ExtResource("3_0dxoy")
+level = 48
+move = 247
+
+[sub_resource type="Resource" id="Resource_u1vcy"]
+script = ExtResource("3_0dxoy")
+level = 54
+move = 194
+
+[sub_resource type="Resource" id="Resource_ra2ux"]
+script = ExtResource("3_0dxoy")
+level = 60
+move = 138
+
+[resource]
+script = ExtResource("4_5f1sg")
+id = 93
+display_name = "Haunter"
+category = "Gas"
+national_dex = 93
+pokedex = "If a Haunter beckons you while it is
+floating in darkness, don't approach it.
+This Pokémon will try to lick you with its
+tongue and steal your life away."
+type_1 = 8
+type_2 = 4
+base_hp = 45
+base_atk = 50
+base_def = 45
+base_spa = 115
+base_spd = 55
+base_spe = 95
+ev_spa = 2
+catch_rate = 90
+base_exp = 142
+growth_rate = 3
+egg_group_1 = 11
+ability_1 = 26
+height_dm = 16
+weight_hg = 1
+body_color = 6
+level_moves = Array[ExtResource("3_0dxoy")]([SubResource("Resource_csqly"), SubResource("Resource_4ocsb"), SubResource("Resource_3hh1f"), SubResource("Resource_gk5up"), SubResource("Resource_ml0xl"), SubResource("Resource_derkc"), SubResource("Resource_gvvjd"), SubResource("Resource_qoa3w"), SubResource("Resource_2bq3m"), SubResource("Resource_bay11"), SubResource("Resource_ok11u"), SubResource("Resource_07d58"), SubResource("Resource_wygoo"), SubResource("Resource_u1vcy"), SubResource("Resource_ra2ux")])
+evolutions = Array[ExtResource("1_tg62v")]([SubResource("Resource_ddolu"), SubResource("Resource_r6ddo")])

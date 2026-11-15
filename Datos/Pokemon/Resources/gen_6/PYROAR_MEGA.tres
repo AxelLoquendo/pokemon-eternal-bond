@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b31qraqjygocr"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0v6pj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gx1o6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bksx5"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nio0c"]
+
+[sub_resource type="Resource" id="Resource_s6sl2"]
+script = ExtResource("3_bksx5")
+move = 33
+
+[sub_resource type="Resource" id="Resource_4l0q0"]
+script = ExtResource("3_bksx5")
+move = 43
+
+[sub_resource type="Resource" id="Resource_j3tec"]
+script = ExtResource("3_bksx5")
+move = 52
+
+[sub_resource type="Resource" id="Resource_k5f1r"]
+script = ExtResource("3_bksx5")
+move = 63
+
+[sub_resource type="Resource" id="Resource_jl2a4"]
+script = ExtResource("3_bksx5")
+move = 526
+
+[sub_resource type="Resource" id="Resource_rfsdy"]
+script = ExtResource("3_bksx5")
+level = 11
+move = 29
+
+[sub_resource type="Resource" id="Resource_daj68"]
+script = ExtResource("3_bksx5")
+level = 15
+move = 568
+
+[sub_resource type="Resource" id="Resource_nu2u1"]
+script = ExtResource("3_bksx5")
+level = 20
+move = 36
+
+[sub_resource type="Resource" id="Resource_grddd"]
+script = ExtResource("3_bksx5")
+level = 23
+move = 424
+
+[sub_resource type="Resource" id="Resource_x1rie"]
+script = ExtResource("3_bksx5")
+level = 28
+move = 283
+
+[sub_resource type="Resource" id="Resource_xlmi4"]
+script = ExtResource("3_bksx5")
+level = 33
+move = 497
+
+[sub_resource type="Resource" id="Resource_t7sev"]
+script = ExtResource("3_bksx5")
+level = 38
+move = 53
+
+[sub_resource type="Resource" id="Resource_ictrm"]
+script = ExtResource("3_bksx5")
+level = 42
+move = 242
+
+[sub_resource type="Resource" id="Resource_k65gf"]
+script = ExtResource("3_bksx5")
+level = 48
+move = 304
+
+[sub_resource type="Resource" id="Resource_r4eoq"]
+script = ExtResource("3_bksx5")
+level = 51
+move = 510
+
+[sub_resource type="Resource" id="Resource_n3txl"]
+script = ExtResource("3_bksx5")
+level = 57
+move = 315
+
+[resource]
+script = ExtResource("4_nio0c")
+id = 1541
+display_name = "Pyroar"
+category = "Royal"
+national_dex = 668
+pokedex = "This Pokémon spews flames hotter
+than 18,000 degrees Fahrenheit.
+It swings around its grand, blazing
+mane as it protects its allies."
+type_1 = 11
+type_2 = 1
+base_hp = 86
+base_atk = 88
+base_def = 92
+base_spa = 129
+base_spd = 86
+base_spe = 126
+ev_spa = 2
+catch_rate = 65
+base_exp = 177
+gender_ratio = 223
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 316
+ability_2 = 316
+ability_hidden = 316
+height_dm = 15
+weight_hg = 933
+body_color = 5
+level_moves = Array[ExtResource("3_bksx5")]([SubResource("Resource_s6sl2"), SubResource("Resource_4l0q0"), SubResource("Resource_j3tec"), SubResource("Resource_k5f1r"), SubResource("Resource_jl2a4"), SubResource("Resource_rfsdy"), SubResource("Resource_daj68"), SubResource("Resource_nu2u1"), SubResource("Resource_grddd"), SubResource("Resource_x1rie"), SubResource("Resource_xlmi4"), SubResource("Resource_t7sev"), SubResource("Resource_ictrm"), SubResource("Resource_k65gf"), SubResource("Resource_r4eoq"), SubResource("Resource_n3txl")])
+form_species = Array[int]([668, 1541])

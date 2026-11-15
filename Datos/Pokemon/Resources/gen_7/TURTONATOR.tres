@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://lj02wcjm2qwc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_j2iq8"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lv6h4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rj70e"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4jmk3"]
+
+[sub_resource type="Resource" id="Resource_qp8tq"]
+script = ExtResource("3_rj70e")
+move = 123
+
+[sub_resource type="Resource" id="Resource_2ikd5"]
+script = ExtResource("3_rj70e")
+move = 33
+
+[sub_resource type="Resource" id="Resource_txo5u"]
+script = ExtResource("3_rj70e")
+level = 4
+move = 52
+
+[sub_resource type="Resource" id="Resource_h2ci3"]
+script = ExtResource("3_rj70e")
+level = 8
+move = 182
+
+[sub_resource type="Resource" id="Resource_koqk5"]
+script = ExtResource("3_rj70e")
+level = 12
+move = 203
+
+[sub_resource type="Resource" id="Resource_of2rr"]
+script = ExtResource("3_rj70e")
+level = 16
+move = 175
+
+[sub_resource type="Resource" id="Resource_xwple"]
+script = ExtResource("3_rj70e")
+level = 20
+move = 510
+
+[sub_resource type="Resource" id="Resource_erc6g"]
+script = ExtResource("3_rj70e")
+level = 24
+move = 334
+
+[sub_resource type="Resource" id="Resource_jis1d"]
+script = ExtResource("3_rj70e")
+level = 28
+move = 406
+
+[sub_resource type="Resource" id="Resource_tqfak"]
+script = ExtResource("3_rj70e")
+level = 32
+move = 34
+
+[sub_resource type="Resource" id="Resource_g48pw"]
+script = ExtResource("3_rj70e")
+level = 36
+move = 53
+
+[sub_resource type="Resource" id="Resource_4bg6o"]
+script = ExtResource("3_rj70e")
+level = 40
+move = 658
+
+[sub_resource type="Resource" id="Resource_yxcqf"]
+script = ExtResource("3_rj70e")
+level = 44
+move = 504
+
+[sub_resource type="Resource" id="Resource_lcba4"]
+script = ExtResource("3_rj70e")
+level = 48
+move = 315
+
+[sub_resource type="Resource" id="Resource_lyyb8"]
+script = ExtResource("3_rj70e")
+level = 52
+move = 153
+
+[resource]
+script = ExtResource("4_4jmk3")
+id = 776
+display_name = "Turtonator"
+category = "Blast Turtle"
+national_dex = 776
+pokedex = "The shell on its back is chemically
+unstable and explodes violently if struck.
+The hole in its stomach is its weak point.
+It gushes fire from its nostrils."
+type_1 = 11
+type_2 = 17
+base_hp = 60
+base_atk = 78
+base_def = 135
+base_spa = 91
+base_spd = 85
+base_spe = 36
+ev_def = 2
+catch_rate = 70
+base_exp = 170
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 75
+item_rare = 426
+height_dm = 20
+weight_hg = 2120
+level_moves = Array[ExtResource("3_rj70e")]([SubResource("Resource_qp8tq"), SubResource("Resource_2ikd5"), SubResource("Resource_txo5u"), SubResource("Resource_h2ci3"), SubResource("Resource_koqk5"), SubResource("Resource_of2rr"), SubResource("Resource_xwple"), SubResource("Resource_erc6g"), SubResource("Resource_jis1d"), SubResource("Resource_tqfak"), SubResource("Resource_g48pw"), SubResource("Resource_4bg6o"), SubResource("Resource_yxcqf"), SubResource("Resource_lcba4"), SubResource("Resource_lyyb8")])
+egg_moves = Array[int]([469, 279, 457, 83])

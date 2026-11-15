@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cm5wudhup4n01"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_exalc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_cp55c"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8mhaf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_32beg"]
+
+[sub_resource type="Resource" id="Resource_xvquy"]
+script = ExtResource("3_8mhaf")
+move = 104
+
+[sub_resource type="Resource" id="Resource_0x4ks"]
+script = ExtResource("3_8mhaf")
+move = 310
+
+[sub_resource type="Resource" id="Resource_hbb2v"]
+script = ExtResource("3_8mhaf")
+level = 5
+move = 84
+
+[sub_resource type="Resource" id="Resource_te2di"]
+script = ExtResource("3_8mhaf")
+level = 10
+move = 109
+
+[sub_resource type="Resource" id="Resource_2lbmo"]
+script = ExtResource("3_8mhaf")
+level = 15
+move = 268
+
+[sub_resource type="Resource" id="Resource_ki87j"]
+script = ExtResource("3_8mhaf")
+level = 20
+move = 486
+
+[sub_resource type="Resource" id="Resource_b7152"]
+script = ExtResource("3_8mhaf")
+level = 25
+move = 86
+
+[sub_resource type="Resource" id="Resource_jlw5n"]
+script = ExtResource("3_8mhaf")
+level = 30
+move = 351
+
+[sub_resource type="Resource" id="Resource_golfp"]
+script = ExtResource("3_8mhaf")
+level = 35
+move = 506
+
+[sub_resource type="Resource" id="Resource_g5qkt"]
+script = ExtResource("3_8mhaf")
+level = 40
+move = 164
+
+[sub_resource type="Resource" id="Resource_iec5o"]
+script = ExtResource("3_8mhaf")
+level = 45
+move = 271
+
+[sub_resource type="Resource" id="Resource_y434q"]
+script = ExtResource("3_8mhaf")
+level = 50
+move = 435
+
+[sub_resource type="Resource" id="Resource_og0wy"]
+script = ExtResource("3_8mhaf")
+level = 55
+move = 253
+
+[resource]
+script = ExtResource("4_32beg")
+id = 1064
+display_name = "Rotom"
+category = "Plasma"
+national_dex = 479
+pokedex = "If the convection microwave oven is
+not working properly, then the Rotom
+inhabiting it will become lethargic. It
+makes mischief by turning up the heat."
+type_1 = 1
+base_hp = 50
+base_atk = 65
+base_def = 107
+base_spa = 105
+base_spd = 107
+base_spe = 86
+ev_spa = 1
+ev_spe = 1
+gender_ratio = 255
+egg_group_1 = 11
+ability_1 = 26
+height_dm = 3
+weight_hg = 3
+level_moves = Array[ExtResource("3_8mhaf")]([SubResource("Resource_xvquy"), SubResource("Resource_0x4ks"), SubResource("Resource_hbb2v"), SubResource("Resource_te2di"), SubResource("Resource_2lbmo"), SubResource("Resource_ki87j"), SubResource("Resource_b7152"), SubResource("Resource_jlw5n"), SubResource("Resource_golfp"), SubResource("Resource_g5qkt"), SubResource("Resource_iec5o"), SubResource("Resource_y434q"), SubResource("Resource_og0wy")])
+form_species = Array[int]([479, 1064, 1065, 1066, 1067, 1068])

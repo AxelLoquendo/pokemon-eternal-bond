@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dlg2mb7tuws1b"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_giuut"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_m4x0d"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_j1nnr"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_vjowr"]
+
+[sub_resource type="Resource" id="Resource_vpgok"]
+script = ExtResource("1_giuut")
+method = "LEVEL"
+param = "21"
+target = 520
+
+[sub_resource type="Resource" id="Resource_lff22"]
+script = ExtResource("3_j1nnr")
+move = 16
+
+[sub_resource type="Resource" id="Resource_j21kh"]
+script = ExtResource("3_j1nnr")
+move = 45
+
+[sub_resource type="Resource" id="Resource_4tkm1"]
+script = ExtResource("3_j1nnr")
+level = 4
+move = 43
+
+[sub_resource type="Resource" id="Resource_koyi3"]
+script = ExtResource("3_j1nnr")
+level = 8
+move = 98
+
+[sub_resource type="Resource" id="Resource_o71mv"]
+script = ExtResource("3_j1nnr")
+level = 12
+move = 269
+
+[sub_resource type="Resource" id="Resource_0x58k"]
+script = ExtResource("3_j1nnr")
+level = 16
+move = 314
+
+[sub_resource type="Resource" id="Resource_dsntn"]
+script = ExtResource("3_j1nnr")
+level = 20
+move = 207
+
+[sub_resource type="Resource" id="Resource_327bh"]
+script = ExtResource("3_j1nnr")
+level = 24
+move = 297
+
+[sub_resource type="Resource" id="Resource_dbj3o"]
+script = ExtResource("3_j1nnr")
+level = 28
+move = 197
+
+[sub_resource type="Resource" id="Resource_n7qeb"]
+script = ExtResource("3_j1nnr")
+level = 32
+move = 403
+
+[sub_resource type="Resource" id="Resource_hjmdn"]
+script = ExtResource("3_j1nnr")
+level = 36
+move = 355
+
+[sub_resource type="Resource" id="Resource_54gby"]
+script = ExtResource("3_j1nnr")
+level = 40
+move = 366
+
+[sub_resource type="Resource" id="Resource_wbshb"]
+script = ExtResource("3_j1nnr")
+level = 44
+move = 143
+
+[resource]
+script = ExtResource("4_vjowr")
+id = 519
+display_name = "Pidove"
+category = "Tiny Pigeon"
+national_dex = 519
+pokedex = "This very forgetful Pokémon will wait for
+a new order from its Trainer even though
+it already has one. Flocks often gather
+in parks and plazas."
+type_1 = 1
+type_2 = 3
+base_hp = 50
+base_atk = 55
+base_def = 50
+base_spa = 36
+base_spd = 30
+base_spe = 43
+ev_atk = 1
+catch_rate = 255
+base_exp = 53
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 145
+ability_2 = 105
+ability_hidden = 79
+height_dm = 3
+weight_hg = 21
+body_color = 7
+level_moves = Array[ExtResource("3_j1nnr")]([SubResource("Resource_lff22"), SubResource("Resource_j21kh"), SubResource("Resource_4tkm1"), SubResource("Resource_koyi3"), SubResource("Resource_o71mv"), SubResource("Resource_0x58k"), SubResource("Resource_dsntn"), SubResource("Resource_327bh"), SubResource("Resource_dbj3o"), SubResource("Resource_n7qeb"), SubResource("Resource_hjmdn"), SubResource("Resource_54gby"), SubResource("Resource_wbshb")])
+egg_moves = Array[int]([211, 95, 253, 516, 273, 234, 381, 400])
+evolutions = Array[ExtResource("1_giuut")]([SubResource("Resource_vpgok")])

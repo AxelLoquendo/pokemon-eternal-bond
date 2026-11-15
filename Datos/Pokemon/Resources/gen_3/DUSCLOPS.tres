@@ -1,0 +1,131 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bn1vnbq44d63l"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_u4lpj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0do64"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vvrdj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gwph0"]
+
+[sub_resource type="Resource" id="Resource_epmhq"]
+script = ExtResource("1_u4lpj")
+method = "ITEM"
+param = "ITEM_REAPER_CLOTH"
+target = 477
+
+[sub_resource type="Resource" id="Resource_tkmxb"]
+script = ExtResource("3_vvrdj")
+level = 0
+move = 325
+
+[sub_resource type="Resource" id="Resource_sm0nv"]
+script = ExtResource("3_vvrdj")
+move = 7
+
+[sub_resource type="Resource" id="Resource_k8rwg"]
+script = ExtResource("3_vvrdj")
+move = 8
+
+[sub_resource type="Resource" id="Resource_frc4m"]
+script = ExtResource("3_vvrdj")
+move = 9
+
+[sub_resource type="Resource" id="Resource_jw33h"]
+script = ExtResource("3_vvrdj")
+move = 20
+
+[sub_resource type="Resource" id="Resource_7abbb"]
+script = ExtResource("3_vvrdj")
+move = 43
+
+[sub_resource type="Resource" id="Resource_2mgmm"]
+script = ExtResource("3_vvrdj")
+move = 50
+
+[sub_resource type="Resource" id="Resource_0cl8y"]
+script = ExtResource("3_vvrdj")
+move = 425
+
+[sub_resource type="Resource" id="Resource_1okuy"]
+script = ExtResource("3_vvrdj")
+move = 356
+
+[sub_resource type="Resource" id="Resource_cetuo"]
+script = ExtResource("3_vvrdj")
+move = 310
+
+[sub_resource type="Resource" id="Resource_g2hb3"]
+script = ExtResource("3_vvrdj")
+level = 12
+move = 109
+
+[sub_resource type="Resource" id="Resource_u31jw"]
+script = ExtResource("3_vvrdj")
+level = 16
+move = 101
+
+[sub_resource type="Resource" id="Resource_kf8jw"]
+script = ExtResource("3_vvrdj")
+level = 20
+move = 371
+
+[sub_resource type="Resource" id="Resource_3jm8b"]
+script = ExtResource("3_vvrdj")
+level = 24
+move = 261
+
+[sub_resource type="Resource" id="Resource_3nvnf"]
+script = ExtResource("3_vvrdj")
+level = 28
+move = 212
+
+[sub_resource type="Resource" id="Resource_mil4q"]
+script = ExtResource("3_vvrdj")
+level = 32
+move = 506
+
+[sub_resource type="Resource" id="Resource_xu2g3"]
+script = ExtResource("3_vvrdj")
+level = 36
+move = 174
+
+[sub_resource type="Resource" id="Resource_yf8pa"]
+script = ExtResource("3_vvrdj")
+level = 42
+move = 247
+
+[sub_resource type="Resource" id="Resource_na21d"]
+script = ExtResource("3_vvrdj")
+level = 48
+move = 248
+
+[resource]
+script = ExtResource("4_gwph0")
+id = 356
+display_name = "Dusclops"
+category = "Beckon"
+national_dex = 356
+pokedex = "It is thought that its body is hollow with
+only a spectral ball of fire burning inside.
+However, no one has been able to
+confirm this theory as fact."
+type_1 = 8
+base_hp = 40
+base_atk = 70
+base_def = 130
+base_spa = 60
+base_spd = 130
+base_spe = 25
+ev_def = 1
+ev_spd = 1
+catch_rate = 90
+base_exp = 159
+base_friendship = 35
+growth_rate = 4
+egg_cycles = 25
+egg_group_1 = 11
+ability_1 = 46
+item_rare = 438
+height_dm = 16
+weight_hg = 306
+body_color = 4
+level_moves = Array[ExtResource("3_vvrdj")]([SubResource("Resource_tkmxb"), SubResource("Resource_sm0nv"), SubResource("Resource_k8rwg"), SubResource("Resource_frc4m"), SubResource("Resource_jw33h"), SubResource("Resource_7abbb"), SubResource("Resource_2mgmm"), SubResource("Resource_0cl8y"), SubResource("Resource_1okuy"), SubResource("Resource_cetuo"), SubResource("Resource_g2hb3"), SubResource("Resource_u31jw"), SubResource("Resource_kf8jw"), SubResource("Resource_3jm8b"), SubResource("Resource_3nvnf"), SubResource("Resource_mil4q"), SubResource("Resource_xu2g3"), SubResource("Resource_yf8pa"), SubResource("Resource_na21d")])
+evolutions = Array[ExtResource("1_u4lpj")]([SubResource("Resource_epmhq")])

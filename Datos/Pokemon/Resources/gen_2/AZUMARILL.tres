@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bju1ly802x52v"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4b54k"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_bfnsn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_d22io"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xhbpo"]
+
+[sub_resource type="Resource" id="Resource_82v52"]
+script = ExtResource("3_d22io")
+move = 33
+
+[sub_resource type="Resource" id="Resource_mw3qh"]
+script = ExtResource("3_d22io")
+move = 270
+
+[sub_resource type="Resource" id="Resource_ru430"]
+script = ExtResource("3_d22io")
+move = 39
+
+[sub_resource type="Resource" id="Resource_xatrm"]
+script = ExtResource("3_d22io")
+move = 55
+
+[sub_resource type="Resource" id="Resource_eb2m4"]
+script = ExtResource("3_d22io")
+move = 205
+
+[sub_resource type="Resource" id="Resource_6ds8i"]
+script = ExtResource("3_d22io")
+move = 111
+
+[sub_resource type="Resource" id="Resource_2g2dt"]
+script = ExtResource("3_d22io")
+level = 6
+move = 61
+
+[sub_resource type="Resource" id="Resource_fit3q"]
+script = ExtResource("3_d22io")
+level = 9
+move = 204
+
+[sub_resource type="Resource" id="Resource_5xqkw"]
+script = ExtResource("3_d22io")
+level = 12
+move = 21
+
+[sub_resource type="Resource" id="Resource_4gh7y"]
+script = ExtResource("3_d22io")
+level = 15
+move = 340
+
+[sub_resource type="Resource" id="Resource_s48jq"]
+script = ExtResource("3_d22io")
+level = 21
+move = 401
+
+[sub_resource type="Resource" id="Resource_qnb78"]
+script = ExtResource("3_d22io")
+level = 25
+move = 583
+
+[sub_resource type="Resource" id="Resource_l2l46"]
+script = ExtResource("3_d22io")
+level = 30
+move = 392
+
+[sub_resource type="Resource" id="Resource_jfdwa"]
+script = ExtResource("3_d22io")
+level = 35
+move = 240
+
+[sub_resource type="Resource" id="Resource_4isg0"]
+script = ExtResource("3_d22io")
+level = 40
+move = 56
+
+[sub_resource type="Resource" id="Resource_q7dwj"]
+script = ExtResource("3_d22io")
+level = 45
+move = 38
+
+[sub_resource type="Resource" id="Resource_yixwn"]
+script = ExtResource("3_d22io")
+level = 50
+move = 276
+
+[resource]
+script = ExtResource("4_xhbpo")
+id = 184
+display_name = "Azumarill"
+category = "Aqua Rabbit"
+national_dex = 184
+pokedex = "It lives in water virtually all day long.
+Its body color and pattern act as
+camouflage that makes it tough for
+enemies to spot in water."
+type_1 = 12
+base_hp = 100
+base_atk = 50
+base_def = 80
+base_spa = 60
+base_spd = 80
+base_spe = 50
+ev_hp = 3
+catch_rate = 75
+base_exp = 153
+growth_rate = 4
+egg_cycles = 10
+egg_group_1 = 2
+egg_group_2 = 6
+ability_1 = 47
+ability_2 = 37
+ability_hidden = 157
+height_dm = 8
+weight_hg = 285
+body_color = 1
+no_flip = true
+level_moves = Array[ExtResource("3_d22io")]([SubResource("Resource_82v52"), SubResource("Resource_mw3qh"), SubResource("Resource_ru430"), SubResource("Resource_xatrm"), SubResource("Resource_eb2m4"), SubResource("Resource_6ds8i"), SubResource("Resource_2g2dt"), SubResource("Resource_fit3q"), SubResource("Resource_5xqkw"), SubResource("Resource_4gh7y"), SubResource("Resource_s48jq"), SubResource("Resource_qnb78"), SubResource("Resource_l2l46"), SubResource("Resource_jfdwa"), SubResource("Resource_4isg0"), SubResource("Resource_q7dwj"), SubResource("Resource_yixwn")])

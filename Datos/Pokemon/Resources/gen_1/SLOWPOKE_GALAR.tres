@@ -1,0 +1,134 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bndddcdnrxhhq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_pmm5c"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rnoqt"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fbby6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ci0ne"]
+
+[sub_resource type="Resource" id="Resource_qo3hs"]
+script = ExtResource("1_pmm5c")
+method = "ITEM"
+param = "ITEM_GALARICA_CUFF"
+target = 978
+
+[sub_resource type="Resource" id="Resource_nxvov"]
+script = ExtResource("1_pmm5c")
+method = "ITEM"
+param = "ITEM_GALARICA_WREATH"
+target = 985
+
+[sub_resource type="Resource" id="Resource_ee858"]
+script = ExtResource("3_fbby6")
+move = 33
+
+[sub_resource type="Resource" id="Resource_7j5cb"]
+script = ExtResource("3_fbby6")
+move = 174
+
+[sub_resource type="Resource" id="Resource_1u6ej"]
+script = ExtResource("3_fbby6")
+level = 3
+move = 45
+
+[sub_resource type="Resource" id="Resource_pdrkn"]
+script = ExtResource("3_fbby6")
+level = 6
+move = 51
+
+[sub_resource type="Resource" id="Resource_ncabd"]
+script = ExtResource("3_fbby6")
+level = 9
+move = 281
+
+[sub_resource type="Resource" id="Resource_0gqlu"]
+script = ExtResource("3_fbby6")
+level = 12
+move = 93
+
+[sub_resource type="Resource" id="Resource_nqft0"]
+script = ExtResource("3_fbby6")
+level = 15
+move = 50
+
+[sub_resource type="Resource" id="Resource_fnhk1"]
+script = ExtResource("3_fbby6")
+level = 18
+move = 352
+
+[sub_resource type="Resource" id="Resource_5ax4r"]
+script = ExtResource("3_fbby6")
+level = 21
+move = 29
+
+[sub_resource type="Resource" id="Resource_fq3yt"]
+script = ExtResource("3_fbby6")
+level = 24
+move = 428
+
+[sub_resource type="Resource" id="Resource_kowmu"]
+script = ExtResource("3_fbby6")
+level = 27
+move = 133
+
+[sub_resource type="Resource" id="Resource_4ib2f"]
+script = ExtResource("3_fbby6")
+level = 30
+move = 57
+
+[sub_resource type="Resource" id="Resource_atlse"]
+script = ExtResource("3_fbby6")
+level = 33
+move = 303
+
+[sub_resource type="Resource" id="Resource_xm2k4"]
+script = ExtResource("3_fbby6")
+level = 36
+move = 94
+
+[sub_resource type="Resource" id="Resource_m347x"]
+script = ExtResource("3_fbby6")
+level = 39
+move = 244
+
+[sub_resource type="Resource" id="Resource_bvt32"]
+script = ExtResource("3_fbby6")
+level = 42
+move = 240
+
+[sub_resource type="Resource" id="Resource_q3spm"]
+script = ExtResource("3_fbby6")
+level = 45
+move = 505
+
+[resource]
+script = ExtResource("4_ci0ne")
+id = 977
+display_name = "Slowpoke"
+category = "Dopey"
+national_dex = 79
+pokedex = "Although it is normally zoned out, its
+expression abruptly sharpens on occasion.
+The cause seems to lie in Slowpoke's diet,
+which also give their tails a spicy flavor."
+type_1 = 15
+base_hp = 90
+base_atk = 65
+base_def = 65
+base_spa = 40
+base_spd = 40
+base_spe = 15
+ev_hp = 1
+catch_rate = 190
+base_exp = 63
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 82
+ability_2 = 20
+ability_hidden = 144
+height_dm = 12
+weight_hg = 360
+body_color = 9
+level_moves = Array[ExtResource("3_fbby6")]([SubResource("Resource_ee858"), SubResource("Resource_7j5cb"), SubResource("Resource_1u6ej"), SubResource("Resource_pdrkn"), SubResource("Resource_ncabd"), SubResource("Resource_0gqlu"), SubResource("Resource_nqft0"), SubResource("Resource_fnhk1"), SubResource("Resource_5ax4r"), SubResource("Resource_fq3yt"), SubResource("Resource_kowmu"), SubResource("Resource_4ib2f"), SubResource("Resource_atlse"), SubResource("Resource_xm2k4"), SubResource("Resource_m347x"), SubResource("Resource_bvt32"), SubResource("Resource_q3spm")])
+egg_moves = Array[int]([562, 187, 335, 23])
+evolutions = Array[ExtResource("1_pmm5c")]([SubResource("Resource_qo3hs"), SubResource("Resource_nxvov")])
+form_species = Array[int]([79, 977])

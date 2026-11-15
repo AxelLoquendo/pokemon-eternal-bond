@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://7n2y8cf3dlle"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_kx605"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_qlfkq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_lkjig"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4x2kl"]
+
+[sub_resource type="Resource" id="Resource_6gik3"]
+script = ExtResource("3_lkjig")
+move = 93
+
+[sub_resource type="Resource" id="Resource_w6f0y"]
+script = ExtResource("3_lkjig")
+move = 232
+
+[sub_resource type="Resource" id="Resource_w1qt7"]
+script = ExtResource("3_lkjig")
+move = 234
+
+[sub_resource type="Resource" id="Resource_al0xs"]
+script = ExtResource("3_lkjig")
+move = 236
+
+[sub_resource type="Resource" id="Resource_y5vsh"]
+script = ExtResource("3_lkjig")
+move = 451
+
+[sub_resource type="Resource" id="Resource_3jv35"]
+script = ExtResource("3_lkjig")
+level = 8
+move = 446
+
+[sub_resource type="Resource" id="Resource_klveo"]
+script = ExtResource("3_lkjig")
+level = 16
+move = 163
+
+[sub_resource type="Resource" id="Resource_ulv8a"]
+script = ExtResource("3_lkjig")
+level = 24
+move = 400
+
+[sub_resource type="Resource" id="Resource_kftfw"]
+script = ExtResource("3_lkjig")
+level = 32
+move = 427
+
+[sub_resource type="Resource" id="Resource_7tskn"]
+script = ExtResource("3_lkjig")
+level = 40
+move = 500
+
+[sub_resource type="Resource" id="Resource_wc8i3"]
+script = ExtResource("3_lkjig")
+level = 48
+move = 350
+
+[sub_resource type="Resource" id="Resource_1eo2e"]
+script = ExtResource("3_lkjig")
+level = 56
+move = 334
+
+[sub_resource type="Resource" id="Resource_ojvku"]
+script = ExtResource("3_lkjig")
+level = 64
+move = 408
+
+[sub_resource type="Resource" id="Resource_gnil6"]
+script = ExtResource("3_lkjig")
+level = 72
+move = 675
+
+[sub_resource type="Resource" id="Resource_7vepc"]
+script = ExtResource("3_lkjig")
+level = 80
+move = 356
+
+[sub_resource type="Resource" id="Resource_3mnll"]
+script = ExtResource("3_lkjig")
+level = 88
+move = 665
+
+[resource]
+script = ExtResource("4_4x2kl")
+id = 1209
+display_name = "Necrozma"
+category = "Prism"
+national_dex = 800
+pokedex = "The light pouring out from all over
+its body affects living things and
+nature, impacting them in various
+ways."
+type_1 = 15
+type_2 = 17
+base_hp = 97
+base_atk = 167
+base_def = 97
+base_spa = 167
+base_spd = 97
+base_spe = 129
+ev_atk = 1
+ev_spa = 1
+ev_spe = 1
+catch_rate = 3
+base_exp = 377
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 233
+height_dm = 75
+weight_hg = 2300
+body_color = 2
+no_flip = true
+level_moves = Array[ExtResource("3_lkjig")]([SubResource("Resource_6gik3"), SubResource("Resource_w6f0y"), SubResource("Resource_w1qt7"), SubResource("Resource_al0xs"), SubResource("Resource_y5vsh"), SubResource("Resource_3jv35"), SubResource("Resource_klveo"), SubResource("Resource_ulv8a"), SubResource("Resource_kftfw"), SubResource("Resource_7tskn"), SubResource("Resource_wc8i3"), SubResource("Resource_1eo2e"), SubResource("Resource_ojvku"), SubResource("Resource_gnil6"), SubResource("Resource_7vepc"), SubResource("Resource_3mnll")])
+form_species = Array[int]([800, 1207, 1208, 1209])

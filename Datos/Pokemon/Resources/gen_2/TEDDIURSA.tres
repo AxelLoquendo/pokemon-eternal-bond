@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bwm4ym8tbx8lt"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8a4p4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_k4iej"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_svrmq"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mc1uf"]
+
+[sub_resource type="Resource" id="Resource_totdr"]
+script = ExtResource("1_8a4p4")
+method = "LEVEL"
+param = "30"
+target = 217
+
+[sub_resource type="Resource" id="Resource_uhyb8"]
+script = ExtResource("3_svrmq")
+move = 10
+
+[sub_resource type="Resource" id="Resource_c6xc7"]
+script = ExtResource("3_svrmq")
+move = 122
+
+[sub_resource type="Resource" id="Resource_g85nt"]
+script = ExtResource("3_svrmq")
+move = 343
+
+[sub_resource type="Resource" id="Resource_bssav"]
+script = ExtResource("3_svrmq")
+move = 374
+
+[sub_resource type="Resource" id="Resource_w275m"]
+script = ExtResource("3_svrmq")
+move = 608
+
+[sub_resource type="Resource" id="Resource_xq20h"]
+script = ExtResource("3_svrmq")
+level = 8
+move = 154
+
+[sub_resource type="Resource" id="Resource_o5ymb"]
+script = ExtResource("3_svrmq")
+level = 13
+move = 371
+
+[sub_resource type="Resource" id="Resource_g0ox6"]
+script = ExtResource("3_svrmq")
+level = 17
+move = 230
+
+[sub_resource type="Resource" id="Resource_j6x43"]
+script = ExtResource("3_svrmq")
+level = 22
+move = 163
+
+[sub_resource type="Resource" id="Resource_1mcn3"]
+script = ExtResource("3_svrmq")
+level = 25
+move = 589
+
+[sub_resource type="Resource" id="Resource_u143r"]
+script = ExtResource("3_svrmq")
+level = 29
+move = 583
+
+[sub_resource type="Resource" id="Resource_suiwy"]
+script = ExtResource("3_svrmq")
+level = 33
+move = 204
+
+[sub_resource type="Resource" id="Resource_dda1g"]
+script = ExtResource("3_svrmq")
+level = 37
+move = 156
+
+[sub_resource type="Resource" id="Resource_2fx7b"]
+script = ExtResource("3_svrmq")
+level = 37
+move = 173
+
+[sub_resource type="Resource" id="Resource_hps25"]
+script = ExtResource("3_svrmq")
+level = 41
+move = 37
+
+[resource]
+script = ExtResource("4_mc1uf")
+id = 216
+display_name = "Teddiursa"
+category = "Little Bear"
+national_dex = 216
+pokedex = "It licks its palms that are sweetened by
+being soaked in honey. A Teddiursa makes
+its own honey by blending fruits and pollen
+collected by Beedrill."
+type_1 = 1
+base_hp = 60
+base_atk = 80
+base_def = 50
+base_spa = 50
+base_spd = 50
+base_spe = 40
+ev_atk = 1
+catch_rate = 120
+base_exp = 66
+egg_group_1 = 5
+ability_1 = 53
+ability_hidden = 118
+item_rare = 153
+height_dm = 6
+weight_hg = 88
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_svrmq")]([SubResource("Resource_uhyb8"), SubResource("Resource_c6xc7"), SubResource("Resource_g85nt"), SubResource("Resource_bssav"), SubResource("Resource_w275m"), SubResource("Resource_xq20h"), SubResource("Resource_o5ymb"), SubResource("Resource_g0ox6"), SubResource("Resource_j6x43"), SubResource("Resource_1mcn3"), SubResource("Resource_u143r"), SubResource("Resource_suiwy"), SubResource("Resource_dda1g"), SubResource("Resource_2fx7b"), SubResource("Resource_hps25")])
+egg_moves = Array[int]([242, 36, 69, 68, 232, 313, 281, 214, 238, 38, 370, 400, 187, 498, 583])
+evolutions = Array[ExtResource("1_8a4p4")]([SubResource("Resource_totdr")])

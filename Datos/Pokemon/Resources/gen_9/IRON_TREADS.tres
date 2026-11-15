@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cf0qhom6cqtqx"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_eavet"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_h1yqw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yfbnh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tavo8"]
+
+[sub_resource type="Resource" id="Resource_1ah63"]
+script = ExtResource("3_yfbnh")
+move = 30
+
+[sub_resource type="Resource" id="Resource_t783a"]
+script = ExtResource("3_yfbnh")
+move = 111
+
+[sub_resource type="Resource" id="Resource_beg24"]
+script = ExtResource("3_yfbnh")
+move = 205
+
+[sub_resource type="Resource" id="Resource_14xiv"]
+script = ExtResource("3_yfbnh")
+move = 604
+
+[sub_resource type="Resource" id="Resource_p8r4i"]
+script = ExtResource("3_yfbnh")
+level = 7
+move = 523
+
+[sub_resource type="Resource" id="Resource_x65sc"]
+script = ExtResource("3_yfbnh")
+level = 21
+move = 229
+
+[sub_resource type="Resource" id="Resource_tas7g"]
+script = ExtResource("3_yfbnh")
+level = 28
+move = 442
+
+[sub_resource type="Resource" id="Resource_ri2p6"]
+script = ExtResource("3_yfbnh")
+level = 35
+move = 661
+
+[sub_resource type="Resource" id="Resource_cdm54"]
+script = ExtResource("3_yfbnh")
+level = 42
+move = 282
+
+[sub_resource type="Resource" id="Resource_or3s8"]
+script = ExtResource("3_yfbnh")
+level = 49
+move = 89
+
+[sub_resource type="Resource" id="Resource_p5cdk"]
+script = ExtResource("3_yfbnh")
+level = 56
+move = 484
+
+[sub_resource type="Resource" id="Resource_1fa7l"]
+script = ExtResource("3_yfbnh")
+level = 63
+move = 528
+
+[sub_resource type="Resource" id="Resource_322oq"]
+script = ExtResource("3_yfbnh")
+level = 70
+move = 283
+
+[sub_resource type="Resource" id="Resource_le4mh"]
+script = ExtResource("3_yfbnh")
+level = 77
+move = 224
+
+[sub_resource type="Resource" id="Resource_srirc"]
+script = ExtResource("3_yfbnh")
+level = 84
+move = 416
+
+[sub_resource type="Resource" id="Resource_j12e2"]
+script = ExtResource("3_yfbnh")
+level = 91
+move = 726
+
+[resource]
+script = ExtResource("4_tavo8")
+id = 1382
+display_name = "Iron Treads"
+category = "Paradox"
+national_dex = 990
+pokedex = "Sightings of this Pokémon have
+occurred in recent years. It resembles
+a mysterious object described in an
+old expedition journal."
+type_1 = 5
+type_2 = 9
+base_hp = 90
+base_atk = 112
+base_def = 120
+base_spa = 72
+base_spd = 70
+base_spe = 106
+ev_def = 3
+catch_rate = 30
+base_exp = 285
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 50
+ability_1 = 282
+item_rare = 764
+height_dm = 9
+weight_hg = 2400
+body_color = 7
+level_moves = Array[ExtResource("3_yfbnh")]([SubResource("Resource_1ah63"), SubResource("Resource_t783a"), SubResource("Resource_beg24"), SubResource("Resource_14xiv"), SubResource("Resource_p8r4i"), SubResource("Resource_x65sc"), SubResource("Resource_tas7g"), SubResource("Resource_ri2p6"), SubResource("Resource_cdm54"), SubResource("Resource_or3s8"), SubResource("Resource_p5cdk"), SubResource("Resource_1fa7l"), SubResource("Resource_322oq"), SubResource("Resource_le4mh"), SubResource("Resource_srirc"), SubResource("Resource_j12e2")])

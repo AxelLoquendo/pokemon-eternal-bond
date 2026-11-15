@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dyh18p42ebr56"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vpeyp"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0rl42"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_v1tjh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_02lbg"]
+
+[sub_resource type="Resource" id="Resource_fbdky"]
+script = ExtResource("3_v1tjh")
+level = 0
+move = 359
+
+[sub_resource type="Resource" id="Resource_p0j0h"]
+script = ExtResource("3_v1tjh")
+move = 93
+
+[sub_resource type="Resource" id="Resource_omnfj"]
+script = ExtResource("3_v1tjh")
+move = 105
+
+[sub_resource type="Resource" id="Resource_w64jp"]
+script = ExtResource("3_v1tjh")
+move = 182
+
+[sub_resource type="Resource" id="Resource_ueah6"]
+script = ExtResource("3_v1tjh")
+move = 283
+
+[sub_resource type="Resource" id="Resource_g2adk"]
+script = ExtResource("3_v1tjh")
+level = 12
+move = 60
+
+[sub_resource type="Resource" id="Resource_v1sye"]
+script = ExtResource("3_v1tjh")
+level = 16
+move = 204
+
+[sub_resource type="Resource" id="Resource_wkulr"]
+script = ExtResource("3_v1tjh")
+level = 20
+move = 473
+
+[sub_resource type="Resource" id="Resource_2krys"]
+script = ExtResource("3_v1tjh")
+level = 24
+move = 113
+
+[sub_resource type="Resource" id="Resource_uacio"]
+script = ExtResource("3_v1tjh")
+level = 24
+move = 115
+
+[sub_resource type="Resource" id="Resource_24onf"]
+script = ExtResource("3_v1tjh")
+level = 28
+move = 502
+
+[sub_resource type="Resource" id="Resource_0d8wf"]
+script = ExtResource("3_v1tjh")
+level = 35
+move = 220
+
+[sub_resource type="Resource" id="Resource_3m518"]
+script = ExtResource("3_v1tjh")
+level = 40
+move = 94
+
+[sub_resource type="Resource" id="Resource_i6uln"]
+script = ExtResource("3_v1tjh")
+level = 48
+move = 285
+
+[sub_resource type="Resource" id="Resource_dq4pe"]
+script = ExtResource("3_v1tjh")
+level = 56
+move = 248
+
+[sub_resource type="Resource" id="Resource_mvm3s"]
+script = ExtResource("3_v1tjh")
+level = 64
+move = 472
+
+[resource]
+script = ExtResource("4_02lbg")
+id = 579
+display_name = "Reuniclus"
+category = "Multiplying"
+national_dex = 579
+pokedex = "They use psychic power to control their
+arms, which are made of a special liquid.
+When Reuniclus shake hands, a network
+forms between their brains."
+type_1 = 15
+base_hp = 110
+base_atk = 65
+base_def = 75
+base_spa = 125
+base_spd = 85
+base_spe = 30
+ev_spa = 3
+catch_rate = 50
+base_exp = 245
+growth_rate = 3
+egg_group_1 = 11
+ability_1 = 142
+ability_2 = 98
+ability_hidden = 144
+height_dm = 10
+weight_hg = 201
+body_color = 3
+level_moves = Array[ExtResource("3_v1tjh")]([SubResource("Resource_fbdky"), SubResource("Resource_p0j0h"), SubResource("Resource_omnfj"), SubResource("Resource_w64jp"), SubResource("Resource_ueah6"), SubResource("Resource_g2adk"), SubResource("Resource_v1sye"), SubResource("Resource_wkulr"), SubResource("Resource_2krys"), SubResource("Resource_uacio"), SubResource("Resource_24onf"), SubResource("Resource_0d8wf"), SubResource("Resource_3m518"), SubResource("Resource_i6uln"), SubResource("Resource_dq4pe"), SubResource("Resource_mvm3s")])

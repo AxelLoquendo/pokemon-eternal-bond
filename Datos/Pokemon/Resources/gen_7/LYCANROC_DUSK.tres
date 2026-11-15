@@ -1,0 +1,138 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b75grngsl2r21"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6u3ym"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_dcmix"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cn7rn"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hpala"]
+
+[sub_resource type="Resource" id="Resource_3nj2j"]
+script = ExtResource("3_cn7rn")
+level = 0
+move = 306
+
+[sub_resource type="Resource" id="Resource_vcsyi"]
+script = ExtResource("3_cn7rn")
+move = 663
+
+[sub_resource type="Resource" id="Resource_qg3ie"]
+script = ExtResource("3_cn7rn")
+move = 389
+
+[sub_resource type="Resource" id="Resource_y012w"]
+script = ExtResource("3_cn7rn")
+move = 269
+
+[sub_resource type="Resource" id="Resource_1jxla"]
+script = ExtResource("3_cn7rn")
+move = 203
+
+[sub_resource type="Resource" id="Resource_75qi5"]
+script = ExtResource("3_cn7rn")
+move = 501
+
+[sub_resource type="Resource" id="Resource_j48gi"]
+script = ExtResource("3_cn7rn")
+move = 179
+
+[sub_resource type="Resource" id="Resource_0tpx1"]
+script = ExtResource("3_cn7rn")
+move = 104
+
+[sub_resource type="Resource" id="Resource_rf41k"]
+script = ExtResource("3_cn7rn")
+move = 28
+
+[sub_resource type="Resource" id="Resource_hk612"]
+script = ExtResource("3_cn7rn")
+move = 68
+
+[sub_resource type="Resource" id="Resource_scjq7"]
+script = ExtResource("3_cn7rn")
+move = 43
+
+[sub_resource type="Resource" id="Resource_3bing"]
+script = ExtResource("3_cn7rn")
+move = 33
+
+[sub_resource type="Resource" id="Resource_f07ll"]
+script = ExtResource("3_cn7rn")
+move = 98
+
+[sub_resource type="Resource" id="Resource_6a1tl"]
+script = ExtResource("3_cn7rn")
+level = 12
+move = 88
+
+[sub_resource type="Resource" id="Resource_1souj"]
+script = ExtResource("3_cn7rn")
+level = 16
+move = 336
+
+[sub_resource type="Resource" id="Resource_ymn1k"]
+script = ExtResource("3_cn7rn")
+level = 20
+move = 44
+
+[sub_resource type="Resource" id="Resource_v2rpi"]
+script = ExtResource("3_cn7rn")
+level = 24
+move = 317
+
+[sub_resource type="Resource" id="Resource_le5ua"]
+script = ExtResource("3_cn7rn")
+level = 30
+move = 46
+
+[sub_resource type="Resource" id="Resource_ys8yq"]
+script = ExtResource("3_cn7rn")
+level = 36
+move = 157
+
+[sub_resource type="Resource" id="Resource_0hiar"]
+script = ExtResource("3_cn7rn")
+level = 42
+move = 242
+
+[sub_resource type="Resource" id="Resource_bnjou"]
+script = ExtResource("3_cn7rn")
+level = 48
+move = 184
+
+[sub_resource type="Resource" id="Resource_odyts"]
+script = ExtResource("3_cn7rn")
+level = 54
+move = 446
+
+[sub_resource type="Resource" id="Resource_3vgoo"]
+script = ExtResource("3_cn7rn")
+level = 60
+move = 444
+
+[resource]
+script = ExtResource("4_hpala")
+id = 1174
+display_name = "Lycanroc"
+category = "Wolf"
+national_dex = 745
+pokedex = "These Pokémon have both calm and
+ferocious qualities. It's said that
+this form of Lycanroc is the most
+troublesome to raise."
+type_1 = 6
+base_hp = 75
+base_atk = 117
+base_def = 65
+base_spa = 55
+base_spd = 65
+base_spe = 110
+ev_atk = 2
+catch_rate = 90
+base_exp = 170
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 181
+height_dm = 8
+weight_hg = 250
+body_color = 5
+level_moves = Array[ExtResource("3_cn7rn")]([SubResource("Resource_3nj2j"), SubResource("Resource_vcsyi"), SubResource("Resource_qg3ie"), SubResource("Resource_y012w"), SubResource("Resource_1jxla"), SubResource("Resource_75qi5"), SubResource("Resource_j48gi"), SubResource("Resource_0tpx1"), SubResource("Resource_rf41k"), SubResource("Resource_hk612"), SubResource("Resource_scjq7"), SubResource("Resource_3bing"), SubResource("Resource_f07ll"), SubResource("Resource_6a1tl"), SubResource("Resource_1souj"), SubResource("Resource_ymn1k"), SubResource("Resource_v2rpi"), SubResource("Resource_le5ua"), SubResource("Resource_ys8yq"), SubResource("Resource_0hiar"), SubResource("Resource_bnjou"), SubResource("Resource_odyts"), SubResource("Resource_3vgoo")])
+form_species = Array[int]([745, 1173, 1174])

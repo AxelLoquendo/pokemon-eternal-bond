@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bh7v1xl784wbt"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ktnet"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ugovn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_c3k1g"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xapta"]
+
+[sub_resource type="Resource" id="Resource_wv07e"]
+script = ExtResource("3_c3k1g")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ipfgb"]
+script = ExtResource("3_c3k1g")
+move = 52
+
+[sub_resource type="Resource" id="Resource_yu10y"]
+script = ExtResource("3_c3k1g")
+move = 64
+
+[sub_resource type="Resource" id="Resource_c8ajl"]
+script = ExtResource("3_c3k1g")
+move = 98
+
+[sub_resource type="Resource" id="Resource_cr3rr"]
+script = ExtResource("3_c3k1g")
+move = 364
+
+[sub_resource type="Resource" id="Resource_vggqm"]
+script = ExtResource("3_c3k1g")
+move = 394
+
+[sub_resource type="Resource" id="Resource_1y8hv"]
+script = ExtResource("3_c3k1g")
+move = 488
+
+[sub_resource type="Resource" id="Resource_frql8"]
+script = ExtResource("3_c3k1g")
+level = 15
+move = 175
+
+[sub_resource type="Resource" id="Resource_w611i"]
+script = ExtResource("3_c3k1g")
+level = 22
+move = 512
+
+[sub_resource type="Resource" id="Resource_k8n0y"]
+script = ExtResource("3_c3k1g")
+level = 29
+move = 97
+
+[sub_resource type="Resource" id="Resource_7oysu"]
+script = ExtResource("3_c3k1g")
+level = 38
+move = 332
+
+[sub_resource type="Resource" id="Resource_6c03v"]
+script = ExtResource("3_c3k1g")
+level = 47
+move = 366
+
+[sub_resource type="Resource" id="Resource_vftqs"]
+script = ExtResource("3_c3k1g")
+level = 56
+move = 211
+
+[sub_resource type="Resource" id="Resource_f78fg"]
+script = ExtResource("3_c3k1g")
+level = 65
+move = 355
+
+[sub_resource type="Resource" id="Resource_tew5l"]
+script = ExtResource("3_c3k1g")
+level = 74
+move = 19
+
+[sub_resource type="Resource" id="Resource_xh1no"]
+script = ExtResource("3_c3k1g")
+level = 83
+move = 413
+
+[resource]
+script = ExtResource("4_xapta")
+id = 663
+display_name = "Talonflame"
+category = "Scorching"
+national_dex = 663
+pokedex = "In the fever of an exciting battle, it
+showers embers from the gaps between its
+feathers and takes to the air. It finishes
+its prey off with a colossal kick."
+type_1 = 11
+type_2 = 3
+base_hp = 78
+base_atk = 81
+base_def = 71
+base_spa = 74
+base_spd = 69
+base_spe = 126
+ev_spe = 3
+base_exp = 175
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 49
+ability_hidden = 177
+height_dm = 12
+weight_hg = 245
+level_moves = Array[ExtResource("3_c3k1g")]([SubResource("Resource_wv07e"), SubResource("Resource_ipfgb"), SubResource("Resource_yu10y"), SubResource("Resource_c8ajl"), SubResource("Resource_cr3rr"), SubResource("Resource_vggqm"), SubResource("Resource_1y8hv"), SubResource("Resource_frql8"), SubResource("Resource_w611i"), SubResource("Resource_k8n0y"), SubResource("Resource_7oysu"), SubResource("Resource_6c03v"), SubResource("Resource_vftqs"), SubResource("Resource_f78fg"), SubResource("Resource_tew5l"), SubResource("Resource_xh1no")])

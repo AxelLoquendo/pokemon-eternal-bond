@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://mwdi4mdoaxkb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_yidsl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yyg7v"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dpge6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kxvm1"]
+
+[sub_resource type="Resource" id="Resource_1ssa3"]
+script = ExtResource("3_dpge6")
+move = 24
+
+[sub_resource type="Resource" id="Resource_8kmhx"]
+script = ExtResource("3_dpge6")
+move = 189
+
+[sub_resource type="Resource" id="Resource_120bw"]
+script = ExtResource("3_dpge6")
+move = 249
+
+[sub_resource type="Resource" id="Resource_o7ard"]
+script = ExtResource("3_dpge6")
+move = 334
+
+[sub_resource type="Resource" id="Resource_p6m8n"]
+script = ExtResource("3_dpge6")
+level = 12
+move = 523
+
+[sub_resource type="Resource" id="Resource_obhgr"]
+script = ExtResource("3_dpge6")
+level = 16
+move = 23
+
+[sub_resource type="Resource" id="Resource_dw6oe"]
+script = ExtResource("3_dpge6")
+level = 20
+move = 70
+
+[sub_resource type="Resource" id="Resource_cu14j"]
+script = ExtResource("3_dpge6")
+level = 24
+move = 68
+
+[sub_resource type="Resource" id="Resource_ptaax"]
+script = ExtResource("3_dpge6")
+level = 28
+move = 630
+
+[sub_resource type="Resource" id="Resource_gbj40"]
+script = ExtResource("3_dpge6")
+level = 34
+move = 484
+
+[sub_resource type="Resource" id="Resource_18oks"]
+script = ExtResource("3_dpge6")
+level = 40
+move = 89
+
+[sub_resource type="Resource" id="Resource_pghrp"]
+script = ExtResource("3_dpge6")
+level = 46
+move = 25
+
+[sub_resource type="Resource" id="Resource_w3ae8"]
+script = ExtResource("3_dpge6")
+level = 52
+move = 276
+
+[resource]
+script = ExtResource("4_kxvm1")
+id = 750
+display_name = "Mudsdale"
+category = "Draft Horse"
+national_dex = 750
+pokedex = "Its heavy, mud-covered kicks are its
+best means of attack, and it can reduce
+large trucks to scrap without breaking
+a sweat."
+type_1 = 5
+base_hp = 100
+base_atk = 125
+base_def = 100
+base_spa = 55
+base_spd = 85
+base_spe = 35
+ev_atk = 2
+catch_rate = 60
+base_exp = 175
+egg_group_1 = 5
+ability_1 = 20
+ability_2 = 192
+ability_hidden = 39
+item_rare = 478
+height_dm = 25
+weight_hg = 9200
+body_color = 5
+level_moves = Array[ExtResource("3_dpge6")]([SubResource("Resource_1ssa3"), SubResource("Resource_8kmhx"), SubResource("Resource_120bw"), SubResource("Resource_o7ard"), SubResource("Resource_p6m8n"), SubResource("Resource_obhgr"), SubResource("Resource_dw6oe"), SubResource("Resource_cu14j"), SubResource("Resource_ptaax"), SubResource("Resource_gbj40"), SubResource("Resource_18oks"), SubResource("Resource_pghrp"), SubResource("Resource_w3ae8")])

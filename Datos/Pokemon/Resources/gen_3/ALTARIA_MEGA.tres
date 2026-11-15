@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://hpdi87bkgtb4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_366x8"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ndoa8"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_whpsf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_n7ag0"]
+
+[sub_resource type="Resource" id="Resource_euw1l"]
+script = ExtResource("3_whpsf")
+level = 0
+move = 406
+
+[sub_resource type="Resource" id="Resource_7t6wp"]
+script = ExtResource("3_whpsf")
+move = 45
+
+[sub_resource type="Resource" id="Resource_vf7xb"]
+script = ExtResource("3_whpsf")
+move = 54
+
+[sub_resource type="Resource" id="Resource_hq6oq"]
+script = ExtResource("3_whpsf")
+move = 64
+
+[sub_resource type="Resource" id="Resource_s3yxu"]
+script = ExtResource("3_whpsf")
+move = 365
+
+[sub_resource type="Resource" id="Resource_m88ff"]
+script = ExtResource("3_whpsf")
+move = 574
+
+[sub_resource type="Resource" id="Resource_8phdw"]
+script = ExtResource("3_whpsf")
+level = 12
+move = 31
+
+[sub_resource type="Resource" id="Resource_xxjms"]
+script = ExtResource("3_whpsf")
+level = 16
+move = 496
+
+[sub_resource type="Resource" id="Resource_rbx3a"]
+script = ExtResource("3_whpsf")
+level = 20
+move = 225
+
+[sub_resource type="Resource" id="Resource_g8t13"]
+script = ExtResource("3_whpsf")
+level = 24
+move = 219
+
+[sub_resource type="Resource" id="Resource_xjuc5"]
+script = ExtResource("3_whpsf")
+level = 28
+move = 47
+
+[sub_resource type="Resource" id="Resource_3u5mh"]
+script = ExtResource("3_whpsf")
+level = 32
+move = 538
+
+[sub_resource type="Resource" id="Resource_xoafa"]
+script = ExtResource("3_whpsf")
+level = 38
+move = 36
+
+[sub_resource type="Resource" id="Resource_g67in"]
+script = ExtResource("3_whpsf")
+level = 44
+move = 585
+
+[sub_resource type="Resource" id="Resource_u8x5c"]
+script = ExtResource("3_whpsf")
+level = 50
+move = 195
+
+[sub_resource type="Resource" id="Resource_sngkk"]
+script = ExtResource("3_whpsf")
+level = 56
+move = 143
+
+[resource]
+script = ExtResource("4_n7ag0")
+id = 938
+display_name = "Altaria"
+category = "Humming"
+national_dex = 334
+pokedex = "It sings with a voice that is even more
+beautiful than before it Mega Evolved.
+Its feathers became larger for protection
+and glimmer with an iridescent sheen."
+type_1 = 17
+type_2 = 19
+base_hp = 75
+base_atk = 110
+base_def = 110
+base_spa = 110
+base_spd = 105
+base_spe = 80
+ev_spd = 2
+base_exp = 207
+growth_rate = 1
+egg_group_1 = 4
+egg_group_2 = 14
+ability_1 = 182
+ability_2 = 182
+ability_hidden = 182
+height_dm = 15
+weight_hg = 206
+body_color = 1
+level_moves = Array[ExtResource("3_whpsf")]([SubResource("Resource_euw1l"), SubResource("Resource_7t6wp"), SubResource("Resource_vf7xb"), SubResource("Resource_hq6oq"), SubResource("Resource_s3yxu"), SubResource("Resource_m88ff"), SubResource("Resource_8phdw"), SubResource("Resource_xxjms"), SubResource("Resource_rbx3a"), SubResource("Resource_g8t13"), SubResource("Resource_xjuc5"), SubResource("Resource_3u5mh"), SubResource("Resource_xoafa"), SubResource("Resource_g67in"), SubResource("Resource_u8x5c"), SubResource("Resource_sngkk")])
+form_species = Array[int]([334, 938])

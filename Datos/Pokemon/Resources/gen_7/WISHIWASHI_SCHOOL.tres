@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dsfuykg8wteka"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_5aroo"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jfn81"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_aw7bs"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_smofh"]
+
+[sub_resource type="Resource" id="Resource_g2ruv"]
+script = ExtResource("3_aw7bs")
+move = 55
+
+[sub_resource type="Resource" id="Resource_mu8js"]
+script = ExtResource("3_aw7bs")
+move = 45
+
+[sub_resource type="Resource" id="Resource_vy6f4"]
+script = ExtResource("3_aw7bs")
+level = 4
+move = 270
+
+[sub_resource type="Resource" id="Resource_km3ca"]
+script = ExtResource("3_aw7bs")
+level = 8
+move = 251
+
+[sub_resource type="Resource" id="Resource_f6yks"]
+script = ExtResource("3_aw7bs")
+level = 12
+move = 362
+
+[sub_resource type="Resource" id="Resource_3puhx"]
+script = ExtResource("3_aw7bs")
+level = 16
+move = 669
+
+[sub_resource type="Resource" id="Resource_xsjco"]
+script = ExtResource("3_aw7bs")
+level = 20
+move = 291
+
+[sub_resource type="Resource" id="Resource_7jgcc"]
+script = ExtResource("3_aw7bs")
+level = 24
+move = 487
+
+[sub_resource type="Resource" id="Resource_rfd7g"]
+script = ExtResource("3_aw7bs")
+level = 28
+move = 253
+
+[sub_resource type="Resource" id="Resource_6tq7x"]
+script = ExtResource("3_aw7bs")
+level = 32
+move = 401
+
+[sub_resource type="Resource" id="Resource_krlpk"]
+script = ExtResource("3_aw7bs")
+level = 36
+move = 392
+
+[sub_resource type="Resource" id="Resource_admjx"]
+script = ExtResource("3_aw7bs")
+level = 40
+move = 283
+
+[sub_resource type="Resource" id="Resource_uv7sr"]
+script = ExtResource("3_aw7bs")
+level = 44
+move = 56
+
+[sub_resource type="Resource" id="Resource_abtdy"]
+script = ExtResource("3_aw7bs")
+level = 48
+move = 38
+
+[resource]
+script = ExtResource("4_smofh")
+id = 1175
+display_name = "Wishiwashi"
+category = "Small Fry"
+national_dex = 746
+pokedex = "When facing tough opponents, they
+get into formation. But if they get
+wounded in battle, they'll scatter
+and become solitary again."
+type_1 = 12
+base_hp = 45
+base_atk = 140
+base_def = 130
+base_spa = 140
+base_spd = 135
+base_spe = 30
+ev_hp = 1
+catch_rate = 60
+base_exp = 217
+growth_rate = 4
+egg_cycles = 15
+egg_group_1 = 12
+ability_1 = 208
+height_dm = 82
+weight_hg = 786
+body_color = 1
+level_moves = Array[ExtResource("3_aw7bs")]([SubResource("Resource_g2ruv"), SubResource("Resource_mu8js"), SubResource("Resource_vy6f4"), SubResource("Resource_km3ca"), SubResource("Resource_f6yks"), SubResource("Resource_3puhx"), SubResource("Resource_xsjco"), SubResource("Resource_7jgcc"), SubResource("Resource_rfd7g"), SubResource("Resource_6tq7x"), SubResource("Resource_krlpk"), SubResource("Resource_admjx"), SubResource("Resource_uv7sr"), SubResource("Resource_abtdy")])
+egg_moves = Array[int]([330, 54, 352, 346, 250])
+form_species = Array[int]([746, 1175])

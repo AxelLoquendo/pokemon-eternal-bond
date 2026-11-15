@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://br6kc7041x0en"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rdxxd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pseyi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_u3ywa"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fipfb"]
+
+[sub_resource type="Resource" id="Resource_5y6ni"]
+script = ExtResource("3_u3ywa")
+move = 10
+
+[sub_resource type="Resource" id="Resource_lhftn"]
+script = ExtResource("3_u3ywa")
+move = 43
+
+[sub_resource type="Resource" id="Resource_4f0rn"]
+script = ExtResource("3_u3ywa")
+level = 3
+move = 310
+
+[sub_resource type="Resource" id="Resource_h210f"]
+script = ExtResource("3_u3ywa")
+level = 9
+move = 425
+
+[sub_resource type="Resource" id="Resource_cl0ce"]
+script = ExtResource("3_u3ywa")
+level = 12
+move = 252
+
+[sub_resource type="Resource" id="Resource_d5yah"]
+script = ExtResource("3_u3ywa")
+level = 15
+move = 50
+
+[sub_resource type="Resource" id="Resource_nxfwq"]
+script = ExtResource("3_u3ywa")
+level = 18
+move = 197
+
+[sub_resource type="Resource" id="Resource_ma8ll"]
+script = ExtResource("3_u3ywa")
+level = 21
+move = 101
+
+[sub_resource type="Resource" id="Resource_g5vop"]
+script = ExtResource("3_u3ywa")
+level = 24
+move = 154
+
+[sub_resource type="Resource" id="Resource_cwkm1"]
+script = ExtResource("3_u3ywa")
+level = 27
+move = 282
+
+[sub_resource type="Resource" id="Resource_aimlq"]
+script = ExtResource("3_u3ywa")
+level = 30
+move = 511
+
+[sub_resource type="Resource" id="Resource_vupd8"]
+script = ExtResource("3_u3ywa")
+level = 33
+move = 421
+
+[sub_resource type="Resource" id="Resource_7vq8n"]
+script = ExtResource("3_u3ywa")
+level = 36
+move = 212
+
+[sub_resource type="Resource" id="Resource_c6img"]
+script = ExtResource("3_u3ywa")
+level = 39
+move = 408
+
+[sub_resource type="Resource" id="Resource_yjevk"]
+script = ExtResource("3_u3ywa")
+level = 42
+move = 428
+
+[sub_resource type="Resource" id="Resource_l71bp"]
+script = ExtResource("3_u3ywa")
+level = 45
+move = 247
+
+[sub_resource type="Resource" id="Resource_o6rey"]
+script = ExtResource("3_u3ywa")
+level = 48
+move = 492
+
+[resource]
+script = ExtResource("4_fipfb")
+id = 931
+display_name = "Sableye"
+category = "Darkness"
+national_dex = 302
+pokedex = "Bathed in the energy of Mega Evolution,
+the gemstone on its chest expands, rips
+through its skin, and falls out."
+type_1 = 18
+type_2 = 8
+base_hp = 50
+base_atk = 85
+base_def = 125
+base_spa = 85
+base_spd = 115
+base_spe = 20
+ev_atk = 1
+ev_def = 1
+base_exp = 168
+base_friendship = 35
+growth_rate = 3
+egg_cycles = 25
+egg_group_1 = 8
+ability_1 = 156
+ability_2 = 156
+ability_hidden = 156
+height_dm = 5
+weight_hg = 1610
+body_color = 6
+level_moves = Array[ExtResource("3_u3ywa")]([SubResource("Resource_5y6ni"), SubResource("Resource_lhftn"), SubResource("Resource_4f0rn"), SubResource("Resource_h210f"), SubResource("Resource_cl0ce"), SubResource("Resource_d5yah"), SubResource("Resource_nxfwq"), SubResource("Resource_ma8ll"), SubResource("Resource_g5vop"), SubResource("Resource_cwkm1"), SubResource("Resource_aimlq"), SubResource("Resource_vupd8"), SubResource("Resource_7vq8n"), SubResource("Resource_c6img"), SubResource("Resource_yjevk"), SubResource("Resource_l71bp"), SubResource("Resource_o6rey")])
+egg_moves = Array[int]([105, 236, 417, 260, 364, 389, 271, 445, 212, 368, 286])
+form_species = Array[int]([302, 931])

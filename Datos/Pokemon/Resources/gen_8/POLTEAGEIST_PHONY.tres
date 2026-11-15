@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d0oiucvv38wg1"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_f0arg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_kr6iy"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wkc7x"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jtx60"]
+
+[sub_resource type="Resource" id="Resource_svta1"]
+script = ExtResource("3_wkc7x")
+level = 0
+move = 698
+
+[sub_resource type="Resource" id="Resource_3bgp4"]
+script = ExtResource("3_wkc7x")
+move = 72
+
+[sub_resource type="Resource" id="Resource_okoi7"]
+script = ExtResource("3_wkc7x")
+move = 110
+
+[sub_resource type="Resource" id="Resource_ccyfx"]
+script = ExtResource("3_wkc7x")
+move = 310
+
+[sub_resource type="Resource" id="Resource_dyk72"]
+script = ExtResource("3_wkc7x")
+move = 597
+
+[sub_resource type="Resource" id="Resource_733ls"]
+script = ExtResource("3_wkc7x")
+move = 631
+
+[sub_resource type="Resource" id="Resource_ly8ij"]
+script = ExtResource("3_wkc7x")
+level = 18
+move = 182
+
+[sub_resource type="Resource" id="Resource_wb78t"]
+script = ExtResource("3_wkc7x")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_my6xv"]
+script = ExtResource("3_wkc7x")
+level = 30
+move = 230
+
+[sub_resource type="Resource" id="Resource_5dora"]
+script = ExtResource("3_wkc7x")
+level = 36
+move = 202
+
+[sub_resource type="Resource" id="Resource_1i0wb"]
+script = ExtResource("3_wkc7x")
+level = 42
+move = 417
+
+[sub_resource type="Resource" id="Resource_f6m2c"]
+script = ExtResource("3_wkc7x")
+level = 48
+move = 247
+
+[sub_resource type="Resource" id="Resource_ris57"]
+script = ExtResource("3_wkc7x")
+level = 54
+move = 262
+
+[sub_resource type="Resource" id="Resource_v3fc8"]
+script = ExtResource("3_wkc7x")
+level = 60
+move = 504
+
+[sub_resource type="Resource" id="Resource_dnh6g"]
+script = ExtResource("3_wkc7x")
+level = 66
+move = 174
+
+[resource]
+script = ExtResource("4_jtx60")
+id = 855
+display_name = "Polteageist"
+category = "Black Tea"
+national_dex = 855
+pokedex = "This species lives in antique teapots.
+Most pots are forgeries, but on rare
+occasions, an authentic work is found."
+type_1 = 8
+base_hp = 60
+base_atk = 65
+base_def = 65
+base_spa = 134
+base_spd = 114
+base_spe = 70
+ev_spa = 2
+catch_rate = 60
+base_exp = 178
+gender_ratio = 255
+egg_group_1 = 10
+egg_group_2 = 11
+ability_1 = 133
+ability_hidden = 130
+height_dm = 2
+weight_hg = 4
+body_color = 6
+level_moves = Array[ExtResource("3_wkc7x")]([SubResource("Resource_svta1"), SubResource("Resource_3bgp4"), SubResource("Resource_okoi7"), SubResource("Resource_ccyfx"), SubResource("Resource_dyk72"), SubResource("Resource_733ls"), SubResource("Resource_ly8ij"), SubResource("Resource_wb78t"), SubResource("Resource_my6xv"), SubResource("Resource_5dora"), SubResource("Resource_1i0wb"), SubResource("Resource_f6m2c"), SubResource("Resource_ris57"), SubResource("Resource_v3fc8"), SubResource("Resource_dnh6g")])
+form_species = Array[int]([855, 1215])

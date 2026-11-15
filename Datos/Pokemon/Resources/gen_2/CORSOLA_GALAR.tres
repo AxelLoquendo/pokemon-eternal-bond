@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://xwnanoa2v7pm"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ms63o"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8dxsh"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_x08lm"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xnko0"]
+
+[sub_resource type="Resource" id="Resource_6kq0h"]
+script = ExtResource("1_ms63o")
+method = "LEVEL"
+param = "38"
+target = 864
+
+[sub_resource type="Resource" id="Resource_uae4l"]
+script = ExtResource("3_x08lm")
+move = 33
+
+[sub_resource type="Resource" id="Resource_f25p5"]
+script = ExtResource("3_x08lm")
+move = 106
+
+[sub_resource type="Resource" id="Resource_aiw4p"]
+script = ExtResource("3_x08lm")
+level = 5
+move = 310
+
+[sub_resource type="Resource" id="Resource_8fpcw"]
+script = ExtResource("3_x08lm")
+level = 10
+move = 50
+
+[sub_resource type="Resource" id="Resource_xhxui"]
+script = ExtResource("3_x08lm")
+level = 15
+move = 180
+
+[sub_resource type="Resource" id="Resource_cncul"]
+script = ExtResource("3_x08lm")
+level = 20
+move = 246
+
+[sub_resource type="Resource" id="Resource_ekoxh"]
+script = ExtResource("3_x08lm")
+level = 25
+move = 506
+
+[sub_resource type="Resource" id="Resource_85p51"]
+script = ExtResource("3_x08lm")
+level = 30
+move = 174
+
+[sub_resource type="Resource" id="Resource_gmths"]
+script = ExtResource("3_x08lm")
+level = 35
+move = 631
+
+[sub_resource type="Resource" id="Resource_2p7oy"]
+script = ExtResource("3_x08lm")
+level = 40
+move = 408
+
+[sub_resource type="Resource" id="Resource_d3mcv"]
+script = ExtResource("3_x08lm")
+level = 45
+move = 101
+
+[sub_resource type="Resource" id="Resource_nedxc"]
+script = ExtResource("3_x08lm")
+level = 50
+move = 288
+
+[sub_resource type="Resource" id="Resource_0rthf"]
+script = ExtResource("3_x08lm")
+level = 55
+move = 243
+
+[resource]
+script = ExtResource("4_xnko0")
+id = 986
+display_name = "Corsola"
+category = "Coral"
+national_dex = 222
+pokedex = "Sudden climate change wiped out this
+ancient kind of Corsola. With its branches,
+it absorbs others' life-force. It curses
+those unaware that kick it by accident."
+type_1 = 8
+base_hp = 60
+base_atk = 55
+base_def = 100
+base_spa = 65
+base_spd = 100
+base_spe = 30
+ev_spd = 1
+catch_rate = 60
+base_exp = 144
+gender_ratio = 191
+growth_rate = 4
+egg_group_1 = 2
+egg_group_2 = 9
+ability_1 = 133
+ability_hidden = 130
+height_dm = 6
+weight_hg = 5
+body_color = 8
+level_moves = Array[ExtResource("3_x08lm")]([SubResource("Resource_uae4l"), SubResource("Resource_f25p5"), SubResource("Resource_aiw4p"), SubResource("Resource_8fpcw"), SubResource("Resource_xhxui"), SubResource("Resource_cncul"), SubResource("Resource_ekoxh"), SubResource("Resource_85p51"), SubResource("Resource_gmths"), SubResource("Resource_2p7oy"), SubResource("Resource_d3mcv"), SubResource("Resource_nedxc"), SubResource("Resource_0rthf")])
+egg_moves = Array[int]([114, 109, 267, 194, 352, 457])
+evolutions = Array[ExtResource("1_ms63o")]([SubResource("Resource_6kq0h")])
+form_species = Array[int]([222, 986])

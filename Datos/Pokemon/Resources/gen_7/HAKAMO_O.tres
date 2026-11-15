@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cg2rg15ygovie"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_76xf7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lgais"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mg0rm"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fm5xe"]
+
+[sub_resource type="Resource" id="Resource_175bu"]
+script = ExtResource("1_76xf7")
+method = "LEVEL"
+param = "45"
+target = 784
+
+[sub_resource type="Resource" id="Resource_rd7fg"]
+script = ExtResource("1_76xf7")
+method = "NONE"
+param = "0"
+target = 1482
+
+[sub_resource type="Resource" id="Resource_gkrhk"]
+script = ExtResource("3_mg0rm")
+move = 33
+
+[sub_resource type="Resource" id="Resource_8q8r1"]
+script = ExtResource("3_mg0rm")
+move = 43
+
+[sub_resource type="Resource" id="Resource_3i70v"]
+script = ExtResource("3_mg0rm")
+move = 182
+
+[sub_resource type="Resource" id="Resource_x2s0a"]
+script = ExtResource("3_mg0rm")
+move = 525
+
+[sub_resource type="Resource" id="Resource_hj64r"]
+script = ExtResource("3_mg0rm")
+level = 12
+move = 184
+
+[sub_resource type="Resource" id="Resource_byaie"]
+script = ExtResource("3_mg0rm")
+level = 16
+move = 29
+
+[sub_resource type="Resource" id="Resource_1kait"]
+script = ExtResource("3_mg0rm")
+level = 20
+move = 526
+
+[sub_resource type="Resource" id="Resource_cn7hv"]
+script = ExtResource("3_mg0rm")
+level = 24
+move = 103
+
+[sub_resource type="Resource" id="Resource_p4lx1"]
+script = ExtResource("3_mg0rm")
+level = 28
+move = 334
+
+[sub_resource type="Resource" id="Resource_xcccl"]
+script = ExtResource("3_mg0rm")
+level = 32
+move = 337
+
+[sub_resource type="Resource" id="Resource_fvxjc"]
+script = ExtResource("3_mg0rm")
+level = 38
+move = 568
+
+[sub_resource type="Resource" id="Resource_l26gu"]
+script = ExtResource("3_mg0rm")
+level = 44
+move = 349
+
+[sub_resource type="Resource" id="Resource_f14x3"]
+script = ExtResource("3_mg0rm")
+level = 50
+move = 200
+
+[sub_resource type="Resource" id="Resource_q657g"]
+script = ExtResource("3_mg0rm")
+level = 56
+move = 370
+
+[resource]
+script = ExtResource("4_fm5xe")
+id = 783
+display_name = "Hakamo-o"
+category = "Scaly"
+national_dex = 783
+pokedex = "It sheds and regrows its scales on a
+continuous basis. The scales become
+harder each time they're regrown. Its
+scaly punches tear its foes to shreds."
+type_1 = 17
+type_2 = 2
+base_hp = 55
+base_atk = 75
+base_def = 90
+base_spa = 65
+base_spd = 70
+base_spe = 65
+ev_def = 2
+base_exp = 147
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 14
+ability_1 = 171
+ability_2 = 43
+ability_hidden = 142
+item_rare = 492
+height_dm = 12
+weight_hg = 470
+body_color = 7
+level_moves = Array[ExtResource("3_mg0rm")]([SubResource("Resource_gkrhk"), SubResource("Resource_8q8r1"), SubResource("Resource_3i70v"), SubResource("Resource_x2s0a"), SubResource("Resource_hj64r"), SubResource("Resource_byaie"), SubResource("Resource_1kait"), SubResource("Resource_cn7hv"), SubResource("Resource_p4lx1"), SubResource("Resource_xcccl"), SubResource("Resource_fvxjc"), SubResource("Resource_l26gu"), SubResource("Resource_f14x3"), SubResource("Resource_q657g")])
+evolutions = Array[ExtResource("1_76xf7")]([SubResource("Resource_175bu"), SubResource("Resource_rd7fg")])

@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qoso8vm8esmf"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_b85y8"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_81knq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_c6cpo"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_k31nl"]
+
+[sub_resource type="Resource" id="Resource_ueron"]
+script = ExtResource("1_b85y8")
+method = "LEVEL"
+param = "34"
+target = 450
+
+[sub_resource type="Resource" id="Resource_4gs44"]
+script = ExtResource("3_c6cpo")
+move = 28
+
+[sub_resource type="Resource" id="Resource_0decy"]
+script = ExtResource("3_c6cpo")
+move = 33
+
+[sub_resource type="Resource" id="Resource_qg5fi"]
+script = ExtResource("3_c6cpo")
+level = 4
+move = 44
+
+[sub_resource type="Resource" id="Resource_h1wti"]
+script = ExtResource("3_c6cpo")
+level = 8
+move = 281
+
+[sub_resource type="Resource" id="Resource_mttnv"]
+script = ExtResource("3_c6cpo")
+level = 12
+move = 328
+
+[sub_resource type="Resource" id="Resource_aaep3"]
+script = ExtResource("3_c6cpo")
+level = 16
+move = 91
+
+[sub_resource type="Resource" id="Resource_44qx2"]
+script = ExtResource("3_c6cpo")
+level = 20
+move = 242
+
+[sub_resource type="Resource" id="Resource_yxaja"]
+script = ExtResource("3_c6cpo")
+level = 24
+move = 201
+
+[sub_resource type="Resource" id="Resource_sntkl"]
+script = ExtResource("3_c6cpo")
+level = 28
+move = 36
+
+[sub_resource type="Resource" id="Resource_63nvn"]
+script = ExtResource("3_c6cpo")
+level = 32
+move = 46
+
+[sub_resource type="Resource" id="Resource_gahji"]
+script = ExtResource("3_c6cpo")
+level = 36
+move = 156
+
+[sub_resource type="Resource" id="Resource_vebb8"]
+script = ExtResource("3_c6cpo")
+level = 40
+move = 89
+
+[sub_resource type="Resource" id="Resource_pgxb6"]
+script = ExtResource("3_c6cpo")
+level = 44
+move = 38
+
+[sub_resource type="Resource" id="Resource_rjffl"]
+script = ExtResource("3_c6cpo")
+level = 48
+move = 90
+
+[sub_resource type="Resource" id="Resource_8oejw"]
+script = ExtResource("3_c6cpo")
+level = 52
+move = 303
+
+[resource]
+script = ExtResource("4_k31nl")
+id = 449
+display_name = "Hippopotas"
+category = "Hippo"
+national_dex = 449
+pokedex = "Hippopotas shuts its nostrils tight when
+travelling through sand. Instead of
+perspiration, it expels grains of sand
+from its body."
+type_1 = 5
+base_hp = 68
+base_atk = 72
+base_def = 78
+base_spa = 38
+base_spd = 42
+base_spe = 32
+ev_def = 1
+catch_rate = 140
+base_exp = 66
+growth_rate = 5
+egg_cycles = 30
+egg_group_1 = 5
+ability_1 = 45
+ability_hidden = 159
+height_dm = 8
+weight_hg = 495
+body_color = 5
+level_moves = Array[ExtResource("3_c6cpo")]([SubResource("Resource_4gs44"), SubResource("Resource_0decy"), SubResource("Resource_qg5fi"), SubResource("Resource_h1wti"), SubResource("Resource_mttnv"), SubResource("Resource_aaep3"), SubResource("Resource_44qx2"), SubResource("Resource_yxaja"), SubResource("Resource_sntkl"), SubResource("Resource_63nvn"), SubResource("Resource_gahji"), SubResource("Resource_vebb8"), SubResource("Resource_pgxb6"), SubResource("Resource_rjffl"), SubResource("Resource_8oejw")])
+egg_moves = Array[int]([254, 256, 255, 174, 303, 34, 328, 279, 214, 18])
+evolutions = Array[ExtResource("1_b85y8")]([SubResource("Resource_ueron")])

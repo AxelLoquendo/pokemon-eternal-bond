@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://do0bjqpqi6rdc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4ajx8"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_fn6kt"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_37tta"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_04fs8"]
+
+[sub_resource type="Resource" id="Resource_eq1oa"]
+script = ExtResource("3_37tta")
+move = 33
+
+[sub_resource type="Resource" id="Resource_okv0p"]
+script = ExtResource("3_37tta")
+level = 10
+move = 55
+
+[sub_resource type="Resource" id="Resource_vqwge"]
+script = ExtResource("3_37tta")
+level = 10
+move = 52
+
+[sub_resource type="Resource" id="Resource_ts6b6"]
+script = ExtResource("3_37tta")
+level = 10
+move = 181
+
+[sub_resource type="Resource" id="Resource_7rbmr"]
+script = ExtResource("3_37tta")
+level = 15
+move = 29
+
+[sub_resource type="Resource" id="Resource_mwiop"]
+script = ExtResource("3_37tta")
+level = 20
+move = 240
+
+[sub_resource type="Resource" id="Resource_qfd57"]
+script = ExtResource("3_37tta")
+level = 20
+move = 241
+
+[sub_resource type="Resource" id="Resource_d51vl"]
+script = ExtResource("3_37tta")
+level = 20
+move = 258
+
+[sub_resource type="Resource" id="Resource_j06f4"]
+script = ExtResource("3_37tta")
+level = 25
+move = 311
+
+[sub_resource type="Resource" id="Resource_fl8mg"]
+script = ExtResource("3_37tta")
+level = 35
+move = 56
+
+[sub_resource type="Resource" id="Resource_3w525"]
+script = ExtResource("3_37tta")
+level = 35
+move = 126
+
+[sub_resource type="Resource" id="Resource_15gpb"]
+script = ExtResource("3_37tta")
+level = 35
+move = 59
+
+[sub_resource type="Resource" id="Resource_mv7yo"]
+script = ExtResource("3_37tta")
+level = 45
+move = 542
+
+[resource]
+script = ExtResource("4_04fs8")
+id = 1051
+display_name = "Castform"
+category = "Weather"
+national_dex = 351
+pokedex = "Castform takes this form on bright days.
+In an experiment where is was placed in
+front of a heater, it didn't change to this
+form. Its body is warm and toasty."
+type_1 = 11
+base_hp = 70
+base_atk = 70
+base_def = 70
+base_spa = 70
+base_spd = 70
+base_spe = 70
+ev_hp = 1
+base_exp = 147
+egg_cycles = 25
+egg_group_1 = 6
+egg_group_2 = 11
+ability_1 = 59
+item_common = 427
+item_rare = 427
+height_dm = 3
+weight_hg = 8
+level_moves = Array[ExtResource("3_37tta")]([SubResource("Resource_eq1oa"), SubResource("Resource_okv0p"), SubResource("Resource_vqwge"), SubResource("Resource_ts6b6"), SubResource("Resource_7rbmr"), SubResource("Resource_mwiop"), SubResource("Resource_qfd57"), SubResource("Resource_d51vl"), SubResource("Resource_j06f4"), SubResource("Resource_fl8mg"), SubResource("Resource_3w525"), SubResource("Resource_15gpb"), SubResource("Resource_mv7yo")])
+egg_moves = Array[int]([248, 381, 50, 133, 466, 506, 499, 513, 385, 322])
+form_species = Array[int]([351, 1051, 1052, 1053])

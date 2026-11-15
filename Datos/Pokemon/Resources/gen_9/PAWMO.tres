@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ctrl705toylt1"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_76tvp"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ryxcj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2gile"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6qidm"]
+
+[sub_resource type="Resource" id="Resource_wf27x"]
+script = ExtResource("3_2gile")
+level = 0
+move = 292
+
+[sub_resource type="Resource" id="Resource_j8h41"]
+script = ExtResource("3_2gile")
+move = 10
+
+[sub_resource type="Resource" id="Resource_ooo5p"]
+script = ExtResource("3_2gile")
+move = 45
+
+[sub_resource type="Resource" id="Resource_6y0jc"]
+script = ExtResource("3_2gile")
+level = 3
+move = 84
+
+[sub_resource type="Resource" id="Resource_dicxs"]
+script = ExtResource("3_2gile")
+level = 6
+move = 98
+
+[sub_resource type="Resource" id="Resource_13n7f"]
+script = ExtResource("3_2gile")
+level = 8
+move = 268
+
+[sub_resource type="Resource" id="Resource_cid2q"]
+script = ExtResource("3_2gile")
+level = 12
+move = 609
+
+[sub_resource type="Resource" id="Resource_fo320"]
+script = ExtResource("3_2gile")
+level = 15
+move = 91
+
+[sub_resource type="Resource" id="Resource_vss3h"]
+script = ExtResource("3_2gile")
+level = 19
+move = 44
+
+[sub_resource type="Resource" id="Resource_b2xm2"]
+script = ExtResource("3_2gile")
+level = 23
+move = 209
+
+[sub_resource type="Resource" id="Resource_6dnku"]
+script = ExtResource("3_2gile")
+level = 27
+move = 86
+
+[sub_resource type="Resource" id="Resource_gigpx"]
+script = ExtResource("3_2gile")
+level = 32
+move = 21
+
+[sub_resource type="Resource" id="Resource_356sc"]
+script = ExtResource("3_2gile")
+level = 38
+move = 494
+
+[sub_resource type="Resource" id="Resource_sdg2u"]
+script = ExtResource("3_2gile")
+level = 42
+move = 435
+
+[sub_resource type="Resource" id="Resource_k8023"]
+script = ExtResource("3_2gile")
+level = 46
+move = 97
+
+[sub_resource type="Resource" id="Resource_pdoqf"]
+script = ExtResource("3_2gile")
+level = 52
+move = 528
+
+[resource]
+script = ExtResource("4_6qidm")
+id = 1306
+display_name = "Pawmo"
+category = "Mouse"
+national_dex = 922
+pokedex = "When its group is attacked, Pawmo
+is the first to leap into battle,
+defeating enemies with a fighting
+technique that utilizes electric shocks."
+type_1 = 14
+type_2 = 2
+base_hp = 60
+base_atk = 75
+base_def = 40
+base_spa = 50
+base_spd = 40
+base_spe = 85
+ev_spe = 2
+catch_rate = 80
+base_exp = 123
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 10
+ability_2 = 30
+ability_hidden = 89
+height_dm = 4
+weight_hg = 65
+body_color = 2
+level_moves = Array[ExtResource("3_2gile")]([SubResource("Resource_wf27x"), SubResource("Resource_j8h41"), SubResource("Resource_ooo5p"), SubResource("Resource_6y0jc"), SubResource("Resource_dicxs"), SubResource("Resource_13n7f"), SubResource("Resource_cid2q"), SubResource("Resource_fo320"), SubResource("Resource_vss3h"), SubResource("Resource_b2xm2"), SubResource("Resource_6dnku"), SubResource("Resource_gigpx"), SubResource("Resource_356sc"), SubResource("Resource_sdg2u"), SubResource("Resource_k8023"), SubResource("Resource_pdoqf")])

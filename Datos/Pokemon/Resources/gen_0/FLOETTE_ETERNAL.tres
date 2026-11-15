@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dqf3kfr2x4xq1"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_m20qd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5dfir"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bf7cv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5x7sa"]
+
+[sub_resource type="Resource" id="Resource_y7t4a"]
+script = ExtResource("3_bf7cv")
+move = 22
+
+[sub_resource type="Resource" id="Resource_wj8hi"]
+script = ExtResource("3_bf7cv")
+move = 33
+
+[sub_resource type="Resource" id="Resource_1hq2a"]
+script = ExtResource("3_bf7cv")
+move = 584
+
+[sub_resource type="Resource" id="Resource_767lm"]
+script = ExtResource("3_bf7cv")
+level = 10
+move = 219
+
+[sub_resource type="Resource" id="Resource_pdr8o"]
+script = ExtResource("3_bf7cv")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_yigsl"]
+script = ExtResource("3_bf7cv")
+level = 20
+move = 273
+
+[sub_resource type="Resource" id="Resource_vqa2h"]
+script = ExtResource("3_bf7cv")
+level = 25
+move = 345
+
+[sub_resource type="Resource" id="Resource_qx2nt"]
+script = ExtResource("3_bf7cv")
+level = 27
+move = 580
+
+[sub_resource type="Resource" id="Resource_31mqd"]
+script = ExtResource("3_bf7cv")
+level = 33
+move = 572
+
+[sub_resource type="Resource" id="Resource_5box2"]
+script = ExtResource("3_bf7cv")
+level = 38
+move = 235
+
+[sub_resource type="Resource" id="Resource_epx5y"]
+script = ExtResource("3_bf7cv")
+level = 43
+move = 581
+
+[sub_resource type="Resource" id="Resource_x5mth"]
+script = ExtResource("3_bf7cv")
+level = 46
+move = 585
+
+[sub_resource type="Resource" id="Resource_f73gn"]
+script = ExtResource("3_bf7cv")
+level = 50
+move = 617
+
+[sub_resource type="Resource" id="Resource_cg7as"]
+script = ExtResource("3_bf7cv")
+level = 51
+move = 80
+
+[sub_resource type="Resource" id="Resource_kwwt3"]
+script = ExtResource("3_bf7cv")
+level = 58
+move = 76
+
+[resource]
+script = ExtResource("4_5x7sa")
+id = 1141
+display_name = "Floette Eternal"
+pokedex = "The flower it's holding can no
+longer be found blooming anywhere. It's
+also thought to contain terrifying
+power."
+type_1 = 1
+base_hp = 74
+base_atk = 65
+base_def = 67
+base_spa = 125
+base_spd = 128
+base_spe = 92
+base_exp = 243
+level_moves = Array[ExtResource("3_bf7cv")]([SubResource("Resource_y7t4a"), SubResource("Resource_wj8hi"), SubResource("Resource_1hq2a"), SubResource("Resource_767lm"), SubResource("Resource_pdr8o"), SubResource("Resource_yigsl"), SubResource("Resource_vqa2h"), SubResource("Resource_qx2nt"), SubResource("Resource_31mqd"), SubResource("Resource_5box2"), SubResource("Resource_epx5y"), SubResource("Resource_x5mth"), SubResource("Resource_f73gn"), SubResource("Resource_cg7as"), SubResource("Resource_kwwt3")])

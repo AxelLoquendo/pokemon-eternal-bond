@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bml0pc550iy48"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_uknot"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_c1n2j"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_w2hja"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_enkqn"]
+
+[sub_resource type="Resource" id="Resource_4b2p4"]
+script = ExtResource("3_w2hja")
+level = 0
+move = 400
+
+[sub_resource type="Resource" id="Resource_bdycy"]
+script = ExtResource("3_w2hja")
+move = 10
+
+[sub_resource type="Resource" id="Resource_0hjd3"]
+script = ExtResource("3_w2hja")
+move = 43
+
+[sub_resource type="Resource" id="Resource_y5q1w"]
+script = ExtResource("3_w2hja")
+move = 259
+
+[sub_resource type="Resource" id="Resource_7mhge"]
+script = ExtResource("3_w2hja")
+move = 369
+
+[sub_resource type="Resource" id="Resource_blnmw"]
+script = ExtResource("3_w2hja")
+move = 468
+
+[sub_resource type="Resource" id="Resource_bsygl"]
+script = ExtResource("3_w2hja")
+level = 12
+move = 154
+
+[sub_resource type="Resource" id="Resource_mg6f4"]
+script = ExtResource("3_w2hja")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_82wwg"]
+script = ExtResource("3_w2hja")
+level = 24
+move = 282
+
+[sub_resource type="Resource" id="Resource_0hv7u"]
+script = ExtResource("3_w2hja")
+level = 28
+move = 313
+
+[sub_resource type="Resource" id="Resource_s3ay6"]
+script = ExtResource("3_w2hja")
+level = 34
+move = 97
+
+[sub_resource type="Resource" id="Resource_m8j13"]
+script = ExtResource("3_w2hja")
+level = 40
+move = 286
+
+[sub_resource type="Resource" id="Resource_xhcwn"]
+script = ExtResource("3_w2hja")
+level = 46
+move = 539
+
+[sub_resource type="Resource" id="Resource_kt7xo"]
+script = ExtResource("3_w2hja")
+level = 52
+move = 417
+
+[sub_resource type="Resource" id="Resource_cfxwy"]
+script = ExtResource("3_w2hja")
+level = 58
+move = 492
+
+[resource]
+script = ExtResource("4_enkqn")
+id = 571
+display_name = "Zoroark"
+category = "Illusion Fox"
+national_dex = 571
+pokedex = "Bonds between these Pokémon are very
+strong. It protects the safety of its
+pack by tricking its opponents. They
+defend their lair with illusory scenery."
+type_1 = 18
+base_hp = 60
+base_atk = 105
+base_def = 60
+base_spa = 120
+base_spd = 60
+base_spe = 105
+ev_spa = 2
+base_exp = 179
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 149
+height_dm = 16
+weight_hg = 811
+body_color = 7
+level_moves = Array[ExtResource("3_w2hja")]([SubResource("Resource_4b2p4"), SubResource("Resource_bdycy"), SubResource("Resource_0hjd3"), SubResource("Resource_y5q1w"), SubResource("Resource_7mhge"), SubResource("Resource_blnmw"), SubResource("Resource_bsygl"), SubResource("Resource_mg6f4"), SubResource("Resource_82wwg"), SubResource("Resource_0hv7u"), SubResource("Resource_s3ay6"), SubResource("Resource_m8j13"), SubResource("Resource_xhcwn"), SubResource("Resource_kt7xo"), SubResource("Resource_cfxwy")])
+form_species = Array[int]([571, 1003])

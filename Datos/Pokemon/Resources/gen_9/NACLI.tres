@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ctt6tvjnw1gqb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4bqio"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gofik"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_y0ifv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_w2ggn"]
+
+[sub_resource type="Resource" id="Resource_ntq5l"]
+script = ExtResource("1_4bqio")
+method = "LEVEL"
+param = "24"
+target = 1321
+
+[sub_resource type="Resource" id="Resource_5o63j"]
+script = ExtResource("3_y0ifv")
+move = 33
+
+[sub_resource type="Resource" id="Resource_yg8if"]
+script = ExtResource("3_y0ifv")
+move = 106
+
+[sub_resource type="Resource" id="Resource_5xcgy"]
+script = ExtResource("3_y0ifv")
+level = 5
+move = 88
+
+[sub_resource type="Resource" id="Resource_kkfax"]
+script = ExtResource("3_y0ifv")
+level = 7
+move = 341
+
+[sub_resource type="Resource" id="Resource_6slwl"]
+script = ExtResource("3_y0ifv")
+level = 10
+move = 479
+
+[sub_resource type="Resource" id="Resource_ku8bc"]
+script = ExtResource("3_y0ifv")
+level = 13
+move = 397
+
+[sub_resource type="Resource" id="Resource_dfoa7"]
+script = ExtResource("3_y0ifv")
+level = 16
+move = 29
+
+[sub_resource type="Resource" id="Resource_ga6jx"]
+script = ExtResource("3_y0ifv")
+level = 20
+move = 334
+
+[sub_resource type="Resource" id="Resource_x0jv4"]
+script = ExtResource("3_y0ifv")
+level = 25
+move = 105
+
+[sub_resource type="Resource" id="Resource_deboe"]
+script = ExtResource("3_y0ifv")
+level = 30
+move = 157
+
+[sub_resource type="Resource" id="Resource_c4dfe"]
+script = ExtResource("3_y0ifv")
+level = 33
+move = 446
+
+[sub_resource type="Resource" id="Resource_jqjdc"]
+script = ExtResource("3_y0ifv")
+level = 35
+move = 484
+
+[sub_resource type="Resource" id="Resource_f6ah3"]
+script = ExtResource("3_y0ifv")
+level = 40
+move = 89
+
+[sub_resource type="Resource" id="Resource_lra17"]
+script = ExtResource("3_y0ifv")
+level = 45
+move = 444
+
+[resource]
+script = ExtResource("4_w2ggn")
+id = 1320
+display_name = "Nacli"
+category = "Rock Salt"
+national_dex = 932
+pokedex = "The ground scrapes its body as it
+travels, causing it to leave salt
+behind. Salt is constantly being created
+and replenished inside Nacli's body."
+type_1 = 6
+base_hp = 55
+base_atk = 55
+base_def = 75
+base_spa = 35
+base_spd = 35
+base_spe = 25
+ev_def = 1
+catch_rate = 255
+base_exp = 56
+growth_rate = 3
+egg_group_1 = 10
+ability_1 = 272
+ability_2 = 5
+ability_hidden = 29
+height_dm = 4
+weight_hg = 160
+body_color = 5
+level_moves = Array[ExtResource("3_y0ifv")]([SubResource("Resource_5o63j"), SubResource("Resource_yg8if"), SubResource("Resource_5xcgy"), SubResource("Resource_kkfax"), SubResource("Resource_6slwl"), SubResource("Resource_ku8bc"), SubResource("Resource_dfoa7"), SubResource("Resource_ga6jx"), SubResource("Resource_x0jv4"), SubResource("Resource_deboe"), SubResource("Resource_c4dfe"), SubResource("Resource_jqjdc"), SubResource("Resource_f6ah3"), SubResource("Resource_lra17")])
+egg_moves = Array[int]([246, 174, 90, 408])
+evolutions = Array[ExtResource("1_4bqio")]([SubResource("Resource_ntq5l")])

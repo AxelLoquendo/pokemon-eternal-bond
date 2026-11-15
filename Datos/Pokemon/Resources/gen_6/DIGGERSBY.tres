@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cgtyfsvj4gyxo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_r1n0s"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_art1n"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h0tym"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4l6ls"]
+
+[sub_resource type="Resource" id="Resource_bmb6k"]
+script = ExtResource("3_h0tym")
+move = 189
+
+[sub_resource type="Resource" id="Resource_dyvqv"]
+script = ExtResource("3_h0tym")
+move = 43
+
+[sub_resource type="Resource" id="Resource_17s4h"]
+script = ExtResource("3_h0tym")
+move = 33
+
+[sub_resource type="Resource" id="Resource_8ytvn"]
+script = ExtResource("3_h0tym")
+move = 636
+
+[sub_resource type="Resource" id="Resource_bxalx"]
+script = ExtResource("3_h0tym")
+level = 9
+move = 98
+
+[sub_resource type="Resource" id="Resource_puqyq"]
+script = ExtResource("3_h0tym")
+level = 12
+move = 341
+
+[sub_resource type="Resource" id="Resource_6w8xa"]
+script = ExtResource("3_h0tym")
+level = 15
+move = 175
+
+[sub_resource type="Resource" id="Resource_mg23j"]
+script = ExtResource("3_h0tym")
+level = 18
+move = 24
+
+[sub_resource type="Resource" id="Resource_dwvqp"]
+script = ExtResource("3_h0tym")
+level = 23
+move = 523
+
+[sub_resource type="Resource" id="Resource_lujwl"]
+script = ExtResource("3_h0tym")
+level = 28
+move = 91
+
+[sub_resource type="Resource" id="Resource_ryx2b"]
+script = ExtResource("3_h0tym")
+level = 33
+move = 340
+
+[sub_resource type="Resource" id="Resource_v1803"]
+script = ExtResource("3_h0tym")
+level = 38
+move = 36
+
+[sub_resource type="Resource" id="Resource_xsyfe"]
+script = ExtResource("3_h0tym")
+level = 43
+move = 14
+
+[sub_resource type="Resource" id="Resource_ibbq6"]
+script = ExtResource("3_h0tym")
+level = 48
+move = 89
+
+[sub_resource type="Resource" id="Resource_endst"]
+script = ExtResource("3_h0tym")
+level = 53
+move = 162
+
+[sub_resource type="Resource" id="Resource_hjcoq"]
+script = ExtResource("3_h0tym")
+level = 58
+move = 359
+
+[resource]
+script = ExtResource("4_4l6ls")
+id = 660
+display_name = "Diggersby"
+category = "Digging"
+national_dex = 660
+pokedex = "With its powerful ears it reduces dense
+bedrock to rubble. It can be a big help
+at construction sites. When it's finished
+digging, it lounges about lazily."
+type_1 = 1
+type_2 = 5
+base_hp = 85
+base_atk = 56
+base_def = 77
+base_spa = 50
+base_spd = 77
+base_spe = 78
+ev_hp = 2
+catch_rate = 127
+base_exp = 148
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 53
+ability_2 = 167
+ability_hidden = 37
+height_dm = 10
+weight_hg = 424
+body_color = 5
+level_moves = Array[ExtResource("3_h0tym")]([SubResource("Resource_bmb6k"), SubResource("Resource_dyvqv"), SubResource("Resource_17s4h"), SubResource("Resource_8ytvn"), SubResource("Resource_bxalx"), SubResource("Resource_puqyq"), SubResource("Resource_6w8xa"), SubResource("Resource_mg23j"), SubResource("Resource_dwvqp"), SubResource("Resource_lujwl"), SubResource("Resource_ryx2b"), SubResource("Resource_v1803"), SubResource("Resource_xsyfe"), SubResource("Resource_ibbq6"), SubResource("Resource_endst"), SubResource("Resource_hjcoq")])

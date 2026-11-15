@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dk8k6tsi1x813"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ja6pb"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_takns"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ykaee"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_78gsn"]
+
+[sub_resource type="Resource" id="Resource_ex3gm"]
+script = ExtResource("3_ykaee")
+level = 0
+move = 706
+
+[sub_resource type="Resource" id="Resource_ai8i7"]
+script = ExtResource("3_ykaee")
+move = 10
+
+[sub_resource type="Resource" id="Resource_pov8m"]
+script = ExtResource("3_ykaee")
+move = 45
+
+[sub_resource type="Resource" id="Resource_oquv2"]
+script = ExtResource("3_ykaee")
+move = 269
+
+[sub_resource type="Resource" id="Resource_vkyg2"]
+script = ExtResource("3_ykaee")
+move = 458
+
+[sub_resource type="Resource" id="Resource_dgmur"]
+script = ExtResource("3_ykaee")
+move = 568
+
+[sub_resource type="Resource" id="Resource_wdelb"]
+script = ExtResource("3_ykaee")
+move = 580
+
+[sub_resource type="Resource" id="Resource_h72ri"]
+script = ExtResource("3_ykaee")
+move = 713
+
+[sub_resource type="Resource" id="Resource_6g6kq"]
+script = ExtResource("3_ykaee")
+level = 12
+move = 75
+
+[sub_resource type="Resource" id="Resource_yojap"]
+script = ExtResource("3_ykaee")
+level = 19
+move = 103
+
+[sub_resource type="Resource" id="Resource_4guor"]
+script = ExtResource("3_ykaee")
+level = 24
+move = 282
+
+[sub_resource type="Resource" id="Resource_gylry"]
+script = ExtResource("3_ykaee")
+level = 30
+move = 21
+
+[sub_resource type="Resource" id="Resource_inp2h"]
+script = ExtResource("3_ykaee")
+level = 38
+move = 253
+
+[sub_resource type="Resource" id="Resource_q6ep5"]
+script = ExtResource("3_ykaee")
+level = 46
+move = 452
+
+[sub_resource type="Resource" id="Resource_pbifx"]
+script = ExtResource("3_ykaee")
+level = 54
+move = 283
+
+[sub_resource type="Resource" id="Resource_k03n5"]
+script = ExtResource("3_ykaee")
+level = 62
+move = 586
+
+[resource]
+script = ExtResource("4_78gsn")
+id = 1503
+display_name = "Rillaboom"
+category = "Drummer"
+national_dex = 812
+pokedex = "Rillaboom has become one with its
+forest of drums and continues to lay
+down beats that shake all of Galar."
+type_1 = 13
+base_hp = 100
+base_atk = 125
+base_def = 90
+base_spa = 60
+base_spd = 70
+base_spe = 85
+ev_atk = 3
+base_exp = 265
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+egg_group_2 = 7
+ability_1 = 65
+ability_hidden = 229
+height_dm = 280
+body_color = 3
+level_moves = Array[ExtResource("3_ykaee")]([SubResource("Resource_ex3gm"), SubResource("Resource_ai8i7"), SubResource("Resource_pov8m"), SubResource("Resource_oquv2"), SubResource("Resource_vkyg2"), SubResource("Resource_dgmur"), SubResource("Resource_wdelb"), SubResource("Resource_h72ri"), SubResource("Resource_6g6kq"), SubResource("Resource_yojap"), SubResource("Resource_4guor"), SubResource("Resource_gylry"), SubResource("Resource_inp2h"), SubResource("Resource_q6ep5"), SubResource("Resource_pbifx"), SubResource("Resource_k03n5")])
+form_species = Array[int]([812, 1503])

@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b6mqwexy6p3ra"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_f4ngj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rfq4a"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dq1sh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nri2v"]
+
+[sub_resource type="Resource" id="Resource_v330o"]
+script = ExtResource("3_dq1sh")
+move = 104
+
+[sub_resource type="Resource" id="Resource_hg2cj"]
+script = ExtResource("3_dq1sh")
+move = 310
+
+[sub_resource type="Resource" id="Resource_3v57m"]
+script = ExtResource("3_dq1sh")
+level = 5
+move = 84
+
+[sub_resource type="Resource" id="Resource_vwrgq"]
+script = ExtResource("3_dq1sh")
+level = 10
+move = 109
+
+[sub_resource type="Resource" id="Resource_nyvpw"]
+script = ExtResource("3_dq1sh")
+level = 15
+move = 268
+
+[sub_resource type="Resource" id="Resource_wft3l"]
+script = ExtResource("3_dq1sh")
+level = 20
+move = 486
+
+[sub_resource type="Resource" id="Resource_usj6d"]
+script = ExtResource("3_dq1sh")
+level = 25
+move = 86
+
+[sub_resource type="Resource" id="Resource_4ci57"]
+script = ExtResource("3_dq1sh")
+level = 30
+move = 351
+
+[sub_resource type="Resource" id="Resource_u7l76"]
+script = ExtResource("3_dq1sh")
+level = 35
+move = 506
+
+[sub_resource type="Resource" id="Resource_nnyi2"]
+script = ExtResource("3_dq1sh")
+level = 40
+move = 164
+
+[sub_resource type="Resource" id="Resource_dqlu6"]
+script = ExtResource("3_dq1sh")
+level = 45
+move = 271
+
+[sub_resource type="Resource" id="Resource_2kxlh"]
+script = ExtResource("3_dq1sh")
+level = 50
+move = 435
+
+[sub_resource type="Resource" id="Resource_131ke"]
+script = ExtResource("3_dq1sh")
+level = 55
+move = 253
+
+[resource]
+script = ExtResource("4_nri2v")
+id = 1065
+display_name = "Rotom"
+category = "Plasma"
+national_dex = 479
+pokedex = "It enjoys coming up with water-based
+pranks. The model of washing machine that
+Rotom can inspirit has been discontinued,
+so they are now traded at high prices."
+type_1 = 1
+base_hp = 50
+base_atk = 65
+base_def = 107
+base_spa = 105
+base_spd = 107
+base_spe = 86
+ev_spa = 1
+ev_spe = 1
+gender_ratio = 255
+egg_group_1 = 11
+ability_1 = 26
+height_dm = 3
+weight_hg = 3
+no_flip = true
+level_moves = Array[ExtResource("3_dq1sh")]([SubResource("Resource_v330o"), SubResource("Resource_hg2cj"), SubResource("Resource_3v57m"), SubResource("Resource_vwrgq"), SubResource("Resource_nyvpw"), SubResource("Resource_wft3l"), SubResource("Resource_usj6d"), SubResource("Resource_4ci57"), SubResource("Resource_u7l76"), SubResource("Resource_nnyi2"), SubResource("Resource_dqlu6"), SubResource("Resource_2kxlh"), SubResource("Resource_131ke")])
+form_species = Array[int]([479, 1064, 1065, 1066, 1067, 1068])

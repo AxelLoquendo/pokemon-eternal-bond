@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bcvseb4s1g8ln"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_tjnh3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_a0vws"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wepu4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mqof7"]
+
+[sub_resource type="Resource" id="Resource_brkts"]
+script = ExtResource("3_wepu4")
+move = 1
+
+[sub_resource type="Resource" id="Resource_erifd"]
+script = ExtResource("3_wepu4")
+move = 109
+
+[sub_resource type="Resource" id="Resource_h1w7u"]
+script = ExtResource("3_wepu4")
+level = 6
+move = 371
+
+[sub_resource type="Resource" id="Resource_l3esi"]
+script = ExtResource("3_wepu4")
+level = 12
+move = 263
+
+[sub_resource type="Resource" id="Resource_w64ky"]
+script = ExtResource("3_wepu4")
+level = 18
+move = 23
+
+[sub_resource type="Resource" id="Resource_88r10"]
+script = ExtResource("3_wepu4")
+level = 24
+move = 182
+
+[sub_resource type="Resource" id="Resource_cd3y1"]
+script = ExtResource("3_wepu4")
+level = 30
+move = 282
+
+[sub_resource type="Resource" id="Resource_24y0e"]
+script = ExtResource("3_wepu4")
+level = 36
+move = 5
+
+[sub_resource type="Resource" id="Resource_85m81"]
+script = ExtResource("3_wepu4")
+level = 42
+move = 704
+
+[sub_resource type="Resource" id="Resource_0iolj"]
+script = ExtResource("3_wepu4")
+level = 48
+move = 469
+
+[sub_resource type="Resource" id="Resource_01j0w"]
+script = ExtResource("3_wepu4")
+level = 54
+move = 428
+
+[sub_resource type="Resource" id="Resource_jsk6t"]
+script = ExtResource("3_wepu4")
+level = 60
+move = 484
+
+[sub_resource type="Resource" id="Resource_lujq6"]
+script = ExtResource("3_wepu4")
+level = 66
+move = 359
+
+[sub_resource type="Resource" id="Resource_xuvfc"]
+script = ExtResource("3_wepu4")
+level = 72
+move = 416
+
+[sub_resource type="Resource" id="Resource_u7nk6"]
+script = ExtResource("3_wepu4")
+level = 78
+move = 462
+
+[resource]
+script = ExtResource("4_mqof7")
+id = 486
+display_name = "Regigigas"
+category = "Colossal"
+national_dex = 486
+pokedex = "There is an enduring legend that
+states this Pokémon shaped Regirock,
+Regice, and Registeel out of clay, ice,
+and magma."
+type_1 = 1
+base_hp = 110
+base_atk = 160
+base_def = 110
+base_spa = 80
+base_spd = 110
+base_spe = 100
+ev_atk = 3
+catch_rate = 3
+base_exp = 220
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 112
+height_dm = 37
+weight_hg = 4200
+body_color = 8
+level_moves = Array[ExtResource("3_wepu4")]([SubResource("Resource_brkts"), SubResource("Resource_erifd"), SubResource("Resource_h1w7u"), SubResource("Resource_l3esi"), SubResource("Resource_w64ky"), SubResource("Resource_88r10"), SubResource("Resource_cd3y1"), SubResource("Resource_24y0e"), SubResource("Resource_85m81"), SubResource("Resource_0iolj"), SubResource("Resource_01j0w"), SubResource("Resource_jsk6t"), SubResource("Resource_lujq6"), SubResource("Resource_xuvfc"), SubResource("Resource_u7nk6")])

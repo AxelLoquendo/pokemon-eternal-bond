@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bu6cmhbvwqnxa"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8pgmo"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_cedk0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dc4ln"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_y1qpx"]
+
+[sub_resource type="Resource" id="Resource_ehvpn"]
+script = ExtResource("3_dc4ln")
+move = 313
+
+[sub_resource type="Resource" id="Resource_w3q6g"]
+script = ExtResource("3_dc4ln")
+move = 383
+
+[sub_resource type="Resource" id="Resource_1g67b"]
+script = ExtResource("3_dc4ln")
+level = 4
+move = 175
+
+[sub_resource type="Resource" id="Resource_vu5ho"]
+script = ExtResource("3_dc4ln")
+level = 8
+move = 88
+
+[sub_resource type="Resource" id="Resource_s4h46"]
+script = ExtResource("3_dc4ln")
+level = 12
+move = 335
+
+[sub_resource type="Resource" id="Resource_u44ry"]
+script = ExtResource("3_dc4ln")
+level = 16
+move = 102
+
+[sub_resource type="Resource" id="Resource_b4yps"]
+script = ExtResource("3_dc4ln")
+level = 20
+move = 317
+
+[sub_resource type="Resource" id="Resource_i1apy"]
+script = ExtResource("3_dc4ln")
+level = 24
+move = 669
+
+[sub_resource type="Resource" id="Resource_1pbia"]
+script = ExtResource("3_dc4ln")
+level = 28
+move = 389
+
+[sub_resource type="Resource" id="Resource_bo4cg"]
+script = ExtResource("3_dc4ln")
+level = 32
+move = 157
+
+[sub_resource type="Resource" id="Resource_uw1ua"]
+script = ExtResource("3_dc4ln")
+level = 36
+move = 67
+
+[sub_resource type="Resource" id="Resource_22is4"]
+script = ExtResource("3_dc4ln")
+level = 40
+move = 68
+
+[sub_resource type="Resource" id="Resource_rf50k"]
+script = ExtResource("3_dc4ln")
+level = 44
+move = 38
+
+[resource]
+script = ExtResource("4_y1qpx")
+id = 438
+display_name = "Bonsly"
+category = "Bonsai"
+national_dex = 438
+pokedex = "Bonsly prefers an arid atmosphere.
+In order to adjust the level of fluids
+in its body, it exudes water from its eyes.
+This makes it appear to be crying."
+type_1 = 6
+base_hp = 50
+base_atk = 80
+base_def = 95
+base_spa = 10
+base_spd = 45
+base_spe = 10
+ev_def = 1
+catch_rate = 255
+base_exp = 58
+ability_1 = 5
+ability_2 = 69
+ability_hidden = 155
+height_dm = 5
+weight_hg = 150
+body_color = 5
+level_moves = Array[ExtResource("3_dc4ln")]([SubResource("Resource_ehvpn"), SubResource("Resource_w3q6g"), SubResource("Resource_1g67b"), SubResource("Resource_vu5ho"), SubResource("Resource_s4h46"), SubResource("Resource_u44ry"), SubResource("Resource_b4yps"), SubResource("Resource_i1apy"), SubResource("Resource_1pbia"), SubResource("Resource_bo4cg"), SubResource("Resource_uw1ua"), SubResource("Resource_22is4"), SubResource("Resource_rf50k")])
+egg_moves = Array[int]([120, 29, 106, 111, 205, 328, 446, 174, 203])

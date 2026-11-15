@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cq6ivkd6rm3j6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7cxxd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_mxvrd"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_eup3l"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tf8nj"]
+
+[sub_resource type="Resource" id="Resource_ltfn4"]
+script = ExtResource("1_7cxxd")
+method = "LEVEL"
+param = "31"
+target = 85
+
+[sub_resource type="Resource" id="Resource_ybg0q"]
+script = ExtResource("3_eup3l")
+move = 45
+
+[sub_resource type="Resource" id="Resource_gifkk"]
+script = ExtResource("3_eup3l")
+move = 64
+
+[sub_resource type="Resource" id="Resource_u17c2"]
+script = ExtResource("3_eup3l")
+level = 5
+move = 98
+
+[sub_resource type="Resource" id="Resource_d6o6g"]
+script = ExtResource("3_eup3l")
+level = 9
+move = 31
+
+[sub_resource type="Resource" id="Resource_ugpkm"]
+script = ExtResource("3_eup3l")
+level = 14
+move = 365
+
+[sub_resource type="Resource" id="Resource_0befi"]
+script = ExtResource("3_eup3l")
+level = 19
+move = 458
+
+[sub_resource type="Resource" id="Resource_6kj70"]
+script = ExtResource("3_eup3l")
+level = 23
+move = 97
+
+[sub_resource type="Resource" id="Resource_r3thp"]
+script = ExtResource("3_eup3l")
+level = 27
+move = 253
+
+[sub_resource type="Resource" id="Resource_1punh"]
+script = ExtResource("3_eup3l")
+level = 30
+move = 367
+
+[sub_resource type="Resource" id="Resource_ipv24"]
+script = ExtResource("3_eup3l")
+level = 33
+move = 14
+
+[sub_resource type="Resource" id="Resource_02khg"]
+script = ExtResource("3_eup3l")
+level = 36
+move = 65
+
+[sub_resource type="Resource" id="Resource_l7ei7"]
+script = ExtResource("3_eup3l")
+level = 39
+move = 283
+
+[sub_resource type="Resource" id="Resource_241o0"]
+script = ExtResource("3_eup3l")
+level = 43
+move = 37
+
+[resource]
+script = ExtResource("4_tf8nj")
+id = 84
+display_name = "Doduo"
+category = "Twin Bird"
+national_dex = 84
+pokedex = "Even while eating or sleeping, one of the
+heads remains always vigilant for any sign
+of danger. When threatened, it flees at
+over 60 miles per hour."
+type_1 = 1
+type_2 = 3
+base_hp = 35
+base_atk = 85
+base_def = 45
+base_spa = 35
+base_spd = 35
+base_spe = 75
+ev_atk = 1
+catch_rate = 190
+base_exp = 62
+egg_group_1 = 4
+ability_1 = 50
+ability_2 = 48
+ability_hidden = 77
+item_rare = 434
+height_dm = 14
+weight_hg = 392
+body_color = 5
+level_moves = Array[ExtResource("3_eup3l")]([SubResource("Resource_ybg0q"), SubResource("Resource_gifkk"), SubResource("Resource_u17c2"), SubResource("Resource_d6o6g"), SubResource("Resource_ugpkm"), SubResource("Resource_0befi"), SubResource("Resource_6kj70"), SubResource("Resource_r3thp"), SubResource("Resource_1punh"), SubResource("Resource_ipv24"), SubResource("Resource_02khg"), SubResource("Resource_l7ei7"), SubResource("Resource_241o0")])
+egg_moves = Array[int]([98, 48, 114, 185, 175, 283, 119, 413, 363, 372])
+evolutions = Array[ExtResource("1_7cxxd")]([SubResource("Resource_ltfn4")])

@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dtpx3e4a7w4m1"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_06e6p"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_anlxa"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_edg4v"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_l46s2"]
+
+[sub_resource type="Resource" id="Resource_s1ar6"]
+script = ExtResource("3_edg4v")
+level = 0
+move = 623
+
+[sub_resource type="Resource" id="Resource_7wdr6"]
+script = ExtResource("3_edg4v")
+move = 623
+
+[sub_resource type="Resource" id="Resource_feuph"]
+script = ExtResource("3_edg4v")
+move = 522
+
+[sub_resource type="Resource" id="Resource_4878i"]
+script = ExtResource("3_edg4v")
+move = 28
+
+[sub_resource type="Resource" id="Resource_32kbf"]
+script = ExtResource("3_edg4v")
+move = 111
+
+[sub_resource type="Resource" id="Resource_yyvyi"]
+script = ExtResource("3_edg4v")
+move = 180
+
+[sub_resource type="Resource" id="Resource_o1oeh"]
+script = ExtResource("3_edg4v")
+level = 4
+move = 249
+
+[sub_resource type="Resource" id="Resource_njixo"]
+script = ExtResource("3_edg4v")
+level = 8
+move = 210
+
+[sub_resource type="Resource" id="Resource_wy0ck"]
+script = ExtResource("3_edg4v")
+level = 12
+move = 341
+
+[sub_resource type="Resource" id="Resource_lar7p"]
+script = ExtResource("3_edg4v")
+level = 16
+move = 450
+
+[sub_resource type="Resource" id="Resource_xcqpa"]
+script = ExtResource("3_edg4v")
+level = 20
+move = 334
+
+[sub_resource type="Resource" id="Resource_ber7v"]
+script = ExtResource("3_edg4v")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_f177c"]
+script = ExtResource("3_edg4v")
+level = 28
+move = 163
+
+[sub_resource type="Resource" id="Resource_qmp0b"]
+script = ExtResource("3_edg4v")
+level = 32
+move = 534
+
+[sub_resource type="Resource" id="Resource_86107"]
+script = ExtResource("3_edg4v")
+level = 36
+move = 42
+
+[sub_resource type="Resource" id="Resource_qspx5"]
+script = ExtResource("3_edg4v")
+level = 40
+move = 14
+
+[sub_resource type="Resource" id="Resource_cmj20"]
+script = ExtResource("3_edg4v")
+level = 44
+move = 664
+
+[resource]
+script = ExtResource("4_l46s2")
+id = 768
+display_name = "Golisopod"
+category = "Hard Scale"
+national_dex = 768
+pokedex = "It battles skillfully with its six arms,
+with a flashing slash of its giant sharp
+claws, it cleaves seawater--or even
+air--right in two."
+type_1 = 7
+type_2 = 12
+base_hp = 75
+base_atk = 125
+base_def = 140
+base_spa = 60
+base_spd = 90
+base_spe = 40
+ev_def = 2
+base_exp = 186
+egg_group_1 = 3
+egg_group_2 = 9
+ability_1 = 194
+height_dm = 20
+weight_hg = 1080
+body_color = 7
+level_moves = Array[ExtResource("3_edg4v")]([SubResource("Resource_s1ar6"), SubResource("Resource_7wdr6"), SubResource("Resource_feuph"), SubResource("Resource_4878i"), SubResource("Resource_32kbf"), SubResource("Resource_yyvyi"), SubResource("Resource_o1oeh"), SubResource("Resource_njixo"), SubResource("Resource_wy0ck"), SubResource("Resource_lar7p"), SubResource("Resource_xcqpa"), SubResource("Resource_ber7v"), SubResource("Resource_f177c"), SubResource("Resource_qmp0b"), SubResource("Resource_86107"), SubResource("Resource_qspx5"), SubResource("Resource_cmj20")])
+form_species = Array[int]([768, 1564])

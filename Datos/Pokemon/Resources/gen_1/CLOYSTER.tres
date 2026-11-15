@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dct462xpqwcj2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_tkpja"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ku6o3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_tcma0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tthmp"]
+
+[sub_resource type="Resource" id="Resource_wtlm7"]
+script = ExtResource("3_tcma0")
+level = 0
+move = 333
+
+[sub_resource type="Resource" id="Resource_cydbd"]
+script = ExtResource("3_tcma0")
+move = 556
+
+[sub_resource type="Resource" id="Resource_iu10t"]
+script = ExtResource("3_tcma0")
+move = 504
+
+[sub_resource type="Resource" id="Resource_ojgcg"]
+script = ExtResource("3_tcma0")
+move = 420
+
+[sub_resource type="Resource" id="Resource_yh7w3"]
+script = ExtResource("3_tcma0")
+move = 390
+
+[sub_resource type="Resource" id="Resource_oi1tp"]
+script = ExtResource("3_tcma0")
+move = 334
+
+[sub_resource type="Resource" id="Resource_obkdt"]
+script = ExtResource("3_tcma0")
+move = 250
+
+[sub_resource type="Resource" id="Resource_88xp7"]
+script = ExtResource("3_tcma0")
+move = 191
+
+[sub_resource type="Resource" id="Resource_rln48"]
+script = ExtResource("3_tcma0")
+move = 182
+
+[sub_resource type="Resource" id="Resource_agvvo"]
+script = ExtResource("3_tcma0")
+move = 110
+
+[sub_resource type="Resource" id="Resource_mqqi8"]
+script = ExtResource("3_tcma0")
+move = 62
+
+[sub_resource type="Resource" id="Resource_pxguq"]
+script = ExtResource("3_tcma0")
+move = 58
+
+[sub_resource type="Resource" id="Resource_sm08e"]
+script = ExtResource("3_tcma0")
+move = 56
+
+[sub_resource type="Resource" id="Resource_byfar"]
+script = ExtResource("3_tcma0")
+move = 55
+
+[sub_resource type="Resource" id="Resource_0daya"]
+script = ExtResource("3_tcma0")
+move = 48
+
+[sub_resource type="Resource" id="Resource_71qsv"]
+script = ExtResource("3_tcma0")
+move = 43
+
+[sub_resource type="Resource" id="Resource_dhkbd"]
+script = ExtResource("3_tcma0")
+move = 33
+
+[sub_resource type="Resource" id="Resource_gjmsf"]
+script = ExtResource("3_tcma0")
+level = 5
+move = 534
+
+[resource]
+script = ExtResource("4_tthmp")
+id = 91
+display_name = "Cloyster"
+category = "Bivalve"
+national_dex = 91
+pokedex = "It swims in the sea by swallowing water,
+then jetting it out toward the rear.
+The Cloyster shoots spikes from its
+shell using the same system."
+type_1 = 12
+type_2 = 16
+base_hp = 50
+base_atk = 95
+base_def = 180
+base_spa = 85
+base_spd = 45
+base_spe = 70
+ev_def = 2
+catch_rate = 60
+base_exp = 184
+growth_rate = 5
+egg_group_1 = 9
+ability_1 = 75
+ability_hidden = 142
+item_common = 140
+item_rare = 141
+height_dm = 15
+weight_hg = 1325
+body_color = 6
+level_moves = Array[ExtResource("3_tcma0")]([SubResource("Resource_wtlm7"), SubResource("Resource_cydbd"), SubResource("Resource_iu10t"), SubResource("Resource_ojgcg"), SubResource("Resource_yh7w3"), SubResource("Resource_oi1tp"), SubResource("Resource_obkdt"), SubResource("Resource_88xp7"), SubResource("Resource_rln48"), SubResource("Resource_agvvo"), SubResource("Resource_mqqi8"), SubResource("Resource_pxguq"), SubResource("Resource_sm08e"), SubResource("Resource_byfar"), SubResource("Resource_0daya"), SubResource("Resource_71qsv"), SubResource("Resource_dhkbd"), SubResource("Resource_gjmsf")])

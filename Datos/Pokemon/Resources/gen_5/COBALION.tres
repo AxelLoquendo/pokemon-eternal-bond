@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bq555r05ol42b"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6cbag"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7u3oe"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_l6w4p"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r0fxk"]
+
+[sub_resource type="Resource" id="Resource_bi4w8"]
+script = ExtResource("3_l6w4p")
+move = 43
+
+[sub_resource type="Resource" id="Resource_pkorn"]
+script = ExtResource("3_l6w4p")
+move = 98
+
+[sub_resource type="Resource" id="Resource_vpqlx"]
+script = ExtResource("3_l6w4p")
+move = 270
+
+[sub_resource type="Resource" id="Resource_hir2h"]
+script = ExtResource("3_l6w4p")
+move = 526
+
+[sub_resource type="Resource" id="Resource_hgcjn"]
+script = ExtResource("3_l6w4p")
+level = 7
+move = 232
+
+[sub_resource type="Resource" id="Resource_eaw7e"]
+script = ExtResource("3_l6w4p")
+level = 14
+move = 501
+
+[sub_resource type="Resource" id="Resource_tlwhq"]
+script = ExtResource("3_l6w4p")
+level = 21
+move = 24
+
+[sub_resource type="Resource" id="Resource_70nfe"]
+script = ExtResource("3_l6w4p")
+level = 28
+move = 514
+
+[sub_resource type="Resource" id="Resource_2q30w"]
+script = ExtResource("3_l6w4p")
+level = 35
+move = 368
+
+[sub_resource type="Resource" id="Resource_bric2"]
+script = ExtResource("3_l6w4p")
+level = 42
+move = 36
+
+[sub_resource type="Resource" id="Resource_ws5lf"]
+script = ExtResource("3_l6w4p")
+level = 49
+move = 533
+
+[sub_resource type="Resource" id="Resource_chwli"]
+script = ExtResource("3_l6w4p")
+level = 56
+move = 14
+
+[sub_resource type="Resource" id="Resource_vn3ac"]
+script = ExtResource("3_l6w4p")
+level = 63
+move = 442
+
+[sub_resource type="Resource" id="Resource_ucobm"]
+script = ExtResource("3_l6w4p")
+level = 70
+move = 370
+
+[resource]
+script = ExtResource("4_r0fxk")
+id = 638
+display_name = "Cobalion"
+category = "Iron Will"
+national_dex = 638
+pokedex = "It has a body and heart of steel. This
+legendary Pokémon battled against humans
+to protect Pokémon. Its personality
+is calm and composed."
+type_1 = 9
+type_2 = 2
+base_hp = 91
+base_atk = 90
+base_def = 129
+base_spa = 90
+base_spd = 72
+base_spe = 108
+ev_def = 3
+catch_rate = 3
+base_exp = 290
+base_friendship = 35
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 80
+ability_1 = 154
+height_dm = 21
+weight_hg = 2500
+body_color = 1
+level_moves = Array[ExtResource("3_l6w4p")]([SubResource("Resource_bi4w8"), SubResource("Resource_pkorn"), SubResource("Resource_vpqlx"), SubResource("Resource_hir2h"), SubResource("Resource_hgcjn"), SubResource("Resource_eaw7e"), SubResource("Resource_tlwhq"), SubResource("Resource_70nfe"), SubResource("Resource_2q30w"), SubResource("Resource_bric2"), SubResource("Resource_ws5lf"), SubResource("Resource_chwli"), SubResource("Resource_vn3ac"), SubResource("Resource_ucobm")])

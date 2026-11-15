@@ -1,0 +1,119 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bppsv8plsbjvo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_dgpjj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_iwtu6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fj1fx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_08i82"]
+
+[sub_resource type="Resource" id="Resource_o8qb1"]
+script = ExtResource("3_fj1fx")
+level = 0
+move = 21
+
+[sub_resource type="Resource" id="Resource_qb1pw"]
+script = ExtResource("3_fj1fx")
+move = 452
+
+[sub_resource type="Resource" id="Resource_sctjb"]
+script = ExtResource("3_fj1fx")
+move = 444
+
+[sub_resource type="Resource" id="Resource_rftur"]
+script = ExtResource("3_fj1fx")
+move = 383
+
+[sub_resource type="Resource" id="Resource_e1neu"]
+script = ExtResource("3_fj1fx")
+move = 359
+
+[sub_resource type="Resource" id="Resource_1befo"]
+script = ExtResource("3_fj1fx")
+move = 175
+
+[sub_resource type="Resource" id="Resource_e5j1r"]
+script = ExtResource("3_fj1fx")
+move = 313
+
+[sub_resource type="Resource" id="Resource_x2blm"]
+script = ExtResource("3_fj1fx")
+move = 88
+
+[sub_resource type="Resource" id="Resource_r1ugc"]
+script = ExtResource("3_fj1fx")
+level = 12
+move = 335
+
+[sub_resource type="Resource" id="Resource_hg8et"]
+script = ExtResource("3_fj1fx")
+level = 16
+move = 102
+
+[sub_resource type="Resource" id="Resource_rwjjw"]
+script = ExtResource("3_fj1fx")
+level = 20
+move = 317
+
+[sub_resource type="Resource" id="Resource_hv1or"]
+script = ExtResource("3_fj1fx")
+level = 24
+move = 669
+
+[sub_resource type="Resource" id="Resource_bo30i"]
+script = ExtResource("3_fj1fx")
+level = 28
+move = 389
+
+[sub_resource type="Resource" id="Resource_wlcgx"]
+script = ExtResource("3_fj1fx")
+level = 32
+move = 157
+
+[sub_resource type="Resource" id="Resource_q86oj"]
+script = ExtResource("3_fj1fx")
+level = 36
+move = 67
+
+[sub_resource type="Resource" id="Resource_3y26g"]
+script = ExtResource("3_fj1fx")
+level = 40
+move = 68
+
+[sub_resource type="Resource" id="Resource_m7njq"]
+script = ExtResource("3_fj1fx")
+level = 44
+move = 38
+
+[sub_resource type="Resource" id="Resource_1hule"]
+script = ExtResource("3_fj1fx")
+level = 48
+move = 457
+
+[resource]
+script = ExtResource("4_08i82")
+id = 185
+display_name = "Sudowoodo"
+category = "Imitation"
+national_dex = 185
+pokedex = "It mimics a tree to avoid being attacked
+by enemies. But since its forelegs
+remain green throughout the year, it is
+easily identified as a fake in the winter."
+type_1 = 6
+base_hp = 70
+base_atk = 100
+base_def = 115
+base_spa = 30
+base_spd = 65
+base_spe = 30
+ev_def = 2
+catch_rate = 65
+base_exp = 144
+egg_group_1 = 10
+ability_1 = 5
+ability_2 = 69
+ability_hidden = 155
+height_dm = 12
+weight_hg = 380
+body_color = 5
+level_moves = Array[ExtResource("3_fj1fx")]([SubResource("Resource_o8qb1"), SubResource("Resource_qb1pw"), SubResource("Resource_sctjb"), SubResource("Resource_rftur"), SubResource("Resource_e1neu"), SubResource("Resource_1befo"), SubResource("Resource_e5j1r"), SubResource("Resource_x2blm"), SubResource("Resource_r1ugc"), SubResource("Resource_hg8et"), SubResource("Resource_rwjjw"), SubResource("Resource_hv1or"), SubResource("Resource_bo30i"), SubResource("Resource_wlcgx"), SubResource("Resource_q86oj"), SubResource("Resource_3y26g"), SubResource("Resource_m7njq"), SubResource("Resource_1hule")])
+egg_moves = Array[int]([120, 29, 106, 111, 205, 328, 446, 174, 203])

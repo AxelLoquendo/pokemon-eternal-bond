@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://nmjbqbou0syh"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_c8u5n"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ar8cm"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2jyq8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_db377"]
+
+[sub_resource type="Resource" id="Resource_aqw8n"]
+script = ExtResource("3_2jyq8")
+level = 0
+move = 625
+
+[sub_resource type="Resource" id="Resource_b5xo4"]
+script = ExtResource("3_2jyq8")
+move = 633
+
+[sub_resource type="Resource" id="Resource_p63vg"]
+script = ExtResource("3_2jyq8")
+move = 566
+
+[sub_resource type="Resource" id="Resource_mmjli"]
+script = ExtResource("3_2jyq8")
+move = 437
+
+[sub_resource type="Resource" id="Resource_722v7"]
+script = ExtResource("3_2jyq8")
+move = 369
+
+[sub_resource type="Resource" id="Resource_5rjs3"]
+script = ExtResource("3_2jyq8")
+move = 310
+
+[sub_resource type="Resource" id="Resource_gdb2a"]
+script = ExtResource("3_2jyq8")
+move = 33
+
+[sub_resource type="Resource" id="Resource_p6jj2"]
+script = ExtResource("3_2jyq8")
+move = 180
+
+[sub_resource type="Resource" id="Resource_x56aq"]
+script = ExtResource("3_2jyq8")
+move = 45
+
+[sub_resource type="Resource" id="Resource_nwf0f"]
+script = ExtResource("3_2jyq8")
+level = 9
+move = 64
+
+[sub_resource type="Resource" id="Resource_w5qdu"]
+script = ExtResource("3_2jyq8")
+level = 12
+move = 425
+
+[sub_resource type="Resource" id="Resource_3bfbv"]
+script = ExtResource("3_2jyq8")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_vqs0k"]
+script = ExtResource("3_2jyq8")
+level = 20
+move = 235
+
+[sub_resource type="Resource" id="Resource_wdocg"]
+script = ExtResource("3_2jyq8")
+level = 25
+move = 365
+
+[sub_resource type="Resource" id="Resource_qgiq7"]
+script = ExtResource("3_2jyq8")
+level = 30
+move = 417
+
+[sub_resource type="Resource" id="Resource_iny1u"]
+script = ExtResource("3_2jyq8")
+level = 37
+move = 389
+
+[sub_resource type="Resource" id="Resource_ac0p2"]
+script = ExtResource("3_2jyq8")
+level = 44
+move = 348
+
+[sub_resource type="Resource" id="Resource_uwpek"]
+script = ExtResource("3_2jyq8")
+level = 51
+move = 297
+
+[sub_resource type="Resource" id="Resource_12i50"]
+script = ExtResource("3_2jyq8")
+level = 58
+move = 413
+
+[resource]
+script = ExtResource("4_db377")
+id = 724
+display_name = "Decidueye"
+category = "Arrow Quill"
+national_dex = 724
+pokedex = "Decidueye is cool and cautious.
+It fires arrow quills from its wings with
+such precision, they can pierce a pebble
+at distances of over a hundred yards."
+type_1 = 13
+type_2 = 8
+base_hp = 78
+base_atk = 107
+base_def = 75
+base_spa = 100
+base_spd = 100
+base_spe = 70
+ev_atk = 3
+base_exp = 265
+gender_ratio = 31
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 65
+ability_hidden = 203
+height_dm = 16
+weight_hg = 366
+body_color = 5
+level_moves = Array[ExtResource("3_2jyq8")]([SubResource("Resource_aqw8n"), SubResource("Resource_b5xo4"), SubResource("Resource_p63vg"), SubResource("Resource_mmjli"), SubResource("Resource_722v7"), SubResource("Resource_5rjs3"), SubResource("Resource_gdb2a"), SubResource("Resource_p6jj2"), SubResource("Resource_x56aq"), SubResource("Resource_nwf0f"), SubResource("Resource_w5qdu"), SubResource("Resource_3bfbv"), SubResource("Resource_vqs0k"), SubResource("Resource_wdocg"), SubResource("Resource_qgiq7"), SubResource("Resource_iny1u"), SubResource("Resource_ac0p2"), SubResource("Resource_uwpek"), SubResource("Resource_12i50")])
+form_species = Array[int]([724, 1008])

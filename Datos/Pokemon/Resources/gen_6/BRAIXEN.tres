@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bdbt6h50vqkr3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7cs1c"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_sbqu1"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1e05d"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hphfe"]
+
+[sub_resource type="Resource" id="Resource_x4w05"]
+script = ExtResource("1_7cs1c")
+method = "LEVEL"
+param = "36"
+target = 655
+
+[sub_resource type="Resource" id="Resource_yxk37"]
+script = ExtResource("3_1e05d")
+move = 10
+
+[sub_resource type="Resource" id="Resource_kf4oo"]
+script = ExtResource("3_1e05d")
+move = 39
+
+[sub_resource type="Resource" id="Resource_j7oyf"]
+script = ExtResource("3_1e05d")
+move = 52
+
+[sub_resource type="Resource" id="Resource_x72qa"]
+script = ExtResource("3_1e05d")
+level = 11
+move = 336
+
+[sub_resource type="Resource" id="Resource_buksq"]
+script = ExtResource("3_1e05d")
+level = 14
+move = 488
+
+[sub_resource type="Resource" id="Resource_ibnk3"]
+script = ExtResource("3_1e05d")
+level = 18
+move = 60
+
+[sub_resource type="Resource" id="Resource_knehp"]
+script = ExtResource("3_1e05d")
+level = 22
+move = 83
+
+[sub_resource type="Resource" id="Resource_36t0g"]
+script = ExtResource("3_1e05d")
+level = 28
+move = 113
+
+[sub_resource type="Resource" id="Resource_lwsa5"]
+script = ExtResource("3_1e05d")
+level = 36
+move = 473
+
+[sub_resource type="Resource" id="Resource_xrp4a"]
+script = ExtResource("3_1e05d")
+level = 41
+move = 53
+
+[sub_resource type="Resource" id="Resource_g50rs"]
+script = ExtResource("3_1e05d")
+level = 45
+move = 261
+
+[sub_resource type="Resource" id="Resource_31582"]
+script = ExtResource("3_1e05d")
+level = 49
+move = 94
+
+[sub_resource type="Resource" id="Resource_tvhvs"]
+script = ExtResource("3_1e05d")
+level = 52
+move = 241
+
+[sub_resource type="Resource" id="Resource_1lwby"]
+script = ExtResource("3_1e05d")
+level = 56
+move = 478
+
+[sub_resource type="Resource" id="Resource_2q8fb"]
+script = ExtResource("3_1e05d")
+level = 59
+move = 126
+
+[resource]
+script = ExtResource("4_hphfe")
+id = 654
+display_name = "Braixen"
+category = "Fox"
+national_dex = 654
+pokedex = "Braixen has a twig stuck in its tail.
+When the twig is plucked from its tail,
+friction sets the twig alight. The flame
+is used to send signals to its allies."
+type_1 = 11
+base_hp = 59
+base_atk = 59
+base_def = 58
+base_spa = 90
+base_spd = 70
+base_spe = 73
+ev_spa = 2
+base_exp = 143
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 66
+ability_hidden = 170
+height_dm = 10
+weight_hg = 145
+level_moves = Array[ExtResource("3_1e05d")]([SubResource("Resource_yxk37"), SubResource("Resource_kf4oo"), SubResource("Resource_j7oyf"), SubResource("Resource_x72qa"), SubResource("Resource_buksq"), SubResource("Resource_ibnk3"), SubResource("Resource_knehp"), SubResource("Resource_36t0g"), SubResource("Resource_lwsa5"), SubResource("Resource_xrp4a"), SubResource("Resource_g50rs"), SubResource("Resource_31582"), SubResource("Resource_tvhvs"), SubResource("Resource_1lwby"), SubResource("Resource_2q8fb")])
+evolutions = Array[ExtResource("1_7cs1c")]([SubResource("Resource_x4w05")])

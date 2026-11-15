@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://didbbjc2fgqat"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1l8jm"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i5ib6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hq14l"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_q8ril"]
+
+[sub_resource type="Resource" id="Resource_83y85"]
+script = ExtResource("1_1l8jm")
+method = "TRADE"
+param = "0"
+target = 65
+
+[sub_resource type="Resource" id="Resource_r272p"]
+script = ExtResource("1_1l8jm")
+method = "ITEM"
+param = "ITEM_LINKING_CORD"
+target = 65
+
+[sub_resource type="Resource" id="Resource_sff73"]
+script = ExtResource("3_hq14l")
+level = 0
+move = 93
+
+[sub_resource type="Resource" id="Resource_nf6ye"]
+script = ExtResource("3_hq14l")
+move = 93
+
+[sub_resource type="Resource" id="Resource_prsj7"]
+script = ExtResource("3_hq14l")
+move = 134
+
+[sub_resource type="Resource" id="Resource_ir7l5"]
+script = ExtResource("3_hq14l")
+move = 50
+
+[sub_resource type="Resource" id="Resource_npbtm"]
+script = ExtResource("3_hq14l")
+move = 100
+
+[sub_resource type="Resource" id="Resource_r2uba"]
+script = ExtResource("3_hq14l")
+level = 5
+move = 60
+
+[sub_resource type="Resource" id="Resource_5q1em"]
+script = ExtResource("3_hq14l")
+level = 10
+move = 115
+
+[sub_resource type="Resource" id="Resource_53ph3"]
+script = ExtResource("3_hq14l")
+level = 15
+move = 502
+
+[sub_resource type="Resource" id="Resource_b81k7"]
+script = ExtResource("3_hq14l")
+level = 20
+move = 427
+
+[sub_resource type="Resource" id="Resource_awjom"]
+script = ExtResource("3_hq14l")
+level = 25
+move = 105
+
+[sub_resource type="Resource" id="Resource_446ed"]
+script = ExtResource("3_hq14l")
+level = 30
+move = 473
+
+[sub_resource type="Resource" id="Resource_gnkmf"]
+script = ExtResource("3_hq14l")
+level = 35
+move = 94
+
+[sub_resource type="Resource" id="Resource_v0sbo"]
+script = ExtResource("3_hq14l")
+level = 40
+move = 272
+
+[sub_resource type="Resource" id="Resource_hq3bu"]
+script = ExtResource("3_hq14l")
+level = 45
+move = 248
+
+[sub_resource type="Resource" id="Resource_fchv5"]
+script = ExtResource("3_hq14l")
+level = 50
+move = 347
+
+[resource]
+script = ExtResource("4_q8ril")
+id = 64
+display_name = "Kadabra"
+category = "Psi"
+national_dex = 64
+pokedex = "It is rumored that a boy with psychic
+abilities suddenly transformed into
+Kadabra while he was assisting research
+into extrasensory powers."
+type_1 = 15
+base_hp = 40
+base_atk = 35
+base_def = 30
+base_spa = 120
+base_spd = 70
+base_spe = 105
+ev_spa = 2
+catch_rate = 100
+base_exp = 140
+gender_ratio = 63
+growth_rate = 3
+egg_group_1 = 8
+ability_1 = 28
+ability_2 = 39
+ability_hidden = 98
+item_rare = 435
+height_dm = 13
+weight_hg = 565
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_hq14l")]([SubResource("Resource_sff73"), SubResource("Resource_nf6ye"), SubResource("Resource_prsj7"), SubResource("Resource_ir7l5"), SubResource("Resource_npbtm"), SubResource("Resource_r2uba"), SubResource("Resource_5q1em"), SubResource("Resource_53ph3"), SubResource("Resource_b81k7"), SubResource("Resource_awjom"), SubResource("Resource_446ed"), SubResource("Resource_gnkmf"), SubResource("Resource_v0sbo"), SubResource("Resource_hq3bu"), SubResource("Resource_fchv5")])
+evolutions = Array[ExtResource("1_1l8jm")]([SubResource("Resource_83y85"), SubResource("Resource_r272p")])

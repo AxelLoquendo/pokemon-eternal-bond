@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dk8m1c8gf4m2y"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ybujw"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_q7mo4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6ouce"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0i2hj"]
+
+[sub_resource type="Resource" id="Resource_08gdu"]
+script = ExtResource("1_ybujw")
+method = "ITEM"
+param = "ITEM_METAL_ALLOY"
+target = 1425
+
+[sub_resource type="Resource" id="Resource_45fhx"]
+script = ExtResource("3_6ouce")
+move = 43
+
+[sub_resource type="Resource" id="Resource_3mvev"]
+script = ExtResource("3_6ouce")
+move = 232
+
+[sub_resource type="Resource" id="Resource_e0rjw"]
+script = ExtResource("3_6ouce")
+level = 6
+move = 249
+
+[sub_resource type="Resource" id="Resource_u7ouk"]
+script = ExtResource("3_6ouce")
+level = 12
+move = 468
+
+[sub_resource type="Resource" id="Resource_obs8a"]
+script = ExtResource("3_6ouce")
+level = 18
+move = 319
+
+[sub_resource type="Resource" id="Resource_i5xoy"]
+script = ExtResource("3_6ouce")
+level = 24
+move = 712
+
+[sub_resource type="Resource" id="Resource_4ygky"]
+script = ExtResource("3_6ouce")
+level = 30
+move = 525
+
+[sub_resource type="Resource" id="Resource_qd3wn"]
+script = ExtResource("3_6ouce")
+level = 36
+move = 334
+
+[sub_resource type="Resource" id="Resource_cicor"]
+script = ExtResource("3_6ouce")
+level = 42
+move = 116
+
+[sub_resource type="Resource" id="Resource_tf502"]
+script = ExtResource("3_6ouce")
+level = 48
+move = 337
+
+[sub_resource type="Resource" id="Resource_ahy1k"]
+script = ExtResource("3_6ouce")
+level = 54
+move = 430
+
+[sub_resource type="Resource" id="Resource_xtk2w"]
+script = ExtResource("3_6ouce")
+level = 60
+move = 368
+
+[sub_resource type="Resource" id="Resource_bf8en"]
+script = ExtResource("3_6ouce")
+level = 66
+move = 63
+
+[resource]
+script = ExtResource("4_0i2hj")
+id = 884
+display_name = "Duraludon"
+category = "Alloy"
+national_dex = 884
+pokedex = "Its body resembles polished metal, and
+it's both lightweight and strong. The only
+drawback is that it rusts easily."
+type_1 = 9
+type_2 = 17
+base_hp = 70
+base_atk = 95
+base_def = 115
+base_spa = 120
+base_spd = 50
+base_spe = 85
+ev_spa = 2
+base_exp = 187
+egg_cycles = 30
+egg_group_1 = 10
+egg_group_2 = 14
+ability_1 = 135
+ability_2 = 134
+ability_hidden = 242
+height_dm = 18
+weight_hg = 400
+body_color = 8
+level_moves = Array[ExtResource("3_6ouce")]([SubResource("Resource_45fhx"), SubResource("Resource_3mvev"), SubResource("Resource_e0rjw"), SubResource("Resource_u7ouk"), SubResource("Resource_obs8a"), SubResource("Resource_i5xoy"), SubResource("Resource_4ygky"), SubResource("Resource_qd3wn"), SubResource("Resource_cicor"), SubResource("Resource_tf502"), SubResource("Resource_ahy1k"), SubResource("Resource_xtk2w"), SubResource("Resource_bf8en")])
+egg_moves = Array[int]([163, 400, 243])
+evolutions = Array[ExtResource("1_ybujw")]([SubResource("Resource_08gdu")])
+form_species = Array[int]([884, 1520])

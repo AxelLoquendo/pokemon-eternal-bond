@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ca6vid2h8vlrg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0vsar"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_a2yox"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7hcwp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_m60if"]
+
+[sub_resource type="Resource" id="Resource_4rgat"]
+script = ExtResource("3_7hcwp")
+move = 33
+
+[sub_resource type="Resource" id="Resource_0108v"]
+script = ExtResource("3_7hcwp")
+move = 181
+
+[sub_resource type="Resource" id="Resource_vasmc"]
+script = ExtResource("3_7hcwp")
+level = 6
+move = 45
+
+[sub_resource type="Resource" id="Resource_sjhyg"]
+script = ExtResource("3_7hcwp")
+level = 9
+move = 497
+
+[sub_resource type="Resource" id="Resource_2sh7a"]
+script = ExtResource("3_7hcwp")
+level = 12
+move = 420
+
+[sub_resource type="Resource" id="Resource_g5ck7"]
+script = ExtResource("3_7hcwp")
+level = 15
+move = 156
+
+[sub_resource type="Resource" id="Resource_gns3c"]
+script = ExtResource("3_7hcwp")
+level = 19
+move = 36
+
+[sub_resource type="Resource" id="Resource_hord3"]
+script = ExtResource("3_7hcwp")
+level = 25
+move = 175
+
+[sub_resource type="Resource" id="Resource_ymuoe"]
+script = ExtResource("3_7hcwp")
+level = 27
+move = 419
+
+[sub_resource type="Resource" id="Resource_oxowe"]
+script = ExtResource("3_7hcwp")
+level = 31
+move = 340
+
+[sub_resource type="Resource" id="Resource_j6mye"]
+script = ExtResource("3_7hcwp")
+level = 36
+move = 34
+
+[sub_resource type="Resource" id="Resource_xdgwq"]
+script = ExtResource("3_7hcwp")
+level = 40
+move = 133
+
+[sub_resource type="Resource" id="Resource_8nls1"]
+script = ExtResource("3_7hcwp")
+level = 44
+move = 789
+
+[sub_resource type="Resource" id="Resource_6oj5f"]
+script = ExtResource("3_7hcwp")
+level = 49
+move = 38
+
+[sub_resource type="Resource" id="Resource_1e6nb"]
+script = ExtResource("3_7hcwp")
+level = 53
+move = 59
+
+[resource]
+script = ExtResource("4_m60if")
+id = 1364
+display_name = "Cetitan"
+category = "Terra Whale"
+national_dex = 975
+pokedex = "Ice energy builds up in the horn on
+its upper jaw, causing the horn to
+reach cryogenic temperatures that
+freeze its surroundings."
+type_1 = 16
+base_hp = 170
+base_atk = 113
+base_def = 65
+base_spa = 45
+base_spd = 55
+base_spe = 73
+ev_hp = 2
+catch_rate = 50
+base_exp = 182
+growth_rate = 3
+egg_cycles = 25
+egg_group_1 = 5
+ability_1 = 47
+ability_2 = 202
+ability_hidden = 125
+height_dm = 45
+weight_hg = 7000
+body_color = 8
+level_moves = Array[ExtResource("3_7hcwp")]([SubResource("Resource_4rgat"), SubResource("Resource_0108v"), SubResource("Resource_vasmc"), SubResource("Resource_sjhyg"), SubResource("Resource_2sh7a"), SubResource("Resource_g5ck7"), SubResource("Resource_gns3c"), SubResource("Resource_hord3"), SubResource("Resource_ymuoe"), SubResource("Resource_oxowe"), SubResource("Resource_j6mye"), SubResource("Resource_xdgwq"), SubResource("Resource_8nls1"), SubResource("Resource_6oj5f"), SubResource("Resource_1e6nb")])

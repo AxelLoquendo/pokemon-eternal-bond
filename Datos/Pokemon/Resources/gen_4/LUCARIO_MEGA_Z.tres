@@ -1,0 +1,159 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c6yoqkklbhanx"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ssco1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1rnb8"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_oi7ii"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wberx"]
+
+[sub_resource type="Resource" id="Resource_gtta5"]
+script = ExtResource("3_oi7ii")
+level = 0
+move = 396
+
+[sub_resource type="Resource" id="Resource_vev1j"]
+script = ExtResource("3_oi7ii")
+move = 383
+
+[sub_resource type="Resource" id="Resource_016sv"]
+script = ExtResource("3_oi7ii")
+move = 364
+
+[sub_resource type="Resource" id="Resource_0wi1e"]
+script = ExtResource("3_oi7ii")
+move = 270
+
+[sub_resource type="Resource" id="Resource_jg48c"]
+script = ExtResource("3_oi7ii")
+move = 249
+
+[sub_resource type="Resource" id="Resource_aua4o"]
+script = ExtResource("3_oi7ii")
+move = 232
+
+[sub_resource type="Resource" id="Resource_dsbcl"]
+script = ExtResource("3_oi7ii")
+move = 410
+
+[sub_resource type="Resource" id="Resource_1h8gj"]
+script = ExtResource("3_oi7ii")
+move = 197
+
+[sub_resource type="Resource" id="Resource_peafl"]
+script = ExtResource("3_oi7ii")
+move = 179
+
+[sub_resource type="Resource" id="Resource_euouy"]
+script = ExtResource("3_oi7ii")
+move = 103
+
+[sub_resource type="Resource" id="Resource_3a1oc"]
+script = ExtResource("3_oi7ii")
+move = 98
+
+[sub_resource type="Resource" id="Resource_1w7ux"]
+script = ExtResource("3_oi7ii")
+move = 515
+
+[sub_resource type="Resource" id="Resource_5v1sp"]
+script = ExtResource("3_oi7ii")
+move = 719
+
+[sub_resource type="Resource" id="Resource_e0mqg"]
+script = ExtResource("3_oi7ii")
+level = 12
+move = 68
+
+[sub_resource type="Resource" id="Resource_8qy0y"]
+script = ExtResource("3_oi7ii")
+level = 16
+move = 526
+
+[sub_resource type="Resource" id="Resource_7r45l"]
+script = ExtResource("3_oi7ii")
+level = 20
+move = 395
+
+[sub_resource type="Resource" id="Resource_1unal"]
+script = ExtResource("3_oi7ii")
+level = 24
+move = 347
+
+[sub_resource type="Resource" id="Resource_28nld"]
+script = ExtResource("3_oi7ii")
+level = 28
+move = 319
+
+[sub_resource type="Resource" id="Resource_vj5kd"]
+script = ExtResource("3_oi7ii")
+level = 32
+move = 501
+
+[sub_resource type="Resource" id="Resource_c0fqi"]
+script = ExtResource("3_oi7ii")
+level = 36
+move = 198
+
+[sub_resource type="Resource" id="Resource_xsoho"]
+script = ExtResource("3_oi7ii")
+level = 40
+move = 14
+
+[sub_resource type="Resource" id="Resource_d6ivh"]
+script = ExtResource("3_oi7ii")
+level = 44
+move = 505
+
+[sub_resource type="Resource" id="Resource_1ii4m"]
+script = ExtResource("3_oi7ii")
+level = 48
+move = 309
+
+[sub_resource type="Resource" id="Resource_kbddq"]
+script = ExtResource("3_oi7ii")
+level = 52
+move = 406
+
+[sub_resource type="Resource" id="Resource_qagy5"]
+script = ExtResource("3_oi7ii")
+level = 56
+move = 245
+
+[sub_resource type="Resource" id="Resource_8eaj5"]
+script = ExtResource("3_oi7ii")
+level = 60
+move = 370
+
+[resource]
+script = ExtResource("4_wberx")
+id = 1559
+display_name = "Lucario"
+category = "Aura"
+national_dex = 448
+pokedex = "By completely cloaking itself in its aura,
+Mega Lucario Z can parry all manner of
+attacks, battling as if it were gracefully
+dancing."
+type_1 = 2
+type_2 = 9
+base_hp = 70
+base_atk = 100
+base_def = 70
+base_spa = 164
+base_spd = 70
+base_spe = 151
+ev_atk = 1
+ev_spa = 1
+base_exp = 184
+gender_ratio = 31
+growth_rate = 3
+egg_cycles = 25
+egg_group_1 = 5
+egg_group_2 = 8
+ability_1 = 319
+ability_2 = 319
+ability_hidden = 319
+height_dm = 13
+weight_hg = 494
+body_color = 7
+level_moves = Array[ExtResource("3_oi7ii")]([SubResource("Resource_gtta5"), SubResource("Resource_vev1j"), SubResource("Resource_016sv"), SubResource("Resource_0wi1e"), SubResource("Resource_jg48c"), SubResource("Resource_aua4o"), SubResource("Resource_dsbcl"), SubResource("Resource_1h8gj"), SubResource("Resource_peafl"), SubResource("Resource_euouy"), SubResource("Resource_3a1oc"), SubResource("Resource_1w7ux"), SubResource("Resource_5v1sp"), SubResource("Resource_e0mqg"), SubResource("Resource_8qy0y"), SubResource("Resource_7r45l"), SubResource("Resource_1unal"), SubResource("Resource_28nld"), SubResource("Resource_vj5kd"), SubResource("Resource_c0fqi"), SubResource("Resource_xsoho"), SubResource("Resource_d6ivh"), SubResource("Resource_1ii4m"), SubResource("Resource_kbddq"), SubResource("Resource_qagy5"), SubResource("Resource_8eaj5")])
+form_species = Array[int]([448, 948, 1559])

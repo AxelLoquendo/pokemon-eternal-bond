@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bp4cc2eevfgsl"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fqk8a"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_v4rgq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_x0ai8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bco8a"]
+
+[sub_resource type="Resource" id="Resource_5kgpy"]
+script = ExtResource("3_x0ai8")
+move = 55
+
+[sub_resource type="Resource" id="Resource_fydmx"]
+script = ExtResource("3_x0ai8")
+level = 9
+move = 204
+
+[sub_resource type="Resource" id="Resource_ivudt"]
+script = ExtResource("3_x0ai8")
+level = 16
+move = 48
+
+[sub_resource type="Resource" id="Resource_cfjao"]
+script = ExtResource("3_x0ai8")
+level = 24
+move = 61
+
+[sub_resource type="Resource" id="Resource_eqtd3"]
+script = ExtResource("3_x0ai8")
+level = 31
+move = 151
+
+[sub_resource type="Resource" id="Resource_p67cu"]
+script = ExtResource("3_x0ai8")
+level = 39
+move = 250
+
+[sub_resource type="Resource" id="Resource_0b2i8"]
+script = ExtResource("3_x0ai8")
+level = 46
+move = 352
+
+[sub_resource type="Resource" id="Resource_fjb13"]
+script = ExtResource("3_x0ai8")
+level = 54
+move = 392
+
+[sub_resource type="Resource" id="Resource_amj6k"]
+script = ExtResource("3_x0ai8")
+level = 61
+move = 291
+
+[sub_resource type="Resource" id="Resource_uyrgm"]
+script = ExtResource("3_x0ai8")
+level = 69
+move = 240
+
+[sub_resource type="Resource" id="Resource_mlyq0"]
+script = ExtResource("3_x0ai8")
+level = 75
+move = 778
+
+[resource]
+script = ExtResource("4_bco8a")
+id = 489
+display_name = "Phione"
+category = "Sea Drifter"
+national_dex = 489
+pokedex = "When the water warms, they inflate the
+flotation sac on their heads and drift
+languidly on the sea in packs.
+It always returns to where it was born."
+type_1 = 12
+base_hp = 80
+base_atk = 80
+base_def = 80
+base_spa = 80
+base_spd = 80
+base_spe = 80
+ev_hp = 1
+catch_rate = 30
+base_exp = 165
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 2
+egg_group_2 = 6
+ability_1 = 93
+height_dm = 4
+weight_hg = 31
+body_color = 1
+level_moves = Array[ExtResource("3_x0ai8")]([SubResource("Resource_5kgpy"), SubResource("Resource_fydmx"), SubResource("Resource_ivudt"), SubResource("Resource_cfjao"), SubResource("Resource_eqtd3"), SubResource("Resource_p67cu"), SubResource("Resource_0b2i8"), SubResource("Resource_fjb13"), SubResource("Resource_amj6k"), SubResource("Resource_uyrgm"), SubResource("Resource_mlyq0")])

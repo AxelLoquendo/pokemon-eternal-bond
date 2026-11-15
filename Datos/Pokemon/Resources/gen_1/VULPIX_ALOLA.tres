@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dq1fj8elwhw81"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_msp6d"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0f3tl"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4fr6c"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5p3nk"]
+
+[sub_resource type="Resource" id="Resource_edtij"]
+script = ExtResource("1_msp6d")
+method = "ITEM"
+param = "ITEM_ICE_STONE"
+target = 962
+
+[sub_resource type="Resource" id="Resource_kamr1"]
+script = ExtResource("3_4fr6c")
+move = 39
+
+[sub_resource type="Resource" id="Resource_fdicc"]
+script = ExtResource("3_4fr6c")
+move = 181
+
+[sub_resource type="Resource" id="Resource_llnlx"]
+script = ExtResource("3_4fr6c")
+level = 4
+move = 50
+
+[sub_resource type="Resource" id="Resource_tfrs8"]
+script = ExtResource("3_4fr6c")
+level = 8
+move = 420
+
+[sub_resource type="Resource" id="Resource_vtflg"]
+script = ExtResource("3_4fr6c")
+level = 12
+move = 180
+
+[sub_resource type="Resource" id="Resource_ecfth"]
+script = ExtResource("3_4fr6c")
+level = 16
+move = 196
+
+[sub_resource type="Resource" id="Resource_shop4"]
+script = ExtResource("3_4fr6c")
+level = 20
+move = 109
+
+[sub_resource type="Resource" id="Resource_y7om6"]
+script = ExtResource("3_4fr6c")
+level = 24
+move = 62
+
+[sub_resource type="Resource" id="Resource_p5v4t"]
+script = ExtResource("3_4fr6c")
+level = 28
+move = 326
+
+[sub_resource type="Resource" id="Resource_6g4ck"]
+script = ExtResource("3_4fr6c")
+level = 32
+move = 58
+
+[sub_resource type="Resource" id="Resource_ppshg"]
+script = ExtResource("3_4fr6c")
+level = 36
+move = 286
+
+[sub_resource type="Resource" id="Resource_rtuaf"]
+script = ExtResource("3_4fr6c")
+level = 40
+move = 54
+
+[sub_resource type="Resource" id="Resource_go4pm"]
+script = ExtResource("3_4fr6c")
+level = 44
+move = 657
+
+[sub_resource type="Resource" id="Resource_e4fxg"]
+script = ExtResource("3_4fr6c")
+level = 48
+move = 573
+
+[sub_resource type="Resource" id="Resource_o2ac3"]
+script = ExtResource("3_4fr6c")
+level = 52
+move = 59
+
+[resource]
+script = ExtResource("4_5p3nk")
+id = 961
+display_name = "Vulpix"
+category = "Fox"
+national_dex = 37
+pokedex = "They live together in a skulk, helping
+one another. In hot weather, this Pokémon
+makes ice shards with its six tails and
+sprays them around to cool itself off."
+type_1 = 16
+base_hp = 38
+base_atk = 41
+base_def = 40
+base_spa = 50
+base_spd = 65
+base_spe = 65
+ev_spe = 1
+catch_rate = 190
+base_exp = 60
+gender_ratio = 191
+egg_group_1 = 5
+ability_1 = 81
+ability_hidden = 117
+item_rare = 458
+height_dm = 6
+weight_hg = 99
+body_color = 1
+level_moves = Array[ExtResource("3_4fr6c")]([SubResource("Resource_kamr1"), SubResource("Resource_fdicc"), SubResource("Resource_llnlx"), SubResource("Resource_tfrs8"), SubResource("Resource_vtflg"), SubResource("Resource_ecfth"), SubResource("Resource_shop4"), SubResource("Resource_y7om6"), SubResource("Resource_p5v4t"), SubResource("Resource_6g4ck"), SubResource("Resource_ppshg"), SubResource("Resource_rtuaf"), SubResource("Resource_go4pm"), SubResource("Resource_e4fxg"), SubResource("Resource_o2ac3")])
+egg_moves = Array[int]([97, 204, 50, 227, 326, 175, 573, 336, 95, 585, 384, 180, 290, 541])
+evolutions = Array[ExtResource("1_msp6d")]([SubResource("Resource_edtij")])
+form_species = Array[int]([37, 961])

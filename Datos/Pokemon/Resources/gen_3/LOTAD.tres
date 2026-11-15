@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://6tsrimti2ic6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1w3ww"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_tx31y"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8yvre"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_74cdi"]
+
+[sub_resource type="Resource" id="Resource_7bien"]
+script = ExtResource("1_1w3ww")
+method = "LEVEL"
+param = "14"
+target = 271
+
+[sub_resource type="Resource" id="Resource_wdlvy"]
+script = ExtResource("3_8yvre")
+move = 45
+
+[sub_resource type="Resource" id="Resource_im63i"]
+script = ExtResource("3_8yvre")
+move = 310
+
+[sub_resource type="Resource" id="Resource_tdubp"]
+script = ExtResource("3_8yvre")
+level = 3
+move = 71
+
+[sub_resource type="Resource" id="Resource_biq6n"]
+script = ExtResource("3_8yvre")
+level = 6
+move = 55
+
+[sub_resource type="Resource" id="Resource_mkqva"]
+script = ExtResource("3_8yvre")
+level = 9
+move = 54
+
+[sub_resource type="Resource" id="Resource_4siyu"]
+script = ExtResource("3_8yvre")
+level = 12
+move = 72
+
+[sub_resource type="Resource" id="Resource_1jjn6"]
+script = ExtResource("3_8yvre")
+level = 16
+move = 175
+
+[sub_resource type="Resource" id="Resource_pavmp"]
+script = ExtResource("3_8yvre")
+level = 20
+move = 61
+
+[sub_resource type="Resource" id="Resource_p0w6h"]
+script = ExtResource("3_8yvre")
+level = 24
+move = 73
+
+[sub_resource type="Resource" id="Resource_m0ue7"]
+script = ExtResource("3_8yvre")
+level = 28
+move = 202
+
+[sub_resource type="Resource" id="Resource_2c30i"]
+script = ExtResource("3_8yvre")
+level = 33
+move = 240
+
+[sub_resource type="Resource" id="Resource_7cq6m"]
+script = ExtResource("3_8yvre")
+level = 38
+move = 428
+
+[sub_resource type="Resource" id="Resource_y2gvj"]
+script = ExtResource("3_8yvre")
+level = 43
+move = 412
+
+[resource]
+script = ExtResource("4_74cdi")
+id = 270
+display_name = "Lotad"
+category = "Water Weed"
+national_dex = 270
+pokedex = "This Pokémon lives in ponds with clean
+water. It is known to ferry small Pokémon
+across ponds by carrying them on the
+broad leaf on its head."
+type_1 = 12
+type_2 = 13
+base_hp = 40
+base_atk = 30
+base_def = 30
+base_spa = 40
+base_spd = 50
+base_spe = 30
+ev_spd = 1
+catch_rate = 255
+base_exp = 44
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 2
+egg_group_2 = 7
+ability_1 = 33
+ability_2 = 44
+ability_hidden = 20
+item_rare = 464
+height_dm = 5
+weight_hg = 26
+body_color = 3
+level_moves = Array[ExtResource("3_8yvre")]([SubResource("Resource_wdlvy"), SubResource("Resource_im63i"), SubResource("Resource_tdubp"), SubResource("Resource_biq6n"), SubResource("Resource_mkqva"), SubResource("Resource_4siyu"), SubResource("Resource_1jjn6"), SubResource("Resource_pavmp"), SubResource("Resource_p0w6h"), SubResource("Resource_m0ue7"), SubResource("Resource_2c30i"), SubResource("Resource_7cq6m"), SubResource("Resource_y2gvj")])
+egg_moves = Array[int]([235, 75, 230, 73, 175, 55, 321, 68, 202, 298])
+evolutions = Array[ExtResource("1_1w3ww")]([SubResource("Resource_7bien")])

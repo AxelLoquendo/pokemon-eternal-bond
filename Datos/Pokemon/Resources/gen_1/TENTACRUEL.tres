@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d1lgaxknd8u0v"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_e05k5"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_640oo"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_26prc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bvbwb"]
+
+[sub_resource type="Resource" id="Resource_c0lra"]
+script = ExtResource("3_26prc")
+move = 35
+
+[sub_resource type="Resource" id="Resource_s5kxe"]
+script = ExtResource("3_26prc")
+move = 40
+
+[sub_resource type="Resource" id="Resource_tksul"]
+script = ExtResource("3_26prc")
+move = 51
+
+[sub_resource type="Resource" id="Resource_kfao0"]
+script = ExtResource("3_26prc")
+move = 55
+
+[sub_resource type="Resource" id="Resource_a6j7k"]
+script = ExtResource("3_26prc")
+move = 513
+
+[sub_resource type="Resource" id="Resource_3dvts"]
+script = ExtResource("3_26prc")
+level = 12
+move = 48
+
+[sub_resource type="Resource" id="Resource_gyx4u"]
+script = ExtResource("3_26prc")
+level = 16
+move = 352
+
+[sub_resource type="Resource" id="Resource_ypfhd"]
+script = ExtResource("3_26prc")
+level = 20
+move = 103
+
+[sub_resource type="Resource" id="Resource_mjodq"]
+script = ExtResource("3_26prc")
+level = 24
+move = 61
+
+[sub_resource type="Resource" id="Resource_gkh3v"]
+script = ExtResource("3_26prc")
+level = 28
+move = 506
+
+[sub_resource type="Resource" id="Resource_jfpvs"]
+script = ExtResource("3_26prc")
+level = 34
+move = 151
+
+[sub_resource type="Resource" id="Resource_6w1op"]
+script = ExtResource("3_26prc")
+level = 40
+move = 398
+
+[sub_resource type="Resource" id="Resource_toklb"]
+script = ExtResource("3_26prc")
+level = 46
+move = 57
+
+[sub_resource type="Resource" id="Resource_6ne8m"]
+script = ExtResource("3_26prc")
+level = 52
+move = 482
+
+[sub_resource type="Resource" id="Resource_qiyau"]
+script = ExtResource("3_26prc")
+level = 58
+move = 56
+
+[resource]
+script = ExtResource("4_bvbwb")
+id = 73
+display_name = "Tentacruel"
+category = "Jellyfish"
+national_dex = 73
+pokedex = "It lives in complex rock formations on
+the ocean floor and traps prey using its
+80 tentacles. Its red orbs glow when it
+grows excited or agitated."
+type_1 = 12
+type_2 = 4
+base_hp = 80
+base_atk = 70
+base_def = 65
+base_spa = 80
+base_spd = 120
+base_spe = 100
+ev_spd = 2
+catch_rate = 60
+base_exp = 180
+growth_rate = 5
+egg_group_1 = 9
+ability_1 = 29
+ability_2 = 64
+ability_hidden = 44
+item_rare = 432
+height_dm = 16
+weight_hg = 550
+body_color = 1
+level_moves = Array[ExtResource("3_26prc")]([SubResource("Resource_c0lra"), SubResource("Resource_s5kxe"), SubResource("Resource_tksul"), SubResource("Resource_kfao0"), SubResource("Resource_a6j7k"), SubResource("Resource_3dvts"), SubResource("Resource_gyx4u"), SubResource("Resource_ypfhd"), SubResource("Resource_mjodq"), SubResource("Resource_gkh3v"), SubResource("Resource_jfpvs"), SubResource("Resource_6w1op"), SubResource("Resource_toklb"), SubResource("Resource_6ne8m"), SubResource("Resource_qiyau")])

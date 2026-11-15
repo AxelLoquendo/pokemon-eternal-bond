@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://la4as3m62t45"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4wywv"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hqcce"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_afkpc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jtms2"]
+
+[sub_resource type="Resource" id="Resource_nk5pc"]
+script = ExtResource("1_4wywv")
+method = "LEVEL"
+param = "35"
+target = 581
+
+[sub_resource type="Resource" id="Resource_jsunb"]
+script = ExtResource("3_afkpc")
+move = 55
+
+[sub_resource type="Resource" id="Resource_22fl5"]
+script = ExtResource("3_afkpc")
+level = 6
+move = 432
+
+[sub_resource type="Resource" id="Resource_rjnix"]
+script = ExtResource("3_afkpc")
+level = 9
+move = 17
+
+[sub_resource type="Resource" id="Resource_euwwh"]
+script = ExtResource("3_afkpc")
+level = 13
+move = 352
+
+[sub_resource type="Resource" id="Resource_jaqkw"]
+script = ExtResource("3_afkpc")
+level = 15
+move = 332
+
+[sub_resource type="Resource" id="Resource_6boww"]
+script = ExtResource("3_afkpc")
+level = 19
+move = 61
+
+[sub_resource type="Resource" id="Resource_e4y13"]
+script = ExtResource("3_afkpc")
+level = 21
+move = 297
+
+[sub_resource type="Resource" id="Resource_jsqv1"]
+script = ExtResource("3_afkpc")
+level = 24
+move = 392
+
+[sub_resource type="Resource" id="Resource_j2c0s"]
+script = ExtResource("3_afkpc")
+level = 27
+move = 403
+
+[sub_resource type="Resource" id="Resource_vnjg6"]
+script = ExtResource("3_afkpc")
+level = 30
+move = 355
+
+[sub_resource type="Resource" id="Resource_74p4a"]
+script = ExtResource("3_afkpc")
+level = 34
+move = 240
+
+[sub_resource type="Resource" id="Resource_k2yph"]
+script = ExtResource("3_afkpc")
+level = 37
+move = 366
+
+[sub_resource type="Resource" id="Resource_45pcw"]
+script = ExtResource("3_afkpc")
+level = 41
+move = 413
+
+[sub_resource type="Resource" id="Resource_efgfd"]
+script = ExtResource("3_afkpc")
+level = 46
+move = 542
+
+[resource]
+script = ExtResource("4_jtms2")
+id = 580
+display_name = "Ducklett"
+category = "Water Bird"
+national_dex = 580
+pokedex = "These bird Pokémon are excellent divers.
+They are better at swimming than flying,
+and they happily eat their favorite food,
+peat moss, as they dive underwater."
+type_1 = 12
+type_2 = 3
+base_hp = 62
+base_atk = 44
+base_def = 50
+base_spa = 44
+base_spd = 50
+base_spe = 55
+ev_hp = 1
+catch_rate = 190
+base_exp = 61
+egg_group_1 = 2
+egg_group_2 = 4
+ability_1 = 51
+ability_2 = 145
+ability_hidden = 93
+height_dm = 5
+weight_hg = 55
+body_color = 1
+level_moves = Array[ExtResource("3_afkpc")]([SubResource("Resource_jsunb"), SubResource("Resource_22fl5"), SubResource("Resource_rjnix"), SubResource("Resource_euwwh"), SubResource("Resource_jaqkw"), SubResource("Resource_6boww"), SubResource("Resource_e4y13"), SubResource("Resource_jsqv1"), SubResource("Resource_j2c0s"), SubResource("Resource_vnjg6"), SubResource("Resource_74p4a"), SubResource("Resource_k2yph"), SubResource("Resource_45pcw"), SubResource("Resource_efgfd")])
+egg_moves = Array[int]([211, 362, 16, 314, 119, 382, 381, 300, 453])
+evolutions = Array[ExtResource("1_4wywv")]([SubResource("Resource_nk5pc")])

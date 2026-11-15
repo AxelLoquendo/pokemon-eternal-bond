@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bmtl58kfhfn7n"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ll6ps"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lowx3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_t7fqm"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_k1tw1"]
+
+[sub_resource type="Resource" id="Resource_vvyo8"]
+script = ExtResource("1_ll6ps")
+method = "NONE"
+param = "0"
+target = 1476
+
+[sub_resource type="Resource" id="Resource_cbyvi"]
+script = ExtResource("3_t7fqm")
+move = 33
+
+[sub_resource type="Resource" id="Resource_01gwg"]
+script = ExtResource("3_t7fqm")
+move = 39
+
+[sub_resource type="Resource" id="Resource_c4rg5"]
+script = ExtResource("3_t7fqm")
+level = 4
+move = 98
+
+[sub_resource type="Resource" id="Resource_3t2w0"]
+script = ExtResource("3_t7fqm")
+level = 7
+move = 116
+
+[sub_resource type="Resource" id="Resource_p2t54"]
+script = ExtResource("3_t7fqm")
+level = 10
+move = 44
+
+[sub_resource type="Resource" id="Resource_lg4kq"]
+script = ExtResource("3_t7fqm")
+level = 13
+move = 228
+
+[sub_resource type="Resource" id="Resource_lhmrr"]
+script = ExtResource("3_t7fqm")
+level = 16
+move = 158
+
+[sub_resource type="Resource" id="Resource_hyb8v"]
+script = ExtResource("3_t7fqm")
+level = 19
+move = 372
+
+[sub_resource type="Resource" id="Resource_bxs6f"]
+script = ExtResource("3_t7fqm")
+level = 22
+move = 242
+
+[sub_resource type="Resource" id="Resource_gu7m3"]
+script = ExtResource("3_t7fqm")
+level = 25
+move = 389
+
+[sub_resource type="Resource" id="Resource_ubgmu"]
+script = ExtResource("3_t7fqm")
+level = 28
+move = 162
+
+[sub_resource type="Resource" id="Resource_yqay2"]
+script = ExtResource("3_t7fqm")
+level = 31
+move = 38
+
+[sub_resource type="Resource" id="Resource_v8odm"]
+script = ExtResource("3_t7fqm")
+level = 34
+move = 283
+
+[resource]
+script = ExtResource("4_k1tw1")
+id = 956
+display_name = "Rattata"
+category = "Mouse"
+national_dex = 19
+pokedex = "With its incisors, it gnaws through doors
+and infiltrates people's homes.
+Then, with a twitch of its whiskers,
+it steals whatever food it finds."
+type_1 = 18
+type_2 = 1
+base_hp = 30
+base_atk = 56
+base_def = 35
+base_spa = 25
+base_spd = 35
+base_spe = 72
+ev_spe = 1
+catch_rate = 255
+base_exp = 51
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 82
+ability_2 = 55
+ability_hidden = 47
+item_rare = 516
+height_dm = 3
+weight_hg = 38
+body_color = 4
+level_moves = Array[ExtResource("3_t7fqm")]([SubResource("Resource_cbyvi"), SubResource("Resource_01gwg"), SubResource("Resource_c4rg5"), SubResource("Resource_3t2w0"), SubResource("Resource_p2t54"), SubResource("Resource_lg4kq"), SubResource("Resource_lhmrr"), SubResource("Resource_hyb8v"), SubResource("Resource_bxs6f"), SubResource("Resource_gu7m3"), SubResource("Resource_ubgmu"), SubResource("Resource_yqay2"), SubResource("Resource_v8odm")])
+egg_moves = Array[int]([68, 515, 154, 382, 279, 179, 289, 254, 256, 415, 253])
+evolutions = Array[ExtResource("1_ll6ps")]([SubResource("Resource_vvyo8")])
+form_species = Array[int]([19, 956])

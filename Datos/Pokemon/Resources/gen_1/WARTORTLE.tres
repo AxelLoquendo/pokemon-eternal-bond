@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c32vx24yde6e3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_y82rx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i6l1e"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fkrct"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s88c2"]
+
+[sub_resource type="Resource" id="Resource_c51ag"]
+script = ExtResource("1_y82rx")
+method = "LEVEL"
+param = "36"
+target = 9
+
+[sub_resource type="Resource" id="Resource_dj7e7"]
+script = ExtResource("3_fkrct")
+move = 33
+
+[sub_resource type="Resource" id="Resource_857qq"]
+script = ExtResource("3_fkrct")
+move = 39
+
+[sub_resource type="Resource" id="Resource_sumrc"]
+script = ExtResource("3_fkrct")
+move = 55
+
+[sub_resource type="Resource" id="Resource_augsx"]
+script = ExtResource("3_fkrct")
+move = 110
+
+[sub_resource type="Resource" id="Resource_ynp3g"]
+script = ExtResource("3_fkrct")
+level = 9
+move = 229
+
+[sub_resource type="Resource" id="Resource_47qwp"]
+script = ExtResource("3_fkrct")
+level = 12
+move = 44
+
+[sub_resource type="Resource" id="Resource_scr6i"]
+script = ExtResource("3_fkrct")
+level = 15
+move = 352
+
+[sub_resource type="Resource" id="Resource_5vn3e"]
+script = ExtResource("3_fkrct")
+level = 20
+move = 182
+
+[sub_resource type="Resource" id="Resource_thgod"]
+script = ExtResource("3_fkrct")
+level = 25
+move = 240
+
+[sub_resource type="Resource" id="Resource_bpye5"]
+script = ExtResource("3_fkrct")
+level = 30
+move = 401
+
+[sub_resource type="Resource" id="Resource_dg584"]
+script = ExtResource("3_fkrct")
+level = 35
+move = 504
+
+[sub_resource type="Resource" id="Resource_lnv8u"]
+script = ExtResource("3_fkrct")
+level = 40
+move = 334
+
+[sub_resource type="Resource" id="Resource_aufrp"]
+script = ExtResource("3_fkrct")
+level = 45
+move = 56
+
+[sub_resource type="Resource" id="Resource_l2uqk"]
+script = ExtResource("3_fkrct")
+level = 50
+move = 762
+
+[resource]
+script = ExtResource("4_s88c2")
+id = 8
+display_name = "Wartortle"
+category = "Turtle"
+national_dex = 8
+pokedex = "Its large tail is covered with rich, thick
+fur that deepens in color with age.
+The scratches on its shell are evidence
+of this Pokémon's toughness in battle."
+type_1 = 12
+base_hp = 59
+base_atk = 63
+base_def = 80
+base_spa = 65
+base_spd = 80
+base_spe = 58
+ev_def = 1
+ev_spd = 1
+base_exp = 142
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 67
+ability_hidden = 44
+height_dm = 10
+weight_hg = 225
+body_color = 1
+level_moves = Array[ExtResource("3_fkrct")]([SubResource("Resource_dj7e7"), SubResource("Resource_857qq"), SubResource("Resource_sumrc"), SubResource("Resource_augsx"), SubResource("Resource_ynp3g"), SubResource("Resource_47qwp"), SubResource("Resource_scr6i"), SubResource("Resource_5vn3e"), SubResource("Resource_thgod"), SubResource("Resource_bpye5"), SubResource("Resource_dg584"), SubResource("Resource_lnv8u"), SubResource("Resource_aufrp"), SubResource("Resource_l2uqk")])
+evolutions = Array[ExtResource("1_y82rx")]([SubResource("Resource_c51ag")])

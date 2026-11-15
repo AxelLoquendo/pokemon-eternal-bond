@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://6ajhdy2g3tcn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ro0km"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_un46b"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_aio4u"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nvb4t"]
+
+[sub_resource type="Resource" id="Resource_v7gnl"]
+script = ExtResource("1_ro0km")
+method = "LEVEL"
+param = "42"
+target = 606
+
+[sub_resource type="Resource" id="Resource_2mwg5"]
+script = ExtResource("3_aio4u")
+move = 93
+
+[sub_resource type="Resource" id="Resource_5tetp"]
+script = ExtResource("3_aio4u")
+move = 45
+
+[sub_resource type="Resource" id="Resource_dox5m"]
+script = ExtResource("3_aio4u")
+level = 6
+move = 286
+
+[sub_resource type="Resource" id="Resource_aruq4"]
+script = ExtResource("3_aio4u")
+level = 12
+move = 100
+
+[sub_resource type="Resource" id="Resource_m4bp4"]
+script = ExtResource("3_aio4u")
+level = 18
+move = 60
+
+[sub_resource type="Resource" id="Resource_46g3l"]
+script = ExtResource("3_aio4u")
+level = 24
+move = 471
+
+[sub_resource type="Resource" id="Resource_1f1br"]
+script = ExtResource("3_aio4u")
+level = 24
+move = 470
+
+[sub_resource type="Resource" id="Resource_x8elp"]
+script = ExtResource("3_aio4u")
+level = 30
+move = 29
+
+[sub_resource type="Resource" id="Resource_o4d0n"]
+script = ExtResource("3_aio4u")
+level = 36
+move = 428
+
+[sub_resource type="Resource" id="Resource_nhj08"]
+script = ExtResource("3_aio4u")
+level = 43
+move = 105
+
+[sub_resource type="Resource" id="Resource_uchxi"]
+script = ExtResource("3_aio4u")
+level = 48
+move = 347
+
+[sub_resource type="Resource" id="Resource_kl7ey"]
+script = ExtResource("3_aio4u")
+level = 54
+move = 472
+
+[sub_resource type="Resource" id="Resource_k22xb"]
+script = ExtResource("3_aio4u")
+level = 60
+move = 94
+
+[resource]
+script = ExtResource("4_nvb4t")
+id = 605
+display_name = "Elgyem"
+category = "Cerebral"
+national_dex = 605
+pokedex = "It psychically squeezes the brain of
+its foe, causing unendurable headaches.
+Rumors of its origin are linked to a UFO
+crash site in the desert 50 years ago."
+type_1 = 15
+base_hp = 55
+base_atk = 55
+base_def = 55
+base_spa = 85
+base_spd = 55
+base_spe = 30
+ev_spa = 1
+catch_rate = 255
+base_exp = 67
+egg_group_1 = 8
+ability_1 = 140
+ability_2 = 28
+ability_hidden = 148
+height_dm = 5
+weight_hg = 90
+body_color = 1
+level_moves = Array[ExtResource("3_aio4u")]([SubResource("Resource_2mwg5"), SubResource("Resource_5tetp"), SubResource("Resource_dox5m"), SubResource("Resource_aruq4"), SubResource("Resource_m4bp4"), SubResource("Resource_46g3l"), SubResource("Resource_1f1br"), SubResource("Resource_x8elp"), SubResource("Resource_o4d0n"), SubResource("Resource_nhj08"), SubResource("Resource_uchxi"), SubResource("Resource_kl7ey"), SubResource("Resource_k22xb")])
+egg_moves = Array[int]([100, 50, 310, 384, 385, 112, 417, 285, 322, 502])
+evolutions = Array[ExtResource("1_ro0km")]([SubResource("Resource_v7gnl")])

@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cl4hei3t5bf4c"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4cuhl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_58epu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qhl5h"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bqd8k"]
+
+[sub_resource type="Resource" id="Resource_665my"]
+script = ExtResource("1_4cuhl")
+method = "ITEM"
+param = "ITEM_CHIPPED_POT"
+target = 1215
+
+[sub_resource type="Resource" id="Resource_yty55"]
+script = ExtResource("3_qhl5h")
+move = 110
+
+[sub_resource type="Resource" id="Resource_7c58w"]
+script = ExtResource("3_qhl5h")
+move = 310
+
+[sub_resource type="Resource" id="Resource_irp5b"]
+script = ExtResource("3_qhl5h")
+level = 6
+move = 597
+
+[sub_resource type="Resource" id="Resource_pihl8"]
+script = ExtResource("3_qhl5h")
+level = 12
+move = 72
+
+[sub_resource type="Resource" id="Resource_njg2q"]
+script = ExtResource("3_qhl5h")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_l0ttp"]
+script = ExtResource("3_qhl5h")
+level = 30
+move = 230
+
+[sub_resource type="Resource" id="Resource_hx5g4"]
+script = ExtResource("3_qhl5h")
+level = 36
+move = 202
+
+[sub_resource type="Resource" id="Resource_bpmid"]
+script = ExtResource("3_qhl5h")
+level = 42
+move = 417
+
+[sub_resource type="Resource" id="Resource_se0xy"]
+script = ExtResource("3_qhl5h")
+level = 48
+move = 247
+
+[sub_resource type="Resource" id="Resource_3g6o1"]
+script = ExtResource("3_qhl5h")
+level = 54
+move = 262
+
+[sub_resource type="Resource" id="Resource_rejra"]
+script = ExtResource("3_qhl5h")
+level = 60
+move = 504
+
+[resource]
+script = ExtResource("4_bqd8k")
+id = 1214
+display_name = "Sinistea"
+category = "Black Tea"
+national_dex = 854
+pokedex = "The swirl pattern in this Pokémon's
+body is its weakness. If it gets
+stirred, the swirl loses its shape, and
+Sinistea gets dizzy."
+type_1 = 8
+base_hp = 40
+base_atk = 45
+base_def = 45
+base_spa = 74
+base_spd = 54
+base_spe = 50
+ev_spa = 1
+catch_rate = 120
+base_exp = 62
+gender_ratio = 255
+egg_group_1 = 10
+egg_group_2 = 11
+ability_1 = 133
+ability_hidden = 130
+height_dm = 1
+weight_hg = 2
+body_color = 6
+level_moves = Array[ExtResource("3_qhl5h")]([SubResource("Resource_yty55"), SubResource("Resource_7c58w"), SubResource("Resource_irp5b"), SubResource("Resource_pihl8"), SubResource("Resource_njg2q"), SubResource("Resource_l0ttp"), SubResource("Resource_hx5g4"), SubResource("Resource_bpmid"), SubResource("Resource_se0xy"), SubResource("Resource_3g6o1"), SubResource("Resource_rejra")])
+evolutions = Array[ExtResource("1_4cuhl")]([SubResource("Resource_665my")])
+form_species = Array[int]([854, 1214])

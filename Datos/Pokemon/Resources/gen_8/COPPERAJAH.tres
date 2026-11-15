@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://gin7emragjqf"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_61n44"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_tibpw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_blrli"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_a6tck"]
+
+[sub_resource type="Resource" id="Resource_3wte7"]
+script = ExtResource("3_blrli")
+level = 0
+move = 484
+
+[sub_resource type="Resource" id="Resource_6f2d3"]
+script = ExtResource("3_blrli")
+move = 33
+
+[sub_resource type="Resource" id="Resource_6t1q2"]
+script = ExtResource("3_blrli")
+move = 45
+
+[sub_resource type="Resource" id="Resource_3elul"]
+script = ExtResource("3_blrli")
+move = 205
+
+[sub_resource type="Resource" id="Resource_e1ihw"]
+script = ExtResource("3_blrli")
+move = 249
+
+[sub_resource type="Resource" id="Resource_75rsh"]
+script = ExtResource("3_blrli")
+level = 15
+move = 523
+
+[sub_resource type="Resource" id="Resource_4s4qh"]
+script = ExtResource("3_blrli")
+level = 20
+move = 23
+
+[sub_resource type="Resource" id="Resource_pp7ag"]
+script = ExtResource("3_blrli")
+level = 25
+move = 334
+
+[sub_resource type="Resource" id="Resource_20ioj"]
+script = ExtResource("3_blrli")
+level = 30
+move = 91
+
+[sub_resource type="Resource" id="Resource_hon6q"]
+script = ExtResource("3_blrli")
+level = 37
+move = 70
+
+[sub_resource type="Resource" id="Resource_nmhxc"]
+script = ExtResource("3_blrli")
+level = 44
+move = 442
+
+[sub_resource type="Resource" id="Resource_qnnro"]
+script = ExtResource("3_blrli")
+level = 51
+move = 583
+
+[sub_resource type="Resource" id="Resource_quyhl"]
+script = ExtResource("3_blrli")
+level = 58
+move = 630
+
+[sub_resource type="Resource" id="Resource_oy4f1"]
+script = ExtResource("3_blrli")
+level = 65
+move = 276
+
+[resource]
+script = ExtResource("4_a6tck")
+id = 879
+display_name = "Copperajah"
+category = "Copperderm"
+national_dex = 879
+pokedex = "They came over from another region long
+ago and worked together with humans.
+Their green skin is resistant to water."
+type_1 = 9
+base_hp = 122
+base_atk = 130
+base_def = 69
+base_spa = 80
+base_spd = 69
+base_spe = 30
+ev_atk = 2
+catch_rate = 90
+base_exp = 175
+egg_cycles = 25
+egg_group_1 = 5
+egg_group_2 = 10
+ability_1 = 125
+ability_hidden = 134
+item_rare = 485
+height_dm = 30
+weight_hg = 6500
+body_color = 3
+level_moves = Array[ExtResource("3_blrli")]([SubResource("Resource_3wte7"), SubResource("Resource_6f2d3"), SubResource("Resource_6t1q2"), SubResource("Resource_3elul"), SubResource("Resource_e1ihw"), SubResource("Resource_75rsh"), SubResource("Resource_4s4qh"), SubResource("Resource_pp7ag"), SubResource("Resource_20ioj"), SubResource("Resource_hon6q"), SubResource("Resource_nmhxc"), SubResource("Resource_qnnro"), SubResource("Resource_quyhl"), SubResource("Resource_oy4f1")])
+form_species = Array[int]([879, 1519])

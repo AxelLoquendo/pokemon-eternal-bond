@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b825ab5oktccf"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7uqfd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_teaq7"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mycfy"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_2h66l"]
+
+[sub_resource type="Resource" id="Resource_twq65"]
+script = ExtResource("3_mycfy")
+move = 425
+
+[sub_resource type="Resource" id="Resource_fe7ks"]
+script = ExtResource("3_mycfy")
+move = 432
+
+[sub_resource type="Resource" id="Resource_t4vij"]
+script = ExtResource("3_mycfy")
+level = 7
+move = 225
+
+[sub_resource type="Resource" id="Resource_tls1p"]
+script = ExtResource("3_mycfy")
+level = 14
+move = 246
+
+[sub_resource type="Resource" id="Resource_xns4y"]
+script = ExtResource("3_mycfy")
+level = 21
+move = 506
+
+[sub_resource type="Resource" id="Resource_fsi3g"]
+script = ExtResource("3_mycfy")
+level = 28
+move = 163
+
+[sub_resource type="Resource" id="Resource_pbq3p"]
+script = ExtResource("3_mycfy")
+level = 35
+move = 184
+
+[sub_resource type="Resource" id="Resource_nar4v"]
+script = ExtResource("3_mycfy")
+level = 42
+move = 421
+
+[sub_resource type="Resource" id="Resource_5eb3o"]
+script = ExtResource("3_mycfy")
+level = 49
+move = 220
+
+[sub_resource type="Resource" id="Resource_vo63m"]
+script = ExtResource("3_mycfy")
+level = 56
+move = 396
+
+[sub_resource type="Resource" id="Resource_o5afo"]
+script = ExtResource("3_mycfy")
+level = 63
+move = 337
+
+[sub_resource type="Resource" id="Resource_04nnj"]
+script = ExtResource("3_mycfy")
+level = 70
+move = 414
+
+[sub_resource type="Resource" id="Resource_4irqr"]
+script = ExtResource("3_mycfy")
+level = 77
+move = 467
+
+[sub_resource type="Resource" id="Resource_ltxmh"]
+script = ExtResource("3_mycfy")
+level = 84
+move = 194
+
+[resource]
+script = ExtResource("4_2h66l")
+id = 1071
+display_name = "Giratina"
+category = "Renegade"
+national_dex = 487
+pokedex = "Giratina loses its legs upon changing into
+this form. It's believed it hails from a
+world where the heavens and the earth
+are as one."
+type_1 = 8
+type_2 = 17
+base_hp = 150
+base_atk = 120
+base_def = 100
+base_spa = 120
+base_spd = 100
+base_spe = 90
+ev_hp = 3
+catch_rate = 3
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 26
+height_dm = 69
+weight_hg = 6500
+body_color = 4
+level_moves = Array[ExtResource("3_mycfy")]([SubResource("Resource_twq65"), SubResource("Resource_fe7ks"), SubResource("Resource_t4vij"), SubResource("Resource_tls1p"), SubResource("Resource_xns4y"), SubResource("Resource_fsi3g"), SubResource("Resource_pbq3p"), SubResource("Resource_nar4v"), SubResource("Resource_5eb3o"), SubResource("Resource_vo63m"), SubResource("Resource_o5afo"), SubResource("Resource_04nnj"), SubResource("Resource_4irqr"), SubResource("Resource_ltxmh")])
+form_species = Array[int]([487, 1071])

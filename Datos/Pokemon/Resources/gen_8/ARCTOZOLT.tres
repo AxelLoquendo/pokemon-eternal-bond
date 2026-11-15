@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1uain2d1alx8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_slj7x"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_eqret"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_q60iq"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4isi0"]
+
+[sub_resource type="Resource" id="Resource_y5a7r"]
+script = ExtResource("3_q60iq")
+move = 181
+
+[sub_resource type="Resource" id="Resource_sagoc"]
+script = ExtResource("3_q60iq")
+move = 84
+
+[sub_resource type="Resource" id="Resource_ww0d4"]
+script = ExtResource("3_q60iq")
+level = 7
+move = 268
+
+[sub_resource type="Resource" id="Resource_16ucj"]
+script = ExtResource("3_q60iq")
+level = 14
+move = 497
+
+[sub_resource type="Resource" id="Resource_7h1xr"]
+script = ExtResource("3_q60iq")
+level = 21
+move = 246
+
+[sub_resource type="Resource" id="Resource_6tuuj"]
+script = ExtResource("3_q60iq")
+level = 28
+move = 365
+
+[sub_resource type="Resource" id="Resource_tbsuj"]
+script = ExtResource("3_q60iq")
+level = 35
+move = 419
+
+[sub_resource type="Resource" id="Resource_4ulrr"]
+script = ExtResource("3_q60iq")
+level = 42
+move = 573
+
+[sub_resource type="Resource" id="Resource_ln3t1"]
+script = ExtResource("3_q60iq")
+level = 49
+move = 21
+
+[sub_resource type="Resource" id="Resource_1efmv"]
+script = ExtResource("3_q60iq")
+level = 56
+move = 435
+
+[sub_resource type="Resource" id="Resource_xr8pr"]
+script = ExtResource("3_q60iq")
+level = 63
+move = 700
+
+[sub_resource type="Resource" id="Resource_2mdub"]
+script = ExtResource("3_q60iq")
+level = 70
+move = 556
+
+[sub_resource type="Resource" id="Resource_sgtkb"]
+script = ExtResource("3_q60iq")
+level = 77
+move = 59
+
+[resource]
+script = ExtResource("4_4isi0")
+id = 881
+display_name = "Arctozolt"
+category = "Fossil"
+national_dex = 881
+pokedex = "The shaking of its freezing upper half is
+what generates its electricity. It has a
+hard time walking around."
+type_1 = 14
+type_2 = 16
+base_hp = 90
+base_atk = 100
+base_def = 90
+base_spa = 90
+base_spd = 80
+base_spe = 55
+ev_atk = 2
+base_exp = 177
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 35
+ability_1 = 10
+ability_2 = 9
+ability_hidden = 202
+height_dm = 23
+weight_hg = 1500
+body_color = 1
+level_moves = Array[ExtResource("3_q60iq")]([SubResource("Resource_y5a7r"), SubResource("Resource_sagoc"), SubResource("Resource_ww0d4"), SubResource("Resource_16ucj"), SubResource("Resource_7h1xr"), SubResource("Resource_6tuuj"), SubResource("Resource_tbsuj"), SubResource("Resource_4ulrr"), SubResource("Resource_ln3t1"), SubResource("Resource_1efmv"), SubResource("Resource_xr8pr"), SubResource("Resource_2mdub"), SubResource("Resource_sgtkb")])

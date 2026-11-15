@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8dxiimarbqau"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1pjue"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_o7apb"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pfefq"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_brvs6"]
+
+[sub_resource type="Resource" id="Resource_gwmm2"]
+script = ExtResource("3_pfefq")
+level = 0
+move = 771
+
+[sub_resource type="Resource" id="Resource_dxfft"]
+script = ExtResource("3_pfefq")
+move = 33
+
+[sub_resource type="Resource" id="Resource_f5ra7"]
+script = ExtResource("3_pfefq")
+move = 45
+
+[sub_resource type="Resource" id="Resource_rf7nf"]
+script = ExtResource("3_pfefq")
+move = 369
+
+[sub_resource type="Resource" id="Resource_hh75x"]
+script = ExtResource("3_pfefq")
+move = 437
+
+[sub_resource type="Resource" id="Resource_detqa"]
+script = ExtResource("3_pfefq")
+move = 633
+
+[sub_resource type="Resource" id="Resource_2ihva"]
+script = ExtResource("3_pfefq")
+level = 9
+move = 64
+
+[sub_resource type="Resource" id="Resource_cw0da"]
+script = ExtResource("3_pfefq")
+level = 12
+move = 425
+
+[sub_resource type="Resource" id="Resource_xme5o"]
+script = ExtResource("3_pfefq")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_cgtxx"]
+script = ExtResource("3_pfefq")
+level = 20
+move = 235
+
+[sub_resource type="Resource" id="Resource_b7kpe"]
+script = ExtResource("3_pfefq")
+level = 25
+move = 365
+
+[sub_resource type="Resource" id="Resource_3nq22"]
+script = ExtResource("3_pfefq")
+level = 30
+move = 339
+
+[sub_resource type="Resource" id="Resource_s0fj8"]
+script = ExtResource("3_pfefq")
+level = 37
+move = 389
+
+[sub_resource type="Resource" id="Resource_bffkk"]
+script = ExtResource("3_pfefq")
+level = 44
+move = 348
+
+[sub_resource type="Resource" id="Resource_kbjy6"]
+script = ExtResource("3_pfefq")
+level = 51
+move = 297
+
+[sub_resource type="Resource" id="Resource_1dunb"]
+script = ExtResource("3_pfefq")
+level = 58
+move = 413
+
+[resource]
+script = ExtResource("4_brvs6")
+id = 1008
+display_name = "Decidueye"
+category = "Arrow Quill"
+national_dex = 724
+pokedex = "The air stored inside the rachises
+of Decidueye's feathers insulates
+the Pokémon against Hisui's extreme
+cold."
+type_1 = 13
+type_2 = 2
+base_hp = 88
+base_atk = 112
+base_def = 80
+base_spa = 95
+base_spd = 95
+base_spe = 60
+ev_atk = 3
+base_exp = 265
+gender_ratio = 31
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 65
+ability_hidden = 113
+height_dm = 16
+weight_hg = 370
+body_color = 5
+level_moves = Array[ExtResource("3_pfefq")]([SubResource("Resource_gwmm2"), SubResource("Resource_dxfft"), SubResource("Resource_f5ra7"), SubResource("Resource_rf7nf"), SubResource("Resource_hh75x"), SubResource("Resource_detqa"), SubResource("Resource_2ihva"), SubResource("Resource_cw0da"), SubResource("Resource_xme5o"), SubResource("Resource_cgtxx"), SubResource("Resource_b7kpe"), SubResource("Resource_3nq22"), SubResource("Resource_s0fj8"), SubResource("Resource_bffkk"), SubResource("Resource_kbjy6"), SubResource("Resource_1dunb")])
+form_species = Array[int]([724, 1008])

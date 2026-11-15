@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bktjxyh8ckeqd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_pycbh"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_kpvh1"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_f6k1y"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_vm5eh"]
+
+[sub_resource type="Resource" id="Resource_x70wj"]
+script = ExtResource("3_f6k1y")
+move = 45
+
+[sub_resource type="Resource" id="Resource_w2rd8"]
+script = ExtResource("3_f6k1y")
+move = 51
+
+[sub_resource type="Resource" id="Resource_cbh44"]
+script = ExtResource("3_f6k1y")
+move = 175
+
+[sub_resource type="Resource" id="Resource_231kq"]
+script = ExtResource("3_f6k1y")
+move = 562
+
+[sub_resource type="Resource" id="Resource_a641h"]
+script = ExtResource("3_f6k1y")
+move = 609
+
+[sub_resource type="Resource" id="Resource_o84d3"]
+script = ExtResource("3_f6k1y")
+move = 669
+
+[resource]
+script = ExtResource("4_vm5eh")
+id = 848
+display_name = "Toxel"
+category = "Baby"
+national_dex = 848
+pokedex = "It stores poison in an internal poison
+sac and secretes that poison through its
+skin. If you touch this Pokémon, a
+tingling sensation follows."
+type_1 = 14
+type_2 = 4
+base_hp = 40
+base_atk = 38
+base_def = 35
+base_spa = 54
+base_spd = 35
+base_spe = 40
+ev_spa = 1
+catch_rate = 75
+base_exp = 48
+growth_rate = 3
+egg_cycles = 25
+ability_1 = 155
+ability_2 = 9
+ability_hidden = 103
+height_dm = 4
+weight_hg = 110
+body_color = 6
+level_moves = Array[ExtResource("3_f6k1y")]([SubResource("Resource_x70wj"), SubResource("Resource_w2rd8"), SubResource("Resource_cbh44"), SubResource("Resource_231kq"), SubResource("Resource_a641h"), SubResource("Resource_o84d3")])
+egg_moves = Array[int]([283, 319, 612])

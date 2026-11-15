@@ -1,0 +1,130 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://blrl5wtco436a"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7t5k3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_mrsq3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gm8pd"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mnyx5"]
+
+[sub_resource type="Resource" id="Resource_7l411"]
+script = ExtResource("3_gm8pd")
+move = 609
+
+[sub_resource type="Resource" id="Resource_hynxo"]
+script = ExtResource("3_gm8pd")
+move = 98
+
+[sub_resource type="Resource" id="Resource_8h100"]
+script = ExtResource("3_gm8pd")
+move = 589
+
+[sub_resource type="Resource" id="Resource_4jdb8"]
+script = ExtResource("3_gm8pd")
+move = 45
+
+[sub_resource type="Resource" id="Resource_k2mhu"]
+script = ExtResource("3_gm8pd")
+move = 86
+
+[sub_resource type="Resource" id="Resource_m67b3"]
+script = ExtResource("3_gm8pd")
+level = 4
+move = 270
+
+[sub_resource type="Resource" id="Resource_ka5y8"]
+script = ExtResource("3_gm8pd")
+level = 7
+move = 209
+
+[sub_resource type="Resource" id="Resource_oq5mo"]
+script = ExtResource("3_gm8pd")
+level = 10
+move = 227
+
+[sub_resource type="Resource" id="Resource_87cbj"]
+script = ExtResource("3_gm8pd")
+level = 13
+move = 415
+
+[sub_resource type="Resource" id="Resource_3q5fj"]
+script = ExtResource("3_gm8pd")
+level = 16
+move = 129
+
+[sub_resource type="Resource" id="Resource_jy25n"]
+script = ExtResource("3_gm8pd")
+level = 19
+move = 486
+
+[sub_resource type="Resource" id="Resource_0kc5a"]
+script = ExtResource("3_gm8pd")
+level = 22
+move = 383
+
+[sub_resource type="Resource" id="Resource_d5idq"]
+script = ExtResource("3_gm8pd")
+level = 26
+move = 268
+
+[sub_resource type="Resource" id="Resource_5lcup"]
+script = ExtResource("3_gm8pd")
+level = 31
+move = 435
+
+[sub_resource type="Resource" id="Resource_k74kd"]
+script = ExtResource("3_gm8pd")
+level = 34
+move = 226
+
+[sub_resource type="Resource" id="Resource_81ygu"]
+script = ExtResource("3_gm8pd")
+level = 37
+move = 97
+
+[sub_resource type="Resource" id="Resource_o7p4f"]
+script = ExtResource("3_gm8pd")
+level = 40
+move = 387
+
+[sub_resource type="Resource" id="Resource_k6vdt"]
+script = ExtResource("3_gm8pd")
+level = 43
+move = 87
+
+[sub_resource type="Resource" id="Resource_l40sm"]
+script = ExtResource("3_gm8pd")
+level = 46
+move = 417
+
+[sub_resource type="Resource" id="Resource_ns4lm"]
+script = ExtResource("3_gm8pd")
+level = 49
+move = 494
+
+[resource]
+script = ExtResource("4_mnyx5")
+id = 312
+display_name = "Minun"
+category = "Cheering"
+national_dex = 312
+pokedex = "At a meeting of Pokémon academics, it was
+announced that simultaneous exposure to
+electricity from a Plusle and Minun will
+promote circulation and boost vitality."
+type_1 = 14
+base_hp = 60
+base_atk = 40
+base_def = 50
+base_spa = 75
+base_spd = 85
+base_spe = 95
+ev_spe = 1
+catch_rate = 200
+base_exp = 142
+egg_group_1 = 6
+ability_1 = 58
+item_rare = 456
+height_dm = 4
+weight_hg = 42
+body_color = 2
+level_moves = Array[ExtResource("3_gm8pd")]([SubResource("Resource_7l411"), SubResource("Resource_hynxo"), SubResource("Resource_8h100"), SubResource("Resource_4jdb8"), SubResource("Resource_k2mhu"), SubResource("Resource_m67b3"), SubResource("Resource_ka5y8"), SubResource("Resource_oq5mo"), SubResource("Resource_87cbj"), SubResource("Resource_3q5fj"), SubResource("Resource_jy25n"), SubResource("Resource_0kc5a"), SubResource("Resource_d5idq"), SubResource("Resource_5lcup"), SubResource("Resource_k74kd"), SubResource("Resource_81ygu"), SubResource("Resource_o7p4f"), SubResource("Resource_k6vdt"), SubResource("Resource_l40sm"), SubResource("Resource_ns4lm")])
+egg_moves = Array[int]([273, 47, 186, 435, 381, 204, 313, 669])

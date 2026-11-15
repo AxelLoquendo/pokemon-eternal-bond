@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cfft5dk732iud"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_sfmug"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pcnfx"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nat3c"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dtnvw"]
+
+[sub_resource type="Resource" id="Resource_bujrq"]
+script = ExtResource("3_nat3c")
+move = 210
+
+[sub_resource type="Resource" id="Resource_23uw8"]
+script = ExtResource("3_nat3c")
+move = 410
+
+[sub_resource type="Resource" id="Resource_vlw50"]
+script = ExtResource("3_nat3c")
+level = 5
+move = 75
+
+[sub_resource type="Resource" id="Resource_faylf"]
+script = ExtResource("3_nat3c")
+level = 10
+move = 206
+
+[sub_resource type="Resource" id="Resource_bjtr3"]
+script = ExtResource("3_nat3c")
+level = 15
+move = 15
+
+[sub_resource type="Resource" id="Resource_qcepa"]
+script = ExtResource("3_nat3c")
+level = 20
+move = 314
+
+[sub_resource type="Resource" id="Resource_0rkvh"]
+script = ExtResource("3_nat3c")
+level = 25
+move = 332
+
+[sub_resource type="Resource" id="Resource_t2euh"]
+script = ExtResource("3_nat3c")
+level = 30
+move = 197
+
+[sub_resource type="Resource" id="Resource_paw3x"]
+script = ExtResource("3_nat3c")
+level = 35
+move = 400
+
+[sub_resource type="Resource" id="Resource_7bav0"]
+script = ExtResource("3_nat3c")
+level = 40
+move = 235
+
+[sub_resource type="Resource" id="Resource_ge3uw"]
+script = ExtResource("3_nat3c")
+level = 45
+move = 636
+
+[sub_resource type="Resource" id="Resource_1k2d1"]
+script = ExtResource("3_nat3c")
+level = 50
+move = 432
+
+[sub_resource type="Resource" id="Resource_8rhhf"]
+script = ExtResource("3_nat3c")
+level = 55
+move = 348
+
+[sub_resource type="Resource" id="Resource_7t7ql"]
+script = ExtResource("3_nat3c")
+level = 60
+move = 533
+
+[sub_resource type="Resource" id="Resource_fi000"]
+script = ExtResource("3_nat3c")
+level = 65
+move = 14
+
+[sub_resource type="Resource" id="Resource_lt35k"]
+script = ExtResource("3_nat3c")
+level = 70
+move = 12
+
+[resource]
+script = ExtResource("4_dtnvw")
+id = 798
+display_name = "Kartana"
+category = "Drawn Sword"
+national_dex = 798
+pokedex = "This Ultra Beast came from the
+Ultra Wormhole. It seems not to attack
+enemies on its own, but its sharp body is
+a dangerous weapon in itself."
+type_1 = 13
+type_2 = 9
+base_hp = 59
+base_atk = 181
+base_def = 131
+base_spa = 59
+base_spd = 31
+base_spe = 109
+ev_atk = 3
+base_exp = 285
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 224
+height_dm = 3
+weight_hg = 1
+body_color = 8
+level_moves = Array[ExtResource("3_nat3c")]([SubResource("Resource_bujrq"), SubResource("Resource_23uw8"), SubResource("Resource_vlw50"), SubResource("Resource_faylf"), SubResource("Resource_bjtr3"), SubResource("Resource_qcepa"), SubResource("Resource_0rkvh"), SubResource("Resource_t2euh"), SubResource("Resource_paw3x"), SubResource("Resource_7bav0"), SubResource("Resource_ge3uw"), SubResource("Resource_1k2d1"), SubResource("Resource_8rhhf"), SubResource("Resource_7t7ql"), SubResource("Resource_fi000"), SubResource("Resource_lt35k")])

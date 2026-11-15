@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cpxdopw2lvl4k"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_dbkp0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_bp8p6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7wqhk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ldplu"]
+
+[sub_resource type="Resource" id="Resource_cs4dq"]
+script = ExtResource("1_dbkp0")
+method = "TRADE"
+param = "0"
+target = 68
+
+[sub_resource type="Resource" id="Resource_26xai"]
+script = ExtResource("1_dbkp0")
+method = "ITEM"
+param = "ITEM_LINKING_CORD"
+target = 68
+
+[sub_resource type="Resource" id="Resource_1gj7q"]
+script = ExtResource("3_7wqhk")
+move = 67
+
+[sub_resource type="Resource" id="Resource_mpbqx"]
+script = ExtResource("3_7wqhk")
+move = 43
+
+[sub_resource type="Resource" id="Resource_42g0e"]
+script = ExtResource("3_7wqhk")
+move = 116
+
+[sub_resource type="Resource" id="Resource_coeou"]
+script = ExtResource("3_7wqhk")
+move = 279
+
+[sub_resource type="Resource" id="Resource_xa5hj"]
+script = ExtResource("3_7wqhk")
+level = 12
+move = 490
+
+[sub_resource type="Resource" id="Resource_mqh40"]
+script = ExtResource("3_7wqhk")
+level = 16
+move = 282
+
+[sub_resource type="Resource" id="Resource_n687l"]
+script = ExtResource("3_7wqhk")
+level = 20
+move = 184
+
+[sub_resource type="Resource" id="Resource_xuj54"]
+script = ExtResource("3_7wqhk")
+level = 24
+move = 233
+
+[sub_resource type="Resource" id="Resource_e448x"]
+script = ExtResource("3_7wqhk")
+level = 31
+move = 70
+
+[sub_resource type="Resource" id="Resource_ohgp7"]
+script = ExtResource("3_7wqhk")
+level = 36
+move = 530
+
+[sub_resource type="Resource" id="Resource_elyme"]
+script = ExtResource("3_7wqhk")
+level = 42
+move = 339
+
+[sub_resource type="Resource" id="Resource_mgbyb"]
+script = ExtResource("3_7wqhk")
+level = 48
+move = 69
+
+[sub_resource type="Resource" id="Resource_wwrph"]
+script = ExtResource("3_7wqhk")
+level = 54
+move = 223
+
+[sub_resource type="Resource" id="Resource_k7uyy"]
+script = ExtResource("3_7wqhk")
+level = 60
+move = 238
+
+[sub_resource type="Resource" id="Resource_2qg6m"]
+script = ExtResource("3_7wqhk")
+level = 66
+move = 38
+
+[resource]
+script = ExtResource("4_ldplu")
+id = 67
+display_name = "Machoke"
+category = "Superpower"
+national_dex = 67
+pokedex = "A belt is worn by a Machoke to keep its
+overwhelming power under control.
+Because it is so dangerous, no one has
+ever removed the belt."
+type_1 = 2
+base_hp = 80
+base_atk = 100
+base_def = 70
+base_spa = 50
+base_spd = 60
+base_spe = 45
+ev_atk = 2
+catch_rate = 90
+base_exp = 142
+gender_ratio = 63
+growth_rate = 3
+egg_group_1 = 8
+ability_1 = 62
+ability_hidden = 80
+item_rare = 469
+height_dm = 15
+weight_hg = 705
+body_color = 7
+no_flip = true
+level_moves = Array[ExtResource("3_7wqhk")]([SubResource("Resource_1gj7q"), SubResource("Resource_mpbqx"), SubResource("Resource_42g0e"), SubResource("Resource_coeou"), SubResource("Resource_xa5hj"), SubResource("Resource_mqh40"), SubResource("Resource_n687l"), SubResource("Resource_xuj54"), SubResource("Resource_e448x"), SubResource("Resource_ohgp7"), SubResource("Resource_elyme"), SubResource("Resource_mgbyb"), SubResource("Resource_wwrph"), SubResource("Resource_k7uyy"), SubResource("Resource_2qg6m")])
+evolutions = Array[ExtResource("1_dbkp0")]([SubResource("Resource_cs4dq"), SubResource("Resource_26xai")])

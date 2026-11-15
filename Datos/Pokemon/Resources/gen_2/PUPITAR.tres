@@ -1,0 +1,124 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bsvf6x72s4jd4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_s3vm7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_bt7ut"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mb5cp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_q024g"]
+
+[sub_resource type="Resource" id="Resource_ilpmb"]
+script = ExtResource("1_s3vm7")
+method = "LEVEL"
+param = "55"
+target = 248
+
+[sub_resource type="Resource" id="Resource_a050i"]
+script = ExtResource("3_mb5cp")
+level = 0
+move = 334
+
+[sub_resource type="Resource" id="Resource_gltww"]
+script = ExtResource("3_mb5cp")
+move = 33
+
+[sub_resource type="Resource" id="Resource_vq85s"]
+script = ExtResource("3_mb5cp")
+move = 371
+
+[sub_resource type="Resource" id="Resource_5nlmw"]
+script = ExtResource("3_mb5cp")
+move = 43
+
+[sub_resource type="Resource" id="Resource_h7yoq"]
+script = ExtResource("3_mb5cp")
+move = 88
+
+[sub_resource type="Resource" id="Resource_b8n1q"]
+script = ExtResource("3_mb5cp")
+level = 9
+move = 44
+
+[sub_resource type="Resource" id="Resource_y7mpd"]
+script = ExtResource("3_mb5cp")
+level = 12
+move = 184
+
+[sub_resource type="Resource" id="Resource_q2cgl"]
+script = ExtResource("3_mb5cp")
+level = 15
+move = 157
+
+[sub_resource type="Resource" id="Resource_fqakw"]
+script = ExtResource("3_mb5cp")
+level = 18
+move = 661
+
+[sub_resource type="Resource" id="Resource_6wamx"]
+script = ExtResource("3_mb5cp")
+level = 21
+move = 103
+
+[sub_resource type="Resource" id="Resource_miw6m"]
+script = ExtResource("3_mb5cp")
+level = 24
+move = 479
+
+[sub_resource type="Resource" id="Resource_ll71v"]
+script = ExtResource("3_mb5cp")
+level = 27
+move = 242
+
+[sub_resource type="Resource" id="Resource_0wi61"]
+script = ExtResource("3_mb5cp")
+level = 33
+move = 89
+
+[sub_resource type="Resource" id="Resource_ydk2f"]
+script = ExtResource("3_mb5cp")
+level = 37
+move = 444
+
+[sub_resource type="Resource" id="Resource_mnv54"]
+script = ExtResource("3_mb5cp")
+level = 42
+move = 37
+
+[sub_resource type="Resource" id="Resource_nev0j"]
+script = ExtResource("3_mb5cp")
+level = 47
+move = 201
+
+[sub_resource type="Resource" id="Resource_twh6j"]
+script = ExtResource("3_mb5cp")
+level = 52
+move = 63
+
+[resource]
+script = ExtResource("4_q024g")
+id = 247
+display_name = "Pupitar"
+category = "Hard Shell"
+national_dex = 247
+pokedex = "A Pupitar creates a gas inside its body
+that it ejects under compression to propel
+itself like a jet. Its body can withstand
+a collision with solid steel."
+type_1 = 6
+type_2 = 5
+base_hp = 70
+base_atk = 84
+base_def = 70
+base_spa = 65
+base_spd = 70
+base_spe = 51
+ev_atk = 2
+base_exp = 144
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 1
+ability_1 = 61
+height_dm = 12
+weight_hg = 1520
+body_color = 7
+level_moves = Array[ExtResource("3_mb5cp")]([SubResource("Resource_a050i"), SubResource("Resource_gltww"), SubResource("Resource_vq85s"), SubResource("Resource_5nlmw"), SubResource("Resource_h7yoq"), SubResource("Resource_b8n1q"), SubResource("Resource_y7mpd"), SubResource("Resource_q2cgl"), SubResource("Resource_fqakw"), SubResource("Resource_6wamx"), SubResource("Resource_miw6m"), SubResource("Resource_ll71v"), SubResource("Resource_0wi61"), SubResource("Resource_ydk2f"), SubResource("Resource_mnv54"), SubResource("Resource_nev0j"), SubResource("Resource_twh6j")])
+evolutions = Array[ExtResource("1_s3vm7")]([SubResource("Resource_ilpmb")])

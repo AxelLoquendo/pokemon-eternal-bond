@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://fmryn0eqeha4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vhpbq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7y2uf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7x8xy"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7pjqo"]
+
+[sub_resource type="Resource" id="Resource_eyvhb"]
+script = ExtResource("3_7x8xy")
+move = 225
+
+[sub_resource type="Resource" id="Resource_cw4pq"]
+script = ExtResource("3_7x8xy")
+move = 246
+
+[sub_resource type="Resource" id="Resource_q6jxd"]
+script = ExtResource("3_7x8xy")
+move = 568
+
+[sub_resource type="Resource" id="Resource_5qisc"]
+script = ExtResource("3_7x8xy")
+move = 573
+
+[sub_resource type="Resource" id="Resource_8xek7"]
+script = ExtResource("3_7x8xy")
+level = 8
+move = 163
+
+[sub_resource type="Resource" id="Resource_ali8h"]
+script = ExtResource("3_7x8xy")
+level = 16
+move = 283
+
+[sub_resource type="Resource" id="Resource_lpepw"]
+script = ExtResource("3_7x8xy")
+level = 24
+move = 406
+
+[sub_resource type="Resource" id="Resource_0okqq"]
+script = ExtResource("3_7x8xy")
+level = 32
+move = 58
+
+[sub_resource type="Resource" id="Resource_3ur8w"]
+script = ExtResource("3_7x8xy")
+level = 40
+move = 304
+
+[sub_resource type="Resource" id="Resource_b2olq"]
+script = ExtResource("3_7x8xy")
+level = 48
+move = 559
+
+[sub_resource type="Resource" id="Resource_38nj1"]
+script = ExtResource("3_7x8xy")
+level = 56
+move = 59
+
+[sub_resource type="Resource" id="Resource_uks32"]
+script = ExtResource("3_7x8xy")
+level = 64
+move = 286
+
+[sub_resource type="Resource" id="Resource_q3ogs"]
+script = ExtResource("3_7x8xy")
+level = 72
+move = 200
+
+[sub_resource type="Resource" id="Resource_d8i6q"]
+script = ExtResource("3_7x8xy")
+level = 80
+move = 553
+
+[sub_resource type="Resource" id="Resource_7x5op"]
+script = ExtResource("3_7x8xy")
+level = 88
+move = 329
+
+[resource]
+script = ExtResource("4_7pjqo")
+id = 1105
+display_name = "Kyurem"
+category = "Boundary"
+national_dex = 646
+pokedex = "The sameness of Zekrom's and
+Kyurem's genes allowed Kyurem to absorb
+Zekrom. Kyurem can now use the
+power of both electricity and ice."
+type_1 = 17
+type_2 = 16
+base_hp = 125
+base_atk = 170
+base_def = 100
+base_spa = 120
+base_spd = 90
+base_spe = 95
+ev_atk = 3
+catch_rate = 3
+base_exp = 350
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 164
+height_dm = 33
+weight_hg = 3250
+body_color = 7
+no_flip = true
+level_moves = Array[ExtResource("3_7x8xy")]([SubResource("Resource_eyvhb"), SubResource("Resource_cw4pq"), SubResource("Resource_q6jxd"), SubResource("Resource_5qisc"), SubResource("Resource_8xek7"), SubResource("Resource_ali8h"), SubResource("Resource_lpepw"), SubResource("Resource_0okqq"), SubResource("Resource_3ur8w"), SubResource("Resource_b2olq"), SubResource("Resource_38nj1"), SubResource("Resource_uks32"), SubResource("Resource_q3ogs"), SubResource("Resource_d8i6q"), SubResource("Resource_7x5op")])
+form_species = Array[int]([646, 1104, 1105])

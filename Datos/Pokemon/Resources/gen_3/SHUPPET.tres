@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://1fwhsf3aoaha"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_pmcvb"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_qr50i"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cp6wa"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7x4w5"]
+
+[sub_resource type="Resource" id="Resource_fjvbb"]
+script = ExtResource("1_pmcvb")
+method = "LEVEL"
+param = "37"
+target = 354
+
+[sub_resource type="Resource" id="Resource_rwcyv"]
+script = ExtResource("3_cp6wa")
+move = 310
+
+[sub_resource type="Resource" id="Resource_dqtyl"]
+script = ExtResource("3_cp6wa")
+level = 4
+move = 103
+
+[sub_resource type="Resource" id="Resource_bwpff"]
+script = ExtResource("3_cp6wa")
+level = 7
+move = 101
+
+[sub_resource type="Resource" id="Resource_bx4km"]
+script = ExtResource("3_cp6wa")
+level = 10
+move = 180
+
+[sub_resource type="Resource" id="Resource_orgds"]
+script = ExtResource("3_cp6wa")
+level = 16
+move = 261
+
+[sub_resource type="Resource" id="Resource_s7n6d"]
+script = ExtResource("3_cp6wa")
+level = 19
+move = 425
+
+[sub_resource type="Resource" id="Resource_krxn2"]
+script = ExtResource("3_cp6wa")
+level = 22
+move = 506
+
+[sub_resource type="Resource" id="Resource_ar185"]
+script = ExtResource("3_cp6wa")
+level = 26
+move = 174
+
+[sub_resource type="Resource" id="Resource_ctamt"]
+script = ExtResource("3_cp6wa")
+level = 30
+move = 247
+
+[sub_resource type="Resource" id="Resource_vb3he"]
+script = ExtResource("3_cp6wa")
+level = 34
+move = 272
+
+[sub_resource type="Resource" id="Resource_yfya2"]
+script = ExtResource("3_cp6wa")
+level = 38
+move = 389
+
+[sub_resource type="Resource" id="Resource_5bvv0"]
+script = ExtResource("3_cp6wa")
+level = 42
+move = 271
+
+[sub_resource type="Resource" id="Resource_venkq"]
+script = ExtResource("3_cp6wa")
+level = 48
+move = 566
+
+[resource]
+script = ExtResource("4_7x4w5")
+id = 353
+display_name = "Shuppet"
+category = "Puppet"
+national_dex = 353
+pokedex = "This Pokémon roams about deep in the
+night seeking such negative emotions as
+grudges and envy. It retreats to its nest
+when the sun begins to rise."
+type_1 = 8
+base_hp = 44
+base_atk = 75
+base_def = 35
+base_spa = 63
+base_spd = 33
+base_spe = 45
+ev_atk = 1
+catch_rate = 225
+base_exp = 59
+base_friendship = 35
+growth_rate = 4
+egg_cycles = 25
+egg_group_1 = 11
+ability_1 = 15
+ability_hidden = 130
+item_rare = 438
+height_dm = 6
+weight_hg = 23
+body_color = 4
+level_moves = Array[ExtResource("3_cp6wa")]([SubResource("Resource_rwcyv"), SubResource("Resource_dqtyl"), SubResource("Resource_bwpff"), SubResource("Resource_bx4km"), SubResource("Resource_orgds"), SubResource("Resource_s7n6d"), SubResource("Resource_krxn2"), SubResource("Resource_ar185"), SubResource("Resource_ctamt"), SubResource("Resource_vb3he"), SubResource("Resource_yfya2"), SubResource("Resource_5bvv0"), SubResource("Resource_venkq")])
+egg_moves = Array[int]([50, 194, 193, 310, 286, 228, 425, 109, 466, 441, 566])
+evolutions = Array[ExtResource("1_pmcvb")]([SubResource("Resource_fjvbb")])

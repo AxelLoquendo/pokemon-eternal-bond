@@ -1,0 +1,127 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://eoyf1ovkl3sb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_2y81t"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5sowp"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vmaar"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_2lpwf"]
+
+[sub_resource type="Resource" id="Resource_n5qge"]
+script = ExtResource("3_vmaar")
+level = 0
+move = 16
+
+[sub_resource type="Resource" id="Resource_o7c7c"]
+script = ExtResource("3_vmaar")
+move = 16
+
+[sub_resource type="Resource" id="Resource_fsdqp"]
+script = ExtResource("3_vmaar")
+move = 106
+
+[sub_resource type="Resource" id="Resource_70mbl"]
+script = ExtResource("3_vmaar")
+move = 33
+
+[sub_resource type="Resource" id="Resource_q7tbt"]
+script = ExtResource("3_vmaar")
+move = 81
+
+[sub_resource type="Resource" id="Resource_5bxm0"]
+script = ExtResource("3_vmaar")
+move = 450
+
+[sub_resource type="Resource" id="Resource_heppp"]
+script = ExtResource("3_vmaar")
+level = 4
+move = 48
+
+[sub_resource type="Resource" id="Resource_icq8l"]
+script = ExtResource("3_vmaar")
+level = 8
+move = 93
+
+[sub_resource type="Resource" id="Resource_ormqo"]
+script = ExtResource("3_vmaar")
+level = 12
+move = 77
+
+[sub_resource type="Resource" id="Resource_kib7d"]
+script = ExtResource("3_vmaar")
+level = 12
+move = 78
+
+[sub_resource type="Resource" id="Resource_gkuep"]
+script = ExtResource("3_vmaar")
+level = 12
+move = 79
+
+[sub_resource type="Resource" id="Resource_pnvcu"]
+script = ExtResource("3_vmaar")
+level = 16
+move = 60
+
+[sub_resource type="Resource" id="Resource_68q7b"]
+script = ExtResource("3_vmaar")
+level = 20
+move = 18
+
+[sub_resource type="Resource" id="Resource_kmsb8"]
+script = ExtResource("3_vmaar")
+level = 24
+move = 403
+
+[sub_resource type="Resource" id="Resource_osrs7"]
+script = ExtResource("3_vmaar")
+level = 28
+move = 219
+
+[sub_resource type="Resource" id="Resource_4qear"]
+script = ExtResource("3_vmaar")
+level = 32
+move = 405
+
+[sub_resource type="Resource" id="Resource_kt2nm"]
+script = ExtResource("3_vmaar")
+level = 36
+move = 366
+
+[sub_resource type="Resource" id="Resource_ehi7g"]
+script = ExtResource("3_vmaar")
+level = 40
+move = 476
+
+[sub_resource type="Resource" id="Resource_k24on"]
+script = ExtResource("3_vmaar")
+level = 44
+move = 483
+
+[resource]
+script = ExtResource("4_2lpwf")
+id = 12
+display_name = "Butterfree"
+category = "Butterfly"
+national_dex = 12
+pokedex = "It has a superior ability to search for
+delicious honey from flowers. It can seek,
+extract, and carry honey from flowers
+blooming over six miles away."
+type_1 = 7
+type_2 = 3
+base_hp = 60
+base_atk = 45
+base_def = 50
+base_spa = 90
+base_spd = 80
+base_spe = 70
+ev_spa = 2
+ev_spd = 1
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 14
+ability_hidden = 110
+item_rare = 436
+height_dm = 11
+weight_hg = 320
+body_color = 8
+level_moves = Array[ExtResource("3_vmaar")]([SubResource("Resource_n5qge"), SubResource("Resource_o7c7c"), SubResource("Resource_fsdqp"), SubResource("Resource_70mbl"), SubResource("Resource_q7tbt"), SubResource("Resource_5bxm0"), SubResource("Resource_heppp"), SubResource("Resource_icq8l"), SubResource("Resource_ormqo"), SubResource("Resource_kib7d"), SubResource("Resource_gkuep"), SubResource("Resource_pnvcu"), SubResource("Resource_68q7b"), SubResource("Resource_kmsb8"), SubResource("Resource_osrs7"), SubResource("Resource_4qear"), SubResource("Resource_kt2nm"), SubResource("Resource_ehi7g"), SubResource("Resource_k24on")])
+form_species = Array[int]([12, 1492])

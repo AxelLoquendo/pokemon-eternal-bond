@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cfrpweab3qb4p"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_etw1x"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_j12ap"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ixhm2"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_a2331"]
+
+[sub_resource type="Resource" id="Resource_1sc24"]
+script = ExtResource("3_ixhm2")
+move = 10
+
+[sub_resource type="Resource" id="Resource_imq27"]
+script = ExtResource("3_ixhm2")
+move = 43
+
+[sub_resource type="Resource" id="Resource_hmpip"]
+script = ExtResource("3_ixhm2")
+move = 249
+
+[sub_resource type="Resource" id="Resource_x8kx1"]
+script = ExtResource("3_ixhm2")
+level = 6
+move = 269
+
+[sub_resource type="Resource" id="Resource_8ngb4"]
+script = ExtResource("3_ixhm2")
+level = 12
+move = 98
+
+[sub_resource type="Resource" id="Resource_o2qsg"]
+script = ExtResource("3_ixhm2")
+level = 18
+move = 232
+
+[sub_resource type="Resource" id="Resource_qkjsc"]
+script = ExtResource("3_ixhm2")
+level = 24
+move = 398
+
+[sub_resource type="Resource" id="Resource_drb1q"]
+script = ExtResource("3_ixhm2")
+level = 30
+move = 280
+
+[sub_resource type="Resource" id="Resource_3e2wy"]
+script = ExtResource("3_ixhm2")
+level = 36
+move = 468
+
+[sub_resource type="Resource" id="Resource_bab71"]
+script = ExtResource("3_ixhm2")
+level = 42
+move = 163
+
+[sub_resource type="Resource" id="Resource_15fkw"]
+script = ExtResource("3_ixhm2")
+level = 48
+move = 97
+
+[sub_resource type="Resource" id="Resource_0h3ax"]
+script = ExtResource("3_ixhm2")
+level = 54
+move = 103
+
+[sub_resource type="Resource" id="Resource_lbtd4"]
+script = ExtResource("3_ixhm2")
+level = 60
+move = 370
+
+[resource]
+script = ExtResource("4_a2331")
+id = 999
+display_name = "Sneasel"
+category = "Sharp Claw"
+national_dex = 215
+pokedex = "Its sturdy, curved claws are ideal for
+traversing precipitous cliffs. From the
+tips of these claws drips a venom that
+infiltrates the nerves of any prey caught."
+type_1 = 2
+type_2 = 4
+base_hp = 55
+base_atk = 95
+base_def = 55
+base_spa = 35
+base_spd = 75
+base_spe = 115
+ev_spe = 1
+catch_rate = 60
+base_exp = 86
+base_friendship = 35
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 39
+ability_2 = 51
+ability_hidden = 124
+item_rare = 462
+height_dm = 9
+weight_hg = 270
+body_color = 7
+no_flip = true
+level_moves = Array[ExtResource("3_ixhm2")]([SubResource("Resource_1sc24"), SubResource("Resource_imq27"), SubResource("Resource_hmpip"), SubResource("Resource_x8kx1"), SubResource("Resource_8ngb4"), SubResource("Resource_o2qsg"), SubResource("Resource_qkjsc"), SubResource("Resource_drb1q"), SubResource("Resource_3e2wy"), SubResource("Resource_bab71"), SubResource("Resource_15fkw"), SubResource("Resource_0h3ax"), SubResource("Resource_lbtd4")])
+egg_moves = Array[int]([68, 252, 364, 458, 400, 415, 501])
+form_species = Array[int]([215, 999])

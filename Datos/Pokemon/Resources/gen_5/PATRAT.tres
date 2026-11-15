@@ -1,0 +1,128 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8e0w3keoyejx"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_owfp4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_j1dit"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_tmcul"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6ia3v"]
+
+[sub_resource type="Resource" id="Resource_xyll2"]
+script = ExtResource("1_owfp4")
+method = "LEVEL"
+param = "20"
+target = 505
+
+[sub_resource type="Resource" id="Resource_tptsx"]
+script = ExtResource("3_tmcul")
+move = 33
+
+[sub_resource type="Resource" id="Resource_hmrr5"]
+script = ExtResource("3_tmcul")
+level = 3
+move = 43
+
+[sub_resource type="Resource" id="Resource_kfim7"]
+script = ExtResource("3_tmcul")
+level = 6
+move = 44
+
+[sub_resource type="Resource" id="Resource_1fajv"]
+script = ExtResource("3_tmcul")
+level = 8
+move = 117
+
+[sub_resource type="Resource" id="Resource_57ytq"]
+script = ExtResource("3_tmcul")
+level = 11
+move = 197
+
+[sub_resource type="Resource" id="Resource_haryu"]
+script = ExtResource("3_tmcul")
+level = 13
+move = 28
+
+[sub_resource type="Resource" id="Resource_qwpao"]
+script = ExtResource("3_tmcul")
+level = 16
+move = 242
+
+[sub_resource type="Resource" id="Resource_brlgy"]
+script = ExtResource("3_tmcul")
+level = 18
+move = 95
+
+[sub_resource type="Resource" id="Resource_xk0c5"]
+script = ExtResource("3_tmcul")
+level = 21
+move = 162
+
+[sub_resource type="Resource" id="Resource_xi54s"]
+script = ExtResource("3_tmcul")
+level = 23
+move = 495
+
+[sub_resource type="Resource" id="Resource_egho7"]
+script = ExtResource("3_tmcul")
+level = 26
+move = 116
+
+[sub_resource type="Resource" id="Resource_y0b68"]
+script = ExtResource("3_tmcul")
+level = 28
+move = 526
+
+[sub_resource type="Resource" id="Resource_mqgw6"]
+script = ExtResource("3_tmcul")
+level = 31
+move = 158
+
+[sub_resource type="Resource" id="Resource_qcxyo"]
+script = ExtResource("3_tmcul")
+level = 33
+move = 417
+
+[sub_resource type="Resource" id="Resource_nlsdx"]
+script = ExtResource("3_tmcul")
+level = 36
+move = 212
+
+[sub_resource type="Resource" id="Resource_be3qj"]
+script = ExtResource("3_tmcul")
+level = 38
+move = 226
+
+[sub_resource type="Resource" id="Resource_qb14i"]
+script = ExtResource("3_tmcul")
+level = 41
+move = 21
+
+[resource]
+script = ExtResource("4_6ia3v")
+id = 504
+display_name = "Patrat"
+category = "Scout"
+national_dex = 504
+pokedex = "Extremely cautious, they take shifts to
+maintain a constant watch of their nest.
+Using food stored in cheek pouches,
+they can keep watch for days."
+type_1 = 1
+base_hp = 45
+base_atk = 55
+base_def = 39
+base_spa = 35
+base_spd = 39
+base_spe = 42
+ev_atk = 1
+catch_rate = 255
+base_exp = 51
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 50
+ability_2 = 51
+ability_hidden = 148
+height_dm = 5
+weight_hg = 116
+body_color = 5
+level_moves = Array[ExtResource("3_tmcul")]([SubResource("Resource_tptsx"), SubResource("Resource_hmrr5"), SubResource("Resource_kfim7"), SubResource("Resource_1fajv"), SubResource("Resource_57ytq"), SubResource("Resource_haryu"), SubResource("Resource_qwpao"), SubResource("Resource_brlgy"), SubResource("Resource_xk0c5"), SubResource("Resource_xi54s"), SubResource("Resource_egho7"), SubResource("Resource_y0b68"), SubResource("Resource_mqgw6"), SubResource("Resource_qcxyo"), SubResource("Resource_nlsdx"), SubResource("Resource_be3qj"), SubResource("Resource_qb14i")])
+egg_moves = Array[int]([193, 231, 103, 372, 228, 279, 175, 669, 331])
+evolutions = Array[ExtResource("1_owfp4")]([SubResource("Resource_xyll2")])

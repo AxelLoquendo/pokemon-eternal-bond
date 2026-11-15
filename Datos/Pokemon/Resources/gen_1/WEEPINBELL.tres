@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dsqqcxfo4gyhs"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_yal6h"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6ru1y"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dx173"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_asr54"]
+
+[sub_resource type="Resource" id="Resource_vew7c"]
+script = ExtResource("1_yal6h")
+method = "ITEM"
+param = "ITEM_LEAF_STONE"
+target = 71
+
+[sub_resource type="Resource" id="Resource_6fwmx"]
+script = ExtResource("3_dx173")
+move = 22
+
+[sub_resource type="Resource" id="Resource_u5l43"]
+script = ExtResource("3_dx173")
+move = 35
+
+[sub_resource type="Resource" id="Resource_xwh0r"]
+script = ExtResource("3_dx173")
+move = 74
+
+[sub_resource type="Resource" id="Resource_yelhl"]
+script = ExtResource("3_dx173")
+level = 13
+move = 79
+
+[sub_resource type="Resource" id="Resource_ln7e8"]
+script = ExtResource("3_dx173")
+level = 15
+move = 77
+
+[sub_resource type="Resource" id="Resource_f8ey5"]
+script = ExtResource("3_dx173")
+level = 17
+move = 78
+
+[sub_resource type="Resource" id="Resource_p4x3d"]
+script = ExtResource("3_dx173")
+level = 24
+move = 51
+
+[sub_resource type="Resource" id="Resource_wcguq"]
+script = ExtResource("3_dx173")
+level = 29
+move = 282
+
+[sub_resource type="Resource" id="Resource_l8ae6"]
+script = ExtResource("3_dx173")
+level = 32
+move = 230
+
+[sub_resource type="Resource" id="Resource_5nxnd"]
+script = ExtResource("3_dx173")
+level = 39
+move = 380
+
+[sub_resource type="Resource" id="Resource_sgggc"]
+script = ExtResource("3_dx173")
+level = 44
+move = 75
+
+[sub_resource type="Resource" id="Resource_ol31v"]
+script = ExtResource("3_dx173")
+level = 47
+move = 398
+
+[sub_resource type="Resource" id="Resource_lobaw"]
+script = ExtResource("3_dx173")
+level = 54
+move = 21
+
+[sub_resource type="Resource" id="Resource_v51fj"]
+script = ExtResource("3_dx173")
+level = 58
+move = 438
+
+[resource]
+script = ExtResource("4_asr54")
+id = 70
+display_name = "Weepinbell"
+category = "Flycatcher"
+national_dex = 70
+pokedex = "At night, a Weepinbell hangs on to a tree
+branch with its hooked rear and sleeps.
+If it moves around in its sleep, it may
+wake up to find itself on the ground."
+type_1 = 13
+type_2 = 4
+base_hp = 65
+base_atk = 90
+base_def = 50
+base_spa = 85
+base_spd = 45
+base_spe = 55
+ev_atk = 2
+catch_rate = 120
+base_exp = 137
+growth_rate = 3
+egg_group_1 = 7
+ability_1 = 34
+ability_hidden = 82
+height_dm = 10
+weight_hg = 64
+body_color = 3
+no_flip = true
+level_moves = Array[ExtResource("3_dx173")]([SubResource("Resource_6fwmx"), SubResource("Resource_u5l43"), SubResource("Resource_xwh0r"), SubResource("Resource_yelhl"), SubResource("Resource_ln7e8"), SubResource("Resource_f8ey5"), SubResource("Resource_p4x3d"), SubResource("Resource_wcguq"), SubResource("Resource_l8ae6"), SubResource("Resource_5nxnd"), SubResource("Resource_sgggc"), SubResource("Resource_ol31v"), SubResource("Resource_lobaw"), SubResource("Resource_v51fj")])
+evolutions = Array[ExtResource("1_yal6h")]([SubResource("Resource_vew7c")])

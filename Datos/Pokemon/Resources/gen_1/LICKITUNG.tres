@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://iecbvwiy1jno"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_bcvcd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i8f1u"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_48pga"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_y12g1"]
+
+[sub_resource type="Resource" id="Resource_tkew0"]
+script = ExtResource("3_48pga")
+move = 122
+
+[sub_resource type="Resource" id="Resource_pkc2h"]
+script = ExtResource("3_48pga")
+move = 111
+
+[sub_resource type="Resource" id="Resource_voou1"]
+script = ExtResource("3_48pga")
+level = 6
+move = 205
+
+[sub_resource type="Resource" id="Resource_36q4m"]
+script = ExtResource("3_48pga")
+level = 12
+move = 48
+
+[sub_resource type="Resource" id="Resource_wo4of"]
+script = ExtResource("3_48pga")
+level = 18
+move = 35
+
+[sub_resource type="Resource" id="Resource_0p53t"]
+script = ExtResource("3_48pga")
+level = 24
+move = 50
+
+[sub_resource type="Resource" id="Resource_2405n"]
+script = ExtResource("3_48pga")
+level = 30
+move = 23
+
+[sub_resource type="Resource" id="Resource_xkax1"]
+script = ExtResource("3_48pga")
+level = 36
+move = 282
+
+[sub_resource type="Resource" id="Resource_xpof3"]
+script = ExtResource("3_48pga")
+level = 42
+move = 103
+
+[sub_resource type="Resource" id="Resource_fb5dg"]
+script = ExtResource("3_48pga")
+level = 48
+move = 21
+
+[sub_resource type="Resource" id="Resource_c5u6l"]
+script = ExtResource("3_48pga")
+level = 54
+move = 438
+
+[sub_resource type="Resource" id="Resource_ctgae"]
+script = ExtResource("3_48pga")
+level = 60
+move = 187
+
+[resource]
+script = ExtResource("4_y12g1")
+id = 108
+display_name = "Lickitung"
+category = "Licking"
+national_dex = 108
+pokedex = "Whenever it sees something unfamiliar,
+it always licks the object because it
+memorizes things by texture and taste.
+It is somewhat put off by sour things."
+type_1 = 1
+base_hp = 90
+base_atk = 55
+base_def = 75
+base_spa = 60
+base_spd = 75
+base_spe = 30
+ev_hp = 2
+base_exp = 77
+egg_group_1 = 1
+ability_1 = 20
+ability_2 = 12
+ability_hidden = 13
+item_rare = 485
+height_dm = 12
+weight_hg = 655
+body_color = 9
+level_moves = Array[ExtResource("3_48pga")]([SubResource("Resource_tkew0"), SubResource("Resource_pkc2h"), SubResource("Resource_voou1"), SubResource("Resource_36q4m"), SubResource("Resource_wo4of"), SubResource("Resource_0p53t"), SubResource("Resource_2405n"), SubResource("Resource_xkax1"), SubResource("Resource_xpof3"), SubResource("Resource_fb5dg"), SubResource("Resource_c5u6l"), SubResource("Resource_ctgae")])
+egg_moves = Array[int]([187, 222, 34, 174, 265, 214, 173, 133, 359, 330, 428, 562, 37])

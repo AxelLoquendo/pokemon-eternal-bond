@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://m85jwh0at3vn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vl8es"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_swknl"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uvhci"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_f87ur"]
+
+[sub_resource type="Resource" id="Resource_53p4v"]
+script = ExtResource("1_vl8es")
+method = "LEVEL"
+param = "39"
+target = 689
+
+[sub_resource type="Resource" id="Resource_68alu"]
+script = ExtResource("3_uvhci")
+move = 189
+
+[sub_resource type="Resource" id="Resource_qbg1a"]
+script = ExtResource("3_uvhci")
+move = 10
+
+[sub_resource type="Resource" id="Resource_wtelv"]
+script = ExtResource("3_uvhci")
+level = 4
+move = 110
+
+[sub_resource type="Resource" id="Resource_h43a8"]
+script = ExtResource("3_uvhci")
+level = 8
+move = 55
+
+[sub_resource type="Resource" id="Resource_ltp0s"]
+script = ExtResource("3_uvhci")
+level = 12
+move = 210
+
+[sub_resource type="Resource" id="Resource_7yr54"]
+script = ExtResource("3_uvhci")
+level = 16
+move = 154
+
+[sub_resource type="Resource" id="Resource_q8isj"]
+script = ExtResource("3_uvhci")
+level = 20
+move = 246
+
+[sub_resource type="Resource" id="Resource_girx1"]
+script = ExtResource("3_uvhci")
+level = 24
+move = 397
+
+[sub_resource type="Resource" id="Resource_str1t"]
+script = ExtResource("3_uvhci")
+level = 28
+move = 163
+
+[sub_resource type="Resource" id="Resource_vhdh5"]
+script = ExtResource("3_uvhci")
+level = 32
+move = 468
+
+[sub_resource type="Resource" id="Resource_kh38m"]
+script = ExtResource("3_uvhci")
+level = 36
+move = 534
+
+[sub_resource type="Resource" id="Resource_w6jok"]
+script = ExtResource("3_uvhci")
+level = 40
+move = 504
+
+[sub_resource type="Resource" id="Resource_ruu7d"]
+script = ExtResource("3_uvhci")
+level = 44
+move = 238
+
+[resource]
+script = ExtResource("4_f87ur")
+id = 688
+display_name = "Binacle"
+category = "Two-Handed"
+national_dex = 688
+pokedex = "They stretch and then contract, yanking
+their rocks along with them in bold hops.
+They eat seaweed that washes up on
+the shoreline."
+type_1 = 6
+type_2 = 12
+base_hp = 42
+base_atk = 52
+base_def = 67
+base_spa = 39
+base_spd = 56
+base_spe = 50
+ev_atk = 1
+catch_rate = 120
+base_exp = 61
+egg_group_1 = 9
+ability_1 = 181
+ability_2 = 97
+ability_hidden = 124
+height_dm = 5
+weight_hg = 310
+body_color = 5
+level_moves = Array[ExtResource("3_uvhci")]([SubResource("Resource_68alu"), SubResource("Resource_qbg1a"), SubResource("Resource_wtelv"), SubResource("Resource_h43a8"), SubResource("Resource_ltp0s"), SubResource("Resource_7yr54"), SubResource("Resource_q8isj"), SubResource("Resource_girx1"), SubResource("Resource_str1t"), SubResource("Resource_vhdh5"), SubResource("Resource_kh38m"), SubResource("Resource_w6jok"), SubResource("Resource_ruu7d")])
+egg_moves = Array[int]([321, 415, 270, 346])
+evolutions = Array[ExtResource("1_vl8es")]([SubResource("Resource_53p4v")])

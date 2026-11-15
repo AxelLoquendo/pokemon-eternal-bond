@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bilnulknl4ct7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_u00gg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_4mmca"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_l24dn"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_i5ru2"]
+
+[sub_resource type="Resource" id="Resource_rj853"]
+script = ExtResource("3_l24dn")
+move = 11
+
+[sub_resource type="Resource" id="Resource_5v7pm"]
+script = ExtResource("3_l24dn")
+move = 239
+
+[sub_resource type="Resource" id="Resource_35x6k"]
+script = ExtResource("3_l24dn")
+level = 6
+move = 44
+
+[sub_resource type="Resource" id="Resource_v0aok"]
+script = ExtResource("3_l24dn")
+level = 12
+move = 246
+
+[sub_resource type="Resource" id="Resource_8y6vo"]
+script = ExtResource("3_l24dn")
+level = 18
+move = 225
+
+[sub_resource type="Resource" id="Resource_vdy2y"]
+script = ExtResource("3_l24dn")
+level = 30
+move = 242
+
+[sub_resource type="Resource" id="Resource_i80or"]
+script = ExtResource("3_l24dn")
+level = 36
+move = 337
+
+[sub_resource type="Resource" id="Resource_yacno"]
+script = ExtResource("3_l24dn")
+level = 42
+move = 359
+
+[sub_resource type="Resource" id="Resource_cvysh"]
+script = ExtResource("3_l24dn")
+level = 48
+move = 349
+
+[sub_resource type="Resource" id="Resource_6nt3p"]
+script = ExtResource("3_l24dn")
+level = 54
+move = 37
+
+[sub_resource type="Resource" id="Resource_nrv3d"]
+script = ExtResource("3_l24dn")
+level = 60
+move = 116
+
+[sub_resource type="Resource" id="Resource_886ou"]
+script = ExtResource("3_l24dn")
+level = 66
+move = 748
+
+[sub_resource type="Resource" id="Resource_h4cjx"]
+script = ExtResource("3_l24dn")
+level = 72
+move = 63
+
+[sub_resource type="Resource" id="Resource_ys1pj"]
+script = ExtResource("3_l24dn")
+level = 78
+move = 153
+
+[resource]
+script = ExtResource("4_i5ru2")
+id = 895
+display_name = "Regidrago"
+category = "Dragon Orb"
+national_dex = 895
+pokedex = "An academic theory proposes that
+Regidrago's arms were once the head of an
+ancient dragon Pokémon. The theory
+remains unproven."
+type_1 = 17
+base_hp = 200
+base_atk = 100
+base_def = 50
+base_spa = 100
+base_spd = 50
+base_spe = 80
+ev_hp = 3
+catch_rate = 3
+base_exp = 290
+base_friendship = 35
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 263
+height_dm = 21
+weight_hg = 2000
+body_color = 3
+level_moves = Array[ExtResource("3_l24dn")]([SubResource("Resource_rj853"), SubResource("Resource_5v7pm"), SubResource("Resource_35x6k"), SubResource("Resource_v0aok"), SubResource("Resource_8y6vo"), SubResource("Resource_vdy2y"), SubResource("Resource_i80or"), SubResource("Resource_yacno"), SubResource("Resource_cvysh"), SubResource("Resource_6nt3p"), SubResource("Resource_nrv3d"), SubResource("Resource_886ou"), SubResource("Resource_h4cjx"), SubResource("Resource_ys1pj")])

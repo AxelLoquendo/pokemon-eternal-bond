@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://tij78nxw0r3j"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qyms3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vs3xd"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2o57s"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xgvq4"]
+
+[sub_resource type="Resource" id="Resource_otuad"]
+script = ExtResource("1_qyms3")
+method = "LEVEL"
+param = "30"
+target = 1063
+
+[sub_resource type="Resource" id="Resource_nwhmc"]
+script = ExtResource("3_2o57s")
+move = 55
+
+[sub_resource type="Resource" id="Resource_rxpoy"]
+script = ExtResource("3_2o57s")
+move = 189
+
+[sub_resource type="Resource" id="Resource_uj5lj"]
+script = ExtResource("3_2o57s")
+level = 5
+move = 106
+
+[sub_resource type="Resource" id="Resource_x3pt8"]
+script = ExtResource("3_2o57s")
+level = 10
+move = 105
+
+[sub_resource type="Resource" id="Resource_jh3ku"]
+script = ExtResource("3_2o57s")
+level = 15
+move = 352
+
+[sub_resource type="Resource" id="Resource_fycj0"]
+script = ExtResource("3_2o57s")
+level = 20
+move = 246
+
+[sub_resource type="Resource" id="Resource_wxcow"]
+script = ExtResource("3_2o57s")
+level = 25
+move = 34
+
+[sub_resource type="Resource" id="Resource_0rfgh"]
+script = ExtResource("3_2o57s")
+level = 31
+move = 330
+
+[sub_resource type="Resource" id="Resource_6345y"]
+script = ExtResource("3_2o57s")
+level = 35
+move = 414
+
+[sub_resource type="Resource" id="Resource_pxi5p"]
+script = ExtResource("3_2o57s")
+level = 40
+move = 240
+
+[sub_resource type="Resource" id="Resource_e3juv"]
+script = ExtResource("3_2o57s")
+level = 45
+move = 262
+
+[resource]
+script = ExtResource("4_xgvq4")
+id = 1062
+display_name = "Shellos"
+category = "Sea Slug"
+national_dex = 422
+pokedex = "It's capable of spending a limited amount
+of time on land until their skin dries out.
+One theory suggests that living in cold
+seas causes Shellos to take on this form."
+type_1 = 12
+base_hp = 76
+base_atk = 48
+base_def = 48
+base_spa = 57
+base_spd = 62
+base_spe = 34
+ev_hp = 1
+catch_rate = 190
+base_exp = 65
+egg_group_1 = 2
+egg_group_2 = 11
+ability_1 = 60
+ability_2 = 114
+ability_hidden = 159
+height_dm = 3
+weight_hg = 63
+body_color = 1
+level_moves = Array[ExtResource("3_2o57s")]([SubResource("Resource_nwhmc"), SubResource("Resource_rxpoy"), SubResource("Resource_uj5lj"), SubResource("Resource_x3pt8"), SubResource("Resource_jh3ku"), SubResource("Resource_fycj0"), SubResource("Resource_wxcow"), SubResource("Resource_0rfgh"), SubResource("Resource_6345y"), SubResource("Resource_pxi5p"), SubResource("Resource_e3juv")])
+egg_moves = Array[int]([68, 243, 254, 256, 255, 281, 262, 174, 133, 90, 376, 124, 499, 362, 54, 151])
+evolutions = Array[ExtResource("1_qyms3")]([SubResource("Resource_otuad")])
+form_species = Array[int]([422, 1062])

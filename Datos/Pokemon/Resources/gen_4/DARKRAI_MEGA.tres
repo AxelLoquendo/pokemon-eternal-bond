@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bdib5sp5vkjgn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_yltl1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gao78"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_r3fcq"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_u0p85"]
+
+[sub_resource type="Resource" id="Resource_riga2"]
+script = ExtResource("3_r3fcq")
+move = 50
+
+[sub_resource type="Resource" id="Resource_hat55"]
+script = ExtResource("3_r3fcq")
+level = 11
+move = 98
+
+[sub_resource type="Resource" id="Resource_coo73"]
+script = ExtResource("3_r3fcq")
+level = 20
+move = 95
+
+[sub_resource type="Resource" id="Resource_aqvpu"]
+script = ExtResource("3_r3fcq")
+level = 29
+move = 389
+
+[sub_resource type="Resource" id="Resource_ybohm"]
+script = ExtResource("3_r3fcq")
+level = 38
+move = 101
+
+[sub_resource type="Resource" id="Resource_ftw6w"]
+script = ExtResource("3_r3fcq")
+level = 47
+move = 104
+
+[sub_resource type="Resource" id="Resource_vu7k7"]
+script = ExtResource("3_r3fcq")
+level = 57
+move = 114
+
+[sub_resource type="Resource" id="Resource_nvb8o"]
+script = ExtResource("3_r3fcq")
+level = 66
+move = 464
+
+[sub_resource type="Resource" id="Resource_smv6p"]
+script = ExtResource("3_r3fcq")
+level = 75
+move = 417
+
+[sub_resource type="Resource" id="Resource_a6s17"]
+script = ExtResource("3_r3fcq")
+level = 84
+move = 138
+
+[sub_resource type="Resource" id="Resource_l23wg"]
+script = ExtResource("3_r3fcq")
+level = 93
+move = 399
+
+[resource]
+script = ExtResource("4_u0p85")
+id = 1551
+display_name = "Darkrai"
+category = "Pitch-Black"
+national_dex = 491
+pokedex = "Its dark power blocks out the sun,
+plunging the surrounding area into
+darkness. There is no escaping its
+evil eye."
+type_1 = 18
+base_hp = 70
+base_atk = 120
+base_def = 130
+base_spa = 165
+base_spd = 130
+base_spe = 85
+ev_spa = 2
+ev_spe = 1
+catch_rate = 3
+base_exp = 210
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 123
+height_dm = 30
+weight_hg = 2400
+body_color = 4
+level_moves = Array[ExtResource("3_r3fcq")]([SubResource("Resource_riga2"), SubResource("Resource_hat55"), SubResource("Resource_coo73"), SubResource("Resource_aqvpu"), SubResource("Resource_ybohm"), SubResource("Resource_ftw6w"), SubResource("Resource_vu7k7"), SubResource("Resource_nvb8o"), SubResource("Resource_smv6p"), SubResource("Resource_a6s17"), SubResource("Resource_l23wg")])
+form_species = Array[int]([491, 1551])

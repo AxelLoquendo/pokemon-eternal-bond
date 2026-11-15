@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d1xhksgg7t2nc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_a288o"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rqsl4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pj7cx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8yg0p"]
+
+[sub_resource type="Resource" id="Resource_1by4h"]
+script = ExtResource("1_a288o")
+method = "LEVEL"
+param = "50"
+target = 620
+
+[sub_resource type="Resource" id="Resource_cdapa"]
+script = ExtResource("3_pj7cx")
+move = 1
+
+[sub_resource type="Resource" id="Resource_kat34"]
+script = ExtResource("3_pj7cx")
+move = 197
+
+[sub_resource type="Resource" id="Resource_fd4t5"]
+script = ExtResource("3_pj7cx")
+level = 5
+move = 252
+
+[sub_resource type="Resource" id="Resource_k7hcx"]
+script = ExtResource("3_pj7cx")
+level = 10
+move = 179
+
+[sub_resource type="Resource" id="Resource_d31nd"]
+script = ExtResource("3_pj7cx")
+level = 15
+move = 154
+
+[sub_resource type="Resource" id="Resource_8wane"]
+script = ExtResource("3_pj7cx")
+level = 20
+move = 501
+
+[sub_resource type="Resource" id="Resource_x556p"]
+script = ExtResource("3_pj7cx")
+level = 25
+move = 395
+
+[sub_resource type="Resource" id="Resource_oly2x"]
+script = ExtResource("3_pj7cx")
+level = 30
+move = 369
+
+[sub_resource type="Resource" id="Resource_g70s3"]
+script = ExtResource("3_pj7cx")
+level = 35
+move = 409
+
+[sub_resource type="Resource" id="Resource_rcivd"]
+script = ExtResource("3_pj7cx")
+level = 40
+move = 468
+
+[sub_resource type="Resource" id="Resource_54qql"]
+script = ExtResource("3_pj7cx")
+level = 45
+move = 396
+
+[sub_resource type="Resource" id="Resource_1dg4q"]
+script = ExtResource("3_pj7cx")
+level = 51
+move = 340
+
+[sub_resource type="Resource" id="Resource_c2xj2"]
+script = ExtResource("3_pj7cx")
+level = 55
+move = 347
+
+[sub_resource type="Resource" id="Resource_ap45q"]
+script = ExtResource("3_pj7cx")
+level = 60
+move = 136
+
+[resource]
+script = ExtResource("4_8yg0p")
+id = 619
+display_name = "Mienfoo"
+category = "Martial Arts"
+national_dex = 619
+pokedex = "They have mastered elegant combos.
+As they concentrate, their battle moves
+become swifter and more precise. What it
+lacks in power, it makes up for in quantity."
+type_1 = 2
+base_hp = 45
+base_atk = 85
+base_def = 50
+base_spa = 55
+base_spd = 50
+base_spe = 65
+ev_atk = 1
+catch_rate = 180
+base_exp = 70
+growth_rate = 3
+egg_cycles = 25
+egg_group_1 = 5
+egg_group_2 = 8
+ability_1 = 39
+ability_2 = 144
+ability_hidden = 120
+height_dm = 9
+weight_hg = 200
+body_color = 2
+level_moves = Array[ExtResource("3_pj7cx")]([SubResource("Resource_cdapa"), SubResource("Resource_kat34"), SubResource("Resource_fd4t5"), SubResource("Resource_k7hcx"), SubResource("Resource_d31nd"), SubResource("Resource_8wane"), SubResource("Resource_x556p"), SubResource("Resource_oly2x"), SubResource("Resource_g70s3"), SubResource("Resource_rcivd"), SubResource("Resource_54qql"), SubResource("Resource_1dg4q"), SubResource("Resource_c2xj2"), SubResource("Resource_ap45q")])
+egg_moves = Array[int]([203, 233, 226, 265, 67, 364, 382, 282, 502])
+evolutions = Array[ExtResource("1_a288o")]([SubResource("Resource_1by4h")])

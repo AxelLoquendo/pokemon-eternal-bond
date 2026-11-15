@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://nax2xwgl2vqr"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_r87lm"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_grekn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vqo3f"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3qh06"]
+
+[sub_resource type="Resource" id="Resource_p6u4h"]
+script = ExtResource("3_vqo3f")
+move = 71
+
+[sub_resource type="Resource" id="Resource_nsidg"]
+script = ExtResource("3_vqo3f")
+move = 310
+
+[sub_resource type="Resource" id="Resource_5xg1n"]
+script = ExtResource("3_vqo3f")
+move = 109
+
+[sub_resource type="Resource" id="Resource_mwxse"]
+script = ExtResource("3_vqo3f")
+move = 275
+
+[sub_resource type="Resource" id="Resource_y5u1p"]
+script = ExtResource("3_vqo3f")
+level = 12
+move = 72
+
+[sub_resource type="Resource" id="Resource_16m8r"]
+script = ExtResource("3_vqo3f")
+level = 16
+move = 79
+
+[sub_resource type="Resource" id="Resource_pwxhj"]
+script = ExtResource("3_vqo3f")
+level = 20
+move = 236
+
+[sub_resource type="Resource" id="Resource_axq77"]
+script = ExtResource("3_vqo3f")
+level = 27
+move = 631
+
+[sub_resource type="Resource" id="Resource_e1fw0"]
+script = ExtResource("3_vqo3f")
+level = 32
+move = 202
+
+[sub_resource type="Resource" id="Resource_ff028"]
+script = ExtResource("3_vqo3f")
+level = 38
+move = 605
+
+[sub_resource type="Resource" id="Resource_8bim8"]
+script = ExtResource("3_vqo3f")
+level = 44
+move = 147
+
+[sub_resource type="Resource" id="Resource_vyf3f"]
+script = ExtResource("3_vqo3f")
+level = 50
+move = 585
+
+[sub_resource type="Resource" id="Resource_ks3ny"]
+script = ExtResource("3_vqo3f")
+level = 56
+move = 138
+
+[resource]
+script = ExtResource("4_3qh06")
+id = 756
+display_name = "Shiinotic"
+category = "Illuminate"
+national_dex = 756
+pokedex = "Forests where Shiinotic live are
+treacherous to enter at night.
+People confused by its strange lights
+can never find their way home again."
+type_1 = 13
+type_2 = 19
+base_hp = 60
+base_atk = 45
+base_def = 80
+base_spa = 90
+base_spd = 100
+base_spe = 30
+ev_spd = 2
+catch_rate = 75
+base_exp = 142
+egg_group_1 = 7
+ability_1 = 35
+ability_2 = 27
+ability_hidden = 44
+item_common = 137
+item_rare = 138
+height_dm = 10
+weight_hg = 115
+body_color = 6
+level_moves = Array[ExtResource("3_vqo3f")]([SubResource("Resource_p6u4h"), SubResource("Resource_nsidg"), SubResource("Resource_5xg1n"), SubResource("Resource_mwxse"), SubResource("Resource_y5u1p"), SubResource("Resource_16m8r"), SubResource("Resource_pwxhj"), SubResource("Resource_axq77"), SubResource("Resource_e1fw0"), SubResource("Resource_ff028"), SubResource("Resource_8bim8"), SubResource("Resource_vyf3f"), SubResource("Resource_ks3ny")])

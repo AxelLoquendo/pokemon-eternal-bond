@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://s5p3s3agixww"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_a8o25"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_254ir"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_lr6q5"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_07jxi"]
+
+[sub_resource type="Resource" id="Resource_8oetl"]
+script = ExtResource("3_lr6q5")
+move = 1
+
+[sub_resource type="Resource" id="Resource_mlkn6"]
+script = ExtResource("3_lr6q5")
+move = 608
+
+[sub_resource type="Resource" id="Resource_trj5v"]
+script = ExtResource("3_lr6q5")
+level = 5
+move = 497
+
+[sub_resource type="Resource" id="Resource_gtbh5"]
+script = ExtResource("3_lr6q5")
+level = 8
+move = 270
+
+[sub_resource type="Resource" id="Resource_1prfa"]
+script = ExtResource("3_lr6q5")
+level = 11
+move = 162
+
+[sub_resource type="Resource" id="Resource_egr6g"]
+script = ExtResource("3_lr6q5")
+level = 14
+move = 458
+
+[sub_resource type="Resource" id="Resource_21rai"]
+script = ExtResource("3_lr6q5")
+level = 18
+move = 331
+
+[sub_resource type="Resource" id="Resource_2mkav"]
+script = ExtResource("3_lr6q5")
+level = 22
+move = 227
+
+[sub_resource type="Resource" id="Resource_ebuiy"]
+script = ExtResource("3_lr6q5")
+level = 26
+move = 583
+
+[sub_resource type="Resource" id="Resource_bn3wm"]
+script = ExtResource("3_lr6q5")
+level = 30
+move = 304
+
+[sub_resource type="Resource" id="Resource_w02ni"]
+script = ExtResource("3_lr6q5")
+level = 33
+move = 204
+
+[sub_resource type="Resource" id="Resource_wfuo6"]
+script = ExtResource("3_lr6q5")
+level = 37
+move = 251
+
+[sub_resource type="Resource" id="Resource_drir2"]
+script = ExtResource("3_lr6q5")
+level = 41
+move = 383
+
+[sub_resource type="Resource" id="Resource_3ukl8"]
+script = ExtResource("3_lr6q5")
+level = 46
+move = 788
+
+[resource]
+script = ExtResource("4_07jxi")
+id = 1308
+display_name = "Tandemaus"
+category = "Couple"
+national_dex = 924
+pokedex = "Exhibiting great teamwork, they
+use their incisors to cut pieces out
+of any material that might be useful
+for a nest, then make off with them."
+type_1 = 1
+base_hp = 50
+base_atk = 50
+base_def = 45
+base_spa = 40
+base_spd = 45
+base_spe = 75
+ev_spe = 1
+catch_rate = 150
+base_exp = 61
+gender_ratio = 255
+growth_rate = 4
+egg_cycles = 10
+egg_group_1 = 5
+egg_group_2 = 6
+ability_1 = 50
+ability_2 = 53
+ability_hidden = 20
+height_dm = 3
+weight_hg = 18
+body_color = 8
+level_moves = Array[ExtResource("3_lr6q5")]([SubResource("Resource_8oetl"), SubResource("Resource_mlkn6"), SubResource("Resource_trj5v"), SubResource("Resource_gtbh5"), SubResource("Resource_1prfa"), SubResource("Resource_egr6g"), SubResource("Resource_21rai"), SubResource("Resource_2mkav"), SubResource("Resource_ebuiy"), SubResource("Resource_bn3wm"), SubResource("Resource_w02ni"), SubResource("Resource_wfuo6"), SubResource("Resource_drir2"), SubResource("Resource_3ukl8")])
+egg_moves = Array[int]([495, 226, 44, 364, 415, 321])

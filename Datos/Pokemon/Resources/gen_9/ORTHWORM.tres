@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://do3810xn5g3ki"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_hmgjl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i1nad"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uh0tr"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1la8v"]
+
+[sub_resource type="Resource" id="Resource_iwb17"]
+script = ExtResource("3_uh0tr")
+move = 33
+
+[sub_resource type="Resource" id="Resource_gs2i7"]
+script = ExtResource("3_uh0tr")
+move = 35
+
+[sub_resource type="Resource" id="Resource_4207m"]
+script = ExtResource("3_uh0tr")
+move = 106
+
+[sub_resource type="Resource" id="Resource_3qbhr"]
+script = ExtResource("3_uh0tr")
+level = 7
+move = 189
+
+[sub_resource type="Resource" id="Resource_hdu68"]
+script = ExtResource("3_uh0tr")
+level = 12
+move = 479
+
+[sub_resource type="Resource" id="Resource_m0vcj"]
+script = ExtResource("3_uh0tr")
+level = 16
+move = 523
+
+[sub_resource type="Resource" id="Resource_vu488"]
+script = ExtResource("3_uh0tr")
+level = 21
+move = 442
+
+[sub_resource type="Resource" id="Resource_5j1hm"]
+script = ExtResource("3_uh0tr")
+level = 26
+move = 36
+
+[sub_resource type="Resource" id="Resource_0iv03"]
+script = ExtResource("3_uh0tr")
+level = 30
+move = 91
+
+[sub_resource type="Resource" id="Resource_604e2"]
+script = ExtResource("3_uh0tr")
+level = 34
+move = 201
+
+[sub_resource type="Resource" id="Resource_402k5"]
+script = ExtResource("3_uh0tr")
+level = 38
+move = 334
+
+[sub_resource type="Resource" id="Resource_6v1js"]
+script = ExtResource("3_uh0tr")
+level = 43
+move = 231
+
+[sub_resource type="Resource" id="Resource_ehor0"]
+script = ExtResource("3_uh0tr")
+level = 47
+move = 89
+
+[sub_resource type="Resource" id="Resource_du8oo"]
+script = ExtResource("3_uh0tr")
+level = 52
+move = 806
+
+[resource]
+script = ExtResource("4_1la8v")
+id = 1357
+display_name = "Orthworm"
+category = "Earthworm"
+national_dex = 968
+pokedex = "When attacked, this Pokémon will
+wield the tendrils on its body like
+fists and pelt the opponent with a
+storm of punches."
+type_1 = 9
+base_hp = 70
+base_atk = 85
+base_def = 145
+base_spa = 60
+base_spd = 55
+base_spe = 65
+ev_def = 2
+catch_rate = 25
+base_exp = 240
+growth_rate = 5
+egg_cycles = 35
+egg_group_1 = 5
+ability_1 = 297
+ability_hidden = 8
+height_dm = 25
+weight_hg = 3100
+body_color = 9
+level_moves = Array[ExtResource("3_uh0tr")]([SubResource("Resource_iwb17"), SubResource("Resource_gs2i7"), SubResource("Resource_4207m"), SubResource("Resource_3qbhr"), SubResource("Resource_hdu68"), SubResource("Resource_m0vcj"), SubResource("Resource_vu488"), SubResource("Resource_5j1hm"), SubResource("Resource_0iv03"), SubResource("Resource_604e2"), SubResource("Resource_402k5"), SubResource("Resource_6v1js"), SubResource("Resource_ehor0"), SubResource("Resource_du8oo")])
+egg_moves = Array[int]([489, 174, 368])

@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://de3c4m3vtjfir"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_dmu2c"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_fmr6h"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h3w7u"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8sc47"]
+
+[sub_resource type="Resource" id="Resource_6on3g"]
+script = ExtResource("3_h3w7u")
+move = 16
+
+[sub_resource type="Resource" id="Resource_mkc55"]
+script = ExtResource("3_h3w7u")
+move = 213
+
+[sub_resource type="Resource" id="Resource_mmxk3"]
+script = ExtResource("3_h3w7u")
+level = 5
+move = 93
+
+[sub_resource type="Resource" id="Resource_4wm18"]
+script = ExtResource("3_h3w7u")
+level = 10
+move = 283
+
+[sub_resource type="Resource" id="Resource_8cg1t"]
+script = ExtResource("3_h3w7u")
+level = 15
+move = 314
+
+[sub_resource type="Resource" id="Resource_1ebay"]
+script = ExtResource("3_h3w7u")
+level = 20
+move = 286
+
+[sub_resource type="Resource" id="Resource_0kaig"]
+script = ExtResource("3_h3w7u")
+level = 25
+move = 372
+
+[sub_resource type="Resource" id="Resource_5lp4l"]
+script = ExtResource("3_h3w7u")
+level = 30
+move = 133
+
+[sub_resource type="Resource" id="Resource_kgyw2"]
+script = ExtResource("3_h3w7u")
+level = 35
+move = 403
+
+[sub_resource type="Resource" id="Resource_en4k7"]
+script = ExtResource("3_h3w7u")
+level = 40
+move = 94
+
+[sub_resource type="Resource" id="Resource_h04ck"]
+script = ExtResource("3_h3w7u")
+level = 45
+move = 347
+
+[sub_resource type="Resource" id="Resource_n2agy"]
+script = ExtResource("3_h3w7u")
+level = 50
+move = 248
+
+[sub_resource type="Resource" id="Resource_1qcmk"]
+script = ExtResource("3_h3w7u")
+level = 55
+move = 493
+
+[resource]
+script = ExtResource("4_8sc47")
+id = 527
+display_name = "Woobat"
+category = "Bat"
+national_dex = 527
+pokedex = "Its habitat is dark forests and caves.
+Suction from its nostrils enables it
+to stick to cave walls during sleep.
+It leaves a heart-shaped mark behind."
+type_1 = 15
+type_2 = 3
+base_hp = 65
+base_atk = 45
+base_def = 43
+base_spa = 55
+base_spd = 43
+base_spe = 72
+ev_spe = 1
+catch_rate = 190
+base_exp = 65
+egg_cycles = 15
+egg_group_1 = 5
+egg_group_2 = 4
+ability_1 = 109
+ability_2 = 103
+ability_hidden = 86
+height_dm = 4
+weight_hg = 21
+body_color = 1
+level_moves = Array[ExtResource("3_h3w7u")]([SubResource("Resource_6on3g"), SubResource("Resource_mkc55"), SubResource("Resource_mmxk3"), SubResource("Resource_4wm18"), SubResource("Resource_8cg1t"), SubResource("Resource_1ebay"), SubResource("Resource_0kaig"), SubResource("Resource_5lp4l"), SubResource("Resource_kgyw2"), SubResource("Resource_en4k7"), SubResource("Resource_h04ck"), SubResource("Resource_n2agy"), SubResource("Resource_1qcmk")])
+egg_moves = Array[int]([204, 282, 313, 48, 485, 500, 355, 260, 270, 445, 599, 375])

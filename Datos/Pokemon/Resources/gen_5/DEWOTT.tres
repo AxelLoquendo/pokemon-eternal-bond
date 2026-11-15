@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://uxssfnol5g32"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qpwjr"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7sdo4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xmn4s"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_levke"]
+
+[sub_resource type="Resource" id="Resource_a63o3"]
+script = ExtResource("3_xmn4s")
+move = 33
+
+[sub_resource type="Resource" id="Resource_1yo5t"]
+script = ExtResource("3_xmn4s")
+move = 39
+
+[sub_resource type="Resource" id="Resource_afkii"]
+script = ExtResource("3_xmn4s")
+move = 55
+
+[sub_resource type="Resource" id="Resource_q1nwr"]
+script = ExtResource("3_xmn4s")
+move = 487
+
+[sub_resource type="Resource" id="Resource_xp8ai"]
+script = ExtResource("3_xmn4s")
+level = 13
+move = 116
+
+[sub_resource type="Resource" id="Resource_wkd5v"]
+script = ExtResource("3_xmn4s")
+level = 18
+move = 534
+
+[sub_resource type="Resource" id="Resource_bnmiq"]
+script = ExtResource("3_xmn4s")
+level = 21
+move = 210
+
+[sub_resource type="Resource" id="Resource_hkcaa"]
+script = ExtResource("3_xmn4s")
+level = 26
+move = 352
+
+[sub_resource type="Resource" id="Resource_4uvju"]
+script = ExtResource("3_xmn4s")
+level = 29
+move = 332
+
+[sub_resource type="Resource" id="Resource_ey1w8"]
+script = ExtResource("3_xmn4s")
+level = 34
+move = 453
+
+[sub_resource type="Resource" id="Resource_tiyat"]
+script = ExtResource("3_xmn4s")
+level = 37
+move = 227
+
+[sub_resource type="Resource" id="Resource_1pprc"]
+script = ExtResource("3_xmn4s")
+level = 42
+move = 401
+
+[sub_resource type="Resource" id="Resource_lngot"]
+script = ExtResource("3_xmn4s")
+level = 45
+move = 514
+
+[sub_resource type="Resource" id="Resource_ft3p6"]
+script = ExtResource("3_xmn4s")
+level = 50
+move = 14
+
+[sub_resource type="Resource" id="Resource_mlfur"]
+script = ExtResource("3_xmn4s")
+level = 53
+move = 56
+
+[resource]
+script = ExtResource("4_levke")
+id = 502
+display_name = "Dewott"
+category = "Discipline"
+national_dex = 502
+pokedex = "Strict training and disclipine leads it
+to master its flowing double-scalchop
+technique. Scalchop techniques differ
+from one Dewott to another."
+type_1 = 12
+base_hp = 75
+base_atk = 75
+base_def = 60
+base_spa = 83
+base_spd = 60
+base_spe = 60
+ev_spa = 2
+base_exp = 145
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 67
+ability_hidden = 75
+height_dm = 8
+weight_hg = 245
+body_color = 1
+level_moves = Array[ExtResource("3_xmn4s")]([SubResource("Resource_a63o3"), SubResource("Resource_1yo5t"), SubResource("Resource_afkii"), SubResource("Resource_q1nwr"), SubResource("Resource_xp8ai"), SubResource("Resource_wkd5v"), SubResource("Resource_bnmiq"), SubResource("Resource_hkcaa"), SubResource("Resource_4uvju"), SubResource("Resource_ey1w8"), SubResource("Resource_tiyat"), SubResource("Resource_1pprc"), SubResource("Resource_lngot"), SubResource("Resource_ft3p6"), SubResource("Resource_mlfur")])

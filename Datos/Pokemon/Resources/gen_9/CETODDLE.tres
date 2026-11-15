@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://iepuxs7fr8fq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_nv0if"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wq5au"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_00gjq"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ud8nx"]
+
+[sub_resource type="Resource" id="Resource_wp8mk"]
+script = ExtResource("1_nv0if")
+method = "ITEM"
+param = "ITEM_ICE_STONE"
+target = 1364
+
+[sub_resource type="Resource" id="Resource_mbnp2"]
+script = ExtResource("3_00gjq")
+move = 33
+
+[sub_resource type="Resource" id="Resource_1hl5k"]
+script = ExtResource("3_00gjq")
+move = 181
+
+[sub_resource type="Resource" id="Resource_65ijg"]
+script = ExtResource("3_00gjq")
+level = 6
+move = 45
+
+[sub_resource type="Resource" id="Resource_old7b"]
+script = ExtResource("3_00gjq")
+level = 9
+move = 497
+
+[sub_resource type="Resource" id="Resource_c3r5q"]
+script = ExtResource("3_00gjq")
+level = 12
+move = 420
+
+[sub_resource type="Resource" id="Resource_wbbus"]
+script = ExtResource("3_00gjq")
+level = 15
+move = 156
+
+[sub_resource type="Resource" id="Resource_m6cs3"]
+script = ExtResource("3_00gjq")
+level = 19
+move = 36
+
+[sub_resource type="Resource" id="Resource_qd5x4"]
+script = ExtResource("3_00gjq")
+level = 25
+move = 175
+
+[sub_resource type="Resource" id="Resource_57xwe"]
+script = ExtResource("3_00gjq")
+level = 27
+move = 419
+
+[sub_resource type="Resource" id="Resource_rtxb3"]
+script = ExtResource("3_00gjq")
+level = 31
+move = 340
+
+[sub_resource type="Resource" id="Resource_812ef"]
+script = ExtResource("3_00gjq")
+level = 36
+move = 34
+
+[sub_resource type="Resource" id="Resource_nfjed"]
+script = ExtResource("3_00gjq")
+level = 40
+move = 133
+
+[sub_resource type="Resource" id="Resource_tmu0q"]
+script = ExtResource("3_00gjq")
+level = 44
+move = 789
+
+[sub_resource type="Resource" id="Resource_awxaq"]
+script = ExtResource("3_00gjq")
+level = 49
+move = 38
+
+[sub_resource type="Resource" id="Resource_b8ckv"]
+script = ExtResource("3_00gjq")
+level = 53
+move = 59
+
+[resource]
+script = ExtResource("4_ud8nx")
+id = 1363
+display_name = "Cetoddle"
+category = "Terra Whale"
+national_dex = 974
+pokedex = "This species left the ocean and
+began living on land a very long time
+ago. It seems to be closely related
+to Wailmer."
+type_1 = 16
+base_hp = 108
+base_atk = 68
+base_def = 45
+base_spa = 30
+base_spd = 40
+base_spe = 43
+ev_hp = 1
+catch_rate = 150
+base_exp = 67
+growth_rate = 3
+egg_cycles = 25
+egg_group_1 = 5
+ability_1 = 47
+ability_2 = 81
+ability_hidden = 125
+height_dm = 12
+weight_hg = 450
+body_color = 8
+level_moves = Array[ExtResource("3_00gjq")]([SubResource("Resource_mbnp2"), SubResource("Resource_1hl5k"), SubResource("Resource_65ijg"), SubResource("Resource_old7b"), SubResource("Resource_c3r5q"), SubResource("Resource_wbbus"), SubResource("Resource_m6cs3"), SubResource("Resource_qd5x4"), SubResource("Resource_57xwe"), SubResource("Resource_rtxb3"), SubResource("Resource_812ef"), SubResource("Resource_nfjed"), SubResource("Resource_tmu0q"), SubResource("Resource_awxaq"), SubResource("Resource_b8ckv")])
+egg_moves = Array[int]([187, 494, 556, 276, 281])
+evolutions = Array[ExtResource("1_nv0if")]([SubResource("Resource_wp8mk")])

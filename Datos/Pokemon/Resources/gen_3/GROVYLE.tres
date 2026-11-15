@@ -1,0 +1,130 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bhmiqparmim81"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_imfb6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_s70yg"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6dob0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_61xan"]
+
+[sub_resource type="Resource" id="Resource_lo7p6"]
+script = ExtResource("1_imfb6")
+method = "LEVEL"
+param = "36"
+target = 254
+
+[sub_resource type="Resource" id="Resource_lfoj3"]
+script = ExtResource("3_6dob0")
+move = 206
+
+[sub_resource type="Resource" id="Resource_xj23r"]
+script = ExtResource("3_6dob0")
+move = 210
+
+[sub_resource type="Resource" id="Resource_7ea5m"]
+script = ExtResource("3_6dob0")
+move = 404
+
+[sub_resource type="Resource" id="Resource_nit68"]
+script = ExtResource("3_6dob0")
+move = 412
+
+[sub_resource type="Resource" id="Resource_xsxj7"]
+script = ExtResource("3_6dob0")
+move = 1
+
+[sub_resource type="Resource" id="Resource_v6xk0"]
+script = ExtResource("3_6dob0")
+move = 43
+
+[sub_resource type="Resource" id="Resource_5j4j3"]
+script = ExtResource("3_6dob0")
+move = 98
+
+[sub_resource type="Resource" id="Resource_5evae"]
+script = ExtResource("3_6dob0")
+move = 633
+
+[sub_resource type="Resource" id="Resource_7at4m"]
+script = ExtResource("3_6dob0")
+level = 9
+move = 72
+
+[sub_resource type="Resource" id="Resource_6oqme"]
+script = ExtResource("3_6dob0")
+level = 12
+move = 197
+
+[sub_resource type="Resource" id="Resource_0qqgp"]
+script = ExtResource("3_6dob0")
+level = 15
+move = 501
+
+[sub_resource type="Resource" id="Resource_ursab"]
+script = ExtResource("3_6dob0")
+level = 20
+move = 372
+
+[sub_resource type="Resource" id="Resource_gkj6x"]
+script = ExtResource("3_6dob0")
+level = 25
+move = 202
+
+[sub_resource type="Resource" id="Resource_vd2sr"]
+script = ExtResource("3_6dob0")
+level = 30
+move = 21
+
+[sub_resource type="Resource" id="Resource_tipnd"]
+script = ExtResource("3_6dob0")
+level = 35
+move = 104
+
+[sub_resource type="Resource" id="Resource_lb85i"]
+script = ExtResource("3_6dob0")
+level = 40
+move = 348
+
+[sub_resource type="Resource" id="Resource_lv8i4"]
+script = ExtResource("3_6dob0")
+level = 45
+move = 103
+
+[sub_resource type="Resource" id="Resource_lbvhg"]
+script = ExtResource("3_6dob0")
+level = 50
+move = 283
+
+[sub_resource type="Resource" id="Resource_gihdw"]
+script = ExtResource("3_6dob0")
+level = 55
+move = 437
+
+[resource]
+script = ExtResource("4_61xan")
+id = 253
+display_name = "Grovyle"
+category = "Wood Gecko"
+national_dex = 253
+pokedex = "Leaves grow out of this Pokémon's body.
+They help obscure a Grovyle from the eyes
+of its enemies while it is in a thickly
+overgrown forest."
+type_1 = 13
+base_hp = 50
+base_atk = 65
+base_def = 45
+base_spa = 85
+base_spd = 65
+base_spe = 95
+ev_spe = 2
+base_exp = 142
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 65
+ability_hidden = 84
+height_dm = 9
+weight_hg = 216
+body_color = 3
+level_moves = Array[ExtResource("3_6dob0")]([SubResource("Resource_lfoj3"), SubResource("Resource_xj23r"), SubResource("Resource_7ea5m"), SubResource("Resource_nit68"), SubResource("Resource_xsxj7"), SubResource("Resource_v6xk0"), SubResource("Resource_5j4j3"), SubResource("Resource_5evae"), SubResource("Resource_7at4m"), SubResource("Resource_6oqme"), SubResource("Resource_0qqgp"), SubResource("Resource_ursab"), SubResource("Resource_gkj6x"), SubResource("Resource_vd2sr"), SubResource("Resource_tipnd"), SubResource("Resource_lb85i"), SubResource("Resource_lv8i4"), SubResource("Resource_lbvhg"), SubResource("Resource_gihdw")])
+evolutions = Array[ExtResource("1_imfb6")]([SubResource("Resource_lo7p6")])

@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b458erkwcqiqs"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_t6u65"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8dg0i"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_e3b72"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_go4ep"]
+
+[sub_resource type="Resource" id="Resource_2f6if"]
+script = ExtResource("1_t6u65")
+method = "LEVEL"
+param = "18"
+target = 388
+
+[sub_resource type="Resource" id="Resource_oso8w"]
+script = ExtResource("3_e3b72")
+move = 33
+
+[sub_resource type="Resource" id="Resource_rrvwx"]
+script = ExtResource("3_e3b72")
+level = 5
+move = 110
+
+[sub_resource type="Resource" id="Resource_eq40n"]
+script = ExtResource("3_e3b72")
+level = 9
+move = 71
+
+[sub_resource type="Resource" id="Resource_bnuyn"]
+script = ExtResource("3_e3b72")
+level = 13
+move = 75
+
+[sub_resource type="Resource" id="Resource_tknl1"]
+script = ExtResource("3_e3b72")
+level = 17
+move = 174
+
+[sub_resource type="Resource" id="Resource_8xyyv"]
+script = ExtResource("3_e3b72")
+level = 21
+move = 44
+
+[sub_resource type="Resource" id="Resource_bvdyc"]
+script = ExtResource("3_e3b72")
+level = 25
+move = 72
+
+[sub_resource type="Resource" id="Resource_cx3f7"]
+script = ExtResource("3_e3b72")
+level = 29
+move = 73
+
+[sub_resource type="Resource" id="Resource_5tbe5"]
+script = ExtResource("3_e3b72")
+level = 33
+move = 235
+
+[sub_resource type="Resource" id="Resource_rx5i4"]
+script = ExtResource("3_e3b72")
+level = 37
+move = 242
+
+[sub_resource type="Resource" id="Resource_rltex"]
+script = ExtResource("3_e3b72")
+level = 41
+move = 202
+
+[sub_resource type="Resource" id="Resource_mqnj1"]
+script = ExtResource("3_e3b72")
+level = 45
+move = 437
+
+[resource]
+script = ExtResource("4_go4ep")
+id = 387
+display_name = "Turtwig"
+category = "Tiny Leaf"
+national_dex = 387
+pokedex = "The shell on its back is made of soil. 
+On a very healthy Turtwig, the shell 
+should feel moist. The leaf on its head
+wilts if it is thirsty."
+type_1 = 13
+base_hp = 55
+base_atk = 68
+base_def = 64
+base_spa = 45
+base_spd = 55
+base_spe = 31
+ev_atk = 1
+base_exp = 64
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 7
+ability_1 = 65
+ability_hidden = 75
+height_dm = 4
+weight_hg = 102
+body_color = 3
+level_moves = Array[ExtResource("3_e3b72")]([SubResource("Resource_oso8w"), SubResource("Resource_rrvwx"), SubResource("Resource_eq40n"), SubResource("Resource_bnuyn"), SubResource("Resource_tknl1"), SubResource("Resource_8xyyv"), SubResource("Resource_bvdyc"), SubResource("Resource_cx3f7"), SubResource("Resource_5tbe5"), SubResource("Resource_rx5i4"), SubResource("Resource_rltex"), SubResource("Resource_mqnj1")])
+egg_moves = Array[int]([388, 74, 321, 34, 38, 328, 402, 37, 133, 276, 254, 256, 255, 414, 469, 580, 484])
+evolutions = Array[ExtResource("1_t6u65")]([SubResource("Resource_2f6if")])

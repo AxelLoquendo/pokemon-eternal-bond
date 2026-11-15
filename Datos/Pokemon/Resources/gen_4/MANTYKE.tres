@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1qrumg3kwqpg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_bq76n"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5qhuh"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4edw1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xnywa"]
+
+[sub_resource type="Resource" id="Resource_31t8j"]
+script = ExtResource("3_4edw1")
+move = 33
+
+[sub_resource type="Resource" id="Resource_q1c6l"]
+script = ExtResource("3_4edw1")
+move = 55
+
+[sub_resource type="Resource" id="Resource_mmq44"]
+script = ExtResource("3_4edw1")
+level = 4
+move = 48
+
+[sub_resource type="Resource" id="Resource_pqiy8"]
+script = ExtResource("3_4edw1")
+level = 8
+move = 17
+
+[sub_resource type="Resource" id="Resource_atyya"]
+script = ExtResource("3_4edw1")
+level = 12
+move = 352
+
+[sub_resource type="Resource" id="Resource_yp5di"]
+script = ExtResource("3_4edw1")
+level = 16
+move = 469
+
+[sub_resource type="Resource" id="Resource_kuagq"]
+script = ExtResource("3_4edw1")
+level = 20
+move = 97
+
+[sub_resource type="Resource" id="Resource_c1i20"]
+script = ExtResource("3_4edw1")
+level = 24
+move = 61
+
+[sub_resource type="Resource" id="Resource_xlrlm"]
+script = ExtResource("3_4edw1")
+level = 28
+move = 29
+
+[sub_resource type="Resource" id="Resource_p7swf"]
+script = ExtResource("3_4edw1")
+level = 32
+move = 403
+
+[sub_resource type="Resource" id="Resource_ob4us"]
+script = ExtResource("3_4edw1")
+level = 36
+move = 392
+
+[sub_resource type="Resource" id="Resource_uja65"]
+script = ExtResource("3_4edw1")
+level = 40
+move = 340
+
+[sub_resource type="Resource" id="Resource_n324b"]
+script = ExtResource("3_4edw1")
+level = 44
+move = 36
+
+[sub_resource type="Resource" id="Resource_1d00n"]
+script = ExtResource("3_4edw1")
+level = 48
+move = 56
+
+[resource]
+script = ExtResource("4_xnywa")
+id = 458
+display_name = "Mantyke"
+category = "Kite"
+national_dex = 458
+pokedex = "When it swims close to the surface
+of the ocean, people aboard ships are
+able to observe the pattern on its back.
+It often swims in a school of Remoraid."
+type_1 = 12
+type_2 = 3
+base_hp = 45
+base_atk = 20
+base_def = 50
+base_spa = 60
+base_spd = 120
+base_spe = 50
+ev_spd = 1
+catch_rate = 25
+base_exp = 69
+growth_rate = 5
+egg_cycles = 25
+ability_1 = 33
+ability_2 = 11
+ability_hidden = 41
+height_dm = 10
+weight_hg = 650
+body_color = 1
+level_moves = Array[ExtResource("3_4edw1")]([SubResource("Resource_31t8j"), SubResource("Resource_q1c6l"), SubResource("Resource_mmq44"), SubResource("Resource_pqiy8"), SubResource("Resource_atyya"), SubResource("Resource_yp5di"), SubResource("Resource_kuagq"), SubResource("Resource_c1i20"), SubResource("Resource_xlrlm"), SubResource("Resource_p7swf"), SubResource("Resource_ob4us"), SubResource("Resource_uja65"), SubResource("Resource_n324b"), SubResource("Resource_1d00n")])
+egg_moves = Array[int]([239, 56, 114, 21, 300, 243, 346, 150, 324, 469, 133, 366])

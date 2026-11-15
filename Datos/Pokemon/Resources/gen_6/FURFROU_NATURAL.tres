@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c4ewws6ol30m3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_b0ot1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yx8qd"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_lxxov"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ks8ia"]
+
+[sub_resource type="Resource" id="Resource_0jtk5"]
+script = ExtResource("3_lxxov")
+move = 10
+
+[sub_resource type="Resource" id="Resource_ph2og"]
+script = ExtResource("3_lxxov")
+move = 43
+
+[sub_resource type="Resource" id="Resource_v48c7"]
+script = ExtResource("3_lxxov")
+level = 3
+move = 252
+
+[sub_resource type="Resource" id="Resource_jcer0"]
+script = ExtResource("3_lxxov")
+level = 6
+move = 574
+
+[sub_resource type="Resource" id="Resource_xjjbq"]
+script = ExtResource("3_lxxov")
+level = 9
+move = 93
+
+[sub_resource type="Resource" id="Resource_7iux1"]
+script = ExtResource("3_lxxov")
+level = 18
+move = 343
+
+[sub_resource type="Resource" id="Resource_hyfob"]
+script = ExtResource("3_lxxov")
+level = 21
+move = 60
+
+[sub_resource type="Resource" id="Resource_k7wxq"]
+script = ExtResource("3_lxxov")
+level = 30
+move = 113
+
+[sub_resource type="Resource" id="Resource_72l36"]
+script = ExtResource("3_lxxov")
+level = 30
+move = 115
+
+[sub_resource type="Resource" id="Resource_v5lhs"]
+script = ExtResource("3_lxxov")
+level = 33
+move = 473
+
+[resource]
+script = ExtResource("4_ks8ia")
+id = 676
+display_name = "Espurr"
+category = "Restraint"
+national_dex = 677
+pokedex = "It has enough psychic energy to blast
+everything within 300 feet of itself.
+The organ that emits its intense psychic
+power is sheltered by its ears."
+type_1 = 15
+base_hp = 62
+base_atk = 48
+base_def = 54
+base_spa = 63
+base_spd = 60
+base_spe = 68
+ev_spe = 1
+catch_rate = 190
+base_exp = 71
+egg_group_1 = 5
+ability_1 = 51
+ability_2 = 151
+ability_hidden = 20
+height_dm = 3
+weight_hg = 35
+body_color = 7
+level_moves = Array[ExtResource("3_lxxov")]([SubResource("Resource_0jtk5"), SubResource("Resource_ph2og"), SubResource("Resource_v48c7"), SubResource("Resource_jcer0"), SubResource("Resource_xjjbq"), SubResource("Resource_7iux1"), SubResource("Resource_hyfob"), SubResource("Resource_k7wxq"), SubResource("Resource_72l36"), SubResource("Resource_v5lhs")])
+egg_moves = Array[int]([271, 281, 274, 112])

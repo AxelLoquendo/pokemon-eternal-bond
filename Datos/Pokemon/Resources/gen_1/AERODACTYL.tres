@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bst7lfqnjlp73"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7jowk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_umoe4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_s5t8a"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_f3tx5"]
+
+[sub_resource type="Resource" id="Resource_c22qc"]
+script = ExtResource("3_s5t8a")
+move = 44
+
+[sub_resource type="Resource" id="Resource_mu2jd"]
+script = ExtResource("3_s5t8a")
+move = 246
+
+[sub_resource type="Resource" id="Resource_wfpty"]
+script = ExtResource("3_s5t8a")
+level = 5
+move = 48
+
+[sub_resource type="Resource" id="Resource_46qne"]
+script = ExtResource("3_s5t8a")
+level = 10
+move = 17
+
+[sub_resource type="Resource" id="Resource_2qi7y"]
+script = ExtResource("3_s5t8a")
+level = 15
+move = 184
+
+[sub_resource type="Resource" id="Resource_ytjh0"]
+script = ExtResource("3_s5t8a")
+level = 20
+move = 157
+
+[sub_resource type="Resource" id="Resource_1spdf"]
+script = ExtResource("3_s5t8a")
+level = 25
+move = 46
+
+[sub_resource type="Resource" id="Resource_s2oxq"]
+script = ExtResource("3_s5t8a")
+level = 30
+move = 242
+
+[sub_resource type="Resource" id="Resource_1x3jx"]
+script = ExtResource("3_s5t8a")
+level = 35
+move = 442
+
+[sub_resource type="Resource" id="Resource_6htyb"]
+script = ExtResource("3_s5t8a")
+level = 40
+move = 36
+
+[sub_resource type="Resource" id="Resource_vyl2k"]
+script = ExtResource("3_s5t8a")
+level = 45
+move = 444
+
+[sub_resource type="Resource" id="Resource_p04q0"]
+script = ExtResource("3_s5t8a")
+level = 50
+move = 97
+
+[sub_resource type="Resource" id="Resource_olyt6"]
+script = ExtResource("3_s5t8a")
+level = 55
+move = 63
+
+[sub_resource type="Resource" id="Resource_vxs2v"]
+script = ExtResource("3_s5t8a")
+level = 60
+move = 416
+
+[resource]
+script = ExtResource("4_f3tx5")
+id = 142
+display_name = "Aerodactyl"
+category = "Fossil"
+national_dex = 142
+pokedex = "Aerodactyl is a Pokémon from the age
+of dinosaurs. It was regenerated from DNA
+extracted from amber. It is imagined to
+have been the king of the skies."
+type_1 = 6
+type_2 = 3
+base_hp = 80
+base_atk = 105
+base_def = 65
+base_spa = 60
+base_spd = 75
+base_spe = 130
+ev_spe = 2
+base_exp = 180
+gender_ratio = 31
+growth_rate = 5
+egg_cycles = 35
+egg_group_1 = 4
+ability_1 = 69
+ability_2 = 46
+ability_hidden = 127
+height_dm = 18
+weight_hg = 590
+body_color = 6
+level_moves = Array[ExtResource("3_s5t8a")]([SubResource("Resource_c22qc"), SubResource("Resource_mu2jd"), SubResource("Resource_wfpty"), SubResource("Resource_46qne"), SubResource("Resource_2qi7y"), SubResource("Resource_ytjh0"), SubResource("Resource_1spdf"), SubResource("Resource_s2oxq"), SubResource("Resource_1x3jx"), SubResource("Resource_6htyb"), SubResource("Resource_vyl2k"), SubResource("Resource_p04q0"), SubResource("Resource_olyt6"), SubResource("Resource_vxs2v")])
+egg_moves = Array[int]([18, 228, 193, 211, 225, 174, 372, 355, 366, 469])
+form_species = Array[int]([142, 918])

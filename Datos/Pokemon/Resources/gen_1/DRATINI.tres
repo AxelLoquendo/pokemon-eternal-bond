@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qvhw7afaavx2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fw3cv"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lj5bx"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7owks"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_w1l3d"]
+
+[sub_resource type="Resource" id="Resource_hvu0p"]
+script = ExtResource("1_fw3cv")
+method = "LEVEL"
+param = "30"
+target = 148
+
+[sub_resource type="Resource" id="Resource_dao00"]
+script = ExtResource("3_7owks")
+move = 35
+
+[sub_resource type="Resource" id="Resource_3s60s"]
+script = ExtResource("3_7owks")
+move = 43
+
+[sub_resource type="Resource" id="Resource_7i8bp"]
+script = ExtResource("3_7owks")
+level = 5
+move = 239
+
+[sub_resource type="Resource" id="Resource_lx7im"]
+script = ExtResource("3_7owks")
+level = 10
+move = 86
+
+[sub_resource type="Resource" id="Resource_bvegs"]
+script = ExtResource("3_7owks")
+level = 15
+move = 525
+
+[sub_resource type="Resource" id="Resource_eebtr"]
+script = ExtResource("3_7owks")
+level = 20
+move = 97
+
+[sub_resource type="Resource" id="Resource_gftks"]
+script = ExtResource("3_7owks")
+level = 25
+move = 21
+
+[sub_resource type="Resource" id="Resource_dbhf6"]
+script = ExtResource("3_7owks")
+level = 31
+move = 401
+
+[sub_resource type="Resource" id="Resource_wi27b"]
+script = ExtResource("3_7owks")
+level = 35
+move = 407
+
+[sub_resource type="Resource" id="Resource_q4mh0"]
+script = ExtResource("3_7owks")
+level = 40
+move = 219
+
+[sub_resource type="Resource" id="Resource_0vaqb"]
+script = ExtResource("3_7owks")
+level = 45
+move = 240
+
+[sub_resource type="Resource" id="Resource_yqf5a"]
+script = ExtResource("3_7owks")
+level = 50
+move = 349
+
+[sub_resource type="Resource" id="Resource_t7gc5"]
+script = ExtResource("3_7owks")
+level = 55
+move = 200
+
+[sub_resource type="Resource" id="Resource_bnfyj"]
+script = ExtResource("3_7owks")
+level = 60
+move = 63
+
+[resource]
+script = ExtResource("4_w1l3d")
+id = 147
+display_name = "Dratini"
+category = "Dragon"
+national_dex = 147
+pokedex = "A Dratini continually molts and sloughs
+off its old skin. It does so because the
+life energy within its body steadily builds
+to reach uncontrollable levels."
+type_1 = 17
+base_hp = 41
+base_atk = 64
+base_def = 45
+base_spa = 50
+base_spd = 50
+base_spe = 50
+ev_atk = 1
+base_exp = 60
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 2
+egg_group_2 = 14
+ability_1 = 61
+ability_hidden = 63
+item_rare = 227
+height_dm = 18
+weight_hg = 33
+body_color = 1
+level_moves = Array[ExtResource("3_7owks")]([SubResource("Resource_dao00"), SubResource("Resource_3s60s"), SubResource("Resource_7i8bp"), SubResource("Resource_lx7im"), SubResource("Resource_bvegs"), SubResource("Resource_eebtr"), SubResource("Resource_gftks"), SubResource("Resource_dbhf6"), SubResource("Resource_wi27b"), SubResource("Resource_q4mh0"), SubResource("Resource_0vaqb"), SubResource("Resource_yqf5a"), SubResource("Resource_t7gc5"), SubResource("Resource_bnfyj")])
+egg_moves = Array[int]([54, 114, 48, 225, 349, 407, 245, 352, 453, 406, 231])
+evolutions = Array[ExtResource("1_fw3cv")]([SubResource("Resource_hvu0p")])

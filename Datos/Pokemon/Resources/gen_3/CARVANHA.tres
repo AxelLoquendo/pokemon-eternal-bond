@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://f4enrwwj4ne8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_b4whd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7hy8g"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dywbm"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_awjwl"]
+
+[sub_resource type="Resource" id="Resource_o3yy3"]
+script = ExtResource("1_b4whd")
+method = "LEVEL"
+param = "30"
+target = 319
+
+[sub_resource type="Resource" id="Resource_8ady2"]
+script = ExtResource("3_dywbm")
+move = 453
+
+[sub_resource type="Resource" id="Resource_boeid"]
+script = ExtResource("3_dywbm")
+move = 43
+
+[sub_resource type="Resource" id="Resource_jndgy"]
+script = ExtResource("3_dywbm")
+level = 4
+move = 305
+
+[sub_resource type="Resource" id="Resource_7cheu"]
+script = ExtResource("3_dywbm")
+level = 8
+move = 116
+
+[sub_resource type="Resource" id="Resource_sft1d"]
+script = ExtResource("3_dywbm")
+level = 12
+move = 184
+
+[sub_resource type="Resource" id="Resource_sw8vw"]
+script = ExtResource("3_dywbm")
+level = 16
+move = 44
+
+[sub_resource type="Resource" id="Resource_mbvxo"]
+script = ExtResource("3_dywbm")
+level = 20
+move = 423
+
+[sub_resource type="Resource" id="Resource_of4nc"]
+script = ExtResource("3_dywbm")
+level = 24
+move = 103
+
+[sub_resource type="Resource" id="Resource_ft6uj"]
+script = ExtResource("3_dywbm")
+level = 28
+move = 207
+
+[sub_resource type="Resource" id="Resource_j537u"]
+script = ExtResource("3_dywbm")
+level = 32
+move = 242
+
+[sub_resource type="Resource" id="Resource_bcenv"]
+script = ExtResource("3_dywbm")
+level = 36
+move = 97
+
+[sub_resource type="Resource" id="Resource_yn1wu"]
+script = ExtResource("3_dywbm")
+level = 40
+move = 664
+
+[sub_resource type="Resource" id="Resource_m6un1"]
+script = ExtResource("3_dywbm")
+level = 44
+move = 36
+
+[resource]
+script = ExtResource("4_awjwl")
+id = 318
+display_name = "Carvanha"
+category = "Savage"
+national_dex = 318
+pokedex = "Carvanha attack ships in swarms, making
+them sink. Although it is said to be a very
+vicious Pokémon, it timidly flees as soon
+as it finds itself alone."
+type_1 = 12
+type_2 = 18
+base_hp = 45
+base_atk = 90
+base_def = 20
+base_spa = 65
+base_spd = 20
+base_spe = 65
+ev_atk = 1
+catch_rate = 225
+base_exp = 61
+base_friendship = 35
+growth_rate = 5
+egg_group_1 = 12
+ability_1 = 24
+ability_hidden = 3
+item_rare = 399
+height_dm = 8
+weight_hg = 208
+level_moves = Array[ExtResource("3_dywbm")]([SubResource("Resource_8ady2"), SubResource("Resource_boeid"), SubResource("Resource_jndgy"), SubResource("Resource_7cheu"), SubResource("Resource_sft1d"), SubResource("Resource_sw8vw"), SubResource("Resource_mbvxo"), SubResource("Resource_of4nc"), SubResource("Resource_ft6uj"), SubResource("Resource_j537u"), SubResource("Resource_bcenv"), SubResource("Resource_yn1wu"), SubResource("Resource_m6un1")])
+egg_moves = Array[int]([56, 38, 37, 246, 129, 362, 194, 660])
+evolutions = Array[ExtResource("1_b4whd")]([SubResource("Resource_o3yy3")])

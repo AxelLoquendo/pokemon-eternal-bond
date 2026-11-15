@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cmccxh5qe2u8a"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mi38t"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ct6sy"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_me335"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r442r"]
+
+[sub_resource type="Resource" id="Resource_etyoo"]
+script = ExtResource("3_me335")
+move = 408
+
+[sub_resource type="Resource" id="Resource_vkvus"]
+script = ExtResource("3_me335")
+move = 28
+
+[sub_resource type="Resource" id="Resource_qsrv1"]
+script = ExtResource("3_me335")
+move = 33
+
+[sub_resource type="Resource" id="Resource_afat4"]
+script = ExtResource("3_me335")
+move = 106
+
+[sub_resource type="Resource" id="Resource_tyuka"]
+script = ExtResource("3_me335")
+move = 446
+
+[sub_resource type="Resource" id="Resource_m8rjh"]
+script = ExtResource("3_me335")
+level = 12
+move = 189
+
+[sub_resource type="Resource" id="Resource_pjcyh"]
+script = ExtResource("3_me335")
+level = 16
+move = 479
+
+[sub_resource type="Resource" id="Resource_2mc3q"]
+script = ExtResource("3_me335")
+level = 20
+move = 334
+
+[sub_resource type="Resource" id="Resource_hp6r7"]
+script = ExtResource("3_me335")
+level = 24
+move = 29
+
+[sub_resource type="Resource" id="Resource_q8mu4"]
+script = ExtResource("3_me335")
+level = 30
+move = 157
+
+[sub_resource type="Resource" id="Resource_ymupb"]
+script = ExtResource("3_me335")
+level = 36
+move = 350
+
+[sub_resource type="Resource" id="Resource_n55eo"]
+script = ExtResource("3_me335")
+level = 42
+move = 201
+
+[sub_resource type="Resource" id="Resource_kcfgh"]
+script = ExtResource("3_me335")
+level = 48
+move = 444
+
+[sub_resource type="Resource" id="Resource_jgkov"]
+script = ExtResource("3_me335")
+level = 54
+move = 153
+
+[resource]
+script = ExtResource("4_r442r")
+id = 526
+display_name = "Gigalith"
+category = "Compressed"
+national_dex = 526
+pokedex = "The blasts of energy it makes from
+sunbeams have terrifying power.
+However, it's not able to fire its blasts
+at night or on rainy days."
+type_1 = 6
+base_hp = 85
+base_atk = 135
+base_def = 130
+base_spa = 60
+base_spd = 80
+base_spe = 25
+ev_atk = 3
+base_exp = 227
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 10
+ability_1 = 5
+ability_hidden = 159
+item_common = 245
+item_rare = 437
+height_dm = 17
+weight_hg = 2600
+body_color = 1
+level_moves = Array[ExtResource("3_me335")]([SubResource("Resource_etyoo"), SubResource("Resource_vkvus"), SubResource("Resource_qsrv1"), SubResource("Resource_afat4"), SubResource("Resource_tyuka"), SubResource("Resource_m8rjh"), SubResource("Resource_pjcyh"), SubResource("Resource_2mc3q"), SubResource("Resource_hp6r7"), SubResource("Resource_q8mu4"), SubResource("Resource_ymupb"), SubResource("Resource_n55eo"), SubResource("Resource_kcfgh"), SubResource("Resource_jgkov")])

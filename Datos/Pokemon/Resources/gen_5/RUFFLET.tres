@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bgx0a2th8s6fu"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_01dh4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_c4ddt"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yy2kk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sslcu"]
+
+[sub_resource type="Resource" id="Resource_xx24k"]
+script = ExtResource("3_yy2kk")
+move = 43
+
+[sub_resource type="Resource" id="Resource_637aw"]
+script = ExtResource("3_yy2kk")
+move = 64
+
+[sub_resource type="Resource" id="Resource_sen18"]
+script = ExtResource("3_yy2kk")
+level = 6
+move = 468
+
+[sub_resource type="Resource" id="Resource_sm0s8"]
+script = ExtResource("3_yy2kk")
+level = 12
+move = 17
+
+[sub_resource type="Resource" id="Resource_a0i4r"]
+script = ExtResource("3_yy2kk")
+level = 18
+move = 366
+
+[sub_resource type="Resource" id="Resource_516r6"]
+script = ExtResource("3_yy2kk")
+level = 24
+move = 184
+
+[sub_resource type="Resource" id="Resource_atf2g"]
+script = ExtResource("3_yy2kk")
+level = 30
+move = 332
+
+[sub_resource type="Resource" id="Resource_7g83y"]
+script = ExtResource("3_yy2kk")
+level = 36
+move = 163
+
+[sub_resource type="Resource" id="Resource_e0sjl"]
+script = ExtResource("3_yy2kk")
+level = 42
+move = 18
+
+[sub_resource type="Resource" id="Resource_bs8db"]
+script = ExtResource("3_yy2kk")
+level = 48
+move = 306
+
+[sub_resource type="Resource" id="Resource_7fp67"]
+script = ExtResource("3_yy2kk")
+level = 55
+move = 403
+
+[sub_resource type="Resource" id="Resource_4f5q3"]
+script = ExtResource("3_yy2kk")
+level = 60
+move = 432
+
+[sub_resource type="Resource" id="Resource_dmhv8"]
+script = ExtResource("3_yy2kk")
+level = 66
+move = 37
+
+[sub_resource type="Resource" id="Resource_7i6d0"]
+script = ExtResource("3_yy2kk")
+level = 72
+move = 413
+
+[resource]
+script = ExtResource("4_sslcu")
+id = 627
+display_name = "Rufflet"
+category = "Eaglet"
+national_dex = 627
+pokedex = "With its sharp claws, this Pokémon pierces
+its prey, and then it pecks at them.
+Although it also consumes berries, it's a
+carnivore at heart."
+type_1 = 1
+type_2 = 3
+base_hp = 70
+base_atk = 83
+base_def = 50
+base_spa = 37
+base_spd = 50
+base_spe = 60
+ev_atk = 1
+catch_rate = 190
+base_exp = 70
+gender_ratio = 0
+growth_rate = 5
+egg_group_1 = 4
+ability_1 = 51
+ability_2 = 125
+ability_hidden = 55
+height_dm = 5
+weight_hg = 105
+body_color = 8
+level_moves = Array[ExtResource("3_yy2kk")]([SubResource("Resource_xx24k"), SubResource("Resource_637aw"), SubResource("Resource_sen18"), SubResource("Resource_sm0s8"), SubResource("Resource_a0i4r"), SubResource("Resource_516r6"), SubResource("Resource_atf2g"), SubResource("Resource_7g83y"), SubResource("Resource_e0sjl"), SubResource("Resource_bs8db"), SubResource("Resource_7fp67"), SubResource("Resource_4f5q3"), SubResource("Resource_dmhv8"), SubResource("Resource_7i6d0")])

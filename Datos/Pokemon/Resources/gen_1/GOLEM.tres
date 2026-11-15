@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://6tfa1qitbl2j"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mk80q"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_qi6xu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yk0k4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r1bwq"]
+
+[sub_resource type="Resource" id="Resource_khmt3"]
+script = ExtResource("3_yk0k4")
+move = 33
+
+[sub_resource type="Resource" id="Resource_a02rs"]
+script = ExtResource("3_yk0k4")
+move = 111
+
+[sub_resource type="Resource" id="Resource_dri4n"]
+script = ExtResource("3_yk0k4")
+move = 397
+
+[sub_resource type="Resource" id="Resource_qlh8r"]
+script = ExtResource("3_yk0k4")
+move = 484
+
+[sub_resource type="Resource" id="Resource_c05ks"]
+script = ExtResource("3_yk0k4")
+level = 16
+move = 88
+
+[sub_resource type="Resource" id="Resource_jvbqm"]
+script = ExtResource("3_yk0k4")
+level = 18
+move = 479
+
+[sub_resource type="Resource" id="Resource_qwuh1"]
+script = ExtResource("3_yk0k4")
+level = 22
+move = 523
+
+[sub_resource type="Resource" id="Resource_glx70"]
+script = ExtResource("3_yk0k4")
+level = 24
+move = 120
+
+[sub_resource type="Resource" id="Resource_s6sp7"]
+script = ExtResource("3_yk0k4")
+level = 30
+move = 446
+
+[sub_resource type="Resource" id="Resource_x01rl"]
+script = ExtResource("3_yk0k4")
+level = 34
+move = 350
+
+[sub_resource type="Resource" id="Resource_nu5uo"]
+script = ExtResource("3_yk0k4")
+level = 40
+move = 89
+
+[sub_resource type="Resource" id="Resource_ackt1"]
+script = ExtResource("3_yk0k4")
+level = 44
+move = 153
+
+[sub_resource type="Resource" id="Resource_oe3f1"]
+script = ExtResource("3_yk0k4")
+level = 50
+move = 38
+
+[sub_resource type="Resource" id="Resource_7b5ac"]
+script = ExtResource("3_yk0k4")
+level = 54
+move = 444
+
+[resource]
+script = ExtResource("4_r1bwq")
+id = 76
+display_name = "Golem"
+category = "Megaton"
+national_dex = 76
+pokedex = "It is said to live in volcanic craters
+on mountain peaks. Once a year, it sheds
+its hide and grows larger. The shed hide
+crumbles and returns to the soil."
+type_1 = 6
+type_2 = 5
+base_hp = 80
+base_atk = 120
+base_def = 130
+base_spa = 55
+base_spd = 65
+base_spe = 45
+ev_def = 3
+base_exp = 177
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 10
+ability_1 = 69
+ability_2 = 5
+ability_hidden = 8
+item_rare = 245
+height_dm = 14
+weight_hg = 3000
+body_color = 5
+level_moves = Array[ExtResource("3_yk0k4")]([SubResource("Resource_khmt3"), SubResource("Resource_a02rs"), SubResource("Resource_dri4n"), SubResource("Resource_qlh8r"), SubResource("Resource_c05ks"), SubResource("Resource_jvbqm"), SubResource("Resource_qwuh1"), SubResource("Resource_glx70"), SubResource("Resource_s6sp7"), SubResource("Resource_x01rl"), SubResource("Resource_nu5uo"), SubResource("Resource_ackt1"), SubResource("Resource_oe3f1"), SubResource("Resource_7b5ac")])
+form_species = Array[int]([76, 969])

@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://chy1o060vo3ym"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cps65"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_43tuq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cofoi"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7jwq3"]
+
+[sub_resource type="Resource" id="Resource_3x3df"]
+script = ExtResource("3_cofoi")
+move = 35
+
+[sub_resource type="Resource" id="Resource_0jool"]
+script = ExtResource("3_cofoi")
+move = 43
+
+[sub_resource type="Resource" id="Resource_abtgp"]
+script = ExtResource("3_cofoi")
+level = 7
+move = 101
+
+[sub_resource type="Resource" id="Resource_omu35"]
+script = ExtResource("3_cofoi")
+level = 13
+move = 100
+
+[sub_resource type="Resource" id="Resource_hy0e2"]
+script = ExtResource("3_cofoi")
+level = 19
+move = 282
+
+[sub_resource type="Resource" id="Resource_b6fti"]
+script = ExtResource("3_cofoi")
+level = 25
+move = 473
+
+[sub_resource type="Resource" id="Resource_mgwk2"]
+script = ExtResource("3_cofoi")
+level = 31
+move = 94
+
+[sub_resource type="Resource" id="Resource_mpsa0"]
+script = ExtResource("3_cofoi")
+level = 37
+move = 356
+
+[sub_resource type="Resource" id="Resource_rtp0t"]
+script = ExtResource("3_cofoi")
+level = 43
+move = 285
+
+[sub_resource type="Resource" id="Resource_cr6g3"]
+script = ExtResource("3_cofoi")
+level = 49
+move = 428
+
+[sub_resource type="Resource" id="Resource_264f2"]
+script = ExtResource("3_cofoi")
+level = 55
+move = 322
+
+[sub_resource type="Resource" id="Resource_1eave"]
+script = ExtResource("3_cofoi")
+level = 61
+move = 105
+
+[sub_resource type="Resource" id="Resource_evaxo"]
+script = ExtResource("3_cofoi")
+level = 67
+move = 354
+
+[sub_resource type="Resource" id="Resource_gqiub"]
+script = ExtResource("3_cofoi")
+level = 73
+move = 63
+
+[resource]
+script = ExtResource("4_7jwq3")
+id = 386
+display_name = "Deoxys"
+category = "DNA"
+national_dex = 386
+pokedex = "Deoxys emerged from a virus that came
+from space. It is highly intelligent and
+can shoot lasers from the crystalline
+organ on its chest."
+type_1 = 15
+base_hp = 50
+base_atk = 150
+base_def = 50
+base_spa = 150
+base_spd = 50
+base_spe = 150
+ev_atk = 1
+ev_spa = 1
+ev_spe = 1
+catch_rate = 3
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 46
+height_dm = 17
+weight_hg = 608
+level_moves = Array[ExtResource("3_cofoi")]([SubResource("Resource_3x3df"), SubResource("Resource_0jool"), SubResource("Resource_abtgp"), SubResource("Resource_omu35"), SubResource("Resource_hy0e2"), SubResource("Resource_b6fti"), SubResource("Resource_mgwk2"), SubResource("Resource_mpsa0"), SubResource("Resource_rtp0t"), SubResource("Resource_cr6g3"), SubResource("Resource_264f2"), SubResource("Resource_1eave"), SubResource("Resource_evaxo"), SubResource("Resource_gqiub")])
+form_species = Array[int]([386, 1054, 1055, 1056])

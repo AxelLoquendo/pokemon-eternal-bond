@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cl31h7n0dgvqu"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8utyn"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_tg6py"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jiq82"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0mpdy"]
+
+[sub_resource type="Resource" id="Resource_eleqk"]
+script = ExtResource("3_jiq82")
+move = 614
+
+[sub_resource type="Resource" id="Resource_0gg8b"]
+script = ExtResource("3_jiq82")
+move = 615
+
+[sub_resource type="Resource" id="Resource_om3ik"]
+script = ExtResource("3_jiq82")
+move = 650
+
+[sub_resource type="Resource" id="Resource_1qj7q"]
+script = ExtResource("3_jiq82")
+move = 20
+
+[sub_resource type="Resource" id="Resource_8r1fp"]
+script = ExtResource("3_jiq82")
+move = 523
+
+[sub_resource type="Resource" id="Resource_w8ueu"]
+script = ExtResource("3_jiq82")
+move = 225
+
+[sub_resource type="Resource" id="Resource_y6jfu"]
+script = ExtResource("3_jiq82")
+move = 44
+
+[sub_resource type="Resource" id="Resource_qq13o"]
+script = ExtResource("3_jiq82")
+level = 8
+move = 114
+
+[sub_resource type="Resource" id="Resource_iv4u1"]
+script = ExtResource("3_jiq82")
+level = 16
+move = 91
+
+[sub_resource type="Resource" id="Resource_fvg8x"]
+script = ExtResource("3_jiq82")
+level = 24
+move = 219
+
+[sub_resource type="Resource" id="Resource_yikrc"]
+script = ExtResource("3_jiq82")
+level = 32
+move = 242
+
+[sub_resource type="Resource" id="Resource_04wk8"]
+script = ExtResource("3_jiq82")
+level = 40
+move = 406
+
+[sub_resource type="Resource" id="Resource_yay1x"]
+script = ExtResource("3_jiq82")
+level = 48
+move = 616
+
+[sub_resource type="Resource" id="Resource_d582x"]
+script = ExtResource("3_jiq82")
+level = 56
+move = 137
+
+[sub_resource type="Resource" id="Resource_45lan"]
+script = ExtResource("3_jiq82")
+level = 64
+move = 201
+
+[sub_resource type="Resource" id="Resource_2se2f"]
+script = ExtResource("3_jiq82")
+level = 72
+move = 489
+
+[sub_resource type="Resource" id="Resource_ro1vi"]
+script = ExtResource("3_jiq82")
+level = 80
+move = 89
+
+[sub_resource type="Resource" id="Resource_nr138"]
+script = ExtResource("3_jiq82")
+level = 88
+move = 200
+
+[resource]
+script = ExtResource("4_0mpdy")
+id = 1547
+display_name = "Zygarde"
+category = "Order"
+national_dex = 718
+pokedex = "In response to people's emotions
+during an unprecedented crisis,
+Zygarde Mega Evolves and calms the
+situation with its unmatched power."
+type_1 = 17
+type_2 = 5
+base_hp = 216
+base_atk = 70
+base_def = 91
+base_spa = 216
+base_spd = 85
+base_spe = 100
+ev_hp = 3
+catch_rate = 3
+base_exp = 354
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 188
+height_dm = 77
+weight_hg = 6100
+body_color = 3
+no_flip = true
+level_moves = Array[ExtResource("3_jiq82")]([SubResource("Resource_eleqk"), SubResource("Resource_0gg8b"), SubResource("Resource_om3ik"), SubResource("Resource_1qj7q"), SubResource("Resource_8r1fp"), SubResource("Resource_w8ueu"), SubResource("Resource_y6jfu"), SubResource("Resource_qq13o"), SubResource("Resource_iv4u1"), SubResource("Resource_fvg8x"), SubResource("Resource_yikrc"), SubResource("Resource_04wk8"), SubResource("Resource_yay1x"), SubResource("Resource_d582x"), SubResource("Resource_45lan"), SubResource("Resource_2se2f"), SubResource("Resource_ro1vi"), SubResource("Resource_nr138")])
+form_species = Array[int]([718, 1164, 1165, 1166, 1167, 1547])

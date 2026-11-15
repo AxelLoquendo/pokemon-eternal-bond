@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cumqvccr0kcrj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_o6n3r"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_71j50"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_s4lkb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bofjo"]
+
+[sub_resource type="Resource" id="Resource_3auah"]
+script = ExtResource("1_o6n3r")
+method = "ITEM"
+param = "ITEM_THUNDER_STONE"
+target = 738
+
+[sub_resource type="Resource" id="Resource_fvktc"]
+script = ExtResource("1_o6n3r")
+method = "NONE"
+param = "0"
+target = 1478
+
+[sub_resource type="Resource" id="Resource_ynnrw"]
+script = ExtResource("3_s4lkb")
+level = 0
+move = 268
+
+[sub_resource type="Resource" id="Resource_sltho"]
+script = ExtResource("3_s4lkb")
+move = 11
+
+[sub_resource type="Resource" id="Resource_a2xyn"]
+script = ExtResource("3_s4lkb")
+move = 81
+
+[sub_resource type="Resource" id="Resource_gv7sy"]
+script = ExtResource("3_s4lkb")
+move = 189
+
+[sub_resource type="Resource" id="Resource_kp283"]
+script = ExtResource("3_s4lkb")
+move = 450
+
+[sub_resource type="Resource" id="Resource_okfkc"]
+script = ExtResource("3_s4lkb")
+level = 15
+move = 44
+
+[sub_resource type="Resource" id="Resource_ig64c"]
+script = ExtResource("3_s4lkb")
+level = 23
+move = 209
+
+[sub_resource type="Resource" id="Resource_odmh1"]
+script = ExtResource("3_s4lkb")
+level = 29
+move = 564
+
+[sub_resource type="Resource" id="Resource_q6pvn"]
+script = ExtResource("3_s4lkb")
+level = 36
+move = 404
+
+[sub_resource type="Resource" id="Resource_dc5ct"]
+script = ExtResource("3_s4lkb")
+level = 43
+move = 242
+
+[sub_resource type="Resource" id="Resource_deoe7"]
+script = ExtResource("3_s4lkb")
+level = 50
+move = 91
+
+[sub_resource type="Resource" id="Resource_gjn1p"]
+script = ExtResource("3_s4lkb")
+level = 57
+move = 334
+
+[sub_resource type="Resource" id="Resource_d7g38"]
+script = ExtResource("3_s4lkb")
+level = 64
+move = 435
+
+[resource]
+script = ExtResource("4_bofjo")
+id = 737
+display_name = "Charjabug"
+category = "Battery"
+national_dex = 737
+pokedex = "From the food it digests, it generates
+electricity, and it stores this energy in
+its electric sac. On camping trips, people
+are grateful to have one around."
+type_1 = 7
+type_2 = 14
+base_hp = 57
+base_atk = 82
+base_def = 95
+base_spa = 55
+base_spd = 75
+base_spe = 36
+ev_def = 2
+catch_rate = 120
+base_exp = 140
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 217
+item_rare = 456
+height_dm = 5
+weight_hg = 105
+body_color = 3
+level_moves = Array[ExtResource("3_s4lkb")]([SubResource("Resource_ynnrw"), SubResource("Resource_sltho"), SubResource("Resource_a2xyn"), SubResource("Resource_gv7sy"), SubResource("Resource_kp283"), SubResource("Resource_okfkc"), SubResource("Resource_ig64c"), SubResource("Resource_odmh1"), SubResource("Resource_q6pvn"), SubResource("Resource_dc5ct"), SubResource("Resource_deoe7"), SubResource("Resource_gjn1p"), SubResource("Resource_d7g38")])
+evolutions = Array[ExtResource("1_o6n3r")]([SubResource("Resource_3auah"), SubResource("Resource_fvktc")])

@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://44hof17gho6g"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3h60i"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_4n7dg"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cu5ko"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pcclo"]
+
+[sub_resource type="Resource" id="Resource_6m5q2"]
+script = ExtResource("3_cu5ko")
+move = 33
+
+[sub_resource type="Resource" id="Resource_3mo0d"]
+script = ExtResource("3_cu5ko")
+move = 45
+
+[sub_resource type="Resource" id="Resource_f2hkc"]
+script = ExtResource("3_cu5ko")
+level = 5
+move = 205
+
+[sub_resource type="Resource" id="Resource_nqm7w"]
+script = ExtResource("3_cu5ko")
+level = 10
+move = 111
+
+[sub_resource type="Resource" id="Resource_vrmco"]
+script = ExtResource("3_cu5ko")
+level = 15
+move = 23
+
+[sub_resource type="Resource" id="Resource_ahqgf"]
+script = ExtResource("3_cu5ko")
+level = 20
+move = 215
+
+[sub_resource type="Resource" id="Resource_ybmxm"]
+script = ExtResource("3_cu5ko")
+level = 25
+move = 29
+
+[sub_resource type="Resource" id="Resource_oryae"]
+script = ExtResource("3_cu5ko")
+level = 30
+move = 428
+
+[sub_resource type="Resource" id="Resource_00nx4"]
+script = ExtResource("3_cu5ko")
+level = 35
+move = 208
+
+[sub_resource type="Resource" id="Resource_y3202"]
+script = ExtResource("3_cu5ko")
+level = 40
+move = 34
+
+[sub_resource type="Resource" id="Resource_3qqg5"]
+script = ExtResource("3_cu5ko")
+level = 45
+move = 583
+
+[sub_resource type="Resource" id="Resource_xls7p"]
+script = ExtResource("3_cu5ko")
+level = 50
+move = 204
+
+[sub_resource type="Resource" id="Resource_fnd7f"]
+script = ExtResource("3_cu5ko")
+level = 55
+move = 630
+
+[resource]
+script = ExtResource("4_pcclo")
+id = 241
+display_name = "Miltank"
+category = "Milk Cow"
+national_dex = 241
+pokedex = "It gives over five gallons of milk daily.
+Its sweet milk is enjoyed by children and
+grown-ups alike. People who can't drink
+milk turn it into yogurt and eat it instead."
+type_1 = 1
+base_hp = 95
+base_atk = 80
+base_def = 105
+base_spa = 40
+base_spd = 70
+base_spe = 100
+ev_def = 2
+base_exp = 172
+gender_ratio = 254
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 47
+ability_hidden = 157
+item_common = 38
+item_rare = 38
+height_dm = 12
+weight_hg = 755
+body_color = 9
+level_moves = Array[ExtResource("3_cu5ko")]([SubResource("Resource_6m5q2"), SubResource("Resource_3mo0d"), SubResource("Resource_f2hkc"), SubResource("Resource_nqm7w"), SubResource("Resource_vrmco"), SubResource("Resource_ahqgf"), SubResource("Resource_ybmxm"), SubResource("Resource_oryae"), SubResource("Resource_00nx4"), SubResource("Resource_y3202"), SubResource("Resource_3qqg5"), SubResource("Resource_xls7p"), SubResource("Resource_fnd7f")])
+egg_moves = Array[int]([217, 179, 69, 203, 174, 270, 214, 146, 359, 38, 386, 363, 531, 562])

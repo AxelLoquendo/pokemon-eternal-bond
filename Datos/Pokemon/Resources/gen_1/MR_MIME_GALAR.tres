@@ -1,0 +1,160 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c4sgsyibku36s"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_pngwp"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ma14h"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ucvla"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_es8qu"]
+
+[sub_resource type="Resource" id="Resource_2seop"]
+script = ExtResource("1_pngwp")
+method = "LEVEL"
+param = "42"
+target = 866
+
+[sub_resource type="Resource" id="Resource_ds67d"]
+script = ExtResource("3_ucvla")
+move = 383
+
+[sub_resource type="Resource" id="Resource_pluja"]
+script = ExtResource("3_ucvla")
+move = 227
+
+[sub_resource type="Resource" id="Resource_kj52j"]
+script = ExtResource("3_ucvla")
+move = 272
+
+[sub_resource type="Resource" id="Resource_ns8lh"]
+script = ExtResource("3_ucvla")
+move = 182
+
+[sub_resource type="Resource" id="Resource_u3asy"]
+script = ExtResource("3_ucvla")
+move = 278
+
+[sub_resource type="Resource" id="Resource_gg5lg"]
+script = ExtResource("3_ucvla")
+move = 102
+
+[sub_resource type="Resource" id="Resource_w6ov8"]
+script = ExtResource("3_ucvla")
+move = 113
+
+[sub_resource type="Resource" id="Resource_ckhku"]
+script = ExtResource("3_ucvla")
+move = 115
+
+[sub_resource type="Resource" id="Resource_4jgrf"]
+script = ExtResource("3_ucvla")
+move = 219
+
+[sub_resource type="Resource" id="Resource_r7pa3"]
+script = ExtResource("3_ucvla")
+move = 605
+
+[sub_resource type="Resource" id="Resource_xdcuo"]
+script = ExtResource("3_ucvla")
+move = 581
+
+[sub_resource type="Resource" id="Resource_61dns"]
+script = ExtResource("3_ucvla")
+move = 1
+
+[sub_resource type="Resource" id="Resource_8oaor"]
+script = ExtResource("3_ucvla")
+move = 229
+
+[sub_resource type="Resource" id="Resource_vv6wm"]
+script = ExtResource("3_ucvla")
+move = 226
+
+[sub_resource type="Resource" id="Resource_pkjrp"]
+script = ExtResource("3_ucvla")
+move = 420
+
+[sub_resource type="Resource" id="Resource_sjam7"]
+script = ExtResource("3_ucvla")
+level = 12
+move = 93
+
+[sub_resource type="Resource" id="Resource_f63nb"]
+script = ExtResource("3_ucvla")
+level = 16
+move = 502
+
+[sub_resource type="Resource" id="Resource_srsso"]
+script = ExtResource("3_ucvla")
+level = 20
+move = 196
+
+[sub_resource type="Resource" id="Resource_7kvhq"]
+script = ExtResource("3_ucvla")
+level = 24
+move = 24
+
+[sub_resource type="Resource" id="Resource_l5t4t"]
+script = ExtResource("3_ucvla")
+level = 28
+move = 60
+
+[sub_resource type="Resource" id="Resource_0k6f2"]
+script = ExtResource("3_ucvla")
+level = 32
+move = 95
+
+[sub_resource type="Resource" id="Resource_n7ci7"]
+script = ExtResource("3_ucvla")
+level = 36
+move = 243
+
+[sub_resource type="Resource" id="Resource_ektvs"]
+script = ExtResource("3_ucvla")
+level = 40
+move = 389
+
+[sub_resource type="Resource" id="Resource_nhbad"]
+script = ExtResource("3_ucvla")
+level = 44
+move = 573
+
+[sub_resource type="Resource" id="Resource_7oox4"]
+script = ExtResource("3_ucvla")
+level = 48
+move = 94
+
+[sub_resource type="Resource" id="Resource_4oxh6"]
+script = ExtResource("3_ucvla")
+level = 52
+move = 298
+
+[resource]
+script = ExtResource("4_es8qu")
+id = 981
+display_name = "Mr. Mime"
+category = "Dancing"
+national_dex = 122
+pokedex = "Its talent is tap-dancing. It can radiate
+chilliness from the bottoms of its feet to
+to create a floor of ice, which this
+Pokémon can kick up to use as a barrier."
+type_1 = 16
+type_2 = 15
+base_hp = 50
+base_atk = 65
+base_def = 65
+base_spa = 90
+base_spd = 90
+base_spe = 100
+ev_spe = 2
+base_exp = 161
+egg_cycles = 25
+egg_group_1 = 8
+ability_1 = 72
+ability_2 = 251
+ability_hidden = 115
+height_dm = 14
+weight_hg = 568
+body_color = 8
+level_moves = Array[ExtResource("3_ucvla")]([SubResource("Resource_ds67d"), SubResource("Resource_pluja"), SubResource("Resource_kj52j"), SubResource("Resource_ns8lh"), SubResource("Resource_u3asy"), SubResource("Resource_gg5lg"), SubResource("Resource_w6ov8"), SubResource("Resource_ckhku"), SubResource("Resource_4jgrf"), SubResource("Resource_r7pa3"), SubResource("Resource_xdcuo"), SubResource("Resource_61dns"), SubResource("Resource_8oaor"), SubResource("Resource_vv6wm"), SubResource("Resource_pkjrp"), SubResource("Resource_sjam7"), SubResource("Resource_f63nb"), SubResource("Resource_srsso"), SubResource("Resource_7kvhq"), SubResource("Resource_l5t4t"), SubResource("Resource_0k6f2"), SubResource("Resource_n7ci7"), SubResource("Resource_ektvs"), SubResource("Resource_nhbad"), SubResource("Resource_7oox4"), SubResource("Resource_4oxh6")])
+egg_moves = Array[int]([252, 109, 471, 321])
+evolutions = Array[ExtResource("1_pngwp")]([SubResource("Resource_2seop")])
+form_species = Array[int]([122, 981])

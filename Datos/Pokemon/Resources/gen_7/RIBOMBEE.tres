@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qy3axfm2rbwb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rfwgt"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_bemta"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_untsl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_d8l3c"]
+
+[sub_resource type="Resource" id="Resource_kec65"]
+script = ExtResource("3_untsl")
+level = 0
+move = 639
+
+[sub_resource type="Resource" id="Resource_pwtkg"]
+script = ExtResource("3_untsl")
+move = 71
+
+[sub_resource type="Resource" id="Resource_lsfpo"]
+script = ExtResource("3_untsl")
+move = 78
+
+[sub_resource type="Resource" id="Resource_orfns"]
+script = ExtResource("3_untsl")
+move = 230
+
+[sub_resource type="Resource" id="Resource_kb46f"]
+script = ExtResource("3_untsl")
+move = 584
+
+[sub_resource type="Resource" id="Resource_wyhtp"]
+script = ExtResource("3_untsl")
+level = 18
+move = 577
+
+[sub_resource type="Resource" id="Resource_7sj2o"]
+script = ExtResource("3_untsl")
+level = 24
+move = 522
+
+[sub_resource type="Resource" id="Resource_53vhk"]
+script = ExtResource("3_untsl")
+level = 32
+move = 343
+
+[sub_resource type="Resource" id="Resource_0hy14"]
+script = ExtResource("3_untsl")
+level = 40
+move = 415
+
+[sub_resource type="Resource" id="Resource_lsmpq"]
+script = ExtResource("3_untsl")
+level = 48
+move = 605
+
+[sub_resource type="Resource" id="Resource_150pt"]
+script = ExtResource("3_untsl")
+level = 56
+move = 405
+
+[sub_resource type="Resource" id="Resource_3ly4k"]
+script = ExtResource("3_untsl")
+level = 64
+move = 483
+
+[resource]
+script = ExtResource("4_d8l3c")
+id = 743
+display_name = "Ribombee"
+category = "Bee Fly"
+national_dex = 743
+type_1 = 7
+type_2 = 19
+base_hp = 60
+base_atk = 55
+base_def = 60
+base_spa = 95
+base_spd = 70
+base_spe = 124
+ev_spe = 2
+catch_rate = 75
+base_exp = 162
+egg_group_1 = 3
+egg_group_2 = 6
+ability_1 = 118
+ability_2 = 19
+ability_hidden = 175
+item_common = 153
+height_dm = 2
+weight_hg = 5
+body_color = 2
+level_moves = Array[ExtResource("3_untsl")]([SubResource("Resource_kec65"), SubResource("Resource_pwtkg"), SubResource("Resource_lsfpo"), SubResource("Resource_orfns"), SubResource("Resource_kb46f"), SubResource("Resource_wyhtp"), SubResource("Resource_7sj2o"), SubResource("Resource_53vhk"), SubResource("Resource_0hy14"), SubResource("Resource_lsmpq"), SubResource("Resource_150pt"), SubResource("Resource_3ly4k")])
+form_species = Array[int]([743, 1484])

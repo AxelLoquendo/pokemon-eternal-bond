@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://453t4chwmkik"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_b6cn4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8667y"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_besf2"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rb24g"]
+
+[sub_resource type="Resource" id="Resource_ext47"]
+script = ExtResource("3_besf2")
+move = 184
+
+[sub_resource type="Resource" id="Resource_y6sg2"]
+script = ExtResource("3_besf2")
+move = 246
+
+[sub_resource type="Resource" id="Resource_mfr27"]
+script = ExtResource("3_besf2")
+move = 341
+
+[sub_resource type="Resource" id="Resource_w3ab8"]
+script = ExtResource("3_besf2")
+move = 436
+
+[sub_resource type="Resource" id="Resource_ypdcv"]
+script = ExtResource("3_besf2")
+move = 619
+
+[sub_resource type="Resource" id="Resource_iv1kj"]
+script = ExtResource("3_besf2")
+level = 9
+move = 414
+
+[sub_resource type="Resource" id="Resource_041bf"]
+script = ExtResource("3_besf2")
+level = 18
+move = 339
+
+[sub_resource type="Resource" id="Resource_ayi3t"]
+script = ExtResource("3_besf2")
+level = 27
+move = 89
+
+[sub_resource type="Resource" id="Resource_5vlkk"]
+script = ExtResource("3_besf2")
+level = 36
+move = 359
+
+[sub_resource type="Resource" id="Resource_qwavm"]
+script = ExtResource("3_besf2")
+level = 45
+move = 90
+
+[sub_resource type="Resource" id="Resource_c3cf7"]
+script = ExtResource("3_besf2")
+level = 54
+move = 156
+
+[sub_resource type="Resource" id="Resource_vahoh"]
+script = ExtResource("3_besf2")
+level = 72
+move = 126
+
+[sub_resource type="Resource" id="Resource_6sbho"]
+script = ExtResource("3_besf2")
+level = 81
+move = 76
+
+[sub_resource type="Resource" id="Resource_4lk8o"]
+script = ExtResource("3_besf2")
+level = 90
+move = 284
+
+[resource]
+script = ExtResource("4_rb24g")
+id = 955
+display_name = "Groudon"
+category = "Continent"
+national_dex = 383
+pokedex = "When Groudon howled, the earth swelled and
+the land grew wide. The sun blazed atop
+and all the world around the creature
+was enveloped in incandescent heat."
+type_1 = 5
+type_2 = 11
+base_hp = 100
+base_atk = 180
+base_def = 160
+base_spa = 150
+base_spd = 90
+base_spe = 90
+ev_atk = 3
+catch_rate = 3
+base_exp = 385
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 190
+ability_2 = 190
+height_dm = 50
+weight_hg = 9997
+level_moves = Array[ExtResource("3_besf2")]([SubResource("Resource_ext47"), SubResource("Resource_y6sg2"), SubResource("Resource_mfr27"), SubResource("Resource_w3ab8"), SubResource("Resource_ypdcv"), SubResource("Resource_iv1kj"), SubResource("Resource_041bf"), SubResource("Resource_ayi3t"), SubResource("Resource_5vlkk"), SubResource("Resource_qwavm"), SubResource("Resource_c3cf7"), SubResource("Resource_vahoh"), SubResource("Resource_6sbho"), SubResource("Resource_4lk8o")])
+form_species = Array[int]([383, 955])

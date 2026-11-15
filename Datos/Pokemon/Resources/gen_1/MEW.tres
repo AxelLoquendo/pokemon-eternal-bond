@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dotv6tjmy5qaf"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_dopqi"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_40lw3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_r0ude"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4h65v"]
+
+[sub_resource type="Resource" id="Resource_l2vju"]
+script = ExtResource("3_r0ude")
+move = 1
+
+[sub_resource type="Resource" id="Resource_6cqyb"]
+script = ExtResource("3_r0ude")
+move = 513
+
+[sub_resource type="Resource" id="Resource_qlxdr"]
+script = ExtResource("3_r0ude")
+level = 10
+move = 133
+
+[sub_resource type="Resource" id="Resource_o7jxp"]
+script = ExtResource("3_r0ude")
+level = 20
+move = 226
+
+[sub_resource type="Resource" id="Resource_w05sj"]
+script = ExtResource("3_r0ude")
+level = 30
+move = 246
+
+[sub_resource type="Resource" id="Resource_eda0g"]
+script = ExtResource("3_r0ude")
+level = 40
+move = 719
+
+[sub_resource type="Resource" id="Resource_r2hli"]
+script = ExtResource("3_r0ude")
+level = 50
+move = 417
+
+[sub_resource type="Resource" id="Resource_2m1nu"]
+script = ExtResource("3_r0ude")
+level = 60
+move = 118
+
+[sub_resource type="Resource" id="Resource_sp56v"]
+script = ExtResource("3_r0ude")
+level = 70
+move = 286
+
+[sub_resource type="Resource" id="Resource_x53u3"]
+script = ExtResource("3_r0ude")
+level = 80
+move = 144
+
+[sub_resource type="Resource" id="Resource_5x16e"]
+script = ExtResource("3_r0ude")
+level = 90
+move = 396
+
+[sub_resource type="Resource" id="Resource_jfw5x"]
+script = ExtResource("3_r0ude")
+level = 100
+move = 94
+
+[resource]
+script = ExtResource("4_4h65v")
+id = 151
+display_name = "Mew"
+category = "New Species"
+national_dex = 151
+pokedex = "A Mew is said to possess the genes of all
+Pokémon. It is capable of making itself
+invisible at will, so it entirely avoids
+notice even if it approaches people."
+type_1 = 15
+base_hp = 100
+base_atk = 100
+base_def = 100
+base_spa = 100
+base_spd = 100
+base_spe = 100
+ev_hp = 3
+base_exp = 64
+base_friendship = 100
+gender_ratio = 255
+growth_rate = 3
+egg_cycles = 120
+ability_1 = 28
+item_common = 522
+item_rare = 522
+height_dm = 4
+weight_hg = 40
+body_color = 9
+level_moves = Array[ExtResource("3_r0ude")]([SubResource("Resource_l2vju"), SubResource("Resource_6cqyb"), SubResource("Resource_qlxdr"), SubResource("Resource_o7jxp"), SubResource("Resource_w05sj"), SubResource("Resource_eda0g"), SubResource("Resource_r2hli"), SubResource("Resource_2m1nu"), SubResource("Resource_sp56v"), SubResource("Resource_x53u3"), SubResource("Resource_5x16e"), SubResource("Resource_jfw5x")])

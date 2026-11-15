@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bvri615qk8pl2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ogkx1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ycpns"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_03bfe"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3l5pa"]
+
+[sub_resource type="Resource" id="Resource_kck8x"]
+script = ExtResource("3_03bfe")
+move = 45
+
+[sub_resource type="Resource" id="Resource_q228s"]
+script = ExtResource("3_03bfe")
+move = 55
+
+[sub_resource type="Resource" id="Resource_vw131"]
+script = ExtResource("3_03bfe")
+level = 5
+move = 47
+
+[sub_resource type="Resource" id="Resource_0mbd7"]
+script = ExtResource("3_03bfe")
+level = 10
+move = 54
+
+[sub_resource type="Resource" id="Resource_rge1y"]
+script = ExtResource("3_03bfe")
+level = 15
+move = 719
+
+[sub_resource type="Resource" id="Resource_8kobk"]
+script = ExtResource("3_03bfe")
+level = 20
+move = 420
+
+[sub_resource type="Resource" id="Resource_c4spb"]
+script = ExtResource("3_03bfe")
+level = 25
+move = 109
+
+[sub_resource type="Resource" id="Resource_glphk"]
+script = ExtResource("3_03bfe")
+level = 30
+move = 352
+
+[sub_resource type="Resource" id="Resource_xipax"]
+script = ExtResource("3_03bfe")
+level = 35
+move = 362
+
+[sub_resource type="Resource" id="Resource_ryh5b"]
+script = ExtResource("3_03bfe")
+level = 40
+move = 34
+
+[sub_resource type="Resource" id="Resource_l6se6"]
+script = ExtResource("3_03bfe")
+level = 45
+move = 58
+
+[sub_resource type="Resource" id="Resource_aj5vn"]
+script = ExtResource("3_03bfe")
+level = 50
+move = 240
+
+[sub_resource type="Resource" id="Resource_r63lj"]
+script = ExtResource("3_03bfe")
+level = 55
+move = 56
+
+[sub_resource type="Resource" id="Resource_sr3qn"]
+script = ExtResource("3_03bfe")
+level = 60
+move = 195
+
+[sub_resource type="Resource" id="Resource_1hlqq"]
+script = ExtResource("3_03bfe")
+level = 65
+move = 329
+
+[resource]
+script = ExtResource("4_3l5pa")
+id = 1498
+display_name = "Lapras"
+category = "Transport"
+national_dex = 131
+pokedex = "Over 5,000 people can ride on its
+shell at once. And it's a very
+comfortable ride, without the slightest
+shaking or swaying."
+type_1 = 12
+type_2 = 16
+base_hp = 130
+base_atk = 85
+base_def = 80
+base_spa = 85
+base_spd = 95
+base_spe = 60
+ev_hp = 2
+base_exp = 187
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 11
+ability_2 = 75
+ability_hidden = 93
+item_common = 427
+item_rare = 427
+height_dm = 240
+body_color = 1
+level_moves = Array[ExtResource("3_03bfe")]([SubResource("Resource_kck8x"), SubResource("Resource_q228s"), SubResource("Resource_vw131"), SubResource("Resource_0mbd7"), SubResource("Resource_rge1y"), SubResource("Resource_8kobk"), SubResource("Resource_c4spb"), SubResource("Resource_glphk"), SubResource("Resource_xipax"), SubResource("Resource_ryh5b"), SubResource("Resource_l6se6"), SubResource("Resource_aj5vn"), SubResource("Resource_r63lj"), SubResource("Resource_sr3qn"), SubResource("Resource_1hlqq")])
+egg_moves = Array[int]([193, 321, 287, 349, 174, 214, 32, 246, 250, 90, 406, 419, 248, 573])
+form_species = Array[int]([131, 1498])

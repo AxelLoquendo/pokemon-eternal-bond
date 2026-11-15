@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bjw8ucywfd5q4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_pil6d"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_c8l06"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gx4tc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dtop6"]
+
+[sub_resource type="Resource" id="Resource_ndkuc"]
+script = ExtResource("3_gx4tc")
+level = 0
+move = 343
+
+[sub_resource type="Resource" id="Resource_cn21t"]
+script = ExtResource("3_gx4tc")
+move = 33
+
+[sub_resource type="Resource" id="Resource_w83rj"]
+script = ExtResource("3_gx4tc")
+move = 39
+
+[sub_resource type="Resource" id="Resource_k0cua"]
+script = ExtResource("3_gx4tc")
+move = 44
+
+[sub_resource type="Resource" id="Resource_bgmr8"]
+script = ExtResource("3_gx4tc")
+move = 693
+
+[sub_resource type="Resource" id="Resource_420tx"]
+script = ExtResource("3_gx4tc")
+level = 15
+move = 254
+
+[sub_resource type="Resource" id="Resource_6i587"]
+script = ExtResource("3_gx4tc")
+level = 15
+move = 255
+
+[sub_resource type="Resource" id="Resource_ggn7i"]
+script = ExtResource("3_gx4tc")
+level = 15
+move = 256
+
+[sub_resource type="Resource" id="Resource_bv77t"]
+script = ExtResource("3_gx4tc")
+level = 20
+move = 34
+
+[sub_resource type="Resource" id="Resource_5662w"]
+script = ExtResource("3_gx4tc")
+level = 27
+move = 156
+
+[sub_resource type="Resource" id="Resource_df8tq"]
+script = ExtResource("3_gx4tc")
+level = 34
+move = 68
+
+[sub_resource type="Resource" id="Resource_rg3wi"]
+script = ExtResource("3_gx4tc")
+level = 41
+move = 331
+
+[sub_resource type="Resource" id="Resource_0a37o"]
+script = ExtResource("3_gx4tc")
+level = 48
+move = 162
+
+[sub_resource type="Resource" id="Resource_1ucc3"]
+script = ExtResource("3_gx4tc")
+level = 55
+move = 562
+
+[resource]
+script = ExtResource("4_dtop6")
+id = 820
+display_name = "Greedent"
+category = "Greedy"
+national_dex = 820
+pokedex = "It stashes berries in its tail--so many
+berries that they fall out constantly.
+But this Pokémon is a bit slow-witted,
+so it doesn't notice the loss."
+type_1 = 1
+base_hp = 120
+base_atk = 95
+base_def = 95
+base_spa = 55
+base_spd = 75
+base_spe = 20
+ev_hp = 2
+catch_rate = 90
+base_exp = 161
+egg_group_1 = 5
+ability_1 = 167
+ability_hidden = 82
+item_rare = 523
+height_dm = 6
+weight_hg = 60
+body_color = 5
+level_moves = Array[ExtResource("3_gx4tc")]([SubResource("Resource_ndkuc"), SubResource("Resource_cn21t"), SubResource("Resource_w83rj"), SubResource("Resource_k0cua"), SubResource("Resource_bgmr8"), SubResource("Resource_420tx"), SubResource("Resource_6i587"), SubResource("Resource_ggn7i"), SubResource("Resource_bv77t"), SubResource("Resource_5662w"), SubResource("Resource_df8tq"), SubResource("Resource_rg3wi"), SubResource("Resource_0a37o"), SubResource("Resource_1ucc3")])

@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b5xrd6220pcxt"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_72263"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6efqi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_s6urq"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tqqwy"]
+
+[sub_resource type="Resource" id="Resource_30pk0"]
+script = ExtResource("3_s6urq")
+level = 0
+move = 17
+
+[sub_resource type="Resource" id="Resource_34vmr"]
+script = ExtResource("3_s6urq")
+move = 310
+
+[sub_resource type="Resource" id="Resource_n4iyv"]
+script = ExtResource("3_s6urq")
+move = 239
+
+[sub_resource type="Resource" id="Resource_bavar"]
+script = ExtResource("3_s6urq")
+move = 110
+
+[sub_resource type="Resource" id="Resource_6ipr8"]
+script = ExtResource("3_s6urq")
+move = 278
+
+[sub_resource type="Resource" id="Resource_qg4yq"]
+script = ExtResource("3_s6urq")
+move = 74
+
+[sub_resource type="Resource" id="Resource_xtk6f"]
+script = ExtResource("3_s6urq")
+level = 4
+move = 491
+
+[sub_resource type="Resource" id="Resource_c57it"]
+script = ExtResource("3_s6urq")
+level = 8
+move = 512
+
+[sub_resource type="Resource" id="Resource_7r36o"]
+script = ExtResource("3_s6urq")
+level = 12
+move = 73
+
+[sub_resource type="Resource" id="Resource_ongg2"]
+script = ExtResource("3_s6urq")
+level = 16
+move = 182
+
+[sub_resource type="Resource" id="Resource_31ym4"]
+script = ExtResource("3_s6urq")
+level = 20
+move = 225
+
+[sub_resource type="Resource" id="Resource_bu8tl"]
+script = ExtResource("3_s6urq")
+level = 24
+move = 349
+
+[sub_resource type="Resource" id="Resource_74dec"]
+script = ExtResource("3_s6urq")
+level = 28
+move = 406
+
+[sub_resource type="Resource" id="Resource_ws00c"]
+script = ExtResource("3_s6urq")
+level = 32
+move = 716
+
+[sub_resource type="Resource" id="Resource_a3yy3"]
+script = ExtResource("3_s6urq")
+level = 36
+move = 334
+
+[sub_resource type="Resource" id="Resource_elrrt"]
+script = ExtResource("3_s6urq")
+level = 40
+move = 19
+
+[sub_resource type="Resource" id="Resource_pqbsc"]
+script = ExtResource("3_s6urq")
+level = 44
+move = 407
+
+[resource]
+script = ExtResource("4_tqqwy")
+id = 1510
+display_name = "Flapple"
+category = "Apple Wing"
+national_dex = 841
+pokedex = "Under the influence of Gigantamax
+energy, it produces much more sweet
+nectar, and its shape has changed
+to resemble a giant apple."
+type_1 = 13
+type_2 = 17
+base_hp = 70
+base_atk = 110
+base_def = 80
+base_spa = 95
+base_spd = 60
+base_spe = 70
+ev_atk = 2
+base_exp = 170
+growth_rate = 1
+egg_group_1 = 7
+egg_group_2 = 14
+ability_1 = 247
+ability_2 = 82
+ability_hidden = 55
+height_dm = 240
+body_color = 3
+level_moves = Array[ExtResource("3_s6urq")]([SubResource("Resource_30pk0"), SubResource("Resource_34vmr"), SubResource("Resource_n4iyv"), SubResource("Resource_bavar"), SubResource("Resource_6ipr8"), SubResource("Resource_qg4yq"), SubResource("Resource_xtk6f"), SubResource("Resource_c57it"), SubResource("Resource_7r36o"), SubResource("Resource_ongg2"), SubResource("Resource_31ym4"), SubResource("Resource_bu8tl"), SubResource("Resource_74dec"), SubResource("Resource_ws00c"), SubResource("Resource_a3yy3"), SubResource("Resource_elrrt"), SubResource("Resource_pqbsc")])
+form_species = Array[int]([841, 1510])

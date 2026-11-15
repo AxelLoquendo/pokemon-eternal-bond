@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c5k3g77alvu6f"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_2kcm3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_fldga"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fslew"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kg1d6"]
+
+[sub_resource type="Resource" id="Resource_x8617"]
+script = ExtResource("1_2kcm3")
+method = "LEVEL"
+param = "36"
+target = 395
+
+[sub_resource type="Resource" id="Resource_cswyr"]
+script = ExtResource("3_fslew")
+level = 0
+move = 232
+
+[sub_resource type="Resource" id="Resource_iuiod"]
+script = ExtResource("3_fslew")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ccqix"]
+script = ExtResource("3_fslew")
+move = 45
+
+[sub_resource type="Resource" id="Resource_pvp1p"]
+script = ExtResource("3_fslew")
+move = 55
+
+[sub_resource type="Resource" id="Resource_cu6bg"]
+script = ExtResource("3_fslew")
+level = 15
+move = 64
+
+[sub_resource type="Resource" id="Resource_3w8a1"]
+script = ExtResource("3_fslew")
+level = 19
+move = 61
+
+[sub_resource type="Resource" id="Resource_lc65g"]
+script = ExtResource("3_fslew")
+level = 24
+move = 207
+
+[sub_resource type="Resource" id="Resource_abgaf"]
+script = ExtResource("3_fslew")
+level = 28
+move = 31
+
+[sub_resource type="Resource" id="Resource_hg6x8"]
+script = ExtResource("3_fslew")
+level = 33
+move = 362
+
+[sub_resource type="Resource" id="Resource_mo457"]
+script = ExtResource("3_fslew")
+level = 37
+move = 250
+
+[sub_resource type="Resource" id="Resource_weetn"]
+script = ExtResource("3_fslew")
+level = 42
+move = 54
+
+[sub_resource type="Resource" id="Resource_sjv51"]
+script = ExtResource("3_fslew")
+level = 46
+move = 65
+
+[sub_resource type="Resource" id="Resource_s7hj5"]
+script = ExtResource("3_fslew")
+level = 50
+move = 56
+
+[resource]
+script = ExtResource("4_kg1d6")
+id = 394
+display_name = "Prinplup"
+category = "Penguin"
+national_dex = 394
+pokedex = "Because every Prinplup considers itself
+to be the most important, they can never
+form a group. It searches for prey in
+icy seas."
+type_1 = 12
+base_hp = 64
+base_atk = 66
+base_def = 68
+base_spa = 81
+base_spd = 76
+base_spe = 50
+ev_spa = 2
+base_exp = 142
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 67
+ability_hidden = 128
+height_dm = 8
+weight_hg = 230
+body_color = 1
+level_moves = Array[ExtResource("3_fslew")]([SubResource("Resource_cswyr"), SubResource("Resource_iuiod"), SubResource("Resource_ccqix"), SubResource("Resource_pvp1p"), SubResource("Resource_cu6bg"), SubResource("Resource_3w8a1"), SubResource("Resource_lc65g"), SubResource("Resource_abgaf"), SubResource("Resource_hg6x8"), SubResource("Resource_mo457"), SubResource("Resource_weetn"), SubResource("Resource_sjv51"), SubResource("Resource_s7hj5")])
+evolutions = Array[ExtResource("1_2kcm3")]([SubResource("Resource_x8617")])

@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b8xequywy7o75"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_lyrdc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_nigln"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7l76o"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jbity"]
+
+[sub_resource type="Resource" id="Resource_w40bb"]
+script = ExtResource("3_7l76o")
+move = 542
+
+[sub_resource type="Resource" id="Resource_674n0"]
+script = ExtResource("3_7l76o")
+move = 33
+
+[sub_resource type="Resource" id="Resource_hdlcx"]
+script = ExtResource("3_7l76o")
+move = 28
+
+[sub_resource type="Resource" id="Resource_33d2n"]
+script = ExtResource("3_7l76o")
+move = 16
+
+[sub_resource type="Resource" id="Resource_c10td"]
+script = ExtResource("3_7l76o")
+move = 98
+
+[sub_resource type="Resource" id="Resource_y5t7j"]
+script = ExtResource("3_7l76o")
+level = 5
+move = 28
+
+[sub_resource type="Resource" id="Resource_n3c2r"]
+script = ExtResource("3_7l76o")
+level = 9
+move = 16
+
+[sub_resource type="Resource" id="Resource_k1sio"]
+script = ExtResource("3_7l76o")
+level = 13
+move = 98
+
+[sub_resource type="Resource" id="Resource_rjrnq"]
+script = ExtResource("3_7l76o")
+level = 17
+move = 18
+
+[sub_resource type="Resource" id="Resource_vumli"]
+script = ExtResource("3_7l76o")
+level = 22
+move = 239
+
+[sub_resource type="Resource" id="Resource_ynptg"]
+script = ExtResource("3_7l76o")
+level = 27
+move = 297
+
+[sub_resource type="Resource" id="Resource_pid0w"]
+script = ExtResource("3_7l76o")
+level = 32
+move = 97
+
+[sub_resource type="Resource" id="Resource_hcho5"]
+script = ExtResource("3_7l76o")
+level = 38
+move = 17
+
+[sub_resource type="Resource" id="Resource_n7xq7"]
+script = ExtResource("3_7l76o")
+level = 44
+move = 355
+
+[sub_resource type="Resource" id="Resource_qffup"]
+script = ExtResource("3_7l76o")
+level = 50
+move = 366
+
+[sub_resource type="Resource" id="Resource_njpsg"]
+script = ExtResource("3_7l76o")
+level = 56
+move = 332
+
+[sub_resource type="Resource" id="Resource_lmnjw"]
+script = ExtResource("3_7l76o")
+level = 62
+move = 403
+
+[sub_resource type="Resource" id="Resource_h4q5b"]
+script = ExtResource("3_7l76o")
+level = 68
+move = 542
+
+[resource]
+script = ExtResource("4_jbity")
+id = 18
+display_name = "Pidgeot"
+category = "Bird"
+national_dex = 18
+pokedex = "This Pokémon has gorgeous, glossy
+feathers. Many Trainers are so captivated
+by the beautiful feathers on its head that
+they choose Pidgeot as their Pokémon."
+type_1 = 1
+type_2 = 3
+base_hp = 83
+base_atk = 80
+base_def = 75
+base_spa = 70
+base_spd = 70
+base_spe = 101
+ev_spe = 3
+base_exp = 172
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 51
+ability_hidden = 145
+height_dm = 15
+weight_hg = 395
+body_color = 5
+level_moves = Array[ExtResource("3_7l76o")]([SubResource("Resource_w40bb"), SubResource("Resource_674n0"), SubResource("Resource_hdlcx"), SubResource("Resource_33d2n"), SubResource("Resource_c10td"), SubResource("Resource_y5t7j"), SubResource("Resource_n3c2r"), SubResource("Resource_k1sio"), SubResource("Resource_rjrnq"), SubResource("Resource_vumli"), SubResource("Resource_ynptg"), SubResource("Resource_pid0w"), SubResource("Resource_hcho5"), SubResource("Resource_n7xq7"), SubResource("Resource_qffup"), SubResource("Resource_njpsg"), SubResource("Resource_lmnjw"), SubResource("Resource_h4q5b")])
+form_species = Array[int]([18, 911])

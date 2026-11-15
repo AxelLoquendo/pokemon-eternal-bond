@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://vbncpigou8u4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_61btv"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_c5bq0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ftigg"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_107n7"]
+
+[sub_resource type="Resource" id="Resource_13huq"]
+script = ExtResource("3_ftigg")
+level = 0
+move = 241
+
+[sub_resource type="Resource" id="Resource_mvp3y"]
+script = ExtResource("3_ftigg")
+move = 241
+
+[sub_resource type="Resource" id="Resource_6wyws"]
+script = ExtResource("3_ftigg")
+move = 579
+
+[sub_resource type="Resource" id="Resource_0sah0"]
+script = ExtResource("3_ftigg")
+move = 234
+
+[sub_resource type="Resource" id="Resource_6d73b"]
+script = ExtResource("3_ftigg")
+move = 33
+
+[sub_resource type="Resource" id="Resource_hvcdy"]
+script = ExtResource("3_ftigg")
+move = 633
+
+[sub_resource type="Resource" id="Resource_jccho"]
+script = ExtResource("3_ftigg")
+move = 74
+
+[sub_resource type="Resource" id="Resource_e8rdj"]
+script = ExtResource("3_ftigg")
+level = 15
+move = 270
+
+[sub_resource type="Resource" id="Resource_j2ip3"]
+script = ExtResource("3_ftigg")
+level = 20
+move = 345
+
+[sub_resource type="Resource" id="Resource_uv3hf"]
+script = ExtResource("3_ftigg")
+level = 28
+move = 73
+
+[sub_resource type="Resource" id="Resource_xvhkg"]
+script = ExtResource("3_ftigg")
+level = 34
+move = 36
+
+[sub_resource type="Resource" id="Resource_i35bv"]
+script = ExtResource("3_ftigg")
+level = 41
+move = 572
+
+[sub_resource type="Resource" id="Resource_7deow"]
+script = ExtResource("3_ftigg")
+level = 48
+move = 388
+
+[sub_resource type="Resource" id="Resource_vgakj"]
+script = ExtResource("3_ftigg")
+level = 55
+move = 76
+
+[sub_resource type="Resource" id="Resource_rhplj"]
+script = ExtResource("3_ftigg")
+level = 62
+move = 80
+
+[resource]
+script = ExtResource("4_107n7")
+id = 1061
+display_name = "Cherrim"
+category = "Blossom"
+national_dex = 421
+pokedex = "Cherrim takes this form on sunny days.
+Its faint scent entices bug Pokémon to it.
+It immediately closes its petals and
+becomes immobile once the sun hides."
+type_1 = 13
+base_hp = 70
+base_atk = 60
+base_def = 70
+base_spa = 87
+base_spd = 78
+base_spe = 85
+ev_spa = 2
+catch_rate = 75
+base_exp = 158
+egg_group_1 = 6
+egg_group_2 = 7
+ability_1 = 122
+item_rare = 429
+height_dm = 5
+weight_hg = 93
+body_color = 9
+level_moves = Array[ExtResource("3_ftigg")]([SubResource("Resource_13huq"), SubResource("Resource_mvp3y"), SubResource("Resource_6wyws"), SubResource("Resource_0sah0"), SubResource("Resource_6d73b"), SubResource("Resource_hvcdy"), SubResource("Resource_jccho"), SubResource("Resource_e8rdj"), SubResource("Resource_j2ip3"), SubResource("Resource_uv3hf"), SubResource("Resource_xvhkg"), SubResource("Resource_i35bv"), SubResource("Resource_7deow"), SubResource("Resource_vgakj"), SubResource("Resource_rhplj")])
+form_species = Array[int]([421, 1061])

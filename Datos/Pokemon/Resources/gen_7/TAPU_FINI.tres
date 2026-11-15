@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://2dm6cb3o80p4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_m4fcl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jcnjg"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kochr"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_vos55"]
+
+[sub_resource type="Resource" id="Resource_fmtgg"]
+script = ExtResource("3_kochr")
+move = 574
+
+[sub_resource type="Resource" id="Resource_2bk6e"]
+script = ExtResource("3_kochr")
+move = 55
+
+[sub_resource type="Resource" id="Resource_8uisi"]
+script = ExtResource("3_kochr")
+level = 5
+move = 110
+
+[sub_resource type="Resource" id="Resource_721qy"]
+script = ExtResource("3_kochr")
+level = 10
+move = 54
+
+[sub_resource type="Resource" id="Resource_5mpa3"]
+script = ExtResource("3_kochr")
+level = 10
+move = 114
+
+[sub_resource type="Resource" id="Resource_8a53c"]
+script = ExtResource("3_kochr")
+level = 15
+move = 392
+
+[sub_resource type="Resource" id="Resource_wvqyf"]
+script = ExtResource("3_kochr")
+level = 20
+move = 352
+
+[sub_resource type="Resource" id="Resource_j8tpq"]
+script = ExtResource("3_kochr")
+level = 25
+move = 362
+
+[sub_resource type="Resource" id="Resource_4upwc"]
+script = ExtResource("3_kochr")
+level = 30
+move = 432
+
+[sub_resource type="Resource" id="Resource_f3fiv"]
+script = ExtResource("3_kochr")
+level = 35
+move = 505
+
+[sub_resource type="Resource" id="Resource_o344a"]
+script = ExtResource("3_kochr")
+level = 40
+move = 57
+
+[sub_resource type="Resource" id="Resource_lyitp"]
+script = ExtResource("3_kochr")
+level = 45
+move = 330
+
+[sub_resource type="Resource" id="Resource_uofys"]
+script = ExtResource("3_kochr")
+level = 50
+move = 212
+
+[sub_resource type="Resource" id="Resource_t1vf6"]
+script = ExtResource("3_kochr")
+level = 55
+move = 671
+
+[sub_resource type="Resource" id="Resource_eqmlp"]
+script = ExtResource("3_kochr")
+level = 60
+move = 585
+
+[sub_resource type="Resource" id="Resource_4rbdw"]
+script = ExtResource("3_kochr")
+level = 65
+move = 56
+
+[sub_resource type="Resource" id="Resource_8atl2"]
+script = ExtResource("3_kochr")
+level = 70
+move = 487
+
+[sub_resource type="Resource" id="Resource_lsb4p"]
+script = ExtResource("3_kochr")
+level = 75
+move = 581
+
+[resource]
+script = ExtResource("4_vos55")
+id = 788
+display_name = "Tapu Fini"
+category = "Land Spirit"
+national_dex = 788
+pokedex = "People say it can create pure water that
+will wash away any corruption. The dense
+fog it creates brings the downfall and
+destruction of its confused enemies."
+type_1 = 12
+type_2 = 19
+base_hp = 70
+base_atk = 75
+base_def = 115
+base_spa = 95
+base_spd = 130
+base_spe = 85
+ev_spd = 3
+catch_rate = 3
+base_exp = 285
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 15
+ability_1 = 228
+ability_hidden = 140
+height_dm = 13
+weight_hg = 212
+body_color = 6
+level_moves = Array[ExtResource("3_kochr")]([SubResource("Resource_fmtgg"), SubResource("Resource_2bk6e"), SubResource("Resource_8uisi"), SubResource("Resource_721qy"), SubResource("Resource_5mpa3"), SubResource("Resource_8a53c"), SubResource("Resource_wvqyf"), SubResource("Resource_j8tpq"), SubResource("Resource_4upwc"), SubResource("Resource_f3fiv"), SubResource("Resource_o344a"), SubResource("Resource_lyitp"), SubResource("Resource_uofys"), SubResource("Resource_t1vf6"), SubResource("Resource_eqmlp"), SubResource("Resource_4rbdw"), SubResource("Resource_8atl2"), SubResource("Resource_lsb4p")])

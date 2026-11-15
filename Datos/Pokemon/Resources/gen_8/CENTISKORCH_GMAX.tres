@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bawyiv2h5i7nb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_gpcbl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5aorj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0iihl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_p6s05"]
+
+[sub_resource type="Resource" id="Resource_i8gc8"]
+script = ExtResource("3_0iihl")
+move = 517
+
+[sub_resource type="Resource" id="Resource_rlu8w"]
+script = ExtResource("3_0iihl")
+move = 52
+
+[sub_resource type="Resource" id="Resource_j36j8"]
+script = ExtResource("3_0iihl")
+move = 108
+
+[sub_resource type="Resource" id="Resource_41u1x"]
+script = ExtResource("3_0iihl")
+move = 35
+
+[sub_resource type="Resource" id="Resource_egr2q"]
+script = ExtResource("3_0iihl")
+move = 44
+
+[sub_resource type="Resource" id="Resource_r0qme"]
+script = ExtResource("3_0iihl")
+level = 15
+move = 172
+
+[sub_resource type="Resource" id="Resource_fpkjp"]
+script = ExtResource("3_0iihl")
+level = 20
+move = 450
+
+[sub_resource type="Resource" id="Resource_2yrql"]
+script = ExtResource("3_0iihl")
+level = 25
+move = 489
+
+[sub_resource type="Resource" id="Resource_hf6un"]
+script = ExtResource("3_0iihl")
+level = 32
+move = 21
+
+[sub_resource type="Resource" id="Resource_mbm5y"]
+script = ExtResource("3_0iihl")
+level = 39
+move = 83
+
+[sub_resource type="Resource" id="Resource_t0j1g"]
+script = ExtResource("3_0iihl")
+level = 46
+move = 242
+
+[sub_resource type="Resource" id="Resource_2wgfi"]
+script = ExtResource("3_0iihl")
+level = 53
+move = 643
+
+[sub_resource type="Resource" id="Resource_dpw5c"]
+script = ExtResource("3_0iihl")
+level = 60
+move = 642
+
+[sub_resource type="Resource" id="Resource_ug4x0"]
+script = ExtResource("3_0iihl")
+level = 67
+move = 645
+
+[resource]
+script = ExtResource("4_p6s05")
+id = 1515
+display_name = "Centiskorch"
+category = "Radiator"
+national_dex = 851
+pokedex = "The heat that comes off a
+Gigantamax Centiskorch may
+destabilize air currents. Sometimes
+it can even cause storms."
+type_1 = 11
+type_2 = 7
+base_hp = 100
+base_atk = 115
+base_def = 65
+base_spa = 90
+base_spd = 90
+base_spe = 65
+ev_atk = 2
+catch_rate = 75
+base_exp = 184
+egg_group_1 = 3
+ability_1 = 18
+ability_2 = 73
+ability_hidden = 49
+height_dm = 750
+level_moves = Array[ExtResource("3_0iihl")]([SubResource("Resource_i8gc8"), SubResource("Resource_rlu8w"), SubResource("Resource_j36j8"), SubResource("Resource_41u1x"), SubResource("Resource_egr2q"), SubResource("Resource_r0qme"), SubResource("Resource_fpkjp"), SubResource("Resource_2yrql"), SubResource("Resource_hf6un"), SubResource("Resource_mbm5y"), SubResource("Resource_t0j1g"), SubResource("Resource_2wgfi"), SubResource("Resource_dpw5c"), SubResource("Resource_ug4x0")])
+form_species = Array[int]([851, 1515])

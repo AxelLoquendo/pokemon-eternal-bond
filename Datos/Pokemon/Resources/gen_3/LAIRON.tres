@@ -1,0 +1,128 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dedt18331rdi4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qe5ai"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pcmct"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yyw5p"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5a2xj"]
+
+[sub_resource type="Resource" id="Resource_86t2i"]
+script = ExtResource("1_qe5ai")
+method = "LEVEL"
+param = "42"
+target = 306
+
+[sub_resource type="Resource" id="Resource_nbs8p"]
+script = ExtResource("3_yyw5p")
+move = 33
+
+[sub_resource type="Resource" id="Resource_fsbgl"]
+script = ExtResource("3_yyw5p")
+move = 106
+
+[sub_resource type="Resource" id="Resource_f62o1"]
+script = ExtResource("3_yyw5p")
+move = 232
+
+[sub_resource type="Resource" id="Resource_gw1ms"]
+script = ExtResource("3_yyw5p")
+move = 317
+
+[sub_resource type="Resource" id="Resource_8rt0y"]
+script = ExtResource("3_yyw5p")
+level = 12
+move = 46
+
+[sub_resource type="Resource" id="Resource_voaop"]
+script = ExtResource("3_yyw5p")
+level = 16
+move = 29
+
+[sub_resource type="Resource" id="Resource_flo44"]
+script = ExtResource("3_yyw5p")
+level = 20
+move = 182
+
+[sub_resource type="Resource" id="Resource_1elwm"]
+script = ExtResource("3_yyw5p")
+level = 24
+move = 157
+
+[sub_resource type="Resource" id="Resource_c4iqw"]
+script = ExtResource("3_yyw5p")
+level = 28
+move = 442
+
+[sub_resource type="Resource" id="Resource_q7xhc"]
+script = ExtResource("3_yyw5p")
+level = 35
+move = 319
+
+[sub_resource type="Resource" id="Resource_ddl6c"]
+script = ExtResource("3_yyw5p")
+level = 40
+move = 36
+
+[sub_resource type="Resource" id="Resource_v4n1s"]
+script = ExtResource("3_yyw5p")
+level = 46
+move = 475
+
+[sub_resource type="Resource" id="Resource_qiurp"]
+script = ExtResource("3_yyw5p")
+level = 52
+move = 231
+
+[sub_resource type="Resource" id="Resource_gx1pl"]
+script = ExtResource("3_yyw5p")
+level = 58
+move = 334
+
+[sub_resource type="Resource" id="Resource_xb20r"]
+script = ExtResource("3_yyw5p")
+level = 64
+move = 484
+
+[sub_resource type="Resource" id="Resource_knqum"]
+script = ExtResource("3_yyw5p")
+level = 70
+move = 38
+
+[sub_resource type="Resource" id="Resource_b545t"]
+script = ExtResource("3_yyw5p")
+level = 76
+move = 368
+
+[resource]
+script = ExtResource("4_5a2xj")
+id = 305
+display_name = "Lairon"
+category = "Iron Armor"
+national_dex = 305
+pokedex = "When two Lairon meet in the wild, they
+fight for territory by bashing into each
+other with their steel bodies. The sound
+of their collision carries for miles."
+type_1 = 9
+type_2 = 6
+base_hp = 60
+base_atk = 90
+base_def = 140
+base_spa = 50
+base_spd = 50
+base_spe = 40
+ev_def = 2
+catch_rate = 90
+base_exp = 151
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 35
+egg_group_1 = 1
+ability_1 = 5
+ability_2 = 69
+ability_hidden = 134
+item_rare = 437
+height_dm = 9
+weight_hg = 1200
+body_color = 7
+level_moves = Array[ExtResource("3_yyw5p")]([SubResource("Resource_nbs8p"), SubResource("Resource_fsbgl"), SubResource("Resource_f62o1"), SubResource("Resource_gw1ms"), SubResource("Resource_8rt0y"), SubResource("Resource_voaop"), SubResource("Resource_flo44"), SubResource("Resource_1elwm"), SubResource("Resource_c4iqw"), SubResource("Resource_q7xhc"), SubResource("Resource_ddl6c"), SubResource("Resource_v4n1s"), SubResource("Resource_qiurp"), SubResource("Resource_gx1pl"), SubResource("Resource_xb20r"), SubResource("Resource_knqum"), SubResource("Resource_b545t")])
+evolutions = Array[ExtResource("1_qe5ai")]([SubResource("Resource_86t2i")])

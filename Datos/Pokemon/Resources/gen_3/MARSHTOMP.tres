@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://136vvqa6yn3e"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_v66hx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ckx1h"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1ud3s"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_loaus"]
+
+[sub_resource type="Resource" id="Resource_xos20"]
+script = ExtResource("1_v66hx")
+method = "LEVEL"
+param = "36"
+target = 260
+
+[sub_resource type="Resource" id="Resource_y103v"]
+script = ExtResource("3_1ud3s")
+level = 0
+move = 341
+
+[sub_resource type="Resource" id="Resource_uubfl"]
+script = ExtResource("3_1ud3s")
+move = 249
+
+[sub_resource type="Resource" id="Resource_3ws5x"]
+script = ExtResource("3_1ud3s")
+move = 33
+
+[sub_resource type="Resource" id="Resource_wjvpj"]
+script = ExtResource("3_1ud3s")
+move = 45
+
+[sub_resource type="Resource" id="Resource_pkv56"]
+script = ExtResource("3_1ud3s")
+move = 55
+
+[sub_resource type="Resource" id="Resource_xs08k"]
+script = ExtResource("3_1ud3s")
+level = 9
+move = 88
+
+[sub_resource type="Resource" id="Resource_fphap"]
+script = ExtResource("3_1ud3s")
+level = 12
+move = 182
+
+[sub_resource type="Resource" id="Resource_3e355"]
+script = ExtResource("3_1ud3s")
+level = 15
+move = 48
+
+[sub_resource type="Resource" id="Resource_pn7q2"]
+script = ExtResource("3_1ud3s")
+level = 20
+move = 352
+
+[sub_resource type="Resource" id="Resource_7pq36"]
+script = ExtResource("3_1ud3s")
+level = 25
+move = 157
+
+[sub_resource type="Resource" id="Resource_y5n3c"]
+script = ExtResource("3_1ud3s")
+level = 30
+move = 36
+
+[sub_resource type="Resource" id="Resource_o2hys"]
+script = ExtResource("3_1ud3s")
+level = 35
+move = 133
+
+[sub_resource type="Resource" id="Resource_ncy1y"]
+script = ExtResource("3_1ud3s")
+level = 40
+move = 330
+
+[sub_resource type="Resource" id="Resource_xcmn6"]
+script = ExtResource("3_1ud3s")
+level = 45
+move = 103
+
+[sub_resource type="Resource" id="Resource_pcm38"]
+script = ExtResource("3_1ud3s")
+level = 50
+move = 283
+
+[sub_resource type="Resource" id="Resource_rxrwn"]
+script = ExtResource("3_1ud3s")
+level = 55
+move = 56
+
+[resource]
+script = ExtResource("4_loaus")
+id = 259
+display_name = "Marshtomp"
+category = "Mud Fish"
+national_dex = 259
+pokedex = "Its toughened hind legs enable it to stand
+upright. Because it weakens if its skin
+dries out, it replenishes fluids by playing
+in mud."
+type_1 = 12
+type_2 = 5
+base_hp = 70
+base_atk = 85
+base_def = 70
+base_spa = 60
+base_spd = 70
+base_spe = 50
+ev_atk = 2
+base_exp = 142
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 67
+ability_hidden = 6
+height_dm = 7
+weight_hg = 280
+body_color = 1
+level_moves = Array[ExtResource("3_1ud3s")]([SubResource("Resource_y103v"), SubResource("Resource_uubfl"), SubResource("Resource_3ws5x"), SubResource("Resource_wjvpj"), SubResource("Resource_pkv56"), SubResource("Resource_xs08k"), SubResource("Resource_fphap"), SubResource("Resource_3e355"), SubResource("Resource_pn7q2"), SubResource("Resource_7pq36"), SubResource("Resource_y5n3c"), SubResource("Resource_o2hys"), SubResource("Resource_ncy1y"), SubResource("Resource_xcmn6"), SubResource("Resource_pcm38"), SubResource("Resource_rxrwn")])
+evolutions = Array[ExtResource("1_v66hx")]([SubResource("Resource_xos20")])

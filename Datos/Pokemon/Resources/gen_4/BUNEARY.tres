@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cp812dij8641e"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_c5hg5"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_74c61"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3cj5r"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mkvwd"]
+
+[sub_resource type="Resource" id="Resource_5v733"]
+script = ExtResource("3_3cj5r")
+move = 150
+
+[sub_resource type="Resource" id="Resource_iekx3"]
+script = ExtResource("3_3cj5r")
+move = 1
+
+[sub_resource type="Resource" id="Resource_m7c7y"]
+script = ExtResource("3_3cj5r")
+level = 4
+move = 111
+
+[sub_resource type="Resource" id="Resource_yall4"]
+script = ExtResource("3_3cj5r")
+level = 8
+move = 608
+
+[sub_resource type="Resource" id="Resource_ytiqg"]
+script = ExtResource("3_3cj5r")
+level = 12
+move = 495
+
+[sub_resource type="Resource" id="Resource_vv74m"]
+script = ExtResource("3_3cj5r")
+level = 16
+move = 98
+
+[sub_resource type="Resource" id="Resource_fqphd"]
+script = ExtResource("3_3cj5r")
+level = 20
+move = 24
+
+[sub_resource type="Resource" id="Resource_cfncv"]
+script = ExtResource("3_3cj5r")
+level = 24
+move = 204
+
+[sub_resource type="Resource" id="Resource_12sm4"]
+script = ExtResource("3_3cj5r")
+level = 28
+move = 226
+
+[sub_resource type="Resource" id="Resource_yo01n"]
+script = ExtResource("3_3cj5r")
+level = 32
+move = 29
+
+[sub_resource type="Resource" id="Resource_p8jgt"]
+script = ExtResource("3_3cj5r")
+level = 36
+move = 97
+
+[sub_resource type="Resource" id="Resource_lchpc"]
+script = ExtResource("3_3cj5r")
+level = 40
+move = 494
+
+[sub_resource type="Resource" id="Resource_a2dkf"]
+script = ExtResource("3_3cj5r")
+level = 44
+move = 260
+
+[sub_resource type="Resource" id="Resource_qfryw"]
+script = ExtResource("3_3cj5r")
+level = 48
+move = 340
+
+[sub_resource type="Resource" id="Resource_sonxf"]
+script = ExtResource("3_3cj5r")
+level = 52
+move = 361
+
+[resource]
+script = ExtResource("4_mkvwd")
+id = 427
+display_name = "Buneary"
+category = "Rabbit"
+national_dex = 427
+pokedex = "You can tell how it feels by the way
+it rolls its ears. When it's scared,
+both ears are rolled up. When it senses
+danger, it perks them up."
+type_1 = 1
+base_hp = 55
+base_atk = 66
+base_def = 44
+base_spa = 44
+base_spd = 56
+base_spe = 85
+ev_spe = 1
+catch_rate = 190
+base_exp = 70
+base_friendship = 0
+egg_group_1 = 5
+egg_group_2 = 8
+ability_1 = 50
+ability_2 = 103
+ability_hidden = 7
+height_dm = 4
+weight_hg = 55
+body_color = 5
+level_moves = Array[ExtResource("3_3cj5r")]([SubResource("Resource_5v733"), SubResource("Resource_iekx3"), SubResource("Resource_m7c7y"), SubResource("Resource_yall4"), SubResource("Resource_ytiqg"), SubResource("Resource_vv74m"), SubResource("Resource_fqphd"), SubResource("Resource_cfncv"), SubResource("Resource_12sm4"), SubResource("Resource_yo01n"), SubResource("Resource_p8jgt"), SubResource("Resource_lchpc"), SubResource("Resource_a2dkf"), SubResource("Resource_qfryw"), SubResource("Resource_sonxf")])
+egg_moves = Array[int]([313, 252, 227, 186, 458, 67, 327, 415, 9, 8, 7, 175, 264, 509, 383, 298, 322, 300, 612])

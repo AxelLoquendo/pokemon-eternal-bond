@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://tec7n24e2kvq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fbn20"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6tgsl"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_lm26k"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_k23dx"]
+
+[sub_resource type="Resource" id="Resource_dpnqb"]
+script = ExtResource("3_lm26k")
+move = 45
+
+[sub_resource type="Resource" id="Resource_88c1v"]
+script = ExtResource("3_lm26k")
+move = 252
+
+[sub_resource type="Resource" id="Resource_pjpxq"]
+script = ExtResource("3_lm26k")
+level = 4
+move = 364
+
+[sub_resource type="Resource" id="Resource_h1rrw"]
+script = ExtResource("3_lm26k")
+level = 8
+move = 10
+
+[sub_resource type="Resource" id="Resource_qtvm7"]
+script = ExtResource("3_lm26k")
+level = 12
+move = 6
+
+[sub_resource type="Resource" id="Resource_0njq8"]
+script = ExtResource("3_lm26k")
+level = 16
+move = 44
+
+[sub_resource type="Resource" id="Resource_yug3p"]
+script = ExtResource("3_lm26k")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_l73ec"]
+script = ExtResource("3_lm26k")
+level = 24
+move = 372
+
+[sub_resource type="Resource" id="Resource_xsbta"]
+script = ExtResource("3_lm26k")
+level = 29
+move = 154
+
+[sub_resource type="Resource" id="Resource_t6hr8"]
+script = ExtResource("3_lm26k")
+level = 32
+move = 103
+
+[sub_resource type="Resource" id="Resource_g7eik"]
+script = ExtResource("3_lm26k")
+level = 36
+move = 163
+
+[sub_resource type="Resource" id="Resource_sqsjy"]
+script = ExtResource("3_lm26k")
+level = 40
+move = 417
+
+[sub_resource type="Resource" id="Resource_ho1xr"]
+script = ExtResource("3_lm26k")
+level = 44
+move = 583
+
+[resource]
+script = ExtResource("4_k23dx")
+id = 1494
+display_name = "Meowth"
+category = "Scratch Cat"
+national_dex = 52
+pokedex = "The pattern that has appeared on
+its giant coin is thought to be the
+key to unlocking the secrets of the
+Dynamax phenomenon."
+type_1 = 1
+base_hp = 40
+base_atk = 45
+base_def = 35
+base_spa = 40
+base_spd = 40
+base_spe = 90
+ev_spe = 1
+catch_rate = 255
+base_exp = 58
+egg_group_1 = 5
+item_rare = 462
+height_dm = 330
+body_color = 2
+level_moves = Array[ExtResource("3_lm26k")]([SubResource("Resource_dpnqb"), SubResource("Resource_88c1v"), SubResource("Resource_pjpxq"), SubResource("Resource_h1rrw"), SubResource("Resource_qtvm7"), SubResource("Resource_0njq8"), SubResource("Resource_yug3p"), SubResource("Resource_l73ec"), SubResource("Resource_xsbta"), SubResource("Resource_t6hr8"), SubResource("Resource_g7eik"), SubResource("Resource_sqsjy"), SubResource("Resource_ho1xr")])
+egg_moves = Array[int]([180, 204, 95, 133, 274, 316, 175, 387, 386, 39, 289, 231, 492])
+form_species = Array[int]([52, 965, 974, 1494])

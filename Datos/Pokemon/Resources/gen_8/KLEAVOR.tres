@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cmbhcue27vm0m"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_u5m5a"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gh153"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gxg3i"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nq1fa"]
+
+[sub_resource type="Resource" id="Resource_raoht"]
+script = ExtResource("3_gxg3i")
+level = 0
+move = 758
+
+[sub_resource type="Resource" id="Resource_r0vp7"]
+script = ExtResource("3_gxg3i")
+move = 43
+
+[sub_resource type="Resource" id="Resource_d8seu"]
+script = ExtResource("3_gxg3i")
+move = 98
+
+[sub_resource type="Resource" id="Resource_448je"]
+script = ExtResource("3_gxg3i")
+level = 4
+move = 210
+
+[sub_resource type="Resource" id="Resource_wspmo"]
+script = ExtResource("3_gxg3i")
+level = 8
+move = 206
+
+[sub_resource type="Resource" id="Resource_plk17"]
+script = ExtResource("3_gxg3i")
+level = 12
+move = 479
+
+[sub_resource type="Resource" id="Resource_t55aq"]
+script = ExtResource("3_gxg3i")
+level = 16
+move = 104
+
+[sub_resource type="Resource" id="Resource_ea4wp"]
+script = ExtResource("3_gxg3i")
+level = 20
+move = 458
+
+[sub_resource type="Resource" id="Resource_cw7mw"]
+script = ExtResource("3_gxg3i")
+level = 24
+move = 163
+
+[sub_resource type="Resource" id="Resource_xn3wn"]
+script = ExtResource("3_gxg3i")
+level = 28
+move = 116
+
+[sub_resource type="Resource" id="Resource_n84uh"]
+script = ExtResource("3_gxg3i")
+level = 32
+move = 97
+
+[sub_resource type="Resource" id="Resource_y3sp0"]
+script = ExtResource("3_gxg3i")
+level = 36
+move = 157
+
+[sub_resource type="Resource" id="Resource_75yaw"]
+script = ExtResource("3_gxg3i")
+level = 40
+move = 404
+
+[sub_resource type="Resource" id="Resource_u8sxc"]
+script = ExtResource("3_gxg3i")
+level = 44
+move = 14
+
+[resource]
+script = ExtResource("4_nq1fa")
+id = 900
+display_name = "Kleavor"
+category = "Axe"
+national_dex = 900
+pokedex = "A violent creature that fells trees with
+its crude axes and shields itself with hard
+stone. Should one encounter this Pokémon
+in the wild, one's only recourse is to flee."
+type_1 = 7
+type_2 = 6
+base_hp = 70
+base_atk = 135
+base_def = 95
+base_spa = 45
+base_spd = 70
+base_spe = 85
+ev_atk = 3
+catch_rate = 15
+base_exp = 175
+egg_group_1 = 3
+ability_1 = 68
+ability_2 = 125
+ability_hidden = 292
+height_dm = 18
+weight_hg = 890
+body_color = 5
+level_moves = Array[ExtResource("3_gxg3i")]([SubResource("Resource_raoht"), SubResource("Resource_r0vp7"), SubResource("Resource_d8seu"), SubResource("Resource_448je"), SubResource("Resource_wspmo"), SubResource("Resource_plk17"), SubResource("Resource_t55aq"), SubResource("Resource_ea4wp"), SubResource("Resource_cw7mw"), SubResource("Resource_xn3wn"), SubResource("Resource_n84uh"), SubResource("Resource_y3sp0"), SubResource("Resource_75yaw"), SubResource("Resource_u8sxc")])

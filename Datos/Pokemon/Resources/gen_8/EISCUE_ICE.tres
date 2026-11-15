@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dqm3inaqjacfl"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ve76t"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ix1ll"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_crx7y"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4d2ty"]
+
+[sub_resource type="Resource" id="Resource_6sqrv"]
+script = ExtResource("3_crx7y")
+move = 33
+
+[sub_resource type="Resource" id="Resource_6qplb"]
+script = ExtResource("3_crx7y")
+move = 181
+
+[sub_resource type="Resource" id="Resource_achib"]
+script = ExtResource("3_crx7y")
+level = 6
+move = 54
+
+[sub_resource type="Resource" id="Resource_qcwj6"]
+script = ExtResource("3_crx7y")
+level = 12
+move = 311
+
+[sub_resource type="Resource" id="Resource_ghk6y"]
+script = ExtResource("3_crx7y")
+level = 18
+move = 196
+
+[sub_resource type="Resource" id="Resource_0id3b"]
+script = ExtResource("3_crx7y")
+level = 24
+move = 29
+
+[sub_resource type="Resource" id="Resource_uh0pe"]
+script = ExtResource("3_crx7y")
+level = 30
+move = 133
+
+[sub_resource type="Resource" id="Resource_lapac"]
+script = ExtResource("3_crx7y")
+level = 36
+move = 573
+
+[sub_resource type="Resource" id="Resource_ggln5"]
+script = ExtResource("3_crx7y")
+level = 42
+move = 809
+
+[sub_resource type="Resource" id="Resource_w1m42"]
+script = ExtResource("3_crx7y")
+level = 48
+move = 657
+
+[sub_resource type="Resource" id="Resource_10ima"]
+script = ExtResource("3_crx7y")
+level = 54
+move = 57
+
+[sub_resource type="Resource" id="Resource_7nvew"]
+script = ExtResource("3_crx7y")
+level = 60
+move = 59
+
+[resource]
+script = ExtResource("4_4d2ty")
+id = 875
+display_name = "Eiscue"
+category = "Penguin"
+national_dex = 875
+pokedex = "It drifted in on the flow of ocean waters
+from a frigid place. It keeps its head
+iced constantly to make sure it stays
+nice and cold."
+type_1 = 16
+base_hp = 75
+base_atk = 80
+base_def = 110
+base_spa = 65
+base_spd = 90
+base_spe = 50
+ev_def = 2
+catch_rate = 60
+base_exp = 165
+growth_rate = 5
+egg_cycles = 25
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 248
+height_dm = 14
+weight_hg = 890
+body_color = 1
+level_moves = Array[ExtResource("3_crx7y")]([SubResource("Resource_6sqrv"), SubResource("Resource_6qplb"), SubResource("Resource_achib"), SubResource("Resource_qcwj6"), SubResource("Resource_ghk6y"), SubResource("Resource_0id3b"), SubResource("Resource_uh0pe"), SubResource("Resource_lapac"), SubResource("Resource_ggln5"), SubResource("Resource_w1m42"), SubResource("Resource_10ima"), SubResource("Resource_7nvew")])
+egg_moves = Array[int]([487, 392, 187, 38, 556, 457])
+form_species = Array[int]([875, 1224])

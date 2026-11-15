@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cr1ei4wnrinme"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_t74fa"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2gn2g"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kfjcj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_17tm4"]
+
+[sub_resource type="Resource" id="Resource_o7yl4"]
+script = ExtResource("3_kfjcj")
+level = 0
+move = 653
+
+[sub_resource type="Resource" id="Resource_vlf63"]
+script = ExtResource("3_kfjcj")
+move = 45
+
+[sub_resource type="Resource" id="Resource_uamua"]
+script = ExtResource("3_kfjcj")
+move = 64
+
+[sub_resource type="Resource" id="Resource_gklhy"]
+script = ExtResource("3_kfjcj")
+move = 249
+
+[sub_resource type="Resource" id="Resource_tgpep"]
+script = ExtResource("3_kfjcj")
+move = 350
+
+[sub_resource type="Resource" id="Resource_2qv2h"]
+script = ExtResource("3_kfjcj")
+move = 497
+
+[sub_resource type="Resource" id="Resource_ctnbd"]
+script = ExtResource("3_kfjcj")
+level = 13
+move = 48
+
+[sub_resource type="Resource" id="Resource_7xcqw"]
+script = ExtResource("3_kfjcj")
+level = 16
+move = 365
+
+[sub_resource type="Resource" id="Resource_ed6rd"]
+script = ExtResource("3_kfjcj")
+level = 21
+move = 355
+
+[sub_resource type="Resource" id="Resource_h6jsh"]
+script = ExtResource("3_kfjcj")
+level = 24
+move = 31
+
+[sub_resource type="Resource" id="Resource_ktbll"]
+script = ExtResource("3_kfjcj")
+level = 30
+move = 103
+
+[sub_resource type="Resource" id="Resource_vgmex"]
+script = ExtResource("3_kfjcj")
+level = 34
+move = 65
+
+[sub_resource type="Resource" id="Resource_1kf0j"]
+script = ExtResource("3_kfjcj")
+level = 40
+move = 331
+
+[sub_resource type="Resource" id="Resource_iendx"]
+script = ExtResource("3_kfjcj")
+level = 44
+move = 297
+
+[sub_resource type="Resource" id="Resource_sfven"]
+script = ExtResource("3_kfjcj")
+level = 50
+move = 304
+
+[resource]
+script = ExtResource("4_17tm4")
+id = 733
+display_name = "Toucannon"
+category = "Cannon"
+national_dex = 733
+pokedex = "When it battles, within its beak, its
+internal gases ignite, explosively
+launching seeds with enough power to
+pulverize boulders."
+type_1 = 1
+type_2 = 3
+base_hp = 80
+base_atk = 120
+base_def = 75
+base_spa = 75
+base_spd = 75
+base_spe = 60
+ev_atk = 3
+base_exp = 243
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 51
+ability_2 = 92
+ability_hidden = 125
+item_common = 523
+height_dm = 11
+weight_hg = 260
+body_color = 4
+level_moves = Array[ExtResource("3_kfjcj")]([SubResource("Resource_o7yl4"), SubResource("Resource_vlf63"), SubResource("Resource_uamua"), SubResource("Resource_gklhy"), SubResource("Resource_tgpep"), SubResource("Resource_2qv2h"), SubResource("Resource_ctnbd"), SubResource("Resource_7xcqw"), SubResource("Resource_ed6rd"), SubResource("Resource_h6jsh"), SubResource("Resource_ktbll"), SubResource("Resource_vgmex"), SubResource("Resource_1kf0j"), SubResource("Resource_iendx"), SubResource("Resource_sfven")])

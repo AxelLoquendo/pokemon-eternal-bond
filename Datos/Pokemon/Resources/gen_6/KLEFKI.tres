@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bx403uesythgr"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_acoaa"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_fk0rk"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_f4rug"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_oe5da"]
+
+[sub_resource type="Resource" id="Resource_jihdo"]
+script = ExtResource("3_f4rug")
+move = 310
+
+[sub_resource type="Resource" id="Resource_a5t2j"]
+script = ExtResource("3_f4rug")
+level = 4
+move = 33
+
+[sub_resource type="Resource" id="Resource_2f8i6"]
+script = ExtResource("3_f4rug")
+level = 8
+move = 584
+
+[sub_resource type="Resource" id="Resource_fs0yh"]
+script = ExtResource("3_f4rug")
+level = 12
+move = 259
+
+[sub_resource type="Resource" id="Resource_1l5w8"]
+script = ExtResource("3_f4rug")
+level = 16
+move = 587
+
+[sub_resource type="Resource" id="Resource_oiyx3"]
+script = ExtResource("3_f4rug")
+level = 20
+move = 319
+
+[sub_resource type="Resource" id="Resource_hgwdr"]
+script = ExtResource("3_f4rug")
+level = 24
+move = 577
+
+[sub_resource type="Resource" id="Resource_chsfg"]
+script = ExtResource("3_f4rug")
+level = 28
+move = 278
+
+[sub_resource type="Resource" id="Resource_dg7ws"]
+script = ExtResource("3_f4rug")
+level = 32
+move = 286
+
+[sub_resource type="Resource" id="Resource_ywqxu"]
+script = ExtResource("3_f4rug")
+level = 36
+move = 430
+
+[sub_resource type="Resource" id="Resource_7kucl"]
+script = ExtResource("3_f4rug")
+level = 40
+move = 583
+
+[sub_resource type="Resource" id="Resource_q8ysl"]
+script = ExtResource("3_f4rug")
+level = 44
+move = 478
+
+[sub_resource type="Resource" id="Resource_1wj0p"]
+script = ExtResource("3_f4rug")
+level = 48
+move = 492
+
+[sub_resource type="Resource" id="Resource_tkgnn"]
+script = ExtResource("3_f4rug")
+level = 52
+move = 387
+
+[resource]
+script = ExtResource("4_oe5da")
+id = 707
+display_name = "Klefki"
+category = "Key Ring"
+national_dex = 707
+pokedex = "These key collectors threaten any
+attackers by fiercely jingling their keys
+at them. It will sneak into people's homes
+to steal their keys."
+type_1 = 9
+type_2 = 19
+base_hp = 57
+base_atk = 80
+base_def = 91
+base_spa = 80
+base_spd = 87
+base_spe = 75
+ev_def = 1
+catch_rate = 75
+base_exp = 165
+growth_rate = 4
+egg_group_1 = 10
+ability_1 = 158
+ability_hidden = 170
+height_dm = 2
+weight_hg = 30
+body_color = 7
+no_flip = true
+level_moves = Array[ExtResource("3_f4rug")]([SubResource("Resource_jihdo"), SubResource("Resource_a5t2j"), SubResource("Resource_2f8i6"), SubResource("Resource_fs0yh"), SubResource("Resource_1l5w8"), SubResource("Resource_oiyx3"), SubResource("Resource_hgwdr"), SubResource("Resource_chsfg"), SubResource("Resource_dg7ws"), SubResource("Resource_ywqxu"), SubResource("Resource_7kucl"), SubResource("Resource_q8ysl"), SubResource("Resource_1wj0p"), SubResource("Resource_tkgnn")])
+egg_moves = Array[int]([415, 168, 199, 334])

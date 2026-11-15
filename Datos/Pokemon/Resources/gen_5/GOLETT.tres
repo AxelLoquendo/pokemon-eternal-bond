@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://da8kq8qvla3m"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_eof1c"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pddfi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_s8xwl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_20luu"]
+
+[sub_resource type="Resource" id="Resource_6s28f"]
+script = ExtResource("1_eof1c")
+method = "LEVEL"
+param = "43"
+target = 623
+
+[sub_resource type="Resource" id="Resource_0twtr"]
+script = ExtResource("3_s8xwl")
+move = 189
+
+[sub_resource type="Resource" id="Resource_qqcio"]
+script = ExtResource("3_s8xwl")
+move = 310
+
+[sub_resource type="Resource" id="Resource_m8810"]
+script = ExtResource("3_s8xwl")
+level = 4
+move = 111
+
+[sub_resource type="Resource" id="Resource_0pt08"]
+script = ExtResource("3_s8xwl")
+level = 8
+move = 1
+
+[sub_resource type="Resource" id="Resource_1c1lq"]
+script = ExtResource("3_s8xwl")
+level = 12
+move = 325
+
+[sub_resource type="Resource" id="Resource_jrwjl"]
+script = ExtResource("3_s8xwl")
+level = 16
+move = 174
+
+[sub_resource type="Resource" id="Resource_168te"]
+script = ExtResource("3_s8xwl")
+level = 20
+move = 101
+
+[sub_resource type="Resource" id="Resource_s032g"]
+script = ExtResource("3_s8xwl")
+level = 24
+move = 661
+
+[sub_resource type="Resource" id="Resource_umwa0"]
+script = ExtResource("3_s8xwl")
+level = 28
+move = 334
+
+[sub_resource type="Resource" id="Resource_1ns8f"]
+script = ExtResource("3_s8xwl")
+level = 32
+move = 5
+
+[sub_resource type="Resource" id="Resource_5n23u"]
+script = ExtResource("3_s8xwl")
+level = 36
+move = 247
+
+[sub_resource type="Resource" id="Resource_sygq0"]
+script = ExtResource("3_s8xwl")
+level = 40
+move = 484
+
+[sub_resource type="Resource" id="Resource_iglwg"]
+script = ExtResource("3_s8xwl")
+level = 44
+move = 566
+
+[sub_resource type="Resource" id="Resource_c21ub"]
+script = ExtResource("3_s8xwl")
+level = 48
+move = 359
+
+[sub_resource type="Resource" id="Resource_83f30"]
+script = ExtResource("3_s8xwl")
+level = 52
+move = 89
+
+[sub_resource type="Resource" id="Resource_fwaya"]
+script = ExtResource("3_s8xwl")
+level = 56
+move = 223
+
+[resource]
+script = ExtResource("4_20luu")
+id = 622
+display_name = "Golett"
+category = "Automaton"
+national_dex = 622
+pokedex = "These Pokémon are thought to have
+been created by the science of an
+ancient and mysterious civilization.
+It's been active for thousands of years."
+type_1 = 5
+type_2 = 8
+base_hp = 59
+base_atk = 74
+base_def = 50
+base_spa = 35
+base_spd = 50
+base_spe = 35
+ev_atk = 1
+catch_rate = 190
+base_exp = 61
+gender_ratio = 255
+egg_cycles = 25
+egg_group_1 = 10
+ability_1 = 89
+ability_2 = 103
+ability_hidden = 99
+item_rare = 478
+height_dm = 10
+weight_hg = 920
+body_color = 3
+no_flip = true
+level_moves = Array[ExtResource("3_s8xwl")]([SubResource("Resource_0twtr"), SubResource("Resource_qqcio"), SubResource("Resource_m8810"), SubResource("Resource_0pt08"), SubResource("Resource_1c1lq"), SubResource("Resource_jrwjl"), SubResource("Resource_168te"), SubResource("Resource_s032g"), SubResource("Resource_umwa0"), SubResource("Resource_1ns8f"), SubResource("Resource_5n23u"), SubResource("Resource_sygq0"), SubResource("Resource_iglwg"), SubResource("Resource_c21ub"), SubResource("Resource_83f30"), SubResource("Resource_fwaya")])
+evolutions = Array[ExtResource("1_eof1c")]([SubResource("Resource_6s28f")])

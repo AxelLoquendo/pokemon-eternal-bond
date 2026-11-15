@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cgk5nxtkqkumk"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_wcibt"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1iind"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pvkuu"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_v13l1"]
+
+[sub_resource type="Resource" id="Resource_fig3r"]
+script = ExtResource("3_pvkuu")
+move = 33
+
+[sub_resource type="Resource" id="Resource_roykj"]
+script = ExtResource("3_pvkuu")
+move = 43
+
+[sub_resource type="Resource" id="Resource_ctjun"]
+script = ExtResource("3_pvkuu")
+move = 292
+
+[sub_resource type="Resource" id="Resource_ciayw"]
+script = ExtResource("3_pvkuu")
+level = 5
+move = 31
+
+[sub_resource type="Resource" id="Resource_o3sqp"]
+script = ExtResource("3_pvkuu")
+level = 10
+move = 203
+
+[sub_resource type="Resource" id="Resource_cobpl"]
+script = ExtResource("3_pvkuu")
+level = 15
+move = 332
+
+[sub_resource type="Resource" id="Resource_d2i5r"]
+script = ExtResource("3_pvkuu")
+level = 20
+move = 30
+
+[sub_resource type="Resource" id="Resource_cij8o"]
+script = ExtResource("3_pvkuu")
+level = 25
+move = 68
+
+[sub_resource type="Resource" id="Resource_endqv"]
+script = ExtResource("3_pvkuu")
+level = 30
+move = 280
+
+[sub_resource type="Resource" id="Resource_qvftx"]
+script = ExtResource("3_pvkuu")
+level = 35
+move = 42
+
+[sub_resource type="Resource" id="Resource_slfhi"]
+script = ExtResource("3_pvkuu")
+level = 40
+move = 638
+
+[sub_resource type="Resource" id="Resource_slwhg"]
+script = ExtResource("3_pvkuu")
+level = 45
+move = 37
+
+[sub_resource type="Resource" id="Resource_haofo"]
+script = ExtResource("3_pvkuu")
+level = 50
+move = 14
+
+[sub_resource type="Resource" id="Resource_22rx6"]
+script = ExtResource("3_pvkuu")
+level = 55
+move = 224
+
+[sub_resource type="Resource" id="Resource_l7704"]
+script = ExtResource("3_pvkuu")
+level = 60
+move = 370
+
+[resource]
+script = ExtResource("4_v13l1")
+id = 924
+display_name = "Heracross"
+category = "Single Horn"
+national_dex = 214
+pokedex = "A tremendous influx of energy builds it up,
+but when Mega Evolution ends, Heracross
+is bothered by terrible soreness in its
+muscles."
+type_1 = 7
+type_2 = 2
+base_hp = 80
+base_atk = 185
+base_def = 115
+base_spa = 40
+base_spd = 105
+base_spe = 75
+ev_atk = 2
+base_exp = 210
+growth_rate = 5
+egg_cycles = 25
+egg_group_1 = 3
+ability_1 = 92
+ability_2 = 92
+ability_hidden = 92
+height_dm = 17
+weight_hg = 625
+body_color = 1
+level_moves = Array[ExtResource("3_pvkuu")]([SubResource("Resource_fig3r"), SubResource("Resource_roykj"), SubResource("Resource_ctjun"), SubResource("Resource_ciayw"), SubResource("Resource_o3sqp"), SubResource("Resource_cobpl"), SubResource("Resource_d2i5r"), SubResource("Resource_cij8o"), SubResource("Resource_endqv"), SubResource("Resource_qvftx"), SubResource("Resource_slfhi"), SubResource("Resource_slwhg"), SubResource("Resource_haofo"), SubResource("Resource_22rx6"), SubResource("Resource_l7704")])
+egg_moves = Array[int]([106, 117, 175, 279, 228, 38, 69, 264, 224, 350])
+form_species = Array[int]([214, 924])

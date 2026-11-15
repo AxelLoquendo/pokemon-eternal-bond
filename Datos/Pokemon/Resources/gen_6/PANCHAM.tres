@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://jgl1i80onrs4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_e6egk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_smo52"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2ig6q"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xu112"]
+
+[sub_resource type="Resource" id="Resource_j6dcp"]
+script = ExtResource("3_2ig6q")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ojnp0"]
+script = ExtResource("3_2ig6q")
+move = 43
+
+[sub_resource type="Resource" id="Resource_d5t78"]
+script = ExtResource("3_2ig6q")
+level = 4
+move = 292
+
+[sub_resource type="Resource" id="Resource_uet6g"]
+script = ExtResource("3_2ig6q")
+level = 8
+move = 269
+
+[sub_resource type="Resource" id="Resource_368a0"]
+script = ExtResource("3_2ig6q")
+level = 12
+move = 509
+
+[sub_resource type="Resource" id="Resource_qbtoj"]
+script = ExtResource("3_2ig6q")
+level = 16
+move = 490
+
+[sub_resource type="Resource" id="Resource_u38y7"]
+script = ExtResource("3_2ig6q")
+level = 20
+move = 526
+
+[sub_resource type="Resource" id="Resource_m08yx"]
+script = ExtResource("3_2ig6q")
+level = 24
+move = 163
+
+[sub_resource type="Resource" id="Resource_by818"]
+script = ExtResource("3_2ig6q")
+level = 28
+move = 233
+
+[sub_resource type="Resource" id="Resource_5dw2q"]
+script = ExtResource("3_2ig6q")
+level = 33
+move = 242
+
+[sub_resource type="Resource" id="Resource_sdwvx"]
+script = ExtResource("3_2ig6q")
+level = 36
+move = 34
+
+[sub_resource type="Resource" id="Resource_bnp2y"]
+script = ExtResource("3_2ig6q")
+level = 40
+move = 575
+
+[sub_resource type="Resource" id="Resource_4gw48"]
+script = ExtResource("3_2ig6q")
+level = 44
+move = 494
+
+[resource]
+script = ExtResource("4_xu112")
+id = 674
+display_name = "Pancham"
+category = "Playful"
+national_dex = 674
+pokedex = "There's no point to the leaf in its mouth,
+aside from an effort to look cool. It's
+mischievous, so it's not well suited to
+inexperienced Trainers."
+type_1 = 2
+base_hp = 67
+base_atk = 82
+base_def = 62
+base_spa = 46
+base_spd = 48
+base_spe = 43
+ev_atk = 1
+catch_rate = 220
+base_exp = 70
+egg_cycles = 25
+egg_group_1 = 5
+egg_group_2 = 8
+ability_1 = 89
+ability_2 = 104
+ability_hidden = 113
+item_rare = 464
+height_dm = 6
+weight_hg = 80
+body_color = 8
+level_moves = Array[ExtResource("3_2ig6q")]([SubResource("Resource_j6dcp"), SubResource("Resource_ojnp0"), SubResource("Resource_d5t78"), SubResource("Resource_uet6g"), SubResource("Resource_368a0"), SubResource("Resource_qbtoj"), SubResource("Resource_u38y7"), SubResource("Resource_m08yx"), SubResource("Resource_by818"), SubResource("Resource_5dw2q"), SubResource("Resource_sdwvx"), SubResource("Resource_bnp2y"), SubResource("Resource_4gw48")])
+egg_moves = Array[int]([511, 382, 501, 492, 480, 644])

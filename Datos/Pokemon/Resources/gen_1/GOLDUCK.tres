@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cstgcq4pnsfmb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6xa0f"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_a1pok"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_l6pj4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cfpgl"]
+
+[sub_resource type="Resource" id="Resource_4jtfm"]
+script = ExtResource("3_l6pj4")
+move = 10
+
+[sub_resource type="Resource" id="Resource_q8e35"]
+script = ExtResource("3_l6pj4")
+move = 39
+
+[sub_resource type="Resource" id="Resource_hcv6p"]
+script = ExtResource("3_l6pj4")
+move = 55
+
+[sub_resource type="Resource" id="Resource_knomo"]
+script = ExtResource("3_l6pj4")
+move = 93
+
+[sub_resource type="Resource" id="Resource_loh8l"]
+script = ExtResource("3_l6pj4")
+move = 453
+
+[sub_resource type="Resource" id="Resource_j6bdm"]
+script = ExtResource("3_l6pj4")
+level = 9
+move = 154
+
+[sub_resource type="Resource" id="Resource_33pok"]
+script = ExtResource("3_l6pj4")
+level = 12
+move = 352
+
+[sub_resource type="Resource" id="Resource_s8r7d"]
+script = ExtResource("3_l6pj4")
+level = 15
+move = 50
+
+[sub_resource type="Resource" id="Resource_2sih0"]
+script = ExtResource("3_l6pj4")
+level = 18
+move = 428
+
+[sub_resource type="Resource" id="Resource_fn6s4"]
+script = ExtResource("3_l6pj4")
+level = 21
+move = 103
+
+[sub_resource type="Resource" id="Resource_rn1ix"]
+script = ExtResource("3_l6pj4")
+level = 24
+move = 401
+
+[sub_resource type="Resource" id="Resource_2573c"]
+script = ExtResource("3_l6pj4")
+level = 27
+move = 487
+
+[sub_resource type="Resource" id="Resource_2hw5g"]
+script = ExtResource("3_l6pj4")
+level = 30
+move = 244
+
+[sub_resource type="Resource" id="Resource_2i1ly"]
+script = ExtResource("3_l6pj4")
+level = 36
+move = 133
+
+[sub_resource type="Resource" id="Resource_00yo4"]
+script = ExtResource("3_l6pj4")
+level = 40
+move = 56
+
+[sub_resource type="Resource" id="Resource_6k8jh"]
+script = ExtResource("3_l6pj4")
+level = 45
+move = 472
+
+[resource]
+script = ExtResource("4_cfpgl")
+id = 55
+display_name = "Golduck"
+category = "Duck"
+national_dex = 55
+pokedex = "A Golduck is an adept swimmer.
+It sometimes joins competitive swimmers
+in training. It uses psychic powers when
+its forehead shimmers with light."
+type_1 = 12
+base_hp = 80
+base_atk = 82
+base_def = 78
+base_spa = 95
+base_spd = 80
+base_spe = 85
+ev_spa = 2
+catch_rate = 75
+base_exp = 175
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 6
+ability_2 = 13
+ability_hidden = 33
+height_dm = 17
+weight_hg = 766
+body_color = 1
+level_moves = Array[ExtResource("3_l6pj4")]([SubResource("Resource_4jtfm"), SubResource("Resource_q8e35"), SubResource("Resource_hcv6p"), SubResource("Resource_knomo"), SubResource("Resource_loh8l"), SubResource("Resource_j6bdm"), SubResource("Resource_33pok"), SubResource("Resource_s8r7d"), SubResource("Resource_2sih0"), SubResource("Resource_fn6s4"), SubResource("Resource_rn1ix"), SubResource("Resource_2573c"), SubResource("Resource_2hw5g"), SubResource("Resource_2i1ly"), SubResource("Resource_00yo4"), SubResource("Resource_6k8jh")])

@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b3xnhkdeaqjp1"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1roet"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_amxit"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pua64"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0r0if"]
+
+[sub_resource type="Resource" id="Resource_d3e3j"]
+script = ExtResource("3_pua64")
+level = 0
+move = 80
+
+[sub_resource type="Resource" id="Resource_hqehy"]
+script = ExtResource("3_pua64")
+move = 33
+
+[sub_resource type="Resource" id="Resource_36wmb"]
+script = ExtResource("3_pua64")
+move = 45
+
+[sub_resource type="Resource" id="Resource_d0n3l"]
+script = ExtResource("3_pua64")
+move = 75
+
+[sub_resource type="Resource" id="Resource_fgwp8"]
+script = ExtResource("3_pua64")
+move = 77
+
+[sub_resource type="Resource" id="Resource_7ck8h"]
+script = ExtResource("3_pua64")
+move = 572
+
+[sub_resource type="Resource" id="Resource_tvto4"]
+script = ExtResource("3_pua64")
+level = 12
+move = 235
+
+[sub_resource type="Resource" id="Resource_o5e3o"]
+script = ExtResource("3_pua64")
+level = 18
+move = 115
+
+[sub_resource type="Resource" id="Resource_54lse"]
+script = ExtResource("3_pua64")
+level = 22
+move = 345
+
+[sub_resource type="Resource" id="Resource_b3g1o"]
+script = ExtResource("3_pua64")
+level = 26
+move = 73
+
+[sub_resource type="Resource" id="Resource_33hfl"]
+script = ExtResource("3_pua64")
+level = 34
+move = 230
+
+[sub_resource type="Resource" id="Resource_hysta"]
+script = ExtResource("3_pua64")
+level = 40
+move = 113
+
+[sub_resource type="Resource" id="Resource_ar7kj"]
+script = ExtResource("3_pua64")
+level = 46
+move = 34
+
+[sub_resource type="Resource" id="Resource_qb21b"]
+script = ExtResource("3_pua64")
+level = 54
+move = 219
+
+[sub_resource type="Resource" id="Resource_su6nf"]
+script = ExtResource("3_pua64")
+level = 60
+move = 202
+
+[sub_resource type="Resource" id="Resource_qa6qm"]
+script = ExtResource("3_pua64")
+level = 65
+move = 76
+
+[resource]
+script = ExtResource("4_0r0if")
+id = 1528
+display_name = "Meganium"
+category = "Herb"
+national_dex = 154
+pokedex = "This Pokémon can fire a tremendously
+powerful Solar Beam from its four
+flowers. Another name for this is
+Mega Sol Cannon."
+type_1 = 13
+type_2 = 19
+base_hp = 80
+base_atk = 92
+base_def = 115
+base_spa = 143
+base_spd = 115
+base_spe = 80
+ev_def = 1
+ev_spd = 2
+base_exp = 263
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 7
+ability_1 = 315
+ability_2 = 315
+ability_hidden = 315
+height_dm = 24
+weight_hg = 2010
+body_color = 3
+level_moves = Array[ExtResource("3_pua64")]([SubResource("Resource_d3e3j"), SubResource("Resource_hqehy"), SubResource("Resource_36wmb"), SubResource("Resource_d0n3l"), SubResource("Resource_fgwp8"), SubResource("Resource_7ck8h"), SubResource("Resource_tvto4"), SubResource("Resource_o5e3o"), SubResource("Resource_54lse"), SubResource("Resource_b3g1o"), SubResource("Resource_33hfl"), SubResource("Resource_hysta"), SubResource("Resource_ar7kj"), SubResource("Resource_qb21b"), SubResource("Resource_su6nf"), SubResource("Resource_qa6qm")])
+form_species = Array[int]([154, 1528])

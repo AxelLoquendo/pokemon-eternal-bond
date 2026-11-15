@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dk2ckyi3bq5ni"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xn3qf"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yeuv2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_w8pnl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4fcax"]
+
+[sub_resource type="Resource" id="Resource_2iqbh"]
+script = ExtResource("3_w8pnl")
+move = 45
+
+[sub_resource type="Resource" id="Resource_v0y3j"]
+script = ExtResource("3_w8pnl")
+move = 55
+
+[sub_resource type="Resource" id="Resource_uqgdl"]
+script = ExtResource("3_w8pnl")
+level = 5
+move = 47
+
+[sub_resource type="Resource" id="Resource_ir7ul"]
+script = ExtResource("3_w8pnl")
+level = 10
+move = 54
+
+[sub_resource type="Resource" id="Resource_lfdo1"]
+script = ExtResource("3_w8pnl")
+level = 15
+move = 719
+
+[sub_resource type="Resource" id="Resource_8weq2"]
+script = ExtResource("3_w8pnl")
+level = 20
+move = 420
+
+[sub_resource type="Resource" id="Resource_c7hkw"]
+script = ExtResource("3_w8pnl")
+level = 25
+move = 109
+
+[sub_resource type="Resource" id="Resource_fkqfr"]
+script = ExtResource("3_w8pnl")
+level = 30
+move = 352
+
+[sub_resource type="Resource" id="Resource_hdviu"]
+script = ExtResource("3_w8pnl")
+level = 35
+move = 362
+
+[sub_resource type="Resource" id="Resource_4tntk"]
+script = ExtResource("3_w8pnl")
+level = 40
+move = 34
+
+[sub_resource type="Resource" id="Resource_i0uue"]
+script = ExtResource("3_w8pnl")
+level = 45
+move = 58
+
+[sub_resource type="Resource" id="Resource_6tk2y"]
+script = ExtResource("3_w8pnl")
+level = 50
+move = 240
+
+[sub_resource type="Resource" id="Resource_f86id"]
+script = ExtResource("3_w8pnl")
+level = 55
+move = 56
+
+[sub_resource type="Resource" id="Resource_nkq30"]
+script = ExtResource("3_w8pnl")
+level = 60
+move = 195
+
+[sub_resource type="Resource" id="Resource_k34nc"]
+script = ExtResource("3_w8pnl")
+level = 65
+move = 329
+
+[resource]
+script = ExtResource("4_4fcax")
+id = 131
+display_name = "Lapras"
+category = "Transport"
+national_dex = 131
+pokedex = "People have driven Lapras almost to the
+point of extinction. In the evenings,
+it is said to sing plaintively as it seeks
+what few others of its kind still remain."
+type_1 = 12
+type_2 = 16
+base_hp = 130
+base_atk = 85
+base_def = 80
+base_spa = 85
+base_spd = 95
+base_spe = 60
+ev_hp = 2
+base_exp = 187
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 11
+ability_2 = 75
+ability_hidden = 93
+item_common = 427
+item_rare = 427
+height_dm = 25
+weight_hg = 2200
+body_color = 1
+level_moves = Array[ExtResource("3_w8pnl")]([SubResource("Resource_2iqbh"), SubResource("Resource_v0y3j"), SubResource("Resource_uqgdl"), SubResource("Resource_ir7ul"), SubResource("Resource_lfdo1"), SubResource("Resource_8weq2"), SubResource("Resource_c7hkw"), SubResource("Resource_fkqfr"), SubResource("Resource_hdviu"), SubResource("Resource_4tntk"), SubResource("Resource_i0uue"), SubResource("Resource_6tk2y"), SubResource("Resource_f86id"), SubResource("Resource_nkq30"), SubResource("Resource_k34nc")])
+egg_moves = Array[int]([193, 321, 287, 349, 174, 214, 32, 246, 250, 90, 406, 419, 248, 573])
+form_species = Array[int]([131, 1498])

@@ -1,0 +1,54 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://f84yl6hnvesx"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_2q4hc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ri4lr"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2d1pi"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fqehw"]
+
+[sub_resource type="Resource" id="Resource_i3on6"]
+script = ExtResource("3_2d1pi")
+move = 33
+
+[sub_resource type="Resource" id="Resource_u03ju"]
+script = ExtResource("3_2d1pi")
+move = 81
+
+[sub_resource type="Resource" id="Resource_tvy2r"]
+script = ExtResource("3_2d1pi")
+level = 5
+move = 40
+
+[sub_resource type="Resource" id="Resource_nj1wi"]
+script = ExtResource("3_2d1pi")
+level = 15
+move = 450
+
+[resource]
+script = ExtResource("4_fqehw")
+id = 265
+display_name = "Wurmple"
+category = "Worm"
+national_dex = 265
+pokedex = "It sticks to tree branches and eats
+leaves. The thread it spits from its mouth,
+which becomes gooey when it touches
+air, slows the movement of its foes."
+type_1 = 7
+base_hp = 45
+base_atk = 45
+base_def = 35
+base_spa = 20
+base_spd = 30
+base_spe = 20
+ev_hp = 1
+catch_rate = 255
+base_exp = 54
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 19
+ability_hidden = 50
+item_common = 516
+item_rare = 459
+height_dm = 3
+weight_hg = 36
+level_moves = Array[ExtResource("3_2d1pi")]([SubResource("Resource_i3on6"), SubResource("Resource_u03ju"), SubResource("Resource_tvy2r"), SubResource("Resource_nj1wi")])

@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8lx24ml08kl"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_i6vms"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6pa5w"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mo0vk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_spvi4"]
+
+[sub_resource type="Resource" id="Resource_wfyis"]
+script = ExtResource("1_i6vms")
+method = "LEVEL"
+param = "20"
+target = 281
+
+[sub_resource type="Resource" id="Resource_grcvp"]
+script = ExtResource("3_mo0vk")
+move = 45
+
+[sub_resource type="Resource" id="Resource_c4tp1"]
+script = ExtResource("3_mo0vk")
+move = 574
+
+[sub_resource type="Resource" id="Resource_lrqrr"]
+script = ExtResource("3_mo0vk")
+level = 3
+move = 104
+
+[sub_resource type="Resource" id="Resource_egrwd"]
+script = ExtResource("3_mo0vk")
+level = 6
+move = 93
+
+[sub_resource type="Resource" id="Resource_vww86"]
+script = ExtResource("3_mo0vk")
+level = 9
+move = 95
+
+[sub_resource type="Resource" id="Resource_68win"]
+script = ExtResource("3_mo0vk")
+level = 12
+move = 577
+
+[sub_resource type="Resource" id="Resource_ju4bn"]
+script = ExtResource("3_mo0vk")
+level = 15
+move = 100
+
+[sub_resource type="Resource" id="Resource_h1i1x"]
+script = ExtResource("3_mo0vk")
+level = 18
+move = 60
+
+[sub_resource type="Resource" id="Resource_dpiu2"]
+script = ExtResource("3_mo0vk")
+level = 21
+move = 719
+
+[sub_resource type="Resource" id="Resource_vpbcx"]
+script = ExtResource("3_mo0vk")
+level = 24
+move = 204
+
+[sub_resource type="Resource" id="Resource_a66f8"]
+script = ExtResource("3_mo0vk")
+level = 27
+move = 347
+
+[sub_resource type="Resource" id="Resource_v43ni"]
+script = ExtResource("3_mo0vk")
+level = 30
+move = 94
+
+[sub_resource type="Resource" id="Resource_fwsl2"]
+script = ExtResource("3_mo0vk")
+level = 33
+move = 505
+
+[sub_resource type="Resource" id="Resource_558in"]
+script = ExtResource("3_mo0vk")
+level = 36
+move = 138
+
+[sub_resource type="Resource" id="Resource_1wett"]
+script = ExtResource("3_mo0vk")
+level = 39
+move = 248
+
+[resource]
+script = ExtResource("4_spvi4")
+id = 280
+display_name = "Ralts"
+category = "Feeling"
+national_dex = 280
+pokedex = "A Ralts has the power to sense the
+emotions of people and Pokémon with the
+horns on its head. It takes cover if it
+senses any hostility."
+type_1 = 15
+base_hp = 28
+base_atk = 25
+base_def = 25
+base_spa = 45
+base_spd = 35
+base_spe = 40
+ev_spa = 1
+catch_rate = 235
+base_exp = 40
+base_friendship = 35
+growth_rate = 5
+ability_1 = 28
+ability_2 = 36
+ability_hidden = 140
+height_dm = 4
+weight_hg = 66
+body_color = 8
+level_moves = Array[ExtResource("3_mo0vk")]([SubResource("Resource_grcvp"), SubResource("Resource_c4tp1"), SubResource("Resource_lrqrr"), SubResource("Resource_egrwd"), SubResource("Resource_vww86"), SubResource("Resource_68win"), SubResource("Resource_ju4bn"), SubResource("Resource_h1i1x"), SubResource("Resource_dpiu2"), SubResource("Resource_vpbcx"), SubResource("Resource_a66f8"), SubResource("Resource_v43ni"), SubResource("Resource_fwsl2"), SubResource("Resource_558in"), SubResource("Resource_1wett")])
+egg_moves = Array[int]([50, 212, 262, 194, 288, 425, 109, 227, 485, 285, 581, 502])
+evolutions = Array[ExtResource("1_i6vms")]([SubResource("Resource_wfyis")])

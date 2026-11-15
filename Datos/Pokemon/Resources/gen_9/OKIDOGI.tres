@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://806fpc554g17"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_robn2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5jhiu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_tjbrb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s4yi2"]
+
+[sub_resource type="Resource" id="Resource_a166x"]
+script = ExtResource("3_tjbrb")
+move = 44
+
+[sub_resource type="Resource" id="Resource_nfpus"]
+script = ExtResource("3_tjbrb")
+move = 67
+
+[sub_resource type="Resource" id="Resource_bu7fr"]
+script = ExtResource("3_tjbrb")
+move = 339
+
+[sub_resource type="Resource" id="Resource_1t8ef"]
+script = ExtResource("3_tjbrb")
+level = 8
+move = 336
+
+[sub_resource type="Resource" id="Resource_mufuu"]
+script = ExtResource("3_tjbrb")
+level = 16
+move = 305
+
+[sub_resource type="Resource" id="Resource_vgm1h"]
+script = ExtResource("3_tjbrb")
+level = 24
+move = 395
+
+[sub_resource type="Resource" id="Resource_yyw7a"]
+script = ExtResource("3_tjbrb")
+level = 32
+move = 68
+
+[sub_resource type="Resource" id="Resource_i4tv8"]
+script = ExtResource("3_tjbrb")
+level = 40
+move = 398
+
+[sub_resource type="Resource" id="Resource_cwitt"]
+script = ExtResource("3_tjbrb")
+level = 48
+move = 656
+
+[sub_resource type="Resource" id="Resource_830om"]
+script = ExtResource("3_tjbrb")
+level = 56
+move = 242
+
+[sub_resource type="Resource" id="Resource_w6d1i"]
+script = ExtResource("3_tjbrb")
+level = 64
+move = 276
+
+[sub_resource type="Resource" id="Resource_yycpy"]
+script = ExtResource("3_tjbrb")
+level = 72
+move = 416
+
+[resource]
+script = ExtResource("4_s4yi2")
+id = 1413
+display_name = "Okidogi"
+category = "Retainer"
+national_dex = 1014
+pokedex = "After all its muscles were stimulated
+by the toxic chain around its neck,
+Okidogi transformed and gained
+a powerful physique."
+type_1 = 4
+type_2 = 2
+base_hp = 88
+base_atk = 128
+base_def = 115
+base_spa = 58
+base_spd = 86
+base_spe = 80
+ev_atk = 3
+catch_rate = 3
+base_exp = 278
+base_friendship = 0
+gender_ratio = 0
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 305
+ability_hidden = 275
+height_dm = 18
+weight_hg = 920
+body_color = 4
+level_moves = Array[ExtResource("3_tjbrb")]([SubResource("Resource_a166x"), SubResource("Resource_nfpus"), SubResource("Resource_bu7fr"), SubResource("Resource_1t8ef"), SubResource("Resource_mufuu"), SubResource("Resource_vgm1h"), SubResource("Resource_yyw7a"), SubResource("Resource_i4tv8"), SubResource("Resource_cwitt"), SubResource("Resource_830om"), SubResource("Resource_w6d1i"), SubResource("Resource_yycpy")])

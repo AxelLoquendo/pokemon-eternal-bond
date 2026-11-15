@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dx0rdnpsbpyj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_bdspy"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7g5bp"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_51652"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nhroy"]
+
+[sub_resource type="Resource" id="Resource_xn2b0"]
+script = ExtResource("3_51652")
+move = 20
+
+[sub_resource type="Resource" id="Resource_3ojma"]
+script = ExtResource("3_51652")
+move = 43
+
+[sub_resource type="Resource" id="Resource_luyct"]
+script = ExtResource("3_51652")
+level = 5
+move = 116
+
+[sub_resource type="Resource" id="Resource_1f5d6"]
+script = ExtResource("3_51652")
+level = 10
+move = 509
+
+[sub_resource type="Resource" id="Resource_vr5od"]
+script = ExtResource("3_51652")
+level = 15
+move = 469
+
+[sub_resource type="Resource" id="Resource_j0tkr"]
+script = ExtResource("3_51652")
+level = 20
+move = 279
+
+[sub_resource type="Resource" id="Resource_3r3ar"]
+script = ExtResource("3_51652")
+level = 25
+move = 339
+
+[sub_resource type="Resource" id="Resource_llsj1"]
+script = ExtResource("3_51652")
+level = 30
+move = 480
+
+[sub_resource type="Resource" id="Resource_bumrp"]
+script = ExtResource("3_51652")
+level = 35
+move = 233
+
+[sub_resource type="Resource" id="Resource_8mqrm"]
+script = ExtResource("3_51652")
+level = 40
+move = 69
+
+[sub_resource type="Resource" id="Resource_f315x"]
+script = ExtResource("3_51652")
+level = 45
+move = 203
+
+[sub_resource type="Resource" id="Resource_7jmno"]
+script = ExtResource("3_51652")
+level = 50
+move = 179
+
+[sub_resource type="Resource" id="Resource_h534u"]
+script = ExtResource("3_51652")
+level = 55
+move = 276
+
+[resource]
+script = ExtResource("4_nhroy")
+id = 538
+display_name = "Throh"
+category = "Judo"
+national_dex = 538
+pokedex = "When it tightens its belt, it becomes
+stronger. Wild Throh use vines to weave
+their own belts. It changes belts as it
+gets more powerful."
+type_1 = 2
+base_hp = 120
+base_atk = 100
+base_def = 85
+base_spa = 30
+base_spd = 85
+base_spe = 45
+ev_hp = 2
+base_exp = 163
+gender_ratio = 0
+egg_group_1 = 8
+ability_1 = 62
+ability_2 = 39
+ability_hidden = 104
+item_rare = 431
+height_dm = 13
+weight_hg = 555
+level_moves = Array[ExtResource("3_51652")]([SubResource("Resource_xn2b0"), SubResource("Resource_3ojma"), SubResource("Resource_luyct"), SubResource("Resource_1f5d6"), SubResource("Resource_vr5od"), SubResource("Resource_j0tkr"), SubResource("Resource_3r3ar"), SubResource("Resource_llsj1"), SubResource("Resource_bumrp"), SubResource("Resource_8mqrm"), SubResource("Resource_f315x"), SubResource("Resource_7jmno"), SubResource("Resource_h534u")])

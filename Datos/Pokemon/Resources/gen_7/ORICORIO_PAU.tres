@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://wdo57vbk22gb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cuukn"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_e4lqd"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ui1ho"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_o3dpf"]
+
+[sub_resource type="Resource" id="Resource_0y0li"]
+script = ExtResource("3_ui1ho")
+move = 1
+
+[sub_resource type="Resource" id="Resource_n2mmj"]
+script = ExtResource("3_ui1ho")
+level = 4
+move = 45
+
+[sub_resource type="Resource" id="Resource_mcfrv"]
+script = ExtResource("3_ui1ho")
+level = 6
+move = 64
+
+[sub_resource type="Resource" id="Resource_y0ysi"]
+script = ExtResource("3_ui1ho")
+level = 10
+move = 270
+
+[sub_resource type="Resource" id="Resource_i28ku"]
+script = ExtResource("3_ui1ho")
+level = 13
+move = 314
+
+[sub_resource type="Resource" id="Resource_32kkt"]
+script = ExtResource("3_ui1ho")
+level = 16
+move = 226
+
+[sub_resource type="Resource" id="Resource_xijbq"]
+script = ExtResource("3_ui1ho")
+level = 20
+move = 297
+
+[sub_resource type="Resource" id="Resource_g1n2u"]
+script = ExtResource("3_ui1ho")
+level = 23
+move = 512
+
+[sub_resource type="Resource" id="Resource_yujtx"]
+script = ExtResource("3_ui1ho")
+level = 26
+move = 298
+
+[sub_resource type="Resource" id="Resource_h7tym"]
+script = ExtResource("3_ui1ho")
+level = 30
+move = 355
+
+[sub_resource type="Resource" id="Resource_eckaq"]
+script = ExtResource("3_ui1ho")
+level = 33
+move = 260
+
+[sub_resource type="Resource" id="Resource_ta0ou"]
+script = ExtResource("3_ui1ho")
+level = 36
+move = 403
+
+[sub_resource type="Resource" id="Resource_26gof"]
+script = ExtResource("3_ui1ho")
+level = 40
+move = 649
+
+[sub_resource type="Resource" id="Resource_qliqt"]
+script = ExtResource("3_ui1ho")
+level = 43
+move = 97
+
+[sub_resource type="Resource" id="Resource_x7adx"]
+script = ExtResource("3_ui1ho")
+level = 47
+move = 542
+
+[resource]
+script = ExtResource("4_o3dpf")
+id = 1170
+display_name = "Oricorio"
+category = "Dancing"
+national_dex = 741
+pokedex = "This form of Oricorio has sipped
+pink nectar. It elevates its mind with
+the gentle steps of its dance, then
+unleashes its psychic energy."
+type_1 = 15
+type_2 = 3
+base_hp = 75
+base_atk = 70
+base_def = 70
+base_spa = 98
+base_spd = 70
+base_spe = 93
+ev_spa = 2
+base_exp = 167
+gender_ratio = 191
+egg_group_1 = 4
+ability_1 = 216
+item_rare = 248
+height_dm = 6
+weight_hg = 34
+body_color = 9
+level_moves = Array[ExtResource("3_ui1ho")]([SubResource("Resource_0y0li"), SubResource("Resource_n2mmj"), SubResource("Resource_mcfrv"), SubResource("Resource_y0ysi"), SubResource("Resource_i28ku"), SubResource("Resource_32kkt"), SubResource("Resource_xijbq"), SubResource("Resource_g1n2u"), SubResource("Resource_yujtx"), SubResource("Resource_h7tym"), SubResource("Resource_eckaq"), SubResource("Resource_ta0ou"), SubResource("Resource_26gof"), SubResource("Resource_qliqt"), SubResource("Resource_x7adx")])
+egg_moves = Array[int]([365, 366, 219, 445])
+form_species = Array[int]([741, 1169, 1170, 1171])

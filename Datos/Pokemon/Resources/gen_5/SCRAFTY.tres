@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d3ik3aw5jke6y"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_dvw0o"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_la2sm"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_anlod"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_lkp6v"]
+
+[sub_resource type="Resource" id="Resource_i8vw2"]
+script = ExtResource("3_anlod")
+move = 29
+
+[sub_resource type="Resource" id="Resource_ugofy"]
+script = ExtResource("3_anlod")
+move = 43
+
+[sub_resource type="Resource" id="Resource_ec5jl"]
+script = ExtResource("3_anlod")
+move = 67
+
+[sub_resource type="Resource" id="Resource_38e05"]
+script = ExtResource("3_anlod")
+move = 371
+
+[sub_resource type="Resource" id="Resource_mpm3m"]
+script = ExtResource("3_anlod")
+level = 12
+move = 28
+
+[sub_resource type="Resource" id="Resource_wdmxc"]
+script = ExtResource("3_anlod")
+level = 16
+move = 263
+
+[sub_resource type="Resource" id="Resource_wjwes"]
+script = ExtResource("3_anlod")
+level = 20
+move = 259
+
+[sub_resource type="Resource" id="Resource_vir48"]
+script = ExtResource("3_anlod")
+level = 24
+move = 251
+
+[sub_resource type="Resource" id="Resource_sdpqb"]
+script = ExtResource("3_anlod")
+level = 28
+move = 184
+
+[sub_resource type="Resource" id="Resource_mckv2"]
+script = ExtResource("3_anlod")
+level = 32
+move = 280
+
+[sub_resource type="Resource" id="Resource_hqvro"]
+script = ExtResource("3_anlod")
+level = 36
+move = 207
+
+[sub_resource type="Resource" id="Resource_nsx2b"]
+script = ExtResource("3_anlod")
+level = 42
+move = 242
+
+[sub_resource type="Resource" id="Resource_dc5l4"]
+script = ExtResource("3_anlod")
+level = 48
+move = 136
+
+[sub_resource type="Resource" id="Resource_6v3jq"]
+script = ExtResource("3_anlod")
+level = 54
+move = 264
+
+[sub_resource type="Resource" id="Resource_3t1f7"]
+script = ExtResource("3_anlod")
+level = 60
+move = 457
+
+[resource]
+script = ExtResource("4_lkp6v")
+id = 560
+display_name = "Scrafty"
+category = "Hoodlum"
+national_dex = 560
+pokedex = "Groups of them beat up anything that
+enters their territory. The one with the
+biggest crest is the group leader, and
+is the most respected."
+type_1 = 18
+type_2 = 2
+base_hp = 65
+base_atk = 90
+base_def = 115
+base_spa = 45
+base_spd = 115
+base_spe = 58
+ev_def = 1
+ev_spd = 1
+catch_rate = 90
+base_exp = 171
+egg_cycles = 15
+egg_group_1 = 5
+egg_group_2 = 14
+ability_1 = 61
+ability_2 = 153
+ability_hidden = 22
+item_rare = 490
+height_dm = 11
+weight_hg = 300
+level_moves = Array[ExtResource("3_anlod")]([SubResource("Resource_i8vw2"), SubResource("Resource_ugofy"), SubResource("Resource_ec5jl"), SubResource("Resource_38e05"), SubResource("Resource_mpm3m"), SubResource("Resource_wdmxc"), SubResource("Resource_wjwes"), SubResource("Resource_vir48"), SubResource("Resource_sdpqb"), SubResource("Resource_mckv2"), SubResource("Resource_hqvro"), SubResource("Resource_nsx2b"), SubResource("Resource_dc5l4"), SubResource("Resource_6v3jq"), SubResource("Resource_3t1f7")])
+form_species = Array[int]([560, 1535])

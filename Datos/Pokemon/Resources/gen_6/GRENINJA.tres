@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://51wekuemjiyt"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xffgv"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wpkyc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_liik5"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_c88hf"]
+
+[sub_resource type="Resource" id="Resource_yj0ar"]
+script = ExtResource("3_liik5")
+level = 0
+move = 594
+
+[sub_resource type="Resource" id="Resource_ju1cy"]
+script = ExtResource("3_liik5")
+move = 400
+
+[sub_resource type="Resource" id="Resource_1dnlv"]
+script = ExtResource("3_liik5")
+move = 272
+
+[sub_resource type="Resource" id="Resource_mgy8f"]
+script = ExtResource("3_liik5")
+move = 114
+
+[sub_resource type="Resource" id="Resource_6rnmv"]
+script = ExtResource("3_liik5")
+move = 1
+
+[sub_resource type="Resource" id="Resource_glug0"]
+script = ExtResource("3_liik5")
+move = 55
+
+[sub_resource type="Resource" id="Resource_crfly"]
+script = ExtResource("3_liik5")
+move = 45
+
+[sub_resource type="Resource" id="Resource_o66nf"]
+script = ExtResource("3_liik5")
+move = 98
+
+[sub_resource type="Resource" id="Resource_3ih6r"]
+script = ExtResource("3_liik5")
+level = 10
+move = 122
+
+[sub_resource type="Resource" id="Resource_uj6gm"]
+script = ExtResource("3_liik5")
+level = 14
+move = 352
+
+[sub_resource type="Resource" id="Resource_qjkci"]
+script = ExtResource("3_liik5")
+level = 19
+move = 108
+
+[sub_resource type="Resource" id="Resource_wfdk3"]
+script = ExtResource("3_liik5")
+level = 23
+move = 425
+
+[sub_resource type="Resource" id="Resource_vg75q"]
+script = ExtResource("3_liik5")
+level = 28
+move = 191
+
+[sub_resource type="Resource" id="Resource_3nn15"]
+script = ExtResource("3_liik5")
+level = 33
+move = 332
+
+[sub_resource type="Resource" id="Resource_j3s1g"]
+script = ExtResource("3_liik5")
+level = 42
+move = 164
+
+[sub_resource type="Resource" id="Resource_f7u1a"]
+script = ExtResource("3_liik5")
+level = 49
+move = 326
+
+[sub_resource type="Resource" id="Resource_fci2s"]
+script = ExtResource("3_liik5")
+level = 56
+move = 104
+
+[sub_resource type="Resource" id="Resource_c8mqf"]
+script = ExtResource("3_liik5")
+level = 68
+move = 56
+
+[resource]
+script = ExtResource("4_c88hf")
+id = 658
+display_name = "Greninja"
+category = "Ninja"
+national_dex = 658
+type_1 = 12
+type_2 = 18
+base_hp = 72
+base_atk = 95
+base_def = 67
+base_spa = 103
+base_spd = 71
+base_spe = 122
+ev_spe = 3
+base_exp = 265
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 2
+ability_1 = 67
+ability_hidden = 168
+height_dm = 15
+weight_hg = 400
+body_color = 1
+no_flip = true
+level_moves = Array[ExtResource("3_liik5")]([SubResource("Resource_yj0ar"), SubResource("Resource_ju1cy"), SubResource("Resource_1dnlv"), SubResource("Resource_mgy8f"), SubResource("Resource_6rnmv"), SubResource("Resource_glug0"), SubResource("Resource_crfly"), SubResource("Resource_o66nf"), SubResource("Resource_3ih6r"), SubResource("Resource_uj6gm"), SubResource("Resource_qjkci"), SubResource("Resource_wfdk3"), SubResource("Resource_vg75q"), SubResource("Resource_3nn15"), SubResource("Resource_j3s1g"), SubResource("Resource_f7u1a"), SubResource("Resource_fci2s"), SubResource("Resource_c8mqf")])
+form_species = Array[int]([658, 1112, 1113, 1540])

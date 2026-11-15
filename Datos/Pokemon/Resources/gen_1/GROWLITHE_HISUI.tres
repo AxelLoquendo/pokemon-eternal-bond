@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://mdeagupp6srd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_pmg3v"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ujnru"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3rcld"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rxuk0"]
+
+[sub_resource type="Resource" id="Resource_3dka1"]
+script = ExtResource("1_pmg3v")
+method = "ITEM"
+param = "ITEM_FIRE_STONE"
+target = 994
+
+[sub_resource type="Resource" id="Resource_iq2qm"]
+script = ExtResource("3_3rcld")
+move = 43
+
+[sub_resource type="Resource" id="Resource_vwftl"]
+script = ExtResource("3_3rcld")
+move = 52
+
+[sub_resource type="Resource" id="Resource_16t46"]
+script = ExtResource("3_3rcld")
+level = 4
+move = 336
+
+[sub_resource type="Resource" id="Resource_ej2bl"]
+script = ExtResource("3_3rcld")
+level = 8
+move = 44
+
+[sub_resource type="Resource" id="Resource_exhy1"]
+script = ExtResource("3_3rcld")
+level = 12
+move = 172
+
+[sub_resource type="Resource" id="Resource_wh0a7"]
+script = ExtResource("3_3rcld")
+level = 16
+move = 270
+
+[sub_resource type="Resource" id="Resource_5h8wg"]
+script = ExtResource("3_3rcld")
+level = 24
+move = 424
+
+[sub_resource type="Resource" id="Resource_rtb0e"]
+script = ExtResource("3_3rcld")
+level = 28
+move = 514
+
+[sub_resource type="Resource" id="Resource_n156v"]
+script = ExtResource("3_3rcld")
+level = 32
+move = 242
+
+[sub_resource type="Resource" id="Resource_p4g1d"]
+script = ExtResource("3_3rcld")
+level = 36
+move = 36
+
+[sub_resource type="Resource" id="Resource_60rjo"]
+script = ExtResource("3_3rcld")
+level = 40
+move = 53
+
+[sub_resource type="Resource" id="Resource_05h45"]
+script = ExtResource("3_3rcld")
+level = 44
+move = 46
+
+[sub_resource type="Resource" id="Resource_864gr"]
+script = ExtResource("3_3rcld")
+level = 48
+move = 157
+
+[sub_resource type="Resource" id="Resource_khf6f"]
+script = ExtResource("3_3rcld")
+level = 52
+move = 179
+
+[sub_resource type="Resource" id="Resource_ksx2p"]
+script = ExtResource("3_3rcld")
+level = 56
+move = 394
+
+[resource]
+script = ExtResource("4_rxuk0")
+id = 993
+display_name = "Growlithe"
+category = "Scout"
+national_dex = 58
+pokedex = "They patrol their territory in pairs.
+It's believed the igneous rock components
+in the fur of this species are the result
+of volcanic activity in its habitat."
+type_1 = 11
+type_2 = 6
+base_hp = 60
+base_atk = 75
+base_def = 45
+base_spa = 65
+base_spd = 50
+base_spe = 55
+ev_atk = 1
+catch_rate = 190
+base_exp = 70
+gender_ratio = 63
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 22
+ability_2 = 18
+ability_hidden = 69
+height_dm = 8
+weight_hg = 227
+body_color = 5
+level_moves = Array[ExtResource("3_3rcld")]([SubResource("Resource_iq2qm"), SubResource("Resource_vwftl"), SubResource("Resource_16t46"), SubResource("Resource_ej2bl"), SubResource("Resource_exhy1"), SubResource("Resource_wh0a7"), SubResource("Resource_5h8wg"), SubResource("Resource_rtb0e"), SubResource("Resource_n156v"), SubResource("Resource_p4g1d"), SubResource("Resource_60rjo"), SubResource("Resource_05h45"), SubResource("Resource_864gr"), SubResource("Resource_khf6f"), SubResource("Resource_ksx2p")])
+egg_moves = Array[int]([24, 37, 38, 234, 343, 457])
+evolutions = Array[ExtResource("1_pmg3v")]([SubResource("Resource_3dka1")])
+form_species = Array[int]([58, 993])

@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://di38e0f3mqsoa"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_lcl7n"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_813uo"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_80mmu"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_oxi2q"]
+
+[sub_resource type="Resource" id="Resource_22mlh"]
+script = ExtResource("3_80mmu")
+move = 28
+
+[sub_resource type="Resource" id="Resource_4r5wt"]
+script = ExtResource("3_80mmu")
+move = 35
+
+[sub_resource type="Resource" id="Resource_asx7m"]
+script = ExtResource("3_80mmu")
+move = 55
+
+[sub_resource type="Resource" id="Resource_60qqt"]
+script = ExtResource("3_80mmu")
+move = 189
+
+[sub_resource type="Resource" id="Resource_g0aqj"]
+script = ExtResource("3_80mmu")
+level = 12
+move = 453
+
+[sub_resource type="Resource" id="Resource_j3agk"]
+script = ExtResource("3_80mmu")
+level = 16
+move = 21
+
+[sub_resource type="Resource" id="Resource_nw6hp"]
+script = ExtResource("3_80mmu")
+level = 20
+move = 352
+
+[sub_resource type="Resource" id="Resource_gq1do"]
+script = ExtResource("3_80mmu")
+level = 24
+move = 29
+
+[sub_resource type="Resource" id="Resource_fblkm"]
+script = ExtResource("3_80mmu")
+level = 30
+move = 793
+
+[sub_resource type="Resource" id="Resource_y256f"]
+script = ExtResource("3_80mmu")
+level = 36
+move = 91
+
+[sub_resource type="Resource" id="Resource_3h5p1"]
+script = ExtResource("3_80mmu")
+level = 42
+move = 389
+
+[sub_resource type="Resource" id="Resource_dn7cm"]
+script = ExtResource("3_80mmu")
+level = 48
+move = 638
+
+[sub_resource type="Resource" id="Resource_ud4tn"]
+script = ExtResource("3_80mmu")
+level = 54
+move = 664
+
+[resource]
+script = ExtResource("4_oxi2q")
+id = 1349
+display_name = "Wugtrio"
+category = "Garden Eel"
+national_dex = 961
+pokedex = "A variety of fish Pokémon, Wugtrio
+was once considered to be a
+regional form of Dugtrio."
+type_1 = 12
+base_hp = 35
+base_atk = 100
+base_def = 50
+base_spa = 50
+base_spd = 70
+base_spe = 120
+ev_spe = 2
+catch_rate = 50
+base_exp = 149
+egg_group_1 = 9
+ability_1 = 183
+ability_2 = 155
+ability_hidden = 8
+height_dm = 12
+weight_hg = 54
+level_moves = Array[ExtResource("3_80mmu")]([SubResource("Resource_22mlh"), SubResource("Resource_4r5wt"), SubResource("Resource_asx7m"), SubResource("Resource_60qqt"), SubResource("Resource_g0aqj"), SubResource("Resource_j3agk"), SubResource("Resource_nw6hp"), SubResource("Resource_gq1do"), SubResource("Resource_fblkm"), SubResource("Resource_y256f"), SubResource("Resource_3h5p1"), SubResource("Resource_dn7cm"), SubResource("Resource_ud4tn")])

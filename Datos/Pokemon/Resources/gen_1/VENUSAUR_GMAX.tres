@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c6rwu4ehqq6yo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_60vrs"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_g5suu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k3mxl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qbht6"]
+
+[sub_resource type="Resource" id="Resource_gb6lr"]
+script = ExtResource("3_k3mxl")
+level = 0
+move = 572
+
+[sub_resource type="Resource" id="Resource_xeyox"]
+script = ExtResource("3_k3mxl")
+move = 74
+
+[sub_resource type="Resource" id="Resource_0bhet"]
+script = ExtResource("3_k3mxl")
+move = 80
+
+[sub_resource type="Resource" id="Resource_eaqwc"]
+script = ExtResource("3_k3mxl")
+move = 22
+
+[sub_resource type="Resource" id="Resource_dnxlw"]
+script = ExtResource("3_k3mxl")
+move = 33
+
+[sub_resource type="Resource" id="Resource_k8t1e"]
+script = ExtResource("3_k3mxl")
+move = 45
+
+[sub_resource type="Resource" id="Resource_4m4bn"]
+script = ExtResource("3_k3mxl")
+level = 9
+move = 73
+
+[sub_resource type="Resource" id="Resource_r5pm3"]
+script = ExtResource("3_k3mxl")
+level = 12
+move = 75
+
+[sub_resource type="Resource" id="Resource_0rwau"]
+script = ExtResource("3_k3mxl")
+level = 15
+move = 79
+
+[sub_resource type="Resource" id="Resource_gjlbb"]
+script = ExtResource("3_k3mxl")
+level = 15
+move = 77
+
+[sub_resource type="Resource" id="Resource_sd2eq"]
+script = ExtResource("3_k3mxl")
+level = 20
+move = 402
+
+[sub_resource type="Resource" id="Resource_cp6pf"]
+script = ExtResource("3_k3mxl")
+level = 25
+move = 36
+
+[sub_resource type="Resource" id="Resource_ki27e"]
+script = ExtResource("3_k3mxl")
+level = 30
+move = 230
+
+[sub_resource type="Resource" id="Resource_tlr13"]
+script = ExtResource("3_k3mxl")
+level = 37
+move = 235
+
+[sub_resource type="Resource" id="Resource_il25t"]
+script = ExtResource("3_k3mxl")
+level = 44
+move = 388
+
+[sub_resource type="Resource" id="Resource_rljii"]
+script = ExtResource("3_k3mxl")
+level = 51
+move = 438
+
+[sub_resource type="Resource" id="Resource_7cedf"]
+script = ExtResource("3_k3mxl")
+level = 58
+move = 76
+
+[resource]
+script = ExtResource("4_qbht6")
+id = 1489
+display_name = "Venusaur"
+category = "Seed"
+national_dex = 3
+pokedex = "Spits big amounts of pollen like a volcano.
+Breathing too much of it causes fainting.
+In battle, it swings around two thick vines
+that can easily topple 10-story buildings."
+type_1 = 13
+type_2 = 4
+base_hp = 80
+base_atk = 82
+base_def = 83
+base_spa = 100
+base_spd = 100
+base_spe = 80
+ev_spa = 2
+ev_spd = 1
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 7
+ability_1 = 65
+ability_hidden = 34
+height_dm = 240
+body_color = 3
+level_moves = Array[ExtResource("3_k3mxl")]([SubResource("Resource_gb6lr"), SubResource("Resource_xeyox"), SubResource("Resource_0bhet"), SubResource("Resource_eaqwc"), SubResource("Resource_dnxlw"), SubResource("Resource_k8t1e"), SubResource("Resource_4m4bn"), SubResource("Resource_r5pm3"), SubResource("Resource_0rwau"), SubResource("Resource_gjlbb"), SubResource("Resource_sd2eq"), SubResource("Resource_cp6pf"), SubResource("Resource_ki27e"), SubResource("Resource_tlr13"), SubResource("Resource_il25t"), SubResource("Resource_rljii"), SubResource("Resource_7cedf")])
+form_species = Array[int]([3, 906, 1489])

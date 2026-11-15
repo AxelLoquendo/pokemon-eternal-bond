@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://51xjr5nelxmc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_iadd3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1ab57"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_j0eri"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gndlk"]
+
+[sub_resource type="Resource" id="Resource_nk2ug"]
+script = ExtResource("3_j0eri")
+level = 0
+move = 794
+
+[sub_resource type="Resource" id="Resource_cy23q"]
+script = ExtResource("3_j0eri")
+move = 479
+
+[sub_resource type="Resource" id="Resource_oinhy"]
+script = ExtResource("3_j0eri")
+move = 596
+
+[sub_resource type="Resource" id="Resource_oaoht"]
+script = ExtResource("3_j0eri")
+move = 390
+
+[sub_resource type="Resource" id="Resource_5v5cj"]
+script = ExtResource("3_j0eri")
+move = 88
+
+[sub_resource type="Resource" id="Resource_mkchc"]
+script = ExtResource("3_j0eri")
+move = 106
+
+[sub_resource type="Resource" id="Resource_yrkhx"]
+script = ExtResource("3_j0eri")
+level = 7
+move = 491
+
+[sub_resource type="Resource" id="Resource_j8wt2"]
+script = ExtResource("3_j0eri")
+level = 11
+move = 246
+
+[sub_resource type="Resource" id="Resource_0timc"]
+script = ExtResource("3_j0eri")
+level = 15
+move = 397
+
+[sub_resource type="Resource" id="Resource_dvf64"]
+script = ExtResource("3_j0eri")
+level = 18
+move = 446
+
+[sub_resource type="Resource" id="Resource_glgnc"]
+script = ExtResource("3_j0eri")
+level = 22
+move = 474
+
+[sub_resource type="Resource" id="Resource_2tym8"]
+script = ExtResource("3_j0eri")
+level = 26
+move = 201
+
+[sub_resource type="Resource" id="Resource_mksc8"]
+script = ExtResource("3_j0eri")
+level = 29
+move = 120
+
+[sub_resource type="Resource" id="Resource_5ogq0"]
+script = ExtResource("3_j0eri")
+level = 33
+move = 157
+
+[sub_resource type="Resource" id="Resource_4d71e"]
+script = ExtResource("3_j0eri")
+level = 39
+move = 408
+
+[sub_resource type="Resource" id="Resource_tf1m0"]
+script = ExtResource("3_j0eri")
+level = 44
+move = 151
+
+[sub_resource type="Resource" id="Resource_d0u0m"]
+script = ExtResource("3_j0eri")
+level = 50
+move = 482
+
+[resource]
+script = ExtResource("4_gndlk")
+id = 1359
+display_name = "Glimmora"
+category = "Ore"
+national_dex = 970
+pokedex = "Glimmora's petals are made of
+crystallized poison energy. It has
+recently become evident that these
+petals resemble Tera Jewels."
+type_1 = 6
+type_2 = 4
+base_hp = 83
+base_atk = 55
+base_def = 90
+base_spa = 130
+base_spd = 81
+base_spe = 86
+ev_spa = 2
+catch_rate = 25
+base_exp = 184
+growth_rate = 3
+egg_cycles = 30
+egg_group_1 = 10
+ability_1 = 295
+ability_hidden = 212
+height_dm = 15
+weight_hg = 450
+body_color = 1
+level_moves = Array[ExtResource("3_j0eri")]([SubResource("Resource_nk2ug"), SubResource("Resource_cy23q"), SubResource("Resource_oinhy"), SubResource("Resource_oaoht"), SubResource("Resource_5v5cj"), SubResource("Resource_mkchc"), SubResource("Resource_yrkhx"), SubResource("Resource_j8wt2"), SubResource("Resource_0timc"), SubResource("Resource_dvf64"), SubResource("Resource_glgnc"), SubResource("Resource_2tym8"), SubResource("Resource_mksc8"), SubResource("Resource_5ogq0"), SubResource("Resource_4d71e"), SubResource("Resource_tf1m0"), SubResource("Resource_d0u0m")])
+form_species = Array[int]([1359, 1572])

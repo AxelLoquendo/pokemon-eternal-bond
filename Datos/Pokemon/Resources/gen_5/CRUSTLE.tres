@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://br8n5tbp7i1bi"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rt8mo"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2gfrk"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_x7hea"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_uc63r"]
+
+[sub_resource type="Resource" id="Resource_bgihm"]
+script = ExtResource("3_x7hea")
+move = 210
+
+[sub_resource type="Resource" id="Resource_ulagy"]
+script = ExtResource("3_x7hea")
+move = 28
+
+[sub_resource type="Resource" id="Resource_v6vsb"]
+script = ExtResource("3_x7hea")
+move = 110
+
+[sub_resource type="Resource" id="Resource_bjlom"]
+script = ExtResource("3_x7hea")
+move = 479
+
+[sub_resource type="Resource" id="Resource_bnp3x"]
+script = ExtResource("3_x7hea")
+level = 12
+move = 450
+
+[sub_resource type="Resource" id="Resource_jch48"]
+script = ExtResource("3_x7hea")
+level = 16
+move = 175
+
+[sub_resource type="Resource" id="Resource_ft1vp"]
+script = ExtResource("3_x7hea")
+level = 20
+move = 163
+
+[sub_resource type="Resource" id="Resource_vsld1"]
+script = ExtResource("3_x7hea")
+level = 24
+move = 157
+
+[sub_resource type="Resource" id="Resource_wf6w4"]
+script = ExtResource("3_x7hea")
+level = 28
+move = 446
+
+[sub_resource type="Resource" id="Resource_wrgn7"]
+script = ExtResource("3_x7hea")
+level = 32
+move = 350
+
+[sub_resource type="Resource" id="Resource_23pgx"]
+script = ExtResource("3_x7hea")
+level = 38
+move = 404
+
+[sub_resource type="Resource" id="Resource_tm53t"]
+script = ExtResource("3_x7hea")
+level = 44
+move = 397
+
+[sub_resource type="Resource" id="Resource_lbpa7"]
+script = ExtResource("3_x7hea")
+level = 50
+move = 504
+
+[sub_resource type="Resource" id="Resource_b7iwp"]
+script = ExtResource("3_x7hea")
+level = 56
+move = 439
+
+[resource]
+script = ExtResource("4_uc63r")
+id = 558
+display_name = "Crustle"
+category = "Stone Home"
+national_dex = 558
+pokedex = "Competing for territory, Crustle fight
+viciously. The one whose boulder is
+broken is the loser of the battle and
+begins to weaken."
+type_1 = 7
+type_2 = 6
+base_hp = 70
+base_atk = 105
+base_def = 125
+base_spa = 65
+base_spd = 75
+base_spe = 45
+ev_def = 2
+catch_rate = 75
+base_exp = 170
+egg_group_1 = 3
+egg_group_2 = 10
+ability_1 = 5
+ability_2 = 75
+ability_hidden = 133
+item_rare = 437
+height_dm = 14
+weight_hg = 2000
+level_moves = Array[ExtResource("3_x7hea")]([SubResource("Resource_bgihm"), SubResource("Resource_ulagy"), SubResource("Resource_v6vsb"), SubResource("Resource_bjlom"), SubResource("Resource_bnp3x"), SubResource("Resource_jch48"), SubResource("Resource_ft1vp"), SubResource("Resource_vsld1"), SubResource("Resource_wf6w4"), SubResource("Resource_wrgn7"), SubResource("Resource_23pgx"), SubResource("Resource_tm53t"), SubResource("Resource_lbpa7"), SubResource("Resource_b7iwp")])

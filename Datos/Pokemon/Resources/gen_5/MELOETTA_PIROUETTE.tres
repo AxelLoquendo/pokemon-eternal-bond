@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://oq5qk2ctao0e"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3ff2i"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_mshhi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_f3gwk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dn36y"]
+
+[sub_resource type="Resource" id="Resource_peql6"]
+script = ExtResource("3_f3gwk")
+move = 47
+
+[sub_resource type="Resource" id="Resource_0fuj6"]
+script = ExtResource("3_f3gwk")
+move = 93
+
+[sub_resource type="Resource" id="Resource_xmsny"]
+script = ExtResource("3_f3gwk")
+move = 98
+
+[sub_resource type="Resource" id="Resource_ilyqi"]
+script = ExtResource("3_f3gwk")
+move = 496
+
+[sub_resource type="Resource" id="Resource_esrqo"]
+script = ExtResource("3_f3gwk")
+level = 21
+move = 298
+
+[sub_resource type="Resource" id="Resource_3t4os"]
+script = ExtResource("3_f3gwk")
+level = 26
+move = 512
+
+[sub_resource type="Resource" id="Resource_ffdjv"]
+script = ExtResource("3_f3gwk")
+level = 31
+move = 60
+
+[sub_resource type="Resource" id="Resource_gx0si"]
+script = ExtResource("3_f3gwk")
+level = 36
+move = 497
+
+[sub_resource type="Resource" id="Resource_rfpki"]
+script = ExtResource("3_f3gwk")
+level = 43
+move = 369
+
+[sub_resource type="Resource" id="Resource_h3qye"]
+script = ExtResource("3_f3gwk")
+level = 50
+move = 547
+
+[sub_resource type="Resource" id="Resource_h0oww"]
+script = ExtResource("3_f3gwk")
+level = 57
+move = 94
+
+[sub_resource type="Resource" id="Resource_tjdil"]
+script = ExtResource("3_f3gwk")
+level = 64
+move = 304
+
+[sub_resource type="Resource" id="Resource_txyvc"]
+script = ExtResource("3_f3gwk")
+level = 71
+move = 272
+
+[sub_resource type="Resource" id="Resource_42agk"]
+script = ExtResource("3_f3gwk")
+level = 78
+move = 370
+
+[sub_resource type="Resource" id="Resource_sdint"]
+script = ExtResource("3_f3gwk")
+level = 85
+move = 195
+
+[resource]
+script = ExtResource("4_dn36y")
+id = 1107
+display_name = "Meloetta"
+category = "Melody"
+national_dex = 648
+pokedex = "Meloetta's melodies are sung with
+a special vocalization method that can
+control the feelings of those who hear it."
+type_1 = 1
+type_2 = 2
+base_hp = 100
+base_atk = 128
+base_def = 90
+base_spa = 77
+base_spd = 77
+base_spe = 128
+ev_atk = 1
+ev_def = 1
+ev_spe = 1
+catch_rate = 3
+base_exp = 300
+base_friendship = 100
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 32
+item_common = 144
+item_rare = 144
+height_dm = 6
+weight_hg = 65
+body_color = 8
+no_flip = true
+level_moves = Array[ExtResource("3_f3gwk")]([SubResource("Resource_peql6"), SubResource("Resource_0fuj6"), SubResource("Resource_xmsny"), SubResource("Resource_ilyqi"), SubResource("Resource_esrqo"), SubResource("Resource_3t4os"), SubResource("Resource_ffdjv"), SubResource("Resource_gx0si"), SubResource("Resource_rfpki"), SubResource("Resource_h3qye"), SubResource("Resource_h0oww"), SubResource("Resource_tjdil"), SubResource("Resource_txyvc"), SubResource("Resource_42agk"), SubResource("Resource_sdint")])
+form_species = Array[int]([648, 1107])

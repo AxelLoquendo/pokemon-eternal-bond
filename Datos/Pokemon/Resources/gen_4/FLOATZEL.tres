@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bsgo1tcsivgdo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xg3s6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0er8a"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_33qk0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tcq4k"]
+
+[sub_resource type="Resource" id="Resource_etkw8"]
+script = ExtResource("3_33qk0")
+move = 45
+
+[sub_resource type="Resource" id="Resource_pi5k3"]
+script = ExtResource("3_33qk0")
+move = 98
+
+[sub_resource type="Resource" id="Resource_myfb0"]
+script = ExtResource("3_33qk0")
+move = 242
+
+[sub_resource type="Resource" id="Resource_gock5"]
+script = ExtResource("3_33qk0")
+move = 423
+
+[sub_resource type="Resource" id="Resource_2npi8"]
+script = ExtResource("3_33qk0")
+move = 487
+
+[sub_resource type="Resource" id="Resource_rfy4e"]
+script = ExtResource("3_33qk0")
+level = 15
+move = 55
+
+[sub_resource type="Resource" id="Resource_3jjoc"]
+script = ExtResource("3_33qk0")
+level = 18
+move = 44
+
+[sub_resource type="Resource" id="Resource_kf3c7"]
+script = ExtResource("3_33qk0")
+level = 21
+move = 129
+
+[sub_resource type="Resource" id="Resource_kmx56"]
+script = ExtResource("3_33qk0")
+level = 24
+move = 453
+
+[sub_resource type="Resource" id="Resource_rhqgq"]
+script = ExtResource("3_33qk0")
+level = 29
+move = 458
+
+[sub_resource type="Resource" id="Resource_310hw"]
+script = ExtResource("3_33qk0")
+level = 35
+move = 250
+
+[sub_resource type="Resource" id="Resource_pjath"]
+script = ExtResource("3_33qk0")
+level = 41
+move = 664
+
+[sub_resource type="Resource" id="Resource_frmoh"]
+script = ExtResource("3_33qk0")
+level = 46
+move = 401
+
+[sub_resource type="Resource" id="Resource_0rk4r"]
+script = ExtResource("3_33qk0")
+level = 51
+move = 97
+
+[sub_resource type="Resource" id="Resource_klelw"]
+script = ExtResource("3_33qk0")
+level = 57
+move = 56
+
+[sub_resource type="Resource" id="Resource_pj48y"]
+script = ExtResource("3_33qk0")
+level = 62
+move = 762
+
+[resource]
+script = ExtResource("4_tcq4k")
+id = 419
+display_name = "Floatzel"
+category = "Sea Weasel"
+national_dex = 419
+pokedex = "Its flotation sac developed as a result
+of pursuing aquatic prey. It can double
+as a rubber raft. It assists in the rescues
+of drowning people."
+type_1 = 12
+base_hp = 85
+base_atk = 105
+base_def = 55
+base_spa = 85
+base_spd = 50
+base_spe = 115
+ev_spe = 2
+catch_rate = 75
+base_exp = 173
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 33
+ability_hidden = 41
+height_dm = 11
+weight_hg = 335
+body_color = 5
+level_moves = Array[ExtResource("3_33qk0")]([SubResource("Resource_etkw8"), SubResource("Resource_pi5k3"), SubResource("Resource_myfb0"), SubResource("Resource_gock5"), SubResource("Resource_2npi8"), SubResource("Resource_rfy4e"), SubResource("Resource_3jjoc"), SubResource("Resource_kf3c7"), SubResource("Resource_kmx56"), SubResource("Resource_rhqgq"), SubResource("Resource_310hw"), SubResource("Resource_pjath"), SubResource("Resource_frmoh"), SubResource("Resource_0rk4r"), SubResource("Resource_klelw"), SubResource("Resource_pj48y")])

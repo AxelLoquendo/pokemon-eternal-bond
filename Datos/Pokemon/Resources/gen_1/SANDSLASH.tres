@@ -1,0 +1,121 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cykn3xoybt6nr"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_nslg5"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_u0a1p"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pg6vc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_i2ubn"]
+
+[sub_resource type="Resource" id="Resource_a12mt"]
+script = ExtResource("3_pg6vc")
+move = 10
+
+[sub_resource type="Resource" id="Resource_javri"]
+script = ExtResource("3_pg6vc")
+move = 306
+
+[sub_resource type="Resource" id="Resource_xr8bc"]
+script = ExtResource("3_pg6vc")
+move = 28
+
+[sub_resource type="Resource" id="Resource_tpqm2"]
+script = ExtResource("3_pg6vc")
+move = 40
+
+[sub_resource type="Resource" id="Resource_xo315"]
+script = ExtResource("3_pg6vc")
+move = 111
+
+[sub_resource type="Resource" id="Resource_8stve"]
+script = ExtResource("3_pg6vc")
+level = 9
+move = 205
+
+[sub_resource type="Resource" id="Resource_tb07s"]
+script = ExtResource("3_pg6vc")
+level = 12
+move = 210
+
+[sub_resource type="Resource" id="Resource_s71t4"]
+script = ExtResource("3_pg6vc")
+level = 15
+move = 229
+
+[sub_resource type="Resource" id="Resource_w7xae"]
+script = ExtResource("3_pg6vc")
+level = 18
+move = 523
+
+[sub_resource type="Resource" id="Resource_8itao"]
+script = ExtResource("3_pg6vc")
+level = 21
+move = 129
+
+[sub_resource type="Resource" id="Resource_xbg0o"]
+script = ExtResource("3_pg6vc")
+level = 26
+move = 154
+
+[sub_resource type="Resource" id="Resource_pwt48"]
+script = ExtResource("3_pg6vc")
+level = 31
+move = 328
+
+[sub_resource type="Resource" id="Resource_t56wh"]
+script = ExtResource("3_pg6vc")
+level = 36
+move = 163
+
+[sub_resource type="Resource" id="Resource_pkwt1"]
+script = ExtResource("3_pg6vc")
+level = 41
+move = 91
+
+[sub_resource type="Resource" id="Resource_1ay01"]
+script = ExtResource("3_pg6vc")
+level = 46
+move = 360
+
+[sub_resource type="Resource" id="Resource_7adcf"]
+script = ExtResource("3_pg6vc")
+level = 51
+move = 14
+
+[sub_resource type="Resource" id="Resource_v5r7e"]
+script = ExtResource("3_pg6vc")
+level = 56
+move = 201
+
+[sub_resource type="Resource" id="Resource_oum8v"]
+script = ExtResource("3_pg6vc")
+level = 61
+move = 89
+
+[resource]
+script = ExtResource("4_i2ubn")
+id = 28
+display_name = "Sandslash"
+category = "Mouse"
+national_dex = 28
+pokedex = "It curls up in a ball to protect itself from
+enemy attacks. It also curls up to prevent
+heatstroke during the daytime when
+temperatures rise sharply."
+type_1 = 5
+base_hp = 75
+base_atk = 100
+base_def = 110
+base_spa = 45
+base_spd = 55
+base_spe = 65
+ev_def = 2
+catch_rate = 90
+base_exp = 158
+egg_group_1 = 5
+ability_1 = 8
+ability_hidden = 146
+item_rare = 488
+height_dm = 10
+weight_hg = 295
+body_color = 2
+level_moves = Array[ExtResource("3_pg6vc")]([SubResource("Resource_a12mt"), SubResource("Resource_javri"), SubResource("Resource_xr8bc"), SubResource("Resource_tpqm2"), SubResource("Resource_xo315"), SubResource("Resource_8stve"), SubResource("Resource_tb07s"), SubResource("Resource_s71t4"), SubResource("Resource_w7xae"), SubResource("Resource_8itao"), SubResource("Resource_xbg0o"), SubResource("Resource_pwt48"), SubResource("Resource_t56wh"), SubResource("Resource_pkwt1"), SubResource("Resource_1ay01"), SubResource("Resource_7adcf"), SubResource("Resource_v5r7e"), SubResource("Resource_oum8v")])
+form_species = Array[int]([28, 960])

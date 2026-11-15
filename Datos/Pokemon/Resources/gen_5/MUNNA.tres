@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cdrjlvg77jkdl"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_wdkkg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rp82d"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dkhls"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7h3d4"]
+
+[sub_resource type="Resource" id="Resource_vliw4"]
+script = ExtResource("1_wdkkg")
+method = "ITEM"
+param = "ITEM_MOON_STONE"
+target = 518
+
+[sub_resource type="Resource" id="Resource_rddba"]
+script = ExtResource("3_dkhls")
+move = 500
+
+[sub_resource type="Resource" id="Resource_ms6pq"]
+script = ExtResource("3_dkhls")
+move = 111
+
+[sub_resource type="Resource" id="Resource_bspox"]
+script = ExtResource("3_dkhls")
+level = 4
+move = 95
+
+[sub_resource type="Resource" id="Resource_t0cxa"]
+script = ExtResource("3_dkhls")
+level = 8
+move = 60
+
+[sub_resource type="Resource" id="Resource_cqpwi"]
+script = ExtResource("3_dkhls")
+level = 12
+move = 286
+
+[sub_resource type="Resource" id="Resource_qoumv"]
+script = ExtResource("3_dkhls")
+level = 16
+move = 236
+
+[sub_resource type="Resource" id="Resource_upm14"]
+script = ExtResource("3_dkhls")
+level = 20
+move = 277
+
+[sub_resource type="Resource" id="Resource_h61ud"]
+script = ExtResource("3_dkhls")
+level = 24
+move = 428
+
+[sub_resource type="Resource" id="Resource_eqrti"]
+script = ExtResource("3_dkhls")
+level = 28
+move = 347
+
+[sub_resource type="Resource" id="Resource_yavgc"]
+script = ExtResource("3_dkhls")
+level = 32
+move = 281
+
+[sub_resource type="Resource" id="Resource_b2iyb"]
+script = ExtResource("3_dkhls")
+level = 36
+move = 94
+
+[sub_resource type="Resource" id="Resource_lnlue"]
+script = ExtResource("3_dkhls")
+level = 40
+move = 585
+
+[sub_resource type="Resource" id="Resource_wth06"]
+script = ExtResource("3_dkhls")
+level = 44
+move = 138
+
+[sub_resource type="Resource" id="Resource_531f0"]
+script = ExtResource("3_dkhls")
+level = 48
+move = 248
+
+[sub_resource type="Resource" id="Resource_b8orm"]
+script = ExtResource("3_dkhls")
+level = 52
+move = 472
+
+[resource]
+script = ExtResource("4_7h3d4")
+id = 517
+display_name = "Munna"
+category = "Dream Eater"
+national_dex = 517
+pokedex = "This Pokémon appears before people
+and Pokémon who are having nightmares
+and eats those dreams. Munna always
+float in the air."
+type_1 = 15
+base_hp = 76
+base_atk = 25
+base_def = 45
+base_spa = 67
+base_spd = 55
+base_spe = 24
+ev_hp = 1
+catch_rate = 190
+base_exp = 58
+growth_rate = 4
+egg_cycles = 10
+egg_group_1 = 5
+ability_1 = 108
+ability_2 = 28
+ability_hidden = 140
+height_dm = 6
+weight_hg = 233
+body_color = 9
+level_moves = Array[ExtResource("3_dkhls")]([SubResource("Resource_rddba"), SubResource("Resource_ms6pq"), SubResource("Resource_bspox"), SubResource("Resource_t0cxa"), SubResource("Resource_cqpwi"), SubResource("Resource_qoumv"), SubResource("Resource_upm14"), SubResource("Resource_h61ud"), SubResource("Resource_eqrti"), SubResource("Resource_yavgc"), SubResource("Resource_b2iyb"), SubResource("Resource_lnlue"), SubResource("Resource_wth06"), SubResource("Resource_531f0"), SubResource("Resource_b8orm")])
+egg_moves = Array[int]([214, 290, 112, 277, 270, 226, 129, 174, 49, 361])
+evolutions = Array[ExtResource("1_wdkkg")]([SubResource("Resource_vliw4")])

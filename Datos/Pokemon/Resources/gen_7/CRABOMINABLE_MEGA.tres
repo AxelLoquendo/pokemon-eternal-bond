@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://borb4nx8tjlg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_j8ggs"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3np3x"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1vfwv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_j5la6"]
+
+[sub_resource type="Resource" id="Resource_ua14e"]
+script = ExtResource("3_1vfwv")
+level = 0
+move = 8
+
+[sub_resource type="Resource" id="Resource_1ch2i"]
+script = ExtResource("3_1vfwv")
+move = 43
+
+[sub_resource type="Resource" id="Resource_vllqi"]
+script = ExtResource("3_1vfwv")
+move = 182
+
+[sub_resource type="Resource" id="Resource_m6lpn"]
+script = ExtResource("3_1vfwv")
+move = 249
+
+[sub_resource type="Resource" id="Resource_6p16o"]
+script = ExtResource("3_1vfwv")
+level = 17
+move = 61
+
+[sub_resource type="Resource" id="Resource_0pqh6"]
+script = ExtResource("3_1vfwv")
+level = 22
+move = 280
+
+[sub_resource type="Resource" id="Resource_4bhnb"]
+script = ExtResource("3_1vfwv")
+level = 25
+move = 21
+
+[sub_resource type="Resource" id="Resource_64q2n"]
+script = ExtResource("3_1vfwv")
+level = 29
+move = 419
+
+[sub_resource type="Resource" id="Resource_euqg5"]
+script = ExtResource("3_1vfwv")
+level = 33
+move = 179
+
+[sub_resource type="Resource" id="Resource_po3v4"]
+script = ExtResource("3_1vfwv")
+level = 37
+move = 628
+
+[sub_resource type="Resource" id="Resource_naxfn"]
+script = ExtResource("3_1vfwv")
+level = 42
+move = 334
+
+[sub_resource type="Resource" id="Resource_xlmp2"]
+script = ExtResource("3_1vfwv")
+level = 45
+move = 223
+
+[sub_resource type="Resource" id="Resource_gbxyh"]
+script = ExtResource("3_1vfwv")
+level = 49
+move = 370
+
+[resource]
+script = ExtResource("4_j5la6")
+id = 1563
+display_name = "Crabominable"
+category = "Woolly Crab"
+national_dex = 740
+pokedex = "It can pulverize reinforced concrete with
+a light swing of one of its fists, each of
+which is covered in a thick layer of ice."
+type_1 = 2
+type_2 = 16
+base_hp = 97
+base_atk = 157
+base_def = 122
+base_spa = 62
+base_spd = 107
+base_spe = 33
+ev_atk = 2
+catch_rate = 60
+base_exp = 167
+egg_group_1 = 9
+ability_1 = 89
+ability_2 = 89
+ability_hidden = 89
+item_rare = 514
+height_dm = 26
+weight_hg = 2528
+body_color = 8
+level_moves = Array[ExtResource("3_1vfwv")]([SubResource("Resource_ua14e"), SubResource("Resource_1ch2i"), SubResource("Resource_vllqi"), SubResource("Resource_m6lpn"), SubResource("Resource_6p16o"), SubResource("Resource_0pqh6"), SubResource("Resource_4bhnb"), SubResource("Resource_64q2n"), SubResource("Resource_euqg5"), SubResource("Resource_po3v4"), SubResource("Resource_naxfn"), SubResource("Resource_xlmp2"), SubResource("Resource_gbxyh")])
+form_species = Array[int]([740, 1563])

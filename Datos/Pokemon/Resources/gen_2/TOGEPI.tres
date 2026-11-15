@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bvy38vpla6jt6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_eti8n"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lrwkf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8v76m"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ca5v2"]
+
+[sub_resource type="Resource" id="Resource_fx13v"]
+script = ExtResource("3_8v76m")
+move = 45
+
+[sub_resource type="Resource" id="Resource_hgp6g"]
+script = ExtResource("3_8v76m")
+move = 1
+
+[sub_resource type="Resource" id="Resource_i2bae"]
+script = ExtResource("3_8v76m")
+level = 4
+move = 186
+
+[sub_resource type="Resource" id="Resource_u1opb"]
+script = ExtResource("3_8v76m")
+level = 8
+move = 719
+
+[sub_resource type="Resource" id="Resource_wwli1"]
+script = ExtResource("3_8v76m")
+level = 12
+move = 204
+
+[sub_resource type="Resource" id="Resource_crasw"]
+script = ExtResource("3_8v76m")
+level = 16
+move = 246
+
+[sub_resource type="Resource" id="Resource_bh1n0"]
+script = ExtResource("3_8v76m")
+level = 20
+move = 281
+
+[sub_resource type="Resource" id="Resource_f62n3"]
+script = ExtResource("3_8v76m")
+level = 24
+move = 118
+
+[sub_resource type="Resource" id="Resource_uuqy3"]
+script = ExtResource("3_8v76m")
+level = 28
+move = 495
+
+[sub_resource type="Resource" id="Resource_726os"]
+script = ExtResource("3_8v76m")
+level = 32
+move = 38
+
+[sub_resource type="Resource" id="Resource_g12vf"]
+script = ExtResource("3_8v76m")
+level = 36
+move = 219
+
+[sub_resource type="Resource" id="Resource_tt40d"]
+script = ExtResource("3_8v76m")
+level = 40
+move = 266
+
+[sub_resource type="Resource" id="Resource_gjo2y"]
+script = ExtResource("3_8v76m")
+level = 44
+move = 226
+
+[sub_resource type="Resource" id="Resource_7gi1e"]
+script = ExtResource("3_8v76m")
+level = 48
+move = 387
+
+[sub_resource type="Resource" id="Resource_mdqow"]
+script = ExtResource("3_8v76m")
+level = 52
+move = 273
+
+[resource]
+script = ExtResource("4_ca5v2")
+id = 175
+display_name = "Togepi"
+category = "Spike Ball"
+national_dex = 175
+pokedex = "As its energy, it uses the feelings of
+compassion and pleasure exuded by
+people and Pokémon. It stores up happy
+feelings in its shell, then shares them out."
+type_1 = 1
+base_hp = 35
+base_atk = 20
+base_def = 65
+base_spa = 40
+base_spd = 65
+base_spe = 20
+ev_spd = 1
+catch_rate = 190
+base_exp = 49
+gender_ratio = 31
+growth_rate = 4
+egg_cycles = 10
+ability_1 = 55
+ability_2 = 32
+ability_hidden = 105
+height_dm = 3
+weight_hg = 15
+body_color = 8
+no_flip = true
+level_moves = Array[ExtResource("3_8v76m")]([SubResource("Resource_fx13v"), SubResource("Resource_hgp6g"), SubResource("Resource_i2bae"), SubResource("Resource_u1opb"), SubResource("Resource_wwli1"), SubResource("Resource_crasw"), SubResource("Resource_bh1n0"), SubResource("Resource_f62n3"), SubResource("Resource_uuqy3"), SubResource("Resource_726os"), SubResource("Resource_g12vf"), SubResource("Resource_tt40d"), SubResource("Resource_gjo2y"), SubResource("Resource_7gi1e"), SubResource("Resource_mdqow")])
+egg_moves = Array[int]([217, 119, 64, 193, 248, 417, 375, 381, 326, 290, 500, 234])

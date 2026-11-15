@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cffd4vbmq2x8d"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_l6pg4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_frpty"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hn444"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_31334"]
+
+[sub_resource type="Resource" id="Resource_6220i"]
+script = ExtResource("1_l6pg4")
+method = "LEVEL"
+param = "38"
+target = 89
+
+[sub_resource type="Resource" id="Resource_hgtm2"]
+script = ExtResource("3_hn444")
+move = 1
+
+[sub_resource type="Resource" id="Resource_b4rk4"]
+script = ExtResource("3_hn444")
+move = 139
+
+[sub_resource type="Resource" id="Resource_3mh2g"]
+script = ExtResource("3_hn444")
+level = 4
+move = 106
+
+[sub_resource type="Resource" id="Resource_8mlg4"]
+script = ExtResource("3_hn444")
+level = 7
+move = 189
+
+[sub_resource type="Resource" id="Resource_14syb"]
+script = ExtResource("3_hn444")
+level = 12
+move = 50
+
+[sub_resource type="Resource" id="Resource_h0d8f"]
+script = ExtResource("3_hn444")
+level = 15
+move = 124
+
+[sub_resource type="Resource" id="Resource_shi8d"]
+script = ExtResource("3_hn444")
+level = 18
+move = 341
+
+[sub_resource type="Resource" id="Resource_08p6m"]
+script = ExtResource("3_hn444")
+level = 21
+move = 107
+
+[sub_resource type="Resource" id="Resource_0pc4v"]
+script = ExtResource("3_hn444")
+level = 26
+move = 92
+
+[sub_resource type="Resource" id="Resource_lvpfl"]
+script = ExtResource("3_hn444")
+level = 29
+move = 188
+
+[sub_resource type="Resource" id="Resource_c8ewr"]
+script = ExtResource("3_hn444")
+level = 32
+move = 482
+
+[sub_resource type="Resource" id="Resource_e6tlj"]
+script = ExtResource("3_hn444")
+level = 37
+move = 103
+
+[sub_resource type="Resource" id="Resource_wyuwx"]
+script = ExtResource("3_hn444")
+level = 40
+move = 441
+
+[sub_resource type="Resource" id="Resource_s5oij"]
+script = ExtResource("3_hn444")
+level = 43
+move = 151
+
+[sub_resource type="Resource" id="Resource_8cpmd"]
+script = ExtResource("3_hn444")
+level = 46
+move = 562
+
+[sub_resource type="Resource" id="Resource_gk1sb"]
+script = ExtResource("3_hn444")
+level = 48
+move = 262
+
+[resource]
+script = ExtResource("4_31334")
+id = 88
+display_name = "Grimer"
+category = "Sludge"
+national_dex = 88
+pokedex = "Born from polluted sludge in the sea,
+Grimer's favorite food is anything filthy.
+They feed on wastewater pumped out from
+factories."
+type_1 = 4
+base_hp = 80
+base_atk = 80
+base_def = 50
+base_spa = 40
+base_spd = 50
+base_spe = 25
+ev_hp = 1
+catch_rate = 190
+base_exp = 65
+egg_group_1 = 11
+ability_1 = 1
+ability_2 = 60
+ability_hidden = 143
+item_rare = 487
+height_dm = 9
+weight_hg = 300
+body_color = 6
+level_moves = Array[ExtResource("3_hn444")]([SubResource("Resource_hgtm2"), SubResource("Resource_b4rk4"), SubResource("Resource_3mh2g"), SubResource("Resource_8mlg4"), SubResource("Resource_14syb"), SubResource("Resource_h0d8f"), SubResource("Resource_shi8d"), SubResource("Resource_08p6m"), SubResource("Resource_0pc4v"), SubResource("Resource_lvpfl"), SubResource("Resource_c8ewr"), SubResource("Resource_e6tlj"), SubResource("Resource_wyuwx"), SubResource("Resource_s5oij"), SubResource("Resource_8cpmd"), SubResource("Resource_gk1sb")])
+egg_moves = Array[int]([114, 212, 122, 286, 174, 325, 425, 254, 256, 255, 184, 491, 612])
+evolutions = Array[ExtResource("1_l6pg4")]([SubResource("Resource_6220i")])
+form_species = Array[int]([88, 970])

@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b5alh2mg10qg7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8n5qe"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wumx2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_673fw"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_flglu"]
+
+[sub_resource type="Resource" id="Resource_knr0e"]
+script = ExtResource("3_673fw")
+level = 0
+move = 667
+
+[sub_resource type="Resource" id="Resource_o2mlx"]
+script = ExtResource("3_673fw")
+move = 100
+
+[sub_resource type="Resource" id="Resource_4aal7"]
+script = ExtResource("3_673fw")
+move = 232
+
+[sub_resource type="Resource" id="Resource_orlh8"]
+script = ExtResource("3_673fw")
+move = 322
+
+[sub_resource type="Resource" id="Resource_bvpma"]
+script = ExtResource("3_673fw")
+move = 568
+
+[sub_resource type="Resource" id="Resource_7phyc"]
+script = ExtResource("3_673fw")
+level = 7
+move = 442
+
+[sub_resource type="Resource" id="Resource_bh444"]
+script = ExtResource("3_673fw")
+level = 14
+move = 319
+
+[sub_resource type="Resource" id="Resource_kij2n"]
+script = ExtResource("3_673fw")
+level = 21
+move = 428
+
+[sub_resource type="Resource" id="Resource_hc675"]
+script = ExtResource("3_673fw")
+level = 28
+move = 430
+
+[sub_resource type="Resource" id="Resource_04yqg"]
+script = ExtResource("3_673fw")
+level = 35
+move = 234
+
+[sub_resource type="Resource" id="Resource_34oq5"]
+script = ExtResource("3_673fw")
+level = 42
+move = 242
+
+[sub_resource type="Resource" id="Resource_tqshp"]
+script = ExtResource("3_673fw")
+level = 49
+move = 368
+
+[sub_resource type="Resource" id="Resource_dwcpi"]
+script = ExtResource("3_673fw")
+level = 56
+move = 528
+
+[sub_resource type="Resource" id="Resource_2kxpc"]
+script = ExtResource("3_673fw")
+level = 63
+move = 76
+
+[sub_resource type="Resource" id="Resource_341pu"]
+script = ExtResource("3_673fw")
+level = 70
+move = 394
+
+[sub_resource type="Resource" id="Resource_85xij"]
+script = ExtResource("3_673fw")
+level = 77
+move = 469
+
+[sub_resource type="Resource" id="Resource_fib8a"]
+script = ExtResource("3_673fw")
+level = 84
+move = 416
+
+[resource]
+script = ExtResource("4_flglu")
+id = 791
+display_name = "Solgaleo"
+category = "Sunne"
+national_dex = 791
+pokedex = "It is said to live in another world.
+The intense light it radiates from the
+surface of its body can make the darkest
+of nights light up like midday."
+type_1 = 15
+type_2 = 9
+base_hp = 137
+base_atk = 137
+base_def = 107
+base_spa = 113
+base_spd = 89
+base_spe = 97
+ev_atk = 3
+catch_rate = 3
+base_exp = 340
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 230
+height_dm = 34
+weight_hg = 2300
+body_color = 8
+level_moves = Array[ExtResource("3_673fw")]([SubResource("Resource_knr0e"), SubResource("Resource_o2mlx"), SubResource("Resource_4aal7"), SubResource("Resource_orlh8"), SubResource("Resource_bvpma"), SubResource("Resource_7phyc"), SubResource("Resource_bh444"), SubResource("Resource_kij2n"), SubResource("Resource_hc675"), SubResource("Resource_04yqg"), SubResource("Resource_34oq5"), SubResource("Resource_tqshp"), SubResource("Resource_dwcpi"), SubResource("Resource_2kxpc"), SubResource("Resource_341pu"), SubResource("Resource_85xij"), SubResource("Resource_fib8a")])

@@ -1,0 +1,52 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ygy6gqub0i3o"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_k06pl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jhmrn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5wfkf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fguak"]
+
+[sub_resource type="Resource" id="Resource_bssaj"]
+script = ExtResource("1_k06pl")
+method = "LEVEL"
+param = "20"
+target = 375
+
+[sub_resource type="Resource" id="Resource_6irlo"]
+script = ExtResource("3_5wfkf")
+move = 33
+
+[resource]
+script = ExtResource("4_fguak")
+id = 374
+display_name = "Beldum"
+category = "Iron Ball"
+national_dex = 374
+pokedex = "When Beldum gather in a swarm, they move
+in perfect unison as if they were but one
+Pokémon. They communicate with each other
+using brain waves."
+type_1 = 9
+type_2 = 15
+base_hp = 40
+base_atk = 55
+base_def = 80
+base_spa = 35
+base_spd = 60
+base_spe = 30
+ev_def = 1
+catch_rate = 3
+base_exp = 60
+base_friendship = 35
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 10
+ability_1 = 29
+ability_hidden = 135
+item_rare = 441
+height_dm = 6
+weight_hg = 952
+body_color = 1
+no_flip = true
+level_moves = Array[ExtResource("3_5wfkf")]([SubResource("Resource_6irlo")])
+evolutions = Array[ExtResource("1_k06pl")]([SubResource("Resource_bssaj")])

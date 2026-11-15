@@ -1,0 +1,135 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cmr2tx10cfd7b"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7cewh"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7x5lf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fdkdb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cvh6i"]
+
+[sub_resource type="Resource" id="Resource_07226"]
+script = ExtResource("1_7cewh")
+method = "LEVEL"
+param = "38"
+target = 611
+
+[sub_resource type="Resource" id="Resource_cw8cw"]
+script = ExtResource("3_fdkdb")
+move = 10
+
+[sub_resource type="Resource" id="Resource_846on"]
+script = ExtResource("3_fdkdb")
+move = 43
+
+[sub_resource type="Resource" id="Resource_6xcgk"]
+script = ExtResource("3_fdkdb")
+level = 3
+move = 44
+
+[sub_resource type="Resource" id="Resource_5d17f"]
+script = ExtResource("3_fdkdb")
+level = 6
+move = 206
+
+[sub_resource type="Resource" id="Resource_t5sbx"]
+script = ExtResource("3_fdkdb")
+level = 9
+move = 372
+
+[sub_resource type="Resource" id="Resource_g5koj"]
+script = ExtResource("3_fdkdb")
+level = 12
+move = 269
+
+[sub_resource type="Resource" id="Resource_rqww3"]
+script = ExtResource("3_fdkdb")
+level = 15
+move = 163
+
+[sub_resource type="Resource" id="Resource_eiuw7"]
+script = ExtResource("3_fdkdb")
+level = 18
+move = 337
+
+[sub_resource type="Resource" id="Resource_nswlm"]
+script = ExtResource("3_fdkdb")
+level = 21
+move = 184
+
+[sub_resource type="Resource" id="Resource_jxkxq"]
+script = ExtResource("3_fdkdb")
+level = 24
+move = 242
+
+[sub_resource type="Resource" id="Resource_evfgc"]
+script = ExtResource("3_fdkdb")
+level = 27
+move = 349
+
+[sub_resource type="Resource" id="Resource_0yqba"]
+script = ExtResource("3_fdkdb")
+level = 30
+move = 712
+
+[sub_resource type="Resource" id="Resource_frj0o"]
+script = ExtResource("3_fdkdb")
+level = 33
+move = 116
+
+[sub_resource type="Resource" id="Resource_njw3q"]
+script = ExtResource("3_fdkdb")
+level = 36
+move = 406
+
+[sub_resource type="Resource" id="Resource_2xe5p"]
+script = ExtResource("3_fdkdb")
+level = 39
+move = 14
+
+[sub_resource type="Resource" id="Resource_k571k"]
+script = ExtResource("3_fdkdb")
+level = 42
+move = 200
+
+[sub_resource type="Resource" id="Resource_jvl5r"]
+script = ExtResource("3_fdkdb")
+level = 45
+move = 12
+
+[sub_resource type="Resource" id="Resource_16m7b"]
+script = ExtResource("3_fdkdb")
+level = 48
+move = 416
+
+[resource]
+script = ExtResource("4_cvh6i")
+id = 610
+display_name = "Axew"
+category = "Tusk"
+national_dex = 610
+pokedex = "They mark their territory by leaving
+gashes in trees with their tusks. If a
+tusk breaks, a new one grows in quickly,
+harder and sturdier than the last."
+type_1 = 17
+base_hp = 46
+base_atk = 87
+base_def = 60
+base_spa = 30
+base_spd = 40
+base_spe = 57
+ev_atk = 1
+catch_rate = 75
+base_exp = 64
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 79
+ability_2 = 104
+ability_hidden = 127
+height_dm = 6
+weight_hg = 180
+body_color = 3
+level_moves = Array[ExtResource("3_fdkdb")]([SubResource("Resource_cw8cw"), SubResource("Resource_846on"), SubResource("Resource_6xcgk"), SubResource("Resource_5d17f"), SubResource("Resource_t5sbx"), SubResource("Resource_g5koj"), SubResource("Resource_rqww3"), SubResource("Resource_eiuw7"), SubResource("Resource_nswlm"), SubResource("Resource_jxkxq"), SubResource("Resource_evfgc"), SubResource("Resource_0yqba"), SubResource("Resource_frj0o"), SubResource("Resource_njw3q"), SubResource("Resource_2xe5p"), SubResource("Resource_k571k"), SubResource("Resource_jvl5r"), SubResource("Resource_16m7b")])
+egg_moves = Array[int]([68, 116, 179, 203, 13, 400, 283, 231, 406, 106])
+evolutions = Array[ExtResource("1_7cewh")]([SubResource("Resource_07226")])

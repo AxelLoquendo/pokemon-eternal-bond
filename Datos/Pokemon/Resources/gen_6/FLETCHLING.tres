@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfye2mtkn3xho"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_gxk7s"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_xi8lr"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5wdu0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4t21n"]
+
+[sub_resource type="Resource" id="Resource_vxida"]
+script = ExtResource("1_gxk7s")
+method = "LEVEL"
+param = "17"
+target = 662
+
+[sub_resource type="Resource" id="Resource_hhmd2"]
+script = ExtResource("3_5wdu0")
+move = 45
+
+[sub_resource type="Resource" id="Resource_2d0ao"]
+script = ExtResource("3_5wdu0")
+move = 64
+
+[sub_resource type="Resource" id="Resource_sl6ks"]
+script = ExtResource("3_5wdu0")
+level = 5
+move = 98
+
+[sub_resource type="Resource" id="Resource_qbqsr"]
+script = ExtResource("3_5wdu0")
+level = 10
+move = 52
+
+[sub_resource type="Resource" id="Resource_llo1o"]
+script = ExtResource("3_5wdu0")
+level = 15
+move = 175
+
+[sub_resource type="Resource" id="Resource_ipirb"]
+script = ExtResource("3_5wdu0")
+level = 20
+move = 512
+
+[sub_resource type="Resource" id="Resource_qhebb"]
+script = ExtResource("3_5wdu0")
+level = 25
+move = 97
+
+[sub_resource type="Resource" id="Resource_n5pv6"]
+script = ExtResource("3_5wdu0")
+level = 30
+move = 332
+
+[sub_resource type="Resource" id="Resource_pmg0f"]
+script = ExtResource("3_5wdu0")
+level = 35
+move = 366
+
+[sub_resource type="Resource" id="Resource_6kvp0"]
+script = ExtResource("3_5wdu0")
+level = 40
+move = 211
+
+[sub_resource type="Resource" id="Resource_askdn"]
+script = ExtResource("3_5wdu0")
+level = 45
+move = 355
+
+[sub_resource type="Resource" id="Resource_81lcg"]
+script = ExtResource("3_5wdu0")
+level = 50
+move = 19
+
+[resource]
+script = ExtResource("4_4t21n")
+id = 661
+display_name = "Fletchling"
+category = "Tiny Robin"
+national_dex = 661
+pokedex = "This amiable Pokémon is easy to train.
+But when battle is joined, it shows its
+ferocious side. It's merciless to
+intruders that enter its territory."
+type_1 = 1
+type_2 = 3
+base_hp = 45
+base_atk = 50
+base_def = 43
+base_spa = 40
+base_spd = 38
+base_spe = 62
+ev_spe = 1
+catch_rate = 255
+base_exp = 56
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 145
+ability_hidden = 177
+height_dm = 3
+weight_hg = 17
+level_moves = Array[ExtResource("3_5wdu0")]([SubResource("Resource_hhmd2"), SubResource("Resource_2d0ao"), SubResource("Resource_sl6ks"), SubResource("Resource_qbqsr"), SubResource("Resource_llo1o"), SubResource("Resource_ipirb"), SubResource("Resource_qhebb"), SubResource("Resource_n5pv6"), SubResource("Resource_pmg0f"), SubResource("Resource_6kvp0"), SubResource("Resource_askdn"), SubResource("Resource_81lcg")])
+egg_moves = Array[int]([366, 289, 501])
+evolutions = Array[ExtResource("1_gxk7s")]([SubResource("Resource_vxida")])

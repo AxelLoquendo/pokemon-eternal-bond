@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://vxgtljeriifn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fa8c0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wpu5k"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7mmmf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5ri0q"]
+
+[sub_resource type="Resource" id="Resource_alc6k"]
+script = ExtResource("3_7mmmf")
+move = 1
+
+[sub_resource type="Resource" id="Resource_pxxra"]
+script = ExtResource("3_7mmmf")
+move = 266
+
+[sub_resource type="Resource" id="Resource_w43sr"]
+script = ExtResource("3_7mmmf")
+move = 608
+
+[sub_resource type="Resource" id="Resource_2tg3w"]
+script = ExtResource("3_7mmmf")
+move = 808
+
+[sub_resource type="Resource" id="Resource_tn6c6"]
+script = ExtResource("3_7mmmf")
+level = 5
+move = 497
+
+[sub_resource type="Resource" id="Resource_xwqcl"]
+script = ExtResource("3_7mmmf")
+level = 8
+move = 270
+
+[sub_resource type="Resource" id="Resource_b4ijk"]
+script = ExtResource("3_7mmmf")
+level = 11
+move = 162
+
+[sub_resource type="Resource" id="Resource_4md2m"]
+script = ExtResource("3_7mmmf")
+level = 14
+move = 458
+
+[sub_resource type="Resource" id="Resource_3tlq5"]
+script = ExtResource("3_7mmmf")
+level = 18
+move = 331
+
+[sub_resource type="Resource" id="Resource_hu3h3"]
+script = ExtResource("3_7mmmf")
+level = 22
+move = 227
+
+[sub_resource type="Resource" id="Resource_btgea"]
+script = ExtResource("3_7mmmf")
+level = 29
+move = 583
+
+[sub_resource type="Resource" id="Resource_dpt42"]
+script = ExtResource("3_7mmmf")
+level = 33
+move = 304
+
+[sub_resource type="Resource" id="Resource_ulwgp"]
+script = ExtResource("3_7mmmf")
+level = 37
+move = 204
+
+[sub_resource type="Resource" id="Resource_7531p"]
+script = ExtResource("3_7mmmf")
+level = 41
+move = 251
+
+[sub_resource type="Resource" id="Resource_rfv3b"]
+script = ExtResource("3_7mmmf")
+level = 46
+move = 383
+
+[sub_resource type="Resource" id="Resource_ydoid"]
+script = ExtResource("3_7mmmf")
+level = 53
+move = 788
+
+[resource]
+script = ExtResource("4_5ri0q")
+id = 1310
+display_name = "Maushold"
+category = "Family"
+national_dex = 925
+pokedex = "The larger pair protects the little
+ones during battles. When facing
+strong opponents, the whole group
+will join the fight."
+type_1 = 1
+base_hp = 74
+base_atk = 75
+base_def = 70
+base_spa = 65
+base_spd = 75
+base_spe = 111
+ev_spe = 2
+catch_rate = 75
+base_exp = 165
+gender_ratio = 255
+growth_rate = 4
+egg_cycles = 10
+egg_group_1 = 5
+egg_group_2 = 6
+ability_1 = 132
+ability_2 = 167
+ability_hidden = 101
+height_dm = 3
+weight_hg = 28
+body_color = 8
+level_moves = Array[ExtResource("3_7mmmf")]([SubResource("Resource_alc6k"), SubResource("Resource_pxxra"), SubResource("Resource_w43sr"), SubResource("Resource_2tg3w"), SubResource("Resource_tn6c6"), SubResource("Resource_xwqcl"), SubResource("Resource_b4ijk"), SubResource("Resource_4md2m"), SubResource("Resource_3tlq5"), SubResource("Resource_hu3h3"), SubResource("Resource_btgea"), SubResource("Resource_dpt42"), SubResource("Resource_ulwgp"), SubResource("Resource_7531p"), SubResource("Resource_rfv3b"), SubResource("Resource_ydoid")])
+form_species = Array[int]([1309, 1310])

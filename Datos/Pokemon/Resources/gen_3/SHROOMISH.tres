@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cn8ar14lgngpf"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3ry06"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6ujto"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5kipe"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1hh8c"]
+
+[sub_resource type="Resource" id="Resource_a51kk"]
+script = ExtResource("1_3ry06")
+method = "LEVEL"
+param = "23"
+target = 286
+
+[sub_resource type="Resource" id="Resource_fiute"]
+script = ExtResource("3_5kipe")
+move = 33
+
+[sub_resource type="Resource" id="Resource_k7e5m"]
+script = ExtResource("3_5kipe")
+move = 71
+
+[sub_resource type="Resource" id="Resource_j1jcc"]
+script = ExtResource("3_5kipe")
+level = 5
+move = 78
+
+[sub_resource type="Resource" id="Resource_fjygv"]
+script = ExtResource("3_5kipe")
+level = 8
+move = 73
+
+[sub_resource type="Resource" id="Resource_isd5j"]
+script = ExtResource("3_5kipe")
+level = 12
+move = 72
+
+[sub_resource type="Resource" id="Resource_7s7se"]
+script = ExtResource("3_5kipe")
+level = 15
+move = 29
+
+[sub_resource type="Resource" id="Resource_6r1rs"]
+script = ExtResource("3_5kipe")
+level = 19
+move = 77
+
+[sub_resource type="Resource" id="Resource_kuxp1"]
+script = ExtResource("3_5kipe")
+level = 26
+move = 202
+
+[sub_resource type="Resource" id="Resource_jg8fi"]
+script = ExtResource("3_5kipe")
+level = 29
+move = 74
+
+[sub_resource type="Resource" id="Resource_akogl"]
+script = ExtResource("3_5kipe")
+level = 33
+move = 92
+
+[sub_resource type="Resource" id="Resource_0dpm3"]
+script = ExtResource("3_5kipe")
+level = 36
+move = 402
+
+[sub_resource type="Resource" id="Resource_sm32h"]
+script = ExtResource("3_5kipe")
+level = 40
+move = 147
+
+[resource]
+script = ExtResource("4_1hh8c")
+id = 285
+display_name = "Shroomish"
+category = "Mushroom"
+national_dex = 285
+pokedex = "It loves to eat damp, composted soil in
+forests. If you enter a forest after a
+long rain, you can see many Shroomish
+feasting on composted soil."
+type_1 = 13
+base_hp = 60
+base_atk = 40
+base_def = 60
+base_spa = 40
+base_spd = 60
+base_spe = 35
+ev_hp = 1
+catch_rate = 255
+base_exp = 59
+growth_rate = 2
+egg_cycles = 15
+egg_group_1 = 6
+egg_group_2 = 7
+ability_1 = 27
+ability_hidden = 95
+item_common = 137
+item_rare = 138
+height_dm = 4
+weight_hg = 45
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_5kipe")]([SubResource("Resource_fiute"), SubResource("Resource_k7e5m"), SubResource("Resource_j1jcc"), SubResource("Resource_fjygv"), SubResource("Resource_isd5j"), SubResource("Resource_7s7se"), SubResource("Resource_6r1rs"), SubResource("Resource_kuxp1"), SubResource("Resource_jg8fi"), SubResource("Resource_akogl"), SubResource("Resource_0dpm3"), SubResource("Resource_sm32h")])
+egg_moves = Array[int]([313, 204, 270, 388, 358, 402, 331, 264, 363, 409])
+evolutions = Array[ExtResource("1_3ry06")]([SubResource("Resource_a51kk")])

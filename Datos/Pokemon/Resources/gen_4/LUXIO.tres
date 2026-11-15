@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://brfffrub3ko2m"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_s5l4w"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2ue6s"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_v4mj5"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_11gy7"]
+
+[sub_resource type="Resource" id="Resource_7yknu"]
+script = ExtResource("1_s5l4w")
+method = "LEVEL"
+param = "30"
+target = 405
+
+[sub_resource type="Resource" id="Resource_cqypa"]
+script = ExtResource("3_v4mj5")
+move = 33
+
+[sub_resource type="Resource" id="Resource_o26t6"]
+script = ExtResource("3_v4mj5")
+move = 43
+
+[sub_resource type="Resource" id="Resource_uy4kg"]
+script = ExtResource("3_v4mj5")
+move = 84
+
+[sub_resource type="Resource" id="Resource_ua84t"]
+script = ExtResource("3_v4mj5")
+move = 268
+
+[sub_resource type="Resource" id="Resource_eys2x"]
+script = ExtResource("3_v4mj5")
+level = 12
+move = 44
+
+[sub_resource type="Resource" id="Resource_gpbyi"]
+script = ExtResource("3_v4mj5")
+level = 18
+move = 209
+
+[sub_resource type="Resource" id="Resource_1ykiv"]
+script = ExtResource("3_v4mj5")
+level = 24
+move = 46
+
+[sub_resource type="Resource" id="Resource_wxjn8"]
+script = ExtResource("3_v4mj5")
+level = 31
+move = 521
+
+[sub_resource type="Resource" id="Resource_i1g5s"]
+script = ExtResource("3_v4mj5")
+level = 36
+move = 184
+
+[sub_resource type="Resource" id="Resource_g2bul"]
+script = ExtResource("3_v4mj5")
+level = 42
+move = 86
+
+[sub_resource type="Resource" id="Resource_0ct0q"]
+script = ExtResource("3_v4mj5")
+level = 48
+move = 242
+
+[sub_resource type="Resource" id="Resource_6gcim"]
+script = ExtResource("3_v4mj5")
+level = 54
+move = 435
+
+[sub_resource type="Resource" id="Resource_aspve"]
+script = ExtResource("3_v4mj5")
+level = 60
+move = 207
+
+[sub_resource type="Resource" id="Resource_4swf7"]
+script = ExtResource("3_v4mj5")
+level = 68
+move = 528
+
+[resource]
+script = ExtResource("4_11gy7")
+id = 404
+display_name = "Luxio"
+category = "Spark"
+national_dex = 404
+pokedex = "Strong electricity courses through the
+tips of its sharp claws. A light scratch
+has enough amperage to cause fainting
+in foes."
+type_1 = 14
+base_hp = 60
+base_atk = 85
+base_def = 49
+base_spa = 60
+base_spd = 49
+base_spe = 60
+ev_atk = 2
+catch_rate = 120
+base_exp = 127
+base_friendship = 100
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 79
+ability_2 = 22
+ability_hidden = 62
+height_dm = 9
+weight_hg = 305
+body_color = 1
+level_moves = Array[ExtResource("3_v4mj5")]([SubResource("Resource_cqypa"), SubResource("Resource_o26t6"), SubResource("Resource_uy4kg"), SubResource("Resource_ua84t"), SubResource("Resource_eys2x"), SubResource("Resource_gpbyi"), SubResource("Resource_1ykiv"), SubResource("Resource_wxjn8"), SubResource("Resource_i1g5s"), SubResource("Resource_g2bul"), SubResource("Resource_0ct0q"), SubResource("Resource_6gcim"), SubResource("Resource_aspve"), SubResource("Resource_4swf7")])
+evolutions = Array[ExtResource("1_s5l4w")]([SubResource("Resource_7yknu")])

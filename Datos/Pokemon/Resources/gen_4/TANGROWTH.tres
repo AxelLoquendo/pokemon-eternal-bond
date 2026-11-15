@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ch4m0efy0g752"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_2bh53"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ss0gi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ua3jk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1lh2y"]
+
+[sub_resource type="Resource" id="Resource_ny6l2"]
+script = ExtResource("3_ua3jk")
+move = 335
+
+[sub_resource type="Resource" id="Resource_l67bj"]
+script = ExtResource("3_ua3jk")
+move = 71
+
+[sub_resource type="Resource" id="Resource_o1y2g"]
+script = ExtResource("3_ua3jk")
+move = 20
+
+[sub_resource type="Resource" id="Resource_ojkw3"]
+script = ExtResource("3_ua3jk")
+move = 78
+
+[sub_resource type="Resource" id="Resource_vmkst"]
+script = ExtResource("3_ua3jk")
+move = 74
+
+[sub_resource type="Resource" id="Resource_qyte3"]
+script = ExtResource("3_ua3jk")
+level = 12
+move = 72
+
+[sub_resource type="Resource" id="Resource_2lucs"]
+script = ExtResource("3_ua3jk")
+level = 16
+move = 22
+
+[sub_resource type="Resource" id="Resource_dwtla"]
+script = ExtResource("3_ua3jk")
+level = 20
+move = 77
+
+[sub_resource type="Resource" id="Resource_6exfu"]
+script = ExtResource("3_ua3jk")
+level = 24
+move = 246
+
+[sub_resource type="Resource" id="Resource_1cr1k"]
+script = ExtResource("3_ua3jk")
+level = 28
+move = 282
+
+[sub_resource type="Resource" id="Resource_ha6yu"]
+script = ExtResource("3_ua3jk")
+level = 32
+move = 202
+
+[sub_resource type="Resource" id="Resource_iy42w"]
+script = ExtResource("3_ua3jk")
+level = 36
+move = 79
+
+[sub_resource type="Resource" id="Resource_0tptn"]
+script = ExtResource("3_ua3jk")
+level = 40
+move = 21
+
+[sub_resource type="Resource" id="Resource_00f2f"]
+script = ExtResource("3_ua3jk")
+level = 44
+move = 321
+
+[sub_resource type="Resource" id="Resource_qdhfq"]
+script = ExtResource("3_ua3jk")
+level = 48
+move = 438
+
+[sub_resource type="Resource" id="Resource_gwarb"]
+script = ExtResource("3_ua3jk")
+level = 52
+move = 275
+
+[sub_resource type="Resource" id="Resource_bl8a4"]
+script = ExtResource("3_ua3jk")
+level = 56
+move = 580
+
+[resource]
+script = ExtResource("4_1lh2y")
+id = 465
+display_name = "Tangrowth"
+category = "Vine"
+national_dex = 465
+pokedex = "It ensnares prey by extending arms made
+of vines. Even if one of its arms is eaten,
+it's fine. The Pokémon regenerates quickly
+and will go right back to normal."
+type_1 = 13
+base_hp = 100
+base_atk = 100
+base_def = 125
+base_spa = 110
+base_spd = 50
+base_spe = 50
+ev_def = 2
+catch_rate = 30
+base_exp = 187
+egg_group_1 = 7
+ability_1 = 34
+ability_2 = 102
+ability_hidden = 144
+height_dm = 20
+weight_hg = 1286
+body_color = 1
+level_moves = Array[ExtResource("3_ua3jk")]([SubResource("Resource_ny6l2"), SubResource("Resource_l67bj"), SubResource("Resource_o1y2g"), SubResource("Resource_ojkw3"), SubResource("Resource_vmkst"), SubResource("Resource_qyte3"), SubResource("Resource_2lucs"), SubResource("Resource_dwtla"), SubResource("Resource_6exfu"), SubResource("Resource_1cr1k"), SubResource("Resource_ha6yu"), SubResource("Resource_iy42w"), SubResource("Resource_0tptn"), SubResource("Resource_00f2f"), SubResource("Resource_qdhfq"), SubResource("Resource_gwarb"), SubResource("Resource_bl8a4")])

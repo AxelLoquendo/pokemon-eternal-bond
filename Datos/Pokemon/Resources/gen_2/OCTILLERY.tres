@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cn3kutc7udj6o"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_iiiaw"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_h5jcm"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_tefqg"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cyw3h"]
+
+[sub_resource type="Resource" id="Resource_bs58m"]
+script = ExtResource("3_tefqg")
+level = 0
+move = 190
+
+[sub_resource type="Resource" id="Resource_2vs35"]
+script = ExtResource("3_tefqg")
+move = 190
+
+[sub_resource type="Resource" id="Resource_owhg1"]
+script = ExtResource("3_tefqg")
+move = 441
+
+[sub_resource type="Resource" id="Resource_2762j"]
+script = ExtResource("3_tefqg")
+move = 350
+
+[sub_resource type="Resource" id="Resource_dyou2"]
+script = ExtResource("3_tefqg")
+move = 270
+
+[sub_resource type="Resource" id="Resource_pkuar"]
+script = ExtResource("3_tefqg")
+move = 55
+
+[sub_resource type="Resource" id="Resource_dqc3j"]
+script = ExtResource("3_tefqg")
+move = 35
+
+[sub_resource type="Resource" id="Resource_np0vw"]
+script = ExtResource("3_tefqg")
+move = 352
+
+[sub_resource type="Resource" id="Resource_wvuby"]
+script = ExtResource("3_tefqg")
+move = 116
+
+[sub_resource type="Resource" id="Resource_iw30x"]
+script = ExtResource("3_tefqg")
+level = 12
+move = 60
+
+[sub_resource type="Resource" id="Resource_v6lfy"]
+script = ExtResource("3_tefqg")
+level = 16
+move = 62
+
+[sub_resource type="Resource" id="Resource_nqdnb"]
+script = ExtResource("3_tefqg")
+level = 20
+move = 61
+
+[sub_resource type="Resource" id="Resource_unddi"]
+script = ExtResource("3_tefqg")
+level = 24
+move = 199
+
+[sub_resource type="Resource" id="Resource_alsfm"]
+script = ExtResource("3_tefqg")
+level = 30
+move = 331
+
+[sub_resource type="Resource" id="Resource_fwa7d"]
+script = ExtResource("3_tefqg")
+level = 36
+move = 58
+
+[sub_resource type="Resource" id="Resource_sb5ir"]
+script = ExtResource("3_tefqg")
+level = 42
+move = 56
+
+[sub_resource type="Resource" id="Resource_dywel"]
+script = ExtResource("3_tefqg")
+level = 48
+move = 487
+
+[sub_resource type="Resource" id="Resource_ooiys"]
+script = ExtResource("3_tefqg")
+level = 54
+move = 63
+
+[resource]
+script = ExtResource("4_cyw3h")
+id = 224
+display_name = "Octillery"
+category = "Jet"
+national_dex = 224
+pokedex = "It ensnares its foe with its suction-
+cupped tentacles before delivering the
+finishing blow. If the foe turns out to be
+too strong, it spews ink to escape."
+type_1 = 12
+base_hp = 75
+base_atk = 105
+base_def = 75
+base_spa = 105
+base_spd = 75
+base_spe = 45
+ev_atk = 1
+ev_spa = 1
+catch_rate = 75
+base_exp = 168
+egg_group_1 = 2
+egg_group_2 = 12
+ability_1 = 21
+ability_hidden = 141
+height_dm = 9
+weight_hg = 285
+level_moves = Array[ExtResource("3_tefqg")]([SubResource("Resource_bs58m"), SubResource("Resource_2vs35"), SubResource("Resource_owhg1"), SubResource("Resource_2762j"), SubResource("Resource_dyou2"), SubResource("Resource_pkuar"), SubResource("Resource_dqc3j"), SubResource("Resource_np0vw"), SubResource("Resource_wvuby"), SubResource("Resource_iw30x"), SubResource("Resource_v6lfy"), SubResource("Resource_nqdnb"), SubResource("Resource_unddi"), SubResource("Resource_alsfm"), SubResource("Resource_fwa7d"), SubResource("Resource_sb5ir"), SubResource("Resource_dywel"), SubResource("Resource_ooiys")])

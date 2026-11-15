@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bqqrrlh4mqcmi"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7b030"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1a2nv"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rh08f"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_eddgf"]
+
+[sub_resource type="Resource" id="Resource_dj8xa"]
+script = ExtResource("3_rh08f")
+level = 0
+move = 29
+
+[sub_resource type="Resource" id="Resource_wmuup"]
+script = ExtResource("3_rh08f")
+move = 310
+
+[sub_resource type="Resource" id="Resource_rol6r"]
+script = ExtResource("3_rh08f")
+move = 74
+
+[sub_resource type="Resource" id="Resource_j4g3t"]
+script = ExtResource("3_rh08f")
+move = 278
+
+[sub_resource type="Resource" id="Resource_ru5ys"]
+script = ExtResource("3_rh08f")
+move = 110
+
+[sub_resource type="Resource" id="Resource_6bocy"]
+script = ExtResource("3_rh08f")
+move = 230
+
+[sub_resource type="Resource" id="Resource_70373"]
+script = ExtResource("3_rh08f")
+level = 4
+move = 174
+
+[sub_resource type="Resource" id="Resource_1a5e2"]
+script = ExtResource("3_rh08f")
+level = 8
+move = 23
+
+[sub_resource type="Resource" id="Resource_xvqgk"]
+script = ExtResource("3_rh08f")
+level = 12
+move = 73
+
+[sub_resource type="Resource" id="Resource_obmbt"]
+script = ExtResource("3_rh08f")
+level = 16
+move = 182
+
+[sub_resource type="Resource" id="Resource_fig6m"]
+script = ExtResource("3_rh08f")
+level = 20
+move = 331
+
+[sub_resource type="Resource" id="Resource_yuj2y"]
+script = ExtResource("3_rh08f")
+level = 24
+move = 105
+
+[sub_resource type="Resource" id="Resource_ftn8x"]
+script = ExtResource("3_rh08f")
+level = 28
+move = 715
+
+[sub_resource type="Resource" id="Resource_wciwj"]
+script = ExtResource("3_rh08f")
+level = 32
+move = 34
+
+[sub_resource type="Resource" id="Resource_clxic"]
+script = ExtResource("3_rh08f")
+level = 36
+move = 334
+
+[sub_resource type="Resource" id="Resource_2m1oe"]
+script = ExtResource("3_rh08f")
+level = 40
+move = 406
+
+[sub_resource type="Resource" id="Resource_57dqa"]
+script = ExtResource("3_rh08f")
+level = 44
+move = 412
+
+[resource]
+script = ExtResource("4_eddgf")
+id = 842
+display_name = "Appletun"
+category = "Apple Nectar"
+national_dex = 842
+pokedex = "Eating a sweet apple caused its evolution.
+A nectarous scent wafts from its body,
+luring in the bug Pokémon it preys on."
+type_1 = 13
+type_2 = 17
+base_hp = 110
+base_atk = 85
+base_def = 80
+base_spa = 100
+base_spd = 80
+base_spe = 30
+ev_hp = 2
+base_exp = 170
+growth_rate = 1
+egg_group_1 = 7
+egg_group_2 = 14
+ability_1 = 247
+ability_2 = 82
+ability_hidden = 47
+height_dm = 4
+weight_hg = 130
+body_color = 3
+level_moves = Array[ExtResource("3_rh08f")]([SubResource("Resource_dj8xa"), SubResource("Resource_wmuup"), SubResource("Resource_rol6r"), SubResource("Resource_j4g3t"), SubResource("Resource_ru5ys"), SubResource("Resource_6bocy"), SubResource("Resource_70373"), SubResource("Resource_1a5e2"), SubResource("Resource_xvqgk"), SubResource("Resource_obmbt"), SubResource("Resource_fig6m"), SubResource("Resource_yuj2y"), SubResource("Resource_ftn8x"), SubResource("Resource_wciwj"), SubResource("Resource_clxic"), SubResource("Resource_2m1oe"), SubResource("Resource_57dqa")])
+form_species = Array[int]([842, 1511])

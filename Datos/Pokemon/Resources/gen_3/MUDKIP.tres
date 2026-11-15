@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://diammx3rw3rrl"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_eykk6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3t4ja"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cr8pu"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mel6q"]
+
+[sub_resource type="Resource" id="Resource_7k2r0"]
+script = ExtResource("1_eykk6")
+method = "LEVEL"
+param = "16"
+target = 259
+
+[sub_resource type="Resource" id="Resource_txvvq"]
+script = ExtResource("3_cr8pu")
+move = 33
+
+[sub_resource type="Resource" id="Resource_aof7f"]
+script = ExtResource("3_cr8pu")
+move = 45
+
+[sub_resource type="Resource" id="Resource_abgk7"]
+script = ExtResource("3_cr8pu")
+level = 3
+move = 55
+
+[sub_resource type="Resource" id="Resource_nns80"]
+script = ExtResource("3_cr8pu")
+level = 6
+move = 249
+
+[sub_resource type="Resource" id="Resource_7hbu4"]
+script = ExtResource("3_cr8pu")
+level = 9
+move = 88
+
+[sub_resource type="Resource" id="Resource_82330"]
+script = ExtResource("3_cr8pu")
+level = 12
+move = 182
+
+[sub_resource type="Resource" id="Resource_vvuaw"]
+script = ExtResource("3_cr8pu")
+level = 15
+move = 48
+
+[sub_resource type="Resource" id="Resource_s8l1k"]
+script = ExtResource("3_cr8pu")
+level = 18
+move = 352
+
+[sub_resource type="Resource" id="Resource_eqgnd"]
+script = ExtResource("3_cr8pu")
+level = 21
+move = 157
+
+[sub_resource type="Resource" id="Resource_vrs2u"]
+script = ExtResource("3_cr8pu")
+level = 24
+move = 36
+
+[sub_resource type="Resource" id="Resource_8xkpa"]
+script = ExtResource("3_cr8pu")
+level = 27
+move = 133
+
+[sub_resource type="Resource" id="Resource_p4u1w"]
+script = ExtResource("3_cr8pu")
+level = 30
+move = 57
+
+[sub_resource type="Resource" id="Resource_2hfk5"]
+script = ExtResource("3_cr8pu")
+level = 33
+move = 103
+
+[sub_resource type="Resource" id="Resource_6mpo6"]
+script = ExtResource("3_cr8pu")
+level = 36
+move = 283
+
+[sub_resource type="Resource" id="Resource_1382r"]
+script = ExtResource("3_cr8pu")
+level = 39
+move = 56
+
+[resource]
+script = ExtResource("4_mel6q")
+id = 258
+display_name = "Mudkip"
+category = "Mud Fish"
+national_dex = 258
+pokedex = "On land, it can powerfully lift large
+boulders by planting its four feet and
+heaving. It sleeps by burying itself in soil
+at the water's edge."
+type_1 = 12
+base_hp = 50
+base_atk = 70
+base_def = 50
+base_spa = 50
+base_spd = 50
+base_spe = 40
+ev_atk = 1
+base_exp = 62
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 67
+ability_hidden = 6
+height_dm = 4
+weight_hg = 76
+body_color = 1
+level_moves = Array[ExtResource("3_cr8pu")]([SubResource("Resource_txvvq"), SubResource("Resource_aof7f"), SubResource("Resource_abgk7"), SubResource("Resource_nns80"), SubResource("Resource_7hbu4"), SubResource("Resource_82330"), SubResource("Resource_vvuaw"), SubResource("Resource_s8l1k"), SubResource("Resource_eqgnd"), SubResource("Resource_vrs2u"), SubResource("Resource_8xkpa"), SubResource("Resource_p4u1w"), SubResource("Resource_2hfk5"), SubResource("Resource_6mpo6"), SubResource("Resource_1382r")])
+egg_moves = Array[int]([287, 253, 174, 23, 301, 243, 68, 246, 250, 44, 38, 426, 281, 124, 419, 469, 112])
+evolutions = Array[ExtResource("1_eykk6")]([SubResource("Resource_7k2r0")])

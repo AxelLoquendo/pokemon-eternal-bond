@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bbokgrnswvc2y"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ofwc8"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_l7kla"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6umxq"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_twkpy"]
+
+[sub_resource type="Resource" id="Resource_b40si"]
+script = ExtResource("3_6umxq")
+level = 0
+move = 532
+
+[sub_resource type="Resource" id="Resource_pbig6"]
+script = ExtResource("3_6umxq")
+move = 28
+
+[sub_resource type="Resource" id="Resource_j7rd1"]
+script = ExtResource("3_6umxq")
+move = 33
+
+[sub_resource type="Resource" id="Resource_1n76e"]
+script = ExtResource("3_6umxq")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ebpo0"]
+script = ExtResource("3_6umxq")
+move = 224
+
+[sub_resource type="Resource" id="Resource_j88cx"]
+script = ExtResource("3_6umxq")
+level = 10
+move = 24
+
+[sub_resource type="Resource" id="Resource_1o525"]
+script = ExtResource("3_6umxq")
+level = 13
+move = 73
+
+[sub_resource type="Resource" id="Resource_loq3g"]
+script = ExtResource("3_6umxq")
+level = 16
+move = 331
+
+[sub_resource type="Resource" id="Resource_kkarc"]
+script = ExtResource("3_6umxq")
+level = 20
+move = 36
+
+[sub_resource type="Resource" id="Resource_jkgwp"]
+script = ExtResource("3_6umxq")
+level = 24
+move = 428
+
+[sub_resource type="Resource" id="Resource_r0upr"]
+script = ExtResource("3_6umxq")
+level = 28
+move = 412
+
+[sub_resource type="Resource" id="Resource_ypnty"]
+script = ExtResource("3_6umxq")
+level = 36
+move = 204
+
+[sub_resource type="Resource" id="Resource_dl08x"]
+script = ExtResource("3_6umxq")
+level = 44
+move = 38
+
+[sub_resource type="Resource" id="Resource_5p470"]
+script = ExtResource("3_6umxq")
+level = 52
+move = 76
+
+[resource]
+script = ExtResource("4_twkpy")
+id = 1098
+display_name = "Sawsbuck"
+category = "Season"
+national_dex = 586
+pokedex = "Sawsbuck in their Autumn Form are
+known for having very short
+tempers. The males fight each other
+incessantly."
+type_1 = 1
+type_2 = 13
+base_hp = 80
+base_atk = 100
+base_def = 70
+base_spa = 60
+base_spd = 70
+base_spe = 95
+ev_atk = 2
+catch_rate = 75
+base_exp = 166
+egg_group_1 = 5
+ability_1 = 34
+ability_2 = 157
+ability_hidden = 32
+height_dm = 19
+weight_hg = 925
+body_color = 5
+level_moves = Array[ExtResource("3_6umxq")]([SubResource("Resource_b40si"), SubResource("Resource_pbig6"), SubResource("Resource_j7rd1"), SubResource("Resource_1n76e"), SubResource("Resource_ebpo0"), SubResource("Resource_j88cx"), SubResource("Resource_1o525"), SubResource("Resource_loq3g"), SubResource("Resource_kkarc"), SubResource("Resource_jkgwp"), SubResource("Resource_r0upr"), SubResource("Resource_ypnty"), SubResource("Resource_dl08x"), SubResource("Resource_5p470")])
+form_species = Array[int]([586, 1097, 1098, 1099])

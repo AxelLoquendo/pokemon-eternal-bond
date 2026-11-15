@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b64uyck8bibfk"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3jyyu"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jljrj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_085kj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_epym6"]
+
+[sub_resource type="Resource" id="Resource_lj8nk"]
+script = ExtResource("1_3jyyu")
+method = "LEVEL"
+param = "40"
+target = 1355
+
+[sub_resource type="Resource" id="Resource_a1hc3"]
+script = ExtResource("3_085kj")
+move = 122
+
+[sub_resource type="Resource" id="Resource_p6kbg"]
+script = ExtResource("3_085kj")
+move = 139
+
+[sub_resource type="Resource" id="Resource_2df2d"]
+script = ExtResource("3_085kj")
+level = 4
+move = 123
+
+[sub_resource type="Resource" id="Resource_vq3f6"]
+script = ExtResource("3_085kj")
+level = 7
+move = 269
+
+[sub_resource type="Resource" id="Resource_fu1m1"]
+script = ExtResource("3_085kj")
+level = 10
+move = 372
+
+[sub_resource type="Resource" id="Resource_rqfpr"]
+script = ExtResource("3_085kj")
+level = 13
+move = 124
+
+[sub_resource type="Resource" id="Resource_lg2x2"]
+script = ExtResource("3_085kj")
+level = 17
+move = 360
+
+[sub_resource type="Resource" id="Resource_bx07k"]
+script = ExtResource("3_085kj")
+level = 21
+move = 29
+
+[sub_resource type="Resource" id="Resource_rck88"]
+script = ExtResource("3_085kj")
+level = 25
+move = 103
+
+[sub_resource type="Resource" id="Resource_afdxr"]
+script = ExtResource("3_085kj")
+level = 28
+move = 442
+
+[sub_resource type="Resource" id="Resource_yewgm"]
+script = ExtResource("3_085kj")
+level = 32
+move = 207
+
+[sub_resource type="Resource" id="Resource_da117"]
+script = ExtResource("3_085kj")
+level = 36
+move = 398
+
+[sub_resource type="Resource" id="Resource_q41pe"]
+script = ExtResource("3_085kj")
+level = 41
+move = 253
+
+[sub_resource type="Resource" id="Resource_tak1d"]
+script = ExtResource("3_085kj")
+level = 46
+move = 787
+
+[sub_resource type="Resource" id="Resource_567g0"]
+script = ExtResource("3_085kj")
+level = 50
+move = 441
+
+[resource]
+script = ExtResource("4_epym6")
+id = 1354
+display_name = "Varoom"
+category = "Single-Cyl"
+national_dex = 965
+pokedex = "The steel section is Varoom's
+actual body. This Pokémon clings to
+rocks and converts the minerals within
+into energy to fuel its activities."
+type_1 = 9
+type_2 = 4
+base_hp = 45
+base_atk = 70
+base_def = 63
+base_spa = 30
+base_spd = 45
+base_spe = 47
+ev_atk = 1
+catch_rate = 190
+base_exp = 60
+egg_group_1 = 10
+ability_1 = 142
+ability_hidden = 112
+height_dm = 10
+weight_hg = 350
+body_color = 7
+level_moves = Array[ExtResource("3_085kj")]([SubResource("Resource_a1hc3"), SubResource("Resource_p6kbg"), SubResource("Resource_2df2d"), SubResource("Resource_vq3f6"), SubResource("Resource_fu1m1"), SubResource("Resource_rqfpr"), SubResource("Resource_lg2x2"), SubResource("Resource_bx07k"), SubResource("Resource_rck88"), SubResource("Resource_afdxr"), SubResource("Resource_yewgm"), SubResource("Resource_da117"), SubResource("Resource_q41pe"), SubResource("Resource_tak1d"), SubResource("Resource_567g0")])
+egg_moves = Array[int]([114, 575, 120, 259, 92])
+evolutions = Array[ExtResource("1_3jyyu")]([SubResource("Resource_lj8nk")])

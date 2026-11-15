@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://vroexmyutakn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8dhra"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pio33"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_i2qlt"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3hmok"]
+
+[sub_resource type="Resource" id="Resource_8ux2d"]
+script = ExtResource("1_8dhra")
+method = "LEVEL"
+param = "38"
+target = 1352
+
+[sub_resource type="Resource" id="Resource_88l2d"]
+script = ExtResource("3_i2qlt")
+move = 48
+
+[sub_resource type="Resource" id="Resource_e0n05"]
+script = ExtResource("3_i2qlt")
+move = 55
+
+[sub_resource type="Resource" id="Resource_b1q3q"]
+script = ExtResource("3_i2qlt")
+level = 7
+move = 310
+
+[sub_resource type="Resource" id="Resource_0nnmr"]
+script = ExtResource("3_i2qlt")
+level = 10
+move = 116
+
+[sub_resource type="Resource" id="Resource_w6cyl"]
+script = ExtResource("3_i2qlt")
+level = 13
+move = 453
+
+[sub_resource type="Resource" id="Resource_tsuwl"]
+script = ExtResource("3_i2qlt")
+level = 17
+move = 458
+
+[sub_resource type="Resource" id="Resource_vntlk"]
+script = ExtResource("3_i2qlt")
+level = 21
+move = 291
+
+[sub_resource type="Resource" id="Resource_bbc1c"]
+script = ExtResource("3_i2qlt")
+level = 25
+move = 204
+
+[sub_resource type="Resource" id="Resource_6ukyh"]
+script = ExtResource("3_i2qlt")
+level = 29
+move = 512
+
+[sub_resource type="Resource" id="Resource_iy68e"]
+script = ExtResource("3_i2qlt")
+level = 34
+move = 227
+
+[sub_resource type="Resource" id="Resource_ligp6"]
+script = ExtResource("3_i2qlt")
+level = 39
+move = 401
+
+[sub_resource type="Resource" id="Resource_cwkpe"]
+script = ExtResource("3_i2qlt")
+level = 44
+move = 54
+
+[sub_resource type="Resource" id="Resource_rp3jo"]
+script = ExtResource("3_i2qlt")
+level = 50
+move = 56
+
+[resource]
+script = ExtResource("4_3hmok")
+id = 1351
+display_name = "Finizen"
+category = "Dolphin"
+national_dex = 963
+pokedex = "Its water ring is made from
+seawater mixed with a sticky fluid that
+Finizen secretes from its blowhole."
+type_1 = 12
+base_hp = 70
+base_atk = 45
+base_def = 40
+base_spa = 45
+base_spd = 40
+base_spe = 75
+ev_spe = 1
+catch_rate = 200
+base_exp = 63
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 5
+egg_group_2 = 12
+ability_1 = 41
+height_dm = 13
+weight_hg = 602
+body_color = 1
+level_moves = Array[ExtResource("3_i2qlt")]([SubResource("Resource_88l2d"), SubResource("Resource_e0n05"), SubResource("Resource_b1q3q"), SubResource("Resource_0nnmr"), SubResource("Resource_w6cyl"), SubResource("Resource_tsuwl"), SubResource("Resource_vntlk"), SubResource("Resource_bbc1c"), SubResource("Resource_6ukyh"), SubResource("Resource_iy68e"), SubResource("Resource_ligp6"), SubResource("Resource_cwkpe"), SubResource("Resource_rp3jo")])
+egg_moves = Array[int]([586, 340, 68, 114, 321])
+evolutions = Array[ExtResource("1_8dhra")]([SubResource("Resource_8ux2d")])

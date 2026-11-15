@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cp3tgcer4esnr"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_a1dkr"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0dtpf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_t2ltr"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_i6qm8"]
+
+[sub_resource type="Resource" id="Resource_5j717"]
+script = ExtResource("3_t2ltr")
+move = 122
+
+[sub_resource type="Resource" id="Resource_22hug"]
+script = ExtResource("3_t2ltr")
+move = 33
+
+[sub_resource type="Resource" id="Resource_6woeb"]
+script = ExtResource("3_t2ltr")
+level = 5
+move = 154
+
+[sub_resource type="Resource" id="Resource_u0sh4"]
+script = ExtResource("3_t2ltr")
+level = 10
+move = 510
+
+[sub_resource type="Resource" id="Resource_kbn4h"]
+script = ExtResource("3_t2ltr")
+level = 15
+move = 450
+
+[sub_resource type="Resource" id="Resource_ydkbm"]
+script = ExtResource("3_t2ltr")
+level = 20
+move = 254
+
+[sub_resource type="Resource" id="Resource_6emli"]
+script = ExtResource("3_t2ltr")
+level = 20
+move = 256
+
+[sub_resource type="Resource" id="Resource_u303c"]
+script = ExtResource("3_t2ltr")
+level = 20
+move = 255
+
+[sub_resource type="Resource" id="Resource_y5orw"]
+script = ExtResource("3_t2ltr")
+level = 25
+move = 163
+
+[sub_resource type="Resource" id="Resource_6kudd"]
+script = ExtResource("3_t2ltr")
+level = 30
+move = 20
+
+[sub_resource type="Resource" id="Resource_yguts"]
+script = ExtResource("3_t2ltr")
+level = 35
+move = 643
+
+[sub_resource type="Resource" id="Resource_1yseo"]
+script = ExtResource("3_t2ltr")
+level = 40
+move = 468
+
+[sub_resource type="Resource" id="Resource_grxu5"]
+script = ExtResource("3_t2ltr")
+level = 45
+move = 133
+
+[sub_resource type="Resource" id="Resource_itxqa"]
+script = ExtResource("3_t2ltr")
+level = 50
+move = 83
+
+[sub_resource type="Resource" id="Resource_fbi1i"]
+script = ExtResource("3_t2ltr")
+level = 55
+move = 517
+
+[sub_resource type="Resource" id="Resource_vd74y"]
+script = ExtResource("3_t2ltr")
+level = 60
+move = 394
+
+[resource]
+script = ExtResource("4_i6qm8")
+id = 631
+display_name = "Heatmor"
+category = "Anteater"
+national_dex = 631
+pokedex = "It draws in air through its tail,
+transforms it into fire, and uses it like
+a tongue. They burn through Durant's steel
+bodies and consume their insides."
+type_1 = 11
+base_hp = 85
+base_atk = 97
+base_def = 66
+base_spa = 105
+base_spd = 66
+base_spe = 65
+ev_spa = 2
+catch_rate = 90
+base_exp = 169
+egg_group_1 = 5
+ability_1 = 82
+ability_2 = 18
+ability_hidden = 73
+height_dm = 14
+weight_hg = 580
+level_moves = Array[ExtResource("3_t2ltr")]([SubResource("Resource_5j717"), SubResource("Resource_22hug"), SubResource("Resource_6woeb"), SubResource("Resource_u0sh4"), SubResource("Resource_kbn4h"), SubResource("Resource_ydkbm"), SubResource("Resource_6emli"), SubResource("Resource_u303c"), SubResource("Resource_y5orw"), SubResource("Resource_6kudd"), SubResource("Resource_yguts"), SubResource("Resource_1yseo"), SubResource("Resource_grxu5"), SubResource("Resource_itxqa"), SubResource("Resource_fbi1i"), SubResource("Resource_vd74y")])
+egg_moves = Array[int]([228, 35, 400, 174, 34, 257, 185, 389, 321, 214, 562])

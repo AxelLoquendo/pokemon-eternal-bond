@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dyqos6xw13iv8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ojteh"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_to7uu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_g5me1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ifalm"]
+
+[sub_resource type="Resource" id="Resource_gnppr"]
+script = ExtResource("1_ojteh")
+method = "LEVEL"
+param = "42"
+target = 770
+
+[sub_resource type="Resource" id="Resource_3e0wk"]
+script = ExtResource("3_g5me1")
+move = 71
+
+[sub_resource type="Resource" id="Resource_gw02h"]
+script = ExtResource("3_g5me1")
+move = 106
+
+[sub_resource type="Resource" id="Resource_fwx6b"]
+script = ExtResource("3_g5me1")
+level = 5
+move = 310
+
+[sub_resource type="Resource" id="Resource_d57nw"]
+script = ExtResource("3_g5me1")
+level = 10
+move = 328
+
+[sub_resource type="Resource" id="Resource_wagcq"]
+script = ExtResource("3_g5me1")
+level = 15
+move = 72
+
+[sub_resource type="Resource" id="Resource_6xjen"]
+script = ExtResource("3_g5me1")
+level = 20
+move = 28
+
+[sub_resource type="Resource" id="Resource_1vh5p"]
+script = ExtResource("3_g5me1")
+level = 25
+move = 523
+
+[sub_resource type="Resource" id="Resource_s0pht"]
+script = ExtResource("3_g5me1")
+level = 30
+move = 95
+
+[sub_resource type="Resource" id="Resource_qaryv"]
+script = ExtResource("3_g5me1")
+level = 35
+move = 202
+
+[sub_resource type="Resource" id="Resource_gid4u"]
+script = ExtResource("3_g5me1")
+level = 40
+move = 334
+
+[sub_resource type="Resource" id="Resource_umhcj"]
+script = ExtResource("3_g5me1")
+level = 45
+move = 247
+
+[sub_resource type="Resource" id="Resource_n7mlq"]
+script = ExtResource("3_g5me1")
+level = 50
+move = 414
+
+[sub_resource type="Resource" id="Resource_e6clm"]
+script = ExtResource("3_g5me1")
+level = 55
+move = 622
+
+[sub_resource type="Resource" id="Resource_g3xt0"]
+script = ExtResource("3_g5me1")
+level = 60
+move = 201
+
+[resource]
+script = ExtResource("4_ifalm")
+id = 769
+display_name = "Sandygast"
+category = "Sand Heap"
+national_dex = 769
+pokedex = "It takes control of anyone who puts a
+hand in its mouth, to add to the pile
+of its sand-mound body. This Pokémon
+embodies the grudges of the departed."
+type_1 = 8
+type_2 = 5
+base_hp = 55
+base_atk = 55
+base_def = 80
+base_spa = 70
+base_spd = 45
+base_spe = 15
+ev_def = 1
+catch_rate = 140
+base_exp = 64
+egg_cycles = 15
+egg_group_1 = 11
+ability_1 = 195
+ability_hidden = 8
+item_rare = 438
+height_dm = 5
+weight_hg = 700
+body_color = 5
+level_moves = Array[ExtResource("3_g5me1")]([SubResource("Resource_3e0wk"), SubResource("Resource_gw02h"), SubResource("Resource_fwx6b"), SubResource("Resource_d57nw"), SubResource("Resource_wagcq"), SubResource("Resource_6xjen"), SubResource("Resource_1vh5p"), SubResource("Resource_s0pht"), SubResource("Resource_qaryv"), SubResource("Resource_gid4u"), SubResource("Resource_umhcj"), SubResource("Resource_n7mlq"), SubResource("Resource_e6clm"), SubResource("Resource_g3xt0")])
+egg_moves = Array[int]([133, 194, 246, 254, 256, 255, 174])
+evolutions = Array[ExtResource("1_ojteh")]([SubResource("Resource_gnppr")])

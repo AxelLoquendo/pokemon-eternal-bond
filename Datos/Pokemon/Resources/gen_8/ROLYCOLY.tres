@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://do6tyk76ndt6v"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qhfed"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_oa81j"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_y5nqa"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_uj4uc"]
+
+[sub_resource type="Resource" id="Resource_r77nn"]
+script = ExtResource("1_qhfed")
+method = "LEVEL"
+param = "18"
+target = 838
+
+[sub_resource type="Resource" id="Resource_bbkao"]
+script = ExtResource("3_y5nqa")
+move = 33
+
+[sub_resource type="Resource" id="Resource_kx0oy"]
+script = ExtResource("3_y5nqa")
+move = 108
+
+[sub_resource type="Resource" id="Resource_4htkf"]
+script = ExtResource("3_y5nqa")
+level = 5
+move = 229
+
+[sub_resource type="Resource" id="Resource_gbifb"]
+script = ExtResource("3_y5nqa")
+level = 10
+move = 479
+
+[sub_resource type="Resource" id="Resource_ejs4x"]
+script = ExtResource("3_y5nqa")
+level = 15
+move = 397
+
+[sub_resource type="Resource" id="Resource_u8q1a"]
+script = ExtResource("3_y5nqa")
+level = 20
+move = 246
+
+[sub_resource type="Resource" id="Resource_rfsmy"]
+script = ExtResource("3_y5nqa")
+level = 25
+move = 510
+
+[sub_resource type="Resource" id="Resource_t5jnw"]
+script = ExtResource("3_y5nqa")
+level = 30
+move = 446
+
+[sub_resource type="Resource" id="Resource_c5c8s"]
+script = ExtResource("3_y5nqa")
+level = 35
+move = 535
+
+[sub_resource type="Resource" id="Resource_0jdxn"]
+script = ExtResource("3_y5nqa")
+level = 40
+move = 350
+
+[resource]
+script = ExtResource("4_uj4uc")
+id = 837
+display_name = "Rolycoly"
+category = "Coal"
+national_dex = 837
+pokedex = "Most of its body has the same composition
+as coal. Fittingly, this Pokémon was
+first discovered in coal mines about
+400 years ago."
+type_1 = 6
+base_hp = 30
+base_atk = 40
+base_def = 50
+base_spa = 40
+base_spd = 50
+base_spe = 30
+ev_def = 1
+catch_rate = 255
+base_exp = 48
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 10
+ability_1 = 243
+ability_2 = 85
+ability_hidden = 18
+height_dm = 3
+weight_hg = 120
+body_color = 4
+level_moves = Array[ExtResource("3_y5nqa")]([SubResource("Resource_bbkao"), SubResource("Resource_kx0oy"), SubResource("Resource_4htkf"), SubResource("Resource_gbifb"), SubResource("Resource_ejs4x"), SubResource("Resource_u8q1a"), SubResource("Resource_rfsmy"), SubResource("Resource_t5jnw"), SubResource("Resource_c5c8s"), SubResource("Resource_0jdxn")])
+egg_moves = Array[int]([153, 189, 335])
+evolutions = Array[ExtResource("1_qhfed")]([SubResource("Resource_r77nn")])

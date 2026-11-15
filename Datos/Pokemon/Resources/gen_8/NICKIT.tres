@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://gumy3r44u8pq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_a1o88"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1t6yt"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_oqbdu"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_unaol"]
+
+[sub_resource type="Resource" id="Resource_x36q0"]
+script = ExtResource("1_a1o88")
+method = "LEVEL"
+param = "18"
+target = 828
+
+[sub_resource type="Resource" id="Resource_4n3kp"]
+script = ExtResource("3_oqbdu")
+move = 98
+
+[sub_resource type="Resource" id="Resource_kmi6d"]
+script = ExtResource("3_oqbdu")
+move = 39
+
+[sub_resource type="Resource" id="Resource_icq8n"]
+script = ExtResource("3_oqbdu")
+level = 4
+move = 251
+
+[sub_resource type="Resource" id="Resource_hyx6w"]
+script = ExtResource("3_oqbdu")
+level = 8
+move = 468
+
+[sub_resource type="Resource" id="Resource_6thsc"]
+script = ExtResource("3_oqbdu")
+level = 12
+move = 555
+
+[sub_resource type="Resource" id="Resource_3qeyu"]
+script = ExtResource("3_oqbdu")
+level = 16
+move = 372
+
+[sub_resource type="Resource" id="Resource_qh06j"]
+script = ExtResource("3_oqbdu")
+level = 20
+move = 417
+
+[sub_resource type="Resource" id="Resource_11yra"]
+script = ExtResource("3_oqbdu")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_nr6ha"]
+script = ExtResource("3_oqbdu")
+level = 28
+move = 400
+
+[sub_resource type="Resource" id="Resource_xep0b"]
+script = ExtResource("3_oqbdu")
+level = 32
+move = 541
+
+[sub_resource type="Resource" id="Resource_86k73"]
+script = ExtResource("3_oqbdu")
+level = 36
+move = 492
+
+[resource]
+script = ExtResource("4_unaol")
+id = 827
+display_name = "Nickit"
+category = "Fox"
+national_dex = 827
+pokedex = "Aided by the soft pads on its feet, it
+silently raids the food stores of other
+Pokémon. It survives off its
+ill-gotten gains."
+type_1 = 18
+base_hp = 40
+base_atk = 28
+base_def = 28
+base_spa = 47
+base_spd = 52
+base_spe = 50
+ev_spd = 1
+catch_rate = 255
+base_exp = 49
+growth_rate = 4
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 50
+ability_2 = 84
+ability_hidden = 198
+height_dm = 6
+weight_hg = 89
+body_color = 5
+level_moves = Array[ExtResource("3_oqbdu")]([SubResource("Resource_4n3kp"), SubResource("Resource_kmi6d"), SubResource("Resource_icq8n"), SubResource("Resource_hyx6w"), SubResource("Resource_6thsc"), SubResource("Resource_3qeyu"), SubResource("Resource_qh06j"), SubResource("Resource_11yra"), SubResource("Resource_nr6ha"), SubResource("Resource_xep0b"), SubResource("Resource_86k73")])
+egg_moves = Array[int]([501, 282, 336, 259])
+evolutions = Array[ExtResource("1_a1o88")]([SubResource("Resource_x36q0")])

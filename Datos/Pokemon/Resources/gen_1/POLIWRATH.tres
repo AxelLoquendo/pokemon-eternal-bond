@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bumaari0kkq3k"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7my8e"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pqpwi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gg1j1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ve7qm"]
+
+[sub_resource type="Resource" id="Resource_i1jbd"]
+script = ExtResource("3_gg1j1")
+level = 0
+move = 223
+
+[sub_resource type="Resource" id="Resource_8ty7f"]
+script = ExtResource("3_gg1j1")
+move = 1
+
+[sub_resource type="Resource" id="Resource_o6rfh"]
+script = ExtResource("3_gg1j1")
+move = 38
+
+[sub_resource type="Resource" id="Resource_vagrm"]
+script = ExtResource("3_gg1j1")
+move = 55
+
+[sub_resource type="Resource" id="Resource_yy5qs"]
+script = ExtResource("3_gg1j1")
+move = 56
+
+[sub_resource type="Resource" id="Resource_g44q8"]
+script = ExtResource("3_gg1j1")
+move = 187
+
+[sub_resource type="Resource" id="Resource_80bk2"]
+script = ExtResource("3_gg1j1")
+move = 240
+
+[sub_resource type="Resource" id="Resource_mcmxl"]
+script = ExtResource("3_gg1j1")
+move = 341
+
+[sub_resource type="Resource" id="Resource_257mx"]
+script = ExtResource("3_gg1j1")
+move = 414
+
+[sub_resource type="Resource" id="Resource_aigll"]
+script = ExtResource("3_gg1j1")
+move = 509
+
+[sub_resource type="Resource" id="Resource_aurhh"]
+script = ExtResource("3_gg1j1")
+move = 34
+
+[sub_resource type="Resource" id="Resource_2jqyw"]
+script = ExtResource("3_gg1j1")
+move = 61
+
+[sub_resource type="Resource" id="Resource_ss8cm"]
+script = ExtResource("3_gg1j1")
+move = 95
+
+[resource]
+script = ExtResource("4_ve7qm")
+id = 62
+display_name = "Poliwrath"
+category = "Tadpole"
+national_dex = 62
+pokedex = "Its highly developed muscles never grow
+fatigued, however much it exercises.
+This Pokémon can swim back and forth
+across the Pacific Ocean without effort."
+type_1 = 12
+type_2 = 2
+base_hp = 90
+base_atk = 95
+base_def = 95
+base_spa = 70
+base_spd = 90
+base_spe = 70
+ev_def = 3
+base_exp = 185
+growth_rate = 3
+egg_group_1 = 2
+ability_1 = 11
+ability_2 = 6
+ability_hidden = 33
+item_rare = 465
+height_dm = 13
+weight_hg = 540
+body_color = 1
+no_flip = true
+level_moves = Array[ExtResource("3_gg1j1")]([SubResource("Resource_i1jbd"), SubResource("Resource_8ty7f"), SubResource("Resource_o6rfh"), SubResource("Resource_vagrm"), SubResource("Resource_yy5qs"), SubResource("Resource_g44q8"), SubResource("Resource_80bk2"), SubResource("Resource_mcmxl"), SubResource("Resource_257mx"), SubResource("Resource_aigll"), SubResource("Resource_aurhh"), SubResource("Resource_2jqyw"), SubResource("Resource_ss8cm")])

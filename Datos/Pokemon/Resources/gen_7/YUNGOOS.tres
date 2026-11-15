@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://rj1ficfb6m5w"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_dxo4f"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lwxlb"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_eflty"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_niede"]
+
+[sub_resource type="Resource" id="Resource_wob1h"]
+script = ExtResource("3_eflty")
+move = 33
+
+[sub_resource type="Resource" id="Resource_dobwp"]
+script = ExtResource("3_eflty")
+level = 3
+move = 43
+
+[sub_resource type="Resource" id="Resource_k8of0"]
+script = ExtResource("3_eflty")
+level = 7
+move = 371
+
+[sub_resource type="Resource" id="Resource_u0jlu"]
+script = ExtResource("3_eflty")
+level = 10
+move = 28
+
+[sub_resource type="Resource" id="Resource_ahbdh"]
+script = ExtResource("3_eflty")
+level = 13
+move = 526
+
+[sub_resource type="Resource" id="Resource_v1xuh"]
+script = ExtResource("3_eflty")
+level = 19
+move = 44
+
+[sub_resource type="Resource" id="Resource_c17uu"]
+script = ExtResource("3_eflty")
+level = 22
+move = 189
+
+[sub_resource type="Resource" id="Resource_sq4h0"]
+script = ExtResource("3_eflty")
+level = 25
+move = 162
+
+[sub_resource type="Resource" id="Resource_rqnu1"]
+script = ExtResource("3_eflty")
+level = 28
+move = 36
+
+[sub_resource type="Resource" id="Resource_qqfyi"]
+script = ExtResource("3_eflty")
+level = 31
+move = 184
+
+[sub_resource type="Resource" id="Resource_5q2ep"]
+script = ExtResource("3_eflty")
+level = 34
+move = 242
+
+[sub_resource type="Resource" id="Resource_1x1q1"]
+script = ExtResource("3_eflty")
+level = 37
+move = 281
+
+[sub_resource type="Resource" id="Resource_7mdre"]
+script = ExtResource("3_eflty")
+level = 40
+move = 37
+
+[sub_resource type="Resource" id="Resource_od6rp"]
+script = ExtResource("3_eflty")
+level = 43
+move = 156
+
+[resource]
+script = ExtResource("4_niede")
+id = 734
+display_name = "Yungoos"
+category = "Loitering"
+national_dex = 734
+pokedex = "With its sharp fangs, it will bite anything.
+It wanders around in a never-ending
+search for food. At dusk, it collapses
+and falls asleep on the spot."
+type_1 = 1
+base_hp = 48
+base_atk = 70
+base_def = 30
+base_spa = 30
+base_spd = 30
+base_spe = 45
+ev_atk = 1
+catch_rate = 255
+base_exp = 51
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 198
+ability_2 = 173
+ability_hidden = 91
+item_rare = 516
+height_dm = 4
+weight_hg = 60
+body_color = 5
+level_moves = Array[ExtResource("3_eflty")]([SubResource("Resource_wob1h"), SubResource("Resource_dobwp"), SubResource("Resource_k8of0"), SubResource("Resource_u0jlu"), SubResource("Resource_ahbdh"), SubResource("Resource_v1xuh"), SubResource("Resource_c17uu"), SubResource("Resource_sq4h0"), SubResource("Resource_rqnu1"), SubResource("Resource_qqfyi"), SubResource("Resource_5q2ep"), SubResource("Resource_1x1q1"), SubResource("Resource_7mdre"), SubResource("Resource_od6rp")])
+egg_moves = Array[int]([279, 387, 424, 423, 422])

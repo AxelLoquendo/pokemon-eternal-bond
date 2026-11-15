@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cwdkqf8pujsgi"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_sklt1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yyequ"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_iq426"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1hbmi"]
+
+[sub_resource type="Resource" id="Resource_1n2yx"]
+script = ExtResource("1_sklt1")
+method = "LEVEL"
+param = "35"
+target = 1359
+
+[sub_resource type="Resource" id="Resource_akhbe"]
+script = ExtResource("3_iq426")
+move = 88
+
+[sub_resource type="Resource" id="Resource_c2t44"]
+script = ExtResource("3_iq426")
+move = 106
+
+[sub_resource type="Resource" id="Resource_n3fvj"]
+script = ExtResource("3_iq426")
+move = 479
+
+[sub_resource type="Resource" id="Resource_f8axs"]
+script = ExtResource("3_iq426")
+level = 7
+move = 491
+
+[sub_resource type="Resource" id="Resource_nrj1g"]
+script = ExtResource("3_iq426")
+level = 11
+move = 246
+
+[sub_resource type="Resource" id="Resource_sc572"]
+script = ExtResource("3_iq426")
+level = 15
+move = 397
+
+[sub_resource type="Resource" id="Resource_cylxr"]
+script = ExtResource("3_iq426")
+level = 18
+move = 446
+
+[sub_resource type="Resource" id="Resource_h5yrw"]
+script = ExtResource("3_iq426")
+level = 22
+move = 474
+
+[sub_resource type="Resource" id="Resource_wxqi1"]
+script = ExtResource("3_iq426")
+level = 26
+move = 201
+
+[sub_resource type="Resource" id="Resource_cp8i4"]
+script = ExtResource("3_iq426")
+level = 29
+move = 120
+
+[sub_resource type="Resource" id="Resource_nd6ol"]
+script = ExtResource("3_iq426")
+level = 33
+move = 157
+
+[sub_resource type="Resource" id="Resource_wb4j3"]
+script = ExtResource("3_iq426")
+level = 37
+move = 408
+
+[sub_resource type="Resource" id="Resource_sart4"]
+script = ExtResource("3_iq426")
+level = 41
+move = 151
+
+[sub_resource type="Resource" id="Resource_efus0"]
+script = ExtResource("3_iq426")
+level = 46
+move = 482
+
+[resource]
+script = ExtResource("4_1hbmi")
+id = 1358
+display_name = "Glimmet"
+category = "Ore"
+national_dex = 969
+pokedex = "Glimmet's toxic mineral crystals
+look just like flower petals. This
+Pokémon scatters poisonous powder like
+pollen to protect itself."
+type_1 = 6
+type_2 = 4
+base_hp = 48
+base_atk = 35
+base_def = 42
+base_spa = 105
+base_spd = 60
+base_spe = 60
+ev_spa = 1
+catch_rate = 70
+base_exp = 70
+growth_rate = 3
+egg_cycles = 30
+egg_group_1 = 10
+ability_1 = 295
+ability_hidden = 212
+height_dm = 7
+weight_hg = 80
+body_color = 1
+level_moves = Array[ExtResource("3_iq426")]([SubResource("Resource_akhbe"), SubResource("Resource_c2t44"), SubResource("Resource_n3fvj"), SubResource("Resource_f8axs"), SubResource("Resource_nrj1g"), SubResource("Resource_sc572"), SubResource("Resource_cylxr"), SubResource("Resource_h5yrw"), SubResource("Resource_wxqi1"), SubResource("Resource_cp8i4"), SubResource("Resource_nd6ol"), SubResource("Resource_wb4j3"), SubResource("Resource_sart4"), SubResource("Resource_efus0")])
+egg_moves = Array[int]([153, 262, 92])
+evolutions = Array[ExtResource("1_sklt1")]([SubResource("Resource_1n2yx")])

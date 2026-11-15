@@ -1,0 +1,121 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://thxpsowcxpjn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_eb5or"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hxhum"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_46d74"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pqaye"]
+
+[sub_resource type="Resource" id="Resource_i6j0f"]
+script = ExtResource("1_eb5or")
+method = "ITEM"
+param = "ITEM_WATER_STONE"
+target = 516
+
+[sub_resource type="Resource" id="Resource_m4sg0"]
+script = ExtResource("3_46d74")
+move = 10
+
+[sub_resource type="Resource" id="Resource_mjjmb"]
+script = ExtResource("3_46d74")
+move = 589
+
+[sub_resource type="Resource" id="Resource_apc5v"]
+script = ExtResource("3_46d74")
+level = 4
+move = 43
+
+[sub_resource type="Resource" id="Resource_7pa4g"]
+script = ExtResource("3_46d74")
+level = 7
+move = 122
+
+[sub_resource type="Resource" id="Resource_k7xei"]
+script = ExtResource("3_46d74")
+level = 10
+move = 55
+
+[sub_resource type="Resource" id="Resource_cu8nq"]
+script = ExtResource("3_46d74")
+level = 13
+move = 154
+
+[sub_resource type="Resource" id="Resource_rrw16"]
+script = ExtResource("3_46d74")
+level = 16
+move = 346
+
+[sub_resource type="Resource" id="Resource_odhvd"]
+script = ExtResource("3_46d74")
+level = 19
+move = 44
+
+[sub_resource type="Resource" id="Resource_be0d6"]
+script = ExtResource("3_46d74")
+level = 22
+move = 503
+
+[sub_resource type="Resource" id="Resource_dnotm"]
+script = ExtResource("3_46d74")
+level = 25
+move = 269
+
+[sub_resource type="Resource" id="Resource_lrvpq"]
+script = ExtResource("3_46d74")
+level = 28
+move = 374
+
+[sub_resource type="Resource" id="Resource_l876f"]
+script = ExtResource("3_46d74")
+level = 31
+move = 512
+
+[sub_resource type="Resource" id="Resource_xdy0m"]
+script = ExtResource("3_46d74")
+level = 34
+move = 362
+
+[sub_resource type="Resource" id="Resource_fp8r1"]
+script = ExtResource("3_46d74")
+level = 37
+move = 278
+
+[sub_resource type="Resource" id="Resource_1bwkk"]
+script = ExtResource("3_46d74")
+level = 40
+move = 363
+
+[sub_resource type="Resource" id="Resource_olkbn"]
+script = ExtResource("3_46d74")
+level = 43
+move = 242
+
+[resource]
+script = ExtResource("4_pqaye")
+id = 515
+display_name = "Panpour"
+category = "Spray"
+national_dex = 515
+pokedex = "The water stored inside the tuft of its
+head is rich in nutrients. It waters
+plants using its tail, plants that
+receive its water grow large."
+type_1 = 12
+base_hp = 50
+base_atk = 53
+base_def = 48
+base_spa = 53
+base_spd = 48
+base_spe = 64
+ev_spe = 1
+catch_rate = 190
+base_exp = 63
+gender_ratio = 31
+egg_group_1 = 5
+ability_1 = 82
+ability_hidden = 67
+height_dm = 6
+weight_hg = 135
+body_color = 1
+level_moves = Array[ExtResource("3_46d74")]([SubResource("Resource_m4sg0"), SubResource("Resource_mjjmb"), SubResource("Resource_apc5v"), SubResource("Resource_7pa4g"), SubResource("Resource_k7xei"), SubResource("Resource_cu8nq"), SubResource("Resource_rrw16"), SubResource("Resource_odhvd"), SubResource("Resource_be0d6"), SubResource("Resource_dnotm"), SubResource("Resource_lrvpq"), SubResource("Resource_l876f"), SubResource("Resource_xdy0m"), SubResource("Resource_fp8r1"), SubResource("Resource_1bwkk"), SubResource("Resource_olkbn")])
+egg_moves = Array[int]([343, 67, 321, 417, 272, 310, 392, 401, 300, 56, 574])
+evolutions = Array[ExtResource("1_eb5or")]([SubResource("Resource_i6j0f")])

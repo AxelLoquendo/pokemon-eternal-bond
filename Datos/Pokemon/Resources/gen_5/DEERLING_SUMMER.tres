@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ti7sy2tlswxk"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_kra8y"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jjtup"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_x803k"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tglnk"]
+
+[sub_resource type="Resource" id="Resource_1y5ts"]
+script = ExtResource("1_kra8y")
+method = "LEVEL"
+param = "34"
+target = 1097
+
+[sub_resource type="Resource" id="Resource_n0rcn"]
+script = ExtResource("3_x803k")
+move = 33
+
+[sub_resource type="Resource" id="Resource_lvay4"]
+script = ExtResource("3_x803k")
+level = 4
+move = 45
+
+[sub_resource type="Resource" id="Resource_5soey"]
+script = ExtResource("3_x803k")
+level = 7
+move = 28
+
+[sub_resource type="Resource" id="Resource_t4u1t"]
+script = ExtResource("3_x803k")
+level = 10
+move = 24
+
+[sub_resource type="Resource" id="Resource_tkctc"]
+script = ExtResource("3_x803k")
+level = 13
+move = 73
+
+[sub_resource type="Resource" id="Resource_q4to2"]
+script = ExtResource("3_x803k")
+level = 16
+move = 331
+
+[sub_resource type="Resource" id="Resource_ttbyp"]
+script = ExtResource("3_x803k")
+level = 20
+move = 36
+
+[sub_resource type="Resource" id="Resource_3vi5t"]
+script = ExtResource("3_x803k")
+level = 24
+move = 428
+
+[sub_resource type="Resource" id="Resource_dkd4x"]
+script = ExtResource("3_x803k")
+level = 28
+move = 412
+
+[sub_resource type="Resource" id="Resource_ijb25"]
+script = ExtResource("3_x803k")
+level = 32
+move = 204
+
+[sub_resource type="Resource" id="Resource_2d8iy"]
+script = ExtResource("3_x803k")
+level = 37
+move = 38
+
+[sub_resource type="Resource" id="Resource_dxdwd"]
+script = ExtResource("3_x803k")
+level = 42
+move = 76
+
+[resource]
+script = ExtResource("4_tglnk")
+id = 1094
+display_name = "Deerling"
+category = "Season"
+national_dex = 585
+pokedex = "To prevent Deerling from entering
+their fields, many farmers will have
+several Lycanroc stand guard, as
+they are its natural enemy."
+type_1 = 1
+type_2 = 13
+base_hp = 60
+base_atk = 60
+base_def = 50
+base_spa = 40
+base_spd = 50
+base_spe = 75
+ev_spe = 1
+catch_rate = 190
+base_exp = 67
+egg_group_1 = 5
+ability_1 = 34
+ability_2 = 157
+ability_hidden = 32
+height_dm = 6
+weight_hg = 195
+body_color = 3
+level_moves = Array[ExtResource("3_x803k")]([SubResource("Resource_n0rcn"), SubResource("Resource_lvay4"), SubResource("Resource_5soey"), SubResource("Resource_t4u1t"), SubResource("Resource_tkctc"), SubResource("Resource_q4to2"), SubResource("Resource_ttbyp"), SubResource("Resource_3vi5t"), SubResource("Resource_dkd4x"), SubResource("Resource_ijb25"), SubResource("Resource_2d8iy"), SubResource("Resource_dxdwd")])
+egg_moves = Array[int]([313, 363, 235, 388, 316, 97, 214, 226, 320, 29])
+evolutions = Array[ExtResource("1_kra8y")]([SubResource("Resource_1y5ts")])
+form_species = Array[int]([585, 1094, 1095, 1096])

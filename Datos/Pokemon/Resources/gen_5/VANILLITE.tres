@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bqeqnrmq63i7m"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_r7kfu"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_e7p0k"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k55xp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_b6l5i"]
+
+[sub_resource type="Resource" id="Resource_q022c"]
+script = ExtResource("1_r7kfu")
+method = "LEVEL"
+param = "35"
+target = 583
+
+[sub_resource type="Resource" id="Resource_d7fiv"]
+script = ExtResource("3_k55xp")
+move = 310
+
+[sub_resource type="Resource" id="Resource_lfgay"]
+script = ExtResource("3_k55xp")
+move = 106
+
+[sub_resource type="Resource" id="Resource_lqa88"]
+script = ExtResource("3_k55xp")
+level = 4
+move = 269
+
+[sub_resource type="Resource" id="Resource_5jduy"]
+script = ExtResource("3_k55xp")
+level = 8
+move = 54
+
+[sub_resource type="Resource" id="Resource_wrl0m"]
+script = ExtResource("3_k55xp")
+level = 12
+move = 196
+
+[sub_resource type="Resource" id="Resource_xtsps"]
+script = ExtResource("3_k55xp")
+level = 16
+move = 419
+
+[sub_resource type="Resource" id="Resource_gxvd3"]
+script = ExtResource("3_k55xp")
+level = 20
+move = 258
+
+[sub_resource type="Resource" id="Resource_ajdu1"]
+script = ExtResource("3_k55xp")
+level = 24
+move = 333
+
+[sub_resource type="Resource" id="Resource_phvsw"]
+script = ExtResource("3_k55xp")
+level = 28
+move = 253
+
+[sub_resource type="Resource" id="Resource_byaql"]
+script = ExtResource("3_k55xp")
+level = 32
+move = 151
+
+[sub_resource type="Resource" id="Resource_cy26b"]
+script = ExtResource("3_k55xp")
+level = 36
+move = 243
+
+[sub_resource type="Resource" id="Resource_ogi1u"]
+script = ExtResource("3_k55xp")
+level = 40
+move = 58
+
+[sub_resource type="Resource" id="Resource_xw4r0"]
+script = ExtResource("3_k55xp")
+level = 44
+move = 59
+
+[sub_resource type="Resource" id="Resource_veqkh"]
+script = ExtResource("3_k55xp")
+level = 48
+move = 329
+
+[resource]
+script = ExtResource("4_b6l5i")
+id = 582
+display_name = "Vanillite"
+category = "Fresh Snow"
+national_dex = 582
+pokedex = "The temperature of their breath is -58ºF.
+They create snow crystals and make snow
+fall in the areas around them. Vanillite is
+treasured by households in warm regions."
+type_1 = 16
+base_hp = 36
+base_atk = 50
+base_def = 50
+base_spa = 65
+base_spd = 60
+base_spe = 44
+ev_spa = 1
+catch_rate = 255
+base_exp = 61
+growth_rate = 5
+egg_group_1 = 10
+ability_1 = 115
+ability_hidden = 133
+item_rare = 430
+height_dm = 4
+weight_hg = 57
+body_color = 8
+level_moves = Array[ExtResource("3_k55xp")]([SubResource("Resource_d7fiv"), SubResource("Resource_lfgay"), SubResource("Resource_lqa88"), SubResource("Resource_5jduy"), SubResource("Resource_wrl0m"), SubResource("Resource_xtsps"), SubResource("Resource_gxvd3"), SubResource("Resource_ajdu1"), SubResource("Resource_phvsw"), SubResource("Resource_byaql"), SubResource("Resource_cy26b"), SubResource("Resource_ogi1u"), SubResource("Resource_xw4r0"), SubResource("Resource_veqkh")])
+egg_moves = Array[int]([352, 363, 286, 475, 334, 393, 420, 181])
+evolutions = Array[ExtResource("1_r7kfu")]([SubResource("Resource_q022c")])

@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c2oqraihc36s0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0pd0c"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yoshh"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ej4sh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_atn31"]
+
+[sub_resource type="Resource" id="Resource_hjpv0"]
+script = ExtResource("3_ej4sh")
+level = 0
+move = 242
+
+[sub_resource type="Resource" id="Resource_hdn40"]
+script = ExtResource("3_ej4sh")
+move = 28
+
+[sub_resource type="Resource" id="Resource_fum2h"]
+script = ExtResource("3_ej4sh")
+move = 33
+
+[sub_resource type="Resource" id="Resource_cm70q"]
+script = ExtResource("3_ej4sh")
+move = 225
+
+[sub_resource type="Resource" id="Resource_8fkcn"]
+script = ExtResource("3_ej4sh")
+move = 328
+
+[sub_resource type="Resource" id="Resource_0l75e"]
+script = ExtResource("3_ej4sh")
+level = 18
+move = 523
+
+[sub_resource type="Resource" id="Resource_15hnh"]
+script = ExtResource("3_ej4sh")
+level = 27
+move = 44
+
+[sub_resource type="Resource" id="Resource_13eiq"]
+script = ExtResource("3_ej4sh")
+level = 34
+move = 163
+
+[sub_resource type="Resource" id="Resource_415hg"]
+script = ExtResource("3_ej4sh")
+level = 42
+move = 337
+
+[sub_resource type="Resource" id="Resource_lwf5f"]
+script = ExtResource("3_ej4sh")
+level = 52
+move = 91
+
+[sub_resource type="Resource" id="Resource_x6iu6"]
+script = ExtResource("3_ej4sh")
+level = 62
+move = 201
+
+[sub_resource type="Resource" id="Resource_jcoi6"]
+script = ExtResource("3_ej4sh")
+level = 72
+move = 36
+
+[sub_resource type="Resource" id="Resource_pks34"]
+script = ExtResource("3_ej4sh")
+level = 82
+move = 407
+
+[resource]
+script = ExtResource("4_atn31")
+id = 947
+display_name = "Garchomp"
+category = "Mach"
+national_dex = 445
+pokedex = "Excess energy melted its arms and wings
+into giant scythes, sending it mad with
+rage. It swings its scythes wildly and
+slices the ground to pieces."
+type_1 = 17
+type_2 = 5
+base_hp = 108
+base_atk = 170
+base_def = 115
+base_spa = 120
+base_spd = 95
+base_spe = 92
+ev_atk = 3
+base_exp = 350
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 159
+ability_2 = 159
+ability_hidden = 159
+height_dm = 19
+weight_hg = 950
+body_color = 1
+level_moves = Array[ExtResource("3_ej4sh")]([SubResource("Resource_hjpv0"), SubResource("Resource_hdn40"), SubResource("Resource_fum2h"), SubResource("Resource_cm70q"), SubResource("Resource_8fkcn"), SubResource("Resource_0l75e"), SubResource("Resource_15hnh"), SubResource("Resource_13eiq"), SubResource("Resource_415hg"), SubResource("Resource_lwf5f"), SubResource("Resource_x6iu6"), SubResource("Resource_jcoi6"), SubResource("Resource_pks34")])
+form_species = Array[int]([445, 947, 1558])

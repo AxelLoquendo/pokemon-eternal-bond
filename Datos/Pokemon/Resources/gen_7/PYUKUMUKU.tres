@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bgmqhgslwy8qp"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8m6hs"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_qvktl"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_epnrj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dy04u"]
+
+[sub_resource type="Resource" id="Resource_h0jop"]
+script = ExtResource("3_epnrj")
+move = 226
+
+[sub_resource type="Resource" id="Resource_hq2s1"]
+script = ExtResource("3_epnrj")
+move = 106
+
+[sub_resource type="Resource" id="Resource_q8vre"]
+script = ExtResource("3_epnrj")
+level = 5
+move = 270
+
+[sub_resource type="Resource" id="Resource_trdks"]
+script = ExtResource("3_epnrj")
+level = 10
+move = 269
+
+[sub_resource type="Resource" id="Resource_avls4"]
+script = ExtResource("3_epnrj")
+level = 15
+move = 219
+
+[sub_resource type="Resource" id="Resource_wk0wr"]
+script = ExtResource("3_epnrj")
+level = 20
+move = 68
+
+[sub_resource type="Resource" id="Resource_w3cus"]
+script = ExtResource("3_epnrj")
+level = 25
+move = 648
+
+[sub_resource type="Resource" id="Resource_3ro26"]
+script = ExtResource("3_epnrj")
+level = 30
+move = 174
+
+[sub_resource type="Resource" id="Resource_xlyjy"]
+script = ExtResource("3_epnrj")
+level = 35
+move = 380
+
+[sub_resource type="Resource" id="Resource_s8vyu"]
+script = ExtResource("3_epnrj")
+level = 40
+move = 220
+
+[sub_resource type="Resource" id="Resource_p1uu1"]
+script = ExtResource("3_epnrj")
+level = 45
+move = 105
+
+[sub_resource type="Resource" id="Resource_r6yrd"]
+script = ExtResource("3_epnrj")
+level = 50
+move = 487
+
+[sub_resource type="Resource" id="Resource_6h08r"]
+script = ExtResource("3_epnrj")
+level = 55
+move = 92
+
+[sub_resource type="Resource" id="Resource_r4ikk"]
+script = ExtResource("3_epnrj")
+level = 60
+move = 262
+
+[resource]
+script = ExtResource("4_dy04u")
+id = 771
+display_name = "Pyukumuku"
+category = "Sea Cucumber"
+national_dex = 771
+pokedex = "It lives in shallow seas, such as areas
+near a beach. The sticky mucous that
+covers their bodies can be used to soothe
+sunburned skin. How convenient!"
+type_1 = 12
+base_hp = 55
+base_atk = 60
+base_def = 130
+base_spa = 30
+base_spd = 130
+base_spe = 5
+ev_spd = 2
+catch_rate = 60
+base_exp = 144
+growth_rate = 4
+egg_cycles = 15
+egg_group_1 = 2
+ability_1 = 215
+ability_hidden = 109
+height_dm = 3
+weight_hg = 12
+body_color = 4
+level_moves = Array[ExtResource("3_epnrj")]([SubResource("Resource_h0jop"), SubResource("Resource_hq2s1"), SubResource("Resource_q8vre"), SubResource("Resource_trdks"), SubResource("Resource_avls4"), SubResource("Resource_wk0wr"), SubResource("Resource_w3cus"), SubResource("Resource_3ro26"), SubResource("Resource_xlyjy"), SubResource("Resource_s8vyu"), SubResource("Resource_p1uu1"), SubResource("Resource_r6yrd"), SubResource("Resource_6h08r"), SubResource("Resource_r4ikk")])
+egg_moves = Array[int]([203, 599, 516, 321, 180])

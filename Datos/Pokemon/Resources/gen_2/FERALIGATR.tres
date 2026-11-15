@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cf8tjwtjp6sie"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_atj1q"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_f6q1n"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kw2ie"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pwwrq"]
+
+[sub_resource type="Resource" id="Resource_ypis0"]
+script = ExtResource("3_kw2ie")
+move = 10
+
+[sub_resource type="Resource" id="Resource_ky1hq"]
+script = ExtResource("3_kw2ie")
+move = 43
+
+[sub_resource type="Resource" id="Resource_tjlei"]
+script = ExtResource("3_kw2ie")
+move = 55
+
+[sub_resource type="Resource" id="Resource_axuea"]
+script = ExtResource("3_kw2ie")
+move = 97
+
+[sub_resource type="Resource" id="Resource_jfee5"]
+script = ExtResource("3_kw2ie")
+level = 13
+move = 44
+
+[sub_resource type="Resource" id="Resource_q1v21"]
+script = ExtResource("3_kw2ie")
+level = 15
+move = 184
+
+[sub_resource type="Resource" id="Resource_lo0ct"]
+script = ExtResource("3_kw2ie")
+level = 21
+move = 423
+
+[sub_resource type="Resource" id="Resource_uqfse"]
+script = ExtResource("3_kw2ie")
+level = 24
+move = 175
+
+[sub_resource type="Resource" id="Resource_bgscb"]
+script = ExtResource("3_kw2ie")
+level = 32
+move = 242
+
+[sub_resource type="Resource" id="Resource_6pyux"]
+script = ExtResource("3_kw2ie")
+level = 37
+move = 163
+
+[sub_resource type="Resource" id="Resource_ab42k"]
+script = ExtResource("3_kw2ie")
+level = 44
+move = 103
+
+[sub_resource type="Resource" id="Resource_gsb6h"]
+script = ExtResource("3_kw2ie")
+level = 51
+move = 37
+
+[sub_resource type="Resource" id="Resource_cu23x"]
+script = ExtResource("3_kw2ie")
+level = 59
+move = 401
+
+[sub_resource type="Resource" id="Resource_jq13j"]
+script = ExtResource("3_kw2ie")
+level = 65
+move = 276
+
+[sub_resource type="Resource" id="Resource_t6v6s"]
+script = ExtResource("3_kw2ie")
+level = 70
+move = 56
+
+[resource]
+script = ExtResource("4_pwwrq")
+id = 160
+display_name = "Feraligatr"
+category = "Big Jaw"
+national_dex = 160
+pokedex = "It opens its huge mouth to intimidate
+enemies. In battle, it runs using its thick
+and powerful hind legs to charge the
+foe with incredible speed."
+type_1 = 12
+base_hp = 85
+base_atk = 105
+base_def = 100
+base_spa = 79
+base_spd = 83
+base_spe = 78
+ev_atk = 2
+ev_def = 1
+base_exp = 210
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 67
+ability_hidden = 125
+height_dm = 23
+weight_hg = 888
+body_color = 1
+level_moves = Array[ExtResource("3_kw2ie")]([SubResource("Resource_ypis0"), SubResource("Resource_ky1hq"), SubResource("Resource_tjlei"), SubResource("Resource_axuea"), SubResource("Resource_jfee5"), SubResource("Resource_q1v21"), SubResource("Resource_lo0ct"), SubResource("Resource_uqfse"), SubResource("Resource_bgscb"), SubResource("Resource_6pyux"), SubResource("Resource_ab42k"), SubResource("Resource_gsb6h"), SubResource("Resource_cu23x"), SubResource("Resource_jq13j"), SubResource("Resource_t6v6s")])
+form_species = Array[int]([160, 1529])

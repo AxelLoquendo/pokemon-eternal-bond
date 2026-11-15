@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cdwuc26bmb1fq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8tt2x"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_kle3x"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_i5uer"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8byfi"]
+
+[sub_resource type="Resource" id="Resource_klxpa"]
+script = ExtResource("3_i5uer")
+move = 641
+
+[sub_resource type="Resource" id="Resource_mtm46"]
+script = ExtResource("3_i5uer")
+move = 286
+
+[sub_resource type="Resource" id="Resource_xtr4w"]
+script = ExtResource("3_i5uer")
+move = 236
+
+[sub_resource type="Resource" id="Resource_7j27m"]
+script = ExtResource("3_i5uer")
+move = 277
+
+[sub_resource type="Resource" id="Resource_i0g1d"]
+script = ExtResource("3_i5uer")
+move = 428
+
+[sub_resource type="Resource" id="Resource_t4ikt"]
+script = ExtResource("3_i5uer")
+move = 347
+
+[sub_resource type="Resource" id="Resource_xlgdp"]
+script = ExtResource("3_i5uer")
+move = 281
+
+[sub_resource type="Resource" id="Resource_50oc8"]
+script = ExtResource("3_i5uer")
+move = 94
+
+[sub_resource type="Resource" id="Resource_ki3cm"]
+script = ExtResource("3_i5uer")
+move = 585
+
+[sub_resource type="Resource" id="Resource_udw3e"]
+script = ExtResource("3_i5uer")
+move = 138
+
+[sub_resource type="Resource" id="Resource_bk077"]
+script = ExtResource("3_i5uer")
+move = 248
+
+[sub_resource type="Resource" id="Resource_df218"]
+script = ExtResource("3_i5uer")
+move = 472
+
+[sub_resource type="Resource" id="Resource_7hyba"]
+script = ExtResource("3_i5uer")
+move = 500
+
+[sub_resource type="Resource" id="Resource_740t2"]
+script = ExtResource("3_i5uer")
+move = 111
+
+[sub_resource type="Resource" id="Resource_1tvhi"]
+script = ExtResource("3_i5uer")
+move = 95
+
+[sub_resource type="Resource" id="Resource_44nqm"]
+script = ExtResource("3_i5uer")
+move = 60
+
+[resource]
+script = ExtResource("4_8byfi")
+id = 518
+display_name = "Musharna"
+category = "Drowsing"
+national_dex = 518
+pokedex = "The mist emanating from their foreheads
+is packed with the dreams of people and
+Pokémon. It changes into different colors
+depending on the dream that was eaten."
+type_1 = 15
+base_hp = 116
+base_atk = 55
+base_def = 85
+base_spa = 107
+base_spd = 95
+base_spe = 29
+ev_hp = 2
+catch_rate = 75
+base_exp = 170
+growth_rate = 4
+egg_cycles = 10
+egg_group_1 = 5
+ability_1 = 108
+ability_2 = 28
+ability_hidden = 140
+height_dm = 11
+weight_hg = 605
+body_color = 9
+level_moves = Array[ExtResource("3_i5uer")]([SubResource("Resource_klxpa"), SubResource("Resource_mtm46"), SubResource("Resource_xtr4w"), SubResource("Resource_7j27m"), SubResource("Resource_i0g1d"), SubResource("Resource_t4ikt"), SubResource("Resource_xlgdp"), SubResource("Resource_50oc8"), SubResource("Resource_ki3cm"), SubResource("Resource_udw3e"), SubResource("Resource_bk077"), SubResource("Resource_df218"), SubResource("Resource_7hyba"), SubResource("Resource_740t2"), SubResource("Resource_1tvhi"), SubResource("Resource_44nqm")])

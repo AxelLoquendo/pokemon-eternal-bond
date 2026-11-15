@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://el4k17tgib3k"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_n622c"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8syu3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nv0fr"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_62vur"]
+
+[sub_resource type="Resource" id="Resource_ihud7"]
+script = ExtResource("3_nv0fr")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ipmtn"]
+script = ExtResource("3_nv0fr")
+move = 64
+
+[sub_resource type="Resource" id="Resource_a5jho"]
+script = ExtResource("3_nv0fr")
+move = 102
+
+[sub_resource type="Resource" id="Resource_y3jdq"]
+script = ExtResource("3_nv0fr")
+level = 6
+move = 98
+
+[sub_resource type="Resource" id="Resource_lx7lx"]
+script = ExtResource("3_nv0fr")
+level = 10
+move = 259
+
+[sub_resource type="Resource" id="Resource_ib7y8"]
+script = ExtResource("3_nv0fr")
+level = 13
+move = 332
+
+[sub_resource type="Resource" id="Resource_q1in4"]
+script = ExtResource("3_nv0fr")
+level = 17
+move = 31
+
+[sub_resource type="Resource" id="Resource_fnhgq"]
+script = ExtResource("3_nv0fr")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_5bvjo"]
+script = ExtResource("3_nv0fr")
+level = 24
+move = 253
+
+[sub_resource type="Resource" id="Resource_nmdtc"]
+script = ExtResource("3_nv0fr")
+level = 27
+move = 383
+
+[sub_resource type="Resource" id="Resource_chufc"]
+script = ExtResource("3_nv0fr")
+level = 30
+move = 19
+
+[sub_resource type="Resource" id="Resource_87ili"]
+script = ExtResource("3_nv0fr")
+level = 34
+move = 263
+
+[sub_resource type="Resource" id="Resource_jv4rv"]
+script = ExtResource("3_nv0fr")
+level = 38
+move = 207
+
+[sub_resource type="Resource" id="Resource_hcdlc"]
+script = ExtResource("3_nv0fr")
+level = 42
+move = 413
+
+[sub_resource type="Resource" id="Resource_ekuif"]
+script = ExtResource("3_nv0fr")
+level = 47
+move = 355
+
+[sub_resource type="Resource" id="Resource_n8j6h"]
+script = ExtResource("3_nv0fr")
+level = 52
+move = 179
+
+[resource]
+script = ExtResource("4_62vur")
+id = 1316
+display_name = "Squawkabilly"
+category = "Parrot"
+national_dex = 931
+pokedex = "Green-feathered flocks hold the
+most sway. When they're out
+searching for food in the mornings and
+evenings, it gets very noisy."
+type_1 = 1
+type_2 = 3
+base_hp = 82
+base_atk = 96
+base_def = 51
+base_spa = 45
+base_spd = 51
+base_spe = 92
+ev_atk = 1
+catch_rate = 190
+base_exp = 146
+growth_rate = 1
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 22
+ability_2 = 55
+ability_hidden = 62
+height_dm = 6
+weight_hg = 24
+body_color = 3
+level_moves = Array[ExtResource("3_nv0fr")]([SubResource("Resource_ihud7"), SubResource("Resource_ipmtn"), SubResource("Resource_a5jho"), SubResource("Resource_y3jdq"), SubResource("Resource_lx7lx"), SubResource("Resource_ib7y8"), SubResource("Resource_q1in4"), SubResource("Resource_fnhgq"), SubResource("Resource_5bvjo"), SubResource("Resource_nmdtc"), SubResource("Resource_chufc"), SubResource("Resource_87ili"), SubResource("Resource_jv4rv"), SubResource("Resource_hcdlc"), SubResource("Resource_ekuif"), SubResource("Resource_n8j6h")])
+egg_moves = Array[int]([38, 515, 260, 575])
+form_species = Array[int]([1316, 1317, 1318, 1319])

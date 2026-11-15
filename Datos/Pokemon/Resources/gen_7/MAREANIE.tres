@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cems0me7x6utw"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_2tc51"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wq7d0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ke4xh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_j2de8"]
+
+[sub_resource type="Resource" id="Resource_ja3e5"]
+script = ExtResource("1_2tc51")
+method = "LEVEL"
+param = "38"
+target = 748
+
+[sub_resource type="Resource" id="Resource_p84ln"]
+script = ExtResource("3_ke4xh")
+move = 40
+
+[sub_resource type="Resource" id="Resource_5ur5b"]
+script = ExtResource("3_ke4xh")
+move = 64
+
+[sub_resource type="Resource" id="Resource_65daj"]
+script = ExtResource("3_ke4xh")
+level = 5
+move = 469
+
+[sub_resource type="Resource" id="Resource_hdqrm"]
+script = ExtResource("3_ke4xh")
+level = 10
+move = 44
+
+[sub_resource type="Resource" id="Resource_g1fdh"]
+script = ExtResource("3_ke4xh")
+level = 15
+move = 474
+
+[sub_resource type="Resource" id="Resource_nb2ct"]
+script = ExtResource("3_ke4xh")
+level = 20
+move = 105
+
+[sub_resource type="Resource" id="Resource_l1488"]
+script = ExtResource("3_ke4xh")
+level = 25
+move = 42
+
+[sub_resource type="Resource" id="Resource_2l6xh"]
+script = ExtResource("3_ke4xh")
+level = 30
+move = 390
+
+[sub_resource type="Resource" id="Resource_c43hq"]
+script = ExtResource("3_ke4xh")
+level = 35
+move = 664
+
+[sub_resource type="Resource" id="Resource_7moku"]
+script = ExtResource("3_ke4xh")
+level = 40
+move = 491
+
+[sub_resource type="Resource" id="Resource_stysj"]
+script = ExtResource("3_ke4xh")
+level = 45
+move = 398
+
+[sub_resource type="Resource" id="Resource_nq6y8"]
+script = ExtResource("3_ke4xh")
+level = 50
+move = 92
+
+[resource]
+script = ExtResource("4_j2de8")
+id = 747
+display_name = "Mareanie"
+category = "Brutal Star"
+national_dex = 747
+pokedex = "It's found crawling on beaches and
+seafloors. The coral that grows on
+Corsola's head is as good as a five-star
+banquet to this Pokémon."
+type_1 = 4
+type_2 = 12
+base_hp = 50
+base_atk = 53
+base_def = 62
+base_spa = 43
+base_spd = 52
+base_spe = 45
+ev_def = 1
+catch_rate = 190
+base_exp = 61
+egg_group_1 = 2
+ability_1 = 196
+ability_2 = 7
+ability_hidden = 144
+item_rare = 432
+height_dm = 4
+weight_hg = 80
+body_color = 1
+level_moves = Array[ExtResource("3_ke4xh")]([SubResource("Resource_p84ln"), SubResource("Resource_5ur5b"), SubResource("Resource_65daj"), SubResource("Resource_hdqrm"), SubResource("Resource_g1fdh"), SubResource("Resource_nb2ct"), SubResource("Resource_l1488"), SubResource("Resource_2l6xh"), SubResource("Resource_c43hq"), SubResource("Resource_7moku"), SubResource("Resource_stysj"), SubResource("Resource_nq6y8")])
+egg_moves = Array[int]([254, 256, 255, 114])
+evolutions = Array[ExtResource("1_2tc51")]([SubResource("Resource_ja3e5")])

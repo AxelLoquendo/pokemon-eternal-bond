@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://budprcafd8hk7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qqsbr"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5ksyd"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_tp2wr"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bxjoi"]
+
+[sub_resource type="Resource" id="Resource_kt1pv"]
+script = ExtResource("3_tp2wr")
+level = 0
+move = 328
+
+[sub_resource type="Resource" id="Resource_12cws"]
+script = ExtResource("3_tp2wr")
+move = 28
+
+[sub_resource type="Resource" id="Resource_3btb5"]
+script = ExtResource("3_tp2wr")
+move = 45
+
+[sub_resource type="Resource" id="Resource_axrtu"]
+script = ExtResource("3_tp2wr")
+move = 161
+
+[sub_resource type="Resource" id="Resource_maedq"]
+script = ExtResource("3_tp2wr")
+move = 232
+
+[sub_resource type="Resource" id="Resource_6d8fy"]
+script = ExtResource("3_tp2wr")
+move = 310
+
+[sub_resource type="Resource" id="Resource_yfd2b"]
+script = ExtResource("3_tp2wr")
+move = 400
+
+[sub_resource type="Resource" id="Resource_372lu"]
+script = ExtResource("3_tp2wr")
+level = 12
+move = 189
+
+[sub_resource type="Resource" id="Resource_ibavr"]
+script = ExtResource("3_tp2wr")
+level = 16
+move = 523
+
+[sub_resource type="Resource" id="Resource_vyw1a"]
+script = ExtResource("3_tp2wr")
+level = 20
+move = 389
+
+[sub_resource type="Resource" id="Resource_ioloa"]
+script = ExtResource("3_tp2wr")
+level = 24
+move = 442
+
+[sub_resource type="Resource" id="Resource_ypr42"]
+script = ExtResource("3_tp2wr")
+level = 30
+move = 201
+
+[sub_resource type="Resource" id="Resource_fr52m"]
+script = ExtResource("3_tp2wr")
+level = 36
+move = 91
+
+[sub_resource type="Resource" id="Resource_x6232"]
+script = ExtResource("3_tp2wr")
+level = 42
+move = 414
+
+[sub_resource type="Resource" id="Resource_e8gs4"]
+script = ExtResource("3_tp2wr")
+level = 48
+move = 89
+
+[sub_resource type="Resource" id="Resource_8tajh"]
+script = ExtResource("3_tp2wr")
+level = 54
+move = 90
+
+[resource]
+script = ExtResource("4_bxjoi")
+id = 964
+display_name = "Dugtrio"
+category = "Mole"
+national_dex = 51
+pokedex = "Their beautiful, metallic whiskers create
+a sort of protective helmet on
+heir heads, and they also function
+as highly precise sensors."
+type_1 = 5
+type_2 = 9
+base_hp = 35
+base_atk = 100
+base_def = 60
+base_spa = 50
+base_spd = 70
+base_spe = 110
+ev_spe = 2
+catch_rate = 50
+base_exp = 149
+egg_group_1 = 5
+ability_1 = 8
+ability_2 = 221
+ability_hidden = 159
+item_rare = 433
+height_dm = 7
+weight_hg = 666
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_tp2wr")]([SubResource("Resource_kt1pv"), SubResource("Resource_12cws"), SubResource("Resource_3btb5"), SubResource("Resource_axrtu"), SubResource("Resource_maedq"), SubResource("Resource_6d8fy"), SubResource("Resource_yfd2b"), SubResource("Resource_372lu"), SubResource("Resource_ibavr"), SubResource("Resource_vyw1a"), SubResource("Resource_ioloa"), SubResource("Resource_ypr42"), SubResource("Resource_fr52m"), SubResource("Resource_x6232"), SubResource("Resource_e8gs4"), SubResource("Resource_8tajh")])
+form_species = Array[int]([51, 964])

@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d01gkr0y8vh3q"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ut7ao"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_4aqbw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3wqow"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bbo2d"]
+
+[sub_resource type="Resource" id="Resource_w42ce"]
+script = ExtResource("3_3wqow")
+move = 364
+
+[sub_resource type="Resource" id="Resource_7dq27"]
+script = ExtResource("3_3wqow")
+move = 229
+
+[sub_resource type="Resource" id="Resource_2m5s6"]
+script = ExtResource("3_3wqow")
+level = 5
+move = 43
+
+[sub_resource type="Resource" id="Resource_g0l53"]
+script = ExtResource("3_3wqow")
+level = 10
+move = 501
+
+[sub_resource type="Resource" id="Resource_h8rac"]
+script = ExtResource("3_3wqow")
+level = 15
+move = 450
+
+[sub_resource type="Resource" id="Resource_co1cn"]
+script = ExtResource("3_3wqow")
+level = 20
+move = 67
+
+[sub_resource type="Resource" id="Resource_m6eog"]
+script = ExtResource("3_3wqow")
+level = 25
+move = 24
+
+[sub_resource type="Resource" id="Resource_khayg"]
+script = ExtResource("3_3wqow")
+level = 30
+move = 167
+
+[sub_resource type="Resource" id="Resource_egrec"]
+script = ExtResource("3_3wqow")
+level = 35
+move = 23
+
+[sub_resource type="Resource" id="Resource_dyef4"]
+script = ExtResource("3_3wqow")
+level = 40
+move = 97
+
+[sub_resource type="Resource" id="Resource_rtgq2"]
+script = ExtResource("3_3wqow")
+level = 45
+move = 642
+
+[sub_resource type="Resource" id="Resource_ke6fk"]
+script = ExtResource("3_3wqow")
+level = 50
+move = 340
+
+[sub_resource type="Resource" id="Resource_sxrj6"]
+script = ExtResource("3_3wqow")
+level = 55
+move = 646
+
+[sub_resource type="Resource" id="Resource_pxno6"]
+script = ExtResource("3_3wqow")
+level = 60
+move = 405
+
+[sub_resource type="Resource" id="Resource_myfhv"]
+script = ExtResource("3_3wqow")
+level = 65
+move = 483
+
+[sub_resource type="Resource" id="Resource_0vxny"]
+script = ExtResource("3_3wqow")
+level = 70
+move = 136
+
+[resource]
+script = ExtResource("4_bbo2d")
+id = 795
+display_name = "Pheromosa"
+category = "Lissome"
+national_dex = 795
+pokedex = "One of the dangerous Ultra Beasts,
+it refuses to touch anything, perhaps
+because it senses some uncleanness
+in this world."
+type_1 = 7
+type_2 = 2
+base_hp = 71
+base_atk = 137
+base_def = 37
+base_spa = 137
+base_spd = 37
+base_spe = 151
+ev_spe = 3
+base_exp = 285
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 224
+height_dm = 18
+weight_hg = 250
+body_color = 8
+level_moves = Array[ExtResource("3_3wqow")]([SubResource("Resource_w42ce"), SubResource("Resource_7dq27"), SubResource("Resource_2m5s6"), SubResource("Resource_g0l53"), SubResource("Resource_h8rac"), SubResource("Resource_co1cn"), SubResource("Resource_m6eog"), SubResource("Resource_khayg"), SubResource("Resource_egrec"), SubResource("Resource_dyef4"), SubResource("Resource_rtgq2"), SubResource("Resource_ke6fk"), SubResource("Resource_sxrj6"), SubResource("Resource_pxno6"), SubResource("Resource_myfhv"), SubResource("Resource_0vxny")])

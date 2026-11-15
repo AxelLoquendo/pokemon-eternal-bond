@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dp2cu2n8cv4vj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mwjjp"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i75w2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ylf7s"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mfxua"]
+
+[sub_resource type="Resource" id="Resource_fquml"]
+script = ExtResource("1_mwjjp")
+method = "ITEM"
+param = "ITEM_DUSK_STONE"
+target = 681
+
+[sub_resource type="Resource" id="Resource_2gx2o"]
+script = ExtResource("3_ylf7s")
+move = 33
+
+[sub_resource type="Resource" id="Resource_c36ig"]
+script = ExtResource("3_ylf7s")
+move = 210
+
+[sub_resource type="Resource" id="Resource_7htdt"]
+script = ExtResource("3_ylf7s")
+move = 425
+
+[sub_resource type="Resource" id="Resource_l8141"]
+script = ExtResource("3_ylf7s")
+move = 475
+
+[sub_resource type="Resource" id="Resource_c8ur2"]
+script = ExtResource("3_ylf7s")
+level = 12
+move = 332
+
+[sub_resource type="Resource" id="Resource_e21d4"]
+script = ExtResource("3_ylf7s")
+level = 16
+move = 319
+
+[sub_resource type="Resource" id="Resource_je4wn"]
+script = ExtResource("3_ylf7s")
+level = 20
+move = 163
+
+[sub_resource type="Resource" id="Resource_250rk"]
+script = ExtResource("3_ylf7s")
+level = 24
+move = 400
+
+[sub_resource type="Resource" id="Resource_r41sd"]
+script = ExtResource("3_ylf7s")
+level = 28
+move = 514
+
+[sub_resource type="Resource" id="Resource_dx621"]
+script = ExtResource("3_ylf7s")
+level = 32
+move = 334
+
+[sub_resource type="Resource" id="Resource_t2esd"]
+script = ExtResource("3_ylf7s")
+level = 38
+move = 442
+
+[sub_resource type="Resource" id="Resource_immi2"]
+script = ExtResource("3_ylf7s")
+level = 44
+move = 379
+
+[sub_resource type="Resource" id="Resource_j0ywt"]
+script = ExtResource("3_ylf7s")
+level = 50
+move = 14
+
+[sub_resource type="Resource" id="Resource_a2vpn"]
+script = ExtResource("3_ylf7s")
+level = 56
+move = 533
+
+[resource]
+script = ExtResource("4_mfxua")
+id = 680
+display_name = "Doublade"
+category = "Sword"
+national_dex = 680
+pokedex = "When Honedge evolves, it divides into
+two swords. The complex attack patterns
+of its two swords are unstoppable, even
+against those skilled at swordplay."
+type_1 = 9
+type_2 = 8
+base_hp = 59
+base_atk = 110
+base_def = 150
+base_spa = 45
+base_spd = 49
+base_spe = 35
+ev_def = 2
+catch_rate = 90
+base_exp = 157
+egg_group_1 = 10
+ability_1 = 99
+height_dm = 8
+weight_hg = 45
+body_color = 5
+level_moves = Array[ExtResource("3_ylf7s")]([SubResource("Resource_2gx2o"), SubResource("Resource_c36ig"), SubResource("Resource_7htdt"), SubResource("Resource_l8141"), SubResource("Resource_c8ur2"), SubResource("Resource_e21d4"), SubResource("Resource_je4wn"), SubResource("Resource_250rk"), SubResource("Resource_r41sd"), SubResource("Resource_dx621"), SubResource("Resource_t2esd"), SubResource("Resource_immi2"), SubResource("Resource_j0ywt"), SubResource("Resource_a2vpn")])
+evolutions = Array[ExtResource("1_mwjjp")]([SubResource("Resource_fquml")])

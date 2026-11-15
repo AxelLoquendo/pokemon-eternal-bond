@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ddnbkj2ifoicj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cm6ws"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lbyoo"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_y7fvh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5kqqt"]
+
+[sub_resource type="Resource" id="Resource_xkek8"]
+script = ExtResource("3_y7fvh")
+move = 33
+
+[sub_resource type="Resource" id="Resource_dlms3"]
+script = ExtResource("3_y7fvh")
+move = 106
+
+[sub_resource type="Resource" id="Resource_6gcp5"]
+script = ExtResource("3_y7fvh")
+move = 591
+
+[sub_resource type="Resource" id="Resource_negh6"]
+script = ExtResource("3_y7fvh")
+level = 7
+move = 470
+
+[sub_resource type="Resource" id="Resource_oc8ep"]
+script = ExtResource("3_y7fvh")
+level = 14
+move = 479
+
+[sub_resource type="Resource" id="Resource_ysrea"]
+script = ExtResource("3_y7fvh")
+level = 21
+move = 175
+
+[sub_resource type="Resource" id="Resource_r5t8t"]
+script = ExtResource("3_y7fvh")
+level = 28
+move = 246
+
+[sub_resource type="Resource" id="Resource_lw34o"]
+script = ExtResource("3_y7fvh")
+level = 35
+move = 397
+
+[sub_resource type="Resource" id="Resource_h2trd"]
+script = ExtResource("3_y7fvh")
+level = 42
+move = 113
+
+[sub_resource type="Resource" id="Resource_h1dw0"]
+script = ExtResource("3_y7fvh")
+level = 49
+move = 157
+
+[sub_resource type="Resource" id="Resource_7jpki"]
+script = ExtResource("3_y7fvh")
+level = 56
+move = 285
+
+[sub_resource type="Resource" id="Resource_bfxyb"]
+script = ExtResource("3_y7fvh")
+level = 63
+move = 408
+
+[sub_resource type="Resource" id="Resource_24rbo"]
+script = ExtResource("3_y7fvh")
+level = 70
+move = 446
+
+[sub_resource type="Resource" id="Resource_kaiag"]
+script = ExtResource("3_y7fvh")
+level = 77
+move = 585
+
+[sub_resource type="Resource" id="Resource_5dobo"]
+script = ExtResource("3_y7fvh")
+level = 84
+move = 444
+
+[resource]
+script = ExtResource("4_5kqqt")
+id = 952
+display_name = "Diancie"
+category = "Jewel"
+national_dex = 719
+pokedex = "The impurities upon its body's surface
+have fallen away, sparkling so brilliantly
+that cannot be observed directly.
+It is known as “the Royal Pink Princess”."
+type_1 = 6
+type_2 = 19
+base_hp = 50
+base_atk = 160
+base_def = 110
+base_spa = 160
+base_spd = 110
+base_spe = 110
+ev_def = 1
+ev_spd = 2
+catch_rate = 3
+base_exp = 350
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 25
+ability_1 = 156
+ability_2 = 156
+ability_hidden = 156
+height_dm = 11
+weight_hg = 278
+body_color = 9
+level_moves = Array[ExtResource("3_y7fvh")]([SubResource("Resource_xkek8"), SubResource("Resource_dlms3"), SubResource("Resource_6gcp5"), SubResource("Resource_negh6"), SubResource("Resource_oc8ep"), SubResource("Resource_ysrea"), SubResource("Resource_r5t8t"), SubResource("Resource_lw34o"), SubResource("Resource_h2trd"), SubResource("Resource_h1dw0"), SubResource("Resource_7jpki"), SubResource("Resource_bfxyb"), SubResource("Resource_24rbo"), SubResource("Resource_kaiag"), SubResource("Resource_5dobo")])
+form_species = Array[int]([719, 952])

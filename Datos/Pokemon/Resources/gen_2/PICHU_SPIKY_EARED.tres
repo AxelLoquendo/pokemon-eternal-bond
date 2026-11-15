@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bcrb50qysc44j"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3o5tg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8mjel"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h8fyn"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_a6e0x"]
+
+[sub_resource type="Resource" id="Resource_jl4s4"]
+script = ExtResource("3_h8fyn")
+move = 39
+
+[sub_resource type="Resource" id="Resource_4r0st"]
+script = ExtResource("3_h8fyn")
+move = 84
+
+[sub_resource type="Resource" id="Resource_mg5ya"]
+script = ExtResource("3_h8fyn")
+level = 4
+move = 589
+
+[sub_resource type="Resource" id="Resource_lwv3b"]
+script = ExtResource("3_h8fyn")
+level = 8
+move = 186
+
+[sub_resource type="Resource" id="Resource_253gq"]
+script = ExtResource("3_h8fyn")
+level = 12
+move = 609
+
+[sub_resource type="Resource" id="Resource_cmpby"]
+script = ExtResource("3_h8fyn")
+level = 16
+move = 417
+
+[sub_resource type="Resource" id="Resource_ujf76"]
+script = ExtResource("3_h8fyn")
+level = 20
+move = 204
+
+[resource]
+script = ExtResource("4_a6e0x")
+id = 1023
+display_name = "Pichu"
+category = "Tiny Mouse"
+national_dex = 172
+type_1 = 14
+base_hp = 20
+base_atk = 40
+base_def = 15
+base_spa = 35
+base_spd = 35
+base_spe = 60
+ev_spe = 1
+catch_rate = 190
+base_exp = 42
+egg_cycles = 10
+ability_1 = 9
+height_dm = 3
+weight_hg = 20
+body_color = 2
+no_flip = true
+level_moves = Array[ExtResource("3_h8fyn")]([SubResource("Resource_jl4s4"), SubResource("Resource_4r0st"), SubResource("Resource_mg5ya"), SubResource("Resource_lwv3b"), SubResource("Resource_253gq"), SubResource("Resource_cmpby"), SubResource("Resource_ujf76")])
+egg_moves = Array[int]([179, 117, 217, 227, 3, 273, 268, 252, 9, 321, 175, 203, 381, 516, 574, 604])
+form_species = Array[int]([172, 1023])

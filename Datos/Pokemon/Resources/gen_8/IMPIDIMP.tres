@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cxls4xc7kp76l"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_68jjl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_j7m4j"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vqwp7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_32d5g"]
+
+[sub_resource type="Resource" id="Resource_3j58m"]
+script = ExtResource("1_68jjl")
+method = "LEVEL"
+param = "32"
+target = 860
+
+[sub_resource type="Resource" id="Resource_fnyv2"]
+script = ExtResource("3_vqwp7")
+move = 252
+
+[sub_resource type="Resource" id="Resource_xryfr"]
+script = ExtResource("3_vqwp7")
+move = 590
+
+[sub_resource type="Resource" id="Resource_x2mwy"]
+script = ExtResource("3_vqwp7")
+level = 4
+move = 44
+
+[sub_resource type="Resource" id="Resource_2b7fp"]
+script = ExtResource("3_vqwp7")
+level = 8
+move = 260
+
+[sub_resource type="Resource" id="Resource_g0nkw"]
+script = ExtResource("3_vqwp7")
+level = 12
+move = 313
+
+[sub_resource type="Resource" id="Resource_00tpu"]
+script = ExtResource("3_vqwp7")
+level = 16
+move = 372
+
+[sub_resource type="Resource" id="Resource_0k4w4"]
+script = ExtResource("3_vqwp7")
+level = 20
+move = 207
+
+[sub_resource type="Resource" id="Resource_6klnh"]
+script = ExtResource("3_vqwp7")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_023an"]
+script = ExtResource("3_vqwp7")
+level = 28
+move = 259
+
+[sub_resource type="Resource" id="Resource_nkg1t"]
+script = ExtResource("3_vqwp7")
+level = 33
+move = 399
+
+[sub_resource type="Resource" id="Resource_iuqn0"]
+script = ExtResource("3_vqwp7")
+level = 36
+move = 417
+
+[sub_resource type="Resource" id="Resource_3jvgl"]
+script = ExtResource("3_vqwp7")
+level = 40
+move = 583
+
+[sub_resource type="Resource" id="Resource_70o6e"]
+script = ExtResource("3_vqwp7")
+level = 44
+move = 492
+
+[resource]
+script = ExtResource("4_32d5g")
+id = 859
+display_name = "Impidimp"
+category = "Wily"
+national_dex = 859
+pokedex = "Through its nose, it sucks in the
+emanations produced by people and
+Pokémon when they feel annoyed. It
+thrives off this negative energy."
+type_1 = 18
+type_2 = 19
+base_hp = 45
+base_atk = 45
+base_def = 30
+base_spa = 55
+base_spd = 40
+base_spe = 50
+ev_spa = 1
+catch_rate = 255
+base_exp = 53
+gender_ratio = 0
+egg_group_1 = 6
+egg_group_2 = 8
+ability_1 = 158
+ability_2 = 119
+ability_hidden = 124
+height_dm = 4
+weight_hg = 55
+body_color = 9
+level_moves = Array[ExtResource("3_vqwp7")]([SubResource("Resource_fnyv2"), SubResource("Resource_xryfr"), SubResource("Resource_x2mwy"), SubResource("Resource_2b7fp"), SubResource("Resource_g0nkw"), SubResource("Resource_00tpu"), SubResource("Resource_0k4w4"), SubResource("Resource_6klnh"), SubResource("Resource_023an"), SubResource("Resource_nkg1t"), SubResource("Resource_iuqn0"), SubResource("Resource_3jvgl"), SubResource("Resource_70o6e")])
+evolutions = Array[ExtResource("1_68jjl")]([SubResource("Resource_3j58m")])

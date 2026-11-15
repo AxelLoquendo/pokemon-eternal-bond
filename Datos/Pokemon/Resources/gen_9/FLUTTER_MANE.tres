@@ -1,0 +1,121 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://28e7tqv55ejy"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_2wpe0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5y6pu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ai3cl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_its4u"]
+
+[sub_resource type="Resource" id="Resource_5wnpr"]
+script = ExtResource("3_ai3cl")
+move = 241
+
+[sub_resource type="Resource" id="Resource_3ga1k"]
+script = ExtResource("3_ai3cl")
+move = 109
+
+[sub_resource type="Resource" id="Resource_2baxn"]
+script = ExtResource("3_ai3cl")
+move = 180
+
+[sub_resource type="Resource" id="Resource_d00ro"]
+script = ExtResource("3_ai3cl")
+move = 310
+
+[sub_resource type="Resource" id="Resource_eg7kw"]
+script = ExtResource("3_ai3cl")
+level = 7
+move = 60
+
+[sub_resource type="Resource" id="Resource_a6k7n"]
+script = ExtResource("3_ai3cl")
+level = 14
+move = 212
+
+[sub_resource type="Resource" id="Resource_odrph"]
+script = ExtResource("3_ai3cl")
+level = 21
+move = 262
+
+[sub_resource type="Resource" id="Resource_jqfjl"]
+script = ExtResource("3_ai3cl")
+level = 28
+move = 273
+
+[sub_resource type="Resource" id="Resource_11s10"]
+script = ExtResource("3_ai3cl")
+level = 35
+move = 605
+
+[sub_resource type="Resource" id="Resource_ri71e"]
+script = ExtResource("3_ai3cl")
+level = 42
+move = 247
+
+[sub_resource type="Resource" id="Resource_1268j"]
+script = ExtResource("3_ai3cl")
+level = 49
+move = 595
+
+[sub_resource type="Resource" id="Resource_sgsj1"]
+script = ExtResource("3_ai3cl")
+level = 56
+move = 408
+
+[sub_resource type="Resource" id="Resource_4rmu8"]
+script = ExtResource("3_ai3cl")
+level = 63
+move = 473
+
+[sub_resource type="Resource" id="Resource_cndkd"]
+script = ExtResource("3_ai3cl")
+level = 70
+move = 566
+
+[sub_resource type="Resource" id="Resource_o7ke1"]
+script = ExtResource("3_ai3cl")
+level = 77
+move = 220
+
+[sub_resource type="Resource" id="Resource_yhar0"]
+script = ExtResource("3_ai3cl")
+level = 84
+move = 585
+
+[sub_resource type="Resource" id="Resource_63r3j"]
+script = ExtResource("3_ai3cl")
+level = 91
+move = 195
+
+[resource]
+script = ExtResource("4_its4u")
+id = 1379
+display_name = "Flutter Mane"
+category = "Paradox"
+national_dex = 987
+pokedex = "It has similar features to a
+ghostly pterosaur that was covered in a
+paranormal magazine, but the two
+have little else in common."
+type_1 = 8
+type_2 = 19
+base_hp = 55
+base_atk = 55
+base_def = 55
+base_spa = 135
+base_spd = 135
+base_spe = 135
+ev_spa = 1
+ev_spd = 1
+ev_spe = 1
+catch_rate = 30
+base_exp = 285
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 50
+ability_1 = 281
+item_rare = 764
+height_dm = 14
+weight_hg = 40
+body_color = 7
+level_moves = Array[ExtResource("3_ai3cl")]([SubResource("Resource_5wnpr"), SubResource("Resource_3ga1k"), SubResource("Resource_2baxn"), SubResource("Resource_d00ro"), SubResource("Resource_eg7kw"), SubResource("Resource_a6k7n"), SubResource("Resource_odrph"), SubResource("Resource_jqfjl"), SubResource("Resource_11s10"), SubResource("Resource_ri71e"), SubResource("Resource_1268j"), SubResource("Resource_sgsj1"), SubResource("Resource_4rmu8"), SubResource("Resource_cndkd"), SubResource("Resource_o7ke1"), SubResource("Resource_yhar0"), SubResource("Resource_63r3j")])

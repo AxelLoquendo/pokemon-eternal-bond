@@ -1,0 +1,77 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bows15shrdw5t"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6rvsr"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_en5qu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_x68yj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_c8ek1"]
+
+[sub_resource type="Resource" id="Resource_eu1u5"]
+script = ExtResource("3_x68yj")
+move = 1
+
+[sub_resource type="Resource" id="Resource_0go06"]
+script = ExtResource("3_x68yj")
+move = 150
+
+[sub_resource type="Resource" id="Resource_k14tk"]
+script = ExtResource("3_x68yj")
+move = 383
+
+[sub_resource type="Resource" id="Resource_afnm1"]
+script = ExtResource("3_x68yj")
+level = 4
+move = 47
+
+[sub_resource type="Resource" id="Resource_hoxdh"]
+script = ExtResource("3_x68yj")
+level = 8
+move = 186
+
+[sub_resource type="Resource" id="Resource_lewvu"]
+script = ExtResource("3_x68yj")
+level = 12
+move = 574
+
+[sub_resource type="Resource" id="Resource_1rksp"]
+script = ExtResource("3_x68yj")
+level = 16
+move = 227
+
+[sub_resource type="Resource" id="Resource_p7l7l"]
+script = ExtResource("3_x68yj")
+level = 20
+move = 204
+
+[resource]
+script = ExtResource("4_c8ek1")
+id = 173
+display_name = "Cleffa"
+category = "Star Shape"
+national_dex = 173
+pokedex = "On nights with many shooting stars,
+Cleffa can be seen dancing in a ring.
+They dance until daybreak, when they
+quench their thirst with the morning dew."
+type_1 = 1
+base_hp = 50
+base_atk = 25
+base_def = 28
+base_spa = 45
+base_spd = 55
+base_spe = 15
+ev_spd = 1
+catch_rate = 150
+base_exp = 44
+base_friendship = 140
+gender_ratio = 191
+growth_rate = 4
+egg_cycles = 10
+ability_1 = 56
+ability_hidden = 132
+item_rare = 217
+height_dm = 3
+weight_hg = 30
+body_color = 9
+no_flip = true
+level_moves = Array[ExtResource("3_x68yj")]([SubResource("Resource_eu1u5"), SubResource("Resource_0go06"), SubResource("Resource_k14tk"), SubResource("Resource_afnm1"), SubResource("Resource_hoxdh"), SubResource("Resource_lewvu"), SubResource("Resource_1rksp"), SubResource("Resource_p7l7l")])
+egg_moves = Array[int]([217, 118, 133, 187, 150, 102, 273, 313, 343, 312, 500, 321, 581, 505])

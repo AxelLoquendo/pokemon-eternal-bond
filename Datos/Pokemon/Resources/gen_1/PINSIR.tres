@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bnr0dojs3jit5"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_dhmgq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pvddn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dj7fl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_eyr8p"]
+
+[sub_resource type="Resource" id="Resource_v7f0n"]
+script = ExtResource("3_dj7fl")
+move = 11
+
+[sub_resource type="Resource" id="Resource_rgi8b"]
+script = ExtResource("3_dj7fl")
+move = 106
+
+[sub_resource type="Resource" id="Resource_tox5y"]
+script = ExtResource("3_dj7fl")
+level = 4
+move = 116
+
+[sub_resource type="Resource" id="Resource_4c4yv"]
+script = ExtResource("3_dj7fl")
+level = 8
+move = 20
+
+[sub_resource type="Resource" id="Resource_1kggi"]
+script = ExtResource("3_dj7fl")
+level = 12
+move = 69
+
+[sub_resource type="Resource" id="Resource_oktuh"]
+script = ExtResource("3_dj7fl")
+level = 16
+move = 450
+
+[sub_resource type="Resource" id="Resource_ucdli"]
+script = ExtResource("3_dj7fl")
+level = 20
+move = 480
+
+[sub_resource type="Resource" id="Resource_i7255"]
+script = ExtResource("3_dj7fl")
+level = 24
+move = 458
+
+[sub_resource type="Resource" id="Resource_ahe6d"]
+script = ExtResource("3_dj7fl")
+level = 28
+move = 233
+
+[sub_resource type="Resource" id="Resource_r8xh0"]
+script = ExtResource("3_dj7fl")
+level = 32
+move = 404
+
+[sub_resource type="Resource" id="Resource_ds64x"]
+script = ExtResource("3_dj7fl")
+level = 36
+move = 70
+
+[sub_resource type="Resource" id="Resource_llawt"]
+script = ExtResource("3_dj7fl")
+level = 40
+move = 14
+
+[sub_resource type="Resource" id="Resource_jsgfm"]
+script = ExtResource("3_dj7fl")
+level = 44
+move = 66
+
+[sub_resource type="Resource" id="Resource_gg0px"]
+script = ExtResource("3_dj7fl")
+level = 48
+move = 12
+
+[sub_resource type="Resource" id="Resource_0k0ms"]
+script = ExtResource("3_dj7fl")
+level = 52
+move = 276
+
+[resource]
+script = ExtResource("4_eyr8p")
+id = 127
+display_name = "Pinsir"
+category = "Stag Beetle"
+national_dex = 127
+pokedex = "Their pincers are strong enough to
+shatter thick logs. Because they dislike
+cold, Pinsir burrow and sleep under
+the ground on chilly nights."
+type_1 = 7
+base_hp = 65
+base_atk = 125
+base_def = 100
+base_spa = 55
+base_spd = 70
+base_spe = 85
+ev_atk = 2
+base_exp = 175
+growth_rate = 5
+egg_cycles = 25
+egg_group_1 = 3
+ability_1 = 52
+ability_hidden = 153
+height_dm = 15
+weight_hg = 550
+body_color = 5
+level_moves = Array[ExtResource("3_dj7fl")]([SubResource("Resource_v7f0n"), SubResource("Resource_rgi8b"), SubResource("Resource_tox5y"), SubResource("Resource_4c4yv"), SubResource("Resource_1kggi"), SubResource("Resource_oktuh"), SubResource("Resource_ucdli"), SubResource("Resource_i7255"), SubResource("Resource_ahe6d"), SubResource("Resource_r8xh0"), SubResource("Resource_ds64x"), SubResource("Resource_llawt"), SubResource("Resource_jsgfm"), SubResource("Resource_gg0px"), SubResource("Resource_0k0ms")])
+egg_moves = Array[int]([31, 175, 185, 98, 370, 364, 382, 450, 276])
+form_species = Array[int]([127, 916])

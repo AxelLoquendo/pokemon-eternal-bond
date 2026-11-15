@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cscsx1sbaa6o6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_st3u6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_xq21x"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3motu"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kh6d3"]
+
+[sub_resource type="Resource" id="Resource_jusrg"]
+script = ExtResource("3_3motu")
+move = 45
+
+[sub_resource type="Resource" id="Resource_d04ni"]
+script = ExtResource("3_3motu")
+move = 64
+
+[sub_resource type="Resource" id="Resource_gwiw5"]
+script = ExtResource("3_3motu")
+move = 102
+
+[sub_resource type="Resource" id="Resource_pk6q0"]
+script = ExtResource("3_3motu")
+level = 6
+move = 98
+
+[sub_resource type="Resource" id="Resource_gsbt1"]
+script = ExtResource("3_3motu")
+level = 10
+move = 259
+
+[sub_resource type="Resource" id="Resource_tskcj"]
+script = ExtResource("3_3motu")
+level = 13
+move = 332
+
+[sub_resource type="Resource" id="Resource_pmxod"]
+script = ExtResource("3_3motu")
+level = 17
+move = 31
+
+[sub_resource type="Resource" id="Resource_hbm5s"]
+script = ExtResource("3_3motu")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_i8tcb"]
+script = ExtResource("3_3motu")
+level = 24
+move = 253
+
+[sub_resource type="Resource" id="Resource_n4guc"]
+script = ExtResource("3_3motu")
+level = 27
+move = 383
+
+[sub_resource type="Resource" id="Resource_b5x51"]
+script = ExtResource("3_3motu")
+level = 30
+move = 19
+
+[sub_resource type="Resource" id="Resource_tkqfa"]
+script = ExtResource("3_3motu")
+level = 34
+move = 263
+
+[sub_resource type="Resource" id="Resource_77tlt"]
+script = ExtResource("3_3motu")
+level = 38
+move = 207
+
+[sub_resource type="Resource" id="Resource_0ytl3"]
+script = ExtResource("3_3motu")
+level = 42
+move = 413
+
+[sub_resource type="Resource" id="Resource_djgyd"]
+script = ExtResource("3_3motu")
+level = 47
+move = 355
+
+[sub_resource type="Resource" id="Resource_syv6f"]
+script = ExtResource("3_3motu")
+level = 52
+move = 179
+
+[resource]
+script = ExtResource("4_kh6d3")
+id = 1319
+display_name = "Squawkabilly"
+category = "Parrot"
+national_dex = 931
+pokedex = "Though these Squawkabilly are the
+fewest in number, they have no
+trouble living in towns since they blend
+in with the white buildings."
+type_1 = 1
+type_2 = 3
+base_hp = 82
+base_atk = 96
+base_def = 51
+base_spa = 45
+base_spd = 51
+base_spe = 92
+ev_atk = 1
+catch_rate = 190
+base_exp = 146
+growth_rate = 1
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 22
+ability_2 = 55
+ability_hidden = 125
+height_dm = 6
+weight_hg = 24
+body_color = 8
+level_moves = Array[ExtResource("3_3motu")]([SubResource("Resource_jusrg"), SubResource("Resource_d04ni"), SubResource("Resource_gwiw5"), SubResource("Resource_pk6q0"), SubResource("Resource_gsbt1"), SubResource("Resource_tskcj"), SubResource("Resource_pmxod"), SubResource("Resource_hbm5s"), SubResource("Resource_i8tcb"), SubResource("Resource_n4guc"), SubResource("Resource_b5x51"), SubResource("Resource_tkqfa"), SubResource("Resource_77tlt"), SubResource("Resource_0ytl3"), SubResource("Resource_djgyd"), SubResource("Resource_syv6f")])
+egg_moves = Array[int]([38, 515, 260, 575])
+form_species = Array[int]([1316, 1317, 1318, 1319])

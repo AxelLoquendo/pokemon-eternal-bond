@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dqhmllbjkwyy3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_625mn"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_r5vry"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_u6p6l"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_lsub4"]
+
+[sub_resource type="Resource" id="Resource_vfy3o"]
+script = ExtResource("3_u6p6l")
+move = 110
+
+[sub_resource type="Resource" id="Resource_4brpo"]
+script = ExtResource("3_u6p6l")
+move = 161
+
+[sub_resource type="Resource" id="Resource_oewq1"]
+script = ExtResource("3_u6p6l")
+move = 229
+
+[sub_resource type="Resource" id="Resource_rwxok"]
+script = ExtResource("3_u6p6l")
+level = 10
+move = 246
+
+[sub_resource type="Resource" id="Resource_h00r0"]
+script = ExtResource("3_u6p6l")
+level = 20
+move = 29
+
+[sub_resource type="Resource" id="Resource_35lf4"]
+script = ExtResource("3_u6p6l")
+level = 30
+move = 182
+
+[sub_resource type="Resource" id="Resource_pw1ic"]
+script = ExtResource("3_u6p6l")
+level = 40
+move = 414
+
+[sub_resource type="Resource" id="Resource_xo2it"]
+script = ExtResource("3_u6p6l")
+level = 50
+move = 484
+
+[sub_resource type="Resource" id="Resource_abdrm"]
+script = ExtResource("3_u6p6l")
+level = 60
+move = 834
+
+[sub_resource type="Resource" id="Resource_7128c"]
+script = ExtResource("3_u6p6l")
+level = 70
+move = 38
+
+[sub_resource type="Resource" id="Resource_reswi"]
+script = ExtResource("3_u6p6l")
+level = 80
+move = 397
+
+[sub_resource type="Resource" id="Resource_s6jxq"]
+script = ExtResource("3_u6p6l")
+level = 90
+move = 360
+
+[resource]
+script = ExtResource("4_lsub4")
+id = 1431
+display_name = "Terapagos"
+category = "Tera"
+national_dex = 1024
+pokedex = "Terapagos protects itself using its
+power to transform energy into hard
+crystals. This Pokémon is the source
+of the Terastal phenomenon."
+type_1 = 1
+force_tera_type = 20
+base_hp = 90
+base_atk = 65
+base_def = 85
+base_spa = 65
+base_spd = 85
+base_spe = 60
+ev_def = 1
+catch_rate = 255
+base_exp = 90
+growth_rate = 5
+egg_cycles = 5
+ability_1 = 307
+height_dm = 2
+weight_hg = 65
+body_color = 1
+level_moves = Array[ExtResource("3_u6p6l")]([SubResource("Resource_vfy3o"), SubResource("Resource_4brpo"), SubResource("Resource_oewq1"), SubResource("Resource_rwxok"), SubResource("Resource_h00r0"), SubResource("Resource_35lf4"), SubResource("Resource_pw1ic"), SubResource("Resource_xo2it"), SubResource("Resource_abdrm"), SubResource("Resource_7128c"), SubResource("Resource_reswi"), SubResource("Resource_s6jxq")])
+form_species = Array[int]([1431, 1432, 1433])

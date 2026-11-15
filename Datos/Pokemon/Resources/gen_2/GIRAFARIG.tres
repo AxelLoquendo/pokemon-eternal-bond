@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c48biyvi4dpbb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mcvdx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3xs3e"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uj0h7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cpiyu"]
+
+[sub_resource type="Resource" id="Resource_1om6g"]
+script = ExtResource("3_uj0h7")
+move = 33
+
+[sub_resource type="Resource" id="Resource_onc8u"]
+script = ExtResource("3_uj0h7")
+move = 45
+
+[sub_resource type="Resource" id="Resource_xjjsv"]
+script = ExtResource("3_uj0h7")
+move = 310
+
+[sub_resource type="Resource" id="Resource_t7brw"]
+script = ExtResource("3_uj0h7")
+move = 384
+
+[sub_resource type="Resource" id="Resource_oug5q"]
+script = ExtResource("3_uj0h7")
+move = 385
+
+[sub_resource type="Resource" id="Resource_v2yfh"]
+script = ExtResource("3_uj0h7")
+level = 5
+move = 93
+
+[sub_resource type="Resource" id="Resource_6cjxt"]
+script = ExtResource("3_uj0h7")
+level = 10
+move = 372
+
+[sub_resource type="Resource" id="Resource_phjrs"]
+script = ExtResource("3_uj0h7")
+level = 14
+move = 23
+
+[sub_resource type="Resource" id="Resource_pboyu"]
+script = ExtResource("3_uj0h7")
+level = 19
+move = 60
+
+[sub_resource type="Resource" id="Resource_x5oik"]
+script = ExtResource("3_uj0h7")
+level = 23
+move = 97
+
+[sub_resource type="Resource" id="Resource_8o3vn"]
+script = ExtResource("3_uj0h7")
+level = 28
+move = 458
+
+[sub_resource type="Resource" id="Resource_3wgtt"]
+script = ExtResource("3_uj0h7")
+level = 32
+move = 814
+
+[sub_resource type="Resource" id="Resource_2kw7i"]
+script = ExtResource("3_uj0h7")
+level = 37
+move = 242
+
+[sub_resource type="Resource" id="Resource_rvkfg"]
+script = ExtResource("3_uj0h7")
+level = 41
+move = 226
+
+[sub_resource type="Resource" id="Resource_8wmeh"]
+script = ExtResource("3_uj0h7")
+level = 46
+move = 417
+
+[sub_resource type="Resource" id="Resource_myy5s"]
+script = ExtResource("3_uj0h7")
+level = 50
+move = 94
+
+[resource]
+script = ExtResource("4_cpiyu")
+id = 203
+display_name = "Girafarig"
+category = "Long Neck"
+national_dex = 203
+pokedex = "A Girafarig is an herbivore--it eats
+grass and tree shoots. While it is eating,
+its tail makes chewing and swallowing
+motions as if it were also eating."
+type_1 = 1
+type_2 = 15
+base_hp = 70
+base_atk = 80
+base_def = 65
+base_spa = 90
+base_spd = 65
+base_spe = 85
+ev_spa = 2
+catch_rate = 60
+base_exp = 159
+egg_group_1 = 5
+ability_1 = 39
+ability_2 = 48
+ability_hidden = 157
+height_dm = 15
+weight_hg = 415
+body_color = 2
+level_moves = Array[ExtResource("3_uj0h7")]([SubResource("Resource_1om6g"), SubResource("Resource_onc8u"), SubResource("Resource_xjjsv"), SubResource("Resource_t7brw"), SubResource("Resource_oug5q"), SubResource("Resource_v2yfh"), SubResource("Resource_6cjxt"), SubResource("Resource_phjrs"), SubResource("Resource_pboyu"), SubResource("Resource_x5oik"), SubResource("Resource_8o3vn"), SubResource("Resource_3wgtt"), SubResource("Resource_2kw7i"), SubResource("Resource_rvkfg"), SubResource("Resource_8wmeh"), SubResource("Resource_myy5s")])
+egg_moves = Array[int]([36, 133, 193, 248, 251, 273, 277, 24, 243, 13, 285, 290, 212, 641, 660])

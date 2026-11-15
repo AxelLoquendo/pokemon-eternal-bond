@@ -1,0 +1,75 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bt6gp6g4midiu"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_drcp3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6baoa"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uoetl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7ksu0"]
+
+[sub_resource type="Resource" id="Resource_lj40x"]
+script = ExtResource("3_uoetl")
+move = 1
+
+[sub_resource type="Resource" id="Resource_wr4ox"]
+script = ExtResource("3_uoetl")
+move = 47
+
+[sub_resource type="Resource" id="Resource_1kyqr"]
+script = ExtResource("3_uoetl")
+move = 383
+
+[sub_resource type="Resource" id="Resource_nmmb2"]
+script = ExtResource("3_uoetl")
+level = 4
+move = 111
+
+[sub_resource type="Resource" id="Resource_r1hvi"]
+script = ExtResource("3_uoetl")
+level = 8
+move = 186
+
+[sub_resource type="Resource" id="Resource_8g8jy"]
+script = ExtResource("3_uoetl")
+level = 12
+move = 574
+
+[sub_resource type="Resource" id="Resource_5vdof"]
+script = ExtResource("3_uoetl")
+level = 16
+move = 50
+
+[sub_resource type="Resource" id="Resource_2g1vt"]
+script = ExtResource("3_uoetl")
+level = 20
+move = 204
+
+[resource]
+script = ExtResource("4_7ksu0")
+id = 174
+display_name = "Igglybuff"
+category = "Balloon"
+national_dex = 174
+pokedex = "Its soft and pliable body is very bouncy.
+When it sings continuously with all its
+might, its body steadily turns a deepening
+pink color."
+type_1 = 1
+base_hp = 90
+base_atk = 30
+base_def = 15
+base_spa = 40
+base_spd = 20
+base_spe = 15
+ev_hp = 1
+catch_rate = 170
+base_exp = 42
+gender_ratio = 191
+growth_rate = 4
+egg_cycles = 10
+ability_1 = 56
+ability_hidden = 132
+height_dm = 3
+weight_hg = 10
+body_color = 9
+no_flip = true
+level_moves = Array[ExtResource("3_uoetl")]([SubResource("Resource_lj40x"), SubResource("Resource_wr4ox"), SubResource("Resource_1kyqr"), SubResource("Resource_nmmb2"), SubResource("Resource_r1hvi"), SubResource("Resource_8g8jy"), SubResource("Resource_5vdof"), SubResource("Resource_2g1vt")])
+egg_moves = Array[int]([195, 217, 185, 273, 313, 387, 343, 356, 214, 445, 386, 581, 505])

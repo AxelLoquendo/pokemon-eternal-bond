@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dxcwqx1vadxii"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_dcpgm"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i2r5m"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0l3jn"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r3b7f"]
+
+[sub_resource type="Resource" id="Resource_n1gak"]
+script = ExtResource("1_dcpgm")
+method = "LEVEL"
+param = "10"
+target = 12
+
+[sub_resource type="Resource" id="Resource_spcnu"]
+script = ExtResource("3_0l3jn")
+level = 0
+move = 106
+
+[sub_resource type="Resource" id="Resource_jx1b2"]
+script = ExtResource("3_0l3jn")
+move = 106
+
+[resource]
+script = ExtResource("4_r3b7f")
+id = 11
+display_name = "Metapod"
+category = "Cocoon"
+national_dex = 11
+pokedex = "Its shell is as hard as an iron slab.
+A Metapod does not move very much
+because it is preparing its soft innards
+for evolution inside the shell."
+type_1 = 7
+base_hp = 50
+base_atk = 20
+base_def = 55
+base_spa = 25
+base_spd = 25
+base_spe = 30
+ev_def = 2
+catch_rate = 120
+base_exp = 72
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 61
+height_dm = 7
+weight_hg = 99
+body_color = 3
+level_moves = Array[ExtResource("3_0l3jn")]([SubResource("Resource_spcnu"), SubResource("Resource_jx1b2")])
+evolutions = Array[ExtResource("1_dcpgm")]([SubResource("Resource_n1gak")])

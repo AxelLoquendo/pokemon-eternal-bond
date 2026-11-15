@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dh0w3xclpg6uy"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_e3541"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_e3ru1"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6wwnc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_46kya"]
+
+[sub_resource type="Resource" id="Resource_lb3nt"]
+script = ExtResource("3_6wwnc")
+move = 34
+
+[sub_resource type="Resource" id="Resource_vm0j8"]
+script = ExtResource("3_6wwnc")
+move = 184
+
+[sub_resource type="Resource" id="Resource_p2tyl"]
+script = ExtResource("3_6wwnc")
+move = 246
+
+[sub_resource type="Resource" id="Resource_5vecl"]
+script = ExtResource("3_6wwnc")
+move = 352
+
+[sub_resource type="Resource" id="Resource_wp48n"]
+script = ExtResource("3_6wwnc")
+move = 618
+
+[sub_resource type="Resource" id="Resource_s8mxc"]
+script = ExtResource("3_6wwnc")
+level = 9
+move = 401
+
+[sub_resource type="Resource" id="Resource_khs3v"]
+script = ExtResource("3_6wwnc")
+level = 18
+move = 347
+
+[sub_resource type="Resource" id="Resource_ncghb"]
+script = ExtResource("3_6wwnc")
+level = 27
+move = 330
+
+[sub_resource type="Resource" id="Resource_unhaa"]
+script = ExtResource("3_6wwnc")
+level = 36
+move = 58
+
+[sub_resource type="Resource" id="Resource_2xtma"]
+script = ExtResource("3_6wwnc")
+level = 45
+move = 329
+
+[sub_resource type="Resource" id="Resource_7xjiv"]
+script = ExtResource("3_6wwnc")
+level = 54
+move = 392
+
+[sub_resource type="Resource" id="Resource_fu41h"]
+script = ExtResource("3_6wwnc")
+level = 72
+move = 56
+
+[sub_resource type="Resource" id="Resource_7ud7a"]
+script = ExtResource("3_6wwnc")
+level = 81
+move = 38
+
+[sub_resource type="Resource" id="Resource_67e7s"]
+script = ExtResource("3_6wwnc")
+level = 90
+move = 323
+
+[resource]
+script = ExtResource("4_46kya")
+id = 954
+display_name = "Kyogre"
+category = "Sea Basin"
+national_dex = 382
+pokedex = "When Kyogre roared, water poured forth
+and the seas spread outward.
+Dark clouds enshrouded the world,
+and the deluge fell upon all…"
+type_1 = 12
+base_hp = 100
+base_atk = 150
+base_def = 90
+base_spa = 180
+base_spd = 160
+base_spe = 90
+ev_spa = 3
+catch_rate = 3
+base_exp = 385
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 189
+ability_2 = 189
+height_dm = 98
+weight_hg = 4300
+body_color = 1
+level_moves = Array[ExtResource("3_6wwnc")]([SubResource("Resource_lb3nt"), SubResource("Resource_vm0j8"), SubResource("Resource_p2tyl"), SubResource("Resource_5vecl"), SubResource("Resource_wp48n"), SubResource("Resource_s8mxc"), SubResource("Resource_khs3v"), SubResource("Resource_ncghb"), SubResource("Resource_unhaa"), SubResource("Resource_2xtma"), SubResource("Resource_7xjiv"), SubResource("Resource_fu41h"), SubResource("Resource_7ud7a"), SubResource("Resource_67e7s")])
+form_species = Array[int]([382, 954])

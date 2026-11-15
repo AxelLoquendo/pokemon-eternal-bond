@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bd40nh56j5pwj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_f4x05"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_c72b6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_axyv0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mtre1"]
+
+[sub_resource type="Resource" id="Resource_2jkxu"]
+script = ExtResource("3_axyv0")
+level = 0
+move = 16
+
+[sub_resource type="Resource" id="Resource_nicrf"]
+script = ExtResource("3_axyv0")
+move = 16
+
+[sub_resource type="Resource" id="Resource_yb7dn"]
+script = ExtResource("3_axyv0")
+move = 33
+
+[sub_resource type="Resource" id="Resource_f6ehu"]
+script = ExtResource("3_axyv0")
+move = 81
+
+[sub_resource type="Resource" id="Resource_72r2d"]
+script = ExtResource("3_axyv0")
+move = 106
+
+[sub_resource type="Resource" id="Resource_n2rf1"]
+script = ExtResource("3_axyv0")
+move = 40
+
+[sub_resource type="Resource" id="Resource_1u6pr"]
+script = ExtResource("3_axyv0")
+move = 450
+
+[sub_resource type="Resource" id="Resource_inaxh"]
+script = ExtResource("3_axyv0")
+level = 12
+move = 71
+
+[sub_resource type="Resource" id="Resource_pu3a8"]
+script = ExtResource("3_axyv0")
+level = 15
+move = 78
+
+[sub_resource type="Resource" id="Resource_82v2u"]
+script = ExtResource("3_axyv0")
+level = 17
+move = 234
+
+[sub_resource type="Resource" id="Resource_303gs"]
+script = ExtResource("3_axyv0")
+level = 20
+move = 314
+
+[sub_resource type="Resource" id="Resource_ca5w1"]
+script = ExtResource("3_axyv0")
+level = 22
+move = 72
+
+[sub_resource type="Resource" id="Resource_ym36x"]
+script = ExtResource("3_axyv0")
+level = 25
+move = 141
+
+[sub_resource type="Resource" id="Resource_wlutp"]
+script = ExtResource("3_axyv0")
+level = 27
+move = 213
+
+[sub_resource type="Resource" id="Resource_u2ucj"]
+script = ExtResource("3_axyv0")
+level = 30
+move = 18
+
+[sub_resource type="Resource" id="Resource_n3yde"]
+script = ExtResource("3_axyv0")
+level = 32
+move = 202
+
+[sub_resource type="Resource" id="Resource_8oko7"]
+script = ExtResource("3_axyv0")
+level = 35
+move = 405
+
+[sub_resource type="Resource" id="Resource_dojxx"]
+script = ExtResource("3_axyv0")
+level = 37
+move = 182
+
+[sub_resource type="Resource" id="Resource_bptmk"]
+script = ExtResource("3_axyv0")
+level = 40
+move = 483
+
+[resource]
+script = ExtResource("4_mtre1")
+id = 267
+display_name = "Beautifly"
+category = "Butterfly"
+national_dex = 267
+pokedex = "Its colorfully patterned wings are its
+most prominent feature. It flies through
+flower-covered fields collecting pollen.
+It attacks ferociously when angered."
+type_1 = 7
+type_2 = 3
+base_hp = 60
+base_atk = 70
+base_def = 50
+base_spa = 100
+base_spd = 50
+base_spe = 65
+ev_spa = 3
+base_exp = 161
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 68
+ability_hidden = 79
+item_rare = 490
+height_dm = 10
+weight_hg = 284
+body_color = 2
+level_moves = Array[ExtResource("3_axyv0")]([SubResource("Resource_2jkxu"), SubResource("Resource_nicrf"), SubResource("Resource_yb7dn"), SubResource("Resource_f6ehu"), SubResource("Resource_72r2d"), SubResource("Resource_n2rf1"), SubResource("Resource_1u6pr"), SubResource("Resource_inaxh"), SubResource("Resource_pu3a8"), SubResource("Resource_82v2u"), SubResource("Resource_303gs"), SubResource("Resource_ca5w1"), SubResource("Resource_ym36x"), SubResource("Resource_wlutp"), SubResource("Resource_u2ucj"), SubResource("Resource_n3yde"), SubResource("Resource_8oko7"), SubResource("Resource_dojxx"), SubResource("Resource_bptmk")])

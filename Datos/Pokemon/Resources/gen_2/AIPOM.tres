@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dcivyjuw1hq0k"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jkqiu"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2a4f3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6kxgs"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nsw4x"]
+
+[sub_resource type="Resource" id="Resource_amabp"]
+script = ExtResource("3_6kxgs")
+move = 10
+
+[sub_resource type="Resource" id="Resource_lvg7c"]
+script = ExtResource("3_6kxgs")
+move = 39
+
+[sub_resource type="Resource" id="Resource_qdxsg"]
+script = ExtResource("3_6kxgs")
+level = 4
+move = 28
+
+[sub_resource type="Resource" id="Resource_d0xlp"]
+script = ExtResource("3_6kxgs")
+level = 8
+move = 310
+
+[sub_resource type="Resource" id="Resource_xfl2s"]
+script = ExtResource("3_6kxgs")
+level = 11
+move = 226
+
+[sub_resource type="Resource" id="Resource_58lj8"]
+script = ExtResource("3_6kxgs")
+level = 15
+move = 321
+
+[sub_resource type="Resource" id="Resource_t87k1"]
+script = ExtResource("3_6kxgs")
+level = 18
+move = 154
+
+[sub_resource type="Resource" id="Resource_36r7c"]
+script = ExtResource("3_6kxgs")
+level = 22
+move = 129
+
+[sub_resource type="Resource" id="Resource_hdstp"]
+script = ExtResource("3_6kxgs")
+level = 25
+move = 103
+
+[sub_resource type="Resource" id="Resource_mj4es"]
+script = ExtResource("3_6kxgs")
+level = 29
+move = 97
+
+[sub_resource type="Resource" id="Resource_88de1"]
+script = ExtResource("3_6kxgs")
+level = 32
+move = 458
+
+[sub_resource type="Resource" id="Resource_xkqc1"]
+script = ExtResource("3_6kxgs")
+level = 36
+move = 374
+
+[sub_resource type="Resource" id="Resource_ga53q"]
+script = ExtResource("3_6kxgs")
+level = 39
+move = 417
+
+[sub_resource type="Resource" id="Resource_ay4tx"]
+script = ExtResource("3_6kxgs")
+level = 43
+move = 387
+
+[resource]
+script = ExtResource("4_nsw4x")
+id = 190
+display_name = "Aipom"
+category = "Long Tail"
+national_dex = 190
+pokedex = "Its tail ends with a dexterous, handlike
+appendage. However, because it uses the
+tail so much, Aipom's real hands have
+become rather clumsy."
+type_1 = 1
+base_hp = 55
+base_atk = 70
+base_def = 55
+base_spa = 40
+base_spd = 55
+base_spe = 85
+ev_spe = 1
+base_exp = 72
+growth_rate = 4
+egg_group_1 = 5
+ability_1 = 50
+ability_2 = 53
+ability_hidden = 92
+height_dm = 8
+weight_hg = 115
+body_color = 6
+level_moves = Array[ExtResource("3_6kxgs")]([SubResource("Resource_amabp"), SubResource("Resource_lvg7c"), SubResource("Resource_qdxsg"), SubResource("Resource_d0xlp"), SubResource("Resource_xfl2s"), SubResource("Resource_58lj8"), SubResource("Resource_t87k1"), SubResource("Resource_36r7c"), SubResource("Resource_hdstp"), SubResource("Resource_mj4es"), SubResource("Resource_88de1"), SubResource("Resource_xkqc1"), SubResource("Resource_ga53q"), SubResource("Resource_ay4tx")])
+egg_moves = Array[int]([68, 103, 228, 97, 180, 21, 3, 251, 252, 343, 340, 279, 415, 501, 541])

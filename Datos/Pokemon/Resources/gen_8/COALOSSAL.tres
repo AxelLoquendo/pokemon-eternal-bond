@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://30m4hog20gws"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7s5pk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3cbsf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kicw7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_touj6"]
+
+[sub_resource type="Resource" id="Resource_howse"]
+script = ExtResource("3_kicw7")
+level = 0
+move = 695
+
+[sub_resource type="Resource" id="Resource_7vb6r"]
+script = ExtResource("3_kicw7")
+move = 33
+
+[sub_resource type="Resource" id="Resource_x5opt"]
+script = ExtResource("3_kicw7")
+move = 108
+
+[sub_resource type="Resource" id="Resource_85fgi"]
+script = ExtResource("3_kicw7")
+move = 229
+
+[sub_resource type="Resource" id="Resource_v03k5"]
+script = ExtResource("3_kicw7")
+move = 479
+
+[sub_resource type="Resource" id="Resource_nggyl"]
+script = ExtResource("3_kicw7")
+move = 488
+
+[sub_resource type="Resource" id="Resource_35g4t"]
+script = ExtResource("3_kicw7")
+level = 15
+move = 397
+
+[sub_resource type="Resource" id="Resource_f56ni"]
+script = ExtResource("3_kicw7")
+level = 20
+move = 246
+
+[sub_resource type="Resource" id="Resource_hxl61"]
+script = ExtResource("3_kicw7")
+level = 27
+move = 510
+
+[sub_resource type="Resource" id="Resource_4sd8t"]
+script = ExtResource("3_kicw7")
+level = 37
+move = 446
+
+[sub_resource type="Resource" id="Resource_nnea1"]
+script = ExtResource("3_kicw7")
+level = 45
+move = 535
+
+[sub_resource type="Resource" id="Resource_w881t"]
+script = ExtResource("3_kicw7")
+level = 54
+move = 350
+
+[sub_resource type="Resource" id="Resource_etm07"]
+script = ExtResource("3_kicw7")
+level = 63
+move = 444
+
+[resource]
+script = ExtResource("4_touj6")
+id = 839
+display_name = "Coalossal"
+category = "Coal"
+national_dex = 839
+pokedex = "It's usually peaceful, but the vandalism
+of mines enrages it. Offenders will be
+incinerated with flames that reach
+2,700 degrees Fahrenheit."
+type_1 = 6
+type_2 = 11
+base_hp = 110
+base_atk = 80
+base_def = 120
+base_spa = 80
+base_spd = 90
+base_spe = 30
+ev_def = 3
+base_exp = 255
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 10
+ability_1 = 243
+ability_2 = 49
+ability_hidden = 18
+height_dm = 28
+weight_hg = 3105
+body_color = 4
+level_moves = Array[ExtResource("3_kicw7")]([SubResource("Resource_howse"), SubResource("Resource_7vb6r"), SubResource("Resource_x5opt"), SubResource("Resource_85fgi"), SubResource("Resource_v03k5"), SubResource("Resource_nggyl"), SubResource("Resource_35g4t"), SubResource("Resource_f56ni"), SubResource("Resource_hxl61"), SubResource("Resource_4sd8t"), SubResource("Resource_nnea1"), SubResource("Resource_w881t"), SubResource("Resource_etm07")])
+form_species = Array[int]([839, 1509])

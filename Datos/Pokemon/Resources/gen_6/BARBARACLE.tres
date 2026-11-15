@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b3ofij6g7qd2y"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rg4m2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_d880o"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bhbku"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wb3a3"]
+
+[sub_resource type="Resource" id="Resource_j8q6f"]
+script = ExtResource("3_bhbku")
+move = 130
+
+[sub_resource type="Resource" id="Resource_xkugi"]
+script = ExtResource("3_bhbku")
+move = 189
+
+[sub_resource type="Resource" id="Resource_bnvi0"]
+script = ExtResource("3_bhbku")
+move = 10
+
+[sub_resource type="Resource" id="Resource_6m226"]
+script = ExtResource("3_bhbku")
+move = 110
+
+[sub_resource type="Resource" id="Resource_7r1f8"]
+script = ExtResource("3_bhbku")
+move = 55
+
+[sub_resource type="Resource" id="Resource_l427g"]
+script = ExtResource("3_bhbku")
+level = 12
+move = 210
+
+[sub_resource type="Resource" id="Resource_0j2iu"]
+script = ExtResource("3_bhbku")
+level = 16
+move = 154
+
+[sub_resource type="Resource" id="Resource_dp15t"]
+script = ExtResource("3_bhbku")
+level = 20
+move = 246
+
+[sub_resource type="Resource" id="Resource_8bu3f"]
+script = ExtResource("3_bhbku")
+level = 24
+move = 397
+
+[sub_resource type="Resource" id="Resource_ljvnq"]
+script = ExtResource("3_bhbku")
+level = 28
+move = 163
+
+[sub_resource type="Resource" id="Resource_rgeal"]
+script = ExtResource("3_bhbku")
+level = 32
+move = 468
+
+[sub_resource type="Resource" id="Resource_208ov"]
+script = ExtResource("3_bhbku")
+level = 36
+move = 534
+
+[sub_resource type="Resource" id="Resource_0seqn"]
+script = ExtResource("3_bhbku")
+level = 42
+move = 504
+
+[sub_resource type="Resource" id="Resource_wytsx"]
+script = ExtResource("3_bhbku")
+level = 48
+move = 238
+
+[sub_resource type="Resource" id="Resource_a6ueb"]
+script = ExtResource("3_bhbku")
+level = 54
+move = 444
+
+[resource]
+script = ExtResource("4_wb3a3")
+id = 689
+display_name = "Barbaracle"
+category = "Collective"
+national_dex = 689
+pokedex = "Barbaracle's legs and hands have minds
+of their own, and they will move
+independently. But they usually follow
+the head's orders."
+type_1 = 6
+type_2 = 12
+base_hp = 72
+base_atk = 105
+base_def = 115
+base_spa = 54
+base_spd = 86
+base_spe = 68
+ev_atk = 2
+base_exp = 175
+egg_group_1 = 9
+ability_1 = 181
+ability_2 = 97
+ability_hidden = 124
+height_dm = 13
+weight_hg = 960
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_bhbku")]([SubResource("Resource_j8q6f"), SubResource("Resource_xkugi"), SubResource("Resource_bnvi0"), SubResource("Resource_6m226"), SubResource("Resource_7r1f8"), SubResource("Resource_l427g"), SubResource("Resource_0j2iu"), SubResource("Resource_dp15t"), SubResource("Resource_8bu3f"), SubResource("Resource_ljvnq"), SubResource("Resource_rgeal"), SubResource("Resource_208ov"), SubResource("Resource_0seqn"), SubResource("Resource_wytsx"), SubResource("Resource_a6ueb")])
+form_species = Array[int]([689, 1546])

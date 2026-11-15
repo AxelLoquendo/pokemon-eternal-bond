@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://do5nqslrg8rjv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_dvgki"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ketc0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_buoeo"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gcthx"]
+
+[sub_resource type="Resource" id="Resource_qp4or"]
+script = ExtResource("3_buoeo")
+level = 0
+move = 572
+
+[sub_resource type="Resource" id="Resource_3aok1"]
+script = ExtResource("3_buoeo")
+move = 51
+
+[sub_resource type="Resource" id="Resource_wg6lj"]
+script = ExtResource("3_buoeo")
+move = 71
+
+[sub_resource type="Resource" id="Resource_ikl16"]
+script = ExtResource("3_buoeo")
+move = 72
+
+[sub_resource type="Resource" id="Resource_emqlb"]
+script = ExtResource("3_buoeo")
+move = 74
+
+[sub_resource type="Resource" id="Resource_uaeek"]
+script = ExtResource("3_buoeo")
+move = 77
+
+[sub_resource type="Resource" id="Resource_fi7ry"]
+script = ExtResource("3_buoeo")
+move = 78
+
+[sub_resource type="Resource" id="Resource_nhpow"]
+script = ExtResource("3_buoeo")
+move = 79
+
+[sub_resource type="Resource" id="Resource_466ih"]
+script = ExtResource("3_buoeo")
+move = 80
+
+[sub_resource type="Resource" id="Resource_4rfrm"]
+script = ExtResource("3_buoeo")
+move = 92
+
+[sub_resource type="Resource" id="Resource_3631a"]
+script = ExtResource("3_buoeo")
+move = 202
+
+[sub_resource type="Resource" id="Resource_mescw"]
+script = ExtResource("3_buoeo")
+move = 230
+
+[sub_resource type="Resource" id="Resource_15imw"]
+script = ExtResource("3_buoeo")
+move = 236
+
+[sub_resource type="Resource" id="Resource_qpe5q"]
+script = ExtResource("3_buoeo")
+move = 483
+
+[sub_resource type="Resource" id="Resource_1rfgk"]
+script = ExtResource("3_buoeo")
+move = 580
+
+[sub_resource type="Resource" id="Resource_j3vpj"]
+script = ExtResource("3_buoeo")
+move = 585
+
+[resource]
+script = ExtResource("4_gcthx")
+id = 182
+display_name = "Bellossom"
+category = "Flower"
+national_dex = 182
+pokedex = "Its flower petals deepen in color through
+exposure to sunlight. When cloudy weather
+persists, it does a dance that is thought
+to be a ritual for summoning the sun."
+type_1 = 13
+base_hp = 75
+base_atk = 80
+base_def = 95
+base_spa = 90
+base_spd = 100
+base_spe = 50
+ev_spd = 3
+base_exp = 184
+growth_rate = 3
+egg_group_1 = 7
+ability_1 = 34
+ability_hidden = 131
+item_rare = 455
+height_dm = 4
+weight_hg = 58
+body_color = 3
+level_moves = Array[ExtResource("3_buoeo")]([SubResource("Resource_qp4or"), SubResource("Resource_3aok1"), SubResource("Resource_wg6lj"), SubResource("Resource_ikl16"), SubResource("Resource_emqlb"), SubResource("Resource_uaeek"), SubResource("Resource_fi7ry"), SubResource("Resource_nhpow"), SubResource("Resource_466ih"), SubResource("Resource_4rfrm"), SubResource("Resource_3631a"), SubResource("Resource_mescw"), SubResource("Resource_15imw"), SubResource("Resource_qpe5q"), SubResource("Resource_1rfgk"), SubResource("Resource_j3vpj")])

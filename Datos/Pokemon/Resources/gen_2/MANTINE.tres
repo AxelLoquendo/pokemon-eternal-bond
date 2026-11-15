@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cv83s73aw5xcc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0xhci"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rfpiu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bg10g"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_521pw"]
+
+[sub_resource type="Resource" id="Resource_rnfkk"]
+script = ExtResource("3_bg10g")
+move = 60
+
+[sub_resource type="Resource" id="Resource_h041p"]
+script = ExtResource("3_bg10g")
+move = 331
+
+[sub_resource type="Resource" id="Resource_wlvvy"]
+script = ExtResource("3_bg10g")
+move = 355
+
+[sub_resource type="Resource" id="Resource_q0cua"]
+script = ExtResource("3_bg10g")
+move = 33
+
+[sub_resource type="Resource" id="Resource_4qsap"]
+script = ExtResource("3_bg10g")
+move = 55
+
+[sub_resource type="Resource" id="Resource_w2llk"]
+script = ExtResource("3_bg10g")
+move = 48
+
+[sub_resource type="Resource" id="Resource_s8bxj"]
+script = ExtResource("3_bg10g")
+move = 17
+
+[sub_resource type="Resource" id="Resource_ynh5f"]
+script = ExtResource("3_bg10g")
+level = 12
+move = 352
+
+[sub_resource type="Resource" id="Resource_cxf02"]
+script = ExtResource("3_bg10g")
+level = 16
+move = 469
+
+[sub_resource type="Resource" id="Resource_1h5so"]
+script = ExtResource("3_bg10g")
+level = 20
+move = 97
+
+[sub_resource type="Resource" id="Resource_vlyt7"]
+script = ExtResource("3_bg10g")
+level = 24
+move = 61
+
+[sub_resource type="Resource" id="Resource_qpfi1"]
+script = ExtResource("3_bg10g")
+level = 28
+move = 29
+
+[sub_resource type="Resource" id="Resource_sof6n"]
+script = ExtResource("3_bg10g")
+level = 32
+move = 403
+
+[sub_resource type="Resource" id="Resource_pdrrj"]
+script = ExtResource("3_bg10g")
+level = 36
+move = 392
+
+[sub_resource type="Resource" id="Resource_1h81x"]
+script = ExtResource("3_bg10g")
+level = 40
+move = 340
+
+[sub_resource type="Resource" id="Resource_ifbip"]
+script = ExtResource("3_bg10g")
+level = 44
+move = 36
+
+[sub_resource type="Resource" id="Resource_suqo3"]
+script = ExtResource("3_bg10g")
+level = 48
+move = 56
+
+[resource]
+script = ExtResource("4_521pw")
+id = 226
+display_name = "Mantine"
+category = "Kite"
+national_dex = 226
+pokedex = "On sunny days, schools of Mantine can be
+seen elegantly leaping over the waves.
+It is not bothered by the Remoraid that
+hitches rides."
+type_1 = 12
+type_2 = 3
+base_hp = 85
+base_atk = 40
+base_def = 70
+base_spa = 80
+base_spd = 140
+base_spe = 70
+ev_spd = 2
+catch_rate = 25
+base_exp = 168
+growth_rate = 5
+egg_cycles = 25
+egg_group_1 = 2
+ability_1 = 33
+ability_2 = 11
+ability_hidden = 41
+height_dm = 21
+weight_hg = 2200
+body_color = 6
+level_moves = Array[ExtResource("3_bg10g")]([SubResource("Resource_rnfkk"), SubResource("Resource_h041p"), SubResource("Resource_wlvvy"), SubResource("Resource_q0cua"), SubResource("Resource_4qsap"), SubResource("Resource_w2llk"), SubResource("Resource_s8bxj"), SubResource("Resource_ynh5f"), SubResource("Resource_cxf02"), SubResource("Resource_1h5so"), SubResource("Resource_vlyt7"), SubResource("Resource_qpfi1"), SubResource("Resource_sof6n"), SubResource("Resource_pdrrj"), SubResource("Resource_1h81x"), SubResource("Resource_ifbip"), SubResource("Resource_suqo3")])
+egg_moves = Array[int]([239, 56, 114, 21, 300, 243, 346, 150, 469, 133])

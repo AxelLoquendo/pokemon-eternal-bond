@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bo65bmrkhqgpb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_r36ui"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vxdxp"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_upace"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0lcoq"]
+
+[sub_resource type="Resource" id="Resource_u8jg0"]
+script = ExtResource("3_upace")
+move = 11
+
+[sub_resource type="Resource" id="Resource_xccp1"]
+script = ExtResource("3_upace")
+move = 55
+
+[sub_resource type="Resource" id="Resource_pjod8"]
+script = ExtResource("3_upace")
+move = 150
+
+[sub_resource type="Resource" id="Resource_rdd44"]
+script = ExtResource("3_upace")
+move = 175
+
+[sub_resource type="Resource" id="Resource_yfbrl"]
+script = ExtResource("3_upace")
+move = 399
+
+[sub_resource type="Resource" id="Resource_yswo7"]
+script = ExtResource("3_upace")
+move = 406
+
+[sub_resource type="Resource" id="Resource_d1a32"]
+script = ExtResource("3_upace")
+move = 505
+
+[sub_resource type="Resource" id="Resource_hvaww"]
+script = ExtResource("3_upace")
+level = 15
+move = 453
+
+[sub_resource type="Resource" id="Resource_bhidc"]
+script = ExtResource("3_upace")
+level = 20
+move = 479
+
+[sub_resource type="Resource" id="Resource_f7oby"]
+script = ExtResource("3_upace")
+level = 25
+move = 468
+
+[sub_resource type="Resource" id="Resource_50vbk"]
+script = ExtResource("3_upace")
+level = 30
+move = 352
+
+[sub_resource type="Resource" id="Resource_vg2l6"]
+script = ExtResource("3_upace")
+level = 35
+move = 14
+
+[sub_resource type="Resource" id="Resource_80qxa"]
+script = ExtResource("3_upace")
+level = 42
+move = 396
+
+[sub_resource type="Resource" id="Resource_bi1lc"]
+script = ExtResource("3_upace")
+level = 49
+move = 340
+
+[sub_resource type="Resource" id="Resource_4u3m5"]
+script = ExtResource("3_upace")
+level = 56
+move = 330
+
+[sub_resource type="Resource" id="Resource_0je3l"]
+script = ExtResource("3_upace")
+level = 63
+move = 152
+
+[resource]
+script = ExtResource("4_0lcoq")
+id = 693
+display_name = "Clawitzer"
+category = "Howitzer"
+national_dex = 693
+pokedex = "By expelling water from the nozzle in the
+back of its enormous claw, it can move
+at a speed of 60 knots. They launch
+cannonballs made of water."
+type_1 = 12
+base_hp = 71
+base_atk = 73
+base_def = 88
+base_spa = 120
+base_spd = 89
+base_spe = 59
+ev_spa = 2
+catch_rate = 55
+base_exp = 100
+growth_rate = 5
+egg_cycles = 15
+egg_group_1 = 2
+egg_group_2 = 9
+ability_1 = 178
+height_dm = 13
+weight_hg = 353
+body_color = 1
+no_flip = true
+level_moves = Array[ExtResource("3_upace")]([SubResource("Resource_u8jg0"), SubResource("Resource_xccp1"), SubResource("Resource_pjod8"), SubResource("Resource_rdd44"), SubResource("Resource_yfbrl"), SubResource("Resource_yswo7"), SubResource("Resource_d1a32"), SubResource("Resource_hvaww"), SubResource("Resource_bhidc"), SubResource("Resource_f7oby"), SubResource("Resource_50vbk"), SubResource("Resource_vg2l6"), SubResource("Resource_80qxa"), SubResource("Resource_bi1lc"), SubResource("Resource_4u3m5"), SubResource("Resource_0je3l")])

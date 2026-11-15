@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c5caby4vgm7jn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_x3dxj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_feqpu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_j0nbi"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sjp1w"]
+
+[sub_resource type="Resource" id="Resource_57r8t"]
+script = ExtResource("1_x3dxj")
+method = "LEVEL"
+param = "42"
+target = 112
+
+[sub_resource type="Resource" id="Resource_rqrbr"]
+script = ExtResource("3_j0nbi")
+move = 33
+
+[sub_resource type="Resource" id="Resource_3w4ki"]
+script = ExtResource("3_j0nbi")
+move = 39
+
+[sub_resource type="Resource" id="Resource_t6spk"]
+script = ExtResource("3_j0nbi")
+level = 5
+move = 479
+
+[sub_resource type="Resource" id="Resource_aobai"]
+script = ExtResource("3_j0nbi")
+level = 10
+move = 523
+
+[sub_resource type="Resource" id="Resource_6r5re"]
+script = ExtResource("3_j0nbi")
+level = 15
+move = 30
+
+[sub_resource type="Resource" id="Resource_p5vb7"]
+script = ExtResource("3_j0nbi")
+level = 20
+move = 184
+
+[sub_resource type="Resource" id="Resource_i12ue"]
+script = ExtResource("3_j0nbi")
+level = 25
+move = 23
+
+[sub_resource type="Resource" id="Resource_0curi"]
+script = ExtResource("3_j0nbi")
+level = 30
+move = 350
+
+[sub_resource type="Resource" id="Resource_v5siq"]
+script = ExtResource("3_j0nbi")
+level = 35
+move = 529
+
+[sub_resource type="Resource" id="Resource_ntofb"]
+script = ExtResource("3_j0nbi")
+level = 40
+move = 36
+
+[sub_resource type="Resource" id="Resource_8vhw6"]
+script = ExtResource("3_j0nbi")
+level = 45
+move = 89
+
+[sub_resource type="Resource" id="Resource_sagck"]
+script = ExtResource("3_j0nbi")
+level = 50
+move = 444
+
+[sub_resource type="Resource" id="Resource_cv73e"]
+script = ExtResource("3_j0nbi")
+level = 55
+move = 224
+
+[sub_resource type="Resource" id="Resource_3droe"]
+script = ExtResource("3_j0nbi")
+level = 60
+move = 32
+
+[resource]
+script = ExtResource("4_sjp1w")
+id = 111
+display_name = "Rhyhorn"
+category = "Spikes"
+national_dex = 111
+pokedex = "Once it starts running, it doesn't stop.
+Its tiny brain makes it so stupid that it
+can't remember why it started running in
+the first place."
+type_1 = 5
+type_2 = 6
+base_hp = 80
+base_atk = 85
+base_def = 95
+base_spa = 30
+base_spd = 30
+base_spe = 25
+ev_def = 1
+catch_rate = 120
+base_exp = 69
+growth_rate = 5
+egg_group_1 = 1
+egg_group_2 = 5
+ability_1 = 31
+ability_2 = 69
+ability_hidden = 120
+height_dm = 10
+weight_hg = 1150
+body_color = 7
+level_moves = Array[ExtResource("3_j0nbi")]([SubResource("Resource_rqrbr"), SubResource("Resource_3w4ki"), SubResource("Resource_t6spk"), SubResource("Resource_aobai"), SubResource("Resource_6r5re"), SubResource("Resource_p5vb7"), SubResource("Resource_i12ue"), SubResource("Resource_0curi"), SubResource("Resource_v5siq"), SubResource("Resource_ntofb"), SubResource("Resource_8vhw6"), SubResource("Resource_sagck"), SubResource("Resource_cv73e"), SubResource("Resource_3droe")])
+egg_moves = Array[int]([242, 179, 68, 222, 174, 306, 407, 423, 424, 422, 130, 231, 431, 563, 368, 470])
+evolutions = Array[ExtResource("1_x3dxj")]([SubResource("Resource_57r8t")])

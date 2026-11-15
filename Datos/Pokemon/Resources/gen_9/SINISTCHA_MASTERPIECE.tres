@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d25sokap6gblv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_c6ygd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_o53xr"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uivyf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8rwij"]
+
+[sub_resource type="Resource" id="Resource_x7pp0"]
+script = ExtResource("3_uivyf")
+level = 0
+move = 830
+
+[sub_resource type="Resource" id="Resource_qpfls"]
+script = ExtResource("3_uivyf")
+move = 78
+
+[sub_resource type="Resource" id="Resource_71x3f"]
+script = ExtResource("3_uivyf")
+move = 110
+
+[sub_resource type="Resource" id="Resource_7nqfj"]
+script = ExtResource("3_uivyf")
+move = 310
+
+[sub_resource type="Resource" id="Resource_yfamf"]
+script = ExtResource("3_uivyf")
+level = 6
+move = 71
+
+[sub_resource type="Resource" id="Resource_4q06r"]
+script = ExtResource("3_uivyf")
+level = 12
+move = 719
+
+[sub_resource type="Resource" id="Resource_lwl5p"]
+script = ExtResource("3_uivyf")
+level = 18
+move = 492
+
+[sub_resource type="Resource" id="Resource_otgyx"]
+script = ExtResource("3_uivyf")
+level = 24
+move = 72
+
+[sub_resource type="Resource" id="Resource_1phgj"]
+script = ExtResource("3_uivyf")
+level = 30
+move = 506
+
+[sub_resource type="Resource" id="Resource_hv587"]
+script = ExtResource("3_uivyf")
+level = 36
+move = 476
+
+[sub_resource type="Resource" id="Resource_gupvh"]
+script = ExtResource("3_uivyf")
+level = 42
+move = 631
+
+[sub_resource type="Resource" id="Resource_0boa4"]
+script = ExtResource("3_uivyf")
+level = 48
+move = 247
+
+[sub_resource type="Resource" id="Resource_hw4x8"]
+script = ExtResource("3_uivyf")
+level = 54
+move = 262
+
+[sub_resource type="Resource" id="Resource_bibdp"]
+script = ExtResource("3_uivyf")
+level = 60
+move = 437
+
+[resource]
+script = ExtResource("4_8rwij")
+id = 1412
+display_name = "Sinistcha"
+category = "Matcha"
+national_dex = 1013
+pokedex = "The more stirring it does with the
+tea whisk on its head, the more
+energy it builds up. It does this to
+prepare for battle."
+type_1 = 13
+type_2 = 8
+base_hp = 71
+base_atk = 60
+base_def = 106
+base_spa = 121
+base_spd = 80
+base_spe = 70
+ev_spa = 2
+catch_rate = 60
+base_exp = 178
+gender_ratio = 255
+egg_group_1 = 10
+egg_group_2 = 11
+ability_1 = 299
+ability_hidden = 85
+height_dm = 2
+weight_hg = 22
+body_color = 3
+level_moves = Array[ExtResource("3_uivyf")]([SubResource("Resource_x7pp0"), SubResource("Resource_qpfls"), SubResource("Resource_71x3f"), SubResource("Resource_7nqfj"), SubResource("Resource_yfamf"), SubResource("Resource_4q06r"), SubResource("Resource_lwl5p"), SubResource("Resource_otgyx"), SubResource("Resource_1phgj"), SubResource("Resource_hv587"), SubResource("Resource_gupvh"), SubResource("Resource_0boa4"), SubResource("Resource_hw4x8"), SubResource("Resource_bibdp")])
+form_species = Array[int]([1411, 1412])

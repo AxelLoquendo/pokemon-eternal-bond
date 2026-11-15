@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bx26n6gy7vxpb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_lf8d3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_33wns"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_stw60"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_f31iy"]
+
+[sub_resource type="Resource" id="Resource_ylt0m"]
+script = ExtResource("1_lf8d3")
+method = "LEVEL"
+param = "32"
+target = 673
+
+[sub_resource type="Resource" id="Resource_4lhf7"]
+script = ExtResource("3_stw60")
+move = 33
+
+[sub_resource type="Resource" id="Resource_5nw1j"]
+script = ExtResource("3_stw60")
+move = 74
+
+[sub_resource type="Resource" id="Resource_jk6pa"]
+script = ExtResource("3_stw60")
+level = 7
+move = 22
+
+[sub_resource type="Resource" id="Resource_d28k1"]
+script = ExtResource("3_stw60")
+level = 9
+move = 39
+
+[sub_resource type="Resource" id="Resource_v2bgu"]
+script = ExtResource("3_stw60")
+level = 12
+move = 73
+
+[sub_resource type="Resource" id="Resource_j1vo2"]
+script = ExtResource("3_stw60")
+level = 13
+move = 75
+
+[sub_resource type="Resource" id="Resource_l50iy"]
+script = ExtResource("3_stw60")
+level = 16
+move = 388
+
+[sub_resource type="Resource" id="Resource_1tpbv"]
+script = ExtResource("3_stw60")
+level = 20
+move = 235
+
+[sub_resource type="Resource" id="Resource_w3co7"]
+script = ExtResource("3_stw60")
+level = 22
+move = 36
+
+[sub_resource type="Resource" id="Resource_gf4ko"]
+script = ExtResource("3_stw60")
+level = 26
+move = 523
+
+[sub_resource type="Resource" id="Resource_n36sj"]
+script = ExtResource("3_stw60")
+level = 30
+move = 402
+
+[sub_resource type="Resource" id="Resource_y5suf"]
+script = ExtResource("3_stw60")
+level = 34
+move = 339
+
+[sub_resource type="Resource" id="Resource_k6n0v"]
+script = ExtResource("3_stw60")
+level = 38
+move = 38
+
+[sub_resource type="Resource" id="Resource_gavuc"]
+script = ExtResource("3_stw60")
+level = 42
+move = 532
+
+[sub_resource type="Resource" id="Resource_5yhrs"]
+script = ExtResource("3_stw60")
+level = 45
+move = 348
+
+[resource]
+script = ExtResource("4_f31iy")
+id = 672
+display_name = "Skiddo"
+category = "Mount"
+national_dex = 672
+pokedex = "If it has sunshine and water, it doesn't
+need to eat, because it can generate
+energy from the leaves on its back.
+It has a placid disposition."
+type_1 = 13
+base_hp = 66
+base_atk = 65
+base_def = 48
+base_spa = 62
+base_spd = 57
+base_spe = 52
+ev_hp = 1
+catch_rate = 200
+base_exp = 70
+egg_group_1 = 5
+ability_1 = 157
+ability_hidden = 179
+height_dm = 9
+weight_hg = 310
+body_color = 5
+level_moves = Array[ExtResource("3_stw60")]([SubResource("Resource_4lhf7"), SubResource("Resource_5nw1j"), SubResource("Resource_jk6pa"), SubResource("Resource_d28k1"), SubResource("Resource_v2bgu"), SubResource("Resource_j1vo2"), SubResource("Resource_l50iy"), SubResource("Resource_1tpbv"), SubResource("Resource_w3co7"), SubResource("Resource_gf4ko"), SubResource("Resource_n36sj"), SubResource("Resource_y5suf"), SubResource("Resource_k6n0v"), SubResource("Resource_gavuc"), SubResource("Resource_5yhrs")])
+egg_moves = Array[int]([111, 205, 208, 580])
+evolutions = Array[ExtResource("1_lf8d3")]([SubResource("Resource_ylt0m")])

@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://kmnhid86h4g7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_lsu2u"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_cj37d"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qvsho"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s2aqs"]
+
+[sub_resource type="Resource" id="Resource_jh5nj"]
+script = ExtResource("3_qvsho")
+move = 45
+
+[sub_resource type="Resource" id="Resource_mkbow"]
+script = ExtResource("3_qvsho")
+move = 54
+
+[sub_resource type="Resource" id="Resource_m6b2r"]
+script = ExtResource("3_qvsho")
+move = 55
+
+[sub_resource type="Resource" id="Resource_uixbx"]
+script = ExtResource("3_qvsho")
+move = 56
+
+[sub_resource type="Resource" id="Resource_22tb3"]
+script = ExtResource("3_qvsho")
+move = 71
+
+[sub_resource type="Resource" id="Resource_gmr8h"]
+script = ExtResource("3_qvsho")
+move = 72
+
+[sub_resource type="Resource" id="Resource_hu3a3"]
+script = ExtResource("3_qvsho")
+move = 154
+
+[sub_resource type="Resource" id="Resource_4bhxc"]
+script = ExtResource("3_qvsho")
+move = 175
+
+[sub_resource type="Resource" id="Resource_xf8av"]
+script = ExtResource("3_qvsho")
+move = 282
+
+[sub_resource type="Resource" id="Resource_xn2lc"]
+script = ExtResource("3_qvsho")
+move = 298
+
+[sub_resource type="Resource" id="Resource_rbdf2"]
+script = ExtResource("3_qvsho")
+move = 310
+
+[sub_resource type="Resource" id="Resource_ulvgs"]
+script = ExtResource("3_qvsho")
+move = 412
+
+[sub_resource type="Resource" id="Resource_2kak6"]
+script = ExtResource("3_qvsho")
+move = 428
+
+[sub_resource type="Resource" id="Resource_y6jwn"]
+script = ExtResource("3_qvsho")
+move = 252
+
+[sub_resource type="Resource" id="Resource_e24nf"]
+script = ExtResource("3_qvsho")
+move = 240
+
+[sub_resource type="Resource" id="Resource_c1w3j"]
+script = ExtResource("3_qvsho")
+move = 61
+
+[resource]
+script = ExtResource("4_s2aqs")
+id = 272
+display_name = "Ludicolo"
+category = "Carefree"
+national_dex = 272
+pokedex = "When it hears festive music, all the cells
+in its body become stimulated, and it
+begins moving in rhythm. It does not
+quail even when it faces a tough opponent."
+type_1 = 12
+type_2 = 13
+base_hp = 80
+base_atk = 70
+base_def = 70
+base_spa = 90
+base_spd = 100
+base_spe = 70
+ev_spd = 3
+base_exp = 181
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 2
+egg_group_2 = 7
+ability_1 = 33
+ability_2 = 44
+ability_hidden = 20
+item_rare = 464
+height_dm = 15
+weight_hg = 550
+body_color = 3
+level_moves = Array[ExtResource("3_qvsho")]([SubResource("Resource_jh5nj"), SubResource("Resource_mkbow"), SubResource("Resource_m6b2r"), SubResource("Resource_uixbx"), SubResource("Resource_22tb3"), SubResource("Resource_gmr8h"), SubResource("Resource_hu3a3"), SubResource("Resource_4bhxc"), SubResource("Resource_xf8av"), SubResource("Resource_xn2lc"), SubResource("Resource_rbdf2"), SubResource("Resource_ulvgs"), SubResource("Resource_2kak6"), SubResource("Resource_y6jwn"), SubResource("Resource_e24nf"), SubResource("Resource_c1w3j")])

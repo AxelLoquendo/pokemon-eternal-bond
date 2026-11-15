@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cv5ml1nc6bcrb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_r01n2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5py0q"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_45tqs"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_iqfqh"]
+
+[sub_resource type="Resource" id="Resource_gpi6e"]
+script = ExtResource("3_45tqs")
+move = 93
+
+[sub_resource type="Resource" id="Resource_xfteg"]
+script = ExtResource("3_45tqs")
+move = 502
+
+[sub_resource type="Resource" id="Resource_24680"]
+script = ExtResource("3_45tqs")
+move = 194
+
+[sub_resource type="Resource" id="Resource_njcfr"]
+script = ExtResource("3_45tqs")
+level = 6
+move = 310
+
+[sub_resource type="Resource" id="Resource_hvskw"]
+script = ExtResource("3_45tqs")
+level = 10
+move = 271
+
+[sub_resource type="Resource" id="Resource_ytj8b"]
+script = ExtResource("3_45tqs")
+level = 15
+move = 113
+
+[sub_resource type="Resource" id="Resource_8jucb"]
+script = ExtResource("3_45tqs")
+level = 19
+move = 60
+
+[sub_resource type="Resource" id="Resource_ysm5y"]
+script = ExtResource("3_45tqs")
+level = 25
+move = 285
+
+[sub_resource type="Resource" id="Resource_khoku"]
+script = ExtResource("3_45tqs")
+level = 29
+move = 470
+
+[sub_resource type="Resource" id="Resource_a6una"]
+script = ExtResource("3_45tqs")
+level = 29
+move = 471
+
+[sub_resource type="Resource" id="Resource_ht60f"]
+script = ExtResource("3_45tqs")
+level = 35
+move = 566
+
+[sub_resource type="Resource" id="Resource_xv1w5"]
+script = ExtResource("3_45tqs")
+level = 46
+move = 428
+
+[sub_resource type="Resource" id="Resource_628l4"]
+script = ExtResource("3_45tqs")
+level = 50
+move = 433
+
+[sub_resource type="Resource" id="Resource_xxltm"]
+script = ExtResource("3_45tqs")
+level = 50
+move = 472
+
+[sub_resource type="Resource" id="Resource_ayixn"]
+script = ExtResource("3_45tqs")
+level = 55
+move = 247
+
+[sub_resource type="Resource" id="Resource_6fyqu"]
+script = ExtResource("3_45tqs")
+level = 68
+move = 417
+
+[sub_resource type="Resource" id="Resource_bdi4h"]
+script = ExtResource("3_45tqs")
+level = 75
+move = 94
+
+[sub_resource type="Resource" id="Resource_y78o2"]
+script = ExtResource("3_45tqs")
+level = 85
+move = 593
+
+[resource]
+script = ExtResource("4_iqfqh")
+id = 720
+display_name = "Hoopa"
+category = "Mischief"
+national_dex = 720
+pokedex = "In its true form, it possess a huge amount
+of power. When its powers are sealed away,
+it is transformed into a much smaller form.
+It teleports things to a secret place."
+type_1 = 15
+type_2 = 8
+base_hp = 80
+base_atk = 110
+base_def = 60
+base_spa = 150
+base_spd = 130
+base_spe = 70
+ev_spa = 3
+catch_rate = 3
+base_exp = 300
+base_friendship = 100
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 170
+height_dm = 5
+weight_hg = 90
+body_color = 6
+level_moves = Array[ExtResource("3_45tqs")]([SubResource("Resource_gpi6e"), SubResource("Resource_xfteg"), SubResource("Resource_24680"), SubResource("Resource_njcfr"), SubResource("Resource_hvskw"), SubResource("Resource_ytj8b"), SubResource("Resource_8jucb"), SubResource("Resource_ysm5y"), SubResource("Resource_khoku"), SubResource("Resource_a6una"), SubResource("Resource_ht60f"), SubResource("Resource_xv1w5"), SubResource("Resource_628l4"), SubResource("Resource_xxltm"), SubResource("Resource_ayixn"), SubResource("Resource_6fyqu"), SubResource("Resource_bdi4h"), SubResource("Resource_y78o2")])
+form_species = Array[int]([720, 1168])

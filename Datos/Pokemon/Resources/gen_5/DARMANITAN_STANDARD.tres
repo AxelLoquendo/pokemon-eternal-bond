@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://drde3jlc6bhns"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jwy74"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_fdg1u"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7l00k"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mf3ym"]
+
+[sub_resource type="Resource" id="Resource_0lbir"]
+script = ExtResource("3_7l00k")
+level = 0
+move = 359
+
+[sub_resource type="Resource" id="Resource_ta4li"]
+script = ExtResource("3_7l00k")
+move = 359
+
+[sub_resource type="Resource" id="Resource_lasmm"]
+script = ExtResource("3_7l00k")
+move = 52
+
+[sub_resource type="Resource" id="Resource_jfhuc"]
+script = ExtResource("3_7l00k")
+move = 33
+
+[sub_resource type="Resource" id="Resource_046so"]
+script = ExtResource("3_7l00k")
+move = 269
+
+[sub_resource type="Resource" id="Resource_xk6ag"]
+script = ExtResource("3_7l00k")
+move = 44
+
+[sub_resource type="Resource" id="Resource_810qo"]
+script = ExtResource("3_7l00k")
+level = 12
+move = 510
+
+[sub_resource type="Resource" id="Resource_yv5no"]
+script = ExtResource("3_7l00k")
+level = 16
+move = 526
+
+[sub_resource type="Resource" id="Resource_8jvtd"]
+script = ExtResource("3_7l00k")
+level = 20
+move = 424
+
+[sub_resource type="Resource" id="Resource_jb0pe"]
+script = ExtResource("3_7l00k")
+level = 24
+move = 29
+
+[sub_resource type="Resource" id="Resource_wut24"]
+script = ExtResource("3_7l00k")
+level = 28
+move = 7
+
+[sub_resource type="Resource" id="Resource_mcmny"]
+script = ExtResource("3_7l00k")
+level = 32
+move = 253
+
+[sub_resource type="Resource" id="Resource_6uypm"]
+script = ExtResource("3_7l00k")
+level = 38
+move = 187
+
+[sub_resource type="Resource" id="Resource_erp7g"]
+script = ExtResource("3_7l00k")
+level = 44
+move = 394
+
+[sub_resource type="Resource" id="Resource_kih1w"]
+script = ExtResource("3_7l00k")
+level = 50
+move = 37
+
+[sub_resource type="Resource" id="Resource_p6pfd"]
+script = ExtResource("3_7l00k")
+level = 56
+move = 276
+
+[resource]
+script = ExtResource("4_mf3ym")
+id = 555
+display_name = "Darmanitan"
+category = "Blazing"
+national_dex = 555
+pokedex = "When one is injured in a fierce battle,
+it transforms into a stone statue.
+Then it meditates and sharpens its
+mind and fights on mentally."
+type_1 = 11
+base_hp = 105
+base_atk = 140
+base_def = 55
+base_spa = 30
+base_spd = 55
+base_spe = 95
+ev_atk = 2
+catch_rate = 60
+base_exp = 168
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 125
+ability_hidden = 161
+height_dm = 13
+weight_hg = 929
+level_moves = Array[ExtResource("3_7l00k")]([SubResource("Resource_0lbir"), SubResource("Resource_ta4li"), SubResource("Resource_lasmm"), SubResource("Resource_jfhuc"), SubResource("Resource_046so"), SubResource("Resource_xk6ag"), SubResource("Resource_810qo"), SubResource("Resource_yv5no"), SubResource("Resource_8jvtd"), SubResource("Resource_jb0pe"), SubResource("Resource_wut24"), SubResource("Resource_mcmny"), SubResource("Resource_6uypm"), SubResource("Resource_erp7g"), SubResource("Resource_kih1w"), SubResource("Resource_p6pfd")])
+form_species = Array[int]([555, 1092, 990, 1093])

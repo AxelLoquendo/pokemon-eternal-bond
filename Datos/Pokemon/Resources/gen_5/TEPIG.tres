@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b4hh05hn541y3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_5tsjy"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_84gxj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3ofmk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_i81vo"]
+
+[sub_resource type="Resource" id="Resource_2n2dr"]
+script = ExtResource("1_5tsjy")
+method = "LEVEL"
+param = "17"
+target = 499
+
+[sub_resource type="Resource" id="Resource_vmm71"]
+script = ExtResource("3_3ofmk")
+move = 33
+
+[sub_resource type="Resource" id="Resource_yqlov"]
+script = ExtResource("3_3ofmk")
+level = 3
+move = 39
+
+[sub_resource type="Resource" id="Resource_lmhxd"]
+script = ExtResource("3_3ofmk")
+level = 7
+move = 52
+
+[sub_resource type="Resource" id="Resource_eugq2"]
+script = ExtResource("3_3ofmk")
+level = 9
+move = 203
+
+[sub_resource type="Resource" id="Resource_w7him"]
+script = ExtResource("3_3ofmk")
+level = 13
+move = 111
+
+[sub_resource type="Resource" id="Resource_1ig8u"]
+script = ExtResource("3_3ofmk")
+level = 15
+move = 488
+
+[sub_resource type="Resource" id="Resource_cybji"]
+script = ExtResource("3_3ofmk")
+level = 19
+move = 123
+
+[sub_resource type="Resource" id="Resource_6coyf"]
+script = ExtResource("3_3ofmk")
+level = 21
+move = 205
+
+[sub_resource type="Resource" id="Resource_3lcg4"]
+script = ExtResource("3_3ofmk")
+level = 25
+move = 36
+
+[sub_resource type="Resource" id="Resource_oyl1y"]
+script = ExtResource("3_3ofmk")
+level = 27
+move = 535
+
+[sub_resource type="Resource" id="Resource_bickv"]
+script = ExtResource("3_3ofmk")
+level = 31
+move = 372
+
+[sub_resource type="Resource" id="Resource_7agq2"]
+script = ExtResource("3_3ofmk")
+level = 33
+move = 53
+
+[sub_resource type="Resource" id="Resource_ep13h"]
+script = ExtResource("3_3ofmk")
+level = 37
+move = 457
+
+[sub_resource type="Resource" id="Resource_8rw1q"]
+script = ExtResource("3_3ofmk")
+level = 39
+move = 46
+
+[sub_resource type="Resource" id="Resource_vd3ot"]
+script = ExtResource("3_3ofmk")
+level = 43
+move = 394
+
+[resource]
+script = ExtResource("4_i81vo")
+id = 498
+display_name = "Tepig"
+category = "Fire Pig"
+national_dex = 498
+pokedex = "It loves to eat roasted berries, but
+sometimes it gets too excited and burns
+them to a crisp. It blows fire through
+its nose."
+type_1 = 11
+base_hp = 65
+base_atk = 63
+base_def = 45
+base_spa = 45
+base_spd = 45
+base_spe = 45
+ev_hp = 1
+base_exp = 62
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 66
+ability_hidden = 47
+height_dm = 5
+weight_hg = 99
+level_moves = Array[ExtResource("3_3ofmk")]([SubResource("Resource_vmm71"), SubResource("Resource_yqlov"), SubResource("Resource_lmhxd"), SubResource("Resource_eugq2"), SubResource("Resource_w7him"), SubResource("Resource_1ig8u"), SubResource("Resource_cybji"), SubResource("Resource_6coyf"), SubResource("Resource_3lcg4"), SubResource("Resource_oyl1y"), SubResource("Resource_bickv"), SubResource("Resource_7agq2"), SubResource("Resource_ep13h"), SubResource("Resource_8rw1q"), SubResource("Resource_vd3ot")])
+egg_moves = Array[int]([343, 34, 37, 222, 276, 174, 283, 281, 214, 484, 389, 645])
+evolutions = Array[ExtResource("1_5tsjy")]([SubResource("Resource_2n2dr")])

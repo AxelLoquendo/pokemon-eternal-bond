@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://rvbw012k382o"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_080pj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_4pqn6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1x1w5"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ry75o"]
+
+[sub_resource type="Resource" id="Resource_22w5x"]
+script = ExtResource("1_080pj")
+method = "LEVEL"
+param = "24"
+target = 832
+
+[sub_resource type="Resource" id="Resource_a17l7"]
+script = ExtResource("3_1x1w5")
+move = 33
+
+[sub_resource type="Resource" id="Resource_hlkwv"]
+script = ExtResource("3_1x1w5")
+move = 45
+
+[sub_resource type="Resource" id="Resource_o66mx"]
+script = ExtResource("3_1x1w5")
+level = 4
+move = 111
+
+[sub_resource type="Resource" id="Resource_cgelu"]
+script = ExtResource("3_1x1w5")
+level = 8
+move = 383
+
+[sub_resource type="Resource" id="Resource_v3shd"]
+script = ExtResource("3_1x1w5")
+level = 12
+move = 470
+
+[sub_resource type="Resource" id="Resource_wtbt7"]
+script = ExtResource("3_1x1w5")
+level = 16
+move = 24
+
+[sub_resource type="Resource" id="Resource_kaier"]
+script = ExtResource("3_1x1w5")
+level = 21
+move = 29
+
+[sub_resource type="Resource" id="Resource_jg016"]
+script = ExtResource("3_1x1w5")
+level = 25
+move = 36
+
+[sub_resource type="Resource" id="Resource_2xdo0"]
+script = ExtResource("3_1x1w5")
+level = 28
+move = 385
+
+[sub_resource type="Resource" id="Resource_gfir7"]
+script = ExtResource("3_1x1w5")
+level = 32
+move = 179
+
+[sub_resource type="Resource" id="Resource_8x2oq"]
+script = ExtResource("3_1x1w5")
+level = 36
+move = 538
+
+[sub_resource type="Resource" id="Resource_gq44s"]
+script = ExtResource("3_1x1w5")
+level = 40
+move = 38
+
+[resource]
+script = ExtResource("4_ry75o")
+id = 831
+display_name = "Wooloo"
+category = "Sheep"
+national_dex = 831
+pokedex = "Its curly fleece is such an effective
+cushion that this Pokémon could fall off
+a cliff and stand right back up at the
+bottom, unharmed."
+type_1 = 1
+base_hp = 42
+base_atk = 40
+base_def = 55
+base_spa = 40
+base_spd = 45
+base_spe = 48
+ev_def = 1
+catch_rate = 255
+base_exp = 122
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 218
+ability_2 = 50
+ability_hidden = 171
+height_dm = 6
+weight_hg = 60
+body_color = 8
+level_moves = Array[ExtResource("3_1x1w5")]([SubResource("Resource_a17l7"), SubResource("Resource_hlkwv"), SubResource("Resource_o66mx"), SubResource("Resource_cgelu"), SubResource("Resource_v3shd"), SubResource("Resource_wtbt7"), SubResource("Resource_kaier"), SubResource("Resource_jg016"), SubResource("Resource_2xdo0"), SubResource("Resource_gfir7"), SubResource("Resource_8x2oq"), SubResource("Resource_gq44s")])
+egg_moves = Array[int]([23, 207, 68])
+evolutions = Array[ExtResource("1_080pj")]([SubResource("Resource_22w5x")])

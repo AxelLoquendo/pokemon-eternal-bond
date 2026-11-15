@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bco17g8q3p1gc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_kl1g5"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rbiyx"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jufya"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jvewq"]
+
+[sub_resource type="Resource" id="Resource_emmmb"]
+script = ExtResource("3_jufya")
+move = 33
+
+[sub_resource type="Resource" id="Resource_srluw"]
+script = ExtResource("3_jufya")
+move = 35
+
+[sub_resource type="Resource" id="Resource_b6eqr"]
+script = ExtResource("3_jufya")
+move = 64
+
+[sub_resource type="Resource" id="Resource_fis16"]
+script = ExtResource("3_jufya")
+move = 95
+
+[sub_resource type="Resource" id="Resource_iqumi"]
+script = ExtResource("3_jufya")
+move = 179
+
+[sub_resource type="Resource" id="Resource_y3ujs"]
+script = ExtResource("3_jufya")
+level = 9
+move = 371
+
+[sub_resource type="Resource" id="Resource_2hp7w"]
+script = ExtResource("3_jufya")
+level = 12
+move = 365
+
+[sub_resource type="Resource" id="Resource_nn8ph"]
+script = ExtResource("3_jufya")
+level = 15
+move = 60
+
+[sub_resource type="Resource" id="Resource_v8mal"]
+script = ExtResource("3_jufya")
+level = 18
+move = 207
+
+[sub_resource type="Resource" id="Resource_h0jjx"]
+script = ExtResource("3_jufya")
+level = 21
+move = 163
+
+[sub_resource type="Resource" id="Resource_otxxg"]
+script = ExtResource("3_jufya")
+level = 24
+move = 400
+
+[sub_resource type="Resource" id="Resource_qgvdc"]
+script = ExtResource("3_jufya")
+level = 27
+move = 427
+
+[sub_resource type="Resource" id="Resource_afdvi"]
+script = ExtResource("3_jufya")
+level = 33
+move = 415
+
+[sub_resource type="Resource" id="Resource_jn350"]
+script = ExtResource("3_jufya")
+level = 37
+move = 492
+
+[sub_resource type="Resource" id="Resource_g8ngx"]
+script = ExtResource("3_jufya")
+level = 42
+move = 576
+
+[sub_resource type="Resource" id="Resource_oestv"]
+script = ExtResource("3_jufya")
+level = 47
+move = 276
+
+[resource]
+script = ExtResource("4_jvewq")
+id = 687
+display_name = "Malamar"
+category = "Overturning"
+national_dex = 687
+pokedex = "It lures prey close with hypnotic motions,
+then wraps its tentacles around it before
+finishing it off with digestive fluids. It
+forces others to do whatever it wants."
+type_1 = 18
+type_2 = 15
+base_hp = 86
+base_atk = 92
+base_def = 88
+base_spa = 68
+base_spd = 75
+base_spe = 73
+ev_atk = 2
+catch_rate = 80
+base_exp = 169
+egg_group_1 = 2
+egg_group_2 = 12
+ability_1 = 126
+ability_2 = 21
+ability_hidden = 151
+height_dm = 15
+weight_hg = 470
+body_color = 1
+level_moves = Array[ExtResource("3_jufya")]([SubResource("Resource_emmmb"), SubResource("Resource_srluw"), SubResource("Resource_b6eqr"), SubResource("Resource_fis16"), SubResource("Resource_iqumi"), SubResource("Resource_y3ujs"), SubResource("Resource_2hp7w"), SubResource("Resource_nn8ph"), SubResource("Resource_v8mal"), SubResource("Resource_h0jjx"), SubResource("Resource_otxxg"), SubResource("Resource_qgvdc"), SubResource("Resource_afdvi"), SubResource("Resource_jn350"), SubResource("Resource_g8ngx"), SubResource("Resource_oestv")])
+form_species = Array[int]([687, 1542])

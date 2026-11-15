@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://br8aq7dqdfvn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_otw4o"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_iivot"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_33yw2"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_frurq"]
+
+[sub_resource type="Resource" id="Resource_xjfti"]
+script = ExtResource("3_33yw2")
+move = 33
+
+[sub_resource type="Resource" id="Resource_7b4u5"]
+script = ExtResource("3_33yw2")
+move = 106
+
+[sub_resource type="Resource" id="Resource_awjry"]
+script = ExtResource("3_33yw2")
+move = 591
+
+[sub_resource type="Resource" id="Resource_r4l54"]
+script = ExtResource("3_33yw2")
+level = 7
+move = 470
+
+[sub_resource type="Resource" id="Resource_eiguw"]
+script = ExtResource("3_33yw2")
+level = 14
+move = 479
+
+[sub_resource type="Resource" id="Resource_rlf8c"]
+script = ExtResource("3_33yw2")
+level = 21
+move = 175
+
+[sub_resource type="Resource" id="Resource_nayye"]
+script = ExtResource("3_33yw2")
+level = 28
+move = 246
+
+[sub_resource type="Resource" id="Resource_n0eax"]
+script = ExtResource("3_33yw2")
+level = 35
+move = 397
+
+[sub_resource type="Resource" id="Resource_x26io"]
+script = ExtResource("3_33yw2")
+level = 42
+move = 113
+
+[sub_resource type="Resource" id="Resource_byjyx"]
+script = ExtResource("3_33yw2")
+level = 49
+move = 157
+
+[sub_resource type="Resource" id="Resource_gejld"]
+script = ExtResource("3_33yw2")
+level = 56
+move = 285
+
+[sub_resource type="Resource" id="Resource_g5hah"]
+script = ExtResource("3_33yw2")
+level = 63
+move = 408
+
+[sub_resource type="Resource" id="Resource_ipcyp"]
+script = ExtResource("3_33yw2")
+level = 70
+move = 446
+
+[sub_resource type="Resource" id="Resource_sl0ng"]
+script = ExtResource("3_33yw2")
+level = 77
+move = 585
+
+[sub_resource type="Resource" id="Resource_nkjfl"]
+script = ExtResource("3_33yw2")
+level = 84
+move = 444
+
+[resource]
+script = ExtResource("4_frurq")
+id = 719
+display_name = "Diancie"
+category = "Jewel"
+national_dex = 719
+pokedex = "A sudden transformation of Carbink,
+its pink, glimmering body is said to be
+the loveliest sight in the whole world.
+It creates diamonds between its hands."
+type_1 = 6
+type_2 = 19
+base_hp = 50
+base_atk = 100
+base_def = 150
+base_spa = 100
+base_spd = 150
+base_spe = 50
+ev_def = 1
+ev_spd = 2
+catch_rate = 3
+base_exp = 300
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 25
+ability_1 = 29
+height_dm = 7
+weight_hg = 88
+body_color = 9
+level_moves = Array[ExtResource("3_33yw2")]([SubResource("Resource_xjfti"), SubResource("Resource_7b4u5"), SubResource("Resource_awjry"), SubResource("Resource_r4l54"), SubResource("Resource_eiguw"), SubResource("Resource_rlf8c"), SubResource("Resource_nayye"), SubResource("Resource_n0eax"), SubResource("Resource_x26io"), SubResource("Resource_byjyx"), SubResource("Resource_gejld"), SubResource("Resource_g5hah"), SubResource("Resource_ipcyp"), SubResource("Resource_sl0ng"), SubResource("Resource_nkjfl")])
+form_species = Array[int]([719, 952])

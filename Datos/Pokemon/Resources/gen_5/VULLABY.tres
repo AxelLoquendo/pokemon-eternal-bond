@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://mt0w88tu58s2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_en6c4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_k2m4w"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_shedi"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t53oq"]
+
+[sub_resource type="Resource" id="Resource_0fnnn"]
+script = ExtResource("1_en6c4")
+method = "LEVEL"
+param = "54"
+target = 630
+
+[sub_resource type="Resource" id="Resource_b5mlt"]
+script = ExtResource("3_shedi")
+move = 16
+
+[sub_resource type="Resource" id="Resource_myru6"]
+script = ExtResource("3_shedi")
+move = 43
+
+[sub_resource type="Resource" id="Resource_yamyi"]
+script = ExtResource("3_shedi")
+level = 6
+move = 260
+
+[sub_resource type="Resource" id="Resource_yx6hi"]
+script = ExtResource("3_shedi")
+level = 12
+move = 365
+
+[sub_resource type="Resource" id="Resource_r0x7h"]
+script = ExtResource("3_shedi")
+level = 18
+move = 366
+
+[sub_resource type="Resource" id="Resource_8v75o"]
+script = ExtResource("3_shedi")
+level = 24
+move = 282
+
+[sub_resource type="Resource" id="Resource_r2x3o"]
+script = ExtResource("3_shedi")
+level = 30
+move = 334
+
+[sub_resource type="Resource" id="Resource_uhkx2"]
+script = ExtResource("3_shedi")
+level = 36
+move = 18
+
+[sub_resource type="Resource" id="Resource_a8o2l"]
+script = ExtResource("3_shedi")
+level = 42
+move = 403
+
+[sub_resource type="Resource" id="Resource_qoxog"]
+script = ExtResource("3_shedi")
+level = 48
+move = 399
+
+[sub_resource type="Resource" id="Resource_qfxk5"]
+script = ExtResource("3_shedi")
+level = 54
+move = 417
+
+[sub_resource type="Resource" id="Resource_66vo0"]
+script = ExtResource("3_shedi")
+level = 60
+move = 432
+
+[sub_resource type="Resource" id="Resource_gk1fo"]
+script = ExtResource("3_shedi")
+level = 66
+move = 213
+
+[sub_resource type="Resource" id="Resource_cuw33"]
+script = ExtResource("3_shedi")
+level = 72
+move = 413
+
+[resource]
+script = ExtResource("4_t53oq")
+id = 629
+display_name = "Vullaby"
+category = "Diapered"
+national_dex = 629
+pokedex = "It can't fly yet and must wait until its
+wings have developed more. They guard
+their posteriors with bones that were
+gathered by Mandibuzz."
+type_1 = 18
+type_2 = 3
+base_hp = 70
+base_atk = 55
+base_def = 75
+base_spa = 45
+base_spd = 65
+base_spe = 60
+ev_def = 1
+catch_rate = 190
+base_exp = 74
+base_friendship = 35
+gender_ratio = 254
+growth_rate = 5
+egg_group_1 = 4
+ability_1 = 145
+ability_2 = 142
+ability_hidden = 133
+height_dm = 5
+weight_hg = 90
+body_color = 5
+level_moves = Array[ExtResource("3_shedi")]([SubResource("Resource_b5mlt"), SubResource("Resource_myru6"), SubResource("Resource_yamyi"), SubResource("Resource_yx6hi"), SubResource("Resource_r0x7h"), SubResource("Resource_8v75o"), SubResource("Resource_r2x3o"), SubResource("Resource_uhkx2"), SubResource("Resource_a8o2l"), SubResource("Resource_qoxog"), SubResource("Resource_qfxk5"), SubResource("Resource_66vo0"), SubResource("Resource_gk1fo"), SubResource("Resource_cuw33")])
+egg_moves = Array[int]([211, 212, 355, 184, 282, 313, 492])
+evolutions = Array[ExtResource("1_en6c4")]([SubResource("Resource_0fnnn")])

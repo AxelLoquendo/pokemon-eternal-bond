@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bpjbqbnnwr0yl"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_c3psr"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_km4in"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uauvk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xh2km"]
+
+[sub_resource type="Resource" id="Resource_dwue0"]
+script = ExtResource("3_uauvk")
+move = 93
+
+[sub_resource type="Resource" id="Resource_44s76"]
+script = ExtResource("3_uauvk")
+move = 232
+
+[sub_resource type="Resource" id="Resource_xws51"]
+script = ExtResource("3_uauvk")
+move = 234
+
+[sub_resource type="Resource" id="Resource_cknfw"]
+script = ExtResource("3_uauvk")
+move = 236
+
+[sub_resource type="Resource" id="Resource_qi37f"]
+script = ExtResource("3_uauvk")
+move = 451
+
+[sub_resource type="Resource" id="Resource_e0h6m"]
+script = ExtResource("3_uauvk")
+level = 8
+move = 446
+
+[sub_resource type="Resource" id="Resource_cscun"]
+script = ExtResource("3_uauvk")
+level = 16
+move = 163
+
+[sub_resource type="Resource" id="Resource_i6c0x"]
+script = ExtResource("3_uauvk")
+level = 24
+move = 400
+
+[sub_resource type="Resource" id="Resource_acyry"]
+script = ExtResource("3_uauvk")
+level = 32
+move = 427
+
+[sub_resource type="Resource" id="Resource_5g4do"]
+script = ExtResource("3_uauvk")
+level = 40
+move = 500
+
+[sub_resource type="Resource" id="Resource_6fjfv"]
+script = ExtResource("3_uauvk")
+level = 48
+move = 350
+
+[sub_resource type="Resource" id="Resource_3kr42"]
+script = ExtResource("3_uauvk")
+level = 56
+move = 334
+
+[sub_resource type="Resource" id="Resource_42dny"]
+script = ExtResource("3_uauvk")
+level = 64
+move = 408
+
+[sub_resource type="Resource" id="Resource_h0gth"]
+script = ExtResource("3_uauvk")
+level = 72
+move = 675
+
+[sub_resource type="Resource" id="Resource_5y3yv"]
+script = ExtResource("3_uauvk")
+level = 80
+move = 356
+
+[sub_resource type="Resource" id="Resource_tdjjy"]
+script = ExtResource("3_uauvk")
+level = 88
+move = 665
+
+[resource]
+script = ExtResource("4_xh2km")
+id = 1207
+display_name = "Necrozma"
+category = "Prism"
+national_dex = 800
+pokedex = "This is its form while it is devouring
+the light of Solgaleo. It pounces on
+foes and then slashes them with the
+claws on its four limbs and back."
+type_1 = 15
+type_2 = 9
+base_hp = 97
+base_atk = 157
+base_def = 127
+base_spa = 113
+base_spd = 109
+base_spe = 77
+ev_atk = 3
+catch_rate = 3
+base_exp = 340
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 232
+height_dm = 38
+weight_hg = 4600
+body_color = 2
+no_flip = true
+level_moves = Array[ExtResource("3_uauvk")]([SubResource("Resource_dwue0"), SubResource("Resource_44s76"), SubResource("Resource_xws51"), SubResource("Resource_cknfw"), SubResource("Resource_qi37f"), SubResource("Resource_e0h6m"), SubResource("Resource_cscun"), SubResource("Resource_i6c0x"), SubResource("Resource_acyry"), SubResource("Resource_5g4do"), SubResource("Resource_6fjfv"), SubResource("Resource_3kr42"), SubResource("Resource_42dny"), SubResource("Resource_h0gth"), SubResource("Resource_5y3yv"), SubResource("Resource_tdjjy")])
+form_species = Array[int]([800, 1207, 1208, 1209])

@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b3hwp514owtu5"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jxv8g"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_qup0r"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4w3cw"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qg3gm"]
+
+[sub_resource type="Resource" id="Resource_hjmpl"]
+script = ExtResource("3_4w3cw")
+level = 0
+move = 573
+
+[sub_resource type="Resource" id="Resource_2mhi3"]
+script = ExtResource("3_4w3cw")
+move = 29
+
+[sub_resource type="Resource" id="Resource_7m3px"]
+script = ExtResource("3_4w3cw")
+move = 43
+
+[sub_resource type="Resource" id="Resource_durtq"]
+script = ExtResource("3_4w3cw")
+move = 104
+
+[sub_resource type="Resource" id="Resource_r8myi"]
+script = ExtResource("3_4w3cw")
+move = 181
+
+[sub_resource type="Resource" id="Resource_i6ytu"]
+script = ExtResource("3_4w3cw")
+move = 310
+
+[sub_resource type="Resource" id="Resource_tqjp3"]
+script = ExtResource("3_4w3cw")
+move = 329
+
+[sub_resource type="Resource" id="Resource_mqnk4"]
+script = ExtResource("3_4w3cw")
+level = 15
+move = 420
+
+[sub_resource type="Resource" id="Resource_s7u54"]
+script = ExtResource("3_4w3cw")
+level = 20
+move = 182
+
+[sub_resource type="Resource" id="Resource_mjwyb"]
+script = ExtResource("3_4w3cw")
+level = 25
+move = 196
+
+[sub_resource type="Resource" id="Resource_ahko0"]
+script = ExtResource("3_4w3cw")
+level = 30
+move = 524
+
+[sub_resource type="Resource" id="Resource_hr4vg"]
+script = ExtResource("3_4w3cw")
+level = 35
+move = 44
+
+[sub_resource type="Resource" id="Resource_lbgkc"]
+script = ExtResource("3_4w3cw")
+level = 40
+move = 423
+
+[sub_resource type="Resource" id="Resource_r5fvp"]
+script = ExtResource("3_4w3cw")
+level = 47
+move = 809
+
+[sub_resource type="Resource" id="Resource_f4be0"]
+script = ExtResource("3_4w3cw")
+level = 54
+move = 311
+
+[sub_resource type="Resource" id="Resource_t5gl0"]
+script = ExtResource("3_4w3cw")
+level = 61
+move = 242
+
+[sub_resource type="Resource" id="Resource_f6n8u"]
+script = ExtResource("3_4w3cw")
+level = 68
+move = 59
+
+[resource]
+script = ExtResource("4_qg3gm")
+id = 941
+display_name = "Glalie"
+category = "Face"
+national_dex = 362
+pokedex = "The power of Mega Evolution was so strong
+that it smashed Glalie's jaw. Its inability
+to eat very well leaves Glalie irritated."
+type_1 = 16
+base_hp = 80
+base_atk = 120
+base_def = 80
+base_spa = 120
+base_spd = 80
+base_spe = 100
+ev_hp = 2
+catch_rate = 75
+base_exp = 203
+egg_group_1 = 6
+egg_group_2 = 10
+ability_1 = 174
+ability_2 = 174
+ability_hidden = 174
+height_dm = 21
+weight_hg = 3502
+body_color = 7
+level_moves = Array[ExtResource("3_4w3cw")]([SubResource("Resource_hjmpl"), SubResource("Resource_2mhi3"), SubResource("Resource_7m3px"), SubResource("Resource_durtq"), SubResource("Resource_r8myi"), SubResource("Resource_i6ytu"), SubResource("Resource_tqjp3"), SubResource("Resource_mqnk4"), SubResource("Resource_s7u54"), SubResource("Resource_mjwyb"), SubResource("Resource_ahko0"), SubResource("Resource_hr4vg"), SubResource("Resource_lbgkc"), SubResource("Resource_r5fvp"), SubResource("Resource_f4be0"), SubResource("Resource_t5gl0"), SubResource("Resource_f6n8u")])
+form_species = Array[int]([362, 941])

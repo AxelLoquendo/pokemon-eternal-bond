@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cww01vo45q3la"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1wbbk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vtuaw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_sf3ls"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7lrab"]
+
+[sub_resource type="Resource" id="Resource_k15aa"]
+script = ExtResource("3_sf3ls")
+move = 104
+
+[sub_resource type="Resource" id="Resource_drhf7"]
+script = ExtResource("3_sf3ls")
+move = 310
+
+[sub_resource type="Resource" id="Resource_0222y"]
+script = ExtResource("3_sf3ls")
+level = 5
+move = 84
+
+[sub_resource type="Resource" id="Resource_pg6ga"]
+script = ExtResource("3_sf3ls")
+level = 10
+move = 109
+
+[sub_resource type="Resource" id="Resource_7j5x6"]
+script = ExtResource("3_sf3ls")
+level = 15
+move = 268
+
+[sub_resource type="Resource" id="Resource_n7xw3"]
+script = ExtResource("3_sf3ls")
+level = 20
+move = 486
+
+[sub_resource type="Resource" id="Resource_6ueh1"]
+script = ExtResource("3_sf3ls")
+level = 25
+move = 86
+
+[sub_resource type="Resource" id="Resource_ocujw"]
+script = ExtResource("3_sf3ls")
+level = 30
+move = 351
+
+[sub_resource type="Resource" id="Resource_w36jc"]
+script = ExtResource("3_sf3ls")
+level = 35
+move = 506
+
+[sub_resource type="Resource" id="Resource_g41rd"]
+script = ExtResource("3_sf3ls")
+level = 40
+move = 164
+
+[sub_resource type="Resource" id="Resource_6ysxk"]
+script = ExtResource("3_sf3ls")
+level = 45
+move = 271
+
+[sub_resource type="Resource" id="Resource_vgbxi"]
+script = ExtResource("3_sf3ls")
+level = 50
+move = 435
+
+[sub_resource type="Resource" id="Resource_a46vq"]
+script = ExtResource("3_sf3ls")
+level = 55
+move = 253
+
+[resource]
+script = ExtResource("4_7lrab")
+id = 479
+display_name = "Rotom"
+category = "Plasma"
+national_dex = 479
+pokedex = "Its body is composed of plasma and loves
+to surprise others. One boy's invention led
+to the development of many machines that
+can use of Rotom's unique capabilities."
+type_1 = 1
+base_hp = 50
+base_atk = 50
+base_def = 77
+base_spa = 95
+base_spd = 77
+base_spe = 91
+ev_spa = 1
+ev_spe = 1
+base_exp = 154
+gender_ratio = 255
+egg_group_1 = 11
+ability_1 = 26
+height_dm = 3
+weight_hg = 3
+level_moves = Array[ExtResource("3_sf3ls")]([SubResource("Resource_k15aa"), SubResource("Resource_drhf7"), SubResource("Resource_0222y"), SubResource("Resource_pg6ga"), SubResource("Resource_7j5x6"), SubResource("Resource_n7xw3"), SubResource("Resource_6ueh1"), SubResource("Resource_ocujw"), SubResource("Resource_w36jc"), SubResource("Resource_g41rd"), SubResource("Resource_6ysxk"), SubResource("Resource_vgbxi"), SubResource("Resource_a46vq")])
+form_species = Array[int]([479, 1064, 1065, 1066, 1067, 1068])

@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://14e78w5m6ce0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_p2taf"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jvuyn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jg4ic"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_c2chr"]
+
+[sub_resource type="Resource" id="Resource_wswu3"]
+script = ExtResource("3_jg4ic")
+level = 0
+move = 163
+
+[sub_resource type="Resource" id="Resource_5c6s1"]
+script = ExtResource("3_jg4ic")
+move = 163
+
+[sub_resource type="Resource" id="Resource_qmrgx"]
+script = ExtResource("3_jg4ic")
+move = 400
+
+[sub_resource type="Resource" id="Resource_aql08"]
+script = ExtResource("3_jg4ic")
+move = 453
+
+[sub_resource type="Resource" id="Resource_gb2eu"]
+script = ExtResource("3_jg4ic")
+move = 43
+
+[sub_resource type="Resource" id="Resource_yunnc"]
+script = ExtResource("3_jg4ic")
+move = 305
+
+[sub_resource type="Resource" id="Resource_2npfk"]
+script = ExtResource("3_jg4ic")
+move = 116
+
+[sub_resource type="Resource" id="Resource_dr4yd"]
+script = ExtResource("3_jg4ic")
+level = 12
+move = 184
+
+[sub_resource type="Resource" id="Resource_v3qdq"]
+script = ExtResource("3_jg4ic")
+level = 16
+move = 44
+
+[sub_resource type="Resource" id="Resource_vioba"]
+script = ExtResource("3_jg4ic")
+level = 20
+move = 423
+
+[sub_resource type="Resource" id="Resource_kj001"]
+script = ExtResource("3_jg4ic")
+level = 24
+move = 103
+
+[sub_resource type="Resource" id="Resource_tgbx2"]
+script = ExtResource("3_jg4ic")
+level = 28
+move = 207
+
+[sub_resource type="Resource" id="Resource_wdhva"]
+script = ExtResource("3_jg4ic")
+level = 34
+move = 242
+
+[sub_resource type="Resource" id="Resource_hx2vl"]
+script = ExtResource("3_jg4ic")
+level = 40
+move = 97
+
+[sub_resource type="Resource" id="Resource_v0xri"]
+script = ExtResource("3_jg4ic")
+level = 46
+move = 664
+
+[sub_resource type="Resource" id="Resource_f4n6s"]
+script = ExtResource("3_jg4ic")
+level = 52
+move = 36
+
+[resource]
+script = ExtResource("4_c2chr")
+id = 319
+display_name = "Sharpedo"
+category = "Brutal"
+national_dex = 319
+pokedex = "The vicious and sly gangster of the sea.
+Its skin is specially textured to minimize
+drag in water. Its speed tops out at over
+75 miles per hour."
+type_1 = 12
+type_2 = 18
+base_hp = 70
+base_atk = 120
+base_def = 40
+base_spa = 95
+base_spd = 40
+base_spe = 95
+ev_atk = 2
+catch_rate = 60
+base_exp = 161
+base_friendship = 35
+growth_rate = 5
+egg_group_1 = 12
+ability_1 = 24
+ability_hidden = 3
+item_rare = 399
+height_dm = 18
+weight_hg = 888
+body_color = 1
+level_moves = Array[ExtResource("3_jg4ic")]([SubResource("Resource_wswu3"), SubResource("Resource_5c6s1"), SubResource("Resource_qmrgx"), SubResource("Resource_aql08"), SubResource("Resource_gb2eu"), SubResource("Resource_yunnc"), SubResource("Resource_2npfk"), SubResource("Resource_dr4yd"), SubResource("Resource_v3qdq"), SubResource("Resource_vioba"), SubResource("Resource_kj001"), SubResource("Resource_tgbx2"), SubResource("Resource_wdhva"), SubResource("Resource_hx2vl"), SubResource("Resource_v0xri"), SubResource("Resource_f4n6s")])
+form_species = Array[int]([319, 936])

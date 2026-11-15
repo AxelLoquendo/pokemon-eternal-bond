@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dtxwmyw3idlnd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_wprw4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rm056"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ftd4a"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_btopu"]
+
+[sub_resource type="Resource" id="Resource_4dfni"]
+script = ExtResource("3_ftd4a")
+level = 0
+move = 400
+
+[sub_resource type="Resource" id="Resource_80y0o"]
+script = ExtResource("3_ftd4a")
+move = 400
+
+[sub_resource type="Resource" id="Resource_10v6d"]
+script = ExtResource("3_ftd4a")
+move = 418
+
+[sub_resource type="Resource" id="Resource_tiilq"]
+script = ExtResource("3_ftd4a")
+move = 33
+
+[sub_resource type="Resource" id="Resource_o5i46"]
+script = ExtResource("3_ftd4a")
+move = 43
+
+[sub_resource type="Resource" id="Resource_ry6mh"]
+script = ExtResource("3_ftd4a")
+move = 292
+
+[sub_resource type="Resource" id="Resource_rnrug"]
+script = ExtResource("3_ftd4a")
+move = 269
+
+[sub_resource type="Resource" id="Resource_ax63l"]
+script = ExtResource("3_ftd4a")
+level = 12
+move = 509
+
+[sub_resource type="Resource" id="Resource_krd5l"]
+script = ExtResource("3_ftd4a")
+level = 16
+move = 490
+
+[sub_resource type="Resource" id="Resource_ps60c"]
+script = ExtResource("3_ftd4a")
+level = 20
+move = 526
+
+[sub_resource type="Resource" id="Resource_84x11"]
+script = ExtResource("3_ftd4a")
+level = 24
+move = 163
+
+[sub_resource type="Resource" id="Resource_ivedx"]
+script = ExtResource("3_ftd4a")
+level = 28
+move = 233
+
+[sub_resource type="Resource" id="Resource_kor5w"]
+script = ExtResource("3_ftd4a")
+level = 35
+move = 242
+
+[sub_resource type="Resource" id="Resource_23jtk"]
+script = ExtResource("3_ftd4a")
+level = 40
+move = 34
+
+[sub_resource type="Resource" id="Resource_v3obk"]
+script = ExtResource("3_ftd4a")
+level = 46
+move = 575
+
+[sub_resource type="Resource" id="Resource_0qv15"]
+script = ExtResource("3_ftd4a")
+level = 52
+move = 494
+
+[sub_resource type="Resource" id="Resource_chraf"]
+script = ExtResource("3_ftd4a")
+level = 58
+move = 359
+
+[resource]
+script = ExtResource("4_btopu")
+id = 675
+display_name = "Pangoro"
+category = "Daunting"
+national_dex = 675
+pokedex = "It boasts superb physical strength.
+Those who wish to become Pangoro's
+Trainer have no choice but to converse
+with their fists."
+type_1 = 2
+type_2 = 18
+base_hp = 95
+base_atk = 124
+base_def = 78
+base_spa = 69
+base_spd = 71
+base_spe = 58
+ev_atk = 2
+catch_rate = 65
+base_exp = 173
+egg_cycles = 25
+egg_group_1 = 5
+egg_group_2 = 8
+ability_1 = 89
+ability_2 = 104
+ability_hidden = 113
+item_rare = 464
+height_dm = 21
+weight_hg = 1360
+body_color = 8
+level_moves = Array[ExtResource("3_ftd4a")]([SubResource("Resource_4dfni"), SubResource("Resource_80y0o"), SubResource("Resource_10v6d"), SubResource("Resource_tiilq"), SubResource("Resource_o5i46"), SubResource("Resource_ry6mh"), SubResource("Resource_rnrug"), SubResource("Resource_ax63l"), SubResource("Resource_krd5l"), SubResource("Resource_ps60c"), SubResource("Resource_84x11"), SubResource("Resource_ivedx"), SubResource("Resource_kor5w"), SubResource("Resource_23jtk"), SubResource("Resource_v3obk"), SubResource("Resource_0qv15"), SubResource("Resource_chraf")])

@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://8yhrxokipm66"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ja5nm"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_688d8"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jcj4o"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1103k"]
+
+[sub_resource type="Resource" id="Resource_nfwhu"]
+script = ExtResource("3_jcj4o")
+move = 33
+
+[sub_resource type="Resource" id="Resource_joxr0"]
+script = ExtResource("3_jcj4o")
+move = 39
+
+[sub_resource type="Resource" id="Resource_16imf"]
+script = ExtResource("3_jcj4o")
+move = 46
+
+[sub_resource type="Resource" id="Resource_k4j7m"]
+script = ExtResource("3_jcj4o")
+move = 246
+
+[sub_resource type="Resource" id="Resource_y4wl5"]
+script = ExtResource("3_jcj4o")
+level = 12
+move = 204
+
+[sub_resource type="Resource" id="Resource_gm7t5"]
+script = ExtResource("3_jcj4o")
+level = 16
+move = 44
+
+[sub_resource type="Resource" id="Resource_ogji3"]
+script = ExtResource("3_jcj4o")
+level = 20
+move = 525
+
+[sub_resource type="Resource" id="Resource_fm4tr"]
+script = ExtResource("3_jcj4o")
+level = 24
+move = 23
+
+[sub_resource type="Resource" id="Resource_ru2s6"]
+script = ExtResource("3_jcj4o")
+level = 28
+move = 157
+
+[sub_resource type="Resource" id="Resource_rsw48"]
+script = ExtResource("3_jcj4o")
+level = 32
+move = 242
+
+[sub_resource type="Resource" id="Resource_mhcq1"]
+script = ExtResource("3_jcj4o")
+level = 36
+move = 337
+
+[sub_resource type="Resource" id="Resource_4hhes"]
+script = ExtResource("3_jcj4o")
+level = 42
+move = 37
+
+[sub_resource type="Resource" id="Resource_e1oom"]
+script = ExtResource("3_jcj4o")
+level = 48
+move = 89
+
+[sub_resource type="Resource" id="Resource_j5oub"]
+script = ExtResource("3_jcj4o")
+level = 54
+move = 32
+
+[sub_resource type="Resource" id="Resource_7sbvk"]
+script = ExtResource("3_jcj4o")
+level = 60
+move = 416
+
+[sub_resource type="Resource" id="Resource_lf5jw"]
+script = ExtResource("3_jcj4o")
+level = 66
+move = 457
+
+[resource]
+script = ExtResource("4_1103k")
+id = 697
+display_name = "Tyrantrum"
+category = "Despot"
+national_dex = 697
+pokedex = "Thanks to its gargantuan jaws, which could
+shred thick metal plates as if they were
+paper, it was invincible in the ancient
+world it once inhabited."
+type_1 = 6
+type_2 = 17
+base_hp = 82
+base_atk = 121
+base_def = 119
+base_spa = 69
+base_spd = 59
+base_spe = 71
+ev_atk = 2
+base_exp = 182
+gender_ratio = 31
+egg_cycles = 30
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 173
+ability_hidden = 69
+height_dm = 25
+weight_hg = 2700
+level_moves = Array[ExtResource("3_jcj4o")]([SubResource("Resource_nfwhu"), SubResource("Resource_joxr0"), SubResource("Resource_16imf"), SubResource("Resource_k4j7m"), SubResource("Resource_y4wl5"), SubResource("Resource_gm7t5"), SubResource("Resource_ogji3"), SubResource("Resource_fm4tr"), SubResource("Resource_ru2s6"), SubResource("Resource_rsw48"), SubResource("Resource_mhcq1"), SubResource("Resource_4hhes"), SubResource("Resource_e1oom"), SubResource("Resource_j5oub"), SubResource("Resource_7sbvk"), SubResource("Resource_lf5jw")])

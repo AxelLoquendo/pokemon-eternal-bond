@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dqc6n7cmxahes"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qcsb0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_cx7r5"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_47jeo"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_05fwo"]
+
+[sub_resource type="Resource" id="Resource_bvpx7"]
+script = ExtResource("3_47jeo")
+move = 84
+
+[sub_resource type="Resource" id="Resource_6t0d6"]
+script = ExtResource("3_47jeo")
+move = 310
+
+[sub_resource type="Resource" id="Resource_pd3ts"]
+script = ExtResource("3_47jeo")
+level = 5
+move = 43
+
+[sub_resource type="Resource" id="Resource_ycl5n"]
+script = ExtResource("3_47jeo")
+level = 10
+move = 207
+
+[sub_resource type="Resource" id="Resource_1iuj5"]
+script = ExtResource("3_47jeo")
+level = 15
+move = 44
+
+[sub_resource type="Resource" id="Resource_kw2jb"]
+script = ExtResource("3_47jeo")
+level = 20
+move = 351
+
+[sub_resource type="Resource" id="Resource_rwwbk"]
+script = ExtResource("3_47jeo")
+level = 25
+move = 97
+
+[sub_resource type="Resource" id="Resource_0euhw"]
+script = ExtResource("3_47jeo")
+level = 30
+move = 268
+
+[sub_resource type="Resource" id="Resource_1muvm"]
+script = ExtResource("3_47jeo")
+level = 35
+move = 521
+
+[sub_resource type="Resource" id="Resource_exevl"]
+script = ExtResource("3_47jeo")
+level = 40
+move = 242
+
+[sub_resource type="Resource" id="Resource_766u0"]
+script = ExtResource("3_47jeo")
+level = 45
+move = 435
+
+[sub_resource type="Resource" id="Resource_158wf"]
+script = ExtResource("3_47jeo")
+level = 50
+move = 253
+
+[sub_resource type="Resource" id="Resource_jvgkg"]
+script = ExtResource("3_47jeo")
+level = 55
+move = 359
+
+[sub_resource type="Resource" id="Resource_78xf4"]
+script = ExtResource("3_47jeo")
+level = 60
+move = 240
+
+[sub_resource type="Resource" id="Resource_20gym"]
+script = ExtResource("3_47jeo")
+level = 65
+move = 87
+
+[sub_resource type="Resource" id="Resource_voy2i"]
+script = ExtResource("3_47jeo")
+level = 70
+move = 37
+
+[sub_resource type="Resource" id="Resource_s36at"]
+script = ExtResource("3_47jeo")
+level = 75
+move = 775
+
+[resource]
+script = ExtResource("4_05fwo")
+id = 642
+display_name = "Thundurus"
+category = "Bolt Strike"
+national_dex = 642
+pokedex = "The spikes on its tail discharge immense
+bolts of lightning. Countless charred
+remains mar the landscape of places
+through which Thundurus has passed."
+type_1 = 14
+type_2 = 3
+base_hp = 79
+base_atk = 115
+base_def = 70
+base_spa = 125
+base_spd = 80
+base_spe = 111
+ev_atk = 3
+catch_rate = 3
+base_exp = 290
+base_friendship = 90
+gender_ratio = 0
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 158
+ability_hidden = 128
+height_dm = 15
+weight_hg = 610
+body_color = 1
+level_moves = Array[ExtResource("3_47jeo")]([SubResource("Resource_bvpx7"), SubResource("Resource_6t0d6"), SubResource("Resource_pd3ts"), SubResource("Resource_ycl5n"), SubResource("Resource_1iuj5"), SubResource("Resource_kw2jb"), SubResource("Resource_rwwbk"), SubResource("Resource_0euhw"), SubResource("Resource_1muvm"), SubResource("Resource_exevl"), SubResource("Resource_766u0"), SubResource("Resource_158wf"), SubResource("Resource_jvgkg"), SubResource("Resource_78xf4"), SubResource("Resource_20gym"), SubResource("Resource_voy2i"), SubResource("Resource_s36at")])
+form_species = Array[int]([642, 1101])

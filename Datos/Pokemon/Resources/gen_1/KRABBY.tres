@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ksqi0gtngmj8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_wdcf7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0kwfi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bkxu1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_yu1ys"]
+
+[sub_resource type="Resource" id="Resource_212vs"]
+script = ExtResource("1_wdcf7")
+method = "LEVEL"
+param = "28"
+target = 99
+
+[sub_resource type="Resource" id="Resource_rduhi"]
+script = ExtResource("3_bkxu1")
+move = 55
+
+[sub_resource type="Resource" id="Resource_206oy"]
+script = ExtResource("3_bkxu1")
+move = 43
+
+[sub_resource type="Resource" id="Resource_vm7vt"]
+script = ExtResource("3_bkxu1")
+level = 4
+move = 106
+
+[sub_resource type="Resource" id="Resource_bqx76"]
+script = ExtResource("3_bkxu1")
+level = 8
+move = 232
+
+[sub_resource type="Resource" id="Resource_j2a8w"]
+script = ExtResource("3_bkxu1")
+level = 12
+move = 341
+
+[sub_resource type="Resource" id="Resource_xyc6a"]
+script = ExtResource("3_bkxu1")
+level = 16
+move = 182
+
+[sub_resource type="Resource" id="Resource_iy1vn"]
+script = ExtResource("3_bkxu1")
+level = 20
+move = 61
+
+[sub_resource type="Resource" id="Resource_kiu5o"]
+script = ExtResource("3_bkxu1")
+level = 24
+move = 23
+
+[sub_resource type="Resource" id="Resource_20iym"]
+script = ExtResource("3_bkxu1")
+level = 29
+move = 175
+
+[sub_resource type="Resource" id="Resource_xunsn"]
+script = ExtResource("3_bkxu1")
+level = 32
+move = 534
+
+[sub_resource type="Resource" id="Resource_h5ngw"]
+script = ExtResource("3_bkxu1")
+level = 36
+move = 21
+
+[sub_resource type="Resource" id="Resource_v8xam"]
+script = ExtResource("3_bkxu1")
+level = 40
+move = 14
+
+[sub_resource type="Resource" id="Resource_uihuo"]
+script = ExtResource("3_bkxu1")
+level = 44
+move = 152
+
+[sub_resource type="Resource" id="Resource_cy820"]
+script = ExtResource("3_bkxu1")
+level = 48
+move = 12
+
+[resource]
+script = ExtResource("4_yu1ys")
+id = 98
+display_name = "Krabby"
+category = "River Crab"
+national_dex = 98
+pokedex = "Krabby live in holes dug into beaches.
+On sandy shores with little in the way
+of food, they can be seen squabbling with
+each other over territory."
+type_1 = 12
+base_hp = 30
+base_atk = 105
+base_def = 90
+base_spa = 25
+base_spd = 25
+base_spe = 50
+ev_atk = 1
+catch_rate = 225
+base_exp = 65
+egg_group_1 = 9
+ability_1 = 52
+ability_2 = 75
+ability_hidden = 125
+height_dm = 4
+weight_hg = 65
+level_moves = Array[ExtResource("3_bkxu1")]([SubResource("Resource_rduhi"), SubResource("Resource_206oy"), SubResource("Resource_vm7vt"), SubResource("Resource_bqx76"), SubResource("Resource_j2a8w"), SubResource("Resource_xyc6a"), SubResource("Resource_iy1vn"), SubResource("Resource_kiu5o"), SubResource("Resource_20iym"), SubResource("Resource_xunsn"), SubResource("Resource_h5ngw"), SubResource("Resource_v8xam"), SubResource("Resource_uihuo"), SubResource("Resource_cy820")])
+egg_moves = Array[int]([114, 133, 175, 21, 282, 321, 246, 97, 203, 498, 117, 502])
+evolutions = Array[ExtResource("1_wdcf7")]([SubResource("Resource_212vs")])

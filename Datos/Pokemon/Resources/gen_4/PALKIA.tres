@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bqcfxxlsu1236"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_oxyil"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8jhfl"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_t5af2"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5p0wr"]
+
+[sub_resource type="Resource" id="Resource_ccop8"]
+script = ExtResource("3_t5af2")
+move = 184
+
+[sub_resource type="Resource" id="Resource_x8nqu"]
+script = ExtResource("3_t5af2")
+move = 352
+
+[sub_resource type="Resource" id="Resource_tqab3"]
+script = ExtResource("3_t5af2")
+level = 8
+move = 225
+
+[sub_resource type="Resource" id="Resource_o451u"]
+script = ExtResource("3_t5af2")
+level = 16
+move = 246
+
+[sub_resource type="Resource" id="Resource_1tsis"]
+script = ExtResource("3_t5af2")
+level = 24
+move = 163
+
+[sub_resource type="Resource" id="Resource_orivj"]
+script = ExtResource("3_t5af2")
+level = 32
+move = 392
+
+[sub_resource type="Resource" id="Resource_a4uvx"]
+script = ExtResource("3_t5af2")
+level = 48
+move = 396
+
+[sub_resource type="Resource" id="Resource_dl4ao"]
+script = ExtResource("3_t5af2")
+level = 56
+move = 408
+
+[sub_resource type="Resource" id="Resource_1c63e"]
+script = ExtResource("3_t5af2")
+level = 64
+move = 401
+
+[sub_resource type="Resource" id="Resource_agxru"]
+script = ExtResource("3_t5af2")
+level = 72
+move = 414
+
+[sub_resource type="Resource" id="Resource_v70yu"]
+script = ExtResource("3_t5af2")
+level = 80
+move = 460
+
+[sub_resource type="Resource" id="Resource_82l1k"]
+script = ExtResource("3_t5af2")
+level = 88
+move = 56
+
+[resource]
+script = ExtResource("4_5p0wr")
+id = 484
+display_name = "Palkia"
+category = "Spatial"
+national_dex = 484
+pokedex = "Palkia has the ability to distort space.
+Its total control over the boundaries of
+space enable it to transport itself to
+faraway places and other dimensions."
+type_1 = 12
+type_2 = 17
+base_hp = 90
+base_atk = 120
+base_def = 100
+base_spa = 150
+base_spd = 120
+base_spe = 100
+ev_spa = 3
+catch_rate = 3
+base_exp = 220
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 46
+ability_hidden = 140
+height_dm = 42
+weight_hg = 3360
+body_color = 6
+level_moves = Array[ExtResource("3_t5af2")]([SubResource("Resource_ccop8"), SubResource("Resource_x8nqu"), SubResource("Resource_tqab3"), SubResource("Resource_o451u"), SubResource("Resource_1tsis"), SubResource("Resource_orivj"), SubResource("Resource_a4uvx"), SubResource("Resource_dl4ao"), SubResource("Resource_1c63e"), SubResource("Resource_agxru"), SubResource("Resource_v70yu"), SubResource("Resource_82l1k")])
+form_species = Array[int]([484, 1070])

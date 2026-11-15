@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dwr0k37whqoa4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_05kaa"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vseyu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_iu0ku"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ca4x3"]
+
+[sub_resource type="Resource" id="Resource_ld40r"]
+script = ExtResource("3_iu0ku")
+level = 0
+move = 408
+
+[sub_resource type="Resource" id="Resource_rkjnu"]
+script = ExtResource("3_iu0ku")
+move = 10
+
+[sub_resource type="Resource" id="Resource_e2oda"]
+script = ExtResource("3_iu0ku")
+move = 45
+
+[sub_resource type="Resource" id="Resource_567q6"]
+script = ExtResource("3_iu0ku")
+move = 252
+
+[sub_resource type="Resource" id="Resource_bd0g1"]
+script = ExtResource("3_iu0ku")
+move = 364
+
+[sub_resource type="Resource" id="Resource_xo2mt"]
+script = ExtResource("3_iu0ku")
+move = 415
+
+[sub_resource type="Resource" id="Resource_4tnid"]
+script = ExtResource("3_iu0ku")
+move = 511
+
+[sub_resource type="Resource" id="Resource_ekmc0"]
+script = ExtResource("3_iu0ku")
+level = 12
+move = 6
+
+[sub_resource type="Resource" id="Resource_7svrd"]
+script = ExtResource("3_iu0ku")
+level = 16
+move = 44
+
+[sub_resource type="Resource" id="Resource_kp08c"]
+script = ExtResource("3_iu0ku")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_nebq4"]
+script = ExtResource("3_iu0ku")
+level = 24
+move = 372
+
+[sub_resource type="Resource" id="Resource_tfo63"]
+script = ExtResource("3_iu0ku")
+level = 31
+move = 154
+
+[sub_resource type="Resource" id="Resource_mk3g2"]
+script = ExtResource("3_iu0ku")
+level = 36
+move = 103
+
+[sub_resource type="Resource" id="Resource_qyahj"]
+script = ExtResource("3_iu0ku")
+level = 42
+move = 400
+
+[sub_resource type="Resource" id="Resource_godjj"]
+script = ExtResource("3_iu0ku")
+level = 48
+move = 417
+
+[sub_resource type="Resource" id="Resource_137ea"]
+script = ExtResource("3_iu0ku")
+level = 54
+move = 583
+
+[resource]
+script = ExtResource("4_ca4x3")
+id = 966
+display_name = "Persian"
+category = "Classy Cat"
+national_dex = 53
+pokedex = "It looks down on everyone other than
+itself. In contrast to its lovely face, it
+is so brutal that it tortures its weakened
+prey rather than finishing them off."
+type_1 = 18
+base_hp = 65
+base_atk = 60
+base_def = 60
+base_spa = 75
+base_spd = 65
+base_spe = 115
+ev_spe = 2
+catch_rate = 90
+base_exp = 154
+egg_group_1 = 5
+ability_1 = 169
+ability_2 = 101
+ability_hidden = 155
+item_rare = 462
+height_dm = 11
+weight_hg = 330
+body_color = 7
+level_moves = Array[ExtResource("3_iu0ku")]([SubResource("Resource_ld40r"), SubResource("Resource_rkjnu"), SubResource("Resource_e2oda"), SubResource("Resource_567q6"), SubResource("Resource_bd0g1"), SubResource("Resource_xo2mt"), SubResource("Resource_4tnid"), SubResource("Resource_ekmc0"), SubResource("Resource_7svrd"), SubResource("Resource_kp08c"), SubResource("Resource_nebq4"), SubResource("Resource_tfo63"), SubResource("Resource_mk3g2"), SubResource("Resource_qyahj"), SubResource("Resource_godjj"), SubResource("Resource_137ea")])
+form_species = Array[int]([53, 966])

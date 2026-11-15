@@ -1,0 +1,130 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bc2u0obhuvvfr"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_p4sp7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7gokx"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_me2gs"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pve6q"]
+
+[sub_resource type="Resource" id="Resource_yij2m"]
+script = ExtResource("1_p4sp7")
+method = "ITEM"
+param = "ITEM_METAL_COAT"
+target = 208
+
+[sub_resource type="Resource" id="Resource_8eqef"]
+script = ExtResource("3_me2gs")
+move = 33
+
+[sub_resource type="Resource" id="Resource_40vfl"]
+script = ExtResource("3_me2gs")
+move = 106
+
+[sub_resource type="Resource" id="Resource_nmgcr"]
+script = ExtResource("3_me2gs")
+move = 20
+
+[sub_resource type="Resource" id="Resource_mkqjc"]
+script = ExtResource("3_me2gs")
+move = 88
+
+[sub_resource type="Resource" id="Resource_j0qsk"]
+script = ExtResource("3_me2gs")
+level = 4
+move = 479
+
+[sub_resource type="Resource" id="Resource_1k54p"]
+script = ExtResource("3_me2gs")
+level = 8
+move = 397
+
+[sub_resource type="Resource" id="Resource_gkew6"]
+script = ExtResource("3_me2gs")
+level = 12
+move = 225
+
+[sub_resource type="Resource" id="Resource_ig8cb"]
+script = ExtResource("3_me2gs")
+level = 16
+move = 174
+
+[sub_resource type="Resource" id="Resource_kivws"]
+script = ExtResource("3_me2gs")
+level = 20
+move = 157
+
+[sub_resource type="Resource" id="Resource_y80kd"]
+script = ExtResource("3_me2gs")
+level = 24
+move = 103
+
+[sub_resource type="Resource" id="Resource_wamkg"]
+script = ExtResource("3_me2gs")
+level = 28
+move = 328
+
+[sub_resource type="Resource" id="Resource_61a3i"]
+script = ExtResource("3_me2gs")
+level = 32
+move = 446
+
+[sub_resource type="Resource" id="Resource_mx0ga"]
+script = ExtResource("3_me2gs")
+level = 36
+move = 21
+
+[sub_resource type="Resource" id="Resource_3poh0"]
+script = ExtResource("3_me2gs")
+level = 40
+move = 201
+
+[sub_resource type="Resource" id="Resource_n5tyw"]
+script = ExtResource("3_me2gs")
+level = 44
+move = 91
+
+[sub_resource type="Resource" id="Resource_w7wn8"]
+script = ExtResource("3_me2gs")
+level = 48
+move = 231
+
+[sub_resource type="Resource" id="Resource_q4kdt"]
+script = ExtResource("3_me2gs")
+level = 52
+move = 444
+
+[sub_resource type="Resource" id="Resource_niw64"]
+script = ExtResource("3_me2gs")
+level = 56
+move = 38
+
+[resource]
+script = ExtResource("4_pve6q")
+id = 95
+display_name = "Onix"
+category = "Rock Snake"
+national_dex = 95
+pokedex = "There is a magnet in its brain that
+prevents an Onix from losing direction
+while tunneling. As it grows older, its body
+becomes steadily rounder and smoother."
+type_1 = 6
+type_2 = 5
+base_hp = 35
+base_atk = 45
+base_def = 160
+base_spa = 30
+base_spd = 45
+base_spe = 70
+ev_def = 1
+base_exp = 77
+egg_cycles = 25
+egg_group_1 = 10
+ability_1 = 69
+ability_2 = 5
+ability_hidden = 133
+height_dm = 88
+weight_hg = 2100
+body_color = 7
+level_moves = Array[ExtResource("3_me2gs")]([SubResource("Resource_8eqef"), SubResource("Resource_40vfl"), SubResource("Resource_nmgcr"), SubResource("Resource_mkqjc"), SubResource("Resource_j0qsk"), SubResource("Resource_1k54p"), SubResource("Resource_gkew6"), SubResource("Resource_ig8cb"), SubResource("Resource_kivws"), SubResource("Resource_y80kd"), SubResource("Resource_wamkg"), SubResource("Resource_61a3i"), SubResource("Resource_mx0ga"), SubResource("Resource_3poh0"), SubResource("Resource_n5tyw"), SubResource("Resource_w7wn8"), SubResource("Resource_q4kdt"), SubResource("Resource_niw64")])
+egg_moves = Array[int]([175, 335, 111, 205, 350, 431, 484, 446, 563, 469])
+evolutions = Array[ExtResource("1_p4sp7")]([SubResource("Resource_yij2m")])

@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cn4d83yqmhc58"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_com11"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vm515"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xgsk5"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_haitq"]
+
+[sub_resource type="Resource" id="Resource_jghn8"]
+script = ExtResource("3_xgsk5")
+level = 0
+move = 588
+
+[sub_resource type="Resource" id="Resource_6efhc"]
+script = ExtResource("3_xgsk5")
+move = 588
+
+[sub_resource type="Resource" id="Resource_drp48"]
+script = ExtResource("3_xgsk5")
+move = 457
+
+[sub_resource type="Resource" id="Resource_6034w"]
+script = ExtResource("3_xgsk5")
+move = 332
+
+[sub_resource type="Resource" id="Resource_kv46s"]
+script = ExtResource("3_xgsk5")
+move = 319
+
+[sub_resource type="Resource" id="Resource_kpf5k"]
+script = ExtResource("3_xgsk5")
+move = 163
+
+[sub_resource type="Resource" id="Resource_ua2m6"]
+script = ExtResource("3_xgsk5")
+move = 400
+
+[sub_resource type="Resource" id="Resource_reoen"]
+script = ExtResource("3_xgsk5")
+move = 514
+
+[sub_resource type="Resource" id="Resource_qtdfn"]
+script = ExtResource("3_xgsk5")
+move = 334
+
+[sub_resource type="Resource" id="Resource_gipgh"]
+script = ExtResource("3_xgsk5")
+move = 442
+
+[sub_resource type="Resource" id="Resource_kmjka"]
+script = ExtResource("3_xgsk5")
+move = 379
+
+[sub_resource type="Resource" id="Resource_l4kuu"]
+script = ExtResource("3_xgsk5")
+move = 14
+
+[sub_resource type="Resource" id="Resource_fuhte"]
+script = ExtResource("3_xgsk5")
+move = 533
+
+[sub_resource type="Resource" id="Resource_aaytu"]
+script = ExtResource("3_xgsk5")
+move = 33
+
+[sub_resource type="Resource" id="Resource_6kj1s"]
+script = ExtResource("3_xgsk5")
+move = 210
+
+[sub_resource type="Resource" id="Resource_lnx7e"]
+script = ExtResource("3_xgsk5")
+move = 425
+
+[sub_resource type="Resource" id="Resource_t1ub2"]
+script = ExtResource("3_xgsk5")
+move = 475
+
+[resource]
+script = ExtResource("4_haitq")
+id = 1156
+display_name = "Aegislash"
+category = "Royal Sword"
+national_dex = 681
+pokedex = "Once upon a time, a king with an
+Aegislash reigned over the land. His
+Pokémon eventually drained him of
+life, and his kingdom fell with him."
+type_1 = 9
+type_2 = 8
+base_hp = 60
+base_def = 50
+base_spd = 50
+base_spe = 60
+ev_atk = 2
+ev_def = 2
+ev_spa = 1
+ev_spd = 1
+base_exp = 250
+egg_group_1 = 10
+ability_1 = 176
+height_dm = 17
+weight_hg = 530
+body_color = 5
+level_moves = Array[ExtResource("3_xgsk5")]([SubResource("Resource_jghn8"), SubResource("Resource_6efhc"), SubResource("Resource_drp48"), SubResource("Resource_6034w"), SubResource("Resource_kv46s"), SubResource("Resource_kpf5k"), SubResource("Resource_ua2m6"), SubResource("Resource_reoen"), SubResource("Resource_qtdfn"), SubResource("Resource_gipgh"), SubResource("Resource_kmjka"), SubResource("Resource_l4kuu"), SubResource("Resource_fuhte"), SubResource("Resource_aaytu"), SubResource("Resource_6kj1s"), SubResource("Resource_lnx7e"), SubResource("Resource_t1ub2")])
+form_species = Array[int]([681, 1156])

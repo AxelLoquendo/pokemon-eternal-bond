@@ -1,0 +1,130 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://fi54xv4jq25v"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_63blb"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5hiug"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_y6g7v"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ms1mh"]
+
+[sub_resource type="Resource" id="Resource_ia2eu"]
+script = ExtResource("1_63blb")
+method = "LEVEL"
+param = "27"
+target = 189
+
+[sub_resource type="Resource" id="Resource_xihdk"]
+script = ExtResource("3_y6g7v")
+move = 150
+
+[sub_resource type="Resource" id="Resource_hmbe8"]
+script = ExtResource("3_y6g7v")
+move = 39
+
+[sub_resource type="Resource" id="Resource_h4304"]
+script = ExtResource("3_y6g7v")
+move = 71
+
+[sub_resource type="Resource" id="Resource_br5cu"]
+script = ExtResource("3_y6g7v")
+move = 235
+
+[sub_resource type="Resource" id="Resource_3oiwr"]
+script = ExtResource("3_y6g7v")
+level = 8
+move = 33
+
+[sub_resource type="Resource" id="Resource_31j3t"]
+script = ExtResource("3_y6g7v")
+level = 10
+move = 584
+
+[sub_resource type="Resource" id="Resource_3m06o"]
+script = ExtResource("3_y6g7v")
+level = 12
+move = 77
+
+[sub_resource type="Resource" id="Resource_agoox"]
+script = ExtResource("3_y6g7v")
+level = 12
+move = 78
+
+[sub_resource type="Resource" id="Resource_rtp2y"]
+script = ExtResource("3_y6g7v")
+level = 12
+move = 79
+
+[sub_resource type="Resource" id="Resource_idjfs"]
+script = ExtResource("3_y6g7v")
+level = 15
+move = 331
+
+[sub_resource type="Resource" id="Resource_t28ll"]
+script = ExtResource("3_y6g7v")
+level = 20
+move = 73
+
+[sub_resource type="Resource" id="Resource_2q0g2"]
+script = ExtResource("3_y6g7v")
+level = 24
+move = 72
+
+[sub_resource type="Resource" id="Resource_txpt7"]
+script = ExtResource("3_y6g7v")
+level = 28
+move = 512
+
+[sub_resource type="Resource" id="Resource_j1kx0"]
+script = ExtResource("3_y6g7v")
+level = 31
+move = 178
+
+[sub_resource type="Resource" id="Resource_py6wo"]
+script = ExtResource("3_y6g7v")
+level = 34
+move = 369
+
+[sub_resource type="Resource" id="Resource_7dtwq"]
+script = ExtResource("3_y6g7v")
+level = 37
+move = 202
+
+[sub_resource type="Resource" id="Resource_i4hgf"]
+script = ExtResource("3_y6g7v")
+level = 41
+move = 340
+
+[sub_resource type="Resource" id="Resource_jg88f"]
+script = ExtResource("3_y6g7v")
+level = 44
+move = 262
+
+[resource]
+script = ExtResource("4_ms1mh")
+id = 188
+display_name = "Skiploom"
+category = "Cottonweed"
+national_dex = 188
+pokedex = "It blossoms when the temperature rises
+above 64 degrees F. Because its flower's
+blooming changes with the temperature,
+it is sometimes used as a thermometer."
+type_1 = 13
+type_2 = 3
+base_hp = 55
+base_atk = 45
+base_def = 50
+base_spa = 45
+base_spd = 65
+base_spe = 80
+ev_spe = 2
+catch_rate = 120
+base_exp = 119
+growth_rate = 3
+egg_group_1 = 6
+egg_group_2 = 7
+ability_1 = 34
+ability_hidden = 151
+height_dm = 6
+weight_hg = 10
+body_color = 3
+level_moves = Array[ExtResource("3_y6g7v")]([SubResource("Resource_xihdk"), SubResource("Resource_hmbe8"), SubResource("Resource_h4304"), SubResource("Resource_br5cu"), SubResource("Resource_3oiwr"), SubResource("Resource_31j3t"), SubResource("Resource_3m06o"), SubResource("Resource_agoox"), SubResource("Resource_rtp2y"), SubResource("Resource_idjfs"), SubResource("Resource_t28ll"), SubResource("Resource_2q0g2"), SubResource("Resource_txpt7"), SubResource("Resource_j1kx0"), SubResource("Resource_py6wo"), SubResource("Resource_7dtwq"), SubResource("Resource_i4hgf"), SubResource("Resource_jg88f")])
+evolutions = Array[ExtResource("1_63blb")]([SubResource("Resource_ia2eu")])

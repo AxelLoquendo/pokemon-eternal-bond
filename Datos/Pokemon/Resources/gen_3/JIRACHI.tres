@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://1ox1raiq801m"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_o0c4g"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ih77c"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k6yw7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ipewc"]
+
+[sub_resource type="Resource" id="Resource_4pq3l"]
+script = ExtResource("3_k6yw7")
+move = 93
+
+[sub_resource type="Resource" id="Resource_5edsh"]
+script = ExtResource("3_k6yw7")
+move = 273
+
+[sub_resource type="Resource" id="Resource_50f3u"]
+script = ExtResource("3_k6yw7")
+level = 7
+move = 129
+
+[sub_resource type="Resource" id="Resource_d7o0n"]
+script = ExtResource("3_k6yw7")
+level = 21
+move = 719
+
+[sub_resource type="Resource" id="Resource_tlnqj"]
+script = ExtResource("3_k6yw7")
+level = 28
+move = 428
+
+[sub_resource type="Resource" id="Resource_nti8d"]
+script = ExtResource("3_k6yw7")
+level = 35
+move = 356
+
+[sub_resource type="Resource" id="Resource_n5q1c"]
+script = ExtResource("3_k6yw7")
+level = 42
+move = 94
+
+[sub_resource type="Resource" id="Resource_6n32q"]
+script = ExtResource("3_k6yw7")
+level = 49
+move = 309
+
+[sub_resource type="Resource" id="Resource_a6x8v"]
+script = ExtResource("3_k6yw7")
+level = 56
+move = 361
+
+[sub_resource type="Resource" id="Resource_5ko31"]
+script = ExtResource("3_k6yw7")
+level = 63
+move = 156
+
+[sub_resource type="Resource" id="Resource_2bp50"]
+script = ExtResource("3_k6yw7")
+level = 70
+move = 248
+
+[sub_resource type="Resource" id="Resource_1w1fs"]
+script = ExtResource("3_k6yw7")
+level = 77
+move = 38
+
+[sub_resource type="Resource" id="Resource_ran8h"]
+script = ExtResource("3_k6yw7")
+level = 84
+move = 322
+
+[sub_resource type="Resource" id="Resource_yi6pk"]
+script = ExtResource("3_k6yw7")
+level = 91
+move = 387
+
+[sub_resource type="Resource" id="Resource_kjgbo"]
+script = ExtResource("3_k6yw7")
+level = 98
+move = 353
+
+[resource]
+script = ExtResource("4_ipewc")
+id = 385
+display_name = "Jirachi"
+category = "Wish"
+national_dex = 385
+pokedex = "Jirachi is said to make wishes come true.
+While it sleeps, a tough crystalline shell
+envelops the body to protect it from
+enemies."
+type_1 = 9
+type_2 = 15
+base_hp = 100
+base_atk = 100
+base_def = 100
+base_spa = 100
+base_spd = 100
+base_spe = 100
+ev_hp = 3
+catch_rate = 3
+base_exp = 215
+base_friendship = 100
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 32
+item_common = 144
+item_rare = 144
+height_dm = 3
+weight_hg = 11
+body_color = 2
+level_moves = Array[ExtResource("3_k6yw7")]([SubResource("Resource_4pq3l"), SubResource("Resource_5edsh"), SubResource("Resource_50f3u"), SubResource("Resource_d7o0n"), SubResource("Resource_tlnqj"), SubResource("Resource_nti8d"), SubResource("Resource_n5q1c"), SubResource("Resource_6n32q"), SubResource("Resource_a6x8v"), SubResource("Resource_5ko31"), SubResource("Resource_2bp50"), SubResource("Resource_1w1fs"), SubResource("Resource_ran8h"), SubResource("Resource_yi6pk"), SubResource("Resource_kjgbo")])

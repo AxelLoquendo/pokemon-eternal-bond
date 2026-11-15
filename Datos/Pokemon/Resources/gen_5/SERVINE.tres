@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://umtubhrdqjrn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_o60fa"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_53r40"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5a8fv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xocu6"]
+
+[sub_resource type="Resource" id="Resource_sgxl3"]
+script = ExtResource("1_o60fa")
+method = "LEVEL"
+param = "36"
+target = 497
+
+[sub_resource type="Resource" id="Resource_eunb0"]
+script = ExtResource("3_5a8fv")
+move = 22
+
+[sub_resource type="Resource" id="Resource_qrv40"]
+script = ExtResource("3_5a8fv")
+move = 33
+
+[sub_resource type="Resource" id="Resource_jkpoc"]
+script = ExtResource("3_5a8fv")
+move = 35
+
+[sub_resource type="Resource" id="Resource_2k53h"]
+script = ExtResource("3_5a8fv")
+move = 43
+
+[sub_resource type="Resource" id="Resource_b0g5r"]
+script = ExtResource("3_5a8fv")
+level = 13
+move = 74
+
+[sub_resource type="Resource" id="Resource_cradq"]
+script = ExtResource("3_5a8fv")
+level = 16
+move = 345
+
+[sub_resource type="Resource" id="Resource_f2c18"]
+script = ExtResource("3_5a8fv")
+level = 20
+move = 73
+
+[sub_resource type="Resource" id="Resource_s2loe"]
+script = ExtResource("3_5a8fv")
+level = 24
+move = 72
+
+[sub_resource type="Resource" id="Resource_apkai"]
+script = ExtResource("3_5a8fv")
+level = 28
+move = 21
+
+[sub_resource type="Resource" id="Resource_70q1d"]
+script = ExtResource("3_5a8fv")
+level = 32
+move = 348
+
+[sub_resource type="Resource" id="Resource_rykek"]
+script = ExtResource("3_5a8fv")
+level = 36
+move = 489
+
+[sub_resource type="Resource" id="Resource_k3b6k"]
+script = ExtResource("3_5a8fv")
+level = 40
+move = 202
+
+[sub_resource type="Resource" id="Resource_arm24"]
+script = ExtResource("3_5a8fv")
+level = 44
+move = 380
+
+[sub_resource type="Resource" id="Resource_nyk5i"]
+script = ExtResource("3_5a8fv")
+level = 48
+move = 437
+
+[resource]
+script = ExtResource("4_xocu6")
+id = 496
+display_name = "Servine"
+category = "Grass Snake"
+national_dex = 496
+pokedex = "When it gets dirty, its leaves can't be
+used in photosynthesis, so it always keeps
+clean. They avoid attacks by sinking into
+the shadows of thick foliage."
+type_1 = 13
+base_hp = 60
+base_atk = 60
+base_def = 75
+base_spa = 60
+base_spd = 75
+base_spe = 83
+ev_spe = 2
+base_exp = 145
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+egg_group_2 = 7
+ability_1 = 65
+ability_hidden = 126
+height_dm = 8
+weight_hg = 160
+body_color = 3
+level_moves = Array[ExtResource("3_5a8fv")]([SubResource("Resource_eunb0"), SubResource("Resource_qrv40"), SubResource("Resource_jkpoc"), SubResource("Resource_2k53h"), SubResource("Resource_b0g5r"), SubResource("Resource_cradq"), SubResource("Resource_f2c18"), SubResource("Resource_s2loe"), SubResource("Resource_apkai"), SubResource("Resource_70q1d"), SubResource("Resource_rykek"), SubResource("Resource_k3b6k"), SubResource("Resource_arm24"), SubResource("Resource_nyk5i")])
+evolutions = Array[ExtResource("1_o60fa")]([SubResource("Resource_sgxl3")])

@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cwugu86xwk7uq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_m7mqc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_qt5wy"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1dck2"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wwe7c"]
+
+[sub_resource type="Resource" id="Resource_ihu1i"]
+script = ExtResource("1_m7mqc")
+method = "LEVEL"
+param = "30"
+target = 1331
+
+[sub_resource type="Resource" id="Resource_70h3d"]
+script = ExtResource("3_1dck2")
+move = 33
+
+[sub_resource type="Resource" id="Resource_68pd2"]
+script = ExtResource("3_1dck2")
+move = 43
+
+[sub_resource type="Resource" id="Resource_2f3m7"]
+script = ExtResource("3_1dck2")
+move = 184
+
+[sub_resource type="Resource" id="Resource_fucpi"]
+script = ExtResource("3_1dck2")
+level = 4
+move = 122
+
+[sub_resource type="Resource" id="Resource_vuhh5"]
+script = ExtResource("3_1dck2")
+level = 7
+move = 555
+
+[sub_resource type="Resource" id="Resource_tywgy"]
+script = ExtResource("3_1dck2")
+level = 10
+move = 468
+
+[sub_resource type="Resource" id="Resource_78tww"]
+script = ExtResource("3_1dck2")
+level = 14
+move = 44
+
+[sub_resource type="Resource" id="Resource_0kf0o"]
+script = ExtResource("3_1dck2")
+level = 18
+move = 46
+
+[sub_resource type="Resource" id="Resource_tol8b"]
+script = ExtResource("3_1dck2")
+level = 22
+move = 29
+
+[sub_resource type="Resource" id="Resource_sldje"]
+script = ExtResource("3_1dck2")
+level = 26
+move = 371
+
+[sub_resource type="Resource" id="Resource_uh7ex"]
+script = ExtResource("3_1dck2")
+level = 31
+move = 242
+
+[sub_resource type="Resource" id="Resource_egf6r"]
+script = ExtResource("3_1dck2")
+level = 35
+move = 207
+
+[sub_resource type="Resource" id="Resource_45en6"]
+script = ExtResource("3_1dck2")
+level = 39
+move = 179
+
+[sub_resource type="Resource" id="Resource_e1il7"]
+script = ExtResource("3_1dck2")
+level = 43
+move = 692
+
+[sub_resource type="Resource" id="Resource_686v5"]
+script = ExtResource("3_1dck2")
+level = 49
+move = 38
+
+[resource]
+script = ExtResource("4_wwe7c")
+id = 1330
+display_name = "Maschiff"
+category = "Rascal"
+national_dex = 942
+pokedex = "Its well-developed jaw and fangs
+are strong enough to crunch through
+boulders, and its thick fat makes
+for an excellent defense."
+type_1 = 18
+base_hp = 60
+base_atk = 78
+base_def = 60
+base_spa = 40
+base_spd = 51
+base_spe = 51
+ev_atk = 1
+catch_rate = 150
+base_exp = 68
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 22
+ability_2 = 50
+ability_hidden = 198
+height_dm = 5
+weight_hg = 160
+body_color = 5
+level_moves = Array[ExtResource("3_1dck2")]([SubResource("Resource_70h3d"), SubResource("Resource_68pd2"), SubResource("Resource_2f3m7"), SubResource("Resource_fucpi"), SubResource("Resource_vuhh5"), SubResource("Resource_tywgy"), SubResource("Resource_78tww"), SubResource("Resource_0kf0o"), SubResource("Resource_tol8b"), SubResource("Resource_sldje"), SubResource("Resource_uh7ex"), SubResource("Resource_egf6r"), SubResource("Resource_45en6"), SubResource("Resource_e1il7"), SubResource("Resource_686v5")])
+egg_moves = Array[int]([194, 283, 583, 514])
+evolutions = Array[ExtResource("1_m7mqc")]([SubResource("Resource_ihu1i")])

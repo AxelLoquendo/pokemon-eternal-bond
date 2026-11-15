@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ckwaeoctem6oy"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3fvws"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_oxky3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_my1jo"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_snbcw"]
+
+[sub_resource type="Resource" id="Resource_m2rmr"]
+script = ExtResource("3_my1jo")
+move = 609
+
+[sub_resource type="Resource" id="Resource_hobl2"]
+script = ExtResource("3_my1jo")
+move = 33
+
+[sub_resource type="Resource" id="Resource_b06si"]
+script = ExtResource("3_my1jo")
+level = 5
+move = 111
+
+[sub_resource type="Resource" id="Resource_odk7u"]
+script = ExtResource("3_my1jo")
+level = 10
+move = 268
+
+[sub_resource type="Resource" id="Resource_ffwij"]
+script = ExtResource("3_my1jo")
+level = 15
+move = 84
+
+[sub_resource type="Resource" id="Resource_6jhmd"]
+script = ExtResource("3_my1jo")
+level = 20
+move = 565
+
+[sub_resource type="Resource" id="Resource_okki4"]
+script = ExtResource("3_my1jo")
+level = 25
+move = 209
+
+[sub_resource type="Resource" id="Resource_4do43"]
+script = ExtResource("3_my1jo")
+level = 30
+move = 42
+
+[sub_resource type="Resource" id="Resource_ffec8"]
+script = ExtResource("3_my1jo")
+level = 35
+move = 393
+
+[sub_resource type="Resource" id="Resource_7k4u6"]
+script = ExtResource("3_my1jo")
+level = 40
+move = 670
+
+[sub_resource type="Resource" id="Resource_3plu4"]
+script = ExtResource("3_my1jo")
+level = 45
+move = 435
+
+[sub_resource type="Resource" id="Resource_ck5e5"]
+script = ExtResource("3_my1jo")
+level = 50
+move = 604
+
+[sub_resource type="Resource" id="Resource_6tack"]
+script = ExtResource("3_my1jo")
+level = 55
+move = 528
+
+[sub_resource type="Resource" id="Resource_wlhvr"]
+script = ExtResource("3_my1jo")
+level = 60
+move = 596
+
+[resource]
+script = ExtResource("4_snbcw")
+id = 1486
+display_name = "Togedemaru"
+category = "Roly-Poly"
+national_dex = 777
+type_1 = 14
+type_2 = 9
+base_hp = 65
+base_atk = 98
+base_def = 63
+base_spa = 40
+base_spd = 73
+base_spe = 96
+ev_atk = 2
+catch_rate = 180
+base_exp = 152
+egg_cycles = 10
+egg_group_1 = 5
+egg_group_2 = 6
+ability_1 = 5
+item_rare = 451
+height_dm = 6
+weight_hg = 130
+body_color = 7
+level_moves = Array[ExtResource("3_my1jo")]([SubResource("Resource_m2rmr"), SubResource("Resource_hobl2"), SubResource("Resource_b06si"), SubResource("Resource_odk7u"), SubResource("Resource_ffwij"), SubResource("Resource_6jhmd"), SubResource("Resource_okki4"), SubResource("Resource_4do43"), SubResource("Resource_ffec8"), SubResource("Resource_7k4u6"), SubResource("Resource_3plu4"), SubResource("Resource_ck5e5"), SubResource("Resource_6tack"), SubResource("Resource_wlhvr")])
+egg_moves = Array[int]([179, 217, 227, 41, 273, 252, 321, 175, 574])
+form_species = Array[int]([777, 1486])

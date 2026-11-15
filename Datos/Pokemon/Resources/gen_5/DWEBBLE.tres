@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d0v0cxh63li01"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_sgb4o"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wxa65"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_q7omc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kbkck"]
+
+[sub_resource type="Resource" id="Resource_n8oyq"]
+script = ExtResource("1_sgb4o")
+method = "LEVEL"
+param = "34"
+target = 558
+
+[sub_resource type="Resource" id="Resource_533ln"]
+script = ExtResource("3_q7omc")
+move = 210
+
+[sub_resource type="Resource" id="Resource_p60u2"]
+script = ExtResource("3_q7omc")
+move = 28
+
+[sub_resource type="Resource" id="Resource_2pljx"]
+script = ExtResource("3_q7omc")
+level = 4
+move = 110
+
+[sub_resource type="Resource" id="Resource_b7fti"]
+script = ExtResource("3_q7omc")
+level = 8
+move = 479
+
+[sub_resource type="Resource" id="Resource_pll22"]
+script = ExtResource("3_q7omc")
+level = 12
+move = 450
+
+[sub_resource type="Resource" id="Resource_o2tjj"]
+script = ExtResource("3_q7omc")
+level = 16
+move = 175
+
+[sub_resource type="Resource" id="Resource_6732p"]
+script = ExtResource("3_q7omc")
+level = 20
+move = 163
+
+[sub_resource type="Resource" id="Resource_fnpv3"]
+script = ExtResource("3_q7omc")
+level = 24
+move = 157
+
+[sub_resource type="Resource" id="Resource_qtcbv"]
+script = ExtResource("3_q7omc")
+level = 28
+move = 446
+
+[sub_resource type="Resource" id="Resource_15fci"]
+script = ExtResource("3_q7omc")
+level = 32
+move = 350
+
+[sub_resource type="Resource" id="Resource_krq7d"]
+script = ExtResource("3_q7omc")
+level = 36
+move = 404
+
+[sub_resource type="Resource" id="Resource_llmlh"]
+script = ExtResource("3_q7omc")
+level = 40
+move = 397
+
+[sub_resource type="Resource" id="Resource_grphr"]
+script = ExtResource("3_q7omc")
+level = 44
+move = 504
+
+[sub_resource type="Resource" id="Resource_3gqa6"]
+script = ExtResource("3_q7omc")
+level = 48
+move = 439
+
+[resource]
+script = ExtResource("4_kbkck")
+id = 557
+display_name = "Dwebble"
+category = "Rock Inn"
+national_dex = 557
+pokedex = "It makes a hole in a stone of a suitable
+size. If that rock breaks, the Pokémon
+remains agitated until it locates
+a replacement."
+type_1 = 7
+type_2 = 6
+base_hp = 50
+base_atk = 65
+base_def = 85
+base_spa = 35
+base_spd = 35
+base_spe = 55
+ev_def = 1
+catch_rate = 190
+base_exp = 65
+egg_group_1 = 3
+egg_group_2 = 10
+ability_1 = 5
+ability_2 = 75
+ability_hidden = 133
+item_rare = 437
+height_dm = 3
+weight_hg = 145
+level_moves = Array[ExtResource("3_q7omc")]([SubResource("Resource_533ln"), SubResource("Resource_p60u2"), SubResource("Resource_2pljx"), SubResource("Resource_b7fti"), SubResource("Resource_pll22"), SubResource("Resource_o2tjj"), SubResource("Resource_6732p"), SubResource("Resource_fnpv3"), SubResource("Resource_qtcbv"), SubResource("Resource_15fci"), SubResource("Resource_krq7d"), SubResource("Resource_llmlh"), SubResource("Resource_grphr"), SubResource("Resource_3gqa6")])
+egg_moves = Array[int]([203, 334, 400, 328, 68, 174, 191, 335, 469, 563])
+evolutions = Array[ExtResource("1_sgb4o")]([SubResource("Resource_n8oyq")])

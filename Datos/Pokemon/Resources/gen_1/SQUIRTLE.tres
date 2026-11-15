@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8ic4gh70pqht"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jtttk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vimcv"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0g7vj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7fanq"]
+
+[sub_resource type="Resource" id="Resource_450ws"]
+script = ExtResource("1_jtttk")
+method = "LEVEL"
+param = "16"
+target = 8
+
+[sub_resource type="Resource" id="Resource_d5ch3"]
+script = ExtResource("3_0g7vj")
+move = 33
+
+[sub_resource type="Resource" id="Resource_0mm4c"]
+script = ExtResource("3_0g7vj")
+move = 39
+
+[sub_resource type="Resource" id="Resource_6htdw"]
+script = ExtResource("3_0g7vj")
+level = 3
+move = 55
+
+[sub_resource type="Resource" id="Resource_wce8i"]
+script = ExtResource("3_0g7vj")
+level = 6
+move = 110
+
+[sub_resource type="Resource" id="Resource_hx466"]
+script = ExtResource("3_0g7vj")
+level = 9
+move = 229
+
+[sub_resource type="Resource" id="Resource_us74u"]
+script = ExtResource("3_0g7vj")
+level = 12
+move = 44
+
+[sub_resource type="Resource" id="Resource_cflav"]
+script = ExtResource("3_0g7vj")
+level = 15
+move = 352
+
+[sub_resource type="Resource" id="Resource_gr0er"]
+script = ExtResource("3_0g7vj")
+level = 18
+move = 182
+
+[sub_resource type="Resource" id="Resource_3ro6f"]
+script = ExtResource("3_0g7vj")
+level = 21
+move = 240
+
+[sub_resource type="Resource" id="Resource_kvmoh"]
+script = ExtResource("3_0g7vj")
+level = 24
+move = 401
+
+[sub_resource type="Resource" id="Resource_dbw1m"]
+script = ExtResource("3_0g7vj")
+level = 27
+move = 504
+
+[sub_resource type="Resource" id="Resource_5t14q"]
+script = ExtResource("3_0g7vj")
+level = 30
+move = 334
+
+[sub_resource type="Resource" id="Resource_m5x2s"]
+script = ExtResource("3_0g7vj")
+level = 33
+move = 56
+
+[sub_resource type="Resource" id="Resource_ynkcu"]
+script = ExtResource("3_0g7vj")
+level = 36
+move = 762
+
+[resource]
+script = ExtResource("4_7fanq")
+id = 7
+display_name = "Squirtle"
+category = "Tiny Turtle"
+national_dex = 7
+pokedex = "Its shell is not just for protection.
+Its rounded shape and the grooves on its
+surface minimize resistance in water,
+enabling Squirtle to swim at high speeds."
+type_1 = 12
+base_hp = 44
+base_atk = 48
+base_def = 65
+base_spa = 50
+base_spd = 64
+base_spe = 43
+ev_def = 1
+base_exp = 63
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 67
+ability_hidden = 44
+height_dm = 5
+weight_hg = 90
+body_color = 1
+level_moves = Array[ExtResource("3_0g7vj")]([SubResource("Resource_d5ch3"), SubResource("Resource_0mm4c"), SubResource("Resource_6htdw"), SubResource("Resource_wce8i"), SubResource("Resource_hx466"), SubResource("Resource_us74u"), SubResource("Resource_cflav"), SubResource("Resource_gr0er"), SubResource("Resource_3ro6f"), SubResource("Resource_kvmoh"), SubResource("Resource_dbw1m"), SubResource("Resource_5t14q"), SubResource("Resource_m5x2s"), SubResource("Resource_ynkcu")])
+egg_moves = Array[int]([243, 114, 54, 193, 175, 287, 300, 281, 330, 252, 392, 453, 323, 362, 406, 396])
+evolutions = Array[ExtResource("1_jtttk")]([SubResource("Resource_450ws")])

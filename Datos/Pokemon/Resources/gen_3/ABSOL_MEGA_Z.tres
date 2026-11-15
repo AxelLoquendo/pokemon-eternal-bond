@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://tiwhk5qt37pc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ofibt"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jdneu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dpein"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_54l2a"]
+
+[sub_resource type="Resource" id="Resource_ptm1w"]
+script = ExtResource("3_dpein")
+move = 98
+
+[sub_resource type="Resource" id="Resource_74ssf"]
+script = ExtResource("3_dpein")
+move = 43
+
+[sub_resource type="Resource" id="Resource_2tq2u"]
+script = ExtResource("3_dpein")
+level = 5
+move = 104
+
+[sub_resource type="Resource" id="Resource_vegq4"]
+script = ExtResource("3_dpein")
+level = 10
+move = 282
+
+[sub_resource type="Resource" id="Resource_bvvox"]
+script = ExtResource("3_dpein")
+level = 15
+move = 197
+
+[sub_resource type="Resource" id="Resource_1kx14"]
+script = ExtResource("3_dpein")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_eu3gy"]
+script = ExtResource("3_dpein")
+level = 25
+move = 163
+
+[sub_resource type="Resource" id="Resource_ddp16"]
+script = ExtResource("3_dpein")
+level = 30
+move = 400
+
+[sub_resource type="Resource" id="Resource_ctmkf"]
+script = ExtResource("3_dpein")
+level = 35
+move = 116
+
+[sub_resource type="Resource" id="Resource_bly4a"]
+script = ExtResource("3_dpein")
+level = 40
+move = 389
+
+[sub_resource type="Resource" id="Resource_5j1h1"]
+script = ExtResource("3_dpein")
+level = 45
+move = 14
+
+[sub_resource type="Resource" id="Resource_o1vno"]
+script = ExtResource("3_dpein")
+level = 50
+move = 248
+
+[sub_resource type="Resource" id="Resource_cmloq"]
+script = ExtResource("3_dpein")
+level = 55
+move = 195
+
+[resource]
+script = ExtResource("4_54l2a")
+id = 1556
+display_name = "Absol"
+category = "Disaster"
+national_dex = 359
+pokedex = "Using fur that it has made into sharp,
+clawlike shapes, it cuts down foes with
+a single blow. This is an act of kindness
+to keep them from suffering."
+type_1 = 18
+type_2 = 8
+base_hp = 65
+base_atk = 154
+base_def = 60
+base_spa = 75
+base_spd = 60
+base_spe = 151
+ev_atk = 2
+catch_rate = 30
+base_exp = 198
+base_friendship = 35
+growth_rate = 3
+egg_cycles = 25
+egg_group_1 = 5
+ability_1 = 292
+ability_2 = 292
+ability_hidden = 292
+height_dm = 12
+weight_hg = 490
+body_color = 4
+no_flip = true
+level_moves = Array[ExtResource("3_dpein")]([SubResource("Resource_ptm1w"), SubResource("Resource_74ssf"), SubResource("Resource_2tq2u"), SubResource("Resource_vegq4"), SubResource("Resource_bvvox"), SubResource("Resource_1kx14"), SubResource("Resource_eu3gy"), SubResource("Resource_ddp16"), SubResource("Resource_ctmkf"), SubResource("Resource_bly4a"), SubResource("Resource_5j1h1"), SubResource("Resource_o1vno"), SubResource("Resource_cmloq")])
+egg_moves = Array[int]([226, 185, 38, 277, 174, 212, 428, 386, 389, 372, 382, 224, 506, 195, 583])
+form_species = Array[int]([359, 940, 1556])

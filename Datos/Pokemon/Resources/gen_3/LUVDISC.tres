@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://lon8e3g5t5qt"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_j372l"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lx8iu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_o5u1x"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1ewh4"]
+
+[sub_resource type="Resource" id="Resource_sl00l"]
+script = ExtResource("3_o5u1x")
+move = 33
+
+[sub_resource type="Resource" id="Resource_yd13b"]
+script = ExtResource("3_o5u1x")
+move = 204
+
+[sub_resource type="Resource" id="Resource_22m51"]
+script = ExtResource("3_o5u1x")
+level = 4
+move = 55
+
+[sub_resource type="Resource" id="Resource_2qtny"]
+script = ExtResource("3_o5u1x")
+level = 7
+move = 97
+
+[sub_resource type="Resource" id="Resource_dqusa"]
+script = ExtResource("3_o5u1x")
+level = 13
+move = 273
+
+[sub_resource type="Resource" id="Resource_o65l8"]
+script = ExtResource("3_o5u1x")
+level = 17
+move = 352
+
+[sub_resource type="Resource" id="Resource_hpqlm"]
+script = ExtResource("3_o5u1x")
+level = 20
+move = 213
+
+[sub_resource type="Resource" id="Resource_mtvs7"]
+script = ExtResource("3_o5u1x")
+level = 22
+move = 577
+
+[sub_resource type="Resource" id="Resource_sbg0w"]
+script = ExtResource("3_o5u1x")
+level = 26
+move = 175
+
+[sub_resource type="Resource" id="Resource_15d3f"]
+script = ExtResource("3_o5u1x")
+level = 31
+move = 186
+
+[sub_resource type="Resource" id="Resource_o73g1"]
+script = ExtResource("3_o5u1x")
+level = 34
+move = 36
+
+[sub_resource type="Resource" id="Resource_p31ak"]
+script = ExtResource("3_o5u1x")
+level = 37
+move = 608
+
+[sub_resource type="Resource" id="Resource_spkoi"]
+script = ExtResource("3_o5u1x")
+level = 40
+move = 392
+
+[sub_resource type="Resource" id="Resource_ahe0y"]
+script = ExtResource("3_o5u1x")
+level = 42
+move = 487
+
+[sub_resource type="Resource" id="Resource_3gwqg"]
+script = ExtResource("3_o5u1x")
+level = 46
+move = 56
+
+[sub_resource type="Resource" id="Resource_wa10f"]
+script = ExtResource("3_o5u1x")
+level = 49
+move = 219
+
+[resource]
+script = ExtResource("4_1ewh4")
+id = 370
+display_name = "Luvdisc"
+category = "Rendezvous"
+national_dex = 370
+pokedex = "Luvdisc make the branches of Corsola
+their nests. There is a custom from long
+ago of giving a Luvdisc as a gift to
+express one's feelings of love."
+type_1 = 12
+base_hp = 43
+base_atk = 30
+base_def = 55
+base_spa = 40
+base_spd = 65
+base_spe = 97
+ev_spe = 1
+catch_rate = 225
+base_exp = 116
+gender_ratio = 191
+growth_rate = 4
+egg_group_1 = 12
+ability_1 = 33
+ability_hidden = 93
+item_common = 152
+height_dm = 6
+weight_hg = 87
+body_color = 9
+level_moves = Array[ExtResource("3_o5u1x")]([SubResource("Resource_sl00l"), SubResource("Resource_yd13b"), SubResource("Resource_22m51"), SubResource("Resource_2qtny"), SubResource("Resource_dqusa"), SubResource("Resource_o65l8"), SubResource("Resource_hpqlm"), SubResource("Resource_mtvs7"), SubResource("Resource_sbg0w"), SubResource("Resource_15d3f"), SubResource("Resource_o73g1"), SubResource("Resource_p31ak"), SubResource("Resource_spkoi"), SubResource("Resource_ahe0y"), SubResource("Resource_3gwqg"), SubResource("Resource_wa10f")])
+egg_moves = Array[int]([150, 48, 346, 300, 445, 392, 453, 505, 362, 494])

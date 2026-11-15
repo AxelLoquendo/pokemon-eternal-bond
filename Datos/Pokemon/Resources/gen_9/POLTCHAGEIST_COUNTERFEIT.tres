@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://duyravssaora2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_apdr0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vklbh"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dg4u0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wyeur"]
+
+[sub_resource type="Resource" id="Resource_mg6xf"]
+script = ExtResource("1_apdr0")
+method = "ITEM"
+param = "ITEM_UNREMARKABLE_TEACUP"
+target = 1411
+
+[sub_resource type="Resource" id="Resource_lc2hw"]
+script = ExtResource("3_dg4u0")
+move = 78
+
+[sub_resource type="Resource" id="Resource_lt360"]
+script = ExtResource("3_dg4u0")
+move = 110
+
+[sub_resource type="Resource" id="Resource_h7t4b"]
+script = ExtResource("3_dg4u0")
+move = 310
+
+[sub_resource type="Resource" id="Resource_xi4n8"]
+script = ExtResource("3_dg4u0")
+level = 6
+move = 71
+
+[sub_resource type="Resource" id="Resource_gm14f"]
+script = ExtResource("3_dg4u0")
+level = 12
+move = 719
+
+[sub_resource type="Resource" id="Resource_ax2ex"]
+script = ExtResource("3_dg4u0")
+level = 18
+move = 492
+
+[sub_resource type="Resource" id="Resource_ngblo"]
+script = ExtResource("3_dg4u0")
+level = 24
+move = 72
+
+[sub_resource type="Resource" id="Resource_ufskk"]
+script = ExtResource("3_dg4u0")
+level = 30
+move = 506
+
+[sub_resource type="Resource" id="Resource_n47c0"]
+script = ExtResource("3_dg4u0")
+level = 36
+move = 476
+
+[sub_resource type="Resource" id="Resource_qqbvt"]
+script = ExtResource("3_dg4u0")
+level = 42
+move = 202
+
+[sub_resource type="Resource" id="Resource_ciphw"]
+script = ExtResource("3_dg4u0")
+level = 48
+move = 247
+
+[sub_resource type="Resource" id="Resource_uckvm"]
+script = ExtResource("3_dg4u0")
+level = 54
+move = 262
+
+[sub_resource type="Resource" id="Resource_6ldpq"]
+script = ExtResource("3_dg4u0")
+level = 60
+move = 437
+
+[resource]
+script = ExtResource("4_wyeur")
+id = 1409
+display_name = "Poltchageist"
+category = "Matcha"
+national_dex = 1012
+pokedex = "Supposedly, the regrets of a tea
+ceremony master who died before
+perfecting his craft lingered in some
+matcha and became a Pokémon."
+type_1 = 13
+type_2 = 8
+base_hp = 40
+base_atk = 45
+base_def = 45
+base_spa = 74
+base_spd = 54
+base_spe = 50
+ev_spa = 1
+catch_rate = 120
+base_exp = 62
+gender_ratio = 255
+egg_group_1 = 10
+egg_group_2 = 11
+ability_1 = 299
+ability_hidden = 85
+height_dm = 1
+weight_hg = 11
+body_color = 3
+level_moves = Array[ExtResource("3_dg4u0")]([SubResource("Resource_lc2hw"), SubResource("Resource_lt360"), SubResource("Resource_h7t4b"), SubResource("Resource_xi4n8"), SubResource("Resource_gm14f"), SubResource("Resource_ax2ex"), SubResource("Resource_ngblo"), SubResource("Resource_ufskk"), SubResource("Resource_n47c0"), SubResource("Resource_qqbvt"), SubResource("Resource_ciphw"), SubResource("Resource_uckvm"), SubResource("Resource_6ldpq")])
+evolutions = Array[ExtResource("1_apdr0")]([SubResource("Resource_mg6xf")])
+form_species = Array[int]([1409, 1410])

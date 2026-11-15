@@ -1,0 +1,143 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d06flnh83ax5f"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_uaikq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rn2hq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ojv02"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ujd60"]
+
+[sub_resource type="Resource" id="Resource_wqu2h"]
+script = ExtResource("1_uaikq")
+method = "ITEM"
+param = "ITEM_MOON_STONE"
+target = 36
+
+[sub_resource type="Resource" id="Resource_4fhej"]
+script = ExtResource("3_ojv02")
+move = 1
+
+[sub_resource type="Resource" id="Resource_2s0lx"]
+script = ExtResource("3_ojv02")
+move = 45
+
+[sub_resource type="Resource" id="Resource_e4pe2"]
+script = ExtResource("3_ojv02")
+move = 47
+
+[sub_resource type="Resource" id="Resource_xk3r0"]
+script = ExtResource("3_ojv02")
+move = 111
+
+[sub_resource type="Resource" id="Resource_wjc2g"]
+script = ExtResource("3_ojv02")
+move = 574
+
+[sub_resource type="Resource" id="Resource_rbi8e"]
+script = ExtResource("3_ojv02")
+move = 150
+
+[sub_resource type="Resource" id="Resource_jy43b"]
+script = ExtResource("3_ojv02")
+move = 186
+
+[sub_resource type="Resource" id="Resource_lbbam"]
+script = ExtResource("3_ojv02")
+move = 204
+
+[sub_resource type="Resource" id="Resource_q540e"]
+script = ExtResource("3_ojv02")
+move = 383
+
+[sub_resource type="Resource" id="Resource_wx0av"]
+script = ExtResource("3_ojv02")
+level = 4
+move = 500
+
+[sub_resource type="Resource" id="Resource_6ltt1"]
+script = ExtResource("3_ojv02")
+level = 8
+move = 227
+
+[sub_resource type="Resource" id="Resource_3ysv6"]
+script = ExtResource("3_ojv02")
+level = 12
+move = 495
+
+[sub_resource type="Resource" id="Resource_pho0y"]
+script = ExtResource("3_ojv02")
+level = 16
+move = 719
+
+[sub_resource type="Resource" id="Resource_mo5w2"]
+script = ExtResource("3_ojv02")
+level = 20
+move = 118
+
+[sub_resource type="Resource" id="Resource_n4lno"]
+script = ExtResource("3_ojv02")
+level = 24
+move = 236
+
+[sub_resource type="Resource" id="Resource_4en1a"]
+script = ExtResource("3_ojv02")
+level = 28
+move = 356
+
+[sub_resource type="Resource" id="Resource_emfwx"]
+script = ExtResource("3_ojv02")
+level = 32
+move = 309
+
+[sub_resource type="Resource" id="Resource_b4jgt"]
+script = ExtResource("3_ojv02")
+level = 36
+move = 266
+
+[sub_resource type="Resource" id="Resource_vctvr"]
+script = ExtResource("3_ojv02")
+level = 40
+move = 322
+
+[sub_resource type="Resource" id="Resource_4hnue"]
+script = ExtResource("3_ojv02")
+level = 44
+move = 585
+
+[sub_resource type="Resource" id="Resource_epcfg"]
+script = ExtResource("3_ojv02")
+level = 48
+move = 361
+
+[resource]
+script = ExtResource("4_ujd60")
+id = 35
+display_name = "Clefairy"
+category = "Fairy"
+national_dex = 35
+pokedex = "On every night of a full moon, they come
+out to play. When dawn arrives, the tired
+Clefairy go to sleep nestled up against
+each other in deep and quiet mountains."
+type_1 = 1
+base_hp = 70
+base_atk = 45
+base_def = 48
+base_spa = 60
+base_spd = 65
+base_spe = 35
+ev_hp = 2
+catch_rate = 150
+base_exp = 113
+base_friendship = 140
+gender_ratio = 191
+growth_rate = 4
+egg_cycles = 10
+egg_group_1 = 6
+ability_1 = 56
+ability_hidden = 132
+item_rare = 217
+height_dm = 6
+weight_hg = 75
+body_color = 9
+no_flip = true
+level_moves = Array[ExtResource("3_ojv02")]([SubResource("Resource_4fhej"), SubResource("Resource_2s0lx"), SubResource("Resource_e4pe2"), SubResource("Resource_xk3r0"), SubResource("Resource_wjc2g"), SubResource("Resource_rbi8e"), SubResource("Resource_jy43b"), SubResource("Resource_lbbam"), SubResource("Resource_q540e"), SubResource("Resource_wx0av"), SubResource("Resource_6ltt1"), SubResource("Resource_3ysv6"), SubResource("Resource_pho0y"), SubResource("Resource_mo5w2"), SubResource("Resource_n4lno"), SubResource("Resource_4en1a"), SubResource("Resource_emfwx"), SubResource("Resource_b4jgt"), SubResource("Resource_vctvr"), SubResource("Resource_4hnue"), SubResource("Resource_epcfg")])
+evolutions = Array[ExtResource("1_uaikq")]([SubResource("Resource_wqu2h")])

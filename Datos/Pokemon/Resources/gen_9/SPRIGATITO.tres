@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://xqq68rgaq0m"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_pc0j0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_dvsw1"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0feow"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4t21u"]
+
+[sub_resource type="Resource" id="Resource_o8cjt"]
+script = ExtResource("1_pc0j0")
+method = "LEVEL"
+param = "16"
+target = 1290
+
+[sub_resource type="Resource" id="Resource_fn5xx"]
+script = ExtResource("3_0feow")
+move = 10
+
+[sub_resource type="Resource" id="Resource_nvwfl"]
+script = ExtResource("3_0feow")
+move = 39
+
+[sub_resource type="Resource" id="Resource_p5824"]
+script = ExtResource("3_0feow")
+move = 633
+
+[sub_resource type="Resource" id="Resource_f6hwg"]
+script = ExtResource("3_0feow")
+level = 7
+move = 44
+
+[sub_resource type="Resource" id="Resource_nb33q"]
+script = ExtResource("3_0feow")
+level = 10
+move = 468
+
+[sub_resource type="Resource" id="Resource_u7xqr"]
+script = ExtResource("3_0feow")
+level = 13
+move = 345
+
+[sub_resource type="Resource" id="Resource_ffj6k"]
+script = ExtResource("3_0feow")
+level = 15
+move = 98
+
+[sub_resource type="Resource" id="Resource_8qb5y"]
+script = ExtResource("3_0feow")
+level = 17
+move = 402
+
+[sub_resource type="Resource" id="Resource_wnpk6"]
+script = ExtResource("3_0feow")
+level = 21
+move = 369
+
+[sub_resource type="Resource" id="Resource_1ohml"]
+script = ExtResource("3_0feow")
+level = 25
+move = 388
+
+[sub_resource type="Resource" id="Resource_rw1h6"]
+script = ExtResource("3_0feow")
+level = 28
+move = 163
+
+[sub_resource type="Resource" id="Resource_rhrqy"]
+script = ExtResource("3_0feow")
+level = 32
+move = 412
+
+[sub_resource type="Resource" id="Resource_44lga"]
+script = ExtResource("3_0feow")
+level = 36
+move = 583
+
+[resource]
+script = ExtResource("4_4t21u")
+id = 1289
+display_name = "Sprigatito"
+category = "Grass Cat"
+national_dex = 906
+pokedex = "The sweet scent its body gives off
+mesmerizes those around it. The
+scent grows stronger when this
+Pokémon is in the sun."
+type_1 = 13
+base_hp = 40
+base_atk = 61
+base_def = 54
+base_spa = 45
+base_spd = 45
+base_spe = 65
+ev_spe = 1
+base_exp = 62
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+egg_group_2 = 7
+ability_1 = 65
+ability_hidden = 168
+height_dm = 4
+weight_hg = 41
+body_color = 3
+level_moves = Array[ExtResource("3_0feow")]([SubResource("Resource_fn5xx"), SubResource("Resource_nvwfl"), SubResource("Resource_p5824"), SubResource("Resource_f6hwg"), SubResource("Resource_nb33q"), SubResource("Resource_u7xqr"), SubResource("Resource_ffj6k"), SubResource("Resource_8qb5y"), SubResource("Resource_wnpk6"), SubResource("Resource_1ohml"), SubResource("Resource_rw1h6"), SubResource("Resource_rhrqy"), SubResource("Resource_44lga")])
+egg_moves = Array[int]([502, 383, 73, 572, 389])
+evolutions = Array[ExtResource("1_pc0j0")]([SubResource("Resource_o8cjt")])

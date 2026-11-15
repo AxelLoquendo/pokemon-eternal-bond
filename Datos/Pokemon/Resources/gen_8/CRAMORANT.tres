@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bjqtwbwy7hf2u"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xbcqw"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_t8d1d"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8x3ou"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_j45ag"]
+
+[sub_resource type="Resource" id="Resource_seloi"]
+script = ExtResource("3_8x3ou")
+move = 562
+
+[sub_resource type="Resource" id="Resource_61mlk"]
+script = ExtResource("3_8x3ou")
+move = 64
+
+[sub_resource type="Resource" id="Resource_5p3io"]
+script = ExtResource("3_8x3ou")
+move = 254
+
+[sub_resource type="Resource" id="Resource_n2n8v"]
+script = ExtResource("3_8x3ou")
+move = 255
+
+[sub_resource type="Resource" id="Resource_t3b3n"]
+script = ExtResource("3_8x3ou")
+move = 256
+
+[sub_resource type="Resource" id="Resource_uyjf6"]
+script = ExtResource("3_8x3ou")
+level = 7
+move = 55
+
+[sub_resource type="Resource" id="Resource_dn4ol"]
+script = ExtResource("3_8x3ou")
+level = 14
+move = 31
+
+[sub_resource type="Resource" id="Resource_bjxqa"]
+script = ExtResource("3_8x3ou")
+level = 21
+move = 365
+
+[sub_resource type="Resource" id="Resource_02plb"]
+script = ExtResource("3_8x3ou")
+level = 28
+move = 291
+
+[sub_resource type="Resource" id="Resource_el0lw"]
+script = ExtResource("3_8x3ou")
+level = 35
+move = 65
+
+[sub_resource type="Resource" id="Resource_dran2"]
+script = ExtResource("3_8x3ou")
+level = 42
+move = 133
+
+[sub_resource type="Resource" id="Resource_yt5xs"]
+script = ExtResource("3_8x3ou")
+level = 49
+move = 37
+
+[sub_resource type="Resource" id="Resource_xx3tq"]
+script = ExtResource("3_8x3ou")
+level = 56
+move = 56
+
+[resource]
+script = ExtResource("4_j45ag")
+id = 845
+display_name = "Cramorant"
+category = "Gulp"
+national_dex = 845
+pokedex = "It's so strong that it can knock out some
+opponents in a single hit, but it also may
+forget what it's battling midfight."
+type_1 = 3
+type_2 = 12
+base_hp = 70
+base_atk = 85
+base_def = 55
+base_spa = 85
+base_spd = 95
+base_spe = 85
+ev_spd = 2
+base_exp = 166
+egg_group_1 = 2
+egg_group_2 = 4
+ability_1 = 241
+height_dm = 8
+weight_hg = 180
+body_color = 1
+level_moves = Array[ExtResource("3_8x3ou")]([SubResource("Resource_seloi"), SubResource("Resource_61mlk"), SubResource("Resource_5p3io"), SubResource("Resource_n2n8v"), SubResource("Resource_t3b3n"), SubResource("Resource_uyjf6"), SubResource("Resource_dn4ol"), SubResource("Resource_bjxqa"), SubResource("Resource_02plb"), SubResource("Resource_el0lw"), SubResource("Resource_dran2"), SubResource("Resource_yt5xs"), SubResource("Resource_xx3tq")])
+egg_moves = Array[int]([432, 332, 297, 392, 355])
+form_species = Array[int]([845, 1211, 1212])

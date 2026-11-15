@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://duko3cnf8vch7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_t1udw"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8haxc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_506r7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_402ho"]
+
+[sub_resource type="Resource" id="Resource_28c2m"]
+script = ExtResource("3_506r7")
+move = 500
+
+[sub_resource type="Resource" id="Resource_ygcmh"]
+script = ExtResource("3_506r7")
+move = 589
+
+[sub_resource type="Resource" id="Resource_p6grb"]
+script = ExtResource("3_506r7")
+level = 5
+move = 226
+
+[sub_resource type="Resource" id="Resource_4vh83"]
+script = ExtResource("3_506r7")
+level = 10
+move = 574
+
+[sub_resource type="Resource" id="Resource_axluu"]
+script = ExtResource("3_506r7")
+level = 15
+move = 60
+
+[sub_resource type="Resource" id="Resource_towsm"]
+script = ExtResource("3_506r7")
+level = 20
+move = 270
+
+[sub_resource type="Resource" id="Resource_qvvjg"]
+script = ExtResource("3_506r7")
+level = 25
+move = 266
+
+[sub_resource type="Resource" id="Resource_jpf4b"]
+script = ExtResource("3_506r7")
+level = 30
+move = 361
+
+[sub_resource type="Resource" id="Resource_560kl"]
+script = ExtResource("3_506r7")
+level = 35
+move = 94
+
+[sub_resource type="Resource" id="Resource_lmweb"]
+script = ExtResource("3_506r7")
+level = 40
+move = 347
+
+[sub_resource type="Resource" id="Resource_pycyx"]
+script = ExtResource("3_506r7")
+level = 45
+move = 470
+
+[sub_resource type="Resource" id="Resource_xu4rk"]
+script = ExtResource("3_506r7")
+level = 50
+move = 641
+
+[resource]
+script = ExtResource("4_402ho")
+id = 1225
+display_name = "Indeedee"
+category = "Emotion"
+national_dex = 876
+pokedex = "They diligently serve people and
+Pokémon so they can gather feelings
+of gratitude. The females are
+particularly good at babysitting."
+type_1 = 15
+type_2 = 1
+base_hp = 70
+base_atk = 55
+base_def = 65
+base_spa = 95
+base_spd = 105
+base_spe = 85
+ev_spd = 2
+catch_rate = 30
+base_exp = 166
+base_friendship = 140
+gender_ratio = 254
+growth_rate = 4
+egg_cycles = 40
+egg_group_1 = 6
+ability_1 = 20
+ability_2 = 28
+ability_hidden = 227
+height_dm = 9
+weight_hg = 280
+body_color = 6
+level_moves = Array[ExtResource("3_506r7")]([SubResource("Resource_28c2m"), SubResource("Resource_ygcmh"), SubResource("Resource_p6grb"), SubResource("Resource_4vh83"), SubResource("Resource_axluu"), SubResource("Resource_towsm"), SubResource("Resource_qvvjg"), SubResource("Resource_jpf4b"), SubResource("Resource_560kl"), SubResource("Resource_lmweb"), SubResource("Resource_pycyx"), SubResource("Resource_xu4rk")])
+egg_moves = Array[int]([244, 252, 375, 505])
+form_species = Array[int]([876, 1225])

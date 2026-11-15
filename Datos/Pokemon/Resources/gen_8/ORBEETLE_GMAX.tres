@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ehrbgh3u5geb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_5px5x"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jhu6d"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_j6b71"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3xvqa"]
+
+[sub_resource type="Resource" id="Resource_c03fd"]
+script = ExtResource("3_j6b71")
+move = 115
+
+[sub_resource type="Resource" id="Resource_4g1m6"]
+script = ExtResource("3_j6b71")
+move = 113
+
+[sub_resource type="Resource" id="Resource_domew"]
+script = ExtResource("3_j6b71")
+move = 93
+
+[sub_resource type="Resource" id="Resource_maskj"]
+script = ExtResource("3_j6b71")
+move = 522
+
+[sub_resource type="Resource" id="Resource_hlpd2"]
+script = ExtResource("3_j6b71")
+level = 4
+move = 109
+
+[sub_resource type="Resource" id="Resource_7gyrb"]
+script = ExtResource("3_j6b71")
+level = 8
+move = 277
+
+[sub_resource type="Resource" id="Resource_e750m"]
+script = ExtResource("3_j6b71")
+level = 12
+move = 97
+
+[sub_resource type="Resource" id="Resource_fncaf"]
+script = ExtResource("3_j6b71")
+level = 16
+move = 60
+
+[sub_resource type="Resource" id="Resource_07v3b"]
+script = ExtResource("3_j6b71")
+level = 20
+move = 95
+
+[sub_resource type="Resource" id="Resource_d5hwy"]
+script = ExtResource("3_j6b71")
+level = 24
+move = 502
+
+[sub_resource type="Resource" id="Resource_3dfqe"]
+script = ExtResource("3_j6b71")
+level = 28
+move = 405
+
+[sub_resource type="Resource" id="Resource_ke8dw"]
+script = ExtResource("3_j6b71")
+level = 32
+move = 243
+
+[sub_resource type="Resource" id="Resource_1ttdv"]
+script = ExtResource("3_j6b71")
+level = 36
+move = 94
+
+[sub_resource type="Resource" id="Resource_csulm"]
+script = ExtResource("3_j6b71")
+level = 40
+move = 495
+
+[sub_resource type="Resource" id="Resource_wca4p"]
+script = ExtResource("3_j6b71")
+level = 44
+move = 347
+
+[sub_resource type="Resource" id="Resource_f78qx"]
+script = ExtResource("3_j6b71")
+level = 48
+move = 641
+
+[resource]
+script = ExtResource("4_3xvqa")
+id = 1507
+display_name = "Orbeetle"
+category = "Seven Spot"
+national_dex = 826
+pokedex = "Its brain has grown to a gargantuan
+size, as has the rest of its body.
+This Pokémon's intellect and
+psychic abilities are overpowering."
+type_1 = 7
+type_2 = 15
+base_hp = 60
+base_atk = 45
+base_def = 110
+base_spa = 80
+base_spd = 120
+base_spe = 90
+ev_spd = 3
+base_exp = 253
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 68
+ability_2 = 119
+ability_hidden = 140
+item_rare = 452
+height_dm = 140
+level_moves = Array[ExtResource("3_j6b71")]([SubResource("Resource_c03fd"), SubResource("Resource_4g1m6"), SubResource("Resource_domew"), SubResource("Resource_maskj"), SubResource("Resource_hlpd2"), SubResource("Resource_7gyrb"), SubResource("Resource_e750m"), SubResource("Resource_fncaf"), SubResource("Resource_07v3b"), SubResource("Resource_d5hwy"), SubResource("Resource_3dfqe"), SubResource("Resource_ke8dw"), SubResource("Resource_1ttdv"), SubResource("Resource_csulm"), SubResource("Resource_wca4p"), SubResource("Resource_f78qx")])
+form_species = Array[int]([826, 1507])

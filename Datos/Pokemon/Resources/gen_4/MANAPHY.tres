@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b3ot6eyurwf65"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ycv0i"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jwbeo"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ktlfc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_vq37y"]
+
+[sub_resource type="Resource" id="Resource_rovle"]
+script = ExtResource("3_ktlfc")
+move = 55
+
+[sub_resource type="Resource" id="Resource_c3ptf"]
+script = ExtResource("3_ktlfc")
+move = 294
+
+[sub_resource type="Resource" id="Resource_4pkxy"]
+script = ExtResource("3_ktlfc")
+move = 391
+
+[sub_resource type="Resource" id="Resource_q8bel"]
+script = ExtResource("3_ktlfc")
+level = 9
+move = 204
+
+[sub_resource type="Resource" id="Resource_a7ddt"]
+script = ExtResource("3_ktlfc")
+level = 16
+move = 48
+
+[sub_resource type="Resource" id="Resource_bx1m7"]
+script = ExtResource("3_ktlfc")
+level = 24
+move = 61
+
+[sub_resource type="Resource" id="Resource_croat"]
+script = ExtResource("3_ktlfc")
+level = 31
+move = 151
+
+[sub_resource type="Resource" id="Resource_ma6y2"]
+script = ExtResource("3_ktlfc")
+level = 39
+move = 250
+
+[sub_resource type="Resource" id="Resource_liwvd"]
+script = ExtResource("3_ktlfc")
+level = 46
+move = 352
+
+[sub_resource type="Resource" id="Resource_b1f41"]
+script = ExtResource("3_ktlfc")
+level = 54
+move = 392
+
+[sub_resource type="Resource" id="Resource_d024l"]
+script = ExtResource("3_ktlfc")
+level = 61
+move = 291
+
+[sub_resource type="Resource" id="Resource_ay6qs"]
+script = ExtResource("3_ktlfc")
+level = 69
+move = 240
+
+[sub_resource type="Resource" id="Resource_5i44a"]
+script = ExtResource("3_ktlfc")
+level = 76
+move = 778
+
+[resource]
+script = ExtResource("4_vq37y")
+id = 490
+display_name = "Manaphy"
+category = "Seafaring"
+national_dex = 490
+pokedex = "Water makes up 80% of its body.
+It starts its life with a wondrous power
+that permits it to bond with any kind
+of Pokémon."
+type_1 = 12
+base_hp = 100
+base_atk = 100
+base_def = 100
+base_spa = 100
+base_spd = 100
+base_spe = 100
+ev_hp = 3
+catch_rate = 3
+base_exp = 215
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 10
+egg_group_1 = 2
+egg_group_2 = 6
+ability_1 = 93
+height_dm = 3
+weight_hg = 14
+body_color = 1
+level_moves = Array[ExtResource("3_ktlfc")]([SubResource("Resource_rovle"), SubResource("Resource_c3ptf"), SubResource("Resource_4pkxy"), SubResource("Resource_q8bel"), SubResource("Resource_a7ddt"), SubResource("Resource_bx1m7"), SubResource("Resource_croat"), SubResource("Resource_ma6y2"), SubResource("Resource_liwvd"), SubResource("Resource_b1f41"), SubResource("Resource_d024l"), SubResource("Resource_ay6qs"), SubResource("Resource_5i44a")])

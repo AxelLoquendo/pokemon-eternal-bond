@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://v648tdq6hs4u"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_eyfr2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vrldg"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fvvxu"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bdn21"]
+
+[sub_resource type="Resource" id="Resource_wp2na"]
+script = ExtResource("1_eyfr2")
+method = "ITEM"
+param = "ITEM_SHINY_STONE"
+target = 573
+
+[sub_resource type="Resource" id="Resource_33ce0"]
+script = ExtResource("3_fvvxu")
+move = 1
+
+[sub_resource type="Resource" id="Resource_p8nfe"]
+script = ExtResource("3_fvvxu")
+move = 608
+
+[sub_resource type="Resource" id="Resource_46p46"]
+script = ExtResource("3_fvvxu")
+level = 4
+move = 270
+
+[sub_resource type="Resource" id="Resource_hc684"]
+script = ExtResource("3_fvvxu")
+level = 8
+move = 497
+
+[sub_resource type="Resource" id="Resource_bno42"]
+script = ExtResource("3_fvvxu")
+level = 12
+move = 47
+
+[sub_resource type="Resource" id="Resource_hd2s8"]
+script = ExtResource("3_fvvxu")
+level = 16
+move = 204
+
+[sub_resource type="Resource" id="Resource_ulkwp"]
+script = ExtResource("3_fvvxu")
+level = 20
+move = 129
+
+[sub_resource type="Resource" id="Resource_hmej8"]
+script = ExtResource("3_fvvxu")
+level = 24
+move = 227
+
+[sub_resource type="Resource" id="Resource_yxrdi"]
+script = ExtResource("3_fvvxu")
+level = 28
+move = 495
+
+[sub_resource type="Resource" id="Resource_ulssm"]
+script = ExtResource("3_fvvxu")
+level = 32
+move = 541
+
+[sub_resource type="Resource" id="Resource_4km87"]
+script = ExtResource("3_fvvxu")
+level = 36
+move = 321
+
+[sub_resource type="Resource" id="Resource_p3dta"]
+script = ExtResource("3_fvvxu")
+level = 40
+move = 21
+
+[sub_resource type="Resource" id="Resource_oegyr"]
+script = ExtResource("3_fvvxu")
+level = 44
+move = 304
+
+[sub_resource type="Resource" id="Resource_b4g6s"]
+script = ExtResource("3_fvvxu")
+level = 48
+move = 387
+
+[resource]
+script = ExtResource("4_bdn21")
+id = 572
+display_name = "Minccino"
+category = "Chinchilla"
+national_dex = 572
+pokedex = "These Pokémon prefer a tidy habitat.
+They greet one another by rubbing each
+other with their tails, which are always
+kept well groomed and clean."
+type_1 = 1
+base_hp = 55
+base_atk = 50
+base_def = 40
+base_spa = 40
+base_spd = 40
+base_spe = 75
+ev_spe = 1
+catch_rate = 255
+base_exp = 60
+gender_ratio = 191
+growth_rate = 4
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 56
+ability_2 = 101
+ability_hidden = 92
+height_dm = 4
+weight_hg = 58
+body_color = 7
+level_moves = Array[ExtResource("3_fvvxu")]([SubResource("Resource_33ce0"), SubResource("Resource_p8nfe"), SubResource("Resource_46p46"), SubResource("Resource_hc684"), SubResource("Resource_bno42"), SubResource("Resource_hd2s8"), SubResource("Resource_ulkwp"), SubResource("Resource_hmej8"), SubResource("Resource_yxrdi"), SubResource("Resource_ulssm"), SubResource("Resource_4km87"), SubResource("Resource_p3dta"), SubResource("Resource_oegyr"), SubResource("Resource_b4g6s")])
+egg_moves = Array[int]([231, 39, 401, 189, 282, 313, 214, 203, 175])
+evolutions = Array[ExtResource("1_eyfr2")]([SubResource("Resource_wp2na")])

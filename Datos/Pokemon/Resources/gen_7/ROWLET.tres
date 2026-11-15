@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://n6bfpus38bu2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ebbl2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_n34ce"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nk7vg"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0mf5o"]
+
+[sub_resource type="Resource" id="Resource_8vkkq"]
+script = ExtResource("1_ebbl2")
+method = "LEVEL"
+param = "17"
+target = 723
+
+[sub_resource type="Resource" id="Resource_r4ws8"]
+script = ExtResource("3_nk7vg")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ew6h8"]
+script = ExtResource("3_nk7vg")
+move = 45
+
+[sub_resource type="Resource" id="Resource_w1qiw"]
+script = ExtResource("3_nk7vg")
+level = 3
+move = 633
+
+[sub_resource type="Resource" id="Resource_luaqk"]
+script = ExtResource("3_nk7vg")
+level = 6
+move = 310
+
+[sub_resource type="Resource" id="Resource_ctm83"]
+script = ExtResource("3_nk7vg")
+level = 9
+move = 64
+
+[sub_resource type="Resource" id="Resource_n7sbc"]
+script = ExtResource("3_nk7vg")
+level = 12
+move = 425
+
+[sub_resource type="Resource" id="Resource_w5ooe"]
+script = ExtResource("3_nk7vg")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_uqo3w"]
+script = ExtResource("3_nk7vg")
+level = 18
+move = 235
+
+[sub_resource type="Resource" id="Resource_p5bgs"]
+script = ExtResource("3_nk7vg")
+level = 21
+move = 365
+
+[sub_resource type="Resource" id="Resource_n0u0d"]
+script = ExtResource("3_nk7vg")
+level = 24
+move = 417
+
+[sub_resource type="Resource" id="Resource_eddau"]
+script = ExtResource("3_nk7vg")
+level = 27
+move = 389
+
+[sub_resource type="Resource" id="Resource_sx64h"]
+script = ExtResource("3_nk7vg")
+level = 30
+move = 348
+
+[sub_resource type="Resource" id="Resource_4v47g"]
+script = ExtResource("3_nk7vg")
+level = 33
+move = 297
+
+[sub_resource type="Resource" id="Resource_m1n51"]
+script = ExtResource("3_nk7vg")
+level = 36
+move = 413
+
+[resource]
+script = ExtResource("4_0mf5o")
+id = 722
+display_name = "Rowlet"
+category = "Grass Quill"
+national_dex = 722
+pokedex = "This wary Pokémon uses photosynthesis
+to store up energy during the day, while
+becoming active at night. Silently it
+glides, drawing near to its target."
+type_1 = 13
+type_2 = 3
+base_hp = 68
+base_atk = 55
+base_def = 55
+base_spa = 50
+base_spd = 50
+base_spe = 42
+ev_hp = 1
+base_exp = 64
+gender_ratio = 31
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 65
+ability_hidden = 203
+height_dm = 3
+weight_hg = 15
+body_color = 5
+level_moves = Array[ExtResource("3_nk7vg")]([SubResource("Resource_r4ws8"), SubResource("Resource_ew6h8"), SubResource("Resource_w1qiw"), SubResource("Resource_luaqk"), SubResource("Resource_ctm83"), SubResource("Resource_n7sbc"), SubResource("Resource_w5ooe"), SubResource("Resource_uqo3w"), SubResource("Resource_p5bgs"), SubResource("Resource_n0u0d"), SubResource("Resource_eddau"), SubResource("Resource_sx64h"), SubResource("Resource_4v47g"), SubResource("Resource_m1n51")])
+egg_moves = Array[int]([174, 109, 466, 114, 226, 432])
+evolutions = Array[ExtResource("1_ebbl2")]([SubResource("Resource_8vkkq")])

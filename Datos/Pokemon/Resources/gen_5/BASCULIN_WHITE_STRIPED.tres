@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ci1snvivmfu6u"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_314bg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_n1754"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wqgfk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ijvef"]
+
+[sub_resource type="Resource" id="Resource_1fpgv"]
+script = ExtResource("3_wqgfk")
+move = 39
+
+[sub_resource type="Resource" id="Resource_yow71"]
+script = ExtResource("3_wqgfk")
+move = 55
+
+[sub_resource type="Resource" id="Resource_1cho2"]
+script = ExtResource("3_wqgfk")
+level = 4
+move = 33
+
+[sub_resource type="Resource" id="Resource_jqbw0"]
+script = ExtResource("3_wqgfk")
+level = 8
+move = 175
+
+[sub_resource type="Resource" id="Resource_va82v"]
+script = ExtResource("3_wqgfk")
+level = 12
+move = 453
+
+[sub_resource type="Resource" id="Resource_djwwa"]
+script = ExtResource("3_wqgfk")
+level = 16
+move = 44
+
+[sub_resource type="Resource" id="Resource_ry1md"]
+script = ExtResource("3_wqgfk")
+level = 20
+move = 184
+
+[sub_resource type="Resource" id="Resource_36yxl"]
+script = ExtResource("3_wqgfk")
+level = 24
+move = 29
+
+[sub_resource type="Resource" id="Resource_4y8xk"]
+script = ExtResource("3_wqgfk")
+level = 28
+move = 487
+
+[sub_resource type="Resource" id="Resource_3fehg"]
+script = ExtResource("3_wqgfk")
+level = 32
+move = 242
+
+[sub_resource type="Resource" id="Resource_58tjk"]
+script = ExtResource("3_wqgfk")
+level = 36
+move = 36
+
+[sub_resource type="Resource" id="Resource_mvm77"]
+script = ExtResource("3_wqgfk")
+level = 40
+move = 253
+
+[sub_resource type="Resource" id="Resource_prbtv"]
+script = ExtResource("3_wqgfk")
+level = 44
+move = 762
+
+[sub_resource type="Resource" id="Resource_lx8bk"]
+script = ExtResource("3_wqgfk")
+level = 48
+move = 37
+
+[sub_resource type="Resource" id="Resource_7ypc4"]
+script = ExtResource("3_wqgfk")
+level = 52
+move = 38
+
+[sub_resource type="Resource" id="Resource_yblxo"]
+script = ExtResource("3_wqgfk")
+level = 56
+move = 457
+
+[resource]
+script = ExtResource("4_ijvef")
+id = 1091
+display_name = "Basculin"
+category = "Mellow"
+national_dex = 550
+pokedex = "While this ancient form of Basculin shares
+a vast array of qualities with other forms,
+it differs in several respects, including
+demeanor, being much gentler than others."
+type_1 = 12
+base_hp = 70
+base_atk = 92
+base_def = 65
+base_spa = 80
+base_spd = 55
+base_spe = 98
+ev_spe = 2
+catch_rate = 190
+base_exp = 161
+egg_cycles = 40
+egg_group_1 = 12
+ability_1 = 155
+ability_2 = 91
+ability_hidden = 104
+item_rare = 398
+height_dm = 10
+weight_hg = 180
+body_color = 3
+level_moves = Array[ExtResource("3_wqgfk")]([SubResource("Resource_1fpgv"), SubResource("Resource_yow71"), SubResource("Resource_1cho2"), SubResource("Resource_jqbw0"), SubResource("Resource_va82v"), SubResource("Resource_djwwa"), SubResource("Resource_ry1md"), SubResource("Resource_36yxl"), SubResource("Resource_4y8xk"), SubResource("Resource_3fehg"), SubResource("Resource_58tjk"), SubResource("Resource_mvm77"), SubResource("Resource_prbtv"), SubResource("Resource_lx8bk"), SubResource("Resource_7ypc4"), SubResource("Resource_yblxo")])
+egg_moves = Array[int]([283, 782])
+form_species = Array[int]([550, 1090, 1091])

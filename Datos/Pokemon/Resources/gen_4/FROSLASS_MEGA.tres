@@ -1,0 +1,134 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ba4um0qrj216s"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_w2kqo"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2caa0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6v53n"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rgotn"]
+
+[sub_resource type="Resource" id="Resource_hrlvp"]
+script = ExtResource("3_6v53n")
+level = 0
+move = 506
+
+[sub_resource type="Resource" id="Resource_r2grs"]
+script = ExtResource("3_6v53n")
+move = 242
+
+[sub_resource type="Resource" id="Resource_238jt"]
+script = ExtResource("3_6v53n")
+move = 423
+
+[sub_resource type="Resource" id="Resource_jjngi"]
+script = ExtResource("3_6v53n")
+move = 310
+
+[sub_resource type="Resource" id="Resource_ai60i"]
+script = ExtResource("3_6v53n")
+move = 194
+
+[sub_resource type="Resource" id="Resource_bqkj2"]
+script = ExtResource("3_6v53n")
+move = 182
+
+[sub_resource type="Resource" id="Resource_13wth"]
+script = ExtResource("3_6v53n")
+move = 29
+
+[sub_resource type="Resource" id="Resource_qt8m5"]
+script = ExtResource("3_6v53n")
+move = 104
+
+[sub_resource type="Resource" id="Resource_agcgc"]
+script = ExtResource("3_6v53n")
+move = 44
+
+[sub_resource type="Resource" id="Resource_37p3d"]
+script = ExtResource("3_6v53n")
+move = 43
+
+[sub_resource type="Resource" id="Resource_tg5t0"]
+script = ExtResource("3_6v53n")
+move = 181
+
+[sub_resource type="Resource" id="Resource_g3ap8"]
+script = ExtResource("3_6v53n")
+level = 15
+move = 420
+
+[sub_resource type="Resource" id="Resource_ljt8o"]
+script = ExtResource("3_6v53n")
+level = 20
+move = 577
+
+[sub_resource type="Resource" id="Resource_7hgoe"]
+script = ExtResource("3_6v53n")
+level = 25
+move = 196
+
+[sub_resource type="Resource" id="Resource_3f1eq"]
+script = ExtResource("3_6v53n")
+level = 30
+move = 524
+
+[sub_resource type="Resource" id="Resource_5k3pa"]
+script = ExtResource("3_6v53n")
+level = 35
+move = 109
+
+[sub_resource type="Resource" id="Resource_6b1c3"]
+script = ExtResource("3_6v53n")
+level = 40
+move = 809
+
+[sub_resource type="Resource" id="Resource_qlcmn"]
+script = ExtResource("3_6v53n")
+level = 47
+move = 261
+
+[sub_resource type="Resource" id="Resource_qt4al"]
+script = ExtResource("3_6v53n")
+level = 54
+move = 657
+
+[sub_resource type="Resource" id="Resource_lgw3r"]
+script = ExtResource("3_6v53n")
+level = 61
+move = 247
+
+[sub_resource type="Resource" id="Resource_bs4u1"]
+script = ExtResource("3_6v53n")
+level = 68
+move = 59
+
+[resource]
+script = ExtResource("4_rgotn")
+id = 1531
+display_name = "Froslass"
+category = "Snow Land"
+national_dex = 478
+pokedex = "This Pokémon can use eerie cold
+air imbued with ghost energy to
+freeze even insubstantial things,
+such as flames or the wind."
+type_1 = 16
+type_2 = 8
+base_hp = 70
+base_atk = 80
+base_def = 70
+base_spa = 140
+base_spd = 100
+base_spe = 120
+ev_spe = 2
+catch_rate = 75
+base_exp = 168
+gender_ratio = 254
+egg_group_1 = 6
+egg_group_2 = 10
+ability_1 = 117
+ability_2 = 117
+ability_hidden = 117
+height_dm = 26
+weight_hg = 296
+body_color = 8
+level_moves = Array[ExtResource("3_6v53n")]([SubResource("Resource_hrlvp"), SubResource("Resource_r2grs"), SubResource("Resource_238jt"), SubResource("Resource_jjngi"), SubResource("Resource_ai60i"), SubResource("Resource_bqkj2"), SubResource("Resource_13wth"), SubResource("Resource_qt8m5"), SubResource("Resource_agcgc"), SubResource("Resource_37p3d"), SubResource("Resource_tg5t0"), SubResource("Resource_g3ap8"), SubResource("Resource_ljt8o"), SubResource("Resource_7hgoe"), SubResource("Resource_3f1eq"), SubResource("Resource_5k3pa"), SubResource("Resource_6b1c3"), SubResource("Resource_qlcmn"), SubResource("Resource_qt4al"), SubResource("Resource_lgw3r"), SubResource("Resource_bs4u1")])
+form_species = Array[int]([478, 1531])

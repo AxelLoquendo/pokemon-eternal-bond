@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b384x8ifg211r"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_p8ihd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_j2u4h"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kwyhp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t1t88"]
+
+[sub_resource type="Resource" id="Resource_dhb3l"]
+script = ExtResource("3_kwyhp")
+move = 33
+
+[sub_resource type="Resource" id="Resource_77sda"]
+script = ExtResource("3_kwyhp")
+level = 6
+move = 98
+
+[sub_resource type="Resource" id="Resource_emnv7"]
+script = ExtResource("3_kwyhp")
+level = 11
+move = 104
+
+[sub_resource type="Resource" id="Resource_7k1km"]
+script = ExtResource("3_kwyhp")
+level = 14
+move = 314
+
+[sub_resource type="Resource" id="Resource_46qr7"]
+script = ExtResource("3_kwyhp")
+level = 17
+move = 197
+
+[sub_resource type="Resource" id="Resource_dvtoy"]
+script = ExtResource("3_kwyhp")
+level = 22
+move = 48
+
+[sub_resource type="Resource" id="Resource_tpjwe"]
+script = ExtResource("3_kwyhp")
+level = 27
+move = 253
+
+[sub_resource type="Resource" id="Resource_fsvw7"]
+script = ExtResource("3_kwyhp")
+level = 30
+move = 450
+
+[sub_resource type="Resource" id="Resource_m7q31"]
+script = ExtResource("3_kwyhp")
+level = 33
+move = 246
+
+[sub_resource type="Resource" id="Resource_x4bq4"]
+script = ExtResource("3_kwyhp")
+level = 38
+move = 95
+
+[sub_resource type="Resource" id="Resource_5j4db"]
+script = ExtResource("3_kwyhp")
+level = 43
+move = 17
+
+[sub_resource type="Resource" id="Resource_efllr"]
+script = ExtResource("3_kwyhp")
+level = 46
+move = 103
+
+[sub_resource type="Resource" id="Resource_2vg07"]
+script = ExtResource("3_kwyhp")
+level = 49
+move = 369
+
+[sub_resource type="Resource" id="Resource_isy7s"]
+script = ExtResource("3_kwyhp")
+level = 54
+move = 403
+
+[sub_resource type="Resource" id="Resource_x4s1g"]
+script = ExtResource("3_kwyhp")
+level = 57
+move = 405
+
+[resource]
+script = ExtResource("4_t1t88")
+id = 193
+display_name = "Yanma"
+category = "Clear Wing"
+national_dex = 193
+pokedex = "It can see 360 degrees without moving
+its eyes. It is a great flier capable of
+making sudden stops and turning midair to
+quickly chase down targeted prey."
+type_1 = 7
+type_2 = 3
+base_hp = 65
+base_atk = 65
+base_def = 45
+base_spa = 75
+base_spd = 45
+base_spe = 95
+ev_spe = 1
+catch_rate = 75
+base_exp = 78
+egg_group_1 = 3
+ability_1 = 3
+ability_2 = 14
+ability_hidden = 119
+item_rare = 474
+height_dm = 12
+weight_hg = 380
+level_moves = Array[ExtResource("3_kwyhp")]([SubResource("Resource_dhb3l"), SubResource("Resource_77sda"), SubResource("Resource_emnv7"), SubResource("Resource_7k1km"), SubResource("Resource_46qr7"), SubResource("Resource_dvtoy"), SubResource("Resource_tpjwe"), SubResource("Resource_fsvw7"), SubResource("Resource_m7q31"), SubResource("Resource_x4bq4"), SubResource("Resource_5j4db"), SubResource("Resource_efllr"), SubResource("Resource_2vg07"), SubResource("Resource_isy7s"), SubResource("Resource_x4s1g")])
+egg_moves = Array[int]([18, 179, 141, 324, 318, 364, 185, 228, 38, 290])

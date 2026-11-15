@@ -1,0 +1,59 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://btf0avdtmbfih"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_yq5ea"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_md0v0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_24a6e"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5yvqj"]
+
+[sub_resource type="Resource" id="Resource_clgoj"]
+script = ExtResource("1_yq5ea")
+method = "ITEM"
+param = "ITEM_PRISM_SCALE"
+target = 350
+
+[sub_resource type="Resource" id="Resource_r0bey"]
+script = ExtResource("3_24a6e")
+move = 150
+
+[sub_resource type="Resource" id="Resource_25d8a"]
+script = ExtResource("3_24a6e")
+level = 15
+move = 33
+
+[sub_resource type="Resource" id="Resource_uudag"]
+script = ExtResource("3_24a6e")
+level = 25
+move = 175
+
+[resource]
+script = ExtResource("4_5yvqj")
+id = 349
+display_name = "Feebas"
+category = "Fish"
+national_dex = 349
+pokedex = "Feebas live in ponds that are heavily
+infested with weeds. Because of its
+hopelessly shabby appearance, it
+seems as if few Trainers raise it."
+type_1 = 12
+base_hp = 20
+base_atk = 15
+base_def = 20
+base_spa = 10
+base_spd = 55
+base_spe = 80
+ev_spe = 1
+catch_rate = 255
+base_exp = 40
+growth_rate = 1
+egg_group_1 = 2
+egg_group_2 = 14
+ability_1 = 33
+ability_hidden = 91
+height_dm = 6
+weight_hg = 74
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_24a6e")]([SubResource("Resource_r0bey"), SubResource("Resource_25d8a"), SubResource("Resource_uudag")])
+egg_moves = Array[int]([243, 225, 300, 95, 109, 54, 114, 321, 362, 231, 406, 445])
+evolutions = Array[ExtResource("1_yq5ea")]([SubResource("Resource_clgoj")])

@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://2q7mu45o22w5"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_plwb6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i1cwd"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_p6c2c"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_58epa"]
+
+[sub_resource type="Resource" id="Resource_ioatw"]
+script = ExtResource("3_p6c2c")
+move = 189
+
+[sub_resource type="Resource" id="Resource_g16fx"]
+script = ExtResource("3_p6c2c")
+move = 45
+
+[sub_resource type="Resource" id="Resource_jdjrb"]
+script = ExtResource("3_p6c2c")
+move = 39
+
+[sub_resource type="Resource" id="Resource_x78xv"]
+script = ExtResource("3_p6c2c")
+move = 206
+
+[sub_resource type="Resource" id="Resource_q31bu"]
+script = ExtResource("3_p6c2c")
+level = 12
+move = 29
+
+[sub_resource type="Resource" id="Resource_6cl2k"]
+script = ExtResource("3_p6c2c")
+level = 16
+move = 514
+
+[sub_resource type="Resource" id="Resource_myogt"]
+script = ExtResource("3_p6c2c")
+level = 20
+move = 374
+
+[sub_resource type="Resource" id="Resource_mw1ts"]
+script = ExtResource("3_p6c2c")
+level = 24
+move = 661
+
+[sub_resource type="Resource" id="Resource_8ifvo"]
+script = ExtResource("3_p6c2c")
+level = 31
+move = 198
+
+[sub_resource type="Resource" id="Resource_awvpw"]
+script = ExtResource("3_p6c2c")
+level = 36
+move = 116
+
+[sub_resource type="Resource" id="Resource_3wv08"]
+script = ExtResource("3_p6c2c")
+level = 42
+move = 283
+
+[sub_resource type="Resource" id="Resource_4ovce"]
+script = ExtResource("3_p6c2c")
+level = 48
+move = 155
+
+[sub_resource type="Resource" id="Resource_4gs7i"]
+script = ExtResource("3_p6c2c")
+level = 54
+move = 37
+
+[sub_resource type="Resource" id="Resource_dxyoc"]
+script = ExtResource("3_p6c2c")
+level = 60
+move = 38
+
+[resource]
+script = ExtResource("4_58epa")
+id = 105
+display_name = "Marowak"
+category = "Bone Keeper"
+national_dex = 105
+pokedex = "A Marowak is the evolved form of a Cubone
+that has grown tough by overcoming the
+grief of losing its mother. Its tempered
+and hardened spirit is not easily broken."
+type_1 = 5
+base_hp = 60
+base_atk = 80
+base_def = 110
+base_spa = 50
+base_spd = 80
+base_spe = 45
+ev_def = 2
+catch_rate = 75
+base_exp = 149
+egg_group_1 = 1
+ability_1 = 69
+ability_2 = 31
+ability_hidden = 4
+item_rare = 394
+height_dm = 10
+weight_hg = 450
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_p6c2c")]([SubResource("Resource_ioatw"), SubResource("Resource_g16fx"), SubResource("Resource_jdjrb"), SubResource("Resource_x78xv"), SubResource("Resource_q31bu"), SubResource("Resource_6cl2k"), SubResource("Resource_myogt"), SubResource("Resource_mw1ts"), SubResource("Resource_8ifvo"), SubResource("Resource_awvpw"), SubResource("Resource_3wv08"), SubResource("Resource_4ovce"), SubResource("Resource_4gs7i"), SubResource("Resource_dxyoc")])
+form_species = Array[int]([105, 973, 1483])

@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bcbj1a27efv0g"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_t4su7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7kxnv"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_egrek"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bv6ix"]
+
+[sub_resource type="Resource" id="Resource_dg4yk"]
+script = ExtResource("1_t4su7")
+method = "LEVEL"
+param = "40"
+target = 553
+
+[sub_resource type="Resource" id="Resource_40a0f"]
+script = ExtResource("3_egrek")
+move = 28
+
+[sub_resource type="Resource" id="Resource_40nyc"]
+script = ExtResource("3_egrek")
+move = 43
+
+[sub_resource type="Resource" id="Resource_c8tqe"]
+script = ExtResource("3_egrek")
+move = 468
+
+[sub_resource type="Resource" id="Resource_4uig4"]
+script = ExtResource("3_egrek")
+move = 644
+
+[sub_resource type="Resource" id="Resource_g6pfw"]
+script = ExtResource("3_egrek")
+level = 9
+move = 328
+
+[sub_resource type="Resource" id="Resource_kxiex"]
+script = ExtResource("3_egrek")
+level = 12
+move = 184
+
+[sub_resource type="Resource" id="Resource_lj5x1"]
+script = ExtResource("3_egrek")
+level = 15
+move = 44
+
+[sub_resource type="Resource" id="Resource_e4q5o"]
+script = ExtResource("3_egrek")
+level = 18
+move = 259
+
+[sub_resource type="Resource" id="Resource_ei2ea"]
+script = ExtResource("3_egrek")
+level = 21
+move = 91
+
+[sub_resource type="Resource" id="Resource_ugw3x"]
+script = ExtResource("3_egrek")
+level = 24
+move = 207
+
+[sub_resource type="Resource" id="Resource_g62wl"]
+script = ExtResource("3_egrek")
+level = 27
+move = 242
+
+[sub_resource type="Resource" id="Resource_4j5f1"]
+script = ExtResource("3_egrek")
+level = 32
+move = 201
+
+[sub_resource type="Resource" id="Resource_vqgnd"]
+script = ExtResource("3_egrek")
+level = 35
+move = 492
+
+[sub_resource type="Resource" id="Resource_pme1h"]
+script = ExtResource("3_egrek")
+level = 42
+move = 89
+
+[sub_resource type="Resource" id="Resource_6ru1e"]
+script = ExtResource("3_egrek")
+level = 47
+move = 37
+
+[resource]
+script = ExtResource("4_bv6ix")
+id = 552
+display_name = "Krokorok"
+category = "Desert Croc"
+national_dex = 552
+pokedex = "They move in groups of a few individuals.
+Thanks to the special membrane covering
+its eyes, it can see its surroundings
+clearly, even in the dead of night."
+type_1 = 5
+type_2 = 18
+base_hp = 60
+base_atk = 82
+base_def = 45
+base_spa = 45
+base_spd = 45
+base_spe = 74
+ev_atk = 2
+catch_rate = 90
+base_exp = 123
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 22
+ability_2 = 153
+ability_hidden = 83
+item_rare = 440
+height_dm = 10
+weight_hg = 334
+body_color = 5
+level_moves = Array[ExtResource("3_egrek")]([SubResource("Resource_40a0f"), SubResource("Resource_40nyc"), SubResource("Resource_c8tqe"), SubResource("Resource_4uig4"), SubResource("Resource_g6pfw"), SubResource("Resource_kxiex"), SubResource("Resource_lj5x1"), SubResource("Resource_e4q5o"), SubResource("Resource_ei2ea"), SubResource("Resource_ugw3x"), SubResource("Resource_g62wl"), SubResource("Resource_4j5f1"), SubResource("Resource_vqgnd"), SubResource("Resource_pme1h"), SubResource("Resource_6ru1e")])
+evolutions = Array[ExtResource("1_t4su7")]([SubResource("Resource_dg4yk")])

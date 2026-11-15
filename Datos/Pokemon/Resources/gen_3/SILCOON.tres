@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cbemniue7ecdw"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_f63b2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_fb7a4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3aofq"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qqkb5"]
+
+[sub_resource type="Resource" id="Resource_oswic"]
+script = ExtResource("1_f63b2")
+method = "LEVEL"
+param = "10"
+target = 267
+
+[sub_resource type="Resource" id="Resource_h2ewb"]
+script = ExtResource("3_3aofq")
+level = 0
+move = 106
+
+[sub_resource type="Resource" id="Resource_yd043"]
+script = ExtResource("3_3aofq")
+move = 106
+
+[resource]
+script = ExtResource("4_qqkb5")
+id = 266
+display_name = "Silcoon"
+category = "Cocoon"
+national_dex = 266
+pokedex = "It prepares for evolution using the
+energy it stored while it was a Wurmple.
+It keeps watch over the surroundings with
+its two eyes."
+type_1 = 7
+base_hp = 50
+base_atk = 35
+base_def = 55
+base_spa = 25
+base_spd = 25
+base_spe = 15
+ev_def = 2
+catch_rate = 120
+base_exp = 72
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 61
+height_dm = 6
+weight_hg = 100
+body_color = 8
+no_flip = true
+level_moves = Array[ExtResource("3_3aofq")]([SubResource("Resource_h2ewb"), SubResource("Resource_yd043")])
+evolutions = Array[ExtResource("1_f63b2")]([SubResource("Resource_oswic")])

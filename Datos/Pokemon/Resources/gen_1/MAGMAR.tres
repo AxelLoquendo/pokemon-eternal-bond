@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cvbh41k14lv88"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_00m8c"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_k8isj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qrcgg"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_a121a"]
+
+[sub_resource type="Resource" id="Resource_t30qb"]
+script = ExtResource("1_00m8c")
+method = "ITEM"
+param = "ITEM_MAGMARIZER"
+target = 467
+
+[sub_resource type="Resource" id="Resource_cg1i0"]
+script = ExtResource("3_qrcgg")
+move = 43
+
+[sub_resource type="Resource" id="Resource_kfnuh"]
+script = ExtResource("3_qrcgg")
+move = 52
+
+[sub_resource type="Resource" id="Resource_uhqwk"]
+script = ExtResource("3_qrcgg")
+move = 108
+
+[sub_resource type="Resource" id="Resource_d1yw8"]
+script = ExtResource("3_qrcgg")
+move = 123
+
+[sub_resource type="Resource" id="Resource_tfki5"]
+script = ExtResource("3_qrcgg")
+level = 12
+move = 499
+
+[sub_resource type="Resource" id="Resource_hf5m3"]
+script = ExtResource("3_qrcgg")
+level = 16
+move = 172
+
+[sub_resource type="Resource" id="Resource_coi5j"]
+script = ExtResource("3_qrcgg")
+level = 20
+move = 109
+
+[sub_resource type="Resource" id="Resource_uqhdx"]
+script = ExtResource("3_qrcgg")
+level = 24
+move = 184
+
+[sub_resource type="Resource" id="Resource_abvv2"]
+script = ExtResource("3_qrcgg")
+level = 28
+move = 7
+
+[sub_resource type="Resource" id="Resource_kbbnc"]
+script = ExtResource("3_qrcgg")
+level = 34
+move = 436
+
+[sub_resource type="Resource" id="Resource_tmfhs"]
+script = ExtResource("3_qrcgg")
+level = 40
+move = 67
+
+[sub_resource type="Resource" id="Resource_g75ne"]
+script = ExtResource("3_qrcgg")
+level = 46
+move = 53
+
+[sub_resource type="Resource" id="Resource_yva68"]
+script = ExtResource("3_qrcgg")
+level = 52
+move = 241
+
+[sub_resource type="Resource" id="Resource_ufbq1"]
+script = ExtResource("3_qrcgg")
+level = 58
+move = 126
+
+[sub_resource type="Resource" id="Resource_fh6b5"]
+script = ExtResource("3_qrcgg")
+level = 64
+move = 63
+
+[resource]
+script = ExtResource("4_a121a")
+id = 126
+display_name = "Magmar"
+category = "Spitfire"
+national_dex = 126
+pokedex = "In battle, it blows out intense flames from
+all over its body to intimidate its foe.
+These fiery bursts create heat waves that
+ignite grass and trees in the area."
+type_1 = 11
+base_hp = 65
+base_atk = 95
+base_def = 57
+base_spa = 100
+base_spd = 85
+base_spe = 93
+ev_spa = 2
+base_exp = 173
+gender_ratio = 63
+egg_cycles = 25
+egg_group_1 = 8
+ability_1 = 49
+ability_hidden = 72
+item_rare = 231
+height_dm = 13
+weight_hg = 445
+level_moves = Array[ExtResource("3_qrcgg")]([SubResource("Resource_cg1i0"), SubResource("Resource_kfnuh"), SubResource("Resource_uhqwk"), SubResource("Resource_d1yw8"), SubResource("Resource_tfki5"), SubResource("Resource_hf5m3"), SubResource("Resource_coi5j"), SubResource("Resource_uqhdx"), SubResource("Resource_abvv2"), SubResource("Resource_kbbnc"), SubResource("Resource_tmfhs"), SubResource("Resource_g75ne"), SubResource("Resource_yva68"), SubResource("Resource_ufbq1"), SubResource("Resource_fh6b5")])
+evolutions = Array[ExtResource("1_00m8c")]([SubResource("Resource_t30qb")])

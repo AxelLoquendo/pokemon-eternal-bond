@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dyernedrmler4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_gdt3m"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vdw7n"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_eumdm"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cluvk"]
+
+[sub_resource type="Resource" id="Resource_avvn5"]
+script = ExtResource("3_eumdm")
+move = 43
+
+[sub_resource type="Resource" id="Resource_lxwqe"]
+script = ExtResource("3_eumdm")
+move = 52
+
+[sub_resource type="Resource" id="Resource_o45vq"]
+script = ExtResource("3_eumdm")
+move = 108
+
+[sub_resource type="Resource" id="Resource_bl6kj"]
+script = ExtResource("3_eumdm")
+move = 123
+
+[sub_resource type="Resource" id="Resource_i3b5q"]
+script = ExtResource("3_eumdm")
+level = 12
+move = 499
+
+[sub_resource type="Resource" id="Resource_lrxxh"]
+script = ExtResource("3_eumdm")
+level = 16
+move = 172
+
+[sub_resource type="Resource" id="Resource_pfq7i"]
+script = ExtResource("3_eumdm")
+level = 20
+move = 109
+
+[sub_resource type="Resource" id="Resource_gmm1n"]
+script = ExtResource("3_eumdm")
+level = 24
+move = 184
+
+[sub_resource type="Resource" id="Resource_81jxi"]
+script = ExtResource("3_eumdm")
+level = 28
+move = 7
+
+[sub_resource type="Resource" id="Resource_5dgdf"]
+script = ExtResource("3_eumdm")
+level = 34
+move = 436
+
+[sub_resource type="Resource" id="Resource_s6lvc"]
+script = ExtResource("3_eumdm")
+level = 40
+move = 67
+
+[sub_resource type="Resource" id="Resource_ane1i"]
+script = ExtResource("3_eumdm")
+level = 46
+move = 53
+
+[sub_resource type="Resource" id="Resource_rfngh"]
+script = ExtResource("3_eumdm")
+level = 52
+move = 241
+
+[sub_resource type="Resource" id="Resource_xri6r"]
+script = ExtResource("3_eumdm")
+level = 58
+move = 126
+
+[sub_resource type="Resource" id="Resource_1n3av"]
+script = ExtResource("3_eumdm")
+level = 64
+move = 63
+
+[resource]
+script = ExtResource("4_cluvk")
+id = 467
+display_name = "Magmortar"
+category = "Blast"
+national_dex = 467
+pokedex = "According to what is known, a single pair
+of male and female Magmortar lives in
+one volcano. From its arm, it launches
+fireballs hotter than 3,600ºF."
+type_1 = 11
+base_hp = 75
+base_atk = 95
+base_def = 67
+base_spa = 125
+base_spd = 95
+base_spe = 83
+ev_spa = 3
+catch_rate = 30
+base_exp = 199
+gender_ratio = 63
+egg_cycles = 25
+egg_group_1 = 8
+ability_1 = 49
+ability_hidden = 72
+item_rare = 231
+height_dm = 16
+weight_hg = 680
+no_flip = true
+level_moves = Array[ExtResource("3_eumdm")]([SubResource("Resource_avvn5"), SubResource("Resource_lxwqe"), SubResource("Resource_o45vq"), SubResource("Resource_bl6kj"), SubResource("Resource_i3b5q"), SubResource("Resource_lrxxh"), SubResource("Resource_pfq7i"), SubResource("Resource_gmm1n"), SubResource("Resource_81jxi"), SubResource("Resource_5dgdf"), SubResource("Resource_s6lvc"), SubResource("Resource_ane1i"), SubResource("Resource_rfngh"), SubResource("Resource_xri6r"), SubResource("Resource_1n3av")])

@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://du6nkf6afbjxv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_5uirp"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_u31xu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_l6yg1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6wg8y"]
+
+[sub_resource type="Resource" id="Resource_hxext"]
+script = ExtResource("1_5uirp")
+method = "LEVEL"
+param = "40"
+target = 295
+
+[sub_resource type="Resource" id="Resource_1cfgo"]
+script = ExtResource("3_l6yg1")
+level = 0
+move = 44
+
+[sub_resource type="Resource" id="Resource_f8kbg"]
+script = ExtResource("3_l6yg1")
+move = 44
+
+[sub_resource type="Resource" id="Resource_uqltn"]
+script = ExtResource("3_l6yg1")
+move = 310
+
+[sub_resource type="Resource" id="Resource_r6a4b"]
+script = ExtResource("3_l6yg1")
+move = 1
+
+[sub_resource type="Resource" id="Resource_gq4g0"]
+script = ExtResource("3_l6yg1")
+move = 497
+
+[sub_resource type="Resource" id="Resource_yjjyb"]
+script = ExtResource("3_l6yg1")
+move = 336
+
+[sub_resource type="Resource" id="Resource_cq5yw"]
+script = ExtResource("3_l6yg1")
+level = 15
+move = 156
+
+[sub_resource type="Resource" id="Resource_ucgi2"]
+script = ExtResource("3_l6yg1")
+level = 15
+move = 214
+
+[sub_resource type="Resource" id="Resource_lvh5o"]
+script = ExtResource("3_l6yg1")
+level = 23
+move = 23
+
+[sub_resource type="Resource" id="Resource_81o24"]
+script = ExtResource("3_l6yg1")
+level = 29
+move = 46
+
+[sub_resource type="Resource" id="Resource_vn6q8"]
+script = ExtResource("3_l6yg1")
+level = 36
+move = 48
+
+[sub_resource type="Resource" id="Resource_yl5r7"]
+script = ExtResource("3_l6yg1")
+level = 43
+move = 253
+
+[sub_resource type="Resource" id="Resource_y7cwf"]
+script = ExtResource("3_l6yg1")
+level = 50
+move = 103
+
+[sub_resource type="Resource" id="Resource_m62w1"]
+script = ExtResource("3_l6yg1")
+level = 57
+move = 304
+
+[resource]
+script = ExtResource("4_6wg8y")
+id = 294
+display_name = "Loudred"
+category = "Big Voice"
+national_dex = 294
+pokedex = "It positions the round speakers on its
+head to assail foes with ultrasonic waves
+at massive volume. It builds power by
+stomping the ground."
+type_1 = 1
+base_hp = 84
+base_atk = 71
+base_def = 43
+base_spa = 71
+base_spd = 43
+base_spe = 48
+ev_hp = 2
+catch_rate = 120
+base_exp = 126
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 5
+ability_1 = 43
+ability_hidden = 113
+height_dm = 10
+weight_hg = 405
+body_color = 1
+level_moves = Array[ExtResource("3_l6yg1")]([SubResource("Resource_1cfgo"), SubResource("Resource_f8kbg"), SubResource("Resource_uqltn"), SubResource("Resource_r6a4b"), SubResource("Resource_gq4g0"), SubResource("Resource_yjjyb"), SubResource("Resource_cq5yw"), SubResource("Resource_ucgi2"), SubResource("Resource_lvh5o"), SubResource("Resource_81o24"), SubResource("Resource_vn6q8"), SubResource("Resource_yl5r7"), SubResource("Resource_y7cwf"), SubResource("Resource_m62w1")])
+evolutions = Array[ExtResource("1_5uirp")]([SubResource("Resource_hxext")])

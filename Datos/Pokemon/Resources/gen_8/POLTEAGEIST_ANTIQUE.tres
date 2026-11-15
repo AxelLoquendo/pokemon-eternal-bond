@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://1j7vm0iueavd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_iga3r"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vni8i"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wwrbb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_lo4bk"]
+
+[sub_resource type="Resource" id="Resource_j25n7"]
+script = ExtResource("3_wwrbb")
+level = 0
+move = 698
+
+[sub_resource type="Resource" id="Resource_wwhr0"]
+script = ExtResource("3_wwrbb")
+move = 72
+
+[sub_resource type="Resource" id="Resource_jhtje"]
+script = ExtResource("3_wwrbb")
+move = 110
+
+[sub_resource type="Resource" id="Resource_5rbe8"]
+script = ExtResource("3_wwrbb")
+move = 310
+
+[sub_resource type="Resource" id="Resource_msibt"]
+script = ExtResource("3_wwrbb")
+move = 597
+
+[sub_resource type="Resource" id="Resource_ufvm4"]
+script = ExtResource("3_wwrbb")
+move = 631
+
+[sub_resource type="Resource" id="Resource_eqpc2"]
+script = ExtResource("3_wwrbb")
+level = 18
+move = 182
+
+[sub_resource type="Resource" id="Resource_8a6qd"]
+script = ExtResource("3_wwrbb")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_61xjt"]
+script = ExtResource("3_wwrbb")
+level = 30
+move = 230
+
+[sub_resource type="Resource" id="Resource_gk7us"]
+script = ExtResource("3_wwrbb")
+level = 36
+move = 202
+
+[sub_resource type="Resource" id="Resource_rimog"]
+script = ExtResource("3_wwrbb")
+level = 42
+move = 417
+
+[sub_resource type="Resource" id="Resource_n4ea8"]
+script = ExtResource("3_wwrbb")
+level = 48
+move = 247
+
+[sub_resource type="Resource" id="Resource_eoqhi"]
+script = ExtResource("3_wwrbb")
+level = 54
+move = 262
+
+[sub_resource type="Resource" id="Resource_dcwky"]
+script = ExtResource("3_wwrbb")
+level = 60
+move = 504
+
+[sub_resource type="Resource" id="Resource_q0g0u"]
+script = ExtResource("3_wwrbb")
+level = 66
+move = 174
+
+[resource]
+script = ExtResource("4_lo4bk")
+id = 1215
+display_name = "Polteageist"
+category = "Black Tea"
+national_dex = 855
+pokedex = "Trainers Polteageist trusts will be
+allowed to experience its
+distinctive flavor and aroma firsthand by
+sampling just a tiny bit of its tea."
+type_1 = 8
+base_hp = 60
+base_atk = 65
+base_def = 65
+base_spa = 134
+base_spd = 114
+base_spe = 70
+ev_spa = 2
+catch_rate = 60
+base_exp = 178
+gender_ratio = 255
+egg_group_1 = 10
+egg_group_2 = 11
+ability_1 = 133
+ability_hidden = 130
+height_dm = 2
+weight_hg = 4
+body_color = 6
+level_moves = Array[ExtResource("3_wwrbb")]([SubResource("Resource_j25n7"), SubResource("Resource_wwhr0"), SubResource("Resource_jhtje"), SubResource("Resource_5rbe8"), SubResource("Resource_msibt"), SubResource("Resource_ufvm4"), SubResource("Resource_eqpc2"), SubResource("Resource_8a6qd"), SubResource("Resource_61xjt"), SubResource("Resource_gk7us"), SubResource("Resource_rimog"), SubResource("Resource_n4ea8"), SubResource("Resource_eoqhi"), SubResource("Resource_dcwky"), SubResource("Resource_q0g0u")])
+form_species = Array[int]([855, 1215])

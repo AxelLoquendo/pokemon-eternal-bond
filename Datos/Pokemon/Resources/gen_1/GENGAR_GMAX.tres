@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://df51spbxoklg2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_nvplf"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ldr2f"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rcgv7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_p3c6j"]
+
+[sub_resource type="Resource" id="Resource_dampr"]
+script = ExtResource("3_rcgv7")
+move = 212
+
+[sub_resource type="Resource" id="Resource_s0qfc"]
+script = ExtResource("3_rcgv7")
+move = 325
+
+[sub_resource type="Resource" id="Resource_rdbki"]
+script = ExtResource("3_rcgv7")
+move = 513
+
+[sub_resource type="Resource" id="Resource_yur60"]
+script = ExtResource("3_rcgv7")
+move = 195
+
+[sub_resource type="Resource" id="Resource_ebdco"]
+script = ExtResource("3_rcgv7")
+move = 109
+
+[sub_resource type="Resource" id="Resource_44a53"]
+script = ExtResource("3_rcgv7")
+move = 122
+
+[sub_resource type="Resource" id="Resource_831vq"]
+script = ExtResource("3_rcgv7")
+move = 95
+
+[sub_resource type="Resource" id="Resource_7w2re"]
+script = ExtResource("3_rcgv7")
+level = 12
+move = 371
+
+[sub_resource type="Resource" id="Resource_gu8df"]
+script = ExtResource("3_rcgv7")
+level = 16
+move = 180
+
+[sub_resource type="Resource" id="Resource_qn7vd"]
+script = ExtResource("3_rcgv7")
+level = 20
+move = 174
+
+[sub_resource type="Resource" id="Resource_fjk7x"]
+script = ExtResource("3_rcgv7")
+level = 24
+move = 506
+
+[sub_resource type="Resource" id="Resource_qs1pg"]
+script = ExtResource("3_rcgv7")
+level = 30
+move = 101
+
+[sub_resource type="Resource" id="Resource_n5vjn"]
+script = ExtResource("3_rcgv7")
+level = 36
+move = 389
+
+[sub_resource type="Resource" id="Resource_q1kgu"]
+script = ExtResource("3_rcgv7")
+level = 42
+move = 399
+
+[sub_resource type="Resource" id="Resource_f4b5c"]
+script = ExtResource("3_rcgv7")
+level = 48
+move = 247
+
+[sub_resource type="Resource" id="Resource_7fycp"]
+script = ExtResource("3_rcgv7")
+level = 54
+move = 194
+
+[sub_resource type="Resource" id="Resource_uk5fl"]
+script = ExtResource("3_rcgv7")
+level = 60
+move = 138
+
+[resource]
+script = ExtResource("4_p3c6j")
+id = 1496
+display_name = "Gengar"
+category = "Shadow"
+national_dex = 94
+pokedex = "Rumor has it that its gigantic
+mouth leads not into its body, filled
+with cursed energy, but instead
+directly to the afterlife."
+type_1 = 8
+type_2 = 4
+base_hp = 60
+base_atk = 65
+base_def = 60
+base_spa = 130
+base_spe = 110
+ev_spa = 3
+growth_rate = 3
+egg_group_1 = 11
+height_dm = 200
+body_color = 6
+level_moves = Array[ExtResource("3_rcgv7")]([SubResource("Resource_dampr"), SubResource("Resource_s0qfc"), SubResource("Resource_rdbki"), SubResource("Resource_yur60"), SubResource("Resource_ebdco"), SubResource("Resource_44a53"), SubResource("Resource_831vq"), SubResource("Resource_7w2re"), SubResource("Resource_gu8df"), SubResource("Resource_qn7vd"), SubResource("Resource_fjk7x"), SubResource("Resource_qs1pg"), SubResource("Resource_n5vjn"), SubResource("Resource_q1kgu"), SubResource("Resource_f4b5c"), SubResource("Resource_7fycp"), SubResource("Resource_uk5fl")])
+form_species = Array[int]([94, 914, 1496])

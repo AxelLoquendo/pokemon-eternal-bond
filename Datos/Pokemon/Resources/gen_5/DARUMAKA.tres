@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dguhbdeuv0kou"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1g8wv"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_032fr"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h1j1j"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nqn3a"]
+
+[sub_resource type="Resource" id="Resource_hkqoh"]
+script = ExtResource("1_1g8wv")
+method = "LEVEL"
+param = "35"
+target = 555
+
+[sub_resource type="Resource" id="Resource_hnpyw"]
+script = ExtResource("3_h1j1j")
+move = 52
+
+[sub_resource type="Resource" id="Resource_216wg"]
+script = ExtResource("3_h1j1j")
+move = 33
+
+[sub_resource type="Resource" id="Resource_gpn6y"]
+script = ExtResource("3_h1j1j")
+level = 4
+move = 269
+
+[sub_resource type="Resource" id="Resource_olcu0"]
+script = ExtResource("3_h1j1j")
+level = 8
+move = 44
+
+[sub_resource type="Resource" id="Resource_daelw"]
+script = ExtResource("3_h1j1j")
+level = 12
+move = 510
+
+[sub_resource type="Resource" id="Resource_ibrj3"]
+script = ExtResource("3_h1j1j")
+level = 16
+move = 526
+
+[sub_resource type="Resource" id="Resource_cr0f8"]
+script = ExtResource("3_h1j1j")
+level = 20
+move = 424
+
+[sub_resource type="Resource" id="Resource_bdkje"]
+script = ExtResource("3_h1j1j")
+level = 24
+move = 29
+
+[sub_resource type="Resource" id="Resource_o02fv"]
+script = ExtResource("3_h1j1j")
+level = 28
+move = 7
+
+[sub_resource type="Resource" id="Resource_phvax"]
+script = ExtResource("3_h1j1j")
+level = 32
+move = 253
+
+[sub_resource type="Resource" id="Resource_i4x86"]
+script = ExtResource("3_h1j1j")
+level = 36
+move = 187
+
+[sub_resource type="Resource" id="Resource_n66ij"]
+script = ExtResource("3_h1j1j")
+level = 40
+move = 394
+
+[sub_resource type="Resource" id="Resource_ss8ru"]
+script = ExtResource("3_h1j1j")
+level = 44
+move = 37
+
+[sub_resource type="Resource" id="Resource_ag0ah"]
+script = ExtResource("3_h1j1j")
+level = 48
+move = 276
+
+[resource]
+script = ExtResource("4_nqn3a")
+id = 554
+display_name = "Darumaka"
+category = "Zen Charm"
+national_dex = 554
+pokedex = "When its internal fire is burning, it
+cannot calm down and it runs around.
+When the fire diminishes, it pulls its
+limbs into its body and falls asleep."
+type_1 = 11
+base_hp = 70
+base_atk = 90
+base_def = 45
+base_spa = 15
+base_spd = 45
+base_spe = 50
+ev_atk = 1
+catch_rate = 120
+base_exp = 63
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 55
+ability_hidden = 39
+height_dm = 6
+weight_hg = 375
+level_moves = Array[ExtResource("3_h1j1j")]([SubResource("Resource_hnpyw"), SubResource("Resource_216wg"), SubResource("Resource_gpn6y"), SubResource("Resource_olcu0"), SubResource("Resource_daelw"), SubResource("Resource_ibrj3"), SubResource("Resource_cr0f8"), SubResource("Resource_bdkje"), SubResource("Resource_o02fv"), SubResource("Resource_phvax"), SubResource("Resource_i4x86"), SubResource("Resource_n66ij"), SubResource("Resource_ss8ru"), SubResource("Resource_ag0ah")])
+egg_moves = Array[int]([214, 264, 116, 203, 359, 36, 172, 227, 281, 289, 326])
+evolutions = Array[ExtResource("1_1g8wv")]([SubResource("Resource_hkqoh")])
+form_species = Array[int]([554, 989])

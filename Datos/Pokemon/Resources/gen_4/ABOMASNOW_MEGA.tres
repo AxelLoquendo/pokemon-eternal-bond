@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://1cctr0n6jqms"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_45ujh"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ttqdn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_leqsv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_im70x"]
+
+[sub_resource type="Resource" id="Resource_nrcr6"]
+script = ExtResource("3_leqsv")
+level = 0
+move = 8
+
+[sub_resource type="Resource" id="Resource_u6d7j"]
+script = ExtResource("3_leqsv")
+move = 43
+
+[sub_resource type="Resource" id="Resource_r7p0d"]
+script = ExtResource("3_leqsv")
+move = 54
+
+[sub_resource type="Resource" id="Resource_4o6hy"]
+script = ExtResource("3_leqsv")
+move = 181
+
+[sub_resource type="Resource" id="Resource_t417k"]
+script = ExtResource("3_leqsv")
+move = 633
+
+[sub_resource type="Resource" id="Resource_h1ucg"]
+script = ExtResource("3_leqsv")
+move = 657
+
+[sub_resource type="Resource" id="Resource_416uy"]
+script = ExtResource("3_leqsv")
+level = 15
+move = 420
+
+[sub_resource type="Resource" id="Resource_oj0pf"]
+script = ExtResource("3_leqsv")
+level = 20
+move = 75
+
+[sub_resource type="Resource" id="Resource_wi5js"]
+script = ExtResource("3_leqsv")
+level = 25
+move = 196
+
+[sub_resource type="Resource" id="Resource_g2cbn"]
+script = ExtResource("3_leqsv")
+level = 30
+move = 207
+
+[sub_resource type="Resource" id="Resource_3vdvh"]
+script = ExtResource("3_leqsv")
+level = 35
+move = 275
+
+[sub_resource type="Resource" id="Resource_gpyt5"]
+script = ExtResource("3_leqsv")
+level = 43
+move = 452
+
+[sub_resource type="Resource" id="Resource_dljb8"]
+script = ExtResource("3_leqsv")
+level = 49
+move = 59
+
+[sub_resource type="Resource" id="Resource_vfg5o"]
+script = ExtResource("3_leqsv")
+level = 56
+move = 329
+
+[resource]
+script = ExtResource("4_im70x")
+id = 949
+display_name = "Abomasnow"
+category = "Frost Tree"
+national_dex = 460
+pokedex = "The sprouts on Abomasnow's back grow into
+great shafts of ice when it Mega Evolves.
+Dislikes associating with others and
+chooses to live quietly deep in mountains."
+type_1 = 13
+type_2 = 16
+base_hp = 90
+base_atk = 132
+base_def = 105
+base_spa = 132
+base_spd = 105
+base_spe = 30
+ev_atk = 1
+ev_spa = 1
+catch_rate = 60
+base_exp = 208
+growth_rate = 5
+egg_group_1 = 1
+egg_group_2 = 7
+ability_1 = 117
+ability_2 = 117
+ability_hidden = 117
+item_rare = 430
+height_dm = 27
+weight_hg = 1850
+body_color = 8
+level_moves = Array[ExtResource("3_leqsv")]([SubResource("Resource_nrcr6"), SubResource("Resource_u6d7j"), SubResource("Resource_r7p0d"), SubResource("Resource_4o6hy"), SubResource("Resource_t417k"), SubResource("Resource_h1ucg"), SubResource("Resource_416uy"), SubResource("Resource_oj0pf"), SubResource("Resource_wi5js"), SubResource("Resource_g2cbn"), SubResource("Resource_3vdvh"), SubResource("Resource_gpyt5"), SubResource("Resource_dljb8"), SubResource("Resource_vfg5o")])
+form_species = Array[int]([460, 949])

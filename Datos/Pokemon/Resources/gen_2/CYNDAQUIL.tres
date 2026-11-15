@@ -1,0 +1,121 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://uk0pec8kfyeo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fv1aj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pf6jc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_iy6mm"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_aydq0"]
+
+[sub_resource type="Resource" id="Resource_kkjms"]
+script = ExtResource("1_fv1aj")
+method = "LEVEL"
+param = "14"
+target = 156
+
+[sub_resource type="Resource" id="Resource_yqwhg"]
+script = ExtResource("3_iy6mm")
+move = 33
+
+[sub_resource type="Resource" id="Resource_b7iqc"]
+script = ExtResource("3_iy6mm")
+move = 43
+
+[sub_resource type="Resource" id="Resource_er14i"]
+script = ExtResource("3_iy6mm")
+level = 6
+move = 108
+
+[sub_resource type="Resource" id="Resource_6jgou"]
+script = ExtResource("3_iy6mm")
+level = 10
+move = 52
+
+[sub_resource type="Resource" id="Resource_ovtvp"]
+script = ExtResource("3_iy6mm")
+level = 13
+move = 98
+
+[sub_resource type="Resource" id="Resource_ds77w"]
+script = ExtResource("3_iy6mm")
+level = 19
+move = 172
+
+[sub_resource type="Resource" id="Resource_gowdg"]
+script = ExtResource("3_iy6mm")
+level = 22
+move = 111
+
+[sub_resource type="Resource" id="Resource_8arki"]
+script = ExtResource("3_iy6mm")
+level = 28
+move = 488
+
+[sub_resource type="Resource" id="Resource_sigmw"]
+script = ExtResource("3_iy6mm")
+level = 31
+move = 129
+
+[sub_resource type="Resource" id="Resource_rgutr"]
+script = ExtResource("3_iy6mm")
+level = 37
+move = 436
+
+[sub_resource type="Resource" id="Resource_vnsmq"]
+script = ExtResource("3_iy6mm")
+level = 40
+move = 53
+
+[sub_resource type="Resource" id="Resource_7dvs0"]
+script = ExtResource("3_iy6mm")
+level = 46
+move = 517
+
+[sub_resource type="Resource" id="Resource_jmpb7"]
+script = ExtResource("3_iy6mm")
+level = 49
+move = 205
+
+[sub_resource type="Resource" id="Resource_b3aih"]
+script = ExtResource("3_iy6mm")
+level = 55
+move = 38
+
+[sub_resource type="Resource" id="Resource_5hla8"]
+script = ExtResource("3_iy6mm")
+level = 58
+move = 315
+
+[sub_resource type="Resource" id="Resource_mwhy1"]
+script = ExtResource("3_iy6mm")
+level = 64
+move = 284
+
+[resource]
+script = ExtResource("4_aydq0")
+id = 155
+display_name = "Cyndaquil"
+category = "Fire Mouse"
+national_dex = 155
+pokedex = "It flares flames from its back to protect
+itself. The fire burns vigorously if the
+Pokémon is angry. When it is tired,
+it sputters with incomplete combustion."
+type_1 = 11
+base_hp = 39
+base_atk = 52
+base_def = 43
+base_spa = 60
+base_spd = 50
+base_spe = 65
+ev_spe = 1
+base_exp = 62
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 66
+ability_hidden = 18
+height_dm = 5
+weight_hg = 79
+body_color = 2
+level_moves = Array[ExtResource("3_iy6mm")]([SubResource("Resource_yqwhg"), SubResource("Resource_b7iqc"), SubResource("Resource_er14i"), SubResource("Resource_6jgou"), SubResource("Resource_ovtvp"), SubResource("Resource_ds77w"), SubResource("Resource_gowdg"), SubResource("Resource_8arki"), SubResource("Resource_sigmw"), SubResource("Resource_rgutr"), SubResource("Resource_vnsmq"), SubResource("Resource_7dvs0"), SubResource("Resource_jmpb7"), SubResource("Resource_b3aih"), SubResource("Resource_5hla8"), SubResource("Resource_mwhy1")])
+egg_moves = Array[int]([154, 98, 179, 37, 193, 343, 336, 306, 38, 24, 394, 326, 267, 481])
+evolutions = Array[ExtResource("1_fv1aj")]([SubResource("Resource_kkjms")])

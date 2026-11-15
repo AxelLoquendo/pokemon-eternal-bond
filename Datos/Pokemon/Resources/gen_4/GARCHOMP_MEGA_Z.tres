@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cwxxr4fpstivy"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_obpnq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_mymro"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_s3rih"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6h65a"]
+
+[sub_resource type="Resource" id="Resource_ro0qs"]
+script = ExtResource("3_s3rih")
+level = 0
+move = 242
+
+[sub_resource type="Resource" id="Resource_ulg7m"]
+script = ExtResource("3_s3rih")
+move = 28
+
+[sub_resource type="Resource" id="Resource_7j4fv"]
+script = ExtResource("3_s3rih")
+move = 33
+
+[sub_resource type="Resource" id="Resource_05thi"]
+script = ExtResource("3_s3rih")
+move = 225
+
+[sub_resource type="Resource" id="Resource_u41qb"]
+script = ExtResource("3_s3rih")
+move = 328
+
+[sub_resource type="Resource" id="Resource_rnb5k"]
+script = ExtResource("3_s3rih")
+level = 18
+move = 523
+
+[sub_resource type="Resource" id="Resource_vyiyr"]
+script = ExtResource("3_s3rih")
+level = 27
+move = 44
+
+[sub_resource type="Resource" id="Resource_f4qqq"]
+script = ExtResource("3_s3rih")
+level = 34
+move = 163
+
+[sub_resource type="Resource" id="Resource_ypgjr"]
+script = ExtResource("3_s3rih")
+level = 42
+move = 337
+
+[sub_resource type="Resource" id="Resource_yle0i"]
+script = ExtResource("3_s3rih")
+level = 52
+move = 91
+
+[sub_resource type="Resource" id="Resource_l8og6"]
+script = ExtResource("3_s3rih")
+level = 62
+move = 201
+
+[sub_resource type="Resource" id="Resource_63341"]
+script = ExtResource("3_s3rih")
+level = 72
+move = 36
+
+[sub_resource type="Resource" id="Resource_dxid0"]
+script = ExtResource("3_s3rih")
+level = 82
+move = 407
+
+[resource]
+script = ExtResource("4_6h65a")
+id = 1558
+display_name = "Garchomp"
+category = "Mach"
+national_dex = 445
+pokedex = "Garchomp has gained a new Mega-Evolved
+form. It flies around foes at Mach speed
+and cuts them to shreds with its sinister
+wing claws."
+type_1 = 17
+base_hp = 108
+base_atk = 130
+base_def = 85
+base_spa = 141
+base_spd = 85
+base_spe = 151
+ev_atk = 3
+base_exp = 218
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 26
+ability_2 = 26
+ability_hidden = 26
+height_dm = 19
+weight_hg = 990
+body_color = 1
+level_moves = Array[ExtResource("3_s3rih")]([SubResource("Resource_ro0qs"), SubResource("Resource_ulg7m"), SubResource("Resource_7j4fv"), SubResource("Resource_05thi"), SubResource("Resource_u41qb"), SubResource("Resource_rnb5k"), SubResource("Resource_vyiyr"), SubResource("Resource_f4qqq"), SubResource("Resource_ypgjr"), SubResource("Resource_yle0i"), SubResource("Resource_l8og6"), SubResource("Resource_63341"), SubResource("Resource_dxid0")])
+form_species = Array[int]([445, 947, 1558])

@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://chxkhev6xrk5u"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_epft1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_remvh"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bxhw6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_b6tf2"]
+
+[sub_resource type="Resource" id="Resource_xtefh"]
+script = ExtResource("1_epft1")
+method = "LEVEL"
+param = "41"
+target = 579
+
+[sub_resource type="Resource" id="Resource_bevig"]
+script = ExtResource("3_bxhw6")
+move = 93
+
+[sub_resource type="Resource" id="Resource_y2ao0"]
+script = ExtResource("3_bxhw6")
+move = 105
+
+[sub_resource type="Resource" id="Resource_0ud1l"]
+script = ExtResource("3_bxhw6")
+move = 182
+
+[sub_resource type="Resource" id="Resource_3jdd8"]
+script = ExtResource("3_bxhw6")
+move = 283
+
+[sub_resource type="Resource" id="Resource_cmg40"]
+script = ExtResource("3_bxhw6")
+level = 12
+move = 60
+
+[sub_resource type="Resource" id="Resource_bubf7"]
+script = ExtResource("3_bxhw6")
+level = 16
+move = 204
+
+[sub_resource type="Resource" id="Resource_qhk7i"]
+script = ExtResource("3_bxhw6")
+level = 20
+move = 473
+
+[sub_resource type="Resource" id="Resource_y02q0"]
+script = ExtResource("3_bxhw6")
+level = 24
+move = 113
+
+[sub_resource type="Resource" id="Resource_p3mrf"]
+script = ExtResource("3_bxhw6")
+level = 24
+move = 115
+
+[sub_resource type="Resource" id="Resource_m3ym8"]
+script = ExtResource("3_bxhw6")
+level = 28
+move = 502
+
+[sub_resource type="Resource" id="Resource_p73at"]
+script = ExtResource("3_bxhw6")
+level = 35
+move = 220
+
+[sub_resource type="Resource" id="Resource_ws0tv"]
+script = ExtResource("3_bxhw6")
+level = 40
+move = 94
+
+[sub_resource type="Resource" id="Resource_uuk2g"]
+script = ExtResource("3_bxhw6")
+level = 46
+move = 285
+
+[sub_resource type="Resource" id="Resource_ml8mt"]
+script = ExtResource("3_bxhw6")
+level = 52
+move = 248
+
+[sub_resource type="Resource" id="Resource_ajfvi"]
+script = ExtResource("3_bxhw6")
+level = 58
+move = 472
+
+[resource]
+script = ExtResource("4_b6tf2")
+id = 578
+display_name = "Duosion"
+category = "Mitosis"
+national_dex = 578
+pokedex = "When their brains, now divided in two,
+are thinking the same thoughts,
+these Pokémon exhibit their maximized
+psychic power."
+type_1 = 15
+base_hp = 65
+base_atk = 40
+base_def = 50
+base_spa = 125
+base_spd = 60
+base_spe = 30
+ev_spa = 2
+catch_rate = 100
+base_exp = 130
+growth_rate = 3
+egg_group_1 = 11
+ability_1 = 142
+ability_2 = 98
+ability_hidden = 144
+height_dm = 6
+weight_hg = 80
+body_color = 3
+level_moves = Array[ExtResource("3_bxhw6")]([SubResource("Resource_bevig"), SubResource("Resource_y2ao0"), SubResource("Resource_0ud1l"), SubResource("Resource_3jdd8"), SubResource("Resource_cmg40"), SubResource("Resource_bubf7"), SubResource("Resource_qhk7i"), SubResource("Resource_y02q0"), SubResource("Resource_p3mrf"), SubResource("Resource_m3ym8"), SubResource("Resource_p73at"), SubResource("Resource_ws0tv"), SubResource("Resource_uuk2g"), SubResource("Resource_ml8mt"), SubResource("Resource_ajfvi")])
+evolutions = Array[ExtResource("1_epft1")]([SubResource("Resource_xtefh")])

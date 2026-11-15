@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bhl53t2ama7d8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_tx30h"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5dins"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_li6hd"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dfxcb"]
+
+[sub_resource type="Resource" id="Resource_wve3d"]
+script = ExtResource("3_li6hd")
+level = 0
+move = 335
+
+[sub_resource type="Resource" id="Resource_mhlgt"]
+script = ExtResource("3_li6hd")
+move = 469
+
+[sub_resource type="Resource" id="Resource_g6vvw"]
+script = ExtResource("3_li6hd")
+move = 33
+
+[sub_resource type="Resource" id="Resource_38rup"]
+script = ExtResource("3_li6hd")
+move = 182
+
+[sub_resource type="Resource" id="Resource_ckmby"]
+script = ExtResource("3_li6hd")
+move = 269
+
+[sub_resource type="Resource" id="Resource_4evb6"]
+script = ExtResource("3_li6hd")
+move = 319
+
+[sub_resource type="Resource" id="Resource_l74xw"]
+script = ExtResource("3_li6hd")
+level = 15
+move = 36
+
+[sub_resource type="Resource" id="Resource_vgflc"]
+script = ExtResource("3_li6hd")
+level = 19
+move = 334
+
+[sub_resource type="Resource" id="Resource_rkjf7"]
+script = ExtResource("3_li6hd")
+level = 24
+move = 207
+
+[sub_resource type="Resource" id="Resource_ngjv5"]
+script = ExtResource("3_li6hd")
+level = 28
+move = 246
+
+[sub_resource type="Resource" id="Resource_jtwof"]
+script = ExtResource("3_li6hd")
+level = 36
+move = 203
+
+[sub_resource type="Resource" id="Resource_nsk3n"]
+script = ExtResource("3_li6hd")
+level = 43
+move = 368
+
+[sub_resource type="Resource" id="Resource_2qdl2"]
+script = ExtResource("3_li6hd")
+level = 51
+move = 442
+
+[sub_resource type="Resource" id="Resource_4cad7"]
+script = ExtResource("3_li6hd")
+level = 58
+move = 484
+
+[resource]
+script = ExtResource("4_dfxcb")
+id = 411
+display_name = "Bastiodon"
+category = "Shield"
+national_dex = 411
+pokedex = "Their rock-hard faces serve to protect
+them from any frontral attacks.
+When attacked, they form a wall.
+They shielded their young in that way."
+type_1 = 6
+type_2 = 9
+base_hp = 60
+base_atk = 52
+base_def = 168
+base_spa = 47
+base_spd = 138
+base_spe = 30
+ev_def = 2
+base_exp = 173
+gender_ratio = 31
+growth_rate = 1
+egg_cycles = 30
+egg_group_1 = 1
+ability_1 = 5
+ability_hidden = 43
+height_dm = 13
+weight_hg = 1495
+body_color = 7
+level_moves = Array[ExtResource("3_li6hd")]([SubResource("Resource_wve3d"), SubResource("Resource_mhlgt"), SubResource("Resource_g6vvw"), SubResource("Resource_38rup"), SubResource("Resource_ckmby"), SubResource("Resource_4evb6"), SubResource("Resource_l74xw"), SubResource("Resource_vgflc"), SubResource("Resource_rkjf7"), SubResource("Resource_ngjv5"), SubResource("Resource_jtwof"), SubResource("Resource_nsk3n"), SubResource("Resource_2qdl2"), SubResource("Resource_4cad7")])

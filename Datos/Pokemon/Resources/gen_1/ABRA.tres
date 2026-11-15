@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dj06g2pohtkh3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3evr1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ss7sh"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_d8ifj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hn8q0"]
+
+[sub_resource type="Resource" id="Resource_ce1de"]
+script = ExtResource("1_3evr1")
+method = "LEVEL"
+param = "16"
+target = 64
+
+[sub_resource type="Resource" id="Resource_shlas"]
+script = ExtResource("3_d8ifj")
+move = 100
+
+[resource]
+script = ExtResource("4_hn8q0")
+id = 63
+display_name = "Abra"
+category = "Psi"
+national_dex = 63
+pokedex = "A Pokémon that sleeps 18 hours a day.
+Observation revealed that it uses
+Teleport to change its location once
+every hour."
+type_1 = 15
+base_hp = 25
+base_atk = 20
+base_def = 15
+base_spa = 105
+base_spd = 55
+base_spe = 90
+ev_spa = 1
+catch_rate = 200
+base_exp = 73
+gender_ratio = 63
+growth_rate = 3
+egg_group_1 = 8
+ability_1 = 28
+ability_2 = 39
+ability_hidden = 98
+item_rare = 435
+height_dm = 9
+weight_hg = 195
+body_color = 5
+level_moves = Array[ExtResource("3_d8ifj")]([SubResource("Resource_shlas")])
+egg_moves = Array[int]([227, 112, 282, 7, 9, 8, 379, 385, 285, 470, 375, 502, 641])
+evolutions = Array[ExtResource("1_3evr1")]([SubResource("Resource_ce1de")])

@@ -1,0 +1,119 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c2326l3t3ddt6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jjxu2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_daev5"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rs540"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_eikkv"]
+
+[sub_resource type="Resource" id="Resource_eeoea"]
+script = ExtResource("3_rs540")
+level = 0
+move = 572
+
+[sub_resource type="Resource" id="Resource_7361m"]
+script = ExtResource("3_rs540")
+move = 74
+
+[sub_resource type="Resource" id="Resource_aqi8s"]
+script = ExtResource("3_rs540")
+move = 80
+
+[sub_resource type="Resource" id="Resource_mxhml"]
+script = ExtResource("3_rs540")
+move = 22
+
+[sub_resource type="Resource" id="Resource_c8216"]
+script = ExtResource("3_rs540")
+move = 33
+
+[sub_resource type="Resource" id="Resource_l11dp"]
+script = ExtResource("3_rs540")
+move = 45
+
+[sub_resource type="Resource" id="Resource_4hshf"]
+script = ExtResource("3_rs540")
+level = 9
+move = 73
+
+[sub_resource type="Resource" id="Resource_fpcd1"]
+script = ExtResource("3_rs540")
+level = 12
+move = 75
+
+[sub_resource type="Resource" id="Resource_br2bk"]
+script = ExtResource("3_rs540")
+level = 15
+move = 79
+
+[sub_resource type="Resource" id="Resource_fqcwb"]
+script = ExtResource("3_rs540")
+level = 15
+move = 77
+
+[sub_resource type="Resource" id="Resource_bt5cq"]
+script = ExtResource("3_rs540")
+level = 20
+move = 402
+
+[sub_resource type="Resource" id="Resource_cmphy"]
+script = ExtResource("3_rs540")
+level = 25
+move = 36
+
+[sub_resource type="Resource" id="Resource_0akyl"]
+script = ExtResource("3_rs540")
+level = 30
+move = 230
+
+[sub_resource type="Resource" id="Resource_0iv7l"]
+script = ExtResource("3_rs540")
+level = 37
+move = 235
+
+[sub_resource type="Resource" id="Resource_6drb0"]
+script = ExtResource("3_rs540")
+level = 44
+move = 388
+
+[sub_resource type="Resource" id="Resource_b77os"]
+script = ExtResource("3_rs540")
+level = 51
+move = 438
+
+[sub_resource type="Resource" id="Resource_5arcu"]
+script = ExtResource("3_rs540")
+level = 58
+move = 76
+
+[resource]
+script = ExtResource("4_eikkv")
+id = 906
+display_name = "Venusaur"
+category = "Seed"
+national_dex = 3
+pokedex = "In order to support its flower, which
+has grown larger due to Mega Evolution,
+its back and legs have become stronger."
+type_1 = 13
+type_2 = 4
+base_hp = 80
+base_atk = 100
+base_def = 123
+base_spa = 122
+base_spd = 120
+base_spe = 80
+ev_spa = 2
+ev_spd = 1
+base_exp = 313
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 7
+ability_1 = 47
+ability_2 = 47
+ability_hidden = 47
+height_dm = 24
+weight_hg = 1555
+body_color = 3
+level_moves = Array[ExtResource("3_rs540")]([SubResource("Resource_eeoea"), SubResource("Resource_7361m"), SubResource("Resource_aqi8s"), SubResource("Resource_mxhml"), SubResource("Resource_c8216"), SubResource("Resource_l11dp"), SubResource("Resource_4hshf"), SubResource("Resource_fpcd1"), SubResource("Resource_br2bk"), SubResource("Resource_fqcwb"), SubResource("Resource_bt5cq"), SubResource("Resource_cmphy"), SubResource("Resource_0akyl"), SubResource("Resource_0iv7l"), SubResource("Resource_6drb0"), SubResource("Resource_b77os"), SubResource("Resource_5arcu")])
+form_species = Array[int]([3, 906, 1489])

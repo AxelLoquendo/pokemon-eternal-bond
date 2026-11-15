@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cv20cycxbnfbk"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_46ckl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_bohss"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kqnlv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_81tbd"]
+
+[sub_resource type="Resource" id="Resource_y8gau"]
+script = ExtResource("1_46ckl")
+method = "LEVEL"
+param = "31"
+target = 530
+
+[sub_resource type="Resource" id="Resource_2xekm"]
+script = ExtResource("3_kqnlv")
+move = 189
+
+[sub_resource type="Resource" id="Resource_3ht1y"]
+script = ExtResource("3_kqnlv")
+move = 229
+
+[sub_resource type="Resource" id="Resource_h3610"]
+script = ExtResource("3_kqnlv")
+level = 4
+move = 10
+
+[sub_resource type="Resource" id="Resource_d462m"]
+script = ExtResource("3_kqnlv")
+level = 8
+move = 468
+
+[sub_resource type="Resource" id="Resource_6kks6"]
+script = ExtResource("3_kqnlv")
+level = 12
+move = 154
+
+[sub_resource type="Resource" id="Resource_p860k"]
+script = ExtResource("3_kqnlv")
+level = 16
+move = 232
+
+[sub_resource type="Resource" id="Resource_dnemd"]
+script = ExtResource("3_kqnlv")
+level = 20
+move = 201
+
+[sub_resource type="Resource" id="Resource_ouaax"]
+script = ExtResource("3_kqnlv")
+level = 24
+move = 306
+
+[sub_resource type="Resource" id="Resource_rf46f"]
+script = ExtResource("3_kqnlv")
+level = 28
+move = 157
+
+[sub_resource type="Resource" id="Resource_txrtt"]
+script = ExtResource("3_kqnlv")
+level = 32
+move = 91
+
+[sub_resource type="Resource" id="Resource_0qa4t"]
+script = ExtResource("3_kqnlv")
+level = 36
+move = 14
+
+[sub_resource type="Resource" id="Resource_uhgbw"]
+script = ExtResource("3_kqnlv")
+level = 40
+move = 529
+
+[sub_resource type="Resource" id="Resource_ata5v"]
+script = ExtResource("3_kqnlv")
+level = 44
+move = 89
+
+[sub_resource type="Resource" id="Resource_omgm8"]
+script = ExtResource("3_kqnlv")
+level = 48
+move = 90
+
+[resource]
+script = ExtResource("4_81tbd")
+id = 529
+display_name = "Drilbur"
+category = "Mole"
+national_dex = 529
+pokedex = "It can dig through the ground at a
+speed of 30 mph by spinning its body.
+It could give a car running aboveground
+a good race."
+type_1 = 5
+base_hp = 60
+base_atk = 85
+base_def = 40
+base_spa = 30
+base_spd = 45
+base_spe = 68
+ev_atk = 1
+catch_rate = 120
+base_exp = 66
+egg_group_1 = 5
+ability_1 = 146
+ability_2 = 159
+ability_hidden = 104
+height_dm = 3
+weight_hg = 85
+body_color = 7
+no_flip = true
+level_moves = Array[ExtResource("3_kqnlv")]([SubResource("Resource_2xekm"), SubResource("Resource_3ht1y"), SubResource("Resource_h3610"), SubResource("Resource_d462m"), SubResource("Resource_6kks6"), SubResource("Resource_p860k"), SubResource("Resource_dnemd"), SubResource("Resource_ouaax"), SubResource("Resource_rf46f"), SubResource("Resource_txrtt"), SubResource("Resource_0qa4t"), SubResource("Resource_uhgbw"), SubResource("Resource_ata5v"), SubResource("Resource_omgm8")])
+egg_moves = Array[int]([334, 229, 414, 306, 319, 66, 130, 431])
+evolutions = Array[ExtResource("1_46ckl")]([SubResource("Resource_y8gau")])

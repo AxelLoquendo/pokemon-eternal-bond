@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://efflcjegrlfn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_5h8ul"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_f0dht"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_55ulo"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mmcs5"]
+
+[sub_resource type="Resource" id="Resource_54kil"]
+script = ExtResource("1_5h8ul")
+method = "LEVEL"
+param = "30"
+target = 124
+
+[sub_resource type="Resource" id="Resource_xyghm"]
+script = ExtResource("3_55ulo")
+move = 122
+
+[sub_resource type="Resource" id="Resource_0cewl"]
+script = ExtResource("3_55ulo")
+move = 1
+
+[sub_resource type="Resource" id="Resource_gj8ct"]
+script = ExtResource("3_55ulo")
+level = 4
+move = 181
+
+[sub_resource type="Resource" id="Resource_naywv"]
+script = ExtResource("3_55ulo")
+level = 8
+move = 383
+
+[sub_resource type="Resource" id="Resource_wtlkj"]
+script = ExtResource("3_55ulo")
+level = 12
+move = 93
+
+[sub_resource type="Resource" id="Resource_jx10m"]
+script = ExtResource("3_55ulo")
+level = 16
+move = 343
+
+[sub_resource type="Resource" id="Resource_kujg2"]
+script = ExtResource("3_55ulo")
+level = 20
+move = 47
+
+[sub_resource type="Resource" id="Resource_f4j72"]
+script = ExtResource("3_55ulo")
+level = 24
+move = 313
+
+[sub_resource type="Resource" id="Resource_8u8o1"]
+script = ExtResource("3_55ulo")
+level = 28
+move = 8
+
+[sub_resource type="Resource" id="Resource_74clc"]
+script = ExtResource("3_55ulo")
+level = 32
+move = 94
+
+[sub_resource type="Resource" id="Resource_sqs4d"]
+script = ExtResource("3_55ulo")
+level = 36
+move = 186
+
+[sub_resource type="Resource" id="Resource_q6vm2"]
+script = ExtResource("3_55ulo")
+level = 40
+move = 212
+
+[sub_resource type="Resource" id="Resource_41vey"]
+script = ExtResource("3_55ulo")
+level = 44
+move = 195
+
+[sub_resource type="Resource" id="Resource_eg6k6"]
+script = ExtResource("3_55ulo")
+level = 48
+move = 59
+
+[resource]
+script = ExtResource("4_mmcs5")
+id = 238
+display_name = "Smoochum"
+category = "Kiss"
+national_dex = 238
+pokedex = "It actively runs about, but also falls
+often. Whenever it falls, it will check its
+reflection on a lake's surface to make
+sure its face hasn't become dirty."
+type_1 = 16
+type_2 = 15
+base_hp = 45
+base_atk = 30
+base_def = 15
+base_spa = 85
+base_spd = 65
+base_spe = 65
+ev_spa = 1
+base_exp = 61
+gender_ratio = 254
+egg_cycles = 25
+ability_1 = 12
+ability_hidden = 93
+height_dm = 4
+weight_hg = 60
+body_color = 9
+level_moves = Array[ExtResource("3_55ulo")]([SubResource("Resource_xyghm"), SubResource("Resource_0cewl"), SubResource("Resource_gj8ct"), SubResource("Resource_naywv"), SubResource("Resource_wtlkj"), SubResource("Resource_jx10m"), SubResource("Resource_kujg2"), SubResource("Resource_f4j72"), SubResource("Resource_8u8o1"), SubResource("Resource_74clc"), SubResource("Resource_sqs4d"), SubResource("Resource_q6vm2"), SubResource("Resource_41vey"), SubResource("Resource_eg6k6")])
+egg_moves = Array[int]([96, 252, 273, 8, 357, 417, 358, 445])
+evolutions = Array[ExtResource("1_5h8ul")]([SubResource("Resource_54kil")])

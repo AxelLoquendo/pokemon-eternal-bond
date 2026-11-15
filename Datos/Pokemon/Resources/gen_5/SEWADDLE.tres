@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b68rdbxj2422l"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_nokfj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i2tws"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1vq1b"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tx7yp"]
+
+[sub_resource type="Resource" id="Resource_3eabw"]
+script = ExtResource("1_nokfj")
+method = "LEVEL"
+param = "20"
+target = 541
+
+[sub_resource type="Resource" id="Resource_oujft"]
+script = ExtResource("3_1vq1b")
+move = 33
+
+[sub_resource type="Resource" id="Resource_3jpqb"]
+script = ExtResource("3_1vq1b")
+move = 81
+
+[sub_resource type="Resource" id="Resource_w146r"]
+script = ExtResource("3_1vq1b")
+level = 8
+move = 450
+
+[sub_resource type="Resource" id="Resource_kqyaa"]
+script = ExtResource("3_1vq1b")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_kkvjr"]
+script = ExtResource("3_1vq1b")
+level = 22
+move = 522
+
+[sub_resource type="Resource" id="Resource_fu07h"]
+script = ExtResource("3_1vq1b")
+level = 29
+move = 203
+
+[sub_resource type="Resource" id="Resource_8xqik"]
+script = ExtResource("3_1vq1b")
+level = 31
+move = 564
+
+[sub_resource type="Resource" id="Resource_1ncsa"]
+script = ExtResource("3_1vq1b")
+level = 36
+move = 405
+
+[sub_resource type="Resource" id="Resource_fu6ds"]
+script = ExtResource("3_1vq1b")
+level = 43
+move = 175
+
+[resource]
+script = ExtResource("4_tx7yp")
+id = 540
+display_name = "Sewaddle"
+category = "Sewing"
+national_dex = 540
+pokedex = "It chews up leaves and sews them with
+sticky thread extruded from its mouth.
+Since this Pokémon makes its own clothes,
+it is a mascot for fashion designers."
+type_1 = 7
+type_2 = 13
+base_hp = 45
+base_atk = 53
+base_def = 70
+base_spa = 40
+base_spd = 60
+base_spe = 42
+ev_def = 1
+catch_rate = 255
+base_exp = 62
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 68
+ability_2 = 34
+ability_hidden = 142
+item_rare = 464
+height_dm = 3
+weight_hg = 25
+body_color = 2
+level_moves = Array[ExtResource("3_1vq1b")]([SubResource("Resource_oujft"), SubResource("Resource_3jpqb"), SubResource("Resource_w146r"), SubResource("Resource_kqyaa"), SubResource("Resource_kkvjr"), SubResource("Resource_fu07h"), SubResource("Resource_8xqik"), SubResource("Resource_1ncsa"), SubResource("Resource_fu6ds")])
+egg_moves = Array[int]([318, 103, 13, 170, 97, 382, 226, 293, 403, 580])
+evolutions = Array[ExtResource("1_nokfj")]([SubResource("Resource_3eabw")])

@@ -1,0 +1,124 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bxo68p5t4hx0m"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_utp0v"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_f1rl5"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_heusw"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_j7sbd"]
+
+[sub_resource type="Resource" id="Resource_tvyb4"]
+script = ExtResource("3_heusw")
+move = 7
+
+[sub_resource type="Resource" id="Resource_xhcgk"]
+script = ExtResource("3_heusw")
+move = 8
+
+[sub_resource type="Resource" id="Resource_sj7sc"]
+script = ExtResource("3_heusw")
+move = 9
+
+[sub_resource type="Resource" id="Resource_falpo"]
+script = ExtResource("3_heusw")
+move = 526
+
+[sub_resource type="Resource" id="Resource_7nfab"]
+script = ExtResource("3_heusw")
+move = 197
+
+[sub_resource type="Resource" id="Resource_kur6x"]
+script = ExtResource("3_heusw")
+move = 93
+
+[sub_resource type="Resource" id="Resource_yokjj"]
+script = ExtResource("3_heusw")
+level = 12
+move = 203
+
+[sub_resource type="Resource" id="Resource_3ueuj"]
+script = ExtResource("3_heusw")
+level = 15
+move = 364
+
+[sub_resource type="Resource" id="Resource_wi2kr"]
+script = ExtResource("3_heusw")
+level = 17
+move = 395
+
+[sub_resource type="Resource" id="Resource_tqu3h"]
+script = ExtResource("3_heusw")
+level = 20
+move = 60
+
+[sub_resource type="Resource" id="Resource_x2gh2"]
+script = ExtResource("3_heusw")
+level = 23
+move = 347
+
+[sub_resource type="Resource" id="Resource_lfncy"]
+script = ExtResource("3_heusw")
+level = 25
+move = 428
+
+[sub_resource type="Resource" id="Resource_i8f3o"]
+script = ExtResource("3_heusw")
+level = 28
+move = 136
+
+[sub_resource type="Resource" id="Resource_cljkx"]
+script = ExtResource("3_heusw")
+level = 31
+move = 244
+
+[sub_resource type="Resource" id="Resource_i4wxa"]
+script = ExtResource("3_heusw")
+level = 33
+move = 367
+
+[sub_resource type="Resource" id="Resource_bjm5i"]
+script = ExtResource("3_heusw")
+level = 36
+move = 379
+
+[sub_resource type="Resource" id="Resource_av78w"]
+script = ExtResource("3_heusw")
+level = 47
+move = 105
+
+[sub_resource type="Resource" id="Resource_hfprj"]
+script = ExtResource("3_heusw")
+level = 53
+move = 68
+
+[sub_resource type="Resource" id="Resource_phb6u"]
+script = ExtResource("3_heusw")
+level = 53
+move = 781
+
+[resource]
+script = ExtResource("4_j7sbd")
+id = 308
+display_name = "Medicham"
+category = "Meditate"
+national_dex = 308
+pokedex = "Through crushingly harsh yoga training, it
+gained the power to foretell its foe's
+actions. It battles with elegant, dance-
+like movement."
+type_1 = 2
+type_2 = 15
+base_hp = 60
+base_atk = 60
+base_def = 75
+base_spa = 60
+base_spd = 75
+base_spe = 80
+ev_spe = 2
+catch_rate = 90
+base_exp = 144
+egg_group_1 = 8
+ability_1 = 74
+ability_hidden = 140
+height_dm = 13
+weight_hg = 315
+level_moves = Array[ExtResource("3_heusw")]([SubResource("Resource_tvyb4"), SubResource("Resource_xhcgk"), SubResource("Resource_sj7sc"), SubResource("Resource_falpo"), SubResource("Resource_7nfab"), SubResource("Resource_kur6x"), SubResource("Resource_yokjj"), SubResource("Resource_3ueuj"), SubResource("Resource_wi2kr"), SubResource("Resource_tqu3h"), SubResource("Resource_x2gh2"), SubResource("Resource_lfncy"), SubResource("Resource_i8f3o"), SubResource("Resource_cljkx"), SubResource("Resource_i4wxa"), SubResource("Resource_bjm5i"), SubResource("Resource_av78w"), SubResource("Resource_hfprj"), SubResource("Resource_phb6u")])
+form_species = Array[int]([308, 934])

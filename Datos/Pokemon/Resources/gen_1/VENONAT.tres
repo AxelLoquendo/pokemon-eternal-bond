@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://sptld18civie"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0weq1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_nrjrx"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_epoqi"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_chmey"]
+
+[sub_resource type="Resource" id="Resource_xg8qy"]
+script = ExtResource("1_0weq1")
+method = "LEVEL"
+param = "31"
+target = 49
+
+[sub_resource type="Resource" id="Resource_em1ex"]
+script = ExtResource("3_epoqi")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ecubg"]
+script = ExtResource("3_epoqi")
+move = 50
+
+[sub_resource type="Resource" id="Resource_on5na"]
+script = ExtResource("3_epoqi")
+level = 5
+move = 48
+
+[sub_resource type="Resource" id="Resource_oa6rc"]
+script = ExtResource("3_epoqi")
+level = 11
+move = 93
+
+[sub_resource type="Resource" id="Resource_ktaip"]
+script = ExtResource("3_epoqi")
+level = 13
+move = 77
+
+[sub_resource type="Resource" id="Resource_fbfan"]
+script = ExtResource("3_epoqi")
+level = 17
+move = 60
+
+[sub_resource type="Resource" id="Resource_ofnp1"]
+script = ExtResource("3_epoqi")
+level = 23
+move = 78
+
+[sub_resource type="Resource" id="Resource_n5a3w"]
+script = ExtResource("3_epoqi")
+level = 25
+move = 405
+
+[sub_resource type="Resource" id="Resource_k0a4f"]
+script = ExtResource("3_epoqi")
+level = 29
+move = 79
+
+[sub_resource type="Resource" id="Resource_syj84"]
+script = ExtResource("3_epoqi")
+level = 35
+move = 141
+
+[sub_resource type="Resource" id="Resource_miq2t"]
+script = ExtResource("3_epoqi")
+level = 37
+move = 428
+
+[sub_resource type="Resource" id="Resource_r5alm"]
+script = ExtResource("3_epoqi")
+level = 41
+move = 305
+
+[sub_resource type="Resource" id="Resource_14uou"]
+script = ExtResource("3_epoqi")
+level = 47
+move = 94
+
+[resource]
+script = ExtResource("4_chmey")
+id = 48
+display_name = "Venonat"
+category = "Insect"
+national_dex = 48
+pokedex = "Its coat of thin, stiff hair that covers
+its entire body is said to have evolved
+for protection. Its large eyes never fail
+to spot even miniscule prey."
+type_1 = 7
+type_2 = 4
+base_hp = 60
+base_atk = 55
+base_def = 50
+base_spa = 40
+base_spd = 55
+base_spe = 45
+ev_spd = 1
+catch_rate = 190
+base_exp = 61
+egg_group_1 = 3
+ability_1 = 14
+ability_hidden = 50
+height_dm = 10
+weight_hg = 300
+body_color = 6
+level_moves = Array[ExtResource("3_epoqi")]([SubResource("Resource_em1ex"), SubResource("Resource_ecubg"), SubResource("Resource_on5na"), SubResource("Resource_oa6rc"), SubResource("Resource_ktaip"), SubResource("Resource_fbfan"), SubResource("Resource_ofnp1"), SubResource("Resource_n5a3w"), SubResource("Resource_k0a4f"), SubResource("Resource_syj84"), SubResource("Resource_miq2t"), SubResource("Resource_r5alm"), SubResource("Resource_14uou")])
+egg_moves = Array[int]([226, 103, 202, 324, 97, 234, 390, 450, 290, 285, 476])
+evolutions = Array[ExtResource("1_0weq1")]([SubResource("Resource_xg8qy")])

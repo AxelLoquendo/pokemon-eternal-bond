@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c6ig8vlrkjfcg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_hyis7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jha73"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_upy8k"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_htxva"]
+
+[sub_resource type="Resource" id="Resource_8nq0e"]
+script = ExtResource("3_upy8k")
+move = 93
+
+[sub_resource type="Resource" id="Resource_1adge"]
+script = ExtResource("3_upy8k")
+move = 134
+
+[sub_resource type="Resource" id="Resource_p6n0f"]
+script = ExtResource("3_upy8k")
+move = 50
+
+[sub_resource type="Resource" id="Resource_qtyl6"]
+script = ExtResource("3_upy8k")
+move = 100
+
+[sub_resource type="Resource" id="Resource_0v8lx"]
+script = ExtResource("3_upy8k")
+level = 5
+move = 60
+
+[sub_resource type="Resource" id="Resource_hqvvd"]
+script = ExtResource("3_upy8k")
+level = 10
+move = 115
+
+[sub_resource type="Resource" id="Resource_8rg1b"]
+script = ExtResource("3_upy8k")
+level = 15
+move = 502
+
+[sub_resource type="Resource" id="Resource_ch2lo"]
+script = ExtResource("3_upy8k")
+level = 20
+move = 427
+
+[sub_resource type="Resource" id="Resource_ye3jb"]
+script = ExtResource("3_upy8k")
+level = 25
+move = 105
+
+[sub_resource type="Resource" id="Resource_hd0xi"]
+script = ExtResource("3_upy8k")
+level = 30
+move = 473
+
+[sub_resource type="Resource" id="Resource_ir7d7"]
+script = ExtResource("3_upy8k")
+level = 35
+move = 94
+
+[sub_resource type="Resource" id="Resource_3ulhy"]
+script = ExtResource("3_upy8k")
+level = 40
+move = 272
+
+[sub_resource type="Resource" id="Resource_kovx2"]
+script = ExtResource("3_upy8k")
+level = 45
+move = 248
+
+[sub_resource type="Resource" id="Resource_m1r62"]
+script = ExtResource("3_upy8k")
+level = 50
+move = 347
+
+[resource]
+script = ExtResource("4_htxva")
+id = 912
+display_name = "Alakazam"
+category = "Psi"
+national_dex = 65
+pokedex = "Having traded away its muscles, Alakazam's
+true power has been unleashed. With its
+psychic powers, it can foresee all things."
+type_1 = 15
+base_hp = 55
+base_atk = 50
+base_def = 65
+base_spa = 175
+base_spd = 105
+base_spe = 150
+ev_spa = 3
+catch_rate = 50
+base_exp = 266
+gender_ratio = 63
+growth_rate = 3
+egg_group_1 = 8
+ability_1 = 36
+ability_2 = 36
+ability_hidden = 36
+item_rare = 435
+height_dm = 12
+weight_hg = 480
+body_color = 5
+level_moves = Array[ExtResource("3_upy8k")]([SubResource("Resource_8nq0e"), SubResource("Resource_1adge"), SubResource("Resource_p6n0f"), SubResource("Resource_qtyl6"), SubResource("Resource_0v8lx"), SubResource("Resource_hqvvd"), SubResource("Resource_8rg1b"), SubResource("Resource_ch2lo"), SubResource("Resource_ye3jb"), SubResource("Resource_hd0xi"), SubResource("Resource_ir7d7"), SubResource("Resource_3ulhy"), SubResource("Resource_kovx2"), SubResource("Resource_m1r62")])
+form_species = Array[int]([65, 912])

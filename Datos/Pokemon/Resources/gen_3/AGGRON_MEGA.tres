@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bsqqvgx7vm10c"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_n7r7r"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_cwp7o"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_56ifs"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_g1k5a"]
+
+[sub_resource type="Resource" id="Resource_js5df"]
+script = ExtResource("3_56ifs")
+move = 33
+
+[sub_resource type="Resource" id="Resource_6t1jy"]
+script = ExtResource("3_56ifs")
+move = 106
+
+[sub_resource type="Resource" id="Resource_3ffgi"]
+script = ExtResource("3_56ifs")
+move = 232
+
+[sub_resource type="Resource" id="Resource_h7o7o"]
+script = ExtResource("3_56ifs")
+move = 317
+
+[sub_resource type="Resource" id="Resource_8383o"]
+script = ExtResource("3_56ifs")
+level = 12
+move = 46
+
+[sub_resource type="Resource" id="Resource_1da32"]
+script = ExtResource("3_56ifs")
+level = 16
+move = 29
+
+[sub_resource type="Resource" id="Resource_psalu"]
+script = ExtResource("3_56ifs")
+level = 20
+move = 182
+
+[sub_resource type="Resource" id="Resource_4b3ii"]
+script = ExtResource("3_56ifs")
+level = 24
+move = 157
+
+[sub_resource type="Resource" id="Resource_osywv"]
+script = ExtResource("3_56ifs")
+level = 28
+move = 442
+
+[sub_resource type="Resource" id="Resource_c21q4"]
+script = ExtResource("3_56ifs")
+level = 35
+move = 319
+
+[sub_resource type="Resource" id="Resource_f65ra"]
+script = ExtResource("3_56ifs")
+level = 40
+move = 36
+
+[sub_resource type="Resource" id="Resource_v8qy0"]
+script = ExtResource("3_56ifs")
+level = 48
+move = 475
+
+[sub_resource type="Resource" id="Resource_1wkmg"]
+script = ExtResource("3_56ifs")
+level = 56
+move = 231
+
+[sub_resource type="Resource" id="Resource_wbofi"]
+script = ExtResource("3_56ifs")
+level = 64
+move = 334
+
+[sub_resource type="Resource" id="Resource_en458"]
+script = ExtResource("3_56ifs")
+level = 72
+move = 484
+
+[sub_resource type="Resource" id="Resource_ff7sn"]
+script = ExtResource("3_56ifs")
+level = 80
+move = 38
+
+[sub_resource type="Resource" id="Resource_l4v0a"]
+script = ExtResource("3_56ifs")
+level = 88
+move = 368
+
+[resource]
+script = ExtResource("4_g1k5a")
+id = 933
+display_name = "Aggron"
+category = "Iron Armor"
+national_dex = 306
+pokedex = "When Aggron Mega Evolves into
+Mega Aggron, the destructive ability of
+its fearsome horns can turn a steel-clad
+tank into so much scrap metal."
+type_1 = 9
+base_hp = 70
+base_atk = 140
+base_def = 230
+base_spa = 60
+base_spd = 80
+base_spe = 50
+ev_def = 3
+base_exp = 315
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 35
+egg_group_1 = 1
+ability_1 = 111
+ability_2 = 111
+ability_hidden = 111
+item_rare = 437
+height_dm = 22
+weight_hg = 3950
+body_color = 7
+level_moves = Array[ExtResource("3_56ifs")]([SubResource("Resource_js5df"), SubResource("Resource_6t1jy"), SubResource("Resource_3ffgi"), SubResource("Resource_h7o7o"), SubResource("Resource_8383o"), SubResource("Resource_1da32"), SubResource("Resource_psalu"), SubResource("Resource_4b3ii"), SubResource("Resource_osywv"), SubResource("Resource_c21q4"), SubResource("Resource_f65ra"), SubResource("Resource_v8qy0"), SubResource("Resource_1wkmg"), SubResource("Resource_wbofi"), SubResource("Resource_en458"), SubResource("Resource_ff7sn"), SubResource("Resource_l4v0a")])
+form_species = Array[int]([306, 933])

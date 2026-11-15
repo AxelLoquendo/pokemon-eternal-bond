@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bschsewdux1ir"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6sba7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2ljur"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_s5br3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_idxlb"]
+
+[sub_resource type="Resource" id="Resource_76v1w"]
+script = ExtResource("1_6sba7")
+method = "LEVEL"
+param = "26"
+target = 964
+
+[sub_resource type="Resource" id="Resource_pnle8"]
+script = ExtResource("3_s5br3")
+move = 28
+
+[sub_resource type="Resource" id="Resource_d2nq8"]
+script = ExtResource("3_s5br3")
+move = 232
+
+[sub_resource type="Resource" id="Resource_qcb7m"]
+script = ExtResource("3_s5br3")
+level = 4
+move = 45
+
+[sub_resource type="Resource" id="Resource_4ctqn"]
+script = ExtResource("3_s5br3")
+level = 8
+move = 310
+
+[sub_resource type="Resource" id="Resource_ghnw5"]
+script = ExtResource("3_s5br3")
+level = 12
+move = 189
+
+[sub_resource type="Resource" id="Resource_owsjv"]
+script = ExtResource("3_s5br3")
+level = 16
+move = 523
+
+[sub_resource type="Resource" id="Resource_nqjem"]
+script = ExtResource("3_s5br3")
+level = 20
+move = 389
+
+[sub_resource type="Resource" id="Resource_sgmam"]
+script = ExtResource("3_s5br3")
+level = 24
+move = 442
+
+[sub_resource type="Resource" id="Resource_48755"]
+script = ExtResource("3_s5br3")
+level = 28
+move = 201
+
+[sub_resource type="Resource" id="Resource_nqtgs"]
+script = ExtResource("3_s5br3")
+level = 32
+move = 91
+
+[sub_resource type="Resource" id="Resource_mnkot"]
+script = ExtResource("3_s5br3")
+level = 36
+move = 414
+
+[sub_resource type="Resource" id="Resource_od08p"]
+script = ExtResource("3_s5br3")
+level = 40
+move = 89
+
+[sub_resource type="Resource" id="Resource_c0815"]
+script = ExtResource("3_s5br3")
+level = 44
+move = 90
+
+[resource]
+script = ExtResource("4_idxlb")
+id = 963
+display_name = "Diglett"
+category = "Mole"
+national_dex = 50
+pokedex = "The metal-rich geology of its habitat
+caused it to develop steel whiskers on its
+head that change shape depending on its
+mood and when communicating with others."
+type_1 = 5
+type_2 = 9
+base_hp = 10
+base_atk = 55
+base_def = 30
+base_spa = 35
+base_spd = 45
+base_spe = 90
+ev_spe = 1
+catch_rate = 255
+base_exp = 53
+egg_group_1 = 5
+ability_1 = 8
+ability_2 = 221
+ability_hidden = 159
+item_rare = 433
+height_dm = 2
+weight_hg = 10
+body_color = 5
+level_moves = Array[ExtResource("3_s5br3")]([SubResource("Resource_pnle8"), SubResource("Resource_d2nq8"), SubResource("Resource_qcb7m"), SubResource("Resource_4ctqn"), SubResource("Resource_ghnw5"), SubResource("Resource_owsjv"), SubResource("Resource_nqjem"), SubResource("Resource_sgmam"), SubResource("Resource_48755"), SubResource("Resource_nqtgs"), SubResource("Resource_mnkot"), SubResource("Resource_od08p"), SubResource("Resource_c0815")])
+egg_moves = Array[int]([246, 251, 203, 185, 515, 29, 262, 319, 228, 179, 37])
+evolutions = Array[ExtResource("1_6sba7")]([SubResource("Resource_76v1w")])
+form_species = Array[int]([50, 963])

@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://da0sf7cpr8i4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_yequh"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_g283x"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rkhwp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3eafg"]
+
+[sub_resource type="Resource" id="Resource_jgeb5"]
+script = ExtResource("3_rkhwp")
+move = 20
+
+[sub_resource type="Resource" id="Resource_sra1a"]
+script = ExtResource("3_rkhwp")
+move = 74
+
+[sub_resource type="Resource" id="Resource_godym"]
+script = ExtResource("3_rkhwp")
+level = 7
+move = 44
+
+[sub_resource type="Resource" id="Resource_3v2wu"]
+script = ExtResource("3_rkhwp")
+level = 11
+move = 22
+
+[sub_resource type="Resource" id="Resource_oi5uf"]
+script = ExtResource("3_rkhwp")
+level = 17
+move = 230
+
+[sub_resource type="Resource" id="Resource_6f1vw"]
+script = ExtResource("3_rkhwp")
+level = 21
+move = 275
+
+[sub_resource type="Resource" id="Resource_55hmy"]
+script = ExtResource("3_rkhwp")
+level = 27
+move = 447
+
+[sub_resource type="Resource" id="Resource_kqlts"]
+script = ExtResource("3_rkhwp")
+level = 31
+move = 536
+
+[sub_resource type="Resource" id="Resource_o3ls3"]
+script = ExtResource("3_rkhwp")
+level = 37
+move = 254
+
+[sub_resource type="Resource" id="Resource_h00x2"]
+script = ExtResource("3_rkhwp")
+level = 37
+move = 255
+
+[sub_resource type="Resource" id="Resource_ydfhl"]
+script = ExtResource("3_rkhwp")
+level = 37
+move = 256
+
+[sub_resource type="Resource" id="Resource_icbyb"]
+script = ExtResource("3_rkhwp")
+level = 41
+move = 242
+
+[sub_resource type="Resource" id="Resource_bhdfg"]
+script = ExtResource("3_rkhwp")
+level = 47
+move = 402
+
+[sub_resource type="Resource" id="Resource_8q8ij"]
+script = ExtResource("3_rkhwp")
+level = 50
+move = 438
+
+[resource]
+script = ExtResource("4_3eafg")
+id = 455
+display_name = "Carnivine"
+category = "Bug Catcher"
+national_dex = 455
+pokedex = "Hanging from branches using its
+tentacles, it looks like a plant.
+It attracts prey with its sweet-smelling
+saliva, then chomps down."
+type_1 = 13
+base_hp = 74
+base_atk = 100
+base_def = 72
+base_spa = 90
+base_spd = 72
+base_spe = 46
+ev_atk = 2
+catch_rate = 200
+base_exp = 159
+growth_rate = 5
+egg_cycles = 25
+egg_group_1 = 7
+ability_1 = 26
+height_dm = 14
+weight_hg = 270
+body_color = 3
+no_flip = true
+level_moves = Array[ExtResource("3_rkhwp")]([SubResource("Resource_jgeb5"), SubResource("Resource_sra1a"), SubResource("Resource_godym"), SubResource("Resource_3v2wu"), SubResource("Resource_oi5uf"), SubResource("Resource_6f1vw"), SubResource("Resource_55hmy"), SubResource("Resource_kqlts"), SubResource("Resource_o3ls3"), SubResource("Resource_h00x2"), SubResource("Resource_ydfhl"), SubResource("Resource_icbyb"), SubResource("Resource_bhdfg"), SubResource("Resource_8q8ij")])
+egg_moves = Array[int]([79, 78, 75, 21, 235, 345, 73, 388, 202, 476, 320, 491])

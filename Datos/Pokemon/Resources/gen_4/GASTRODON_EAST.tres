@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://1fajcu85jisn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_o8co2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_s5pii"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vt338"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_k524e"]
+
+[sub_resource type="Resource" id="Resource_8akfs"]
+script = ExtResource("3_vt338")
+move = 55
+
+[sub_resource type="Resource" id="Resource_8t6t4"]
+script = ExtResource("3_vt338")
+move = 105
+
+[sub_resource type="Resource" id="Resource_etwyj"]
+script = ExtResource("3_vt338")
+move = 106
+
+[sub_resource type="Resource" id="Resource_73lj4"]
+script = ExtResource("3_vt338")
+move = 189
+
+[sub_resource type="Resource" id="Resource_f57rw"]
+script = ExtResource("3_vt338")
+level = 15
+move = 352
+
+[sub_resource type="Resource" id="Resource_obkmf"]
+script = ExtResource("3_vt338")
+level = 20
+move = 246
+
+[sub_resource type="Resource" id="Resource_bqkki"]
+script = ExtResource("3_vt338")
+level = 25
+move = 34
+
+[sub_resource type="Resource" id="Resource_r07db"]
+script = ExtResource("3_vt338")
+level = 33
+move = 330
+
+[sub_resource type="Resource" id="Resource_p7rnm"]
+script = ExtResource("3_vt338")
+level = 39
+move = 414
+
+[sub_resource type="Resource" id="Resource_shahb"]
+script = ExtResource("3_vt338")
+level = 46
+move = 240
+
+[sub_resource type="Resource" id="Resource_fxie3"]
+script = ExtResource("3_vt338")
+level = 53
+move = 262
+
+[resource]
+script = ExtResource("4_k524e")
+id = 1063
+display_name = "Gastrodon"
+category = "Sea Slug"
+national_dex = 423
+pokedex = "Found more often on land than in the sea.
+They normally live in rocky seashores, but
+when cloudy or rainy, they can sometimes
+be found on mountains, far from the sea."
+type_1 = 12
+type_2 = 5
+base_hp = 111
+base_atk = 83
+base_def = 68
+base_spa = 92
+base_spd = 82
+base_spe = 39
+ev_hp = 2
+catch_rate = 75
+base_exp = 166
+egg_group_1 = 2
+egg_group_2 = 11
+ability_1 = 60
+ability_2 = 114
+ability_hidden = 159
+height_dm = 9
+weight_hg = 299
+body_color = 1
+level_moves = Array[ExtResource("3_vt338")]([SubResource("Resource_8akfs"), SubResource("Resource_8t6t4"), SubResource("Resource_etwyj"), SubResource("Resource_73lj4"), SubResource("Resource_f57rw"), SubResource("Resource_obkmf"), SubResource("Resource_bqkki"), SubResource("Resource_r07db"), SubResource("Resource_p7rnm"), SubResource("Resource_shahb"), SubResource("Resource_fxie3")])
+form_species = Array[int]([423, 1063])

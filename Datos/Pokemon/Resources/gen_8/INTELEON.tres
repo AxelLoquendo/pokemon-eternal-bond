@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bi864r212ic6y"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_nbane"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_arfd0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0x50y"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_na3ay"]
+
+[sub_resource type="Resource" id="Resource_635bn"]
+script = ExtResource("3_0x50y")
+level = 0
+move = 691
+
+[sub_resource type="Resource" id="Resource_j56n2"]
+script = ExtResource("3_0x50y")
+move = 1
+
+[sub_resource type="Resource" id="Resource_lbdg4"]
+script = ExtResource("3_0x50y")
+move = 20
+
+[sub_resource type="Resource" id="Resource_nat33"]
+script = ExtResource("3_0x50y")
+move = 45
+
+[sub_resource type="Resource" id="Resource_j7jw8"]
+script = ExtResource("3_0x50y")
+move = 55
+
+[sub_resource type="Resource" id="Resource_xt4dx"]
+script = ExtResource("3_0x50y")
+move = 512
+
+[sub_resource type="Resource" id="Resource_cqe46"]
+script = ExtResource("3_0x50y")
+level = 12
+move = 352
+
+[sub_resource type="Resource" id="Resource_3s56p"]
+script = ExtResource("3_0x50y")
+level = 19
+move = 669
+
+[sub_resource type="Resource" id="Resource_1abol"]
+script = ExtResource("3_0x50y")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_pumep"]
+script = ExtResource("3_0x50y")
+level = 30
+move = 369
+
+[sub_resource type="Resource" id="Resource_y84w4"]
+script = ExtResource("3_0x50y")
+level = 38
+move = 664
+
+[sub_resource type="Resource" id="Resource_4eo5y"]
+script = ExtResource("3_0x50y")
+level = 46
+move = 487
+
+[sub_resource type="Resource" id="Resource_vjoxu"]
+script = ExtResource("3_0x50y")
+level = 54
+move = 240
+
+[sub_resource type="Resource" id="Resource_ek23k"]
+script = ExtResource("3_0x50y")
+level = 62
+move = 56
+
+[resource]
+script = ExtResource("4_na3ay")
+id = 818
+display_name = "Inteleon"
+category = "Secret Agent"
+national_dex = 818
+pokedex = "It has many hidden capabilities, such as
+fingertips that can shoot water and a
+membrane on its back that it can use to
+glide through the air."
+type_1 = 12
+base_hp = 70
+base_atk = 85
+base_def = 65
+base_spa = 125
+base_spd = 65
+base_spe = 120
+ev_spe = 3
+base_exp = 265
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 67
+ability_hidden = 97
+height_dm = 19
+weight_hg = 452
+body_color = 1
+level_moves = Array[ExtResource("3_0x50y")]([SubResource("Resource_635bn"), SubResource("Resource_j56n2"), SubResource("Resource_lbdg4"), SubResource("Resource_nat33"), SubResource("Resource_j7jw8"), SubResource("Resource_xt4dx"), SubResource("Resource_cqe46"), SubResource("Resource_3s56p"), SubResource("Resource_1abol"), SubResource("Resource_pumep"), SubResource("Resource_y84w4"), SubResource("Resource_4eo5y"), SubResource("Resource_vjoxu"), SubResource("Resource_ek23k")])
+form_species = Array[int]([818, 1505])

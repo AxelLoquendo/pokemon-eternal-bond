@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bqc8fwjsovxlw"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_5lg7p"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3knd4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7udwe"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_f0dbi"]
+
+[sub_resource type="Resource" id="Resource_oooo0"]
+script = ExtResource("3_7udwe")
+move = 55
+
+[sub_resource type="Resource" id="Resource_pgef2"]
+script = ExtResource("3_7udwe")
+move = 150
+
+[sub_resource type="Resource" id="Resource_m4gw6"]
+script = ExtResource("3_7udwe")
+level = 6
+move = 106
+
+[sub_resource type="Resource" id="Resource_8dpvn"]
+script = ExtResource("3_7udwe")
+level = 12
+move = 270
+
+[sub_resource type="Resource" id="Resource_2ekin"]
+script = ExtResource("3_7udwe")
+level = 17
+move = 352
+
+[sub_resource type="Resource" id="Resource_r6m8l"]
+script = ExtResource("3_7udwe")
+level = 23
+move = 487
+
+[sub_resource type="Resource" id="Resource_w3wb7"]
+script = ExtResource("3_7udwe")
+level = 28
+move = 269
+
+[sub_resource type="Resource" id="Resource_sixi2"]
+script = ExtResource("3_7udwe")
+level = 34
+move = 262
+
+[sub_resource type="Resource" id="Resource_d7o6e"]
+script = ExtResource("3_7udwe")
+level = 39
+move = 330
+
+[sub_resource type="Resource" id="Resource_w5xm1"]
+script = ExtResource("3_7udwe")
+level = 43
+move = 417
+
+[sub_resource type="Resource" id="Resource_t8323"]
+script = ExtResource("3_7udwe")
+level = 47
+move = 243
+
+[sub_resource type="Resource" id="Resource_rynes"]
+script = ExtResource("3_7udwe")
+level = 52
+move = 406
+
+[resource]
+script = ExtResource("4_f0dbi")
+id = 1369
+display_name = "Tatsugiri"
+category = "Mimicry"
+national_dex = 978
+pokedex = "It's one of the most intelligent
+dragon Pokémon. It camouflages itself
+by inflating its throat sac."
+type_1 = 17
+type_2 = 12
+base_hp = 68
+base_atk = 50
+base_def = 60
+base_spa = 120
+base_spd = 95
+base_spe = 82
+ev_spa = 2
+catch_rate = 100
+base_exp = 166
+growth_rate = 3
+egg_cycles = 35
+egg_group_1 = 12
+ability_1 = 279
+ability_hidden = 114
+height_dm = 3
+weight_hg = 80
+body_color = 2
+level_moves = Array[ExtResource("3_7udwe")]([SubResource("Resource_oooo0"), SubResource("Resource_pgef2"), SubResource("Resource_m4gw6"), SubResource("Resource_8dpvn"), SubResource("Resource_2ekin"), SubResource("Resource_r6m8l"), SubResource("Resource_w3wb7"), SubResource("Resource_sixi2"), SubResource("Resource_d7o6e"), SubResource("Resource_w5xm1"), SubResource("Resource_t8323"), SubResource("Resource_rynes")])
+egg_moves = Array[int]([226, 68, 229])
+form_species = Array[int]([1367, 1368, 1369, 1569, 1570, 1571])

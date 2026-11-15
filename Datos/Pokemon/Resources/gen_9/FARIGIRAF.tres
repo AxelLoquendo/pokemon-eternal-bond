@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://w46i4skm81tp"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_kwc6v"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ttpw3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_45b5r"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7blg8"]
+
+[sub_resource type="Resource" id="Resource_hs5tv"]
+script = ExtResource("3_45b5r")
+move = 33
+
+[sub_resource type="Resource" id="Resource_gl4lh"]
+script = ExtResource("3_45b5r")
+move = 45
+
+[sub_resource type="Resource" id="Resource_lq02a"]
+script = ExtResource("3_45b5r")
+move = 310
+
+[sub_resource type="Resource" id="Resource_xmvwp"]
+script = ExtResource("3_45b5r")
+move = 384
+
+[sub_resource type="Resource" id="Resource_8e4lw"]
+script = ExtResource("3_45b5r")
+move = 385
+
+[sub_resource type="Resource" id="Resource_hdps5"]
+script = ExtResource("3_45b5r")
+level = 5
+move = 93
+
+[sub_resource type="Resource" id="Resource_wtp1y"]
+script = ExtResource("3_45b5r")
+level = 10
+move = 372
+
+[sub_resource type="Resource" id="Resource_fj6n4"]
+script = ExtResource("3_45b5r")
+level = 14
+move = 23
+
+[sub_resource type="Resource" id="Resource_n4jop"]
+script = ExtResource("3_45b5r")
+level = 19
+move = 60
+
+[sub_resource type="Resource" id="Resource_fdqkf"]
+script = ExtResource("3_45b5r")
+level = 23
+move = 97
+
+[sub_resource type="Resource" id="Resource_b475v"]
+script = ExtResource("3_45b5r")
+level = 28
+move = 458
+
+[sub_resource type="Resource" id="Resource_db2ye"]
+script = ExtResource("3_45b5r")
+level = 32
+move = 814
+
+[sub_resource type="Resource" id="Resource_4x7ww"]
+script = ExtResource("3_45b5r")
+level = 37
+move = 242
+
+[sub_resource type="Resource" id="Resource_xop1i"]
+script = ExtResource("3_45b5r")
+level = 41
+move = 226
+
+[sub_resource type="Resource" id="Resource_2ovy8"]
+script = ExtResource("3_45b5r")
+level = 46
+move = 417
+
+[sub_resource type="Resource" id="Resource_eaxln"]
+script = ExtResource("3_45b5r")
+level = 50
+move = 94
+
+[resource]
+script = ExtResource("4_7blg8")
+id = 1372
+display_name = "Farigiraf"
+category = "Long Neck"
+national_dex = 981
+pokedex = "Now that the brain waves from the
+head and tail are synced up, the
+psychic power of this Pokémon is 10
+times stronger than Girafarig's."
+type_1 = 1
+type_2 = 15
+base_hp = 120
+base_atk = 90
+base_def = 70
+base_spa = 110
+base_spd = 70
+base_spe = 60
+ev_hp = 3
+base_exp = 260
+egg_group_1 = 5
+ability_1 = 291
+ability_2 = 296
+ability_hidden = 157
+height_dm = 32
+weight_hg = 1600
+body_color = 5
+level_moves = Array[ExtResource("3_45b5r")]([SubResource("Resource_hs5tv"), SubResource("Resource_gl4lh"), SubResource("Resource_lq02a"), SubResource("Resource_xmvwp"), SubResource("Resource_8e4lw"), SubResource("Resource_hdps5"), SubResource("Resource_wtp1y"), SubResource("Resource_fj6n4"), SubResource("Resource_n4jop"), SubResource("Resource_fdqkf"), SubResource("Resource_b475v"), SubResource("Resource_db2ye"), SubResource("Resource_4x7ww"), SubResource("Resource_xop1i"), SubResource("Resource_2ovy8"), SubResource("Resource_eaxln")])

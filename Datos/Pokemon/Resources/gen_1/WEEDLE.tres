@@ -1,0 +1,56 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d1risfedielnv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_hibrc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_q6vfr"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h887o"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ke521"]
+
+[sub_resource type="Resource" id="Resource_m11lv"]
+script = ExtResource("1_hibrc")
+method = "LEVEL"
+param = "7"
+target = 14
+
+[sub_resource type="Resource" id="Resource_a2hxs"]
+script = ExtResource("3_h887o")
+move = 40
+
+[sub_resource type="Resource" id="Resource_qmu6q"]
+script = ExtResource("3_h887o")
+move = 81
+
+[sub_resource type="Resource" id="Resource_lr0em"]
+script = ExtResource("3_h887o")
+level = 9
+move = 450
+
+[resource]
+script = ExtResource("4_ke521")
+id = 13
+display_name = "Weedle"
+category = "Hairy Bug"
+national_dex = 13
+pokedex = "A Weedle has an extremely acute sense
+of smell. It distinguishes its favorite
+kinds of leaves from those it dislikes by
+sniffing with its big red nose."
+type_1 = 7
+type_2 = 4
+base_hp = 40
+base_atk = 35
+base_def = 30
+base_spa = 20
+base_spd = 20
+base_spe = 50
+ev_spe = 1
+catch_rate = 255
+base_exp = 39
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 19
+ability_hidden = 50
+height_dm = 3
+weight_hg = 32
+body_color = 5
+level_moves = Array[ExtResource("3_h887o")]([SubResource("Resource_a2hxs"), SubResource("Resource_qmu6q"), SubResource("Resource_lr0em")])
+evolutions = Array[ExtResource("1_hibrc")]([SubResource("Resource_m11lv")])

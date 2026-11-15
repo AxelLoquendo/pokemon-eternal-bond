@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ctfmw8jdxwl8n"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jt8bx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_smim3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ayftn"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_e3l7w"]
+
+[sub_resource type="Resource" id="Resource_x0io5"]
+script = ExtResource("3_ayftn")
+move = 186
+
+[sub_resource type="Resource" id="Resource_7mnfd"]
+script = ExtResource("3_ayftn")
+move = 122
+
+[sub_resource type="Resource" id="Resource_bem1w"]
+script = ExtResource("3_ayftn")
+move = 1
+
+[sub_resource type="Resource" id="Resource_m4igb"]
+script = ExtResource("3_ayftn")
+move = 181
+
+[sub_resource type="Resource" id="Resource_6vd01"]
+script = ExtResource("3_ayftn")
+move = 383
+
+[sub_resource type="Resource" id="Resource_dk3e6"]
+script = ExtResource("3_ayftn")
+level = 12
+move = 93
+
+[sub_resource type="Resource" id="Resource_c16jf"]
+script = ExtResource("3_ayftn")
+level = 16
+move = 343
+
+[sub_resource type="Resource" id="Resource_mbg6r"]
+script = ExtResource("3_ayftn")
+level = 20
+move = 47
+
+[sub_resource type="Resource" id="Resource_jcx7d"]
+script = ExtResource("3_ayftn")
+level = 24
+move = 313
+
+[sub_resource type="Resource" id="Resource_psqby"]
+script = ExtResource("3_ayftn")
+level = 28
+move = 8
+
+[sub_resource type="Resource" id="Resource_feyej"]
+script = ExtResource("3_ayftn")
+level = 34
+move = 94
+
+[sub_resource type="Resource" id="Resource_3ybah"]
+script = ExtResource("3_ayftn")
+level = 40
+move = 142
+
+[sub_resource type="Resource" id="Resource_2xanr"]
+script = ExtResource("3_ayftn")
+level = 46
+move = 212
+
+[sub_resource type="Resource" id="Resource_o46ov"]
+script = ExtResource("3_ayftn")
+level = 52
+move = 195
+
+[sub_resource type="Resource" id="Resource_3omka"]
+script = ExtResource("3_ayftn")
+level = 58
+move = 59
+
+[resource]
+script = ExtResource("4_e3l7w")
+id = 124
+display_name = "Jynx"
+category = "Human Shape"
+national_dex = 124
+pokedex = "A Jynx sashays rhythmically as if it were
+dancing. Its motions are so bouncingly
+alluring, people seeing it are compelled to
+shake their hips without noticing."
+type_1 = 16
+type_2 = 15
+base_hp = 65
+base_atk = 50
+base_def = 35
+base_spa = 115
+base_spd = 95
+base_spe = 95
+ev_spa = 2
+base_exp = 159
+gender_ratio = 254
+egg_cycles = 25
+egg_group_1 = 8
+ability_1 = 12
+ability_hidden = 87
+height_dm = 14
+weight_hg = 406
+level_moves = Array[ExtResource("3_ayftn")]([SubResource("Resource_x0io5"), SubResource("Resource_7mnfd"), SubResource("Resource_bem1w"), SubResource("Resource_m4igb"), SubResource("Resource_6vd01"), SubResource("Resource_dk3e6"), SubResource("Resource_c16jf"), SubResource("Resource_mbg6r"), SubResource("Resource_jcx7d"), SubResource("Resource_psqby"), SubResource("Resource_feyej"), SubResource("Resource_3ybah"), SubResource("Resource_2xanr"), SubResource("Resource_o46ov"), SubResource("Resource_3omka")])

@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://byem4pclv5a0q"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0qmhe"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_team6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5wrx1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_yn0qa"]
+
+[sub_resource type="Resource" id="Resource_hag7h"]
+script = ExtResource("3_5wrx1")
+move = 40
+
+[sub_resource type="Resource" id="Resource_as2td"]
+script = ExtResource("3_5wrx1")
+move = 189
+
+[sub_resource type="Resource" id="Resource_j33th"]
+script = ExtResource("3_5wrx1")
+move = 269
+
+[sub_resource type="Resource" id="Resource_5oyer"]
+script = ExtResource("3_5wrx1")
+move = 310
+
+[sub_resource type="Resource" id="Resource_l13e4"]
+script = ExtResource("3_5wrx1")
+level = 12
+move = 260
+
+[sub_resource type="Resource" id="Resource_f8ese"]
+script = ExtResource("3_5wrx1")
+level = 16
+move = 67
+
+[sub_resource type="Resource" id="Resource_i7fi1"]
+script = ExtResource("3_5wrx1")
+level = 20
+move = 474
+
+[sub_resource type="Resource" id="Resource_xl1xr"]
+script = ExtResource("3_5wrx1")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_sw786"]
+script = ExtResource("3_5wrx1")
+level = 28
+move = 207
+
+[sub_resource type="Resource" id="Resource_h17k2"]
+script = ExtResource("3_5wrx1")
+level = 32
+move = 398
+
+[sub_resource type="Resource" id="Resource_8uces"]
+script = ExtResource("3_5wrx1")
+level = 36
+move = 92
+
+[sub_resource type="Resource" id="Resource_norv3"]
+script = ExtResource("3_5wrx1")
+level = 42
+move = 417
+
+[sub_resource type="Resource" id="Resource_npsf8"]
+script = ExtResource("3_5wrx1")
+level = 48
+move = 188
+
+[sub_resource type="Resource" id="Resource_k1u7i"]
+script = ExtResource("3_5wrx1")
+level = 54
+move = 562
+
+[resource]
+script = ExtResource("4_yn0qa")
+id = 454
+display_name = "Toxicroak"
+category = "Toxic Mouth"
+national_dex = 454
+pokedex = "Swaying and dodging the attacks
+of its foes, it weaves its flexible body
+in close, then lunges out with its
+poisonous claws."
+type_1 = 4
+type_2 = 2
+base_hp = 83
+base_atk = 106
+base_def = 65
+base_spa = 86
+base_spd = 65
+base_spe = 85
+ev_atk = 2
+catch_rate = 75
+base_exp = 172
+egg_group_1 = 8
+ability_1 = 107
+ability_2 = 87
+ability_hidden = 143
+item_rare = 487
+height_dm = 13
+weight_hg = 444
+body_color = 1
+level_moves = Array[ExtResource("3_5wrx1")]([SubResource("Resource_hag7h"), SubResource("Resource_as2td"), SubResource("Resource_j33th"), SubResource("Resource_5oyer"), SubResource("Resource_l13e4"), SubResource("Resource_f8ese"), SubResource("Resource_i7fi1"), SubResource("Resource_xl1xr"), SubResource("Resource_sw786"), SubResource("Resource_h17k2"), SubResource("Resource_8uces"), SubResource("Resource_norv3"), SubResource("Resource_npsf8"), SubResource("Resource_k1u7i")])

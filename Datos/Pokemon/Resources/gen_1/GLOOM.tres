@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c5sf1jfj7bmvp"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_y6u13"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_kd0ll"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_re3ds"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_y6ix4"]
+
+[sub_resource type="Resource" id="Resource_qopwg"]
+script = ExtResource("1_y6u13")
+method = "ITEM"
+param = "ITEM_LEAF_STONE"
+target = 45
+
+[sub_resource type="Resource" id="Resource_clmto"]
+script = ExtResource("1_y6u13")
+method = "ITEM"
+param = "ITEM_SUN_STONE"
+target = 182
+
+[sub_resource type="Resource" id="Resource_qtm6d"]
+script = ExtResource("3_re3ds")
+move = 51
+
+[sub_resource type="Resource" id="Resource_kyw63"]
+script = ExtResource("3_re3ds")
+move = 71
+
+[sub_resource type="Resource" id="Resource_pndw2"]
+script = ExtResource("3_re3ds")
+move = 74
+
+[sub_resource type="Resource" id="Resource_mft3b"]
+script = ExtResource("3_re3ds")
+move = 230
+
+[sub_resource type="Resource" id="Resource_1krrx"]
+script = ExtResource("3_re3ds")
+level = 12
+move = 72
+
+[sub_resource type="Resource" id="Resource_w0dvd"]
+script = ExtResource("3_re3ds")
+level = 14
+move = 77
+
+[sub_resource type="Resource" id="Resource_iiy0h"]
+script = ExtResource("3_re3ds")
+level = 16
+move = 78
+
+[sub_resource type="Resource" id="Resource_mk1em"]
+script = ExtResource("3_re3ds")
+level = 18
+move = 79
+
+[sub_resource type="Resource" id="Resource_6cwif"]
+script = ExtResource("3_re3ds")
+level = 20
+move = 202
+
+[sub_resource type="Resource" id="Resource_uo7he"]
+script = ExtResource("3_re3ds")
+level = 26
+move = 92
+
+[sub_resource type="Resource" id="Resource_g6s3r"]
+script = ExtResource("3_re3ds")
+level = 32
+move = 585
+
+[sub_resource type="Resource" id="Resource_m8v2j"]
+script = ExtResource("3_re3ds")
+level = 38
+move = 580
+
+[sub_resource type="Resource" id="Resource_ktj7h"]
+script = ExtResource("3_re3ds")
+level = 44
+move = 236
+
+[sub_resource type="Resource" id="Resource_y55la"]
+script = ExtResource("3_re3ds")
+level = 50
+move = 80
+
+[resource]
+script = ExtResource("4_y6ix4")
+id = 44
+display_name = "Gloom"
+category = "Weed"
+national_dex = 44
+pokedex = "A horribly noxious honey drools from its
+mouth. One whiff of the honey can result
+in memory loss. Some fans are said to
+enjoy this overwhelming stink, however."
+type_1 = 13
+type_2 = 4
+base_hp = 60
+base_atk = 65
+base_def = 70
+base_spa = 85
+base_spd = 75
+base_spe = 40
+ev_spa = 2
+catch_rate = 120
+base_exp = 138
+growth_rate = 3
+egg_group_1 = 7
+ability_1 = 34
+ability_hidden = 1
+item_rare = 455
+height_dm = 8
+weight_hg = 86
+body_color = 1
+no_flip = true
+level_moves = Array[ExtResource("3_re3ds")]([SubResource("Resource_qtm6d"), SubResource("Resource_kyw63"), SubResource("Resource_pndw2"), SubResource("Resource_mft3b"), SubResource("Resource_1krrx"), SubResource("Resource_w0dvd"), SubResource("Resource_iiy0h"), SubResource("Resource_mk1em"), SubResource("Resource_6cwif"), SubResource("Resource_uo7he"), SubResource("Resource_g6s3r"), SubResource("Resource_m8v2j"), SubResource("Resource_ktj7h"), SubResource("Resource_y55la")])
+evolutions = Array[ExtResource("1_y6u13")]([SubResource("Resource_qopwg"), SubResource("Resource_clmto")])

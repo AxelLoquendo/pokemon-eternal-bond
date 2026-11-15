@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b8o8eprkdq7yy"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_w4h7c"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_aar4r"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_djomb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ahfsh"]
+
+[sub_resource type="Resource" id="Resource_wbygg"]
+script = ExtResource("3_djomb")
+move = 212
+
+[sub_resource type="Resource" id="Resource_sqqs0"]
+script = ExtResource("3_djomb")
+move = 325
+
+[sub_resource type="Resource" id="Resource_cygbo"]
+script = ExtResource("3_djomb")
+move = 513
+
+[sub_resource type="Resource" id="Resource_4eicj"]
+script = ExtResource("3_djomb")
+move = 195
+
+[sub_resource type="Resource" id="Resource_e0lsa"]
+script = ExtResource("3_djomb")
+move = 109
+
+[sub_resource type="Resource" id="Resource_1whws"]
+script = ExtResource("3_djomb")
+move = 122
+
+[sub_resource type="Resource" id="Resource_evuw7"]
+script = ExtResource("3_djomb")
+move = 95
+
+[sub_resource type="Resource" id="Resource_oob4v"]
+script = ExtResource("3_djomb")
+level = 12
+move = 371
+
+[sub_resource type="Resource" id="Resource_iuojf"]
+script = ExtResource("3_djomb")
+level = 16
+move = 180
+
+[sub_resource type="Resource" id="Resource_nt3u6"]
+script = ExtResource("3_djomb")
+level = 20
+move = 174
+
+[sub_resource type="Resource" id="Resource_a6bki"]
+script = ExtResource("3_djomb")
+level = 24
+move = 506
+
+[sub_resource type="Resource" id="Resource_i5hqc"]
+script = ExtResource("3_djomb")
+level = 30
+move = 101
+
+[sub_resource type="Resource" id="Resource_up7r0"]
+script = ExtResource("3_djomb")
+level = 36
+move = 389
+
+[sub_resource type="Resource" id="Resource_tt4eo"]
+script = ExtResource("3_djomb")
+level = 42
+move = 399
+
+[sub_resource type="Resource" id="Resource_ru4a1"]
+script = ExtResource("3_djomb")
+level = 48
+move = 247
+
+[sub_resource type="Resource" id="Resource_qyomm"]
+script = ExtResource("3_djomb")
+level = 54
+move = 194
+
+[sub_resource type="Resource" id="Resource_rjpsk"]
+script = ExtResource("3_djomb")
+level = 60
+move = 138
+
+[resource]
+script = ExtResource("4_ahfsh")
+id = 94
+display_name = "Gengar"
+category = "Shadow"
+national_dex = 94
+pokedex = "Deep in the night, your shadow cast by
+a streetlight may suddenly overtake you.
+It is actually a Gengar running past
+you, pretending to be your shadow."
+type_1 = 8
+type_2 = 4
+base_hp = 60
+base_atk = 65
+base_def = 60
+base_spa = 130
+base_spe = 110
+ev_spa = 3
+growth_rate = 3
+egg_group_1 = 11
+height_dm = 15
+weight_hg = 405
+body_color = 6
+level_moves = Array[ExtResource("3_djomb")]([SubResource("Resource_wbygg"), SubResource("Resource_sqqs0"), SubResource("Resource_cygbo"), SubResource("Resource_4eicj"), SubResource("Resource_e0lsa"), SubResource("Resource_1whws"), SubResource("Resource_evuw7"), SubResource("Resource_oob4v"), SubResource("Resource_iuojf"), SubResource("Resource_nt3u6"), SubResource("Resource_a6bki"), SubResource("Resource_i5hqc"), SubResource("Resource_up7r0"), SubResource("Resource_tt4eo"), SubResource("Resource_ru4a1"), SubResource("Resource_qyomm"), SubResource("Resource_rjpsk")])
+form_species = Array[int]([94, 914, 1496])

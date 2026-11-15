@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dua568sbke1ur"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_l7ued"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_n0djt"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8l6t5"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s2k3x"]
+
+[sub_resource type="Resource" id="Resource_gcbxt"]
+script = ExtResource("1_l7ued")
+method = "ITEM"
+param = "ITEM_MASTERPIECE_TEACUP"
+target = 1412
+
+[sub_resource type="Resource" id="Resource_d2fgf"]
+script = ExtResource("3_8l6t5")
+move = 78
+
+[sub_resource type="Resource" id="Resource_s544t"]
+script = ExtResource("3_8l6t5")
+move = 110
+
+[sub_resource type="Resource" id="Resource_igtwb"]
+script = ExtResource("3_8l6t5")
+move = 310
+
+[sub_resource type="Resource" id="Resource_o1ols"]
+script = ExtResource("3_8l6t5")
+level = 6
+move = 71
+
+[sub_resource type="Resource" id="Resource_ica4u"]
+script = ExtResource("3_8l6t5")
+level = 12
+move = 719
+
+[sub_resource type="Resource" id="Resource_b8t2c"]
+script = ExtResource("3_8l6t5")
+level = 18
+move = 492
+
+[sub_resource type="Resource" id="Resource_ft3sx"]
+script = ExtResource("3_8l6t5")
+level = 24
+move = 72
+
+[sub_resource type="Resource" id="Resource_jlyrp"]
+script = ExtResource("3_8l6t5")
+level = 30
+move = 506
+
+[sub_resource type="Resource" id="Resource_0dhmc"]
+script = ExtResource("3_8l6t5")
+level = 36
+move = 476
+
+[sub_resource type="Resource" id="Resource_gtxvs"]
+script = ExtResource("3_8l6t5")
+level = 42
+move = 202
+
+[sub_resource type="Resource" id="Resource_m7ox6"]
+script = ExtResource("3_8l6t5")
+level = 48
+move = 247
+
+[sub_resource type="Resource" id="Resource_33t3e"]
+script = ExtResource("3_8l6t5")
+level = 54
+move = 262
+
+[sub_resource type="Resource" id="Resource_agfda"]
+script = ExtResource("3_8l6t5")
+level = 60
+move = 437
+
+[resource]
+script = ExtResource("4_s2k3x")
+id = 1410
+display_name = "Poltchageist"
+category = "Matcha"
+national_dex = 1012
+pokedex = "It has taken up residence in a very
+expensive tea caddy. It takes an
+expert to distinguish the expensive
+tea caddies from the cheap ones."
+type_1 = 13
+type_2 = 8
+base_hp = 40
+base_atk = 45
+base_def = 45
+base_spa = 74
+base_spd = 54
+base_spe = 50
+ev_spa = 1
+catch_rate = 120
+base_exp = 62
+gender_ratio = 255
+egg_group_1 = 10
+egg_group_2 = 11
+ability_1 = 299
+ability_hidden = 85
+height_dm = 1
+weight_hg = 11
+body_color = 3
+level_moves = Array[ExtResource("3_8l6t5")]([SubResource("Resource_d2fgf"), SubResource("Resource_s544t"), SubResource("Resource_igtwb"), SubResource("Resource_o1ols"), SubResource("Resource_ica4u"), SubResource("Resource_b8t2c"), SubResource("Resource_ft3sx"), SubResource("Resource_jlyrp"), SubResource("Resource_0dhmc"), SubResource("Resource_gtxvs"), SubResource("Resource_m7ox6"), SubResource("Resource_33t3e"), SubResource("Resource_agfda")])
+evolutions = Array[ExtResource("1_l7ued")]([SubResource("Resource_gcbxt")])
+form_species = Array[int]([1409, 1410])

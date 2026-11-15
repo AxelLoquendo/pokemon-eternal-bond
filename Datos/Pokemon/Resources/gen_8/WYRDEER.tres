@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cfbpnmbn2y8k4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_78j2h"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_4s5ad"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8de0h"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xgvnh"]
+
+[sub_resource type="Resource" id="Resource_n1ql2"]
+script = ExtResource("3_8de0h")
+level = 0
+move = 756
+
+[sub_resource type="Resource" id="Resource_s1jve"]
+script = ExtResource("3_8de0h")
+move = 33
+
+[sub_resource type="Resource" id="Resource_j8sri"]
+script = ExtResource("3_8de0h")
+level = 3
+move = 43
+
+[sub_resource type="Resource" id="Resource_osj65"]
+script = ExtResource("3_8de0h")
+level = 7
+move = 310
+
+[sub_resource type="Resource" id="Resource_263y4"]
+script = ExtResource("3_8de0h")
+level = 10
+move = 95
+
+[sub_resource type="Resource" id="Resource_3v0bm"]
+script = ExtResource("3_8de0h")
+level = 13
+move = 23
+
+[sub_resource type="Resource" id="Resource_b3sbg"]
+script = ExtResource("3_8de0h")
+level = 16
+move = 28
+
+[sub_resource type="Resource" id="Resource_nsnfk"]
+script = ExtResource("3_8de0h")
+level = 21
+move = 36
+
+[sub_resource type="Resource" id="Resource_mcgit"]
+script = ExtResource("3_8de0h")
+level = 23
+move = 109
+
+[sub_resource type="Resource" id="Resource_23wp3"]
+script = ExtResource("3_8de0h")
+level = 27
+move = 347
+
+[sub_resource type="Resource" id="Resource_t7pxv"]
+script = ExtResource("3_8de0h")
+level = 32
+move = 272
+
+[sub_resource type="Resource" id="Resource_07peg"]
+script = ExtResource("3_8de0h")
+level = 37
+move = 428
+
+[sub_resource type="Resource" id="Resource_uoiws"]
+script = ExtResource("3_8de0h")
+level = 49
+move = 286
+
+[sub_resource type="Resource" id="Resource_2l6m8"]
+script = ExtResource("3_8de0h")
+level = 55
+move = 38
+
+[sub_resource type="Resource" id="Resource_4gbc5"]
+script = ExtResource("3_8de0h")
+level = 62
+move = 224
+
+[resource]
+script = ExtResource("4_xgvnh")
+id = 899
+display_name = "Wyrdeer"
+category = "Big Horn"
+national_dex = 899
+pokedex = "The black orbs shine with an uncanny light
+when it is erecting invisible barriers.
+The fur shed from its beard retains heat
+and is useful for winter clothing."
+type_1 = 1
+type_2 = 15
+base_hp = 103
+base_atk = 105
+base_def = 72
+base_spa = 105
+base_spd = 75
+base_spe = 65
+ev_atk = 1
+ev_spa = 1
+base_exp = 263
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 22
+ability_2 = 119
+ability_hidden = 157
+height_dm = 18
+weight_hg = 951
+body_color = 7
+level_moves = Array[ExtResource("3_8de0h")]([SubResource("Resource_n1ql2"), SubResource("Resource_s1jve"), SubResource("Resource_j8sri"), SubResource("Resource_osj65"), SubResource("Resource_263y4"), SubResource("Resource_3v0bm"), SubResource("Resource_b3sbg"), SubResource("Resource_nsnfk"), SubResource("Resource_mcgit"), SubResource("Resource_23wp3"), SubResource("Resource_t7pxv"), SubResource("Resource_07peg"), SubResource("Resource_uoiws"), SubResource("Resource_2l6m8"), SubResource("Resource_4gbc5")])

@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d1dou6e05t1ia"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_px2n3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_w8gld"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_e7qon"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qstmv"]
+
+[sub_resource type="Resource" id="Resource_yscrk"]
+script = ExtResource("3_e7qon")
+move = 1
+
+[sub_resource type="Resource" id="Resource_fhcny"]
+script = ExtResource("3_e7qon")
+move = 72
+
+[sub_resource type="Resource" id="Resource_vheyd"]
+script = ExtResource("3_e7qon")
+move = 74
+
+[sub_resource type="Resource" id="Resource_dt6fx"]
+script = ExtResource("3_e7qon")
+move = 93
+
+[sub_resource type="Resource" id="Resource_qe0e3"]
+script = ExtResource("3_e7qon")
+level = 8
+move = 719
+
+[sub_resource type="Resource" id="Resource_ht6mj"]
+script = ExtResource("3_e7qon")
+level = 16
+move = 202
+
+[sub_resource type="Resource" id="Resource_kbr5i"]
+script = ExtResource("3_e7qon")
+level = 24
+move = 473
+
+[sub_resource type="Resource" id="Resource_35pax"]
+script = ExtResource("3_e7qon")
+level = 32
+move = 270
+
+[sub_resource type="Resource" id="Resource_043kv"]
+script = ExtResource("3_e7qon")
+level = 40
+move = 580
+
+[sub_resource type="Resource" id="Resource_ml6nu"]
+script = ExtResource("3_e7qon")
+level = 40
+move = 641
+
+[sub_resource type="Resource" id="Resource_dcuca"]
+script = ExtResource("3_e7qon")
+level = 48
+move = 412
+
+[sub_resource type="Resource" id="Resource_q7w2b"]
+script = ExtResource("3_e7qon")
+level = 56
+move = 94
+
+[sub_resource type="Resource" id="Resource_klgg1"]
+script = ExtResource("3_e7qon")
+level = 64
+move = 73
+
+[sub_resource type="Resource" id="Resource_s58r2"]
+script = ExtResource("3_e7qon")
+level = 72
+move = 505
+
+[sub_resource type="Resource" id="Resource_hlr0k"]
+script = ExtResource("3_e7qon")
+level = 80
+move = 76
+
+[sub_resource type="Resource" id="Resource_qkw47"]
+script = ExtResource("3_e7qon")
+level = 88
+move = 248
+
+[resource]
+script = ExtResource("4_qstmv")
+id = 898
+display_name = "Calyrex"
+category = "King"
+national_dex = 898
+pokedex = "Calyrex is a merciful Pokémon, capable of
+providing healing and blessings. It
+reigned over the Galar region in times
+of yore."
+type_1 = 15
+type_2 = 13
+base_hp = 100
+base_atk = 80
+base_def = 80
+base_spa = 80
+base_spd = 80
+base_spe = 80
+ev_hp = 3
+catch_rate = 3
+base_exp = 250
+base_friendship = 100
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 127
+height_dm = 11
+weight_hg = 77
+body_color = 3
+level_moves = Array[ExtResource("3_e7qon")]([SubResource("Resource_yscrk"), SubResource("Resource_fhcny"), SubResource("Resource_vheyd"), SubResource("Resource_dt6fx"), SubResource("Resource_qe0e3"), SubResource("Resource_ht6mj"), SubResource("Resource_kbr5i"), SubResource("Resource_35pax"), SubResource("Resource_043kv"), SubResource("Resource_ml6nu"), SubResource("Resource_dcuca"), SubResource("Resource_q7w2b"), SubResource("Resource_klgg1"), SubResource("Resource_s58r2"), SubResource("Resource_hlr0k"), SubResource("Resource_qkw47")])
+form_species = Array[int]([898, 1232, 1233])

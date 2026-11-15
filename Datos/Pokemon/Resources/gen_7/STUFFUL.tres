@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cek5hdt5lawg0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cgtrf"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_4r4nv"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_b4sb0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3vxmw"]
+
+[sub_resource type="Resource" id="Resource_ceygo"]
+script = ExtResource("1_cgtrf")
+method = "LEVEL"
+param = "27"
+target = 760
+
+[sub_resource type="Resource" id="Resource_jchbg"]
+script = ExtResource("3_b4sb0")
+move = 33
+
+[sub_resource type="Resource" id="Resource_h5orm"]
+script = ExtResource("3_b4sb0")
+move = 43
+
+[sub_resource type="Resource" id="Resource_71msx"]
+script = ExtResource("3_b4sb0")
+level = 4
+move = 608
+
+[sub_resource type="Resource" id="Resource_728ac"]
+script = ExtResource("3_b4sb0")
+level = 8
+move = 371
+
+[sub_resource type="Resource" id="Resource_1l2a0"]
+script = ExtResource("3_b4sb0")
+level = 12
+move = 656
+
+[sub_resource type="Resource" id="Resource_ame3g"]
+script = ExtResource("3_b4sb0")
+level = 16
+move = 203
+
+[sub_resource type="Resource" id="Resource_bga43"]
+script = ExtResource("3_b4sb0")
+level = 20
+move = 70
+
+[sub_resource type="Resource" id="Resource_not7u"]
+script = ExtResource("3_b4sb0")
+level = 24
+move = 36
+
+[sub_resource type="Resource" id="Resource_4ccji"]
+script = ExtResource("3_b4sb0")
+level = 28
+move = 175
+
+[sub_resource type="Resource" id="Resource_qdhy2"]
+script = ExtResource("3_b4sb0")
+level = 32
+move = 359
+
+[sub_resource type="Resource" id="Resource_q0dr2"]
+script = ExtResource("3_b4sb0")
+level = 36
+move = 37
+
+[sub_resource type="Resource" id="Resource_d2kle"]
+script = ExtResource("3_b4sb0")
+level = 40
+move = 220
+
+[sub_resource type="Resource" id="Resource_b1dhj"]
+script = ExtResource("3_b4sb0")
+level = 44
+move = 38
+
+[sub_resource type="Resource" id="Resource_krwis"]
+script = ExtResource("3_b4sb0")
+level = 48
+move = 276
+
+[resource]
+script = ExtResource("4_3vxmw")
+id = 759
+display_name = "Stufful"
+category = "Flailing"
+national_dex = 759
+pokedex = "Despite its adorable appearance, when it
+gets angry and flails about, its arms and
+legs could knock a pro wrestler sprawling.
+It's an incredibly dangerous Pokémon."
+type_1 = 1
+type_2 = 2
+base_hp = 70
+base_atk = 75
+base_def = 50
+base_spa = 45
+base_spd = 50
+base_spe = 50
+ev_atk = 1
+catch_rate = 140
+base_exp = 68
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 218
+ability_2 = 103
+ability_hidden = 56
+height_dm = 5
+weight_hg = 68
+body_color = 9
+level_moves = Array[ExtResource("3_b4sb0")]([SubResource("Resource_jchbg"), SubResource("Resource_h5orm"), SubResource("Resource_71msx"), SubResource("Resource_728ac"), SubResource("Resource_1l2a0"), SubResource("Resource_ame3g"), SubResource("Resource_bga43"), SubResource("Resource_not7u"), SubResource("Resource_4ccji"), SubResource("Resource_qdhy2"), SubResource("Resource_q0dr2"), SubResource("Resource_d2kle"), SubResource("Resource_b1dhj"), SubResource("Resource_krwis")])
+egg_moves = Array[int]([8, 9, 395, 203, 469, 25, 661])
+evolutions = Array[ExtResource("1_cgtrf")]([SubResource("Resource_ceygo")])

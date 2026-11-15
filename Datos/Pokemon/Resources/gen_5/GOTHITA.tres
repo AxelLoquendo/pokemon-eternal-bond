@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cphjuryjdfif2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qh5er"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_tw6r5"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3ks1g"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fbmek"]
+
+[sub_resource type="Resource" id="Resource_fguym"]
+script = ExtResource("1_qh5er")
+method = "LEVEL"
+param = "32"
+target = 575
+
+[sub_resource type="Resource" id="Resource_bj4vd"]
+script = ExtResource("3_3ks1g")
+move = 1
+
+[sub_resource type="Resource" id="Resource_2youj"]
+script = ExtResource("3_3ks1g")
+move = 93
+
+[sub_resource type="Resource" id="Resource_jlo0n"]
+script = ExtResource("3_3ks1g")
+level = 4
+move = 589
+
+[sub_resource type="Resource" id="Resource_2gytn"]
+script = ExtResource("3_3ks1g")
+level = 8
+move = 321
+
+[sub_resource type="Resource" id="Resource_7qmdc"]
+script = ExtResource("3_3ks1g")
+level = 12
+move = 60
+
+[sub_resource type="Resource" id="Resource_g1lyt"]
+script = ExtResource("3_3ks1g")
+level = 16
+move = 204
+
+[sub_resource type="Resource" id="Resource_p4pah"]
+script = ExtResource("3_3ks1g")
+level = 20
+move = 473
+
+[sub_resource type="Resource" id="Resource_gylx0"]
+script = ExtResource("3_3ks1g")
+level = 24
+move = 95
+
+[sub_resource type="Resource" id="Resource_h2xh3"]
+script = ExtResource("3_3ks1g")
+level = 28
+move = 313
+
+[sub_resource type="Resource" id="Resource_at8dl"]
+script = ExtResource("3_3ks1g")
+level = 33
+move = 244
+
+[sub_resource type="Resource" id="Resource_xayqs"]
+script = ExtResource("3_3ks1g")
+level = 36
+move = 94
+
+[sub_resource type="Resource" id="Resource_pss8p"]
+script = ExtResource("3_3ks1g")
+level = 40
+move = 260
+
+[sub_resource type="Resource" id="Resource_ccjxt"]
+script = ExtResource("3_3ks1g")
+level = 44
+move = 248
+
+[sub_resource type="Resource" id="Resource_rkhjw"]
+script = ExtResource("3_3ks1g")
+level = 48
+move = 478
+
+[resource]
+script = ExtResource("4_fbmek")
+id = 574
+display_name = "Gothita"
+category = "Fixation"
+national_dex = 574
+pokedex = "They intently observe both Trainers and
+Pokémon. Apparently, Gothita are looking
+at something that only they can see. Their
+ribbonlike feelers increase their power."
+type_1 = 15
+base_hp = 45
+base_atk = 30
+base_def = 50
+base_spa = 55
+base_spd = 65
+base_spe = 45
+ev_spd = 1
+catch_rate = 200
+base_exp = 58
+gender_ratio = 191
+growth_rate = 3
+egg_group_1 = 8
+ability_1 = 119
+ability_hidden = 23
+height_dm = 4
+weight_hg = 58
+body_color = 6
+level_moves = Array[ExtResource("3_3ks1g")]([SubResource("Resource_bj4vd"), SubResource("Resource_2youj"), SubResource("Resource_jlo0n"), SubResource("Resource_2gytn"), SubResource("Resource_7qmdc"), SubResource("Resource_g1lyt"), SubResource("Resource_p4pah"), SubResource("Resource_gylx0"), SubResource("Resource_h2xh3"), SubResource("Resource_at8dl"), SubResource("Resource_xayqs"), SubResource("Resource_pss8p"), SubResource("Resource_ccjxt"), SubResource("Resource_rkhjw")])
+egg_moves = Array[int]([243, 253, 357, 445, 212, 399, 505])
+evolutions = Array[ExtResource("1_qh5er")]([SubResource("Resource_fguym")])

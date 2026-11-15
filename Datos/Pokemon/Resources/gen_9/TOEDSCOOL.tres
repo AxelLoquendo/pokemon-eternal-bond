@@ -1,0 +1,128 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1sa7rvsqem5a"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0jiuy"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6iore"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5ial7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xi0k5"]
+
+[sub_resource type="Resource" id="Resource_y2jpb"]
+script = ExtResource("1_0jiuy")
+method = "LEVEL"
+param = "30"
+target = 1337
+
+[sub_resource type="Resource" id="Resource_30xew"]
+script = ExtResource("3_5ial7")
+move = 35
+
+[sub_resource type="Resource" id="Resource_tqyov"]
+script = ExtResource("3_5ial7")
+move = 189
+
+[sub_resource type="Resource" id="Resource_0caxp"]
+script = ExtResource("3_5ial7")
+level = 4
+move = 71
+
+[sub_resource type="Resource" id="Resource_ta0qe"]
+script = ExtResource("3_5ial7")
+level = 8
+move = 77
+
+[sub_resource type="Resource" id="Resource_27axh"]
+script = ExtResource("3_5ial7")
+level = 8
+move = 78
+
+[sub_resource type="Resource" id="Resource_dfb67"]
+script = ExtResource("3_5ial7")
+level = 12
+move = 48
+
+[sub_resource type="Resource" id="Resource_lrpdw"]
+script = ExtResource("3_5ial7")
+level = 15
+move = 33
+
+[sub_resource type="Resource" id="Resource_8lyfc"]
+script = ExtResource("3_5ial7")
+level = 16
+move = 72
+
+[sub_resource type="Resource" id="Resource_ub4uk"]
+script = ExtResource("3_5ial7")
+level = 20
+move = 103
+
+[sub_resource type="Resource" id="Resource_idx6r"]
+script = ExtResource("3_5ial7")
+level = 24
+move = 341
+
+[sub_resource type="Resource" id="Resource_ahgxn"]
+script = ExtResource("3_5ial7")
+level = 28
+move = 506
+
+[sub_resource type="Resource" id="Resource_p15bi"]
+script = ExtResource("3_5ial7")
+level = 32
+move = 402
+
+[sub_resource type="Resource" id="Resource_hmjyo"]
+script = ExtResource("3_5ial7")
+level = 36
+move = 147
+
+[sub_resource type="Resource" id="Resource_7m4w7"]
+script = ExtResource("3_5ial7")
+level = 40
+move = 74
+
+[sub_resource type="Resource" id="Resource_on1ru"]
+script = ExtResource("3_5ial7")
+level = 44
+move = 202
+
+[sub_resource type="Resource" id="Resource_qlxib"]
+script = ExtResource("3_5ial7")
+level = 48
+move = 414
+
+[sub_resource type="Resource" id="Resource_q0d21"]
+script = ExtResource("3_5ial7")
+level = 52
+move = 438
+
+[resource]
+script = ExtResource("4_xi0k5")
+id = 1336
+display_name = "Toedscool"
+category = "Woodear"
+national_dex = 948
+pokedex = "Though it looks like Tentacool,
+Toedscool is a completely different
+species. Its legs may be thin, but it
+can run at a speed of 30 mph."
+type_1 = 5
+type_2 = 13
+base_hp = 40
+base_atk = 40
+base_def = 35
+base_spa = 50
+base_spd = 100
+base_spe = 70
+ev_spd = 1
+catch_rate = 190
+base_exp = 67
+growth_rate = 3
+egg_group_1 = 7
+ability_1 = 298
+item_common = 137
+item_rare = 138
+height_dm = 9
+weight_hg = 330
+body_color = 2
+level_moves = Array[ExtResource("3_5ial7")]([SubResource("Resource_30xew"), SubResource("Resource_tqyov"), SubResource("Resource_0caxp"), SubResource("Resource_ta0qe"), SubResource("Resource_27axh"), SubResource("Resource_dfb67"), SubResource("Resource_lrpdw"), SubResource("Resource_8lyfc"), SubResource("Resource_ub4uk"), SubResource("Resource_idx6r"), SubResource("Resource_ahgxn"), SubResource("Resource_p15bi"), SubResource("Resource_hmjyo"), SubResource("Resource_7m4w7"), SubResource("Resource_on1ru"), SubResource("Resource_qlxib"), SubResource("Resource_q0d21")])
+egg_moves = Array[int]([367, 282, 73, 243, 476, 229, 321, 92])
+evolutions = Array[ExtResource("1_0jiuy")]([SubResource("Resource_y2jpb")])

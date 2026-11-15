@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bti0wukkhdqhl"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_m1neu"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7w2dd"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jgli3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_k58af"]
+
+[sub_resource type="Resource" id="Resource_ms7w7"]
+script = ExtResource("1_m1neu")
+method = "LEVEL"
+param = "30"
+target = 125
+
+[sub_resource type="Resource" id="Resource_knfuo"]
+script = ExtResource("3_jgli3")
+move = 43
+
+[sub_resource type="Resource" id="Resource_watgt"]
+script = ExtResource("3_jgli3")
+move = 98
+
+[sub_resource type="Resource" id="Resource_k62hg"]
+script = ExtResource("3_jgli3")
+level = 4
+move = 84
+
+[sub_resource type="Resource" id="Resource_cwdmy"]
+script = ExtResource("3_jgli3")
+level = 8
+move = 268
+
+[sub_resource type="Resource" id="Resource_cfh1y"]
+script = ExtResource("3_jgli3")
+level = 12
+move = 129
+
+[sub_resource type="Resource" id="Resource_c67ee"]
+script = ExtResource("3_jgli3")
+level = 16
+move = 351
+
+[sub_resource type="Resource" id="Resource_egrrx"]
+script = ExtResource("3_jgli3")
+level = 20
+move = 86
+
+[sub_resource type="Resource" id="Resource_dnsjo"]
+script = ExtResource("3_jgli3")
+level = 24
+move = 103
+
+[sub_resource type="Resource" id="Resource_g1siu"]
+script = ExtResource("3_jgli3")
+level = 28
+move = 9
+
+[sub_resource type="Resource" id="Resource_sqqek"]
+script = ExtResource("3_jgli3")
+level = 32
+move = 435
+
+[sub_resource type="Resource" id="Resource_14q2t"]
+script = ExtResource("3_jgli3")
+level = 36
+move = 67
+
+[sub_resource type="Resource" id="Resource_of5pb"]
+script = ExtResource("3_jgli3")
+level = 40
+move = 85
+
+[sub_resource type="Resource" id="Resource_td814"]
+script = ExtResource("3_jgli3")
+level = 44
+move = 113
+
+[sub_resource type="Resource" id="Resource_app7k"]
+script = ExtResource("3_jgli3")
+level = 48
+move = 87
+
+[resource]
+script = ExtResource("4_k58af")
+id = 239
+display_name = "Elekid"
+category = "Electric"
+national_dex = 239
+pokedex = "If it touches metal and discharges the
+electricity it has stored in its body, an
+Elekid begins swinging its arms in circles
+to recharge itself."
+type_1 = 14
+base_hp = 45
+base_atk = 63
+base_def = 37
+base_spa = 65
+base_spd = 55
+base_spe = 95
+ev_spe = 1
+base_exp = 72
+gender_ratio = 63
+egg_cycles = 25
+ability_1 = 9
+ability_hidden = 72
+item_rare = 230
+height_dm = 6
+weight_hg = 235
+body_color = 2
+no_flip = true
+level_moves = Array[ExtResource("3_jgli3")]([SubResource("Resource_knfuo"), SubResource("Resource_watgt"), SubResource("Resource_k62hg"), SubResource("Resource_cwdmy"), SubResource("Resource_cfh1y"), SubResource("Resource_c67ee"), SubResource("Resource_egrrx"), SubResource("Resource_dnsjo"), SubResource("Resource_g1siu"), SubResource("Resource_sqqek"), SubResource("Resource_14q2t"), SubResource("Resource_of5pb"), SubResource("Resource_td814"), SubResource("Resource_app7k")])
+egg_moves = Array[int]([2, 112, 27, 96, 238, 7, 8, 223, 364, 359, 264])
+evolutions = Array[ExtResource("1_m1neu")]([SubResource("Resource_ms7w7")])

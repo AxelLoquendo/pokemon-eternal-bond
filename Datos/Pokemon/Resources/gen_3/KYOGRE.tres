@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cpnhjoe4rummv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jsj0a"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_a6uu6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8etsl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4xvcq"]
+
+[sub_resource type="Resource" id="Resource_fmp6d"]
+script = ExtResource("3_8etsl")
+move = 34
+
+[sub_resource type="Resource" id="Resource_dpoqs"]
+script = ExtResource("3_8etsl")
+move = 184
+
+[sub_resource type="Resource" id="Resource_0q4cq"]
+script = ExtResource("3_8etsl")
+move = 246
+
+[sub_resource type="Resource" id="Resource_u5vuw"]
+script = ExtResource("3_8etsl")
+move = 352
+
+[sub_resource type="Resource" id="Resource_tu8ws"]
+script = ExtResource("3_8etsl")
+move = 618
+
+[sub_resource type="Resource" id="Resource_ka1te"]
+script = ExtResource("3_8etsl")
+level = 9
+move = 401
+
+[sub_resource type="Resource" id="Resource_8x27x"]
+script = ExtResource("3_8etsl")
+level = 18
+move = 347
+
+[sub_resource type="Resource" id="Resource_wjmad"]
+script = ExtResource("3_8etsl")
+level = 27
+move = 330
+
+[sub_resource type="Resource" id="Resource_c4jiw"]
+script = ExtResource("3_8etsl")
+level = 36
+move = 58
+
+[sub_resource type="Resource" id="Resource_chi8c"]
+script = ExtResource("3_8etsl")
+level = 45
+move = 329
+
+[sub_resource type="Resource" id="Resource_c2tn7"]
+script = ExtResource("3_8etsl")
+level = 54
+move = 392
+
+[sub_resource type="Resource" id="Resource_gft4q"]
+script = ExtResource("3_8etsl")
+level = 72
+move = 56
+
+[sub_resource type="Resource" id="Resource_ctwcn"]
+script = ExtResource("3_8etsl")
+level = 81
+move = 38
+
+[sub_resource type="Resource" id="Resource_3pows"]
+script = ExtResource("3_8etsl")
+level = 90
+move = 323
+
+[resource]
+script = ExtResource("4_4xvcq")
+id = 382
+display_name = "Kyogre"
+category = "Sea Basin"
+national_dex = 382
+pokedex = "Kyogre has appeared in mythology as the
+creator of the sea. After long years of
+feuding with Groudon, it took to sleep at
+the bottom of the sea."
+type_1 = 12
+base_hp = 100
+base_atk = 100
+base_def = 90
+base_spa = 150
+base_spd = 140
+base_spe = 90
+ev_spa = 3
+catch_rate = 3
+base_exp = 218
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 2
+height_dm = 45
+weight_hg = 3520
+body_color = 1
+level_moves = Array[ExtResource("3_8etsl")]([SubResource("Resource_fmp6d"), SubResource("Resource_dpoqs"), SubResource("Resource_0q4cq"), SubResource("Resource_u5vuw"), SubResource("Resource_tu8ws"), SubResource("Resource_ka1te"), SubResource("Resource_8x27x"), SubResource("Resource_wjmad"), SubResource("Resource_c4jiw"), SubResource("Resource_chi8c"), SubResource("Resource_c2tn7"), SubResource("Resource_gft4q"), SubResource("Resource_ctwcn"), SubResource("Resource_3pows")])
+form_species = Array[int]([382, 954])

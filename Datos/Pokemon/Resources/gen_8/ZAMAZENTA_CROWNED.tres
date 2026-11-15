@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cyy5xf0rigqd0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_wx3en"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_telim"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4hqhb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jcjml"]
+
+[sub_resource type="Resource" id="Resource_xlmo3"]
+script = ExtResource("3_4hqhb")
+move = 44
+
+[sub_resource type="Resource" id="Resource_520ji"]
+script = ExtResource("3_4hqhb")
+move = 98
+
+[sub_resource type="Resource" id="Resource_xdm1w"]
+script = ExtResource("3_4hqhb")
+move = 232
+
+[sub_resource type="Resource" id="Resource_7uoi2"]
+script = ExtResource("3_4hqhb")
+move = 336
+
+[sub_resource type="Resource" id="Resource_1thsm"]
+script = ExtResource("3_4hqhb")
+move = 469
+
+[sub_resource type="Resource" id="Resource_cwani"]
+script = ExtResource("3_4hqhb")
+level = 11
+move = 163
+
+[sub_resource type="Resource" id="Resource_0u7yp"]
+script = ExtResource("3_4hqhb")
+level = 22
+move = 334
+
+[sub_resource type="Resource" id="Resource_nifiq"]
+script = ExtResource("3_4hqhb")
+level = 33
+move = 442
+
+[sub_resource type="Resource" id="Resource_puic8"]
+script = ExtResource("3_4hqhb")
+level = 44
+move = 368
+
+[sub_resource type="Resource" id="Resource_3vm4a"]
+script = ExtResource("3_4hqhb")
+level = 55
+move = 242
+
+[sub_resource type="Resource" id="Resource_mflu2"]
+script = ExtResource("3_4hqhb")
+level = 66
+move = 585
+
+[sub_resource type="Resource" id="Resource_q2lew"]
+script = ExtResource("3_4hqhb")
+level = 77
+move = 370
+
+[sub_resource type="Resource" id="Resource_bq6mp"]
+script = ExtResource("3_4hqhb")
+level = 88
+move = 416
+
+[resource]
+script = ExtResource("4_jcjml")
+id = 1228
+display_name = "Zamazenta"
+category = "Warrior"
+national_dex = 889
+pokedex = "Its ability to deflect any attack
+led to it being known as the Fighting
+Master's Shield. It was feared and
+respected by all."
+type_1 = 2
+type_2 = 9
+base_hp = 92
+base_atk = 120
+base_def = 140
+base_spa = 80
+base_spd = 140
+base_spe = 128
+ev_spe = 3
+catch_rate = 10
+base_exp = 350
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 235
+height_dm = 29
+weight_hg = 7850
+level_moves = Array[ExtResource("3_4hqhb")]([SubResource("Resource_xlmo3"), SubResource("Resource_520ji"), SubResource("Resource_xdm1w"), SubResource("Resource_7uoi2"), SubResource("Resource_1thsm"), SubResource("Resource_cwani"), SubResource("Resource_0u7yp"), SubResource("Resource_nifiq"), SubResource("Resource_puic8"), SubResource("Resource_3vm4a"), SubResource("Resource_mflu2"), SubResource("Resource_q2lew"), SubResource("Resource_bq6mp")])
+form_species = Array[int]([889, 1228])

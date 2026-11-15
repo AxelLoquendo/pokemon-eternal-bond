@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b0lrtlfdrq1rn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1py8v"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3k87i"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3tfk0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8ngls"]
+
+[sub_resource type="Resource" id="Resource_6o1rq"]
+script = ExtResource("3_3tfk0")
+move = 33
+
+[sub_resource type="Resource" id="Resource_eadfy"]
+script = ExtResource("3_3tfk0")
+move = 55
+
+[sub_resource type="Resource" id="Resource_5wakb"]
+script = ExtResource("3_3tfk0")
+level = 7
+move = 182
+
+[sub_resource type="Resource" id="Resource_y2tjk"]
+script = ExtResource("3_3tfk0")
+level = 14
+move = 656
+
+[sub_resource type="Resource" id="Resource_bhice"]
+script = ExtResource("3_3tfk0")
+level = 21
+move = 246
+
+[sub_resource type="Resource" id="Resource_tm354"]
+script = ExtResource("3_3tfk0")
+level = 28
+move = 44
+
+[sub_resource type="Resource" id="Resource_3fvhr"]
+script = ExtResource("3_3tfk0")
+level = 35
+move = 225
+
+[sub_resource type="Resource" id="Resource_7ug7c"]
+script = ExtResource("3_3tfk0")
+level = 42
+move = 23
+
+[sub_resource type="Resource" id="Resource_debfe"]
+script = ExtResource("3_3tfk0")
+level = 49
+move = 162
+
+[sub_resource type="Resource" id="Resource_116vt"]
+script = ExtResource("3_3tfk0")
+level = 56
+move = 242
+
+[sub_resource type="Resource" id="Resource_877t4"]
+script = ExtResource("3_3tfk0")
+level = 63
+move = 701
+
+[sub_resource type="Resource" id="Resource_u7rpw"]
+script = ExtResource("3_3tfk0")
+level = 70
+move = 406
+
+[sub_resource type="Resource" id="Resource_rq4cb"]
+script = ExtResource("3_3tfk0")
+level = 77
+move = 407
+
+[resource]
+script = ExtResource("4_8ngls")
+id = 882
+display_name = "Dracovish"
+category = "Fossil"
+national_dex = 882
+pokedex = "Powerful legs and jaws made it the apex
+predator of its time. Its own overhunting
+of its prey was what drove it to
+extinction."
+type_1 = 12
+type_2 = 17
+base_hp = 90
+base_atk = 90
+base_def = 100
+base_spa = 70
+base_spd = 80
+base_spe = 75
+ev_def = 2
+base_exp = 177
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 35
+ability_1 = 11
+ability_2 = 173
+ability_hidden = 146
+height_dm = 23
+weight_hg = 2150
+body_color = 3
+level_moves = Array[ExtResource("3_3tfk0")]([SubResource("Resource_6o1rq"), SubResource("Resource_eadfy"), SubResource("Resource_5wakb"), SubResource("Resource_y2tjk"), SubResource("Resource_bhice"), SubResource("Resource_tm354"), SubResource("Resource_3fvhr"), SubResource("Resource_7ug7c"), SubResource("Resource_debfe"), SubResource("Resource_116vt"), SubResource("Resource_877t4"), SubResource("Resource_u7rpw"), SubResource("Resource_rq4cb")])

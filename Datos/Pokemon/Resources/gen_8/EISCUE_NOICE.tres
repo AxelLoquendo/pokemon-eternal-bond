@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ddjjlsclml1l7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rpxds"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jvfo7"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gukvv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5x7dk"]
+
+[sub_resource type="Resource" id="Resource_b5kuf"]
+script = ExtResource("3_gukvv")
+move = 33
+
+[sub_resource type="Resource" id="Resource_a3wx6"]
+script = ExtResource("3_gukvv")
+move = 181
+
+[sub_resource type="Resource" id="Resource_qyo57"]
+script = ExtResource("3_gukvv")
+level = 6
+move = 54
+
+[sub_resource type="Resource" id="Resource_2ufuy"]
+script = ExtResource("3_gukvv")
+level = 12
+move = 311
+
+[sub_resource type="Resource" id="Resource_hjj0u"]
+script = ExtResource("3_gukvv")
+level = 18
+move = 196
+
+[sub_resource type="Resource" id="Resource_pk8ij"]
+script = ExtResource("3_gukvv")
+level = 24
+move = 29
+
+[sub_resource type="Resource" id="Resource_ohjws"]
+script = ExtResource("3_gukvv")
+level = 30
+move = 133
+
+[sub_resource type="Resource" id="Resource_aajp6"]
+script = ExtResource("3_gukvv")
+level = 36
+move = 573
+
+[sub_resource type="Resource" id="Resource_y0dcy"]
+script = ExtResource("3_gukvv")
+level = 42
+move = 809
+
+[sub_resource type="Resource" id="Resource_lml5f"]
+script = ExtResource("3_gukvv")
+level = 48
+move = 657
+
+[sub_resource type="Resource" id="Resource_grgr2"]
+script = ExtResource("3_gukvv")
+level = 54
+move = 57
+
+[sub_resource type="Resource" id="Resource_hduuo"]
+script = ExtResource("3_gukvv")
+level = 60
+move = 59
+
+[resource]
+script = ExtResource("4_5x7dk")
+id = 1224
+display_name = "Eiscue"
+category = "Penguin"
+national_dex = 875
+pokedex = "The hair on its head connects to
+the surface of its brain. When this
+Pokémon has something on its mind,
+its hair chills the air around it."
+type_1 = 16
+base_hp = 75
+base_atk = 80
+base_def = 70
+base_spa = 65
+base_spd = 50
+base_spe = 130
+ev_def = 2
+catch_rate = 60
+base_exp = 165
+growth_rate = 5
+egg_cycles = 25
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 248
+height_dm = 14
+weight_hg = 890
+body_color = 1
+level_moves = Array[ExtResource("3_gukvv")]([SubResource("Resource_b5kuf"), SubResource("Resource_a3wx6"), SubResource("Resource_qyo57"), SubResource("Resource_2ufuy"), SubResource("Resource_hjj0u"), SubResource("Resource_pk8ij"), SubResource("Resource_ohjws"), SubResource("Resource_aajp6"), SubResource("Resource_y0dcy"), SubResource("Resource_lml5f"), SubResource("Resource_grgr2"), SubResource("Resource_hduuo")])
+egg_moves = Array[int]([487, 392, 187, 38, 556, 457])
+form_species = Array[int]([875, 1224])

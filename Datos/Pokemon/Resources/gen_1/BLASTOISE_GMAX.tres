@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cgxxhqg4m2n04"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8rtyn"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1yc8h"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_s6ifc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ouf5w"]
+
+[sub_resource type="Resource" id="Resource_7w7n0"]
+script = ExtResource("3_s6ifc")
+level = 0
+move = 430
+
+[sub_resource type="Resource" id="Resource_ush1f"]
+script = ExtResource("3_s6ifc")
+move = 33
+
+[sub_resource type="Resource" id="Resource_y4g6n"]
+script = ExtResource("3_s6ifc")
+move = 39
+
+[sub_resource type="Resource" id="Resource_8yabc"]
+script = ExtResource("3_s6ifc")
+move = 55
+
+[sub_resource type="Resource" id="Resource_mhygv"]
+script = ExtResource("3_s6ifc")
+move = 110
+
+[sub_resource type="Resource" id="Resource_86cd5"]
+script = ExtResource("3_s6ifc")
+level = 9
+move = 229
+
+[sub_resource type="Resource" id="Resource_vxjpn"]
+script = ExtResource("3_s6ifc")
+level = 12
+move = 44
+
+[sub_resource type="Resource" id="Resource_rb1bc"]
+script = ExtResource("3_s6ifc")
+level = 15
+move = 352
+
+[sub_resource type="Resource" id="Resource_l34yg"]
+script = ExtResource("3_s6ifc")
+level = 20
+move = 182
+
+[sub_resource type="Resource" id="Resource_0wlls"]
+script = ExtResource("3_s6ifc")
+level = 25
+move = 240
+
+[sub_resource type="Resource" id="Resource_rmt61"]
+script = ExtResource("3_s6ifc")
+level = 30
+move = 401
+
+[sub_resource type="Resource" id="Resource_0or82"]
+script = ExtResource("3_s6ifc")
+level = 35
+move = 504
+
+[sub_resource type="Resource" id="Resource_2insq"]
+script = ExtResource("3_s6ifc")
+level = 42
+move = 334
+
+[sub_resource type="Resource" id="Resource_etu0t"]
+script = ExtResource("3_s6ifc")
+level = 49
+move = 56
+
+[sub_resource type="Resource" id="Resource_usboc"]
+script = ExtResource("3_s6ifc")
+level = 56
+move = 762
+
+[resource]
+script = ExtResource("4_ouf5w")
+id = 1490
+display_name = "Blastoise"
+category = "Shellfish"
+national_dex = 9
+pokedex = "It's not very good at precision
+shooting. When attacking, it just fires
+its 31 cannons over and over and
+over."
+type_1 = 12
+base_hp = 79
+base_atk = 83
+base_def = 100
+base_spa = 85
+base_spe = 78
+ev_spd = 3
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 67
+ability_hidden = 44
+height_dm = 250
+body_color = 1
+level_moves = Array[ExtResource("3_s6ifc")]([SubResource("Resource_7w7n0"), SubResource("Resource_ush1f"), SubResource("Resource_y4g6n"), SubResource("Resource_8yabc"), SubResource("Resource_mhygv"), SubResource("Resource_86cd5"), SubResource("Resource_vxjpn"), SubResource("Resource_rb1bc"), SubResource("Resource_l34yg"), SubResource("Resource_0wlls"), SubResource("Resource_rmt61"), SubResource("Resource_0or82"), SubResource("Resource_2insq"), SubResource("Resource_etu0t"), SubResource("Resource_usboc")])
+form_species = Array[int]([9, 909, 1490])

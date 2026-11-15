@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://iij3y7cghx4n"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_2uehm"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_kvjf0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1yv1o"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qonmw"]
+
+[sub_resource type="Resource" id="Resource_jo88r"]
+script = ExtResource("1_2uehm")
+method = "LEVEL"
+param = "28"
+target = 426
+
+[sub_resource type="Resource" id="Resource_itpoa"]
+script = ExtResource("3_1yv1o")
+move = 107
+
+[sub_resource type="Resource" id="Resource_kgxbd"]
+script = ExtResource("3_1yv1o")
+move = 310
+
+[sub_resource type="Resource" id="Resource_nmi2s"]
+script = ExtResource("3_1yv1o")
+level = 4
+move = 16
+
+[sub_resource type="Resource" id="Resource_x654i"]
+script = ExtResource("3_1yv1o")
+level = 8
+move = 116
+
+[sub_resource type="Resource" id="Resource_0pf1w"]
+script = ExtResource("3_1yv1o")
+level = 12
+move = 371
+
+[sub_resource type="Resource" id="Resource_4ex1b"]
+script = ExtResource("3_1yv1o")
+level = 16
+move = 506
+
+[sub_resource type="Resource" id="Resource_ddd3g"]
+script = ExtResource("3_1yv1o")
+level = 20
+move = 247
+
+[sub_resource type="Resource" id="Resource_ym6yr"]
+script = ExtResource("3_1yv1o")
+level = 24
+move = 254
+
+[sub_resource type="Resource" id="Resource_m4ok5"]
+script = ExtResource("3_1yv1o")
+level = 24
+move = 255
+
+[sub_resource type="Resource" id="Resource_ni8wu"]
+script = ExtResource("3_1yv1o")
+level = 24
+move = 256
+
+[sub_resource type="Resource" id="Resource_li0bu"]
+script = ExtResource("3_1yv1o")
+level = 29
+move = 120
+
+[sub_resource type="Resource" id="Resource_gmoye"]
+script = ExtResource("3_1yv1o")
+level = 32
+move = 194
+
+[sub_resource type="Resource" id="Resource_d75u3"]
+script = ExtResource("3_1yv1o")
+level = 36
+move = 226
+
+[sub_resource type="Resource" id="Resource_go58r"]
+script = ExtResource("3_1yv1o")
+level = 40
+move = 366
+
+[sub_resource type="Resource" id="Resource_j4aav"]
+script = ExtResource("3_1yv1o")
+level = 44
+move = 153
+
+[resource]
+script = ExtResource("4_qonmw")
+id = 425
+display_name = "Drifloon"
+category = "Balloon"
+national_dex = 425
+pokedex = "Because of the way it floats aimlessly,
+an old folktale calls it a “Signpost for
+Wandering Spirits.” Children holding
+them sometimes vanish."
+type_1 = 8
+type_2 = 3
+base_hp = 90
+base_atk = 50
+base_def = 34
+base_spa = 60
+base_spd = 44
+base_spe = 70
+ev_hp = 1
+catch_rate = 125
+base_exp = 70
+growth_rate = 2
+egg_cycles = 30
+egg_group_1 = 11
+ability_1 = 106
+ability_2 = 84
+ability_hidden = 138
+height_dm = 4
+weight_hg = 12
+body_color = 6
+no_flip = true
+level_moves = Array[ExtResource("3_1yv1o")]([SubResource("Resource_itpoa"), SubResource("Resource_kgxbd"), SubResource("Resource_nmi2s"), SubResource("Resource_x654i"), SubResource("Resource_0pf1w"), SubResource("Resource_4ex1b"), SubResource("Resource_ddd3g"), SubResource("Resource_ym6yr"), SubResource("Resource_m4ok5"), SubResource("Resource_ni8wu"), SubResource("Resource_li0bu"), SubResource("Resource_gmoye"), SubResource("Resource_d75u3"), SubResource("Resource_go58r"), SubResource("Resource_j4aav")])
+egg_moves = Array[int]([262, 34, 194, 50, 114, 95, 311, 499, 432, 366])
+evolutions = Array[ExtResource("1_2uehm")]([SubResource("Resource_jo88r")])

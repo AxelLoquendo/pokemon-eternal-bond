@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bgxn1xcrwc6dg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_kn8gw"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_apl4s"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fu5do"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_e2gwu"]
+
+[sub_resource type="Resource" id="Resource_mqqiv"]
+script = ExtResource("3_fu5do")
+move = 153
+
+[sub_resource type="Resource" id="Resource_2iu26"]
+script = ExtResource("3_fu5do")
+move = 585
+
+[sub_resource type="Resource" id="Resource_e07ph"]
+script = ExtResource("3_fu5do")
+move = 567
+
+[sub_resource type="Resource" id="Resource_54gwu"]
+script = ExtResource("3_fu5do")
+move = 310
+
+[sub_resource type="Resource" id="Resource_i7ph5"]
+script = ExtResource("3_fu5do")
+move = 425
+
+[sub_resource type="Resource" id="Resource_uwmvh"]
+script = ExtResource("3_fu5do")
+move = 109
+
+[sub_resource type="Resource" id="Resource_5wjci"]
+script = ExtResource("3_fu5do")
+level = 12
+move = 75
+
+[sub_resource type="Resource" id="Resource_o38ko"]
+script = ExtResource("3_fu5do")
+level = 16
+move = 73
+
+[sub_resource type="Resource" id="Resource_2bnv3"]
+script = ExtResource("3_fu5do")
+level = 20
+move = 331
+
+[sub_resource type="Resource" id="Resource_hapb0"]
+script = ExtResource("3_fu5do")
+level = 24
+move = 567
+
+[sub_resource type="Resource" id="Resource_gw01p"]
+script = ExtResource("3_fu5do")
+level = 24
+move = 184
+
+[sub_resource type="Resource" id="Resource_yjylf"]
+script = ExtResource("3_fu5do")
+level = 28
+move = 388
+
+[sub_resource type="Resource" id="Resource_5053a"]
+script = ExtResource("3_fu5do")
+level = 32
+move = 402
+
+[sub_resource type="Resource" id="Resource_ecj52"]
+script = ExtResource("3_fu5do")
+level = 36
+move = 247
+
+[sub_resource type="Resource" id="Resource_kpb7x"]
+script = ExtResource("3_fu5do")
+level = 40
+move = 271
+
+[sub_resource type="Resource" id="Resource_w5hu2"]
+script = ExtResource("3_fu5do")
+level = 44
+move = 220
+
+[sub_resource type="Resource" id="Resource_3n6ar"]
+script = ExtResource("3_fu5do")
+level = 48
+move = 566
+
+[resource]
+script = ExtResource("4_e2gwu")
+id = 1162
+display_name = "Gourgeist"
+category = "Pumpkin"
+national_dex = 711
+pokedex = "A supersized Pumpkaboo evolves
+into a supersized Gourgeist. Its
+bodily proportions also get passed on to
+its descendants."
+type_1 = 8
+type_2 = 13
+base_hp = 85
+base_atk = 100
+base_def = 122
+base_spa = 58
+base_spd = 75
+base_spe = 54
+ev_def = 2
+catch_rate = 60
+base_exp = 173
+egg_group_1 = 11
+ability_1 = 53
+ability_2 = 119
+ability_hidden = 15
+item_common = 429
+item_rare = 429
+height_dm = 17
+weight_hg = 390
+body_color = 5
+level_moves = Array[ExtResource("3_fu5do")]([SubResource("Resource_mqqiv"), SubResource("Resource_2iu26"), SubResource("Resource_e07ph"), SubResource("Resource_54gwu"), SubResource("Resource_i7ph5"), SubResource("Resource_uwmvh"), SubResource("Resource_5wjci"), SubResource("Resource_o38ko"), SubResource("Resource_2bnv3"), SubResource("Resource_hapb0"), SubResource("Resource_gw01p"), SubResource("Resource_yjylf"), SubResource("Resource_5053a"), SubResource("Resource_ecj52"), SubResource("Resource_kpb7x"), SubResource("Resource_w5hu2"), SubResource("Resource_3n6ar")])
+form_species = Array[int]([711, 1160, 1161, 1162])

@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bx5e1xpjeb57q"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_m6uqy"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wsgim"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wvegh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_aqo4l"]
+
+[sub_resource type="Resource" id="Resource_xnyeh"]
+script = ExtResource("3_wvegh")
+move = 33
+
+[sub_resource type="Resource" id="Resource_idqkf"]
+script = ExtResource("3_wvegh")
+move = 45
+
+[sub_resource type="Resource" id="Resource_shh2b"]
+script = ExtResource("3_wvegh")
+level = 3
+move = 122
+
+[sub_resource type="Resource" id="Resource_pp7ap"]
+script = ExtResource("3_wvegh")
+level = 6
+move = 39
+
+[sub_resource type="Resource" id="Resource_2tel5"]
+script = ExtResource("3_wvegh")
+level = 8
+move = 343
+
+[sub_resource type="Resource" id="Resource_bqii7"]
+script = ExtResource("3_wvegh")
+level = 11
+move = 44
+
+[sub_resource type="Resource" id="Resource_d7uut"]
+script = ExtResource("3_wvegh")
+level = 15
+move = 608
+
+[sub_resource type="Resource" id="Resource_6b2x2"]
+script = ExtResource("3_wvegh")
+level = 18
+move = 583
+
+[sub_resource type="Resource" id="Resource_8orup"]
+script = ExtResource("3_wvegh")
+level = 22
+move = 526
+
+[sub_resource type="Resource" id="Resource_ovmgc"]
+script = ExtResource("3_wvegh")
+level = 29
+move = 226
+
+[sub_resource type="Resource" id="Resource_jvn81"]
+script = ExtResource("3_wvegh")
+level = 33
+move = 46
+
+[sub_resource type="Resource" id="Resource_lmcum"]
+script = ExtResource("3_wvegh")
+level = 38
+move = 38
+
+[sub_resource type="Resource" id="Resource_fv723"]
+script = ExtResource("3_wvegh")
+level = 42
+move = 204
+
+[sub_resource type="Resource" id="Resource_cyjhp"]
+script = ExtResource("3_wvegh")
+level = 47
+move = 242
+
+[sub_resource type="Resource" id="Resource_d3ngk"]
+script = ExtResource("3_wvegh")
+level = 53
+move = 387
+
+[resource]
+script = ExtResource("4_aqo4l")
+id = 1312
+display_name = "Dachsbun"
+category = "Dog"
+national_dex = 927
+pokedex = "The pleasant aroma that emanates
+from this Pokémon's body helps
+wheat grow, so Dachsbun has been
+treasured by farming villages."
+type_1 = 19
+base_hp = 57
+base_atk = 80
+base_def = 115
+base_spa = 50
+base_spd = 80
+base_spe = 95
+ev_spe = 2
+catch_rate = 90
+base_exp = 167
+growth_rate = 3
+egg_group_1 = 5
+egg_group_2 = 10
+ability_1 = 273
+ability_hidden = 165
+height_dm = 5
+weight_hg = 149
+body_color = 5
+level_moves = Array[ExtResource("3_wvegh")]([SubResource("Resource_xnyeh"), SubResource("Resource_idqkf"), SubResource("Resource_shh2b"), SubResource("Resource_pp7ap"), SubResource("Resource_2tel5"), SubResource("Resource_bqii7"), SubResource("Resource_d7uut"), SubResource("Resource_6b2x2"), SubResource("Resource_8orup"), SubResource("Resource_ovmgc"), SubResource("Resource_jvn81"), SubResource("Resource_lmcum"), SubResource("Resource_fv723"), SubResource("Resource_cyjhp"), SubResource("Resource_d3ngk")])

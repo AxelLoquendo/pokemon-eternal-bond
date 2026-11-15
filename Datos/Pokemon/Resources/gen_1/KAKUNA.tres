@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c68eo6ni0o8wf"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rrwoe"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_cq5y5"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kbijy"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cghlq"]
+
+[sub_resource type="Resource" id="Resource_nfxu0"]
+script = ExtResource("1_rrwoe")
+method = "LEVEL"
+param = "10"
+target = 15
+
+[sub_resource type="Resource" id="Resource_r88f3"]
+script = ExtResource("3_kbijy")
+level = 0
+move = 106
+
+[sub_resource type="Resource" id="Resource_hv27r"]
+script = ExtResource("3_kbijy")
+move = 106
+
+[resource]
+script = ExtResource("4_cghlq")
+id = 14
+display_name = "Kakuna"
+category = "Cocoon"
+national_dex = 14
+pokedex = "It remains virtually immobile while it
+clings to a tree. However, on the inside,
+it busily prepares for evolution. This is
+evident from how hot its shell becomes."
+type_1 = 7
+type_2 = 4
+base_hp = 45
+base_atk = 25
+base_def = 50
+base_spa = 25
+base_spd = 25
+base_spe = 35
+ev_def = 2
+catch_rate = 120
+base_exp = 72
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 61
+height_dm = 6
+weight_hg = 100
+body_color = 2
+level_moves = Array[ExtResource("3_kbijy")]([SubResource("Resource_r88f3"), SubResource("Resource_hv27r")])
+evolutions = Array[ExtResource("1_rrwoe")]([SubResource("Resource_nfxu0")])

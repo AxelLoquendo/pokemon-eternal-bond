@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ct7rmj1yik5tq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jjbxw"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_xvqnj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2vdky"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_v2wgb"]
+
+[sub_resource type="Resource" id="Resource_b3y7f"]
+script = ExtResource("3_2vdky")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ehk8v"]
+script = ExtResource("3_2vdky")
+move = 39
+
+[sub_resource type="Resource" id="Resource_d6l4q"]
+script = ExtResource("3_2vdky")
+move = 45
+
+[sub_resource type="Resource" id="Resource_bmjmd"]
+script = ExtResource("3_2vdky")
+move = 270
+
+[sub_resource type="Resource" id="Resource_2554r"]
+script = ExtResource("3_2vdky")
+move = 343
+
+[sub_resource type="Resource" id="Resource_es6hf"]
+script = ExtResource("3_2vdky")
+level = 5
+move = 28
+
+[sub_resource type="Resource" id="Resource_srb72"]
+script = ExtResource("3_2vdky")
+level = 10
+move = 98
+
+[sub_resource type="Resource" id="Resource_vteu0"]
+script = ExtResource("3_2vdky")
+level = 15
+move = 608
+
+[sub_resource type="Resource" id="Resource_lm3wg"]
+script = ExtResource("3_2vdky")
+level = 20
+move = 129
+
+[sub_resource type="Resource" id="Resource_pb3nb"]
+script = ExtResource("3_2vdky")
+level = 25
+move = 44
+
+[sub_resource type="Resource" id="Resource_y7h10"]
+script = ExtResource("3_2vdky")
+level = 30
+move = 383
+
+[sub_resource type="Resource" id="Resource_e03ls"]
+script = ExtResource("3_2vdky")
+level = 35
+move = 226
+
+[sub_resource type="Resource" id="Resource_2xfa0"]
+script = ExtResource("3_2vdky")
+level = 40
+move = 36
+
+[sub_resource type="Resource" id="Resource_pl4wk"]
+script = ExtResource("3_2vdky")
+level = 45
+move = 204
+
+[sub_resource type="Resource" id="Resource_s100o"]
+script = ExtResource("3_2vdky")
+level = 50
+move = 38
+
+[sub_resource type="Resource" id="Resource_yax4p"]
+script = ExtResource("3_2vdky")
+level = 55
+move = 387
+
+[resource]
+script = ExtResource("4_v2wgb")
+id = 1499
+display_name = "Eevee"
+category = "Evolution"
+national_dex = 133
+pokedex = "Having gotten even friendlier and
+more innocent, Eevee tries to play
+with anyone around, only to end up
+crushing them with its immense body."
+type_1 = 1
+base_hp = 55
+base_atk = 55
+base_def = 50
+base_spd = 65
+base_spe = 55
+ev_spd = 1
+base_exp = 65
+gender_ratio = 31
+egg_cycles = 35
+egg_group_1 = 5
+height_dm = 180
+body_color = 5
+level_moves = Array[ExtResource("3_2vdky")]([SubResource("Resource_b3y7f"), SubResource("Resource_ehk8v"), SubResource("Resource_d6l4q"), SubResource("Resource_bmjmd"), SubResource("Resource_2554r"), SubResource("Resource_es6hf"), SubResource("Resource_srb72"), SubResource("Resource_vteu0"), SubResource("Resource_lm3wg"), SubResource("Resource_pb3nb"), SubResource("Resource_y7h10"), SubResource("Resource_e03ls"), SubResource("Resource_2xfa0"), SubResource("Resource_pl4wk"), SubResource("Resource_s100o"), SubResource("Resource_yax4p")])
+egg_moves = Array[int]([204, 175, 203, 174, 321, 273, 281, 313, 343, 197, 363, 500, 485, 445])
+form_species = Array[int]([133, 1499, 1488])

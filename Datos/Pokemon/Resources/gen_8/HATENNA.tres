@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfal27jkhgjvr"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_a2lpl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jbf68"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hwair"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_a1ab7"]
+
+[sub_resource type="Resource" id="Resource_udabo"]
+script = ExtResource("1_a2lpl")
+method = "LEVEL"
+param = "32"
+target = 857
+
+[sub_resource type="Resource" id="Resource_sxvrx"]
+script = ExtResource("3_hwair")
+move = 93
+
+[sub_resource type="Resource" id="Resource_ienby"]
+script = ExtResource("3_hwair")
+move = 589
+
+[sub_resource type="Resource" id="Resource_6thgx"]
+script = ExtResource("3_hwair")
+level = 5
+move = 719
+
+[sub_resource type="Resource" id="Resource_8guqc"]
+script = ExtResource("3_hwair")
+level = 10
+move = 574
+
+[sub_resource type="Resource" id="Resource_a1o30"]
+script = ExtResource("3_hwair")
+level = 15
+move = 597
+
+[sub_resource type="Resource" id="Resource_pnuq6"]
+script = ExtResource("3_hwair")
+level = 20
+move = 60
+
+[sub_resource type="Resource" id="Resource_yd522"]
+script = ExtResource("3_hwair")
+level = 25
+move = 505
+
+[sub_resource type="Resource" id="Resource_gm5so"]
+script = ExtResource("3_hwair")
+level = 30
+move = 605
+
+[sub_resource type="Resource" id="Resource_vsrvd"]
+script = ExtResource("3_hwair")
+level = 35
+move = 347
+
+[sub_resource type="Resource" id="Resource_8yqeg"]
+script = ExtResource("3_hwair")
+level = 40
+move = 94
+
+[sub_resource type="Resource" id="Resource_o5p5i"]
+script = ExtResource("3_hwair")
+level = 45
+move = 361
+
+[resource]
+script = ExtResource("4_a1ab7")
+id = 856
+display_name = "Hatenna"
+category = "Calm"
+national_dex = 856
+pokedex = "Via the protrusion on its head, it senses
+other creatures' emotions. If you don't
+have a calm disposition, it will never
+warm up to you."
+type_1 = 15
+base_hp = 42
+base_atk = 30
+base_def = 45
+base_spa = 56
+base_spd = 53
+base_spe = 39
+ev_spa = 1
+catch_rate = 235
+base_exp = 53
+gender_ratio = 254
+growth_rate = 5
+egg_group_1 = 6
+ability_1 = 131
+ability_2 = 107
+ability_hidden = 156
+height_dm = 4
+weight_hg = 34
+body_color = 9
+level_moves = Array[ExtResource("3_hwair")]([SubResource("Resource_sxvrx"), SubResource("Resource_ienby"), SubResource("Resource_6thgx"), SubResource("Resource_8guqc"), SubResource("Resource_a1o30"), SubResource("Resource_pnuq6"), SubResource("Resource_yd522"), SubResource("Resource_gm5so"), SubResource("Resource_vsrvd"), SubResource("Resource_8yqeg"), SubResource("Resource_o5p5i")])
+egg_moves = Array[int]([597, 609, 495, 511])
+evolutions = Array[ExtResource("1_a2lpl")]([SubResource("Resource_udabo")])

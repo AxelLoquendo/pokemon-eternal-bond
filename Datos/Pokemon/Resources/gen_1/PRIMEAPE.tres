@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://fkload5xjhyv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7qwer"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_p8r7v"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7n3d6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nhkd5"]
+
+[sub_resource type="Resource" id="Resource_s4qfv"]
+script = ExtResource("1_7qwer")
+method = "IF_USED_MOVE_X_TIMES"
+param = "MOVE_RAGE_FIST"
+
+[sub_resource type="Resource" id="Resource_ihy52"]
+script = ExtResource("3_7n3d6")
+move = 10
+
+[sub_resource type="Resource" id="Resource_v6uio"]
+script = ExtResource("3_7n3d6")
+move = 43
+
+[sub_resource type="Resource" id="Resource_8cg4q"]
+script = ExtResource("3_7n3d6")
+move = 374
+
+[sub_resource type="Resource" id="Resource_1kn6o"]
+script = ExtResource("3_7n3d6")
+move = 116
+
+[sub_resource type="Resource" id="Resource_8vjkj"]
+script = ExtResource("3_7n3d6")
+level = 5
+move = 154
+
+[sub_resource type="Resource" id="Resource_wp4kd"]
+script = ExtResource("3_7n3d6")
+level = 8
+move = 67
+
+[sub_resource type="Resource" id="Resource_hsqrx"]
+script = ExtResource("3_7n3d6")
+level = 15
+move = 69
+
+[sub_resource type="Resource" id="Resource_ked8i"]
+script = ExtResource("3_7n3d6")
+level = 17
+move = 207
+
+[sub_resource type="Resource" id="Resource_jh18m"]
+script = ExtResource("3_7n3d6")
+level = 22
+move = 238
+
+[sub_resource type="Resource" id="Resource_i7txv"]
+script = ExtResource("3_7n3d6")
+level = 26
+move = 372
+
+[sub_resource type="Resource" id="Resource_ftvdl"]
+script = ExtResource("3_7n3d6")
+level = 30
+move = 37
+
+[sub_resource type="Resource" id="Resource_fg7v5"]
+script = ExtResource("3_7n3d6")
+level = 35
+move = 815
+
+[sub_resource type="Resource" id="Resource_5w1us"]
+script = ExtResource("3_7n3d6")
+level = 39
+move = 370
+
+[sub_resource type="Resource" id="Resource_rx4yo"]
+script = ExtResource("3_7n3d6")
+level = 44
+move = 103
+
+[sub_resource type="Resource" id="Resource_15geu"]
+script = ExtResource("3_7n3d6")
+level = 48
+move = 661
+
+[sub_resource type="Resource" id="Resource_xlw8q"]
+script = ExtResource("3_7n3d6")
+level = 53
+move = 200
+
+[sub_resource type="Resource" id="Resource_5hada"]
+script = ExtResource("3_7n3d6")
+level = 57
+move = 515
+
+[resource]
+script = ExtResource("4_nhkd5")
+id = 57
+display_name = "Primeape"
+category = "Pig Monkey"
+national_dex = 57
+pokedex = "When it becomes furious, its blood
+circulation becomes more robust, and
+its muscles are made stronger. But it
+also becomes much less intelligent."
+type_1 = 2
+base_hp = 65
+base_atk = 105
+base_def = 60
+base_spa = 60
+base_spd = 70
+base_spe = 95
+ev_atk = 2
+catch_rate = 75
+base_exp = 159
+egg_group_1 = 5
+ability_1 = 72
+ability_hidden = 128
+height_dm = 10
+weight_hg = 320
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_7n3d6")]([SubResource("Resource_ihy52"), SubResource("Resource_v6uio"), SubResource("Resource_8cg4q"), SubResource("Resource_1kn6o"), SubResource("Resource_8vjkj"), SubResource("Resource_wp4kd"), SubResource("Resource_hsqrx"), SubResource("Resource_ked8i"), SubResource("Resource_jh18m"), SubResource("Resource_i7txv"), SubResource("Resource_ftvdl"), SubResource("Resource_fg7v5"), SubResource("Resource_5w1us"), SubResource("Resource_rx4yo"), SubResource("Resource_15geu"), SubResource("Resource_xlw8q"), SubResource("Resource_5hada")])
+evolutions = Array[ExtResource("1_7qwer")]([SubResource("Resource_s4qfv")])

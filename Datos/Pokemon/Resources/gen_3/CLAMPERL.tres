@@ -1,0 +1,68 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://diid34kytex6c"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_btold"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_660fs"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2frq5"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cfu68"]
+
+[sub_resource type="Resource" id="Resource_i5edf"]
+script = ExtResource("1_btold")
+method = "ITEM"
+param = "ITEM_DEEP_SEA_TOOTH"
+target = 367
+
+[sub_resource type="Resource" id="Resource_cbrfb"]
+script = ExtResource("1_btold")
+method = "ITEM"
+param = "ITEM_DEEP_SEA_SCALE"
+target = 368
+
+[sub_resource type="Resource" id="Resource_13hb2"]
+script = ExtResource("3_2frq5")
+move = 55
+
+[sub_resource type="Resource" id="Resource_01wsj"]
+script = ExtResource("3_2frq5")
+move = 250
+
+[sub_resource type="Resource" id="Resource_jw5wq"]
+script = ExtResource("3_2frq5")
+move = 334
+
+[sub_resource type="Resource" id="Resource_p3yp8"]
+script = ExtResource("3_2frq5")
+level = 50
+move = 504
+
+[resource]
+script = ExtResource("4_cfu68")
+id = 366
+display_name = "Clamperl"
+category = "Bivalve"
+national_dex = 366
+pokedex = "A Clamperl slams its shell closed on prey
+to prevent escape. The pearl it creates
+upon evolution is said to be infused with
+a mysterious energy."
+type_1 = 12
+base_hp = 35
+base_atk = 64
+base_def = 85
+base_spa = 74
+base_spd = 55
+base_spe = 32
+ev_def = 1
+catch_rate = 255
+base_exp = 69
+growth_rate = 1
+egg_group_1 = 2
+ability_1 = 75
+ability_hidden = 155
+item_common = 140
+item_rare = 141
+height_dm = 4
+weight_hg = 525
+body_color = 1
+level_moves = Array[ExtResource("3_2frq5")]([SubResource("Resource_13hb2"), SubResource("Resource_01wsj"), SubResource("Resource_jw5wq"), SubResource("Resource_p3yp8")])
+egg_moves = Array[int]([287, 300, 34, 48, 112, 109, 392, 330, 352, 362, 203])
+evolutions = Array[ExtResource("1_btold")]([SubResource("Resource_i5edf"), SubResource("Resource_cbrfb")])

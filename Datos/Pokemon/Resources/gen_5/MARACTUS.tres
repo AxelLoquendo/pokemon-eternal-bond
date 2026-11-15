@@ -1,0 +1,132 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dex2igw5e4y8h"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_44d3e"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_y5kfb"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_v3xvo"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3x881"]
+
+[sub_resource type="Resource" id="Resource_j343j"]
+script = ExtResource("3_v3xvo")
+move = 596
+
+[sub_resource type="Resource" id="Resource_jdt0s"]
+script = ExtResource("3_v3xvo")
+move = 64
+
+[sub_resource type="Resource" id="Resource_h12q1"]
+script = ExtResource("3_v3xvo")
+move = 71
+
+[sub_resource type="Resource" id="Resource_olcjd"]
+script = ExtResource("3_v3xvo")
+move = 495
+
+[sub_resource type="Resource" id="Resource_j7fne"]
+script = ExtResource("3_v3xvo")
+move = 275
+
+[sub_resource type="Resource" id="Resource_rr71u"]
+script = ExtResource("3_v3xvo")
+level = 4
+move = 74
+
+[sub_resource type="Resource" id="Resource_0suac"]
+script = ExtResource("3_v3xvo")
+level = 8
+move = 72
+
+[sub_resource type="Resource" id="Resource_vdub6"]
+script = ExtResource("3_v3xvo")
+level = 12
+move = 73
+
+[sub_resource type="Resource" id="Resource_fotks"]
+script = ExtResource("3_v3xvo")
+level = 16
+move = 389
+
+[sub_resource type="Resource" id="Resource_nmtmf"]
+script = ExtResource("3_v3xvo")
+level = 20
+move = 42
+
+[sub_resource type="Resource" id="Resource_m8ii0"]
+script = ExtResource("3_v3xvo")
+level = 24
+move = 202
+
+[sub_resource type="Resource" id="Resource_otwp0"]
+script = ExtResource("3_v3xvo")
+level = 28
+move = 230
+
+[sub_resource type="Resource" id="Resource_c8qpa"]
+script = ExtResource("3_v3xvo")
+level = 32
+move = 235
+
+[sub_resource type="Resource" id="Resource_26ryq"]
+script = ExtResource("3_v3xvo")
+level = 36
+move = 572
+
+[sub_resource type="Resource" id="Resource_ouv6d"]
+script = ExtResource("3_v3xvo")
+level = 40
+move = 178
+
+[sub_resource type="Resource" id="Resource_yeppb"]
+script = ExtResource("3_v3xvo")
+level = 44
+move = 241
+
+[sub_resource type="Resource" id="Resource_06h1g"]
+script = ExtResource("3_v3xvo")
+level = 48
+move = 76
+
+[sub_resource type="Resource" id="Resource_q36q8"]
+script = ExtResource("3_v3xvo")
+level = 52
+move = 367
+
+[sub_resource type="Resource" id="Resource_ej088"]
+script = ExtResource("3_v3xvo")
+level = 56
+move = 80
+
+[sub_resource type="Resource" id="Resource_kqie1"]
+script = ExtResource("3_v3xvo")
+level = 60
+move = 538
+
+[resource]
+script = ExtResource("4_3x881")
+id = 556
+display_name = "Maractus"
+category = "Cactus"
+national_dex = 556
+pokedex = "Arid regions are their habitat.
+When it moves rhythmically, it makes a
+sound similar to maracas, making the
+surprised Pokémon flee."
+type_1 = 13
+base_hp = 75
+base_atk = 86
+base_def = 67
+base_spa = 106
+base_spd = 67
+base_spe = 60
+ev_spa = 2
+catch_rate = 255
+base_exp = 161
+egg_group_1 = 7
+ability_1 = 11
+ability_2 = 34
+ability_hidden = 114
+item_rare = 429
+height_dm = 10
+weight_hg = 280
+body_color = 3
+level_moves = Array[ExtResource("3_v3xvo")]([SubResource("Resource_j343j"), SubResource("Resource_jdt0s"), SubResource("Resource_h12q1"), SubResource("Resource_olcjd"), SubResource("Resource_j7fne"), SubResource("Resource_rr71u"), SubResource("Resource_0suac"), SubResource("Resource_vdub6"), SubResource("Resource_fotks"), SubResource("Resource_nmtmf"), SubResource("Resource_m8ii0"), SubResource("Resource_otwp0"), SubResource("Resource_c8qpa"), SubResource("Resource_26ryq"), SubResource("Resource_ouv6d"), SubResource("Resource_yeppb"), SubResource("Resource_06h1g"), SubResource("Resource_q36q8"), SubResource("Resource_ej088"), SubResource("Resource_kqie1")])
+egg_moves = Array[int]([331, 340, 388, 73, 402, 452, 191, 320, 580])

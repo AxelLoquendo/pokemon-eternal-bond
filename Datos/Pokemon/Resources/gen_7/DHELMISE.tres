@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bfidnvgyeidak"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7ooiv"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_q6ihn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ab167"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_171pm"]
+
+[sub_resource type="Resource" id="Resource_ohow4"]
+script = ExtResource("3_ab167")
+move = 71
+
+[sub_resource type="Resource" id="Resource_fqg8h"]
+script = ExtResource("3_ab167")
+move = 229
+
+[sub_resource type="Resource" id="Resource_t7wom"]
+script = ExtResource("3_ab167")
+level = 4
+move = 310
+
+[sub_resource type="Resource" id="Resource_s1b3c"]
+script = ExtResource("3_ab167")
+level = 8
+move = 35
+
+[sub_resource type="Resource" id="Resource_g2xiq"]
+script = ExtResource("3_ab167")
+level = 12
+move = 72
+
+[sub_resource type="Resource" id="Resource_8wxse"]
+script = ExtResource("3_ab167")
+level = 16
+move = 74
+
+[sub_resource type="Resource" id="Resource_oks3m"]
+script = ExtResource("3_ab167")
+level = 20
+move = 360
+
+[sub_resource type="Resource" id="Resource_ppesa"]
+script = ExtResource("3_ab167")
+level = 24
+move = 415
+
+[sub_resource type="Resource" id="Resource_ysccl"]
+script = ExtResource("3_ab167")
+level = 28
+move = 202
+
+[sub_resource type="Resource" id="Resource_j4v48"]
+script = ExtResource("3_ab167")
+level = 32
+move = 250
+
+[sub_resource type="Resource" id="Resource_ulyc8"]
+script = ExtResource("3_ab167")
+level = 36
+move = 484
+
+[sub_resource type="Resource" id="Resource_715ov"]
+script = ExtResource("3_ab167")
+level = 40
+move = 21
+
+[sub_resource type="Resource" id="Resource_ixaqa"]
+script = ExtResource("3_ab167")
+level = 44
+move = 247
+
+[sub_resource type="Resource" id="Resource_e3edu"]
+script = ExtResource("3_ab167")
+level = 48
+move = 319
+
+[sub_resource type="Resource" id="Resource_0y87d"]
+script = ExtResource("3_ab167")
+level = 52
+move = 640
+
+[sub_resource type="Resource" id="Resource_a5kcy"]
+script = ExtResource("3_ab167")
+level = 56
+move = 412
+
+[sub_resource type="Resource" id="Resource_ibt8f"]
+script = ExtResource("3_ab167")
+level = 60
+move = 566
+
+[sub_resource type="Resource" id="Resource_lj3wo"]
+script = ExtResource("3_ab167")
+level = 64
+move = 438
+
+[resource]
+script = ExtResource("4_171pm")
+id = 781
+display_name = "Dhelmise"
+category = "Sea Creeper"
+national_dex = 781
+pokedex = "The soul of seaweed adrift in the waves
+became reborn as this Pokémon.
+It maintains itself with new infusions of
+seabed detritus and seaweed."
+type_1 = 8
+type_2 = 13
+base_hp = 70
+base_atk = 131
+base_def = 100
+base_spa = 86
+base_spd = 90
+base_spe = 40
+ev_atk = 2
+catch_rate = 25
+base_exp = 181
+gender_ratio = 255
+egg_cycles = 25
+egg_group_1 = 10
+ability_1 = 200
+height_dm = 39
+weight_hg = 2100
+body_color = 3
+no_flip = true
+level_moves = Array[ExtResource("3_ab167")]([SubResource("Resource_ohow4"), SubResource("Resource_fqg8h"), SubResource("Resource_t7wom"), SubResource("Resource_s1b3c"), SubResource("Resource_g2xiq"), SubResource("Resource_8wxse"), SubResource("Resource_oks3m"), SubResource("Resource_ppesa"), SubResource("Resource_ysccl"), SubResource("Resource_j4v48"), SubResource("Resource_ulyc8"), SubResource("Resource_715ov"), SubResource("Resource_ixaqa"), SubResource("Resource_e3edu"), SubResource("Resource_0y87d"), SubResource("Resource_a5kcy"), SubResource("Resource_ibt8f"), SubResource("Resource_lj3wo")])

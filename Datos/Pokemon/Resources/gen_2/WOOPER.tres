@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c34hm86yrg8j4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vrgnf"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_n1ydo"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mjc4m"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rf378"]
+
+[sub_resource type="Resource" id="Resource_qwdef"]
+script = ExtResource("1_vrgnf")
+method = "LEVEL"
+param = "20"
+target = 195
+
+[sub_resource type="Resource" id="Resource_jpmdd"]
+script = ExtResource("3_mjc4m")
+move = 39
+
+[sub_resource type="Resource" id="Resource_w80bi"]
+script = ExtResource("3_mjc4m")
+move = 55
+
+[sub_resource type="Resource" id="Resource_imntm"]
+script = ExtResource("3_mjc4m")
+level = 4
+move = 240
+
+[sub_resource type="Resource" id="Resource_t2jeu"]
+script = ExtResource("3_mjc4m")
+level = 8
+move = 341
+
+[sub_resource type="Resource" id="Resource_nthsk"]
+script = ExtResource("3_mjc4m")
+level = 12
+move = 54
+
+[sub_resource type="Resource" id="Resource_4p0ue"]
+script = ExtResource("3_mjc4m")
+level = 12
+move = 114
+
+[sub_resource type="Resource" id="Resource_hjuf6"]
+script = ExtResource("3_mjc4m")
+level = 16
+move = 21
+
+[sub_resource type="Resource" id="Resource_6y7sn"]
+script = ExtResource("3_mjc4m")
+level = 21
+move = 281
+
+[sub_resource type="Resource" id="Resource_t0f3n"]
+script = ExtResource("3_mjc4m")
+level = 24
+move = 401
+
+[sub_resource type="Resource" id="Resource_v1pcw"]
+script = ExtResource("3_mjc4m")
+level = 28
+move = 330
+
+[sub_resource type="Resource" id="Resource_ccidk"]
+script = ExtResource("3_mjc4m")
+level = 32
+move = 133
+
+[sub_resource type="Resource" id="Resource_kd88l"]
+script = ExtResource("3_mjc4m")
+level = 36
+move = 92
+
+[sub_resource type="Resource" id="Resource_2s2tc"]
+script = ExtResource("3_mjc4m")
+level = 40
+move = 89
+
+[resource]
+script = ExtResource("4_rf378")
+id = 194
+display_name = "Wooper"
+category = "Water Fish"
+national_dex = 194
+pokedex = "Wooper usually live in water but come
+out onto land seeking food occasionally.
+On land, they coat their bodies with a
+gooey, toxic film."
+type_1 = 12
+type_2 = 5
+base_hp = 55
+base_atk = 45
+base_def = 45
+base_spa = 25
+base_spd = 25
+base_spe = 15
+ev_hp = 1
+catch_rate = 255
+base_exp = 42
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 6
+ability_2 = 11
+ability_hidden = 109
+height_dm = 4
+weight_hg = 85
+body_color = 1
+level_moves = Array[ExtResource("3_mjc4m")]([SubResource("Resource_jpmdd"), SubResource("Resource_w80bi"), SubResource("Resource_imntm"), SubResource("Resource_t2jeu"), SubResource("Resource_nthsk"), SubResource("Resource_4p0ue"), SubResource("Resource_hjuf6"), SubResource("Resource_6y7sn"), SubResource("Resource_t0f3n"), SubResource("Resource_v1pcw"), SubResource("Resource_ccidk"), SubResource("Resource_kd88l"), SubResource("Resource_2s2tc")])
+egg_moves = Array[int]([34, 246, 174, 300, 254, 256, 255, 68, 227, 24, 105, 495, 214, 491, 385, 598, 612])
+evolutions = Array[ExtResource("1_vrgnf")]([SubResource("Resource_qwdef")])
+form_species = Array[int]([194, 1405])

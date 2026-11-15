@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dahsvmab2hlov"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_pq22e"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wus3f"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cko2u"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tp3i5"]
+
+[sub_resource type="Resource" id="Resource_bwmqb"]
+script = ExtResource("1_pq22e")
+method = "ITEM"
+param = "ITEM_WATER_STONE"
+target = 121
+
+[sub_resource type="Resource" id="Resource_rue7c"]
+script = ExtResource("3_cko2u")
+move = 33
+
+[sub_resource type="Resource" id="Resource_c8w8i"]
+script = ExtResource("3_cko2u")
+move = 106
+
+[sub_resource type="Resource" id="Resource_roeo1"]
+script = ExtResource("3_cko2u")
+level = 4
+move = 55
+
+[sub_resource type="Resource" id="Resource_dakch"]
+script = ExtResource("3_cko2u")
+level = 8
+move = 109
+
+[sub_resource type="Resource" id="Resource_cnqym"]
+script = ExtResource("3_cko2u")
+level = 12
+move = 229
+
+[sub_resource type="Resource" id="Resource_sasit"]
+script = ExtResource("3_cko2u")
+level = 16
+move = 107
+
+[sub_resource type="Resource" id="Resource_62m8v"]
+script = ExtResource("3_cko2u")
+level = 20
+move = 129
+
+[sub_resource type="Resource" id="Resource_7w7bl"]
+script = ExtResource("3_cko2u")
+level = 24
+move = 60
+
+[sub_resource type="Resource" id="Resource_x27re"]
+script = ExtResource("3_cko2u")
+level = 28
+move = 362
+
+[sub_resource type="Resource" id="Resource_d7ijd"]
+script = ExtResource("3_cko2u")
+level = 32
+move = 113
+
+[sub_resource type="Resource" id="Resource_aisxu"]
+script = ExtResource("3_cko2u")
+level = 36
+move = 408
+
+[sub_resource type="Resource" id="Resource_pawil"]
+script = ExtResource("3_cko2u")
+level = 40
+move = 94
+
+[sub_resource type="Resource" id="Resource_m8e8n"]
+script = ExtResource("3_cko2u")
+level = 44
+move = 57
+
+[sub_resource type="Resource" id="Resource_pw2fh"]
+script = ExtResource("3_cko2u")
+level = 48
+move = 105
+
+[sub_resource type="Resource" id="Resource_uhmju"]
+script = ExtResource("3_cko2u")
+level = 52
+move = 322
+
+[sub_resource type="Resource" id="Resource_xc4o3"]
+script = ExtResource("3_cko2u")
+level = 56
+move = 56
+
+[resource]
+script = ExtResource("4_tp3i5")
+id = 120
+display_name = "Staryu"
+category = "Star Shape"
+national_dex = 120
+pokedex = "It gathers with others in the night and
+makes its red core glow on and off with
+the twinkling stars. It can regenerate
+limbs if they are severed from its body."
+type_1 = 12
+base_hp = 30
+base_atk = 45
+base_def = 55
+base_spa = 70
+base_spd = 55
+base_spe = 85
+ev_spe = 1
+catch_rate = 225
+base_exp = 68
+gender_ratio = 255
+growth_rate = 5
+egg_group_1 = 9
+ability_1 = 35
+ability_2 = 30
+ability_hidden = 148
+item_common = 143
+item_rare = 144
+height_dm = 8
+weight_hg = 345
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_cko2u")]([SubResource("Resource_rue7c"), SubResource("Resource_c8w8i"), SubResource("Resource_roeo1"), SubResource("Resource_dakch"), SubResource("Resource_cnqym"), SubResource("Resource_sasit"), SubResource("Resource_62m8v"), SubResource("Resource_7w7bl"), SubResource("Resource_x27re"), SubResource("Resource_d7ijd"), SubResource("Resource_aisxu"), SubResource("Resource_pawil"), SubResource("Resource_m8e8n"), SubResource("Resource_pw2fh"), SubResource("Resource_uhmju"), SubResource("Resource_xc4o3")])
+evolutions = Array[ExtResource("1_pq22e")]([SubResource("Resource_bwmqb")])

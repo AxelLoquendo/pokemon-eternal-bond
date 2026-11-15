@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8feqlkqva6nd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vfspq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_v5nj4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_g4ta2"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7ds1u"]
+
+[sub_resource type="Resource" id="Resource_cd53d"]
+script = ExtResource("3_g4ta2")
+move = 11
+
+[sub_resource type="Resource" id="Resource_gfkbt"]
+script = ExtResource("3_g4ta2")
+move = 88
+
+[sub_resource type="Resource" id="Resource_yk7ep"]
+script = ExtResource("3_g4ta2")
+level = 6
+move = 106
+
+[sub_resource type="Resource" id="Resource_lcqqn"]
+script = ExtResource("3_g4ta2")
+level = 9
+move = 249
+
+[sub_resource type="Resource" id="Resource_yhapf"]
+script = ExtResource("3_g4ta2")
+level = 13
+move = 317
+
+[sub_resource type="Resource" id="Resource_45fd4"]
+script = ExtResource("3_g4ta2")
+level = 17
+move = 232
+
+[sub_resource type="Resource" id="Resource_unipb"]
+script = ExtResource("3_g4ta2")
+level = 21
+move = 182
+
+[sub_resource type="Resource" id="Resource_cda3u"]
+script = ExtResource("3_g4ta2")
+level = 24
+move = 350
+
+[sub_resource type="Resource" id="Resource_vmvmx"]
+script = ExtResource("3_g4ta2")
+level = 29
+move = 404
+
+[sub_resource type="Resource" id="Resource_amean"]
+script = ExtResource("3_g4ta2")
+level = 33
+move = 14
+
+[sub_resource type="Resource" id="Resource_fvrfp"]
+script = ExtResource("3_g4ta2")
+level = 37
+move = 175
+
+[sub_resource type="Resource" id="Resource_pq07k"]
+script = ExtResource("3_g4ta2")
+level = 42
+move = 157
+
+[sub_resource type="Resource" id="Resource_hv1ef"]
+script = ExtResource("3_g4ta2")
+level = 47
+move = 630
+
+[sub_resource type="Resource" id="Resource_l4rfk"]
+script = ExtResource("3_g4ta2")
+level = 51
+move = 334
+
+[sub_resource type="Resource" id="Resource_uyg5y"]
+script = ExtResource("3_g4ta2")
+level = 56
+move = 12
+
+[resource]
+script = ExtResource("4_7ds1u")
+id = 1338
+display_name = "Klawf"
+category = "Ambush"
+national_dex = 950
+pokedex = "Klawf hangs upside-down from
+cliffs, waiting for prey. But Klawf can't
+remain in this position for long
+because its blood rushes to its head."
+type_1 = 6
+base_hp = 70
+base_atk = 100
+base_def = 115
+base_spa = 35
+base_spd = 55
+base_spe = 75
+ev_def = 2
+catch_rate = 120
+base_exp = 158
+egg_cycles = 35
+egg_group_1 = 9
+ability_1 = 271
+ability_2 = 75
+ability_hidden = 144
+height_dm = 13
+weight_hg = 790
+level_moves = Array[ExtResource("3_g4ta2")]([SubResource("Resource_cd53d"), SubResource("Resource_gfkbt"), SubResource("Resource_yk7ep"), SubResource("Resource_lcqqn"), SubResource("Resource_yhapf"), SubResource("Resource_45fd4"), SubResource("Resource_unipb"), SubResource("Resource_cda3u"), SubResource("Resource_vmvmx"), SubResource("Resource_amean"), SubResource("Resource_fvrfp"), SubResource("Resource_pq07k"), SubResource("Resource_hv1ef"), SubResource("Resource_l4rfk"), SubResource("Resource_uyg5y")])
+egg_moves = Array[int]([246, 152, 283, 282])

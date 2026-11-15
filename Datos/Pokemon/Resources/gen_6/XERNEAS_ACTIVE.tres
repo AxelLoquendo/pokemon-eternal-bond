@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dvnk7l1s7chfg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_m76bj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_djs73"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1dsvo"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nme76"]
+
+[sub_resource type="Resource" id="Resource_kquxn"]
+script = ExtResource("3_1dsvo")
+move = 33
+
+[sub_resource type="Resource" id="Resource_tom50"]
+script = ExtResource("3_1dsvo")
+move = 356
+
+[sub_resource type="Resource" id="Resource_uk5fg"]
+script = ExtResource("3_1dsvo")
+level = 5
+move = 113
+
+[sub_resource type="Resource" id="Resource_n5ytl"]
+script = ExtResource("3_1dsvo")
+level = 10
+move = 62
+
+[sub_resource type="Resource" id="Resource_2g5u2"]
+script = ExtResource("3_1dsvo")
+level = 15
+move = 267
+
+[sub_resource type="Resource" id="Resource_s5nou"]
+script = ExtResource("3_1dsvo")
+level = 20
+move = 400
+
+[sub_resource type="Resource" id="Resource_0mu4x"]
+script = ExtResource("3_1dsvo")
+level = 25
+move = 312
+
+[sub_resource type="Resource" id="Resource_wfq67"]
+script = ExtResource("3_1dsvo")
+level = 30
+move = 244
+
+[sub_resource type="Resource" id="Resource_egp7l"]
+script = ExtResource("3_1dsvo")
+level = 35
+move = 532
+
+[sub_resource type="Resource" id="Resource_lxgi0"]
+script = ExtResource("3_1dsvo")
+level = 40
+move = 581
+
+[sub_resource type="Resource" id="Resource_peq61"]
+script = ExtResource("3_1dsvo")
+level = 45
+move = 275
+
+[sub_resource type="Resource" id="Resource_eucx3"]
+script = ExtResource("3_1dsvo")
+level = 50
+move = 36
+
+[sub_resource type="Resource" id="Resource_kv80l"]
+script = ExtResource("3_1dsvo")
+level = 55
+move = 601
+
+[sub_resource type="Resource" id="Resource_te8fl"]
+script = ExtResource("3_1dsvo")
+level = 60
+move = 585
+
+[sub_resource type="Resource" id="Resource_5n4rs"]
+script = ExtResource("3_1dsvo")
+level = 65
+move = 505
+
+[sub_resource type="Resource" id="Resource_3d230"]
+script = ExtResource("3_1dsvo")
+level = 70
+move = 224
+
+[sub_resource type="Resource" id="Resource_ui27k"]
+script = ExtResource("3_1dsvo")
+level = 75
+move = 370
+
+[sub_resource type="Resource" id="Resource_wsv2y"]
+script = ExtResource("3_1dsvo")
+level = 80
+move = 200
+
+[sub_resource type="Resource" id="Resource_c6dwx"]
+script = ExtResource("3_1dsvo")
+level = 85
+move = 416
+
+[resource]
+script = ExtResource("4_nme76")
+id = 1163
+display_name = "Xerneas"
+category = "Life"
+national_dex = 716
+type_1 = 19
+base_hp = 126
+base_atk = 131
+base_def = 95
+base_spa = 131
+base_spd = 98
+base_spe = 99
+ev_hp = 3
+base_exp = 340
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 187
+height_dm = 30
+weight_hg = 2150
+body_color = 1
+level_moves = Array[ExtResource("3_1dsvo")]([SubResource("Resource_kquxn"), SubResource("Resource_tom50"), SubResource("Resource_uk5fg"), SubResource("Resource_n5ytl"), SubResource("Resource_2g5u2"), SubResource("Resource_s5nou"), SubResource("Resource_0mu4x"), SubResource("Resource_wfq67"), SubResource("Resource_egp7l"), SubResource("Resource_lxgi0"), SubResource("Resource_peq61"), SubResource("Resource_eucx3"), SubResource("Resource_kv80l"), SubResource("Resource_te8fl"), SubResource("Resource_5n4rs"), SubResource("Resource_3d230"), SubResource("Resource_ui27k"), SubResource("Resource_wsv2y"), SubResource("Resource_c6dwx")])
+form_species = Array[int]([716, 1163])

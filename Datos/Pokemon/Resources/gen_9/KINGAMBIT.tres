@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dlqticnaybt8k"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ntaas"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_v2lql"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_b5xg3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pbyk8"]
+
+[sub_resource type="Resource" id="Resource_usiew"]
+script = ExtResource("3_b5xg3")
+level = 0
+move = 797
+
+[sub_resource type="Resource" id="Resource_3dchs"]
+script = ExtResource("3_b5xg3")
+move = 368
+
+[sub_resource type="Resource" id="Resource_bg3fj"]
+script = ExtResource("3_b5xg3")
+move = 232
+
+[sub_resource type="Resource" id="Resource_3w45a"]
+script = ExtResource("3_b5xg3")
+move = 210
+
+[sub_resource type="Resource" id="Resource_46ykq"]
+script = ExtResource("3_b5xg3")
+move = 10
+
+[sub_resource type="Resource" id="Resource_rd0a6"]
+script = ExtResource("3_b5xg3")
+move = 43
+
+[sub_resource type="Resource" id="Resource_x5djg"]
+script = ExtResource("3_b5xg3")
+level = 15
+move = 259
+
+[sub_resource type="Resource" id="Resource_mkred"]
+script = ExtResource("3_b5xg3")
+level = 20
+move = 184
+
+[sub_resource type="Resource" id="Resource_jo1eh"]
+script = ExtResource("3_b5xg3")
+level = 25
+move = 372
+
+[sub_resource type="Resource" id="Resource_bw4vq"]
+script = ExtResource("3_b5xg3")
+level = 30
+move = 319
+
+[sub_resource type="Resource" id="Resource_ger0w"]
+script = ExtResource("3_b5xg3")
+level = 35
+move = 163
+
+[sub_resource type="Resource" id="Resource_imib3"]
+script = ExtResource("3_b5xg3")
+level = 40
+move = 400
+
+[sub_resource type="Resource" id="Resource_150xd"]
+script = ExtResource("3_b5xg3")
+level = 45
+move = 334
+
+[sub_resource type="Resource" id="Resource_o1mkb"]
+script = ExtResource("3_b5xg3")
+level = 50
+move = 514
+
+[sub_resource type="Resource" id="Resource_v22uc"]
+script = ExtResource("3_b5xg3")
+level = 57
+move = 442
+
+[sub_resource type="Resource" id="Resource_wggfc"]
+script = ExtResource("3_b5xg3")
+level = 64
+move = 14
+
+[sub_resource type="Resource" id="Resource_37dr8"]
+script = ExtResource("3_b5xg3")
+level = 71
+move = 12
+
+[resource]
+script = ExtResource("4_pbyk8")
+id = 1375
+display_name = "Kingambit"
+category = "Big Blade"
+national_dex = 983
+pokedex = "Though it commands a massive army
+in battle, it's not skilled at
+devising complex strategies. It just uses
+brute strength to keep pushing."
+type_1 = 18
+type_2 = 9
+base_hp = 100
+base_atk = 135
+base_def = 120
+base_spa = 60
+base_spd = 85
+base_spe = 50
+ev_atk = 3
+catch_rate = 25
+base_exp = 275
+egg_group_1 = 8
+ability_1 = 128
+ability_2 = 293
+ability_hidden = 46
+height_dm = 20
+weight_hg = 1200
+body_color = 4
+level_moves = Array[ExtResource("3_b5xg3")]([SubResource("Resource_usiew"), SubResource("Resource_3dchs"), SubResource("Resource_bg3fj"), SubResource("Resource_3w45a"), SubResource("Resource_46ykq"), SubResource("Resource_rd0a6"), SubResource("Resource_x5djg"), SubResource("Resource_mkred"), SubResource("Resource_jo1eh"), SubResource("Resource_bw4vq"), SubResource("Resource_ger0w"), SubResource("Resource_imib3"), SubResource("Resource_150xd"), SubResource("Resource_o1mkb"), SubResource("Resource_v22uc"), SubResource("Resource_wggfc"), SubResource("Resource_37dr8")])

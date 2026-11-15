@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dtdqmxv7tw6ks"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_l0ypp"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8iosq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3avkk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ax36l"]
+
+[sub_resource type="Resource" id="Resource_evgxp"]
+script = ExtResource("3_3avkk")
+level = 0
+move = 211
+
+[sub_resource type="Resource" id="Resource_ne3sq"]
+script = ExtResource("3_3avkk")
+move = 43
+
+[sub_resource type="Resource" id="Resource_c4rbm"]
+script = ExtResource("3_3avkk")
+move = 64
+
+[sub_resource type="Resource" id="Resource_2a8sq"]
+script = ExtResource("3_3avkk")
+move = 103
+
+[sub_resource type="Resource" id="Resource_ymbm1"]
+script = ExtResource("3_3avkk")
+move = 319
+
+[sub_resource type="Resource" id="Resource_d442j"]
+script = ExtResource("3_3avkk")
+move = 334
+
+[sub_resource type="Resource" id="Resource_8dbxh"]
+script = ExtResource("3_3avkk")
+move = 468
+
+[sub_resource type="Resource" id="Resource_1w1jf"]
+script = ExtResource("3_3avkk")
+move = 644
+
+[sub_resource type="Resource" id="Resource_aljem"]
+script = ExtResource("3_3avkk")
+level = 12
+move = 31
+
+[sub_resource type="Resource" id="Resource_tbnp4"]
+script = ExtResource("3_3avkk")
+level = 16
+move = 365
+
+[sub_resource type="Resource" id="Resource_1euke"]
+script = ExtResource("3_3avkk")
+level = 22
+move = 269
+
+[sub_resource type="Resource" id="Resource_lnp6k"]
+script = ExtResource("3_3avkk")
+level = 28
+move = 184
+
+[sub_resource type="Resource" id="Resource_e44ml"]
+script = ExtResource("3_3avkk")
+level = 34
+move = 65
+
+[sub_resource type="Resource" id="Resource_mdx51"]
+script = ExtResource("3_3avkk")
+level = 42
+move = 207
+
+[sub_resource type="Resource" id="Resource_12o8j"]
+script = ExtResource("3_3avkk")
+level = 50
+move = 413
+
+[resource]
+script = ExtResource("4_ax36l")
+id = 1506
+display_name = "Corviknight"
+category = "Raven"
+national_dex = 823
+pokedex = "Imbued with Gigantamax energy, its
+wings can whip up winds more
+forceful than any a hurricane could
+muster. The gusts blow everything away."
+type_1 = 3
+type_2 = 9
+base_hp = 98
+base_atk = 87
+base_def = 105
+base_spa = 53
+base_spd = 85
+base_spe = 67
+ev_def = 3
+base_exp = 248
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 46
+ability_2 = 127
+ability_hidden = 240
+height_dm = 140
+body_color = 6
+level_moves = Array[ExtResource("3_3avkk")]([SubResource("Resource_evgxp"), SubResource("Resource_ne3sq"), SubResource("Resource_c4rbm"), SubResource("Resource_2a8sq"), SubResource("Resource_ymbm1"), SubResource("Resource_d442j"), SubResource("Resource_8dbxh"), SubResource("Resource_1w1jf"), SubResource("Resource_aljem"), SubResource("Resource_tbnp4"), SubResource("Resource_1euke"), SubResource("Resource_lnp6k"), SubResource("Resource_e44ml"), SubResource("Resource_mdx51"), SubResource("Resource_12o8j")])
+form_species = Array[int]([823, 1506])

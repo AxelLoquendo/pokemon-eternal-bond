@@ -1,0 +1,128 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bj0esjty2bf1w"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_x7djq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_p647k"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qf6sx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_w1rh4"]
+
+[sub_resource type="Resource" id="Resource_13xbv"]
+script = ExtResource("3_qf6sx")
+move = 248
+
+[sub_resource type="Resource" id="Resource_45g2y"]
+script = ExtResource("3_qf6sx")
+move = 110
+
+[sub_resource type="Resource" id="Resource_bqprv"]
+script = ExtResource("3_qf6sx")
+move = 33
+
+[sub_resource type="Resource" id="Resource_8xkr7"]
+script = ExtResource("3_qf6sx")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ti3e6"]
+script = ExtResource("3_qf6sx")
+move = 55
+
+[sub_resource type="Resource" id="Resource_fc8tv"]
+script = ExtResource("3_qf6sx")
+move = 174
+
+[sub_resource type="Resource" id="Resource_dalfo"]
+script = ExtResource("3_qf6sx")
+level = 9
+move = 281
+
+[sub_resource type="Resource" id="Resource_fhl4y"]
+script = ExtResource("3_qf6sx")
+level = 12
+move = 93
+
+[sub_resource type="Resource" id="Resource_tdaf6"]
+script = ExtResource("3_qf6sx")
+level = 15
+move = 50
+
+[sub_resource type="Resource" id="Resource_aad5u"]
+script = ExtResource("3_qf6sx")
+level = 18
+move = 352
+
+[sub_resource type="Resource" id="Resource_1y18b"]
+script = ExtResource("3_qf6sx")
+level = 21
+move = 29
+
+[sub_resource type="Resource" id="Resource_ldan7"]
+script = ExtResource("3_qf6sx")
+level = 24
+move = 428
+
+[sub_resource type="Resource" id="Resource_ty5ay"]
+script = ExtResource("3_qf6sx")
+level = 27
+move = 133
+
+[sub_resource type="Resource" id="Resource_x7kr0"]
+script = ExtResource("3_qf6sx")
+level = 30
+move = 57
+
+[sub_resource type="Resource" id="Resource_45ewr"]
+script = ExtResource("3_qf6sx")
+level = 33
+move = 303
+
+[sub_resource type="Resource" id="Resource_arifo"]
+script = ExtResource("3_qf6sx")
+level = 36
+move = 94
+
+[sub_resource type="Resource" id="Resource_j5dqo"]
+script = ExtResource("3_qf6sx")
+level = 41
+move = 244
+
+[sub_resource type="Resource" id="Resource_s8r5c"]
+script = ExtResource("3_qf6sx")
+level = 46
+move = 240
+
+[sub_resource type="Resource" id="Resource_wpds3"]
+script = ExtResource("3_qf6sx")
+level = 51
+move = 505
+
+[resource]
+script = ExtResource("4_w1rh4")
+id = 913
+display_name = "Slowbro"
+category = "Hermit Crab"
+national_dex = 80
+pokedex = "When bathed in the energy of Mega
+Evolution, Shellder converts into
+impregnable armor. There is virtually no
+change in Slowpoke."
+type_1 = 12
+type_2 = 15
+base_hp = 95
+base_atk = 75
+base_def = 180
+base_spa = 130
+base_spd = 80
+base_spe = 30
+ev_def = 2
+catch_rate = 75
+base_exp = 207
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 75
+ability_2 = 75
+ability_hidden = 75
+item_rare = 465
+height_dm = 20
+weight_hg = 1200
+body_color = 9
+level_moves = Array[ExtResource("3_qf6sx")]([SubResource("Resource_13xbv"), SubResource("Resource_45g2y"), SubResource("Resource_bqprv"), SubResource("Resource_8xkr7"), SubResource("Resource_ti3e6"), SubResource("Resource_fc8tv"), SubResource("Resource_dalfo"), SubResource("Resource_fhl4y"), SubResource("Resource_tdaf6"), SubResource("Resource_aad5u"), SubResource("Resource_1y18b"), SubResource("Resource_ldan7"), SubResource("Resource_ty5ay"), SubResource("Resource_x7kr0"), SubResource("Resource_45ewr"), SubResource("Resource_arifo"), SubResource("Resource_j5dqo"), SubResource("Resource_s8r5c"), SubResource("Resource_wpds3")])
+form_species = Array[int]([80, 913, 978])

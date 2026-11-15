@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://biqdn08o8yo2k"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_83pkk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ti5l3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ttj4x"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gt6hp"]
+
+[sub_resource type="Resource" id="Resource_j3ska"]
+script = ExtResource("1_83pkk")
+method = "LEVEL"
+param = "43"
+target = 790
+
+[sub_resource type="Resource" id="Resource_g3shj"]
+script = ExtResource("3_ttj4x")
+move = 150
+
+[sub_resource type="Resource" id="Resource_d4mlc"]
+script = ExtResource("3_ttj4x")
+move = 100
+
+[resource]
+script = ExtResource("4_gt6hp")
+id = 789
+display_name = "Cosmog"
+category = "Nebula"
+national_dex = 789
+pokedex = "In ages past, it was called the child of
+the stars. It's said to be a Pokémon from
+another world, but no specific details
+are known."
+type_1 = 15
+base_hp = 43
+base_atk = 29
+base_def = 31
+base_spa = 29
+base_spd = 31
+base_spe = 37
+ev_hp = 1
+catch_rate = 3
+base_exp = 40
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 109
+height_dm = 2
+weight_hg = 1
+body_color = 1
+level_moves = Array[ExtResource("3_ttj4x")]([SubResource("Resource_g3shj"), SubResource("Resource_d4mlc")])
+evolutions = Array[ExtResource("1_83pkk")]([SubResource("Resource_j3ska")])

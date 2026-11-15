@@ -1,0 +1,127 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cgke8knsl1dop"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_b612d"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_374yc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4uny6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_p5qqn"]
+
+[sub_resource type="Resource" id="Resource_sqd1o"]
+script = ExtResource("1_b612d")
+method = "LEVEL"
+param = "36"
+target = 569
+
+[sub_resource type="Resource" id="Resource_b43c6"]
+script = ExtResource("3_4uny6")
+move = 1
+
+[sub_resource type="Resource" id="Resource_twomh"]
+script = ExtResource("3_4uny6")
+move = 139
+
+[sub_resource type="Resource" id="Resource_7onyk"]
+script = ExtResource("3_4uny6")
+level = 3
+move = 278
+
+[sub_resource type="Resource" id="Resource_28b7v"]
+script = ExtResource("3_4uny6")
+level = 6
+move = 491
+
+[sub_resource type="Resource" id="Resource_qs7t0"]
+script = ExtResource("3_4uny6")
+level = 9
+move = 133
+
+[sub_resource type="Resource" id="Resource_7w1pk"]
+script = ExtResource("3_4uny6")
+level = 12
+move = 499
+
+[sub_resource type="Resource" id="Resource_6yddl"]
+script = ExtResource("3_4uny6")
+level = 15
+move = 390
+
+[sub_resource type="Resource" id="Resource_3h0u5"]
+script = ExtResource("3_4uny6")
+level = 18
+move = 124
+
+[sub_resource type="Resource" id="Resource_lv8bk"]
+script = ExtResource("3_4uny6")
+level = 21
+move = 254
+
+[sub_resource type="Resource" id="Resource_xgk4b"]
+script = ExtResource("3_4uny6")
+level = 21
+move = 256
+
+[sub_resource type="Resource" id="Resource_v15g5"]
+script = ExtResource("3_4uny6")
+level = 24
+move = 36
+
+[sub_resource type="Resource" id="Resource_d5v77"]
+script = ExtResource("3_4uny6")
+level = 27
+move = 188
+
+[sub_resource type="Resource" id="Resource_w5sjt"]
+script = ExtResource("3_4uny6")
+level = 30
+move = 92
+
+[sub_resource type="Resource" id="Resource_ihbvg"]
+script = ExtResource("3_4uny6")
+level = 33
+move = 562
+
+[sub_resource type="Resource" id="Resource_i28mv"]
+script = ExtResource("3_4uny6")
+level = 37
+move = 220
+
+[sub_resource type="Resource" id="Resource_b33um"]
+script = ExtResource("3_4uny6")
+level = 39
+move = 441
+
+[sub_resource type="Resource" id="Resource_aj2ri"]
+script = ExtResource("3_4uny6")
+level = 42
+move = 153
+
+[resource]
+script = ExtResource("4_p5qqn")
+id = 568
+display_name = "Trubbish"
+category = "Trash Bag"
+national_dex = 568
+pokedex = "It gorges on trash until its stomach
+is full. Then it belches toxic gas.
+An unlucky whiff of this gas will put
+a person in the hospital."
+type_1 = 4
+base_hp = 50
+base_atk = 50
+base_def = 62
+base_spa = 40
+base_spd = 62
+base_spe = 65
+ev_spe = 1
+catch_rate = 190
+base_exp = 66
+egg_group_1 = 10
+ability_1 = 1
+ability_2 = 60
+ability_hidden = 106
+item_rare = 425
+height_dm = 6
+weight_hg = 310
+body_color = 3
+level_moves = Array[ExtResource("3_4uny6")]([SubResource("Resource_b43c6"), SubResource("Resource_twomh"), SubResource("Resource_7onyk"), SubResource("Resource_28b7v"), SubResource("Resource_qs7t0"), SubResource("Resource_7w1pk"), SubResource("Resource_6yddl"), SubResource("Resource_3h0u5"), SubResource("Resource_lv8bk"), SubResource("Resource_xgk4b"), SubResource("Resource_v15g5"), SubResource("Resource_d5v77"), SubResource("Resource_w5sjt"), SubResource("Resource_ihbvg"), SubResource("Resource_i28mv"), SubResource("Resource_b33um"), SubResource("Resource_aj2ri")])
+egg_moves = Array[int]([191, 205, 114, 174, 350, 28, 300, 120, 475])
+evolutions = Array[ExtResource("1_b612d")]([SubResource("Resource_sqd1o")])

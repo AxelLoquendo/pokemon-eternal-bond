@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://btblnxjoieuhv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vr54i"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_trsqq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xrcnr"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_47bro"]
+
+[sub_resource type="Resource" id="Resource_ye5re"]
+script = ExtResource("3_xrcnr")
+move = 71
+
+[sub_resource type="Resource" id="Resource_xnm5q"]
+script = ExtResource("3_xrcnr")
+move = 95
+
+[sub_resource type="Resource" id="Resource_ulwnv"]
+script = ExtResource("3_xrcnr")
+level = 5
+move = 115
+
+[sub_resource type="Resource" id="Resource_oxyvv"]
+script = ExtResource("3_xrcnr")
+level = 10
+move = 73
+
+[sub_resource type="Resource" id="Resource_b3mf3"]
+script = ExtResource("3_xrcnr")
+level = 15
+move = 72
+
+[sub_resource type="Resource" id="Resource_4dts3"]
+script = ExtResource("3_xrcnr")
+level = 20
+move = 93
+
+[sub_resource type="Resource" id="Resource_weor0"]
+script = ExtResource("3_xrcnr")
+level = 25
+move = 235
+
+[sub_resource type="Resource" id="Resource_afyyu"]
+script = ExtResource("3_xrcnr")
+level = 30
+move = 331
+
+[sub_resource type="Resource" id="Resource_4dosp"]
+script = ExtResource("3_xrcnr")
+level = 35
+move = 202
+
+[sub_resource type="Resource" id="Resource_ptne7"]
+script = ExtResource("3_xrcnr")
+level = 40
+move = 326
+
+[sub_resource type="Resource" id="Resource_o8plg"]
+script = ExtResource("3_xrcnr")
+level = 45
+move = 253
+
+[sub_resource type="Resource" id="Resource_s36or"]
+script = ExtResource("3_xrcnr")
+level = 50
+move = 388
+
+[sub_resource type="Resource" id="Resource_fuwfi"]
+script = ExtResource("3_xrcnr")
+level = 55
+move = 76
+
+[resource]
+script = ExtResource("4_47bro")
+id = 102
+display_name = "Exeggcute"
+category = "Egg"
+national_dex = 102
+pokedex = "It consists of six eggs that care for each
+other. The eggs attract each other and
+spin around. When cracks increasingly
+appear, it is close to evolution."
+type_1 = 13
+type_2 = 15
+base_hp = 60
+base_atk = 40
+base_def = 80
+base_spa = 60
+base_spd = 45
+base_spe = 40
+ev_def = 1
+catch_rate = 90
+base_exp = 65
+growth_rate = 5
+egg_group_1 = 7
+ability_1 = 34
+ability_hidden = 139
+item_rare = 452
+height_dm = 4
+weight_hg = 25
+body_color = 9
+no_flip = true
+level_moves = Array[ExtResource("3_xrcnr")]([SubResource("Resource_ye5re"), SubResource("Resource_xnm5q"), SubResource("Resource_ulwnv"), SubResource("Resource_oxyvv"), SubResource("Resource_b3mf3"), SubResource("Resource_4dts3"), SubResource("Resource_weor0"), SubResource("Resource_afyyu"), SubResource("Resource_4dosp"), SubResource("Resource_ptne7"), SubResource("Resource_o8plg"), SubResource("Resource_s36or"), SubResource("Resource_fuwfi")])
+egg_moves = Array[int]([235, 236, 246, 275, 174, 267, 381, 437, 384, 202, 285, 363, 335, 580])

@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cd4pwrkmisrg1"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_gyjss"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_msvf1"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qgpjy"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dx4hc"]
+
+[sub_resource type="Resource" id="Resource_23yim"]
+script = ExtResource("3_qgpjy")
+level = 0
+move = 19
+
+[sub_resource type="Resource" id="Resource_p2gu1"]
+script = ExtResource("3_qgpjy")
+move = 355
+
+[sub_resource type="Resource" id="Resource_m8plq"]
+script = ExtResource("3_qgpjy")
+move = 225
+
+[sub_resource type="Resource" id="Resource_cu1q0"]
+script = ExtResource("3_qgpjy")
+move = 525
+
+[sub_resource type="Resource" id="Resource_q0h0v"]
+script = ExtResource("3_qgpjy")
+move = 52
+
+[sub_resource type="Resource" id="Resource_2ll61"]
+script = ExtResource("3_qgpjy")
+move = 742
+
+[sub_resource type="Resource" id="Resource_faj40"]
+script = ExtResource("3_qgpjy")
+move = 43
+
+[sub_resource type="Resource" id="Resource_3blli"]
+script = ExtResource("3_qgpjy")
+move = 44
+
+[sub_resource type="Resource" id="Resource_h4hcy"]
+script = ExtResource("3_qgpjy")
+move = 182
+
+[sub_resource type="Resource" id="Resource_epm1q"]
+script = ExtResource("3_qgpjy")
+level = 15
+move = 29
+
+[sub_resource type="Resource" id="Resource_815p1"]
+script = ExtResource("3_qgpjy")
+level = 20
+move = 184
+
+[sub_resource type="Resource" id="Resource_wqlpo"]
+script = ExtResource("3_qgpjy")
+level = 25
+move = 242
+
+[sub_resource type="Resource" id="Resource_3p6he"]
+script = ExtResource("3_qgpjy")
+level = 33
+move = 337
+
+[sub_resource type="Resource" id="Resource_ev35g"]
+script = ExtResource("3_qgpjy")
+level = 39
+move = 428
+
+[sub_resource type="Resource" id="Resource_j5fjx"]
+script = ExtResource("3_qgpjy")
+level = 46
+move = 116
+
+[sub_resource type="Resource" id="Resource_peaxv"]
+script = ExtResource("3_qgpjy")
+level = 55
+move = 53
+
+[sub_resource type="Resource" id="Resource_dtan8"]
+script = ExtResource("3_qgpjy")
+level = 73
+move = 38
+
+[resource]
+script = ExtResource("4_dx4hc")
+id = 373
+display_name = "Salamence"
+category = "Dragon"
+national_dex = 373
+pokedex = "After many long years, its cellular
+structure underwent a sudden mutation to
+grow wings. When angered, it loses all
+thought and rampages out of control."
+type_1 = 17
+type_2 = 3
+base_hp = 95
+base_atk = 135
+base_def = 80
+base_spa = 110
+base_spd = 80
+base_spe = 100
+ev_atk = 3
+base_exp = 218
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 14
+ability_1 = 22
+ability_hidden = 153
+item_rare = 439
+height_dm = 15
+weight_hg = 1026
+body_color = 1
+level_moves = Array[ExtResource("3_qgpjy")]([SubResource("Resource_23yim"), SubResource("Resource_p2gu1"), SubResource("Resource_m8plq"), SubResource("Resource_cu1q0"), SubResource("Resource_q0h0v"), SubResource("Resource_2ll61"), SubResource("Resource_faj40"), SubResource("Resource_3blli"), SubResource("Resource_h4hcy"), SubResource("Resource_epm1q"), SubResource("Resource_815p1"), SubResource("Resource_wqlpo"), SubResource("Resource_3p6he"), SubResource("Resource_ev35g"), SubResource("Resource_j5fjx"), SubResource("Resource_peaxv"), SubResource("Resource_dtan8")])
+form_species = Array[int]([373, 942])

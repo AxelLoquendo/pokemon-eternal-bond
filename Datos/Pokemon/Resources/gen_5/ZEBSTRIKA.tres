@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cuaf8ay554t2b"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6d6x3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_qxkue"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xc7xu"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cjlk4"]
+
+[sub_resource type="Resource" id="Resource_akmg2"]
+script = ExtResource("3_xc7xu")
+move = 39
+
+[sub_resource type="Resource" id="Resource_i5rpk"]
+script = ExtResource("3_xc7xu")
+move = 86
+
+[sub_resource type="Resource" id="Resource_qqhfr"]
+script = ExtResource("3_xc7xu")
+move = 98
+
+[sub_resource type="Resource" id="Resource_krv3b"]
+script = ExtResource("3_xc7xu")
+move = 268
+
+[sub_resource type="Resource" id="Resource_itvyn"]
+script = ExtResource("3_xc7xu")
+level = 11
+move = 351
+
+[sub_resource type="Resource" id="Resource_761y2"]
+script = ExtResource("3_xc7xu")
+level = 18
+move = 488
+
+[sub_resource type="Resource" id="Resource_1pt3h"]
+script = ExtResource("3_xc7xu")
+level = 25
+move = 209
+
+[sub_resource type="Resource" id="Resource_l82oa"]
+script = ExtResource("3_xc7xu")
+level = 31
+move = 23
+
+[sub_resource type="Resource" id="Resource_jhtv4"]
+script = ExtResource("3_xc7xu")
+level = 36
+move = 435
+
+[sub_resource type="Resource" id="Resource_m3kwe"]
+script = ExtResource("3_xc7xu")
+level = 42
+move = 97
+
+[sub_resource type="Resource" id="Resource_t7dxc"]
+script = ExtResource("3_xc7xu")
+level = 47
+move = 528
+
+[sub_resource type="Resource" id="Resource_dp88t"]
+script = ExtResource("3_xc7xu")
+level = 53
+move = 37
+
+[resource]
+script = ExtResource("4_cjlk4")
+id = 523
+display_name = "Zebstrika"
+category = "Thunderbolt"
+national_dex = 523
+pokedex = "When Zebstrika run at full speed, the
+sound of thunder reverberates. It is
+dangerous when it's angry as it shoots
+lightning from its mane in all directions."
+type_1 = 14
+base_hp = 75
+base_atk = 100
+base_def = 63
+base_spa = 80
+base_spd = 63
+base_spe = 116
+ev_spe = 2
+catch_rate = 75
+base_exp = 174
+egg_group_1 = 5
+ability_1 = 31
+ability_2 = 78
+ability_hidden = 157
+height_dm = 16
+weight_hg = 795
+body_color = 4
+level_moves = Array[ExtResource("3_xc7xu")]([SubResource("Resource_akmg2"), SubResource("Resource_i5rpk"), SubResource("Resource_qqhfr"), SubResource("Resource_krv3b"), SubResource("Resource_itvyn"), SubResource("Resource_761y2"), SubResource("Resource_1pt3h"), SubResource("Resource_l82oa"), SubResource("Resource_jhtv4"), SubResource("Resource_m3kwe"), SubResource("Resource_t7dxc"), SubResource("Resource_dp88t")])

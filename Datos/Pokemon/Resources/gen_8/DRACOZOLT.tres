@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bh4cycpmwj6oe"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qiwud"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i48cs"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_r2bc7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ofbv7"]
+
+[sub_resource type="Resource" id="Resource_0v8o3"]
+script = ExtResource("3_r2bc7")
+move = 33
+
+[sub_resource type="Resource" id="Resource_l6lfy"]
+script = ExtResource("3_r2bc7")
+move = 84
+
+[sub_resource type="Resource" id="Resource_sxvyj"]
+script = ExtResource("3_r2bc7")
+level = 7
+move = 268
+
+[sub_resource type="Resource" id="Resource_22dlw"]
+script = ExtResource("3_r2bc7")
+level = 14
+move = 332
+
+[sub_resource type="Resource" id="Resource_y2gbv"]
+script = ExtResource("3_r2bc7")
+level = 21
+move = 246
+
+[sub_resource type="Resource" id="Resource_fue4i"]
+script = ExtResource("3_r2bc7")
+level = 28
+move = 365
+
+[sub_resource type="Resource" id="Resource_j81d1"]
+script = ExtResource("3_r2bc7")
+level = 35
+move = 525
+
+[sub_resource type="Resource" id="Resource_cgw0e"]
+script = ExtResource("3_r2bc7")
+level = 42
+move = 23
+
+[sub_resource type="Resource" id="Resource_g05dl"]
+script = ExtResource("3_r2bc7")
+level = 49
+move = 21
+
+[sub_resource type="Resource" id="Resource_l0ejy"]
+script = ExtResource("3_r2bc7")
+level = 56
+move = 435
+
+[sub_resource type="Resource" id="Resource_vftq2"]
+script = ExtResource("3_r2bc7")
+level = 63
+move = 700
+
+[sub_resource type="Resource" id="Resource_8d6io"]
+script = ExtResource("3_r2bc7")
+level = 70
+move = 406
+
+[sub_resource type="Resource" id="Resource_wm2w2"]
+script = ExtResource("3_r2bc7")
+level = 77
+move = 407
+
+[resource]
+script = ExtResource("4_ofbv7")
+id = 880
+display_name = "Dracozolt"
+category = "Fossil"
+national_dex = 880
+pokedex = "In ancient times, it was unbeatable thanks
+to its powerful lower body, but it went
+extinct anyway after it depleted all its
+plant-based food sources."
+type_1 = 14
+type_2 = 17
+base_hp = 90
+base_atk = 100
+base_def = 90
+base_spa = 80
+base_spd = 70
+base_spe = 75
+ev_atk = 2
+base_exp = 177
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 35
+ability_1 = 10
+ability_2 = 55
+ability_hidden = 146
+height_dm = 18
+weight_hg = 1900
+body_color = 3
+level_moves = Array[ExtResource("3_r2bc7")]([SubResource("Resource_0v8o3"), SubResource("Resource_l6lfy"), SubResource("Resource_sxvyj"), SubResource("Resource_22dlw"), SubResource("Resource_y2gbv"), SubResource("Resource_fue4i"), SubResource("Resource_j81d1"), SubResource("Resource_cgw0e"), SubResource("Resource_g05dl"), SubResource("Resource_l0ejy"), SubResource("Resource_vftq2"), SubResource("Resource_8d6io"), SubResource("Resource_wm2w2")])

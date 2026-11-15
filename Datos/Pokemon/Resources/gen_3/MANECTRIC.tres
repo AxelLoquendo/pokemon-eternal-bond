@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ccnh37njsue08"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fxtoa"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ukjwf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_a3yc8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_2modh"]
+
+[sub_resource type="Resource" id="Resource_uep64"]
+script = ExtResource("3_a3yc8")
+move = 424
+
+[sub_resource type="Resource" id="Resource_lqgte"]
+script = ExtResource("3_a3yc8")
+move = 33
+
+[sub_resource type="Resource" id="Resource_4xa24"]
+script = ExtResource("3_a3yc8")
+move = 86
+
+[sub_resource type="Resource" id="Resource_312sb"]
+script = ExtResource("3_a3yc8")
+move = 43
+
+[sub_resource type="Resource" id="Resource_r2gcs"]
+script = ExtResource("3_a3yc8")
+move = 336
+
+[sub_resource type="Resource" id="Resource_rm5kq"]
+script = ExtResource("3_a3yc8")
+level = 12
+move = 98
+
+[sub_resource type="Resource" id="Resource_67efq"]
+script = ExtResource("3_a3yc8")
+level = 16
+move = 351
+
+[sub_resource type="Resource" id="Resource_h7q1f"]
+script = ExtResource("3_a3yc8")
+level = 20
+move = 44
+
+[sub_resource type="Resource" id="Resource_7lgkw"]
+script = ExtResource("3_a3yc8")
+level = 24
+move = 422
+
+[sub_resource type="Resource" id="Resource_8sux3"]
+script = ExtResource("3_a3yc8")
+level = 30
+move = 46
+
+[sub_resource type="Resource" id="Resource_xldyn"]
+script = ExtResource("3_a3yc8")
+level = 36
+move = 435
+
+[sub_resource type="Resource" id="Resource_06kdm"]
+script = ExtResource("3_a3yc8")
+level = 42
+move = 268
+
+[sub_resource type="Resource" id="Resource_cyfda"]
+script = ExtResource("3_a3yc8")
+level = 48
+move = 528
+
+[sub_resource type="Resource" id="Resource_p0ekw"]
+script = ExtResource("3_a3yc8")
+level = 54
+move = 87
+
+[sub_resource type="Resource" id="Resource_kfqnl"]
+script = ExtResource("3_a3yc8")
+level = 60
+move = 604
+
+[resource]
+script = ExtResource("4_2modh")
+id = 310
+display_name = "Manectric"
+category = "Discharge"
+national_dex = 310
+pokedex = "Because lightning falls in their vicinities,
+Manectric were thought to have been born
+from lightning. In battle, they create
+thunderclouds."
+type_1 = 14
+base_hp = 70
+base_atk = 75
+base_def = 60
+base_spa = 105
+base_spd = 60
+base_spe = 105
+ev_spe = 2
+base_exp = 166
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 9
+ability_2 = 31
+ability_hidden = 58
+height_dm = 15
+weight_hg = 402
+body_color = 2
+level_moves = Array[ExtResource("3_a3yc8")]([SubResource("Resource_uep64"), SubResource("Resource_lqgte"), SubResource("Resource_4xa24"), SubResource("Resource_312sb"), SubResource("Resource_r2gcs"), SubResource("Resource_rm5kq"), SubResource("Resource_67efq"), SubResource("Resource_h7q1f"), SubResource("Resource_7lgkw"), SubResource("Resource_8sux3"), SubResource("Resource_xldyn"), SubResource("Resource_06kdm"), SubResource("Resource_cyfda"), SubResource("Resource_p0ekw"), SubResource("Resource_kfqnl")])
+form_species = Array[int]([310, 935])

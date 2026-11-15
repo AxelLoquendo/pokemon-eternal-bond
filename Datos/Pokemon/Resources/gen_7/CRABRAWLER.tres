@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://68hnv3ganocd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_c8hkg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gucce"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7qb2t"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_yxy6c"]
+
+[sub_resource type="Resource" id="Resource_2ghyd"]
+script = ExtResource("1_c8hkg")
+method = "ITEM"
+param = "ITEM_ICE_STONE"
+target = 740
+
+[sub_resource type="Resource" id="Resource_hkkp2"]
+script = ExtResource("3_7qb2t")
+move = 11
+
+[sub_resource type="Resource" id="Resource_g1sck"]
+script = ExtResource("3_7qb2t")
+level = 5
+move = 249
+
+[sub_resource type="Resource" id="Resource_d5t8t"]
+script = ExtResource("3_7qb2t")
+level = 9
+move = 43
+
+[sub_resource type="Resource" id="Resource_3rmcs"]
+script = ExtResource("3_7qb2t")
+level = 13
+move = 61
+
+[sub_resource type="Resource" id="Resource_fu52e"]
+script = ExtResource("3_7qb2t")
+level = 17
+move = 182
+
+[sub_resource type="Resource" id="Resource_0albk"]
+script = ExtResource("3_7qb2t")
+level = 22
+move = 280
+
+[sub_resource type="Resource" id="Resource_10qyy"]
+script = ExtResource("3_7qb2t")
+level = 25
+move = 21
+
+[sub_resource type="Resource" id="Resource_37mfe"]
+script = ExtResource("3_7qb2t")
+level = 29
+move = 371
+
+[sub_resource type="Resource" id="Resource_5infn"]
+script = ExtResource("3_7qb2t")
+level = 33
+move = 179
+
+[sub_resource type="Resource" id="Resource_ooil0"]
+script = ExtResource("3_7qb2t")
+level = 37
+move = 152
+
+[sub_resource type="Resource" id="Resource_bofxd"]
+script = ExtResource("3_7qb2t")
+level = 42
+move = 334
+
+[sub_resource type="Resource" id="Resource_qq86d"]
+script = ExtResource("3_7qb2t")
+level = 45
+move = 223
+
+[sub_resource type="Resource" id="Resource_h4lva"]
+script = ExtResource("3_7qb2t")
+level = 49
+move = 370
+
+[resource]
+script = ExtResource("4_yxy6c")
+id = 739
+display_name = "Crabrawler"
+category = "Boxing"
+national_dex = 739
+pokedex = "While guarding its weak points with its
+pincers, it looks for an opening and
+unleashes punches. When it loses, it
+foams at the mouth and faints."
+type_1 = 2
+base_hp = 47
+base_atk = 82
+base_def = 57
+base_spa = 42
+base_spd = 47
+base_spe = 63
+ev_atk = 1
+catch_rate = 225
+base_exp = 68
+egg_group_1 = 9
+ability_1 = 52
+ability_2 = 89
+ability_hidden = 83
+item_rare = 518
+height_dm = 6
+weight_hg = 70
+body_color = 6
+level_moves = Array[ExtResource("3_7qb2t")]([SubResource("Resource_hkkp2"), SubResource("Resource_g1sck"), SubResource("Resource_d5t8t"), SubResource("Resource_3rmcs"), SubResource("Resource_fu52e"), SubResource("Resource_0albk"), SubResource("Resource_10qyy"), SubResource("Resource_37mfe"), SubResource("Resource_5infn"), SubResource("Resource_ooil0"), SubResource("Resource_bofxd"), SubResource("Resource_qq86d"), SubResource("Resource_h4lva")])
+egg_moves = Array[int]([469, 276, 283, 133])
+evolutions = Array[ExtResource("1_c8hkg")]([SubResource("Resource_2ghyd")])

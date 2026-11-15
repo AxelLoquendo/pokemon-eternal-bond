@@ -1,0 +1,121 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dm3qfmdrjebfe"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_47pfu"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2bnuy"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bdc7j"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kycvj"]
+
+[sub_resource type="Resource" id="Resource_fsgpw"]
+script = ExtResource("3_bdc7j")
+move = 232
+
+[sub_resource type="Resource" id="Resource_vjvuf"]
+script = ExtResource("3_bdc7j")
+move = 451
+
+[sub_resource type="Resource" id="Resource_go8vg"]
+script = ExtResource("3_bdc7j")
+level = 6
+move = 523
+
+[sub_resource type="Resource" id="Resource_jlp4a"]
+script = ExtResource("3_bdc7j")
+level = 12
+move = 246
+
+[sub_resource type="Resource" id="Resource_777wc"]
+script = ExtResource("3_bdc7j")
+level = 18
+move = 23
+
+[sub_resource type="Resource" id="Resource_fey3e"]
+script = ExtResource("3_bdc7j")
+level = 24
+move = 430
+
+[sub_resource type="Resource" id="Resource_cpjxo"]
+script = ExtResource("3_bdc7j")
+level = 24
+move = 442
+
+[sub_resource type="Resource" id="Resource_sam5y"]
+script = ExtResource("3_bdc7j")
+level = 30
+move = 174
+
+[sub_resource type="Resource" id="Resource_grrdf"]
+script = ExtResource("3_bdc7j")
+level = 36
+move = 133
+
+[sub_resource type="Resource" id="Resource_hsi6o"]
+script = ExtResource("3_bdc7j")
+level = 36
+move = 334
+
+[sub_resource type="Resource" id="Resource_31jst"]
+script = ExtResource("3_bdc7j")
+level = 42
+move = 359
+
+[sub_resource type="Resource" id="Resource_sbapt"]
+script = ExtResource("3_bdc7j")
+level = 48
+move = 484
+
+[sub_resource type="Resource" id="Resource_rg5qj"]
+script = ExtResource("3_bdc7j")
+level = 54
+move = 276
+
+[sub_resource type="Resource" id="Resource_e2osw"]
+script = ExtResource("3_bdc7j")
+level = 60
+move = 199
+
+[sub_resource type="Resource" id="Resource_p655t"]
+script = ExtResource("3_bdc7j")
+level = 66
+move = 192
+
+[sub_resource type="Resource" id="Resource_8pgms"]
+script = ExtResource("3_bdc7j")
+level = 72
+move = 63
+
+[sub_resource type="Resource" id="Resource_hsnrb"]
+script = ExtResource("3_bdc7j")
+level = 78
+move = 153
+
+[resource]
+script = ExtResource("4_kycvj")
+id = 379
+display_name = "Registeel"
+category = "Iron"
+national_dex = 379
+pokedex = "Its body is harder than any other kind of
+metal. The body metal is composed of a
+mysterious substance. Not only is it hard,
+it shrinks and stretches flexibly."
+type_1 = 9
+base_hp = 80
+base_atk = 75
+base_def = 150
+base_spa = 75
+base_spd = 150
+base_spe = 50
+ev_def = 2
+ev_spd = 1
+catch_rate = 3
+base_exp = 215
+base_friendship = 35
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 80
+ability_1 = 29
+ability_hidden = 135
+height_dm = 19
+weight_hg = 2050
+body_color = 7
+level_moves = Array[ExtResource("3_bdc7j")]([SubResource("Resource_fsgpw"), SubResource("Resource_vjvuf"), SubResource("Resource_go8vg"), SubResource("Resource_jlp4a"), SubResource("Resource_777wc"), SubResource("Resource_fey3e"), SubResource("Resource_cpjxo"), SubResource("Resource_sam5y"), SubResource("Resource_grrdf"), SubResource("Resource_hsi6o"), SubResource("Resource_31jst"), SubResource("Resource_sbapt"), SubResource("Resource_rg5qj"), SubResource("Resource_e2osw"), SubResource("Resource_p655t"), SubResource("Resource_8pgms"), SubResource("Resource_hsnrb")])

@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ck22sjwtjm6k8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_coxrr"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lvblc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ajbmk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6t7f1"]
+
+[sub_resource type="Resource" id="Resource_37oat"]
+script = ExtResource("1_coxrr")
+method = "LEVEL"
+param = "37"
+target = 356
+
+[sub_resource type="Resource" id="Resource_eu6qa"]
+script = ExtResource("3_ajbmk")
+move = 43
+
+[sub_resource type="Resource" id="Resource_xoqep"]
+script = ExtResource("3_ajbmk")
+move = 310
+
+[sub_resource type="Resource" id="Resource_issrr"]
+script = ExtResource("3_ajbmk")
+level = 4
+move = 50
+
+[sub_resource type="Resource" id="Resource_kyioj"]
+script = ExtResource("3_ajbmk")
+level = 8
+move = 425
+
+[sub_resource type="Resource" id="Resource_g84q6"]
+script = ExtResource("3_ajbmk")
+level = 12
+move = 109
+
+[sub_resource type="Resource" id="Resource_4a5bx"]
+script = ExtResource("3_ajbmk")
+level = 16
+move = 101
+
+[sub_resource type="Resource" id="Resource_xi7yu"]
+script = ExtResource("3_ajbmk")
+level = 20
+move = 371
+
+[sub_resource type="Resource" id="Resource_g4lww"]
+script = ExtResource("3_ajbmk")
+level = 24
+move = 261
+
+[sub_resource type="Resource" id="Resource_uxpks"]
+script = ExtResource("3_ajbmk")
+level = 28
+move = 212
+
+[sub_resource type="Resource" id="Resource_yyf4l"]
+script = ExtResource("3_ajbmk")
+level = 32
+move = 506
+
+[sub_resource type="Resource" id="Resource_ltwt7"]
+script = ExtResource("3_ajbmk")
+level = 36
+move = 174
+
+[sub_resource type="Resource" id="Resource_tdpjj"]
+script = ExtResource("3_ajbmk")
+level = 40
+move = 247
+
+[sub_resource type="Resource" id="Resource_i7hkg"]
+script = ExtResource("3_ajbmk")
+level = 44
+move = 248
+
+[resource]
+script = ExtResource("4_6t7f1")
+id = 355
+display_name = "Duskull"
+category = "Requiem"
+national_dex = 355
+pokedex = "A glare from its single scarlet eye makes
+even burly grown-ups freeze in utter fear.
+It is a nocturnal Pokémon that roams
+about under the cloak of darkness."
+type_1 = 8
+base_hp = 20
+base_atk = 40
+base_def = 90
+base_spa = 30
+base_spd = 90
+base_spe = 25
+ev_spd = 1
+catch_rate = 190
+base_exp = 59
+base_friendship = 35
+growth_rate = 4
+egg_cycles = 25
+egg_group_1 = 11
+ability_1 = 26
+item_rare = 438
+height_dm = 8
+weight_hg = 150
+body_color = 4
+level_moves = Array[ExtResource("3_ajbmk")]([SubResource("Resource_eu6qa"), SubResource("Resource_xoqep"), SubResource("Resource_issrr"), SubResource("Resource_kyioj"), SubResource("Resource_g84q6"), SubResource("Resource_4a5bx"), SubResource("Resource_xi7yu"), SubResource("Resource_g4lww"), SubResource("Resource_uxpks"), SubResource("Resource_yyf4l"), SubResource("Resource_ltwt7"), SubResource("Resource_tdpjj"), SubResource("Resource_i7hkg")])
+egg_moves = Array[int]([286, 194, 220, 288, 262, 185, 466, 399, 285, 114])
+evolutions = Array[ExtResource("1_coxrr")]([SubResource("Resource_37oat")])

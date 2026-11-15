@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1mk8jnk2am4i"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jj0ky"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rlrie"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bc5ic"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_d5l0p"]
+
+[sub_resource type="Resource" id="Resource_dlasf"]
+script = ExtResource("3_bc5ic")
+move = 229
+
+[sub_resource type="Resource" id="Resource_qo3t0"]
+script = ExtResource("3_bc5ic")
+move = 107
+
+[sub_resource type="Resource" id="Resource_cc8nn"]
+script = ExtResource("3_bc5ic")
+move = 129
+
+[sub_resource type="Resource" id="Resource_ibmd8"]
+script = ExtResource("3_bc5ic")
+move = 60
+
+[sub_resource type="Resource" id="Resource_rx00n"]
+script = ExtResource("3_bc5ic")
+move = 362
+
+[sub_resource type="Resource" id="Resource_850ox"]
+script = ExtResource("3_bc5ic")
+move = 113
+
+[sub_resource type="Resource" id="Resource_260ck"]
+script = ExtResource("3_bc5ic")
+move = 408
+
+[sub_resource type="Resource" id="Resource_brpe6"]
+script = ExtResource("3_bc5ic")
+move = 94
+
+[sub_resource type="Resource" id="Resource_paa76"]
+script = ExtResource("3_bc5ic")
+move = 57
+
+[sub_resource type="Resource" id="Resource_o227r"]
+script = ExtResource("3_bc5ic")
+move = 105
+
+[sub_resource type="Resource" id="Resource_h4xm2"]
+script = ExtResource("3_bc5ic")
+move = 322
+
+[sub_resource type="Resource" id="Resource_a4emo"]
+script = ExtResource("3_bc5ic")
+move = 56
+
+[sub_resource type="Resource" id="Resource_gcia0"]
+script = ExtResource("3_bc5ic")
+move = 33
+
+[sub_resource type="Resource" id="Resource_kvpqb"]
+script = ExtResource("3_bc5ic")
+move = 106
+
+[sub_resource type="Resource" id="Resource_wphp6"]
+script = ExtResource("3_bc5ic")
+move = 55
+
+[sub_resource type="Resource" id="Resource_jvhbm"]
+script = ExtResource("3_bc5ic")
+move = 109
+
+[resource]
+script = ExtResource("4_d5l0p")
+id = 121
+display_name = "Starmie"
+category = "Mysterious"
+national_dex = 121
+pokedex = "People in ancient times imagined that
+Starmie were transformed from the
+reflections of stars that twinkled on
+gentle waves at night."
+type_1 = 12
+type_2 = 15
+base_hp = 60
+base_atk = 75
+base_def = 85
+base_spa = 100
+base_spd = 85
+base_spe = 115
+ev_spe = 2
+catch_rate = 60
+base_exp = 182
+gender_ratio = 255
+growth_rate = 5
+egg_group_1 = 9
+ability_1 = 35
+ability_2 = 30
+ability_hidden = 148
+item_common = 143
+item_rare = 144
+height_dm = 11
+weight_hg = 800
+body_color = 6
+level_moves = Array[ExtResource("3_bc5ic")]([SubResource("Resource_dlasf"), SubResource("Resource_qo3t0"), SubResource("Resource_cc8nn"), SubResource("Resource_ibmd8"), SubResource("Resource_rx00n"), SubResource("Resource_850ox"), SubResource("Resource_260ck"), SubResource("Resource_brpe6"), SubResource("Resource_paa76"), SubResource("Resource_o227r"), SubResource("Resource_h4xm2"), SubResource("Resource_a4emo"), SubResource("Resource_gcia0"), SubResource("Resource_kvpqb"), SubResource("Resource_wphp6"), SubResource("Resource_jvhbm")])
+form_species = Array[int]([121, 1526])

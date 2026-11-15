@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d12n60bf46xmb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xfco2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_c0o51"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kih0n"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3wq6d"]
+
+[sub_resource type="Resource" id="Resource_vfsik"]
+script = ExtResource("1_xfco2")
+method = "LEVEL"
+param = "27"
+target = 523
+
+[sub_resource type="Resource" id="Resource_17ebt"]
+script = ExtResource("3_kih0n")
+move = 98
+
+[sub_resource type="Resource" id="Resource_n2lqw"]
+script = ExtResource("3_kih0n")
+level = 4
+move = 39
+
+[sub_resource type="Resource" id="Resource_ts11q"]
+script = ExtResource("3_kih0n")
+level = 8
+move = 268
+
+[sub_resource type="Resource" id="Resource_swb3l"]
+script = ExtResource("3_kih0n")
+level = 11
+move = 351
+
+[sub_resource type="Resource" id="Resource_agwhe"]
+script = ExtResource("3_kih0n")
+level = 15
+move = 86
+
+[sub_resource type="Resource" id="Resource_7r62d"]
+script = ExtResource("3_kih0n")
+level = 18
+move = 488
+
+[sub_resource type="Resource" id="Resource_ikr0m"]
+script = ExtResource("3_kih0n")
+level = 22
+move = 209
+
+[sub_resource type="Resource" id="Resource_7xhyp"]
+script = ExtResource("3_kih0n")
+level = 25
+move = 23
+
+[sub_resource type="Resource" id="Resource_35kp2"]
+script = ExtResource("3_kih0n")
+level = 29
+move = 435
+
+[sub_resource type="Resource" id="Resource_7onry"]
+script = ExtResource("3_kih0n")
+level = 33
+move = 97
+
+[sub_resource type="Resource" id="Resource_1v84u"]
+script = ExtResource("3_kih0n")
+level = 35
+move = 528
+
+[sub_resource type="Resource" id="Resource_kjij2"]
+script = ExtResource("3_kih0n")
+level = 40
+move = 37
+
+[resource]
+script = ExtResource("4_3wq6d")
+id = 522
+display_name = "Blitzle"
+category = "Electrified"
+national_dex = 522
+pokedex = "Its mane shines when it discharges
+electricity. They use the frequency and
+rhythm of these flashes to communicate
+with one another."
+type_1 = 14
+base_hp = 45
+base_atk = 60
+base_def = 32
+base_spa = 50
+base_spd = 32
+base_spe = 76
+ev_spe = 1
+catch_rate = 190
+base_exp = 59
+egg_group_1 = 5
+ability_1 = 31
+ability_2 = 78
+ability_hidden = 157
+height_dm = 8
+weight_hg = 298
+body_color = 4
+level_moves = Array[ExtResource("3_kih0n")]([SubResource("Resource_17ebt"), SubResource("Resource_n2lqw"), SubResource("Resource_ts11q"), SubResource("Resource_swb3l"), SubResource("Resource_agwhe"), SubResource("Resource_7r62d"), SubResource("Resource_ikr0m"), SubResource("Resource_7xhyp"), SubResource("Resource_35kp2"), SubResource("Resource_7onry"), SubResource("Resource_1v84u"), SubResource("Resource_kjij2")])
+egg_moves = Array[int]([382, 36, 28, 24, 103, 99, 203, 38, 351, 289, 364])
+evolutions = Array[ExtResource("1_xfco2")]([SubResource("Resource_vfsik")])

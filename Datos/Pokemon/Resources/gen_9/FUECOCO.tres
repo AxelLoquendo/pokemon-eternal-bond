@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dofjqf7d107o3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_eqhng"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i8woj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4ycbt"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rxlj3"]
+
+[sub_resource type="Resource" id="Resource_ol07a"]
+script = ExtResource("1_eqhng")
+method = "LEVEL"
+param = "16"
+target = 1293
+
+[sub_resource type="Resource" id="Resource_ctfvo"]
+script = ExtResource("3_4ycbt")
+move = 33
+
+[sub_resource type="Resource" id="Resource_crxhs"]
+script = ExtResource("3_4ycbt")
+move = 43
+
+[sub_resource type="Resource" id="Resource_5rcom"]
+script = ExtResource("3_4ycbt")
+move = 52
+
+[sub_resource type="Resource" id="Resource_5sntv"]
+script = ExtResource("3_4ycbt")
+level = 7
+move = 496
+
+[sub_resource type="Resource" id="Resource_i6knb"]
+script = ExtResource("3_4ycbt")
+level = 12
+move = 44
+
+[sub_resource type="Resource" id="Resource_k4nco"]
+script = ExtResource("3_4ycbt")
+level = 15
+move = 510
+
+[sub_resource type="Resource" id="Resource_8mtl6"]
+script = ExtResource("3_4ycbt")
+level = 17
+move = 281
+
+[sub_resource type="Resource" id="Resource_cph8g"]
+script = ExtResource("3_4ycbt")
+level = 21
+move = 555
+
+[sub_resource type="Resource" id="Resource_8yvwp"]
+script = ExtResource("3_4ycbt")
+level = 25
+move = 46
+
+[sub_resource type="Resource" id="Resource_hlsjd"]
+script = ExtResource("3_4ycbt")
+level = 28
+move = 53
+
+[sub_resource type="Resource" id="Resource_an6td"]
+script = ExtResource("3_4ycbt")
+level = 32
+move = 304
+
+[sub_resource type="Resource" id="Resource_7pn4b"]
+script = ExtResource("3_4ycbt")
+level = 36
+move = 126
+
+[resource]
+script = ExtResource("4_rxlj3")
+id = 1292
+display_name = "Fuecoco"
+category = "Fire Croc"
+national_dex = 909
+pokedex = "Its flame sac is small, so energy is
+always leaking out. This energy is
+released from the dent atop
+Fuecoco's head and flickers to and fro."
+type_1 = 11
+base_hp = 67
+base_atk = 45
+base_def = 59
+base_spa = 63
+base_spd = 40
+base_spe = 36
+ev_hp = 1
+base_exp = 62
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 66
+ability_hidden = 109
+height_dm = 4
+weight_hg = 98
+level_moves = Array[ExtResource("3_4ycbt")]([SubResource("Resource_ctfvo"), SubResource("Resource_crxhs"), SubResource("Resource_5rcom"), SubResource("Resource_5sntv"), SubResource("Resource_i6knb"), SubResource("Resource_k4nco"), SubResource("Resource_8mtl6"), SubResource("Resource_cph8g"), SubResource("Resource_8yvwp"), SubResource("Resource_hlsjd"), SubResource("Resource_an6td"), SubResource("Resource_7pn4b")])
+egg_moves = Array[int]([562, 174, 227, 303])
+evolutions = Array[ExtResource("1_eqhng")]([SubResource("Resource_ol07a")])

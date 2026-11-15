@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cdjgngoo1wmcd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_r5ydo"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8138n"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xcn5t"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_vpicb"]
+
+[sub_resource type="Resource" id="Resource_wota7"]
+script = ExtResource("1_r5ydo")
+method = "LEVEL"
+param = "32"
+target = 3
+
+[sub_resource type="Resource" id="Resource_relyt"]
+script = ExtResource("3_xcn5t")
+move = 22
+
+[sub_resource type="Resource" id="Resource_fdufn"]
+script = ExtResource("3_xcn5t")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ggaeg"]
+script = ExtResource("3_xcn5t")
+move = 45
+
+[sub_resource type="Resource" id="Resource_08mph"]
+script = ExtResource("3_xcn5t")
+move = 74
+
+[sub_resource type="Resource" id="Resource_ej85y"]
+script = ExtResource("3_xcn5t")
+level = 9
+move = 73
+
+[sub_resource type="Resource" id="Resource_hshls"]
+script = ExtResource("3_xcn5t")
+level = 12
+move = 75
+
+[sub_resource type="Resource" id="Resource_4mvam"]
+script = ExtResource("3_xcn5t")
+level = 15
+move = 77
+
+[sub_resource type="Resource" id="Resource_escol"]
+script = ExtResource("3_xcn5t")
+level = 15
+move = 79
+
+[sub_resource type="Resource" id="Resource_fnm8l"]
+script = ExtResource("3_xcn5t")
+level = 20
+move = 402
+
+[sub_resource type="Resource" id="Resource_6g80o"]
+script = ExtResource("3_xcn5t")
+level = 25
+move = 36
+
+[sub_resource type="Resource" id="Resource_uupno"]
+script = ExtResource("3_xcn5t")
+level = 30
+move = 230
+
+[sub_resource type="Resource" id="Resource_bbpiy"]
+script = ExtResource("3_xcn5t")
+level = 35
+move = 235
+
+[sub_resource type="Resource" id="Resource_pflv7"]
+script = ExtResource("3_xcn5t")
+level = 40
+move = 388
+
+[sub_resource type="Resource" id="Resource_5jp4u"]
+script = ExtResource("3_xcn5t")
+level = 45
+move = 438
+
+[sub_resource type="Resource" id="Resource_p6617"]
+script = ExtResource("3_xcn5t")
+level = 50
+move = 76
+
+[resource]
+script = ExtResource("4_vpicb")
+id = 2
+display_name = "Ivysaur"
+category = "Seed"
+national_dex = 2
+pokedex = "To support its bulb, Ivysaur's legs
+grow sturdy. If it spends more time lying in
+the sunlight, the bud will soon bloom into
+a large flower."
+type_1 = 13
+type_2 = 4
+base_hp = 60
+base_atk = 62
+base_def = 63
+base_spa = 80
+base_spd = 80
+base_spe = 60
+ev_spa = 1
+ev_spd = 1
+base_exp = 142
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 7
+ability_1 = 65
+ability_hidden = 34
+height_dm = 10
+weight_hg = 130
+body_color = 3
+no_flip = true
+level_moves = Array[ExtResource("3_xcn5t")]([SubResource("Resource_relyt"), SubResource("Resource_fdufn"), SubResource("Resource_ggaeg"), SubResource("Resource_08mph"), SubResource("Resource_ej85y"), SubResource("Resource_hshls"), SubResource("Resource_4mvam"), SubResource("Resource_escol"), SubResource("Resource_fnm8l"), SubResource("Resource_6g80o"), SubResource("Resource_uupno"), SubResource("Resource_bbpiy"), SubResource("Resource_pflv7"), SubResource("Resource_5jp4u"), SubResource("Resource_p6617")])
+evolutions = Array[ExtResource("1_r5ydo")]([SubResource("Resource_wota7")])

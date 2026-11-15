@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8m1xlpa4hfps"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_lpr6u"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_eblfn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4grsq"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7skee"]
+
+[sub_resource type="Resource" id="Resource_uf1xj"]
+script = ExtResource("3_4grsq")
+move = 33
+
+[sub_resource type="Resource" id="Resource_nwrfp"]
+script = ExtResource("3_4grsq")
+move = 45
+
+[sub_resource type="Resource" id="Resource_0p1k4"]
+script = ExtResource("3_4grsq")
+move = 310
+
+[sub_resource type="Resource" id="Resource_fpeh3"]
+script = ExtResource("3_4grsq")
+move = 633
+
+[sub_resource type="Resource" id="Resource_82baf"]
+script = ExtResource("3_4grsq")
+level = 9
+move = 64
+
+[sub_resource type="Resource" id="Resource_0vlhs"]
+script = ExtResource("3_4grsq")
+level = 12
+move = 425
+
+[sub_resource type="Resource" id="Resource_n458l"]
+script = ExtResource("3_4grsq")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_cilgw"]
+script = ExtResource("3_4grsq")
+level = 20
+move = 235
+
+[sub_resource type="Resource" id="Resource_ybyjh"]
+script = ExtResource("3_4grsq")
+level = 25
+move = 365
+
+[sub_resource type="Resource" id="Resource_jehyv"]
+script = ExtResource("3_4grsq")
+level = 30
+move = 417
+
+[sub_resource type="Resource" id="Resource_fkf1u"]
+script = ExtResource("3_4grsq")
+level = 35
+move = 389
+
+[sub_resource type="Resource" id="Resource_7kupp"]
+script = ExtResource("3_4grsq")
+level = 40
+move = 348
+
+[sub_resource type="Resource" id="Resource_p1juv"]
+script = ExtResource("3_4grsq")
+level = 45
+move = 297
+
+[sub_resource type="Resource" id="Resource_mcvqi"]
+script = ExtResource("3_4grsq")
+level = 50
+move = 413
+
+[resource]
+script = ExtResource("4_7skee")
+id = 723
+display_name = "Dartrix"
+category = "Blade Quill"
+national_dex = 723
+pokedex = "A bit of a dandy, it spends its free time
+preening its wings. Its preoccupation
+with any dirt on its plumage can leave
+it unable to battle."
+type_1 = 13
+type_2 = 3
+base_hp = 78
+base_atk = 75
+base_def = 75
+base_spa = 70
+base_spd = 70
+base_spe = 52
+ev_hp = 2
+base_exp = 147
+gender_ratio = 31
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 65
+ability_hidden = 203
+height_dm = 7
+weight_hg = 160
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_4grsq")]([SubResource("Resource_uf1xj"), SubResource("Resource_nwrfp"), SubResource("Resource_0p1k4"), SubResource("Resource_fpeh3"), SubResource("Resource_82baf"), SubResource("Resource_0vlhs"), SubResource("Resource_n458l"), SubResource("Resource_cilgw"), SubResource("Resource_ybyjh"), SubResource("Resource_jehyv"), SubResource("Resource_fkf1u"), SubResource("Resource_7kupp"), SubResource("Resource_p1juv"), SubResource("Resource_mcvqi")])

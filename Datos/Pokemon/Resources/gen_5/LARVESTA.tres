@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ilmhtgkg8yri"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_adso1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2vn4h"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_o3p5d"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0vhxx"]
+
+[sub_resource type="Resource" id="Resource_pok6k"]
+script = ExtResource("1_adso1")
+method = "LEVEL"
+param = "59"
+target = 637
+
+[sub_resource type="Resource" id="Resource_hbmyx"]
+script = ExtResource("3_o3p5d")
+move = 52
+
+[sub_resource type="Resource" id="Resource_ggmvb"]
+script = ExtResource("3_o3p5d")
+move = 81
+
+[sub_resource type="Resource" id="Resource_25fh1"]
+script = ExtResource("3_o3p5d")
+level = 6
+move = 488
+
+[sub_resource type="Resource" id="Resource_hjdvk"]
+script = ExtResource("3_o3p5d")
+level = 12
+move = 522
+
+[sub_resource type="Resource" id="Resource_ga8qj"]
+script = ExtResource("3_o3p5d")
+level = 18
+move = 172
+
+[sub_resource type="Resource" id="Resource_x20o5"]
+script = ExtResource("3_o3p5d")
+level = 30
+move = 103
+
+[sub_resource type="Resource" id="Resource_75ci2"]
+script = ExtResource("3_o3p5d")
+level = 36
+move = 141
+
+[sub_resource type="Resource" id="Resource_hg7gt"]
+script = ExtResource("3_o3p5d")
+level = 42
+move = 405
+
+[sub_resource type="Resource" id="Resource_3fl6h"]
+script = ExtResource("3_o3p5d")
+level = 48
+move = 36
+
+[sub_resource type="Resource" id="Resource_j517k"]
+script = ExtResource("3_o3p5d")
+level = 54
+move = 133
+
+[sub_resource type="Resource" id="Resource_tc5ym"]
+script = ExtResource("3_o3p5d")
+level = 60
+move = 38
+
+[sub_resource type="Resource" id="Resource_rf73k"]
+script = ExtResource("3_o3p5d")
+level = 66
+move = 394
+
+[resource]
+script = ExtResource("4_0vhxx")
+id = 636
+display_name = "Larvesta"
+category = "Torch"
+national_dex = 636
+pokedex = "This Pokémon was believed to have
+been born from the sun. It spews fire from
+its horns and encases itself in a cocoon
+of fire when it evolves."
+type_1 = 7
+type_2 = 11
+base_hp = 55
+base_atk = 85
+base_def = 55
+base_spa = 50
+base_spd = 55
+base_spe = 60
+ev_atk = 1
+base_exp = 72
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 3
+ability_1 = 49
+ability_hidden = 68
+height_dm = 11
+weight_hg = 288
+body_color = 8
+level_moves = Array[ExtResource("3_o3p5d")]([SubResource("Resource_hbmyx"), SubResource("Resource_ggmvb"), SubResource("Resource_25fh1"), SubResource("Resource_hjdvk"), SubResource("Resource_ga8qj"), SubResource("Resource_x20o5"), SubResource("Resource_75ci2"), SubResource("Resource_hg7gt"), SubResource("Resource_3fl6h"), SubResource("Resource_j517k"), SubResource("Resource_tc5ym"), SubResource("Resource_rf73k")])
+egg_moves = Array[int]([81, 106, 193, 203, 428, 234, 393])
+evolutions = Array[ExtResource("1_adso1")]([SubResource("Resource_pok6k")])

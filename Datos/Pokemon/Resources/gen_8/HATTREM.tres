@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://jb4ysxdyl2q5"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3twpd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_l0wey"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ktojp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_msf6j"]
+
+[sub_resource type="Resource" id="Resource_baf3v"]
+script = ExtResource("1_3twpd")
+method = "LEVEL"
+param = "42"
+target = 858
+
+[sub_resource type="Resource" id="Resource_4a0bq"]
+script = ExtResource("3_ktojp")
+level = 0
+move = 656
+
+[sub_resource type="Resource" id="Resource_7uxnd"]
+script = ExtResource("3_ktojp")
+move = 93
+
+[sub_resource type="Resource" id="Resource_0g1wi"]
+script = ExtResource("3_ktojp")
+move = 574
+
+[sub_resource type="Resource" id="Resource_wvan8"]
+script = ExtResource("3_ktojp")
+move = 589
+
+[sub_resource type="Resource" id="Resource_m8o6o"]
+script = ExtResource("3_ktojp")
+move = 719
+
+[sub_resource type="Resource" id="Resource_rsfpm"]
+script = ExtResource("3_ktojp")
+level = 15
+move = 597
+
+[sub_resource type="Resource" id="Resource_aqfgv"]
+script = ExtResource("3_ktojp")
+level = 20
+move = 60
+
+[sub_resource type="Resource" id="Resource_knxhu"]
+script = ExtResource("3_ktojp")
+level = 25
+move = 505
+
+[sub_resource type="Resource" id="Resource_84egh"]
+script = ExtResource("3_ktojp")
+level = 30
+move = 605
+
+[sub_resource type="Resource" id="Resource_y3gjd"]
+script = ExtResource("3_ktojp")
+level = 37
+move = 347
+
+[sub_resource type="Resource" id="Resource_oufdw"]
+script = ExtResource("3_ktojp")
+level = 44
+move = 94
+
+[sub_resource type="Resource" id="Resource_4qpec"]
+script = ExtResource("3_ktojp")
+level = 51
+move = 361
+
+[resource]
+script = ExtResource("4_msf6j")
+id = 857
+display_name = "Hattrem"
+category = "Serene"
+national_dex = 857
+pokedex = "No matter who you are, if you bring strong
+emotions near this Pokémon, it will silence
+you violently."
+type_1 = 15
+base_hp = 57
+base_atk = 40
+base_def = 65
+base_spa = 86
+base_spd = 73
+base_spe = 49
+ev_spa = 2
+catch_rate = 120
+base_exp = 130
+gender_ratio = 254
+growth_rate = 5
+egg_group_1 = 6
+ability_1 = 131
+ability_2 = 107
+ability_hidden = 156
+height_dm = 6
+weight_hg = 48
+body_color = 9
+level_moves = Array[ExtResource("3_ktojp")]([SubResource("Resource_4a0bq"), SubResource("Resource_7uxnd"), SubResource("Resource_0g1wi"), SubResource("Resource_wvan8"), SubResource("Resource_m8o6o"), SubResource("Resource_rsfpm"), SubResource("Resource_aqfgv"), SubResource("Resource_knxhu"), SubResource("Resource_84egh"), SubResource("Resource_y3gjd"), SubResource("Resource_oufdw"), SubResource("Resource_4qpec")])
+evolutions = Array[ExtResource("1_3twpd")]([SubResource("Resource_baf3v")])

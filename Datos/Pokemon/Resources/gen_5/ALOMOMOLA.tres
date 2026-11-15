@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cj4goxmd06dha"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_w1pdb"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ka37a"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_25d0x"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5iqdq"]
+
+[sub_resource type="Resource" id="Resource_nwjuu"]
+script = ExtResource("3_25d0x")
+move = 1
+
+[sub_resource type="Resource" id="Resource_de1sv"]
+script = ExtResource("3_25d0x")
+move = 589
+
+[sub_resource type="Resource" id="Resource_do4kh"]
+script = ExtResource("3_25d0x")
+level = 5
+move = 392
+
+[sub_resource type="Resource" id="Resource_vv28v"]
+script = ExtResource("3_25d0x")
+level = 9
+move = 453
+
+[sub_resource type="Resource" id="Resource_bnivs"]
+script = ExtResource("3_25d0x")
+level = 13
+move = 270
+
+[sub_resource type="Resource" id="Resource_sykl3"]
+script = ExtResource("3_25d0x")
+level = 13
+move = 469
+
+[sub_resource type="Resource" id="Resource_citmg"]
+script = ExtResource("3_25d0x")
+level = 21
+move = 182
+
+[sub_resource type="Resource" id="Resource_vxwi4"]
+script = ExtResource("3_25d0x")
+level = 25
+move = 352
+
+[sub_resource type="Resource" id="Resource_clb3r"]
+script = ExtResource("3_25d0x")
+level = 29
+move = 361
+
+[sub_resource type="Resource" id="Resource_vvela"]
+script = ExtResource("3_25d0x")
+level = 33
+move = 487
+
+[sub_resource type="Resource" id="Resource_ww5ih"]
+script = ExtResource("3_25d0x")
+level = 37
+move = 273
+
+[sub_resource type="Resource" id="Resource_7tues"]
+script = ExtResource("3_25d0x")
+level = 41
+move = 362
+
+[sub_resource type="Resource" id="Resource_w8fxp"]
+script = ExtResource("3_25d0x")
+level = 45
+move = 219
+
+[sub_resource type="Resource" id="Resource_sa0pv"]
+script = ExtResource("3_25d0x")
+level = 49
+move = 250
+
+[sub_resource type="Resource" id="Resource_f53wv"]
+script = ExtResource("3_25d0x")
+level = 55
+move = 56
+
+[resource]
+script = ExtResource("4_5iqdq")
+id = 594
+display_name = "Alomomola"
+category = "Caring"
+national_dex = 594
+pokedex = "When they find a wounded Pokémon,
+they embrace it and bring it to shore.
+The special membrane enveloping
+Alomomola has the ability to heal wounds."
+type_1 = 12
+base_hp = 165
+base_atk = 75
+base_def = 80
+base_spa = 40
+base_spd = 45
+base_spe = 65
+ev_hp = 2
+catch_rate = 75
+base_exp = 165
+growth_rate = 4
+egg_cycles = 40
+egg_group_1 = 2
+egg_group_2 = 12
+ability_1 = 131
+ability_2 = 93
+ability_hidden = 144
+height_dm = 12
+weight_hg = 316
+body_color = 9
+level_moves = Array[ExtResource("3_25d0x")]([SubResource("Resource_nwjuu"), SubResource("Resource_de1sv"), SubResource("Resource_do4kh"), SubResource("Resource_vv28v"), SubResource("Resource_bnivs"), SubResource("Resource_sykl3"), SubResource("Resource_citmg"), SubResource("Resource_vxwi4"), SubResource("Resource_clb3r"), SubResource("Resource_vvela"), SubResource("Resource_ww5ih"), SubResource("Resource_7tues"), SubResource("Resource_w8fxp"), SubResource("Resource_sa0pv"), SubResource("Resource_f53wv")])
+egg_moves = Array[int]([220, 287, 321, 243, 54, 203])

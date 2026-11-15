@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bw6ge7bapc4ub"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_awlb5"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_g6nq4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jt26j"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_40t78"]
+
+[sub_resource type="Resource" id="Resource_wp82g"]
+script = ExtResource("3_jt26j")
+move = 93
+
+[sub_resource type="Resource" id="Resource_tjb6b"]
+script = ExtResource("3_jt26j")
+move = 134
+
+[sub_resource type="Resource" id="Resource_jxpru"]
+script = ExtResource("3_jt26j")
+move = 50
+
+[sub_resource type="Resource" id="Resource_mv3hw"]
+script = ExtResource("3_jt26j")
+move = 100
+
+[sub_resource type="Resource" id="Resource_vd8o5"]
+script = ExtResource("3_jt26j")
+level = 5
+move = 60
+
+[sub_resource type="Resource" id="Resource_jmndu"]
+script = ExtResource("3_jt26j")
+level = 10
+move = 115
+
+[sub_resource type="Resource" id="Resource_kljel"]
+script = ExtResource("3_jt26j")
+level = 15
+move = 502
+
+[sub_resource type="Resource" id="Resource_qkuvx"]
+script = ExtResource("3_jt26j")
+level = 20
+move = 427
+
+[sub_resource type="Resource" id="Resource_otmb1"]
+script = ExtResource("3_jt26j")
+level = 25
+move = 105
+
+[sub_resource type="Resource" id="Resource_ebve5"]
+script = ExtResource("3_jt26j")
+level = 30
+move = 473
+
+[sub_resource type="Resource" id="Resource_0r1t6"]
+script = ExtResource("3_jt26j")
+level = 35
+move = 94
+
+[sub_resource type="Resource" id="Resource_wu326"]
+script = ExtResource("3_jt26j")
+level = 40
+move = 272
+
+[sub_resource type="Resource" id="Resource_vlso6"]
+script = ExtResource("3_jt26j")
+level = 45
+move = 248
+
+[sub_resource type="Resource" id="Resource_sdnt3"]
+script = ExtResource("3_jt26j")
+level = 50
+move = 347
+
+[resource]
+script = ExtResource("4_40t78")
+id = 65
+display_name = "Alakazam"
+category = "Psi"
+national_dex = 65
+pokedex = "While it has strong psychic abilities and
+high intelligence, an Alakazam's muscles
+are very weak. It uses psychic power to
+move its body."
+type_1 = 15
+base_hp = 55
+base_atk = 50
+base_def = 45
+base_spa = 135
+base_spe = 120
+ev_spa = 3
+catch_rate = 50
+base_exp = 186
+gender_ratio = 63
+growth_rate = 3
+egg_group_1 = 8
+ability_1 = 28
+ability_2 = 39
+ability_hidden = 98
+item_rare = 435
+height_dm = 15
+weight_hg = 480
+body_color = 5
+level_moves = Array[ExtResource("3_jt26j")]([SubResource("Resource_wp82g"), SubResource("Resource_tjb6b"), SubResource("Resource_jxpru"), SubResource("Resource_mv3hw"), SubResource("Resource_vd8o5"), SubResource("Resource_jmndu"), SubResource("Resource_kljel"), SubResource("Resource_qkuvx"), SubResource("Resource_otmb1"), SubResource("Resource_ebve5"), SubResource("Resource_0r1t6"), SubResource("Resource_wu326"), SubResource("Resource_vlso6"), SubResource("Resource_sdnt3")])
+form_species = Array[int]([65, 912])

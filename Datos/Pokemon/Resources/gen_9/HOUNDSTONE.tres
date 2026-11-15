@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dbeq8cdgcht8q"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rx3ep"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ae24h"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_53vsa"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_buy61"]
+
+[sub_resource type="Resource" id="Resource_ra8xb"]
+script = ExtResource("3_53vsa")
+level = 0
+move = 782
+
+[sub_resource type="Resource" id="Resource_ab3br"]
+script = ExtResource("3_53vsa")
+move = 33
+
+[sub_resource type="Resource" id="Resource_mga8f"]
+script = ExtResource("3_53vsa")
+move = 45
+
+[sub_resource type="Resource" id="Resource_fya0g"]
+script = ExtResource("3_53vsa")
+level = 3
+move = 122
+
+[sub_resource type="Resource" id="Resource_c010v"]
+script = ExtResource("3_53vsa")
+level = 6
+move = 39
+
+[sub_resource type="Resource" id="Resource_yjbvi"]
+script = ExtResource("3_53vsa")
+level = 6
+move = 44
+
+[sub_resource type="Resource" id="Resource_831lh"]
+script = ExtResource("3_53vsa")
+level = 9
+move = 46
+
+[sub_resource type="Resource" id="Resource_hdm0q"]
+script = ExtResource("3_53vsa")
+level = 12
+move = 29
+
+[sub_resource type="Resource" id="Resource_14h7g"]
+script = ExtResource("3_53vsa")
+level = 16
+move = 91
+
+[sub_resource type="Resource" id="Resource_lplmy"]
+script = ExtResource("3_53vsa")
+level = 24
+move = 156
+
+[sub_resource type="Resource" id="Resource_ahsy3"]
+script = ExtResource("3_53vsa")
+level = 28
+move = 242
+
+[sub_resource type="Resource" id="Resource_wcgms"]
+script = ExtResource("3_53vsa")
+level = 36
+move = 583
+
+[sub_resource type="Resource" id="Resource_25gxi"]
+script = ExtResource("3_53vsa")
+level = 41
+move = 270
+
+[sub_resource type="Resource" id="Resource_j3s4h"]
+script = ExtResource("3_53vsa")
+level = 46
+move = 566
+
+[sub_resource type="Resource" id="Resource_oddjo"]
+script = ExtResource("3_53vsa")
+level = 51
+move = 204
+
+[sub_resource type="Resource" id="Resource_lhu4t"]
+script = ExtResource("3_53vsa")
+level = 58
+move = 38
+
+[resource]
+script = ExtResource("4_buy61")
+id = 1361
+display_name = "Houndstone"
+category = "Ghost Dog"
+national_dex = 972
+pokedex = "Houndstone spends most of its
+time sleeping in graveyards. Among all
+the dog Pokémon, this one is most
+loyal to its master."
+type_1 = 8
+base_hp = 72
+base_atk = 101
+base_def = 100
+base_spa = 50
+base_spd = 97
+base_spe = 68
+ev_atk = 2
+catch_rate = 60
+base_exp = 171
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 146
+ability_hidden = 218
+height_dm = 20
+weight_hg = 150
+body_color = 8
+level_moves = Array[ExtResource("3_53vsa")]([SubResource("Resource_ra8xb"), SubResource("Resource_ab3br"), SubResource("Resource_mga8f"), SubResource("Resource_fya0g"), SubResource("Resource_c010v"), SubResource("Resource_yjbvi"), SubResource("Resource_831lh"), SubResource("Resource_hdm0q"), SubResource("Resource_14h7g"), SubResource("Resource_lplmy"), SubResource("Resource_ahsy3"), SubResource("Resource_wcgms"), SubResource("Resource_25gxi"), SubResource("Resource_j3s4h"), SubResource("Resource_oddjo"), SubResource("Resource_lhu4t")])

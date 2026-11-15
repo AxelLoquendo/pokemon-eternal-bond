@@ -1,0 +1,121 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://belx3swj57sp6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_o48gx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_a50uu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_14en8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_li5d2"]
+
+[sub_resource type="Resource" id="Resource_6c2js"]
+script = ExtResource("1_o48gx")
+method = "LEVEL"
+param = "37"
+target = 308
+
+[sub_resource type="Resource" id="Resource_f3rs3"]
+script = ExtResource("3_14en8")
+move = 93
+
+[sub_resource type="Resource" id="Resource_wg2a5"]
+script = ExtResource("3_14en8")
+move = 526
+
+[sub_resource type="Resource" id="Resource_6d166"]
+script = ExtResource("3_14en8")
+level = 9
+move = 197
+
+[sub_resource type="Resource" id="Resource_x5ld4"]
+script = ExtResource("3_14en8")
+level = 12
+move = 203
+
+[sub_resource type="Resource" id="Resource_8v0nu"]
+script = ExtResource("3_14en8")
+level = 15
+move = 364
+
+[sub_resource type="Resource" id="Resource_nsaqn"]
+script = ExtResource("3_14en8")
+level = 17
+move = 395
+
+[sub_resource type="Resource" id="Resource_1koxm"]
+script = ExtResource("3_14en8")
+level = 20
+move = 60
+
+[sub_resource type="Resource" id="Resource_whufe"]
+script = ExtResource("3_14en8")
+level = 23
+move = 347
+
+[sub_resource type="Resource" id="Resource_2wxwp"]
+script = ExtResource("3_14en8")
+level = 25
+move = 428
+
+[sub_resource type="Resource" id="Resource_okofn"]
+script = ExtResource("3_14en8")
+level = 28
+move = 136
+
+[sub_resource type="Resource" id="Resource_w68yq"]
+script = ExtResource("3_14en8")
+level = 31
+move = 244
+
+[sub_resource type="Resource" id="Resource_ck1l6"]
+script = ExtResource("3_14en8")
+level = 33
+move = 367
+
+[sub_resource type="Resource" id="Resource_p4c12"]
+script = ExtResource("3_14en8")
+level = 36
+move = 379
+
+[sub_resource type="Resource" id="Resource_if3r1"]
+script = ExtResource("3_14en8")
+level = 39
+move = 179
+
+[sub_resource type="Resource" id="Resource_ahe00"]
+script = ExtResource("3_14en8")
+level = 41
+move = 105
+
+[sub_resource type="Resource" id="Resource_w4oyu"]
+script = ExtResource("3_14en8")
+level = 44
+move = 68
+
+[resource]
+script = ExtResource("4_li5d2")
+id = 307
+display_name = "Meditite"
+category = "Meditate"
+national_dex = 307
+pokedex = "It continually meditates for hours every
+day. As a result of rigorous and dedicated
+yoga training, it has tempered its
+spiritual power so much it can fly."
+type_1 = 2
+type_2 = 15
+base_hp = 30
+base_atk = 40
+base_def = 55
+base_spa = 40
+base_spd = 55
+base_spe = 60
+ev_spe = 1
+catch_rate = 180
+base_exp = 56
+egg_group_1 = 8
+ability_1 = 74
+ability_hidden = 140
+height_dm = 6
+weight_hg = 112
+body_color = 1
+level_moves = Array[ExtResource("3_14en8")]([SubResource("Resource_f3rs3"), SubResource("Resource_wg2a5"), SubResource("Resource_6d166"), SubResource("Resource_x5ld4"), SubResource("Resource_8v0nu"), SubResource("Resource_nsaqn"), SubResource("Resource_1koxm"), SubResource("Resource_whufe"), SubResource("Resource_2wxwp"), SubResource("Resource_okofn"), SubResource("Resource_w68yq"), SubResource("Resource_ck1l6"), SubResource("Resource_p4c12"), SubResource("Resource_if3r1"), SubResource("Resource_ahe00"), SubResource("Resource_w4oyu")])
+egg_moves = Array[int]([7, 9, 8, 193, 252, 226, 223, 384, 385, 427, 418, 409, 290, 501])
+evolutions = Array[ExtResource("1_o48gx")]([SubResource("Resource_6c2js")])

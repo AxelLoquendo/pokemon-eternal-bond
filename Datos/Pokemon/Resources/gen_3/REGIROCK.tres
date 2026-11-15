@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dhbcd8mumnphu"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6rnk7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_asf31"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qbh3q"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_g5xhc"]
+
+[sub_resource type="Resource" id="Resource_e0lyk"]
+script = ExtResource("3_qbh3q")
+move = 88
+
+[sub_resource type="Resource" id="Resource_ucsnb"]
+script = ExtResource("3_qbh3q")
+move = 451
+
+[sub_resource type="Resource" id="Resource_omg40"]
+script = ExtResource("3_qbh3q")
+level = 6
+move = 523
+
+[sub_resource type="Resource" id="Resource_asa5g"]
+script = ExtResource("3_qbh3q")
+level = 12
+move = 246
+
+[sub_resource type="Resource" id="Resource_6kqsi"]
+script = ExtResource("3_qbh3q")
+level = 18
+move = 23
+
+[sub_resource type="Resource" id="Resource_px07b"]
+script = ExtResource("3_qbh3q")
+level = 24
+move = 157
+
+[sub_resource type="Resource" id="Resource_6y0kj"]
+script = ExtResource("3_qbh3q")
+level = 30
+move = 174
+
+[sub_resource type="Resource" id="Resource_ck7yc"]
+script = ExtResource("3_qbh3q")
+level = 36
+move = 334
+
+[sub_resource type="Resource" id="Resource_d5ivj"]
+script = ExtResource("3_qbh3q")
+level = 42
+move = 359
+
+[sub_resource type="Resource" id="Resource_y4mrv"]
+script = ExtResource("3_qbh3q")
+level = 48
+move = 444
+
+[sub_resource type="Resource" id="Resource_rmga4"]
+script = ExtResource("3_qbh3q")
+level = 54
+move = 276
+
+[sub_resource type="Resource" id="Resource_lj2on"]
+script = ExtResource("3_qbh3q")
+level = 60
+move = 199
+
+[sub_resource type="Resource" id="Resource_b1kii"]
+script = ExtResource("3_qbh3q")
+level = 66
+move = 192
+
+[sub_resource type="Resource" id="Resource_hehbw"]
+script = ExtResource("3_qbh3q")
+level = 72
+move = 63
+
+[sub_resource type="Resource" id="Resource_wn6fo"]
+script = ExtResource("3_qbh3q")
+level = 78
+move = 153
+
+[resource]
+script = ExtResource("4_g5xhc")
+id = 377
+display_name = "Regirock"
+category = "Rock Peak"
+national_dex = 377
+pokedex = "A Pokémon that is made entirely of rocks
+and boulders. If parts of its body chip off
+in battle, Regirock repairs itself by
+adding new rocks."
+type_1 = 6
+base_hp = 80
+base_atk = 100
+base_def = 200
+base_spa = 50
+base_spd = 100
+base_spe = 50
+ev_def = 3
+catch_rate = 3
+base_exp = 217
+base_friendship = 35
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 80
+ability_1 = 29
+ability_hidden = 5
+height_dm = 17
+weight_hg = 2300
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_qbh3q")]([SubResource("Resource_e0lyk"), SubResource("Resource_ucsnb"), SubResource("Resource_omg40"), SubResource("Resource_asa5g"), SubResource("Resource_6kqsi"), SubResource("Resource_px07b"), SubResource("Resource_6y0kj"), SubResource("Resource_ck7yc"), SubResource("Resource_d5ivj"), SubResource("Resource_y4mrv"), SubResource("Resource_rmga4"), SubResource("Resource_lj2on"), SubResource("Resource_b1kii"), SubResource("Resource_hehbw"), SubResource("Resource_wn6fo")])

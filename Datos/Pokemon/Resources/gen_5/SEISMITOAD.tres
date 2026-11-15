@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bsv32xelfm3at"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_y03wl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jfscp"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vnyho"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8goyd"]
+
+[sub_resource type="Resource" id="Resource_nuryu"]
+script = ExtResource("3_vnyho")
+level = 0
+move = 409
+
+[sub_resource type="Resource" id="Resource_hck4w"]
+script = ExtResource("3_vnyho")
+move = 409
+
+[sub_resource type="Resource" id="Resource_a2ibw"]
+script = ExtResource("3_vnyho")
+move = 380
+
+[sub_resource type="Resource" id="Resource_j8i5i"]
+script = ExtResource("3_vnyho")
+move = 497
+
+[sub_resource type="Resource" id="Resource_x7260"]
+script = ExtResource("3_vnyho")
+move = 45
+
+[sub_resource type="Resource" id="Resource_1dbic"]
+script = ExtResource("3_vnyho")
+move = 51
+
+[sub_resource type="Resource" id="Resource_w7kql"]
+script = ExtResource("3_vnyho")
+move = 48
+
+[sub_resource type="Resource" id="Resource_2utme"]
+script = ExtResource("3_vnyho")
+level = 12
+move = 341
+
+[sub_resource type="Resource" id="Resource_nftef"]
+script = ExtResource("3_vnyho")
+level = 16
+move = 496
+
+[sub_resource type="Resource" id="Resource_gnovl"]
+script = ExtResource("3_vnyho")
+level = 20
+move = 61
+
+[sub_resource type="Resource" id="Resource_aghli"]
+script = ExtResource("3_vnyho")
+level = 24
+move = 175
+
+[sub_resource type="Resource" id="Resource_k2maa"]
+script = ExtResource("3_vnyho")
+level = 30
+move = 253
+
+[sub_resource type="Resource" id="Resource_3gjkk"]
+script = ExtResource("3_vnyho")
+level = 39
+move = 392
+
+[sub_resource type="Resource" id="Resource_p5byh"]
+script = ExtResource("3_vnyho")
+level = 46
+move = 304
+
+[sub_resource type="Resource" id="Resource_qmbnv"]
+script = ExtResource("3_vnyho")
+level = 54
+move = 330
+
+[sub_resource type="Resource" id="Resource_q0vxk"]
+script = ExtResource("3_vnyho")
+level = 62
+move = 240
+
+[sub_resource type="Resource" id="Resource_muwj8"]
+script = ExtResource("3_vnyho")
+level = 70
+move = 56
+
+[resource]
+script = ExtResource("4_8goyd")
+id = 537
+display_name = "Seismitoad"
+category = "Vibration"
+national_dex = 537
+pokedex = "It increases the power of its punches
+by vibrating the bumps on its fists.
+They can also shoot paralyzing liquid
+from their head bumps."
+type_1 = 12
+type_2 = 5
+base_hp = 105
+base_atk = 95
+base_def = 75
+base_spa = 85
+base_spd = 75
+base_spe = 74
+ev_hp = 3
+base_exp = 225
+growth_rate = 3
+egg_group_1 = 2
+ability_1 = 33
+ability_2 = 143
+ability_hidden = 11
+height_dm = 15
+weight_hg = 620
+body_color = 1
+level_moves = Array[ExtResource("3_vnyho")]([SubResource("Resource_nuryu"), SubResource("Resource_hck4w"), SubResource("Resource_a2ibw"), SubResource("Resource_j8i5i"), SubResource("Resource_x7260"), SubResource("Resource_1dbic"), SubResource("Resource_w7kql"), SubResource("Resource_2utme"), SubResource("Resource_nftef"), SubResource("Resource_gnovl"), SubResource("Resource_aghli"), SubResource("Resource_k2maa"), SubResource("Resource_3gjkk"), SubResource("Resource_p5byh"), SubResource("Resource_qmbnv"), SubResource("Resource_q0vxk"), SubResource("Resource_muwj8")])

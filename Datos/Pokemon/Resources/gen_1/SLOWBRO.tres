@@ -1,0 +1,128 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://drsl6sxyu6pt7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_067yx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gnig2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ovewn"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kfnjh"]
+
+[sub_resource type="Resource" id="Resource_njcli"]
+script = ExtResource("3_ovewn")
+move = 248
+
+[sub_resource type="Resource" id="Resource_8lu1w"]
+script = ExtResource("3_ovewn")
+move = 110
+
+[sub_resource type="Resource" id="Resource_0ibb2"]
+script = ExtResource("3_ovewn")
+move = 33
+
+[sub_resource type="Resource" id="Resource_n5y2o"]
+script = ExtResource("3_ovewn")
+move = 45
+
+[sub_resource type="Resource" id="Resource_33wvo"]
+script = ExtResource("3_ovewn")
+move = 55
+
+[sub_resource type="Resource" id="Resource_m0lly"]
+script = ExtResource("3_ovewn")
+move = 174
+
+[sub_resource type="Resource" id="Resource_d6gnc"]
+script = ExtResource("3_ovewn")
+level = 9
+move = 281
+
+[sub_resource type="Resource" id="Resource_7jkif"]
+script = ExtResource("3_ovewn")
+level = 12
+move = 93
+
+[sub_resource type="Resource" id="Resource_gbbdp"]
+script = ExtResource("3_ovewn")
+level = 15
+move = 50
+
+[sub_resource type="Resource" id="Resource_woasc"]
+script = ExtResource("3_ovewn")
+level = 18
+move = 352
+
+[sub_resource type="Resource" id="Resource_8ia05"]
+script = ExtResource("3_ovewn")
+level = 21
+move = 29
+
+[sub_resource type="Resource" id="Resource_mfo4p"]
+script = ExtResource("3_ovewn")
+level = 24
+move = 428
+
+[sub_resource type="Resource" id="Resource_at67n"]
+script = ExtResource("3_ovewn")
+level = 27
+move = 133
+
+[sub_resource type="Resource" id="Resource_gq8jj"]
+script = ExtResource("3_ovewn")
+level = 30
+move = 57
+
+[sub_resource type="Resource" id="Resource_tywuq"]
+script = ExtResource("3_ovewn")
+level = 33
+move = 303
+
+[sub_resource type="Resource" id="Resource_d3org"]
+script = ExtResource("3_ovewn")
+level = 36
+move = 94
+
+[sub_resource type="Resource" id="Resource_pv1it"]
+script = ExtResource("3_ovewn")
+level = 41
+move = 244
+
+[sub_resource type="Resource" id="Resource_rnmtu"]
+script = ExtResource("3_ovewn")
+level = 46
+move = 240
+
+[sub_resource type="Resource" id="Resource_74hs4"]
+script = ExtResource("3_ovewn")
+level = 51
+move = 505
+
+[resource]
+script = ExtResource("4_kfnjh")
+id = 80
+display_name = "Slowbro"
+category = "Hermit Crab"
+national_dex = 80
+pokedex = "Its tail has a Shellder firmly attached
+with a bite. As a result, the tail can't be
+used for fishing anymore. This forces it
+to reluctantly swim and catch prey."
+type_1 = 12
+type_2 = 15
+base_hp = 95
+base_atk = 75
+base_def = 110
+base_spa = 100
+base_spd = 80
+base_spe = 30
+ev_def = 2
+catch_rate = 75
+base_exp = 172
+egg_group_1 = 1
+egg_group_2 = 2
+ability_1 = 12
+ability_2 = 20
+ability_hidden = 144
+item_rare = 465
+height_dm = 16
+weight_hg = 785
+body_color = 9
+level_moves = Array[ExtResource("3_ovewn")]([SubResource("Resource_njcli"), SubResource("Resource_8lu1w"), SubResource("Resource_0ibb2"), SubResource("Resource_n5y2o"), SubResource("Resource_33wvo"), SubResource("Resource_m0lly"), SubResource("Resource_d6gnc"), SubResource("Resource_7jkif"), SubResource("Resource_gbbdp"), SubResource("Resource_woasc"), SubResource("Resource_8ia05"), SubResource("Resource_mfo4p"), SubResource("Resource_at67n"), SubResource("Resource_gq8jj"), SubResource("Resource_tywuq"), SubResource("Resource_d3org"), SubResource("Resource_pv1it"), SubResource("Resource_rnmtu"), SubResource("Resource_74hs4")])
+form_species = Array[int]([80, 913, 978])

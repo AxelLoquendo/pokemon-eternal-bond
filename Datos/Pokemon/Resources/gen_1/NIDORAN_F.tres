@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://chvr2pch5vnnd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_tpdpl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5a7e8"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6w05y"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wkkmf"]
+
+[sub_resource type="Resource" id="Resource_xutfm"]
+script = ExtResource("1_tpdpl")
+method = "LEVEL"
+param = "16"
+target = 30
+
+[sub_resource type="Resource" id="Resource_a2ebo"]
+script = ExtResource("3_6w05y")
+move = 45
+
+[sub_resource type="Resource" id="Resource_tvtsj"]
+script = ExtResource("3_6w05y")
+move = 40
+
+[sub_resource type="Resource" id="Resource_qjfco"]
+script = ExtResource("3_6w05y")
+level = 5
+move = 10
+
+[sub_resource type="Resource" id="Resource_osfsr"]
+script = ExtResource("3_6w05y")
+level = 10
+move = 39
+
+[sub_resource type="Resource" id="Resource_7s1av"]
+script = ExtResource("3_6w05y")
+level = 15
+move = 154
+
+[sub_resource type="Resource" id="Resource_wsya0"]
+script = ExtResource("3_6w05y")
+level = 20
+move = 390
+
+[sub_resource type="Resource" id="Resource_f8kgt"]
+script = ExtResource("3_6w05y")
+level = 25
+move = 24
+
+[sub_resource type="Resource" id="Resource_lre10"]
+script = ExtResource("3_6w05y")
+level = 30
+move = 44
+
+[sub_resource type="Resource" id="Resource_5oltp"]
+script = ExtResource("3_6w05y")
+level = 35
+move = 270
+
+[sub_resource type="Resource" id="Resource_t5jqx"]
+script = ExtResource("3_6w05y")
+level = 40
+move = 92
+
+[sub_resource type="Resource" id="Resource_2lagq"]
+script = ExtResource("3_6w05y")
+level = 45
+move = 260
+
+[sub_resource type="Resource" id="Resource_yiwdx"]
+script = ExtResource("3_6w05y")
+level = 50
+move = 242
+
+[sub_resource type="Resource" id="Resource_5c8bs"]
+script = ExtResource("3_6w05y")
+level = 55
+move = 414
+
+[resource]
+script = ExtResource("4_wkkmf")
+id = 29
+display_name = "Nidoran♀"
+category = "Poison Pin"
+national_dex = 29
+pokedex = "Its highly toxic barbs are thought to have
+developed as protection for this small-
+bodied Pokémon. When enraged, it releases
+a horrible toxin from its horn."
+type_1 = 4
+base_hp = 55
+base_atk = 47
+base_def = 52
+base_spa = 40
+base_spd = 40
+base_spe = 41
+ev_hp = 1
+catch_rate = 235
+base_exp = 55
+gender_ratio = 254
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 5
+ability_1 = 38
+ability_hidden = 55
+height_dm = 4
+weight_hg = 70
+body_color = 1
+level_moves = Array[ExtResource("3_6w05y")]([SubResource("Resource_a2ebo"), SubResource("Resource_tvtsj"), SubResource("Resource_qjfco"), SubResource("Resource_osfsr"), SubResource("Resource_7s1av"), SubResource("Resource_wsya0"), SubResource("Resource_f8kgt"), SubResource("Resource_lre10"), SubResource("Resource_5oltp"), SubResource("Resource_t5jqx"), SubResource("Resource_2lagq"), SubResource("Resource_yiwdx"), SubResource("Resource_5c8bs")])
+egg_moves = Array[int]([48, 50, 36, 116, 204, 68, 251, 228, 130, 231, 342, 203, 498, 599])
+evolutions = Array[ExtResource("1_tpdpl")]([SubResource("Resource_xutfm")])

@@ -1,0 +1,121 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://6kgpueeo5pbv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_p03qy"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6lo34"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1pogh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4g5k3"]
+
+[sub_resource type="Resource" id="Resource_efus2"]
+script = ExtResource("3_1pogh")
+level = 0
+move = 773
+
+[sub_resource type="Resource" id="Resource_xujtu"]
+script = ExtResource("3_1pogh")
+move = 163
+
+[sub_resource type="Resource" id="Resource_u8x0w"]
+script = ExtResource("3_1pogh")
+move = 389
+
+[sub_resource type="Resource" id="Resource_lyvtr"]
+script = ExtResource("3_1pogh")
+move = 224
+
+[sub_resource type="Resource" id="Resource_jfh7k"]
+script = ExtResource("3_1pogh")
+move = 39
+
+[sub_resource type="Resource" id="Resource_5hhyw"]
+script = ExtResource("3_1pogh")
+move = 33
+
+[sub_resource type="Resource" id="Resource_rhplf"]
+script = ExtResource("3_1pogh")
+move = 55
+
+[sub_resource type="Resource" id="Resource_r18sw"]
+script = ExtResource("3_1pogh")
+level = 13
+move = 116
+
+[sub_resource type="Resource" id="Resource_s41j0"]
+script = ExtResource("3_1pogh")
+level = 18
+move = 534
+
+[sub_resource type="Resource" id="Resource_2cq01"]
+script = ExtResource("3_1pogh")
+level = 21
+move = 210
+
+[sub_resource type="Resource" id="Resource_lxq1f"]
+script = ExtResource("3_1pogh")
+level = 25
+move = 352
+
+[sub_resource type="Resource" id="Resource_helwa"]
+script = ExtResource("3_1pogh")
+level = 29
+move = 332
+
+[sub_resource type="Resource" id="Resource_3ou1n"]
+script = ExtResource("3_1pogh")
+level = 34
+move = 453
+
+[sub_resource type="Resource" id="Resource_r4t7y"]
+script = ExtResource("3_1pogh")
+level = 39
+move = 227
+
+[sub_resource type="Resource" id="Resource_kh0jb"]
+script = ExtResource("3_1pogh")
+level = 46
+move = 401
+
+[sub_resource type="Resource" id="Resource_3airg"]
+script = ExtResource("3_1pogh")
+level = 51
+move = 514
+
+[sub_resource type="Resource" id="Resource_8a4k7"]
+script = ExtResource("3_1pogh")
+level = 58
+move = 14
+
+[sub_resource type="Resource" id="Resource_o6gqa"]
+script = ExtResource("3_1pogh")
+level = 63
+move = 56
+
+[resource]
+script = ExtResource("4_4g5k3")
+id = 1000
+display_name = "Samurott"
+category = "Formidable"
+national_dex = 503
+pokedex = "Hard of heart and deft of blade,
+this rare form of Samurott is a
+product of the Pokémon's evolution in the
+region of Hisui."
+type_1 = 12
+type_2 = 18
+base_hp = 90
+base_atk = 108
+base_def = 80
+base_spa = 100
+base_spd = 65
+base_spe = 85
+ev_atk = 3
+base_exp = 264
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 67
+ability_hidden = 292
+height_dm = 15
+weight_hg = 582
+body_color = 1
+level_moves = Array[ExtResource("3_1pogh")]([SubResource("Resource_efus2"), SubResource("Resource_xujtu"), SubResource("Resource_u8x0w"), SubResource("Resource_lyvtr"), SubResource("Resource_jfh7k"), SubResource("Resource_5hhyw"), SubResource("Resource_rhplf"), SubResource("Resource_r18sw"), SubResource("Resource_s41j0"), SubResource("Resource_2cq01"), SubResource("Resource_lxq1f"), SubResource("Resource_helwa"), SubResource("Resource_3ou1n"), SubResource("Resource_r4t7y"), SubResource("Resource_kh0jb"), SubResource("Resource_3airg"), SubResource("Resource_8a4k7"), SubResource("Resource_o6gqa")])
+form_species = Array[int]([503, 1000])

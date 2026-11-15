@@ -1,0 +1,47 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c08qfgeu48xc7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6jdx8"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wfdmi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_aw11p"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3586v"]
+
+[sub_resource type="Resource" id="Resource_in4uf"]
+script = ExtResource("3_aw11p")
+move = 217
+
+[sub_resource type="Resource" id="Resource_t3svb"]
+script = ExtResource("3_aw11p")
+level = 25
+move = 65
+
+[resource]
+script = ExtResource("4_3586v")
+id = 225
+display_name = "Delibird"
+category = "Delivery"
+national_dex = 225
+pokedex = "It carries food bundled up in its tail.
+There was a famous explorer who
+managed to scale Mt. Everest thanks
+to a Delibird sharing its food."
+type_1 = 16
+type_2 = 3
+base_hp = 45
+base_atk = 55
+base_def = 45
+base_spa = 65
+base_spd = 45
+base_spe = 75
+ev_spe = 1
+base_exp = 116
+growth_rate = 4
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 72
+ability_2 = 55
+ability_hidden = 15
+height_dm = 9
+weight_hg = 160
+no_flip = true
+level_moves = Array[ExtResource("3_aw11p")]([SubResource("Resource_in4uf"), SubResource("Resource_t3svb")])
+egg_moves = Array[int]([62, 98, 248, 150, 229, 301, 420, 8, 252, 516, 196, 573, 194, 191, 68])

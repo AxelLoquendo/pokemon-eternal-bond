@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://copbe4qfeqgw4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ybcir"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_l6sgq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h8bp6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nontw"]
+
+[sub_resource type="Resource" id="Resource_d8cng"]
+script = ExtResource("1_ybcir")
+method = "LEVEL"
+param = "26"
+target = 419
+
+[sub_resource type="Resource" id="Resource_0pbhl"]
+script = ExtResource("3_h8bp6")
+move = 33
+
+[sub_resource type="Resource" id="Resource_33j0y"]
+script = ExtResource("3_h8bp6")
+level = 4
+move = 45
+
+[sub_resource type="Resource" id="Resource_202ts"]
+script = ExtResource("3_h8bp6")
+level = 7
+move = 487
+
+[sub_resource type="Resource" id="Resource_o8xk3"]
+script = ExtResource("3_h8bp6")
+level = 11
+move = 98
+
+[sub_resource type="Resource" id="Resource_vjkma"]
+script = ExtResource("3_h8bp6")
+level = 15
+move = 55
+
+[sub_resource type="Resource" id="Resource_i1mhl"]
+script = ExtResource("3_h8bp6")
+level = 18
+move = 44
+
+[sub_resource type="Resource" id="Resource_rj3gh"]
+script = ExtResource("3_h8bp6")
+level = 21
+move = 129
+
+[sub_resource type="Resource" id="Resource_r5c5b"]
+script = ExtResource("3_h8bp6")
+level = 24
+move = 453
+
+[sub_resource type="Resource" id="Resource_pr2cd"]
+script = ExtResource("3_h8bp6")
+level = 27
+move = 458
+
+[sub_resource type="Resource" id="Resource_05epu"]
+script = ExtResource("3_h8bp6")
+level = 31
+move = 250
+
+[sub_resource type="Resource" id="Resource_gvnac"]
+script = ExtResource("3_h8bp6")
+level = 35
+move = 664
+
+[sub_resource type="Resource" id="Resource_vw4er"]
+script = ExtResource("3_h8bp6")
+level = 38
+move = 401
+
+[sub_resource type="Resource" id="Resource_e7ks6"]
+script = ExtResource("3_h8bp6")
+level = 41
+move = 97
+
+[sub_resource type="Resource" id="Resource_5bfve"]
+script = ExtResource("3_h8bp6")
+level = 45
+move = 56
+
+[sub_resource type="Resource" id="Resource_sc4jk"]
+script = ExtResource("3_h8bp6")
+level = 49
+move = 762
+
+[resource]
+script = ExtResource("4_nontw")
+id = 418
+display_name = "Buizel"
+category = "Sea Weasel"
+national_dex = 418
+pokedex = "It inflates its flotation sac, keeping its
+face above water in order to watch for
+prey movement. It swims by rotating its
+two tails like a screw."
+type_1 = 12
+base_hp = 55
+base_atk = 65
+base_def = 35
+base_spa = 60
+base_spd = 30
+base_spe = 85
+ev_spe = 1
+catch_rate = 190
+base_exp = 66
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 33
+ability_hidden = 41
+height_dm = 7
+weight_hg = 295
+body_color = 5
+level_moves = Array[ExtResource("3_h8bp6")]([SubResource("Resource_0pbhl"), SubResource("Resource_33j0y"), SubResource("Resource_202ts"), SubResource("Resource_o8xk3"), SubResource("Resource_vjkma"), SubResource("Resource_i1mhl"), SubResource("Resource_rj3gh"), SubResource("Resource_r5c5b"), SubResource("Resource_pr2cd"), SubResource("Resource_05epu"), SubResource("Resource_gvnac"), SubResource("Resource_vw4er"), SubResource("Resource_e7ks6"), SubResource("Resource_5bfve"), SubResource("Resource_sc4jk")])
+egg_moves = Array[int]([189, 29, 154, 163, 316, 3, 210, 226, 401, 392, 382, 415, 541, 487, 270])
+evolutions = Array[ExtResource("1_ybcir")]([SubResource("Resource_d8cng")])

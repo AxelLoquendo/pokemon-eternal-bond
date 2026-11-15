@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://xpqqq3bb1qoo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jkj4e"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hhajq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hgw0t"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_anq2g"]
+
+[sub_resource type="Resource" id="Resource_dfgqm"]
+script = ExtResource("3_hgw0t")
+move = 562
+
+[sub_resource type="Resource" id="Resource_gyv54"]
+script = ExtResource("3_hgw0t")
+move = 64
+
+[sub_resource type="Resource" id="Resource_4udus"]
+script = ExtResource("3_hgw0t")
+move = 254
+
+[sub_resource type="Resource" id="Resource_l4nki"]
+script = ExtResource("3_hgw0t")
+move = 255
+
+[sub_resource type="Resource" id="Resource_oi7jv"]
+script = ExtResource("3_hgw0t")
+move = 256
+
+[sub_resource type="Resource" id="Resource_mec6r"]
+script = ExtResource("3_hgw0t")
+level = 7
+move = 55
+
+[sub_resource type="Resource" id="Resource_dwotv"]
+script = ExtResource("3_hgw0t")
+level = 14
+move = 31
+
+[sub_resource type="Resource" id="Resource_dfehw"]
+script = ExtResource("3_hgw0t")
+level = 21
+move = 365
+
+[sub_resource type="Resource" id="Resource_shcu7"]
+script = ExtResource("3_hgw0t")
+level = 28
+move = 291
+
+[sub_resource type="Resource" id="Resource_17wxn"]
+script = ExtResource("3_hgw0t")
+level = 35
+move = 65
+
+[sub_resource type="Resource" id="Resource_lk2dr"]
+script = ExtResource("3_hgw0t")
+level = 42
+move = 133
+
+[sub_resource type="Resource" id="Resource_xc7y7"]
+script = ExtResource("3_hgw0t")
+level = 49
+move = 37
+
+[sub_resource type="Resource" id="Resource_7xy2u"]
+script = ExtResource("3_hgw0t")
+level = 56
+move = 56
+
+[resource]
+script = ExtResource("4_anq2g")
+id = 1212
+display_name = "Cramorant"
+category = "Gulp"
+national_dex = 845
+pokedex = "This Cramorant has accidentally
+gotten a Pikachu lodged in its gullet.
+Cramorant is choking a little, but it
+isn't really bothered."
+type_1 = 3
+type_2 = 12
+base_hp = 70
+base_atk = 85
+base_def = 55
+base_spa = 85
+base_spd = 95
+base_spe = 85
+ev_spd = 2
+base_exp = 166
+egg_group_1 = 2
+egg_group_2 = 4
+ability_1 = 241
+height_dm = 8
+weight_hg = 180
+body_color = 1
+level_moves = Array[ExtResource("3_hgw0t")]([SubResource("Resource_dfgqm"), SubResource("Resource_gyv54"), SubResource("Resource_4udus"), SubResource("Resource_l4nki"), SubResource("Resource_oi7jv"), SubResource("Resource_mec6r"), SubResource("Resource_dwotv"), SubResource("Resource_dfehw"), SubResource("Resource_shcu7"), SubResource("Resource_17wxn"), SubResource("Resource_lk2dr"), SubResource("Resource_xc7y7"), SubResource("Resource_7xy2u")])
+egg_moves = Array[int]([432, 332, 297, 392, 355])
+form_species = Array[int]([845, 1211, 1212])

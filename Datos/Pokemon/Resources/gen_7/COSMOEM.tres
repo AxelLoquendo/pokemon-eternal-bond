@@ -1,0 +1,46 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bcq7mhewpd6p"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_p4161"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_d1qdj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fij44"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5v3yh"]
+
+[sub_resource type="Resource" id="Resource_v5t47"]
+script = ExtResource("3_fij44")
+level = 0
+move = 322
+
+[sub_resource type="Resource" id="Resource_qeb5e"]
+script = ExtResource("3_fij44")
+move = 100
+
+[resource]
+script = ExtResource("4_5v3yh")
+id = 790
+display_name = "Cosmoem"
+category = "Protostar"
+national_dex = 790
+pokedex = "Motionless as if dead, its body is faintly
+warm to the touch. There's something
+accumulating around the black core
+within its hard shell."
+type_1 = 15
+base_hp = 43
+base_atk = 29
+base_def = 131
+base_spa = 29
+base_spd = 131
+base_spe = 37
+ev_def = 1
+ev_spd = 1
+catch_rate = 3
+base_exp = 140
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 5
+height_dm = 1
+weight_hg = 9999
+body_color = 1
+level_moves = Array[ExtResource("3_fij44")]([SubResource("Resource_v5t47"), SubResource("Resource_qeb5e")])

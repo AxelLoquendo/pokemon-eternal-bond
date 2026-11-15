@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cd7slr5kudya3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0hroa"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_obn5e"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_oeyn4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gdo84"]
+
+[sub_resource type="Resource" id="Resource_3glj0"]
+script = ExtResource("3_oeyn4")
+level = 0
+move = 768
+
+[sub_resource type="Resource" id="Resource_6tbrs"]
+script = ExtResource("3_oeyn4")
+move = 468
+
+[sub_resource type="Resource" id="Resource_gy4bg"]
+script = ExtResource("3_oeyn4")
+move = 143
+
+[sub_resource type="Resource" id="Resource_4n4xq"]
+script = ExtResource("3_oeyn4")
+move = 64
+
+[sub_resource type="Resource" id="Resource_26fj7"]
+script = ExtResource("3_oeyn4")
+move = 276
+
+[sub_resource type="Resource" id="Resource_r7ct0"]
+script = ExtResource("3_oeyn4")
+move = 43
+
+[sub_resource type="Resource" id="Resource_5cbiy"]
+script = ExtResource("3_oeyn4")
+move = 17
+
+[sub_resource type="Resource" id="Resource_468ro"]
+script = ExtResource("3_oeyn4")
+level = 18
+move = 366
+
+[sub_resource type="Resource" id="Resource_xn8n6"]
+script = ExtResource("3_oeyn4")
+level = 24
+move = 184
+
+[sub_resource type="Resource" id="Resource_wlrm8"]
+script = ExtResource("3_oeyn4")
+level = 30
+move = 332
+
+[sub_resource type="Resource" id="Resource_521ln"]
+script = ExtResource("3_oeyn4")
+level = 36
+move = 163
+
+[sub_resource type="Resource" id="Resource_hkb5x"]
+script = ExtResource("3_oeyn4")
+level = 42
+move = 18
+
+[sub_resource type="Resource" id="Resource_0hwg8"]
+script = ExtResource("3_oeyn4")
+level = 48
+move = 306
+
+[sub_resource type="Resource" id="Resource_nh8tn"]
+script = ExtResource("3_oeyn4")
+level = 57
+move = 403
+
+[sub_resource type="Resource" id="Resource_eqa34"]
+script = ExtResource("3_oeyn4")
+level = 64
+move = 432
+
+[sub_resource type="Resource" id="Resource_cjfjt"]
+script = ExtResource("3_oeyn4")
+level = 72
+move = 37
+
+[sub_resource type="Resource" id="Resource_57d3g"]
+script = ExtResource("3_oeyn4")
+level = 80
+move = 542
+
+[resource]
+script = ExtResource("4_gdo84")
+id = 1004
+display_name = "Braviary"
+category = "Battle Cry"
+national_dex = 628
+pokedex = "Screaming a bloodcurdling battle
+cry, this huge and ferocious bird
+Pokémon goes out on the hunt."
+type_1 = 15
+type_2 = 3
+base_hp = 110
+base_atk = 83
+base_def = 70
+base_spa = 112
+base_spd = 70
+base_spe = 65
+ev_spa = 2
+catch_rate = 60
+base_exp = 179
+gender_ratio = 0
+growth_rate = 5
+egg_group_1 = 4
+ability_1 = 51
+ability_2 = 125
+ability_hidden = 110
+height_dm = 17
+weight_hg = 434
+body_color = 8
+level_moves = Array[ExtResource("3_oeyn4")]([SubResource("Resource_3glj0"), SubResource("Resource_6tbrs"), SubResource("Resource_gy4bg"), SubResource("Resource_4n4xq"), SubResource("Resource_26fj7"), SubResource("Resource_r7ct0"), SubResource("Resource_5cbiy"), SubResource("Resource_468ro"), SubResource("Resource_xn8n6"), SubResource("Resource_wlrm8"), SubResource("Resource_521ln"), SubResource("Resource_hkb5x"), SubResource("Resource_0hwg8"), SubResource("Resource_nh8tn"), SubResource("Resource_eqa34"), SubResource("Resource_cjfjt"), SubResource("Resource_57d3g")])
+form_species = Array[int]([628, 1004])

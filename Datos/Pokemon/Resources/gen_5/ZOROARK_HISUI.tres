@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cwdl0tf6uvr0m"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_o72l1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_4ht5t"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hadpt"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qjj3t"]
+
+[sub_resource type="Resource" id="Resource_26o7v"]
+script = ExtResource("3_hadpt")
+level = 0
+move = 421
+
+[sub_resource type="Resource" id="Resource_62xaq"]
+script = ExtResource("3_hadpt")
+move = 10
+
+[sub_resource type="Resource" id="Resource_hoiy8"]
+script = ExtResource("3_hadpt")
+move = 43
+
+[sub_resource type="Resource" id="Resource_x3axb"]
+script = ExtResource("3_hadpt")
+move = 259
+
+[sub_resource type="Resource" id="Resource_ff1mw"]
+script = ExtResource("3_hadpt")
+move = 369
+
+[sub_resource type="Resource" id="Resource_fyi5g"]
+script = ExtResource("3_hadpt")
+move = 468
+
+[sub_resource type="Resource" id="Resource_tl1uh"]
+script = ExtResource("3_hadpt")
+level = 12
+move = 425
+
+[sub_resource type="Resource" id="Resource_q86cj"]
+script = ExtResource("3_hadpt")
+level = 16
+move = 174
+
+[sub_resource type="Resource" id="Resource_shmdu"]
+script = ExtResource("3_hadpt")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_trakg"]
+script = ExtResource("3_hadpt")
+level = 24
+move = 282
+
+[sub_resource type="Resource" id="Resource_ns1x2"]
+script = ExtResource("3_hadpt")
+level = 28
+move = 180
+
+[sub_resource type="Resource" id="Resource_rccoe"]
+script = ExtResource("3_hadpt")
+level = 34
+move = 97
+
+[sub_resource type="Resource" id="Resource_drfa7"]
+script = ExtResource("3_hadpt")
+level = 40
+move = 247
+
+[sub_resource type="Resource" id="Resource_fx5ds"]
+script = ExtResource("3_hadpt")
+level = 46
+move = 769
+
+[sub_resource type="Resource" id="Resource_2mq2l"]
+script = ExtResource("3_hadpt")
+level = 52
+move = 417
+
+[sub_resource type="Resource" id="Resource_1id2v"]
+script = ExtResource("3_hadpt")
+level = 58
+move = 492
+
+[resource]
+script = ExtResource("4_qjj3t")
+id = 1003
+display_name = "Zoroark"
+category = "Baneful Fox"
+national_dex = 571
+pokedex = "Heedless of its own safety,
+Zoroark attacks its nemeses with a bitter
+energy so intense, it lacerates
+Zoroark's own body."
+type_1 = 1
+type_2 = 8
+base_hp = 55
+base_atk = 100
+base_def = 60
+base_spa = 125
+base_spd = 60
+base_spe = 110
+ev_spa = 2
+base_exp = 179
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 149
+height_dm = 16
+weight_hg = 730
+body_color = 7
+no_flip = true
+level_moves = Array[ExtResource("3_hadpt")]([SubResource("Resource_26o7v"), SubResource("Resource_62xaq"), SubResource("Resource_hoiy8"), SubResource("Resource_x3axb"), SubResource("Resource_ff1mw"), SubResource("Resource_fyi5g"), SubResource("Resource_tl1uh"), SubResource("Resource_q86cj"), SubResource("Resource_shmdu"), SubResource("Resource_trakg"), SubResource("Resource_ns1x2"), SubResource("Resource_rccoe"), SubResource("Resource_drfa7"), SubResource("Resource_fx5ds"), SubResource("Resource_2mq2l"), SubResource("Resource_1id2v")])
+form_species = Array[int]([571, 1003])

@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cfbbq8og8jom7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cthe4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_k2axt"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0m5pa"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4ly0f"]
+
+[sub_resource type="Resource" id="Resource_10mtj"]
+script = ExtResource("3_0m5pa")
+level = 0
+move = 717
+
+[sub_resource type="Resource" id="Resource_77eyv"]
+script = ExtResource("3_0m5pa")
+move = 721
+
+[sub_resource type="Resource" id="Resource_h8mq6"]
+script = ExtResource("3_0m5pa")
+move = 590
+
+[sub_resource type="Resource" id="Resource_7apbo"]
+script = ExtResource("3_0m5pa")
+move = 339
+
+[sub_resource type="Resource" id="Resource_yvesq"]
+script = ExtResource("3_0m5pa")
+move = 44
+
+[sub_resource type="Resource" id="Resource_gtc45"]
+script = ExtResource("3_0m5pa")
+move = 252
+
+[sub_resource type="Resource" id="Resource_8yia2"]
+script = ExtResource("3_0m5pa")
+move = 260
+
+[sub_resource type="Resource" id="Resource_jbhee"]
+script = ExtResource("3_0m5pa")
+level = 12
+move = 313
+
+[sub_resource type="Resource" id="Resource_0acjv"]
+script = ExtResource("3_0m5pa")
+level = 16
+move = 372
+
+[sub_resource type="Resource" id="Resource_l2m50"]
+script = ExtResource("3_0m5pa")
+level = 20
+move = 207
+
+[sub_resource type="Resource" id="Resource_pgouc"]
+script = ExtResource("3_0m5pa")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_ahqov"]
+script = ExtResource("3_0m5pa")
+level = 28
+move = 259
+
+[sub_resource type="Resource" id="Resource_kgas7"]
+script = ExtResource("3_0m5pa")
+level = 35
+move = 399
+
+[sub_resource type="Resource" id="Resource_k5fij"]
+script = ExtResource("3_0m5pa")
+level = 40
+move = 417
+
+[sub_resource type="Resource" id="Resource_1ycvx"]
+script = ExtResource("3_0m5pa")
+level = 48
+move = 583
+
+[sub_resource type="Resource" id="Resource_lbau5"]
+script = ExtResource("3_0m5pa")
+level = 56
+move = 492
+
+[sub_resource type="Resource" id="Resource_el1hn"]
+script = ExtResource("3_0m5pa")
+level = 64
+move = 359
+
+[resource]
+script = ExtResource("4_4ly0f")
+id = 1517
+display_name = "Grimmsnarl"
+category = "Bulk Up"
+national_dex = 861
+pokedex = "Gigantamax energy has caused more
+hair to sprout all over its body.
+With the added strength, it can jump
+over the world's tallest building."
+type_1 = 18
+type_2 = 19
+base_hp = 95
+base_atk = 120
+base_def = 65
+base_spa = 95
+base_spd = 75
+base_spe = 60
+ev_atk = 3
+base_exp = 255
+gender_ratio = 0
+egg_group_1 = 6
+egg_group_2 = 8
+ability_1 = 158
+ability_2 = 119
+ability_hidden = 124
+height_dm = 320
+body_color = 6
+level_moves = Array[ExtResource("3_0m5pa")]([SubResource("Resource_10mtj"), SubResource("Resource_77eyv"), SubResource("Resource_h8mq6"), SubResource("Resource_7apbo"), SubResource("Resource_yvesq"), SubResource("Resource_gtc45"), SubResource("Resource_8yia2"), SubResource("Resource_jbhee"), SubResource("Resource_0acjv"), SubResource("Resource_l2m50"), SubResource("Resource_pgouc"), SubResource("Resource_ahqov"), SubResource("Resource_kgas7"), SubResource("Resource_k5fij"), SubResource("Resource_1ycvx"), SubResource("Resource_lbau5"), SubResource("Resource_el1hn")])
+form_species = Array[int]([861, 1517])

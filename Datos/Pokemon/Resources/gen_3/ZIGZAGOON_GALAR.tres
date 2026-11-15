@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cctixvo05gwa2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_asoos"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_dn5wd"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gaghf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_v7487"]
+
+[sub_resource type="Resource" id="Resource_73x6y"]
+script = ExtResource("1_asoos")
+method = "LEVEL"
+param = "20"
+target = 988
+
+[sub_resource type="Resource" id="Resource_jlu5o"]
+script = ExtResource("3_gaghf")
+move = 33
+
+[sub_resource type="Resource" id="Resource_isrod"]
+script = ExtResource("3_gaghf")
+move = 43
+
+[sub_resource type="Resource" id="Resource_7uou0"]
+script = ExtResource("3_gaghf")
+level = 3
+move = 28
+
+[sub_resource type="Resource" id="Resource_uaygk"]
+script = ExtResource("3_gaghf")
+level = 6
+move = 122
+
+[sub_resource type="Resource" id="Resource_d8qoc"]
+script = ExtResource("3_gaghf")
+level = 9
+move = 555
+
+[sub_resource type="Resource" id="Resource_6f6hd"]
+script = ExtResource("3_gaghf")
+level = 12
+move = 29
+
+[sub_resource type="Resource" id="Resource_whsfy"]
+script = ExtResource("3_gaghf")
+level = 15
+move = 608
+
+[sub_resource type="Resource" id="Resource_acuak"]
+script = ExtResource("3_gaghf")
+level = 18
+move = 42
+
+[sub_resource type="Resource" id="Resource_aawl0"]
+script = ExtResource("3_gaghf")
+level = 21
+move = 156
+
+[sub_resource type="Resource" id="Resource_wy2qj"]
+script = ExtResource("3_gaghf")
+level = 24
+move = 36
+
+[sub_resource type="Resource" id="Resource_0s7kj"]
+script = ExtResource("3_gaghf")
+level = 27
+move = 184
+
+[sub_resource type="Resource" id="Resource_l0ujp"]
+script = ExtResource("3_gaghf")
+level = 30
+move = 68
+
+[sub_resource type="Resource" id="Resource_scfak"]
+script = ExtResource("3_gaghf")
+level = 33
+move = 269
+
+[sub_resource type="Resource" id="Resource_xdsv1"]
+script = ExtResource("3_gaghf")
+level = 36
+move = 38
+
+[resource]
+script = ExtResource("4_v7487")
+id = 987
+display_name = "Zigzagoon"
+category = "Tiny Raccoon"
+national_dex = 263
+pokedex = "Its restlessness has it constantly moving
+in zigzags. It will purposely run into other
+Pokémon to start fights. It's thought to
+be the oldest form of Zigzagoon."
+type_1 = 18
+type_2 = 1
+base_hp = 38
+base_atk = 30
+base_def = 41
+base_spa = 30
+base_spd = 41
+base_spe = 60
+ev_spe = 1
+catch_rate = 255
+base_exp = 56
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 53
+ability_2 = 82
+ability_hidden = 95
+height_dm = 4
+weight_hg = 175
+body_color = 8
+level_moves = Array[ExtResource("3_gaghf")]([SubResource("Resource_jlu5o"), SubResource("Resource_isrod"), SubResource("Resource_7uou0"), SubResource("Resource_uaygk"), SubResource("Resource_d8qoc"), SubResource("Resource_6f6hd"), SubResource("Resource_whsfy"), SubResource("Resource_acuak"), SubResource("Resource_aawl0"), SubResource("Resource_wy2qj"), SubResource("Resource_0s7kj"), SubResource("Resource_l0ujp"), SubResource("Resource_scfak"), SubResource("Resource_xdsv1")])
+egg_moves = Array[int]([575, 501, 282])
+evolutions = Array[ExtResource("1_asoos")]([SubResource("Resource_73x6y")])
+form_species = Array[int]([263, 987])

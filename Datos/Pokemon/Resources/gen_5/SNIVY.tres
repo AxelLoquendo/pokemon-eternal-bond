@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b460s73hnw5u4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_dki4y"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_eh6kr"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rvx18"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_lqk76"]
+
+[sub_resource type="Resource" id="Resource_kbh51"]
+script = ExtResource("1_dki4y")
+method = "LEVEL"
+param = "17"
+target = 496
+
+[sub_resource type="Resource" id="Resource_p71rd"]
+script = ExtResource("3_rvx18")
+move = 33
+
+[sub_resource type="Resource" id="Resource_u7w4w"]
+script = ExtResource("3_rvx18")
+level = 4
+move = 43
+
+[sub_resource type="Resource" id="Resource_k6qr7"]
+script = ExtResource("3_rvx18")
+level = 7
+move = 22
+
+[sub_resource type="Resource" id="Resource_u7xvk"]
+script = ExtResource("3_rvx18")
+level = 10
+move = 35
+
+[sub_resource type="Resource" id="Resource_nu4fe"]
+script = ExtResource("3_rvx18")
+level = 13
+move = 74
+
+[sub_resource type="Resource" id="Resource_nre3j"]
+script = ExtResource("3_rvx18")
+level = 16
+move = 345
+
+[sub_resource type="Resource" id="Resource_yy6i7"]
+script = ExtResource("3_rvx18")
+level = 19
+move = 73
+
+[sub_resource type="Resource" id="Resource_dlxa8"]
+script = ExtResource("3_rvx18")
+level = 22
+move = 72
+
+[sub_resource type="Resource" id="Resource_x503t"]
+script = ExtResource("3_rvx18")
+level = 25
+move = 21
+
+[sub_resource type="Resource" id="Resource_p7n7a"]
+script = ExtResource("3_rvx18")
+level = 28
+move = 348
+
+[sub_resource type="Resource" id="Resource_buyhw"]
+script = ExtResource("3_rvx18")
+level = 31
+move = 489
+
+[sub_resource type="Resource" id="Resource_o8obd"]
+script = ExtResource("3_rvx18")
+level = 34
+move = 202
+
+[sub_resource type="Resource" id="Resource_r5xai"]
+script = ExtResource("3_rvx18")
+level = 37
+move = 380
+
+[sub_resource type="Resource" id="Resource_x8p3x"]
+script = ExtResource("3_rvx18")
+level = 40
+move = 437
+
+[resource]
+script = ExtResource("4_lqk76")
+id = 495
+display_name = "Snivy"
+category = "Grass Snake"
+national_dex = 495
+pokedex = "It is very intelligent and calm.
+Being exposed to lots of sunlight makes
+its movements swifter. When they are
+not feeling well, their tails droop."
+type_1 = 13
+base_hp = 45
+base_atk = 45
+base_def = 55
+base_spa = 45
+base_spd = 55
+base_spe = 63
+ev_spe = 1
+base_exp = 62
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+egg_group_2 = 7
+ability_1 = 65
+ability_hidden = 126
+height_dm = 6
+weight_hg = 81
+body_color = 3
+level_moves = Array[ExtResource("3_rvx18")]([SubResource("Resource_p71rd"), SubResource("Resource_u7w4w"), SubResource("Resource_k6qr7"), SubResource("Resource_u7xvk"), SubResource("Resource_nu4fe"), SubResource("Resource_nre3j"), SubResource("Resource_yy6i7"), SubResource("Resource_dlxa8"), SubResource("Resource_x503t"), SubResource("Resource_p7n7a"), SubResource("Resource_buyhw"), SubResource("Resource_o8obd"), SubResource("Resource_r5xai"), SubResource("Resource_x8p3x")])
+egg_moves = Array[int]([445, 363, 137, 231, 345, 230, 243, 228, 212, 239, 580])
+evolutions = Array[ExtResource("1_dki4y")]([SubResource("Resource_kbh51")])

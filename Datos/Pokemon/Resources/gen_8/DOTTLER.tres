@@ -1,0 +1,76 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b6cwfhk8y3hae"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_torvr"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ylqtb"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dyhaa"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_2jcdj"]
+
+[sub_resource type="Resource" id="Resource_hmwlg"]
+script = ExtResource("1_torvr")
+method = "LEVEL"
+param = "30"
+target = 826
+
+[sub_resource type="Resource" id="Resource_2bwdx"]
+script = ExtResource("3_dyhaa")
+level = 0
+move = 93
+
+[sub_resource type="Resource" id="Resource_qf6j4"]
+script = ExtResource("3_dyhaa")
+level = 0
+move = 113
+
+[sub_resource type="Resource" id="Resource_j2ejg"]
+script = ExtResource("3_dyhaa")
+level = 0
+move = 115
+
+[sub_resource type="Resource" id="Resource_nwuoq"]
+script = ExtResource("3_dyhaa")
+move = 115
+
+[sub_resource type="Resource" id="Resource_jb55s"]
+script = ExtResource("3_dyhaa")
+move = 113
+
+[sub_resource type="Resource" id="Resource_p0i2f"]
+script = ExtResource("3_dyhaa")
+move = 93
+
+[sub_resource type="Resource" id="Resource_vp2hf"]
+script = ExtResource("3_dyhaa")
+move = 522
+
+[resource]
+script = ExtResource("4_2jcdj")
+id = 825
+display_name = "Dottler"
+category = "Radome"
+national_dex = 825
+pokedex = "It barely moves, but it's still alive.
+Hiding in its shell without food or
+water seems to have awakened its
+psychic powers."
+type_1 = 7
+type_2 = 15
+base_hp = 50
+base_atk = 35
+base_def = 80
+base_spa = 50
+base_spd = 90
+base_spe = 30
+ev_spd = 2
+catch_rate = 120
+base_exp = 117
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 68
+ability_2 = 14
+ability_hidden = 140
+item_rare = 452
+height_dm = 4
+weight_hg = 195
+body_color = 2
+level_moves = Array[ExtResource("3_dyhaa")]([SubResource("Resource_2bwdx"), SubResource("Resource_qf6j4"), SubResource("Resource_j2ejg"), SubResource("Resource_nwuoq"), SubResource("Resource_jb55s"), SubResource("Resource_p0i2f"), SubResource("Resource_vp2hf")])
+evolutions = Array[ExtResource("1_torvr")]([SubResource("Resource_hmwlg")])

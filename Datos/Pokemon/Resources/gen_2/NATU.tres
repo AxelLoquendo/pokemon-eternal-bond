@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b2q6rh6nqjen0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_30lwo"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ofm5i"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_87or5"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_amm3l"]
+
+[sub_resource type="Resource" id="Resource_u1xdb"]
+script = ExtResource("1_30lwo")
+method = "LEVEL"
+param = "25"
+target = 178
+
+[sub_resource type="Resource" id="Resource_iqo3s"]
+script = ExtResource("3_87or5")
+move = 64
+
+[sub_resource type="Resource" id="Resource_16m0a"]
+script = ExtResource("3_87or5")
+move = 43
+
+[sub_resource type="Resource" id="Resource_t2e47"]
+script = ExtResource("3_87or5")
+level = 5
+move = 500
+
+[sub_resource type="Resource" id="Resource_6sbwi"]
+script = ExtResource("3_87or5")
+level = 10
+move = 100
+
+[sub_resource type="Resource" id="Resource_dxurv"]
+script = ExtResource("3_87or5")
+level = 15
+move = 109
+
+[sub_resource type="Resource" id="Resource_vq2ia"]
+script = ExtResource("3_87or5")
+level = 20
+move = 101
+
+[sub_resource type="Resource" id="Resource_hotop"]
+script = ExtResource("3_87or5")
+level = 26
+move = 375
+
+[sub_resource type="Resource" id="Resource_dloqf"]
+script = ExtResource("3_87or5")
+level = 30
+move = 384
+
+[sub_resource type="Resource" id="Resource_p0pg4"]
+script = ExtResource("3_87or5")
+level = 35
+move = 385
+
+[sub_resource type="Resource" id="Resource_5uts1"]
+script = ExtResource("3_87or5")
+level = 35
+move = 94
+
+[sub_resource type="Resource" id="Resource_j12vj"]
+script = ExtResource("3_87or5")
+level = 40
+move = 273
+
+[sub_resource type="Resource" id="Resource_knbkv"]
+script = ExtResource("3_87or5")
+level = 45
+move = 248
+
+[resource]
+script = ExtResource("4_amm3l")
+id = 177
+display_name = "Natu"
+category = "Tiny Bird"
+national_dex = 177
+pokedex = "It runs up short trees that grow on the
+savanna to peck at new shoots.
+A Natu's eyes look as if they are
+always observing something."
+type_1 = 15
+type_2 = 3
+base_hp = 40
+base_atk = 50
+base_def = 45
+base_spa = 70
+base_spd = 45
+base_spe = 70
+ev_spa = 1
+catch_rate = 190
+base_exp = 64
+egg_group_1 = 4
+ability_1 = 28
+ability_2 = 48
+ability_hidden = 156
+height_dm = 2
+weight_hg = 20
+body_color = 3
+level_moves = Array[ExtResource("3_87or5")]([SubResource("Resource_iqo3s"), SubResource("Resource_16m0a"), SubResource("Resource_t2e47"), SubResource("Resource_6sbwi"), SubResource("Resource_dxurv"), SubResource("Resource_vq2ia"), SubResource("Resource_hotop"), SubResource("Resource_dloqf"), SubResource("Resource_p0pg4"), SubResource("Resource_5uts1"), SubResource("Resource_j12vj"), SubResource("Resource_knbkv")])
+egg_moves = Array[int]([114, 65, 98, 185, 211, 297, 287, 428, 389, 485, 355, 285, 493, 502])
+evolutions = Array[ExtResource("1_30lwo")]([SubResource("Resource_u1xdb")])

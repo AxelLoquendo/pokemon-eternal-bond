@@ -1,0 +1,119 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d212al6cr3pg4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rxdxo"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gn0xi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8d1ko"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_eh2u4"]
+
+[sub_resource type="Resource" id="Resource_lcaml"]
+script = ExtResource("1_rxdxo")
+method = "LEVEL"
+param = "29"
+target = 552
+
+[sub_resource type="Resource" id="Resource_15nbi"]
+script = ExtResource("3_8d1ko")
+move = 43
+
+[sub_resource type="Resource" id="Resource_ulnpc"]
+script = ExtResource("3_8d1ko")
+move = 644
+
+[sub_resource type="Resource" id="Resource_yct5n"]
+script = ExtResource("3_8d1ko")
+level = 3
+move = 28
+
+[sub_resource type="Resource" id="Resource_h4hv0"]
+script = ExtResource("3_8d1ko")
+level = 6
+move = 468
+
+[sub_resource type="Resource" id="Resource_4fa2h"]
+script = ExtResource("3_8d1ko")
+level = 9
+move = 328
+
+[sub_resource type="Resource" id="Resource_7t4t4"]
+script = ExtResource("3_8d1ko")
+level = 12
+move = 184
+
+[sub_resource type="Resource" id="Resource_e0xtr"]
+script = ExtResource("3_8d1ko")
+level = 15
+move = 44
+
+[sub_resource type="Resource" id="Resource_tmwuy"]
+script = ExtResource("3_8d1ko")
+level = 18
+move = 259
+
+[sub_resource type="Resource" id="Resource_50nbf"]
+script = ExtResource("3_8d1ko")
+level = 21
+move = 91
+
+[sub_resource type="Resource" id="Resource_kl627"]
+script = ExtResource("3_8d1ko")
+level = 24
+move = 207
+
+[sub_resource type="Resource" id="Resource_bjdjy"]
+script = ExtResource("3_8d1ko")
+level = 27
+move = 242
+
+[sub_resource type="Resource" id="Resource_f2uan"]
+script = ExtResource("3_8d1ko")
+level = 30
+move = 201
+
+[sub_resource type="Resource" id="Resource_7r4j1"]
+script = ExtResource("3_8d1ko")
+level = 33
+move = 492
+
+[sub_resource type="Resource" id="Resource_4rikb"]
+script = ExtResource("3_8d1ko")
+level = 36
+move = 89
+
+[sub_resource type="Resource" id="Resource_aakfs"]
+script = ExtResource("3_8d1ko")
+level = 39
+move = 37
+
+[resource]
+script = ExtResource("4_eh2u4")
+id = 551
+display_name = "Sandile"
+category = "Desert Croc"
+national_dex = 551
+pokedex = "It conceals itself in the sand and
+chomps down on the legs of any prey
+that unwarily walk over it. Its favorite
+food is Trapinch."
+type_1 = 5
+type_2 = 18
+base_hp = 50
+base_atk = 72
+base_def = 35
+base_spa = 35
+base_spd = 35
+base_spe = 65
+ev_atk = 1
+catch_rate = 180
+base_exp = 58
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 22
+ability_2 = 153
+ability_hidden = 83
+item_rare = 440
+height_dm = 7
+weight_hg = 152
+body_color = 5
+level_moves = Array[ExtResource("3_8d1ko")]([SubResource("Resource_15nbi"), SubResource("Resource_ulnpc"), SubResource("Resource_yct5n"), SubResource("Resource_h4hv0"), SubResource("Resource_4fa2h"), SubResource("Resource_7t4t4"), SubResource("Resource_e0xtr"), SubResource("Resource_tmwuy"), SubResource("Resource_50nbf"), SubResource("Resource_kl627"), SubResource("Resource_bjdjy"), SubResource("Resource_f2uan"), SubResource("Resource_7r4j1"), SubResource("Resource_4rikb"), SubResource("Resource_aakfs")])
+egg_moves = Array[int]([38, 431, 228, 253, 424, 422, 251, 116, 68, 212, 382, 644])
+evolutions = Array[ExtResource("1_rxdxo")]([SubResource("Resource_lcaml")])

@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ct512h5su50h6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_l0c1c"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yi7rw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vtgmc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_c4b6b"]
+
+[sub_resource type="Resource" id="Resource_gar3p"]
+script = ExtResource("1_l0c1c")
+method = "LEVEL"
+param = "20"
+target = 737
+
+[sub_resource type="Resource" id="Resource_682h8"]
+script = ExtResource("3_vtgmc")
+move = 11
+
+[sub_resource type="Resource" id="Resource_fshtv"]
+script = ExtResource("3_vtgmc")
+move = 189
+
+[sub_resource type="Resource" id="Resource_rxef1"]
+script = ExtResource("3_vtgmc")
+level = 5
+move = 81
+
+[sub_resource type="Resource" id="Resource_00clx"]
+script = ExtResource("3_vtgmc")
+level = 10
+move = 450
+
+[sub_resource type="Resource" id="Resource_t8uml"]
+script = ExtResource("3_vtgmc")
+level = 15
+move = 44
+
+[sub_resource type="Resource" id="Resource_5gne6"]
+script = ExtResource("3_vtgmc")
+level = 21
+move = 209
+
+[sub_resource type="Resource" id="Resource_i7g1t"]
+script = ExtResource("3_vtgmc")
+level = 25
+move = 564
+
+[sub_resource type="Resource" id="Resource_m8qwg"]
+script = ExtResource("3_vtgmc")
+level = 30
+move = 404
+
+[sub_resource type="Resource" id="Resource_5fd1f"]
+script = ExtResource("3_vtgmc")
+level = 35
+move = 242
+
+[sub_resource type="Resource" id="Resource_r187i"]
+script = ExtResource("3_vtgmc")
+level = 40
+move = 91
+
+[resource]
+script = ExtResource("4_c4b6b")
+id = 736
+display_name = "Grubbin"
+category = "Larva"
+national_dex = 736
+pokedex = "They often gather near places frequented
+by electric Pokémon in order to avoid being
+attacked by bird Pokémon, though it
+normally lives underground."
+type_1 = 7
+base_hp = 47
+base_atk = 62
+base_def = 45
+base_spa = 55
+base_spd = 45
+base_spe = 46
+ev_atk = 1
+catch_rate = 255
+base_exp = 60
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 68
+height_dm = 4
+weight_hg = 44
+body_color = 7
+level_moves = Array[ExtResource("3_vtgmc")]([SubResource("Resource_682h8"), SubResource("Resource_fshtv"), SubResource("Resource_rxef1"), SubResource("Resource_00clx"), SubResource("Resource_t8uml"), SubResource("Resource_5gne6"), SubResource("Resource_i7g1t"), SubResource("Resource_m8qwg"), SubResource("Resource_5fd1f"), SubResource("Resource_r187i")])
+egg_moves = Array[int]([106, 527, 341, 203])
+evolutions = Array[ExtResource("1_l0c1c")]([SubResource("Resource_gar3p")])

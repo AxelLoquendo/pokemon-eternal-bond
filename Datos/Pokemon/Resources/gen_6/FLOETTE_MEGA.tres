@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dcymkyflx1lu7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_knv7k"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hq44e"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ycmr8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kpj1l"]
+
+[sub_resource type="Resource" id="Resource_au1oo"]
+script = ExtResource("3_ycmr8")
+move = 22
+
+[sub_resource type="Resource" id="Resource_3qnf2"]
+script = ExtResource("3_ycmr8")
+move = 33
+
+[sub_resource type="Resource" id="Resource_id5pb"]
+script = ExtResource("3_ycmr8")
+move = 584
+
+[sub_resource type="Resource" id="Resource_x66uq"]
+script = ExtResource("3_ycmr8")
+level = 10
+move = 219
+
+[sub_resource type="Resource" id="Resource_3ynka"]
+script = ExtResource("3_ycmr8")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_bnuxn"]
+script = ExtResource("3_ycmr8")
+level = 20
+move = 273
+
+[sub_resource type="Resource" id="Resource_fb5f3"]
+script = ExtResource("3_ycmr8")
+level = 25
+move = 345
+
+[sub_resource type="Resource" id="Resource_ul3il"]
+script = ExtResource("3_ycmr8")
+level = 27
+move = 580
+
+[sub_resource type="Resource" id="Resource_b63pe"]
+script = ExtResource("3_ycmr8")
+level = 33
+move = 572
+
+[sub_resource type="Resource" id="Resource_sa5xj"]
+script = ExtResource("3_ycmr8")
+level = 38
+move = 235
+
+[sub_resource type="Resource" id="Resource_sbjfc"]
+script = ExtResource("3_ycmr8")
+level = 43
+move = 581
+
+[sub_resource type="Resource" id="Resource_wgc18"]
+script = ExtResource("3_ycmr8")
+level = 46
+move = 585
+
+[sub_resource type="Resource" id="Resource_t7svl"]
+script = ExtResource("3_ycmr8")
+level = 50
+move = 617
+
+[sub_resource type="Resource" id="Resource_5nj6o"]
+script = ExtResource("3_ycmr8")
+level = 51
+move = 80
+
+[sub_resource type="Resource" id="Resource_04jl4"]
+script = ExtResource("3_ycmr8")
+level = 58
+move = 76
+
+[resource]
+script = ExtResource("4_kpj1l")
+id = 1545
+display_name = "Floette"
+category = "Single Bloom"
+national_dex = 670
+pokedex = "The Eternal Flower has absorbed
+all the energy from Mega
+Evolution. The flower now attacks
+enemies on its own."
+type_1 = 19
+base_hp = 74
+base_atk = 85
+base_def = 87
+base_spa = 155
+base_spd = 148
+base_spe = 102
+ev_spd = 2
+catch_rate = 120
+base_exp = 1
+gender_ratio = 254
+ability_1 = 187
+ability_2 = 187
+ability_hidden = 187
+body_color = 8
+level_moves = Array[ExtResource("3_ycmr8")]([SubResource("Resource_au1oo"), SubResource("Resource_3qnf2"), SubResource("Resource_id5pb"), SubResource("Resource_x66uq"), SubResource("Resource_3ynka"), SubResource("Resource_bnuxn"), SubResource("Resource_fb5f3"), SubResource("Resource_ul3il"), SubResource("Resource_b63pe"), SubResource("Resource_sa5xj"), SubResource("Resource_sbjfc"), SubResource("Resource_wgc18"), SubResource("Resource_t7svl"), SubResource("Resource_5nj6o"), SubResource("Resource_04jl4")])
+form_species = Array[int]([670, 1137, 1138, 1139, 1140, 1141, 1545])

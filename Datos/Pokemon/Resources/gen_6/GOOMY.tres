@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cua6f6feftndx"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_c3d22"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_boquy"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0x2ar"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dhy8f"]
+
+[sub_resource type="Resource" id="Resource_a2xim"]
+script = ExtResource("3_0x2ar")
+move = 33
+
+[sub_resource type="Resource" id="Resource_4kxc6"]
+script = ExtResource("3_0x2ar")
+move = 71
+
+[sub_resource type="Resource" id="Resource_vb7t7"]
+script = ExtResource("3_0x2ar")
+level = 5
+move = 55
+
+[sub_resource type="Resource" id="Resource_f4ors"]
+script = ExtResource("3_0x2ar")
+level = 10
+move = 225
+
+[sub_resource type="Resource" id="Resource_jw6w7"]
+script = ExtResource("3_0x2ar")
+level = 15
+move = 182
+
+[sub_resource type="Resource" id="Resource_w1lbu"]
+script = ExtResource("3_0x2ar")
+level = 20
+move = 175
+
+[sub_resource type="Resource" id="Resource_pbpwv"]
+script = ExtResource("3_0x2ar")
+level = 25
+move = 352
+
+[sub_resource type="Resource" id="Resource_0vjlp"]
+script = ExtResource("3_0x2ar")
+level = 30
+move = 240
+
+[sub_resource type="Resource" id="Resource_jllk2"]
+script = ExtResource("3_0x2ar")
+level = 35
+move = 406
+
+[sub_resource type="Resource" id="Resource_ict21"]
+script = ExtResource("3_0x2ar")
+level = 41
+move = 174
+
+[sub_resource type="Resource" id="Resource_nhimh"]
+script = ExtResource("3_0x2ar")
+level = 45
+move = 34
+
+[sub_resource type="Resource" id="Resource_crtxp"]
+script = ExtResource("3_0x2ar")
+level = 50
+move = 330
+
+[resource]
+script = ExtResource("4_dhy8f")
+id = 704
+display_name = "Goomy"
+category = "Soft Tissue"
+national_dex = 704
+pokedex = "Its source of protection is its slimy,
+germ-laden mucous membrane. Anyone
+who touches it will need some thorough
+hand-washing."
+type_1 = 17
+base_hp = 45
+base_atk = 50
+base_def = 35
+base_spa = 55
+base_spd = 75
+base_spe = 40
+ev_spd = 1
+base_exp = 60
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 14
+ability_1 = 157
+ability_2 = 93
+ability_hidden = 183
+item_rare = 490
+height_dm = 3
+weight_hg = 28
+body_color = 6
+level_moves = Array[ExtResource("3_0x2ar")]([SubResource("Resource_a2xim"), SubResource("Resource_4kxc6"), SubResource("Resource_vb7t7"), SubResource("Resource_f4ors"), SubResource("Resource_jw6w7"), SubResource("Resource_w1lbu"), SubResource("Resource_pbpwv"), SubResource("Resource_0vjlp"), SubResource("Resource_jllk2"), SubResource("Resource_ict21"), SubResource("Resource_nhimh"), SubResource("Resource_crtxp")])
+egg_moves = Array[int]([151, 174, 231, 342, 68, 203])

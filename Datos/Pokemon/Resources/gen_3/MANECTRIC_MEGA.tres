@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ip1hid5w0vpm"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ju506"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6ac27"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cxmuj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_glohq"]
+
+[sub_resource type="Resource" id="Resource_xyvay"]
+script = ExtResource("3_cxmuj")
+move = 424
+
+[sub_resource type="Resource" id="Resource_7h4jd"]
+script = ExtResource("3_cxmuj")
+move = 33
+
+[sub_resource type="Resource" id="Resource_vpqxi"]
+script = ExtResource("3_cxmuj")
+move = 86
+
+[sub_resource type="Resource" id="Resource_xx2dq"]
+script = ExtResource("3_cxmuj")
+move = 43
+
+[sub_resource type="Resource" id="Resource_eixju"]
+script = ExtResource("3_cxmuj")
+move = 336
+
+[sub_resource type="Resource" id="Resource_mffvu"]
+script = ExtResource("3_cxmuj")
+level = 12
+move = 98
+
+[sub_resource type="Resource" id="Resource_hrycc"]
+script = ExtResource("3_cxmuj")
+level = 16
+move = 351
+
+[sub_resource type="Resource" id="Resource_w4vtk"]
+script = ExtResource("3_cxmuj")
+level = 20
+move = 44
+
+[sub_resource type="Resource" id="Resource_ccqw5"]
+script = ExtResource("3_cxmuj")
+level = 24
+move = 422
+
+[sub_resource type="Resource" id="Resource_b3qfw"]
+script = ExtResource("3_cxmuj")
+level = 30
+move = 46
+
+[sub_resource type="Resource" id="Resource_uq5oa"]
+script = ExtResource("3_cxmuj")
+level = 36
+move = 435
+
+[sub_resource type="Resource" id="Resource_nlr7d"]
+script = ExtResource("3_cxmuj")
+level = 42
+move = 268
+
+[sub_resource type="Resource" id="Resource_u86ql"]
+script = ExtResource("3_cxmuj")
+level = 48
+move = 528
+
+[sub_resource type="Resource" id="Resource_6wnto"]
+script = ExtResource("3_cxmuj")
+level = 54
+move = 87
+
+[sub_resource type="Resource" id="Resource_pp1t8"]
+script = ExtResource("3_cxmuj")
+level = 60
+move = 604
+
+[resource]
+script = ExtResource("4_glohq")
+id = 935
+display_name = "Manectric"
+category = "Discharge"
+national_dex = 310
+pokedex = "Too much electricity has built up in its
+body, irritating Manectric. Its explosive
+speed is equal to that of a lightning bolt."
+type_1 = 14
+base_hp = 70
+base_atk = 75
+base_def = 80
+base_spa = 135
+base_spd = 80
+base_spe = 135
+ev_spe = 2
+base_exp = 201
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 22
+ability_2 = 22
+ability_hidden = 22
+height_dm = 18
+weight_hg = 440
+body_color = 2
+level_moves = Array[ExtResource("3_cxmuj")]([SubResource("Resource_xyvay"), SubResource("Resource_7h4jd"), SubResource("Resource_vpqxi"), SubResource("Resource_xx2dq"), SubResource("Resource_eixju"), SubResource("Resource_mffvu"), SubResource("Resource_hrycc"), SubResource("Resource_w4vtk"), SubResource("Resource_ccqw5"), SubResource("Resource_b3qfw"), SubResource("Resource_uq5oa"), SubResource("Resource_nlr7d"), SubResource("Resource_u86ql"), SubResource("Resource_6wnto"), SubResource("Resource_pp1t8")])
+form_species = Array[int]([310, 935])

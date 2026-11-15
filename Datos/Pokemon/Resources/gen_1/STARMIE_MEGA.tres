@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b53h6vc2ckc87"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1xpta"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_seim2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_eryn0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ld4hk"]
+
+[sub_resource type="Resource" id="Resource_u274h"]
+script = ExtResource("3_eryn0")
+move = 229
+
+[sub_resource type="Resource" id="Resource_pkpoe"]
+script = ExtResource("3_eryn0")
+move = 107
+
+[sub_resource type="Resource" id="Resource_iiaam"]
+script = ExtResource("3_eryn0")
+move = 129
+
+[sub_resource type="Resource" id="Resource_pmya8"]
+script = ExtResource("3_eryn0")
+move = 60
+
+[sub_resource type="Resource" id="Resource_hxbsl"]
+script = ExtResource("3_eryn0")
+move = 362
+
+[sub_resource type="Resource" id="Resource_kqb8s"]
+script = ExtResource("3_eryn0")
+move = 113
+
+[sub_resource type="Resource" id="Resource_xea6g"]
+script = ExtResource("3_eryn0")
+move = 408
+
+[sub_resource type="Resource" id="Resource_4yhnd"]
+script = ExtResource("3_eryn0")
+move = 94
+
+[sub_resource type="Resource" id="Resource_jx6fe"]
+script = ExtResource("3_eryn0")
+move = 57
+
+[sub_resource type="Resource" id="Resource_fmej3"]
+script = ExtResource("3_eryn0")
+move = 105
+
+[sub_resource type="Resource" id="Resource_k2y07"]
+script = ExtResource("3_eryn0")
+move = 322
+
+[sub_resource type="Resource" id="Resource_x006l"]
+script = ExtResource("3_eryn0")
+move = 56
+
+[sub_resource type="Resource" id="Resource_pk6hr"]
+script = ExtResource("3_eryn0")
+move = 33
+
+[sub_resource type="Resource" id="Resource_fbf5f"]
+script = ExtResource("3_eryn0")
+move = 106
+
+[sub_resource type="Resource" id="Resource_fccqs"]
+script = ExtResource("3_eryn0")
+move = 55
+
+[sub_resource type="Resource" id="Resource_oyx10"]
+script = ExtResource("3_eryn0")
+move = 109
+
+[resource]
+script = ExtResource("4_ld4hk")
+id = 1526
+display_name = "Starmie"
+category = "Mysterious"
+national_dex = 121
+pokedex = "Its movements have become more
+humanlike. Whether it's simply
+trying to communicate or wants to
+supplant humanity is unclear."
+type_1 = 12
+type_2 = 15
+base_hp = 60
+base_atk = 100
+base_def = 105
+base_spa = 130
+base_spd = 105
+base_spe = 120
+ev_spe = 2
+catch_rate = 60
+base_exp = 182
+gender_ratio = 255
+growth_rate = 5
+egg_group_1 = 9
+ability_1 = 37
+ability_2 = 37
+ability_hidden = 37
+item_common = 143
+item_rare = 144
+height_dm = 23
+weight_hg = 800
+body_color = 6
+level_moves = Array[ExtResource("3_eryn0")]([SubResource("Resource_u274h"), SubResource("Resource_pkpoe"), SubResource("Resource_iiaam"), SubResource("Resource_pmya8"), SubResource("Resource_hxbsl"), SubResource("Resource_kqb8s"), SubResource("Resource_xea6g"), SubResource("Resource_4yhnd"), SubResource("Resource_jx6fe"), SubResource("Resource_fmej3"), SubResource("Resource_k2y07"), SubResource("Resource_x006l"), SubResource("Resource_pk6hr"), SubResource("Resource_fbf5f"), SubResource("Resource_fccqs"), SubResource("Resource_oyx10")])
+form_species = Array[int]([121, 1526])

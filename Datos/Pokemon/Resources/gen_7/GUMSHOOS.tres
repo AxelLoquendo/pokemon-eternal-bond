@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cvcdb85k0qik8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cwamt"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lqvj1"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mlupn"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wmfw4"]
+
+[sub_resource type="Resource" id="Resource_7c0js"]
+script = ExtResource("3_mlupn")
+move = 28
+
+[sub_resource type="Resource" id="Resource_n170o"]
+script = ExtResource("3_mlupn")
+move = 33
+
+[sub_resource type="Resource" id="Resource_786ad"]
+script = ExtResource("3_mlupn")
+move = 43
+
+[sub_resource type="Resource" id="Resource_ggyd3"]
+script = ExtResource("3_mlupn")
+move = 371
+
+[sub_resource type="Resource" id="Resource_epfj4"]
+script = ExtResource("3_mlupn")
+level = 13
+move = 526
+
+[sub_resource type="Resource" id="Resource_dlrnp"]
+script = ExtResource("3_mlupn")
+level = 19
+move = 44
+
+[sub_resource type="Resource" id="Resource_541yf"]
+script = ExtResource("3_mlupn")
+level = 23
+move = 189
+
+[sub_resource type="Resource" id="Resource_ajw22"]
+script = ExtResource("3_mlupn")
+level = 27
+move = 162
+
+[sub_resource type="Resource" id="Resource_lbfin"]
+script = ExtResource("3_mlupn")
+level = 31
+move = 36
+
+[sub_resource type="Resource" id="Resource_5kslx"]
+script = ExtResource("3_mlupn")
+level = 35
+move = 184
+
+[sub_resource type="Resource" id="Resource_b00h0"]
+script = ExtResource("3_mlupn")
+level = 39
+move = 242
+
+[sub_resource type="Resource" id="Resource_eh22m"]
+script = ExtResource("3_mlupn")
+level = 43
+move = 281
+
+[sub_resource type="Resource" id="Resource_ot6i8"]
+script = ExtResource("3_mlupn")
+level = 47
+move = 37
+
+[sub_resource type="Resource" id="Resource_wsgxo"]
+script = ExtResource("3_mlupn")
+level = 52
+move = 156
+
+[resource]
+script = ExtResource("4_wmfw4")
+id = 735
+display_name = "Gumshoos"
+category = "Stakeout"
+national_dex = 735
+type_1 = 1
+base_hp = 88
+base_atk = 110
+base_def = 60
+base_spa = 55
+base_spd = 60
+base_spe = 45
+ev_atk = 2
+catch_rate = 127
+base_exp = 146
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 198
+ability_2 = 173
+ability_hidden = 91
+item_rare = 516
+height_dm = 7
+weight_hg = 142
+body_color = 5
+level_moves = Array[ExtResource("3_mlupn")]([SubResource("Resource_7c0js"), SubResource("Resource_n170o"), SubResource("Resource_786ad"), SubResource("Resource_ggyd3"), SubResource("Resource_epfj4"), SubResource("Resource_dlrnp"), SubResource("Resource_541yf"), SubResource("Resource_ajw22"), SubResource("Resource_lbfin"), SubResource("Resource_5kslx"), SubResource("Resource_b00h0"), SubResource("Resource_eh22m"), SubResource("Resource_ot6i8"), SubResource("Resource_wsgxo")])
+form_species = Array[int]([735, 1477])

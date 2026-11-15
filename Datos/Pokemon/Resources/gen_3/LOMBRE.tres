@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c5hc03350s0us"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rc8fn"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8vjdc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_j8maj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_m5n46"]
+
+[sub_resource type="Resource" id="Resource_47afb"]
+script = ExtResource("1_rc8fn")
+method = "ITEM"
+param = "ITEM_WATER_STONE"
+target = 272
+
+[sub_resource type="Resource" id="Resource_n4kn2"]
+script = ExtResource("3_j8maj")
+move = 45
+
+[sub_resource type="Resource" id="Resource_refj7"]
+script = ExtResource("3_j8maj")
+move = 55
+
+[sub_resource type="Resource" id="Resource_trn4b"]
+script = ExtResource("3_j8maj")
+move = 310
+
+[sub_resource type="Resource" id="Resource_xtnph"]
+script = ExtResource("3_j8maj")
+move = 298
+
+[sub_resource type="Resource" id="Resource_17nwo"]
+script = ExtResource("3_j8maj")
+move = 71
+
+[sub_resource type="Resource" id="Resource_t6w2j"]
+script = ExtResource("3_j8maj")
+move = 282
+
+[sub_resource type="Resource" id="Resource_dv1vq"]
+script = ExtResource("3_j8maj")
+move = 252
+
+[sub_resource type="Resource" id="Resource_t861o"]
+script = ExtResource("3_j8maj")
+move = 175
+
+[sub_resource type="Resource" id="Resource_wa7fq"]
+script = ExtResource("3_j8maj")
+level = 9
+move = 54
+
+[sub_resource type="Resource" id="Resource_j15pd"]
+script = ExtResource("3_j8maj")
+level = 12
+move = 72
+
+[sub_resource type="Resource" id="Resource_td4f5"]
+script = ExtResource("3_j8maj")
+level = 18
+move = 154
+
+[sub_resource type="Resource" id="Resource_mcdhe"]
+script = ExtResource("3_j8maj")
+level = 24
+move = 61
+
+[sub_resource type="Resource" id="Resource_82tr6"]
+script = ExtResource("3_j8maj")
+level = 30
+move = 73
+
+[sub_resource type="Resource" id="Resource_j3ayf"]
+script = ExtResource("3_j8maj")
+level = 36
+move = 202
+
+[sub_resource type="Resource" id="Resource_3f7hg"]
+script = ExtResource("3_j8maj")
+level = 50
+move = 428
+
+[sub_resource type="Resource" id="Resource_4s15r"]
+script = ExtResource("3_j8maj")
+level = 57
+move = 412
+
+[sub_resource type="Resource" id="Resource_twak3"]
+script = ExtResource("3_j8maj")
+level = 64
+move = 56
+
+[resource]
+script = ExtResource("4_m5n46")
+id = 271
+display_name = "Lombre"
+category = "Jolly"
+national_dex = 271
+pokedex = "In the evening, it takes great delight in
+popping out of rivers and startling people.
+It feeds on aquatic moss that grows on
+rocks in the riverbed."
+type_1 = 12
+type_2 = 13
+base_hp = 60
+base_atk = 50
+base_def = 50
+base_spa = 60
+base_spd = 70
+base_spe = 50
+ev_spd = 2
+catch_rate = 120
+base_exp = 119
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 2
+egg_group_2 = 7
+ability_1 = 33
+ability_2 = 44
+ability_hidden = 20
+item_rare = 464
+height_dm = 12
+weight_hg = 325
+body_color = 3
+no_flip = true
+level_moves = Array[ExtResource("3_j8maj")]([SubResource("Resource_n4kn2"), SubResource("Resource_refj7"), SubResource("Resource_trn4b"), SubResource("Resource_xtnph"), SubResource("Resource_17nwo"), SubResource("Resource_t6w2j"), SubResource("Resource_dv1vq"), SubResource("Resource_t861o"), SubResource("Resource_wa7fq"), SubResource("Resource_j15pd"), SubResource("Resource_td4f5"), SubResource("Resource_mcdhe"), SubResource("Resource_82tr6"), SubResource("Resource_j3ayf"), SubResource("Resource_3f7hg"), SubResource("Resource_4s15r"), SubResource("Resource_twak3")])
+evolutions = Array[ExtResource("1_rc8fn")]([SubResource("Resource_47afb")])

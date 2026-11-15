@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bombqyqs86alv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_pwhry"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_uoko7"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nqmnx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_i666x"]
+
+[sub_resource type="Resource" id="Resource_670x0"]
+script = ExtResource("1_pwhry")
+method = "LEVEL"
+param = "20"
+target = 510
+
+[sub_resource type="Resource" id="Resource_op3km"]
+script = ExtResource("3_nqmnx")
+move = 10
+
+[sub_resource type="Resource" id="Resource_ilhac"]
+script = ExtResource("3_nqmnx")
+move = 45
+
+[sub_resource type="Resource" id="Resource_kkmkl"]
+script = ExtResource("3_nqmnx")
+level = 4
+move = 28
+
+[sub_resource type="Resource" id="Resource_1mg1f"]
+script = ExtResource("3_nqmnx")
+level = 5
+move = 252
+
+[sub_resource type="Resource" id="Resource_rh3vo"]
+script = ExtResource("3_nqmnx")
+level = 12
+move = 154
+
+[sub_resource type="Resource" id="Resource_q25xt"]
+script = ExtResource("3_nqmnx")
+level = 16
+move = 259
+
+[sub_resource type="Resource" id="Resource_bl555"]
+script = ExtResource("3_nqmnx")
+level = 21
+move = 372
+
+[sub_resource type="Resource" id="Resource_mgwbs"]
+script = ExtResource("3_nqmnx")
+level = 24
+move = 468
+
+[sub_resource type="Resource" id="Resource_r0fc4"]
+script = ExtResource("3_nqmnx")
+level = 28
+move = 389
+
+[sub_resource type="Resource" id="Resource_gv5ck"]
+script = ExtResource("3_nqmnx")
+level = 32
+move = 417
+
+[sub_resource type="Resource" id="Resource_pbir4"]
+script = ExtResource("3_nqmnx")
+level = 36
+move = 400
+
+[sub_resource type="Resource" id="Resource_djo23"]
+script = ExtResource("3_nqmnx")
+level = 40
+move = 583
+
+[resource]
+script = ExtResource("4_i666x")
+id = 509
+display_name = "Purrloin"
+category = "Devious"
+national_dex = 509
+pokedex = "Their deceptively cute act is the
+perfect ruse. They steal from people for
+fun, but their victims can't help but
+forgive them."
+type_1 = 18
+base_hp = 41
+base_atk = 50
+base_def = 37
+base_spa = 50
+base_spd = 37
+base_spe = 66
+ev_spe = 1
+catch_rate = 255
+base_exp = 56
+egg_group_1 = 5
+ability_1 = 7
+ability_2 = 84
+ability_hidden = 158
+height_dm = 4
+weight_hg = 101
+body_color = 6
+level_moves = Array[ExtResource("3_nqmnx")]([SubResource("Resource_op3km"), SubResource("Resource_ilhac"), SubResource("Resource_kkmkl"), SubResource("Resource_1mg1f"), SubResource("Resource_rh3vo"), SubResource("Resource_q25xt"), SubResource("Resource_bl555"), SubResource("Resource_mgwbs"), SubResource("Resource_r0fc4"), SubResource("Resource_gv5ck"), SubResource("Resource_pbir4"), SubResource("Resource_djo23")])
+egg_moves = Array[int]([6, 492, 185, 313, 204, 227, 281, 343, 383])
+evolutions = Array[ExtResource("1_pwhry")]([SubResource("Resource_670x0")])

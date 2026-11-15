@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://csg1itv4xebxu"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_k8hhc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_4k2pb"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_opy4n"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5eib2"]
+
+[sub_resource type="Resource" id="Resource_f0q06"]
+script = ExtResource("1_k8hhc")
+method = "LEVEL"
+param = "16"
+target = 256
+
+[sub_resource type="Resource" id="Resource_4c6fc"]
+script = ExtResource("3_opy4n")
+move = 10
+
+[sub_resource type="Resource" id="Resource_2kjqw"]
+script = ExtResource("3_opy4n")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ouk56"]
+script = ExtResource("3_opy4n")
+level = 3
+move = 52
+
+[sub_resource type="Resource" id="Resource_u3eff"]
+script = ExtResource("3_opy4n")
+level = 6
+move = 98
+
+[sub_resource type="Resource" id="Resource_ne1i7"]
+script = ExtResource("3_opy4n")
+level = 9
+move = 488
+
+[sub_resource type="Resource" id="Resource_2q4m3"]
+script = ExtResource("3_opy4n")
+level = 12
+move = 197
+
+[sub_resource type="Resource" id="Resource_aldnb"]
+script = ExtResource("3_opy4n")
+level = 15
+move = 28
+
+[sub_resource type="Resource" id="Resource_ali75"]
+script = ExtResource("3_opy4n")
+level = 18
+move = 332
+
+[sub_resource type="Resource" id="Resource_ixsie"]
+script = ExtResource("3_opy4n")
+level = 21
+move = 163
+
+[sub_resource type="Resource" id="Resource_ocatd"]
+script = ExtResource("3_opy4n")
+level = 24
+move = 340
+
+[sub_resource type="Resource" id="Resource_lmvop"]
+script = ExtResource("3_opy4n")
+level = 27
+move = 116
+
+[sub_resource type="Resource" id="Resource_3ysum"]
+script = ExtResource("3_opy4n")
+level = 30
+move = 53
+
+[sub_resource type="Resource" id="Resource_ab6v3"]
+script = ExtResource("3_opy4n")
+level = 33
+move = 297
+
+[sub_resource type="Resource" id="Resource_bmjac"]
+script = ExtResource("3_opy4n")
+level = 36
+move = 179
+
+[sub_resource type="Resource" id="Resource_pnolv"]
+script = ExtResource("3_opy4n")
+level = 39
+move = 394
+
+[resource]
+script = ExtResource("4_5eib2")
+id = 255
+display_name = "Torchic"
+category = "Chick"
+national_dex = 255
+pokedex = "If attacked, it strikes back by spitting
+balls of fire it forms in its stomach.
+A Torchic dislikes darkness because it
+can't see its surroundings."
+type_1 = 11
+base_hp = 45
+base_atk = 60
+base_def = 40
+base_spa = 70
+base_spd = 50
+base_spe = 45
+ev_spa = 1
+base_exp = 62
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 66
+ability_hidden = 3
+height_dm = 4
+weight_hg = 25
+level_moves = Array[ExtResource("3_opy4n")]([SubResource("Resource_4c6fc"), SubResource("Resource_2kjqw"), SubResource("Resource_ouk56"), SubResource("Resource_u3eff"), SubResource("Resource_ne1i7"), SubResource("Resource_2q4m3"), SubResource("Resource_aldnb"), SubResource("Resource_ali75"), SubResource("Resource_ixsie"), SubResource("Resource_ocatd"), SubResource("Resource_lmvop"), SubResource("Resource_3ysum"), SubResource("Resource_ab6v3"), SubResource("Resource_bmjac"), SubResource("Resource_pnolv")])
+egg_moves = Array[int]([68, 179, 203, 265, 306, 226, 97, 400, 387, 364, 297, 174, 481, 67])
+evolutions = Array[ExtResource("1_k8hhc")]([SubResource("Resource_f0q06")])

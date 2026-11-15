@@ -1,0 +1,124 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://5oxq4v804oee"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ryxso"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8u6ju"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_en6su"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xevcq"]
+
+[sub_resource type="Resource" id="Resource_njvbg"]
+script = ExtResource("1_ryxso")
+method = "LEVEL"
+param = "44"
+target = 365
+
+[sub_resource type="Resource" id="Resource_cet4h"]
+script = ExtResource("3_en6su")
+level = 0
+move = 207
+
+[sub_resource type="Resource" id="Resource_y0h8n"]
+script = ExtResource("3_en6su")
+move = 207
+
+[sub_resource type="Resource" id="Resource_tt7bv"]
+script = ExtResource("3_en6su")
+move = 205
+
+[sub_resource type="Resource" id="Resource_8vyhj"]
+script = ExtResource("3_en6su")
+move = 111
+
+[sub_resource type="Resource" id="Resource_70ntx"]
+script = ExtResource("3_en6su")
+move = 45
+
+[sub_resource type="Resource" id="Resource_sgrdf"]
+script = ExtResource("3_en6su")
+move = 55
+
+[sub_resource type="Resource" id="Resource_m2rk4"]
+script = ExtResource("3_en6su")
+level = 12
+move = 181
+
+[sub_resource type="Resource" id="Resource_xvgbo"]
+script = ExtResource("3_en6su")
+level = 16
+move = 156
+
+[sub_resource type="Resource" id="Resource_nkkep"]
+script = ExtResource("3_en6su")
+level = 20
+move = 173
+
+[sub_resource type="Resource" id="Resource_3j76i"]
+script = ExtResource("3_en6su")
+level = 24
+move = 362
+
+[sub_resource type="Resource" id="Resource_a0atj"]
+script = ExtResource("3_en6su")
+level = 28
+move = 62
+
+[sub_resource type="Resource" id="Resource_w61hp"]
+script = ExtResource("3_en6su")
+level = 35
+move = 227
+
+[sub_resource type="Resource" id="Resource_gfv4g"]
+script = ExtResource("3_en6su")
+level = 40
+move = 34
+
+[sub_resource type="Resource" id="Resource_cm1k3"]
+script = ExtResource("3_en6su")
+level = 46
+move = 57
+
+[sub_resource type="Resource" id="Resource_e0gs2"]
+script = ExtResource("3_en6su")
+level = 52
+move = 59
+
+[sub_resource type="Resource" id="Resource_3w4gy"]
+script = ExtResource("3_en6su")
+level = 58
+move = 258
+
+[sub_resource type="Resource" id="Resource_hpfh7"]
+script = ExtResource("3_en6su")
+level = 64
+move = 329
+
+[resource]
+script = ExtResource("4_xevcq")
+id = 364
+display_name = "Sealeo"
+category = "Ball Roll"
+national_dex = 364
+pokedex = "Sealeo live in herds on ice floes. Using its
+powerful flippers, it shatters ice.
+It dives into the sea to hunt prey five
+times a day."
+type_1 = 16
+type_2 = 12
+base_hp = 90
+base_atk = 60
+base_def = 70
+base_spa = 75
+base_spd = 70
+base_spe = 45
+ev_hp = 2
+catch_rate = 120
+base_exp = 144
+growth_rate = 3
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 47
+ability_hidden = 12
+height_dm = 11
+weight_hg = 876
+body_color = 1
+level_moves = Array[ExtResource("3_en6su")]([SubResource("Resource_cet4h"), SubResource("Resource_y0h8n"), SubResource("Resource_tt7bv"), SubResource("Resource_8vyhj"), SubResource("Resource_70ntx"), SubResource("Resource_sgrdf"), SubResource("Resource_m2rk4"), SubResource("Resource_xvgbo"), SubResource("Resource_nkkep"), SubResource("Resource_3j76i"), SubResource("Resource_a0atj"), SubResource("Resource_w61hp"), SubResource("Resource_gfv4g"), SubResource("Resource_cm1k3"), SubResource("Resource_e0gs2"), SubResource("Resource_3w4gy"), SubResource("Resource_hpfh7")])
+evolutions = Array[ExtResource("1_ryxso")]([SubResource("Resource_njvbg")])

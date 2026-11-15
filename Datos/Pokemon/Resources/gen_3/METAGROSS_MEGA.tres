@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://3xd1sd8wmp7k"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_n702m"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6orwj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gai4r"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_vbks8"]
+
+[sub_resource type="Resource" id="Resource_hbc3m"]
+script = ExtResource("3_gai4r")
+level = 0
+move = 359
+
+[sub_resource type="Resource" id="Resource_nxt6f"]
+script = ExtResource("3_gai4r")
+move = 153
+
+[sub_resource type="Resource" id="Resource_v5cl5"]
+script = ExtResource("3_gai4r")
+move = 468
+
+[sub_resource type="Resource" id="Resource_gp87b"]
+script = ExtResource("3_gai4r")
+move = 33
+
+[sub_resource type="Resource" id="Resource_2i7su"]
+script = ExtResource("3_gai4r")
+move = 93
+
+[sub_resource type="Resource" id="Resource_omye8"]
+script = ExtResource("3_gai4r")
+move = 232
+
+[sub_resource type="Resource" id="Resource_7q1ds"]
+script = ExtResource("3_gai4r")
+move = 418
+
+[sub_resource type="Resource" id="Resource_qww0h"]
+script = ExtResource("3_gai4r")
+level = 6
+move = 428
+
+[sub_resource type="Resource" id="Resource_dv0ak"]
+script = ExtResource("3_gai4r")
+level = 12
+move = 393
+
+[sub_resource type="Resource" id="Resource_bait7"]
+script = ExtResource("3_gai4r")
+level = 16
+move = 430
+
+[sub_resource type="Resource" id="Resource_io3ob"]
+script = ExtResource("3_gai4r")
+level = 26
+move = 36
+
+[sub_resource type="Resource" id="Resource_j88fa"]
+script = ExtResource("3_gai4r")
+level = 34
+move = 94
+
+[sub_resource type="Resource" id="Resource_b1qsh"]
+script = ExtResource("3_gai4r")
+level = 42
+move = 184
+
+[sub_resource type="Resource" id="Resource_0h51v"]
+script = ExtResource("3_gai4r")
+level = 52
+move = 309
+
+[sub_resource type="Resource" id="Resource_2jauv"]
+script = ExtResource("3_gai4r")
+level = 62
+move = 334
+
+[sub_resource type="Resource" id="Resource_xpfrl"]
+script = ExtResource("3_gai4r")
+level = 72
+move = 97
+
+[sub_resource type="Resource" id="Resource_nkpjn"]
+script = ExtResource("3_gai4r")
+level = 82
+move = 63
+
+[resource]
+script = ExtResource("4_vbks8")
+id = 943
+display_name = "Metagross"
+category = "Iron Leg"
+national_dex = 376
+pokedex = "When it knows it can't win, it digs the
+claws on its legs into its opponent and
+starts the countdown to a big explosion."
+type_1 = 9
+type_2 = 15
+base_hp = 80
+base_atk = 145
+base_def = 150
+base_spa = 105
+base_spd = 110
+base_spe = 110
+ev_def = 3
+catch_rate = 3
+base_exp = 350
+base_friendship = 35
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 10
+ability_1 = 181
+ability_2 = 181
+ability_hidden = 181
+item_rare = 441
+height_dm = 25
+weight_hg = 9429
+body_color = 1
+level_moves = Array[ExtResource("3_gai4r")]([SubResource("Resource_hbc3m"), SubResource("Resource_nxt6f"), SubResource("Resource_v5cl5"), SubResource("Resource_gp87b"), SubResource("Resource_2i7su"), SubResource("Resource_omye8"), SubResource("Resource_7q1ds"), SubResource("Resource_qww0h"), SubResource("Resource_dv0ak"), SubResource("Resource_bait7"), SubResource("Resource_io3ob"), SubResource("Resource_j88fa"), SubResource("Resource_b1qsh"), SubResource("Resource_0h51v"), SubResource("Resource_2jauv"), SubResource("Resource_xpfrl"), SubResource("Resource_nkpjn")])
+form_species = Array[int]([376, 943])

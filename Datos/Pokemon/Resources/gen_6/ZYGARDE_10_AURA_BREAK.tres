@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://yuom8uh2kqop"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cpj7y"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_61bvo"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_lheyo"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bei8a"]
+
+[sub_resource type="Resource" id="Resource_7y1ut"]
+script = ExtResource("3_lheyo")
+move = 614
+
+[sub_resource type="Resource" id="Resource_tl3am"]
+script = ExtResource("3_lheyo")
+move = 615
+
+[sub_resource type="Resource" id="Resource_wudev"]
+script = ExtResource("3_lheyo")
+move = 650
+
+[sub_resource type="Resource" id="Resource_qcu5r"]
+script = ExtResource("3_lheyo")
+move = 20
+
+[sub_resource type="Resource" id="Resource_hemhw"]
+script = ExtResource("3_lheyo")
+move = 523
+
+[sub_resource type="Resource" id="Resource_jkpcw"]
+script = ExtResource("3_lheyo")
+move = 225
+
+[sub_resource type="Resource" id="Resource_kxrqc"]
+script = ExtResource("3_lheyo")
+move = 44
+
+[sub_resource type="Resource" id="Resource_un5t3"]
+script = ExtResource("3_lheyo")
+level = 8
+move = 114
+
+[sub_resource type="Resource" id="Resource_bxrux"]
+script = ExtResource("3_lheyo")
+level = 16
+move = 91
+
+[sub_resource type="Resource" id="Resource_ylser"]
+script = ExtResource("3_lheyo")
+level = 24
+move = 219
+
+[sub_resource type="Resource" id="Resource_3vuwk"]
+script = ExtResource("3_lheyo")
+level = 32
+move = 242
+
+[sub_resource type="Resource" id="Resource_gd0x0"]
+script = ExtResource("3_lheyo")
+level = 40
+move = 406
+
+[sub_resource type="Resource" id="Resource_fr5rc"]
+script = ExtResource("3_lheyo")
+level = 48
+move = 616
+
+[sub_resource type="Resource" id="Resource_gng06"]
+script = ExtResource("3_lheyo")
+level = 56
+move = 137
+
+[sub_resource type="Resource" id="Resource_cupi8"]
+script = ExtResource("3_lheyo")
+level = 64
+move = 201
+
+[sub_resource type="Resource" id="Resource_sgcgw"]
+script = ExtResource("3_lheyo")
+level = 72
+move = 489
+
+[sub_resource type="Resource" id="Resource_seg6l"]
+script = ExtResource("3_lheyo")
+level = 80
+move = 89
+
+[sub_resource type="Resource" id="Resource_26h8p"]
+script = ExtResource("3_lheyo")
+level = 88
+move = 200
+
+[resource]
+script = ExtResource("4_bei8a")
+id = 1164
+display_name = "Zygarde"
+category = "Order"
+national_dex = 718
+type_1 = 17
+type_2 = 5
+base_hp = 54
+base_atk = 100
+base_def = 71
+base_spa = 61
+base_spd = 85
+base_spe = 115
+ev_hp = 3
+catch_rate = 3
+base_exp = 243
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 188
+height_dm = 12
+weight_hg = 335
+body_color = 4
+no_flip = true
+level_moves = Array[ExtResource("3_lheyo")]([SubResource("Resource_7y1ut"), SubResource("Resource_tl3am"), SubResource("Resource_wudev"), SubResource("Resource_qcu5r"), SubResource("Resource_hemhw"), SubResource("Resource_jkpcw"), SubResource("Resource_kxrqc"), SubResource("Resource_un5t3"), SubResource("Resource_bxrux"), SubResource("Resource_ylser"), SubResource("Resource_3vuwk"), SubResource("Resource_gd0x0"), SubResource("Resource_fr5rc"), SubResource("Resource_gng06"), SubResource("Resource_cupi8"), SubResource("Resource_sgcgw"), SubResource("Resource_seg6l"), SubResource("Resource_26h8p")])
+form_species = Array[int]([718, 1164, 1165, 1166, 1167, 1547])

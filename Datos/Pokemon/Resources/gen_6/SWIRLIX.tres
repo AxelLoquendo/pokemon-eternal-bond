@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfocjntj83ad8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fnajs"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_o3p2f"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3txka"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_v6dl3"]
+
+[sub_resource type="Resource" id="Resource_51xje"]
+script = ExtResource("1_fnajs")
+method = "ITEM"
+param = "ITEM_WHIPPED_DREAM"
+target = 685
+
+[sub_resource type="Resource" id="Resource_ajp2v"]
+script = ExtResource("3_3txka")
+move = 33
+
+[sub_resource type="Resource" id="Resource_1v6qo"]
+script = ExtResource("3_3txka")
+move = 230
+
+[sub_resource type="Resource" id="Resource_r5u2m"]
+script = ExtResource("3_3txka")
+level = 3
+move = 589
+
+[sub_resource type="Resource" id="Resource_3ui5k"]
+script = ExtResource("3_3txka")
+level = 6
+move = 584
+
+[sub_resource type="Resource" id="Resource_6y5dk"]
+script = ExtResource("3_3txka")
+level = 9
+move = 312
+
+[sub_resource type="Resource" id="Resource_3nb3c"]
+script = ExtResource("3_3txka")
+level = 12
+move = 577
+
+[sub_resource type="Resource" id="Resource_0mpek"]
+script = ExtResource("3_3txka")
+level = 15
+move = 313
+
+[sub_resource type="Resource" id="Resource_x2408"]
+script = ExtResource("3_3txka")
+level = 18
+move = 496
+
+[sub_resource type="Resource" id="Resource_1bdsm"]
+script = ExtResource("3_3txka")
+level = 21
+move = 81
+
+[sub_resource type="Resource" id="Resource_edp05"]
+script = ExtResource("3_3txka")
+level = 24
+move = 178
+
+[sub_resource type="Resource" id="Resource_jxv80"]
+script = ExtResource("3_3txka")
+level = 27
+move = 412
+
+[sub_resource type="Resource" id="Resource_jl3m1"]
+script = ExtResource("3_3txka")
+level = 30
+move = 273
+
+[sub_resource type="Resource" id="Resource_57hht"]
+script = ExtResource("3_3txka")
+level = 33
+move = 583
+
+[sub_resource type="Resource" id="Resource_6ysqa"]
+script = ExtResource("3_3txka")
+level = 36
+move = 538
+
+[sub_resource type="Resource" id="Resource_be384"]
+script = ExtResource("3_3txka")
+level = 39
+move = 283
+
+[resource]
+script = ExtResource("4_v6dl3")
+id = 684
+display_name = "Swirlix"
+category = "Cotton Candy"
+national_dex = 684
+pokedex = "Because it eats nothing but sweets, its
+fur is as sticky sweet as cotton candy.
+To entangle its opponents in battle, it
+extrudes sticky white threads."
+type_1 = 19
+base_hp = 62
+base_atk = 48
+base_def = 66
+base_spa = 59
+base_spd = 57
+base_spe = 49
+ev_def = 1
+catch_rate = 200
+base_exp = 68
+egg_group_1 = 6
+ability_1 = 175
+ability_hidden = 84
+height_dm = 4
+weight_hg = 35
+body_color = 8
+level_moves = Array[ExtResource("3_3txka")]([SubResource("Resource_ajp2v"), SubResource("Resource_1v6qo"), SubResource("Resource_r5u2m"), SubResource("Resource_3ui5k"), SubResource("Resource_6y5dk"), SubResource("Resource_3nb3c"), SubResource("Resource_0mpek"), SubResource("Resource_x2408"), SubResource("Resource_1bdsm"), SubResource("Resource_edp05"), SubResource("Resource_jxv80"), SubResource("Resource_jl3m1"), SubResource("Resource_57hht"), SubResource("Resource_6ysqa"), SubResource("Resource_be384")])
+egg_moves = Array[int]([495, 281, 187, 383, 564])
+evolutions = Array[ExtResource("1_fnajs")]([SubResource("Resource_51xje")])

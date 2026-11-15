@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bycdr58pa85hd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cclh4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_k5oyo"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_be11k"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_m2k3j"]
+
+[sub_resource type="Resource" id="Resource_i5io1"]
+script = ExtResource("3_be11k")
+move = 17
+
+[sub_resource type="Resource" id="Resource_lglcj"]
+script = ExtResource("3_be11k")
+move = 55
+
+[sub_resource type="Resource" id="Resource_t8anw"]
+script = ExtResource("3_be11k")
+move = 432
+
+[sub_resource type="Resource" id="Resource_w4h4j"]
+script = ExtResource("3_be11k")
+level = 13
+move = 352
+
+[sub_resource type="Resource" id="Resource_6m5pa"]
+script = ExtResource("3_be11k")
+level = 15
+move = 332
+
+[sub_resource type="Resource" id="Resource_cj1pr"]
+script = ExtResource("3_be11k")
+level = 19
+move = 61
+
+[sub_resource type="Resource" id="Resource_ygio1"]
+script = ExtResource("3_be11k")
+level = 21
+move = 297
+
+[sub_resource type="Resource" id="Resource_itgqn"]
+script = ExtResource("3_be11k")
+level = 24
+move = 392
+
+[sub_resource type="Resource" id="Resource_jwe2l"]
+script = ExtResource("3_be11k")
+level = 27
+move = 403
+
+[sub_resource type="Resource" id="Resource_u3470"]
+script = ExtResource("3_be11k")
+level = 30
+move = 355
+
+[sub_resource type="Resource" id="Resource_lu5fk"]
+script = ExtResource("3_be11k")
+level = 34
+move = 240
+
+[sub_resource type="Resource" id="Resource_tt6ev"]
+script = ExtResource("3_be11k")
+level = 40
+move = 366
+
+[sub_resource type="Resource" id="Resource_fikud"]
+script = ExtResource("3_be11k")
+level = 47
+move = 413
+
+[sub_resource type="Resource" id="Resource_v1tch"]
+script = ExtResource("3_be11k")
+level = 55
+move = 542
+
+[resource]
+script = ExtResource("4_m2k3j")
+id = 581
+display_name = "Swanna"
+category = "White Bird"
+national_dex = 581
+pokedex = "Despite their elegant appearance, they
+can flap their wings strongly and fly for
+thousands of miles. The one in the middle
+is the leader of the flock."
+type_1 = 12
+type_2 = 3
+base_hp = 75
+base_atk = 87
+base_def = 63
+base_spa = 87
+base_spd = 63
+base_spe = 98
+ev_spe = 2
+base_exp = 166
+egg_group_1 = 2
+egg_group_2 = 4
+ability_1 = 51
+ability_2 = 145
+ability_hidden = 93
+height_dm = 13
+weight_hg = 242
+body_color = 8
+level_moves = Array[ExtResource("3_be11k")]([SubResource("Resource_i5io1"), SubResource("Resource_lglcj"), SubResource("Resource_t8anw"), SubResource("Resource_w4h4j"), SubResource("Resource_6m5pa"), SubResource("Resource_cj1pr"), SubResource("Resource_ygio1"), SubResource("Resource_itgqn"), SubResource("Resource_jwe2l"), SubResource("Resource_u3470"), SubResource("Resource_lu5fk"), SubResource("Resource_tt6ev"), SubResource("Resource_fikud"), SubResource("Resource_v1tch")])

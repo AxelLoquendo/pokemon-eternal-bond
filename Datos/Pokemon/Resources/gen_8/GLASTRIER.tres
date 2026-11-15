@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b7olrkotiekn0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_e8kmn"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gpkv4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k2j0i"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6vye8"]
+
+[sub_resource type="Resource" id="Resource_5glwo"]
+script = ExtResource("3_k2j0i")
+move = 33
+
+[sub_resource type="Resource" id="Resource_piidh"]
+script = ExtResource("3_k2j0i")
+move = 39
+
+[sub_resource type="Resource" id="Resource_pn7c3"]
+script = ExtResource("3_k2j0i")
+level = 6
+move = 24
+
+[sub_resource type="Resource" id="Resource_m8bkm"]
+script = ExtResource("3_k2j0i")
+level = 12
+move = 419
+
+[sub_resource type="Resource" id="Resource_fhh61"]
+script = ExtResource("3_k2j0i")
+level = 18
+move = 23
+
+[sub_resource type="Resource" id="Resource_b7grl"]
+script = ExtResource("3_k2j0i")
+level = 24
+move = 259
+
+[sub_resource type="Resource" id="Resource_r4kx0"]
+script = ExtResource("3_k2j0i")
+level = 30
+move = 54
+
+[sub_resource type="Resource" id="Resource_8spil"]
+script = ExtResource("3_k2j0i")
+level = 36
+move = 556
+
+[sub_resource type="Resource" id="Resource_gytxd"]
+script = ExtResource("3_k2j0i")
+level = 42
+move = 36
+
+[sub_resource type="Resource" id="Resource_g5shq"]
+script = ExtResource("3_k2j0i")
+level = 48
+move = 334
+
+[sub_resource type="Resource" id="Resource_inyju"]
+script = ExtResource("3_k2j0i")
+level = 54
+move = 37
+
+[sub_resource type="Resource" id="Resource_oqjse"]
+script = ExtResource("3_k2j0i")
+level = 60
+move = 269
+
+[sub_resource type="Resource" id="Resource_4vy7w"]
+script = ExtResource("3_k2j0i")
+level = 66
+move = 38
+
+[sub_resource type="Resource" id="Resource_ttmy8"]
+script = ExtResource("3_k2j0i")
+level = 72
+move = 14
+
+[resource]
+script = ExtResource("4_6vye8")
+id = 896
+display_name = "Glastrier"
+category = "Wild Horse"
+national_dex = 896
+pokedex = "Glastrier emits intense cold from its
+hooves. It's also a belligerent Pokémon--
+anything it wants, it takes by force."
+type_1 = 16
+base_hp = 100
+base_atk = 145
+base_def = 130
+base_spa = 65
+base_spd = 110
+base_spe = 30
+ev_atk = 3
+catch_rate = 3
+base_exp = 290
+base_friendship = 35
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 264
+height_dm = 22
+weight_hg = 8000
+body_color = 8
+level_moves = Array[ExtResource("3_k2j0i")]([SubResource("Resource_5glwo"), SubResource("Resource_piidh"), SubResource("Resource_pn7c3"), SubResource("Resource_m8bkm"), SubResource("Resource_fhh61"), SubResource("Resource_b7grl"), SubResource("Resource_r4kx0"), SubResource("Resource_8spil"), SubResource("Resource_gytxd"), SubResource("Resource_g5shq"), SubResource("Resource_inyju"), SubResource("Resource_oqjse"), SubResource("Resource_4vy7w"), SubResource("Resource_ttmy8")])

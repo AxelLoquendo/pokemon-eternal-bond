@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bvtkk6kxi5lqj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8foyv"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0p2si"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_la50c"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sx3wo"]
+
+[sub_resource type="Resource" id="Resource_iwwcw"]
+script = ExtResource("3_la50c")
+move = 64
+
+[sub_resource type="Resource" id="Resource_qawan"]
+script = ExtResource("3_la50c")
+move = 28
+
+[sub_resource type="Resource" id="Resource_2ikl5"]
+script = ExtResource("3_la50c")
+level = 5
+move = 43
+
+[sub_resource type="Resource" id="Resource_bcmab"]
+script = ExtResource("3_la50c")
+level = 10
+move = 210
+
+[sub_resource type="Resource" id="Resource_myw7s"]
+script = ExtResource("3_la50c")
+level = 15
+move = 15
+
+[sub_resource type="Resource" id="Resource_qhuys"]
+script = ExtResource("3_la50c")
+level = 20
+move = 332
+
+[sub_resource type="Resource" id="Resource_l62kg"]
+script = ExtResource("3_la50c")
+level = 25
+move = 314
+
+[sub_resource type="Resource" id="Resource_6q2qd"]
+script = ExtResource("3_la50c")
+level = 30
+move = 282
+
+[sub_resource type="Resource" id="Resource_rk5r0"]
+script = ExtResource("3_la50c")
+level = 35
+move = 206
+
+[sub_resource type="Resource" id="Resource_egu27"]
+script = ExtResource("3_la50c")
+level = 40
+move = 163
+
+[sub_resource type="Resource" id="Resource_4bjar"]
+script = ExtResource("3_la50c")
+level = 45
+move = 14
+
+[sub_resource type="Resource" id="Resource_f2lat"]
+script = ExtResource("3_la50c")
+level = 50
+move = 403
+
+[sub_resource type="Resource" id="Resource_ub8cr"]
+script = ExtResource("3_la50c")
+level = 55
+move = 348
+
+[sub_resource type="Resource" id="Resource_0iypi"]
+script = ExtResource("3_la50c")
+level = 60
+move = 97
+
+[sub_resource type="Resource" id="Resource_wmkxk"]
+script = ExtResource("3_la50c")
+level = 65
+move = 413
+
+[resource]
+script = ExtResource("4_sx3wo")
+id = 83
+display_name = "Farfetch'd"
+category = "Wild Duck"
+national_dex = 83
+pokedex = "It is always seen with a stick from a plant.
+Apparently, there are good sticks and bad
+sticks. This Pokémon occasionally fights
+with others over choice sticks."
+type_1 = 1
+type_2 = 3
+base_hp = 52
+base_atk = 90
+base_def = 55
+base_spa = 58
+base_spd = 62
+base_spe = 60
+ev_atk = 1
+base_exp = 94
+egg_group_1 = 4
+egg_group_2 = 5
+ability_1 = 51
+ability_2 = 39
+ability_hidden = 128
+item_rare = 393
+height_dm = 8
+weight_hg = 150
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_la50c")]([SubResource("Resource_iwwcw"), SubResource("Resource_qawan"), SubResource("Resource_2ikl5"), SubResource("Resource_bcmab"), SubResource("Resource_myw7s"), SubResource("Resource_qhuys"), SubResource("Resource_l62kg"), SubResource("Resource_6q2qd"), SubResource("Resource_rk5r0"), SubResource("Resource_egu27"), SubResource("Resource_4bjar"), SubResource("Resource_f2lat"), SubResource("Resource_ub8cr"), SubResource("Resource_0iypi"), SubResource("Resource_wmkxk")])
+egg_moves = Array[int]([211, 193, 119, 16, 98, 175, 297, 174, 343, 189, 400, 348, 279, 355, 376, 493, 623, 515])
+form_species = Array[int]([83, 979])

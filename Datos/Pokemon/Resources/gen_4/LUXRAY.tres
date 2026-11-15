@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c3ojf31itsy2h"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_oehq2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_feknn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_enu8m"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wm1fp"]
+
+[sub_resource type="Resource" id="Resource_em721"]
+script = ExtResource("3_enu8m")
+move = 33
+
+[sub_resource type="Resource" id="Resource_tlqqs"]
+script = ExtResource("3_enu8m")
+move = 43
+
+[sub_resource type="Resource" id="Resource_w0a08"]
+script = ExtResource("3_enu8m")
+move = 84
+
+[sub_resource type="Resource" id="Resource_byj8a"]
+script = ExtResource("3_enu8m")
+move = 268
+
+[sub_resource type="Resource" id="Resource_2obmw"]
+script = ExtResource("3_enu8m")
+move = 604
+
+[sub_resource type="Resource" id="Resource_hx0n0"]
+script = ExtResource("3_enu8m")
+level = 12
+move = 44
+
+[sub_resource type="Resource" id="Resource_t0x5y"]
+script = ExtResource("3_enu8m")
+level = 18
+move = 209
+
+[sub_resource type="Resource" id="Resource_eo4bt"]
+script = ExtResource("3_enu8m")
+level = 24
+move = 46
+
+[sub_resource type="Resource" id="Resource_ctae8"]
+script = ExtResource("3_enu8m")
+level = 33
+move = 521
+
+[sub_resource type="Resource" id="Resource_lmqy0"]
+script = ExtResource("3_enu8m")
+level = 40
+move = 184
+
+[sub_resource type="Resource" id="Resource_fvvhc"]
+script = ExtResource("3_enu8m")
+level = 48
+move = 86
+
+[sub_resource type="Resource" id="Resource_fu344"]
+script = ExtResource("3_enu8m")
+level = 56
+move = 242
+
+[sub_resource type="Resource" id="Resource_kc7uv"]
+script = ExtResource("3_enu8m")
+level = 64
+move = 435
+
+[sub_resource type="Resource" id="Resource_bwvk5"]
+script = ExtResource("3_enu8m")
+level = 72
+move = 207
+
+[sub_resource type="Resource" id="Resource_4g07n"]
+script = ExtResource("3_enu8m")
+level = 80
+move = 528
+
+[resource]
+script = ExtResource("4_wm1fp")
+id = 405
+display_name = "Luxray"
+category = "Gleam Eyes"
+national_dex = 405
+pokedex = "It has eyes which can see through
+anything. Luxray's ability to see
+through objects comes in handy when
+it's scouting for danger."
+type_1 = 14
+base_hp = 80
+base_atk = 120
+base_def = 79
+base_spa = 95
+base_spd = 79
+base_spe = 70
+ev_atk = 3
+base_exp = 194
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 79
+ability_2 = 22
+ability_hidden = 62
+height_dm = 14
+weight_hg = 420
+body_color = 1
+level_moves = Array[ExtResource("3_enu8m")]([SubResource("Resource_em721"), SubResource("Resource_tlqqs"), SubResource("Resource_w0a08"), SubResource("Resource_byj8a"), SubResource("Resource_2obmw"), SubResource("Resource_hx0n0"), SubResource("Resource_t0x5y"), SubResource("Resource_eo4bt"), SubResource("Resource_ctae8"), SubResource("Resource_lmqy0"), SubResource("Resource_fvvhc"), SubResource("Resource_fu344"), SubResource("Resource_kc7uv"), SubResource("Resource_bwvk5"), SubResource("Resource_4g07n")])

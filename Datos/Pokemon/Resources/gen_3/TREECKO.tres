@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://biuewcnvnhk61"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4gkbe"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ouvcb"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4jyhx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mspbx"]
+
+[sub_resource type="Resource" id="Resource_ngbvo"]
+script = ExtResource("1_4gkbe")
+method = "LEVEL"
+param = "16"
+target = 253
+
+[sub_resource type="Resource" id="Resource_8tfog"]
+script = ExtResource("3_4jyhx")
+move = 1
+
+[sub_resource type="Resource" id="Resource_ay677"]
+script = ExtResource("3_4jyhx")
+move = 43
+
+[sub_resource type="Resource" id="Resource_5jopw"]
+script = ExtResource("3_4jyhx")
+level = 3
+move = 633
+
+[sub_resource type="Resource" id="Resource_lp7uc"]
+script = ExtResource("3_4jyhx")
+level = 6
+move = 98
+
+[sub_resource type="Resource" id="Resource_uisfr"]
+script = ExtResource("3_4jyhx")
+level = 9
+move = 72
+
+[sub_resource type="Resource" id="Resource_4p3ri"]
+script = ExtResource("3_4jyhx")
+level = 12
+move = 197
+
+[sub_resource type="Resource" id="Resource_7oplx"]
+script = ExtResource("3_4jyhx")
+level = 15
+move = 501
+
+[sub_resource type="Resource" id="Resource_tut1x"]
+script = ExtResource("3_4jyhx")
+level = 18
+move = 372
+
+[sub_resource type="Resource" id="Resource_1m3i7"]
+script = ExtResource("3_4jyhx")
+level = 21
+move = 202
+
+[sub_resource type="Resource" id="Resource_1jbn7"]
+script = ExtResource("3_4jyhx")
+level = 24
+move = 21
+
+[sub_resource type="Resource" id="Resource_38trp"]
+script = ExtResource("3_4jyhx")
+level = 27
+move = 104
+
+[sub_resource type="Resource" id="Resource_1il3s"]
+script = ExtResource("3_4jyhx")
+level = 30
+move = 412
+
+[sub_resource type="Resource" id="Resource_axa6q"]
+script = ExtResource("3_4jyhx")
+level = 33
+move = 103
+
+[sub_resource type="Resource" id="Resource_4l0ki"]
+script = ExtResource("3_4jyhx")
+level = 36
+move = 283
+
+[sub_resource type="Resource" id="Resource_783l1"]
+script = ExtResource("3_4jyhx")
+level = 39
+move = 437
+
+[resource]
+script = ExtResource("4_mspbx")
+id = 252
+display_name = "Treecko"
+category = "Wood Gecko"
+national_dex = 252
+pokedex = "It makes its nest in a giant tree in the
+forest. It ferociously guards against
+anything nearing its territory. It is said
+to be the protector of the forest's trees."
+type_1 = 13
+base_hp = 40
+base_atk = 45
+base_def = 35
+base_spa = 65
+base_spd = 55
+base_spe = 70
+ev_spe = 1
+base_exp = 62
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 65
+ability_hidden = 84
+height_dm = 5
+weight_hg = 50
+body_color = 3
+level_moves = Array[ExtResource("3_4jyhx")]([SubResource("Resource_8tfog"), SubResource("Resource_ay677"), SubResource("Resource_5jopw"), SubResource("Resource_lp7uc"), SubResource("Resource_uisfr"), SubResource("Resource_4p3ri"), SubResource("Resource_7oplx"), SubResource("Resource_tut1x"), SubResource("Resource_1m3i7"), SubResource("Resource_1jbn7"), SubResource("Resource_38trp"), SubResource("Resource_1il3s"), SubResource("Resource_axa6q"), SubResource("Resource_4l0ki"), SubResource("Resource_783l1")])
+egg_moves = Array[int]([242, 300, 283, 73, 225, 306, 388, 24, 320, 235, 345, 437, 13, 331, 363, 580])
+evolutions = Array[ExtResource("1_4gkbe")]([SubResource("Resource_ngbvo")])

@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://co2mrpfm3lbb8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vk0hl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_w3bwq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5p608"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ji3ac"]
+
+[sub_resource type="Resource" id="Resource_cn2ln"]
+script = ExtResource("3_5p608")
+level = 0
+move = 242
+
+[sub_resource type="Resource" id="Resource_eprn2"]
+script = ExtResource("3_5p608")
+move = 28
+
+[sub_resource type="Resource" id="Resource_c3v4o"]
+script = ExtResource("3_5p608")
+move = 33
+
+[sub_resource type="Resource" id="Resource_q5bd0"]
+script = ExtResource("3_5p608")
+move = 225
+
+[sub_resource type="Resource" id="Resource_bqi2e"]
+script = ExtResource("3_5p608")
+move = 328
+
+[sub_resource type="Resource" id="Resource_hy04k"]
+script = ExtResource("3_5p608")
+level = 18
+move = 523
+
+[sub_resource type="Resource" id="Resource_68n76"]
+script = ExtResource("3_5p608")
+level = 27
+move = 44
+
+[sub_resource type="Resource" id="Resource_ayq1x"]
+script = ExtResource("3_5p608")
+level = 34
+move = 163
+
+[sub_resource type="Resource" id="Resource_ddbsy"]
+script = ExtResource("3_5p608")
+level = 42
+move = 337
+
+[sub_resource type="Resource" id="Resource_oqnmm"]
+script = ExtResource("3_5p608")
+level = 52
+move = 91
+
+[sub_resource type="Resource" id="Resource_ypkb2"]
+script = ExtResource("3_5p608")
+level = 62
+move = 201
+
+[sub_resource type="Resource" id="Resource_afhax"]
+script = ExtResource("3_5p608")
+level = 72
+move = 36
+
+[sub_resource type="Resource" id="Resource_15hbf"]
+script = ExtResource("3_5p608")
+level = 82
+move = 407
+
+[resource]
+script = ExtResource("4_ji3ac")
+id = 445
+display_name = "Garchomp"
+category = "Mach"
+national_dex = 445
+pokedex = "When it folds up its body and extends its
+wings, it looks like a jet plane. It is
+covered in fine scales that reduce drag,
+enabling it to fly at high speeds."
+type_1 = 17
+type_2 = 5
+base_hp = 108
+base_atk = 130
+base_def = 95
+base_spa = 80
+base_spd = 85
+base_spe = 102
+ev_atk = 3
+base_exp = 218
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 8
+ability_hidden = 24
+height_dm = 19
+weight_hg = 950
+body_color = 1
+level_moves = Array[ExtResource("3_5p608")]([SubResource("Resource_cn2ln"), SubResource("Resource_eprn2"), SubResource("Resource_c3v4o"), SubResource("Resource_q5bd0"), SubResource("Resource_bqi2e"), SubResource("Resource_hy04k"), SubResource("Resource_68n76"), SubResource("Resource_ayq1x"), SubResource("Resource_ddbsy"), SubResource("Resource_oqnmm"), SubResource("Resource_ypkb2"), SubResource("Resource_afhax"), SubResource("Resource_15hbf")])
+form_species = Array[int]([445, 947, 1558])

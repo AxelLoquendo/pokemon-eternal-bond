@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bmpomv0o37nmp"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4f1u3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_mt05o"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_sw0yt"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xrry4"]
+
+[sub_resource type="Resource" id="Resource_opwv1"]
+script = ExtResource("1_4f1u3")
+method = "LEVEL"
+param = "18"
+target = 262
+
+[sub_resource type="Resource" id="Resource_c5s2f"]
+script = ExtResource("3_sw0yt")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ihdex"]
+script = ExtResource("3_sw0yt")
+level = 4
+move = 336
+
+[sub_resource type="Resource" id="Resource_urlb3"]
+script = ExtResource("3_sw0yt")
+level = 7
+move = 28
+
+[sub_resource type="Resource" id="Resource_0b57x"]
+script = ExtResource("3_sw0yt")
+level = 10
+move = 44
+
+[sub_resource type="Resource" id="Resource_41rl8"]
+script = ExtResource("3_sw0yt")
+level = 13
+move = 43
+
+[sub_resource type="Resource" id="Resource_4v601"]
+script = ExtResource("3_sw0yt")
+level = 16
+move = 46
+
+[sub_resource type="Resource" id="Resource_45k5t"]
+script = ExtResource("3_sw0yt")
+level = 19
+move = 207
+
+[sub_resource type="Resource" id="Resource_gyt6v"]
+script = ExtResource("3_sw0yt")
+level = 22
+move = 372
+
+[sub_resource type="Resource" id="Resource_owtrh"]
+script = ExtResource("3_sw0yt")
+level = 25
+move = 184
+
+[sub_resource type="Resource" id="Resource_on22g"]
+script = ExtResource("3_sw0yt")
+level = 28
+move = 269
+
+[sub_resource type="Resource" id="Resource_8vama"]
+script = ExtResource("3_sw0yt")
+level = 31
+move = 242
+
+[sub_resource type="Resource" id="Resource_4wy0n"]
+script = ExtResource("3_sw0yt")
+level = 34
+move = 281
+
+[sub_resource type="Resource" id="Resource_ugf43"]
+script = ExtResource("3_sw0yt")
+level = 36
+move = 36
+
+[sub_resource type="Resource" id="Resource_nwg0s"]
+script = ExtResource("3_sw0yt")
+level = 40
+move = 389
+
+[sub_resource type="Resource" id="Resource_7pm4r"]
+script = ExtResource("3_sw0yt")
+level = 44
+move = 583
+
+[resource]
+script = ExtResource("4_xrry4")
+id = 261
+display_name = "Poochyena"
+category = "Bite"
+national_dex = 261
+pokedex = "It savagely threatens foes with bared
+fangs. It chases after fleeing targets
+tenaciously. It turns tail and runs,
+however, if the foe strikes back."
+type_1 = 18
+base_hp = 35
+base_atk = 55
+base_def = 35
+base_spa = 30
+base_spd = 30
+base_spe = 35
+ev_atk = 1
+catch_rate = 255
+base_exp = 55
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 50
+ability_hidden = 155
+height_dm = 5
+weight_hg = 136
+body_color = 7
+level_moves = Array[ExtResource("3_sw0yt")]([SubResource("Resource_c5s2f"), SubResource("Resource_ihdex"), SubResource("Resource_urlb3"), SubResource("Resource_0b57x"), SubResource("Resource_41rl8"), SubResource("Resource_4v601"), SubResource("Resource_45k5t"), SubResource("Resource_gyt6v"), SubResource("Resource_owtrh"), SubResource("Resource_on22g"), SubResource("Resource_8vama"), SubResource("Resource_4wy0n"), SubResource("Resource_ugf43"), SubResource("Resource_nwg0s"), SubResource("Resource_7pm4r")])
+egg_moves = Array[int]([310, 305, 343, 43, 281, 389, 423, 424, 422, 382, 289, 214, 583])
+evolutions = Array[ExtResource("1_4f1u3")]([SubResource("Resource_opwv1")])

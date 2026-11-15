@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cuv56eqdse2cv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1l8hs"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_uoh0v"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_73u4e"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_d03dg"]
+
+[sub_resource type="Resource" id="Resource_v4ngq"]
+script = ExtResource("3_73u4e")
+move = 604
+
+[sub_resource type="Resource" id="Resource_ayk7r"]
+script = ExtResource("3_73u4e")
+move = 217
+
+[sub_resource type="Resource" id="Resource_xqqug"]
+script = ExtResource("3_73u4e")
+level = 7
+move = 181
+
+[sub_resource type="Resource" id="Resource_deg2c"]
+script = ExtResource("3_73u4e")
+level = 14
+move = 250
+
+[sub_resource type="Resource" id="Resource_vij8l"]
+script = ExtResource("3_73u4e")
+level = 21
+move = 36
+
+[sub_resource type="Resource" id="Resource_71kmk"]
+script = ExtResource("3_73u4e")
+level = 28
+move = 65
+
+[sub_resource type="Resource" id="Resource_k5cb8"]
+script = ExtResource("3_73u4e")
+level = 35
+move = 270
+
+[sub_resource type="Resource" id="Resource_40mkm"]
+script = ExtResource("3_73u4e")
+level = 42
+move = 573
+
+[sub_resource type="Resource" id="Resource_g861i"]
+script = ExtResource("3_73u4e")
+level = 49
+move = 740
+
+[sub_resource type="Resource" id="Resource_8pdqc"]
+script = ExtResource("3_73u4e")
+level = 56
+move = 58
+
+[sub_resource type="Resource" id="Resource_c14w8"]
+script = ExtResource("3_73u4e")
+level = 63
+move = 97
+
+[sub_resource type="Resource" id="Resource_g2lul"]
+script = ExtResource("3_73u4e")
+level = 70
+move = 809
+
+[sub_resource type="Resource" id="Resource_odoqn"]
+script = ExtResource("3_73u4e")
+level = 77
+move = 56
+
+[sub_resource type="Resource" id="Resource_6llov"]
+script = ExtResource("3_73u4e")
+level = 84
+move = 657
+
+[sub_resource type="Resource" id="Resource_jjdgn"]
+script = ExtResource("3_73u4e")
+level = 91
+move = 59
+
+[resource]
+script = ExtResource("4_d03dg")
+id = 1383
+display_name = "Iron Bundle"
+category = "Paradox"
+national_dex = 991
+pokedex = "Its shape is similar to a robot
+featured in a paranormal magazine
+article. The robot was said to have been
+created by an ancient civilization."
+type_1 = 16
+type_2 = 12
+base_hp = 56
+base_atk = 80
+base_def = 114
+base_spa = 124
+base_spd = 60
+base_spe = 136
+ev_spe = 3
+catch_rate = 50
+base_exp = 285
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 50
+ability_1 = 282
+item_rare = 764
+height_dm = 6
+weight_hg = 110
+level_moves = Array[ExtResource("3_73u4e")]([SubResource("Resource_v4ngq"), SubResource("Resource_ayk7r"), SubResource("Resource_xqqug"), SubResource("Resource_deg2c"), SubResource("Resource_vij8l"), SubResource("Resource_71kmk"), SubResource("Resource_k5cb8"), SubResource("Resource_40mkm"), SubResource("Resource_g861i"), SubResource("Resource_8pdqc"), SubResource("Resource_c14w8"), SubResource("Resource_g2lul"), SubResource("Resource_odoqn"), SubResource("Resource_6llov"), SubResource("Resource_jjdgn")])

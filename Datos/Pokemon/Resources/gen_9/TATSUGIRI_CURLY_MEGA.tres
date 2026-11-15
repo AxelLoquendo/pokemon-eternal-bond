@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://lr0h2jc2fy5q"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0gd0l"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_cs7xp"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_sxcoa"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_n47x3"]
+
+[sub_resource type="Resource" id="Resource_w2lcl"]
+script = ExtResource("3_sxcoa")
+move = 55
+
+[sub_resource type="Resource" id="Resource_vcfbc"]
+script = ExtResource("3_sxcoa")
+move = 150
+
+[sub_resource type="Resource" id="Resource_8v24c"]
+script = ExtResource("3_sxcoa")
+level = 6
+move = 106
+
+[sub_resource type="Resource" id="Resource_bgaim"]
+script = ExtResource("3_sxcoa")
+level = 12
+move = 270
+
+[sub_resource type="Resource" id="Resource_ic76o"]
+script = ExtResource("3_sxcoa")
+level = 17
+move = 352
+
+[sub_resource type="Resource" id="Resource_rv6px"]
+script = ExtResource("3_sxcoa")
+level = 23
+move = 487
+
+[sub_resource type="Resource" id="Resource_lvwc3"]
+script = ExtResource("3_sxcoa")
+level = 28
+move = 269
+
+[sub_resource type="Resource" id="Resource_4sjfs"]
+script = ExtResource("3_sxcoa")
+level = 34
+move = 262
+
+[sub_resource type="Resource" id="Resource_j1xbn"]
+script = ExtResource("3_sxcoa")
+level = 39
+move = 330
+
+[sub_resource type="Resource" id="Resource_xqycu"]
+script = ExtResource("3_sxcoa")
+level = 43
+move = 417
+
+[sub_resource type="Resource" id="Resource_r4187"]
+script = ExtResource("3_sxcoa")
+level = 47
+move = 243
+
+[sub_resource type="Resource" id="Resource_x31qy"]
+script = ExtResource("3_sxcoa")
+level = 52
+move = 406
+
+[resource]
+script = ExtResource("4_n47x3")
+id = 1569
+display_name = "Tatsugiri"
+category = "Mimicry"
+national_dex = 978
+pokedex = "Tatsugiri's brain has been invigorated
+by Mega Evolution, making it even
+wilier. It can create and command
+copies of itself."
+type_1 = 17
+type_2 = 12
+base_hp = 68
+base_atk = 65
+base_def = 90
+base_spa = 135
+base_spd = 125
+base_spe = 92
+ev_spa = 2
+catch_rate = 100
+base_exp = 166
+growth_rate = 3
+egg_cycles = 35
+egg_group_1 = 12
+ability_1 = 114
+ability_hidden = 114
+height_dm = 6
+weight_hg = 240
+level_moves = Array[ExtResource("3_sxcoa")]([SubResource("Resource_w2lcl"), SubResource("Resource_vcfbc"), SubResource("Resource_8v24c"), SubResource("Resource_bgaim"), SubResource("Resource_ic76o"), SubResource("Resource_rv6px"), SubResource("Resource_lvwc3"), SubResource("Resource_4sjfs"), SubResource("Resource_j1xbn"), SubResource("Resource_xqycu"), SubResource("Resource_r4187"), SubResource("Resource_x31qy")])
+egg_moves = Array[int]([226, 68, 229])
+form_species = Array[int]([1367, 1368, 1369, 1569, 1570, 1571])

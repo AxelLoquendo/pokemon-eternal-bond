@@ -1,49 +1,56 @@
-# Auditoría técnica
+# Auditoría técnica del proyecto
 
-Revisión estática del proyecto realizada el 29 de octubre de 2026. Alcance: configuración de Godot, escenas, scripts de `Scripts/`, datos de mapas y documentación. No se ejecutó el proyecto ni una exportación; las conclusiones de ejecución requieren validación interactiva.
+**Fecha:** 7 de noviembre de 2026
+**Tipo:** revisión estática de configuración, scripts, escenas, datos y documentación.
+**Ejecución:** no se abrió el juego ni se ejecutó Godot/exportación durante esta revisión; los hallazgos describen rutas observables en el código y requieren verificación interactiva cuando dependan del comportamiento visual.
 
-## Hallazgos
+## Alcance y método
 
-### Corregido — posición guardada no era local al mapa
+Se revisó `project.godot`, los scripts bajo `Scripts/`, documentación previa, estructura de datos y addons de mapas. Se siguieron recorridos de arranque, movimiento, mapa/eventos, scripts, mensajes, guardado, catálogos y presentación. Esta auditoría no cambia el comportamiento del juego: las correcciones de código, si se desean, deben tratarse por separado. No se retiraron contratos o comandos preparados para uso futuro.
 
-`SaveService._capture()` ahora delega la conversión a celda local a `MapFactory.world_to_current_cell()`. Los nuevos archivos usan versión 2. La carga mantiene el tratamiento anterior para archivos v1 y rechaza versiones futuras no compatibles.
+## Hallazgos priorizados
 
-Referencias: `Scripts/Core/Save/save_service.gd`, `Scripts/Overworld/Map/map_factory.gd`, `Scripts/Overworld/Object_Event/Game/game_session.gd`.
+### Alta — carga de guardados versión 1 no convierte la coordenada histórica
 
-### Corregido — rutas de audio con diferencias de mayúsculas
+`SaveService` escribe versión 2 y captura `position` como celda local mediante `MapFactory.world_to_current_cell()`. El propio comentario del código indica que los archivos versión 1 guardaban una posición mundial. `SaveService.load()` rechaza versiones mayores a la actual, pero `SaveData.to_start_data()` asigna `save.position` directamente a `GameStartData.start_position` sin convertir coordenadas de versión 1. Por ello, un guardado antiguo hecho en un mapa con origen mundial distinto de cero puede reanudar en una celda incorrecta. Los guardados nuevos en v2 usan el formato local. Recomendación: migrar al leer v1 usando el origen del mapa guardado, o rechazarlo con mensaje claro si ya no se puede reconstruir; preservar el archivo de origen durante la migración.
 
-Los diccionarios de `Scripts/Overworld/Sfx/sfx_game.gd` usan ahora el mismo `Sfx/` que el directorio del proyecto. Aún falta probar la carga en un entorno sensible a mayúsculas.
+### Media — flags de eventos de mapa no comparten necesariamente el mismo espacio de nombres
 
-### Media — comandos reconocidos por el parser pero no ejecutables
+Los flags de scripts se resuelven mediante `GameFlags.from_token()` y se almacenan en `ScriptExecutionContext.global_flags` con claves enteras. `MapScriptEntry` sigue ese mismo esquema. En cambio, `MapEvent.condition_ok()` consulta su `condition_flag` como `StringName`, y los objetos ocultos escriben una clave textual. Un flag llamado igual puede por tanto no ser el mismo flag para el script y el evento. Documentar/normalizar el contrato o adaptar una de las rutas antes de depender de condiciones compartidas entre eventos y scripts.
 
-`ScriptTextParser.COMANDOS_VALIDOS` acepta `giveitem`, `checkitem` y `trainerbattle`; sin embargo, `_create()` en `ScriptCmdTextFile` no crea comandos para ellos y emite “comando no portado aún”. Un script con estas instrucciones puede parsearse sin error y la instrucción se omite tras la advertencia. Rechazarlas explícitamente durante la validación o implementar sus comandos antes de usarlas.
+### Media — limpiar caché del catálogo puede perder entradas ya materializadas
 
-La lista se conserva intencionalmente para contenido futuro; se añadió un comentario para dejar claro que no se deben retirar por estar aún sin implementar.
+Los catálogos de especies, objetos, habilidades y movimientos indexan datos crudos y los consumen al construir el recurso tipado; el recurso queda en caché. `clear_cache()` vacía la caché tipada, pero las entradas crudas ya consumidas no están disponibles para volver a materializar. Una petición posterior de esa entrada puede devolver `null` hasta reconstruir/recargar el índice (la API no es uniforme entre catálogos). Evitar usar esa operación como descarga/reinicio general sin reparar la estrategia de retención.
 
-### Baja — sistema de opciones incompleto
+### Media — opciones visibles, pantalla de ajustes pendiente
 
-El menú principal muestra “Opciones”, pero `_on_options()` solo emite un aviso TODO. Comunicarlo como función pendiente o conectar una escena funcional.
+El menú principal ofrece «Opciones», pero el callback actual solo avisa que no está implementado. `GameSettings` sí carga y persiste configuración de texto y buses de audio en `user://settings.cfg`; la UI no permite editar todos esos ajustes actualmente. No presentar el menú como funcional hasta conectar una pantalla.
 
-### Corregido — versionado de guardado
+### Baja — el disparador `ON_FRAME` está declarado, sin despachador observado
 
-Los nuevos guardados registran `version = 2`. `SaveService` conserva la carga de v1 (posición mundial heredada) y rechaza versiones futuras que todavía no entiende.
+`MapScriptEntry.Trigger` incluye `ON_FRAME`; las llamadas observadas a `MapScriptService` despachan carga y transición. No se encontró un bucle que ejecute scripts `ON_FRAME`. Mantener el valor como contrato preparado, pero no usarlo esperando ejecución periódica.
 
-## Cobertura implementada observada
+### Baja — dos definiciones de tarde en el ciclo día/noche
 
-- Flujo de título, creación de personaje, sesión de overworld y menú de pausa.
-- Mapas conectados, colisión por tiles, comportamientos (ledge, agua, hielo y escaleras), NPC, rutas y eventos de mapa.
-- Intérprete de scripts con texto, choices, control de flujo, flags, variables, movimiento, clima, sonido, fade y warp; el conjunto ejecutable es menor que el reconocido por el parser.
-- Guardado/carga de snapshot (`SaveData`) y tiempo de juego.
-- Audio, clima, ciclo día/noche, cartel de ubicación y sistema de mensajes.
-- No se encontraron sistemas de combate, party, mochila o Pokédex en el runtime inspeccionado.
+La clasificación de períodos define `EVENING` desde las 18:00; el helper `is_evening()` considera tarde desde las 17:00. Código que use el helper puede discrepar del tono aplicado por `period_for_hour()` durante esa hora.
 
-## Correcciones posteriores
+### Baja — cargador `MapManager` alternativo
 
-- El callback asíncrono de diálogo ahora deja que `ScriptRunner` limpie el estado de espera y avance el índice del comando. Antes la espera se limpiaba demasiado pronto y el runner repetía el primer texto.
-- El jugador ahora se detiene mientras `MessageService` muestra un mensaje, incluido el ajuste a la casilla si un paso estaba en curso.
+El camino principal del juego usa `MapFactory`. `MapManager` mantiene una ruta de mapa único, y la colocación de su jugador usa `Vector2(cell) * 16` sin aplicar un origen mundial de cluster. No asumir equivalencia en mapas conectados o escenas cuyo mapa tenga origen distinto de cero.
 
-## Verificaciones pendientes
+## Funciones preparadas o parciales
 
-- Ejecutar el proyecto en Godot 4.7 y recorrer inicio, transición entre mapas, diálogos, eventos, guardado/carga y menú.
-- Exportar o cargar recursos en un entorno sensible a mayúsculas para confirmar las rutas de audio.
-- Añadir validación de coordenadas y casos de guardado en mapas conectados.
+- `trainerbattle` es token aceptado por el parser, pero el conversor no produce un comando ejecutable todavía.
+- `giveitem` y `checkitem` sí se convierten y ejecutan: dan objeto/ramifican según cantidad.
+- `specials SAVE_GAME` es la ruta de guardado disponible desde script; `savegame` no es un token admitido.
+- Estados como `SLIP`, `FISHING`, `BIKE`, `BATTLE`, `SURF` y `DIVE` están declarados, pero no equivalen por sí solos a sistemas jugables completos.
+- Hay recursos y modelos de datos de Pokémon, party e inventario; eso no demuestra que existan combate ni las pantallas de equipo/mochila.
+- El clima, la presentación de mensajes, el ciclo día/noche y audio tienen rutas funcionales en el runtime, pero no se validaron visualmente en esta revisión.
+
+## Documentación corregida en esta revisión
+
+La documentación previa afirmaba incorrectamente que `giveitem` y `checkitem` no estaban portados y que la carga de v1 conservaba correctamente su posición histórica. Los documentos actualizados describen el recorrido real, las firmas de uso, los límites y los hallazgos anteriores. Véase el índice en [README.md](README.md).
+
+## Límites y siguiente verificación
+
+La revisión es estática. Para cerrar los hallazgos de ejecución, iniciar Godot 4.7 y comprobar de forma controlada: continuar un guardado v1 en mapa conectado, bandera compartida evento/script, reconstrucción de catálogos tras limpiar caché, selección de Opciones, cruce de mapas y pasos de escalera con cambio de dirección. Esto es una lista sugerida de verificación, no una afirmación de que esos escenarios se hayan ejecutado.

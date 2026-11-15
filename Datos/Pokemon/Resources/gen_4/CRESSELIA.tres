@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://wm33q3iyrvlo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jnmu2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_cl6te"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7eth3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qes70"]
+
+[sub_resource type="Resource" id="Resource_0le00"]
+script = ExtResource("3_7eth3")
+move = 93
+
+[sub_resource type="Resource" id="Resource_ownif"]
+script = ExtResource("3_7eth3")
+move = 104
+
+[sub_resource type="Resource" id="Resource_vb6qb"]
+script = ExtResource("3_7eth3")
+level = 6
+move = 54
+
+[sub_resource type="Resource" id="Resource_goai4"]
+script = ExtResource("3_7eth3")
+level = 12
+move = 62
+
+[sub_resource type="Resource" id="Resource_wtvwh"]
+script = ExtResource("3_7eth3")
+level = 18
+move = 60
+
+[sub_resource type="Resource" id="Resource_nbyeb"]
+script = ExtResource("3_7eth3")
+level = 24
+move = 502
+
+[sub_resource type="Resource" id="Resource_d5r01"]
+script = ExtResource("3_7eth3")
+level = 30
+move = 163
+
+[sub_resource type="Resource" id="Resource_aha8m"]
+script = ExtResource("3_7eth3")
+level = 36
+move = 427
+
+[sub_resource type="Resource" id="Resource_6ju47"]
+script = ExtResource("3_7eth3")
+level = 42
+move = 236
+
+[sub_resource type="Resource" id="Resource_arjm1"]
+script = ExtResource("3_7eth3")
+level = 48
+move = 219
+
+[sub_resource type="Resource" id="Resource_wdk7b"]
+script = ExtResource("3_7eth3")
+level = 54
+move = 94
+
+[sub_resource type="Resource" id="Resource_q5is0"]
+script = ExtResource("3_7eth3")
+level = 60
+move = 585
+
+[sub_resource type="Resource" id="Resource_nathd"]
+script = ExtResource("3_7eth3")
+level = 66
+move = 248
+
+[sub_resource type="Resource" id="Resource_jf5uv"]
+script = ExtResource("3_7eth3")
+level = 72
+move = 461
+
+[sub_resource type="Resource" id="Resource_bkl3s"]
+script = ExtResource("3_7eth3")
+level = 72
+move = 777
+
+[resource]
+script = ExtResource("4_qes70")
+id = 488
+display_name = "Cresselia"
+category = "Lunar"
+national_dex = 488
+pokedex = "Those who sleep holding one of
+Cresselia's feathers are assured of
+joyful dreams. It is said to represent
+the crescent moon."
+type_1 = 15
+base_hp = 120
+base_atk = 70
+base_def = 110
+base_spa = 75
+base_spd = 120
+base_spe = 85
+ev_spd = 3
+catch_rate = 3
+base_exp = 210
+base_friendship = 100
+gender_ratio = 254
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 26
+height_dm = 15
+weight_hg = 856
+body_color = 2
+level_moves = Array[ExtResource("3_7eth3")]([SubResource("Resource_0le00"), SubResource("Resource_ownif"), SubResource("Resource_vb6qb"), SubResource("Resource_goai4"), SubResource("Resource_wtvwh"), SubResource("Resource_nbyeb"), SubResource("Resource_d5r01"), SubResource("Resource_aha8m"), SubResource("Resource_6ju47"), SubResource("Resource_arjm1"), SubResource("Resource_wdk7b"), SubResource("Resource_q5is0"), SubResource("Resource_nathd"), SubResource("Resource_jf5uv"), SubResource("Resource_bkl3s")])

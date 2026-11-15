@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cfy16tqrd7xmp"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_hc7m6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ivjym"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pjlxs"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5bkdx"]
+
+[sub_resource type="Resource" id="Resource_8riyx"]
+script = ExtResource("3_pjlxs")
+move = 16
+
+[sub_resource type="Resource" id="Resource_q0vcy"]
+script = ExtResource("3_pjlxs")
+move = 213
+
+[sub_resource type="Resource" id="Resource_871kf"]
+script = ExtResource("3_pjlxs")
+move = 93
+
+[sub_resource type="Resource" id="Resource_v76ly"]
+script = ExtResource("3_pjlxs")
+move = 283
+
+[sub_resource type="Resource" id="Resource_2bpjm"]
+script = ExtResource("3_pjlxs")
+level = 15
+move = 314
+
+[sub_resource type="Resource" id="Resource_wtuks"]
+script = ExtResource("3_pjlxs")
+level = 20
+move = 286
+
+[sub_resource type="Resource" id="Resource_oqucw"]
+script = ExtResource("3_pjlxs")
+level = 25
+move = 372
+
+[sub_resource type="Resource" id="Resource_lnx38"]
+script = ExtResource("3_pjlxs")
+level = 30
+move = 133
+
+[sub_resource type="Resource" id="Resource_qj2n3"]
+script = ExtResource("3_pjlxs")
+level = 35
+move = 403
+
+[sub_resource type="Resource" id="Resource_tc7wu"]
+script = ExtResource("3_pjlxs")
+level = 40
+move = 94
+
+[sub_resource type="Resource" id="Resource_cnuu3"]
+script = ExtResource("3_pjlxs")
+level = 45
+move = 347
+
+[sub_resource type="Resource" id="Resource_5w6tp"]
+script = ExtResource("3_pjlxs")
+level = 50
+move = 248
+
+[sub_resource type="Resource" id="Resource_xwbx4"]
+script = ExtResource("3_pjlxs")
+level = 55
+move = 493
+
+[resource]
+script = ExtResource("4_5bkdx")
+id = 528
+display_name = "Swoobat"
+category = "Courting"
+national_dex = 528
+pokedex = "Anyone who comes into contact with
+the ultrasonic waves emitted by a
+courting male experiences a positive
+mood shift."
+type_1 = 15
+type_2 = 3
+base_hp = 67
+base_atk = 57
+base_def = 55
+base_spa = 77
+base_spd = 55
+base_spe = 114
+ev_spe = 2
+base_exp = 149
+egg_cycles = 15
+egg_group_1 = 5
+egg_group_2 = 4
+ability_1 = 109
+ability_2 = 103
+ability_hidden = 86
+height_dm = 9
+weight_hg = 105
+body_color = 1
+level_moves = Array[ExtResource("3_pjlxs")]([SubResource("Resource_8riyx"), SubResource("Resource_q0vcy"), SubResource("Resource_871kf"), SubResource("Resource_v76ly"), SubResource("Resource_2bpjm"), SubResource("Resource_wtuks"), SubResource("Resource_oqucw"), SubResource("Resource_lnx38"), SubResource("Resource_qj2n3"), SubResource("Resource_tc7wu"), SubResource("Resource_cnuu3"), SubResource("Resource_5w6tp"), SubResource("Resource_xwbx4")])

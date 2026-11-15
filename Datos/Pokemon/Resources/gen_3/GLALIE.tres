@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://2vpl3b6w715l"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8u1ib"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_sb1k4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_sfkv4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jjpnq"]
+
+[sub_resource type="Resource" id="Resource_wrv3b"]
+script = ExtResource("3_sfkv4")
+level = 0
+move = 573
+
+[sub_resource type="Resource" id="Resource_kk3eo"]
+script = ExtResource("3_sfkv4")
+move = 29
+
+[sub_resource type="Resource" id="Resource_wws87"]
+script = ExtResource("3_sfkv4")
+move = 43
+
+[sub_resource type="Resource" id="Resource_nbmox"]
+script = ExtResource("3_sfkv4")
+move = 104
+
+[sub_resource type="Resource" id="Resource_u66vh"]
+script = ExtResource("3_sfkv4")
+move = 181
+
+[sub_resource type="Resource" id="Resource_wd84o"]
+script = ExtResource("3_sfkv4")
+move = 310
+
+[sub_resource type="Resource" id="Resource_cill1"]
+script = ExtResource("3_sfkv4")
+move = 329
+
+[sub_resource type="Resource" id="Resource_ketae"]
+script = ExtResource("3_sfkv4")
+level = 15
+move = 420
+
+[sub_resource type="Resource" id="Resource_qxrca"]
+script = ExtResource("3_sfkv4")
+level = 20
+move = 182
+
+[sub_resource type="Resource" id="Resource_x10sp"]
+script = ExtResource("3_sfkv4")
+level = 25
+move = 196
+
+[sub_resource type="Resource" id="Resource_r8co7"]
+script = ExtResource("3_sfkv4")
+level = 30
+move = 524
+
+[sub_resource type="Resource" id="Resource_07geg"]
+script = ExtResource("3_sfkv4")
+level = 35
+move = 44
+
+[sub_resource type="Resource" id="Resource_hxv5f"]
+script = ExtResource("3_sfkv4")
+level = 40
+move = 423
+
+[sub_resource type="Resource" id="Resource_n3p1c"]
+script = ExtResource("3_sfkv4")
+level = 47
+move = 809
+
+[sub_resource type="Resource" id="Resource_kr77k"]
+script = ExtResource("3_sfkv4")
+level = 54
+move = 311
+
+[sub_resource type="Resource" id="Resource_mi7kj"]
+script = ExtResource("3_sfkv4")
+level = 61
+move = 242
+
+[sub_resource type="Resource" id="Resource_8vr81"]
+script = ExtResource("3_sfkv4")
+level = 68
+move = 59
+
+[resource]
+script = ExtResource("4_jjpnq")
+id = 362
+display_name = "Glalie"
+category = "Face"
+national_dex = 362
+pokedex = "A Glalie has the power to instantaneously
+freeze moisture in the atmosphere.
+A dazzling cloud of diamondlike ice
+crystals forms around its body."
+type_1 = 16
+base_hp = 80
+base_atk = 80
+base_def = 80
+base_spa = 80
+base_spd = 80
+base_spe = 80
+ev_hp = 2
+catch_rate = 75
+base_exp = 168
+egg_group_1 = 6
+egg_group_2 = 10
+ability_1 = 39
+ability_hidden = 141
+height_dm = 15
+weight_hg = 2565
+body_color = 7
+level_moves = Array[ExtResource("3_sfkv4")]([SubResource("Resource_wrv3b"), SubResource("Resource_kk3eo"), SubResource("Resource_wws87"), SubResource("Resource_nbmox"), SubResource("Resource_u66vh"), SubResource("Resource_wd84o"), SubResource("Resource_cill1"), SubResource("Resource_ketae"), SubResource("Resource_qxrca"), SubResource("Resource_x10sp"), SubResource("Resource_r8co7"), SubResource("Resource_07geg"), SubResource("Resource_hxv5f"), SubResource("Resource_n3p1c"), SubResource("Resource_kr77k"), SubResource("Resource_mi7kj"), SubResource("Resource_8vr81")])
+form_species = Array[int]([362, 941])

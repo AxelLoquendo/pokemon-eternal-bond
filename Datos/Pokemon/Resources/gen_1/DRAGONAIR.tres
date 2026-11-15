@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cgxfc07tu7315"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mmd0v"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_but2l"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0vgv1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6xevl"]
+
+[sub_resource type="Resource" id="Resource_m5168"]
+script = ExtResource("1_mmd0v")
+method = "LEVEL"
+param = "55"
+target = 149
+
+[sub_resource type="Resource" id="Resource_mekki"]
+script = ExtResource("3_0vgv1")
+move = 35
+
+[sub_resource type="Resource" id="Resource_isftu"]
+script = ExtResource("3_0vgv1")
+move = 43
+
+[sub_resource type="Resource" id="Resource_ct6xp"]
+script = ExtResource("3_0vgv1")
+move = 86
+
+[sub_resource type="Resource" id="Resource_6358d"]
+script = ExtResource("3_0vgv1")
+move = 239
+
+[sub_resource type="Resource" id="Resource_gks1p"]
+script = ExtResource("3_0vgv1")
+level = 15
+move = 525
+
+[sub_resource type="Resource" id="Resource_xcmxi"]
+script = ExtResource("3_0vgv1")
+level = 20
+move = 97
+
+[sub_resource type="Resource" id="Resource_0y3dr"]
+script = ExtResource("3_0vgv1")
+level = 25
+move = 21
+
+[sub_resource type="Resource" id="Resource_4v5sk"]
+script = ExtResource("3_0vgv1")
+level = 33
+move = 401
+
+[sub_resource type="Resource" id="Resource_hskdk"]
+script = ExtResource("3_0vgv1")
+level = 39
+move = 407
+
+[sub_resource type="Resource" id="Resource_a4fn2"]
+script = ExtResource("3_0vgv1")
+level = 46
+move = 219
+
+[sub_resource type="Resource" id="Resource_2vjwv"]
+script = ExtResource("3_0vgv1")
+level = 53
+move = 240
+
+[sub_resource type="Resource" id="Resource_cshl1"]
+script = ExtResource("3_0vgv1")
+level = 60
+move = 349
+
+[sub_resource type="Resource" id="Resource_s3r4x"]
+script = ExtResource("3_0vgv1")
+level = 67
+move = 200
+
+[sub_resource type="Resource" id="Resource_7vrd0"]
+script = ExtResource("3_0vgv1")
+level = 74
+move = 63
+
+[resource]
+script = ExtResource("4_6xevl")
+id = 148
+display_name = "Dragonair"
+category = "Dragon"
+national_dex = 148
+pokedex = "A Dragonair stores an enormous amount of
+energy inside its body. It is said to alter
+the weather around it by loosing energy
+from the crystals on its neck and tail."
+type_1 = 17
+base_hp = 61
+base_atk = 84
+base_def = 65
+base_spa = 70
+base_spd = 70
+base_spe = 70
+ev_atk = 2
+base_exp = 147
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 2
+egg_group_2 = 14
+ability_1 = 61
+ability_hidden = 63
+item_rare = 227
+height_dm = 40
+weight_hg = 165
+body_color = 1
+level_moves = Array[ExtResource("3_0vgv1")]([SubResource("Resource_mekki"), SubResource("Resource_isftu"), SubResource("Resource_ct6xp"), SubResource("Resource_6358d"), SubResource("Resource_gks1p"), SubResource("Resource_xcmxi"), SubResource("Resource_0y3dr"), SubResource("Resource_4v5sk"), SubResource("Resource_hskdk"), SubResource("Resource_a4fn2"), SubResource("Resource_2vjwv"), SubResource("Resource_cshl1"), SubResource("Resource_s3r4x"), SubResource("Resource_7vrd0")])
+evolutions = Array[ExtResource("1_mmd0v")]([SubResource("Resource_m5168")])

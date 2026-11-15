@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cgwa788fcf00m"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_bmjq6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yolum"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_221t2"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1xi4i"]
+
+[sub_resource type="Resource" id="Resource_mwgnv"]
+script = ExtResource("1_bmjq6")
+method = "LEVEL"
+param = "16"
+target = 394
+
+[sub_resource type="Resource" id="Resource_55il5"]
+script = ExtResource("3_221t2")
+move = 1
+
+[sub_resource type="Resource" id="Resource_un1rm"]
+script = ExtResource("3_221t2")
+level = 4
+move = 45
+
+[sub_resource type="Resource" id="Resource_7mdkf"]
+script = ExtResource("3_221t2")
+level = 8
+move = 55
+
+[sub_resource type="Resource" id="Resource_bsta4"]
+script = ExtResource("3_221t2")
+level = 11
+move = 204
+
+[sub_resource type="Resource" id="Resource_248ja"]
+script = ExtResource("3_221t2")
+level = 15
+move = 64
+
+[sub_resource type="Resource" id="Resource_i2ujo"]
+script = ExtResource("3_221t2")
+level = 18
+move = 61
+
+[sub_resource type="Resource" id="Resource_kb4ni"]
+script = ExtResource("3_221t2")
+level = 22
+move = 207
+
+[sub_resource type="Resource" id="Resource_41xm2"]
+script = ExtResource("3_221t2")
+level = 25
+move = 31
+
+[sub_resource type="Resource" id="Resource_4lqic"]
+script = ExtResource("3_221t2")
+level = 29
+move = 362
+
+[sub_resource type="Resource" id="Resource_yd4xb"]
+script = ExtResource("3_221t2")
+level = 32
+move = 250
+
+[sub_resource type="Resource" id="Resource_qh3og"]
+script = ExtResource("3_221t2")
+level = 36
+move = 54
+
+[sub_resource type="Resource" id="Resource_601n8"]
+script = ExtResource("3_221t2")
+level = 39
+move = 65
+
+[sub_resource type="Resource" id="Resource_bj1by"]
+script = ExtResource("3_221t2")
+level = 43
+move = 56
+
+[resource]
+script = ExtResource("4_1xi4i")
+id = 393
+display_name = "Piplup"
+category = "Penguin"
+national_dex = 393
+pokedex = "A poor walker, it often falls down. However,
+its strong pride makes it puff up its chest
+without a care. It's difficult to bond with
+since it won't listen to its Trainer."
+type_1 = 12
+base_hp = 53
+base_atk = 51
+base_def = 53
+base_spa = 61
+base_spd = 56
+base_spe = 40
+ev_spa = 1
+base_exp = 63
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 67
+ability_hidden = 128
+height_dm = 4
+weight_hg = 52
+body_color = 1
+level_moves = Array[ExtResource("3_221t2")]([SubResource("Resource_55il5"), SubResource("Resource_un1rm"), SubResource("Resource_7mdkf"), SubResource("Resource_bsta4"), SubResource("Resource_248ja"), SubResource("Resource_i2ujo"), SubResource("Resource_kb4ni"), SubResource("Resource_41xm2"), SubResource("Resource_4lqic"), SubResource("Resource_yd4xb"), SubResource("Resource_qh3og"), SubResource("Resource_601n8"), SubResource("Resource_bj1by")])
+egg_moves = Array[int]([458, 48, 281, 300, 189, 173, 175, 97, 392, 56, 297, 117, 196, 644])
+evolutions = Array[ExtResource("1_bmjq6")]([SubResource("Resource_mwgnv")])

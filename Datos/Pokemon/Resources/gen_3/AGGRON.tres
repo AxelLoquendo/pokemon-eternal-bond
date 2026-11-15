@@ -1,0 +1,121 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b8huridnj7jdb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_yu1cf"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wu21i"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_i1ymu"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_41g3i"]
+
+[sub_resource type="Resource" id="Resource_6dqag"]
+script = ExtResource("3_i1ymu")
+move = 33
+
+[sub_resource type="Resource" id="Resource_dqbby"]
+script = ExtResource("3_i1ymu")
+move = 106
+
+[sub_resource type="Resource" id="Resource_7fxqj"]
+script = ExtResource("3_i1ymu")
+move = 232
+
+[sub_resource type="Resource" id="Resource_jx8v2"]
+script = ExtResource("3_i1ymu")
+move = 317
+
+[sub_resource type="Resource" id="Resource_jq1vn"]
+script = ExtResource("3_i1ymu")
+level = 12
+move = 46
+
+[sub_resource type="Resource" id="Resource_cmxcl"]
+script = ExtResource("3_i1ymu")
+level = 16
+move = 29
+
+[sub_resource type="Resource" id="Resource_6be43"]
+script = ExtResource("3_i1ymu")
+level = 20
+move = 182
+
+[sub_resource type="Resource" id="Resource_qkq5g"]
+script = ExtResource("3_i1ymu")
+level = 24
+move = 157
+
+[sub_resource type="Resource" id="Resource_og5a6"]
+script = ExtResource("3_i1ymu")
+level = 28
+move = 442
+
+[sub_resource type="Resource" id="Resource_ct7n3"]
+script = ExtResource("3_i1ymu")
+level = 35
+move = 319
+
+[sub_resource type="Resource" id="Resource_nxblb"]
+script = ExtResource("3_i1ymu")
+level = 40
+move = 36
+
+[sub_resource type="Resource" id="Resource_1hjb6"]
+script = ExtResource("3_i1ymu")
+level = 48
+move = 475
+
+[sub_resource type="Resource" id="Resource_isits"]
+script = ExtResource("3_i1ymu")
+level = 56
+move = 231
+
+[sub_resource type="Resource" id="Resource_pnac4"]
+script = ExtResource("3_i1ymu")
+level = 64
+move = 334
+
+[sub_resource type="Resource" id="Resource_hfyv6"]
+script = ExtResource("3_i1ymu")
+level = 72
+move = 484
+
+[sub_resource type="Resource" id="Resource_vrujy"]
+script = ExtResource("3_i1ymu")
+level = 80
+move = 38
+
+[sub_resource type="Resource" id="Resource_pmequ"]
+script = ExtResource("3_i1ymu")
+level = 88
+move = 368
+
+[resource]
+script = ExtResource("4_41g3i")
+id = 306
+display_name = "Aggron"
+category = "Iron Armor"
+national_dex = 306
+pokedex = "Its iron horns grow longer a little at
+a time. They are used to determine the
+Aggron's age. The gouges in its armor are
+worn with pride as mementos from battles."
+type_1 = 9
+type_2 = 6
+base_hp = 70
+base_atk = 110
+base_def = 180
+base_spa = 60
+base_spd = 60
+base_spe = 50
+ev_def = 3
+base_exp = 205
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 35
+egg_group_1 = 1
+ability_1 = 5
+ability_2 = 69
+ability_hidden = 134
+item_rare = 437
+height_dm = 21
+weight_hg = 3600
+body_color = 7
+level_moves = Array[ExtResource("3_i1ymu")]([SubResource("Resource_6dqag"), SubResource("Resource_dqbby"), SubResource("Resource_7fxqj"), SubResource("Resource_jx8v2"), SubResource("Resource_jq1vn"), SubResource("Resource_cmxcl"), SubResource("Resource_6be43"), SubResource("Resource_qkq5g"), SubResource("Resource_og5a6"), SubResource("Resource_ct7n3"), SubResource("Resource_nxblb"), SubResource("Resource_1hjb6"), SubResource("Resource_isits"), SubResource("Resource_pnac4"), SubResource("Resource_hfyv6"), SubResource("Resource_vrujy"), SubResource("Resource_pmequ")])
+form_species = Array[int]([306, 933])

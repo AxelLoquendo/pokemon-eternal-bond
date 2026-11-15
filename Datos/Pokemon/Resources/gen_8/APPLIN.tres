@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bsq0lqrerh4x6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7h8yq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hgiim"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_i5vm6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_abbfi"]
+
+[sub_resource type="Resource" id="Resource_n4clp"]
+script = ExtResource("1_7h8yq")
+method = "ITEM"
+param = "ITEM_TART_APPLE"
+target = 841
+
+[sub_resource type="Resource" id="Resource_e3c3k"]
+script = ExtResource("1_7h8yq")
+method = "ITEM"
+param = "ITEM_SWEET_APPLE"
+target = 842
+
+[sub_resource type="Resource" id="Resource_0uh6c"]
+script = ExtResource("1_7h8yq")
+method = "ITEM"
+param = "ITEM_SYRUPY_APPLE"
+target = 1408
+
+[sub_resource type="Resource" id="Resource_4bxxo"]
+script = ExtResource("3_i5vm6")
+move = 310
+
+[sub_resource type="Resource" id="Resource_x5fas"]
+script = ExtResource("3_i5vm6")
+move = 110
+
+[resource]
+script = ExtResource("4_abbfi")
+id = 840
+display_name = "Applin"
+category = "Apple Core"
+national_dex = 840
+pokedex = "It spends its entire life inside an
+apple. It hides from its natural enemies,
+bird Pokémon, by pretending it's just an
+apple and nothing more."
+type_1 = 13
+type_2 = 17
+base_hp = 40
+base_atk = 40
+base_def = 80
+base_spa = 40
+base_spd = 40
+base_spe = 20
+ev_def = 1
+catch_rate = 255
+base_exp = 52
+growth_rate = 1
+egg_group_1 = 7
+egg_group_2 = 14
+ability_1 = 247
+ability_2 = 82
+ability_hidden = 171
+height_dm = 2
+weight_hg = 5
+body_color = 3
+level_moves = Array[ExtResource("3_i5vm6")]([SubResource("Resource_4bxxo"), SubResource("Resource_x5fas")])
+egg_moves = Array[int]([389, 205, 111, 278])
+evolutions = Array[ExtResource("1_7h8yq")]([SubResource("Resource_n4clp"), SubResource("Resource_e3c3k"), SubResource("Resource_0uh6c")])

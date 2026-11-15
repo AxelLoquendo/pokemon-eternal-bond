@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://danow4pn6m63t"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xc1g3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6hs72"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_d67nr"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6ax16"]
+
+[sub_resource type="Resource" id="Resource_n6mx5"]
+script = ExtResource("1_xc1g3")
+method = "LEVEL"
+param = "26"
+target = 317
+
+[sub_resource type="Resource" id="Resource_i37dp"]
+script = ExtResource("3_d67nr")
+move = 1
+
+[sub_resource type="Resource" id="Resource_xeoc3"]
+script = ExtResource("3_d67nr")
+level = 5
+move = 281
+
+[sub_resource type="Resource" id="Resource_mo8qp"]
+script = ExtResource("3_d67nr")
+level = 8
+move = 139
+
+[sub_resource type="Resource" id="Resource_v866q"]
+script = ExtResource("3_d67nr")
+level = 10
+move = 124
+
+[sub_resource type="Resource" id="Resource_wbmy3"]
+script = ExtResource("3_d67nr")
+level = 12
+move = 133
+
+[sub_resource type="Resource" id="Resource_lfegs"]
+script = ExtResource("3_d67nr")
+level = 17
+move = 491
+
+[sub_resource type="Resource" id="Resource_vc238"]
+script = ExtResource("3_d67nr")
+level = 20
+move = 227
+
+[sub_resource type="Resource" id="Resource_v75gi"]
+script = ExtResource("3_d67nr")
+level = 25
+move = 92
+
+[sub_resource type="Resource" id="Resource_6wkj2"]
+script = ExtResource("3_d67nr")
+level = 28
+move = 254
+
+[sub_resource type="Resource" id="Resource_luf3o"]
+script = ExtResource("3_d67nr")
+level = 28
+move = 255
+
+[sub_resource type="Resource" id="Resource_43iyh"]
+script = ExtResource("3_d67nr")
+level = 28
+move = 256
+
+[sub_resource type="Resource" id="Resource_ssryw"]
+script = ExtResource("3_d67nr")
+level = 33
+move = 188
+
+[sub_resource type="Resource" id="Resource_pdgf0"]
+script = ExtResource("3_d67nr")
+level = 36
+move = 380
+
+[sub_resource type="Resource" id="Resource_ysvrw"]
+script = ExtResource("3_d67nr")
+level = 41
+move = 562
+
+[sub_resource type="Resource" id="Resource_g02ex"]
+script = ExtResource("3_d67nr")
+level = 44
+move = 220
+
+[sub_resource type="Resource" id="Resource_om6rl"]
+script = ExtResource("3_d67nr")
+level = 49
+move = 441
+
+[resource]
+script = ExtResource("4_6ax16")
+id = 316
+display_name = "Gulpin"
+category = "Stomach"
+national_dex = 316
+pokedex = "This Pokémon's stomach fluid can even
+digest scrap iron. In one gulp, it can
+swallow something that is as large as
+itself."
+type_1 = 4
+base_hp = 70
+base_atk = 43
+base_def = 53
+base_spa = 43
+base_spd = 53
+base_spe = 40
+ev_hp = 1
+catch_rate = 225
+base_exp = 60
+growth_rate = 2
+egg_group_1 = 11
+ability_1 = 64
+ability_2 = 60
+ability_hidden = 82
+item_common = 520
+item_rare = 523
+height_dm = 4
+weight_hg = 103
+body_color = 3
+level_moves = Array[ExtResource("3_d67nr")]([SubResource("Resource_i37dp"), SubResource("Resource_xeoc3"), SubResource("Resource_mo8qp"), SubResource("Resource_v866q"), SubResource("Resource_wbmy3"), SubResource("Resource_lfegs"), SubResource("Resource_vc238"), SubResource("Resource_v75gi"), SubResource("Resource_6wkj2"), SubResource("Resource_luf3o"), SubResource("Resource_43iyh"), SubResource("Resource_ssryw"), SubResource("Resource_pdgf0"), SubResource("Resource_ysvrw"), SubResource("Resource_g02ex"), SubResource("Resource_om6rl")])
+egg_moves = Array[int]([151, 123, 220, 174, 194, 189, 441, 599])
+evolutions = Array[ExtResource("1_xc1g3")]([SubResource("Resource_n6mx5")])

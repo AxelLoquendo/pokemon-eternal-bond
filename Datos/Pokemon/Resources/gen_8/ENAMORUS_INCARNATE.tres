@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cg5ppy4g465hh"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_epcha"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_nojyb"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1m2vy"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hh7mp"]
+
+[sub_resource type="Resource" id="Resource_c3jsb"]
+script = ExtResource("3_1m2vy")
+move = 310
+
+[sub_resource type="Resource" id="Resource_nq3yp"]
+script = ExtResource("3_1m2vy")
+move = 584
+
+[sub_resource type="Resource" id="Resource_jettg"]
+script = ExtResource("3_1m2vy")
+level = 5
+move = 259
+
+[sub_resource type="Resource" id="Resource_lotgv"]
+script = ExtResource("3_1m2vy")
+level = 10
+move = 260
+
+[sub_resource type="Resource" id="Resource_2viep"]
+script = ExtResource("3_1m2vy")
+level = 15
+move = 239
+
+[sub_resource type="Resource" id="Resource_pura2"]
+script = ExtResource("3_1m2vy")
+level = 20
+move = 577
+
+[sub_resource type="Resource" id="Resource_fd8kx"]
+script = ExtResource("3_1m2vy")
+level = 25
+move = 334
+
+[sub_resource type="Resource" id="Resource_o56wi"]
+script = ExtResource("3_1m2vy")
+level = 30
+move = 286
+
+[sub_resource type="Resource" id="Resource_rij0e"]
+script = ExtResource("3_1m2vy")
+level = 35
+move = 595
+
+[sub_resource type="Resource" id="Resource_1msjw"]
+script = ExtResource("3_1m2vy")
+level = 40
+move = 605
+
+[sub_resource type="Resource" id="Resource_axnt2"]
+script = ExtResource("3_1m2vy")
+level = 45
+move = 326
+
+[sub_resource type="Resource" id="Resource_tc71j"]
+script = ExtResource("3_1m2vy")
+level = 50
+move = 253
+
+[sub_resource type="Resource" id="Resource_148ja"]
+script = ExtResource("3_1m2vy")
+level = 55
+move = 276
+
+[sub_resource type="Resource" id="Resource_alurk"]
+script = ExtResource("3_1m2vy")
+level = 60
+move = 361
+
+[sub_resource type="Resource" id="Resource_qdsaa"]
+script = ExtResource("3_1m2vy")
+level = 65
+move = 585
+
+[sub_resource type="Resource" id="Resource_gg8vn"]
+script = ExtResource("3_1m2vy")
+level = 70
+move = 200
+
+[sub_resource type="Resource" id="Resource_87jum"]
+script = ExtResource("3_1m2vy")
+level = 75
+move = 759
+
+[resource]
+script = ExtResource("4_hh7mp")
+id = 905
+display_name = "Enamorus"
+category = "Love-Hate"
+national_dex = 905
+pokedex = "Its arrival brings an end to the winter.
+According to legend, this Pokémon's love
+gives rise to the budding of fresh life
+across the land."
+type_1 = 19
+type_2 = 3
+base_hp = 74
+base_atk = 115
+base_def = 70
+base_spa = 135
+base_spd = 80
+base_spe = 106
+ev_spa = 3
+catch_rate = 3
+base_exp = 116
+gender_ratio = 254
+growth_rate = 5
+ability_1 = 56
+ability_hidden = 126
+height_dm = 16
+weight_hg = 480
+body_color = 9
+level_moves = Array[ExtResource("3_1m2vy")]([SubResource("Resource_c3jsb"), SubResource("Resource_nq3yp"), SubResource("Resource_jettg"), SubResource("Resource_lotgv"), SubResource("Resource_2viep"), SubResource("Resource_pura2"), SubResource("Resource_fd8kx"), SubResource("Resource_o56wi"), SubResource("Resource_rij0e"), SubResource("Resource_1msjw"), SubResource("Resource_axnt2"), SubResource("Resource_tc71j"), SubResource("Resource_148ja"), SubResource("Resource_alurk"), SubResource("Resource_qdsaa"), SubResource("Resource_gg8vn"), SubResource("Resource_87jum")])
+form_species = Array[int]([905, 1103])

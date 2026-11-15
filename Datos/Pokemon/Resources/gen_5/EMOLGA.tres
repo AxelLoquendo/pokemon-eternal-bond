@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://06trv5312uf"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_25itb"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_x3i0x"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gs7jx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7kdn6"]
+
+[sub_resource type="Resource" id="Resource_xy7xm"]
+script = ExtResource("3_gs7jx")
+move = 609
+
+[sub_resource type="Resource" id="Resource_w6nkm"]
+script = ExtResource("3_gs7jx")
+move = 39
+
+[sub_resource type="Resource" id="Resource_ce2tv"]
+script = ExtResource("3_gs7jx")
+level = 5
+move = 104
+
+[sub_resource type="Resource" id="Resource_kffsw"]
+script = ExtResource("3_gs7jx")
+level = 10
+move = 98
+
+[sub_resource type="Resource" id="Resource_hgfd6"]
+script = ExtResource("3_gs7jx")
+level = 15
+move = 84
+
+[sub_resource type="Resource" id="Resource_hwhum"]
+script = ExtResource("3_gs7jx")
+level = 20
+move = 268
+
+[sub_resource type="Resource" id="Resource_o3of8"]
+script = ExtResource("3_gs7jx")
+level = 25
+move = 512
+
+[sub_resource type="Resource" id="Resource_egvjw"]
+script = ExtResource("3_gs7jx")
+level = 30
+move = 209
+
+[sub_resource type="Resource" id="Resource_737xt"]
+script = ExtResource("3_gs7jx")
+level = 35
+move = 227
+
+[sub_resource type="Resource" id="Resource_tkxs6"]
+script = ExtResource("3_gs7jx")
+level = 40
+move = 521
+
+[sub_resource type="Resource" id="Resource_rkblv"]
+script = ExtResource("3_gs7jx")
+level = 45
+move = 113
+
+[sub_resource type="Resource" id="Resource_cb7na"]
+script = ExtResource("3_gs7jx")
+level = 50
+move = 435
+
+[sub_resource type="Resource" id="Resource_ly8pw"]
+script = ExtResource("3_gs7jx")
+level = 55
+move = 97
+
+[resource]
+script = ExtResource("4_7kdn6")
+id = 587
+display_name = "Emolga"
+category = "Sky Squirrel"
+national_dex = 587
+pokedex = "It glides using its cape-like membrane.
+It grills berries and bug Pokémon with
+electric shocks from the pouches on its
+cheeks and makes a meal of them."
+type_1 = 14
+type_2 = 3
+base_hp = 55
+base_atk = 75
+base_def = 60
+base_spa = 75
+base_spd = 60
+base_spe = 103
+ev_spe = 2
+catch_rate = 200
+base_exp = 150
+egg_group_1 = 5
+ability_1 = 9
+ability_hidden = 78
+height_dm = 4
+weight_hg = 50
+body_color = 8
+level_moves = Array[ExtResource("3_gs7jx")]([SubResource("Resource_xy7xm"), SubResource("Resource_w6nkm"), SubResource("Resource_ce2tv"), SubResource("Resource_kffsw"), SubResource("Resource_hgfd6"), SubResource("Resource_hwhum"), SubResource("Resource_o3of8"), SubResource("Resource_egvjw"), SubResource("Resource_737xt"), SubResource("Resource_tkxs6"), SubResource("Resource_rkblv"), SubResource("Resource_cb7na"), SubResource("Resource_ly8pw")])
+egg_moves = Array[int]([355, 231, 310, 403, 351, 204, 343, 321, 226, 569, 646])

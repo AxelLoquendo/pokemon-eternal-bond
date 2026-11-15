@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://de6rlclsagvmw"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ejfkw"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_qck4u"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_blnhp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1yscg"]
+
+[sub_resource type="Resource" id="Resource_2q87w"]
+script = ExtResource("3_blnhp")
+level = 0
+move = 9
+
+[sub_resource type="Resource" id="Resource_oqbjx"]
+script = ExtResource("3_blnhp")
+move = 9
+
+[sub_resource type="Resource" id="Resource_5jvwl"]
+script = ExtResource("3_blnhp")
+move = 84
+
+[sub_resource type="Resource" id="Resource_r66f5"]
+script = ExtResource("3_blnhp")
+move = 106
+
+[sub_resource type="Resource" id="Resource_rx6ry"]
+script = ExtResource("3_blnhp")
+move = 39
+
+[sub_resource type="Resource" id="Resource_c18t4"]
+script = ExtResource("3_blnhp")
+move = 29
+
+[sub_resource type="Resource" id="Resource_qfn0o"]
+script = ExtResource("3_blnhp")
+level = 24
+move = 86
+
+[sub_resource type="Resource" id="Resource_wx1df"]
+script = ExtResource("3_blnhp")
+level = 32
+move = 151
+
+[sub_resource type="Resource" id="Resource_sgumy"]
+script = ExtResource("3_blnhp")
+level = 40
+move = 430
+
+[sub_resource type="Resource" id="Resource_e5hfg"]
+script = ExtResource("3_blnhp")
+level = 48
+move = 5
+
+[sub_resource type="Resource" id="Resource_vdk8s"]
+script = ExtResource("3_blnhp")
+level = 56
+move = 182
+
+[sub_resource type="Resource" id="Resource_tj2xl"]
+script = ExtResource("3_blnhp")
+level = 64
+move = 435
+
+[sub_resource type="Resource" id="Resource_jp2er"]
+script = ExtResource("3_blnhp")
+level = 72
+move = 223
+
+[sub_resource type="Resource" id="Resource_b0bgc"]
+script = ExtResource("3_blnhp")
+level = 80
+move = 276
+
+[sub_resource type="Resource" id="Resource_iy7vm"]
+script = ExtResource("3_blnhp")
+level = 88
+move = 689
+
+[sub_resource type="Resource" id="Resource_ni6j6"]
+script = ExtResource("3_blnhp")
+level = 96
+move = 63
+
+[resource]
+script = ExtResource("4_1yscg")
+id = 809
+display_name = "Melmetal"
+category = "Hex Nut"
+national_dex = 809
+pokedex = "Revered long ago for its capacity to
+create iron from nothing, for some reason
+it has come back to life after 3,000 years."
+type_1 = 9
+base_hp = 135
+base_atk = 143
+base_def = 143
+base_spa = 80
+base_spd = 65
+base_spe = 34
+ev_atk = 3
+catch_rate = 3
+base_exp = 300
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 89
+height_dm = 25
+weight_hg = 8000
+body_color = 7
+level_moves = Array[ExtResource("3_blnhp")]([SubResource("Resource_2q87w"), SubResource("Resource_oqbjx"), SubResource("Resource_5jvwl"), SubResource("Resource_r66f5"), SubResource("Resource_rx6ry"), SubResource("Resource_c18t4"), SubResource("Resource_qfn0o"), SubResource("Resource_wx1df"), SubResource("Resource_sgumy"), SubResource("Resource_e5hfg"), SubResource("Resource_vdk8s"), SubResource("Resource_tj2xl"), SubResource("Resource_jp2er"), SubResource("Resource_b0bgc"), SubResource("Resource_iy7vm"), SubResource("Resource_ni6j6")])
+form_species = Array[int]([809, 1502])

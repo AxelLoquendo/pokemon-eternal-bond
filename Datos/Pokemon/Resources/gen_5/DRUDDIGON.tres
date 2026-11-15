@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d1xb1axlqcmg6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_d328a"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7gh4b"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jm8eb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_u55j5"]
+
+[sub_resource type="Resource" id="Resource_agljr"]
+script = ExtResource("3_jm8eb")
+move = 10
+
+[sub_resource type="Resource" id="Resource_ygitq"]
+script = ExtResource("3_jm8eb")
+move = 43
+
+[sub_resource type="Resource" id="Resource_b62gu"]
+script = ExtResource("3_jm8eb")
+level = 5
+move = 44
+
+[sub_resource type="Resource" id="Resource_6gwha"]
+script = ExtResource("3_jm8eb")
+level = 10
+move = 525
+
+[sub_resource type="Resource" id="Resource_42mb8"]
+script = ExtResource("3_jm8eb")
+level = 15
+move = 232
+
+[sub_resource type="Resource" id="Resource_bqxyk"]
+script = ExtResource("3_jm8eb")
+level = 20
+move = 184
+
+[sub_resource type="Resource" id="Resource_8cte8"]
+script = ExtResource("3_jm8eb")
+level = 25
+move = 163
+
+[sub_resource type="Resource" id="Resource_26adn"]
+script = ExtResource("3_jm8eb")
+level = 30
+move = 337
+
+[sub_resource type="Resource" id="Resource_3jhdl"]
+script = ExtResource("3_jm8eb")
+level = 35
+move = 468
+
+[sub_resource type="Resource" id="Resource_jggh0"]
+script = ExtResource("3_jm8eb")
+level = 40
+move = 242
+
+[sub_resource type="Resource" id="Resource_43ljt"]
+script = ExtResource("3_jm8eb")
+level = 45
+move = 442
+
+[sub_resource type="Resource" id="Resource_naa68"]
+script = ExtResource("3_jm8eb")
+level = 50
+move = 200
+
+[sub_resource type="Resource" id="Resource_e3is3"]
+script = ExtResource("3_jm8eb")
+level = 55
+move = 276
+
+[resource]
+script = ExtResource("4_u55j5")
+id = 621
+display_name = "Druddigon"
+category = "Cave"
+national_dex = 621
+pokedex = "It warms its body by absorbing sunlight
+with its wings. When its body temperature
+falls, it can no longer move. It uses its
+sharp claws to catch prey."
+type_1 = 17
+base_hp = 77
+base_atk = 120
+base_def = 90
+base_spa = 60
+base_spd = 90
+base_spe = 48
+ev_atk = 2
+base_exp = 170
+egg_cycles = 30
+egg_group_1 = 14
+egg_group_2 = 1
+ability_1 = 24
+ability_2 = 125
+ability_hidden = 104
+item_rare = 439
+height_dm = 16
+weight_hg = 1390
+level_moves = Array[ExtResource("3_jm8eb")]([SubResource("Resource_agljr"), SubResource("Resource_ygitq"), SubResource("Resource_b62gu"), SubResource("Resource_6gwha"), SubResource("Resource_42mb8"), SubResource("Resource_bqxyk"), SubResource("Resource_8cte8"), SubResource("Resource_26adn"), SubResource("Resource_3jhdl"), SubResource("Resource_jggh0"), SubResource("Resource_43ljt"), SubResource("Resource_naa68"), SubResource("Resource_e3is3")])
+egg_moves = Array[int]([424, 422, 306, 185, 228, 231, 342, 289, 232, 137, 389])

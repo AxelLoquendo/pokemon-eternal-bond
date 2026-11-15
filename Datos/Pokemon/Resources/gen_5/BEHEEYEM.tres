@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://kutpcdkcj2dj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_kerog"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_bfjig"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nksva"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_th4aq"]
+
+[sub_resource type="Resource" id="Resource_ts44v"]
+script = ExtResource("3_nksva")
+move = 641
+
+[sub_resource type="Resource" id="Resource_uvfb1"]
+script = ExtResource("3_nksva")
+move = 93
+
+[sub_resource type="Resource" id="Resource_8iro8"]
+script = ExtResource("3_nksva")
+move = 45
+
+[sub_resource type="Resource" id="Resource_2bhm8"]
+script = ExtResource("3_nksva")
+move = 286
+
+[sub_resource type="Resource" id="Resource_t6prb"]
+script = ExtResource("3_nksva")
+move = 100
+
+[sub_resource type="Resource" id="Resource_axcco"]
+script = ExtResource("3_nksva")
+level = 18
+move = 60
+
+[sub_resource type="Resource" id="Resource_mtgvm"]
+script = ExtResource("3_nksva")
+level = 24
+move = 471
+
+[sub_resource type="Resource" id="Resource_7a74a"]
+script = ExtResource("3_nksva")
+level = 24
+move = 470
+
+[sub_resource type="Resource" id="Resource_6qjnn"]
+script = ExtResource("3_nksva")
+level = 30
+move = 29
+
+[sub_resource type="Resource" id="Resource_2aibg"]
+script = ExtResource("3_nksva")
+level = 36
+move = 428
+
+[sub_resource type="Resource" id="Resource_b4kvt"]
+script = ExtResource("3_nksva")
+level = 45
+move = 105
+
+[sub_resource type="Resource" id="Resource_ch2is"]
+script = ExtResource("3_nksva")
+level = 52
+move = 347
+
+[sub_resource type="Resource" id="Resource_2vbc7"]
+script = ExtResource("3_nksva")
+level = 60
+move = 472
+
+[sub_resource type="Resource" id="Resource_dis5e"]
+script = ExtResource("3_nksva")
+level = 68
+move = 94
+
+[resource]
+script = ExtResource("4_th4aq")
+id = 606
+display_name = "Beheeyem"
+category = "Cerebral"
+national_dex = 606
+pokedex = "It can manipulate an opponent's memory.
+Apparently, it communicates by flashing
+its three fingers, but those patterns
+haven't been decoded."
+type_1 = 15
+base_hp = 75
+base_atk = 75
+base_def = 75
+base_spa = 125
+base_spd = 95
+base_spe = 40
+ev_spa = 2
+catch_rate = 90
+base_exp = 170
+egg_group_1 = 8
+ability_1 = 140
+ability_2 = 28
+ability_hidden = 148
+height_dm = 10
+weight_hg = 345
+body_color = 5
+level_moves = Array[ExtResource("3_nksva")]([SubResource("Resource_ts44v"), SubResource("Resource_uvfb1"), SubResource("Resource_8iro8"), SubResource("Resource_2bhm8"), SubResource("Resource_t6prb"), SubResource("Resource_axcco"), SubResource("Resource_mtgvm"), SubResource("Resource_7a74a"), SubResource("Resource_6qjnn"), SubResource("Resource_2aibg"), SubResource("Resource_b4kvt"), SubResource("Resource_ch2is"), SubResource("Resource_2vbc7"), SubResource("Resource_dis5e")])

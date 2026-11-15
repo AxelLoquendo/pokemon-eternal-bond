@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://41qajy702nwn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jitmk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_4lwve"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hq2u3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cn52v"]
+
+[sub_resource type="Resource" id="Resource_kwspr"]
+script = ExtResource("3_hq2u3")
+move = 1
+
+[sub_resource type="Resource" id="Resource_ddomk"]
+script = ExtResource("3_hq2u3")
+move = 16
+
+[sub_resource type="Resource" id="Resource_o2mlo"]
+script = ExtResource("3_hq2u3")
+move = 55
+
+[sub_resource type="Resource" id="Resource_gk1aq"]
+script = ExtResource("3_hq2u3")
+move = 487
+
+[sub_resource type="Resource" id="Resource_pq6bm"]
+script = ExtResource("3_hq2u3")
+level = 13
+move = 240
+
+[sub_resource type="Resource" id="Resource_vmlow"]
+script = ExtResource("3_hq2u3")
+level = 22
+move = 352
+
+[sub_resource type="Resource" id="Resource_4b6ex"]
+script = ExtResource("3_hq2u3")
+level = 26
+move = 213
+
+[sub_resource type="Resource" id="Resource_bkmgi"]
+script = ExtResource("3_hq2u3")
+level = 29
+move = 219
+
+[sub_resource type="Resource" id="Resource_yuekv"]
+script = ExtResource("3_hq2u3")
+level = 35
+move = 392
+
+[sub_resource type="Resource" id="Resource_5v4tn"]
+script = ExtResource("3_hq2u3")
+level = 42
+move = 250
+
+[sub_resource type="Resource" id="Resource_f8edl"]
+script = ExtResource("3_hq2u3")
+level = 48
+move = 369
+
+[sub_resource type="Resource" id="Resource_a1wrn"]
+script = ExtResource("3_hq2u3")
+level = 53
+move = 340
+
+[sub_resource type="Resource" id="Resource_im2pf"]
+script = ExtResource("3_hq2u3")
+level = 59
+move = 366
+
+[resource]
+script = ExtResource("4_cn52v")
+id = 457
+display_name = "Lumineon"
+category = "Neon"
+national_dex = 457
+pokedex = "Lumineon swimming in the darkness
+of the deep sea look like stars shining
+in the night sky. It competes for food
+with Lanturn."
+type_1 = 12
+base_hp = 69
+base_atk = 69
+base_def = 76
+base_spa = 69
+base_spd = 86
+base_spe = 91
+ev_spe = 2
+catch_rate = 75
+base_exp = 161
+growth_rate = 1
+egg_group_1 = 12
+ability_1 = 33
+ability_2 = 114
+ability_hidden = 41
+height_dm = 12
+weight_hg = 240
+body_color = 1
+level_moves = Array[ExtResource("3_hq2u3")]([SubResource("Resource_kwspr"), SubResource("Resource_ddomk"), SubResource("Resource_o2mlo"), SubResource("Resource_gk1aq"), SubResource("Resource_pq6bm"), SubResource("Resource_vmlow"), SubResource("Resource_4b6ex"), SubResource("Resource_bkmgi"), SubResource("Resource_yuekv"), SubResource("Resource_5v4tn"), SubResource("Resource_f8edl"), SubResource("Resource_a1wrn"), SubResource("Resource_im2pf")])

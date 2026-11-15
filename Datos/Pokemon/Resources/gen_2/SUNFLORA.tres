@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://8jla2nyrfuh0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_g8e8y"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_017ik"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3mhli"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7yxb8"]
+
+[sub_resource type="Resource" id="Resource_26llx"]
+script = ExtResource("3_3mhli")
+move = 1
+
+[sub_resource type="Resource" id="Resource_u2civ"]
+script = ExtResource("3_3mhli")
+move = 33
+
+[sub_resource type="Resource" id="Resource_h2h83"]
+script = ExtResource("3_3mhli")
+move = 74
+
+[sub_resource type="Resource" id="Resource_r86ni"]
+script = ExtResource("3_3mhli")
+level = 4
+move = 275
+
+[sub_resource type="Resource" id="Resource_5fx66"]
+script = ExtResource("3_3mhli")
+level = 7
+move = 71
+
+[sub_resource type="Resource" id="Resource_e04v3"]
+script = ExtResource("3_3mhli")
+level = 10
+move = 72
+
+[sub_resource type="Resource" id="Resource_41jbo"]
+script = ExtResource("3_3mhli")
+level = 13
+move = 73
+
+[sub_resource type="Resource" id="Resource_eprl8"]
+script = ExtResource("3_3mhli")
+level = 16
+move = 75
+
+[sub_resource type="Resource" id="Resource_6i4hy"]
+script = ExtResource("3_3mhli")
+level = 19
+move = 388
+
+[sub_resource type="Resource" id="Resource_kfi6u"]
+script = ExtResource("3_3mhli")
+level = 22
+move = 202
+
+[sub_resource type="Resource" id="Resource_eljd3"]
+script = ExtResource("3_3mhli")
+level = 25
+move = 331
+
+[sub_resource type="Resource" id="Resource_bpdxr"]
+script = ExtResource("3_3mhli")
+level = 28
+move = 80
+
+[sub_resource type="Resource" id="Resource_eufei"]
+script = ExtResource("3_3mhli")
+level = 31
+move = 76
+
+[sub_resource type="Resource" id="Resource_7dtae"]
+script = ExtResource("3_3mhli")
+level = 34
+move = 38
+
+[sub_resource type="Resource" id="Resource_r0368"]
+script = ExtResource("3_3mhli")
+level = 39
+move = 241
+
+[sub_resource type="Resource" id="Resource_lhksw"]
+script = ExtResource("3_3mhli")
+level = 43
+move = 437
+
+[sub_resource type="Resource" id="Resource_f1isj"]
+script = ExtResource("3_3mhli")
+level = 50
+move = 572
+
+[resource]
+script = ExtResource("4_7yxb8")
+id = 192
+display_name = "Sunflora"
+category = "Sun"
+national_dex = 192
+pokedex = "Sunflora convert solar energy into
+nutrition. They are highly active in the
+warm daytime but suddenly stop moving as
+soon as the sun sets."
+type_1 = 13
+base_hp = 75
+base_atk = 75
+base_def = 55
+base_spa = 105
+base_spd = 85
+base_spe = 30
+ev_spa = 2
+catch_rate = 120
+base_exp = 149
+growth_rate = 3
+egg_group_1 = 7
+ability_1 = 34
+ability_hidden = 48
+height_dm = 8
+weight_hg = 85
+body_color = 2
+level_moves = Array[ExtResource("3_3mhli")]([SubResource("Resource_26llx"), SubResource("Resource_u2civ"), SubResource("Resource_h2h83"), SubResource("Resource_r86ni"), SubResource("Resource_5fx66"), SubResource("Resource_e04v3"), SubResource("Resource_41jbo"), SubResource("Resource_eprl8"), SubResource("Resource_6i4hy"), SubResource("Resource_kfi6u"), SubResource("Resource_eljd3"), SubResource("Resource_bpdxr"), SubResource("Resource_eufei"), SubResource("Resource_7dtae"), SubResource("Resource_r0368"), SubResource("Resource_lhksw"), SubResource("Resource_f1isj")])

@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bxyhu3ee3sodo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_p1f12"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_31ecu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_aq78g"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wg7oc"]
+
+[sub_resource type="Resource" id="Resource_g6r5x"]
+script = ExtResource("1_p1f12")
+method = "LEVEL"
+param = "36"
+target = 658
+
+[sub_resource type="Resource" id="Resource_dp75x"]
+script = ExtResource("3_aq78g")
+move = 1
+
+[sub_resource type="Resource" id="Resource_xixl5"]
+script = ExtResource("3_aq78g")
+move = 45
+
+[sub_resource type="Resource" id="Resource_4davn"]
+script = ExtResource("3_aq78g")
+move = 55
+
+[sub_resource type="Resource" id="Resource_6l76c"]
+script = ExtResource("3_aq78g")
+level = 8
+move = 98
+
+[sub_resource type="Resource" id="Resource_abyho"]
+script = ExtResource("3_aq78g")
+level = 10
+move = 122
+
+[sub_resource type="Resource" id="Resource_v2qb8"]
+script = ExtResource("3_aq78g")
+level = 14
+move = 352
+
+[sub_resource type="Resource" id="Resource_dp53y"]
+script = ExtResource("3_aq78g")
+level = 19
+move = 108
+
+[sub_resource type="Resource" id="Resource_ohas0"]
+script = ExtResource("3_aq78g")
+level = 23
+move = 496
+
+[sub_resource type="Resource" id="Resource_kvxdw"]
+script = ExtResource("3_aq78g")
+level = 28
+move = 374
+
+[sub_resource type="Resource" id="Resource_0s5rg"]
+script = ExtResource("3_aq78g")
+level = 33
+move = 479
+
+[sub_resource type="Resource" id="Resource_1t2ir"]
+script = ExtResource("3_aq78g")
+level = 40
+move = 164
+
+[sub_resource type="Resource" id="Resource_jriu3"]
+script = ExtResource("3_aq78g")
+level = 45
+move = 340
+
+[sub_resource type="Resource" id="Resource_4j2t7"]
+script = ExtResource("3_aq78g")
+level = 50
+move = 104
+
+[sub_resource type="Resource" id="Resource_kp3vg"]
+script = ExtResource("3_aq78g")
+level = 56
+move = 56
+
+[resource]
+script = ExtResource("4_wg7oc")
+id = 657
+display_name = "Frogadier"
+category = "Bubble Frog"
+national_dex = 657
+pokedex = "It can throw bubble-covered pebbles with
+precise control, hitting empty cans up to
+a hundred feet away. Frogadier's swiftness
+is unparalleled."
+type_1 = 12
+base_hp = 54
+base_atk = 63
+base_def = 52
+base_spa = 83
+base_spd = 56
+base_spe = 97
+ev_spe = 2
+base_exp = 142
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 2
+ability_1 = 67
+ability_hidden = 168
+height_dm = 6
+weight_hg = 109
+body_color = 1
+level_moves = Array[ExtResource("3_aq78g")]([SubResource("Resource_dp75x"), SubResource("Resource_xixl5"), SubResource("Resource_4davn"), SubResource("Resource_6l76c"), SubResource("Resource_abyho"), SubResource("Resource_v2qb8"), SubResource("Resource_dp53y"), SubResource("Resource_ohas0"), SubResource("Resource_kvxdw"), SubResource("Resource_0s5rg"), SubResource("Resource_1t2ir"), SubResource("Resource_jriu3"), SubResource("Resource_4j2t7"), SubResource("Resource_kp3vg")])
+evolutions = Array[ExtResource("1_p1f12")]([SubResource("Resource_g6r5x")])

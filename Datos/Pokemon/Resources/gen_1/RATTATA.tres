@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dj0p5iijx7s6s"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_oc6gp"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_mf7bo"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_q3ibx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_354oc"]
+
+[sub_resource type="Resource" id="Resource_5te8u"]
+script = ExtResource("1_oc6gp")
+method = "LEVEL"
+param = "20"
+target = 20
+
+[sub_resource type="Resource" id="Resource_3g428"]
+script = ExtResource("3_q3ibx")
+move = 33
+
+[sub_resource type="Resource" id="Resource_6d87l"]
+script = ExtResource("3_q3ibx")
+move = 39
+
+[sub_resource type="Resource" id="Resource_tufi8"]
+script = ExtResource("3_q3ibx")
+level = 4
+move = 98
+
+[sub_resource type="Resource" id="Resource_8ybf8"]
+script = ExtResource("3_q3ibx")
+level = 7
+move = 116
+
+[sub_resource type="Resource" id="Resource_a85y7"]
+script = ExtResource("3_q3ibx")
+level = 10
+move = 44
+
+[sub_resource type="Resource" id="Resource_q6by1"]
+script = ExtResource("3_q3ibx")
+level = 13
+move = 636
+
+[sub_resource type="Resource" id="Resource_a5b5d"]
+script = ExtResource("3_q3ibx")
+level = 16
+move = 36
+
+[sub_resource type="Resource" id="Resource_vetr7"]
+script = ExtResource("3_q3ibx")
+level = 19
+move = 372
+
+[sub_resource type="Resource" id="Resource_snfud"]
+script = ExtResource("3_q3ibx")
+level = 22
+move = 242
+
+[sub_resource type="Resource" id="Resource_8q2q3"]
+script = ExtResource("3_q3ibx")
+level = 25
+move = 389
+
+[sub_resource type="Resource" id="Resource_tph88"]
+script = ExtResource("3_q3ibx")
+level = 28
+move = 162
+
+[sub_resource type="Resource" id="Resource_rp5t8"]
+script = ExtResource("3_q3ibx")
+level = 31
+move = 38
+
+[sub_resource type="Resource" id="Resource_d6g4u"]
+script = ExtResource("3_q3ibx")
+level = 34
+move = 283
+
+[resource]
+script = ExtResource("4_354oc")
+id = 19
+display_name = "Rattata"
+category = "Mouse"
+national_dex = 19
+pokedex = "A Rattata is cautious in the extreme.
+Even while it is asleep, it constantly
+moves its ears and listens for danger.
+It will make its nest anywhere."
+type_1 = 1
+base_hp = 30
+base_atk = 56
+base_def = 35
+base_spa = 25
+base_spd = 35
+base_spe = 72
+ev_spe = 1
+catch_rate = 255
+base_exp = 51
+egg_cycles = 15
+egg_group_1 = 5
+ability_1 = 50
+ability_2 = 62
+ability_hidden = 55
+height_dm = 3
+weight_hg = 35
+body_color = 6
+level_moves = Array[ExtResource("3_q3ibx")]([SubResource("Resource_3g428"), SubResource("Resource_6d87l"), SubResource("Resource_tufi8"), SubResource("Resource_8ybf8"), SubResource("Resource_a85y7"), SubResource("Resource_q6by1"), SubResource("Resource_a5b5d"), SubResource("Resource_vetr7"), SubResource("Resource_snfud"), SubResource("Resource_8q2q3"), SubResource("Resource_tph88"), SubResource("Resource_rp5t8"), SubResource("Resource_d6g4u")])
+egg_moves = Array[int]([103, 172, 154, 44, 68, 179, 253, 387, 382, 279, 515])
+evolutions = Array[ExtResource("1_oc6gp")]([SubResource("Resource_5te8u")])
+form_species = Array[int]([19, 956])

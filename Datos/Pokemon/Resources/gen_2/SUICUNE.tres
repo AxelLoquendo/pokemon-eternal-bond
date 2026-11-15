@@ -1,0 +1,127 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cavecti2o6ctq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jv8ua"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_w4hnw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nsrvy"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_acs6m"]
+
+[sub_resource type="Resource" id="Resource_vk5qw"]
+script = ExtResource("3_nsrvy")
+move = 245
+
+[sub_resource type="Resource" id="Resource_db10y"]
+script = ExtResource("3_nsrvy")
+move = 329
+
+[sub_resource type="Resource" id="Resource_yrg28"]
+script = ExtResource("3_nsrvy")
+move = 16
+
+[sub_resource type="Resource" id="Resource_eptlj"]
+script = ExtResource("3_nsrvy")
+move = 43
+
+[sub_resource type="Resource" id="Resource_h7pnq"]
+script = ExtResource("3_nsrvy")
+move = 54
+
+[sub_resource type="Resource" id="Resource_3dccq"]
+script = ExtResource("3_nsrvy")
+move = 55
+
+[sub_resource type="Resource" id="Resource_l81pf"]
+script = ExtResource("3_nsrvy")
+level = 6
+move = 352
+
+[sub_resource type="Resource" id="Resource_4cgh1"]
+script = ExtResource("3_nsrvy")
+level = 12
+move = 44
+
+[sub_resource type="Resource" id="Resource_cvj2v"]
+script = ExtResource("3_nsrvy")
+level = 18
+move = 347
+
+[sub_resource type="Resource" id="Resource_pp3s1"]
+script = ExtResource("3_nsrvy")
+level = 24
+move = 46
+
+[sub_resource type="Resource" id="Resource_hn105"]
+script = ExtResource("3_nsrvy")
+level = 30
+move = 423
+
+[sub_resource type="Resource" id="Resource_r2xrv"]
+script = ExtResource("3_nsrvy")
+level = 36
+move = 366
+
+[sub_resource type="Resource" id="Resource_np2dm"]
+script = ExtResource("3_nsrvy")
+level = 42
+move = 242
+
+[sub_resource type="Resource" id="Resource_si327"]
+script = ExtResource("3_nsrvy")
+level = 48
+move = 326
+
+[sub_resource type="Resource" id="Resource_adxdi"]
+script = ExtResource("3_nsrvy")
+level = 54
+move = 57
+
+[sub_resource type="Resource" id="Resource_gyre3"]
+script = ExtResource("3_nsrvy")
+level = 60
+move = 243
+
+[sub_resource type="Resource" id="Resource_5q81v"]
+script = ExtResource("3_nsrvy")
+level = 66
+move = 240
+
+[sub_resource type="Resource" id="Resource_urx3p"]
+script = ExtResource("3_nsrvy")
+level = 72
+move = 56
+
+[sub_resource type="Resource" id="Resource_3ryws"]
+script = ExtResource("3_nsrvy")
+level = 78
+move = 59
+
+[resource]
+script = ExtResource("4_acs6m")
+id = 245
+display_name = "Suicune"
+category = "Aurora"
+national_dex = 245
+pokedex = "Suicune embodies the compassion of
+a pure spring of water. It runs across
+the land with gliding elegance. It has the
+power to purify dirty water."
+type_1 = 12
+base_hp = 100
+base_atk = 75
+base_def = 115
+base_spa = 90
+base_spd = 115
+base_spe = 85
+ev_def = 1
+ev_spd = 2
+catch_rate = 3
+base_exp = 215
+base_friendship = 35
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 80
+ability_1 = 46
+ability_hidden = 11
+height_dm = 20
+weight_hg = 1870
+body_color = 1
+level_moves = Array[ExtResource("3_nsrvy")]([SubResource("Resource_vk5qw"), SubResource("Resource_db10y"), SubResource("Resource_yrg28"), SubResource("Resource_eptlj"), SubResource("Resource_h7pnq"), SubResource("Resource_3dccq"), SubResource("Resource_l81pf"), SubResource("Resource_4cgh1"), SubResource("Resource_cvj2v"), SubResource("Resource_pp3s1"), SubResource("Resource_hn105"), SubResource("Resource_r2xrv"), SubResource("Resource_np2dm"), SubResource("Resource_si327"), SubResource("Resource_adxdi"), SubResource("Resource_gyre3"), SubResource("Resource_5q81v"), SubResource("Resource_urx3p"), SubResource("Resource_3ryws")])

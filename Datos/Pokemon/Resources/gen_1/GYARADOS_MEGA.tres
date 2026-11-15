@@ -1,0 +1,129 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://7bqeok7ve8np"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_yfhkm"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ybffe"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k14nx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_lovj6"]
+
+[sub_resource type="Resource" id="Resource_gg106"]
+script = ExtResource("3_k14nx")
+level = 0
+move = 44
+
+[sub_resource type="Resource" id="Resource_fs48e"]
+script = ExtResource("3_k14nx")
+move = 33
+
+[sub_resource type="Resource" id="Resource_0n6c0"]
+script = ExtResource("3_k14nx")
+move = 43
+
+[sub_resource type="Resource" id="Resource_mkit7"]
+script = ExtResource("3_k14nx")
+move = 239
+
+[sub_resource type="Resource" id="Resource_4l4bu"]
+script = ExtResource("3_k14nx")
+move = 150
+
+[sub_resource type="Resource" id="Resource_jlb5k"]
+script = ExtResource("3_k14nx")
+move = 175
+
+[sub_resource type="Resource" id="Resource_2eg8y"]
+script = ExtResource("3_k14nx")
+level = 4
+move = 250
+
+[sub_resource type="Resource" id="Resource_yawbu"]
+script = ExtResource("3_k14nx")
+level = 8
+move = 423
+
+[sub_resource type="Resource" id="Resource_aotfw"]
+script = ExtResource("3_k14nx")
+level = 12
+move = 362
+
+[sub_resource type="Resource" id="Resource_unwgf"]
+script = ExtResource("3_k14nx")
+level = 16
+move = 184
+
+[sub_resource type="Resource" id="Resource_o8lwq"]
+script = ExtResource("3_k14nx")
+level = 21
+move = 127
+
+[sub_resource type="Resource" id="Resource_1byda"]
+script = ExtResource("3_k14nx")
+level = 24
+move = 242
+
+[sub_resource type="Resource" id="Resource_3hh8u"]
+script = ExtResource("3_k14nx")
+level = 28
+move = 240
+
+[sub_resource type="Resource" id="Resource_ah0yt"]
+script = ExtResource("3_k14nx")
+level = 32
+move = 401
+
+[sub_resource type="Resource" id="Resource_giptl"]
+script = ExtResource("3_k14nx")
+level = 36
+move = 349
+
+[sub_resource type="Resource" id="Resource_s444o"]
+script = ExtResource("3_k14nx")
+level = 40
+move = 56
+
+[sub_resource type="Resource" id="Resource_keysu"]
+script = ExtResource("3_k14nx")
+level = 44
+move = 542
+
+[sub_resource type="Resource" id="Resource_bcl5d"]
+script = ExtResource("3_k14nx")
+level = 48
+move = 37
+
+[sub_resource type="Resource" id="Resource_ll7y6"]
+script = ExtResource("3_k14nx")
+level = 52
+move = 63
+
+[resource]
+script = ExtResource("4_lovj6")
+id = 917
+display_name = "Gyarados"
+category = "Atrocious"
+national_dex = 130
+pokedex = "Although it obeys its instinctive drive to
+destroy everything within its reach, it
+will respond to orders from a Trainer it
+truly trusts."
+type_1 = 12
+type_2 = 18
+base_hp = 95
+base_atk = 155
+base_def = 109
+base_spa = 70
+base_spd = 130
+base_spe = 81
+ev_atk = 2
+base_exp = 224
+growth_rate = 5
+egg_cycles = 5
+egg_group_1 = 12
+egg_group_2 = 14
+ability_1 = 104
+ability_2 = 104
+ability_hidden = 104
+height_dm = 65
+weight_hg = 3050
+body_color = 1
+level_moves = Array[ExtResource("3_k14nx")]([SubResource("Resource_gg106"), SubResource("Resource_fs48e"), SubResource("Resource_0n6c0"), SubResource("Resource_mkit7"), SubResource("Resource_4l4bu"), SubResource("Resource_jlb5k"), SubResource("Resource_2eg8y"), SubResource("Resource_yawbu"), SubResource("Resource_aotfw"), SubResource("Resource_unwgf"), SubResource("Resource_o8lwq"), SubResource("Resource_1byda"), SubResource("Resource_3hh8u"), SubResource("Resource_ah0yt"), SubResource("Resource_giptl"), SubResource("Resource_s444o"), SubResource("Resource_keysu"), SubResource("Resource_bcl5d"), SubResource("Resource_ll7y6")])
+form_species = Array[int]([130, 917])

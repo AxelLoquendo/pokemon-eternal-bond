@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://coaelt8b4c38q"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_d4o8b"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jtvxe"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_a55m8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xienf"]
+
+[sub_resource type="Resource" id="Resource_gjqn7"]
+script = ExtResource("3_a55m8")
+level = 0
+move = 157
+
+[sub_resource type="Resource" id="Resource_k1nh0"]
+script = ExtResource("3_a55m8")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ypuq7"]
+script = ExtResource("3_a55m8")
+move = 45
+
+[sub_resource type="Resource" id="Resource_hdbls"]
+script = ExtResource("3_a55m8")
+move = 52
+
+[sub_resource type="Resource" id="Resource_8nhtu"]
+script = ExtResource("3_a55m8")
+move = 90
+
+[sub_resource type="Resource" id="Resource_63qad"]
+script = ExtResource("3_a55m8")
+move = 116
+
+[sub_resource type="Resource" id="Resource_htiuv"]
+script = ExtResource("3_a55m8")
+move = 284
+
+[sub_resource type="Resource" id="Resource_fdvgf"]
+script = ExtResource("3_a55m8")
+level = 12
+move = 523
+
+[sub_resource type="Resource" id="Resource_6pyuu"]
+script = ExtResource("3_a55m8")
+level = 15
+move = 510
+
+[sub_resource type="Resource" id="Resource_kglbd"]
+script = ExtResource("3_a55m8")
+level = 19
+move = 133
+
+[sub_resource type="Resource" id="Resource_3of6k"]
+script = ExtResource("3_a55m8")
+level = 22
+move = 436
+
+[sub_resource type="Resource" id="Resource_3gbi3"]
+script = ExtResource("3_a55m8")
+level = 26
+move = 414
+
+[sub_resource type="Resource" id="Resource_mb2ay"]
+script = ExtResource("3_a55m8")
+level = 29
+move = 174
+
+[sub_resource type="Resource" id="Resource_vrefq"]
+script = ExtResource("3_a55m8")
+level = 31
+move = 36
+
+[sub_resource type="Resource" id="Resource_mt5dr"]
+script = ExtResource("3_a55m8")
+level = 39
+move = 281
+
+[sub_resource type="Resource" id="Resource_73ps2"]
+script = ExtResource("3_a55m8")
+level = 46
+move = 89
+
+[resource]
+script = ExtResource("4_xienf")
+id = 323
+display_name = "Camerupt"
+category = "Eruption"
+national_dex = 323
+pokedex = "A Pokémon that lives in the crater of
+a volcano. Every 10 years, the volcanoes
+on its back erupt violently. Research is
+under way on the cause of eruption."
+type_1 = 11
+type_2 = 5
+base_hp = 70
+base_atk = 100
+base_def = 70
+base_spa = 105
+base_spd = 75
+base_spe = 40
+ev_atk = 1
+ev_spa = 1
+catch_rate = 150
+base_exp = 161
+egg_group_1 = 5
+ability_1 = 40
+ability_hidden = 83
+height_dm = 19
+weight_hg = 2200
+level_moves = Array[ExtResource("3_a55m8")]([SubResource("Resource_gjqn7"), SubResource("Resource_k1nh0"), SubResource("Resource_ypuq7"), SubResource("Resource_hdbls"), SubResource("Resource_8nhtu"), SubResource("Resource_63qad"), SubResource("Resource_htiuv"), SubResource("Resource_fdvgf"), SubResource("Resource_6pyuu"), SubResource("Resource_kglbd"), SubResource("Resource_3of6k"), SubResource("Resource_3gbi3"), SubResource("Resource_mb2ay"), SubResource("Resource_vrefq"), SubResource("Resource_mt5dr"), SubResource("Resource_73ps2")])
+form_species = Array[int]([323, 937])

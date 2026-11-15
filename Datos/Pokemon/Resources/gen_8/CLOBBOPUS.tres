@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://hx8y4g0kmw6w"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_5mb28"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_217du"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_11t7l"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cl27y"]
+
+[sub_resource type="Resource" id="Resource_efeav"]
+script = ExtResource("3_11t7l")
+move = 249
+
+[sub_resource type="Resource" id="Resource_5jmtj"]
+script = ExtResource("3_11t7l")
+move = 43
+
+[sub_resource type="Resource" id="Resource_5jqec"]
+script = ExtResource("3_11t7l")
+level = 5
+move = 364
+
+[sub_resource type="Resource" id="Resource_y501d"]
+script = ExtResource("3_11t7l")
+level = 10
+move = 20
+
+[sub_resource type="Resource" id="Resource_w0war"]
+script = ExtResource("3_11t7l")
+level = 15
+move = 197
+
+[sub_resource type="Resource" id="Resource_bwjpc"]
+script = ExtResource("3_11t7l")
+level = 20
+move = 280
+
+[sub_resource type="Resource" id="Resource_c06bm"]
+script = ExtResource("3_11t7l")
+level = 25
+move = 339
+
+[sub_resource type="Resource" id="Resource_lqjhp"]
+script = ExtResource("3_11t7l")
+level = 30
+move = 66
+
+[sub_resource type="Resource" id="Resource_v8xau"]
+script = ExtResource("3_11t7l")
+level = 35
+move = 269
+
+[sub_resource type="Resource" id="Resource_fljjm"]
+script = ExtResource("3_11t7l")
+level = 40
+move = 179
+
+[sub_resource type="Resource" id="Resource_jkfek"]
+script = ExtResource("3_11t7l")
+level = 45
+move = 276
+
+[resource]
+script = ExtResource("4_cl27y")
+id = 852
+display_name = "Clobbopus"
+category = "Tantrum"
+national_dex = 852
+pokedex = "It's very curious, but its means of
+investigating things is to try to punch
+them with its tentacles. The search for
+food is what brings it onto land."
+type_1 = 2
+base_hp = 50
+base_atk = 68
+base_def = 60
+base_spa = 50
+base_spd = 50
+base_spe = 32
+ev_atk = 1
+catch_rate = 180
+base_exp = 62
+growth_rate = 3
+egg_cycles = 25
+egg_group_1 = 2
+egg_group_2 = 8
+ability_1 = 7
+ability_hidden = 101
+height_dm = 6
+weight_hg = 40
+body_color = 5
+level_moves = Array[ExtResource("3_11t7l")]([SubResource("Resource_efeav"), SubResource("Resource_5jmtj"), SubResource("Resource_5jqec"), SubResource("Resource_y501d"), SubResource("Resource_w0war"), SubResource("Resource_bwjpc"), SubResource("Resource_c06bm"), SubResource("Resource_lqjhp"), SubResource("Resource_v8xau"), SubResource("Resource_fljjm"), SubResource("Resource_jkfek")])
+egg_moves = Array[int]([220, 487, 389, 509, 69, 612])

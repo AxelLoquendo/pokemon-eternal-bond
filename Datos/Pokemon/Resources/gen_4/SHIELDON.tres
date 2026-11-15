@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c5edevso6brt2"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_djm7s"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_deeuv"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h6ohb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mcxr1"]
+
+[sub_resource type="Resource" id="Resource_5hh00"]
+script = ExtResource("1_djm7s")
+method = "LEVEL"
+param = "30"
+target = 411
+
+[sub_resource type="Resource" id="Resource_76c8r"]
+script = ExtResource("3_h6ohb")
+move = 33
+
+[sub_resource type="Resource" id="Resource_h32xf"]
+script = ExtResource("3_h6ohb")
+move = 182
+
+[sub_resource type="Resource" id="Resource_7uvso"]
+script = ExtResource("3_h6ohb")
+level = 6
+move = 269
+
+[sub_resource type="Resource" id="Resource_vv8wo"]
+script = ExtResource("3_h6ohb")
+level = 10
+move = 319
+
+[sub_resource type="Resource" id="Resource_y4hp1"]
+script = ExtResource("3_h6ohb")
+level = 15
+move = 36
+
+[sub_resource type="Resource" id="Resource_1q87w"]
+script = ExtResource("3_h6ohb")
+level = 19
+move = 334
+
+[sub_resource type="Resource" id="Resource_g6uab"]
+script = ExtResource("3_h6ohb")
+level = 24
+move = 207
+
+[sub_resource type="Resource" id="Resource_ynmwn"]
+script = ExtResource("3_h6ohb")
+level = 28
+move = 246
+
+[sub_resource type="Resource" id="Resource_smjk1"]
+script = ExtResource("3_h6ohb")
+level = 33
+move = 203
+
+[sub_resource type="Resource" id="Resource_e7lqs"]
+script = ExtResource("3_h6ohb")
+level = 37
+move = 368
+
+[sub_resource type="Resource" id="Resource_ql0ky"]
+script = ExtResource("3_h6ohb")
+level = 42
+move = 442
+
+[sub_resource type="Resource" id="Resource_niuxu"]
+script = ExtResource("3_h6ohb")
+level = 46
+move = 484
+
+[resource]
+script = ExtResource("4_mcxr1")
+id = 410
+display_name = "Shieldon"
+category = "Shield"
+national_dex = 410
+pokedex = "This Pokémon lived in primeval jungles.
+Few enemies would have been willing to
+square off against its heavily armored
+face, so it's thought."
+type_1 = 6
+type_2 = 9
+base_hp = 30
+base_atk = 42
+base_def = 118
+base_spa = 42
+base_spd = 88
+base_spe = 30
+ev_def = 1
+base_exp = 70
+gender_ratio = 31
+growth_rate = 1
+egg_cycles = 30
+egg_group_1 = 1
+ability_1 = 5
+ability_hidden = 43
+height_dm = 5
+weight_hg = 570
+body_color = 7
+level_moves = Array[ExtResource("3_h6ohb")]([SubResource("Resource_76c8r"), SubResource("Resource_h32xf"), SubResource("Resource_7uvso"), SubResource("Resource_vv8wo"), SubResource("Resource_y4hp1"), SubResource("Resource_1q87w"), SubResource("Resource_g6uab"), SubResource("Resource_ynmwn"), SubResource("Resource_smjk1"), SubResource("Resource_e7lqs"), SubResource("Resource_ql0ky"), SubResource("Resource_niuxu")])
+egg_moves = Array[int]([29, 184, 116, 38, 350, 34, 103, 174, 90, 68, 446, 469, 470])
+evolutions = Array[ExtResource("1_djm7s")]([SubResource("Resource_5hh00")])

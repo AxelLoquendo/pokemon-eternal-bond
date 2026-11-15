@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://3fp41jfukbua"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_wqvns"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pm8vt"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yasew"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kyaqh"]
+
+[sub_resource type="Resource" id="Resource_jm3qh"]
+script = ExtResource("1_wqvns")
+method = "LEVEL"
+param = "24"
+target = 444
+
+[sub_resource type="Resource" id="Resource_hmvt1"]
+script = ExtResource("3_yasew")
+move = 33
+
+[sub_resource type="Resource" id="Resource_epglv"]
+script = ExtResource("3_yasew")
+move = 328
+
+[sub_resource type="Resource" id="Resource_xyjhp"]
+script = ExtResource("3_yasew")
+level = 6
+move = 28
+
+[sub_resource type="Resource" id="Resource_1iqlx"]
+script = ExtResource("3_yasew")
+level = 12
+move = 225
+
+[sub_resource type="Resource" id="Resource_qmpd3"]
+script = ExtResource("3_yasew")
+level = 18
+move = 523
+
+[sub_resource type="Resource" id="Resource_kl8jm"]
+script = ExtResource("3_yasew")
+level = 25
+move = 44
+
+[sub_resource type="Resource" id="Resource_err2w"]
+script = ExtResource("3_yasew")
+level = 30
+move = 163
+
+[sub_resource type="Resource" id="Resource_s0nnq"]
+script = ExtResource("3_yasew")
+level = 36
+move = 337
+
+[sub_resource type="Resource" id="Resource_n5bmb"]
+script = ExtResource("3_yasew")
+level = 42
+move = 91
+
+[sub_resource type="Resource" id="Resource_trxx6"]
+script = ExtResource("3_yasew")
+level = 48
+move = 201
+
+[sub_resource type="Resource" id="Resource_7obe2"]
+script = ExtResource("3_yasew")
+level = 54
+move = 36
+
+[sub_resource type="Resource" id="Resource_kwdju"]
+script = ExtResource("3_yasew")
+level = 60
+move = 407
+
+[resource]
+script = ExtResource("4_kyaqh")
+id = 443
+display_name = "Gible"
+category = "Land Shark"
+national_dex = 443
+pokedex = "It nests in horizontal holes warmed by
+geothermal heat. Foes who stray too
+close can expect to be pounced on
+and bitten."
+type_1 = 17
+type_2 = 5
+base_hp = 58
+base_atk = 70
+base_def = 45
+base_spa = 40
+base_spd = 45
+base_spe = 42
+ev_atk = 1
+base_exp = 60
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 8
+ability_hidden = 24
+height_dm = 7
+weight_hg = 205
+body_color = 1
+level_moves = Array[ExtResource("3_yasew")]([SubResource("Resource_hmvt1"), SubResource("Resource_epglv"), SubResource("Resource_xyjhp"), SubResource("Resource_1iqlx"), SubResource("Resource_qmpd3"), SubResource("Resource_kl8jm"), SubResource("Resource_err2w"), SubResource("Resource_s0nnq"), SubResource("Resource_n5bmb"), SubResource("Resource_trxx6"), SubResource("Resource_7obe2"), SubResource("Resource_kwdju")])
+egg_moves = Array[int]([225, 200, 239, 184, 38, 37, 232, 328, 34, 442, 341, 431, 231])
+evolutions = Array[ExtResource("1_wqvns")]([SubResource("Resource_jm3qh")])

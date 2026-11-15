@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b4hrwhtnhxlt8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6rjks"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lmg4n"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_44j68"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cgfwb"]
+
+[sub_resource type="Resource" id="Resource_h6egn"]
+script = ExtResource("3_44j68")
+level = 0
+move = 8
+
+[sub_resource type="Resource" id="Resource_eycif"]
+script = ExtResource("3_44j68")
+move = 43
+
+[sub_resource type="Resource" id="Resource_23r1x"]
+script = ExtResource("3_44j68")
+move = 182
+
+[sub_resource type="Resource" id="Resource_kvyoh"]
+script = ExtResource("3_44j68")
+move = 249
+
+[sub_resource type="Resource" id="Resource_v7k8m"]
+script = ExtResource("3_44j68")
+level = 17
+move = 61
+
+[sub_resource type="Resource" id="Resource_evapq"]
+script = ExtResource("3_44j68")
+level = 22
+move = 280
+
+[sub_resource type="Resource" id="Resource_w4y7q"]
+script = ExtResource("3_44j68")
+level = 25
+move = 21
+
+[sub_resource type="Resource" id="Resource_lec65"]
+script = ExtResource("3_44j68")
+level = 29
+move = 419
+
+[sub_resource type="Resource" id="Resource_c7xsb"]
+script = ExtResource("3_44j68")
+level = 33
+move = 179
+
+[sub_resource type="Resource" id="Resource_dltnc"]
+script = ExtResource("3_44j68")
+level = 37
+move = 628
+
+[sub_resource type="Resource" id="Resource_hjv0u"]
+script = ExtResource("3_44j68")
+level = 42
+move = 334
+
+[sub_resource type="Resource" id="Resource_5wuoh"]
+script = ExtResource("3_44j68")
+level = 45
+move = 223
+
+[sub_resource type="Resource" id="Resource_c3vge"]
+script = ExtResource("3_44j68")
+level = 49
+move = 370
+
+[resource]
+script = ExtResource("4_cgfwb")
+id = 740
+display_name = "Crabominable"
+category = "Woolly Crab"
+national_dex = 740
+pokedex = "It aimed for the top but got lost and
+ended up on a snowy mountain. Being forced
+to endure the cold, this Pokémon evolved
+and grew thick fur."
+type_1 = 2
+type_2 = 16
+base_hp = 97
+base_atk = 132
+base_def = 77
+base_spa = 62
+base_spd = 67
+base_spe = 43
+ev_atk = 2
+catch_rate = 60
+base_exp = 167
+egg_group_1 = 9
+ability_1 = 52
+ability_2 = 89
+ability_hidden = 83
+item_rare = 514
+height_dm = 17
+weight_hg = 1800
+body_color = 8
+level_moves = Array[ExtResource("3_44j68")]([SubResource("Resource_h6egn"), SubResource("Resource_eycif"), SubResource("Resource_23r1x"), SubResource("Resource_kvyoh"), SubResource("Resource_v7k8m"), SubResource("Resource_evapq"), SubResource("Resource_w4y7q"), SubResource("Resource_lec65"), SubResource("Resource_c7xsb"), SubResource("Resource_dltnc"), SubResource("Resource_hjv0u"), SubResource("Resource_5wuoh"), SubResource("Resource_c3vge")])
+form_species = Array[int]([740, 1563])

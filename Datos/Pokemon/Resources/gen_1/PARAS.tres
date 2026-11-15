@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cbynhpwrcqqq4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_tb7ws"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hv4f7"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ht133"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8q3b1"]
+
+[sub_resource type="Resource" id="Resource_o5x87"]
+script = ExtResource("1_tb7ws")
+method = "LEVEL"
+param = "24"
+target = 47
+
+[sub_resource type="Resource" id="Resource_8l7ei"]
+script = ExtResource("3_ht133")
+move = 10
+
+[sub_resource type="Resource" id="Resource_3b180"]
+script = ExtResource("3_ht133")
+level = 6
+move = 78
+
+[sub_resource type="Resource" id="Resource_5e7jk"]
+script = ExtResource("3_ht133")
+level = 6
+move = 77
+
+[sub_resource type="Resource" id="Resource_fnfb3"]
+script = ExtResource("3_ht133")
+level = 11
+move = 71
+
+[sub_resource type="Resource" id="Resource_js36w"]
+script = ExtResource("3_ht133")
+level = 17
+move = 210
+
+[sub_resource type="Resource" id="Resource_7o6s7"]
+script = ExtResource("3_ht133")
+level = 22
+move = 147
+
+[sub_resource type="Resource" id="Resource_yulqp"]
+script = ExtResource("3_ht133")
+level = 27
+move = 163
+
+[sub_resource type="Resource" id="Resource_lcwdl"]
+script = ExtResource("3_ht133")
+level = 33
+move = 74
+
+[sub_resource type="Resource" id="Resource_hber5"]
+script = ExtResource("3_ht133")
+level = 38
+move = 202
+
+[sub_resource type="Resource" id="Resource_k3di7"]
+script = ExtResource("3_ht133")
+level = 43
+move = 312
+
+[sub_resource type="Resource" id="Resource_jdjqn"]
+script = ExtResource("3_ht133")
+level = 49
+move = 476
+
+[sub_resource type="Resource" id="Resource_54h7u"]
+script = ExtResource("3_ht133")
+level = 54
+move = 404
+
+[resource]
+script = ExtResource("4_8q3b1")
+id = 46
+display_name = "Paras"
+category = "Mushroom"
+national_dex = 46
+pokedex = "A Paras has parasitic tochukaso
+mushrooms growing on its back. They grow
+by drawing nutrients from the host. They
+are valued as a medicine for long life."
+type_1 = 7
+type_2 = 13
+base_hp = 35
+base_atk = 70
+base_def = 55
+base_spa = 45
+base_spd = 55
+base_spe = 25
+ev_atk = 1
+catch_rate = 190
+base_exp = 57
+egg_group_1 = 3
+egg_group_2 = 7
+ability_1 = 27
+ability_hidden = 6
+item_common = 137
+item_rare = 138
+height_dm = 3
+weight_hg = 54
+level_moves = Array[ExtResource("3_ht133")]([SubResource("Resource_8l7ei"), SubResource("Resource_3b180"), SubResource("Resource_5e7jk"), SubResource("Resource_fnfb3"), SubResource("Resource_js36w"), SubResource("Resource_7o6s7"), SubResource("Resource_yulqp"), SubResource("Resource_lcwdl"), SubResource("Resource_hber5"), SubResource("Resource_k3di7"), SubResource("Resource_jdjqn"), SubResource("Resource_54h7u")])
+egg_moves = Array[int]([103, 68, 60, 175, 230, 228, 232, 450, 440, 97, 203, 363, 73, 469, 563, 565, 580])
+evolutions = Array[ExtResource("1_tb7ws")]([SubResource("Resource_o5x87")])

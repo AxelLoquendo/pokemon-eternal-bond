@@ -1,0 +1,140 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://vvtrns61nrls"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_a0iwd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_g8jsw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ty2yd"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3qoxn"]
+
+[sub_resource type="Resource" id="Resource_yq48i"]
+script = ExtResource("1_a0iwd")
+method = "LEVEL"
+param = "45"
+target = 330
+
+[sub_resource type="Resource" id="Resource_hp3gj"]
+script = ExtResource("3_ty2yd")
+level = 0
+move = 225
+
+[sub_resource type="Resource" id="Resource_svk2n"]
+script = ExtResource("3_ty2yd")
+move = 48
+
+[sub_resource type="Resource" id="Resource_bsl66"]
+script = ExtResource("3_ty2yd")
+move = 90
+
+[sub_resource type="Resource" id="Resource_wu8cv"]
+script = ExtResource("3_ty2yd")
+move = 242
+
+[sub_resource type="Resource" id="Resource_g524p"]
+script = ExtResource("3_ty2yd")
+move = 276
+
+[sub_resource type="Resource" id="Resource_cpl6a"]
+script = ExtResource("3_ty2yd")
+move = 310
+
+[sub_resource type="Resource" id="Resource_io5uc"]
+script = ExtResource("3_ty2yd")
+move = 523
+
+[sub_resource type="Resource" id="Resource_ijfwm"]
+script = ExtResource("3_ty2yd")
+move = 28
+
+[sub_resource type="Resource" id="Resource_nwy6v"]
+script = ExtResource("3_ty2yd")
+move = 44
+
+[sub_resource type="Resource" id="Resource_us61s"]
+script = ExtResource("3_ty2yd")
+move = 91
+
+[sub_resource type="Resource" id="Resource_jyagb"]
+script = ExtResource("3_ty2yd")
+level = 12
+move = 189
+
+[sub_resource type="Resource" id="Resource_5iwk8"]
+script = ExtResource("3_ty2yd")
+level = 16
+move = 328
+
+[sub_resource type="Resource" id="Resource_q41m1"]
+script = ExtResource("3_ty2yd")
+level = 20
+move = 525
+
+[sub_resource type="Resource" id="Resource_6ev2y"]
+script = ExtResource("3_ty2yd")
+level = 24
+move = 103
+
+[sub_resource type="Resource" id="Resource_e1oxt"]
+script = ExtResource("3_ty2yd")
+level = 28
+move = 405
+
+[sub_resource type="Resource" id="Resource_wj7ru"]
+script = ExtResource("3_ty2yd")
+level = 32
+move = 201
+
+[sub_resource type="Resource" id="Resource_261tu"]
+script = ExtResource("3_ty2yd")
+level = 38
+move = 414
+
+[sub_resource type="Resource" id="Resource_vy8o6"]
+script = ExtResource("3_ty2yd")
+level = 44
+move = 89
+
+[sub_resource type="Resource" id="Resource_lqs61"]
+script = ExtResource("3_ty2yd")
+level = 50
+move = 253
+
+[sub_resource type="Resource" id="Resource_kyjjd"]
+script = ExtResource("3_ty2yd")
+level = 56
+move = 407
+
+[sub_resource type="Resource" id="Resource_k2k6s"]
+script = ExtResource("3_ty2yd")
+level = 62
+move = 586
+
+[resource]
+script = ExtResource("4_3qoxn")
+id = 329
+display_name = "Vibrava"
+category = "Vibration"
+national_dex = 329
+pokedex = "It looses ultrasonic waves by rubbing its
+wings together. Since a Vibrava's wings
+are still in the process of growing, it can
+only fly short distances."
+type_1 = 5
+type_2 = 17
+base_hp = 50
+base_atk = 70
+base_def = 50
+base_spa = 50
+base_spd = 50
+base_spe = 70
+ev_atk = 1
+ev_spe = 1
+catch_rate = 120
+base_exp = 119
+growth_rate = 3
+ability_1 = 26
+ability_2 = 26
+ability_hidden = 26
+height_dm = 11
+weight_hg = 153
+body_color = 3
+level_moves = Array[ExtResource("3_ty2yd")]([SubResource("Resource_hp3gj"), SubResource("Resource_svk2n"), SubResource("Resource_bsl66"), SubResource("Resource_wu8cv"), SubResource("Resource_g524p"), SubResource("Resource_cpl6a"), SubResource("Resource_io5uc"), SubResource("Resource_ijfwm"), SubResource("Resource_nwy6v"), SubResource("Resource_us61s"), SubResource("Resource_jyagb"), SubResource("Resource_5iwk8"), SubResource("Resource_q41m1"), SubResource("Resource_6ev2y"), SubResource("Resource_e1oxt"), SubResource("Resource_wj7ru"), SubResource("Resource_261tu"), SubResource("Resource_vy8o6"), SubResource("Resource_lqs61"), SubResource("Resource_kyjjd"), SubResource("Resource_k2k6s")])
+evolutions = Array[ExtResource("1_a0iwd")]([SubResource("Resource_yq48i")])

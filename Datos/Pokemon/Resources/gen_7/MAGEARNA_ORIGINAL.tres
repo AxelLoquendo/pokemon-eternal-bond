@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d4cp3ideidpt0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_5te10"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6h4c7"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2a8w8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_b2kli"]
+
+[sub_resource type="Resource" id="Resource_g67ds"]
+script = ExtResource("3_2a8w8")
+move = 360
+
+[sub_resource type="Resource" id="Resource_j8jif"]
+script = ExtResource("3_2a8w8")
+move = 270
+
+[sub_resource type="Resource" id="Resource_s80r7"]
+script = ExtResource("3_2a8w8")
+level = 6
+move = 111
+
+[sub_resource type="Resource" id="Resource_3ktgr"]
+script = ExtResource("3_2a8w8")
+level = 12
+move = 205
+
+[sub_resource type="Resource" id="Resource_jdy6g"]
+script = ExtResource("3_2a8w8")
+level = 18
+move = 334
+
+[sub_resource type="Resource" id="Resource_df2ew"]
+script = ExtResource("3_2a8w8")
+level = 24
+move = 602
+
+[sub_resource type="Resource" id="Resource_6snk2"]
+script = ExtResource("3_2a8w8")
+level = 30
+move = 60
+
+[sub_resource type="Resource" id="Resource_d7gxe"]
+script = ExtResource("3_2a8w8")
+level = 36
+move = 62
+
+[sub_resource type="Resource" id="Resource_n5avq"]
+script = ExtResource("3_2a8w8")
+level = 42
+move = 199
+
+[sub_resource type="Resource" id="Resource_6i2sy"]
+script = ExtResource("3_2a8w8")
+level = 48
+move = 508
+
+[sub_resource type="Resource" id="Resource_348ol"]
+script = ExtResource("3_2a8w8")
+level = 54
+move = 271
+
+[sub_resource type="Resource" id="Resource_mlevo"]
+script = ExtResource("3_2a8w8")
+level = 60
+move = 442
+
+[sub_resource type="Resource" id="Resource_4tuai"]
+script = ExtResource("3_2a8w8")
+level = 66
+move = 396
+
+[sub_resource type="Resource" id="Resource_e3fv2"]
+script = ExtResource("3_2a8w8")
+level = 72
+move = 430
+
+[sub_resource type="Resource" id="Resource_xbe2o"]
+script = ExtResource("3_2a8w8")
+level = 78
+move = 220
+
+[sub_resource type="Resource" id="Resource_rbkb6"]
+script = ExtResource("3_2a8w8")
+level = 84
+move = 192
+
+[sub_resource type="Resource" id="Resource_qqns0"]
+script = ExtResource("3_2a8w8")
+level = 90
+move = 659
+
+[resource]
+script = ExtResource("4_b2kli")
+id = 1210
+display_name = "Magearna"
+category = "Artificial"
+national_dex = 801
+pokedex = "This is its form from almost 500
+years ago. Its body is nothing more
+than a container-its artificial heart
+is the actual life-form."
+type_1 = 9
+type_2 = 19
+base_hp = 80
+base_atk = 95
+base_def = 115
+base_spa = 130
+base_spd = 115
+base_spe = 65
+ev_spa = 3
+catch_rate = 3
+base_exp = 300
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 220
+height_dm = 10
+weight_hg = 805
+level_moves = Array[ExtResource("3_2a8w8")]([SubResource("Resource_g67ds"), SubResource("Resource_j8jif"), SubResource("Resource_s80r7"), SubResource("Resource_3ktgr"), SubResource("Resource_jdy6g"), SubResource("Resource_df2ew"), SubResource("Resource_6snk2"), SubResource("Resource_d7gxe"), SubResource("Resource_n5avq"), SubResource("Resource_6i2sy"), SubResource("Resource_348ol"), SubResource("Resource_mlevo"), SubResource("Resource_4tuai"), SubResource("Resource_e3fv2"), SubResource("Resource_xbe2o"), SubResource("Resource_rbkb6"), SubResource("Resource_qqns0")])
+form_species = Array[int]([801, 1210, 1565, 1566])

@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bh302y7m0jrjg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0o8gq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_tb8me"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_o7orw"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6322y"]
+
+[sub_resource type="Resource" id="Resource_2aq71"]
+script = ExtResource("3_o7orw")
+move = 10
+
+[sub_resource type="Resource" id="Resource_tp3ri"]
+script = ExtResource("3_o7orw")
+move = 43
+
+[sub_resource type="Resource" id="Resource_xmc5k"]
+script = ExtResource("3_o7orw")
+level = 6
+move = 269
+
+[sub_resource type="Resource" id="Resource_3nvsc"]
+script = ExtResource("3_o7orw")
+level = 12
+move = 98
+
+[sub_resource type="Resource" id="Resource_p6pp6"]
+script = ExtResource("3_o7orw")
+level = 18
+move = 232
+
+[sub_resource type="Resource" id="Resource_ef8vx"]
+script = ExtResource("3_o7orw")
+level = 24
+move = 196
+
+[sub_resource type="Resource" id="Resource_x8t0m"]
+script = ExtResource("3_o7orw")
+level = 30
+move = 154
+
+[sub_resource type="Resource" id="Resource_w2w7h"]
+script = ExtResource("3_o7orw")
+level = 36
+move = 468
+
+[sub_resource type="Resource" id="Resource_y2hbb"]
+script = ExtResource("3_o7orw")
+level = 42
+move = 251
+
+[sub_resource type="Resource" id="Resource_u3i0i"]
+script = ExtResource("3_o7orw")
+level = 48
+move = 97
+
+[sub_resource type="Resource" id="Resource_b3d3l"]
+script = ExtResource("3_o7orw")
+level = 54
+move = 103
+
+[sub_resource type="Resource" id="Resource_0akeg"]
+script = ExtResource("3_o7orw")
+level = 60
+move = 163
+
+[resource]
+script = ExtResource("4_6322y")
+id = 215
+display_name = "Sneasel"
+category = "Sharp Claw"
+national_dex = 215
+pokedex = "A Sneasel scales trees by punching its
+hooked claws into the bark. It seeks out
+unguarded nests and steals eggs for food
+while the parents are away."
+type_1 = 18
+type_2 = 16
+base_hp = 55
+base_atk = 95
+base_def = 55
+base_spa = 35
+base_spd = 75
+base_spe = 115
+ev_spe = 1
+catch_rate = 60
+base_exp = 86
+base_friendship = 35
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 39
+ability_2 = 51
+ability_hidden = 124
+item_rare = 462
+height_dm = 9
+weight_hg = 280
+body_color = 4
+no_flip = true
+level_moves = Array[ExtResource("3_o7orw")]([SubResource("Resource_2aq71"), SubResource("Resource_tp3ri"), SubResource("Resource_xmc5k"), SubResource("Resource_3nvsc"), SubResource("Resource_p6pp6"), SubResource("Resource_ef8vx"), SubResource("Resource_x8t0m"), SubResource("Resource_w2w7h"), SubResource("Resource_y2hbb"), SubResource("Resource_u3i0i"), SubResource("Resource_b3d3l"), SubResource("Resource_0akeg")])
+egg_moves = Array[int]([68, 180, 193, 44, 306, 252, 458, 386, 228, 420, 8, 274, 419, 364, 556, 638])
+form_species = Array[int]([215, 999])

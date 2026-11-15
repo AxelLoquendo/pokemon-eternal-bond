@@ -1,0 +1,124 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d3bdoj7d4naq4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7e012"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lpsd6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8o8pi"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kahsl"]
+
+[sub_resource type="Resource" id="Resource_xh552"]
+script = ExtResource("3_8o8pi")
+move = 609
+
+[sub_resource type="Resource" id="Resource_7m0hs"]
+script = ExtResource("3_8o8pi")
+move = 417
+
+[sub_resource type="Resource" id="Resource_o2thi"]
+script = ExtResource("3_8o8pi")
+move = 204
+
+[sub_resource type="Resource" id="Resource_bcge0"]
+script = ExtResource("3_8o8pi")
+move = 186
+
+[sub_resource type="Resource" id="Resource_iqssl"]
+script = ExtResource("3_8o8pi")
+move = 589
+
+[sub_resource type="Resource" id="Resource_ecmif"]
+script = ExtResource("3_8o8pi")
+move = 98
+
+[sub_resource type="Resource" id="Resource_ps8r1"]
+script = ExtResource("3_8o8pi")
+move = 39
+
+[sub_resource type="Resource" id="Resource_dt8gh"]
+script = ExtResource("3_8o8pi")
+move = 84
+
+[sub_resource type="Resource" id="Resource_c6ehp"]
+script = ExtResource("3_8o8pi")
+move = 45
+
+[sub_resource type="Resource" id="Resource_o62tw"]
+script = ExtResource("3_8o8pi")
+level = 4
+move = 86
+
+[sub_resource type="Resource" id="Resource_rj3nv"]
+script = ExtResource("3_8o8pi")
+level = 8
+move = 104
+
+[sub_resource type="Resource" id="Resource_7cgtc"]
+script = ExtResource("3_8o8pi")
+level = 12
+move = 486
+
+[sub_resource type="Resource" id="Resource_3tmdk"]
+script = ExtResource("3_8o8pi")
+level = 16
+move = 364
+
+[sub_resource type="Resource" id="Resource_y3v3g"]
+script = ExtResource("3_8o8pi")
+level = 20
+move = 209
+
+[sub_resource type="Resource" id="Resource_qn04a"]
+script = ExtResource("3_8o8pi")
+level = 24
+move = 97
+
+[sub_resource type="Resource" id="Resource_qoso8"]
+script = ExtResource("3_8o8pi")
+level = 28
+move = 231
+
+[sub_resource type="Resource" id="Resource_nsf5w"]
+script = ExtResource("3_8o8pi")
+level = 32
+move = 435
+
+[sub_resource type="Resource" id="Resource_aclte"]
+script = ExtResource("3_8o8pi")
+level = 36
+move = 85
+
+[sub_resource type="Resource" id="Resource_pxm8o"]
+script = ExtResource("3_8o8pi")
+level = 40
+move = 113
+
+[sub_resource type="Resource" id="Resource_dyfc1"]
+script = ExtResource("3_8o8pi")
+level = 44
+move = 87
+
+[resource]
+script = ExtResource("4_kahsl")
+id = 1012
+display_name = "Pikachu"
+category = "Mouse"
+national_dex = 25
+type_1 = 14
+base_hp = 35
+base_atk = 55
+base_def = 40
+base_spa = 50
+base_spd = 50
+base_spe = 90
+ev_spe = 2
+catch_rate = 190
+gender_ratio = 254
+egg_cycles = 10
+ability_1 = 9
+ability_hidden = 31
+item_rare = 392
+height_dm = 4
+weight_hg = 60
+body_color = 2
+no_flip = true
+level_moves = Array[ExtResource("3_8o8pi")]([SubResource("Resource_xh552"), SubResource("Resource_7m0hs"), SubResource("Resource_o2thi"), SubResource("Resource_bcge0"), SubResource("Resource_iqssl"), SubResource("Resource_ecmif"), SubResource("Resource_ps8r1"), SubResource("Resource_dt8gh"), SubResource("Resource_c6ehp"), SubResource("Resource_o62tw"), SubResource("Resource_rj3nv"), SubResource("Resource_7cgtc"), SubResource("Resource_3tmdk"), SubResource("Resource_y3v3g"), SubResource("Resource_qn04a"), SubResource("Resource_qoso8"), SubResource("Resource_nsf5w"), SubResource("Resource_aclte"), SubResource("Resource_pxm8o"), SubResource("Resource_dyfc1")])
+form_species = Array[int]([25, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1493, 1487])

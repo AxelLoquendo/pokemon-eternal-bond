@@ -1,0 +1,119 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://pdv75axiwlcb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qi6j5"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_quq14"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ixmao"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kcxos"]
+
+[sub_resource type="Resource" id="Resource_sc3ma"]
+script = ExtResource("3_ixmao")
+move = 35
+
+[sub_resource type="Resource" id="Resource_joryi"]
+script = ExtResource("3_ixmao")
+move = 1
+
+[sub_resource type="Resource" id="Resource_qdskf"]
+script = ExtResource("3_ixmao")
+level = 5
+move = 51
+
+[sub_resource type="Resource" id="Resource_ln4v6"]
+script = ExtResource("3_ixmao")
+level = 10
+move = 321
+
+[sub_resource type="Resource" id="Resource_1kq3p"]
+script = ExtResource("3_ixmao")
+level = 15
+move = 491
+
+[sub_resource type="Resource" id="Resource_oobpr"]
+script = ExtResource("3_ixmao")
+level = 20
+move = 499
+
+[sub_resource type="Resource" id="Resource_p4c3f"]
+script = ExtResource("3_ixmao")
+level = 25
+move = 471
+
+[sub_resource type="Resource" id="Resource_ttir6"]
+script = ExtResource("3_ixmao")
+level = 25
+move = 470
+
+[sub_resource type="Resource" id="Resource_tc1w4"]
+script = ExtResource("3_ixmao")
+level = 30
+move = 474
+
+[sub_resource type="Resource" id="Resource_vwo5o"]
+script = ExtResource("3_ixmao")
+level = 35
+move = 29
+
+[sub_resource type="Resource" id="Resource_plrr7"]
+script = ExtResource("3_ixmao")
+level = 40
+move = 390
+
+[sub_resource type="Resource" id="Resource_p6lm3"]
+script = ExtResource("3_ixmao")
+level = 45
+move = 599
+
+[sub_resource type="Resource" id="Resource_tbxmt"]
+script = ExtResource("3_ixmao")
+level = 50
+move = 408
+
+[sub_resource type="Resource" id="Resource_rqy3y"]
+script = ExtResource("3_ixmao")
+level = 55
+move = 446
+
+[sub_resource type="Resource" id="Resource_t4mox"]
+script = ExtResource("3_ixmao")
+level = 60
+move = 243
+
+[sub_resource type="Resource" id="Resource_ccs30"]
+script = ExtResource("3_ixmao")
+level = 65
+move = 472
+
+[sub_resource type="Resource" id="Resource_ie8ch"]
+script = ExtResource("3_ixmao")
+level = 70
+move = 457
+
+[resource]
+script = ExtResource("4_kcxos")
+id = 793
+display_name = "Nihilego"
+category = "Parasite"
+national_dex = 793
+pokedex = "One of several mysterious Ultra Beasts.
+It's unclear whether or not this Pokémon
+is sentient, but sometimes it can be
+observed behaving like a young girl."
+type_1 = 6
+type_2 = 4
+base_hp = 109
+base_atk = 53
+base_def = 47
+base_spa = 127
+base_spd = 131
+base_spe = 103
+ev_spd = 3
+base_exp = 285
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 224
+height_dm = 12
+weight_hg = 555
+body_color = 8
+level_moves = Array[ExtResource("3_ixmao")]([SubResource("Resource_sc3ma"), SubResource("Resource_joryi"), SubResource("Resource_qdskf"), SubResource("Resource_ln4v6"), SubResource("Resource_1kq3p"), SubResource("Resource_oobpr"), SubResource("Resource_p4c3f"), SubResource("Resource_ttir6"), SubResource("Resource_tc1w4"), SubResource("Resource_vwo5o"), SubResource("Resource_plrr7"), SubResource("Resource_p6lm3"), SubResource("Resource_tbxmt"), SubResource("Resource_rqy3y"), SubResource("Resource_t4mox"), SubResource("Resource_ccs30"), SubResource("Resource_ie8ch")])

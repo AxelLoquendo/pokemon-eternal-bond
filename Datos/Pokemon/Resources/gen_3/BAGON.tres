@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d15u1vmbvook6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mduil"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wcbb4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_edrqk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_b6m83"]
+
+[sub_resource type="Resource" id="Resource_ul2p5"]
+script = ExtResource("1_mduil")
+method = "LEVEL"
+param = "30"
+target = 372
+
+[sub_resource type="Resource" id="Resource_uh5ky"]
+script = ExtResource("3_edrqk")
+move = 43
+
+[sub_resource type="Resource" id="Resource_ky7li"]
+script = ExtResource("3_edrqk")
+move = 52
+
+[sub_resource type="Resource" id="Resource_lo2ob"]
+script = ExtResource("3_edrqk")
+level = 5
+move = 44
+
+[sub_resource type="Resource" id="Resource_5dfjb"]
+script = ExtResource("3_edrqk")
+level = 10
+move = 225
+
+[sub_resource type="Resource" id="Resource_loq2b"]
+script = ExtResource("3_edrqk")
+level = 15
+move = 29
+
+[sub_resource type="Resource" id="Resource_08606"]
+script = ExtResource("3_edrqk")
+level = 20
+move = 184
+
+[sub_resource type="Resource" id="Resource_cwjrj"]
+script = ExtResource("3_edrqk")
+level = 25
+move = 242
+
+[sub_resource type="Resource" id="Resource_e08ax"]
+script = ExtResource("3_edrqk")
+level = 31
+move = 337
+
+[sub_resource type="Resource" id="Resource_mnskh"]
+script = ExtResource("3_edrqk")
+level = 35
+move = 428
+
+[sub_resource type="Resource" id="Resource_bpi22"]
+script = ExtResource("3_edrqk")
+level = 40
+move = 116
+
+[sub_resource type="Resource" id="Resource_kib6x"]
+script = ExtResource("3_edrqk")
+level = 45
+move = 53
+
+[sub_resource type="Resource" id="Resource_8gwui"]
+script = ExtResource("3_edrqk")
+level = 50
+move = 200
+
+[sub_resource type="Resource" id="Resource_g02xq"]
+script = ExtResource("3_edrqk")
+level = 55
+move = 38
+
+[resource]
+script = ExtResource("4_b6m83")
+id = 371
+display_name = "Bagon"
+category = "Rock Head"
+national_dex = 371
+pokedex = "Although it is small, this Pokémon is very
+powerful because its body is a bundle of
+muscles. It launches head-butts with its
+ironlike skull."
+type_1 = 17
+base_hp = 45
+base_atk = 75
+base_def = 60
+base_spa = 40
+base_spd = 30
+base_spe = 50
+ev_atk = 1
+base_exp = 60
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 14
+ability_1 = 69
+ability_hidden = 125
+item_rare = 439
+height_dm = 6
+weight_hg = 421
+body_color = 1
+level_moves = Array[ExtResource("3_edrqk")]([SubResource("Resource_uh5ky"), SubResource("Resource_ky7li"), SubResource("Resource_lo2ob"), SubResource("Resource_5dfjb"), SubResource("Resource_loq2b"), SubResource("Resource_08606"), SubResource("Resource_cwjrj"), SubResource("Resource_e08ax"), SubResource("Resource_mnskh"), SubResource("Resource_bpi22"), SubResource("Resource_kib6x"), SubResource("Resource_8gwui"), SubResource("Resource_g02xq")])
+egg_moves = Array[int]([56, 37, 82, 239, 349, 424, 407, 406, 203, 111])
+evolutions = Array[ExtResource("1_mduil")]([SubResource("Resource_ul2p5")])

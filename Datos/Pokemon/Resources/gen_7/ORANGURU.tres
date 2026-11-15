@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dxkwpn85m6k2x"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8hyti"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_xwyig"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nlypk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ex84r"]
+
+[sub_resource type="Resource" id="Resource_7iioa"]
+script = ExtResource("3_nlypk")
+move = 93
+
+[sub_resource type="Resource" id="Resource_god3u"]
+script = ExtResource("3_nlypk")
+move = 269
+
+[sub_resource type="Resource" id="Resource_rtpgu"]
+script = ExtResource("3_nlypk")
+level = 5
+move = 495
+
+[sub_resource type="Resource" id="Resource_aspfa"]
+script = ExtResource("3_nlypk")
+level = 10
+move = 347
+
+[sub_resource type="Resource" id="Resource_aew55"]
+script = ExtResource("3_nlypk")
+level = 15
+move = 500
+
+[sub_resource type="Resource" id="Resource_67wqa"]
+script = ExtResource("3_nlypk")
+level = 20
+move = 244
+
+[sub_resource type="Resource" id="Resource_rs76l"]
+script = ExtResource("3_nlypk")
+level = 25
+move = 511
+
+[sub_resource type="Resource" id="Resource_kf0h2"]
+script = ExtResource("3_nlypk")
+level = 30
+move = 417
+
+[sub_resource type="Resource" id="Resource_6bjcc"]
+script = ExtResource("3_nlypk")
+level = 35
+move = 428
+
+[sub_resource type="Resource" id="Resource_u42bv"]
+script = ExtResource("3_nlypk")
+level = 40
+move = 433
+
+[sub_resource type="Resource" id="Resource_6wm2r"]
+script = ExtResource("3_nlypk")
+level = 45
+move = 94
+
+[sub_resource type="Resource" id="Resource_5o3g7"]
+script = ExtResource("3_nlypk")
+level = 50
+move = 652
+
+[sub_resource type="Resource" id="Resource_wl0dc"]
+script = ExtResource("3_nlypk")
+level = 55
+move = 492
+
+[sub_resource type="Resource" id="Resource_ns7pc"]
+script = ExtResource("3_nlypk")
+level = 60
+move = 248
+
+[resource]
+script = ExtResource("4_ex84r")
+id = 765
+display_name = "Oranguru"
+category = "Sage"
+national_dex = 765
+pokedex = "Deep in the jungle, high in the lofty
+canopy, this Pokémon abides. On rare
+occasions, it shows up at the beach to
+match wits with Slowking."
+type_1 = 1
+type_2 = 15
+base_hp = 90
+base_atk = 60
+base_def = 80
+base_spa = 90
+base_spd = 110
+base_spe = 60
+ev_spd = 2
+base_exp = 172
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 39
+ability_2 = 140
+ability_hidden = 180
+height_dm = 15
+weight_hg = 760
+body_color = 8
+level_moves = Array[ExtResource("3_nlypk")]([SubResource("Resource_7iioa"), SubResource("Resource_god3u"), SubResource("Resource_rtpgu"), SubResource("Resource_aspfa"), SubResource("Resource_aew55"), SubResource("Resource_67wqa"), SubResource("Resource_rs76l"), SubResource("Resource_kf0h2"), SubResource("Resource_6bjcc"), SubResource("Resource_u42bv"), SubResource("Resource_6wm2r"), SubResource("Resource_5o3g7"), SubResource("Resource_wl0dc"), SubResource("Resource_ns7pc")])
+egg_moves = Array[int]([326, 472, 641])

@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://djr2bg0y4sqyt"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_2imyp"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_a86sw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ovpkn"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tqtyn"]
+
+[sub_resource type="Resource" id="Resource_nwlss"]
+script = ExtResource("3_ovpkn")
+level = 0
+move = 163
+
+[sub_resource type="Resource" id="Resource_yb4o0"]
+script = ExtResource("3_ovpkn")
+move = 163
+
+[sub_resource type="Resource" id="Resource_ph2un"]
+script = ExtResource("3_ovpkn")
+move = 400
+
+[sub_resource type="Resource" id="Resource_4m56g"]
+script = ExtResource("3_ovpkn")
+move = 453
+
+[sub_resource type="Resource" id="Resource_7pfkb"]
+script = ExtResource("3_ovpkn")
+move = 43
+
+[sub_resource type="Resource" id="Resource_nb2lg"]
+script = ExtResource("3_ovpkn")
+move = 305
+
+[sub_resource type="Resource" id="Resource_m5k6v"]
+script = ExtResource("3_ovpkn")
+move = 116
+
+[sub_resource type="Resource" id="Resource_b8wep"]
+script = ExtResource("3_ovpkn")
+level = 12
+move = 184
+
+[sub_resource type="Resource" id="Resource_tbavc"]
+script = ExtResource("3_ovpkn")
+level = 16
+move = 44
+
+[sub_resource type="Resource" id="Resource_ft6f6"]
+script = ExtResource("3_ovpkn")
+level = 20
+move = 423
+
+[sub_resource type="Resource" id="Resource_5niea"]
+script = ExtResource("3_ovpkn")
+level = 24
+move = 103
+
+[sub_resource type="Resource" id="Resource_salg1"]
+script = ExtResource("3_ovpkn")
+level = 28
+move = 207
+
+[sub_resource type="Resource" id="Resource_ay5m6"]
+script = ExtResource("3_ovpkn")
+level = 34
+move = 242
+
+[sub_resource type="Resource" id="Resource_r1h8f"]
+script = ExtResource("3_ovpkn")
+level = 40
+move = 97
+
+[sub_resource type="Resource" id="Resource_pukt8"]
+script = ExtResource("3_ovpkn")
+level = 46
+move = 664
+
+[sub_resource type="Resource" id="Resource_goteb"]
+script = ExtResource("3_ovpkn")
+level = 52
+move = 36
+
+[resource]
+script = ExtResource("4_tqtyn")
+id = 936
+display_name = "Sharpedo"
+category = "Brutal"
+national_dex = 319
+pokedex = "The yellow patterns it bears are old scars.
+The energy from Mega Evolution runs
+through them, causing it sharp pain and
+suffering."
+type_1 = 12
+type_2 = 18
+base_hp = 70
+base_atk = 140
+base_def = 70
+base_spa = 110
+base_spd = 65
+base_spe = 105
+ev_atk = 2
+catch_rate = 60
+base_exp = 196
+base_friendship = 35
+growth_rate = 5
+egg_group_1 = 12
+ability_1 = 173
+ability_2 = 173
+ability_hidden = 173
+item_rare = 399
+height_dm = 25
+weight_hg = 1303
+body_color = 1
+level_moves = Array[ExtResource("3_ovpkn")]([SubResource("Resource_nwlss"), SubResource("Resource_yb4o0"), SubResource("Resource_ph2un"), SubResource("Resource_4m56g"), SubResource("Resource_7pfkb"), SubResource("Resource_nb2lg"), SubResource("Resource_m5k6v"), SubResource("Resource_b8wep"), SubResource("Resource_tbavc"), SubResource("Resource_ft6f6"), SubResource("Resource_5niea"), SubResource("Resource_salg1"), SubResource("Resource_ay5m6"), SubResource("Resource_r1h8f"), SubResource("Resource_pukt8"), SubResource("Resource_goteb")])
+form_species = Array[int]([319, 936])

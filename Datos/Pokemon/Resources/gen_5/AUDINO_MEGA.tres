@@ -1,0 +1,124 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://38h7gknwtd7v"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_x31go"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_l01fb"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_roohv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_i5vpc"]
+
+[sub_resource type="Resource" id="Resource_dfwwr"]
+script = ExtResource("3_roohv")
+move = 1
+
+[sub_resource type="Resource" id="Resource_867io"]
+script = ExtResource("3_roohv")
+move = 589
+
+[sub_resource type="Resource" id="Resource_41byd"]
+script = ExtResource("3_roohv")
+level = 4
+move = 574
+
+[sub_resource type="Resource" id="Resource_3jj82"]
+script = ExtResource("3_roohv")
+level = 9
+move = 608
+
+[sub_resource type="Resource" id="Resource_aesfh"]
+script = ExtResource("3_roohv")
+level = 12
+move = 270
+
+[sub_resource type="Resource" id="Resource_022nj"]
+script = ExtResource("3_roohv")
+level = 16
+move = 45
+
+[sub_resource type="Resource" id="Resource_n0uxo"]
+script = ExtResource("3_roohv")
+level = 20
+move = 428
+
+[sub_resource type="Resource" id="Resource_uh5eq"]
+script = ExtResource("3_roohv")
+level = 24
+move = 719
+
+[sub_resource type="Resource" id="Resource_hvmvb"]
+script = ExtResource("3_roohv")
+level = 28
+move = 495
+
+[sub_resource type="Resource" id="Resource_sbkon"]
+script = ExtResource("3_roohv")
+level = 32
+move = 36
+
+[sub_resource type="Resource" id="Resource_0jsjb"]
+script = ExtResource("3_roohv")
+level = 36
+move = 493
+
+[sub_resource type="Resource" id="Resource_6e2js"]
+script = ExtResource("3_roohv")
+level = 40
+move = 304
+
+[sub_resource type="Resource" id="Resource_gjih5"]
+script = ExtResource("3_roohv")
+level = 44
+move = 505
+
+[sub_resource type="Resource" id="Resource_1ixfy"]
+script = ExtResource("3_roohv")
+level = 48
+move = 38
+
+[sub_resource type="Resource" id="Resource_0sent"]
+script = ExtResource("3_roohv")
+level = 52
+move = 494
+
+[sub_resource type="Resource" id="Resource_26j6y"]
+script = ExtResource("3_roohv")
+level = 56
+move = 581
+
+[sub_resource type="Resource" id="Resource_v2utm"]
+script = ExtResource("3_roohv")
+level = 60
+move = 387
+
+[resource]
+script = ExtResource("4_i5vpc")
+id = 951
+display_name = "Audino"
+category = "Hearing"
+national_dex = 531
+pokedex = "Mega Audino emits a soothing pulse from
+its body that reduces hostility in others.
+Anything that comes into contact with its
+second feelers will fall into a deep sleep."
+type_1 = 1
+type_2 = 19
+base_hp = 103
+base_atk = 60
+base_def = 126
+base_spa = 80
+base_spd = 126
+base_spe = 50
+ev_hp = 2
+catch_rate = 255
+base_exp = 425
+growth_rate = 4
+egg_group_1 = 6
+ability_1 = 131
+ability_2 = 131
+ability_hidden = 131
+item_common = 520
+item_rare = 523
+height_dm = 15
+weight_hg = 320
+body_color = 8
+level_moves = Array[ExtResource("3_roohv")]([SubResource("Resource_dfwwr"), SubResource("Resource_867io"), SubResource("Resource_41byd"), SubResource("Resource_3jj82"), SubResource("Resource_aesfh"), SubResource("Resource_022nj"), SubResource("Resource_n0uxo"), SubResource("Resource_uh5eq"), SubResource("Resource_hvmvb"), SubResource("Resource_sbkon"), SubResource("Resource_0jsjb"), SubResource("Resource_6e2js"), SubResource("Resource_gjih5"), SubResource("Resource_1ixfy"), SubResource("Resource_0sent"), SubResource("Resource_26j6y"), SubResource("Resource_v2utm")])
+egg_moves = Array[int]([273, 215, 381, 227, 516, 186, 281, 214, 361, 133, 577])
+form_species = Array[int]([531, 951])

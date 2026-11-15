@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cmd13xpeft6sm"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_lbql0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wwvca"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_topmp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s7s31"]
+
+[sub_resource type="Resource" id="Resource_ktr5h"]
+script = ExtResource("1_lbql0")
+method = "LEVEL"
+param = "16"
+target = 33
+
+[sub_resource type="Resource" id="Resource_fwj7v"]
+script = ExtResource("3_topmp")
+move = 43
+
+[sub_resource type="Resource" id="Resource_tek30"]
+script = ExtResource("3_topmp")
+move = 40
+
+[sub_resource type="Resource" id="Resource_8ix8h"]
+script = ExtResource("3_topmp")
+level = 5
+move = 64
+
+[sub_resource type="Resource" id="Resource_j7lvp"]
+script = ExtResource("3_topmp")
+level = 10
+move = 116
+
+[sub_resource type="Resource" id="Resource_pfwsl"]
+script = ExtResource("3_topmp")
+level = 15
+move = 31
+
+[sub_resource type="Resource" id="Resource_qtonh"]
+script = ExtResource("3_topmp")
+level = 20
+move = 390
+
+[sub_resource type="Resource" id="Resource_uvd7w"]
+script = ExtResource("3_topmp")
+level = 25
+move = 24
+
+[sub_resource type="Resource" id="Resource_bacws"]
+script = ExtResource("3_topmp")
+level = 30
+move = 30
+
+[sub_resource type="Resource" id="Resource_h560r"]
+script = ExtResource("3_topmp")
+level = 35
+move = 270
+
+[sub_resource type="Resource" id="Resource_wgbk1"]
+script = ExtResource("3_topmp")
+level = 40
+move = 92
+
+[sub_resource type="Resource" id="Resource_spvhk"]
+script = ExtResource("3_topmp")
+level = 45
+move = 260
+
+[sub_resource type="Resource" id="Resource_u5arf"]
+script = ExtResource("3_topmp")
+level = 50
+move = 398
+
+[sub_resource type="Resource" id="Resource_hqpki"]
+script = ExtResource("3_topmp")
+level = 55
+move = 414
+
+[resource]
+script = ExtResource("4_s7s31")
+id = 32
+display_name = "Nidoran♂"
+category = "Poison Pin"
+national_dex = 32
+pokedex = "The male Nidoran has developed muscles
+that freely move its ears in any direction.
+Even the slightest sound does not escape
+this Pokémon's notice."
+type_1 = 4
+base_hp = 46
+base_atk = 57
+base_def = 40
+base_spa = 40
+base_spd = 40
+base_spe = 50
+ev_atk = 1
+catch_rate = 235
+base_exp = 55
+gender_ratio = 0
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 5
+ability_1 = 38
+ability_hidden = 55
+height_dm = 5
+weight_hg = 90
+body_color = 6
+level_moves = Array[ExtResource("3_topmp")]([SubResource("Resource_fwj7v"), SubResource("Resource_tek30"), SubResource("Resource_8ix8h"), SubResource("Resource_j7lvp"), SubResource("Resource_pfwsl"), SubResource("Resource_qtonh"), SubResource("Resource_uvd7w"), SubResource("Resource_bacws"), SubResource("Resource_h560r"), SubResource("Resource_wgbk1"), SubResource("Resource_spvhk"), SubResource("Resource_u5arf"), SubResource("Resource_hqpki")])
+egg_moves = Array[int]([68, 50, 48, 36, 133, 93, 251, 389, 457, 231, 342, 203, 498, 599])
+evolutions = Array[ExtResource("1_lbql0")]([SubResource("Resource_ktr5h")])

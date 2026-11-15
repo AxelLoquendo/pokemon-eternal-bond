@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bql1vwukfrij4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_5ijjx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ufcpd"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_t8wvt"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_74sal"]
+
+[sub_resource type="Resource" id="Resource_um3lx"]
+script = ExtResource("1_5ijjx")
+method = "LEVEL"
+param = "24"
+target = 1304
+
+[sub_resource type="Resource" id="Resource_qw0mh"]
+script = ExtResource("3_t8wvt")
+move = 33
+
+[sub_resource type="Resource" id="Resource_f01vk"]
+script = ExtResource("3_t8wvt")
+move = 43
+
+[sub_resource type="Resource" id="Resource_qnwcg"]
+script = ExtResource("3_t8wvt")
+level = 4
+move = 522
+
+[sub_resource type="Resource" id="Resource_5mfov"]
+script = ExtResource("3_t8wvt")
+level = 6
+move = 310
+
+[sub_resource type="Resource" id="Resource_bus3w"]
+script = ExtResource("3_t8wvt")
+level = 9
+move = 372
+
+[sub_resource type="Resource" id="Resource_yb2tt"]
+script = ExtResource("3_t8wvt")
+level = 11
+move = 24
+
+[sub_resource type="Resource" id="Resource_rcepm"]
+script = ExtResource("3_t8wvt")
+level = 14
+move = 103
+
+[sub_resource type="Resource" id="Resource_7t6o0"]
+script = ExtResource("3_t8wvt")
+level = 18
+move = 203
+
+[sub_resource type="Resource" id="Resource_j0v6i"]
+script = ExtResource("3_t8wvt")
+level = 22
+move = 450
+
+[sub_resource type="Resource" id="Resource_s7duy"]
+script = ExtResource("3_t8wvt")
+level = 26
+move = 364
+
+[sub_resource type="Resource" id="Resource_nl2ca"]
+script = ExtResource("3_t8wvt")
+level = 30
+move = 97
+
+[sub_resource type="Resource" id="Resource_mo5bp"]
+script = ExtResource("3_t8wvt")
+level = 38
+move = 389
+
+[sub_resource type="Resource" id="Resource_aq0r5"]
+script = ExtResource("3_t8wvt")
+level = 41
+move = 623
+
+[resource]
+script = ExtResource("4_74sal")
+id = 1303
+display_name = "Nymble"
+category = "Grasshopper"
+national_dex = 919
+pokedex = "It has its third set of legs folded
+up. When it's in a tough spot, this
+Pokémon jumps over 30 feet using the
+strength of its legs."
+type_1 = 7
+base_hp = 33
+base_atk = 46
+base_def = 40
+base_spa = 21
+base_spd = 25
+base_spe = 45
+ev_atk = 1
+catch_rate = 190
+base_exp = 42
+base_friendship = 20
+egg_group_1 = 3
+ability_1 = 68
+ability_hidden = 110
+height_dm = 2
+weight_hg = 10
+body_color = 7
+level_moves = Array[ExtResource("3_t8wvt")]([SubResource("Resource_qw0mh"), SubResource("Resource_f01vk"), SubResource("Resource_qnwcg"), SubResource("Resource_5mfov"), SubResource("Resource_bus3w"), SubResource("Resource_yb2tt"), SubResource("Resource_rcepm"), SubResource("Resource_7t6o0"), SubResource("Resource_j0v6i"), SubResource("Resource_s7duy"), SubResource("Resource_nl2ca"), SubResource("Resource_mo5bp"), SubResource("Resource_aq0r5")])
+egg_moves = Array[int]([68, 734])
+evolutions = Array[ExtResource("1_5ijjx")]([SubResource("Resource_um3lx")])

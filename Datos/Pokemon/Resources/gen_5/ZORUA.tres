@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://pcvh5a3y3chk"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_17pn4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_aqth2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_r5w3j"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1e7qs"]
+
+[sub_resource type="Resource" id="Resource_l0oxq"]
+script = ExtResource("1_17pn4")
+method = "LEVEL"
+param = "30"
+target = 571
+
+[sub_resource type="Resource" id="Resource_scofa"]
+script = ExtResource("3_r5w3j")
+move = 10
+
+[sub_resource type="Resource" id="Resource_qkcyj"]
+script = ExtResource("3_r5w3j")
+move = 43
+
+[sub_resource type="Resource" id="Resource_1vxao"]
+script = ExtResource("3_r5w3j")
+level = 4
+move = 259
+
+[sub_resource type="Resource" id="Resource_2ut8a"]
+script = ExtResource("3_r5w3j")
+level = 8
+move = 468
+
+[sub_resource type="Resource" id="Resource_j64is"]
+script = ExtResource("3_r5w3j")
+level = 12
+move = 154
+
+[sub_resource type="Resource" id="Resource_wb3f5"]
+script = ExtResource("3_r5w3j")
+level = 16
+move = 184
+
+[sub_resource type="Resource" id="Resource_jgait"]
+script = ExtResource("3_r5w3j")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_vvl84"]
+script = ExtResource("3_r5w3j")
+level = 24
+move = 282
+
+[sub_resource type="Resource" id="Resource_6gij4"]
+script = ExtResource("3_r5w3j")
+level = 28
+move = 313
+
+[sub_resource type="Resource" id="Resource_1f246"]
+script = ExtResource("3_r5w3j")
+level = 32
+move = 97
+
+[sub_resource type="Resource" id="Resource_pjref"]
+script = ExtResource("3_r5w3j")
+level = 36
+move = 286
+
+[sub_resource type="Resource" id="Resource_e2lrw"]
+script = ExtResource("3_r5w3j")
+level = 40
+move = 539
+
+[sub_resource type="Resource" id="Resource_kjng4"]
+script = ExtResource("3_r5w3j")
+level = 44
+move = 417
+
+[sub_resource type="Resource" id="Resource_vvhnc"]
+script = ExtResource("3_r5w3j")
+level = 48
+move = 492
+
+[resource]
+script = ExtResource("4_1e7qs")
+id = 570
+display_name = "Zorua"
+category = "Tricky Fox"
+national_dex = 570
+pokedex = "To protect themselves from danger, they
+hide their true identities by transforming
+into people and Pokémon. Apparently, it
+often transforms into a silent child."
+type_1 = 18
+base_hp = 40
+base_atk = 65
+base_def = 40
+base_spa = 80
+base_spd = 40
+base_spe = 65
+ev_spa = 1
+catch_rate = 75
+base_exp = 66
+gender_ratio = 31
+growth_rate = 3
+egg_cycles = 25
+egg_group_1 = 5
+ability_1 = 149
+height_dm = 7
+weight_hg = 125
+body_color = 7
+level_moves = Array[ExtResource("3_r5w3j")]([SubResource("Resource_scofa"), SubResource("Resource_qkcyj"), SubResource("Resource_1vxao"), SubResource("Resource_2ut8a"), SubResource("Resource_j64is"), SubResource("Resource_wb3f5"), SubResource("Resource_jgait"), SubResource("Resource_vvl84"), SubResource("Resource_6gij4"), SubResource("Resource_1f246"), SubResource("Resource_pjref"), SubResource("Resource_e2lrw"), SubResource("Resource_kjng4"), SubResource("Resource_vvhnc")])
+egg_moves = Array[int]([197, 445, 399, 289, 262, 389, 326, 68, 383])
+evolutions = Array[ExtResource("1_17pn4")]([SubResource("Resource_l0oxq")])
+form_species = Array[int]([570, 1002])

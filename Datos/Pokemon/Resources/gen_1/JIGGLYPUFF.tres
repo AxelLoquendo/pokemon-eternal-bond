@@ -1,0 +1,138 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dan2lgxu1yelm"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xba2u"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3ipmx"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mnalf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1t1r3"]
+
+[sub_resource type="Resource" id="Resource_ot8hm"]
+script = ExtResource("1_xba2u")
+method = "ITEM"
+param = "ITEM_MOON_STONE"
+target = 40
+
+[sub_resource type="Resource" id="Resource_ub5ct"]
+script = ExtResource("3_mnalf")
+move = 574
+
+[sub_resource type="Resource" id="Resource_7ypy3"]
+script = ExtResource("3_mnalf")
+move = 383
+
+[sub_resource type="Resource" id="Resource_xjqvj"]
+script = ExtResource("3_mnalf")
+move = 186
+
+[sub_resource type="Resource" id="Resource_ix6y1"]
+script = ExtResource("3_mnalf")
+move = 111
+
+[sub_resource type="Resource" id="Resource_t3h1s"]
+script = ExtResource("3_mnalf")
+move = 204
+
+[sub_resource type="Resource" id="Resource_c7k6p"]
+script = ExtResource("3_mnalf")
+move = 47
+
+[sub_resource type="Resource" id="Resource_r3823"]
+script = ExtResource("3_mnalf")
+move = 50
+
+[sub_resource type="Resource" id="Resource_t3ltr"]
+script = ExtResource("3_mnalf")
+move = 1
+
+[sub_resource type="Resource" id="Resource_a6y3i"]
+script = ExtResource("3_mnalf")
+level = 4
+move = 497
+
+[sub_resource type="Resource" id="Resource_3ssji"]
+script = ExtResource("3_mnalf")
+level = 8
+move = 343
+
+[sub_resource type="Resource" id="Resource_hhf2c"]
+script = ExtResource("3_mnalf")
+level = 12
+move = 254
+
+[sub_resource type="Resource" id="Resource_5q8c8"]
+script = ExtResource("3_mnalf")
+level = 12
+move = 255
+
+[sub_resource type="Resource" id="Resource_pv8ps"]
+script = ExtResource("3_mnalf")
+level = 12
+move = 256
+
+[sub_resource type="Resource" id="Resource_fgsva"]
+script = ExtResource("3_mnalf")
+level = 16
+move = 496
+
+[sub_resource type="Resource" id="Resource_cchju"]
+script = ExtResource("3_mnalf")
+level = 20
+move = 156
+
+[sub_resource type="Resource" id="Resource_vw84a"]
+script = ExtResource("3_mnalf")
+level = 24
+move = 34
+
+[sub_resource type="Resource" id="Resource_7daf6"]
+script = ExtResource("3_mnalf")
+level = 28
+move = 102
+
+[sub_resource type="Resource" id="Resource_5gbtq"]
+script = ExtResource("3_mnalf")
+level = 32
+move = 360
+
+[sub_resource type="Resource" id="Resource_b3cec"]
+script = ExtResource("3_mnalf")
+level = 36
+move = 304
+
+[sub_resource type="Resource" id="Resource_wvf1i"]
+script = ExtResource("3_mnalf")
+level = 44
+move = 38
+
+[resource]
+script = ExtResource("4_1t1r3")
+id = 39
+display_name = "Jigglypuff"
+category = "Balloon"
+national_dex = 39
+pokedex = "Nothing can avoid falling asleep hearing a
+Jigglypuff's song. The sound waves of its
+singing voice match the brain waves of
+someone in a deep sleep."
+type_1 = 1
+base_hp = 115
+base_atk = 45
+base_def = 20
+base_spa = 45
+base_spd = 25
+base_spe = 20
+ev_hp = 2
+catch_rate = 170
+base_exp = 95
+gender_ratio = 191
+growth_rate = 4
+egg_cycles = 10
+egg_group_1 = 6
+ability_1 = 56
+ability_hidden = 132
+item_rare = 217
+height_dm = 5
+weight_hg = 55
+body_color = 9
+no_flip = true
+level_moves = Array[ExtResource("3_mnalf")]([SubResource("Resource_ub5ct"), SubResource("Resource_7ypy3"), SubResource("Resource_xjqvj"), SubResource("Resource_ix6y1"), SubResource("Resource_t3h1s"), SubResource("Resource_c7k6p"), SubResource("Resource_r3823"), SubResource("Resource_t3ltr"), SubResource("Resource_a6y3i"), SubResource("Resource_3ssji"), SubResource("Resource_hhf2c"), SubResource("Resource_5q8c8"), SubResource("Resource_pv8ps"), SubResource("Resource_fgsva"), SubResource("Resource_cchju"), SubResource("Resource_vw84a"), SubResource("Resource_7daf6"), SubResource("Resource_5gbtq"), SubResource("Resource_b3cec"), SubResource("Resource_wvf1i")])
+evolutions = Array[ExtResource("1_xba2u")]([SubResource("Resource_ot8hm")])

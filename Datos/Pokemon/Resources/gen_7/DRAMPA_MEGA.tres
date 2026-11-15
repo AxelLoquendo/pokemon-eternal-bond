@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dhmtuvnic2c7b"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cjvad"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_oujjx"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gksqv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nnoy4"]
+
+[sub_resource type="Resource" id="Resource_q4bni"]
+script = ExtResource("3_gksqv")
+move = 589
+
+[sub_resource type="Resource" id="Resource_su1q0"]
+script = ExtResource("3_gksqv")
+move = 497
+
+[sub_resource type="Resource" id="Resource_8xvsh"]
+script = ExtResource("3_gksqv")
+level = 5
+move = 239
+
+[sub_resource type="Resource" id="Resource_oe7x0"]
+script = ExtResource("3_gksqv")
+level = 10
+move = 182
+
+[sub_resource type="Resource" id="Resource_dv5c2"]
+script = ExtResource("3_gksqv")
+level = 15
+move = 137
+
+[sub_resource type="Resource" id="Resource_nsv7p"]
+script = ExtResource("3_gksqv")
+level = 20
+move = 219
+
+[sub_resource type="Resource" id="Resource_jmeau"]
+script = ExtResource("3_gksqv")
+level = 25
+move = 225
+
+[sub_resource type="Resource" id="Resource_xbk27"]
+script = ExtResource("3_gksqv")
+level = 30
+move = 326
+
+[sub_resource type="Resource" id="Resource_vpxdx"]
+script = ExtResource("3_gksqv")
+level = 35
+move = 406
+
+[sub_resource type="Resource" id="Resource_gtho8"]
+script = ExtResource("3_gksqv")
+level = 40
+move = 113
+
+[sub_resource type="Resource" id="Resource_u73ux"]
+script = ExtResource("3_gksqv")
+level = 45
+move = 19
+
+[sub_resource type="Resource" id="Resource_cvlmv"]
+script = ExtResource("3_gksqv")
+level = 50
+move = 304
+
+[sub_resource type="Resource" id="Resource_oq572"]
+script = ExtResource("3_gksqv")
+level = 55
+move = 200
+
+[resource]
+script = ExtResource("4_nnoy4")
+id = 1548
+display_name = "Drampa"
+category = "Imposing"
+national_dex = 780
+pokedex = "Drampa's cells have been
+invigorated, allowing it to regain
+its youth. It manipulates the
+atmosphere to summon storms."
+type_1 = 1
+type_2 = 17
+base_hp = 78
+base_atk = 85
+base_def = 110
+base_spa = 160
+base_spd = 116
+base_spe = 36
+ev_spa = 2
+catch_rate = 70
+base_exp = 170
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 201
+ability_2 = 201
+ability_hidden = 201
+item_rare = 521
+height_dm = 3
+weight_hg = 2405
+body_color = 4
+level_moves = Array[ExtResource("3_gksqv")]([SubResource("Resource_q4bni"), SubResource("Resource_su1q0"), SubResource("Resource_8xvsh"), SubResource("Resource_oe7x0"), SubResource("Resource_dv5c2"), SubResource("Resource_nsv7p"), SubResource("Resource_jmeau"), SubResource("Resource_xbk27"), SubResource("Resource_vpxdx"), SubResource("Resource_gtho8"), SubResource("Resource_u73ux"), SubResource("Resource_cvlmv"), SubResource("Resource_oq572")])
+form_species = Array[int]([780, 1548])

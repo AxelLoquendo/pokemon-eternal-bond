@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qmfat10m68eh"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_lgrds"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rs36v"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3aa45"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_h8mxm"]
+
+[sub_resource type="Resource" id="Resource_m0yo8"]
+script = ExtResource("3_3aa45")
+move = 55
+
+[sub_resource type="Resource" id="Resource_tqn6b"]
+script = ExtResource("3_3aa45")
+move = 105
+
+[sub_resource type="Resource" id="Resource_7jhe6"]
+script = ExtResource("3_3aa45")
+move = 106
+
+[sub_resource type="Resource" id="Resource_cnirm"]
+script = ExtResource("3_3aa45")
+move = 189
+
+[sub_resource type="Resource" id="Resource_ashh3"]
+script = ExtResource("3_3aa45")
+level = 15
+move = 352
+
+[sub_resource type="Resource" id="Resource_hn3aw"]
+script = ExtResource("3_3aa45")
+level = 20
+move = 246
+
+[sub_resource type="Resource" id="Resource_wamip"]
+script = ExtResource("3_3aa45")
+level = 25
+move = 34
+
+[sub_resource type="Resource" id="Resource_mlx3e"]
+script = ExtResource("3_3aa45")
+level = 33
+move = 330
+
+[sub_resource type="Resource" id="Resource_4pr8m"]
+script = ExtResource("3_3aa45")
+level = 39
+move = 414
+
+[sub_resource type="Resource" id="Resource_sdv2b"]
+script = ExtResource("3_3aa45")
+level = 46
+move = 240
+
+[sub_resource type="Resource" id="Resource_bo3pb"]
+script = ExtResource("3_3aa45")
+level = 53
+move = 262
+
+[resource]
+script = ExtResource("4_h8mxm")
+id = 423
+display_name = "Gastrodon"
+category = "Sea Slug"
+national_dex = 423
+pokedex = "It appears on shallow-water beaches to
+eat sand for nourishment. Should one
+Gastrodon encounter another of a
+different color, a fierce battle will ensue."
+type_1 = 12
+type_2 = 5
+base_hp = 111
+base_atk = 83
+base_def = 68
+base_spa = 92
+base_spd = 82
+base_spe = 39
+ev_hp = 2
+catch_rate = 75
+base_exp = 166
+egg_group_1 = 2
+egg_group_2 = 11
+ability_1 = 60
+ability_2 = 114
+ability_hidden = 159
+height_dm = 9
+weight_hg = 299
+body_color = 6
+level_moves = Array[ExtResource("3_3aa45")]([SubResource("Resource_m0yo8"), SubResource("Resource_tqn6b"), SubResource("Resource_7jhe6"), SubResource("Resource_cnirm"), SubResource("Resource_ashh3"), SubResource("Resource_hn3aw"), SubResource("Resource_wamip"), SubResource("Resource_mlx3e"), SubResource("Resource_4pr8m"), SubResource("Resource_sdv2b"), SubResource("Resource_bo3pb")])
+form_species = Array[int]([423, 1063])

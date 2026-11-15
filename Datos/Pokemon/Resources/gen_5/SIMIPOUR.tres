@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://8a6qomvkddl4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0vive"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_k5a7w"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6hvoe"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_15bo5"]
+
+[sub_resource type="Resource" id="Resource_x5n5t"]
+script = ExtResource("3_6hvoe")
+move = 43
+
+[sub_resource type="Resource" id="Resource_buo5j"]
+script = ExtResource("3_6hvoe")
+move = 122
+
+[sub_resource type="Resource" id="Resource_ibkg5"]
+script = ExtResource("3_6hvoe")
+move = 154
+
+[sub_resource type="Resource" id="Resource_r5mjw"]
+script = ExtResource("3_6hvoe")
+move = 503
+
+[resource]
+script = ExtResource("4_15bo5")
+id = 516
+display_name = "Simipour"
+category = "Geyser"
+national_dex = 516
+pokedex = "It can shoot highly-pressurised water
+from its tail with enough power to
+break through a solid concrete wall.
+It prefers places with clean water."
+type_1 = 12
+base_hp = 75
+base_atk = 98
+base_def = 63
+base_spa = 98
+base_spd = 63
+base_spe = 101
+ev_spe = 2
+catch_rate = 75
+base_exp = 174
+gender_ratio = 31
+egg_group_1 = 5
+ability_1 = 82
+ability_hidden = 67
+height_dm = 10
+weight_hg = 290
+body_color = 1
+level_moves = Array[ExtResource("3_6hvoe")]([SubResource("Resource_x5n5t"), SubResource("Resource_buo5j"), SubResource("Resource_ibkg5"), SubResource("Resource_r5mjw")])

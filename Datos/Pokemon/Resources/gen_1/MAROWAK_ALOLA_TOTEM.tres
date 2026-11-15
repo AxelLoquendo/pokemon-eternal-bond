@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dh6ms3dua2kqh"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_78vm5"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_udfxj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7ytaf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_oqrvm"]
+
+[sub_resource type="Resource" id="Resource_pgvs0"]
+script = ExtResource("3_7ytaf")
+level = 0
+move = 662
+
+[sub_resource type="Resource" id="Resource_j4xbi"]
+script = ExtResource("3_7ytaf")
+move = 206
+
+[sub_resource type="Resource" id="Resource_likfu"]
+script = ExtResource("3_7ytaf")
+move = 29
+
+[sub_resource type="Resource" id="Resource_ct6fk"]
+script = ExtResource("3_7ytaf")
+move = 514
+
+[sub_resource type="Resource" id="Resource_mqatl"]
+script = ExtResource("3_7ytaf")
+move = 116
+
+[sub_resource type="Resource" id="Resource_bfcjj"]
+script = ExtResource("3_7ytaf")
+move = 38
+
+[sub_resource type="Resource" id="Resource_0w7h6"]
+script = ExtResource("3_7ytaf")
+move = 189
+
+[sub_resource type="Resource" id="Resource_1qwm5"]
+script = ExtResource("3_7ytaf")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ws3cf"]
+script = ExtResource("3_7ytaf")
+move = 39
+
+[sub_resource type="Resource" id="Resource_ohb2m"]
+script = ExtResource("3_7ytaf")
+move = 83
+
+[sub_resource type="Resource" id="Resource_nutpx"]
+script = ExtResource("3_7ytaf")
+level = 12
+move = 172
+
+[sub_resource type="Resource" id="Resource_i1jtu"]
+script = ExtResource("3_7ytaf")
+level = 16
+move = 506
+
+[sub_resource type="Resource" id="Resource_ibgou"]
+script = ExtResource("3_7ytaf")
+level = 20
+move = 374
+
+[sub_resource type="Resource" id="Resource_pf6bs"]
+script = ExtResource("3_7ytaf")
+level = 24
+move = 661
+
+[sub_resource type="Resource" id="Resource_83myp"]
+script = ExtResource("3_7ytaf")
+level = 31
+move = 198
+
+[sub_resource type="Resource" id="Resource_clwlg"]
+script = ExtResource("3_7ytaf")
+level = 36
+move = 261
+
+[sub_resource type="Resource" id="Resource_qqnl3"]
+script = ExtResource("3_7ytaf")
+level = 42
+move = 283
+
+[sub_resource type="Resource" id="Resource_33tfi"]
+script = ExtResource("3_7ytaf")
+level = 48
+move = 155
+
+[sub_resource type="Resource" id="Resource_ep3af"]
+script = ExtResource("3_7ytaf")
+level = 54
+move = 37
+
+[sub_resource type="Resource" id="Resource_727n0"]
+script = ExtResource("3_7ytaf")
+level = 60
+move = 394
+
+[resource]
+script = ExtResource("4_oqrvm")
+id = 1483
+display_name = "Marowak"
+category = "Bone Keeper"
+national_dex = 105
+type_1 = 11
+type_2 = 8
+base_hp = 60
+base_atk = 80
+base_def = 110
+base_spa = 50
+base_spd = 80
+base_spe = 45
+ev_def = 2
+catch_rate = 75
+base_exp = 149
+egg_group_1 = 1
+ability_1 = 69
+item_rare = 394
+height_dm = 17
+weight_hg = 980
+body_color = 6
+level_moves = Array[ExtResource("3_7ytaf")]([SubResource("Resource_pgvs0"), SubResource("Resource_j4xbi"), SubResource("Resource_likfu"), SubResource("Resource_ct6fk"), SubResource("Resource_mqatl"), SubResource("Resource_bfcjj"), SubResource("Resource_0w7h6"), SubResource("Resource_1qwm5"), SubResource("Resource_ws3cf"), SubResource("Resource_ohb2m"), SubResource("Resource_nutpx"), SubResource("Resource_i1jtu"), SubResource("Resource_ibgou"), SubResource("Resource_pf6bs"), SubResource("Resource_83myp"), SubResource("Resource_clwlg"), SubResource("Resource_qqnl3"), SubResource("Resource_33tfi"), SubResource("Resource_ep3af"), SubResource("Resource_727n0")])
+form_species = Array[int]([105, 973, 1483])

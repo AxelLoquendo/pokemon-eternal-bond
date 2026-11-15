@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b4xrl3lwpjuc1"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_u6b0m"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_d80xy"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_d305a"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_lx52d"]
+
+[sub_resource type="Resource" id="Resource_qqgff"]
+script = ExtResource("3_d305a")
+move = 479
+
+[sub_resource type="Resource" id="Resource_2lwyf"]
+script = ExtResource("3_d305a")
+move = 328
+
+[sub_resource type="Resource" id="Resource_rpd8k"]
+script = ExtResource("3_d305a")
+level = 5
+move = 43
+
+[sub_resource type="Resource" id="Resource_rwh8g"]
+script = ExtResource("3_d305a")
+level = 10
+move = 335
+
+[sub_resource type="Resource" id="Resource_o730b"]
+script = ExtResource("3_d305a")
+level = 15
+move = 523
+
+[sub_resource type="Resource" id="Resource_1egq0"]
+script = ExtResource("3_d305a")
+level = 20
+move = 317
+
+[sub_resource type="Resource" id="Resource_0uale"]
+script = ExtResource("3_d305a")
+level = 30
+move = 286
+
+[sub_resource type="Resource" id="Resource_36v8w"]
+script = ExtResource("3_d305a")
+level = 35
+move = 157
+
+[sub_resource type="Resource" id="Resource_foqfx"]
+script = ExtResource("3_d305a")
+level = 40
+move = 414
+
+[sub_resource type="Resource" id="Resource_cj5d5"]
+script = ExtResource("3_d305a")
+level = 45
+move = 326
+
+[sub_resource type="Resource" id="Resource_yjmuo"]
+script = ExtResource("3_d305a")
+level = 50
+move = 444
+
+[sub_resource type="Resource" id="Resource_4vq0l"]
+script = ExtResource("3_d305a")
+level = 55
+move = 359
+
+[sub_resource type="Resource" id="Resource_w8taf"]
+script = ExtResource("3_d305a")
+level = 60
+move = 201
+
+[sub_resource type="Resource" id="Resource_0mb3n"]
+script = ExtResource("3_d305a")
+level = 65
+move = 89
+
+[sub_resource type="Resource" id="Resource_ndym8"]
+script = ExtResource("3_d305a")
+level = 70
+move = 200
+
+[sub_resource type="Resource" id="Resource_pigv5"]
+script = ExtResource("3_d305a")
+level = 75
+move = 90
+
+[sub_resource type="Resource" id="Resource_l6lnf"]
+script = ExtResource("3_d305a")
+level = 80
+move = 776
+
+[resource]
+script = ExtResource("4_lx52d")
+id = 645
+display_name = "Landorus"
+category = "Abundance"
+national_dex = 645
+pokedex = "The energy that comes pouring from its
+tail increases the nutrition in the soil,
+granting bountiful crops. It has been
+hailed as “The Guardian of the Fields.”"
+type_1 = 5
+type_2 = 3
+base_hp = 89
+base_atk = 125
+base_def = 90
+base_spa = 115
+base_spd = 80
+base_spe = 101
+ev_spa = 3
+catch_rate = 3
+base_exp = 300
+base_friendship = 90
+gender_ratio = 0
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 159
+ability_hidden = 125
+height_dm = 15
+weight_hg = 680
+body_color = 5
+level_moves = Array[ExtResource("3_d305a")]([SubResource("Resource_qqgff"), SubResource("Resource_2lwyf"), SubResource("Resource_rpd8k"), SubResource("Resource_rwh8g"), SubResource("Resource_o730b"), SubResource("Resource_1egq0"), SubResource("Resource_0uale"), SubResource("Resource_36v8w"), SubResource("Resource_foqfx"), SubResource("Resource_cj5d5"), SubResource("Resource_yjmuo"), SubResource("Resource_4vq0l"), SubResource("Resource_w8taf"), SubResource("Resource_0mb3n"), SubResource("Resource_ndym8"), SubResource("Resource_pigv5"), SubResource("Resource_l6lnf")])
+form_species = Array[int]([645, 1102])

@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bbp5wwkc2520g"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mxi0y"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_i7ndf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_sefr1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ysj2v"]
+
+[sub_resource type="Resource" id="Resource_vxp5q"]
+script = ExtResource("3_sefr1")
+move = 181
+
+[sub_resource type="Resource" id="Resource_0ps5r"]
+script = ExtResource("3_sefr1")
+move = 45
+
+[sub_resource type="Resource" id="Resource_f6tsr"]
+script = ExtResource("3_sefr1")
+move = 227
+
+[sub_resource type="Resource" id="Resource_iawso"]
+script = ExtResource("3_sefr1")
+move = 246
+
+[sub_resource type="Resource" id="Resource_rmj06"]
+script = ExtResource("3_sefr1")
+level = 12
+move = 196
+
+[sub_resource type="Resource" id="Resource_5dbvf"]
+script = ExtResource("3_sefr1")
+level = 16
+move = 496
+
+[sub_resource type="Resource" id="Resource_2rnpq"]
+script = ExtResource("3_sefr1")
+level = 20
+move = 54
+
+[sub_resource type="Resource" id="Resource_d58pr"]
+script = ExtResource("3_sefr1")
+level = 24
+move = 62
+
+[sub_resource type="Resource" id="Resource_7mdlp"]
+script = ExtResource("3_sefr1")
+level = 28
+move = 86
+
+[sub_resource type="Resource" id="Resource_xro33"]
+script = ExtResource("3_sefr1")
+level = 32
+move = 267
+
+[sub_resource type="Resource" id="Resource_d54wn"]
+script = ExtResource("3_sefr1")
+level = 36
+move = 573
+
+[sub_resource type="Resource" id="Resource_wnabl"]
+script = ExtResource("3_sefr1")
+level = 42
+move = 58
+
+[sub_resource type="Resource" id="Resource_jnibb"]
+script = ExtResource("3_sefr1")
+level = 48
+move = 113
+
+[sub_resource type="Resource" id="Resource_7rvt1"]
+script = ExtResource("3_sefr1")
+level = 54
+move = 258
+
+[sub_resource type="Resource" id="Resource_lu240"]
+script = ExtResource("3_sefr1")
+level = 60
+move = 59
+
+[sub_resource type="Resource" id="Resource_0iat5"]
+script = ExtResource("3_sefr1")
+level = 66
+move = 63
+
+[resource]
+script = ExtResource("4_ysj2v")
+id = 699
+display_name = "Aurorus"
+category = "Tundra"
+national_dex = 699
+pokedex = "Using the diamond-shaped crystals on its
+body it can instantly create a wall of ice
+to block an opponent's attack, or encase
+them in ice."
+type_1 = 6
+type_2 = 16
+base_hp = 123
+base_atk = 77
+base_def = 72
+base_spa = 99
+base_spd = 92
+base_spe = 58
+ev_hp = 2
+base_exp = 104
+gender_ratio = 31
+egg_cycles = 30
+egg_group_1 = 1
+ability_1 = 174
+ability_hidden = 117
+height_dm = 27
+weight_hg = 2250
+body_color = 1
+level_moves = Array[ExtResource("3_sefr1")]([SubResource("Resource_vxp5q"), SubResource("Resource_0ps5r"), SubResource("Resource_f6tsr"), SubResource("Resource_iawso"), SubResource("Resource_rmj06"), SubResource("Resource_5dbvf"), SubResource("Resource_2rnpq"), SubResource("Resource_d58pr"), SubResource("Resource_7mdlp"), SubResource("Resource_xro33"), SubResource("Resource_d54wn"), SubResource("Resource_wnabl"), SubResource("Resource_jnibb"), SubResource("Resource_7rvt1"), SubResource("Resource_lu240"), SubResource("Resource_0iat5")])

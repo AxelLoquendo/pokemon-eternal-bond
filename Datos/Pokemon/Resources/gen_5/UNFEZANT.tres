@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://xhh8j74vsvng"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_x7p6i"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ro1w2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6aukt"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_iw08v"]
+
+[sub_resource type="Resource" id="Resource_7kjow"]
+script = ExtResource("3_6aukt")
+move = 16
+
+[sub_resource type="Resource" id="Resource_43bdx"]
+script = ExtResource("3_6aukt")
+move = 45
+
+[sub_resource type="Resource" id="Resource_apndp"]
+script = ExtResource("3_6aukt")
+move = 43
+
+[sub_resource type="Resource" id="Resource_88k8g"]
+script = ExtResource("3_6aukt")
+move = 98
+
+[sub_resource type="Resource" id="Resource_aq6oy"]
+script = ExtResource("3_6aukt")
+level = 12
+move = 269
+
+[sub_resource type="Resource" id="Resource_dx8av"]
+script = ExtResource("3_6aukt")
+level = 16
+move = 314
+
+[sub_resource type="Resource" id="Resource_cothy"]
+script = ExtResource("3_6aukt")
+level = 20
+move = 207
+
+[sub_resource type="Resource" id="Resource_eqjxf"]
+script = ExtResource("3_6aukt")
+level = 26
+move = 297
+
+[sub_resource type="Resource" id="Resource_q4ijs"]
+script = ExtResource("3_6aukt")
+level = 36
+move = 197
+
+[sub_resource type="Resource" id="Resource_flhxe"]
+script = ExtResource("3_6aukt")
+level = 42
+move = 403
+
+[sub_resource type="Resource" id="Resource_s1qwd"]
+script = ExtResource("3_6aukt")
+level = 50
+move = 355
+
+[sub_resource type="Resource" id="Resource_6vrpu"]
+script = ExtResource("3_6aukt")
+level = 58
+move = 366
+
+[sub_resource type="Resource" id="Resource_hv3ub"]
+script = ExtResource("3_6aukt")
+level = 66
+move = 143
+
+[resource]
+script = ExtResource("4_iw08v")
+id = 521
+display_name = "Unfezant"
+category = "Proud"
+national_dex = 521
+pokedex = "Males have plumage on their heads.
+The females' flying abilities surpass
+those of the males. They will only let
+themselves feel close to their Trainers."
+type_1 = 1
+type_2 = 3
+base_hp = 80
+base_atk = 115
+base_def = 80
+base_spa = 65
+base_spd = 55
+base_spe = 93
+ev_atk = 3
+base_exp = 215
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 145
+ability_2 = 105
+ability_hidden = 79
+height_dm = 12
+weight_hg = 290
+body_color = 7
+level_moves = Array[ExtResource("3_6aukt")]([SubResource("Resource_7kjow"), SubResource("Resource_43bdx"), SubResource("Resource_apndp"), SubResource("Resource_88k8g"), SubResource("Resource_aq6oy"), SubResource("Resource_dx8av"), SubResource("Resource_cothy"), SubResource("Resource_eqjxf"), SubResource("Resource_q4ijs"), SubResource("Resource_flhxe"), SubResource("Resource_s1qwd"), SubResource("Resource_6vrpu"), SubResource("Resource_hv3ub")])

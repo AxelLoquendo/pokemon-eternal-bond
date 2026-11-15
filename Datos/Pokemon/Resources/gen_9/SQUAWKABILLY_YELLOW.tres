@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c3aebwsr2uieg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jbnwk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_w2j34"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_80mov"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6bbdw"]
+
+[sub_resource type="Resource" id="Resource_a0nls"]
+script = ExtResource("3_80mov")
+move = 45
+
+[sub_resource type="Resource" id="Resource_q6dni"]
+script = ExtResource("3_80mov")
+move = 64
+
+[sub_resource type="Resource" id="Resource_cfiu5"]
+script = ExtResource("3_80mov")
+move = 102
+
+[sub_resource type="Resource" id="Resource_5fx42"]
+script = ExtResource("3_80mov")
+level = 6
+move = 98
+
+[sub_resource type="Resource" id="Resource_hxcuu"]
+script = ExtResource("3_80mov")
+level = 10
+move = 259
+
+[sub_resource type="Resource" id="Resource_axrdu"]
+script = ExtResource("3_80mov")
+level = 13
+move = 332
+
+[sub_resource type="Resource" id="Resource_x2n1x"]
+script = ExtResource("3_80mov")
+level = 17
+move = 31
+
+[sub_resource type="Resource" id="Resource_useik"]
+script = ExtResource("3_80mov")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_o0pf4"]
+script = ExtResource("3_80mov")
+level = 24
+move = 253
+
+[sub_resource type="Resource" id="Resource_cx7ex"]
+script = ExtResource("3_80mov")
+level = 27
+move = 383
+
+[sub_resource type="Resource" id="Resource_tx4ls"]
+script = ExtResource("3_80mov")
+level = 30
+move = 19
+
+[sub_resource type="Resource" id="Resource_qyn3h"]
+script = ExtResource("3_80mov")
+level = 34
+move = 263
+
+[sub_resource type="Resource" id="Resource_7k0de"]
+script = ExtResource("3_80mov")
+level = 38
+move = 207
+
+[sub_resource type="Resource" id="Resource_gf333"]
+script = ExtResource("3_80mov")
+level = 42
+move = 413
+
+[sub_resource type="Resource" id="Resource_60jwd"]
+script = ExtResource("3_80mov")
+level = 47
+move = 355
+
+[sub_resource type="Resource" id="Resource_4i2en"]
+script = ExtResource("3_80mov")
+level = 52
+move = 179
+
+[resource]
+script = ExtResource("4_6bbdw")
+id = 1318
+display_name = "Squawkabilly"
+category = "Parrot"
+national_dex = 931
+pokedex = "These Squawkabilly are hotheaded,
+and their fighting style is vicious.
+They'll leap within reach of their
+foes to engage in close combat."
+type_1 = 1
+type_2 = 3
+base_hp = 82
+base_atk = 96
+base_def = 51
+base_spa = 45
+base_spd = 51
+base_spe = 92
+ev_atk = 1
+catch_rate = 190
+base_exp = 146
+growth_rate = 1
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 22
+ability_2 = 55
+ability_hidden = 125
+height_dm = 6
+weight_hg = 24
+body_color = 2
+level_moves = Array[ExtResource("3_80mov")]([SubResource("Resource_a0nls"), SubResource("Resource_q6dni"), SubResource("Resource_cfiu5"), SubResource("Resource_5fx42"), SubResource("Resource_hxcuu"), SubResource("Resource_axrdu"), SubResource("Resource_x2n1x"), SubResource("Resource_useik"), SubResource("Resource_o0pf4"), SubResource("Resource_cx7ex"), SubResource("Resource_tx4ls"), SubResource("Resource_qyn3h"), SubResource("Resource_7k0de"), SubResource("Resource_gf333"), SubResource("Resource_60jwd"), SubResource("Resource_4i2en")])
+egg_moves = Array[int]([38, 515, 260, 575])
+form_species = Array[int]([1316, 1317, 1318, 1319])

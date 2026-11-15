@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dnew1qqnapdv3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_755dl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_poi6w"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vhftf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xcyxr"]
+
+[sub_resource type="Resource" id="Resource_x8ucy"]
+script = ExtResource("3_vhftf")
+move = 44
+
+[sub_resource type="Resource" id="Resource_if2sw"]
+script = ExtResource("3_vhftf")
+move = 55
+
+[sub_resource type="Resource" id="Resource_ec8bh"]
+script = ExtResource("3_vhftf")
+move = 450
+
+[sub_resource type="Resource" id="Resource_rotm7"]
+script = ExtResource("3_vhftf")
+move = 469
+
+[sub_resource type="Resource" id="Resource_pi3s4"]
+script = ExtResource("3_vhftf")
+move = 611
+
+[sub_resource type="Resource" id="Resource_fiy5e"]
+script = ExtResource("3_vhftf")
+level = 12
+move = 61
+
+[sub_resource type="Resource" id="Resource_37mmy"]
+script = ExtResource("3_vhftf")
+level = 16
+move = 392
+
+[sub_resource type="Resource" id="Resource_ssagy"]
+script = ExtResource("3_vhftf")
+level = 20
+move = 29
+
+[sub_resource type="Resource" id="Resource_thpbf"]
+script = ExtResource("3_vhftf")
+level = 26
+move = 242
+
+[sub_resource type="Resource" id="Resource_lxfwc"]
+script = ExtResource("3_vhftf")
+level = 32
+move = 487
+
+[sub_resource type="Resource" id="Resource_0olhv"]
+script = ExtResource("3_vhftf")
+level = 38
+move = 494
+
+[sub_resource type="Resource" id="Resource_me4x0"]
+script = ExtResource("3_vhftf")
+level = 44
+move = 642
+
+[sub_resource type="Resource" id="Resource_6hmdj"]
+script = ExtResource("3_vhftf")
+level = 50
+move = 664
+
+[sub_resource type="Resource" id="Resource_2vjp0"]
+script = ExtResource("3_vhftf")
+level = 56
+move = 141
+
+[sub_resource type="Resource" id="Resource_xejrw"]
+script = ExtResource("3_vhftf")
+level = 62
+move = 243
+
+[resource]
+script = ExtResource("4_xcyxr")
+id = 1485
+display_name = "Araquanid"
+category = "Water Bubble"
+national_dex = 752
+type_1 = 12
+type_2 = 7
+base_hp = 68
+base_atk = 70
+base_def = 92
+base_spa = 50
+base_spd = 132
+base_spe = 42
+ev_spd = 2
+catch_rate = 100
+base_exp = 159
+egg_cycles = 15
+egg_group_1 = 2
+egg_group_2 = 3
+ability_1 = 199
+item_rare = 427
+height_dm = 31
+weight_hg = 2175
+body_color = 3
+level_moves = Array[ExtResource("3_vhftf")]([SubResource("Resource_x8ucy"), SubResource("Resource_if2sw"), SubResource("Resource_ec8bh"), SubResource("Resource_rotm7"), SubResource("Resource_pi3s4"), SubResource("Resource_fiy5e"), SubResource("Resource_37mmy"), SubResource("Resource_ssagy"), SubResource("Resource_thpbf"), SubResource("Resource_lxfwc"), SubResource("Resource_0olhv"), SubResource("Resource_me4x0"), SubResource("Resource_6hmdj"), SubResource("Resource_2vjp0"), SubResource("Resource_xejrw")])
+form_species = Array[int]([752, 1485])

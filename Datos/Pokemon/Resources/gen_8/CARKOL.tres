@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://key3cvyunoax"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_k4yg0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0rg62"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1eevl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xjk1l"]
+
+[sub_resource type="Resource" id="Resource_cbbo1"]
+script = ExtResource("1_k4yg0")
+method = "LEVEL"
+param = "34"
+target = 839
+
+[sub_resource type="Resource" id="Resource_m0quc"]
+script = ExtResource("3_1eevl")
+level = 0
+move = 488
+
+[sub_resource type="Resource" id="Resource_bc4wd"]
+script = ExtResource("3_1eevl")
+move = 33
+
+[sub_resource type="Resource" id="Resource_21r15"]
+script = ExtResource("3_1eevl")
+move = 108
+
+[sub_resource type="Resource" id="Resource_6kt3q"]
+script = ExtResource("3_1eevl")
+move = 229
+
+[sub_resource type="Resource" id="Resource_mot40"]
+script = ExtResource("3_1eevl")
+move = 479
+
+[sub_resource type="Resource" id="Resource_bo5e4"]
+script = ExtResource("3_1eevl")
+level = 15
+move = 397
+
+[sub_resource type="Resource" id="Resource_72pbk"]
+script = ExtResource("3_1eevl")
+level = 20
+move = 246
+
+[sub_resource type="Resource" id="Resource_px0n0"]
+script = ExtResource("3_1eevl")
+level = 27
+move = 510
+
+[sub_resource type="Resource" id="Resource_dimaj"]
+script = ExtResource("3_1eevl")
+level = 35
+move = 446
+
+[sub_resource type="Resource" id="Resource_karhf"]
+script = ExtResource("3_1eevl")
+level = 41
+move = 535
+
+[sub_resource type="Resource" id="Resource_gjvrb"]
+script = ExtResource("3_1eevl")
+level = 48
+move = 350
+
+[sub_resource type="Resource" id="Resource_3oaqk"]
+script = ExtResource("3_1eevl")
+level = 55
+move = 444
+
+[resource]
+script = ExtResource("4_xjk1l")
+id = 838
+display_name = "Carkol"
+category = "Coal"
+national_dex = 838
+pokedex = "It forms coal inside its body. Coal
+dropped by this Pokémon once helped fuel
+the lives of people in the Galar region."
+type_1 = 6
+type_2 = 11
+base_hp = 80
+base_atk = 60
+base_def = 90
+base_spa = 60
+base_spd = 70
+base_spe = 50
+ev_def = 2
+catch_rate = 120
+base_exp = 144
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 10
+ability_1 = 243
+ability_2 = 49
+ability_hidden = 18
+height_dm = 11
+weight_hg = 780
+body_color = 4
+level_moves = Array[ExtResource("3_1eevl")]([SubResource("Resource_m0quc"), SubResource("Resource_bc4wd"), SubResource("Resource_21r15"), SubResource("Resource_6kt3q"), SubResource("Resource_mot40"), SubResource("Resource_bo5e4"), SubResource("Resource_72pbk"), SubResource("Resource_px0n0"), SubResource("Resource_dimaj"), SubResource("Resource_karhf"), SubResource("Resource_gjvrb"), SubResource("Resource_3oaqk")])
+evolutions = Array[ExtResource("1_k4yg0")]([SubResource("Resource_cbbo1")])

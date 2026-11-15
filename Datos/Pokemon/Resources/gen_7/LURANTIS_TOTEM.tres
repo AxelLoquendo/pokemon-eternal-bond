@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c7f0pgvrd16il"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_llxd1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3oxg6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_v1pao"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ea1x4"]
+
+[sub_resource type="Resource" id="Resource_jij6o"]
+script = ExtResource("3_v1pao")
+level = 0
+move = 572
+
+[sub_resource type="Resource" id="Resource_uyb8m"]
+script = ExtResource("3_v1pao")
+move = 74
+
+[sub_resource type="Resource" id="Resource_i7otr"]
+script = ExtResource("3_v1pao")
+move = 76
+
+[sub_resource type="Resource" id="Resource_dj85p"]
+script = ExtResource("3_v1pao")
+move = 210
+
+[sub_resource type="Resource" id="Resource_idwjk"]
+script = ExtResource("3_v1pao")
+move = 275
+
+[sub_resource type="Resource" id="Resource_ppxjn"]
+script = ExtResource("3_v1pao")
+move = 400
+
+[sub_resource type="Resource" id="Resource_bx11n"]
+script = ExtResource("3_v1pao")
+move = 633
+
+[sub_resource type="Resource" id="Resource_lu6gb"]
+script = ExtResource("3_v1pao")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_cyxgg"]
+script = ExtResource("3_v1pao")
+level = 20
+move = 230
+
+[sub_resource type="Resource" id="Resource_iymjl"]
+script = ExtResource("3_v1pao")
+level = 25
+move = 163
+
+[sub_resource type="Resource" id="Resource_ah0ev"]
+script = ExtResource("3_v1pao")
+level = 30
+move = 404
+
+[sub_resource type="Resource" id="Resource_71f6d"]
+script = ExtResource("3_v1pao")
+level = 37
+move = 235
+
+[sub_resource type="Resource" id="Resource_axexo"]
+script = ExtResource("3_v1pao")
+level = 44
+move = 348
+
+[sub_resource type="Resource" id="Resource_35q1x"]
+script = ExtResource("3_v1pao")
+level = 51
+move = 241
+
+[sub_resource type="Resource" id="Resource_o4gek"]
+script = ExtResource("3_v1pao")
+level = 63
+move = 632
+
+[resource]
+script = ExtResource("4_ea1x4")
+id = 1479
+display_name = "Lurantis"
+category = "Bloom Sickle"
+national_dex = 754
+type_1 = 13
+base_hp = 70
+base_atk = 105
+base_def = 90
+base_spa = 80
+base_spd = 90
+base_spe = 45
+ev_atk = 2
+catch_rate = 75
+base_exp = 168
+egg_group_1 = 7
+ability_1 = 102
+item_rare = 429
+height_dm = 15
+weight_hg = 580
+body_color = 9
+level_moves = Array[ExtResource("3_v1pao")]([SubResource("Resource_jij6o"), SubResource("Resource_uyb8m"), SubResource("Resource_i7otr"), SubResource("Resource_dj85p"), SubResource("Resource_idwjk"), SubResource("Resource_ppxjn"), SubResource("Resource_bx11n"), SubResource("Resource_lu6gb"), SubResource("Resource_cyxgg"), SubResource("Resource_iymjl"), SubResource("Resource_ah0ev"), SubResource("Resource_71f6d"), SubResource("Resource_axexo"), SubResource("Resource_35q1x"), SubResource("Resource_o4gek")])
+form_species = Array[int]([754, 1479])

@@ -1,0 +1,54 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cnlfrm08p56f3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_g01l6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yjut2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wfe0m"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_00g2s"]
+
+[sub_resource type="Resource" id="Resource_1ftfc"]
+script = ExtResource("3_wfe0m")
+move = 182
+
+[sub_resource type="Resource" id="Resource_3c8k7"]
+script = ExtResource("3_wfe0m")
+level = 10
+move = 33
+
+[sub_resource type="Resource" id="Resource_208gq"]
+script = ExtResource("3_wfe0m")
+level = 15
+move = 450
+
+[sub_resource type="Resource" id="Resource_bsafs"]
+script = ExtResource("3_wfe0m")
+level = 20
+move = 81
+
+[resource]
+script = ExtResource("4_00g2s")
+id = 1058
+display_name = "Burmy"
+category = "Bagworm"
+national_dex = 412
+pokedex = "When confronted by a lack of other
+materials, Burmy will create its cloak
+using dust and refuse. The cloak seems to
+be more comfortable than one would think."
+type_1 = 7
+base_hp = 40
+base_atk = 29
+base_def = 45
+base_spa = 29
+base_spd = 45
+base_spe = 36
+ev_spd = 1
+catch_rate = 120
+base_exp = 45
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 61
+ability_hidden = 142
+height_dm = 2
+weight_hg = 34
+level_moves = Array[ExtResource("3_wfe0m")]([SubResource("Resource_1ftfc"), SubResource("Resource_3c8k7"), SubResource("Resource_208gq"), SubResource("Resource_bsafs")])
+form_species = Array[int]([412, 1057, 1058])

@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://de4w5k0s8i3e4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8essq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_maohv"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fqqg3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_v61je"]
+
+[sub_resource type="Resource" id="Resource_mym2x"]
+script = ExtResource("3_fqqg3")
+move = 104
+
+[sub_resource type="Resource" id="Resource_kr2gi"]
+script = ExtResource("3_fqqg3")
+move = 310
+
+[sub_resource type="Resource" id="Resource_i76vb"]
+script = ExtResource("3_fqqg3")
+level = 5
+move = 84
+
+[sub_resource type="Resource" id="Resource_3n5o3"]
+script = ExtResource("3_fqqg3")
+level = 10
+move = 109
+
+[sub_resource type="Resource" id="Resource_f8qdq"]
+script = ExtResource("3_fqqg3")
+level = 15
+move = 268
+
+[sub_resource type="Resource" id="Resource_5tnc2"]
+script = ExtResource("3_fqqg3")
+level = 20
+move = 486
+
+[sub_resource type="Resource" id="Resource_mbbnw"]
+script = ExtResource("3_fqqg3")
+level = 25
+move = 86
+
+[sub_resource type="Resource" id="Resource_npenh"]
+script = ExtResource("3_fqqg3")
+level = 30
+move = 351
+
+[sub_resource type="Resource" id="Resource_54tl7"]
+script = ExtResource("3_fqqg3")
+level = 35
+move = 506
+
+[sub_resource type="Resource" id="Resource_b6ahg"]
+script = ExtResource("3_fqqg3")
+level = 40
+move = 164
+
+[sub_resource type="Resource" id="Resource_rdrxr"]
+script = ExtResource("3_fqqg3")
+level = 45
+move = 271
+
+[sub_resource type="Resource" id="Resource_15vhq"]
+script = ExtResource("3_fqqg3")
+level = 50
+move = 435
+
+[sub_resource type="Resource" id="Resource_alyg6"]
+script = ExtResource("3_fqqg3")
+level = 55
+move = 253
+
+[resource]
+script = ExtResource("4_v61je")
+id = 1066
+display_name = "Rotom"
+category = "Plasma"
+national_dex = 479
+pokedex = "In this form, Rotom likes to play freezing
+cold pranks. You may find it's turned the
+bath you just filled to solid ice!
+It battles by spewing cold air."
+type_1 = 1
+base_hp = 50
+base_atk = 65
+base_def = 107
+base_spa = 105
+base_spd = 107
+base_spe = 86
+ev_spa = 1
+ev_spe = 1
+gender_ratio = 255
+egg_group_1 = 11
+ability_1 = 26
+height_dm = 3
+weight_hg = 3
+level_moves = Array[ExtResource("3_fqqg3")]([SubResource("Resource_mym2x"), SubResource("Resource_kr2gi"), SubResource("Resource_i76vb"), SubResource("Resource_3n5o3"), SubResource("Resource_f8qdq"), SubResource("Resource_5tnc2"), SubResource("Resource_mbbnw"), SubResource("Resource_npenh"), SubResource("Resource_54tl7"), SubResource("Resource_b6ahg"), SubResource("Resource_rdrxr"), SubResource("Resource_15vhq"), SubResource("Resource_alyg6")])
+form_species = Array[int]([479, 1064, 1065, 1066, 1067, 1068])

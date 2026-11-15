@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b5wii6tcx6npc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rkw6k"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_djh32"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_csy7r"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4ug40"]
+
+[sub_resource type="Resource" id="Resource_y13xd"]
+script = ExtResource("3_csy7r")
+move = 35
+
+[sub_resource type="Resource" id="Resource_nqal7"]
+script = ExtResource("3_csy7r")
+move = 207
+
+[sub_resource type="Resource" id="Resource_p8gsv"]
+script = ExtResource("3_csy7r")
+level = 4
+move = 44
+
+[sub_resource type="Resource" id="Resource_3tmlw"]
+script = ExtResource("3_csy7r")
+level = 6
+move = 122
+
+[sub_resource type="Resource" id="Resource_s65kp"]
+script = ExtResource("3_csy7r")
+level = 9
+move = 342
+
+[sub_resource type="Resource" id="Resource_u6lhv"]
+script = ExtResource("3_csy7r")
+level = 11
+move = 364
+
+[sub_resource type="Resource" id="Resource_pi5kc"]
+script = ExtResource("3_csy7r")
+level = 14
+move = 103
+
+[sub_resource type="Resource" id="Resource_h6qcs"]
+script = ExtResource("3_csy7r")
+level = 19
+move = 137
+
+[sub_resource type="Resource" id="Resource_bcyla"]
+script = ExtResource("3_csy7r")
+level = 21
+move = 305
+
+[sub_resource type="Resource" id="Resource_3us8m"]
+script = ExtResource("3_csy7r")
+level = 24
+move = 474
+
+[sub_resource type="Resource" id="Resource_s35xs"]
+script = ExtResource("3_csy7r")
+level = 29
+move = 380
+
+[sub_resource type="Resource" id="Resource_iucm1"]
+script = ExtResource("3_csy7r")
+level = 31
+move = 398
+
+[sub_resource type="Resource" id="Resource_ayhmt"]
+script = ExtResource("3_csy7r")
+level = 34
+move = 114
+
+[sub_resource type="Resource" id="Resource_mt1t3"]
+script = ExtResource("3_csy7r")
+level = 39
+move = 242
+
+[sub_resource type="Resource" id="Resource_q0xn1"]
+script = ExtResource("3_csy7r")
+level = 41
+move = 562
+
+[sub_resource type="Resource" id="Resource_4npk4"]
+script = ExtResource("3_csy7r")
+level = 44
+move = 489
+
+[sub_resource type="Resource" id="Resource_m41w2"]
+script = ExtResource("3_csy7r")
+level = 46
+move = 188
+
+[resource]
+script = ExtResource("4_4ug40")
+id = 336
+display_name = "Seviper"
+category = "Fang Snake"
+national_dex = 336
+pokedex = "Seviper and Zangoose are eternal rivals.
+It counters a Zangoose's dazzling agility
+with its swordlike tail, which also oozes
+a horrible poison."
+type_1 = 4
+base_hp = 73
+base_atk = 100
+base_def = 60
+base_spa = 100
+base_spd = 60
+base_spe = 65
+ev_atk = 1
+ev_spa = 1
+catch_rate = 90
+base_exp = 160
+growth_rate = 2
+egg_group_1 = 5
+egg_group_2 = 14
+ability_1 = 61
+ability_hidden = 151
+item_rare = 490
+height_dm = 27
+weight_hg = 525
+body_color = 4
+no_flip = true
+level_moves = Array[ExtResource("3_csy7r")]([SubResource("Resource_y13xd"), SubResource("Resource_nqal7"), SubResource("Resource_p8gsv"), SubResource("Resource_3tmlw"), SubResource("Resource_s65kp"), SubResource("Resource_u6lhv"), SubResource("Resource_pi5kc"), SubResource("Resource_h6qcs"), SubResource("Resource_bcyla"), SubResource("Resource_3us8m"), SubResource("Resource_s35xs"), SubResource("Resource_iucm1"), SubResource("Resource_ayhmt"), SubResource("Resource_mt1t3"), SubResource("Resource_q0xn1"), SubResource("Resource_4npk4"), SubResource("Resource_m41w2")])
+egg_moves = Array[int]([254, 256, 255, 34, 184, 372, 400, 415, 231, 378, 386, 515])

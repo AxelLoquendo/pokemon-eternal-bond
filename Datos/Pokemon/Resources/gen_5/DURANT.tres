@@ -1,0 +1,115 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://djhv7t38s3j5n"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vplm0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_4tbmh"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_evsqv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_q07sh"]
+
+[sub_resource type="Resource" id="Resource_1nj3s"]
+script = ExtResource("3_evsqv")
+move = 210
+
+[sub_resource type="Resource" id="Resource_c34gt"]
+script = ExtResource("3_evsqv")
+move = 28
+
+[sub_resource type="Resource" id="Resource_m22lv"]
+script = ExtResource("3_evsqv")
+level = 4
+move = 11
+
+[sub_resource type="Resource" id="Resource_mlc03"]
+script = ExtResource("3_evsqv")
+level = 8
+move = 232
+
+[sub_resource type="Resource" id="Resource_hxjq0"]
+script = ExtResource("3_evsqv")
+level = 12
+move = 251
+
+[sub_resource type="Resource" id="Resource_5iv4p"]
+script = ExtResource("3_evsqv")
+level = 16
+move = 450
+
+[sub_resource type="Resource" id="Resource_30ogy"]
+script = ExtResource("3_evsqv")
+level = 20
+move = 44
+
+[sub_resource type="Resource" id="Resource_fywa8"]
+script = ExtResource("3_evsqv")
+level = 24
+move = 97
+
+[sub_resource type="Resource" id="Resource_f4rp8"]
+script = ExtResource("3_evsqv")
+level = 28
+move = 91
+
+[sub_resource type="Resource" id="Resource_3saw4"]
+script = ExtResource("3_evsqv")
+level = 32
+move = 404
+
+[sub_resource type="Resource" id="Resource_ryy6p"]
+script = ExtResource("3_evsqv")
+level = 36
+move = 242
+
+[sub_resource type="Resource" id="Resource_351jy"]
+script = ExtResource("3_evsqv")
+level = 40
+move = 319
+
+[sub_resource type="Resource" id="Resource_ccjdj"]
+script = ExtResource("3_evsqv")
+level = 44
+move = 442
+
+[sub_resource type="Resource" id="Resource_2ot8k"]
+script = ExtResource("3_evsqv")
+level = 48
+move = 494
+
+[sub_resource type="Resource" id="Resource_iyxhw"]
+script = ExtResource("3_evsqv")
+level = 52
+move = 334
+
+[sub_resource type="Resource" id="Resource_gwo1c"]
+script = ExtResource("3_evsqv")
+level = 56
+move = 12
+
+[resource]
+script = ExtResource("4_q07sh")
+id = 632
+display_name = "Durant"
+category = "Iron Ant"
+national_dex = 632
+pokedex = "Durant dig nests in mountains.
+Individuals each play different roles in
+driving Heatmor, their natural predator,
+away from their colony."
+type_1 = 7
+type_2 = 9
+base_hp = 58
+base_atk = 109
+base_def = 112
+base_spa = 48
+base_spd = 48
+base_spe = 109
+ev_def = 2
+catch_rate = 90
+base_exp = 169
+egg_group_1 = 3
+ability_1 = 68
+ability_2 = 55
+ability_hidden = 54
+height_dm = 3
+weight_hg = 330
+body_color = 7
+level_moves = Array[ExtResource("3_evsqv")]([SubResource("Resource_1nj3s"), SubResource("Resource_c34gt"), SubResource("Resource_m22lv"), SubResource("Resource_mlc03"), SubResource("Resource_hxjq0"), SubResource("Resource_5iv4p"), SubResource("Resource_30ogy"), SubResource("Resource_fywa8"), SubResource("Resource_f4rp8"), SubResource("Resource_3saw4"), SubResource("Resource_ryy6p"), SubResource("Resource_351jy"), SubResource("Resource_ccjdj"), SubResource("Resource_2ot8k"), SubResource("Resource_iyxhw"), SubResource("Resource_gwo1c")])
+egg_moves = Array[int]([103, 203, 431, 226, 422, 185])

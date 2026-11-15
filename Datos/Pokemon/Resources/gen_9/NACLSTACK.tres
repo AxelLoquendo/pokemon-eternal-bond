@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d0klq4m4hsqix"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xa5c1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_v4pi5"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wcyxa"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5s2ux"]
+
+[sub_resource type="Resource" id="Resource_e0r4y"]
+script = ExtResource("1_xa5c1")
+method = "LEVEL"
+param = "38"
+target = 1322
+
+[sub_resource type="Resource" id="Resource_2ev78"]
+script = ExtResource("3_wcyxa")
+level = 0
+move = 792
+
+[sub_resource type="Resource" id="Resource_waswp"]
+script = ExtResource("3_wcyxa")
+move = 33
+
+[sub_resource type="Resource" id="Resource_tc4lf"]
+script = ExtResource("3_wcyxa")
+move = 106
+
+[sub_resource type="Resource" id="Resource_lsbdk"]
+script = ExtResource("3_wcyxa")
+level = 5
+move = 88
+
+[sub_resource type="Resource" id="Resource_w4bd3"]
+script = ExtResource("3_wcyxa")
+level = 7
+move = 341
+
+[sub_resource type="Resource" id="Resource_rtpfd"]
+script = ExtResource("3_wcyxa")
+level = 10
+move = 479
+
+[sub_resource type="Resource" id="Resource_wawb8"]
+script = ExtResource("3_wcyxa")
+level = 13
+move = 397
+
+[sub_resource type="Resource" id="Resource_wtv1h"]
+script = ExtResource("3_wcyxa")
+level = 16
+move = 29
+
+[sub_resource type="Resource" id="Resource_svshr"]
+script = ExtResource("3_wcyxa")
+level = 20
+move = 334
+
+[sub_resource type="Resource" id="Resource_3pfp0"]
+script = ExtResource("3_wcyxa")
+level = 30
+move = 105
+
+[sub_resource type="Resource" id="Resource_6yjjy"]
+script = ExtResource("3_wcyxa")
+level = 34
+move = 157
+
+[sub_resource type="Resource" id="Resource_6f7lx"]
+script = ExtResource("3_wcyxa")
+level = 38
+move = 446
+
+[sub_resource type="Resource" id="Resource_u0ru0"]
+script = ExtResource("3_wcyxa")
+level = 41
+move = 484
+
+[sub_resource type="Resource" id="Resource_7wabm"]
+script = ExtResource("3_wcyxa")
+level = 45
+move = 89
+
+[sub_resource type="Resource" id="Resource_lji2u"]
+script = ExtResource("3_wcyxa")
+level = 51
+move = 444
+
+[resource]
+script = ExtResource("4_5s2ux")
+id = 1321
+display_name = "Naclstack"
+category = "Rock Salt"
+national_dex = 933
+pokedex = "It compresses rock salt inside its
+body and shoots out hardened salt
+pellets with enough force to
+perforate an iron sheet."
+type_1 = 6
+base_hp = 60
+base_atk = 60
+base_def = 100
+base_spa = 35
+base_spd = 65
+base_spe = 35
+ev_def = 2
+catch_rate = 120
+base_exp = 124
+growth_rate = 3
+egg_group_1 = 10
+ability_1 = 272
+ability_2 = 5
+ability_hidden = 29
+height_dm = 6
+weight_hg = 1050
+body_color = 5
+level_moves = Array[ExtResource("3_wcyxa")]([SubResource("Resource_2ev78"), SubResource("Resource_waswp"), SubResource("Resource_tc4lf"), SubResource("Resource_lsbdk"), SubResource("Resource_w4bd3"), SubResource("Resource_rtpfd"), SubResource("Resource_wawb8"), SubResource("Resource_wtv1h"), SubResource("Resource_svshr"), SubResource("Resource_3pfp0"), SubResource("Resource_6yjjy"), SubResource("Resource_6f7lx"), SubResource("Resource_u0ru0"), SubResource("Resource_7wabm"), SubResource("Resource_lji2u")])
+evolutions = Array[ExtResource("1_xa5c1")]([SubResource("Resource_e0r4y")])

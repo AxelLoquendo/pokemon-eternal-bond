@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1mspxrh5dre6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6divi"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_os5hj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4jn88"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1imx4"]
+
+[sub_resource type="Resource" id="Resource_n08x5"]
+script = ExtResource("3_4jn88")
+level = 0
+move = 695
+
+[sub_resource type="Resource" id="Resource_yxro6"]
+script = ExtResource("3_4jn88")
+move = 33
+
+[sub_resource type="Resource" id="Resource_2n0s0"]
+script = ExtResource("3_4jn88")
+move = 108
+
+[sub_resource type="Resource" id="Resource_cowr6"]
+script = ExtResource("3_4jn88")
+move = 229
+
+[sub_resource type="Resource" id="Resource_ob7xn"]
+script = ExtResource("3_4jn88")
+move = 479
+
+[sub_resource type="Resource" id="Resource_3x5o6"]
+script = ExtResource("3_4jn88")
+move = 488
+
+[sub_resource type="Resource" id="Resource_efqha"]
+script = ExtResource("3_4jn88")
+level = 15
+move = 397
+
+[sub_resource type="Resource" id="Resource_6m8ey"]
+script = ExtResource("3_4jn88")
+level = 20
+move = 246
+
+[sub_resource type="Resource" id="Resource_qy8ds"]
+script = ExtResource("3_4jn88")
+level = 27
+move = 510
+
+[sub_resource type="Resource" id="Resource_p8g65"]
+script = ExtResource("3_4jn88")
+level = 37
+move = 446
+
+[sub_resource type="Resource" id="Resource_75mdu"]
+script = ExtResource("3_4jn88")
+level = 45
+move = 535
+
+[sub_resource type="Resource" id="Resource_f0xl0"]
+script = ExtResource("3_4jn88")
+level = 54
+move = 350
+
+[sub_resource type="Resource" id="Resource_vif8m"]
+script = ExtResource("3_4jn88")
+level = 63
+move = 444
+
+[resource]
+script = ExtResource("4_1imx4")
+id = 1509
+display_name = "Coalossal"
+category = "Coal"
+national_dex = 839
+pokedex = "Its body is a colossal stove. With
+Gigantamax energy stoking the fire,
+this Pokémon's flame burns hotter
+than 3,600 degrees Fahrenheit."
+type_1 = 6
+type_2 = 11
+base_hp = 110
+base_atk = 80
+base_def = 120
+base_spa = 80
+base_spd = 90
+base_spe = 30
+ev_def = 3
+base_exp = 255
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 10
+ability_1 = 243
+ability_2 = 49
+ability_hidden = 18
+height_dm = 420
+body_color = 4
+level_moves = Array[ExtResource("3_4jn88")]([SubResource("Resource_n08x5"), SubResource("Resource_yxro6"), SubResource("Resource_2n0s0"), SubResource("Resource_cowr6"), SubResource("Resource_ob7xn"), SubResource("Resource_3x5o6"), SubResource("Resource_efqha"), SubResource("Resource_6m8ey"), SubResource("Resource_qy8ds"), SubResource("Resource_p8g65"), SubResource("Resource_75mdu"), SubResource("Resource_f0xl0"), SubResource("Resource_vif8m")])
+form_species = Array[int]([839, 1509])

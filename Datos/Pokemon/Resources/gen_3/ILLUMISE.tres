@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bc4xk7e2yd7gb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_te4kc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_oq06v"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_oyrkc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_picwd"]
+
+[sub_resource type="Resource" id="Resource_dcuaq"]
+script = ExtResource("3_oyrkc")
+move = 33
+
+[sub_resource type="Resource" id="Resource_slanh"]
+script = ExtResource("3_oyrkc")
+move = 589
+
+[sub_resource type="Resource" id="Resource_6fryv"]
+script = ExtResource("3_oyrkc")
+level = 5
+move = 230
+
+[sub_resource type="Resource" id="Resource_sgm7j"]
+script = ExtResource("3_oyrkc")
+level = 9
+move = 204
+
+[sub_resource type="Resource" id="Resource_d0ryg"]
+script = ExtResource("3_oyrkc")
+level = 12
+move = 98
+
+[sub_resource type="Resource" id="Resource_jm1so"]
+script = ExtResource("3_oyrkc")
+level = 15
+move = 522
+
+[sub_resource type="Resource" id="Resource_ndko8"]
+script = ExtResource("3_oyrkc")
+level = 19
+move = 236
+
+[sub_resource type="Resource" id="Resource_5xr6i"]
+script = ExtResource("3_oyrkc")
+level = 22
+move = 273
+
+[sub_resource type="Resource" id="Resource_3q5op"]
+script = ExtResource("3_oyrkc")
+level = 26
+move = 227
+
+[sub_resource type="Resource" id="Resource_hmqjf"]
+script = ExtResource("3_oyrkc")
+level = 29
+move = 260
+
+[sub_resource type="Resource" id="Resource_hfb87"]
+script = ExtResource("3_oyrkc")
+level = 33
+move = 428
+
+[sub_resource type="Resource" id="Resource_wjfwu"]
+script = ExtResource("3_oyrkc")
+level = 36
+move = 270
+
+[sub_resource type="Resource" id="Resource_cpl7y"]
+script = ExtResource("3_oyrkc")
+level = 40
+move = 405
+
+[sub_resource type="Resource" id="Resource_og0a5"]
+script = ExtResource("3_oyrkc")
+level = 43
+move = 583
+
+[sub_resource type="Resource" id="Resource_iv8hq"]
+script = ExtResource("3_oyrkc")
+level = 47
+move = 611
+
+[resource]
+script = ExtResource("4_picwd")
+id = 314
+display_name = "Illumise"
+category = "Firefly"
+national_dex = 314
+pokedex = "A nocturnal Pokémon that becomes active
+upon nightfall. It leads a Volbeat swarm
+to draw patterns in the night sky. Over 200
+different patterns have been confirmed."
+type_1 = 7
+base_hp = 65
+base_atk = 47
+base_def = 75
+base_spa = 73
+base_spd = 85
+base_spe = 85
+ev_spe = 1
+catch_rate = 150
+base_exp = 146
+gender_ratio = 254
+growth_rate = 2
+egg_cycles = 15
+egg_group_1 = 3
+egg_group_2 = 8
+ability_1 = 12
+ability_hidden = 158
+item_rare = 459
+height_dm = 6
+weight_hg = 177
+body_color = 6
+level_moves = Array[ExtResource("3_oyrkc")]([SubResource("Resource_dcuaq"), SubResource("Resource_slanh"), SubResource("Resource_6fryv"), SubResource("Resource_sgm7j"), SubResource("Resource_d0ryg"), SubResource("Resource_jm1so"), SubResource("Resource_ndko8"), SubResource("Resource_5xr6i"), SubResource("Resource_3q5op"), SubResource("Resource_hmqjf"), SubResource("Resource_hfb87"), SubResource("Resource_wjfwu"), SubResource("Resource_cpl7y"), SubResource("Resource_og0a5"), SubResource("Resource_iv8hq")])
+egg_moves = Array[int]([226, 318, 74, 227, 405, 445, 313, 109, 312])

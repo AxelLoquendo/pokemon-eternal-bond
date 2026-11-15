@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cj0k6cy6joekh"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_40xn7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gh0nv"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rhs5c"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fsnxa"]
+
+[sub_resource type="Resource" id="Resource_higeu"]
+script = ExtResource("3_rhs5c")
+level = 0
+move = 282
+
+[sub_resource type="Resource" id="Resource_x347o"]
+script = ExtResource("3_rhs5c")
+move = 101
+
+[sub_resource type="Resource" id="Resource_i3cyw"]
+script = ExtResource("3_rhs5c")
+move = 103
+
+[sub_resource type="Resource" id="Resource_1ibqf"]
+script = ExtResource("3_rhs5c")
+move = 180
+
+[sub_resource type="Resource" id="Resource_o4by5"]
+script = ExtResource("3_rhs5c")
+level = 16
+move = 261
+
+[sub_resource type="Resource" id="Resource_pu3uf"]
+script = ExtResource("3_rhs5c")
+level = 19
+move = 425
+
+[sub_resource type="Resource" id="Resource_nksk3"]
+script = ExtResource("3_rhs5c")
+level = 22
+move = 506
+
+[sub_resource type="Resource" id="Resource_55h1w"]
+script = ExtResource("3_rhs5c")
+level = 26
+move = 174
+
+[sub_resource type="Resource" id="Resource_qnpti"]
+script = ExtResource("3_rhs5c")
+level = 30
+move = 247
+
+[sub_resource type="Resource" id="Resource_1m5yi"]
+script = ExtResource("3_rhs5c")
+level = 34
+move = 272
+
+[sub_resource type="Resource" id="Resource_h6hx0"]
+script = ExtResource("3_rhs5c")
+level = 40
+move = 389
+
+[sub_resource type="Resource" id="Resource_gmt5h"]
+script = ExtResource("3_rhs5c")
+level = 46
+move = 271
+
+[sub_resource type="Resource" id="Resource_d4cr2"]
+script = ExtResource("3_rhs5c")
+level = 53
+move = 566
+
+[resource]
+script = ExtResource("4_fsnxa")
+id = 939
+display_name = "Banette"
+category = "Marionette"
+national_dex = 354
+pokedex = "Extraordinary energy amplifies its
+cursing power to such an extent that it
+can't help but curse its own Trainer."
+type_1 = 8
+base_hp = 64
+base_atk = 165
+base_def = 75
+base_spa = 93
+base_spd = 83
+base_spe = 75
+ev_atk = 2
+base_exp = 194
+base_friendship = 35
+growth_rate = 4
+egg_cycles = 25
+egg_group_1 = 11
+ability_1 = 158
+ability_2 = 158
+ability_hidden = 158
+item_rare = 438
+height_dm = 12
+weight_hg = 130
+body_color = 4
+no_flip = true
+level_moves = Array[ExtResource("3_rhs5c")]([SubResource("Resource_higeu"), SubResource("Resource_x347o"), SubResource("Resource_i3cyw"), SubResource("Resource_1ibqf"), SubResource("Resource_o4by5"), SubResource("Resource_pu3uf"), SubResource("Resource_nksk3"), SubResource("Resource_55h1w"), SubResource("Resource_qnpti"), SubResource("Resource_1m5yi"), SubResource("Resource_h6hx0"), SubResource("Resource_gmt5h"), SubResource("Resource_d4cr2")])
+form_species = Array[int]([354, 939])

@@ -1,0 +1,124 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfxsxdeyxyjrn"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_yif8t"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_dvcki"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8bcui"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_o6ksb"]
+
+[sub_resource type="Resource" id="Resource_iep8g"]
+script = ExtResource("3_8bcui")
+move = 189
+
+[sub_resource type="Resource" id="Resource_4tx5h"]
+script = ExtResource("3_8bcui")
+move = 264
+
+[sub_resource type="Resource" id="Resource_1hmq8"]
+script = ExtResource("3_8bcui")
+move = 1
+
+[sub_resource type="Resource" id="Resource_t847d"]
+script = ExtResource("3_8bcui")
+move = 111
+
+[sub_resource type="Resource" id="Resource_chjda"]
+script = ExtResource("3_8bcui")
+move = 310
+
+[sub_resource type="Resource" id="Resource_lwtv2"]
+script = ExtResource("3_8bcui")
+move = 630
+
+[sub_resource type="Resource" id="Resource_1apam"]
+script = ExtResource("3_8bcui")
+level = 12
+move = 325
+
+[sub_resource type="Resource" id="Resource_tm84f"]
+script = ExtResource("3_8bcui")
+level = 16
+move = 174
+
+[sub_resource type="Resource" id="Resource_y1au5"]
+script = ExtResource("3_8bcui")
+level = 20
+move = 101
+
+[sub_resource type="Resource" id="Resource_uyvro"]
+script = ExtResource("3_8bcui")
+level = 24
+move = 661
+
+[sub_resource type="Resource" id="Resource_ys55r"]
+script = ExtResource("3_8bcui")
+level = 28
+move = 334
+
+[sub_resource type="Resource" id="Resource_uacbl"]
+script = ExtResource("3_8bcui")
+level = 32
+move = 5
+
+[sub_resource type="Resource" id="Resource_2lkbt"]
+script = ExtResource("3_8bcui")
+level = 36
+move = 247
+
+[sub_resource type="Resource" id="Resource_rw4tl"]
+script = ExtResource("3_8bcui")
+level = 40
+move = 484
+
+[sub_resource type="Resource" id="Resource_ald88"]
+script = ExtResource("3_8bcui")
+level = 46
+move = 566
+
+[sub_resource type="Resource" id="Resource_tr6er"]
+script = ExtResource("3_8bcui")
+level = 52
+move = 359
+
+[sub_resource type="Resource" id="Resource_22n71"]
+script = ExtResource("3_8bcui")
+level = 58
+move = 89
+
+[sub_resource type="Resource" id="Resource_umtqj"]
+script = ExtResource("3_8bcui")
+level = 64
+move = 223
+
+[resource]
+script = ExtResource("4_o6ksb")
+id = 1560
+display_name = "Golurk"
+category = "Automaton"
+national_dex = 623
+pokedex = "The energy within Golurk has been
+stimulated by Mega Evolution.
+The Pokémon could explode at any moment."
+type_1 = 5
+type_2 = 8
+base_hp = 89
+base_atk = 159
+base_def = 105
+base_spa = 70
+base_spd = 105
+base_spe = 55
+ev_atk = 2
+catch_rate = 90
+base_exp = 169
+gender_ratio = 255
+egg_cycles = 25
+egg_group_1 = 10
+ability_1 = 260
+ability_2 = 260
+ability_hidden = 260
+item_rare = 478
+height_dm = 40
+weight_hg = 3300
+body_color = 3
+no_flip = true
+level_moves = Array[ExtResource("3_8bcui")]([SubResource("Resource_iep8g"), SubResource("Resource_4tx5h"), SubResource("Resource_1hmq8"), SubResource("Resource_t847d"), SubResource("Resource_chjda"), SubResource("Resource_lwtv2"), SubResource("Resource_1apam"), SubResource("Resource_tm84f"), SubResource("Resource_y1au5"), SubResource("Resource_uyvro"), SubResource("Resource_ys55r"), SubResource("Resource_uacbl"), SubResource("Resource_2lkbt"), SubResource("Resource_rw4tl"), SubResource("Resource_ald88"), SubResource("Resource_tr6er"), SubResource("Resource_22n71"), SubResource("Resource_umtqj")])
+form_species = Array[int]([623, 1560])

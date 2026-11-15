@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dlq4dug4dju7t"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_crg5w"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ie2dw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_naymx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_e5bpf"]
+
+[sub_resource type="Resource" id="Resource_nvu17"]
+script = ExtResource("3_naymx")
+move = 203
+
+[sub_resource type="Resource" id="Resource_r1aym"]
+script = ExtResource("3_naymx")
+move = 359
+
+[sub_resource type="Resource" id="Resource_qxk62"]
+script = ExtResource("3_naymx")
+move = 33
+
+[sub_resource type="Resource" id="Resource_t54kr"]
+script = ExtResource("3_naymx")
+move = 39
+
+[sub_resource type="Resource" id="Resource_7whlb"]
+script = ExtResource("3_naymx")
+move = 52
+
+[sub_resource type="Resource" id="Resource_meovg"]
+script = ExtResource("3_naymx")
+move = 292
+
+[sub_resource type="Resource" id="Resource_g6c7u"]
+script = ExtResource("3_naymx")
+level = 13
+move = 111
+
+[sub_resource type="Resource" id="Resource_n40fn"]
+script = ExtResource("3_naymx")
+level = 15
+move = 488
+
+[sub_resource type="Resource" id="Resource_2ek7k"]
+script = ExtResource("3_naymx")
+level = 20
+move = 123
+
+[sub_resource type="Resource" id="Resource_muexf"]
+script = ExtResource("3_naymx")
+level = 23
+move = 205
+
+[sub_resource type="Resource" id="Resource_goh21"]
+script = ExtResource("3_naymx")
+level = 28
+move = 36
+
+[sub_resource type="Resource" id="Resource_kknis"]
+script = ExtResource("3_naymx")
+level = 31
+move = 535
+
+[sub_resource type="Resource" id="Resource_xhkd2"]
+script = ExtResource("3_naymx")
+level = 38
+move = 372
+
+[sub_resource type="Resource" id="Resource_q6sqr"]
+script = ExtResource("3_naymx")
+level = 43
+move = 53
+
+[sub_resource type="Resource" id="Resource_gw1h0"]
+script = ExtResource("3_naymx")
+level = 50
+move = 457
+
+[sub_resource type="Resource" id="Resource_dpttb"]
+script = ExtResource("3_naymx")
+level = 55
+move = 46
+
+[sub_resource type="Resource" id="Resource_gnoxw"]
+script = ExtResource("3_naymx")
+level = 62
+move = 394
+
+[resource]
+script = ExtResource("4_e5bpf")
+id = 500
+display_name = "Emboar"
+category = "Fire Pig"
+national_dex = 500
+pokedex = "It is adept at using many different moves.
+It can throw a fire punch by setting its
+fists on fire with its fiery chin.
+It cares deeply about its friends."
+type_1 = 11
+type_2 = 2
+base_hp = 110
+base_atk = 123
+base_def = 65
+base_spa = 100
+base_spd = 65
+base_spe = 65
+ev_atk = 3
+base_exp = 264
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 66
+ability_hidden = 120
+height_dm = 16
+weight_hg = 1500
+no_flip = true
+level_moves = Array[ExtResource("3_naymx")]([SubResource("Resource_nvu17"), SubResource("Resource_r1aym"), SubResource("Resource_qxk62"), SubResource("Resource_t54kr"), SubResource("Resource_7whlb"), SubResource("Resource_meovg"), SubResource("Resource_g6c7u"), SubResource("Resource_n40fn"), SubResource("Resource_2ek7k"), SubResource("Resource_muexf"), SubResource("Resource_goh21"), SubResource("Resource_kknis"), SubResource("Resource_xhkd2"), SubResource("Resource_q6sqr"), SubResource("Resource_gw1h0"), SubResource("Resource_dpttb"), SubResource("Resource_gnoxw")])
+form_species = Array[int]([500, 1532])

@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dot4ick1pt6a6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_c5w11"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hr60o"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ls657"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s7iir"]
+
+[sub_resource type="Resource" id="Resource_2qwpe"]
+script = ExtResource("3_ls657")
+move = 33
+
+[sub_resource type="Resource" id="Resource_d0jmi"]
+script = ExtResource("3_ls657")
+move = 38
+
+[sub_resource type="Resource" id="Resource_oxmjk"]
+script = ExtResource("3_ls657")
+move = 43
+
+[sub_resource type="Resource" id="Resource_cgu0v"]
+script = ExtResource("3_ls657")
+move = 52
+
+[sub_resource type="Resource" id="Resource_tyewv"]
+script = ExtResource("3_ls657")
+move = 360
+
+[sub_resource type="Resource" id="Resource_6q15v"]
+script = ExtResource("3_ls657")
+move = 108
+
+[sub_resource type="Resource" id="Resource_ej4yu"]
+script = ExtResource("3_ls657")
+move = 284
+
+[sub_resource type="Resource" id="Resource_37mnh"]
+script = ExtResource("3_ls657")
+level = 13
+move = 98
+
+[sub_resource type="Resource" id="Resource_te676"]
+script = ExtResource("3_ls657")
+level = 20
+move = 172
+
+[sub_resource type="Resource" id="Resource_f2lyw"]
+script = ExtResource("3_ls657")
+level = 24
+move = 111
+
+[sub_resource type="Resource" id="Resource_nadbe"]
+script = ExtResource("3_ls657")
+level = 31
+move = 129
+
+[sub_resource type="Resource" id="Resource_ckdm4"]
+script = ExtResource("3_ls657")
+level = 35
+move = 488
+
+[sub_resource type="Resource" id="Resource_qa412"]
+script = ExtResource("3_ls657")
+level = 43
+move = 436
+
+[sub_resource type="Resource" id="Resource_ggj3v"]
+script = ExtResource("3_ls657")
+level = 48
+move = 53
+
+[sub_resource type="Resource" id="Resource_44ktj"]
+script = ExtResource("3_ls657")
+level = 56
+move = 517
+
+[sub_resource type="Resource" id="Resource_qsgco"]
+script = ExtResource("3_ls657")
+level = 61
+move = 205
+
+[sub_resource type="Resource" id="Resource_mqlg5"]
+script = ExtResource("3_ls657")
+level = 74
+move = 315
+
+[resource]
+script = ExtResource("4_s7iir")
+id = 157
+display_name = "Typhlosion"
+category = "Volcano"
+national_dex = 157
+pokedex = "It can hide behind a shimmering heat haze
+that it creates using its intense flames.
+Typhlosion create blazing explosive
+blasts that burn everything to cinders."
+type_1 = 11
+base_hp = 78
+base_atk = 84
+base_def = 78
+base_spa = 109
+base_spd = 85
+base_spe = 100
+ev_spa = 3
+base_exp = 209
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 66
+ability_hidden = 18
+height_dm = 17
+weight_hg = 795
+body_color = 2
+level_moves = Array[ExtResource("3_ls657")]([SubResource("Resource_2qwpe"), SubResource("Resource_d0jmi"), SubResource("Resource_oxmjk"), SubResource("Resource_cgu0v"), SubResource("Resource_tyewv"), SubResource("Resource_6q15v"), SubResource("Resource_ej4yu"), SubResource("Resource_37mnh"), SubResource("Resource_te676"), SubResource("Resource_f2lyw"), SubResource("Resource_nadbe"), SubResource("Resource_ckdm4"), SubResource("Resource_qa412"), SubResource("Resource_ggj3v"), SubResource("Resource_44ktj"), SubResource("Resource_qsgco"), SubResource("Resource_mqlg5")])
+form_species = Array[int]([157, 997])

@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b0lvht04n7fm"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cfiap"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_g6lni"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ps65e"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qvpk0"]
+
+[sub_resource type="Resource" id="Resource_uar3u"]
+script = ExtResource("3_ps65e")
+level = 0
+move = 403
+
+[sub_resource type="Resource" id="Resource_jhif0"]
+script = ExtResource("3_ps65e")
+move = 403
+
+[sub_resource type="Resource" id="Resource_6qvee"]
+script = ExtResource("3_ps65e")
+move = 366
+
+[sub_resource type="Resource" id="Resource_rr051"]
+script = ExtResource("3_ps65e")
+move = 64
+
+[sub_resource type="Resource" id="Resource_46kil"]
+script = ExtResource("3_ps65e")
+move = 43
+
+[sub_resource type="Resource" id="Resource_c1x6l"]
+script = ExtResource("3_ps65e")
+move = 500
+
+[sub_resource type="Resource" id="Resource_kacm5"]
+script = ExtResource("3_ps65e")
+move = 100
+
+[sub_resource type="Resource" id="Resource_ai3qx"]
+script = ExtResource("3_ps65e")
+level = 15
+move = 109
+
+[sub_resource type="Resource" id="Resource_vxmcc"]
+script = ExtResource("3_ps65e")
+level = 20
+move = 101
+
+[sub_resource type="Resource" id="Resource_kiyty"]
+script = ExtResource("3_ps65e")
+level = 28
+move = 375
+
+[sub_resource type="Resource" id="Resource_ox681"]
+script = ExtResource("3_ps65e")
+level = 34
+move = 384
+
+[sub_resource type="Resource" id="Resource_e6agx"]
+script = ExtResource("3_ps65e")
+level = 34
+move = 385
+
+[sub_resource type="Resource" id="Resource_nvwtx"]
+script = ExtResource("3_ps65e")
+level = 41
+move = 94
+
+[sub_resource type="Resource" id="Resource_30yd2"]
+script = ExtResource("3_ps65e")
+level = 48
+move = 273
+
+[sub_resource type="Resource" id="Resource_qp2i6"]
+script = ExtResource("3_ps65e")
+level = 55
+move = 248
+
+[resource]
+script = ExtResource("4_qvpk0")
+id = 178
+display_name = "Xatu"
+category = "Mystic"
+national_dex = 178
+pokedex = "It has the enigmatic power of foreseeing
+the future. Some people in different lands
+have long believed that Xatu are
+emissaries from another world."
+type_1 = 15
+type_2 = 3
+base_hp = 65
+base_atk = 75
+base_def = 70
+base_spa = 95
+base_spd = 70
+base_spe = 95
+ev_spa = 1
+ev_spe = 1
+catch_rate = 75
+base_exp = 165
+egg_group_1 = 4
+ability_1 = 28
+ability_2 = 48
+ability_hidden = 156
+height_dm = 15
+weight_hg = 150
+body_color = 3
+level_moves = Array[ExtResource("3_ps65e")]([SubResource("Resource_uar3u"), SubResource("Resource_jhif0"), SubResource("Resource_6qvee"), SubResource("Resource_rr051"), SubResource("Resource_46kil"), SubResource("Resource_c1x6l"), SubResource("Resource_kacm5"), SubResource("Resource_ai3qx"), SubResource("Resource_vxmcc"), SubResource("Resource_kiyty"), SubResource("Resource_ox681"), SubResource("Resource_e6agx"), SubResource("Resource_nvwtx"), SubResource("Resource_30yd2"), SubResource("Resource_qp2i6")])

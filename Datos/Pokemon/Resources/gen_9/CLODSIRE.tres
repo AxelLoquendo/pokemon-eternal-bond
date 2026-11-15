@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dicvpntjbi225"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qcghw"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3cjyj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vueui"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mpvlq"]
+
+[sub_resource type="Resource" id="Resource_cwucf"]
+script = ExtResource("3_vueui")
+level = 0
+move = 133
+
+[sub_resource type="Resource" id="Resource_yijpf"]
+script = ExtResource("3_vueui")
+move = 39
+
+[sub_resource type="Resource" id="Resource_8tu15"]
+script = ExtResource("3_vueui")
+move = 40
+
+[sub_resource type="Resource" id="Resource_wuua6"]
+script = ExtResource("3_vueui")
+level = 4
+move = 390
+
+[sub_resource type="Resource" id="Resource_3w0k6"]
+script = ExtResource("3_vueui")
+level = 8
+move = 341
+
+[sub_resource type="Resource" id="Resource_meg4r"]
+script = ExtResource("3_vueui")
+level = 12
+move = 342
+
+[sub_resource type="Resource" id="Resource_dvno5"]
+script = ExtResource("3_vueui")
+level = 16
+move = 21
+
+[sub_resource type="Resource" id="Resource_jfcnn"]
+script = ExtResource("3_vueui")
+level = 21
+move = 281
+
+[sub_resource type="Resource" id="Resource_6abw0"]
+script = ExtResource("3_vueui")
+level = 24
+move = 398
+
+[sub_resource type="Resource" id="Resource_xsdys"]
+script = ExtResource("3_vueui")
+level = 30
+move = 482
+
+[sub_resource type="Resource" id="Resource_a4tat"]
+script = ExtResource("3_vueui")
+level = 36
+move = 224
+
+[sub_resource type="Resource" id="Resource_kym4b"]
+script = ExtResource("3_vueui")
+level = 40
+move = 92
+
+[sub_resource type="Resource" id="Resource_h13tj"]
+script = ExtResource("3_vueui")
+level = 48
+move = 89
+
+[resource]
+script = ExtResource("4_mpvlq")
+id = 1371
+display_name = "Clodsire"
+category = "Spiny Fish"
+national_dex = 980
+pokedex = "When attacked, this Pokémon will
+retaliate by sticking thick spines out
+from its body. It's a risky move
+that puts everything on the line."
+type_1 = 4
+type_2 = 5
+base_hp = 130
+base_atk = 75
+base_def = 60
+base_spa = 45
+base_spd = 100
+base_spe = 20
+ev_hp = 2
+catch_rate = 90
+base_exp = 151
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 38
+ability_2 = 11
+ability_hidden = 109
+height_dm = 18
+weight_hg = 2230
+body_color = 5
+level_moves = Array[ExtResource("3_vueui")]([SubResource("Resource_cwucf"), SubResource("Resource_yijpf"), SubResource("Resource_8tu15"), SubResource("Resource_wuua6"), SubResource("Resource_3w0k6"), SubResource("Resource_meg4r"), SubResource("Resource_dvno5"), SubResource("Resource_jfcnn"), SubResource("Resource_6abw0"), SubResource("Resource_xsdys"), SubResource("Resource_a4tat"), SubResource("Resource_kym4b"), SubResource("Resource_h13tj")])

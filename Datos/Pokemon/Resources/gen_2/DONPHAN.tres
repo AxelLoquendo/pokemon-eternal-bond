@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://2jj21tldjrmr"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_50ovm"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_cbdho"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_f8cau"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_niynx"]
+
+[sub_resource type="Resource" id="Resource_rhins"]
+script = ExtResource("3_f8cau")
+level = 0
+move = 31
+
+[sub_resource type="Resource" id="Resource_y8joy"]
+script = ExtResource("3_f8cau")
+move = 30
+
+[sub_resource type="Resource" id="Resource_tg62m"]
+script = ExtResource("3_f8cau")
+move = 45
+
+[sub_resource type="Resource" id="Resource_mjtv5"]
+script = ExtResource("3_f8cau")
+move = 111
+
+[sub_resource type="Resource" id="Resource_2v8li"]
+script = ExtResource("3_f8cau")
+move = 422
+
+[sub_resource type="Resource" id="Resource_xpmli"]
+script = ExtResource("3_f8cau")
+move = 424
+
+[sub_resource type="Resource" id="Resource_aj41j"]
+script = ExtResource("3_f8cau")
+move = 523
+
+[sub_resource type="Resource" id="Resource_ero8m"]
+script = ExtResource("3_f8cau")
+level = 6
+move = 229
+
+[sub_resource type="Resource" id="Resource_eqarr"]
+script = ExtResource("3_f8cau")
+level = 10
+move = 205
+
+[sub_resource type="Resource" id="Resource_jt4vj"]
+script = ExtResource("3_f8cau")
+level = 15
+move = 372
+
+[sub_resource type="Resource" id="Resource_dh1dq"]
+script = ExtResource("3_f8cau")
+level = 19
+move = 282
+
+[sub_resource type="Resource" id="Resource_jpe4t"]
+script = ExtResource("3_f8cau")
+level = 24
+move = 21
+
+[sub_resource type="Resource" id="Resource_a1j0w"]
+script = ExtResource("3_f8cau")
+level = 30
+move = 661
+
+[sub_resource type="Resource" id="Resource_3w30i"]
+script = ExtResource("3_f8cau")
+level = 37
+move = 184
+
+[sub_resource type="Resource" id="Resource_dg4yn"]
+script = ExtResource("3_f8cau")
+level = 43
+move = 89
+
+[sub_resource type="Resource" id="Resource_e3a2o"]
+script = ExtResource("3_f8cau")
+level = 50
+move = 416
+
+[resource]
+script = ExtResource("4_niynx")
+id = 232
+display_name = "Donphan"
+category = "Armor"
+national_dex = 232
+pokedex = "A Donphan is so strong it can easily haul
+a dump truck. Its hide has toughened to a
+rock-hard state. An ordinary sort of
+attack won't even leave a scratch."
+type_1 = 5
+base_hp = 90
+base_atk = 120
+base_def = 120
+base_spa = 60
+base_spd = 60
+base_spe = 50
+ev_atk = 1
+ev_def = 1
+catch_rate = 60
+base_exp = 175
+egg_group_1 = 5
+ability_1 = 5
+ability_hidden = 8
+height_dm = 11
+weight_hg = 1200
+body_color = 7
+level_moves = Array[ExtResource("3_f8cau")]([SubResource("Resource_rhins"), SubResource("Resource_y8joy"), SubResource("Resource_tg62m"), SubResource("Resource_mjtv5"), SubResource("Resource_2v8li"), SubResource("Resource_xpmli"), SubResource("Resource_aj41j"), SubResource("Resource_ero8m"), SubResource("Resource_eqarr"), SubResource("Resource_jt4vj"), SubResource("Resource_dh1dq"), SubResource("Resource_jpe4t"), SubResource("Resource_a1j0w"), SubResource("Resource_3w30i"), SubResource("Resource_dg4yn"), SubResource("Resource_e3a2o")])

@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://rjytsso78lkj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_b7t3x"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_sh6bq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_r8uht"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ijl4s"]
+
+[sub_resource type="Resource" id="Resource_d60ki"]
+script = ExtResource("3_r8uht")
+move = 585
+
+[sub_resource type="Resource" id="Resource_we6mx"]
+script = ExtResource("3_r8uht")
+move = 236
+
+[sub_resource type="Resource" id="Resource_ukg2r"]
+script = ExtResource("3_r8uht")
+move = 33
+
+[sub_resource type="Resource" id="Resource_bkhru"]
+script = ExtResource("3_r8uht")
+move = 106
+
+[sub_resource type="Resource" id="Resource_ji4af"]
+script = ExtResource("3_r8uht")
+move = 93
+
+[sub_resource type="Resource" id="Resource_k0lpg"]
+script = ExtResource("3_r8uht")
+move = 88
+
+[sub_resource type="Resource" id="Resource_tlpty"]
+script = ExtResource("3_r8uht")
+level = 5
+move = 95
+
+[sub_resource type="Resource" id="Resource_14iyv"]
+script = ExtResource("3_r8uht")
+level = 10
+move = 397
+
+[sub_resource type="Resource" id="Resource_8p776"]
+script = ExtResource("3_r8uht")
+level = 15
+move = 157
+
+[sub_resource type="Resource" id="Resource_msf33"]
+script = ExtResource("3_r8uht")
+level = 20
+move = 473
+
+[sub_resource type="Resource" id="Resource_dyd7h"]
+script = ExtResource("3_r8uht")
+level = 25
+move = 322
+
+[sub_resource type="Resource" id="Resource_kichd"]
+script = ExtResource("3_r8uht")
+level = 30
+move = 94
+
+[sub_resource type="Resource" id="Resource_acupj"]
+script = ExtResource("3_r8uht")
+level = 35
+move = 444
+
+[sub_resource type="Resource" id="Resource_vqv51"]
+script = ExtResource("3_r8uht")
+level = 40
+move = 248
+
+[sub_resource type="Resource" id="Resource_yi2os"]
+script = ExtResource("3_r8uht")
+level = 45
+move = 478
+
+[sub_resource type="Resource" id="Resource_1wpq5"]
+script = ExtResource("3_r8uht")
+level = 50
+move = 153
+
+[resource]
+script = ExtResource("4_ijl4s")
+id = 337
+display_name = "Lunatone"
+category = "Meteorite"
+national_dex = 337
+pokedex = "It becomes very active on the night of
+a full moon. This Pokémon was first
+discovered 40 years ago at the site of
+a meteor strike."
+type_1 = 6
+type_2 = 15
+base_hp = 90
+base_atk = 55
+base_def = 65
+base_spa = 95
+base_spd = 85
+base_spe = 70
+ev_spa = 2
+base_exp = 150
+gender_ratio = 255
+growth_rate = 4
+egg_cycles = 25
+egg_group_1 = 10
+ability_1 = 26
+item_common = 143
+item_rare = 217
+height_dm = 10
+weight_hg = 1680
+body_color = 2
+level_moves = Array[ExtResource("3_r8uht")]([SubResource("Resource_d60ki"), SubResource("Resource_we6mx"), SubResource("Resource_ukg2r"), SubResource("Resource_bkhru"), SubResource("Resource_ji4af"), SubResource("Resource_k0lpg"), SubResource("Resource_tlpty"), SubResource("Resource_14iyv"), SubResource("Resource_8p776"), SubResource("Resource_msf33"), SubResource("Resource_dyd7h"), SubResource("Resource_kichd"), SubResource("Resource_acupj"), SubResource("Resource_vqv51"), SubResource("Resource_yi2os"), SubResource("Resource_1wpq5")])

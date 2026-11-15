@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://fcts74rxsqrs"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xh203"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_onedt"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ncvq3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_p7vhw"]
+
+[sub_resource type="Resource" id="Resource_vut70"]
+script = ExtResource("1_xh203")
+method = "LEVEL"
+param = "20"
+target = 1371
+
+[sub_resource type="Resource" id="Resource_hjnst"]
+script = ExtResource("3_ncvq3")
+move = 39
+
+[sub_resource type="Resource" id="Resource_r8t82"]
+script = ExtResource("3_ncvq3")
+move = 341
+
+[sub_resource type="Resource" id="Resource_t2k12"]
+script = ExtResource("3_ncvq3")
+level = 4
+move = 33
+
+[sub_resource type="Resource" id="Resource_fiyb6"]
+script = ExtResource("3_ncvq3")
+level = 8
+move = 342
+
+[sub_resource type="Resource" id="Resource_y7pcc"]
+script = ExtResource("3_ncvq3")
+level = 12
+move = 390
+
+[sub_resource type="Resource" id="Resource_81as6"]
+script = ExtResource("3_ncvq3")
+level = 16
+move = 21
+
+[sub_resource type="Resource" id="Resource_trlhw"]
+script = ExtResource("3_ncvq3")
+level = 21
+move = 281
+
+[sub_resource type="Resource" id="Resource_ml4ou"]
+script = ExtResource("3_ncvq3")
+level = 24
+move = 398
+
+[sub_resource type="Resource" id="Resource_b3h02"]
+script = ExtResource("3_ncvq3")
+level = 28
+move = 482
+
+[sub_resource type="Resource" id="Resource_e1hug"]
+script = ExtResource("3_ncvq3")
+level = 32
+move = 133
+
+[sub_resource type="Resource" id="Resource_fe5jx"]
+script = ExtResource("3_ncvq3")
+level = 36
+move = 92
+
+[sub_resource type="Resource" id="Resource_m8hlt"]
+script = ExtResource("3_ncvq3")
+level = 40
+move = 89
+
+[resource]
+script = ExtResource("4_p7vhw")
+id = 1405
+display_name = "Wooper"
+category = "Poison Fish"
+national_dex = 194
+pokedex = "After losing a territorial struggle,
+Wooper began living on land.
+The Pokémon changed over time, developing
+a poisonous film to protect its body."
+type_1 = 4
+type_2 = 5
+base_hp = 55
+base_atk = 45
+base_def = 45
+base_spa = 25
+base_spd = 25
+base_spe = 15
+ev_hp = 1
+catch_rate = 255
+base_exp = 42
+egg_group_1 = 2
+egg_group_2 = 5
+ability_1 = 38
+ability_2 = 11
+ability_hidden = 109
+height_dm = 4
+weight_hg = 110
+body_color = 5
+level_moves = Array[ExtResource("3_ncvq3")]([SubResource("Resource_hjnst"), SubResource("Resource_r8t82"), SubResource("Resource_t2k12"), SubResource("Resource_fiyb6"), SubResource("Resource_y7pcc"), SubResource("Resource_81as6"), SubResource("Resource_trlhw"), SubResource("Resource_ml4ou"), SubResource("Resource_b3h02"), SubResource("Resource_e1hug"), SubResource("Resource_fe5jx"), SubResource("Resource_m8hlt")])
+egg_moves = Array[int]([491, 495, 246, 68, 174, 24, 114, 54, 105, 255, 254, 256])
+evolutions = Array[ExtResource("1_xh203")]([SubResource("Resource_vut70")])
+form_species = Array[int]([194, 1405])

@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cuj5defdt4v4c"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8q3y2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_uibvk"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k863k"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_l7u61"]
+
+[sub_resource type="Resource" id="Resource_pyr0y"]
+script = ExtResource("3_k863k")
+level = 0
+move = 276
+
+[sub_resource type="Resource" id="Resource_rpxfq"]
+script = ExtResource("3_k863k")
+move = 17
+
+[sub_resource type="Resource" id="Resource_4qqf5"]
+script = ExtResource("3_k863k")
+move = 43
+
+[sub_resource type="Resource" id="Resource_5r85x"]
+script = ExtResource("3_k863k")
+move = 64
+
+[sub_resource type="Resource" id="Resource_5gh0k"]
+script = ExtResource("3_k863k")
+move = 143
+
+[sub_resource type="Resource" id="Resource_7yy5j"]
+script = ExtResource("3_k863k")
+move = 468
+
+[sub_resource type="Resource" id="Resource_kvsil"]
+script = ExtResource("3_k863k")
+level = 18
+move = 366
+
+[sub_resource type="Resource" id="Resource_bjn6y"]
+script = ExtResource("3_k863k")
+level = 24
+move = 184
+
+[sub_resource type="Resource" id="Resource_ro4gj"]
+script = ExtResource("3_k863k")
+level = 30
+move = 332
+
+[sub_resource type="Resource" id="Resource_0fdgr"]
+script = ExtResource("3_k863k")
+level = 36
+move = 163
+
+[sub_resource type="Resource" id="Resource_pd58t"]
+script = ExtResource("3_k863k")
+level = 42
+move = 18
+
+[sub_resource type="Resource" id="Resource_3r30w"]
+script = ExtResource("3_k863k")
+level = 48
+move = 306
+
+[sub_resource type="Resource" id="Resource_532n5"]
+script = ExtResource("3_k863k")
+level = 57
+move = 403
+
+[sub_resource type="Resource" id="Resource_8355f"]
+script = ExtResource("3_k863k")
+level = 64
+move = 432
+
+[sub_resource type="Resource" id="Resource_do8oq"]
+script = ExtResource("3_k863k")
+level = 72
+move = 37
+
+[resource]
+script = ExtResource("4_l7u61")
+id = 628
+display_name = "Braviary"
+category = "Valiant"
+national_dex = 628
+pokedex = "For the sake of its friends, this brave
+warrior of the sky will not stop battling,
+even if it is injured. One can carry a car
+while flying."
+type_1 = 1
+type_2 = 3
+base_hp = 100
+base_atk = 123
+base_def = 75
+base_spa = 57
+base_spd = 75
+base_spe = 80
+ev_atk = 2
+catch_rate = 60
+base_exp = 179
+gender_ratio = 0
+growth_rate = 5
+egg_group_1 = 4
+ability_1 = 51
+ability_2 = 125
+ability_hidden = 128
+height_dm = 15
+weight_hg = 410
+level_moves = Array[ExtResource("3_k863k")]([SubResource("Resource_pyr0y"), SubResource("Resource_rpxfq"), SubResource("Resource_4qqf5"), SubResource("Resource_5r85x"), SubResource("Resource_5gh0k"), SubResource("Resource_7yy5j"), SubResource("Resource_kvsil"), SubResource("Resource_bjn6y"), SubResource("Resource_ro4gj"), SubResource("Resource_0fdgr"), SubResource("Resource_pd58t"), SubResource("Resource_3r30w"), SubResource("Resource_532n5"), SubResource("Resource_8355f"), SubResource("Resource_do8oq")])
+form_species = Array[int]([628, 1004])

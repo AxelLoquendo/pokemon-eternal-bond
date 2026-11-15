@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dcdmf6a8gp1lq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fk4kg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6c6wq"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2i36a"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_uefab"]
+
+[sub_resource type="Resource" id="Resource_y1wff"]
+script = ExtResource("1_fk4kg")
+method = "LEVEL"
+param = "22"
+target = 544
+
+[sub_resource type="Resource" id="Resource_fxmm2"]
+script = ExtResource("3_2i36a")
+move = 40
+
+[sub_resource type="Resource" id="Resource_xirpn"]
+script = ExtResource("3_2i36a")
+move = 111
+
+[sub_resource type="Resource" id="Resource_4ro12"]
+script = ExtResource("3_2i36a")
+level = 4
+move = 205
+
+[sub_resource type="Resource" id="Resource_cow4t"]
+script = ExtResource("3_2i36a")
+level = 8
+move = 182
+
+[sub_resource type="Resource" id="Resource_7dvhl"]
+script = ExtResource("3_2i36a")
+level = 12
+move = 342
+
+[sub_resource type="Resource" id="Resource_b6gra"]
+script = ExtResource("3_2i36a")
+level = 16
+move = 103
+
+[sub_resource type="Resource" id="Resource_aogvd"]
+script = ExtResource("3_2i36a")
+level = 20
+move = 450
+
+[sub_resource type="Resource" id="Resource_rernk"]
+script = ExtResource("3_2i36a")
+level = 24
+move = 474
+
+[sub_resource type="Resource" id="Resource_8qnxa"]
+script = ExtResource("3_2i36a")
+level = 28
+move = 36
+
+[sub_resource type="Resource" id="Resource_fiurr"]
+script = ExtResource("3_2i36a")
+level = 32
+move = 97
+
+[sub_resource type="Resource" id="Resource_55y31"]
+script = ExtResource("3_2i36a")
+level = 36
+move = 92
+
+[sub_resource type="Resource" id="Resource_fbnep"]
+script = ExtResource("3_2i36a")
+level = 40
+move = 599
+
+[sub_resource type="Resource" id="Resource_gv5y3"]
+script = ExtResource("3_2i36a")
+level = 44
+move = 38
+
+[resource]
+script = ExtResource("4_uefab")
+id = 543
+display_name = "Venipede"
+category = "Centipede"
+national_dex = 543
+pokedex = "Using the feelers on its head and tail,
+it picks up vibrations in the air to
+determine its prey's location and state.
+It is brutally aggressive."
+type_1 = 7
+type_2 = 4
+base_hp = 30
+base_atk = 45
+base_def = 59
+base_spa = 30
+base_spd = 39
+base_spe = 57
+ev_def = 1
+catch_rate = 255
+base_exp = 52
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 38
+ability_2 = 68
+ability_hidden = 95
+item_rare = 432
+height_dm = 4
+weight_hg = 53
+level_moves = Array[ExtResource("3_2i36a")]([SubResource("Resource_fxmm2"), SubResource("Resource_xirpn"), SubResource("Resource_4ro12"), SubResource("Resource_cow4t"), SubResource("Resource_7dvhl"), SubResource("Resource_b6gra"), SubResource("Resource_aogvd"), SubResource("Resource_rernk"), SubResource("Resource_8qnxa"), SubResource("Resource_fiurr"), SubResource("Resource_55y31"), SubResource("Resource_fbnep"), SubResource("Resource_gv5y3")])
+egg_moves = Array[int]([41, 42, 390, 191, 36, 431])
+evolutions = Array[ExtResource("1_fk4kg")]([SubResource("Resource_y1wff")])

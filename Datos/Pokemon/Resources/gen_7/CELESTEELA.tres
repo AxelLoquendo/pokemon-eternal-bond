@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://yaha7bo47wfi"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rtfq1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_20y5w"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_n0rad"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cgxnv"]
+
+[sub_resource type="Resource" id="Resource_rg7cq"]
+script = ExtResource("3_n0rad")
+move = 71
+
+[sub_resource type="Resource" id="Resource_jleaf"]
+script = ExtResource("3_n0rad")
+move = 33
+
+[sub_resource type="Resource" id="Resource_coqac"]
+script = ExtResource("3_n0rad")
+level = 5
+move = 106
+
+[sub_resource type="Resource" id="Resource_wnetn"]
+script = ExtResource("3_n0rad")
+level = 10
+move = 469
+
+[sub_resource type="Resource" id="Resource_yr5al"]
+script = ExtResource("3_n0rad")
+level = 15
+move = 72
+
+[sub_resource type="Resource" id="Resource_8lgwa"]
+script = ExtResource("3_n0rad")
+level = 20
+move = 479
+
+[sub_resource type="Resource" id="Resource_60vap"]
+script = ExtResource("3_n0rad")
+level = 25
+move = 275
+
+[sub_resource type="Resource" id="Resource_n0l3g"]
+script = ExtResource("3_n0rad")
+level = 30
+move = 475
+
+[sub_resource type="Resource" id="Resource_m1jr8"]
+script = ExtResource("3_n0rad")
+level = 35
+move = 202
+
+[sub_resource type="Resource" id="Resource_1fvly"]
+script = ExtResource("3_n0rad")
+level = 40
+move = 430
+
+[sub_resource type="Resource" id="Resource_qmwhv"]
+script = ExtResource("3_n0rad")
+level = 45
+move = 319
+
+[sub_resource type="Resource" id="Resource_otlit"]
+script = ExtResource("3_n0rad")
+level = 50
+move = 334
+
+[sub_resource type="Resource" id="Resource_dn5bw"]
+script = ExtResource("3_n0rad")
+level = 55
+move = 73
+
+[sub_resource type="Resource" id="Resource_ikw57"]
+script = ExtResource("3_n0rad")
+level = 60
+move = 484
+
+[sub_resource type="Resource" id="Resource_caebf"]
+script = ExtResource("3_n0rad")
+level = 65
+move = 38
+
+[sub_resource type="Resource" id="Resource_suf7p"]
+script = ExtResource("3_n0rad")
+level = 70
+move = 130
+
+[resource]
+script = ExtResource("4_cgxnv")
+id = 797
+display_name = "Celesteela"
+category = "Launch"
+national_dex = 797
+pokedex = "It appeared from the Ultra Wormhole.
+One kind of Ultra Beast, witnesses saw
+it flying across the sky by expelling gas
+from its two arms."
+type_1 = 9
+type_2 = 3
+base_hp = 97
+base_atk = 101
+base_def = 103
+base_spa = 107
+base_spd = 101
+base_spe = 61
+ev_atk = 1
+ev_def = 1
+ev_spa = 1
+base_exp = 285
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 224
+height_dm = 92
+weight_hg = 9999
+body_color = 3
+level_moves = Array[ExtResource("3_n0rad")]([SubResource("Resource_rg7cq"), SubResource("Resource_jleaf"), SubResource("Resource_coqac"), SubResource("Resource_wnetn"), SubResource("Resource_yr5al"), SubResource("Resource_8lgwa"), SubResource("Resource_60vap"), SubResource("Resource_n0l3g"), SubResource("Resource_m1jr8"), SubResource("Resource_1fvly"), SubResource("Resource_qmwhv"), SubResource("Resource_otlit"), SubResource("Resource_dn5bw"), SubResource("Resource_ikw57"), SubResource("Resource_caebf"), SubResource("Resource_suf7p")])

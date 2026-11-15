@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c8iruomwds0b3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_hules"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_pnkwn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4e7r4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4o3ib"]
+
+[sub_resource type="Resource" id="Resource_clt7f"]
+script = ExtResource("3_4e7r4")
+level = 0
+move = 556
+
+[sub_resource type="Resource" id="Resource_ps78u"]
+script = ExtResource("3_4e7r4")
+move = 556
+
+[sub_resource type="Resource" id="Resource_xc0n1"]
+script = ExtResource("3_4e7r4")
+move = 181
+
+[sub_resource type="Resource" id="Resource_orhp7"]
+script = ExtResource("3_4e7r4")
+move = 33
+
+[sub_resource type="Resource" id="Resource_x6l4g"]
+script = ExtResource("3_4e7r4")
+move = 269
+
+[sub_resource type="Resource" id="Resource_knmql"]
+script = ExtResource("3_4e7r4")
+move = 44
+
+[sub_resource type="Resource" id="Resource_27dmj"]
+script = ExtResource("3_4e7r4")
+level = 12
+move = 419
+
+[sub_resource type="Resource" id="Resource_dugbx"]
+script = ExtResource("3_4e7r4")
+level = 16
+move = 526
+
+[sub_resource type="Resource" id="Resource_m2xy1"]
+script = ExtResource("3_4e7r4")
+level = 20
+move = 423
+
+[sub_resource type="Resource" id="Resource_gdlno"]
+script = ExtResource("3_4e7r4")
+level = 24
+move = 29
+
+[sub_resource type="Resource" id="Resource_13nj5"]
+script = ExtResource("3_4e7r4")
+level = 28
+move = 8
+
+[sub_resource type="Resource" id="Resource_yf0h7"]
+script = ExtResource("3_4e7r4")
+level = 32
+move = 253
+
+[sub_resource type="Resource" id="Resource_08r4i"]
+script = ExtResource("3_4e7r4")
+level = 38
+move = 187
+
+[sub_resource type="Resource" id="Resource_l83a2"]
+script = ExtResource("3_4e7r4")
+level = 44
+move = 59
+
+[sub_resource type="Resource" id="Resource_qfsg3"]
+script = ExtResource("3_4e7r4")
+level = 50
+move = 37
+
+[sub_resource type="Resource" id="Resource_wtmsx"]
+script = ExtResource("3_4e7r4")
+level = 56
+move = 276
+
+[resource]
+script = ExtResource("4_4o3ib")
+id = 990
+display_name = "Darmanitan"
+category = "Zen Charm"
+national_dex = 555
+pokedex = "On days when blizzards blow
+through, it comes down to where people
+live. It stashes food in the snowball on
+its head, taking it home for later."
+type_1 = 16
+base_hp = 105
+base_atk = 140
+base_def = 55
+base_spa = 30
+base_spd = 55
+base_spe = 95
+ev_atk = 2
+catch_rate = 60
+base_exp = 168
+growth_rate = 3
+egg_group_1 = 5
+ability_1 = 255
+ability_hidden = 161
+height_dm = 17
+weight_hg = 1200
+body_color = 8
+level_moves = Array[ExtResource("3_4e7r4")]([SubResource("Resource_clt7f"), SubResource("Resource_ps78u"), SubResource("Resource_xc0n1"), SubResource("Resource_orhp7"), SubResource("Resource_x6l4g"), SubResource("Resource_knmql"), SubResource("Resource_27dmj"), SubResource("Resource_dugbx"), SubResource("Resource_m2xy1"), SubResource("Resource_gdlno"), SubResource("Resource_13nj5"), SubResource("Resource_yf0h7"), SubResource("Resource_08r4i"), SubResource("Resource_l83a2"), SubResource("Resource_qfsg3"), SubResource("Resource_wtmsx")])
+form_species = Array[int]([555, 1092, 990, 1093])

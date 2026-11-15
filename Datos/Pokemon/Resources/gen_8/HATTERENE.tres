@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://clkqb5h1anhuj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_aqytt"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_g7o5o"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_et6xe"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_yh4xx"]
+
+[sub_resource type="Resource" id="Resource_8icoe"]
+script = ExtResource("3_et6xe")
+level = 0
+move = 427
+
+[sub_resource type="Resource" id="Resource_iv5te"]
+script = ExtResource("3_et6xe")
+move = 93
+
+[sub_resource type="Resource" id="Resource_0v1xf"]
+script = ExtResource("3_et6xe")
+move = 574
+
+[sub_resource type="Resource" id="Resource_cpmlh"]
+script = ExtResource("3_et6xe")
+move = 589
+
+[sub_resource type="Resource" id="Resource_6g7mj"]
+script = ExtResource("3_et6xe")
+move = 656
+
+[sub_resource type="Resource" id="Resource_lno6e"]
+script = ExtResource("3_et6xe")
+move = 719
+
+[sub_resource type="Resource" id="Resource_7h20b"]
+script = ExtResource("3_et6xe")
+level = 15
+move = 597
+
+[sub_resource type="Resource" id="Resource_t5ocx"]
+script = ExtResource("3_et6xe")
+level = 20
+move = 60
+
+[sub_resource type="Resource" id="Resource_ldn71"]
+script = ExtResource("3_et6xe")
+level = 25
+move = 505
+
+[sub_resource type="Resource" id="Resource_mwf6l"]
+script = ExtResource("3_et6xe")
+level = 30
+move = 605
+
+[sub_resource type="Resource" id="Resource_q35le"]
+script = ExtResource("3_et6xe")
+level = 37
+move = 347
+
+[sub_resource type="Resource" id="Resource_kj7np"]
+script = ExtResource("3_et6xe")
+level = 46
+move = 94
+
+[sub_resource type="Resource" id="Resource_2cpr8"]
+script = ExtResource("3_et6xe")
+level = 55
+move = 361
+
+[sub_resource type="Resource" id="Resource_dpyoo"]
+script = ExtResource("3_et6xe")
+level = 64
+move = 696
+
+[resource]
+script = ExtResource("4_yh4xx")
+id = 858
+display_name = "Hatterene"
+category = "Silent"
+national_dex = 858
+pokedex = "It emits psychic power strong enough to
+cause headaches as a deterrent to the
+approach of others."
+type_1 = 15
+type_2 = 19
+base_hp = 57
+base_atk = 90
+base_def = 95
+base_spa = 136
+base_spd = 103
+base_spe = 29
+ev_spa = 3
+base_exp = 255
+gender_ratio = 254
+growth_rate = 5
+egg_group_1 = 6
+ability_1 = 131
+ability_2 = 107
+ability_hidden = 156
+height_dm = 21
+weight_hg = 51
+body_color = 9
+level_moves = Array[ExtResource("3_et6xe")]([SubResource("Resource_8icoe"), SubResource("Resource_iv5te"), SubResource("Resource_0v1xf"), SubResource("Resource_cpmlh"), SubResource("Resource_6g7mj"), SubResource("Resource_lno6e"), SubResource("Resource_7h20b"), SubResource("Resource_t5ocx"), SubResource("Resource_ldn71"), SubResource("Resource_mwf6l"), SubResource("Resource_q35le"), SubResource("Resource_kj7np"), SubResource("Resource_2cpr8"), SubResource("Resource_dpyoo")])
+form_species = Array[int]([858, 1516])

@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://sjg2lb001dq8"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_q0tp6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5kguc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yaqgs"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_34k07"]
+
+[sub_resource type="Resource" id="Resource_adevs"]
+script = ExtResource("3_yaqgs")
+move = 609
+
+[sub_resource type="Resource" id="Resource_t7w4j"]
+script = ExtResource("3_yaqgs")
+move = 33
+
+[sub_resource type="Resource" id="Resource_bpqos"]
+script = ExtResource("3_yaqgs")
+level = 5
+move = 111
+
+[sub_resource type="Resource" id="Resource_0knhh"]
+script = ExtResource("3_yaqgs")
+level = 10
+move = 268
+
+[sub_resource type="Resource" id="Resource_cjpfm"]
+script = ExtResource("3_yaqgs")
+level = 15
+move = 84
+
+[sub_resource type="Resource" id="Resource_7prr0"]
+script = ExtResource("3_yaqgs")
+level = 20
+move = 565
+
+[sub_resource type="Resource" id="Resource_q7181"]
+script = ExtResource("3_yaqgs")
+level = 25
+move = 209
+
+[sub_resource type="Resource" id="Resource_w4fg7"]
+script = ExtResource("3_yaqgs")
+level = 30
+move = 42
+
+[sub_resource type="Resource" id="Resource_d1s5e"]
+script = ExtResource("3_yaqgs")
+level = 35
+move = 393
+
+[sub_resource type="Resource" id="Resource_s3lue"]
+script = ExtResource("3_yaqgs")
+level = 40
+move = 670
+
+[sub_resource type="Resource" id="Resource_bfwms"]
+script = ExtResource("3_yaqgs")
+level = 45
+move = 435
+
+[sub_resource type="Resource" id="Resource_uscny"]
+script = ExtResource("3_yaqgs")
+level = 50
+move = 604
+
+[sub_resource type="Resource" id="Resource_gaxu2"]
+script = ExtResource("3_yaqgs")
+level = 55
+move = 528
+
+[sub_resource type="Resource" id="Resource_ckgiv"]
+script = ExtResource("3_yaqgs")
+level = 60
+move = 596
+
+[resource]
+script = ExtResource("4_34k07")
+id = 777
+display_name = "Togedemaru"
+category = "Roly-Poly"
+national_dex = 777
+type_1 = 14
+type_2 = 9
+base_hp = 65
+base_atk = 98
+base_def = 63
+base_spa = 40
+base_spd = 73
+base_spe = 96
+ev_atk = 2
+catch_rate = 180
+base_exp = 152
+egg_cycles = 10
+egg_group_1 = 5
+egg_group_2 = 6
+ability_1 = 160
+ability_2 = 31
+ability_hidden = 5
+item_rare = 451
+height_dm = 3
+weight_hg = 33
+body_color = 7
+level_moves = Array[ExtResource("3_yaqgs")]([SubResource("Resource_adevs"), SubResource("Resource_t7w4j"), SubResource("Resource_bpqos"), SubResource("Resource_0knhh"), SubResource("Resource_cjpfm"), SubResource("Resource_7prr0"), SubResource("Resource_q7181"), SubResource("Resource_w4fg7"), SubResource("Resource_d1s5e"), SubResource("Resource_s3lue"), SubResource("Resource_bfwms"), SubResource("Resource_uscny"), SubResource("Resource_gaxu2"), SubResource("Resource_ckgiv")])
+egg_moves = Array[int]([179, 217, 227, 41, 273, 252, 321, 175, 574])
+form_species = Array[int]([777, 1486])

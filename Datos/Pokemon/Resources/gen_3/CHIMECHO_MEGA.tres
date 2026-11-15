@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bh2swtgltnt7k"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_a4rc1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_q6r4t"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0ifdx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_che2y"]
+
+[sub_resource type="Resource" id="Resource_e7ikk"]
+script = ExtResource("3_0ifdx")
+move = 35
+
+[sub_resource type="Resource" id="Resource_sd001"]
+script = ExtResource("3_0ifdx")
+move = 45
+
+[sub_resource type="Resource" id="Resource_4euqy"]
+script = ExtResource("3_0ifdx")
+move = 93
+
+[sub_resource type="Resource" id="Resource_wee0g"]
+script = ExtResource("3_0ifdx")
+move = 310
+
+[sub_resource type="Resource" id="Resource_5v3ue"]
+script = ExtResource("3_0ifdx")
+move = 361
+
+[sub_resource type="Resource" id="Resource_tpdm6"]
+script = ExtResource("3_0ifdx")
+level = 13
+move = 281
+
+[sub_resource type="Resource" id="Resource_rxxw7"]
+script = ExtResource("3_0ifdx")
+level = 16
+move = 500
+
+[sub_resource type="Resource" id="Resource_a5jxf"]
+script = ExtResource("3_0ifdx")
+level = 19
+move = 36
+
+[sub_resource type="Resource" id="Resource_a87sc"]
+script = ExtResource("3_0ifdx")
+level = 22
+move = 326
+
+[sub_resource type="Resource" id="Resource_iugns"]
+script = ExtResource("3_0ifdx")
+level = 27
+move = 215
+
+[sub_resource type="Resource" id="Resource_fvnfk"]
+script = ExtResource("3_0ifdx")
+level = 32
+move = 253
+
+[sub_resource type="Resource" id="Resource_jyf8h"]
+script = ExtResource("3_0ifdx")
+level = 37
+move = 219
+
+[sub_resource type="Resource" id="Resource_y1533"]
+script = ExtResource("3_0ifdx")
+level = 42
+move = 38
+
+[sub_resource type="Resource" id="Resource_4ie2y"]
+script = ExtResource("3_0ifdx")
+level = 47
+move = 505
+
+[resource]
+script = ExtResource("4_che2y")
+id = 1555
+display_name = "Chimecho"
+category = "Wind Chime"
+national_dex = 358
+pokedex = "It vibrates its entire body to attack in
+all directions using sound waves. Any who
+hear the vibrations get so confused, they
+forget who they are."
+type_1 = 15
+type_2 = 9
+base_hp = 75
+base_atk = 50
+base_def = 110
+base_spa = 135
+base_spd = 120
+base_spe = 65
+ev_spa = 1
+ev_spd = 1
+base_exp = 147
+growth_rate = 4
+egg_cycles = 25
+egg_group_1 = 11
+ability_1 = 26
+ability_2 = 26
+ability_hidden = 26
+item_rare = 467
+height_dm = 12
+weight_hg = 80
+body_color = 1
+level_moves = Array[ExtResource("3_0ifdx")]([SubResource("Resource_e7ikk"), SubResource("Resource_sd001"), SubResource("Resource_4euqy"), SubResource("Resource_wee0g"), SubResource("Resource_5v3ue"), SubResource("Resource_tpdm6"), SubResource("Resource_rxxw7"), SubResource("Resource_a5jxf"), SubResource("Resource_a87sc"), SubResource("Resource_iugns"), SubResource("Resource_fvnfk"), SubResource("Resource_jyf8h"), SubResource("Resource_y1533"), SubResource("Resource_4ie2y")])
+egg_moves = Array[int]([50, 174, 95, 273, 248, 105, 500, 285, 322, 578, 195])
+form_species = Array[int]([358, 1555])

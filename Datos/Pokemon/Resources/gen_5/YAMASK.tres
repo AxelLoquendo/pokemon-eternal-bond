@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dw573thwmkvmx"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_i7s75"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_wp0j2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_chek0"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mgcgl"]
+
+[sub_resource type="Resource" id="Resource_51gnt"]
+script = ExtResource("1_i7s75")
+method = "LEVEL"
+param = "34"
+target = 563
+
+[sub_resource type="Resource" id="Resource_i5ok5"]
+script = ExtResource("3_chek0")
+move = 310
+
+[sub_resource type="Resource" id="Resource_lsdds"]
+script = ExtResource("3_chek0")
+move = 182
+
+[sub_resource type="Resource" id="Resource_f1xks"]
+script = ExtResource("3_chek0")
+level = 4
+move = 114
+
+[sub_resource type="Resource" id="Resource_3jcb6"]
+script = ExtResource("3_chek0")
+level = 8
+move = 101
+
+[sub_resource type="Resource" id="Resource_ey3hn"]
+script = ExtResource("3_chek0")
+level = 12
+move = 50
+
+[sub_resource type="Resource" id="Resource_2oqr6"]
+script = ExtResource("3_chek0")
+level = 16
+move = 261
+
+[sub_resource type="Resource" id="Resource_eprjq"]
+script = ExtResource("3_chek0")
+level = 20
+move = 578
+
+[sub_resource type="Resource" id="Resource_bqdw5"]
+script = ExtResource("3_chek0")
+level = 24
+move = 506
+
+[sub_resource type="Resource" id="Resource_aum72"]
+script = ExtResource("3_chek0")
+level = 28
+move = 212
+
+[sub_resource type="Resource" id="Resource_y5gcc"]
+script = ExtResource("3_chek0")
+level = 32
+move = 288
+
+[sub_resource type="Resource" id="Resource_0425f"]
+script = ExtResource("3_chek0")
+level = 36
+move = 174
+
+[sub_resource type="Resource" id="Resource_b2ixj"]
+script = ExtResource("3_chek0")
+level = 40
+move = 247
+
+[sub_resource type="Resource" id="Resource_fbo64"]
+script = ExtResource("3_chek0")
+level = 44
+move = 399
+
+[sub_resource type="Resource" id="Resource_6b2e3"]
+script = ExtResource("3_chek0")
+level = 48
+move = 471
+
+[sub_resource type="Resource" id="Resource_0he1w"]
+script = ExtResource("3_chek0")
+level = 48
+move = 470
+
+[sub_resource type="Resource" id="Resource_2u0s4"]
+script = ExtResource("3_chek0")
+level = 52
+move = 194
+
+[resource]
+script = ExtResource("4_mgcgl")
+id = 562
+display_name = "Yamask"
+category = "Spirit"
+national_dex = 562
+pokedex = "These Pokémon arose from the spirits
+of people interred in graves in past ages.
+Each of them carries a mask that used
+to be its face when it was human."
+type_1 = 8
+base_hp = 38
+base_atk = 30
+base_def = 85
+base_spa = 55
+base_spd = 65
+base_spe = 30
+ev_def = 1
+catch_rate = 190
+base_exp = 61
+egg_cycles = 25
+egg_group_1 = 10
+egg_group_2 = 11
+ability_1 = 152
+item_rare = 438
+height_dm = 5
+weight_hg = 15
+body_color = 4
+level_moves = Array[ExtResource("3_chek0")]([SubResource("Resource_i5ok5"), SubResource("Resource_lsdds"), SubResource("Resource_f1xks"), SubResource("Resource_3jcb6"), SubResource("Resource_ey3hn"), SubResource("Resource_2oqr6"), SubResource("Resource_eprjq"), SubResource("Resource_bqdw5"), SubResource("Resource_aum72"), SubResource("Resource_y5gcc"), SubResource("Resource_0425f"), SubResource("Resource_b2ixj"), SubResource("Resource_fbo64"), SubResource("Resource_6b2e3"), SubResource("Resource_0he1w"), SubResource("Resource_2u0s4")])
+egg_moves = Array[int]([262, 313, 417, 203, 377, 286, 171, 50, 502, 390, 578])
+evolutions = Array[ExtResource("1_i7s75")]([SubResource("Resource_51gnt")])
+form_species = Array[int]([562, 991])

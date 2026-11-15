@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b0evdnmtun3nt"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vd7s7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7j0cl"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hp30l"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_f8jbq"]
+
+[sub_resource type="Resource" id="Resource_x7my5"]
+script = ExtResource("3_hp30l")
+move = 103
+
+[sub_resource type="Resource" id="Resource_0yqth"]
+script = ExtResource("3_hp30l")
+move = 71
+
+[sub_resource type="Resource" id="Resource_wq823"]
+script = ExtResource("3_hp30l")
+move = 48
+
+[sub_resource type="Resource" id="Resource_yyiva"]
+script = ExtResource("3_hp30l")
+move = 310
+
+[sub_resource type="Resource" id="Resource_c7p5x"]
+script = ExtResource("3_hp30l")
+move = 212
+
+[sub_resource type="Resource" id="Resource_sycot"]
+script = ExtResource("3_hp30l")
+level = 15
+move = 305
+
+[sub_resource type="Resource" id="Resource_0a6nn"]
+script = ExtResource("3_hp30l")
+level = 20
+move = 501
+
+[sub_resource type="Resource" id="Resource_4lt1i"]
+script = ExtResource("3_hp30l")
+level = 27
+move = 314
+
+[sub_resource type="Resource" id="Resource_co5kx"]
+script = ExtResource("3_hp30l")
+level = 34
+move = 44
+
+[sub_resource type="Resource" id="Resource_gsw0r"]
+script = ExtResource("3_hp30l")
+level = 41
+move = 114
+
+[sub_resource type="Resource" id="Resource_p5y0l"]
+script = ExtResource("3_hp30l")
+level = 48
+move = 474
+
+[sub_resource type="Resource" id="Resource_onoj3"]
+script = ExtResource("3_hp30l")
+level = 55
+move = 109
+
+[sub_resource type="Resource" id="Resource_lmtv7"]
+script = ExtResource("3_hp30l")
+level = 62
+move = 403
+
+[sub_resource type="Resource" id="Resource_yb7us"]
+script = ExtResource("3_hp30l")
+level = 69
+move = 141
+
+[resource]
+script = ExtResource("4_f8jbq")
+id = 42
+display_name = "Golbat"
+category = "Bat"
+national_dex = 42
+pokedex = "Its fangs easily puncture even thick
+animal hide. It loves to feast on the blood
+of people and Pokémon. It flits about in
+darkness and strikes from behind."
+type_1 = 4
+type_2 = 3
+base_hp = 75
+base_atk = 80
+base_def = 70
+base_spa = 65
+base_spd = 75
+base_spe = 90
+ev_spe = 2
+catch_rate = 90
+base_exp = 159
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 39
+ability_hidden = 151
+height_dm = 16
+weight_hg = 550
+body_color = 6
+level_moves = Array[ExtResource("3_hp30l")]([SubResource("Resource_x7my5"), SubResource("Resource_0yqth"), SubResource("Resource_wq823"), SubResource("Resource_yyiva"), SubResource("Resource_c7p5x"), SubResource("Resource_sycot"), SubResource("Resource_0a6nn"), SubResource("Resource_4lt1i"), SubResource("Resource_co5kx"), SubResource("Resource_gsw0r"), SubResource("Resource_p5y0l"), SubResource("Resource_onoj3"), SubResource("Resource_lmtv7"), SubResource("Resource_yb7us")])

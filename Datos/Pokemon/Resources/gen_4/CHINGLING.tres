@@ -1,0 +1,75 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cl1b5uim3qwxg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_sm2gx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_b8xvl"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_snyji"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_g1qwa"]
+
+[sub_resource type="Resource" id="Resource_7d5xc"]
+script = ExtResource("3_snyji")
+move = 35
+
+[sub_resource type="Resource" id="Resource_404l2"]
+script = ExtResource("3_snyji")
+level = 4
+move = 45
+
+[sub_resource type="Resource" id="Resource_7dds2"]
+script = ExtResource("3_snyji")
+level = 7
+move = 310
+
+[sub_resource type="Resource" id="Resource_7ah56"]
+script = ExtResource("3_snyji")
+level = 10
+move = 93
+
+[sub_resource type="Resource" id="Resource_1m54s"]
+script = ExtResource("3_snyji")
+level = 13
+move = 281
+
+[sub_resource type="Resource" id="Resource_gukea"]
+script = ExtResource("3_snyji")
+level = 16
+move = 387
+
+[sub_resource type="Resource" id="Resource_8n7ni"]
+script = ExtResource("3_snyji")
+level = 19
+move = 494
+
+[sub_resource type="Resource" id="Resource_g5oi8"]
+script = ExtResource("3_snyji")
+level = 32
+move = 253
+
+[resource]
+script = ExtResource("4_g1qwa")
+id = 433
+display_name = "Chingling"
+category = "Bell"
+national_dex = 433
+pokedex = "There is an orb inside its mouth.
+When it hops, the orb bounces all
+over and makes a ringing sound.
+It can cry for an awfully long time."
+type_1 = 15
+base_hp = 45
+base_atk = 30
+base_def = 50
+base_spa = 65
+base_spd = 50
+base_spe = 45
+ev_spa = 1
+catch_rate = 120
+base_exp = 57
+growth_rate = 4
+egg_cycles = 25
+ability_1 = 26
+item_rare = 467
+height_dm = 2
+weight_hg = 6
+body_color = 2
+level_moves = Array[ExtResource("3_snyji")]([SubResource("Resource_7d5xc"), SubResource("Resource_404l2"), SubResource("Resource_7dds2"), SubResource("Resource_7ah56"), SubResource("Resource_1m54s"), SubResource("Resource_gukea"), SubResource("Resource_8n7ni"), SubResource("Resource_g5oi8")])
+egg_moves = Array[int]([50, 174, 95, 273, 248, 105, 500, 285, 322])

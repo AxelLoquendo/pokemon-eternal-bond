@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b5h1hif5wtbbc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_l2hkl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_o7h5m"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gi3bt"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7g6gu"]
+
+[sub_resource type="Resource" id="Resource_23cgb"]
+script = ExtResource("1_l2hkl")
+method = "LEVEL"
+param = "30"
+target = 282
+
+[sub_resource type="Resource" id="Resource_3gxd1"]
+script = ExtResource("3_gi3bt")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ia2e7"]
+script = ExtResource("3_gi3bt")
+move = 93
+
+[sub_resource type="Resource" id="Resource_monwp"]
+script = ExtResource("3_gi3bt")
+move = 104
+
+[sub_resource type="Resource" id="Resource_qulv3"]
+script = ExtResource("3_gi3bt")
+move = 574
+
+[sub_resource type="Resource" id="Resource_b8qa4"]
+script = ExtResource("3_gi3bt")
+level = 9
+move = 95
+
+[sub_resource type="Resource" id="Resource_see6c"]
+script = ExtResource("3_gi3bt")
+level = 12
+move = 577
+
+[sub_resource type="Resource" id="Resource_kqqwn"]
+script = ExtResource("3_gi3bt")
+level = 15
+move = 100
+
+[sub_resource type="Resource" id="Resource_cvvpw"]
+script = ExtResource("3_gi3bt")
+level = 18
+move = 60
+
+[sub_resource type="Resource" id="Resource_img7v"]
+script = ExtResource("3_gi3bt")
+level = 23
+move = 719
+
+[sub_resource type="Resource" id="Resource_o7hnj"]
+script = ExtResource("3_gi3bt")
+level = 28
+move = 204
+
+[sub_resource type="Resource" id="Resource_dt8tl"]
+script = ExtResource("3_gi3bt")
+level = 33
+move = 347
+
+[sub_resource type="Resource" id="Resource_b60k7"]
+script = ExtResource("3_gi3bt")
+level = 38
+move = 94
+
+[sub_resource type="Resource" id="Resource_p50au"]
+script = ExtResource("3_gi3bt")
+level = 43
+move = 505
+
+[sub_resource type="Resource" id="Resource_c5kql"]
+script = ExtResource("3_gi3bt")
+level = 48
+move = 138
+
+[sub_resource type="Resource" id="Resource_nscxc"]
+script = ExtResource("3_gi3bt")
+level = 53
+move = 248
+
+[resource]
+script = ExtResource("4_7g6gu")
+id = 281
+display_name = "Kirlia"
+category = "Emotion"
+national_dex = 281
+pokedex = "A Kirlia has the psychic power to create 
+a rip in the dimensions and see into the
+future. It is said to dance with pleasure
+on sunny mornings."
+type_1 = 15
+base_hp = 38
+base_atk = 35
+base_def = 35
+base_spa = 65
+base_spd = 55
+base_spe = 50
+ev_spa = 2
+catch_rate = 120
+base_exp = 97
+base_friendship = 35
+growth_rate = 5
+ability_1 = 28
+ability_2 = 36
+ability_hidden = 140
+height_dm = 8
+weight_hg = 202
+body_color = 8
+level_moves = Array[ExtResource("3_gi3bt")]([SubResource("Resource_3gxd1"), SubResource("Resource_ia2e7"), SubResource("Resource_monwp"), SubResource("Resource_qulv3"), SubResource("Resource_b8qa4"), SubResource("Resource_see6c"), SubResource("Resource_kqqwn"), SubResource("Resource_cvvpw"), SubResource("Resource_img7v"), SubResource("Resource_o7hnj"), SubResource("Resource_dt8tl"), SubResource("Resource_b60k7"), SubResource("Resource_p50au"), SubResource("Resource_c5kql"), SubResource("Resource_nscxc")])
+evolutions = Array[ExtResource("1_l2hkl")]([SubResource("Resource_23cgb")])

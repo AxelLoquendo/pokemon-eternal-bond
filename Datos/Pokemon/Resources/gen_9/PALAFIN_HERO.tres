@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bnb4qpquejyuh"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_q57e5"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_c01aa"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_sxb0l"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6bc4h"]
+
+[sub_resource type="Resource" id="Resource_ld40i"]
+script = ExtResource("3_sxb0l")
+level = 0
+move = 740
+
+[sub_resource type="Resource" id="Resource_q051h"]
+script = ExtResource("3_sxb0l")
+move = 785
+
+[sub_resource type="Resource" id="Resource_cfmq5"]
+script = ExtResource("3_sxb0l")
+move = 48
+
+[sub_resource type="Resource" id="Resource_eoyqd"]
+script = ExtResource("3_sxb0l")
+move = 55
+
+[sub_resource type="Resource" id="Resource_g70xm"]
+script = ExtResource("3_sxb0l")
+level = 7
+move = 310
+
+[sub_resource type="Resource" id="Resource_07nac"]
+script = ExtResource("3_sxb0l")
+level = 10
+move = 116
+
+[sub_resource type="Resource" id="Resource_vekb3"]
+script = ExtResource("3_sxb0l")
+level = 13
+move = 453
+
+[sub_resource type="Resource" id="Resource_6sq7x"]
+script = ExtResource("3_sxb0l")
+level = 17
+move = 458
+
+[sub_resource type="Resource" id="Resource_l01ph"]
+script = ExtResource("3_sxb0l")
+level = 21
+move = 291
+
+[sub_resource type="Resource" id="Resource_7ii27"]
+script = ExtResource("3_sxb0l")
+level = 25
+move = 204
+
+[sub_resource type="Resource" id="Resource_0fpse"]
+script = ExtResource("3_sxb0l")
+level = 29
+move = 512
+
+[sub_resource type="Resource" id="Resource_tnhqu"]
+script = ExtResource("3_sxb0l")
+level = 34
+move = 227
+
+[sub_resource type="Resource" id="Resource_5a4kf"]
+script = ExtResource("3_sxb0l")
+level = 39
+move = 401
+
+[sub_resource type="Resource" id="Resource_0fcih"]
+script = ExtResource("3_sxb0l")
+level = 44
+move = 54
+
+[sub_resource type="Resource" id="Resource_nygim"]
+script = ExtResource("3_sxb0l")
+level = 50
+move = 56
+
+[sub_resource type="Resource" id="Resource_ikd5a"]
+script = ExtResource("3_sxb0l")
+level = 55
+move = 264
+
+[sub_resource type="Resource" id="Resource_853wc"]
+script = ExtResource("3_sxb0l")
+level = 61
+move = 762
+
+[resource]
+script = ExtResource("4_6bc4h")
+id = 1353
+display_name = "Palafin"
+category = "Hero"
+national_dex = 964
+pokedex = "This Pokémon's ancient genes have
+awakened. It is now so extraordinarily
+strong that it can easily lift a
+cruise ship with one fin."
+type_1 = 12
+base_hp = 100
+base_atk = 160
+base_def = 97
+base_spa = 106
+base_spd = 87
+base_spe = 100
+ev_hp = 2
+base_exp = 228
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 5
+egg_group_2 = 12
+ability_1 = 278
+height_dm = 18
+weight_hg = 974
+body_color = 1
+level_moves = Array[ExtResource("3_sxb0l")]([SubResource("Resource_ld40i"), SubResource("Resource_q051h"), SubResource("Resource_cfmq5"), SubResource("Resource_eoyqd"), SubResource("Resource_g70xm"), SubResource("Resource_07nac"), SubResource("Resource_vekb3"), SubResource("Resource_6sq7x"), SubResource("Resource_l01ph"), SubResource("Resource_7ii27"), SubResource("Resource_0fpse"), SubResource("Resource_tnhqu"), SubResource("Resource_5a4kf"), SubResource("Resource_0fcih"), SubResource("Resource_nygim"), SubResource("Resource_ikd5a"), SubResource("Resource_853wc")])
+form_species = Array[int]([1352, 1353])

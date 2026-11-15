@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dp7qj5hopb6wy"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_b7ybb"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_00sio"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0snvc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_oxbxf"]
+
+[sub_resource type="Resource" id="Resource_cckxd"]
+script = ExtResource("3_0snvc")
+move = 10
+
+[sub_resource type="Resource" id="Resource_j7umy"]
+script = ExtResource("3_0snvc")
+move = 28
+
+[sub_resource type="Resource" id="Resource_cnj8t"]
+script = ExtResource("3_0snvc")
+move = 39
+
+[sub_resource type="Resource" id="Resource_306s8"]
+script = ExtResource("3_0snvc")
+move = 310
+
+[sub_resource type="Resource" id="Resource_h8kbc"]
+script = ExtResource("3_0snvc")
+level = 11
+move = 226
+
+[sub_resource type="Resource" id="Resource_uhc3h"]
+script = ExtResource("3_0snvc")
+level = 15
+move = 321
+
+[sub_resource type="Resource" id="Resource_ngoen"]
+script = ExtResource("3_0snvc")
+level = 18
+move = 154
+
+[sub_resource type="Resource" id="Resource_j5sue"]
+script = ExtResource("3_0snvc")
+level = 22
+move = 129
+
+[sub_resource type="Resource" id="Resource_vwque"]
+script = ExtResource("3_0snvc")
+level = 25
+move = 103
+
+[sub_resource type="Resource" id="Resource_ykda2"]
+script = ExtResource("3_0snvc")
+level = 29
+move = 97
+
+[sub_resource type="Resource" id="Resource_kdr6w"]
+script = ExtResource("3_0snvc")
+level = 32
+move = 458
+
+[sub_resource type="Resource" id="Resource_dabmr"]
+script = ExtResource("3_0snvc")
+level = 36
+move = 374
+
+[sub_resource type="Resource" id="Resource_rkwdj"]
+script = ExtResource("3_0snvc")
+level = 39
+move = 417
+
+[sub_resource type="Resource" id="Resource_mdu5e"]
+script = ExtResource("3_0snvc")
+level = 43
+move = 387
+
+[resource]
+script = ExtResource("4_oxbxf")
+id = 424
+display_name = "Ambipom"
+category = "Long Tail"
+national_dex = 424
+pokedex = "They live on large trees. Split into two,
+the tails are so adept at handling and
+doing things, Ambipom rarely uses
+its hands now."
+type_1 = 1
+base_hp = 75
+base_atk = 100
+base_def = 66
+base_spa = 60
+base_spd = 66
+base_spe = 115
+ev_spe = 2
+base_exp = 169
+base_friendship = 100
+growth_rate = 4
+egg_group_1 = 5
+ability_1 = 101
+ability_2 = 53
+ability_hidden = 92
+height_dm = 12
+weight_hg = 203
+body_color = 6
+level_moves = Array[ExtResource("3_0snvc")]([SubResource("Resource_cckxd"), SubResource("Resource_j7umy"), SubResource("Resource_cnj8t"), SubResource("Resource_306s8"), SubResource("Resource_h8kbc"), SubResource("Resource_uhc3h"), SubResource("Resource_ngoen"), SubResource("Resource_j5sue"), SubResource("Resource_vwque"), SubResource("Resource_ykda2"), SubResource("Resource_kdr6w"), SubResource("Resource_dabmr"), SubResource("Resource_rkwdj"), SubResource("Resource_mdu5e")])

@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://os27ql1jts0h"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ogdga"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hcui1"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rwem3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_603tp"]
+
+[sub_resource type="Resource" id="Resource_3tibp"]
+script = ExtResource("3_rwem3")
+level = 0
+move = 423
+
+[sub_resource type="Resource" id="Resource_mfvvk"]
+script = ExtResource("3_rwem3")
+move = 33
+
+[sub_resource type="Resource" id="Resource_7x3sd"]
+script = ExtResource("3_rwem3")
+move = 175
+
+[sub_resource type="Resource" id="Resource_e7sac"]
+script = ExtResource("3_rwem3")
+move = 181
+
+[sub_resource type="Resource" id="Resource_vtw6q"]
+script = ExtResource("3_rwem3")
+move = 189
+
+[sub_resource type="Resource" id="Resource_1rses"]
+script = ExtResource("3_rwem3")
+move = 246
+
+[sub_resource type="Resource" id="Resource_rf07u"]
+script = ExtResource("3_rwem3")
+level = 15
+move = 420
+
+[sub_resource type="Resource" id="Resource_oi0wn"]
+script = ExtResource("3_rwem3")
+level = 20
+move = 54
+
+[sub_resource type="Resource" id="Resource_njgge"]
+script = ExtResource("3_rwem3")
+level = 25
+move = 203
+
+[sub_resource type="Resource" id="Resource_e8jgv"]
+script = ExtResource("3_rwem3")
+level = 30
+move = 196
+
+[sub_resource type="Resource" id="Resource_30iu7"]
+script = ExtResource("3_rwem3")
+level = 37
+move = 133
+
+[sub_resource type="Resource" id="Resource_fe0m3"]
+script = ExtResource("3_rwem3")
+level = 44
+move = 36
+
+[sub_resource type="Resource" id="Resource_k2ma3"]
+script = ExtResource("3_rwem3")
+level = 51
+move = 89
+
+[sub_resource type="Resource" id="Resource_vuq0w"]
+script = ExtResource("3_rwem3")
+level = 58
+move = 59
+
+[sub_resource type="Resource" id="Resource_a14rv"]
+script = ExtResource("3_rwem3")
+level = 65
+move = 37
+
+[resource]
+script = ExtResource("4_603tp")
+id = 221
+display_name = "Piloswine"
+category = "Swine"
+national_dex = 221
+pokedex = "A Piloswine is covered by a thick coat
+of long hair for enduring freezing cold.
+It uses its tusks to dig up food that has
+been buried under ice."
+type_1 = 16
+type_2 = 5
+base_hp = 100
+base_atk = 100
+base_def = 80
+base_spa = 60
+base_spd = 60
+base_spe = 50
+ev_hp = 1
+ev_atk = 1
+catch_rate = 75
+base_exp = 158
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 12
+ability_hidden = 47
+height_dm = 11
+weight_hg = 558
+body_color = 5
+level_moves = Array[ExtResource("3_rwem3")]([SubResource("Resource_3tibp"), SubResource("Resource_mfvvk"), SubResource("Resource_7x3sd"), SubResource("Resource_e7sac"), SubResource("Resource_vtw6q"), SubResource("Resource_1rses"), SubResource("Resource_rf07u"), SubResource("Resource_oi0wn"), SubResource("Resource_njgge"), SubResource("Resource_e8jgv"), SubResource("Resource_30iu7"), SubResource("Resource_fe0m3"), SubResource("Resource_k2ma3"), SubResource("Resource_vuq0w"), SubResource("Resource_a14rv")])

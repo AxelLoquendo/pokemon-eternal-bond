@@ -1,0 +1,119 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://geyvswen83ag"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mmj2s"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_54613"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ll5pu"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_14ryl"]
+
+[sub_resource type="Resource" id="Resource_kh7qd"]
+script = ExtResource("3_ll5pu")
+level = 0
+move = 566
+
+[sub_resource type="Resource" id="Resource_l36jf"]
+script = ExtResource("3_ll5pu")
+move = 310
+
+[sub_resource type="Resource" id="Resource_k1nam"]
+script = ExtResource("3_ll5pu")
+move = 631
+
+[sub_resource type="Resource" id="Resource_lpeue"]
+script = ExtResource("3_ll5pu")
+move = 16
+
+[sub_resource type="Resource" id="Resource_1qb5p"]
+script = ExtResource("3_ll5pu")
+move = 116
+
+[sub_resource type="Resource" id="Resource_2yr6v"]
+script = ExtResource("3_ll5pu")
+move = 107
+
+[sub_resource type="Resource" id="Resource_252xo"]
+script = ExtResource("3_ll5pu")
+level = 12
+move = 371
+
+[sub_resource type="Resource" id="Resource_i6e22"]
+script = ExtResource("3_ll5pu")
+level = 16
+move = 506
+
+[sub_resource type="Resource" id="Resource_7yqr4"]
+script = ExtResource("3_ll5pu")
+level = 20
+move = 247
+
+[sub_resource type="Resource" id="Resource_3bpen"]
+script = ExtResource("3_ll5pu")
+level = 24
+move = 255
+
+[sub_resource type="Resource" id="Resource_e77af"]
+script = ExtResource("3_ll5pu")
+level = 24
+move = 256
+
+[sub_resource type="Resource" id="Resource_q5mxr"]
+script = ExtResource("3_ll5pu")
+level = 24
+move = 254
+
+[sub_resource type="Resource" id="Resource_1l2w0"]
+script = ExtResource("3_ll5pu")
+level = 31
+move = 120
+
+[sub_resource type="Resource" id="Resource_5p55k"]
+script = ExtResource("3_ll5pu")
+level = 36
+move = 194
+
+[sub_resource type="Resource" id="Resource_mdf2b"]
+script = ExtResource("3_ll5pu")
+level = 42
+move = 226
+
+[sub_resource type="Resource" id="Resource_0r15v"]
+script = ExtResource("3_ll5pu")
+level = 48
+move = 366
+
+[sub_resource type="Resource" id="Resource_fa53g"]
+script = ExtResource("3_ll5pu")
+level = 54
+move = 153
+
+[resource]
+script = ExtResource("4_14ryl")
+id = 426
+display_name = "Drifblim"
+category = "Blimp"
+national_dex = 426
+pokedex = "Even while under careful observation,
+large flocks of Drifblim flying at dusk
+will inexplicably disappear from view.
+No one knows where they go."
+type_1 = 8
+type_2 = 3
+base_hp = 150
+base_atk = 80
+base_def = 44
+base_spa = 90
+base_spd = 54
+base_spe = 80
+ev_hp = 2
+catch_rate = 60
+base_exp = 174
+growth_rate = 2
+egg_cycles = 30
+egg_group_1 = 11
+ability_1 = 106
+ability_2 = 84
+ability_hidden = 138
+height_dm = 12
+weight_hg = 150
+body_color = 6
+no_flip = true
+level_moves = Array[ExtResource("3_ll5pu")]([SubResource("Resource_kh7qd"), SubResource("Resource_l36jf"), SubResource("Resource_k1nam"), SubResource("Resource_lpeue"), SubResource("Resource_1qb5p"), SubResource("Resource_2yr6v"), SubResource("Resource_252xo"), SubResource("Resource_i6e22"), SubResource("Resource_7yqr4"), SubResource("Resource_3bpen"), SubResource("Resource_e77af"), SubResource("Resource_q5mxr"), SubResource("Resource_1l2w0"), SubResource("Resource_5p55k"), SubResource("Resource_mdf2b"), SubResource("Resource_0r15v"), SubResource("Resource_fa53g")])

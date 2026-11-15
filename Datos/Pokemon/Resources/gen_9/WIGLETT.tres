@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dyml5iayv2dsj"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_abj7e"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2gd1u"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_goudg"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dam37"]
+
+[sub_resource type="Resource" id="Resource_v018a"]
+script = ExtResource("1_abj7e")
+method = "LEVEL"
+param = "26"
+target = 1349
+
+[sub_resource type="Resource" id="Resource_ikmi6"]
+script = ExtResource("3_goudg")
+move = 28
+
+[sub_resource type="Resource" id="Resource_kpk74"]
+script = ExtResource("3_goudg")
+move = 55
+
+[sub_resource type="Resource" id="Resource_jsovs"]
+script = ExtResource("3_goudg")
+level = 4
+move = 189
+
+[sub_resource type="Resource" id="Resource_6jsrq"]
+script = ExtResource("3_goudg")
+level = 8
+move = 35
+
+[sub_resource type="Resource" id="Resource_c2nce"]
+script = ExtResource("3_goudg")
+level = 12
+move = 453
+
+[sub_resource type="Resource" id="Resource_5ar17"]
+script = ExtResource("3_goudg")
+level = 20
+move = 21
+
+[sub_resource type="Resource" id="Resource_mvrhr"]
+script = ExtResource("3_goudg")
+level = 20
+move = 352
+
+[sub_resource type="Resource" id="Resource_v6yrp"]
+script = ExtResource("3_goudg")
+level = 24
+move = 29
+
+[sub_resource type="Resource" id="Resource_ecwad"]
+script = ExtResource("3_goudg")
+level = 28
+move = 91
+
+[sub_resource type="Resource" id="Resource_pckqs"]
+script = ExtResource("3_goudg")
+level = 32
+move = 389
+
+[sub_resource type="Resource" id="Resource_tl07h"]
+script = ExtResource("3_goudg")
+level = 36
+move = 638
+
+[sub_resource type="Resource" id="Resource_l81dy"]
+script = ExtResource("3_goudg")
+level = 40
+move = 664
+
+[resource]
+script = ExtResource("4_dam37")
+id = 1348
+display_name = "Wiglett"
+category = "Garden Eel"
+national_dex = 960
+pokedex = "This Pokémon can pick up the scent
+of a Veluza just over 65 feet away
+and will hide itself in the sand."
+type_1 = 12
+base_hp = 10
+base_atk = 55
+base_def = 25
+base_spa = 35
+base_spd = 25
+base_spe = 95
+ev_spe = 1
+catch_rate = 255
+base_exp = 49
+egg_group_1 = 9
+ability_1 = 183
+ability_2 = 155
+ability_hidden = 8
+height_dm = 12
+weight_hg = 18
+body_color = 8
+level_moves = Array[ExtResource("3_goudg")]([SubResource("Resource_ikmi6"), SubResource("Resource_kpk74"), SubResource("Resource_jsovs"), SubResource("Resource_6jsrq"), SubResource("Resource_c2nce"), SubResource("Resource_5ar17"), SubResource("Resource_mvrhr"), SubResource("Resource_v6yrp"), SubResource("Resource_ecwad"), SubResource("Resource_pckqs"), SubResource("Resource_tl07h"), SubResource("Resource_l81dy")])
+egg_moves = Array[int]([515, 262])
+evolutions = Array[ExtResource("1_abj7e")]([SubResource("Resource_v018a")])

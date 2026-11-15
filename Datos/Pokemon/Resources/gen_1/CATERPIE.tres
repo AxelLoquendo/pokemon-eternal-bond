@@ -1,0 +1,55 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c6aqugng5u563"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3chs1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ld2a1"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_y3u3w"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_aqhy6"]
+
+[sub_resource type="Resource" id="Resource_83x6j"]
+script = ExtResource("1_3chs1")
+method = "LEVEL"
+param = "7"
+target = 11
+
+[sub_resource type="Resource" id="Resource_m0ktr"]
+script = ExtResource("3_y3u3w")
+move = 33
+
+[sub_resource type="Resource" id="Resource_b1kmm"]
+script = ExtResource("3_y3u3w")
+move = 81
+
+[sub_resource type="Resource" id="Resource_kdrmq"]
+script = ExtResource("3_y3u3w")
+level = 9
+move = 450
+
+[resource]
+script = ExtResource("4_aqhy6")
+id = 10
+display_name = "Caterpie"
+category = "Worm"
+national_dex = 10
+pokedex = "Its voracious appetite compels it to
+devour leaves bigger than itself without
+hesitation. It releases a terribly strong
+odor from its antennae."
+type_1 = 7
+base_hp = 45
+base_atk = 30
+base_def = 35
+base_spa = 20
+base_spd = 20
+base_spe = 45
+ev_hp = 1
+catch_rate = 255
+base_exp = 39
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 19
+ability_hidden = 50
+height_dm = 3
+weight_hg = 29
+body_color = 3
+level_moves = Array[ExtResource("3_y3u3w")]([SubResource("Resource_m0ktr"), SubResource("Resource_b1kmm"), SubResource("Resource_kdrmq")])
+evolutions = Array[ExtResource("1_3chs1")]([SubResource("Resource_83x6j")])

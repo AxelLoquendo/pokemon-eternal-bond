@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dc7tckhspddp"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_axhye"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_irgs0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wc5o6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jk6he"]
+
+[sub_resource type="Resource" id="Resource_h53o6"]
+script = ExtResource("1_axhye")
+method = "LEVEL"
+param = "52"
+target = 625
+
+[sub_resource type="Resource" id="Resource_3sy4c"]
+script = ExtResource("3_wc5o6")
+move = 10
+
+[sub_resource type="Resource" id="Resource_t5m2p"]
+script = ExtResource("3_wc5o6")
+move = 43
+
+[sub_resource type="Resource" id="Resource_vlwob"]
+script = ExtResource("3_wc5o6")
+level = 5
+move = 210
+
+[sub_resource type="Resource" id="Resource_c6g1a"]
+script = ExtResource("3_wc5o6")
+level = 10
+move = 232
+
+[sub_resource type="Resource" id="Resource_fb0nj"]
+script = ExtResource("3_wc5o6")
+level = 15
+move = 259
+
+[sub_resource type="Resource" id="Resource_nrqaa"]
+script = ExtResource("3_wc5o6")
+level = 20
+move = 184
+
+[sub_resource type="Resource" id="Resource_jaqnk"]
+script = ExtResource("3_wc5o6")
+level = 25
+move = 372
+
+[sub_resource type="Resource" id="Resource_8eo2l"]
+script = ExtResource("3_wc5o6")
+level = 30
+move = 319
+
+[sub_resource type="Resource" id="Resource_o44a6"]
+script = ExtResource("3_wc5o6")
+level = 35
+move = 163
+
+[sub_resource type="Resource" id="Resource_ximtr"]
+script = ExtResource("3_wc5o6")
+level = 40
+move = 400
+
+[sub_resource type="Resource" id="Resource_xmpt1"]
+script = ExtResource("3_wc5o6")
+level = 45
+move = 334
+
+[sub_resource type="Resource" id="Resource_nmfcl"]
+script = ExtResource("3_wc5o6")
+level = 50
+move = 514
+
+[sub_resource type="Resource" id="Resource_54d8q"]
+script = ExtResource("3_wc5o6")
+level = 55
+move = 442
+
+[sub_resource type="Resource" id="Resource_ec7nn"]
+script = ExtResource("3_wc5o6")
+level = 60
+move = 14
+
+[sub_resource type="Resource" id="Resource_utmuw"]
+script = ExtResource("3_wc5o6")
+level = 65
+move = 12
+
+[resource]
+script = ExtResource("4_jk6he")
+id = 624
+display_name = "Pawniard"
+category = "Sharp Blade"
+national_dex = 624
+pokedex = "Ignoring their injuries, groups attack by
+sinking the blades that cover their bodies
+into their prey. If battling dulls them, it
+sharpens them on stones by the river."
+type_1 = 18
+type_2 = 9
+base_hp = 45
+base_atk = 85
+base_def = 70
+base_spa = 40
+base_spd = 40
+base_spe = 60
+ev_atk = 1
+catch_rate = 120
+base_exp = 68
+base_friendship = 35
+egg_group_1 = 8
+ability_1 = 128
+ability_2 = 39
+ability_hidden = 46
+height_dm = 5
+weight_hg = 102
+level_moves = Array[ExtResource("3_wc5o6")]([SubResource("Resource_3sy4c"), SubResource("Resource_t5m2p"), SubResource("Resource_vlwob"), SubResource("Resource_c6g1a"), SubResource("Resource_fb0nj"), SubResource("Resource_nrqaa"), SubResource("Resource_jaqnk"), SubResource("Resource_8eo2l"), SubResource("Resource_o44a6"), SubResource("Resource_ximtr"), SubResource("Resource_xmpt1"), SubResource("Resource_nmfcl"), SubResource("Resource_54d8q"), SubResource("Resource_ec7nn"), SubResource("Resource_utmuw")])
+egg_moves = Array[int]([279, 389, 228, 29, 446, 427, 212, 501])
+evolutions = Array[ExtResource("1_axhye")]([SubResource("Resource_h53o6")])

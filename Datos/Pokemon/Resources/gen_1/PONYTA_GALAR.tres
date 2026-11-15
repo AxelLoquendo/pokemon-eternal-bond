@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://df5rmvmwa4081"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_d3lyq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_mn1qj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0w15l"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sa8qg"]
+
+[sub_resource type="Resource" id="Resource_lh2c5"]
+script = ExtResource("1_d3lyq")
+method = "LEVEL"
+param = "40"
+target = 976
+
+[sub_resource type="Resource" id="Resource_v7o82"]
+script = ExtResource("3_0w15l")
+move = 33
+
+[sub_resource type="Resource" id="Resource_yftcp"]
+script = ExtResource("3_0w15l")
+move = 45
+
+[sub_resource type="Resource" id="Resource_e33ax"]
+script = ExtResource("3_0w15l")
+level = 5
+move = 39
+
+[sub_resource type="Resource" id="Resource_ya61e"]
+script = ExtResource("3_0w15l")
+level = 10
+move = 93
+
+[sub_resource type="Resource" id="Resource_inopj"]
+script = ExtResource("3_0w15l")
+level = 15
+move = 584
+
+[sub_resource type="Resource" id="Resource_5qu2e"]
+script = ExtResource("3_0w15l")
+level = 20
+move = 97
+
+[sub_resource type="Resource" id="Resource_xbjdd"]
+script = ExtResource("3_0w15l")
+level = 25
+move = 60
+
+[sub_resource type="Resource" id="Resource_4v1ja"]
+script = ExtResource("3_0w15l")
+level = 30
+move = 23
+
+[sub_resource type="Resource" id="Resource_4t07a"]
+script = ExtResource("3_0w15l")
+level = 35
+move = 505
+
+[sub_resource type="Resource" id="Resource_l8s6g"]
+script = ExtResource("3_0w15l")
+level = 41
+move = 36
+
+[sub_resource type="Resource" id="Resource_dy1hi"]
+script = ExtResource("3_0w15l")
+level = 45
+move = 605
+
+[sub_resource type="Resource" id="Resource_a565k"]
+script = ExtResource("3_0w15l")
+level = 50
+move = 94
+
+[sub_resource type="Resource" id="Resource_664do"]
+script = ExtResource("3_0w15l")
+level = 55
+move = 361
+
+[resource]
+script = ExtResource("4_sa8qg")
+id = 975
+display_name = "Ponyta"
+category = "Unique Horn"
+national_dex = 77
+pokedex = "Its small horn hides a healing power.
+This Pokémon will look into your eyes and
+read the contents of your heart. If it
+finds evil there, it promptly hides away."
+type_1 = 15
+base_hp = 50
+base_atk = 85
+base_def = 55
+base_spa = 65
+base_spd = 65
+base_spe = 90
+ev_spe = 1
+catch_rate = 190
+base_exp = 82
+egg_group_1 = 5
+ability_1 = 50
+ability_2 = 257
+ability_hidden = 107
+height_dm = 8
+weight_hg = 240
+body_color = 8
+level_moves = Array[ExtResource("3_0w15l")]([SubResource("Resource_v7o82"), SubResource("Resource_yftcp"), SubResource("Resource_e33ax"), SubResource("Resource_ya61e"), SubResource("Resource_inopj"), SubResource("Resource_5qu2e"), SubResource("Resource_xbjdd"), SubResource("Resource_4v1ja"), SubResource("Resource_4t07a"), SubResource("Resource_l8s6g"), SubResource("Resource_dy1hi"), SubResource("Resource_a565k"), SubResource("Resource_664do")])
+egg_moves = Array[int]([37, 24, 95, 38, 32, 234])
+evolutions = Array[ExtResource("1_d3lyq")]([SubResource("Resource_lh2c5")])
+form_species = Array[int]([77, 975])

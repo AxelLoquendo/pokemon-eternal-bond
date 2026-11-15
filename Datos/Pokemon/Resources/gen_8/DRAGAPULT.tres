@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cra55v2yjsto"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qm28g"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_g4yej"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vpaic"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gv6kr"]
+
+[sub_resource type="Resource" id="Resource_t60ji"]
+script = ExtResource("3_vpaic")
+level = 0
+move = 697
+
+[sub_resource type="Resource" id="Resource_6218f"]
+script = ExtResource("3_vpaic")
+move = 44
+
+[sub_resource type="Resource" id="Resource_vuovi"]
+script = ExtResource("3_vpaic")
+move = 98
+
+[sub_resource type="Resource" id="Resource_afyqs"]
+script = ExtResource("3_vpaic")
+move = 225
+
+[sub_resource type="Resource" id="Resource_bvmca"]
+script = ExtResource("3_vpaic")
+move = 310
+
+[sub_resource type="Resource" id="Resource_0l62h"]
+script = ExtResource("3_vpaic")
+move = 611
+
+[sub_resource type="Resource" id="Resource_15qy5"]
+script = ExtResource("3_vpaic")
+level = 6
+move = 199
+
+[sub_resource type="Resource" id="Resource_2l637"]
+script = ExtResource("3_vpaic")
+level = 12
+move = 372
+
+[sub_resource type="Resource" id="Resource_76h3b"]
+script = ExtResource("3_vpaic")
+level = 18
+move = 506
+
+[sub_resource type="Resource" id="Resource_l8tqd"]
+script = ExtResource("3_vpaic")
+level = 24
+move = 97
+
+[sub_resource type="Resource" id="Resource_qubpj"]
+script = ExtResource("3_vpaic")
+level = 30
+move = 458
+
+[sub_resource type="Resource" id="Resource_8kfva"]
+script = ExtResource("3_vpaic")
+level = 36
+move = 369
+
+[sub_resource type="Resource" id="Resource_7km2g"]
+script = ExtResource("3_vpaic")
+level = 42
+move = 349
+
+[sub_resource type="Resource" id="Resource_3m07c"]
+script = ExtResource("3_vpaic")
+level = 48
+move = 566
+
+[sub_resource type="Resource" id="Resource_dcaec"]
+script = ExtResource("3_vpaic")
+level = 54
+move = 36
+
+[sub_resource type="Resource" id="Resource_yarvs"]
+script = ExtResource("3_vpaic")
+level = 63
+move = 407
+
+[sub_resource type="Resource" id="Resource_57y76"]
+script = ExtResource("3_vpaic")
+level = 70
+move = 38
+
+[sub_resource type="Resource" id="Resource_6wwov"]
+script = ExtResource("3_vpaic")
+level = 78
+move = 387
+
+[resource]
+script = ExtResource("4_gv6kr")
+id = 887
+display_name = "Dragapult"
+category = "Stealth"
+national_dex = 887
+pokedex = "When it isn't battling, it keeps Dreepy
+in the holes on its horns. Once a fight
+starts, it launches the Dreepy like
+supersonic missiles."
+type_1 = 17
+type_2 = 8
+base_hp = 88
+base_atk = 120
+base_def = 75
+base_spa = 100
+base_spd = 75
+base_spe = 142
+ev_spe = 3
+base_exp = 300
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 11
+egg_group_2 = 14
+ability_1 = 29
+ability_2 = 151
+ability_hidden = 130
+height_dm = 30
+weight_hg = 500
+body_color = 3
+level_moves = Array[ExtResource("3_vpaic")]([SubResource("Resource_t60ji"), SubResource("Resource_6218f"), SubResource("Resource_vuovi"), SubResource("Resource_afyqs"), SubResource("Resource_bvmca"), SubResource("Resource_0l62h"), SubResource("Resource_15qy5"), SubResource("Resource_2l637"), SubResource("Resource_76h3b"), SubResource("Resource_l8tqd"), SubResource("Resource_qubpj"), SubResource("Resource_8kfva"), SubResource("Resource_7km2g"), SubResource("Resource_3m07c"), SubResource("Resource_dcaec"), SubResource("Resource_yarvs"), SubResource("Resource_57y76"), SubResource("Resource_6wwov")])

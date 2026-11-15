@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bxgruepsou642"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_x11v6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7uxa0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vf1tf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_euwj1"]
+
+[sub_resource type="Resource" id="Resource_esh7f"]
+script = ExtResource("3_vf1tf")
+move = 33
+
+[sub_resource type="Resource" id="Resource_sf75s"]
+script = ExtResource("3_vf1tf")
+move = 597
+
+[sub_resource type="Resource" id="Resource_i6yi6"]
+script = ExtResource("3_vf1tf")
+level = 5
+move = 186
+
+[sub_resource type="Resource" id="Resource_ucqnj"]
+script = ExtResource("3_vf1tf")
+level = 10
+move = 230
+
+[sub_resource type="Resource" id="Resource_8w7mg"]
+script = ExtResource("3_vf1tf")
+level = 15
+move = 577
+
+[sub_resource type="Resource" id="Resource_ib3st"]
+script = ExtResource("3_vf1tf")
+level = 20
+move = 204
+
+[sub_resource type="Resource" id="Resource_x2r8e"]
+script = ExtResource("3_vf1tf")
+level = 25
+move = 213
+
+[sub_resource type="Resource" id="Resource_iqbfi"]
+script = ExtResource("3_vf1tf")
+level = 30
+move = 151
+
+[sub_resource type="Resource" id="Resource_hb8i2"]
+script = ExtResource("3_vf1tf")
+level = 35
+move = 605
+
+[sub_resource type="Resource" id="Resource_akd8v"]
+script = ExtResource("3_vf1tf")
+level = 40
+move = 105
+
+[sub_resource type="Resource" id="Resource_fhntx"]
+script = ExtResource("3_vf1tf")
+level = 45
+move = 581
+
+[sub_resource type="Resource" id="Resource_x4xwb"]
+script = ExtResource("3_vf1tf")
+level = 50
+move = 494
+
+[resource]
+script = ExtResource("4_euwj1")
+id = 868
+display_name = "Milcery"
+category = "Cream"
+national_dex = 868
+pokedex = "This Pokémon was born from sweet-smelling
+particles in the air. Its body is made
+of cream."
+type_1 = 19
+base_hp = 45
+base_atk = 40
+base_def = 40
+base_spa = 50
+base_spd = 61
+base_spe = 34
+ev_spd = 1
+catch_rate = 200
+base_exp = 54
+gender_ratio = 254
+egg_group_1 = 6
+egg_group_2 = 11
+ability_1 = 175
+ability_hidden = 165
+height_dm = 2
+weight_hg = 3
+body_color = 8
+level_moves = Array[ExtResource("3_vf1tf")]([SubResource("Resource_esh7f"), SubResource("Resource_sf75s"), SubResource("Resource_i6yi6"), SubResource("Resource_ucqnj"), SubResource("Resource_8w7mg"), SubResource("Resource_ib3st"), SubResource("Resource_x2r8e"), SubResource("Resource_iqbfi"), SubResource("Resource_hb8i2"), SubResource("Resource_akd8v"), SubResource("Resource_fhntx"), SubResource("Resource_x4xwb")])
+egg_moves = Array[int]([608, 387])

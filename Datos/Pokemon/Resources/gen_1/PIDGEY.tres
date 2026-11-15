@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bk0lv4l4uu3n6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_wgiyb"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_l0q6w"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_o4thi"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0tnvj"]
+
+[sub_resource type="Resource" id="Resource_hpgfw"]
+script = ExtResource("1_wgiyb")
+method = "LEVEL"
+param = "18"
+target = 17
+
+[sub_resource type="Resource" id="Resource_rwwg5"]
+script = ExtResource("3_o4thi")
+move = 33
+
+[sub_resource type="Resource" id="Resource_vpcpn"]
+script = ExtResource("3_o4thi")
+level = 5
+move = 28
+
+[sub_resource type="Resource" id="Resource_8ueb5"]
+script = ExtResource("3_o4thi")
+level = 9
+move = 16
+
+[sub_resource type="Resource" id="Resource_s4rb8"]
+script = ExtResource("3_o4thi")
+level = 13
+move = 98
+
+[sub_resource type="Resource" id="Resource_s201h"]
+script = ExtResource("3_o4thi")
+level = 17
+move = 18
+
+[sub_resource type="Resource" id="Resource_4p4fv"]
+script = ExtResource("3_o4thi")
+level = 21
+move = 239
+
+[sub_resource type="Resource" id="Resource_vc3tq"]
+script = ExtResource("3_o4thi")
+level = 25
+move = 297
+
+[sub_resource type="Resource" id="Resource_2v0sc"]
+script = ExtResource("3_o4thi")
+level = 29
+move = 97
+
+[sub_resource type="Resource" id="Resource_pcdbh"]
+script = ExtResource("3_o4thi")
+level = 33
+move = 17
+
+[sub_resource type="Resource" id="Resource_v825s"]
+script = ExtResource("3_o4thi")
+level = 37
+move = 355
+
+[sub_resource type="Resource" id="Resource_tn5ts"]
+script = ExtResource("3_o4thi")
+level = 41
+move = 366
+
+[sub_resource type="Resource" id="Resource_6omna"]
+script = ExtResource("3_o4thi")
+level = 45
+move = 332
+
+[sub_resource type="Resource" id="Resource_nrrbp"]
+script = ExtResource("3_o4thi")
+level = 49
+move = 403
+
+[sub_resource type="Resource" id="Resource_t6ei8"]
+script = ExtResource("3_o4thi")
+level = 53
+move = 542
+
+[resource]
+script = ExtResource("4_0tnvj")
+id = 16
+display_name = "Pidgey"
+category = "Tiny Bird"
+national_dex = 16
+pokedex = "It has an extremely sharp sense of
+direction. It can unerringly return home to
+its nest, however far it may be removed
+from its familiar surroundings."
+type_1 = 1
+type_2 = 3
+base_hp = 40
+base_atk = 45
+base_def = 40
+base_spa = 35
+base_spd = 35
+base_spe = 56
+ev_spe = 1
+catch_rate = 255
+base_exp = 50
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 51
+ability_hidden = 145
+height_dm = 3
+weight_hg = 18
+body_color = 5
+level_moves = Array[ExtResource("3_o4thi")]([SubResource("Resource_rwwg5"), SubResource("Resource_vpcpn"), SubResource("Resource_8ueb5"), SubResource("Resource_s4rb8"), SubResource("Resource_s201h"), SubResource("Resource_4p4fv"), SubResource("Resource_vc3tq"), SubResource("Resource_2v0sc"), SubResource("Resource_pcdbh"), SubResource("Resource_v825s"), SubResource("Resource_tn5ts"), SubResource("Resource_6omna"), SubResource("Resource_nrrbp"), SubResource("Resource_t6ei8")])
+egg_moves = Array[int]([228, 185, 193, 211, 314, 403, 413, 253, 432])
+evolutions = Array[ExtResource("1_wgiyb")]([SubResource("Resource_hpgfw")])

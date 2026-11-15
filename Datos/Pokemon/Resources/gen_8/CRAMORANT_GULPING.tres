@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://borugkcd1pw4e"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_iri7m"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3frrs"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6yw84"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4t82p"]
+
+[sub_resource type="Resource" id="Resource_uutbp"]
+script = ExtResource("3_6yw84")
+move = 562
+
+[sub_resource type="Resource" id="Resource_rdxsu"]
+script = ExtResource("3_6yw84")
+move = 64
+
+[sub_resource type="Resource" id="Resource_pqfn7"]
+script = ExtResource("3_6yw84")
+move = 254
+
+[sub_resource type="Resource" id="Resource_jxtjy"]
+script = ExtResource("3_6yw84")
+move = 255
+
+[sub_resource type="Resource" id="Resource_tfori"]
+script = ExtResource("3_6yw84")
+move = 256
+
+[sub_resource type="Resource" id="Resource_otc6k"]
+script = ExtResource("3_6yw84")
+level = 7
+move = 55
+
+[sub_resource type="Resource" id="Resource_mrobg"]
+script = ExtResource("3_6yw84")
+level = 14
+move = 31
+
+[sub_resource type="Resource" id="Resource_pbl0c"]
+script = ExtResource("3_6yw84")
+level = 21
+move = 365
+
+[sub_resource type="Resource" id="Resource_76wob"]
+script = ExtResource("3_6yw84")
+level = 28
+move = 291
+
+[sub_resource type="Resource" id="Resource_ksqox"]
+script = ExtResource("3_6yw84")
+level = 35
+move = 65
+
+[sub_resource type="Resource" id="Resource_v4elr"]
+script = ExtResource("3_6yw84")
+level = 42
+move = 133
+
+[sub_resource type="Resource" id="Resource_s3bes"]
+script = ExtResource("3_6yw84")
+level = 49
+move = 37
+
+[sub_resource type="Resource" id="Resource_cw8mi"]
+script = ExtResource("3_6yw84")
+level = 56
+move = 56
+
+[resource]
+script = ExtResource("4_4t82p")
+id = 1211
+display_name = "Cramorant"
+category = "Gulp"
+national_dex = 845
+pokedex = "Cramorant's gluttony led it to try
+to swallow an Arrokuda whole, which
+in turn led to Cramorant getting an
+Arrokuda stuck in its throat."
+type_1 = 3
+type_2 = 12
+base_hp = 70
+base_atk = 85
+base_def = 55
+base_spa = 85
+base_spd = 95
+base_spe = 85
+ev_spd = 2
+base_exp = 166
+egg_group_1 = 2
+egg_group_2 = 4
+ability_1 = 241
+height_dm = 8
+weight_hg = 180
+body_color = 1
+level_moves = Array[ExtResource("3_6yw84")]([SubResource("Resource_uutbp"), SubResource("Resource_rdxsu"), SubResource("Resource_pqfn7"), SubResource("Resource_jxtjy"), SubResource("Resource_tfori"), SubResource("Resource_otc6k"), SubResource("Resource_mrobg"), SubResource("Resource_pbl0c"), SubResource("Resource_76wob"), SubResource("Resource_ksqox"), SubResource("Resource_v4elr"), SubResource("Resource_s3bes"), SubResource("Resource_cw8mi")])
+egg_moves = Array[int]([432, 332, 297, 392, 355])
+form_species = Array[int]([845, 1211, 1212])

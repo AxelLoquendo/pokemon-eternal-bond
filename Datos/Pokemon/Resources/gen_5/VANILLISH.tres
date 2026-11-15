@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dd3bipkn5p71q"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3uhwr"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_cm1c4"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_o83wp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wg4j7"]
+
+[sub_resource type="Resource" id="Resource_f34nf"]
+script = ExtResource("1_3uhwr")
+method = "LEVEL"
+param = "47"
+target = 584
+
+[sub_resource type="Resource" id="Resource_d5djf"]
+script = ExtResource("3_o83wp")
+move = 310
+
+[sub_resource type="Resource" id="Resource_uwtkh"]
+script = ExtResource("3_o83wp")
+move = 106
+
+[sub_resource type="Resource" id="Resource_0ymhu"]
+script = ExtResource("3_o83wp")
+move = 269
+
+[sub_resource type="Resource" id="Resource_17maf"]
+script = ExtResource("3_o83wp")
+move = 54
+
+[sub_resource type="Resource" id="Resource_bpoas"]
+script = ExtResource("3_o83wp")
+level = 12
+move = 196
+
+[sub_resource type="Resource" id="Resource_d7g88"]
+script = ExtResource("3_o83wp")
+level = 16
+move = 419
+
+[sub_resource type="Resource" id="Resource_v4csa"]
+script = ExtResource("3_o83wp")
+level = 20
+move = 258
+
+[sub_resource type="Resource" id="Resource_apgxj"]
+script = ExtResource("3_o83wp")
+level = 24
+move = 333
+
+[sub_resource type="Resource" id="Resource_gubvl"]
+script = ExtResource("3_o83wp")
+level = 28
+move = 253
+
+[sub_resource type="Resource" id="Resource_dt1lb"]
+script = ExtResource("3_o83wp")
+level = 32
+move = 151
+
+[sub_resource type="Resource" id="Resource_nerq6"]
+script = ExtResource("3_o83wp")
+level = 38
+move = 243
+
+[sub_resource type="Resource" id="Resource_t5loa"]
+script = ExtResource("3_o83wp")
+level = 44
+move = 58
+
+[sub_resource type="Resource" id="Resource_pa4l8"]
+script = ExtResource("3_o83wp")
+level = 50
+move = 59
+
+[sub_resource type="Resource" id="Resource_8ck8d"]
+script = ExtResource("3_o83wp")
+level = 56
+move = 329
+
+[resource]
+script = ExtResource("4_wg4j7")
+id = 583
+display_name = "Vanillish"
+category = "Icy Snow"
+national_dex = 583
+pokedex = "Vanillish has existed since the Ice Age.
+It controls particles of ice, freezes its
+opponents, and then shatters them with
+a headbutt."
+type_1 = 16
+base_hp = 51
+base_atk = 65
+base_def = 65
+base_spa = 80
+base_spd = 75
+base_spe = 59
+ev_spa = 2
+catch_rate = 120
+base_exp = 138
+growth_rate = 5
+egg_group_1 = 10
+ability_1 = 115
+ability_hidden = 133
+item_rare = 430
+height_dm = 11
+weight_hg = 410
+body_color = 8
+level_moves = Array[ExtResource("3_o83wp")]([SubResource("Resource_d5djf"), SubResource("Resource_uwtkh"), SubResource("Resource_0ymhu"), SubResource("Resource_17maf"), SubResource("Resource_bpoas"), SubResource("Resource_d7g88"), SubResource("Resource_v4csa"), SubResource("Resource_apgxj"), SubResource("Resource_gubvl"), SubResource("Resource_dt1lb"), SubResource("Resource_nerq6"), SubResource("Resource_t5loa"), SubResource("Resource_pa4l8"), SubResource("Resource_8ck8d")])
+evolutions = Array[ExtResource("1_3uhwr")]([SubResource("Resource_f34nf")])

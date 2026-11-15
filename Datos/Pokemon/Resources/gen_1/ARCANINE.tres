@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ctv3vujf4fi2q"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4kgb3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_a48ik"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_etp1e"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0l2fy"]
+
+[sub_resource type="Resource" id="Resource_fdqrq"]
+script = ExtResource("3_etp1e")
+level = 0
+move = 245
+
+[sub_resource type="Resource" id="Resource_qfwfe"]
+script = ExtResource("3_etp1e")
+move = 583
+
+[sub_resource type="Resource" id="Resource_npnk8"]
+script = ExtResource("3_etp1e")
+move = 424
+
+[sub_resource type="Resource" id="Resource_2aknt"]
+script = ExtResource("3_etp1e")
+move = 394
+
+[sub_resource type="Resource" id="Resource_galji"]
+script = ExtResource("3_etp1e")
+move = 336
+
+[sub_resource type="Resource" id="Resource_a1jqa"]
+script = ExtResource("3_etp1e")
+move = 270
+
+[sub_resource type="Resource" id="Resource_isv77"]
+script = ExtResource("3_etp1e")
+move = 242
+
+[sub_resource type="Resource" id="Resource_qmmoj"]
+script = ExtResource("3_etp1e")
+move = 514
+
+[sub_resource type="Resource" id="Resource_cbeq6"]
+script = ExtResource("3_etp1e")
+move = 179
+
+[sub_resource type="Resource" id="Resource_gpan4"]
+script = ExtResource("3_etp1e")
+move = 97
+
+[sub_resource type="Resource" id="Resource_mn1tw"]
+script = ExtResource("3_etp1e")
+move = 52
+
+[sub_resource type="Resource" id="Resource_ppnof"]
+script = ExtResource("3_etp1e")
+move = 46
+
+[sub_resource type="Resource" id="Resource_1ojsh"]
+script = ExtResource("3_etp1e")
+move = 44
+
+[sub_resource type="Resource" id="Resource_uicgy"]
+script = ExtResource("3_etp1e")
+move = 43
+
+[sub_resource type="Resource" id="Resource_w6vuf"]
+script = ExtResource("3_etp1e")
+move = 172
+
+[sub_resource type="Resource" id="Resource_ddfh6"]
+script = ExtResource("3_etp1e")
+move = 36
+
+[sub_resource type="Resource" id="Resource_cw4ke"]
+script = ExtResource("3_etp1e")
+level = 5
+move = 53
+
+[resource]
+script = ExtResource("4_0l2fy")
+id = 59
+display_name = "Arcanine"
+category = "Legendary"
+national_dex = 59
+pokedex = "This fleet-footed Pokémon is said to run
+over 6,200 miles in a single day and night.
+The fire that blazes wildly within its body
+is its source of power."
+type_1 = 11
+base_hp = 90
+base_atk = 110
+base_def = 80
+base_spa = 100
+base_spd = 80
+base_spe = 95
+ev_atk = 2
+catch_rate = 75
+base_exp = 194
+gender_ratio = 63
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 22
+ability_2 = 18
+ability_hidden = 154
+height_dm = 19
+weight_hg = 1550
+body_color = 5
+level_moves = Array[ExtResource("3_etp1e")]([SubResource("Resource_fdqrq"), SubResource("Resource_qfwfe"), SubResource("Resource_npnk8"), SubResource("Resource_2aknt"), SubResource("Resource_galji"), SubResource("Resource_a1jqa"), SubResource("Resource_isv77"), SubResource("Resource_qmmoj"), SubResource("Resource_cbeq6"), SubResource("Resource_gpan4"), SubResource("Resource_mn1tw"), SubResource("Resource_ppnof"), SubResource("Resource_1ojsh"), SubResource("Resource_uicgy"), SubResource("Resource_w6vuf"), SubResource("Resource_ddfh6"), SubResource("Resource_cw4ke")])
+form_species = Array[int]([59, 994])

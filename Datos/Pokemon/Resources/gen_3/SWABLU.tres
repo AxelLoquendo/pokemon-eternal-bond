@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cpp070kh0wjai"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_plgb3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_y7ic5"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_tuqn1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_85hkj"]
+
+[sub_resource type="Resource" id="Resource_oiosx"]
+script = ExtResource("1_plgb3")
+method = "LEVEL"
+param = "35"
+target = 334
+
+[sub_resource type="Resource" id="Resource_ac17w"]
+script = ExtResource("3_tuqn1")
+move = 45
+
+[sub_resource type="Resource" id="Resource_oc0ef"]
+script = ExtResource("3_tuqn1")
+move = 64
+
+[sub_resource type="Resource" id="Resource_475mi"]
+script = ExtResource("3_tuqn1")
+level = 4
+move = 574
+
+[sub_resource type="Resource" id="Resource_br1sr"]
+script = ExtResource("3_tuqn1")
+level = 8
+move = 54
+
+[sub_resource type="Resource" id="Resource_bjmwy"]
+script = ExtResource("3_tuqn1")
+level = 12
+move = 31
+
+[sub_resource type="Resource" id="Resource_gevec"]
+script = ExtResource("3_tuqn1")
+level = 16
+move = 496
+
+[sub_resource type="Resource" id="Resource_vxrkk"]
+script = ExtResource("3_tuqn1")
+level = 20
+move = 225
+
+[sub_resource type="Resource" id="Resource_fxiep"]
+script = ExtResource("3_tuqn1")
+level = 24
+move = 219
+
+[sub_resource type="Resource" id="Resource_hit3s"]
+script = ExtResource("3_tuqn1")
+level = 28
+move = 47
+
+[sub_resource type="Resource" id="Resource_bawqd"]
+script = ExtResource("3_tuqn1")
+level = 32
+move = 538
+
+[sub_resource type="Resource" id="Resource_8n7bs"]
+script = ExtResource("3_tuqn1")
+level = 36
+move = 36
+
+[sub_resource type="Resource" id="Resource_vxvd3"]
+script = ExtResource("3_tuqn1")
+level = 40
+move = 585
+
+[sub_resource type="Resource" id="Resource_alb56"]
+script = ExtResource("3_tuqn1")
+level = 44
+move = 195
+
+[resource]
+script = ExtResource("4_85hkj")
+id = 333
+display_name = "Swablu"
+category = "Cotton Bird"
+national_dex = 333
+pokedex = "A Pokémon that has wings like cottony
+clouds. After enduring winter, in which
+little food is available, Swablu flocks
+move closer to towns in the spring."
+type_1 = 1
+type_2 = 3
+base_hp = 45
+base_atk = 40
+base_def = 60
+base_spa = 40
+base_spd = 75
+base_spe = 50
+ev_spd = 1
+catch_rate = 255
+base_exp = 62
+growth_rate = 1
+egg_group_1 = 4
+egg_group_2 = 14
+ability_1 = 30
+ability_hidden = 13
+height_dm = 4
+weight_hg = 12
+body_color = 1
+level_moves = Array[ExtResource("3_tuqn1")]([SubResource("Resource_ac17w"), SubResource("Resource_oc0ef"), SubResource("Resource_475mi"), SubResource("Resource_br1sr"), SubResource("Resource_bjmwy"), SubResource("Resource_gevec"), SubResource("Resource_vxrkk"), SubResource("Resource_fxiep"), SubResource("Resource_hit3s"), SubResource("Resource_bawqd"), SubResource("Resource_8n7bs"), SubResource("Resource_vxvd3"), SubResource("Resource_alb56")])
+egg_moves = Array[int]([97, 114, 228, 99, 297, 407, 384, 355, 304, 211, 583])
+evolutions = Array[ExtResource("1_plgb3")]([SubResource("Resource_oiosx")])

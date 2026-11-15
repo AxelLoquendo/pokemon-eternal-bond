@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cxbm4teu6mmv5"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_s0n4b"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_dvyr5"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gmj1u"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0nf0y"]
+
+[sub_resource type="Resource" id="Resource_lkchk"]
+script = ExtResource("3_gmj1u")
+level = 0
+move = 161
+
+[sub_resource type="Resource" id="Resource_k5g7w"]
+script = ExtResource("3_gmj1u")
+move = 45
+
+[sub_resource type="Resource" id="Resource_we7r7"]
+script = ExtResource("3_gmj1u")
+move = 64
+
+[sub_resource type="Resource" id="Resource_1w3ww"]
+script = ExtResource("3_gmj1u")
+move = 98
+
+[sub_resource type="Resource" id="Resource_3evm4"]
+script = ExtResource("3_gmj1u")
+level = 12
+move = 31
+
+[sub_resource type="Resource" id="Resource_1ruyf"]
+script = ExtResource("3_gmj1u")
+level = 15
+move = 365
+
+[sub_resource type="Resource" id="Resource_dy4de"]
+script = ExtResource("3_gmj1u")
+level = 19
+move = 458
+
+[sub_resource type="Resource" id="Resource_hg7y4"]
+script = ExtResource("3_gmj1u")
+level = 23
+move = 97
+
+[sub_resource type="Resource" id="Resource_wp2j8"]
+script = ExtResource("3_gmj1u")
+level = 26
+move = 253
+
+[sub_resource type="Resource" id="Resource_85vig"]
+script = ExtResource("3_gmj1u")
+level = 30
+move = 367
+
+[sub_resource type="Resource" id="Resource_lukvs"]
+script = ExtResource("3_gmj1u")
+level = 34
+move = 14
+
+[sub_resource type="Resource" id="Resource_7j5qi"]
+script = ExtResource("3_gmj1u")
+level = 38
+move = 65
+
+[sub_resource type="Resource" id="Resource_j1l7u"]
+script = ExtResource("3_gmj1u")
+level = 43
+move = 283
+
+[sub_resource type="Resource" id="Resource_5027o"]
+script = ExtResource("3_gmj1u")
+level = 50
+move = 37
+
+[resource]
+script = ExtResource("4_0nf0y")
+id = 85
+display_name = "Dodrio"
+category = "Triple Bird"
+national_dex = 85
+pokedex = "A peculiar Pokémon species with three
+heads. It vigorously races across grassy
+plains even in arid seasons with little
+rainfall."
+type_1 = 1
+type_2 = 3
+base_hp = 60
+base_atk = 110
+base_def = 70
+base_spa = 60
+base_spd = 60
+base_spe = 110
+ev_atk = 2
+base_exp = 158
+egg_group_1 = 4
+ability_1 = 50
+ability_2 = 48
+ability_hidden = 77
+item_rare = 434
+height_dm = 18
+weight_hg = 852
+body_color = 5
+no_flip = true
+level_moves = Array[ExtResource("3_gmj1u")]([SubResource("Resource_lkchk"), SubResource("Resource_k5g7w"), SubResource("Resource_we7r7"), SubResource("Resource_1w3ww"), SubResource("Resource_3evm4"), SubResource("Resource_1ruyf"), SubResource("Resource_dy4de"), SubResource("Resource_hg7y4"), SubResource("Resource_wp2j8"), SubResource("Resource_85vig"), SubResource("Resource_lukvs"), SubResource("Resource_7j5qi"), SubResource("Resource_j1l7u"), SubResource("Resource_5027o")])

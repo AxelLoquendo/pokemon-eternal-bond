@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bvt3arylvfjko"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_lirfe"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gitcn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ysfrm"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_n3hre"]
+
+[sub_resource type="Resource" id="Resource_m6vcx"]
+script = ExtResource("3_ysfrm")
+level = 0
+move = 23
+
+[sub_resource type="Resource" id="Resource_wd3ol"]
+script = ExtResource("3_ysfrm")
+move = 74
+
+[sub_resource type="Resource" id="Resource_d34lg"]
+script = ExtResource("3_ysfrm")
+move = 437
+
+[sub_resource type="Resource" id="Resource_jm008"]
+script = ExtResource("3_ysfrm")
+move = 402
+
+[sub_resource type="Resource" id="Resource_3v25x"]
+script = ExtResource("3_ysfrm")
+move = 388
+
+[sub_resource type="Resource" id="Resource_3wpxf"]
+script = ExtResource("3_ysfrm")
+move = 331
+
+[sub_resource type="Resource" id="Resource_6wslc"]
+script = ExtResource("3_ysfrm")
+move = 326
+
+[sub_resource type="Resource" id="Resource_u8wto"]
+script = ExtResource("3_ysfrm")
+move = 253
+
+[sub_resource type="Resource" id="Resource_m2d0l"]
+script = ExtResource("3_ysfrm")
+move = 235
+
+[sub_resource type="Resource" id="Resource_fjhuf"]
+script = ExtResource("3_ysfrm")
+move = 473
+
+[sub_resource type="Resource" id="Resource_bt8ix"]
+script = ExtResource("3_ysfrm")
+move = 115
+
+[sub_resource type="Resource" id="Resource_7ygdv"]
+script = ExtResource("3_ysfrm")
+move = 95
+
+[sub_resource type="Resource" id="Resource_rd5eu"]
+script = ExtResource("3_ysfrm")
+move = 93
+
+[sub_resource type="Resource" id="Resource_oarje"]
+script = ExtResource("3_ysfrm")
+move = 76
+
+[sub_resource type="Resource" id="Resource_mw3el"]
+script = ExtResource("3_ysfrm")
+move = 73
+
+[sub_resource type="Resource" id="Resource_k6amo"]
+script = ExtResource("3_ysfrm")
+move = 72
+
+[sub_resource type="Resource" id="Resource_jy1ix"]
+script = ExtResource("3_ysfrm")
+move = 71
+
+[sub_resource type="Resource" id="Resource_mvegf"]
+script = ExtResource("3_ysfrm")
+move = 452
+
+[sub_resource type="Resource" id="Resource_tetpb"]
+script = ExtResource("3_ysfrm")
+move = 202
+
+[resource]
+script = ExtResource("4_n3hre")
+id = 103
+display_name = "Exeggutor"
+category = "Coconut"
+national_dex = 103
+pokedex = "Originally from the tropics, Exeggutor's
+heads grow larger from exposure to strong
+sunlight. It is said that when the heads
+fall, they group to form an Exeggcute."
+type_1 = 13
+type_2 = 15
+base_hp = 95
+base_atk = 95
+base_def = 85
+base_spa = 125
+base_spd = 125
+base_spe = 55
+ev_spa = 2
+base_exp = 212
+growth_rate = 5
+egg_group_1 = 7
+ability_1 = 34
+ability_hidden = 139
+height_dm = 20
+weight_hg = 1200
+body_color = 2
+no_flip = true
+level_moves = Array[ExtResource("3_ysfrm")]([SubResource("Resource_m6vcx"), SubResource("Resource_wd3ol"), SubResource("Resource_d34lg"), SubResource("Resource_jm008"), SubResource("Resource_3v25x"), SubResource("Resource_3wpxf"), SubResource("Resource_6wslc"), SubResource("Resource_u8wto"), SubResource("Resource_m2d0l"), SubResource("Resource_fjhuf"), SubResource("Resource_bt8ix"), SubResource("Resource_7ygdv"), SubResource("Resource_rd5eu"), SubResource("Resource_oarje"), SubResource("Resource_mw3el"), SubResource("Resource_k6amo"), SubResource("Resource_jy1ix"), SubResource("Resource_mvegf"), SubResource("Resource_tetpb")])
+form_species = Array[int]([103, 972])

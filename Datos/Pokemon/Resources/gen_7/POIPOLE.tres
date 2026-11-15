@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bmrflld0gakby"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_y8o1g"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_701fe"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0h4gb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sg17u"]
+
+[sub_resource type="Resource" id="Resource_bxnqt"]
+script = ExtResource("3_0h4gb")
+move = 406
+
+[sub_resource type="Resource" id="Resource_cktl1"]
+script = ExtResource("3_0h4gb")
+move = 64
+
+[sub_resource type="Resource" id="Resource_dpexs"]
+script = ExtResource("3_0h4gb")
+move = 45
+
+[sub_resource type="Resource" id="Resource_3elur"]
+script = ExtResource("3_0h4gb")
+move = 270
+
+[sub_resource type="Resource" id="Resource_m4fcx"]
+script = ExtResource("3_0h4gb")
+move = 51
+
+[sub_resource type="Resource" id="Resource_dftnq"]
+script = ExtResource("3_0h4gb")
+level = 7
+move = 31
+
+[sub_resource type="Resource" id="Resource_jma26"]
+script = ExtResource("3_0h4gb")
+level = 14
+move = 565
+
+[sub_resource type="Resource" id="Resource_taqdf"]
+script = ExtResource("3_0h4gb")
+level = 21
+move = 204
+
+[sub_resource type="Resource" id="Resource_4t6kq"]
+script = ExtResource("3_0h4gb")
+level = 28
+move = 474
+
+[sub_resource type="Resource" id="Resource_eg6yy"]
+script = ExtResource("3_0h4gb")
+level = 35
+move = 599
+
+[sub_resource type="Resource" id="Resource_p2434"]
+script = ExtResource("3_0h4gb")
+level = 42
+move = 417
+
+[sub_resource type="Resource" id="Resource_67218"]
+script = ExtResource("3_0h4gb")
+level = 49
+move = 398
+
+[sub_resource type="Resource" id="Resource_absy8"]
+script = ExtResource("3_0h4gb")
+level = 56
+move = 380
+
+[sub_resource type="Resource" id="Resource_nbsjd"]
+script = ExtResource("3_0h4gb")
+level = 63
+move = 92
+
+[resource]
+script = ExtResource("4_sg17u")
+id = 803
+display_name = "Poipole"
+category = "Poison Pin"
+national_dex = 803
+pokedex = "This Ultra Beast is well enough
+liked to be chosen as a
+first partner in its own world."
+type_1 = 4
+base_hp = 67
+base_atk = 73
+base_def = 67
+base_spa = 73
+base_spd = 67
+base_spe = 73
+ev_spe = 1
+base_exp = 210
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 224
+height_dm = 6
+weight_hg = 18
+body_color = 6
+level_moves = Array[ExtResource("3_0h4gb")]([SubResource("Resource_bxnqt"), SubResource("Resource_cktl1"), SubResource("Resource_dpexs"), SubResource("Resource_3elur"), SubResource("Resource_m4fcx"), SubResource("Resource_dftnq"), SubResource("Resource_jma26"), SubResource("Resource_taqdf"), SubResource("Resource_4t6kq"), SubResource("Resource_eg6yy"), SubResource("Resource_p2434"), SubResource("Resource_67218"), SubResource("Resource_absy8"), SubResource("Resource_nbsjd")])

@@ -1,0 +1,61 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://n1btqygu4i68"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jbhd4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_7ofh6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_y3c4t"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_aar3t"]
+
+[sub_resource type="Resource" id="Resource_5811y"]
+script = ExtResource("1_jbhd4")
+method = "LEVEL"
+param = "10"
+target = 402
+
+[sub_resource type="Resource" id="Resource_3x5fi"]
+script = ExtResource("3_y3c4t")
+move = 33
+
+[sub_resource type="Resource" id="Resource_qolkb"]
+script = ExtResource("3_y3c4t")
+move = 45
+
+[sub_resource type="Resource" id="Resource_35qsx"]
+script = ExtResource("3_y3c4t")
+level = 6
+move = 522
+
+[sub_resource type="Resource" id="Resource_nah8k"]
+script = ExtResource("3_y3c4t")
+level = 16
+move = 450
+
+[resource]
+script = ExtResource("4_aar3t")
+id = 401
+display_name = "Kricketot"
+category = "Cricket"
+national_dex = 401
+pokedex = "It shakes its head back to front,
+causing its antennae to hit each other
+and sound like a xylophone.
+These sounds are fall hallmarks."
+type_1 = 7
+base_hp = 37
+base_atk = 25
+base_def = 41
+base_spa = 25
+base_spd = 41
+base_spe = 25
+ev_def = 1
+catch_rate = 255
+base_exp = 39
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 61
+ability_hidden = 50
+item_rare = 483
+height_dm = 3
+weight_hg = 22
+level_moves = Array[ExtResource("3_y3c4t")]([SubResource("Resource_3x5fi"), SubResource("Resource_qolkb"), SubResource("Resource_35qsx"), SubResource("Resource_nah8k")])
+evolutions = Array[ExtResource("1_jbhd4")]([SubResource("Resource_5811y")])

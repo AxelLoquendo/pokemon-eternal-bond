@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dsskhxjprrb6h"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1h1ip"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jl8hf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vkbk2"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_x8jwv"]
+
+[sub_resource type="Resource" id="Resource_fq1wx"]
+script = ExtResource("3_vkbk2")
+move = 614
+
+[sub_resource type="Resource" id="Resource_0yrj5"]
+script = ExtResource("3_vkbk2")
+move = 615
+
+[sub_resource type="Resource" id="Resource_ikjbl"]
+script = ExtResource("3_vkbk2")
+move = 650
+
+[sub_resource type="Resource" id="Resource_kview"]
+script = ExtResource("3_vkbk2")
+move = 20
+
+[sub_resource type="Resource" id="Resource_mu42p"]
+script = ExtResource("3_vkbk2")
+move = 523
+
+[sub_resource type="Resource" id="Resource_5sno2"]
+script = ExtResource("3_vkbk2")
+move = 225
+
+[sub_resource type="Resource" id="Resource_ymqdr"]
+script = ExtResource("3_vkbk2")
+move = 44
+
+[sub_resource type="Resource" id="Resource_d6nrb"]
+script = ExtResource("3_vkbk2")
+level = 8
+move = 114
+
+[sub_resource type="Resource" id="Resource_0bq6d"]
+script = ExtResource("3_vkbk2")
+level = 16
+move = 91
+
+[sub_resource type="Resource" id="Resource_w67nf"]
+script = ExtResource("3_vkbk2")
+level = 24
+move = 219
+
+[sub_resource type="Resource" id="Resource_a78ym"]
+script = ExtResource("3_vkbk2")
+level = 32
+move = 242
+
+[sub_resource type="Resource" id="Resource_cej3x"]
+script = ExtResource("3_vkbk2")
+level = 40
+move = 406
+
+[sub_resource type="Resource" id="Resource_is41e"]
+script = ExtResource("3_vkbk2")
+level = 48
+move = 616
+
+[sub_resource type="Resource" id="Resource_r1mxu"]
+script = ExtResource("3_vkbk2")
+level = 56
+move = 137
+
+[sub_resource type="Resource" id="Resource_2j81y"]
+script = ExtResource("3_vkbk2")
+level = 64
+move = 201
+
+[sub_resource type="Resource" id="Resource_jov8i"]
+script = ExtResource("3_vkbk2")
+level = 72
+move = 489
+
+[sub_resource type="Resource" id="Resource_8qyt1"]
+script = ExtResource("3_vkbk2")
+level = 80
+move = 89
+
+[sub_resource type="Resource" id="Resource_fmh8x"]
+script = ExtResource("3_vkbk2")
+level = 88
+move = 200
+
+[resource]
+script = ExtResource("4_x8jwv")
+id = 718
+display_name = "Zygarde"
+category = "Order"
+national_dex = 718
+type_1 = 17
+type_2 = 5
+base_hp = 108
+base_atk = 100
+base_def = 121
+base_spa = 81
+base_spd = 95
+base_spe = 95
+ev_hp = 3
+catch_rate = 3
+base_exp = 300
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 188
+height_dm = 50
+weight_hg = 3050
+body_color = 3
+no_flip = true
+level_moves = Array[ExtResource("3_vkbk2")]([SubResource("Resource_fq1wx"), SubResource("Resource_0yrj5"), SubResource("Resource_ikjbl"), SubResource("Resource_kview"), SubResource("Resource_mu42p"), SubResource("Resource_5sno2"), SubResource("Resource_ymqdr"), SubResource("Resource_d6nrb"), SubResource("Resource_0bq6d"), SubResource("Resource_w67nf"), SubResource("Resource_a78ym"), SubResource("Resource_cej3x"), SubResource("Resource_is41e"), SubResource("Resource_r1mxu"), SubResource("Resource_2j81y"), SubResource("Resource_jov8i"), SubResource("Resource_8qyt1"), SubResource("Resource_fmh8x")])
+form_species = Array[int]([718, 1164, 1165, 1166, 1167, 1547])

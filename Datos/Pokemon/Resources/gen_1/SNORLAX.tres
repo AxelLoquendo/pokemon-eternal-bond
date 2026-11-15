@@ -1,0 +1,164 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://qjo6rhbrt1rh"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_0ge17"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_6fu0h"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4noij"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_46brh"]
+
+[sub_resource type="Resource" id="Resource_6mig5"]
+script = ExtResource("3_4noij")
+move = 33
+
+[sub_resource type="Resource" id="Resource_egort"]
+script = ExtResource("3_4noij")
+move = 387
+
+[sub_resource type="Resource" id="Resource_nqec3"]
+script = ExtResource("3_4noij")
+move = 256
+
+[sub_resource type="Resource" id="Resource_xqp12"]
+script = ExtResource("3_4noij")
+move = 103
+
+[sub_resource type="Resource" id="Resource_65p4k"]
+script = ExtResource("3_4noij")
+move = 111
+
+[sub_resource type="Resource" id="Resource_hfe58"]
+script = ExtResource("3_4noij")
+move = 118
+
+[sub_resource type="Resource" id="Resource_h4bms"]
+script = ExtResource("3_4noij")
+move = 122
+
+[sub_resource type="Resource" id="Resource_2xcio"]
+script = ExtResource("3_4noij")
+move = 374
+
+[sub_resource type="Resource" id="Resource_1ut15"]
+script = ExtResource("3_4noij")
+move = 278
+
+[sub_resource type="Resource" id="Resource_36mu8"]
+script = ExtResource("3_4noij")
+move = 254
+
+[sub_resource type="Resource" id="Resource_qq13w"]
+script = ExtResource("3_4noij")
+move = 175
+
+[sub_resource type="Resource" id="Resource_ql2jj"]
+script = ExtResource("3_4noij")
+move = 343
+
+[sub_resource type="Resource" id="Resource_pjbhi"]
+script = ExtResource("3_4noij")
+move = 335
+
+[sub_resource type="Resource" id="Resource_bandp"]
+script = ExtResource("3_4noij")
+level = 12
+move = 281
+
+[sub_resource type="Resource" id="Resource_n4phb"]
+script = ExtResource("3_4noij")
+level = 16
+move = 44
+
+[sub_resource type="Resource" id="Resource_5assx"]
+script = ExtResource("3_4noij")
+level = 20
+move = 173
+
+[sub_resource type="Resource" id="Resource_hd0wm"]
+script = ExtResource("3_4noij")
+level = 20
+move = 214
+
+[sub_resource type="Resource" id="Resource_mej1y"]
+script = ExtResource("3_4noij")
+level = 20
+move = 156
+
+[sub_resource type="Resource" id="Resource_j6ypk"]
+script = ExtResource("3_4noij")
+level = 24
+move = 242
+
+[sub_resource type="Resource" id="Resource_et8ot"]
+script = ExtResource("3_4noij")
+level = 28
+move = 34
+
+[sub_resource type="Resource" id="Resource_foayh"]
+script = ExtResource("3_4noij")
+level = 32
+move = 484
+
+[sub_resource type="Resource" id="Resource_ag21c"]
+script = ExtResource("3_4noij")
+level = 36
+move = 133
+
+[sub_resource type="Resource" id="Resource_v5qfl"]
+script = ExtResource("3_4noij")
+level = 40
+move = 630
+
+[sub_resource type="Resource" id="Resource_oiwme"]
+script = ExtResource("3_4noij")
+level = 44
+move = 359
+
+[sub_resource type="Resource" id="Resource_dlps0"]
+script = ExtResource("3_4noij")
+level = 48
+move = 187
+
+[sub_resource type="Resource" id="Resource_mnu53"]
+script = ExtResource("3_4noij")
+level = 52
+move = 562
+
+[sub_resource type="Resource" id="Resource_5j03c"]
+script = ExtResource("3_4noij")
+level = 56
+move = 416
+
+[resource]
+script = ExtResource("4_46brh")
+id = 143
+display_name = "Snorlax"
+category = "Sleeping"
+national_dex = 143
+pokedex = "Snorlax's typical day consists of nothing
+more than eating and sleeping. It is such
+a docile Pokémon that there are children
+who use its big belly as a place to play."
+type_1 = 1
+base_hp = 160
+base_atk = 110
+base_def = 65
+base_spa = 65
+base_spd = 110
+base_spe = 30
+ev_hp = 2
+catch_rate = 25
+base_exp = 189
+gender_ratio = 31
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 1
+ability_1 = 17
+ability_2 = 47
+ability_hidden = 82
+item_common = 472
+item_rare = 472
+height_dm = 21
+weight_hg = 4600
+body_color = 4
+level_moves = Array[ExtResource("3_4noij")]([SubResource("Resource_6mig5"), SubResource("Resource_egort"), SubResource("Resource_nqec3"), SubResource("Resource_xqp12"), SubResource("Resource_65p4k"), SubResource("Resource_hfe58"), SubResource("Resource_h4bms"), SubResource("Resource_2xcio"), SubResource("Resource_1ut15"), SubResource("Resource_36mu8"), SubResource("Resource_qq13w"), SubResource("Resource_ql2jj"), SubResource("Resource_pjbhi"), SubResource("Resource_bandp"), SubResource("Resource_n4phb"), SubResource("Resource_5assx"), SubResource("Resource_hd0wm"), SubResource("Resource_mej1y"), SubResource("Resource_j6ypk"), SubResource("Resource_et8ot"), SubResource("Resource_foayh"), SubResource("Resource_ag21c"), SubResource("Resource_v5qfl"), SubResource("Resource_oiwme"), SubResource("Resource_dlps0"), SubResource("Resource_mnu53"), SubResource("Resource_5j03c")])
+egg_moves = Array[int]([122, 204, 38, 174, 90, 18, 228, 68, 363, 495, 562, 612])
+form_species = Array[int]([143, 1500])

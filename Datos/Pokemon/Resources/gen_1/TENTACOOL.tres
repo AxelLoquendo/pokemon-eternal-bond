@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bca3dpeuqror0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vaxe1"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gudpi"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3exwk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_2wsde"]
+
+[sub_resource type="Resource" id="Resource_jojo4"]
+script = ExtResource("1_vaxe1")
+method = "LEVEL"
+param = "30"
+target = 73
+
+[sub_resource type="Resource" id="Resource_tqybh"]
+script = ExtResource("3_3exwk")
+move = 40
+
+[sub_resource type="Resource" id="Resource_5tglg"]
+script = ExtResource("3_3exwk")
+move = 55
+
+[sub_resource type="Resource" id="Resource_eqoi5"]
+script = ExtResource("3_3exwk")
+level = 4
+move = 51
+
+[sub_resource type="Resource" id="Resource_tjwg7"]
+script = ExtResource("3_3exwk")
+level = 8
+move = 35
+
+[sub_resource type="Resource" id="Resource_f0gav"]
+script = ExtResource("3_3exwk")
+level = 12
+move = 48
+
+[sub_resource type="Resource" id="Resource_wwusl"]
+script = ExtResource("3_3exwk")
+level = 16
+move = 352
+
+[sub_resource type="Resource" id="Resource_1mduv"]
+script = ExtResource("3_3exwk")
+level = 20
+move = 103
+
+[sub_resource type="Resource" id="Resource_hlfyw"]
+script = ExtResource("3_3exwk")
+level = 24
+move = 61
+
+[sub_resource type="Resource" id="Resource_438h2"]
+script = ExtResource("3_3exwk")
+level = 28
+move = 506
+
+[sub_resource type="Resource" id="Resource_ex3nf"]
+script = ExtResource("3_3exwk")
+level = 32
+move = 151
+
+[sub_resource type="Resource" id="Resource_garxq"]
+script = ExtResource("3_3exwk")
+level = 36
+move = 398
+
+[sub_resource type="Resource" id="Resource_35psj"]
+script = ExtResource("3_3exwk")
+level = 40
+move = 57
+
+[sub_resource type="Resource" id="Resource_6irql"]
+script = ExtResource("3_3exwk")
+level = 44
+move = 482
+
+[sub_resource type="Resource" id="Resource_6m6ll"]
+script = ExtResource("3_3exwk")
+level = 48
+move = 56
+
+[resource]
+script = ExtResource("4_2wsde")
+id = 72
+display_name = "Tentacool"
+category = "Jellyfish"
+national_dex = 72
+pokedex = "Its body is almost entirely composed of
+water. It ensnares its foe with its two
+long tentacles, then stabs with the poison
+stingers at their tips."
+type_1 = 12
+type_2 = 4
+base_hp = 40
+base_atk = 40
+base_def = 35
+base_spa = 50
+base_spd = 100
+base_spe = 70
+ev_spd = 1
+catch_rate = 190
+base_exp = 67
+growth_rate = 5
+egg_group_1 = 9
+ability_1 = 29
+ability_2 = 64
+ability_hidden = 44
+item_rare = 432
+height_dm = 9
+weight_hg = 455
+body_color = 1
+level_moves = Array[ExtResource("3_3exwk")]([SubResource("Resource_tqybh"), SubResource("Resource_5tglg"), SubResource("Resource_eqoi5"), SubResource("Resource_tjwg7"), SubResource("Resource_f0gav"), SubResource("Resource_wwusl"), SubResource("Resource_1mduv"), SubResource("Resource_hlfyw"), SubResource("Resource_438h2"), SubResource("Resource_ex3nf"), SubResource("Resource_garxq"), SubResource("Resource_35psj"), SubResource("Resource_6irql"), SubResource("Resource_6m6ll")])
+egg_moves = Array[int]([62, 243, 229, 114, 109, 282, 367, 330, 145, 392, 321])
+evolutions = Array[ExtResource("1_vaxe1")]([SubResource("Resource_jojo4")])

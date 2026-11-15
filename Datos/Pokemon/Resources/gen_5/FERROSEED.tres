@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1vpx3tdu5t3y"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6fweu"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_l5qyy"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rqjbh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4jni4"]
+
+[sub_resource type="Resource" id="Resource_15iuk"]
+script = ExtResource("1_6fweu")
+method = "LEVEL"
+param = "40"
+target = 598
+
+[sub_resource type="Resource" id="Resource_e8h2p"]
+script = ExtResource("3_rqjbh")
+move = 33
+
+[sub_resource type="Resource" id="Resource_1j2f2"]
+script = ExtResource("3_rqjbh")
+move = 106
+
+[sub_resource type="Resource" id="Resource_gacmd"]
+script = ExtResource("3_rqjbh")
+level = 5
+move = 232
+
+[sub_resource type="Resource" id="Resource_ohgam"]
+script = ExtResource("3_rqjbh")
+level = 10
+move = 42
+
+[sub_resource type="Resource" id="Resource_0js4l"]
+script = ExtResource("3_rqjbh")
+level = 15
+move = 275
+
+[sub_resource type="Resource" id="Resource_wfc35"]
+script = ExtResource("3_rqjbh")
+level = 20
+move = 430
+
+[sub_resource type="Resource" id="Resource_gss8i"]
+script = ExtResource("3_rqjbh")
+level = 25
+move = 442
+
+[sub_resource type="Resource" id="Resource_08d8p"]
+script = ExtResource("3_rqjbh")
+level = 30
+move = 120
+
+[sub_resource type="Resource" id="Resource_4030y"]
+script = ExtResource("3_rqjbh")
+level = 35
+move = 334
+
+[sub_resource type="Resource" id="Resource_dke85"]
+script = ExtResource("3_rqjbh")
+level = 41
+move = 174
+
+[sub_resource type="Resource" id="Resource_qjpos"]
+script = ExtResource("3_rqjbh")
+level = 45
+move = 360
+
+[sub_resource type="Resource" id="Resource_1v40n"]
+script = ExtResource("3_rqjbh")
+level = 50
+move = 153
+
+[resource]
+script = ExtResource("4_4jni4")
+id = 597
+display_name = "Ferroseed"
+category = "Thorn Seed"
+national_dex = 597
+pokedex = "It absorbs the iron it finds in the rock
+while clinging to the ceiling of caves.
+When threatened, it attacks by shooting
+a barrage of spikes."
+type_1 = 13
+type_2 = 9
+base_hp = 44
+base_atk = 50
+base_def = 91
+base_spa = 24
+base_spd = 86
+base_spe = 10
+ev_def = 1
+catch_rate = 255
+base_exp = 61
+egg_group_1 = 7
+egg_group_2 = 10
+ability_1 = 160
+item_rare = 489
+height_dm = 6
+weight_hg = 188
+body_color = 7
+level_moves = Array[ExtResource("3_rqjbh")]([SubResource("Resource_e8h2p"), SubResource("Resource_1j2f2"), SubResource("Resource_gacmd"), SubResource("Resource_ohgam"), SubResource("Resource_0js4l"), SubResource("Resource_wfc35"), SubResource("Resource_gss8i"), SubResource("Resource_08d8p"), SubResource("Resource_4030y"), SubResource("Resource_dke85"), SubResource("Resource_qjpos"), SubResource("Resource_1v40n")])
+egg_moves = Array[int]([331, 73, 191, 388, 402, 356, 431, 446, 491])
+evolutions = Array[ExtResource("1_6fweu")]([SubResource("Resource_15iuk")])

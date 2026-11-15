@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b2m5rvd1sb3py"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_illj7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_183y6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_v0awl"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0bcol"]
+
+[sub_resource type="Resource" id="Resource_rkxln"]
+script = ExtResource("1_illj7")
+method = "LEVEL"
+param = "36"
+target = 6
+
+[sub_resource type="Resource" id="Resource_xct8j"]
+script = ExtResource("3_v0awl")
+move = 10
+
+[sub_resource type="Resource" id="Resource_v0ko6"]
+script = ExtResource("3_v0awl")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ibobl"]
+script = ExtResource("3_v0awl")
+move = 52
+
+[sub_resource type="Resource" id="Resource_osomh"]
+script = ExtResource("3_v0awl")
+move = 108
+
+[sub_resource type="Resource" id="Resource_xua8y"]
+script = ExtResource("3_v0awl")
+level = 12
+move = 225
+
+[sub_resource type="Resource" id="Resource_o7116"]
+script = ExtResource("3_v0awl")
+level = 19
+move = 424
+
+[sub_resource type="Resource" id="Resource_1w4ls"]
+script = ExtResource("3_v0awl")
+level = 24
+move = 163
+
+[sub_resource type="Resource" id="Resource_7fi6x"]
+script = ExtResource("3_v0awl")
+level = 30
+move = 53
+
+[sub_resource type="Resource" id="Resource_qdx4w"]
+script = ExtResource("3_v0awl")
+level = 37
+move = 184
+
+[sub_resource type="Resource" id="Resource_3tecx"]
+script = ExtResource("3_v0awl")
+level = 48
+move = 517
+
+[sub_resource type="Resource" id="Resource_bnbs5"]
+script = ExtResource("3_v0awl")
+level = 54
+move = 394
+
+[resource]
+script = ExtResource("4_0bcol")
+id = 5
+display_name = "Charmeleon"
+category = "Flame"
+national_dex = 5
+pokedex = "Without pity, its sharp claws destroy foes.
+If it encounters a strong enemy, it
+becomes agitated, and the flame on its
+tail flares with a bluish white color."
+type_1 = 11
+base_hp = 58
+base_atk = 64
+base_def = 58
+base_spa = 80
+base_spd = 65
+base_spe = 80
+ev_spa = 1
+ev_spe = 1
+base_exp = 142
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 66
+ability_hidden = 94
+height_dm = 11
+weight_hg = 190
+level_moves = Array[ExtResource("3_v0awl")]([SubResource("Resource_xct8j"), SubResource("Resource_v0ko6"), SubResource("Resource_ibobl"), SubResource("Resource_osomh"), SubResource("Resource_xua8y"), SubResource("Resource_o7116"), SubResource("Resource_1w4ls"), SubResource("Resource_7fi6x"), SubResource("Resource_qdx4w"), SubResource("Resource_3tecx"), SubResource("Resource_bnbs5")])
+evolutions = Array[ExtResource("1_illj7")]([SubResource("Resource_rkxln")])

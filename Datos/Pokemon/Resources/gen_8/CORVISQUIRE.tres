@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c0ou842g4kbh0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_runw7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_5acka"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nqpe8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s1aoy"]
+
+[sub_resource type="Resource" id="Resource_3q4h0"]
+script = ExtResource("1_runw7")
+method = "LEVEL"
+param = "38"
+target = 823
+
+[sub_resource type="Resource" id="Resource_4e4yb"]
+script = ExtResource("3_nqpe8")
+move = 43
+
+[sub_resource type="Resource" id="Resource_ljxqa"]
+script = ExtResource("3_nqpe8")
+move = 64
+
+[sub_resource type="Resource" id="Resource_gyhhu"]
+script = ExtResource("3_nqpe8")
+move = 468
+
+[sub_resource type="Resource" id="Resource_w5ssg"]
+script = ExtResource("3_nqpe8")
+move = 644
+
+[sub_resource type="Resource" id="Resource_yfh47"]
+script = ExtResource("3_nqpe8")
+level = 12
+move = 31
+
+[sub_resource type="Resource" id="Resource_7eift"]
+script = ExtResource("3_nqpe8")
+level = 16
+move = 365
+
+[sub_resource type="Resource" id="Resource_1b0wy"]
+script = ExtResource("3_nqpe8")
+level = 22
+move = 269
+
+[sub_resource type="Resource" id="Resource_riqew"]
+script = ExtResource("3_nqpe8")
+level = 28
+move = 184
+
+[sub_resource type="Resource" id="Resource_5u1kf"]
+script = ExtResource("3_nqpe8")
+level = 34
+move = 65
+
+[sub_resource type="Resource" id="Resource_s0v25"]
+script = ExtResource("3_nqpe8")
+level = 40
+move = 207
+
+[sub_resource type="Resource" id="Resource_q00dc"]
+script = ExtResource("3_nqpe8")
+level = 46
+move = 413
+
+[resource]
+script = ExtResource("4_s1aoy")
+id = 822
+display_name = "Corvisquire"
+category = "Raven"
+national_dex = 822
+pokedex = "Smart enough to use tools in battle,
+these Pokémon have been seen picking up
+rocks and flinging them or using ropes
+to wrap up enemies."
+type_1 = 3
+base_hp = 68
+base_atk = 67
+base_def = 55
+base_spa = 43
+base_spd = 55
+base_spe = 77
+ev_spe = 2
+catch_rate = 120
+base_exp = 128
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 51
+ability_2 = 127
+ability_hidden = 145
+height_dm = 8
+weight_hg = 160
+body_color = 1
+level_moves = Array[ExtResource("3_nqpe8")]([SubResource("Resource_4e4yb"), SubResource("Resource_ljxqa"), SubResource("Resource_gyhhu"), SubResource("Resource_w5ssg"), SubResource("Resource_yfh47"), SubResource("Resource_7eift"), SubResource("Resource_1b0wy"), SubResource("Resource_riqew"), SubResource("Resource_5u1kf"), SubResource("Resource_s0v25"), SubResource("Resource_q00dc")])
+evolutions = Array[ExtResource("1_runw7")]([SubResource("Resource_3q4h0")])

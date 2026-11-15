@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ch5wsf7a8nvug"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_hpa5u"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_od5q3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qtvoy"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_iddje"]
+
+[sub_resource type="Resource" id="Resource_osvhf"]
+script = ExtResource("3_qtvoy")
+move = 10
+
+[sub_resource type="Resource" id="Resource_7gfsk"]
+script = ExtResource("3_qtvoy")
+move = 93
+
+[sub_resource type="Resource" id="Resource_xysja"]
+script = ExtResource("3_qtvoy")
+move = 252
+
+[sub_resource type="Resource" id="Resource_lo80r"]
+script = ExtResource("3_qtvoy")
+move = 260
+
+[sub_resource type="Resource" id="Resource_q81yp"]
+script = ExtResource("3_qtvoy")
+level = 8
+move = 270
+
+[sub_resource type="Resource" id="Resource_qae3k"]
+script = ExtResource("3_qtvoy")
+level = 16
+move = 60
+
+[sub_resource type="Resource" id="Resource_1ypu1"]
+script = ExtResource("3_qtvoy")
+level = 24
+move = 499
+
+[sub_resource type="Resource" id="Resource_ysy4a"]
+script = ExtResource("3_qtvoy")
+level = 32
+move = 398
+
+[sub_resource type="Resource" id="Resource_tvs7x"]
+script = ExtResource("3_qtvoy")
+level = 40
+move = 94
+
+[sub_resource type="Resource" id="Resource_po2ln"]
+script = ExtResource("3_qtvoy")
+level = 48
+move = 482
+
+[sub_resource type="Resource" id="Resource_btty2"]
+script = ExtResource("3_qtvoy")
+level = 56
+move = 417
+
+[sub_resource type="Resource" id="Resource_rn3k5"]
+script = ExtResource("3_qtvoy")
+level = 64
+move = 248
+
+[sub_resource type="Resource" id="Resource_4p8ld"]
+script = ExtResource("3_qtvoy")
+level = 72
+move = 575
+
+[resource]
+script = ExtResource("4_iddje")
+id = 1414
+display_name = "Munkidori"
+category = "Retainer"
+national_dex = 1015
+pokedex = "The chain is made from toxins that
+enhance capabilities. It stimulated
+Munkidori's brain and caused the
+Pokémon's psychic powers to bloom."
+type_1 = 4
+type_2 = 15
+base_hp = 88
+base_atk = 75
+base_def = 66
+base_spa = 130
+base_spd = 90
+base_spe = 106
+ev_spa = 3
+catch_rate = 3
+base_exp = 278
+base_friendship = 0
+gender_ratio = 0
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 305
+ability_hidden = 119
+height_dm = 10
+weight_hg = 122
+body_color = 4
+level_moves = Array[ExtResource("3_qtvoy")]([SubResource("Resource_osvhf"), SubResource("Resource_7gfsk"), SubResource("Resource_xysja"), SubResource("Resource_lo80r"), SubResource("Resource_q81yp"), SubResource("Resource_qae3k"), SubResource("Resource_1ypu1"), SubResource("Resource_ysy4a"), SubResource("Resource_tvs7x"), SubResource("Resource_po2ln"), SubResource("Resource_btty2"), SubResource("Resource_rn3k5"), SubResource("Resource_4p8ld")])

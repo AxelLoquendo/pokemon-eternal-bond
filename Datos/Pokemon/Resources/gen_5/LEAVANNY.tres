@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c2uf52pb4i6jf"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3pc8i"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_isa64"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fin25"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fhau6"]
+
+[sub_resource type="Resource" id="Resource_8oh5o"]
+script = ExtResource("3_fin25")
+level = 0
+move = 163
+
+[sub_resource type="Resource" id="Resource_jxbcv"]
+script = ExtResource("3_fin25")
+move = 450
+
+[sub_resource type="Resource" id="Resource_kauy0"]
+script = ExtResource("3_fin25")
+move = 33
+
+[sub_resource type="Resource" id="Resource_cwcpi"]
+script = ExtResource("3_fin25")
+move = 75
+
+[sub_resource type="Resource" id="Resource_xydl1"]
+script = ExtResource("3_fin25")
+move = 81
+
+[sub_resource type="Resource" id="Resource_45ect"]
+script = ExtResource("3_fin25")
+move = 206
+
+[sub_resource type="Resource" id="Resource_1h3w5"]
+script = ExtResource("3_fin25")
+level = 22
+move = 522
+
+[sub_resource type="Resource" id="Resource_bcvkp"]
+script = ExtResource("3_fin25")
+level = 29
+move = 565
+
+[sub_resource type="Resource" id="Resource_jpkyh"]
+script = ExtResource("3_fin25")
+level = 32
+move = 270
+
+[sub_resource type="Resource" id="Resource_xjtlw"]
+script = ExtResource("3_fin25")
+level = 36
+move = 348
+
+[sub_resource type="Resource" id="Resource_us0pn"]
+script = ExtResource("3_fin25")
+level = 39
+move = 404
+
+[sub_resource type="Resource" id="Resource_kmhpx"]
+script = ExtResource("3_fin25")
+level = 43
+move = 494
+
+[sub_resource type="Resource" id="Resource_rlyu0"]
+script = ExtResource("3_fin25")
+level = 46
+move = 14
+
+[sub_resource type="Resource" id="Resource_eu186"]
+script = ExtResource("3_fin25")
+level = 50
+move = 437
+
+[resource]
+script = ExtResource("4_fhau6")
+id = 542
+display_name = "Leavanny"
+category = "Nurturing"
+national_dex = 542
+pokedex = "It keeps its eggs warm with heat from
+fermenting leaves. It also uses leaves to
+weave warm wrappings for Sewaddle by
+using the silk secreted from its mouth."
+type_1 = 7
+type_2 = 13
+base_hp = 75
+base_atk = 103
+base_def = 80
+base_spa = 70
+base_spd = 80
+base_spe = 92
+ev_atk = 3
+base_exp = 221
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 68
+ability_2 = 34
+ability_hidden = 142
+item_rare = 464
+height_dm = 12
+weight_hg = 205
+body_color = 2
+level_moves = Array[ExtResource("3_fin25")]([SubResource("Resource_8oh5o"), SubResource("Resource_jxbcv"), SubResource("Resource_kauy0"), SubResource("Resource_cwcpi"), SubResource("Resource_xydl1"), SubResource("Resource_45ect"), SubResource("Resource_1h3w5"), SubResource("Resource_bcvkp"), SubResource("Resource_jpkyh"), SubResource("Resource_xjtlw"), SubResource("Resource_us0pn"), SubResource("Resource_kmhpx"), SubResource("Resource_rlyu0"), SubResource("Resource_eu186")])

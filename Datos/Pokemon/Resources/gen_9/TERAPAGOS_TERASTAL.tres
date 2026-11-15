@@ -1,0 +1,94 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://diixhxi1kctto"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3e0lc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_w6do2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uac7e"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1qvuh"]
+
+[sub_resource type="Resource" id="Resource_53xek"]
+script = ExtResource("3_uac7e")
+move = 110
+
+[sub_resource type="Resource" id="Resource_sm5cp"]
+script = ExtResource("3_uac7e")
+move = 161
+
+[sub_resource type="Resource" id="Resource_go17y"]
+script = ExtResource("3_uac7e")
+move = 229
+
+[sub_resource type="Resource" id="Resource_r0jfl"]
+script = ExtResource("3_uac7e")
+level = 10
+move = 246
+
+[sub_resource type="Resource" id="Resource_xd1pi"]
+script = ExtResource("3_uac7e")
+level = 20
+move = 29
+
+[sub_resource type="Resource" id="Resource_2xsnm"]
+script = ExtResource("3_uac7e")
+level = 30
+move = 182
+
+[sub_resource type="Resource" id="Resource_oxcc4"]
+script = ExtResource("3_uac7e")
+level = 40
+move = 414
+
+[sub_resource type="Resource" id="Resource_25w2d"]
+script = ExtResource("3_uac7e")
+level = 50
+move = 484
+
+[sub_resource type="Resource" id="Resource_f6th1"]
+script = ExtResource("3_uac7e")
+level = 60
+move = 834
+
+[sub_resource type="Resource" id="Resource_85ttp"]
+script = ExtResource("3_uac7e")
+level = 70
+move = 38
+
+[sub_resource type="Resource" id="Resource_vbl5i"]
+script = ExtResource("3_uac7e")
+level = 80
+move = 397
+
+[sub_resource type="Resource" id="Resource_gyqso"]
+script = ExtResource("3_uac7e")
+level = 90
+move = 360
+
+[resource]
+script = ExtResource("4_1qvuh")
+id = 1432
+display_name = "Terapagos"
+category = "Tera"
+national_dex = 1024
+pokedex = "The shell is made of crystallized
+Terastal energy. When struck by a move,
+this shell absorbs the move's energy
+and transfers it to Terapagos."
+type_1 = 1
+force_tera_type = 20
+base_hp = 95
+base_atk = 95
+base_def = 110
+base_spa = 105
+base_spd = 110
+base_spe = 85
+ev_def = 2
+ev_spd = 2
+catch_rate = 255
+base_exp = 120
+growth_rate = 5
+egg_cycles = 5
+ability_1 = 308
+height_dm = 3
+weight_hg = 160
+body_color = 1
+level_moves = Array[ExtResource("3_uac7e")]([SubResource("Resource_53xek"), SubResource("Resource_sm5cp"), SubResource("Resource_go17y"), SubResource("Resource_r0jfl"), SubResource("Resource_xd1pi"), SubResource("Resource_2xsnm"), SubResource("Resource_oxcc4"), SubResource("Resource_25w2d"), SubResource("Resource_f6th1"), SubResource("Resource_85ttp"), SubResource("Resource_vbl5i"), SubResource("Resource_gyqso")])
+form_species = Array[int]([1431, 1432, 1433])

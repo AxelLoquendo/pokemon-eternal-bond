@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dijrdo3xbiwwd"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4du80"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_qeqrh"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_knthx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4voea"]
+
+[sub_resource type="Resource" id="Resource_kc84r"]
+script = ExtResource("1_4du80")
+method = "LEVEL"
+param = "25"
+target = 525
+
+[sub_resource type="Resource" id="Resource_6pthx"]
+script = ExtResource("3_knthx")
+move = 28
+
+[sub_resource type="Resource" id="Resource_5n6rv"]
+script = ExtResource("3_knthx")
+move = 33
+
+[sub_resource type="Resource" id="Resource_oepxh"]
+script = ExtResource("3_knthx")
+level = 4
+move = 106
+
+[sub_resource type="Resource" id="Resource_u0d0v"]
+script = ExtResource("3_knthx")
+level = 8
+move = 446
+
+[sub_resource type="Resource" id="Resource_a2xkf"]
+script = ExtResource("3_knthx")
+level = 12
+move = 189
+
+[sub_resource type="Resource" id="Resource_mdal7"]
+script = ExtResource("3_knthx")
+level = 16
+move = 479
+
+[sub_resource type="Resource" id="Resource_epmvs"]
+script = ExtResource("3_knthx")
+level = 20
+move = 334
+
+[sub_resource type="Resource" id="Resource_y40xj"]
+script = ExtResource("3_knthx")
+level = 24
+move = 29
+
+[sub_resource type="Resource" id="Resource_wekev"]
+script = ExtResource("3_knthx")
+level = 28
+move = 157
+
+[sub_resource type="Resource" id="Resource_7i0we"]
+script = ExtResource("3_knthx")
+level = 32
+move = 350
+
+[sub_resource type="Resource" id="Resource_yc5mp"]
+script = ExtResource("3_knthx")
+level = 36
+move = 201
+
+[sub_resource type="Resource" id="Resource_rftdb"]
+script = ExtResource("3_knthx")
+level = 40
+move = 444
+
+[sub_resource type="Resource" id="Resource_jw00g"]
+script = ExtResource("3_knthx")
+level = 44
+move = 153
+
+[resource]
+script = ExtResource("4_4voea")
+id = 524
+display_name = "Roggenrola"
+category = "Mantle"
+national_dex = 524
+pokedex = "The hexagonal cavity is its ear.
+It walks in the direction of sounds it
+hears, but if the sounds cease, it panics
+and topples over."
+type_1 = 6
+base_hp = 55
+base_atk = 75
+base_def = 85
+base_spa = 25
+base_spd = 25
+base_spe = 15
+ev_def = 1
+catch_rate = 255
+base_exp = 56
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 10
+ability_1 = 5
+ability_hidden = 159
+item_common = 245
+item_rare = 437
+height_dm = 4
+weight_hg = 180
+body_color = 1
+level_moves = Array[ExtResource("3_knthx")]([SubResource("Resource_6pthx"), SubResource("Resource_5n6rv"), SubResource("Resource_oepxh"), SubResource("Resource_u0d0v"), SubResource("Resource_a2xkf"), SubResource("Resource_mdal7"), SubResource("Resource_epmvs"), SubResource("Resource_y40xj"), SubResource("Resource_wekev"), SubResource("Resource_7i0we"), SubResource("Resource_yc5mp"), SubResource("Resource_rftdb"), SubResource("Resource_jw00g")])
+egg_moves = Array[int]([222, 174, 475, 317, 199, 484, 36, 356, 469])
+evolutions = Array[ExtResource("1_4du80")]([SubResource("Resource_kc84r")])

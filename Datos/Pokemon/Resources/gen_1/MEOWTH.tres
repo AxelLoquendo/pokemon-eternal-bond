@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1m1qih113fx4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_enbe2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0q7ka"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_r4oc6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nx8u6"]
+
+[sub_resource type="Resource" id="Resource_nu61x"]
+script = ExtResource("1_enbe2")
+method = "LEVEL"
+param = "28"
+target = 53
+
+[sub_resource type="Resource" id="Resource_hdju0"]
+script = ExtResource("3_r4oc6")
+move = 45
+
+[sub_resource type="Resource" id="Resource_f34io"]
+script = ExtResource("3_r4oc6")
+move = 252
+
+[sub_resource type="Resource" id="Resource_efnxf"]
+script = ExtResource("3_r4oc6")
+level = 4
+move = 364
+
+[sub_resource type="Resource" id="Resource_xsuo7"]
+script = ExtResource("3_r4oc6")
+level = 8
+move = 10
+
+[sub_resource type="Resource" id="Resource_goncu"]
+script = ExtResource("3_r4oc6")
+level = 12
+move = 6
+
+[sub_resource type="Resource" id="Resource_giveh"]
+script = ExtResource("3_r4oc6")
+level = 16
+move = 44
+
+[sub_resource type="Resource" id="Resource_7qmd0"]
+script = ExtResource("3_r4oc6")
+level = 20
+move = 269
+
+[sub_resource type="Resource" id="Resource_b4cqy"]
+script = ExtResource("3_r4oc6")
+level = 24
+move = 372
+
+[sub_resource type="Resource" id="Resource_8k6xf"]
+script = ExtResource("3_r4oc6")
+level = 29
+move = 154
+
+[sub_resource type="Resource" id="Resource_xwfni"]
+script = ExtResource("3_r4oc6")
+level = 32
+move = 103
+
+[sub_resource type="Resource" id="Resource_hjlag"]
+script = ExtResource("3_r4oc6")
+level = 36
+move = 163
+
+[sub_resource type="Resource" id="Resource_htmc5"]
+script = ExtResource("3_r4oc6")
+level = 40
+move = 417
+
+[sub_resource type="Resource" id="Resource_8idqo"]
+script = ExtResource("3_r4oc6")
+level = 44
+move = 583
+
+[resource]
+script = ExtResource("4_nx8u6")
+id = 52
+display_name = "Meowth"
+category = "Scratch Cat"
+national_dex = 52
+pokedex = "Meowth withdraw their sharp claws into
+their paws to silently sneak about.
+For some reason, this Pokémon loves
+shiny coins that glitter with light."
+type_1 = 1
+base_hp = 40
+base_atk = 45
+base_def = 35
+base_spa = 40
+base_spd = 40
+base_spe = 90
+ev_spe = 1
+catch_rate = 255
+base_exp = 58
+egg_group_1 = 5
+item_rare = 462
+height_dm = 4
+weight_hg = 42
+body_color = 2
+level_moves = Array[ExtResource("3_r4oc6")]([SubResource("Resource_hdju0"), SubResource("Resource_f34io"), SubResource("Resource_efnxf"), SubResource("Resource_xsuo7"), SubResource("Resource_goncu"), SubResource("Resource_giveh"), SubResource("Resource_7qmd0"), SubResource("Resource_b4cqy"), SubResource("Resource_8k6xf"), SubResource("Resource_xwfni"), SubResource("Resource_hjlag"), SubResource("Resource_htmc5"), SubResource("Resource_8idqo")])
+egg_moves = Array[int]([180, 204, 95, 133, 274, 316, 175, 387, 386, 39, 289, 231, 492])
+evolutions = Array[ExtResource("1_enbe2")]([SubResource("Resource_nu61x")])
+form_species = Array[int]([52, 965, 974, 1494])

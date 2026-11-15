@@ -1,0 +1,98 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bb5ih4lgxpud7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_fj8m6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gefqc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vf3mk"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pwj7a"]
+
+[sub_resource type="Resource" id="Resource_52o4c"]
+script = ExtResource("3_vf3mk")
+level = 0
+move = 624
+
+[sub_resource type="Resource" id="Resource_x4gg3"]
+script = ExtResource("3_vf3mk")
+move = 40
+
+[sub_resource type="Resource" id="Resource_46eu1"]
+script = ExtResource("3_vf3mk")
+move = 44
+
+[sub_resource type="Resource" id="Resource_fmad5"]
+script = ExtResource("3_vf3mk")
+move = 64
+
+[sub_resource type="Resource" id="Resource_2kgll"]
+script = ExtResource("3_vf3mk")
+move = 469
+
+[sub_resource type="Resource" id="Resource_ri7lb"]
+script = ExtResource("3_vf3mk")
+level = 15
+move = 474
+
+[sub_resource type="Resource" id="Resource_gh2lq"]
+script = ExtResource("3_vf3mk")
+level = 20
+move = 105
+
+[sub_resource type="Resource" id="Resource_a5jmc"]
+script = ExtResource("3_vf3mk")
+level = 25
+move = 42
+
+[sub_resource type="Resource" id="Resource_4ru6d"]
+script = ExtResource("3_vf3mk")
+level = 30
+move = 390
+
+[sub_resource type="Resource" id="Resource_n028t"]
+script = ExtResource("3_vf3mk")
+level = 35
+move = 664
+
+[sub_resource type="Resource" id="Resource_0vvwd"]
+script = ExtResource("3_vf3mk")
+level = 42
+move = 491
+
+[sub_resource type="Resource" id="Resource_ul6yj"]
+script = ExtResource("3_vf3mk")
+level = 49
+move = 398
+
+[sub_resource type="Resource" id="Resource_bdjf6"]
+script = ExtResource("3_vf3mk")
+level = 56
+move = 92
+
+[resource]
+script = ExtResource("4_pwj7a")
+id = 748
+display_name = "Toxapex"
+category = "Brutal Star"
+national_dex = 748
+pokedex = "Those attacked by Toxapex's poison will
+suffer intense pain for three days and
+three nights. Post-recovery, there will be
+some aftereffects."
+type_1 = 4
+type_2 = 12
+base_hp = 50
+base_atk = 63
+base_def = 152
+base_spa = 53
+base_spd = 142
+base_spe = 35
+ev_def = 2
+catch_rate = 75
+base_exp = 173
+egg_group_1 = 2
+ability_1 = 196
+ability_2 = 7
+ability_hidden = 144
+item_rare = 432
+height_dm = 7
+weight_hg = 145
+body_color = 1
+level_moves = Array[ExtResource("3_vf3mk")]([SubResource("Resource_52o4c"), SubResource("Resource_x4gg3"), SubResource("Resource_46eu1"), SubResource("Resource_fmad5"), SubResource("Resource_2kgll"), SubResource("Resource_ri7lb"), SubResource("Resource_gh2lq"), SubResource("Resource_a5jmc"), SubResource("Resource_4ru6d"), SubResource("Resource_n028t"), SubResource("Resource_0vvwd"), SubResource("Resource_ul6yj"), SubResource("Resource_bdjf6")])

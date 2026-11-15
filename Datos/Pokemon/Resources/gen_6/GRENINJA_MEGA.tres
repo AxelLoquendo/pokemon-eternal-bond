@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ce4lltacygefw"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ykvb8"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8in65"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fr25l"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t2a6w"]
+
+[sub_resource type="Resource" id="Resource_v8aev"]
+script = ExtResource("3_fr25l")
+level = 0
+move = 594
+
+[sub_resource type="Resource" id="Resource_k6x67"]
+script = ExtResource("3_fr25l")
+move = 400
+
+[sub_resource type="Resource" id="Resource_qbm2h"]
+script = ExtResource("3_fr25l")
+move = 272
+
+[sub_resource type="Resource" id="Resource_lc6ko"]
+script = ExtResource("3_fr25l")
+move = 114
+
+[sub_resource type="Resource" id="Resource_4vogn"]
+script = ExtResource("3_fr25l")
+move = 1
+
+[sub_resource type="Resource" id="Resource_d36xi"]
+script = ExtResource("3_fr25l")
+move = 55
+
+[sub_resource type="Resource" id="Resource_ah3th"]
+script = ExtResource("3_fr25l")
+move = 45
+
+[sub_resource type="Resource" id="Resource_pqlqw"]
+script = ExtResource("3_fr25l")
+move = 98
+
+[sub_resource type="Resource" id="Resource_d1x7r"]
+script = ExtResource("3_fr25l")
+level = 10
+move = 122
+
+[sub_resource type="Resource" id="Resource_xt86u"]
+script = ExtResource("3_fr25l")
+level = 14
+move = 352
+
+[sub_resource type="Resource" id="Resource_a67yh"]
+script = ExtResource("3_fr25l")
+level = 19
+move = 108
+
+[sub_resource type="Resource" id="Resource_cllca"]
+script = ExtResource("3_fr25l")
+level = 23
+move = 425
+
+[sub_resource type="Resource" id="Resource_xkuwu"]
+script = ExtResource("3_fr25l")
+level = 28
+move = 191
+
+[sub_resource type="Resource" id="Resource_if70n"]
+script = ExtResource("3_fr25l")
+level = 33
+move = 332
+
+[sub_resource type="Resource" id="Resource_kjhio"]
+script = ExtResource("3_fr25l")
+level = 42
+move = 164
+
+[sub_resource type="Resource" id="Resource_a54jx"]
+script = ExtResource("3_fr25l")
+level = 49
+move = 326
+
+[sub_resource type="Resource" id="Resource_h21o5"]
+script = ExtResource("3_fr25l")
+level = 56
+move = 104
+
+[sub_resource type="Resource" id="Resource_g4ov6"]
+script = ExtResource("3_fr25l")
+level = 68
+move = 56
+
+[resource]
+script = ExtResource("4_t2a6w")
+id = 1540
+display_name = "Greninja"
+category = "Ninja"
+national_dex = 658
+pokedex = "This Pokémon spins a giant
+shuriken at high speed to make it
+float, then clings to it upside
+down to catch opponents unawares."
+type_1 = 12
+type_2 = 18
+base_hp = 72
+base_atk = 125
+base_def = 77
+base_spa = 133
+base_spd = 81
+base_spe = 142
+ev_spe = 3
+base_exp = 265
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 2
+ability_1 = 168
+ability_2 = 168
+ability_hidden = 168
+height_dm = 15
+weight_hg = 400
+body_color = 4
+no_flip = true
+level_moves = Array[ExtResource("3_fr25l")]([SubResource("Resource_v8aev"), SubResource("Resource_k6x67"), SubResource("Resource_qbm2h"), SubResource("Resource_lc6ko"), SubResource("Resource_4vogn"), SubResource("Resource_d36xi"), SubResource("Resource_ah3th"), SubResource("Resource_pqlqw"), SubResource("Resource_d1x7r"), SubResource("Resource_xt86u"), SubResource("Resource_a67yh"), SubResource("Resource_cllca"), SubResource("Resource_xkuwu"), SubResource("Resource_if70n"), SubResource("Resource_kjhio"), SubResource("Resource_a54jx"), SubResource("Resource_h21o5"), SubResource("Resource_g4ov6")])
+form_species = Array[int]([658, 1112, 1113, 1540])

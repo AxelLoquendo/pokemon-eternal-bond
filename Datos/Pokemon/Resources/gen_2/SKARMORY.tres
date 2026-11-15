@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://rhgqyhru5rv4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_vqysx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_xm78n"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dogcv"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bg8bn"]
+
+[sub_resource type="Resource" id="Resource_8yt8g"]
+script = ExtResource("3_dogcv")
+move = 43
+
+[sub_resource type="Resource" id="Resource_68m3b"]
+script = ExtResource("3_dogcv")
+move = 64
+
+[sub_resource type="Resource" id="Resource_kp3pi"]
+script = ExtResource("3_dogcv")
+level = 4
+move = 28
+
+[sub_resource type="Resource" id="Resource_fc4cc"]
+script = ExtResource("3_dogcv")
+level = 8
+move = 31
+
+[sub_resource type="Resource" id="Resource_xrmb5"]
+script = ExtResource("3_dogcv")
+level = 12
+move = 232
+
+[sub_resource type="Resource" id="Resource_66g2x"]
+script = ExtResource("3_dogcv")
+level = 16
+move = 97
+
+[sub_resource type="Resource" id="Resource_2uksx"]
+script = ExtResource("3_dogcv")
+level = 20
+move = 17
+
+[sub_resource type="Resource" id="Resource_og3ld"]
+script = ExtResource("3_dogcv")
+level = 24
+move = 163
+
+[sub_resource type="Resource" id="Resource_tfnx2"]
+script = ExtResource("3_dogcv")
+level = 28
+move = 211
+
+[sub_resource type="Resource" id="Resource_qddff"]
+script = ExtResource("3_dogcv")
+level = 32
+move = 371
+
+[sub_resource type="Resource" id="Resource_owh3b"]
+script = ExtResource("3_dogcv")
+level = 36
+move = 65
+
+[sub_resource type="Resource" id="Resource_4itom"]
+script = ExtResource("3_dogcv")
+level = 40
+move = 319
+
+[sub_resource type="Resource" id="Resource_3ponu"]
+script = ExtResource("3_dogcv")
+level = 44
+move = 191
+
+[sub_resource type="Resource" id="Resource_u2ec5"]
+script = ExtResource("3_dogcv")
+level = 48
+move = 334
+
+[sub_resource type="Resource" id="Resource_ahhfc"]
+script = ExtResource("3_dogcv")
+level = 52
+move = 413
+
+[resource]
+script = ExtResource("4_bg8bn")
+id = 227
+display_name = "Skarmory"
+category = "Armor Bird"
+national_dex = 227
+pokedex = "A Pokémon that has a body and wings of
+steel. People in the past used feathers
+fallen from Skarmory to make swords and
+knives."
+type_1 = 9
+type_2 = 3
+base_hp = 65
+base_atk = 80
+base_def = 140
+base_spa = 40
+base_spd = 70
+base_spe = 70
+ev_def = 2
+catch_rate = 25
+base_exp = 163
+growth_rate = 5
+egg_cycles = 25
+egg_group_1 = 4
+ability_1 = 51
+ability_2 = 5
+ability_hidden = 133
+item_rare = 441
+height_dm = 17
+weight_hg = 505
+body_color = 7
+level_moves = Array[ExtResource("3_dogcv")]([SubResource("Resource_8yt8g"), SubResource("Resource_68m3b"), SubResource("Resource_kp3pi"), SubResource("Resource_fc4cc"), SubResource("Resource_xrmb5"), SubResource("Resource_66g2x"), SubResource("Resource_2uksx"), SubResource("Resource_og3ld"), SubResource("Resource_tfnx2"), SubResource("Resource_qddff"), SubResource("Resource_owh3b"), SubResource("Resource_4itom"), SubResource("Resource_3ponu"), SubResource("Resource_u2ec5"), SubResource("Resource_ahhfc")])
+egg_moves = Array[int]([65, 228, 18, 143, 174, 413, 372, 385, 446, 203])
+form_species = Array[int]([227, 1530])

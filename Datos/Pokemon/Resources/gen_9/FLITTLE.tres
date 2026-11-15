@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cq7jyy53ig3s0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7hshk"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ulbvs"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7867y"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5g2ys"]
+
+[sub_resource type="Resource" id="Resource_gs5cg"]
+script = ExtResource("1_7hshk")
+method = "LEVEL"
+param = "35"
+target = 1344
+
+[sub_resource type="Resource" id="Resource_77j6u"]
+script = ExtResource("3_7867y")
+move = 45
+
+[sub_resource type="Resource" id="Resource_fv8ew"]
+script = ExtResource("3_7867y")
+move = 64
+
+[sub_resource type="Resource" id="Resource_np6rs"]
+script = ExtResource("3_7867y")
+level = 5
+move = 93
+
+[sub_resource type="Resource" id="Resource_frgra"]
+script = ExtResource("3_7867y")
+level = 8
+move = 608
+
+[sub_resource type="Resource" id="Resource_qtmkw"]
+script = ExtResource("3_7867y")
+level = 11
+move = 574
+
+[sub_resource type="Resource" id="Resource_jfb7o"]
+script = ExtResource("3_7867y")
+level = 15
+move = 98
+
+[sub_resource type="Resource" id="Resource_ebimy"]
+script = ExtResource("3_7867y")
+level = 19
+move = 60
+
+[sub_resource type="Resource" id="Resource_s2esl"]
+script = ExtResource("3_7867y")
+level = 24
+move = 365
+
+[sub_resource type="Resource" id="Resource_6adq1"]
+script = ExtResource("3_7867y")
+level = 29
+move = 97
+
+[sub_resource type="Resource" id="Resource_ah1so"]
+script = ExtResource("3_7867y")
+level = 34
+move = 253
+
+[resource]
+script = ExtResource("4_5g2ys")
+id = 1343
+display_name = "Flittle"
+category = "Frill"
+national_dex = 955
+pokedex = "Flittle's toes levitate about half
+an inch above the ground because of
+the psychic power emitted from the
+frills on the Pokémon's belly."
+type_1 = 15
+base_hp = 30
+base_atk = 35
+base_def = 30
+base_spa = 55
+base_spd = 30
+base_spe = 75
+ev_spe = 1
+catch_rate = 120
+base_exp = 51
+growth_rate = 3
+egg_group_1 = 4
+ability_1 = 107
+ability_2 = 119
+ability_hidden = 3
+height_dm = 2
+weight_hg = 15
+body_color = 2
+level_moves = Array[ExtResource("3_7867y")]([SubResource("Resource_77j6u"), SubResource("Resource_fv8ew"), SubResource("Resource_np6rs"), SubResource("Resource_frgra"), SubResource("Resource_qtmkw"), SubResource("Resource_jfb7o"), SubResource("Resource_ebimy"), SubResource("Resource_s2esl"), SubResource("Resource_6adq1"), SubResource("Resource_ah1so")])
+egg_moves = Array[int]([502, 95, 355])
+evolutions = Array[ExtResource("1_7hshk")]([SubResource("Resource_gs5cg")])

@@ -1,0 +1,122 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bpiexwbaywa3y"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_uobi3"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_8iwwc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_se6vb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cl4c1"]
+
+[sub_resource type="Resource" id="Resource_n7fos"]
+script = ExtResource("3_se6vb")
+move = 84
+
+[sub_resource type="Resource" id="Resource_cwylb"]
+script = ExtResource("3_se6vb")
+move = 310
+
+[sub_resource type="Resource" id="Resource_gcupa"]
+script = ExtResource("3_se6vb")
+level = 5
+move = 43
+
+[sub_resource type="Resource" id="Resource_tk4iu"]
+script = ExtResource("3_se6vb")
+level = 10
+move = 207
+
+[sub_resource type="Resource" id="Resource_ihsmj"]
+script = ExtResource("3_se6vb")
+level = 15
+move = 44
+
+[sub_resource type="Resource" id="Resource_xuivm"]
+script = ExtResource("3_se6vb")
+level = 20
+move = 351
+
+[sub_resource type="Resource" id="Resource_551th"]
+script = ExtResource("3_se6vb")
+level = 25
+move = 97
+
+[sub_resource type="Resource" id="Resource_ufghv"]
+script = ExtResource("3_se6vb")
+level = 30
+move = 268
+
+[sub_resource type="Resource" id="Resource_t04sw"]
+script = ExtResource("3_se6vb")
+level = 35
+move = 521
+
+[sub_resource type="Resource" id="Resource_d3mra"]
+script = ExtResource("3_se6vb")
+level = 40
+move = 242
+
+[sub_resource type="Resource" id="Resource_1adoi"]
+script = ExtResource("3_se6vb")
+level = 45
+move = 435
+
+[sub_resource type="Resource" id="Resource_75s4r"]
+script = ExtResource("3_se6vb")
+level = 50
+move = 253
+
+[sub_resource type="Resource" id="Resource_50dqu"]
+script = ExtResource("3_se6vb")
+level = 55
+move = 359
+
+[sub_resource type="Resource" id="Resource_k3ans"]
+script = ExtResource("3_se6vb")
+level = 60
+move = 240
+
+[sub_resource type="Resource" id="Resource_8fih8"]
+script = ExtResource("3_se6vb")
+level = 65
+move = 87
+
+[sub_resource type="Resource" id="Resource_f8a8f"]
+script = ExtResource("3_se6vb")
+level = 70
+move = 37
+
+[sub_resource type="Resource" id="Resource_gtrst"]
+script = ExtResource("3_se6vb")
+level = 75
+move = 775
+
+[resource]
+script = ExtResource("4_cl4c1")
+id = 1101
+display_name = "Thundurus"
+category = "Bolt Strike"
+national_dex = 642
+pokedex = "It pulverizes foes into nothingness
+with showers of devastatingly
+powerful lightning bolts launched
+from the string of orbs on its tail."
+type_1 = 14
+type_2 = 3
+base_hp = 79
+base_atk = 105
+base_def = 70
+base_spa = 145
+base_spd = 80
+base_spe = 101
+ev_spa = 3
+catch_rate = 3
+base_exp = 290
+base_friendship = 90
+gender_ratio = 0
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 10
+ability_hidden = 10
+height_dm = 30
+weight_hg = 610
+body_color = 1
+level_moves = Array[ExtResource("3_se6vb")]([SubResource("Resource_n7fos"), SubResource("Resource_cwylb"), SubResource("Resource_gcupa"), SubResource("Resource_tk4iu"), SubResource("Resource_ihsmj"), SubResource("Resource_xuivm"), SubResource("Resource_551th"), SubResource("Resource_ufghv"), SubResource("Resource_t04sw"), SubResource("Resource_d3mra"), SubResource("Resource_1adoi"), SubResource("Resource_75s4r"), SubResource("Resource_50dqu"), SubResource("Resource_k3ans"), SubResource("Resource_8fih8"), SubResource("Resource_f8a8f"), SubResource("Resource_gtrst")])
+form_species = Array[int]([642, 1101])

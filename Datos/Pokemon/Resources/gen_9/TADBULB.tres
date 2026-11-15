@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bbnbjopiujwat"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_t0igg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_vp55f"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8hti2"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dm0kr"]
+
+[sub_resource type="Resource" id="Resource_n4nee"]
+script = ExtResource("1_t0igg")
+method = "ITEM"
+param = "ITEM_THUNDER_STONE"
+target = 1327
+
+[sub_resource type="Resource" id="Resource_ub18l"]
+script = ExtResource("3_8hti2")
+move = 33
+
+[sub_resource type="Resource" id="Resource_1yrjp"]
+script = ExtResource("3_8hti2")
+move = 189
+
+[sub_resource type="Resource" id="Resource_7lhkd"]
+script = ExtResource("3_8hti2")
+level = 7
+move = 84
+
+[sub_resource type="Resource" id="Resource_7d65f"]
+script = ExtResource("3_8hti2")
+level = 11
+move = 55
+
+[sub_resource type="Resource" id="Resource_tj7h2"]
+script = ExtResource("3_8hti2")
+level = 17
+move = 268
+
+[sub_resource type="Resource" id="Resource_ldk6u"]
+script = ExtResource("3_8hti2")
+level = 21
+move = 209
+
+[sub_resource type="Resource" id="Resource_nhqm2"]
+script = ExtResource("3_8hti2")
+level = 24
+move = 341
+
+[sub_resource type="Resource" id="Resource_fi2d1"]
+script = ExtResource("3_8hti2")
+level = 25
+move = 175
+
+[sub_resource type="Resource" id="Resource_i6uqs"]
+script = ExtResource("3_8hti2")
+level = 32
+move = 435
+
+[sub_resource type="Resource" id="Resource_pxmhf"]
+script = ExtResource("3_8hti2")
+level = 36
+move = 311
+
+[sub_resource type="Resource" id="Resource_p65ua"]
+script = ExtResource("3_8hti2")
+level = 40
+move = 604
+
+[sub_resource type="Resource" id="Resource_gmphl"]
+script = ExtResource("3_8hti2")
+level = 45
+move = 389
+
+[sub_resource type="Resource" id="Resource_4vv55"]
+script = ExtResource("3_8hti2")
+level = 50
+move = 192
+
+[resource]
+script = ExtResource("4_dm0kr")
+id = 1326
+display_name = "Tadbulb"
+category = "EleTadpole"
+national_dex = 938
+pokedex = "Tadbulb shakes its tail to
+generate electricity. If it senses danger,
+it will make its head blink on and off
+to alert its allies."
+type_1 = 14
+base_hp = 61
+base_atk = 31
+base_def = 41
+base_spa = 59
+base_spd = 35
+base_spe = 45
+ev_hp = 1
+catch_rate = 190
+base_exp = 54
+egg_group_1 = 2
+ability_1 = 20
+ability_2 = 9
+ability_hidden = 6
+height_dm = 3
+weight_hg = 4
+body_color = 2
+level_moves = Array[ExtResource("3_8hti2")]([SubResource("Resource_ub18l"), SubResource("Resource_1yrjp"), SubResource("Resource_7lhkd"), SubResource("Resource_7d65f"), SubResource("Resource_tj7h2"), SubResource("Resource_ldk6u"), SubResource("Resource_nhqm2"), SubResource("Resource_fi2d1"), SubResource("Resource_i6uqs"), SubResource("Resource_pxmhf"), SubResource("Resource_p65ua"), SubResource("Resource_gmphl"), SubResource("Resource_4vv55")])
+egg_moves = Array[int]([330, 570, 487])
+evolutions = Array[ExtResource("1_t0igg")]([SubResource("Resource_n4nee")])

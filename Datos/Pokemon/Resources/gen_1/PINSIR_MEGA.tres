@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b5g83clvpau5a"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_yenwm"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_iry18"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yry45"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ol2rq"]
+
+[sub_resource type="Resource" id="Resource_4nnhr"]
+script = ExtResource("3_yry45")
+move = 11
+
+[sub_resource type="Resource" id="Resource_yfmss"]
+script = ExtResource("3_yry45")
+move = 106
+
+[sub_resource type="Resource" id="Resource_dsx1g"]
+script = ExtResource("3_yry45")
+level = 4
+move = 116
+
+[sub_resource type="Resource" id="Resource_gc3m7"]
+script = ExtResource("3_yry45")
+level = 8
+move = 20
+
+[sub_resource type="Resource" id="Resource_gyr7p"]
+script = ExtResource("3_yry45")
+level = 12
+move = 69
+
+[sub_resource type="Resource" id="Resource_fksdx"]
+script = ExtResource("3_yry45")
+level = 16
+move = 450
+
+[sub_resource type="Resource" id="Resource_hksat"]
+script = ExtResource("3_yry45")
+level = 20
+move = 480
+
+[sub_resource type="Resource" id="Resource_5wsa8"]
+script = ExtResource("3_yry45")
+level = 24
+move = 458
+
+[sub_resource type="Resource" id="Resource_wvlsj"]
+script = ExtResource("3_yry45")
+level = 28
+move = 233
+
+[sub_resource type="Resource" id="Resource_70uxd"]
+script = ExtResource("3_yry45")
+level = 32
+move = 404
+
+[sub_resource type="Resource" id="Resource_80prv"]
+script = ExtResource("3_yry45")
+level = 36
+move = 70
+
+[sub_resource type="Resource" id="Resource_i1hp0"]
+script = ExtResource("3_yry45")
+level = 40
+move = 14
+
+[sub_resource type="Resource" id="Resource_xs6dm"]
+script = ExtResource("3_yry45")
+level = 44
+move = 66
+
+[sub_resource type="Resource" id="Resource_6awg7"]
+script = ExtResource("3_yry45")
+level = 48
+move = 12
+
+[sub_resource type="Resource" id="Resource_3suef"]
+script = ExtResource("3_yry45")
+level = 52
+move = 276
+
+[resource]
+script = ExtResource("4_ol2rq")
+id = 916
+display_name = "Pinsir"
+category = "Stag Beetle"
+national_dex = 127
+pokedex = "The influence of Mega Evolution leaves it
+in a state of constant excitement.
+It pierces enemies with its two large
+horns before shredding them."
+type_1 = 7
+type_2 = 3
+base_hp = 65
+base_atk = 155
+base_def = 120
+base_spa = 65
+base_spd = 90
+base_spe = 105
+ev_atk = 2
+base_exp = 210
+growth_rate = 5
+egg_cycles = 25
+egg_group_1 = 3
+ability_1 = 184
+ability_2 = 184
+ability_hidden = 184
+height_dm = 17
+weight_hg = 590
+body_color = 5
+level_moves = Array[ExtResource("3_yry45")]([SubResource("Resource_4nnhr"), SubResource("Resource_yfmss"), SubResource("Resource_dsx1g"), SubResource("Resource_gc3m7"), SubResource("Resource_gyr7p"), SubResource("Resource_fksdx"), SubResource("Resource_hksat"), SubResource("Resource_5wsa8"), SubResource("Resource_wvlsj"), SubResource("Resource_70uxd"), SubResource("Resource_80prv"), SubResource("Resource_i1hp0"), SubResource("Resource_xs6dm"), SubResource("Resource_6awg7"), SubResource("Resource_3suef")])
+egg_moves = Array[int]([31, 175, 185, 98, 370, 364, 382, 450, 276])
+form_species = Array[int]([127, 916])

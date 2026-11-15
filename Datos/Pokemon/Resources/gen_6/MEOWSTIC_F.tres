@@ -1,0 +1,127 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c17rf4xdfmr6t"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_m0g1y"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yj7xx"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xwhkr"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_u6571"]
+
+[sub_resource type="Resource" id="Resource_gi0ag"]
+script = ExtResource("3_xwhkr")
+move = 345
+
+[sub_resource type="Resource" id="Resource_irrap"]
+script = ExtResource("3_xwhkr")
+move = 574
+
+[sub_resource type="Resource" id="Resource_b3yb0"]
+script = ExtResource("3_xwhkr")
+move = 252
+
+[sub_resource type="Resource" id="Resource_2q0tg"]
+script = ExtResource("3_xwhkr")
+move = 43
+
+[sub_resource type="Resource" id="Resource_2ayct"]
+script = ExtResource("3_xwhkr")
+move = 10
+
+[sub_resource type="Resource" id="Resource_g0irb"]
+script = ExtResource("3_xwhkr")
+level = 9
+move = 93
+
+[sub_resource type="Resource" id="Resource_7c6x2"]
+script = ExtResource("3_xwhkr")
+level = 12
+move = 500
+
+[sub_resource type="Resource" id="Resource_lmem2"]
+script = ExtResource("3_xwhkr")
+level = 15
+move = 451
+
+[sub_resource type="Resource" id="Resource_kueei"]
+script = ExtResource("3_xwhkr")
+level = 18
+move = 343
+
+[sub_resource type="Resource" id="Resource_6l8bs"]
+script = ExtResource("3_xwhkr")
+level = 21
+move = 60
+
+[sub_resource type="Resource" id="Resource_tclx8"]
+script = ExtResource("3_xwhkr")
+level = 24
+move = 389
+
+[sub_resource type="Resource" id="Resource_upcht"]
+script = ExtResource("3_xwhkr")
+level = 29
+move = 272
+
+[sub_resource type="Resource" id="Resource_1a4cd"]
+script = ExtResource("3_xwhkr")
+level = 34
+move = 113
+
+[sub_resource type="Resource" id="Resource_owsqf"]
+script = ExtResource("3_xwhkr")
+level = 34
+move = 115
+
+[sub_resource type="Resource" id="Resource_gc8lw"]
+script = ExtResource("3_xwhkr")
+level = 39
+move = 473
+
+[sub_resource type="Resource" id="Resource_vk3f8"]
+script = ExtResource("3_xwhkr")
+level = 44
+move = 326
+
+[sub_resource type="Resource" id="Resource_jka65"]
+script = ExtResource("3_xwhkr")
+level = 49
+move = 247
+
+[sub_resource type="Resource" id="Resource_bdbwu"]
+script = ExtResource("3_xwhkr")
+level = 54
+move = 94
+
+[sub_resource type="Resource" id="Resource_ygjoa"]
+script = ExtResource("3_xwhkr")
+level = 59
+move = 248
+
+[resource]
+script = ExtResource("4_u6571")
+id = 1155
+display_name = "Meowstic"
+category = "Constraint"
+national_dex = 678
+pokedex = "Females are a bit more selfish and
+aggressive than males. If they
+don't get what they want, they will
+torment you with their psychic abilities."
+type_1 = 15
+base_hp = 74
+base_atk = 48
+base_def = 76
+base_spa = 83
+base_spd = 81
+base_spe = 104
+ev_spe = 2
+catch_rate = 75
+base_exp = 163
+gender_ratio = 254
+egg_group_1 = 5
+ability_1 = 51
+ability_2 = 151
+ability_hidden = 172
+height_dm = 6
+weight_hg = 85
+body_color = 8
+level_moves = Array[ExtResource("3_xwhkr")]([SubResource("Resource_gi0ag"), SubResource("Resource_irrap"), SubResource("Resource_b3yb0"), SubResource("Resource_2q0tg"), SubResource("Resource_2ayct"), SubResource("Resource_g0irb"), SubResource("Resource_7c6x2"), SubResource("Resource_lmem2"), SubResource("Resource_kueei"), SubResource("Resource_6l8bs"), SubResource("Resource_tclx8"), SubResource("Resource_upcht"), SubResource("Resource_1a4cd"), SubResource("Resource_owsqf"), SubResource("Resource_gc8lw"), SubResource("Resource_vk3f8"), SubResource("Resource_jka65"), SubResource("Resource_bdbwu"), SubResource("Resource_ygjoa")])
+form_species = Array[int]([678, 1155, 1561, 1562])

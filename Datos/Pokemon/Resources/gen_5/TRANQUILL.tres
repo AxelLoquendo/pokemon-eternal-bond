@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://drbgaqd4mmhii"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_nnwmo"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1smxr"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cyy4e"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ykh1v"]
+
+[sub_resource type="Resource" id="Resource_m0ivj"]
+script = ExtResource("1_nnwmo")
+method = "LEVEL"
+param = "32"
+target = 521
+
+[sub_resource type="Resource" id="Resource_ppitm"]
+script = ExtResource("3_cyy4e")
+move = 16
+
+[sub_resource type="Resource" id="Resource_cd4cc"]
+script = ExtResource("3_cyy4e")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ibq1e"]
+script = ExtResource("3_cyy4e")
+move = 43
+
+[sub_resource type="Resource" id="Resource_e1c6y"]
+script = ExtResource("3_cyy4e")
+move = 98
+
+[sub_resource type="Resource" id="Resource_dyrg1"]
+script = ExtResource("3_cyy4e")
+level = 12
+move = 269
+
+[sub_resource type="Resource" id="Resource_loqjn"]
+script = ExtResource("3_cyy4e")
+level = 16
+move = 314
+
+[sub_resource type="Resource" id="Resource_x81gx"]
+script = ExtResource("3_cyy4e")
+level = 20
+move = 207
+
+[sub_resource type="Resource" id="Resource_04ukj"]
+script = ExtResource("3_cyy4e")
+level = 26
+move = 297
+
+[sub_resource type="Resource" id="Resource_3cywc"]
+script = ExtResource("3_cyy4e")
+level = 34
+move = 197
+
+[sub_resource type="Resource" id="Resource_163ef"]
+script = ExtResource("3_cyy4e")
+level = 38
+move = 403
+
+[sub_resource type="Resource" id="Resource_iuk00"]
+script = ExtResource("3_cyy4e")
+level = 44
+move = 355
+
+[sub_resource type="Resource" id="Resource_h178i"]
+script = ExtResource("3_cyy4e")
+level = 50
+move = 366
+
+[sub_resource type="Resource" id="Resource_7le0m"]
+script = ExtResource("3_cyy4e")
+level = 56
+move = 143
+
+[resource]
+script = ExtResource("4_ykh1v")
+id = 520
+display_name = "Tranquill"
+category = "Wild Pigeon"
+national_dex = 520
+pokedex = "No matter where in the world it goes,
+it knows where its nest is, so it can
+always return to its Trainer's location
+regardless of the distance."
+type_1 = 1
+type_2 = 3
+base_hp = 62
+base_atk = 77
+base_def = 62
+base_spa = 50
+base_spd = 42
+base_spe = 65
+ev_atk = 2
+catch_rate = 120
+base_exp = 125
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 145
+ability_2 = 105
+ability_hidden = 79
+height_dm = 6
+weight_hg = 150
+body_color = 7
+level_moves = Array[ExtResource("3_cyy4e")]([SubResource("Resource_ppitm"), SubResource("Resource_cd4cc"), SubResource("Resource_ibq1e"), SubResource("Resource_e1c6y"), SubResource("Resource_dyrg1"), SubResource("Resource_loqjn"), SubResource("Resource_x81gx"), SubResource("Resource_04ukj"), SubResource("Resource_3cywc"), SubResource("Resource_163ef"), SubResource("Resource_iuk00"), SubResource("Resource_h178i"), SubResource("Resource_7le0m")])
+evolutions = Array[ExtResource("1_nnwmo")]([SubResource("Resource_m0ivj")])

@@ -1,0 +1,93 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c11yc3m0b8i0e"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ts63f"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_j8g3f"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0rgvw"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_17a8u"]
+
+[sub_resource type="Resource" id="Resource_mhh1s"]
+script = ExtResource("3_0rgvw")
+move = 50
+
+[sub_resource type="Resource" id="Resource_dtl7t"]
+script = ExtResource("3_0rgvw")
+level = 11
+move = 98
+
+[sub_resource type="Resource" id="Resource_n35c3"]
+script = ExtResource("3_0rgvw")
+level = 20
+move = 95
+
+[sub_resource type="Resource" id="Resource_j7a0i"]
+script = ExtResource("3_0rgvw")
+level = 29
+move = 389
+
+[sub_resource type="Resource" id="Resource_2efwx"]
+script = ExtResource("3_0rgvw")
+level = 38
+move = 101
+
+[sub_resource type="Resource" id="Resource_0y1f0"]
+script = ExtResource("3_0rgvw")
+level = 47
+move = 104
+
+[sub_resource type="Resource" id="Resource_632kx"]
+script = ExtResource("3_0rgvw")
+level = 57
+move = 114
+
+[sub_resource type="Resource" id="Resource_r23th"]
+script = ExtResource("3_0rgvw")
+level = 66
+move = 464
+
+[sub_resource type="Resource" id="Resource_8aitl"]
+script = ExtResource("3_0rgvw")
+level = 75
+move = 417
+
+[sub_resource type="Resource" id="Resource_y62ak"]
+script = ExtResource("3_0rgvw")
+level = 84
+move = 138
+
+[sub_resource type="Resource" id="Resource_ubbpu"]
+script = ExtResource("3_0rgvw")
+level = 93
+move = 399
+
+[resource]
+script = ExtResource("4_17a8u")
+id = 491
+display_name = "Darkrai"
+category = "Pitch-Black"
+national_dex = 491
+pokedex = "It chases people and Pokémon from its
+territory by causing them to experience
+deep, nightmarish slumbers. However,
+it means no harm."
+type_1 = 18
+base_hp = 70
+base_atk = 90
+base_def = 90
+base_spa = 135
+base_spd = 90
+base_spe = 125
+ev_spa = 2
+ev_spe = 1
+catch_rate = 3
+base_exp = 210
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 123
+height_dm = 15
+weight_hg = 505
+body_color = 4
+no_flip = true
+level_moves = Array[ExtResource("3_0rgvw")]([SubResource("Resource_mhh1s"), SubResource("Resource_dtl7t"), SubResource("Resource_n35c3"), SubResource("Resource_j7a0i"), SubResource("Resource_2efwx"), SubResource("Resource_0y1f0"), SubResource("Resource_632kx"), SubResource("Resource_r23th"), SubResource("Resource_8aitl"), SubResource("Resource_y62ak"), SubResource("Resource_ubbpu")])
+form_species = Array[int]([491, 1551])

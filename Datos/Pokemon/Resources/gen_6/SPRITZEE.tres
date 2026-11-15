@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bilmgxtj5w32h"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_23c0g"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_srecn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_53dxy"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fdpt8"]
+
+[sub_resource type="Resource" id="Resource_bkvuq"]
+script = ExtResource("1_23c0g")
+method = "ITEM"
+param = "ITEM_SACHET"
+target = 683
+
+[sub_resource type="Resource" id="Resource_orhag"]
+script = ExtResource("3_53dxy")
+move = 584
+
+[sub_resource type="Resource" id="Resource_rxfmu"]
+script = ExtResource("3_53dxy")
+move = 230
+
+[sub_resource type="Resource" id="Resource_iyrwa"]
+script = ExtResource("3_53dxy")
+level = 3
+move = 186
+
+[sub_resource type="Resource" id="Resource_emakv"]
+script = ExtResource("3_53dxy")
+level = 6
+move = 497
+
+[sub_resource type="Resource" id="Resource_lgsef"]
+script = ExtResource("3_53dxy")
+level = 12
+move = 577
+
+[sub_resource type="Resource" id="Resource_3t11x"]
+script = ExtResource("3_53dxy")
+level = 12
+move = 312
+
+[sub_resource type="Resource" id="Resource_odhkl"]
+script = ExtResource("3_53dxy")
+level = 18
+move = 213
+
+[sub_resource type="Resource" id="Resource_l50x8"]
+script = ExtResource("3_53dxy")
+level = 21
+move = 175
+
+[sub_resource type="Resource" id="Resource_53d28"]
+script = ExtResource("3_53dxy")
+level = 24
+move = 581
+
+[sub_resource type="Resource" id="Resource_2vjbx"]
+script = ExtResource("3_53dxy")
+level = 27
+move = 94
+
+[sub_resource type="Resource" id="Resource_7aqfr"]
+script = ExtResource("3_53dxy")
+level = 30
+move = 204
+
+[sub_resource type="Resource" id="Resource_ipjee"]
+script = ExtResource("3_53dxy")
+level = 33
+move = 347
+
+[sub_resource type="Resource" id="Resource_hdhm6"]
+script = ExtResource("3_53dxy")
+level = 36
+move = 585
+
+[sub_resource type="Resource" id="Resource_nhk0p"]
+script = ExtResource("3_53dxy")
+level = 39
+move = 285
+
+[resource]
+script = ExtResource("4_fdpt8")
+id = 682
+display_name = "Spritzee"
+category = "Perfume"
+national_dex = 682
+pokedex = "In the past, rather than using perfume,
+royal ladies carried a Spritzee that would
+waft a fragrance they liked. Its fragrance
+changes depending on what it has eaten."
+type_1 = 19
+base_hp = 78
+base_atk = 52
+base_def = 60
+base_spa = 63
+base_spd = 65
+base_spe = 23
+ev_hp = 1
+catch_rate = 200
+base_exp = 68
+egg_group_1 = 6
+ability_1 = 131
+ability_hidden = 165
+height_dm = 2
+weight_hg = 5
+body_color = 9
+level_moves = Array[ExtResource("3_53dxy")]([SubResource("Resource_orhag"), SubResource("Resource_rxfmu"), SubResource("Resource_iyrwa"), SubResource("Resource_emakv"), SubResource("Resource_lgsef"), SubResource("Resource_3t11x"), SubResource("Resource_odhkl"), SubResource("Resource_l50x8"), SubResource("Resource_53d28"), SubResource("Resource_2vjbx"), SubResource("Resource_7aqfr"), SubResource("Resource_ipjee"), SubResource("Resource_hdhm6"), SubResource("Resource_nhk0p")])
+egg_moves = Array[int]([50, 273, 445, 287, 417])
+evolutions = Array[ExtResource("1_23c0g")]([SubResource("Resource_bkvuq")])

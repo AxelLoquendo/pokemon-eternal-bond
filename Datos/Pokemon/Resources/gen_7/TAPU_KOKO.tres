@@ -1,0 +1,120 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1fjdjri265vm"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_bqcrc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_xbyxd"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_65mi1"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_btfgn"]
+
+[sub_resource type="Resource" id="Resource_tjo0j"]
+script = ExtResource("3_65mi1")
+move = 98
+
+[sub_resource type="Resource" id="Resource_x0614"]
+script = ExtResource("3_65mi1")
+move = 84
+
+[sub_resource type="Resource" id="Resource_ks18l"]
+script = ExtResource("3_65mi1")
+level = 5
+move = 110
+
+[sub_resource type="Resource" id="Resource_a3lv6"]
+script = ExtResource("3_65mi1")
+level = 10
+move = 584
+
+[sub_resource type="Resource" id="Resource_w1koo"]
+script = ExtResource("3_65mi1")
+level = 15
+move = 206
+
+[sub_resource type="Resource" id="Resource_r5ev8"]
+script = ExtResource("3_65mi1")
+level = 20
+move = 209
+
+[sub_resource type="Resource" id="Resource_ho46l"]
+script = ExtResource("3_65mi1")
+level = 25
+move = 351
+
+[sub_resource type="Resource" id="Resource_gv12t"]
+script = ExtResource("3_65mi1")
+level = 30
+move = 268
+
+[sub_resource type="Resource" id="Resource_1oedn"]
+script = ExtResource("3_65mi1")
+level = 35
+move = 97
+
+[sub_resource type="Resource" id="Resource_lglvr"]
+script = ExtResource("3_65mi1")
+level = 40
+move = 103
+
+[sub_resource type="Resource" id="Resource_fkyvj"]
+script = ExtResource("3_65mi1")
+level = 45
+move = 435
+
+[sub_resource type="Resource" id="Resource_8kdaa"]
+script = ExtResource("3_65mi1")
+level = 50
+move = 212
+
+[sub_resource type="Resource" id="Resource_ca4pj"]
+script = ExtResource("3_65mi1")
+level = 55
+move = 671
+
+[sub_resource type="Resource" id="Resource_b5scu"]
+script = ExtResource("3_65mi1")
+level = 60
+move = 528
+
+[sub_resource type="Resource" id="Resource_2mjv5"]
+script = ExtResource("3_65mi1")
+level = 65
+move = 413
+
+[sub_resource type="Resource" id="Resource_mb84b"]
+script = ExtResource("3_65mi1")
+level = 70
+move = 384
+
+[sub_resource type="Resource" id="Resource_aelse"]
+script = ExtResource("3_65mi1")
+level = 75
+move = 604
+
+[resource]
+script = ExtResource("4_btfgn")
+id = 785
+display_name = "Tapu Koko"
+category = "Land Spirit"
+national_dex = 785
+pokedex = "It confuses its enemies by flying too
+quickly for the eye to follow. It has a
+hair-trigger temper but forgets what
+made it angry an instant later."
+type_1 = 14
+type_2 = 19
+base_hp = 70
+base_atk = 115
+base_def = 85
+base_spa = 95
+base_spd = 75
+base_spe = 130
+ev_spe = 3
+catch_rate = 3
+base_exp = 285
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 15
+ability_1 = 226
+ability_hidden = 140
+height_dm = 18
+weight_hg = 205
+body_color = 2
+level_moves = Array[ExtResource("3_65mi1")]([SubResource("Resource_tjo0j"), SubResource("Resource_x0614"), SubResource("Resource_ks18l"), SubResource("Resource_a3lv6"), SubResource("Resource_w1koo"), SubResource("Resource_r5ev8"), SubResource("Resource_ho46l"), SubResource("Resource_gv12t"), SubResource("Resource_1oedn"), SubResource("Resource_lglvr"), SubResource("Resource_fkyvj"), SubResource("Resource_8kdaa"), SubResource("Resource_ca4pj"), SubResource("Resource_b5scu"), SubResource("Resource_2mjv5"), SubResource("Resource_mb84b"), SubResource("Resource_aelse")])

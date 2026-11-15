@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bople6heerft6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_72n6k"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_sac07"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fsay5"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_vcb41"]
+
+[sub_resource type="Resource" id="Resource_8ju7y"]
+script = ExtResource("1_72n6k")
+method = "LEVEL"
+param = "16"
+target = 657
+
+[sub_resource type="Resource" id="Resource_v78o4"]
+script = ExtResource("3_fsay5")
+move = 1
+
+[sub_resource type="Resource" id="Resource_5ipwa"]
+script = ExtResource("3_fsay5")
+move = 45
+
+[sub_resource type="Resource" id="Resource_5keis"]
+script = ExtResource("3_fsay5")
+level = 5
+move = 55
+
+[sub_resource type="Resource" id="Resource_tniv0"]
+script = ExtResource("3_fsay5")
+level = 8
+move = 98
+
+[sub_resource type="Resource" id="Resource_ewc5x"]
+script = ExtResource("3_fsay5")
+level = 10
+move = 122
+
+[sub_resource type="Resource" id="Resource_ofafm"]
+script = ExtResource("3_fsay5")
+level = 14
+move = 352
+
+[sub_resource type="Resource" id="Resource_vb7lj"]
+script = ExtResource("3_fsay5")
+level = 18
+move = 108
+
+[sub_resource type="Resource" id="Resource_22iyg"]
+script = ExtResource("3_fsay5")
+level = 21
+move = 496
+
+[sub_resource type="Resource" id="Resource_73snx"]
+script = ExtResource("3_fsay5")
+level = 25
+move = 374
+
+[sub_resource type="Resource" id="Resource_wdrmv"]
+script = ExtResource("3_fsay5")
+level = 29
+move = 479
+
+[sub_resource type="Resource" id="Resource_xhme0"]
+script = ExtResource("3_fsay5")
+level = 35
+move = 164
+
+[sub_resource type="Resource" id="Resource_7bavd"]
+script = ExtResource("3_fsay5")
+level = 39
+move = 340
+
+[sub_resource type="Resource" id="Resource_4w47p"]
+script = ExtResource("3_fsay5")
+level = 43
+move = 104
+
+[sub_resource type="Resource" id="Resource_cmusf"]
+script = ExtResource("3_fsay5")
+level = 48
+move = 56
+
+[resource]
+script = ExtResource("4_vcb41")
+id = 656
+display_name = "Froakie"
+category = "Bubble Frog"
+national_dex = 656
+pokedex = "It protects its skin by covering its body
+in bubbles it secretes from its chest and
+back. Beneath its happy-go-lucky air, it
+keeps a watchful eye on its surroundings."
+type_1 = 12
+base_hp = 41
+base_atk = 56
+base_def = 40
+base_spa = 62
+base_spd = 44
+base_spe = 71
+ev_spe = 1
+base_exp = 63
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 2
+ability_1 = 67
+ability_hidden = 168
+height_dm = 3
+weight_hg = 70
+body_color = 1
+level_moves = Array[ExtResource("3_fsay5")]([SubResource("Resource_v78o4"), SubResource("Resource_5ipwa"), SubResource("Resource_5keis"), SubResource("Resource_tniv0"), SubResource("Resource_ewc5x"), SubResource("Resource_ofafm"), SubResource("Resource_vb7lj"), SubResource("Resource_22iyg"), SubResource("Resource_73snx"), SubResource("Resource_wdrmv"), SubResource("Resource_xhme0"), SubResource("Resource_7bavd"), SubResource("Resource_4w47p"), SubResource("Resource_cmusf")])
+egg_moves = Array[int]([516, 170, 390, 300, 293, 346, 612])
+evolutions = Array[ExtResource("1_72n6k")]([SubResource("Resource_8ju7y")])

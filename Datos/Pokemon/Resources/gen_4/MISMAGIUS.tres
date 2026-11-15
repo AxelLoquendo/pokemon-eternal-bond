@@ -1,0 +1,64 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b37fcnf00krme"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_cx6p6"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_m1llp"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6uqr6"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3ksks"]
+
+[sub_resource type="Resource" id="Resource_81p8m"]
+script = ExtResource("3_6uqr6")
+move = 45
+
+[sub_resource type="Resource" id="Resource_8ordm"]
+script = ExtResource("3_6uqr6")
+move = 180
+
+[sub_resource type="Resource" id="Resource_v8dbi"]
+script = ExtResource("3_6uqr6")
+move = 310
+
+[sub_resource type="Resource" id="Resource_icr04"]
+script = ExtResource("3_6uqr6")
+move = 345
+
+[sub_resource type="Resource" id="Resource_sinkc"]
+script = ExtResource("3_6uqr6")
+move = 408
+
+[sub_resource type="Resource" id="Resource_2t1w8"]
+script = ExtResource("3_6uqr6")
+move = 566
+
+[sub_resource type="Resource" id="Resource_aa3n7"]
+script = ExtResource("3_6uqr6")
+move = 595
+
+[resource]
+script = ExtResource("4_3ksks")
+id = 429
+display_name = "Mismagius"
+category = "Magical"
+national_dex = 429
+pokedex = "Its cries sound like incantations.
+Those hearing it are tormented by
+headaches and hallucinations.
+It appears where you least expect it."
+type_1 = 8
+base_hp = 60
+base_atk = 60
+base_def = 60
+base_spa = 105
+base_spd = 105
+base_spe = 105
+ev_spa = 1
+ev_spd = 1
+base_exp = 173
+base_friendship = 35
+growth_rate = 4
+egg_cycles = 25
+egg_group_1 = 11
+ability_1 = 26
+height_dm = 9
+weight_hg = 44
+body_color = 6
+level_moves = Array[ExtResource("3_6uqr6")]([SubResource("Resource_81p8m"), SubResource("Resource_8ordm"), SubResource("Resource_v8dbi"), SubResource("Resource_icr04"), SubResource("Resource_sinkc"), SubResource("Resource_2t1w8"), SubResource("Resource_aa3n7")])

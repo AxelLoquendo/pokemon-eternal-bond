@@ -1,0 +1,127 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://drcp78ojbmjkk"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mjplg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_66m8b"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pjmlf"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_esdfm"]
+
+[sub_resource type="Resource" id="Resource_t2gy5"]
+script = ExtResource("1_mjplg")
+method = "LEVEL"
+param = "22"
+target = 24
+
+[sub_resource type="Resource" id="Resource_dpb6k"]
+script = ExtResource("3_pjmlf")
+move = 35
+
+[sub_resource type="Resource" id="Resource_tqhrh"]
+script = ExtResource("3_pjmlf")
+move = 43
+
+[sub_resource type="Resource" id="Resource_rhqcb"]
+script = ExtResource("3_pjmlf")
+level = 4
+move = 40
+
+[sub_resource type="Resource" id="Resource_hsqvh"]
+script = ExtResource("3_pjmlf")
+level = 9
+move = 44
+
+[sub_resource type="Resource" id="Resource_35x0q"]
+script = ExtResource("3_pjmlf")
+level = 12
+move = 137
+
+[sub_resource type="Resource" id="Resource_juswd"]
+script = ExtResource("3_pjmlf")
+level = 17
+move = 103
+
+[sub_resource type="Resource" id="Resource_h34rf"]
+script = ExtResource("3_pjmlf")
+level = 20
+move = 51
+
+[sub_resource type="Resource" id="Resource_r5uvs"]
+script = ExtResource("3_pjmlf")
+level = 25
+move = 256
+
+[sub_resource type="Resource" id="Resource_cbq4l"]
+script = ExtResource("3_pjmlf")
+level = 25
+move = 254
+
+[sub_resource type="Resource" id="Resource_2un2x"]
+script = ExtResource("3_pjmlf")
+level = 25
+move = 255
+
+[sub_resource type="Resource" id="Resource_o6jh0"]
+script = ExtResource("3_pjmlf")
+level = 28
+move = 491
+
+[sub_resource type="Resource" id="Resource_efcef"]
+script = ExtResource("3_pjmlf")
+level = 33
+move = 188
+
+[sub_resource type="Resource" id="Resource_y7y5k"]
+script = ExtResource("3_pjmlf")
+level = 36
+move = 380
+
+[sub_resource type="Resource" id="Resource_nt8ir"]
+script = ExtResource("3_pjmlf")
+level = 38
+move = 562
+
+[sub_resource type="Resource" id="Resource_cj2y0"]
+script = ExtResource("3_pjmlf")
+level = 41
+move = 114
+
+[sub_resource type="Resource" id="Resource_gt37t"]
+script = ExtResource("3_pjmlf")
+level = 44
+move = 489
+
+[sub_resource type="Resource" id="Resource_gg53k"]
+script = ExtResource("3_pjmlf")
+level = 49
+move = 441
+
+[resource]
+script = ExtResource("4_esdfm")
+id = 23
+display_name = "Ekans"
+category = "Snake"
+national_dex = 23
+pokedex = "An Ekans curls itself up in a spiral while
+it rests. This position allows it to quickly
+respond to an enemy from any direction
+with a threat from its upraised head."
+type_1 = 4
+base_hp = 35
+base_atk = 60
+base_def = 44
+base_spa = 40
+base_spd = 54
+base_spe = 55
+ev_atk = 1
+catch_rate = 255
+base_exp = 58
+egg_group_1 = 5
+egg_group_2 = 14
+ability_1 = 22
+ability_2 = 61
+ability_hidden = 127
+height_dm = 20
+weight_hg = 69
+body_color = 6
+level_moves = Array[ExtResource("3_pjmlf")]([SubResource("Resource_dpb6k"), SubResource("Resource_tqhrh"), SubResource("Resource_rhqcb"), SubResource("Resource_hsqvh"), SubResource("Resource_35x0q"), SubResource("Resource_juswd"), SubResource("Resource_h34rf"), SubResource("Resource_r5uvs"), SubResource("Resource_cbq4l"), SubResource("Resource_2un2x"), SubResource("Resource_o6jh0"), SubResource("Resource_efcef"), SubResource("Resource_y7y5k"), SubResource("Resource_nt8ir"), SubResource("Resource_cj2y0"), SubResource("Resource_gt37t"), SubResource("Resource_gg53k")])
+egg_moves = Array[int]([228, 21, 180, 251, 305, 184, 342, 50, 415, 231, 389, 289])
+evolutions = Array[ExtResource("1_mjplg")]([SubResource("Resource_t2gy5")])

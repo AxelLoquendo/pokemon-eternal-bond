@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://evuxp4bxmckg"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_w5ch4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gkcek"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_52ovc"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_plljm"]
+
+[sub_resource type="Resource" id="Resource_uoctd"]
+script = ExtResource("3_52ovc")
+level = 0
+move = 421
+
+[sub_resource type="Resource" id="Resource_oxbcl"]
+script = ExtResource("3_52ovc")
+move = 33
+
+[sub_resource type="Resource" id="Resource_3hc58"]
+script = ExtResource("3_52ovc")
+move = 73
+
+[sub_resource type="Resource" id="Resource_ekgrm"]
+script = ExtResource("3_52ovc")
+move = 310
+
+[sub_resource type="Resource" id="Resource_22l4v"]
+script = ExtResource("3_52ovc")
+move = 713
+
+[sub_resource type="Resource" id="Resource_yhs8o"]
+script = ExtResource("3_52ovc")
+level = 12
+move = 109
+
+[sub_resource type="Resource" id="Resource_vo1cl"]
+script = ExtResource("3_52ovc")
+level = 16
+move = 261
+
+[sub_resource type="Resource" id="Resource_ybi4c"]
+script = ExtResource("3_52ovc")
+level = 20
+move = 506
+
+[sub_resource type="Resource" id="Resource_88x0u"]
+script = ExtResource("3_52ovc")
+level = 24
+move = 74
+
+[sub_resource type="Resource" id="Resource_qsr4h"]
+script = ExtResource("3_52ovc")
+level = 28
+move = 532
+
+[sub_resource type="Resource" id="Resource_y33bm"]
+script = ExtResource("3_52ovc")
+level = 32
+move = 174
+
+[sub_resource type="Resource" id="Resource_etgfh"]
+script = ExtResource("3_52ovc")
+level = 36
+move = 566
+
+[sub_resource type="Resource" id="Resource_xylfp"]
+script = ExtResource("3_52ovc")
+level = 40
+move = 275
+
+[sub_resource type="Resource" id="Resource_k7akl"]
+script = ExtResource("3_52ovc")
+level = 44
+move = 452
+
+[sub_resource type="Resource" id="Resource_x0am5"]
+script = ExtResource("3_52ovc")
+level = 48
+move = 194
+
+[sub_resource type="Resource" id="Resource_uq5dd"]
+script = ExtResource("3_52ovc")
+level = 52
+move = 571
+
+[resource]
+script = ExtResource("4_plljm")
+id = 709
+display_name = "Trevenant"
+category = "Elder Tree"
+national_dex = 709
+pokedex = "Through its roots, it exerts control over
+other trees. A deadly curse falls upon
+anyone cutting down trees in forests
+where Trevenant dwell."
+type_1 = 8
+type_2 = 13
+base_hp = 85
+base_atk = 110
+base_def = 76
+base_spa = 65
+base_spd = 82
+base_spe = 56
+ev_atk = 2
+catch_rate = 60
+base_exp = 166
+egg_group_1 = 7
+egg_group_2 = 11
+ability_1 = 30
+ability_2 = 119
+ability_hidden = 139
+height_dm = 15
+weight_hg = 710
+body_color = 5
+level_moves = Array[ExtResource("3_52ovc")]([SubResource("Resource_uoctd"), SubResource("Resource_oxbcl"), SubResource("Resource_3hc58"), SubResource("Resource_ekgrm"), SubResource("Resource_22l4v"), SubResource("Resource_yhs8o"), SubResource("Resource_vo1cl"), SubResource("Resource_ybi4c"), SubResource("Resource_88x0u"), SubResource("Resource_qsr4h"), SubResource("Resource_y33bm"), SubResource("Resource_etgfh"), SubResource("Resource_xylfp"), SubResource("Resource_k7akl"), SubResource("Resource_x0am5"), SubResource("Resource_uq5dd")])

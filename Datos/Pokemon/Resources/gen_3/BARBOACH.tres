@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://c1typykn6nbtm"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_km07k"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2utco"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5p1ie"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t7ycm"]
+
+[sub_resource type="Resource" id="Resource_q8kof"]
+script = ExtResource("1_km07k")
+method = "LEVEL"
+param = "30"
+target = 340
+
+[sub_resource type="Resource" id="Resource_xg2g1"]
+script = ExtResource("3_5p1ie")
+move = 55
+
+[sub_resource type="Resource" id="Resource_dw2s2"]
+script = ExtResource("3_5p1ie")
+move = 189
+
+[sub_resource type="Resource" id="Resource_tyc4p"]
+script = ExtResource("3_5p1ie")
+level = 6
+move = 156
+
+[sub_resource type="Resource" id="Resource_igri3"]
+script = ExtResource("3_5p1ie")
+level = 6
+move = 173
+
+[sub_resource type="Resource" id="Resource_xgu8m"]
+script = ExtResource("3_5p1ie")
+level = 12
+move = 352
+
+[sub_resource type="Resource" id="Resource_pm5x1"]
+script = ExtResource("3_5p1ie")
+level = 18
+move = 133
+
+[sub_resource type="Resource" id="Resource_dt7lu"]
+script = ExtResource("3_5p1ie")
+level = 24
+move = 401
+
+[sub_resource type="Resource" id="Resource_4pe1w"]
+script = ExtResource("3_5p1ie")
+level = 31
+move = 330
+
+[sub_resource type="Resource" id="Resource_1gijl"]
+script = ExtResource("3_5p1ie")
+level = 36
+move = 89
+
+[sub_resource type="Resource" id="Resource_y42uc"]
+script = ExtResource("3_5p1ie")
+level = 42
+move = 248
+
+[sub_resource type="Resource" id="Resource_5kb1i"]
+script = ExtResource("3_5p1ie")
+level = 48
+move = 90
+
+[resource]
+script = ExtResource("4_t7ycm")
+id = 339
+display_name = "Barboach"
+category = "Whiskers"
+national_dex = 339
+pokedex = "Its body is covered with a slimy film.
+The film acts as a barrier to prevent germs
+in muddy water from entering the
+Barboach's body."
+type_1 = 12
+type_2 = 5
+base_hp = 50
+base_atk = 48
+base_def = 43
+base_spa = 46
+base_spd = 41
+base_spe = 60
+ev_hp = 1
+catch_rate = 190
+base_exp = 58
+egg_group_1 = 12
+ability_1 = 12
+ability_hidden = 93
+height_dm = 4
+weight_hg = 19
+body_color = 7
+level_moves = Array[ExtResource("3_5p1ie")]([SubResource("Resource_xg2g1"), SubResource("Resource_dw2s2"), SubResource("Resource_tyc4p"), SubResource("Resource_igri3"), SubResource("Resource_xgu8m"), SubResource("Resource_pm5x1"), SubResource("Resource_dt7lu"), SubResource("Resource_4pe1w"), SubResource("Resource_1gijl"), SubResource("Resource_y42uc"), SubResource("Resource_5kb1i")])
+egg_moves = Array[int]([37, 250, 209, 56, 175, 36, 349, 414, 341, 330])
+evolutions = Array[ExtResource("1_km07k")]([SubResource("Resource_q8kof")])

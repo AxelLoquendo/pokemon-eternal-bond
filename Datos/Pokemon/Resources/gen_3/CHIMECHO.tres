@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://crhuux7vgp6mu"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_x7f65"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_dtxxm"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hjfa7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_u5cbc"]
+
+[sub_resource type="Resource" id="Resource_mrydi"]
+script = ExtResource("3_hjfa7")
+move = 35
+
+[sub_resource type="Resource" id="Resource_yx68d"]
+script = ExtResource("3_hjfa7")
+move = 45
+
+[sub_resource type="Resource" id="Resource_ik3t2"]
+script = ExtResource("3_hjfa7")
+move = 93
+
+[sub_resource type="Resource" id="Resource_4fy83"]
+script = ExtResource("3_hjfa7")
+move = 310
+
+[sub_resource type="Resource" id="Resource_sakc1"]
+script = ExtResource("3_hjfa7")
+move = 361
+
+[sub_resource type="Resource" id="Resource_5j2bq"]
+script = ExtResource("3_hjfa7")
+level = 13
+move = 281
+
+[sub_resource type="Resource" id="Resource_iu1o7"]
+script = ExtResource("3_hjfa7")
+level = 16
+move = 500
+
+[sub_resource type="Resource" id="Resource_ucwx8"]
+script = ExtResource("3_hjfa7")
+level = 19
+move = 36
+
+[sub_resource type="Resource" id="Resource_ls6k2"]
+script = ExtResource("3_hjfa7")
+level = 22
+move = 326
+
+[sub_resource type="Resource" id="Resource_0mme6"]
+script = ExtResource("3_hjfa7")
+level = 27
+move = 215
+
+[sub_resource type="Resource" id="Resource_yjymv"]
+script = ExtResource("3_hjfa7")
+level = 32
+move = 253
+
+[sub_resource type="Resource" id="Resource_t6001"]
+script = ExtResource("3_hjfa7")
+level = 37
+move = 219
+
+[sub_resource type="Resource" id="Resource_1i8h7"]
+script = ExtResource("3_hjfa7")
+level = 42
+move = 38
+
+[sub_resource type="Resource" id="Resource_2mdhj"]
+script = ExtResource("3_hjfa7")
+level = 47
+move = 505
+
+[resource]
+script = ExtResource("4_u5cbc")
+id = 358
+display_name = "Chimecho"
+category = "Wind Chime"
+national_dex = 358
+pokedex = "They fly about very actively when the hot
+season arrives. They communicate among
+themselves using seven different and
+distinguishing cries."
+type_1 = 15
+base_hp = 75
+base_atk = 50
+base_def = 80
+base_spa = 95
+base_spd = 90
+base_spe = 65
+ev_spa = 1
+ev_spd = 1
+base_exp = 147
+growth_rate = 4
+egg_cycles = 25
+egg_group_1 = 11
+ability_1 = 26
+item_rare = 467
+height_dm = 6
+weight_hg = 10
+body_color = 1
+level_moves = Array[ExtResource("3_hjfa7")]([SubResource("Resource_mrydi"), SubResource("Resource_yx68d"), SubResource("Resource_ik3t2"), SubResource("Resource_4fy83"), SubResource("Resource_sakc1"), SubResource("Resource_5j2bq"), SubResource("Resource_iu1o7"), SubResource("Resource_ucwx8"), SubResource("Resource_ls6k2"), SubResource("Resource_0mme6"), SubResource("Resource_yjymv"), SubResource("Resource_t6001"), SubResource("Resource_1i8h7"), SubResource("Resource_2mdhj")])
+egg_moves = Array[int]([50, 174, 95, 273, 248, 105, 500, 285, 322, 578, 195])
+form_species = Array[int]([358, 1555])

@@ -1,0 +1,73 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ck5ema8vepx34"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_yax3i"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_c1ix0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4407i"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gwvgc"]
+
+[sub_resource type="Resource" id="Resource_rfw0d"]
+script = ExtResource("3_4407i")
+move = 1
+
+[sub_resource type="Resource" id="Resource_ck1pi"]
+script = ExtResource("3_4407i")
+move = 383
+
+[sub_resource type="Resource" id="Resource_xdjgd"]
+script = ExtResource("3_4407i")
+level = 4
+move = 111
+
+[sub_resource type="Resource" id="Resource_any2k"]
+script = ExtResource("3_4407i")
+level = 8
+move = 186
+
+[sub_resource type="Resource" id="Resource_03ift"]
+script = ExtResource("3_4407i")
+level = 12
+move = 574
+
+[sub_resource type="Resource" id="Resource_yu6p2"]
+script = ExtResource("3_4407i")
+level = 16
+move = 343
+
+[sub_resource type="Resource" id="Resource_4x6pa"]
+script = ExtResource("3_4407i")
+level = 20
+move = 204
+
+[resource]
+script = ExtResource("4_gwvgc")
+id = 440
+display_name = "Happiny"
+category = "Playhouse"
+national_dex = 440
+pokedex = "It carries a round white rock in its
+belly pouch. If it gets along well with
+someone, it will sometimes give that
+person the rock."
+type_1 = 1
+base_hp = 100
+base_atk = 5
+base_def = 5
+base_spa = 15
+base_spd = 65
+base_spe = 30
+ev_hp = 1
+catch_rate = 130
+base_exp = 110
+base_friendship = 140
+gender_ratio = 254
+growth_rate = 4
+egg_cycles = 40
+ability_1 = 30
+ability_2 = 32
+ability_hidden = 132
+item_rare = 237
+height_dm = 6
+weight_hg = 244
+body_color = 9
+level_moves = Array[ExtResource("3_4407i")]([SubResource("Resource_rfw0d"), SubResource("Resource_ck1pi"), SubResource("Resource_xdjgd"), SubResource("Resource_any2k"), SubResource("Resource_03ift"), SubResource("Resource_yu6p2"), SubResource("Resource_4x6pa")])
+egg_moves = Array[int]([217, 118, 215, 312, 68, 270, 356, 387, 426, 363, 203])

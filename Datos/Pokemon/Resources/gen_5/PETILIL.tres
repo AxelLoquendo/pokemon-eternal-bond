@@ -1,0 +1,116 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cy5dllseppisx"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_1e0kl"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_2wpqc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ldxv3"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xemvo"]
+
+[sub_resource type="Resource" id="Resource_tpbaf"]
+script = ExtResource("3_ldxv3")
+move = 71
+
+[sub_resource type="Resource" id="Resource_8yegv"]
+script = ExtResource("3_ldxv3")
+move = 74
+
+[sub_resource type="Resource" id="Resource_lh2us"]
+script = ExtResource("3_ldxv3")
+level = 3
+move = 270
+
+[sub_resource type="Resource" id="Resource_l28hl"]
+script = ExtResource("3_ldxv3")
+level = 6
+move = 78
+
+[sub_resource type="Resource" id="Resource_vbjh3"]
+script = ExtResource("3_ldxv3")
+level = 9
+move = 72
+
+[sub_resource type="Resource" id="Resource_e8mtd"]
+script = ExtResource("3_ldxv3")
+level = 12
+move = 204
+
+[sub_resource type="Resource" id="Resource_r8afh"]
+script = ExtResource("3_ldxv3")
+level = 15
+move = 345
+
+[sub_resource type="Resource" id="Resource_v8c3a"]
+script = ExtResource("3_ldxv3")
+level = 18
+move = 79
+
+[sub_resource type="Resource" id="Resource_wbl03"]
+script = ExtResource("3_ldxv3")
+level = 21
+move = 202
+
+[sub_resource type="Resource" id="Resource_1xflp"]
+script = ExtResource("3_ldxv3")
+level = 24
+move = 73
+
+[sub_resource type="Resource" id="Resource_laqd6"]
+script = ExtResource("3_ldxv3")
+level = 27
+move = 495
+
+[sub_resource type="Resource" id="Resource_i3oat"]
+script = ExtResource("3_ldxv3")
+level = 30
+move = 412
+
+[sub_resource type="Resource" id="Resource_dlxs4"]
+script = ExtResource("3_ldxv3")
+level = 33
+move = 235
+
+[sub_resource type="Resource" id="Resource_aqvv2"]
+script = ExtResource("3_ldxv3")
+level = 36
+move = 241
+
+[sub_resource type="Resource" id="Resource_jx0wv"]
+script = ExtResource("3_ldxv3")
+level = 39
+move = 494
+
+[sub_resource type="Resource" id="Resource_yduee"]
+script = ExtResource("3_ldxv3")
+level = 42
+move = 437
+
+[resource]
+script = ExtResource("4_xemvo")
+id = 548
+display_name = "Petilil"
+category = "Bulb"
+national_dex = 548
+pokedex = "By pruning the leaves on its head with
+regularity, this Pokémon can be grown
+into a fine plump shape. These bitter
+leaves refresh those who eat them."
+type_1 = 13
+base_hp = 45
+base_atk = 35
+base_def = 50
+base_spa = 70
+base_spd = 50
+base_spe = 30
+ev_spa = 1
+catch_rate = 190
+base_exp = 56
+gender_ratio = 254
+egg_group_1 = 7
+ability_1 = 34
+ability_2 = 20
+ability_hidden = 102
+item_rare = 455
+height_dm = 5
+weight_hg = 66
+body_color = 3
+level_moves = Array[ExtResource("3_ldxv3")]([SubResource("Resource_tpbaf"), SubResource("Resource_8yegv"), SubResource("Resource_lh2us"), SubResource("Resource_l28hl"), SubResource("Resource_vbjh3"), SubResource("Resource_e8mtd"), SubResource("Resource_r8afh"), SubResource("Resource_v8c3a"), SubResource("Resource_wbl03"), SubResource("Resource_1xflp"), SubResource("Resource_laqd6"), SubResource("Resource_i3oat"), SubResource("Resource_dlxs4"), SubResource("Resource_aqvv2"), SubResource("Resource_jx0wv"), SubResource("Resource_yduee")])
+egg_moves = Array[int]([363, 204, 203, 275, 388, 320, 230, 117, 361, 227])

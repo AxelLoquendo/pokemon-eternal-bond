@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://rxh44bppkdtv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qlssc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_g2piw"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_n7g6t"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5kw2l"]
+
+[sub_resource type="Resource" id="Resource_ulrqs"]
+script = ExtResource("3_n7g6t")
+level = 0
+move = 770
+
+[sub_resource type="Resource" id="Resource_srcyu"]
+script = ExtResource("3_n7g6t")
+move = 33
+
+[sub_resource type="Resource" id="Resource_47ppj"]
+script = ExtResource("3_n7g6t")
+move = 55
+
+[sub_resource type="Resource" id="Resource_kei6p"]
+script = ExtResource("3_n7g6t")
+move = 71
+
+[sub_resource type="Resource" id="Resource_h84pk"]
+script = ExtResource("3_n7g6t")
+move = 151
+
+[sub_resource type="Resource" id="Resource_pgecv"]
+script = ExtResource("3_n7g6t")
+move = 225
+
+[sub_resource type="Resource" id="Resource_t8ng7"]
+script = ExtResource("3_n7g6t")
+level = 15
+move = 182
+
+[sub_resource type="Resource" id="Resource_ryxq1"]
+script = ExtResource("3_n7g6t")
+level = 20
+move = 175
+
+[sub_resource type="Resource" id="Resource_n3wr6"]
+script = ExtResource("3_n7g6t")
+level = 25
+move = 352
+
+[sub_resource type="Resource" id="Resource_lilra"]
+script = ExtResource("3_n7g6t")
+level = 30
+move = 240
+
+[sub_resource type="Resource" id="Resource_c4ls6"]
+script = ExtResource("3_n7g6t")
+level = 35
+move = 406
+
+[sub_resource type="Resource" id="Resource_u7a2k"]
+script = ExtResource("3_n7g6t")
+level = 43
+move = 174
+
+[sub_resource type="Resource" id="Resource_sw6ar"]
+script = ExtResource("3_n7g6t")
+level = 49
+move = 442
+
+[sub_resource type="Resource" id="Resource_qe2ia"]
+script = ExtResource("3_n7g6t")
+level = 56
+move = 330
+
+[resource]
+script = ExtResource("4_5kw2l")
+id = 1005
+display_name = "Sliggoo"
+category = "Snail"
+national_dex = 705
+pokedex = "A creature given to melancholy.
+Its metallic shell developed as a
+result of the mucus on its skin reacting
+with the iron in Hisui's water."
+type_1 = 17
+type_2 = 9
+base_hp = 58
+base_atk = 75
+base_def = 83
+base_spa = 83
+base_spd = 113
+base_spe = 40
+ev_spd = 2
+base_exp = 158
+base_friendship = 35
+growth_rate = 5
+egg_cycles = 40
+egg_group_1 = 14
+ability_1 = 157
+ability_2 = 75
+ability_hidden = 183
+item_rare = 490
+height_dm = 7
+weight_hg = 685
+body_color = 6
+no_flip = true
+level_moves = Array[ExtResource("3_n7g6t")]([SubResource("Resource_ulrqs"), SubResource("Resource_srcyu"), SubResource("Resource_47ppj"), SubResource("Resource_kei6p"), SubResource("Resource_h84pk"), SubResource("Resource_pgecv"), SubResource("Resource_t8ng7"), SubResource("Resource_ryxq1"), SubResource("Resource_n3wr6"), SubResource("Resource_lilra"), SubResource("Resource_c4ls6"), SubResource("Resource_u7a2k"), SubResource("Resource_sw6ar"), SubResource("Resource_qe2ia")])
+form_species = Array[int]([705, 1005])

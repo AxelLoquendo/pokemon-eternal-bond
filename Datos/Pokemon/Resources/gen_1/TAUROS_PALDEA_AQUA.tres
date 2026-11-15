@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://hi6cxn7hoh02"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_i6tgr"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_evjfu"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1eskg"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ik3bu"]
+
+[sub_resource type="Resource" id="Resource_bs2ek"]
+script = ExtResource("3_1eskg")
+move = 33
+
+[sub_resource type="Resource" id="Resource_bkkqd"]
+script = ExtResource("3_1eskg")
+move = 39
+
+[sub_resource type="Resource" id="Resource_51ofu"]
+script = ExtResource("3_1eskg")
+level = 5
+move = 526
+
+[sub_resource type="Resource" id="Resource_idgmk"]
+script = ExtResource("3_1eskg")
+level = 10
+move = 24
+
+[sub_resource type="Resource" id="Resource_8w0yi"]
+script = ExtResource("3_1eskg")
+level = 15
+move = 453
+
+[sub_resource type="Resource" id="Resource_p7sdf"]
+script = ExtResource("3_1eskg")
+level = 20
+move = 29
+
+[sub_resource type="Resource" id="Resource_q260l"]
+script = ExtResource("3_1eskg")
+level = 25
+move = 184
+
+[sub_resource type="Resource" id="Resource_05b8g"]
+script = ExtResource("3_1eskg")
+level = 30
+move = 428
+
+[sub_resource type="Resource" id="Resource_uqlkl"]
+script = ExtResource("3_1eskg")
+level = 35
+move = 801
+
+[sub_resource type="Resource" id="Resource_dv758"]
+script = ExtResource("3_1eskg")
+level = 40
+move = 156
+
+[sub_resource type="Resource" id="Resource_i61yc"]
+script = ExtResource("3_1eskg")
+level = 45
+move = 207
+
+[sub_resource type="Resource" id="Resource_5ut2p"]
+script = ExtResource("3_1eskg")
+level = 50
+move = 37
+
+[sub_resource type="Resource" id="Resource_gf4om"]
+script = ExtResource("3_1eskg")
+level = 55
+move = 762
+
+[sub_resource type="Resource" id="Resource_m4f0g"]
+script = ExtResource("3_1eskg")
+level = 60
+move = 370
+
+[resource]
+script = ExtResource("4_ik3bu")
+id = 1404
+display_name = "Tauros"
+category = "Wild Bull"
+national_dex = 128
+pokedex = "This Pokémon blasts water from holes on
+the tips of its horns--the high-pressure
+jets pierce right through
+Tauros’s enemies."
+type_1 = 2
+type_2 = 12
+base_hp = 75
+base_atk = 110
+base_def = 105
+base_spa = 30
+base_spd = 70
+base_spe = 100
+ev_atk = 2
+base_exp = 172
+gender_ratio = 0
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 22
+ability_2 = 83
+ability_hidden = 291
+height_dm = 14
+weight_hg = 1100
+body_color = 4
+level_moves = Array[ExtResource("3_1eskg")]([SubResource("Resource_bs2ek"), SubResource("Resource_bkkqd"), SubResource("Resource_51ofu"), SubResource("Resource_idgmk"), SubResource("Resource_8w0yi"), SubResource("Resource_p7sdf"), SubResource("Resource_q260l"), SubResource("Resource_05b8g"), SubResource("Resource_uqlkl"), SubResource("Resource_dv758"), SubResource("Resource_i61yc"), SubResource("Resource_5ut2p"), SubResource("Resource_gf4om"), SubResource("Resource_m4f0g")])
+egg_moves = Array[int]([174, 283])
+form_species = Array[int]([128, 1402, 1403, 1404])

@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dscm6ygcg8tnw"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_n50ud"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gmjir"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ethuh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6v4mm"]
+
+[sub_resource type="Resource" id="Resource_7c8n3"]
+script = ExtResource("3_ethuh")
+level = 0
+move = 532
+
+[sub_resource type="Resource" id="Resource_7af5n"]
+script = ExtResource("3_ethuh")
+move = 28
+
+[sub_resource type="Resource" id="Resource_xp7h1"]
+script = ExtResource("3_ethuh")
+move = 33
+
+[sub_resource type="Resource" id="Resource_idnck"]
+script = ExtResource("3_ethuh")
+move = 45
+
+[sub_resource type="Resource" id="Resource_fvgkg"]
+script = ExtResource("3_ethuh")
+move = 224
+
+[sub_resource type="Resource" id="Resource_oxs04"]
+script = ExtResource("3_ethuh")
+level = 10
+move = 24
+
+[sub_resource type="Resource" id="Resource_n15nj"]
+script = ExtResource("3_ethuh")
+level = 13
+move = 73
+
+[sub_resource type="Resource" id="Resource_2kswv"]
+script = ExtResource("3_ethuh")
+level = 16
+move = 331
+
+[sub_resource type="Resource" id="Resource_q2cgl"]
+script = ExtResource("3_ethuh")
+level = 20
+move = 36
+
+[sub_resource type="Resource" id="Resource_n4blm"]
+script = ExtResource("3_ethuh")
+level = 24
+move = 428
+
+[sub_resource type="Resource" id="Resource_j2cuc"]
+script = ExtResource("3_ethuh")
+level = 28
+move = 412
+
+[sub_resource type="Resource" id="Resource_0333u"]
+script = ExtResource("3_ethuh")
+level = 36
+move = 204
+
+[sub_resource type="Resource" id="Resource_hhqbl"]
+script = ExtResource("3_ethuh")
+level = 44
+move = 38
+
+[sub_resource type="Resource" id="Resource_3j122"]
+script = ExtResource("3_ethuh")
+level = 52
+move = 76
+
+[resource]
+script = ExtResource("4_6v4mm")
+id = 586
+display_name = "Sawsbuck"
+category = "Season"
+national_dex = 586
+pokedex = "Some people call Sawsbuck the harbingers
+of spring because the plants growing on
+its horns change according to the season.
+The leader possesses magnificent horns."
+type_1 = 1
+type_2 = 13
+base_hp = 80
+base_atk = 100
+base_def = 70
+base_spa = 60
+base_spd = 70
+base_spe = 95
+ev_atk = 2
+catch_rate = 75
+base_exp = 166
+egg_group_1 = 5
+ability_1 = 34
+ability_2 = 157
+ability_hidden = 32
+height_dm = 19
+weight_hg = 925
+body_color = 5
+level_moves = Array[ExtResource("3_ethuh")]([SubResource("Resource_7c8n3"), SubResource("Resource_7af5n"), SubResource("Resource_xp7h1"), SubResource("Resource_idnck"), SubResource("Resource_fvgkg"), SubResource("Resource_oxs04"), SubResource("Resource_n15nj"), SubResource("Resource_2kswv"), SubResource("Resource_q2cgl"), SubResource("Resource_n4blm"), SubResource("Resource_j2cuc"), SubResource("Resource_0333u"), SubResource("Resource_hhqbl"), SubResource("Resource_3j122")])
+form_species = Array[int]([586, 1097, 1098, 1099])

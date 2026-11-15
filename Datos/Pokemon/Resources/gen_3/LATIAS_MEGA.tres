@@ -1,0 +1,118 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dpte5vhxde0nl"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ud0jj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_nwujb"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wihp7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0oafa"]
+
+[sub_resource type="Resource" id="Resource_vibg3"]
+script = ExtResource("3_wihp7")
+move = 204
+
+[sub_resource type="Resource" id="Resource_1o52m"]
+script = ExtResource("3_wihp7")
+move = 500
+
+[sub_resource type="Resource" id="Resource_d1544"]
+script = ExtResource("3_wihp7")
+level = 5
+move = 270
+
+[sub_resource type="Resource" id="Resource_87m55"]
+script = ExtResource("3_wihp7")
+level = 10
+move = 105
+
+[sub_resource type="Resource" id="Resource_ce6v4"]
+script = ExtResource("3_wihp7")
+level = 15
+move = 93
+
+[sub_resource type="Resource" id="Resource_1284t"]
+script = ExtResource("3_wihp7")
+level = 20
+move = 366
+
+[sub_resource type="Resource" id="Resource_jta3n"]
+script = ExtResource("3_wihp7")
+level = 25
+move = 225
+
+[sub_resource type="Resource" id="Resource_f5bxs"]
+script = ExtResource("3_wihp7")
+level = 30
+move = 273
+
+[sub_resource type="Resource" id="Resource_jskxw"]
+script = ExtResource("3_wihp7")
+level = 35
+move = 296
+
+[sub_resource type="Resource" id="Resource_qk4rg"]
+script = ExtResource("3_wihp7")
+level = 40
+move = 428
+
+[sub_resource type="Resource" id="Resource_nioev"]
+script = ExtResource("3_wihp7")
+level = 45
+move = 406
+
+[sub_resource type="Resource" id="Resource_cmv55"]
+script = ExtResource("3_wihp7")
+level = 50
+move = 505
+
+[sub_resource type="Resource" id="Resource_h3vcu"]
+script = ExtResource("3_wihp7")
+level = 55
+move = 513
+
+[sub_resource type="Resource" id="Resource_2qt6y"]
+script = ExtResource("3_wihp7")
+level = 60
+move = 94
+
+[sub_resource type="Resource" id="Resource_041tb"]
+script = ExtResource("3_wihp7")
+level = 65
+move = 470
+
+[sub_resource type="Resource" id="Resource_33wvh"]
+script = ExtResource("3_wihp7")
+level = 70
+move = 361
+
+[resource]
+script = ExtResource("4_0oafa")
+id = 944
+display_name = "Latias"
+category = "Eon"
+national_dex = 380
+pokedex = "Its body is smaller than Mega Latios's
+body. It is more agile and can make very
+sharp turns. When it Mega Evolves, its
+defensive strength grows substantially."
+type_1 = 17
+type_2 = 15
+base_hp = 80
+base_atk = 100
+base_def = 120
+base_spa = 140
+base_spd = 150
+base_spe = 110
+ev_spd = 3
+catch_rate = 3
+base_exp = 350
+base_friendship = 90
+gender_ratio = 254
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 26
+ability_2 = 26
+ability_hidden = 26
+height_dm = 18
+weight_hg = 520
+body_color = 6
+level_moves = Array[ExtResource("3_wihp7")]([SubResource("Resource_vibg3"), SubResource("Resource_1o52m"), SubResource("Resource_d1544"), SubResource("Resource_87m55"), SubResource("Resource_ce6v4"), SubResource("Resource_1284t"), SubResource("Resource_jta3n"), SubResource("Resource_f5bxs"), SubResource("Resource_jskxw"), SubResource("Resource_qk4rg"), SubResource("Resource_nioev"), SubResource("Resource_cmv55"), SubResource("Resource_h3vcu"), SubResource("Resource_2qt6y"), SubResource("Resource_041tb"), SubResource("Resource_33wvh")])
+form_species = Array[int]([380, 944])

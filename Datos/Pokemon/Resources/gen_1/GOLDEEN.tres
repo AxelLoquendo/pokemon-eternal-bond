@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dwwuspudy5kf0"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_r34kj"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_rdory"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3xsaj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kc14y"]
+
+[sub_resource type="Resource" id="Resource_nckxm"]
+script = ExtResource("1_r34kj")
+method = "LEVEL"
+param = "33"
+target = 119
+
+[sub_resource type="Resource" id="Resource_cjvsy"]
+script = ExtResource("3_3xsaj")
+move = 64
+
+[sub_resource type="Resource" id="Resource_2uvo2"]
+script = ExtResource("3_3xsaj")
+move = 39
+
+[sub_resource type="Resource" id="Resource_5bcrr"]
+script = ExtResource("3_3xsaj")
+level = 5
+move = 48
+
+[sub_resource type="Resource" id="Resource_7fp3u"]
+script = ExtResource("3_3xsaj")
+level = 10
+move = 352
+
+[sub_resource type="Resource" id="Resource_puu22"]
+script = ExtResource("3_3xsaj")
+level = 15
+move = 30
+
+[sub_resource type="Resource" id="Resource_qww6n"]
+script = ExtResource("3_3xsaj")
+level = 20
+move = 97
+
+[sub_resource type="Resource" id="Resource_4rkys"]
+script = ExtResource("3_3xsaj")
+level = 25
+move = 392
+
+[sub_resource type="Resource" id="Resource_sjitp"]
+script = ExtResource("3_3xsaj")
+level = 30
+move = 175
+
+[sub_resource type="Resource" id="Resource_03lbt"]
+script = ExtResource("3_3xsaj")
+level = 35
+move = 127
+
+[sub_resource type="Resource" id="Resource_mknew"]
+script = ExtResource("3_3xsaj")
+level = 40
+move = 487
+
+[sub_resource type="Resource" id="Resource_4gmiu"]
+script = ExtResource("3_3xsaj")
+level = 45
+move = 224
+
+[sub_resource type="Resource" id="Resource_l3g4s"]
+script = ExtResource("3_3xsaj")
+level = 50
+move = 32
+
+[resource]
+script = ExtResource("4_kc14y")
+id = 118
+display_name = "Goldeen"
+category = "Goldfish"
+national_dex = 118
+pokedex = "In the springtime, schools of Goldeen
+can be seen swimming up falls and rivers.
+It metes out staggering damage with its
+single horn."
+type_1 = 12
+base_hp = 45
+base_atk = 67
+base_def = 60
+base_spa = 35
+base_spd = 50
+base_spe = 63
+ev_atk = 1
+catch_rate = 225
+base_exp = 64
+egg_group_1 = 12
+ability_1 = 33
+ability_2 = 41
+ability_hidden = 31
+item_rare = 427
+height_dm = 6
+weight_hg = 150
+level_moves = Array[ExtResource("3_3xsaj")]([SubResource("Resource_cjvsy"), SubResource("Resource_2uvo2"), SubResource("Resource_5bcrr"), SubResource("Resource_7fp3u"), SubResource("Resource_puu22"), SubResource("Resource_qww6n"), SubResource("Resource_4rkys"), SubResource("Resource_sjitp"), SubResource("Resource_03lbt"), SubResource("Resource_mknew"), SubResource("Resource_4gmiu"), SubResource("Resource_l3g4s")])
+egg_moves = Array[int]([60, 114, 56, 214, 300, 189, 401, 34, 341, 130, 324])
+evolutions = Array[ExtResource("1_r34kj")]([SubResource("Resource_nckxm")])

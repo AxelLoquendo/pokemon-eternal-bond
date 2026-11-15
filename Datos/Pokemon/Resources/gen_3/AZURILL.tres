@@ -1,0 +1,75 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bvn54iw50buat"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_2ievx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_kkvrx"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fwda4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t7kxh"]
+
+[sub_resource type="Resource" id="Resource_krfw5"]
+script = ExtResource("3_fwda4")
+move = 39
+
+[sub_resource type="Resource" id="Resource_isuuv"]
+script = ExtResource("3_fwda4")
+move = 55
+
+[sub_resource type="Resource" id="Resource_xyoe7"]
+script = ExtResource("3_fwda4")
+move = 150
+
+[sub_resource type="Resource" id="Resource_lygbs"]
+script = ExtResource("3_fwda4")
+level = 3
+move = 270
+
+[sub_resource type="Resource" id="Resource_s8oqy"]
+script = ExtResource("3_fwda4")
+level = 6
+move = 61
+
+[sub_resource type="Resource" id="Resource_44gh5"]
+script = ExtResource("3_fwda4")
+level = 9
+move = 204
+
+[sub_resource type="Resource" id="Resource_nbd32"]
+script = ExtResource("3_fwda4")
+level = 12
+move = 21
+
+[sub_resource type="Resource" id="Resource_lgsuq"]
+script = ExtResource("3_fwda4")
+level = 15
+move = 340
+
+[resource]
+script = ExtResource("4_t7kxh")
+id = 298
+display_name = "Azurill"
+category = "Polka Dot"
+national_dex = 298
+pokedex = "Its tail, which is packed with nutrition,
+is very bouncy like a rubber ball. On sunny
+days they gather at the edge of water and
+splash about for fun."
+type_1 = 1
+base_hp = 50
+base_atk = 20
+base_def = 40
+base_spa = 20
+base_spd = 40
+base_spe = 20
+ev_hp = 1
+catch_rate = 150
+base_exp = 38
+gender_ratio = 191
+growth_rate = 4
+egg_cycles = 10
+ability_1 = 47
+ability_2 = 37
+ability_hidden = 157
+height_dm = 2
+weight_hg = 20
+body_color = 1
+level_moves = Array[ExtResource("3_fwda4")]([SubResource("Resource_krfw5"), SubResource("Resource_isuuv"), SubResource("Resource_xyoe7"), SubResource("Resource_lygbs"), SubResource("Resource_s8oqy"), SubResource("Resource_44gh5"), SubResource("Resource_nbd32"), SubResource("Resource_lgsuq")])
+egg_moves = Array[int]([227, 47, 287, 21, 321, 313, 34, 346, 487, 330, 383, 293])

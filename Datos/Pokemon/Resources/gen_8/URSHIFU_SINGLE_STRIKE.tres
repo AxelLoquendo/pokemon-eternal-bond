@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ijsyn4chkx5t"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mlv0w"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ap6fr"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7a16p"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ts4hv"]
+
+[sub_resource type="Resource" id="Resource_4prmo"]
+script = ExtResource("3_7a16p")
+level = 0
+move = 745
+
+[sub_resource type="Resource" id="Resource_d1l2h"]
+script = ExtResource("3_7a16p")
+move = 203
+
+[sub_resource type="Resource" id="Resource_4kw6p"]
+script = ExtResource("3_7a16p")
+move = 389
+
+[sub_resource type="Resource" id="Resource_vk47j"]
+script = ExtResource("3_7a16p")
+move = 249
+
+[sub_resource type="Resource" id="Resource_6vh82"]
+script = ExtResource("3_7a16p")
+move = 43
+
+[sub_resource type="Resource" id="Resource_1inpb"]
+script = ExtResource("3_7a16p")
+move = 116
+
+[sub_resource type="Resource" id="Resource_g1f8i"]
+script = ExtResource("3_7a16p")
+level = 12
+move = 332
+
+[sub_resource type="Resource" id="Resource_bm3qw"]
+script = ExtResource("3_7a16p")
+level = 16
+move = 184
+
+[sub_resource type="Resource" id="Resource_avhnq"]
+script = ExtResource("3_7a16p")
+level = 20
+move = 29
+
+[sub_resource type="Resource" id="Resource_tyamv"]
+script = ExtResource("3_7a16p")
+level = 24
+move = 280
+
+[sub_resource type="Resource" id="Resource_drgy4"]
+script = ExtResource("3_7a16p")
+level = 28
+move = 197
+
+[sub_resource type="Resource" id="Resource_akytq"]
+script = ExtResource("3_7a16p")
+level = 32
+move = 339
+
+[sub_resource type="Resource" id="Resource_hq6no"]
+script = ExtResource("3_7a16p")
+level = 36
+move = 442
+
+[sub_resource type="Resource" id="Resource_hm7hn"]
+script = ExtResource("3_7a16p")
+level = 40
+move = 223
+
+[sub_resource type="Resource" id="Resource_uu1sh"]
+script = ExtResource("3_7a16p")
+level = 44
+move = 68
+
+[sub_resource type="Resource" id="Resource_pv4r7"]
+script = ExtResource("3_7a16p")
+level = 48
+move = 370
+
+[sub_resource type="Resource" id="Resource_17hyy"]
+script = ExtResource("3_7a16p")
+level = 52
+move = 264
+
+[resource]
+script = ExtResource("4_ts4hv")
+id = 892
+display_name = "Urshifu"
+category = "Wushu"
+national_dex = 892
+pokedex = "This form of Urshifu is a strong believer
+in the one-hit KO. Its strategy is to leap
+in close to foes and land a devastating
+blow with a hardened fist."
+type_1 = 2
+type_2 = 18
+base_hp = 100
+base_atk = 130
+base_def = 100
+base_spa = 63
+base_spd = 60
+base_spe = 97
+ev_atk = 3
+catch_rate = 3
+base_exp = 275
+gender_ratio = 31
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 260
+height_dm = 19
+weight_hg = 1050
+body_color = 7
+level_moves = Array[ExtResource("3_7a16p")]([SubResource("Resource_4prmo"), SubResource("Resource_d1l2h"), SubResource("Resource_4kw6p"), SubResource("Resource_vk47j"), SubResource("Resource_6vh82"), SubResource("Resource_1inpb"), SubResource("Resource_g1f8i"), SubResource("Resource_bm3qw"), SubResource("Resource_avhnq"), SubResource("Resource_tyamv"), SubResource("Resource_drgy4"), SubResource("Resource_akytq"), SubResource("Resource_hq6no"), SubResource("Resource_hm7hn"), SubResource("Resource_uu1sh"), SubResource("Resource_pv4r7"), SubResource("Resource_17hyy")])
+form_species = Array[int]([892, 1230, 1521, 1522])

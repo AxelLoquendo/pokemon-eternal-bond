@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cr37tlrnct51m"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_oaw2q"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_iw1cj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_f0bit"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4ybg0"]
+
+[sub_resource type="Resource" id="Resource_7imru"]
+script = ExtResource("1_oaw2q")
+method = "LEVEL"
+param = "26"
+target = 51
+
+[sub_resource type="Resource" id="Resource_k07xi"]
+script = ExtResource("3_f0bit")
+move = 10
+
+[sub_resource type="Resource" id="Resource_3elvo"]
+script = ExtResource("3_f0bit")
+move = 28
+
+[sub_resource type="Resource" id="Resource_b032l"]
+script = ExtResource("3_f0bit")
+level = 4
+move = 45
+
+[sub_resource type="Resource" id="Resource_mi7e2"]
+script = ExtResource("3_f0bit")
+level = 8
+move = 310
+
+[sub_resource type="Resource" id="Resource_ninae"]
+script = ExtResource("3_f0bit")
+level = 12
+move = 189
+
+[sub_resource type="Resource" id="Resource_gesw0"]
+script = ExtResource("3_f0bit")
+level = 16
+move = 523
+
+[sub_resource type="Resource" id="Resource_7pj3n"]
+script = ExtResource("3_f0bit")
+level = 20
+move = 389
+
+[sub_resource type="Resource" id="Resource_pq53e"]
+script = ExtResource("3_f0bit")
+level = 24
+move = 163
+
+[sub_resource type="Resource" id="Resource_cwj7r"]
+script = ExtResource("3_f0bit")
+level = 28
+move = 201
+
+[sub_resource type="Resource" id="Resource_eq0ec"]
+script = ExtResource("3_f0bit")
+level = 32
+move = 91
+
+[sub_resource type="Resource" id="Resource_d6c8n"]
+script = ExtResource("3_f0bit")
+level = 36
+move = 414
+
+[sub_resource type="Resource" id="Resource_yjs6f"]
+script = ExtResource("3_f0bit")
+level = 40
+move = 89
+
+[sub_resource type="Resource" id="Resource_gv1h5"]
+script = ExtResource("3_f0bit")
+level = 44
+move = 90
+
+[resource]
+script = ExtResource("4_4ybg0")
+id = 50
+display_name = "Diglett"
+category = "Mole"
+national_dex = 50
+pokedex = "Diglett are raised in most farms.
+The reason is simple--wherever they
+burrow, the soil is left perfectly tilled
+for growing delicious crops."
+type_1 = 5
+base_hp = 10
+base_atk = 55
+base_def = 25
+base_spa = 35
+base_spd = 45
+base_spe = 95
+ev_spe = 1
+catch_rate = 255
+base_exp = 53
+egg_group_1 = 5
+ability_1 = 8
+ability_2 = 71
+ability_hidden = 159
+item_rare = 433
+height_dm = 2
+weight_hg = 8
+body_color = 5
+level_moves = Array[ExtResource("3_f0bit")]([SubResource("Resource_k07xi"), SubResource("Resource_3elvo"), SubResource("Resource_b032l"), SubResource("Resource_mi7e2"), SubResource("Resource_ninae"), SubResource("Resource_gesw0"), SubResource("Resource_7pj3n"), SubResource("Resource_pq53e"), SubResource("Resource_cwj7r"), SubResource("Resource_eq0ec"), SubResource("Resource_d6c8n"), SubResource("Resource_yjs6f"), SubResource("Resource_gv1h5")])
+egg_moves = Array[int]([185, 103, 246, 228, 251, 253, 426, 310, 179, 29, 203, 515, 262])
+evolutions = Array[ExtResource("1_oaw2q")]([SubResource("Resource_7imru")])
+form_species = Array[int]([50, 963])

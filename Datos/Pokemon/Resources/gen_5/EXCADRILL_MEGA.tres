@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://8d8ll6u3h0m7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xcs8m"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_gsjw1"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mfkat"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_my6y8"]
+
+[sub_resource type="Resource" id="Resource_g52jk"]
+script = ExtResource("3_mfkat")
+level = 0
+move = 32
+
+[sub_resource type="Resource" id="Resource_fjvqy"]
+script = ExtResource("3_mfkat")
+move = 10
+
+[sub_resource type="Resource" id="Resource_m6m7o"]
+script = ExtResource("3_mfkat")
+move = 189
+
+[sub_resource type="Resource" id="Resource_6j5mg"]
+script = ExtResource("3_mfkat")
+move = 229
+
+[sub_resource type="Resource" id="Resource_s7ioq"]
+script = ExtResource("3_mfkat")
+move = 468
+
+[sub_resource type="Resource" id="Resource_co8ct"]
+script = ExtResource("3_mfkat")
+level = 12
+move = 154
+
+[sub_resource type="Resource" id="Resource_7w0m3"]
+script = ExtResource("3_mfkat")
+level = 16
+move = 232
+
+[sub_resource type="Resource" id="Resource_4io6n"]
+script = ExtResource("3_mfkat")
+level = 20
+move = 201
+
+[sub_resource type="Resource" id="Resource_c8bye"]
+script = ExtResource("3_mfkat")
+level = 24
+move = 306
+
+[sub_resource type="Resource" id="Resource_rcex1"]
+script = ExtResource("3_mfkat")
+level = 28
+move = 157
+
+[sub_resource type="Resource" id="Resource_wprnh"]
+script = ExtResource("3_mfkat")
+level = 34
+move = 91
+
+[sub_resource type="Resource" id="Resource_1l3tn"]
+script = ExtResource("3_mfkat")
+level = 40
+move = 14
+
+[sub_resource type="Resource" id="Resource_fbk4i"]
+script = ExtResource("3_mfkat")
+level = 46
+move = 529
+
+[sub_resource type="Resource" id="Resource_j8n61"]
+script = ExtResource("3_mfkat")
+level = 52
+move = 89
+
+[sub_resource type="Resource" id="Resource_hvt0p"]
+script = ExtResource("3_mfkat")
+level = 58
+move = 90
+
+[resource]
+script = ExtResource("4_my6y8")
+id = 1533
+display_name = "Excadrill"
+category = "Subterrene"
+national_dex = 530
+pokedex = "If this Pokémon brings its arms and
+head together to form a streamlined
+shape and spins at high speeds,
+it can destroy anything."
+type_1 = 5
+type_2 = 9
+base_hp = 110
+base_atk = 165
+base_def = 100
+base_spa = 65
+base_spd = 65
+base_spe = 103
+ev_atk = 2
+catch_rate = 60
+base_exp = 178
+egg_group_1 = 5
+ability_1 = 311
+ability_2 = 311
+ability_hidden = 311
+height_dm = 9
+weight_hg = 600
+body_color = 7
+no_flip = true
+level_moves = Array[ExtResource("3_mfkat")]([SubResource("Resource_g52jk"), SubResource("Resource_fjvqy"), SubResource("Resource_m6m7o"), SubResource("Resource_6j5mg"), SubResource("Resource_s7ioq"), SubResource("Resource_co8ct"), SubResource("Resource_7w0m3"), SubResource("Resource_4io6n"), SubResource("Resource_c8bye"), SubResource("Resource_rcex1"), SubResource("Resource_wprnh"), SubResource("Resource_1l3tn"), SubResource("Resource_fbk4i"), SubResource("Resource_j8n61"), SubResource("Resource_hvt0p")])
+form_species = Array[int]([530, 1533])

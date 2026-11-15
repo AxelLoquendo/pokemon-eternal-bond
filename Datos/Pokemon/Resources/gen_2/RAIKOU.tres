@@ -1,0 +1,123 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ujryj3fml74j"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_6nv65"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_xiumf"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7jwb4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_40bk5"]
+
+[sub_resource type="Resource" id="Resource_vroak"]
+script = ExtResource("3_7jwb4")
+move = 43
+
+[sub_resource type="Resource" id="Resource_1n1w2"]
+script = ExtResource("3_7jwb4")
+move = 268
+
+[sub_resource type="Resource" id="Resource_m61a3"]
+script = ExtResource("3_7jwb4")
+move = 245
+
+[sub_resource type="Resource" id="Resource_a1jkt"]
+script = ExtResource("3_7jwb4")
+move = 84
+
+[sub_resource type="Resource" id="Resource_tfh5i"]
+script = ExtResource("3_7jwb4")
+move = 98
+
+[sub_resource type="Resource" id="Resource_dbhky"]
+script = ExtResource("3_7jwb4")
+level = 6
+move = 209
+
+[sub_resource type="Resource" id="Resource_udn8l"]
+script = ExtResource("3_7jwb4")
+level = 12
+move = 44
+
+[sub_resource type="Resource" id="Resource_3lx4o"]
+script = ExtResource("3_7jwb4")
+level = 18
+move = 347
+
+[sub_resource type="Resource" id="Resource_bsclg"]
+script = ExtResource("3_7jwb4")
+level = 24
+move = 46
+
+[sub_resource type="Resource" id="Resource_kl355"]
+script = ExtResource("3_7jwb4")
+level = 30
+move = 422
+
+[sub_resource type="Resource" id="Resource_hrqkb"]
+script = ExtResource("3_7jwb4")
+level = 36
+move = 336
+
+[sub_resource type="Resource" id="Resource_db4uo"]
+script = ExtResource("3_7jwb4")
+level = 42
+move = 242
+
+[sub_resource type="Resource" id="Resource_etta6"]
+script = ExtResource("3_7jwb4")
+level = 48
+move = 326
+
+[sub_resource type="Resource" id="Resource_65anr"]
+script = ExtResource("3_7jwb4")
+level = 54
+move = 435
+
+[sub_resource type="Resource" id="Resource_ec34y"]
+script = ExtResource("3_7jwb4")
+level = 60
+move = 115
+
+[sub_resource type="Resource" id="Resource_sskoe"]
+script = ExtResource("3_7jwb4")
+level = 66
+move = 240
+
+[sub_resource type="Resource" id="Resource_neqyq"]
+script = ExtResource("3_7jwb4")
+level = 72
+move = 87
+
+[sub_resource type="Resource" id="Resource_emsga"]
+script = ExtResource("3_7jwb4")
+level = 78
+move = 192
+
+[resource]
+script = ExtResource("4_40bk5")
+id = 243
+display_name = "Raikou"
+category = "Thunder"
+national_dex = 243
+pokedex = "Raikou embodies the speed of lightning.
+Its roars send shock waves shuddering
+through the air and ground as if
+lightning bolts were crashing down."
+type_1 = 14
+base_hp = 90
+base_atk = 85
+base_def = 75
+base_spa = 115
+base_spd = 100
+base_spe = 115
+ev_spa = 1
+ev_spe = 2
+catch_rate = 3
+base_exp = 216
+base_friendship = 35
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 80
+ability_1 = 46
+ability_hidden = 10
+height_dm = 19
+weight_hg = 1780
+body_color = 2
+level_moves = Array[ExtResource("3_7jwb4")]([SubResource("Resource_vroak"), SubResource("Resource_1n1w2"), SubResource("Resource_m61a3"), SubResource("Resource_a1jkt"), SubResource("Resource_tfh5i"), SubResource("Resource_dbhky"), SubResource("Resource_udn8l"), SubResource("Resource_3lx4o"), SubResource("Resource_bsclg"), SubResource("Resource_kl355"), SubResource("Resource_hrqkb"), SubResource("Resource_db4uo"), SubResource("Resource_etta6"), SubResource("Resource_65anr"), SubResource("Resource_ec34y"), SubResource("Resource_sskoe"), SubResource("Resource_neqyq"), SubResource("Resource_emsga")])

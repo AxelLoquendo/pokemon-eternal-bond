@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dve855md245ro"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_n3wf7"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_3qwto"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cmv4p"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_2s1sc"]
+
+[sub_resource type="Resource" id="Resource_p5fuv"]
+script = ExtResource("1_n3wf7")
+method = "LEVEL"
+param = "15"
+target = 1302
+
+[sub_resource type="Resource" id="Resource_viker"]
+script = ExtResource("3_cmv4p")
+move = 33
+
+[sub_resource type="Resource" id="Resource_688yu"]
+script = ExtResource("3_cmv4p")
+move = 81
+
+[sub_resource type="Resource" id="Resource_o1u41"]
+script = ExtResource("3_cmv4p")
+level = 5
+move = 522
+
+[sub_resource type="Resource" id="Resource_n7cf0"]
+script = ExtResource("3_cmv4p")
+level = 8
+move = 372
+
+[sub_resource type="Resource" id="Resource_g86lk"]
+script = ExtResource("3_cmv4p")
+level = 11
+move = 364
+
+[sub_resource type="Resource" id="Resource_4xvpk"]
+script = ExtResource("3_cmv4p")
+level = 14
+move = 450
+
+[sub_resource type="Resource" id="Resource_juc65"]
+script = ExtResource("3_cmv4p")
+level = 18
+move = 335
+
+[sub_resource type="Resource" id="Resource_xa74y"]
+script = ExtResource("3_cmv4p")
+level = 22
+move = 68
+
+[sub_resource type="Resource" id="Resource_0sbev"]
+script = ExtResource("3_cmv4p")
+level = 25
+move = 29
+
+[sub_resource type="Resource" id="Resource_1pvl0"]
+script = ExtResource("3_cmv4p")
+level = 29
+move = 564
+
+[sub_resource type="Resource" id="Resource_fdcyq"]
+script = ExtResource("3_cmv4p")
+level = 33
+move = 380
+
+[sub_resource type="Resource" id="Resource_hoyqe"]
+script = ExtResource("3_cmv4p")
+level = 36
+move = 509
+
+[sub_resource type="Resource" id="Resource_xcjhr"]
+script = ExtResource("3_cmv4p")
+level = 40
+move = 638
+
+[sub_resource type="Resource" id="Resource_aki1m"]
+script = ExtResource("3_cmv4p")
+level = 44
+move = 734
+
+[resource]
+script = ExtResource("4_2s1sc")
+id = 1301
+display_name = "Tarountula"
+category = "String Ball"
+national_dex = 917
+pokedex = "The thread it secretes from its
+rear is as strong as wire. The secret
+behind the thread's strength is the
+topic of ongoing research."
+type_1 = 7
+base_hp = 35
+base_atk = 41
+base_def = 45
+base_spa = 29
+base_spd = 40
+base_spe = 20
+ev_def = 1
+catch_rate = 255
+base_exp = 42
+growth_rate = 1
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 15
+ability_hidden = 198
+height_dm = 3
+weight_hg = 40
+body_color = 8
+level_moves = Array[ExtResource("3_cmv4p")]([SubResource("Resource_viker"), SubResource("Resource_688yu"), SubResource("Resource_o1u41"), SubResource("Resource_n7cf0"), SubResource("Resource_g86lk"), SubResource("Resource_4xvpk"), SubResource("Resource_juc65"), SubResource("Resource_xa74y"), SubResource("Resource_0sbev"), SubResource("Resource_1pvl0"), SubResource("Resource_fdcyq"), SubResource("Resource_hoyqe"), SubResource("Resource_xcjhr"), SubResource("Resource_aki1m")])
+egg_moves = Array[int]([623, 642, 262, 389])
+evolutions = Array[ExtResource("1_n3wf7")]([SubResource("Resource_p5fuv")])

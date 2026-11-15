@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://co3vhvcblofd6"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_bnt00"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_y7vdn"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6dodj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_utvwt"]
+
+[sub_resource type="Resource" id="Resource_0o24y"]
+script = ExtResource("3_6dodj")
+level = 0
+move = 211
+
+[sub_resource type="Resource" id="Resource_0o1of"]
+script = ExtResource("3_6dodj")
+move = 43
+
+[sub_resource type="Resource" id="Resource_i4kjw"]
+script = ExtResource("3_6dodj")
+move = 64
+
+[sub_resource type="Resource" id="Resource_37e8n"]
+script = ExtResource("3_6dodj")
+move = 103
+
+[sub_resource type="Resource" id="Resource_1apuj"]
+script = ExtResource("3_6dodj")
+move = 319
+
+[sub_resource type="Resource" id="Resource_0jndn"]
+script = ExtResource("3_6dodj")
+move = 334
+
+[sub_resource type="Resource" id="Resource_24g1p"]
+script = ExtResource("3_6dodj")
+move = 468
+
+[sub_resource type="Resource" id="Resource_qj1vy"]
+script = ExtResource("3_6dodj")
+move = 644
+
+[sub_resource type="Resource" id="Resource_jr60t"]
+script = ExtResource("3_6dodj")
+level = 12
+move = 31
+
+[sub_resource type="Resource" id="Resource_notya"]
+script = ExtResource("3_6dodj")
+level = 16
+move = 365
+
+[sub_resource type="Resource" id="Resource_u2cja"]
+script = ExtResource("3_6dodj")
+level = 22
+move = 269
+
+[sub_resource type="Resource" id="Resource_f0s00"]
+script = ExtResource("3_6dodj")
+level = 28
+move = 184
+
+[sub_resource type="Resource" id="Resource_1yiar"]
+script = ExtResource("3_6dodj")
+level = 34
+move = 65
+
+[sub_resource type="Resource" id="Resource_k305u"]
+script = ExtResource("3_6dodj")
+level = 42
+move = 207
+
+[sub_resource type="Resource" id="Resource_xl0s8"]
+script = ExtResource("3_6dodj")
+level = 50
+move = 413
+
+[resource]
+script = ExtResource("4_utvwt")
+id = 823
+display_name = "Corviknight"
+category = "Raven"
+national_dex = 823
+pokedex = "This Pokémon reigns supreme in the skies
+of the Galar region. The black luster of
+its steel body could drive terror into
+the heart of any foe."
+type_1 = 3
+type_2 = 9
+base_hp = 98
+base_atk = 87
+base_def = 105
+base_spa = 53
+base_spd = 85
+base_spe = 67
+ev_def = 3
+base_exp = 248
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 4
+ability_1 = 46
+ability_2 = 127
+ability_hidden = 240
+height_dm = 22
+weight_hg = 750
+body_color = 6
+level_moves = Array[ExtResource("3_6dodj")]([SubResource("Resource_0o24y"), SubResource("Resource_0o1of"), SubResource("Resource_i4kjw"), SubResource("Resource_37e8n"), SubResource("Resource_1apuj"), SubResource("Resource_0jndn"), SubResource("Resource_24g1p"), SubResource("Resource_qj1vy"), SubResource("Resource_jr60t"), SubResource("Resource_notya"), SubResource("Resource_u2cja"), SubResource("Resource_f0s00"), SubResource("Resource_1yiar"), SubResource("Resource_k305u"), SubResource("Resource_xl0s8")])
+form_species = Array[int]([823, 1506])

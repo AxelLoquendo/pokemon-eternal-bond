@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cmuakxwy2xoi7"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_gx3jd"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yp0ei"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5ifxp"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bxpoi"]
+
+[sub_resource type="Resource" id="Resource_wp1k1"]
+script = ExtResource("1_gx3jd")
+method = "NONE"
+param = "0"
+target = 1480
+
+[sub_resource type="Resource" id="Resource_kojcy"]
+script = ExtResource("3_5ifxp")
+move = 10
+
+[sub_resource type="Resource" id="Resource_djx6q"]
+script = ExtResource("3_5ifxp")
+move = 139
+
+[sub_resource type="Resource" id="Resource_x55xu"]
+script = ExtResource("3_5ifxp")
+level = 5
+move = 123
+
+[sub_resource type="Resource" id="Resource_cgp8l"]
+script = ExtResource("3_5ifxp")
+level = 10
+move = 52
+
+[sub_resource type="Resource" id="Resource_y1o3g"]
+script = ExtResource("3_5ifxp")
+level = 15
+move = 305
+
+[sub_resource type="Resource" id="Resource_00p0m"]
+script = ExtResource("3_5ifxp")
+level = 20
+move = 230
+
+[sub_resource type="Resource" id="Resource_m3nok"]
+script = ExtResource("3_5ifxp")
+level = 25
+move = 417
+
+[sub_resource type="Resource" id="Resource_beaad"]
+script = ExtResource("3_5ifxp")
+level = 30
+move = 510
+
+[sub_resource type="Resource" id="Resource_bb2bj"]
+script = ExtResource("3_5ifxp")
+level = 35
+move = 474
+
+[sub_resource type="Resource" id="Resource_2s5pu"]
+script = ExtResource("3_5ifxp")
+level = 40
+move = 406
+
+[sub_resource type="Resource" id="Resource_l6cok"]
+script = ExtResource("3_5ifxp")
+level = 45
+move = 53
+
+[sub_resource type="Resource" id="Resource_wsaq0"]
+script = ExtResource("3_5ifxp")
+level = 50
+move = 92
+
+[sub_resource type="Resource" id="Resource_uuboa"]
+script = ExtResource("3_5ifxp")
+level = 55
+move = 283
+
+[resource]
+script = ExtResource("4_bxpoi")
+id = 757
+display_name = "Salandit"
+category = "Toxic Lizard"
+national_dex = 757
+pokedex = "It burns its bodily fluids to create a
+sweet-smelling poisonous gas. When its
+enemies become disoriented from inhaling
+the gas, it attacks them."
+type_1 = 4
+type_2 = 11
+base_hp = 48
+base_atk = 44
+base_def = 40
+base_spa = 71
+base_spd = 40
+base_spe = 77
+ev_spe = 1
+catch_rate = 120
+base_exp = 64
+gender_ratio = 31
+egg_group_1 = 1
+egg_group_2 = 14
+ability_1 = 212
+ability_hidden = 12
+item_rare = 468
+height_dm = 6
+weight_hg = 48
+body_color = 4
+level_moves = Array[ExtResource("3_5ifxp")]([SubResource("Resource_kojcy"), SubResource("Resource_djx6q"), SubResource("Resource_x55xu"), SubResource("Resource_cgp8l"), SubResource("Resource_y1o3g"), SubResource("Resource_00p0m"), SubResource("Resource_m3nok"), SubResource("Resource_beaad"), SubResource("Resource_bb2bj"), SubResource("Resource_2s5pu"), SubResource("Resource_l6cok"), SubResource("Resource_wsaq0"), SubResource("Resource_uuboa")])
+egg_moves = Array[int]([562, 282, 28, 289, 252])
+evolutions = Array[ExtResource("1_gx3jd")]([SubResource("Resource_wp1k1")])

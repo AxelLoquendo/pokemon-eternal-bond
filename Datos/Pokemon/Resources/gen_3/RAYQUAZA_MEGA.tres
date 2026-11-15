@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cwbrol5i52q7w"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_y13m2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1f412"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fiygx"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bhfew"]
+
+[sub_resource type="Resource" id="Resource_5302q"]
+script = ExtResource("3_fiygx")
+move = 184
+
+[sub_resource type="Resource" id="Resource_5absv"]
+script = ExtResource("3_fiygx")
+move = 239
+
+[sub_resource type="Resource" id="Resource_ffvpy"]
+script = ExtResource("3_fiygx")
+move = 246
+
+[sub_resource type="Resource" id="Resource_jwhgq"]
+script = ExtResource("3_fiygx")
+move = 403
+
+[sub_resource type="Resource" id="Resource_rvkcd"]
+script = ExtResource("3_fiygx")
+move = 620
+
+[sub_resource type="Resource" id="Resource_tpfd4"]
+script = ExtResource("3_fiygx")
+level = 9
+move = 242
+
+[sub_resource type="Resource" id="Resource_8top2"]
+script = ExtResource("3_fiygx")
+level = 18
+move = 349
+
+[sub_resource type="Resource" id="Resource_7bfj1"]
+script = ExtResource("3_fiygx")
+level = 27
+move = 245
+
+[sub_resource type="Resource" id="Resource_tc4nt"]
+script = ExtResource("3_fiygx")
+level = 36
+move = 406
+
+[sub_resource type="Resource" id="Resource_4fqx4"]
+script = ExtResource("3_fiygx")
+level = 45
+move = 304
+
+[sub_resource type="Resource" id="Resource_e0u24"]
+script = ExtResource("3_fiygx")
+level = 54
+move = 156
+
+[sub_resource type="Resource" id="Resource_f5x5u"]
+script = ExtResource("3_fiygx")
+level = 63
+move = 19
+
+[sub_resource type="Resource" id="Resource_c8eyj"]
+script = ExtResource("3_fiygx")
+level = 72
+move = 542
+
+[sub_resource type="Resource" id="Resource_wtupx"]
+script = ExtResource("3_fiygx")
+level = 81
+move = 200
+
+[sub_resource type="Resource" id="Resource_wp8aa"]
+script = ExtResource("3_fiygx")
+level = 90
+move = 63
+
+[resource]
+script = ExtResource("4_bhfew")
+id = 953
+display_name = "Rayquaza"
+category = "Sky High"
+national_dex = 384
+pokedex = "Particles stream from the filaments that
+extend from its jaw. They can control the
+density and humidity of the air, allowing
+Rayquaza to manipulate the weather."
+type_1 = 17
+type_2 = 3
+base_hp = 105
+base_atk = 180
+base_def = 100
+base_spa = 180
+base_spd = 100
+base_spe = 115
+ev_atk = 2
+ev_spa = 1
+catch_rate = 3
+base_exp = 390
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 120
+ability_1 = 191
+ability_2 = 191
+ability_hidden = 191
+height_dm = 108
+weight_hg = 3920
+body_color = 3
+level_moves = Array[ExtResource("3_fiygx")]([SubResource("Resource_5302q"), SubResource("Resource_5absv"), SubResource("Resource_ffvpy"), SubResource("Resource_jwhgq"), SubResource("Resource_rvkcd"), SubResource("Resource_tpfd4"), SubResource("Resource_8top2"), SubResource("Resource_7bfj1"), SubResource("Resource_tc4nt"), SubResource("Resource_4fqx4"), SubResource("Resource_e0u24"), SubResource("Resource_f5x5u"), SubResource("Resource_c8eyj"), SubResource("Resource_wtupx"), SubResource("Resource_wp8aa")])
+form_species = Array[int]([384, 953])

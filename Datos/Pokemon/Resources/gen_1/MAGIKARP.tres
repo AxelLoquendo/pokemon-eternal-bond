@@ -1,0 +1,57 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://2x3eeomh1vvc"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_bqakg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_alsna"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_amn8v"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4v6is"]
+
+[sub_resource type="Resource" id="Resource_ujql5"]
+script = ExtResource("1_bqakg")
+method = "LEVEL"
+param = "20"
+target = 130
+
+[sub_resource type="Resource" id="Resource_oj0nm"]
+script = ExtResource("3_amn8v")
+move = 150
+
+[sub_resource type="Resource" id="Resource_s5r8h"]
+script = ExtResource("3_amn8v")
+level = 15
+move = 33
+
+[sub_resource type="Resource" id="Resource_emd3i"]
+script = ExtResource("3_amn8v")
+level = 25
+move = 175
+
+[resource]
+script = ExtResource("4_4v6is")
+id = 129
+display_name = "Magikarp"
+category = "Fish"
+national_dex = 129
+pokedex = "Its swimming muscles are weak, so it is
+easily washed away by currents. In places
+where water pools, you can see many
+Magikarp deposited there by the flow."
+type_1 = 12
+base_hp = 20
+base_atk = 10
+base_def = 55
+base_spa = 15
+base_spd = 20
+base_spe = 80
+ev_spe = 1
+catch_rate = 255
+base_exp = 40
+growth_rate = 5
+egg_cycles = 5
+egg_group_1 = 12
+egg_group_2 = 14
+ability_1 = 33
+ability_hidden = 155
+height_dm = 9
+weight_hg = 100
+level_moves = Array[ExtResource("3_amn8v")]([SubResource("Resource_oj0nm"), SubResource("Resource_s5r8h"), SubResource("Resource_emd3i")])
+evolutions = Array[ExtResource("1_bqakg")]([SubResource("Resource_ujql5")])

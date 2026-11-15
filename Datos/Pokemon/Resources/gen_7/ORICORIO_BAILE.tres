@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cpj2r3w6rv8tu"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_esbfg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_m3a0m"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qg514"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pd3b4"]
+
+[sub_resource type="Resource" id="Resource_nspiu"]
+script = ExtResource("3_qg514")
+move = 1
+
+[sub_resource type="Resource" id="Resource_jlkcv"]
+script = ExtResource("3_qg514")
+level = 4
+move = 45
+
+[sub_resource type="Resource" id="Resource_oby3h"]
+script = ExtResource("3_qg514")
+level = 6
+move = 64
+
+[sub_resource type="Resource" id="Resource_cgwog"]
+script = ExtResource("3_qg514")
+level = 10
+move = 270
+
+[sub_resource type="Resource" id="Resource_hhfpy"]
+script = ExtResource("3_qg514")
+level = 13
+move = 314
+
+[sub_resource type="Resource" id="Resource_g5j0j"]
+script = ExtResource("3_qg514")
+level = 16
+move = 226
+
+[sub_resource type="Resource" id="Resource_cfedv"]
+script = ExtResource("3_qg514")
+level = 20
+move = 297
+
+[sub_resource type="Resource" id="Resource_3adrk"]
+script = ExtResource("3_qg514")
+level = 23
+move = 512
+
+[sub_resource type="Resource" id="Resource_f0ohk"]
+script = ExtResource("3_qg514")
+level = 26
+move = 298
+
+[sub_resource type="Resource" id="Resource_3dl72"]
+script = ExtResource("3_qg514")
+level = 30
+move = 355
+
+[sub_resource type="Resource" id="Resource_aqgo2"]
+script = ExtResource("3_qg514")
+level = 33
+move = 260
+
+[sub_resource type="Resource" id="Resource_igdky"]
+script = ExtResource("3_qg514")
+level = 36
+move = 403
+
+[sub_resource type="Resource" id="Resource_ptrf0"]
+script = ExtResource("3_qg514")
+level = 40
+move = 649
+
+[sub_resource type="Resource" id="Resource_f6ifg"]
+script = ExtResource("3_qg514")
+level = 43
+move = 97
+
+[sub_resource type="Resource" id="Resource_pnyck"]
+script = ExtResource("3_qg514")
+level = 47
+move = 542
+
+[resource]
+script = ExtResource("4_pd3b4")
+id = 741
+display_name = "Oricorio"
+category = "Dancing"
+national_dex = 741
+pokedex = "It wins the hearts of its enemies
+with its passionate dancing and then
+uses the opening it creates to
+burn them up with blazing flames."
+type_1 = 11
+type_2 = 3
+base_hp = 75
+base_atk = 70
+base_def = 70
+base_spa = 98
+base_spd = 70
+base_spe = 93
+ev_spa = 2
+base_exp = 167
+gender_ratio = 191
+egg_group_1 = 4
+ability_1 = 216
+item_rare = 246
+height_dm = 6
+weight_hg = 34
+level_moves = Array[ExtResource("3_qg514")]([SubResource("Resource_nspiu"), SubResource("Resource_jlkcv"), SubResource("Resource_oby3h"), SubResource("Resource_cgwog"), SubResource("Resource_hhfpy"), SubResource("Resource_g5j0j"), SubResource("Resource_cfedv"), SubResource("Resource_3adrk"), SubResource("Resource_f0ohk"), SubResource("Resource_3dl72"), SubResource("Resource_aqgo2"), SubResource("Resource_igdky"), SubResource("Resource_ptrf0"), SubResource("Resource_f6ifg"), SubResource("Resource_pnyck")])
+egg_moves = Array[int]([365, 366, 219, 445])
+form_species = Array[int]([741, 1169, 1170, 1171])

@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://4lojgbr12ajl"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8fesx"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ualog"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yla8b"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r3p6i"]
+
+[sub_resource type="Resource" id="Resource_gwf78"]
+script = ExtResource("1_8fesx")
+method = "LEVEL"
+param = "32"
+target = 389
+
+[sub_resource type="Resource" id="Resource_g3iyv"]
+script = ExtResource("3_yla8b")
+move = 33
+
+[sub_resource type="Resource" id="Resource_pglne"]
+script = ExtResource("3_yla8b")
+move = 71
+
+[sub_resource type="Resource" id="Resource_ok02t"]
+script = ExtResource("3_yla8b")
+move = 110
+
+[sub_resource type="Resource" id="Resource_y7vtv"]
+script = ExtResource("3_yla8b")
+level = 13
+move = 75
+
+[sub_resource type="Resource" id="Resource_eighg"]
+script = ExtResource("3_yla8b")
+level = 17
+move = 174
+
+[sub_resource type="Resource" id="Resource_8r00w"]
+script = ExtResource("3_yla8b")
+level = 22
+move = 44
+
+[sub_resource type="Resource" id="Resource_fxoen"]
+script = ExtResource("3_yla8b")
+level = 27
+move = 72
+
+[sub_resource type="Resource" id="Resource_cq463"]
+script = ExtResource("3_yla8b")
+level = 32
+move = 73
+
+[sub_resource type="Resource" id="Resource_xon0a"]
+script = ExtResource("3_yla8b")
+level = 37
+move = 235
+
+[sub_resource type="Resource" id="Resource_iuj5v"]
+script = ExtResource("3_yla8b")
+level = 42
+move = 242
+
+[sub_resource type="Resource" id="Resource_jrbjl"]
+script = ExtResource("3_yla8b")
+level = 47
+move = 202
+
+[sub_resource type="Resource" id="Resource_yxyhh"]
+script = ExtResource("3_yla8b")
+level = 52
+move = 437
+
+[resource]
+script = ExtResource("4_r3p6i")
+id = 388
+display_name = "Grotle"
+category = "Grove"
+national_dex = 388
+pokedex = "A Grotle that lives in the forest is said
+to have its own secret springwater well. 
+It carries fellow Pokémon there on 
+its back."
+type_1 = 13
+base_hp = 75
+base_atk = 89
+base_def = 85
+base_spa = 55
+base_spd = 65
+base_spe = 36
+ev_atk = 1
+ev_def = 1
+base_exp = 142
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 1
+egg_group_2 = 7
+ability_1 = 65
+ability_hidden = 75
+height_dm = 11
+weight_hg = 970
+body_color = 3
+level_moves = Array[ExtResource("3_yla8b")]([SubResource("Resource_g3iyv"), SubResource("Resource_pglne"), SubResource("Resource_ok02t"), SubResource("Resource_y7vtv"), SubResource("Resource_eighg"), SubResource("Resource_8r00w"), SubResource("Resource_fxoen"), SubResource("Resource_cq463"), SubResource("Resource_xon0a"), SubResource("Resource_iuj5v"), SubResource("Resource_jrbjl"), SubResource("Resource_yxyhh")])
+evolutions = Array[ExtResource("1_8fesx")]([SubResource("Resource_gwf78")])

@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dpb2ah624duwy"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_420sb"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ikyji"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_earin"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bih6x"]
+
+[sub_resource type="Resource" id="Resource_64ixy"]
+script = ExtResource("1_420sb")
+method = "LEVEL"
+param = "30"
+target = 82
+
+[sub_resource type="Resource" id="Resource_igwyg"]
+script = ExtResource("3_earin")
+move = 33
+
+[sub_resource type="Resource" id="Resource_cvrjq"]
+script = ExtResource("3_earin")
+move = 84
+
+[sub_resource type="Resource" id="Resource_f6nm2"]
+script = ExtResource("3_earin")
+level = 4
+move = 48
+
+[sub_resource type="Resource" id="Resource_f1utl"]
+script = ExtResource("3_earin")
+level = 8
+move = 86
+
+[sub_resource type="Resource" id="Resource_dokcf"]
+script = ExtResource("3_earin")
+level = 12
+move = 486
+
+[sub_resource type="Resource" id="Resource_c7v8l"]
+script = ExtResource("3_earin")
+level = 16
+move = 360
+
+[sub_resource type="Resource" id="Resource_nngnk"]
+script = ExtResource("3_earin")
+level = 20
+move = 209
+
+[sub_resource type="Resource" id="Resource_13nt8"]
+script = ExtResource("3_earin")
+level = 24
+move = 103
+
+[sub_resource type="Resource" id="Resource_5aslg"]
+script = ExtResource("3_earin")
+level = 28
+move = 393
+
+[sub_resource type="Resource" id="Resource_wghm6"]
+script = ExtResource("3_earin")
+level = 32
+move = 430
+
+[sub_resource type="Resource" id="Resource_imnmv"]
+script = ExtResource("3_earin")
+level = 36
+move = 435
+
+[sub_resource type="Resource" id="Resource_7js1y"]
+script = ExtResource("3_earin")
+level = 40
+move = 319
+
+[sub_resource type="Resource" id="Resource_7xv0p"]
+script = ExtResource("3_earin")
+level = 44
+move = 113
+
+[sub_resource type="Resource" id="Resource_3ss6s"]
+script = ExtResource("3_earin")
+level = 48
+move = 199
+
+[sub_resource type="Resource" id="Resource_pj38f"]
+script = ExtResource("3_earin")
+level = 52
+move = 192
+
+[resource]
+script = ExtResource("4_bih6x")
+id = 81
+display_name = "Magnemite"
+category = "Magnet"
+national_dex = 81
+pokedex = "The units at its sides are extremely
+powerful magnets. They generate enough
+magnetism to draw in iron objects from
+over 300 feet away."
+type_1 = 14
+base_hp = 25
+base_atk = 35
+base_def = 70
+base_spa = 95
+base_spd = 55
+base_spe = 45
+ev_spa = 1
+catch_rate = 190
+base_exp = 65
+gender_ratio = 255
+egg_group_1 = 10
+ability_1 = 42
+ability_2 = 5
+ability_hidden = 148
+item_rare = 441
+height_dm = 3
+weight_hg = 60
+body_color = 7
+level_moves = Array[ExtResource("3_earin")]([SubResource("Resource_igwyg"), SubResource("Resource_cvrjq"), SubResource("Resource_f6nm2"), SubResource("Resource_f1utl"), SubResource("Resource_dokcf"), SubResource("Resource_c7v8l"), SubResource("Resource_nngnk"), SubResource("Resource_13nt8"), SubResource("Resource_5aslg"), SubResource("Resource_wghm6"), SubResource("Resource_imnmv"), SubResource("Resource_7js1y"), SubResource("Resource_7xv0p"), SubResource("Resource_3ss6s"), SubResource("Resource_pj38f")])
+evolutions = Array[ExtResource("1_420sb")]([SubResource("Resource_64ixy")])

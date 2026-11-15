@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dr11kiv6xcyvo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_b51ii"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ch0l3"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k7jmo"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sfqx1"]
+
+[sub_resource type="Resource" id="Resource_rltj7"]
+script = ExtResource("1_b51ii")
+method = "LEVEL"
+param = "33"
+target = 221
+
+[sub_resource type="Resource" id="Resource_hbql0"]
+script = ExtResource("3_k7jmo")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ff6oq"]
+script = ExtResource("3_k7jmo")
+move = 189
+
+[sub_resource type="Resource" id="Resource_3gh5o"]
+script = ExtResource("3_k7jmo")
+level = 5
+move = 181
+
+[sub_resource type="Resource" id="Resource_7e3dm"]
+script = ExtResource("3_k7jmo")
+level = 10
+move = 175
+
+[sub_resource type="Resource" id="Resource_l5d1f"]
+script = ExtResource("3_k7jmo")
+level = 15
+move = 420
+
+[sub_resource type="Resource" id="Resource_kx4n7"]
+script = ExtResource("3_k7jmo")
+level = 20
+move = 54
+
+[sub_resource type="Resource" id="Resource_3ksvr"]
+script = ExtResource("3_k7jmo")
+level = 25
+move = 203
+
+[sub_resource type="Resource" id="Resource_xsmuf"]
+script = ExtResource("3_k7jmo")
+level = 30
+move = 196
+
+[sub_resource type="Resource" id="Resource_wxnsj"]
+script = ExtResource("3_k7jmo")
+level = 35
+move = 133
+
+[sub_resource type="Resource" id="Resource_qerxp"]
+script = ExtResource("3_k7jmo")
+level = 40
+move = 36
+
+[sub_resource type="Resource" id="Resource_2vuc2"]
+script = ExtResource("3_k7jmo")
+level = 45
+move = 89
+
+[sub_resource type="Resource" id="Resource_j1ouj"]
+script = ExtResource("3_k7jmo")
+level = 50
+move = 59
+
+[resource]
+script = ExtResource("4_sfqx1")
+id = 220
+display_name = "Swinub"
+category = "Pig"
+national_dex = 220
+pokedex = "It roots for food by rubbing its snout
+against the ground. Its favorite food is a
+mushroom that grows under dried grass.
+It occasionally roots out hot springs."
+type_1 = 16
+type_2 = 5
+base_hp = 50
+base_atk = 50
+base_def = 40
+base_spa = 30
+base_spd = 30
+base_spe = 50
+ev_atk = 1
+catch_rate = 225
+base_exp = 50
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 12
+ability_hidden = 47
+height_dm = 4
+weight_hg = 65
+body_color = 5
+level_moves = Array[ExtResource("3_k7jmo")]([SubResource("Resource_hbql0"), SubResource("Resource_ff6oq"), SubResource("Resource_3gh5o"), SubResource("Resource_7e3dm"), SubResource("Resource_l5d1f"), SubResource("Resource_kx4n7"), SubResource("Resource_3ksvr"), SubResource("Resource_xsmuf"), SubResource("Resource_wxnsj"), SubResource("Resource_qerxp"), SubResource("Resource_2vuc2"), SubResource("Resource_j1ouj")])
+egg_moves = Array[int]([36, 44, 34, 246, 341, 333, 38, 90, 174, 341, 419, 446, 556, 573])
+evolutions = Array[ExtResource("1_b51ii")]([SubResource("Resource_rltj7")])

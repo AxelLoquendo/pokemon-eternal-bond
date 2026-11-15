@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cpuvvs2uar7nf"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qtlea"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_dhcd0"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4raat"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_j2waq"]
+
+[sub_resource type="Resource" id="Resource_1u424"]
+script = ExtResource("3_4raat")
+move = 16
+
+[sub_resource type="Resource" id="Resource_ktxh1"]
+script = ExtResource("3_4raat")
+move = 43
+
+[sub_resource type="Resource" id="Resource_unfla"]
+script = ExtResource("3_4raat")
+move = 74
+
+[sub_resource type="Resource" id="Resource_in8eu"]
+script = ExtResource("3_4raat")
+move = 75
+
+[sub_resource type="Resource" id="Resource_4vrqv"]
+script = ExtResource("3_4raat")
+move = 437
+
+[sub_resource type="Resource" id="Resource_217vm"]
+script = ExtResource("3_4raat")
+level = 6
+move = 230
+
+[sub_resource type="Resource" id="Resource_wakbd"]
+script = ExtResource("3_4raat")
+level = 10
+move = 23
+
+[sub_resource type="Resource" id="Resource_vkrtx"]
+script = ExtResource("3_4raat")
+level = 16
+move = 345
+
+[sub_resource type="Resource" id="Resource_nybtv"]
+script = ExtResource("3_4raat")
+level = 21
+move = 18
+
+[sub_resource type="Resource" id="Resource_wwqex"]
+script = ExtResource("3_4raat")
+level = 30
+move = 469
+
+[sub_resource type="Resource" id="Resource_4umkf"]
+script = ExtResource("3_4raat")
+level = 36
+move = 403
+
+[sub_resource type="Resource" id="Resource_dlu5h"]
+script = ExtResource("3_4raat")
+level = 41
+move = 34
+
+[sub_resource type="Resource" id="Resource_1s7ir"]
+script = ExtResource("3_4raat")
+level = 46
+move = 200
+
+[sub_resource type="Resource" id="Resource_f4cky"]
+script = ExtResource("3_4raat")
+level = 50
+move = 235
+
+[sub_resource type="Resource" id="Resource_3berh"]
+script = ExtResource("3_4raat")
+level = 56
+move = 76
+
+[resource]
+script = ExtResource("4_j2waq")
+id = 357
+display_name = "Tropius"
+category = "Fruit"
+national_dex = 357
+pokedex = "It flies by flapping its broad leaves.
+The bunch of fruit that grows around its
+neck is deliciously sweet. In the spring,
+it scatters pollen from its neck."
+type_1 = 13
+type_2 = 3
+base_hp = 99
+base_atk = 68
+base_def = 83
+base_spa = 72
+base_spd = 87
+base_spe = 51
+ev_hp = 2
+catch_rate = 200
+base_exp = 161
+growth_rate = 5
+egg_cycles = 25
+egg_group_1 = 1
+egg_group_2 = 7
+ability_1 = 34
+ability_hidden = 139
+height_dm = 20
+weight_hg = 1000
+body_color = 3
+level_moves = Array[ExtResource("3_4raat")]([SubResource("Resource_1u424"), SubResource("Resource_ktxh1"), SubResource("Resource_unfla"), SubResource("Resource_in8eu"), SubResource("Resource_4vrqv"), SubResource("Resource_217vm"), SubResource("Resource_wakbd"), SubResource("Resource_vkrtx"), SubResource("Resource_nybtv"), SubResource("Resource_wwqex"), SubResource("Resource_4umkf"), SubResource("Resource_dlu5h"), SubResource("Resource_1s7ir"), SubResource("Resource_f4cky"), SubResource("Resource_3berh")])
+egg_moves = Array[int]([29, 21, 13, 73, 267, 437, 235, 174, 348, 349, 331, 363, 655])

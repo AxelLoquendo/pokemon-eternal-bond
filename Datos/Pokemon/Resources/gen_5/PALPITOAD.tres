@@ -1,0 +1,110 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cpwovvgn0kmal"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_45w8k"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_sl74v"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4tpof"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xlmsy"]
+
+[sub_resource type="Resource" id="Resource_5mkv7"]
+script = ExtResource("1_45w8k")
+method = "LEVEL"
+param = "36"
+target = 537
+
+[sub_resource type="Resource" id="Resource_nw2eh"]
+script = ExtResource("3_4tpof")
+move = 497
+
+[sub_resource type="Resource" id="Resource_pyara"]
+script = ExtResource("3_4tpof")
+move = 45
+
+[sub_resource type="Resource" id="Resource_odj0f"]
+script = ExtResource("3_4tpof")
+move = 51
+
+[sub_resource type="Resource" id="Resource_jdwo8"]
+script = ExtResource("3_4tpof")
+move = 48
+
+[sub_resource type="Resource" id="Resource_sm2uq"]
+script = ExtResource("3_4tpof")
+level = 12
+move = 341
+
+[sub_resource type="Resource" id="Resource_j5xsb"]
+script = ExtResource("3_4tpof")
+level = 16
+move = 496
+
+[sub_resource type="Resource" id="Resource_a0mnc"]
+script = ExtResource("3_4tpof")
+level = 20
+move = 61
+
+[sub_resource type="Resource" id="Resource_gkdpo"]
+script = ExtResource("3_4tpof")
+level = 24
+move = 175
+
+[sub_resource type="Resource" id="Resource_g1564"]
+script = ExtResource("3_4tpof")
+level = 30
+move = 253
+
+[sub_resource type="Resource" id="Resource_s3kq3"]
+script = ExtResource("3_4tpof")
+level = 37
+move = 392
+
+[sub_resource type="Resource" id="Resource_mwxdr"]
+script = ExtResource("3_4tpof")
+level = 42
+move = 304
+
+[sub_resource type="Resource" id="Resource_3xdok"]
+script = ExtResource("3_4tpof")
+level = 48
+move = 330
+
+[sub_resource type="Resource" id="Resource_e8kkx"]
+script = ExtResource("3_4tpof")
+level = 54
+move = 240
+
+[sub_resource type="Resource" id="Resource_gkd0e"]
+script = ExtResource("3_4tpof")
+level = 60
+move = 56
+
+[resource]
+script = ExtResource("4_xlmsy")
+id = 536
+display_name = "Palpitoad"
+category = "Vibration"
+national_dex = 536
+pokedex = "It lives in the water and on land.
+When they vibrate the bumps on their
+heads, they can make waves in water
+or earthquake-like vibrations on land."
+type_1 = 12
+type_2 = 5
+base_hp = 75
+base_atk = 65
+base_def = 55
+base_spa = 65
+base_spd = 55
+base_spe = 69
+ev_hp = 2
+catch_rate = 120
+base_exp = 134
+growth_rate = 3
+egg_group_1 = 2
+ability_1 = 33
+ability_2 = 93
+ability_hidden = 11
+height_dm = 8
+weight_hg = 170
+body_color = 1
+level_moves = Array[ExtResource("3_4tpof")]([SubResource("Resource_nw2eh"), SubResource("Resource_pyara"), SubResource("Resource_odj0f"), SubResource("Resource_jdwo8"), SubResource("Resource_sm2uq"), SubResource("Resource_j5xsb"), SubResource("Resource_a0mnc"), SubResource("Resource_gkdpo"), SubResource("Resource_g1564"), SubResource("Resource_s3kq3"), SubResource("Resource_mwxdr"), SubResource("Resource_3xdok"), SubResource("Resource_e8kkx"), SubResource("Resource_gkd0e")])
+evolutions = Array[ExtResource("1_45w8k")]([SubResource("Resource_5mkv7")])
