@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://v4hjbo1vnutw"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_mmo4e"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_dg1wj"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dii8b"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kui7c"]
+
+[sub_resource type="Resource" id="Resource_ev0ge"]
+script = ExtResource("3_dii8b")
+level = 0
+move = 705
+
+[sub_resource type="Resource" id="Resource_ddkqt"]
+script = ExtResource("3_dii8b")
+move = 33
+
+[sub_resource type="Resource" id="Resource_q0rx4"]
+script = ExtResource("3_dii8b")
+move = 186
+
+[sub_resource type="Resource" id="Resource_shq3k"]
+script = ExtResource("3_dii8b")
+move = 230
+
+[sub_resource type="Resource" id="Resource_4curv"]
+script = ExtResource("3_dii8b")
+move = 597
+
+[sub_resource type="Resource" id="Resource_4e0xf"]
+script = ExtResource("3_dii8b")
+level = 15
+move = 577
+
+[sub_resource type="Resource" id="Resource_clsdl"]
+script = ExtResource("3_dii8b")
+level = 20
+move = 204
+
+[sub_resource type="Resource" id="Resource_n7vgd"]
+script = ExtResource("3_dii8b")
+level = 25
+move = 213
+
+[sub_resource type="Resource" id="Resource_f0kwp"]
+script = ExtResource("3_dii8b")
+level = 30
+move = 151
+
+[sub_resource type="Resource" id="Resource_7rs13"]
+script = ExtResource("3_dii8b")
+level = 35
+move = 605
+
+[sub_resource type="Resource" id="Resource_e5fn8"]
+script = ExtResource("3_dii8b")
+level = 40
+move = 105
+
+[sub_resource type="Resource" id="Resource_lcmea"]
+script = ExtResource("3_dii8b")
+level = 45
+move = 581
+
+[sub_resource type="Resource" id="Resource_le82s"]
+script = ExtResource("3_dii8b")
+level = 50
+move = 494
+
+[resource]
+script = ExtResource("4_kui7c")
+id = 1218
+display_name = "Alcremie Strawberry Mint Cream"
+category = "Cream"
+national_dex = 869
+pokedex = "It launches swarms of missiles,
+each made of cream and loaded with
+100,000 kilocalories. Get hit by one of
+these, and your head will swim."
+type_1 = 1
+height_dm = 3
+weight_hg = 5
+level_moves = Array[ExtResource("3_dii8b")]([SubResource("Resource_ev0ge"), SubResource("Resource_ddkqt"), SubResource("Resource_q0rx4"), SubResource("Resource_shq3k"), SubResource("Resource_4curv"), SubResource("Resource_4e0xf"), SubResource("Resource_clsdl"), SubResource("Resource_n7vgd"), SubResource("Resource_f0kwp"), SubResource("Resource_7rs13"), SubResource("Resource_e5fn8"), SubResource("Resource_lcmea"), SubResource("Resource_le82s")])
+form_species = Array[int]([869, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1235, 1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277, 1278, 1279, 1280, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1518])

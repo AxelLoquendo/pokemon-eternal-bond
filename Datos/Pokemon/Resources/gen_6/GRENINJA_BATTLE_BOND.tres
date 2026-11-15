@@ -1,0 +1,117 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://pjkss6hnmkph"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_l8ogg"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_j6jw6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bvnpe"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fv0x1"]
+
+[sub_resource type="Resource" id="Resource_a3rn6"]
+script = ExtResource("3_bvnpe")
+level = 0
+move = 594
+
+[sub_resource type="Resource" id="Resource_xwjrq"]
+script = ExtResource("3_bvnpe")
+move = 400
+
+[sub_resource type="Resource" id="Resource_ugfj5"]
+script = ExtResource("3_bvnpe")
+move = 272
+
+[sub_resource type="Resource" id="Resource_b6ocj"]
+script = ExtResource("3_bvnpe")
+move = 114
+
+[sub_resource type="Resource" id="Resource_6ync7"]
+script = ExtResource("3_bvnpe")
+move = 1
+
+[sub_resource type="Resource" id="Resource_6f0xd"]
+script = ExtResource("3_bvnpe")
+move = 55
+
+[sub_resource type="Resource" id="Resource_s8kqv"]
+script = ExtResource("3_bvnpe")
+move = 45
+
+[sub_resource type="Resource" id="Resource_vjq0o"]
+script = ExtResource("3_bvnpe")
+move = 98
+
+[sub_resource type="Resource" id="Resource_yn3hc"]
+script = ExtResource("3_bvnpe")
+level = 10
+move = 122
+
+[sub_resource type="Resource" id="Resource_y1ckj"]
+script = ExtResource("3_bvnpe")
+level = 14
+move = 352
+
+[sub_resource type="Resource" id="Resource_7pryp"]
+script = ExtResource("3_bvnpe")
+level = 19
+move = 108
+
+[sub_resource type="Resource" id="Resource_503pu"]
+script = ExtResource("3_bvnpe")
+level = 23
+move = 425
+
+[sub_resource type="Resource" id="Resource_45qli"]
+script = ExtResource("3_bvnpe")
+level = 28
+move = 191
+
+[sub_resource type="Resource" id="Resource_6d4gc"]
+script = ExtResource("3_bvnpe")
+level = 33
+move = 332
+
+[sub_resource type="Resource" id="Resource_0tlwu"]
+script = ExtResource("3_bvnpe")
+level = 42
+move = 164
+
+[sub_resource type="Resource" id="Resource_1sss1"]
+script = ExtResource("3_bvnpe")
+level = 49
+move = 326
+
+[sub_resource type="Resource" id="Resource_dtlov"]
+script = ExtResource("3_bvnpe")
+level = 56
+move = 104
+
+[sub_resource type="Resource" id="Resource_jng1v"]
+script = ExtResource("3_bvnpe")
+level = 68
+move = 56
+
+[resource]
+script = ExtResource("4_fv0x1")
+id = 1112
+display_name = "Greninja Battle Bond"
+category = "Ninja"
+national_dex = 658
+type_1 = 12
+type_2 = 18
+base_hp = 72
+base_atk = 95
+base_def = 67
+base_spa = 103
+base_spd = 71
+base_spe = 122
+ev_spe = 3
+base_exp = 265
+gender_ratio = 31
+growth_rate = 3
+egg_group_1 = 2
+ability_1 = 67
+ability_hidden = 168
+height_dm = 15
+weight_hg = 400
+body_color = 1
+no_flip = true
+level_moves = Array[ExtResource("3_bvnpe")]([SubResource("Resource_a3rn6"), SubResource("Resource_xwjrq"), SubResource("Resource_ugfj5"), SubResource("Resource_b6ocj"), SubResource("Resource_6ync7"), SubResource("Resource_6f0xd"), SubResource("Resource_s8kqv"), SubResource("Resource_vjq0o"), SubResource("Resource_yn3hc"), SubResource("Resource_y1ckj"), SubResource("Resource_7pryp"), SubResource("Resource_503pu"), SubResource("Resource_45qli"), SubResource("Resource_6d4gc"), SubResource("Resource_0tlwu"), SubResource("Resource_1sss1"), SubResource("Resource_dtlov"), SubResource("Resource_jng1v")])
+form_species = Array[int]([658, 1112, 1113, 1540])

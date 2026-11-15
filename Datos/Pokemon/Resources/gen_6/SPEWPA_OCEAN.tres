@@ -1,0 +1,47 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dfdam8nen3fsv"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_u24g0"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hb8fl"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ddu8a"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tafeh"]
+
+[sub_resource type="Resource" id="Resource_ikbhd"]
+script = ExtResource("1_u24g0")
+method = "LEVEL"
+param = "12"
+
+[sub_resource type="Resource" id="Resource_dxunq"]
+script = ExtResource("3_ddu8a")
+level = 0
+move = 182
+
+[sub_resource type="Resource" id="Resource_d6y7i"]
+script = ExtResource("3_ddu8a")
+move = 106
+
+[resource]
+script = ExtResource("4_tafeh")
+id = 1472
+display_name = "Spewpa Ocean"
+category = "Scatterdust"
+national_dex = 665
+type_1 = 7
+base_hp = 45
+base_atk = 22
+base_def = 60
+base_spa = 27
+base_spd = 30
+base_spe = 29
+ev_def = 2
+catch_rate = 120
+base_exp = 75
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 61
+ability_hidden = 132
+height_dm = 3
+weight_hg = 84
+body_color = 4
+level_moves = Array[ExtResource("3_ddu8a")]([SubResource("Resource_dxunq"), SubResource("Resource_d6y7i")])
+evolutions = Array[ExtResource("1_u24g0")]([SubResource("Resource_ikbhd")])
+form_species = Array[int]([665, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475])

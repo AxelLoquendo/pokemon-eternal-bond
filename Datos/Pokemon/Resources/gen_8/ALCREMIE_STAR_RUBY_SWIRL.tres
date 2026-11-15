@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ljri0julm30x"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_g7bdc"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_edj5s"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qjulb"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_j6e6u"]
+
+[sub_resource type="Resource" id="Resource_dciau"]
+script = ExtResource("3_qjulb")
+level = 0
+move = 705
+
+[sub_resource type="Resource" id="Resource_mnxab"]
+script = ExtResource("3_qjulb")
+move = 33
+
+[sub_resource type="Resource" id="Resource_pnxeq"]
+script = ExtResource("3_qjulb")
+move = 186
+
+[sub_resource type="Resource" id="Resource_o1tsj"]
+script = ExtResource("3_qjulb")
+move = 230
+
+[sub_resource type="Resource" id="Resource_wnv2q"]
+script = ExtResource("3_qjulb")
+move = 597
+
+[sub_resource type="Resource" id="Resource_m5cr0"]
+script = ExtResource("3_qjulb")
+level = 15
+move = 577
+
+[sub_resource type="Resource" id="Resource_fxqox"]
+script = ExtResource("3_qjulb")
+level = 20
+move = 204
+
+[sub_resource type="Resource" id="Resource_wyhpg"]
+script = ExtResource("3_qjulb")
+level = 25
+move = 213
+
+[sub_resource type="Resource" id="Resource_s27ok"]
+script = ExtResource("3_qjulb")
+level = 30
+move = 151
+
+[sub_resource type="Resource" id="Resource_uaqh6"]
+script = ExtResource("3_qjulb")
+level = 35
+move = 605
+
+[sub_resource type="Resource" id="Resource_o5uwy"]
+script = ExtResource("3_qjulb")
+level = 40
+move = 105
+
+[sub_resource type="Resource" id="Resource_rtk4h"]
+script = ExtResource("3_qjulb")
+level = 45
+move = 581
+
+[sub_resource type="Resource" id="Resource_p8sbx"]
+script = ExtResource("3_qjulb")
+level = 50
+move = 494
+
+[resource]
+script = ExtResource("4_j6e6u")
+id = 1259
+display_name = "Alcremie Star Ruby Swirl"
+category = "Cream"
+national_dex = 869
+pokedex = "It launches swarms of missiles,
+each made of cream and loaded with
+100,000 kilocalories. Get hit by one of
+these, and your head will swim."
+type_1 = 1
+height_dm = 3
+weight_hg = 5
+level_moves = Array[ExtResource("3_qjulb")]([SubResource("Resource_dciau"), SubResource("Resource_mnxab"), SubResource("Resource_pnxeq"), SubResource("Resource_o1tsj"), SubResource("Resource_wnv2q"), SubResource("Resource_m5cr0"), SubResource("Resource_fxqox"), SubResource("Resource_wyhpg"), SubResource("Resource_s27ok"), SubResource("Resource_uaqh6"), SubResource("Resource_o5uwy"), SubResource("Resource_rtk4h"), SubResource("Resource_p8sbx")])
+form_species = Array[int]([869, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1235, 1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277, 1278, 1279, 1280, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1518])

@@ -1,0 +1,83 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b4drr0i7qox3g"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_gpln4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hr4st"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qfkax"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_2xv1q"]
+
+[sub_resource type="Resource" id="Resource_is5p6"]
+script = ExtResource("3_qfkax")
+level = 0
+move = 705
+
+[sub_resource type="Resource" id="Resource_f8pos"]
+script = ExtResource("3_qfkax")
+move = 33
+
+[sub_resource type="Resource" id="Resource_o3734"]
+script = ExtResource("3_qfkax")
+move = 186
+
+[sub_resource type="Resource" id="Resource_loows"]
+script = ExtResource("3_qfkax")
+move = 230
+
+[sub_resource type="Resource" id="Resource_di8jg"]
+script = ExtResource("3_qfkax")
+move = 597
+
+[sub_resource type="Resource" id="Resource_kiocy"]
+script = ExtResource("3_qfkax")
+level = 15
+move = 577
+
+[sub_resource type="Resource" id="Resource_poh3q"]
+script = ExtResource("3_qfkax")
+level = 20
+move = 204
+
+[sub_resource type="Resource" id="Resource_yt7qg"]
+script = ExtResource("3_qfkax")
+level = 25
+move = 213
+
+[sub_resource type="Resource" id="Resource_s75lt"]
+script = ExtResource("3_qfkax")
+level = 30
+move = 151
+
+[sub_resource type="Resource" id="Resource_f108j"]
+script = ExtResource("3_qfkax")
+level = 35
+move = 605
+
+[sub_resource type="Resource" id="Resource_qt1v1"]
+script = ExtResource("3_qfkax")
+level = 40
+move = 105
+
+[sub_resource type="Resource" id="Resource_q5fa0"]
+script = ExtResource("3_qfkax")
+level = 45
+move = 581
+
+[sub_resource type="Resource" id="Resource_uy0it"]
+script = ExtResource("3_qfkax")
+level = 50
+move = 494
+
+[resource]
+script = ExtResource("4_2xv1q")
+id = 1258
+display_name = "Alcremie Star Salted Cream"
+category = "Cream"
+national_dex = 869
+pokedex = "It launches swarms of missiles,
+each made of cream and loaded with
+100,000 kilocalories. Get hit by one of
+these, and your head will swim."
+type_1 = 1
+height_dm = 3
+weight_hg = 5
+level_moves = Array[ExtResource("3_qfkax")]([SubResource("Resource_is5p6"), SubResource("Resource_f8pos"), SubResource("Resource_o3734"), SubResource("Resource_loows"), SubResource("Resource_di8jg"), SubResource("Resource_kiocy"), SubResource("Resource_poh3q"), SubResource("Resource_yt7qg"), SubResource("Resource_s75lt"), SubResource("Resource_f108j"), SubResource("Resource_qt1v1"), SubResource("Resource_q5fa0"), SubResource("Resource_uy0it")])
+form_species = Array[int]([869, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1235, 1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277, 1278, 1279, 1280, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1518])
