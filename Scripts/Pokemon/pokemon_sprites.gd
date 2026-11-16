@@ -1,37 +1,25 @@
 extends Node
-## Resuelve texturas desde Graficos/Pokemon/<carpeta>/.
-## Caché por path. Incluye:
-##  1) Fallback a carpeta padre (iconos de formas size/segment)
-##  2) Overrides de folder (Squawkabilly, Deerling, …)
-##  3) Resolver especial Alcremie (sweet + cream)
+## Resuelve texturas desde Graficos/Pokemon/.
+##
+## NO confía ciegamente en SpeciesId._SPRITE_FOLDER (está incompleto y
+## a veces apunta a otra especie). Orden:
+##   1) Resolver por token contra carpetas que existen en disco
+##   2) Casos especiales (Alcremie sweet+cream, alias poke_ball)
+##   3) Fallback al mapa de SpeciesId
+##   4) Carpeta padre (iconos de formas size/segment)
+##
+## Caché por path. No precarga el pack entero.
 
 const ROOT: String = "res://Graficos/Pokemon/"
 
-var _cache: Dictionary = {} # path -> Texture2D
-
-## Corrige mapeos rotos / incompletos de SpeciesId._SPRITE_FOLDER
-## sin regenerar species_id.gd entero.
-const FOLDER_OVERRIDES: Dictionary = {
-	# Squawkabilly — carpetas de color existen
-	SpeciesId.Id.SQUAWKABILLY_GREEN: "squawkabilly",
-	SpeciesId.Id.SQUAWKABILLY_BLUE: "squawkabilly/blue",
-	SpeciesId.Id.SQUAWKABILLY_YELLOW: "squawkabilly/yellow",
-	SpeciesId.Id.SQUAWKABILLY_WHITE: "squawkabilly/white",
-	# Deerling — seasons
-	SpeciesId.Id.DEERLING_SPRING: "deerling",
-	SpeciesId.Id.DEERLING_SUMMER: "deerling/summer",
-	SpeciesId.Id.DEERLING_AUTUMN: "deerling/autumn",
-	SpeciesId.Id.DEERLING_WINTER: "deerling/winter",
-	# Sawsbuck (summer/autumn/winter ya estaban bien; spring base)
-	SpeciesId.Id.SAWSBUCK_SPRING: "sawsbuck",
-	SpeciesId.Id.SAWSBUCK_SUMMER: "sawsbuck/summer",
-	SpeciesId.Id.SAWSBUCK_AUTUMN: "sawsbuck/autumn",
-	SpeciesId.Id.SAWSBUCK_WINTER: "sawsbuck/winter",
-	# Alcremie GMAX (el resto se resuelve por token)
-	SpeciesId.Id.ALCREMIE_GMAX: "alcremie/gmax",
-	# Base strawberry vanilla no debe ir a gmax
-	SpeciesId.Id.ALCREMIE_STRAWBERRY_VANILLA_CREAM: "alcremie",
+## Sufijos de forma cuyo nombre de carpeta no coincide 1:1 con el token.
+const FORM_ALIASES: Dictionary = {
+	"pokeball": "poke_ball",
+	"poke_ball": "poke_ball",
 }
+
+var _cache: Dictionary = {} # path -> Texture2D
+var _folder_cache: Dictionary = {} # SpeciesId.Id -> String folder
 
 
 func get_front(id: SpeciesId.Id, shiny: bool = false, female: bool = false) -> Texture2D:
@@ -47,25 +35,33 @@ func get_icon(id: SpeciesId.Id) -> Texture2D:
 
 
 func folder_for(id: SpeciesId.Id) -> String:
-	## Útil para el sprite test / debug.
-	if FOLDER_OVERRIDES.has(id):
-		return str(FOLDER_OVERRIDES[id])
+	if id == SpeciesId.Id.NONE:
+		return ""
+	if _folder_cache.has(id):
+		return str(_folder_cache[id])
 	var token: String = SpeciesId.to_token(id)
-	if token.begins_with("ALCREMIE_") and token != "ALCREMIE_GMAX":
-		var parsed: Dictionary = _parse_alcremie(token)
-		if not parsed.is_empty():
-			return str(parsed.get("folder", "alcremie"))
-	return SpeciesId.sprite_folder(id)
+	var folder: String = _resolve_folder(token)
+	_folder_cache[id] = folder
+	return folder
 
+
+func clear_cache() -> void:
+	_cache.clear()
+	_folder_cache.clear()
+
+
+# ---------------------------------------------------------------------------
+# Carga
+# ---------------------------------------------------------------------------
 
 func _load_kind(id: SpeciesId.Id, kind: String, shiny: bool, female: bool) -> Texture2D:
-	# --- Alcremie: paths compuestos ---
 	var token: String = SpeciesId.to_token(id)
-	if token.begins_with("ALCREMIE_") and id != SpeciesId.Id.ALCREMIE_GMAX:
+
+	# Alcremie: archivos compuestos front_berry_lemon_cream.png, etc.
+	if token.begins_with("ALCREMIE_"):
 		var tex_a: Texture2D = _load_alcremie(token, kind, shiny)
 		if tex_a != null:
 			return tex_a
-		# si falla, sigue con folder genérico
 
 	var folder: String = folder_for(id)
 	if folder.is_empty():
@@ -76,7 +72,7 @@ func _load_kind(id: SpeciesId.Id, kind: String, shiny: bool, female: bool) -> Te
 		if tex != null:
 			return tex
 
-	# Fallback carpeta padre (p.ej. pumpkaboo/super → pumpkaboo)
+	# Icon / missing form art → carpeta padre
 	var parent: String = _parent_folder(folder)
 	if not parent.is_empty():
 		for path2 in _candidate_paths(parent, kind, shiny, female):
@@ -85,105 +81,6 @@ func _load_kind(id: SpeciesId.Id, kind: String, shiny: bool, female: bool) -> Te
 				return tex2
 
 	return null
-
-
-# ---------------------------------------------------------------------------
-# Alcremie
-# Token: ALCREMIE_<SWEET>_<CREAM>
-#   SWEET: STRAWBERRY | BERRY | LOVE | STAR | CLOVER | FLOWER | RIBBON
-#   CREAM: VANILLA_CREAM | RUBY_CREAM | MATCHA_CREAM | MINT_CREAM |
-#          LEMON_CREAM | SALTED_CREAM | RUBY_SWIRL | CARAMEL_SWIRL | RAINBOW_SWIRL
-#
-# Archivos del pack:
-#   strawberry + vanilla  → alcremie/front.png
-#   strawberry + other    → alcremie/<cream>/front.png  (si existe)
-#   other sweet + cream   → alcremie/<sweet>/front_<sweet>_<cream>.png
-#   fallback              → alcremie/<sweet>/front.png  o  alcremie/front.png
-# ---------------------------------------------------------------------------
-
-func _parse_alcremie(token: String) -> Dictionary:
-	# Quita prefijo ALCREMIE_
-	var rest: String = token.substr("ALCREMIE_".length())
-	var sweets: PackedStringArray = PackedStringArray([
-		"STRAWBERRY", "BERRY", "LOVE", "STAR", "CLOVER", "FLOWER", "RIBBON"
-	])
-	var sweet: String = ""
-	var cream: String = ""
-	for s: String in sweets:
-		if rest.begins_with(s + "_"):
-			sweet = s
-			cream = rest.substr(s.length() + 1)
-			break
-	if sweet.is_empty() or cream.is_empty():
-		return {}
-	var sweet_l: String = sweet.to_lower()
-	var cream_l: String = cream.to_lower()
-	var folder: String = "alcremie"
-	if sweet_l != "strawberry":
-		folder = "alcremie/" + sweet_l
-	elif cream_l != "vanilla_cream":
-		folder = "alcremie/" + cream_l
-	return {
-		"sweet": sweet_l,
-		"cream": cream_l,
-		"folder": folder,
-	}
-
-
-func _load_alcremie(token: String, kind: String, shiny: bool) -> Texture2D:
-	var parsed: Dictionary = _parse_alcremie(token)
-	if parsed.is_empty():
-		return null
-	var sweet: String = str(parsed["sweet"])
-	var cream: String = str(parsed["cream"])
-	var folder: String = str(parsed["folder"])
-
-	var candidates: PackedStringArray = PackedStringArray()
-
-	if kind == "icon":
-		# Casi nunca hay icon por crema; padre alcremie/icon.png
-		candidates.append(ROOT + folder + "/icon.png")
-		candidates.append(ROOT + "alcremie/icon.png")
-	else:
-		var base: String = kind
-		var shiny_suf: String = "_shiny" if shiny else ""
-		if sweet == "strawberry":
-			if cream == "vanilla_cream":
-				candidates.append(ROOT + "alcremie/%s%s.png" % [base, shiny_suf])
-				candidates.append(ROOT + "alcremie/%s.png" % base)
-			else:
-				# alcremie/lemon_cream/front.png
-				candidates.append(ROOT + "alcremie/%s/%s%s.png" % [cream, base, shiny_suf])
-				candidates.append(ROOT + "alcremie/%s/%s.png" % [cream, base])
-				candidates.append(ROOT + "alcremie/%s%s.png" % [base, shiny_suf])
-				candidates.append(ROOT + "alcremie/%s.png" % base)
-		else:
-			# alcremie/berry/front_berry_lemon_cream.png
-			candidates.append(ROOT + "alcremie/%s/%s_%s_%s%s.png" % [sweet, base, sweet, cream, shiny_suf])
-			candidates.append(ROOT + "alcremie/%s/%s_%s_%s.png" % [sweet, base, sweet, cream])
-			# genérico del sweet
-			candidates.append(ROOT + "alcremie/%s/%s%s.png" % [sweet, base, shiny_suf])
-			candidates.append(ROOT + "alcremie/%s/%s.png" % [sweet, base])
-			# raíz
-			candidates.append(ROOT + "alcremie/%s%s.png" % [base, shiny_suf])
-			candidates.append(ROOT + "alcremie/%s.png" % base)
-
-	for path: String in candidates:
-		var tex: Texture2D = _get_or_load(path)
-		if tex != null:
-			return tex
-	return null
-
-
-# ---------------------------------------------------------------------------
-# Paths genéricos
-# ---------------------------------------------------------------------------
-
-func _parent_folder(folder: String) -> String:
-	var idx: int = folder.rfind("/")
-	if idx <= 0:
-		return ""
-	return folder.substr(0, idx)
 
 
 func _candidate_paths(folder: String, kind: String, shiny: bool, female: bool) -> PackedStringArray:
@@ -205,6 +102,13 @@ func _candidate_paths(folder: String, kind: String, shiny: bool, female: bool) -
 	return out
 
 
+func _parent_folder(folder: String) -> String:
+	var idx: int = folder.rfind("/")
+	if idx <= 0:
+		return ""
+	return folder.substr(0, idx)
+
+
 func _get_or_load(path: String) -> Texture2D:
 	if _cache.has(path):
 		return _cache[path] as Texture2D
@@ -216,5 +120,162 @@ func _get_or_load(path: String) -> Texture2D:
 	return tex
 
 
-func clear_cache() -> void:
-	_cache.clear()
+func _path_exists(rel: String) -> bool:
+	## rel relativo a ROOT, p.ej. "scatterbug/front.png"
+	return ResourceLoader.exists(ROOT + rel)
+
+
+func _has_front(folder: String) -> bool:
+	if folder.is_empty():
+		return false
+	return _path_exists(folder + "/front.png")
+
+
+# ---------------------------------------------------------------------------
+# Resolver de carpeta por token (fuente de verdad = disco)
+# ---------------------------------------------------------------------------
+
+func _resolve_folder(token: String) -> String:
+	if token.is_empty():
+		return ""
+
+	if token.begins_with("ALCREMIE_"):
+		return _alcremie_folder(token)
+
+	var parts: PackedStringArray = token.to_lower().split("_")
+	if parts.is_empty():
+		return ""
+
+	# 1) Forma más específica: base/form si existe front.png
+	#    i=1 → base corta, form largo (squawkabilly/blue, vivillon/high_plains)
+	for i: int in range(1, parts.size()):
+		var base: String = "_".join(parts.slice(0, i))
+		var form: String = "_".join(parts.slice(i, parts.size()))
+		for form_try: String in _form_candidates(form, parts, i):
+			var folder: String = base + "/" + form_try
+			if _has_front(folder):
+				return folder
+
+	# 2) Carpeta base, de la más larga a la más corta
+	#    (mr_mime_galar ya se resolvió arriba; nidoran_f, ho_oh, type_null…)
+	for i: int in range(parts.size(), 0, -1):
+		var base2: String = "_".join(parts.slice(0, i))
+		if _has_front(base2):
+			return base2
+
+	# 3) Último recurso: mapa de SpeciesId (puede estar mal; solo si hay front)
+	var mapped: String = SpeciesId.sprite_folder(SpeciesId.from_token(token))
+	if _has_front(mapped):
+		return mapped
+	var parent: String = _parent_folder(mapped)
+	if _has_front(parent):
+		return parent
+
+	return ""
+
+
+func _form_candidates(form: String, parts: PackedStringArray, form_start: int) -> PackedStringArray:
+	var out: PackedStringArray = PackedStringArray()
+	out.append(form)
+	if FORM_ALIASES.has(form):
+		out.append(str(FORM_ALIASES[form]))
+	# MINIOR_CORE_RED → minior/core (primera palabra de la forma)
+	if form_start < parts.size() and parts[form_start] != form:
+		out.append(parts[form_start])
+	return out
+
+
+# ---------------------------------------------------------------------------
+# Alcremie
+# ---------------------------------------------------------------------------
+
+func _alcremie_folder(token: String) -> String:
+	if token == "ALCREMIE_GMAX":
+		if _has_front("alcremie/gmax"):
+			return "alcremie/gmax"
+		return "alcremie"
+	var parsed: Dictionary = _parse_alcremie(token)
+	if parsed.is_empty():
+		return "alcremie"
+	var sweet: String = str(parsed["sweet"])
+	var cream: String = str(parsed["cream"])
+	# Preferir carpeta donde está el PNG específico
+	for path: String in _alcremie_rel_paths(sweet, cream, "front", false):
+		if _path_exists(path):
+			return path.get_base_dir()
+	return "alcremie"
+
+
+func _parse_alcremie(token: String) -> Dictionary:
+	var rest: String = token.substr("ALCREMIE_".length())
+	var sweets: PackedStringArray = PackedStringArray([
+		"STRAWBERRY", "BERRY", "LOVE", "STAR", "CLOVER", "FLOWER", "RIBBON"
+	])
+	for s: String in sweets:
+		if rest.begins_with(s + "_"):
+			return {
+				"sweet": s.to_lower(),
+				"cream": rest.substr(s.length() + 1).to_lower(),
+			}
+	return {}
+
+
+func _alcremie_rel_paths(sweet: String, cream: String, kind: String, shiny: bool) -> PackedStringArray:
+	## kind: front | back | icon
+	var out: PackedStringArray = PackedStringArray()
+	if kind == "icon":
+		out.append("alcremie/%s/icon.png" % sweet)
+		out.append("alcremie/icon.png")
+		return out
+
+	var shiny_suf: String = "_shiny" if shiny else ""
+	var stem: String = kind # front / back
+
+	if sweet == "strawberry" and cream == "vanilla_cream":
+		out.append("alcremie/%s%s.png" % [stem, shiny_suf])
+		out.append("alcremie/%s.png" % stem)
+	elif sweet == "strawberry":
+		# Pack real: alcremie/strawberry/front_strawberry_ruby_cream.png
+		out.append("alcremie/strawberry/%s_strawberry_%s.png" % [stem, cream])
+		if shiny:
+			out.append("alcremie/strawberry/%s_shiny.png" % stem)
+		out.append("alcremie/%s/%s%s.png" % [cream, stem, shiny_suf])
+		out.append("alcremie/%s/%s.png" % [cream, stem])
+		out.append("alcremie/%s%s.png" % [stem, shiny_suf])
+		out.append("alcremie/%s.png" % stem)
+	else:
+		# alcremie/berry/front_berry_lemon_cream.png
+		out.append("alcremie/%s/%s_%s_%s.png" % [sweet, stem, sweet, cream])
+		if cream == "vanilla_cream":
+			out.append("alcremie/%s/%s%s.png" % [sweet, stem, shiny_suf])
+			out.append("alcremie/%s/%s.png" % [sweet, stem])
+		else:
+			out.append("alcremie/%s/%s%s.png" % [sweet, stem, shiny_suf])
+			out.append("alcremie/%s/%s.png" % [sweet, stem])
+		out.append("alcremie/%s%s.png" % [stem, shiny_suf])
+		out.append("alcremie/%s.png" % stem)
+	return out
+
+
+func _load_alcremie(token: String, kind: String, shiny: bool) -> Texture2D:
+	if token == "ALCREMIE_GMAX":
+		for path: String in _candidate_paths("alcremie/gmax", kind, shiny, false):
+			var t: Texture2D = _get_or_load(path)
+			if t != null:
+				return t
+		return null
+
+	var parsed: Dictionary = _parse_alcremie(token)
+	if parsed.is_empty():
+		return null
+	var sweet: String = str(parsed["sweet"])
+	var cream: String = str(parsed["cream"])
+
+	for rel: String in _alcremie_rel_paths(sweet, cream, kind, shiny):
+		var tex: Texture2D = _get_or_load(ROOT + rel)
+		if tex != null:
+			return tex
+	# Icon sin crema
+	if kind == "icon":
+		return _get_or_load(ROOT + "alcremie/icon.png")
+	return null
