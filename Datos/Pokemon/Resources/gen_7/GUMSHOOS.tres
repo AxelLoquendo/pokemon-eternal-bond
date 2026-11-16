@@ -5,26 +5,46 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mlupn"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wmfw4"]
 
-[sub_resource type="Resource" id="Resource_7c0js"]
-script = ExtResource("3_mlupn")
-move = 28
-
-[sub_resource type="Resource" id="Resource_n170o"]
+[sub_resource type="Resource" id="Resource_cwamt"]
 script = ExtResource("3_mlupn")
 move = 33
 
-[sub_resource type="Resource" id="Resource_786ad"]
+[sub_resource type="Resource" id="Resource_lqvj1"]
 script = ExtResource("3_mlupn")
 move = 43
 
+[sub_resource type="Resource" id="Resource_mlupn"]
+script = ExtResource("3_mlupn")
+move = 228
+
+[sub_resource type="Resource" id="Resource_wmfw4"]
+script = ExtResource("3_mlupn")
+move = 28
+
+[sub_resource type="Resource" id="Resource_7c0js"]
+script = ExtResource("3_mlupn")
+level = 3
+move = 43
+
+[sub_resource type="Resource" id="Resource_n170o"]
+script = ExtResource("3_mlupn")
+level = 7
+move = 228
+
+[sub_resource type="Resource" id="Resource_786ad"]
+script = ExtResource("3_mlupn")
+level = 10
+move = 28
+
 [sub_resource type="Resource" id="Resource_ggyd3"]
 script = ExtResource("3_mlupn")
-move = 371
+level = 13
+move = 316
 
 [sub_resource type="Resource" id="Resource_epfj4"]
 script = ExtResource("3_mlupn")
-level = 13
-move = 526
+level = 16
+move = 117
 
 [sub_resource type="Resource" id="Resource_dlrnp"]
 script = ExtResource("3_mlupn")
@@ -59,16 +79,21 @@ move = 242
 [sub_resource type="Resource" id="Resource_eh22m"]
 script = ExtResource("3_mlupn")
 level = 43
-move = 281
+move = 158
 
 [sub_resource type="Resource" id="Resource_ot6i8"]
 script = ExtResource("3_mlupn")
 level = 47
-move = 37
+move = 281
 
 [sub_resource type="Resource" id="Resource_wsgxo"]
 script = ExtResource("3_mlupn")
-level = 52
+level = 51
+move = 37
+
+[sub_resource type="Resource" id="Resource_86l6s"]
+script = ExtResource("3_mlupn")
+level = 55
 move = 156
 
 [resource]
@@ -96,5 +121,5 @@ item_rare = 516
 height_dm = 7
 weight_hg = 142
 body_color = 5
-level_moves = Array[ExtResource("3_mlupn")]([SubResource("Resource_7c0js"), SubResource("Resource_n170o"), SubResource("Resource_786ad"), SubResource("Resource_ggyd3"), SubResource("Resource_epfj4"), SubResource("Resource_dlrnp"), SubResource("Resource_541yf"), SubResource("Resource_ajw22"), SubResource("Resource_lbfin"), SubResource("Resource_5kslx"), SubResource("Resource_b00h0"), SubResource("Resource_eh22m"), SubResource("Resource_ot6i8"), SubResource("Resource_wsgxo")])
+level_moves = Array[ExtResource("3_mlupn")]([SubResource("Resource_cwamt"), SubResource("Resource_lqvj1"), SubResource("Resource_mlupn"), SubResource("Resource_wmfw4"), SubResource("Resource_7c0js"), SubResource("Resource_n170o"), SubResource("Resource_786ad"), SubResource("Resource_ggyd3"), SubResource("Resource_epfj4"), SubResource("Resource_dlrnp"), SubResource("Resource_541yf"), SubResource("Resource_ajw22"), SubResource("Resource_lbfin"), SubResource("Resource_5kslx"), SubResource("Resource_b00h0"), SubResource("Resource_eh22m"), SubResource("Resource_ot6i8"), SubResource("Resource_wsgxo"), SubResource("Resource_86l6s")])
 form_species = Array[int]([735, 1477])

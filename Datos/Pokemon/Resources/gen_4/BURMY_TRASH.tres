@@ -5,24 +5,24 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wfe0m"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_00g2s"]
 
-[sub_resource type="Resource" id="Resource_1ftfc"]
+[sub_resource type="Resource" id="Resource_g01l6"]
 script = ExtResource("3_wfe0m")
 move = 182
 
-[sub_resource type="Resource" id="Resource_3c8k7"]
+[sub_resource type="Resource" id="Resource_yjut2"]
 script = ExtResource("3_wfe0m")
 level = 10
 move = 33
 
-[sub_resource type="Resource" id="Resource_208gq"]
+[sub_resource type="Resource" id="Resource_wfe0m"]
 script = ExtResource("3_wfe0m")
 level = 15
 move = 450
 
-[sub_resource type="Resource" id="Resource_bsafs"]
+[sub_resource type="Resource" id="Resource_00g2s"]
 script = ExtResource("3_wfe0m")
 level = 20
-move = 81
+move = 237
 
 [resource]
 script = ExtResource("4_00g2s")
@@ -50,5 +50,5 @@ ability_1 = 61
 ability_hidden = 142
 height_dm = 2
 weight_hg = 34
-level_moves = Array[ExtResource("3_wfe0m")]([SubResource("Resource_1ftfc"), SubResource("Resource_3c8k7"), SubResource("Resource_208gq"), SubResource("Resource_bsafs")])
+level_moves = Array[ExtResource("3_wfe0m")]([SubResource("Resource_g01l6"), SubResource("Resource_yjut2"), SubResource("Resource_wfe0m"), SubResource("Resource_00g2s")])
 form_species = Array[int]([412, 1057, 1058])

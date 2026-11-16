@@ -5,80 +5,95 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_751f4"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_75yn5"]
 
-[sub_resource type="Resource" id="Resource_r324j"]
-script = ExtResource("3_751f4")
-move = 28
-
-[sub_resource type="Resource" id="Resource_sbl0h"]
+[sub_resource type="Resource" id="Resource_iq4hu"]
 script = ExtResource("3_751f4")
 move = 43
 
+[sub_resource type="Resource" id="Resource_orb5k"]
+script = ExtResource("3_751f4")
+move = 99
+
+[sub_resource type="Resource" id="Resource_751f4"]
+script = ExtResource("3_751f4")
+move = 44
+
+[sub_resource type="Resource" id="Resource_75yn5"]
+script = ExtResource("3_751f4")
+move = 28
+
+[sub_resource type="Resource" id="Resource_r324j"]
+script = ExtResource("3_751f4")
+level = 4
+move = 44
+
+[sub_resource type="Resource" id="Resource_sbl0h"]
+script = ExtResource("3_751f4")
+level = 7
+move = 28
+
 [sub_resource type="Resource" id="Resource_vhkdv"]
 script = ExtResource("3_751f4")
-move = 468
+level = 10
+move = 259
 
 [sub_resource type="Resource" id="Resource_5uox0"]
 script = ExtResource("3_751f4")
-move = 644
+level = 13
+move = 328
 
 [sub_resource type="Resource" id="Resource_5md2l"]
 script = ExtResource("3_751f4")
-level = 9
-move = 328
+level = 16
+move = 372
 
 [sub_resource type="Resource" id="Resource_wsxbj"]
 script = ExtResource("3_751f4")
-level = 12
-move = 184
+level = 19
+move = 189
 
 [sub_resource type="Resource" id="Resource_fr0a1"]
 script = ExtResource("3_751f4")
-level = 15
-move = 44
+level = 22
+move = 373
 
 [sub_resource type="Resource" id="Resource_pfu7s"]
 script = ExtResource("3_751f4")
-level = 18
-move = 259
+level = 25
+move = 207
 
 [sub_resource type="Resource" id="Resource_2jq52"]
 script = ExtResource("3_751f4")
-level = 21
-move = 91
+level = 28
+move = 242
 
 [sub_resource type="Resource" id="Resource_kc1ju"]
 script = ExtResource("3_751f4")
-level = 24
-move = 207
+level = 32
+move = 91
 
 [sub_resource type="Resource" id="Resource_ffilk"]
 script = ExtResource("3_751f4")
-level = 27
-move = 242
+level = 36
+move = 184
 
 [sub_resource type="Resource" id="Resource_bmmrv"]
 script = ExtResource("3_751f4")
-level = 32
-move = 201
+level = 42
+move = 492
 
 [sub_resource type="Resource" id="Resource_kr1xk"]
 script = ExtResource("3_751f4")
-level = 35
-move = 492
+level = 48
+move = 201
 
 [sub_resource type="Resource" id="Resource_otqtk"]
 script = ExtResource("3_751f4")
-level = 44
+level = 54
 move = 89
 
 [sub_resource type="Resource" id="Resource_jcurc"]
 script = ExtResource("3_751f4")
-level = 51
-move = 37
-
-[sub_resource type="Resource" id="Resource_7asnl"]
-script = ExtResource("3_751f4")
-level = 58
+level = 60
 move = 200
 
 [resource]
@@ -100,7 +115,7 @@ base_spa = 65
 base_spd = 70
 base_spe = 92
 ev_atk = 3
-base_exp = 229
+base_exp = 260
 growth_rate = 3
 egg_group_1 = 5
 ability_1 = 22
@@ -109,4 +124,4 @@ ability_hidden = 83
 item_common = 440
 height_dm = 15
 weight_hg = 963
-level_moves = Array[ExtResource("3_751f4")]([SubResource("Resource_r324j"), SubResource("Resource_sbl0h"), SubResource("Resource_vhkdv"), SubResource("Resource_5uox0"), SubResource("Resource_5md2l"), SubResource("Resource_wsxbj"), SubResource("Resource_fr0a1"), SubResource("Resource_pfu7s"), SubResource("Resource_2jq52"), SubResource("Resource_kc1ju"), SubResource("Resource_ffilk"), SubResource("Resource_bmmrv"), SubResource("Resource_kr1xk"), SubResource("Resource_otqtk"), SubResource("Resource_jcurc"), SubResource("Resource_7asnl")])
+level_moves = Array[ExtResource("3_751f4")]([SubResource("Resource_iq4hu"), SubResource("Resource_orb5k"), SubResource("Resource_751f4"), SubResource("Resource_75yn5"), SubResource("Resource_r324j"), SubResource("Resource_sbl0h"), SubResource("Resource_vhkdv"), SubResource("Resource_5uox0"), SubResource("Resource_5md2l"), SubResource("Resource_wsxbj"), SubResource("Resource_fr0a1"), SubResource("Resource_pfu7s"), SubResource("Resource_2jq52"), SubResource("Resource_kc1ju"), SubResource("Resource_ffilk"), SubResource("Resource_bmmrv"), SubResource("Resource_kr1xk"), SubResource("Resource_otqtk"), SubResource("Resource_jcurc")])

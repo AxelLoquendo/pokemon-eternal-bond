@@ -5,34 +5,33 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2frq5"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cfu68"]
 
-[sub_resource type="Resource" id="Resource_i5edf"]
+[sub_resource type="Resource" id="Resource_btold"]
 script = ExtResource("1_btold")
 method = "ITEM"
 param = "ITEM_DEEP_SEA_TOOTH"
 target = 367
 
-[sub_resource type="Resource" id="Resource_cbrfb"]
+[sub_resource type="Resource" id="Resource_660fs"]
 script = ExtResource("1_btold")
 method = "ITEM"
 param = "ITEM_DEEP_SEA_SCALE"
 target = 368
 
-[sub_resource type="Resource" id="Resource_13hb2"]
+[sub_resource type="Resource" id="Resource_2frq5"]
 script = ExtResource("3_2frq5")
-move = 55
+move = 128
 
-[sub_resource type="Resource" id="Resource_01wsj"]
-script = ExtResource("3_2frq5")
-move = 250
-
-[sub_resource type="Resource" id="Resource_jw5wq"]
+[sub_resource type="Resource" id="Resource_cfu68"]
 script = ExtResource("3_2frq5")
 move = 334
 
-[sub_resource type="Resource" id="Resource_p3yp8"]
+[sub_resource type="Resource" id="Resource_i5edf"]
 script = ExtResource("3_2frq5")
-level = 50
-move = 504
+move = 55
+
+[sub_resource type="Resource" id="Resource_cbrfb"]
+script = ExtResource("3_2frq5")
+move = 250
 
 [resource]
 script = ExtResource("4_cfu68")
@@ -63,6 +62,6 @@ item_rare = 141
 height_dm = 4
 weight_hg = 525
 body_color = 1
-level_moves = Array[ExtResource("3_2frq5")]([SubResource("Resource_13hb2"), SubResource("Resource_01wsj"), SubResource("Resource_jw5wq"), SubResource("Resource_p3yp8")])
+level_moves = Array[ExtResource("3_2frq5")]([SubResource("Resource_2frq5"), SubResource("Resource_cfu68"), SubResource("Resource_i5edf"), SubResource("Resource_cbrfb")])
 egg_moves = Array[int]([287, 300, 34, 48, 112, 109, 392, 330, 352, 362, 203])
-evolutions = Array[ExtResource("1_btold")]([SubResource("Resource_i5edf"), SubResource("Resource_cbrfb")])
+evolutions = Array[ExtResource("1_btold")]([SubResource("Resource_btold"), SubResource("Resource_660fs")])

@@ -5,38 +5,28 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rq214"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mrf8x"]
 
-[sub_resource type="Resource" id="Resource_cjxlr"]
-script = ExtResource("3_rq214")
-move = 39
-
-[sub_resource type="Resource" id="Resource_s8uc5"]
+[sub_resource type="Resource" id="Resource_v4nsi"]
 script = ExtResource("3_rq214")
 move = 84
 
-[sub_resource type="Resource" id="Resource_lbl7u"]
+[sub_resource type="Resource" id="Resource_lpxk6"]
 script = ExtResource("3_rq214")
-level = 4
-move = 589
+move = 204
 
-[sub_resource type="Resource" id="Resource_dyagg"]
+[sub_resource type="Resource" id="Resource_rq214"]
+script = ExtResource("3_rq214")
+level = 6
+move = 39
+
+[sub_resource type="Resource" id="Resource_mrf8x"]
 script = ExtResource("3_rq214")
 level = 8
+move = 86
+
+[sub_resource type="Resource" id="Resource_cjxlr"]
+script = ExtResource("3_rq214")
+level = 11
 move = 186
-
-[sub_resource type="Resource" id="Resource_1ancd"]
-script = ExtResource("3_rq214")
-level = 12
-move = 609
-
-[sub_resource type="Resource" id="Resource_mlvhc"]
-script = ExtResource("3_rq214")
-level = 16
-move = 417
-
-[sub_resource type="Resource" id="Resource_uv34o"]
-script = ExtResource("3_rq214")
-level = 20
-move = 204
 
 [resource]
 script = ExtResource("4_mrf8x")
@@ -60,6 +50,6 @@ ability_hidden = 31
 height_dm = 3
 weight_hg = 20
 body_color = 2
-level_moves = Array[ExtResource("3_rq214")]([SubResource("Resource_cjxlr"), SubResource("Resource_s8uc5"), SubResource("Resource_lbl7u"), SubResource("Resource_dyagg"), SubResource("Resource_1ancd"), SubResource("Resource_mlvhc"), SubResource("Resource_uv34o")])
+level_moves = Array[ExtResource("3_rq214")]([SubResource("Resource_v4nsi"), SubResource("Resource_lpxk6"), SubResource("Resource_rq214"), SubResource("Resource_mrf8x"), SubResource("Resource_cjxlr")])
 egg_moves = Array[int]([179, 117, 217, 227, 3, 273, 268, 252, 9, 321, 175, 203, 381, 516, 574, 604])
 form_species = Array[int]([172, 1023])

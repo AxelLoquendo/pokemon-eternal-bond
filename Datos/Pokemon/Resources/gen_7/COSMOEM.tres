@@ -5,12 +5,16 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fij44"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5v3yh"]
 
-[sub_resource type="Resource" id="Resource_v5t47"]
+[sub_resource type="Resource" id="Resource_p4161"]
 script = ExtResource("3_fij44")
 level = 0
 move = 322
 
-[sub_resource type="Resource" id="Resource_qeb5e"]
+[sub_resource type="Resource" id="Resource_d1qdj"]
+script = ExtResource("3_fij44")
+move = 322
+
+[sub_resource type="Resource" id="Resource_fij44"]
 script = ExtResource("3_fij44")
 move = 100
 
@@ -43,4 +47,4 @@ ability_1 = 5
 height_dm = 1
 weight_hg = 9999
 body_color = 1
-level_moves = Array[ExtResource("3_fij44")]([SubResource("Resource_v5t47"), SubResource("Resource_qeb5e")])
+level_moves = Array[ExtResource("3_fij44")]([SubResource("Resource_p4161"), SubResource("Resource_d1qdj"), SubResource("Resource_fij44")])

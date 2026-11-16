@@ -5,14 +5,30 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vpaic"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gv6kr"]
 
-[sub_resource type="Resource" id="Resource_t60ji"]
+[sub_resource type="Resource" id="Resource_qm28g"]
 script = ExtResource("3_vpaic")
 level = 0
 move = 697
 
+[sub_resource type="Resource" id="Resource_g4yej"]
+script = ExtResource("3_vpaic")
+move = 697
+
+[sub_resource type="Resource" id="Resource_vpaic"]
+script = ExtResource("3_vpaic")
+move = 225
+
+[sub_resource type="Resource" id="Resource_gv6kr"]
+script = ExtResource("3_vpaic")
+move = 389
+
+[sub_resource type="Resource" id="Resource_t60ji"]
+script = ExtResource("3_vpaic")
+move = 310
+
 [sub_resource type="Resource" id="Resource_6218f"]
 script = ExtResource("3_vpaic")
-move = 44
+move = 611
 
 [sub_resource type="Resource" id="Resource_vuovi"]
 script = ExtResource("3_vpaic")
@@ -20,72 +36,64 @@ move = 98
 
 [sub_resource type="Resource" id="Resource_afyqs"]
 script = ExtResource("3_vpaic")
-move = 225
+move = 44
 
 [sub_resource type="Resource" id="Resource_bvmca"]
-script = ExtResource("3_vpaic")
-move = 310
-
-[sub_resource type="Resource" id="Resource_0l62h"]
-script = ExtResource("3_vpaic")
-move = 611
-
-[sub_resource type="Resource" id="Resource_15qy5"]
 script = ExtResource("3_vpaic")
 level = 6
 move = 199
 
-[sub_resource type="Resource" id="Resource_2l637"]
+[sub_resource type="Resource" id="Resource_0l62h"]
 script = ExtResource("3_vpaic")
 level = 12
 move = 372
 
-[sub_resource type="Resource" id="Resource_76h3b"]
+[sub_resource type="Resource" id="Resource_15qy5"]
 script = ExtResource("3_vpaic")
 level = 18
 move = 506
 
-[sub_resource type="Resource" id="Resource_l8tqd"]
+[sub_resource type="Resource" id="Resource_2l637"]
 script = ExtResource("3_vpaic")
 level = 24
 move = 97
 
-[sub_resource type="Resource" id="Resource_qubpj"]
+[sub_resource type="Resource" id="Resource_76h3b"]
 script = ExtResource("3_vpaic")
 level = 30
 move = 458
 
-[sub_resource type="Resource" id="Resource_8kfva"]
+[sub_resource type="Resource" id="Resource_l8tqd"]
 script = ExtResource("3_vpaic")
 level = 36
 move = 369
 
-[sub_resource type="Resource" id="Resource_7km2g"]
+[sub_resource type="Resource" id="Resource_qubpj"]
 script = ExtResource("3_vpaic")
 level = 42
 move = 349
 
-[sub_resource type="Resource" id="Resource_3m07c"]
+[sub_resource type="Resource" id="Resource_8kfva"]
 script = ExtResource("3_vpaic")
 level = 48
 move = 566
 
-[sub_resource type="Resource" id="Resource_dcaec"]
+[sub_resource type="Resource" id="Resource_7km2g"]
 script = ExtResource("3_vpaic")
 level = 54
 move = 36
 
-[sub_resource type="Resource" id="Resource_yarvs"]
+[sub_resource type="Resource" id="Resource_3m07c"]
 script = ExtResource("3_vpaic")
 level = 63
 move = 407
 
-[sub_resource type="Resource" id="Resource_57y76"]
+[sub_resource type="Resource" id="Resource_dcaec"]
 script = ExtResource("3_vpaic")
 level = 70
 move = 38
 
-[sub_resource type="Resource" id="Resource_6wwov"]
+[sub_resource type="Resource" id="Resource_yarvs"]
 script = ExtResource("3_vpaic")
 level = 78
 move = 387
@@ -120,4 +128,4 @@ ability_hidden = 130
 height_dm = 30
 weight_hg = 500
 body_color = 3
-level_moves = Array[ExtResource("3_vpaic")]([SubResource("Resource_t60ji"), SubResource("Resource_6218f"), SubResource("Resource_vuovi"), SubResource("Resource_afyqs"), SubResource("Resource_bvmca"), SubResource("Resource_0l62h"), SubResource("Resource_15qy5"), SubResource("Resource_2l637"), SubResource("Resource_76h3b"), SubResource("Resource_l8tqd"), SubResource("Resource_qubpj"), SubResource("Resource_8kfva"), SubResource("Resource_7km2g"), SubResource("Resource_3m07c"), SubResource("Resource_dcaec"), SubResource("Resource_yarvs"), SubResource("Resource_57y76"), SubResource("Resource_6wwov")])
+level_moves = Array[ExtResource("3_vpaic")]([SubResource("Resource_qm28g"), SubResource("Resource_g4yej"), SubResource("Resource_vpaic"), SubResource("Resource_gv6kr"), SubResource("Resource_t60ji"), SubResource("Resource_6218f"), SubResource("Resource_vuovi"), SubResource("Resource_afyqs"), SubResource("Resource_bvmca"), SubResource("Resource_0l62h"), SubResource("Resource_15qy5"), SubResource("Resource_2l637"), SubResource("Resource_76h3b"), SubResource("Resource_l8tqd"), SubResource("Resource_qubpj"), SubResource("Resource_8kfva"), SubResource("Resource_7km2g"), SubResource("Resource_3m07c"), SubResource("Resource_dcaec"), SubResource("Resource_yarvs")])

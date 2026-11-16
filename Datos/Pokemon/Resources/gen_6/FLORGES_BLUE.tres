@@ -1,0 +1,65 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://ounk5ho5ar4h"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4t57n"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_0w0jc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3vtr8"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bp22q"]
+
+[sub_resource type="Resource" id="Resource_4t57n"]
+script = ExtResource("3_3vtr8")
+move = 574
+
+[sub_resource type="Resource" id="Resource_0w0jc"]
+script = ExtResource("3_3vtr8")
+move = 381
+
+[sub_resource type="Resource" id="Resource_3vtr8"]
+script = ExtResource("3_3vtr8")
+move = 273
+
+[sub_resource type="Resource" id="Resource_bp22q"]
+script = ExtResource("3_3vtr8")
+move = 345
+
+[sub_resource type="Resource" id="Resource_umdsr"]
+script = ExtResource("3_3vtr8")
+move = 579
+
+[sub_resource type="Resource" id="Resource_c04gy"]
+script = ExtResource("3_3vtr8")
+move = 447
+
+[sub_resource type="Resource" id="Resource_gu4g4"]
+script = ExtResource("3_3vtr8")
+move = 580
+
+[sub_resource type="Resource" id="Resource_b5hx0"]
+script = ExtResource("3_3vtr8")
+move = 572
+
+[sub_resource type="Resource" id="Resource_txmyj"]
+script = ExtResource("3_3vtr8")
+move = 581
+
+[sub_resource type="Resource" id="Resource_qehhh"]
+script = ExtResource("3_3vtr8")
+move = 585
+
+[sub_resource type="Resource" id="Resource_nw8mi"]
+script = ExtResource("3_3vtr8")
+move = 80
+
+[sub_resource type="Resource" id="Resource_6uap5"]
+script = ExtResource("3_3vtr8")
+move = 312
+
+[resource]
+script = ExtResource("4_bp22q")
+id = 1144
+display_name = "Florges"
+national_dex = 671
+pokedex = "Blue pigments were tremendously
+expensive in the past, so paintings
+of blue Florges are highly valuable."
+type_1 = 1
+level_moves = Array[ExtResource("3_3vtr8")]([SubResource("Resource_4t57n"), SubResource("Resource_0w0jc"), SubResource("Resource_3vtr8"), SubResource("Resource_bp22q"), SubResource("Resource_umdsr"), SubResource("Resource_c04gy"), SubResource("Resource_gu4g4"), SubResource("Resource_b5hx0"), SubResource("Resource_txmyj"), SubResource("Resource_qehhh"), SubResource("Resource_nw8mi"), SubResource("Resource_6uap5")])

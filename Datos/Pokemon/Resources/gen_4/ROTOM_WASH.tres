@@ -5,68 +5,60 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dq1sh"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nri2v"]
 
-[sub_resource type="Resource" id="Resource_v330o"]
+[sub_resource type="Resource" id="Resource_f4ngj"]
 script = ExtResource("3_dq1sh")
-move = 104
+move = 271
 
-[sub_resource type="Resource" id="Resource_hg2cj"]
+[sub_resource type="Resource" id="Resource_rfq4a"]
 script = ExtResource("3_dq1sh")
 move = 310
 
+[sub_resource type="Resource" id="Resource_dq1sh"]
+script = ExtResource("3_dq1sh")
+move = 86
+
+[sub_resource type="Resource" id="Resource_nri2v"]
+script = ExtResource("3_dq1sh")
+move = 84
+
+[sub_resource type="Resource" id="Resource_v330o"]
+script = ExtResource("3_dq1sh")
+move = 109
+
+[sub_resource type="Resource" id="Resource_hg2cj"]
+script = ExtResource("3_dq1sh")
+level = 8
+move = 253
+
 [sub_resource type="Resource" id="Resource_3v57m"]
 script = ExtResource("3_dq1sh")
-level = 5
-move = 84
+level = 15
+move = 104
 
 [sub_resource type="Resource" id="Resource_vwrgq"]
 script = ExtResource("3_dq1sh")
-level = 10
-move = 109
+level = 22
+move = 351
 
 [sub_resource type="Resource" id="Resource_nyvpw"]
 script = ExtResource("3_dq1sh")
-level = 15
-move = 268
+level = 29
+move = 466
 
 [sub_resource type="Resource" id="Resource_wft3l"]
 script = ExtResource("3_dq1sh")
-level = 20
-move = 486
+level = 36
+move = 164
 
 [sub_resource type="Resource" id="Resource_usj6d"]
 script = ExtResource("3_dq1sh")
-level = 25
-move = 86
+level = 43
+move = 268
 
 [sub_resource type="Resource" id="Resource_4ci57"]
 script = ExtResource("3_dq1sh")
-level = 30
-move = 351
-
-[sub_resource type="Resource" id="Resource_u7l76"]
-script = ExtResource("3_dq1sh")
-level = 35
-move = 506
-
-[sub_resource type="Resource" id="Resource_nnyi2"]
-script = ExtResource("3_dq1sh")
-level = 40
-move = 164
-
-[sub_resource type="Resource" id="Resource_dqlu6"]
-script = ExtResource("3_dq1sh")
-level = 45
-move = 271
-
-[sub_resource type="Resource" id="Resource_2kxlh"]
-script = ExtResource("3_dq1sh")
 level = 50
 move = 435
-
-[sub_resource type="Resource" id="Resource_131ke"]
-script = ExtResource("3_dq1sh")
-level = 55
-move = 253
 
 [resource]
 script = ExtResource("4_nri2v")
@@ -78,7 +70,8 @@ pokedex = "It enjoys coming up with water-based
 pranks. The model of washing machine that
 Rotom can inspirit has been discontinued,
 so they are now traded at high prices."
-type_1 = 1
+type_1 = 14
+type_2 = 12
 base_hp = 50
 base_atk = 65
 base_def = 107
@@ -93,5 +86,5 @@ ability_1 = 26
 height_dm = 3
 weight_hg = 3
 no_flip = true
-level_moves = Array[ExtResource("3_dq1sh")]([SubResource("Resource_v330o"), SubResource("Resource_hg2cj"), SubResource("Resource_3v57m"), SubResource("Resource_vwrgq"), SubResource("Resource_nyvpw"), SubResource("Resource_wft3l"), SubResource("Resource_usj6d"), SubResource("Resource_4ci57"), SubResource("Resource_u7l76"), SubResource("Resource_nnyi2"), SubResource("Resource_dqlu6"), SubResource("Resource_2kxlh"), SubResource("Resource_131ke")])
+level_moves = Array[ExtResource("3_dq1sh")]([SubResource("Resource_f4ngj"), SubResource("Resource_rfq4a"), SubResource("Resource_dq1sh"), SubResource("Resource_nri2v"), SubResource("Resource_v330o"), SubResource("Resource_hg2cj"), SubResource("Resource_3v57m"), SubResource("Resource_vwrgq"), SubResource("Resource_nyvpw"), SubResource("Resource_wft3l"), SubResource("Resource_usj6d"), SubResource("Resource_4ci57")])
 form_species = Array[int]([479, 1064, 1065, 1066, 1067, 1068])

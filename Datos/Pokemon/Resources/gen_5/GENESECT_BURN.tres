@@ -1,0 +1,114 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bkcue2rcdme52"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_bx680"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_x2fah"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0pl56"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cf4sk"]
+
+[sub_resource type="Resource" id="Resource_bx680"]
+script = ExtResource("3_0pl56")
+move = 546
+
+[sub_resource type="Resource" id="Resource_x2fah"]
+script = ExtResource("3_0pl56")
+move = 98
+
+[sub_resource type="Resource" id="Resource_0pl56"]
+script = ExtResource("3_0pl56")
+move = 393
+
+[sub_resource type="Resource" id="Resource_cf4sk"]
+script = ExtResource("3_0pl56")
+move = 232
+
+[sub_resource type="Resource" id="Resource_36tra"]
+script = ExtResource("3_0pl56")
+move = 103
+
+[sub_resource type="Resource" id="Resource_xoic2"]
+script = ExtResource("3_0pl56")
+level = 7
+move = 210
+
+[sub_resource type="Resource" id="Resource_qikfe"]
+script = ExtResource("3_0pl56")
+level = 11
+move = 199
+
+[sub_resource type="Resource" id="Resource_w1hhh"]
+script = ExtResource("3_0pl56")
+level = 18
+move = 488
+
+[sub_resource type="Resource" id="Resource_y3e32"]
+script = ExtResource("3_0pl56")
+level = 22
+move = 443
+
+[sub_resource type="Resource" id="Resource_g535q"]
+script = ExtResource("3_0pl56")
+level = 29
+move = 163
+
+[sub_resource type="Resource" id="Resource_3xe2i"]
+script = ExtResource("3_0pl56")
+level = 33
+move = 319
+
+[sub_resource type="Resource" id="Resource_ho8j5"]
+script = ExtResource("3_0pl56")
+level = 40
+move = 324
+
+[sub_resource type="Resource" id="Resource_w741r"]
+script = ExtResource("3_0pl56")
+level = 44
+move = 161
+
+[sub_resource type="Resource" id="Resource_7vnf6"]
+script = ExtResource("3_0pl56")
+level = 51
+move = 404
+
+[sub_resource type="Resource" id="Resource_doci4"]
+script = ExtResource("3_0pl56")
+level = 55
+move = 405
+
+[sub_resource type="Resource" id="Resource_w8ngx"]
+script = ExtResource("3_0pl56")
+level = 62
+move = 493
+
+[sub_resource type="Resource" id="Resource_hw4g0"]
+script = ExtResource("3_0pl56")
+level = 66
+move = 192
+
+[sub_resource type="Resource" id="Resource_87pyh"]
+script = ExtResource("3_0pl56")
+level = 73
+move = 63
+
+[sub_resource type="Resource" id="Resource_bhgdd"]
+script = ExtResource("3_0pl56")
+level = 77
+move = 120
+
+[resource]
+script = ExtResource("4_cf4sk")
+id = 1110
+display_name = "Genesect"
+category = "Paleozoic"
+national_dex = 649
+type_1 = 7
+type_2 = 9
+base_hp = 71
+base_atk = 120
+base_def = 95
+base_spa = 120
+base_spd = 95
+base_spe = 99
+catch_rate = 3
+ability_1 = 88
+level_moves = Array[ExtResource("3_0pl56")]([SubResource("Resource_bx680"), SubResource("Resource_x2fah"), SubResource("Resource_0pl56"), SubResource("Resource_cf4sk"), SubResource("Resource_36tra"), SubResource("Resource_xoic2"), SubResource("Resource_qikfe"), SubResource("Resource_w1hhh"), SubResource("Resource_y3e32"), SubResource("Resource_g535q"), SubResource("Resource_3xe2i"), SubResource("Resource_ho8j5"), SubResource("Resource_w741r"), SubResource("Resource_7vnf6"), SubResource("Resource_doci4"), SubResource("Resource_w8ngx"), SubResource("Resource_hw4g0"), SubResource("Resource_87pyh"), SubResource("Resource_bhgdd")])

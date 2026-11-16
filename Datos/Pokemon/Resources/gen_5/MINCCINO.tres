@@ -5,79 +5,95 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fvvxu"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bdn21"]
 
-[sub_resource type="Resource" id="Resource_wp2na"]
+[sub_resource type="Resource" id="Resource_eyfr2"]
 script = ExtResource("1_eyfr2")
 method = "ITEM"
 param = "ITEM_SHINY_STONE"
 target = 573
 
-[sub_resource type="Resource" id="Resource_33ce0"]
+[sub_resource type="Resource" id="Resource_vrldg"]
 script = ExtResource("3_fvvxu")
 move = 1
 
+[sub_resource type="Resource" id="Resource_fvvxu"]
+script = ExtResource("3_fvvxu")
+level = 3
+move = 45
+
+[sub_resource type="Resource" id="Resource_bdn21"]
+script = ExtResource("3_fvvxu")
+level = 7
+move = 270
+
+[sub_resource type="Resource" id="Resource_wp2na"]
+script = ExtResource("3_fvvxu")
+level = 9
+move = 321
+
+[sub_resource type="Resource" id="Resource_33ce0"]
+script = ExtResource("3_fvvxu")
+level = 13
+move = 3
+
 [sub_resource type="Resource" id="Resource_p8nfe"]
 script = ExtResource("3_fvvxu")
-move = 608
+level = 15
+move = 227
 
 [sub_resource type="Resource" id="Resource_46p46"]
 script = ExtResource("3_fvvxu")
-level = 4
-move = 270
+level = 19
+move = 129
 
 [sub_resource type="Resource" id="Resource_hc684"]
 script = ExtResource("3_fvvxu")
-level = 8
-move = 497
+level = 21
+move = 47
 
 [sub_resource type="Resource" id="Resource_bno42"]
 script = ExtResource("3_fvvxu")
-level = 12
-move = 47
+level = 25
+move = 541
 
 [sub_resource type="Resource" id="Resource_hd2s8"]
 script = ExtResource("3_fvvxu")
-level = 16
+level = 27
 move = 204
 
 [sub_resource type="Resource" id="Resource_ulkwp"]
 script = ExtResource("3_fvvxu")
-level = 20
-move = 129
+level = 31
+move = 358
 
 [sub_resource type="Resource" id="Resource_hmej8"]
 script = ExtResource("3_fvvxu")
-level = 24
-move = 227
+level = 33
+move = 497
 
 [sub_resource type="Resource" id="Resource_yxrdi"]
 script = ExtResource("3_fvvxu")
-level = 28
-move = 495
+level = 37
+move = 21
 
 [sub_resource type="Resource" id="Resource_ulssm"]
 script = ExtResource("3_fvvxu")
-level = 32
-move = 541
+level = 39
+move = 445
 
 [sub_resource type="Resource" id="Resource_4km87"]
 script = ExtResource("3_fvvxu")
-level = 36
-move = 321
+level = 43
+move = 304
 
 [sub_resource type="Resource" id="Resource_p3dta"]
 script = ExtResource("3_fvvxu")
-level = 40
-move = 21
+level = 45
+move = 387
 
 [sub_resource type="Resource" id="Resource_oegyr"]
 script = ExtResource("3_fvvxu")
-level = 44
-move = 304
-
-[sub_resource type="Resource" id="Resource_b4g6s"]
-script = ExtResource("3_fvvxu")
-level = 48
-move = 387
+level = 49
+move = 495
 
 [resource]
 script = ExtResource("4_bdn21")
@@ -109,6 +125,6 @@ ability_hidden = 92
 height_dm = 4
 weight_hg = 58
 body_color = 7
-level_moves = Array[ExtResource("3_fvvxu")]([SubResource("Resource_33ce0"), SubResource("Resource_p8nfe"), SubResource("Resource_46p46"), SubResource("Resource_hc684"), SubResource("Resource_bno42"), SubResource("Resource_hd2s8"), SubResource("Resource_ulkwp"), SubResource("Resource_hmej8"), SubResource("Resource_yxrdi"), SubResource("Resource_ulssm"), SubResource("Resource_4km87"), SubResource("Resource_p3dta"), SubResource("Resource_oegyr"), SubResource("Resource_b4g6s")])
+level_moves = Array[ExtResource("3_fvvxu")]([SubResource("Resource_vrldg"), SubResource("Resource_fvvxu"), SubResource("Resource_bdn21"), SubResource("Resource_wp2na"), SubResource("Resource_33ce0"), SubResource("Resource_p8nfe"), SubResource("Resource_46p46"), SubResource("Resource_hc684"), SubResource("Resource_bno42"), SubResource("Resource_hd2s8"), SubResource("Resource_ulkwp"), SubResource("Resource_hmej8"), SubResource("Resource_yxrdi"), SubResource("Resource_ulssm"), SubResource("Resource_4km87"), SubResource("Resource_p3dta"), SubResource("Resource_oegyr")])
 egg_moves = Array[int]([231, 39, 401, 189, 282, 313, 214, 203, 175])
-evolutions = Array[ExtResource("1_eyfr2")]([SubResource("Resource_wp2na")])
+evolutions = Array[ExtResource("1_eyfr2")]([SubResource("Resource_eyfr2")])

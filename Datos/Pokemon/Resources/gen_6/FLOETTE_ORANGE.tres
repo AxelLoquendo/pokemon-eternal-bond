@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://8epe5y71w8v4"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ga823"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_hvwb6"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ra8lm"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cefbo"]
+
+[sub_resource type="Resource" id="Resource_ga823"]
+script = ExtResource("3_ra8lm")
+move = 33
+
+[sub_resource type="Resource" id="Resource_hvwb6"]
+script = ExtResource("3_ra8lm")
+move = 22
+
+[sub_resource type="Resource" id="Resource_ra8lm"]
+script = ExtResource("3_ra8lm")
+level = 6
+move = 584
+
+[sub_resource type="Resource" id="Resource_cefbo"]
+script = ExtResource("3_ra8lm")
+level = 10
+move = 381
+
+[sub_resource type="Resource" id="Resource_eouj1"]
+script = ExtResource("3_ra8lm")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_s8bch"]
+script = ExtResource("3_ra8lm")
+level = 20
+move = 273
+
+[sub_resource type="Resource" id="Resource_gx2hr"]
+script = ExtResource("3_ra8lm")
+level = 25
+move = 345
+
+[sub_resource type="Resource" id="Resource_wnbpr"]
+script = ExtResource("3_ra8lm")
+level = 27
+move = 580
+
+[sub_resource type="Resource" id="Resource_acrc7"]
+script = ExtResource("3_ra8lm")
+level = 33
+move = 572
+
+[sub_resource type="Resource" id="Resource_0agi5"]
+script = ExtResource("3_ra8lm")
+level = 38
+move = 312
+
+[sub_resource type="Resource" id="Resource_qwxgg"]
+script = ExtResource("3_ra8lm")
+level = 43
+move = 581
+
+[sub_resource type="Resource" id="Resource_aik5m"]
+script = ExtResource("3_ra8lm")
+level = 46
+move = 585
+
+[sub_resource type="Resource" id="Resource_31jvr"]
+script = ExtResource("3_ra8lm")
+level = 51
+move = 80
+
+[sub_resource type="Resource" id="Resource_30eph"]
+script = ExtResource("3_ra8lm")
+level = 58
+move = 76
+
+[resource]
+script = ExtResource("4_cefbo")
+id = 1138
+display_name = "Floette"
+national_dex = 670
+pokedex = "This Pokémon can draw forth the
+most power when in sync with orange
+flowers, compared to flowers of other
+colors."
+type_1 = 1
+level_moves = Array[ExtResource("3_ra8lm")]([SubResource("Resource_ga823"), SubResource("Resource_hvwb6"), SubResource("Resource_ra8lm"), SubResource("Resource_cefbo"), SubResource("Resource_eouj1"), SubResource("Resource_s8bch"), SubResource("Resource_gx2hr"), SubResource("Resource_wnbpr"), SubResource("Resource_acrc7"), SubResource("Resource_0agi5"), SubResource("Resource_qwxgg"), SubResource("Resource_aik5m"), SubResource("Resource_31jvr"), SubResource("Resource_30eph")])

@@ -5,46 +5,25 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_an4nc"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pkrw4"]
 
-[sub_resource type="Resource" id="Resource_wpmp8"]
-script = ExtResource("3_an4nc")
-move = 29
-
-[sub_resource type="Resource" id="Resource_oe6yu"]
-script = ExtResource("3_an4nc")
-move = 37
-
-[sub_resource type="Resource" id="Resource_6pm3u"]
-script = ExtResource("3_an4nc")
-move = 51
-
-[sub_resource type="Resource" id="Resource_h620j"]
-script = ExtResource("3_an4nc")
-move = 192
-
-[sub_resource type="Resource" id="Resource_ikgfj"]
-script = ExtResource("3_an4nc")
-move = 242
-
-[sub_resource type="Resource" id="Resource_1j4gg"]
+[sub_resource type="Resource" id="Resource_0tkwh"]
 script = ExtResource("3_an4nc")
 move = 306
 
-[sub_resource type="Resource" id="Resource_usixk"]
+[sub_resource type="Resource" id="Resource_uip27"]
 script = ExtResource("3_an4nc")
-move = 380
+move = 29
 
-[sub_resource type="Resource" id="Resource_c5lig"]
+[sub_resource type="Resource" id="Resource_an4nc"]
+script = ExtResource("3_an4nc")
+move = 51
+
+[sub_resource type="Resource" id="Resource_pkrw4"]
 script = ExtResource("3_an4nc")
 move = 435
 
-[sub_resource type="Resource" id="Resource_r1efd"]
+[sub_resource type="Resource" id="Resource_wpmp8"]
 script = ExtResource("3_an4nc")
-move = 489
-
-[sub_resource type="Resource" id="Resource_mse17"]
-script = ExtResource("3_an4nc")
-level = 5
-move = 528
+move = 242
 
 [resource]
 script = ExtResource("4_pkrw4")
@@ -74,5 +53,5 @@ ability_hidden = 313
 height_dm = 30
 weight_hg = 1800
 body_color = 1
-level_moves = Array[ExtResource("3_an4nc")]([SubResource("Resource_wpmp8"), SubResource("Resource_oe6yu"), SubResource("Resource_6pm3u"), SubResource("Resource_h620j"), SubResource("Resource_ikgfj"), SubResource("Resource_1j4gg"), SubResource("Resource_usixk"), SubResource("Resource_c5lig"), SubResource("Resource_r1efd"), SubResource("Resource_mse17")])
+level_moves = Array[ExtResource("3_an4nc")]([SubResource("Resource_0tkwh"), SubResource("Resource_uip27"), SubResource("Resource_an4nc"), SubResource("Resource_pkrw4"), SubResource("Resource_wpmp8")])
 form_species = Array[int]([604, 1536])

@@ -5,79 +5,93 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uauvk"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xh2km"]
 
-[sub_resource type="Resource" id="Resource_dwue0"]
-script = ExtResource("3_uauvk")
-move = 93
-
-[sub_resource type="Resource" id="Resource_44s76"]
-script = ExtResource("3_uauvk")
-move = 232
-
-[sub_resource type="Resource" id="Resource_xws51"]
-script = ExtResource("3_uauvk")
-move = 234
-
-[sub_resource type="Resource" id="Resource_cknfw"]
+[sub_resource type="Resource" id="Resource_c3psr"]
 script = ExtResource("3_uauvk")
 move = 236
 
-[sub_resource type="Resource" id="Resource_qi37f"]
+[sub_resource type="Resource" id="Resource_km4in"]
+script = ExtResource("3_uauvk")
+move = 234
+
+[sub_resource type="Resource" id="Resource_uauvk"]
 script = ExtResource("3_uauvk")
 move = 451
 
+[sub_resource type="Resource" id="Resource_xh2km"]
+script = ExtResource("3_uauvk")
+move = 429
+
+[sub_resource type="Resource" id="Resource_dwue0"]
+script = ExtResource("3_uauvk")
+move = 232
+
+[sub_resource type="Resource" id="Resource_44s76"]
+script = ExtResource("3_uauvk")
+move = 93
+
+[sub_resource type="Resource" id="Resource_xws51"]
+script = ExtResource("3_uauvk")
+level = 7
+move = 163
+
+[sub_resource type="Resource" id="Resource_cknfw"]
+script = ExtResource("3_uauvk")
+level = 13
+move = 500
+
+[sub_resource type="Resource" id="Resource_qi37f"]
+script = ExtResource("3_uauvk")
+level = 19
+move = 350
+
 [sub_resource type="Resource" id="Resource_e0h6m"]
 script = ExtResource("3_uauvk")
-level = 8
-move = 446
+level = 23
+move = 400
 
 [sub_resource type="Resource" id="Resource_cscun"]
 script = ExtResource("3_uauvk")
-level = 16
-move = 163
+level = 31
+move = 356
 
 [sub_resource type="Resource" id="Resource_i6c0x"]
 script = ExtResource("3_uauvk")
-level = 24
-move = 400
+level = 37
+move = 427
 
 [sub_resource type="Resource" id="Resource_acyry"]
 script = ExtResource("3_uauvk")
-level = 32
-move = 427
+level = 43
+move = 408
 
 [sub_resource type="Resource" id="Resource_5g4do"]
 script = ExtResource("3_uauvk")
-level = 40
-move = 500
+level = 47
+move = 475
 
 [sub_resource type="Resource" id="Resource_6fjfv"]
 script = ExtResource("3_uauvk")
-level = 48
-move = 350
+level = 50
+move = 675
 
 [sub_resource type="Resource" id="Resource_3kr42"]
 script = ExtResource("3_uauvk")
-level = 56
-move = 334
+level = 53
+move = 446
 
 [sub_resource type="Resource" id="Resource_42dny"]
 script = ExtResource("3_uauvk")
-level = 64
-move = 408
+level = 59
+move = 334
 
 [sub_resource type="Resource" id="Resource_h0gth"]
 script = ExtResource("3_uauvk")
-level = 72
-move = 675
+level = 67
+move = 378
 
 [sub_resource type="Resource" id="Resource_5y3yv"]
 script = ExtResource("3_uauvk")
-level = 80
-move = 356
-
-[sub_resource type="Resource" id="Resource_tdjjy"]
-script = ExtResource("3_uauvk")
-level = 88
+level = 73
 move = 665
 
 [resource]
@@ -110,5 +124,5 @@ height_dm = 38
 weight_hg = 4600
 body_color = 2
 no_flip = true
-level_moves = Array[ExtResource("3_uauvk")]([SubResource("Resource_dwue0"), SubResource("Resource_44s76"), SubResource("Resource_xws51"), SubResource("Resource_cknfw"), SubResource("Resource_qi37f"), SubResource("Resource_e0h6m"), SubResource("Resource_cscun"), SubResource("Resource_i6c0x"), SubResource("Resource_acyry"), SubResource("Resource_5g4do"), SubResource("Resource_6fjfv"), SubResource("Resource_3kr42"), SubResource("Resource_42dny"), SubResource("Resource_h0gth"), SubResource("Resource_5y3yv"), SubResource("Resource_tdjjy")])
+level_moves = Array[ExtResource("3_uauvk")]([SubResource("Resource_c3psr"), SubResource("Resource_km4in"), SubResource("Resource_uauvk"), SubResource("Resource_xh2km"), SubResource("Resource_dwue0"), SubResource("Resource_44s76"), SubResource("Resource_xws51"), SubResource("Resource_cknfw"), SubResource("Resource_qi37f"), SubResource("Resource_e0h6m"), SubResource("Resource_cscun"), SubResource("Resource_i6c0x"), SubResource("Resource_acyry"), SubResource("Resource_5g4do"), SubResource("Resource_6fjfv"), SubResource("Resource_3kr42"), SubResource("Resource_42dny"), SubResource("Resource_h0gth"), SubResource("Resource_5y3yv")])
 form_species = Array[int]([800, 1207, 1208, 1209])

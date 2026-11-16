@@ -5,75 +5,90 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_d040q"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_831st"]
 
-[sub_resource type="Resource" id="Resource_mi66o"]
-script = ExtResource("3_d040q")
-level = 0
-move = 32
-
-[sub_resource type="Resource" id="Resource_u8w61"]
+[sub_resource type="Resource" id="Resource_3i46y"]
 script = ExtResource("3_d040q")
 move = 10
 
-[sub_resource type="Resource" id="Resource_u0wem"]
+[sub_resource type="Resource" id="Resource_8wcg3"]
 script = ExtResource("3_d040q")
-move = 189
+move = 300
 
-[sub_resource type="Resource" id="Resource_fjo0y"]
+[sub_resource type="Resource" id="Resource_d040q"]
 script = ExtResource("3_d040q")
 move = 229
 
-[sub_resource type="Resource" id="Resource_3g2n3"]
+[sub_resource type="Resource" id="Resource_831st"]
 script = ExtResource("3_d040q")
-move = 468
+move = 189
 
-[sub_resource type="Resource" id="Resource_y1dba"]
+[sub_resource type="Resource" id="Resource_mi66o"]
+script = ExtResource("3_d040q")
+level = 5
+move = 229
+
+[sub_resource type="Resource" id="Resource_u8w61"]
+script = ExtResource("3_d040q")
+level = 8
+move = 189
+
+[sub_resource type="Resource" id="Resource_u0wem"]
 script = ExtResource("3_d040q")
 level = 12
 move = 154
 
+[sub_resource type="Resource" id="Resource_fjo0y"]
+script = ExtResource("3_d040q")
+level = 15
+move = 232
+
+[sub_resource type="Resource" id="Resource_3g2n3"]
+script = ExtResource("3_d040q")
+level = 19
+move = 91
+
+[sub_resource type="Resource" id="Resource_y1dba"]
+script = ExtResource("3_d040q")
+level = 22
+move = 468
+
 [sub_resource type="Resource" id="Resource_gfpmn"]
 script = ExtResource("3_d040q")
-level = 16
-move = 232
+level = 26
+move = 163
 
 [sub_resource type="Resource" id="Resource_1u6h3"]
 script = ExtResource("3_d040q")
-level = 20
-move = 201
+level = 29
+move = 157
 
 [sub_resource type="Resource" id="Resource_giimo"]
 script = ExtResource("3_d040q")
-level = 24
-move = 306
+level = 31
+move = 32
 
 [sub_resource type="Resource" id="Resource_qdlqk"]
 script = ExtResource("3_d040q")
-level = 28
-move = 157
+level = 36
+move = 89
 
 [sub_resource type="Resource" id="Resource_x6ohb"]
 script = ExtResource("3_d040q")
-level = 34
-move = 91
+level = 42
+move = 14
 
 [sub_resource type="Resource" id="Resource_r4y0d"]
 script = ExtResource("3_d040q")
-level = 40
-move = 14
+level = 49
+move = 201
 
 [sub_resource type="Resource" id="Resource_nsy3i"]
 script = ExtResource("3_d040q")
-level = 46
+level = 55
 move = 529
 
 [sub_resource type="Resource" id="Resource_2njmd"]
 script = ExtResource("3_d040q")
-level = 52
-move = 89
-
-[sub_resource type="Resource" id="Resource_yv6ha"]
-script = ExtResource("3_d040q")
-level = 58
+level = 62
 move = 90
 
 [resource]
@@ -105,5 +120,5 @@ height_dm = 7
 weight_hg = 404
 body_color = 7
 no_flip = true
-level_moves = Array[ExtResource("3_d040q")]([SubResource("Resource_mi66o"), SubResource("Resource_u8w61"), SubResource("Resource_u0wem"), SubResource("Resource_fjo0y"), SubResource("Resource_3g2n3"), SubResource("Resource_y1dba"), SubResource("Resource_gfpmn"), SubResource("Resource_1u6h3"), SubResource("Resource_giimo"), SubResource("Resource_qdlqk"), SubResource("Resource_x6ohb"), SubResource("Resource_r4y0d"), SubResource("Resource_nsy3i"), SubResource("Resource_2njmd"), SubResource("Resource_yv6ha")])
+level_moves = Array[ExtResource("3_d040q")]([SubResource("Resource_3i46y"), SubResource("Resource_8wcg3"), SubResource("Resource_d040q"), SubResource("Resource_831st"), SubResource("Resource_mi66o"), SubResource("Resource_u8w61"), SubResource("Resource_u0wem"), SubResource("Resource_fjo0y"), SubResource("Resource_3g2n3"), SubResource("Resource_y1dba"), SubResource("Resource_gfpmn"), SubResource("Resource_1u6h3"), SubResource("Resource_giimo"), SubResource("Resource_qdlqk"), SubResource("Resource_x6ohb"), SubResource("Resource_r4y0d"), SubResource("Resource_nsy3i"), SubResource("Resource_2njmd")])
 form_species = Array[int]([530, 1533])

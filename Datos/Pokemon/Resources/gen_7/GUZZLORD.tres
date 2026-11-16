@@ -5,88 +5,94 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_f1h0n"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4w251"]
 
+[sub_resource type="Resource" id="Resource_cvxou"]
+script = ExtResource("3_f1h0n")
+move = 562
+
+[sub_resource type="Resource" id="Resource_4cit2"]
+script = ExtResource("3_f1h0n")
+move = 469
+
+[sub_resource type="Resource" id="Resource_f1h0n"]
+script = ExtResource("3_f1h0n")
+move = 256
+
+[sub_resource type="Resource" id="Resource_4w251"]
+script = ExtResource("3_f1h0n")
+move = 254
+
 [sub_resource type="Resource" id="Resource_qf3sy"]
 script = ExtResource("3_f1h0n")
-move = 44
+move = 82
 
 [sub_resource type="Resource" id="Resource_b4u3i"]
 script = ExtResource("3_f1h0n")
-move = 525
+move = 44
 
 [sub_resource type="Resource" id="Resource_ioo8q"]
 script = ExtResource("3_f1h0n")
-level = 5
-move = 256
+level = 7
+move = 23
 
 [sub_resource type="Resource" id="Resource_blca6"]
 script = ExtResource("3_f1h0n")
-level = 5
-move = 254
+level = 13
+move = 656
 
 [sub_resource type="Resource" id="Resource_0mrhg"]
 script = ExtResource("3_f1h0n")
-level = 10
-move = 282
+level = 19
+move = 537
 
 [sub_resource type="Resource" id="Resource_0ta18"]
 script = ExtResource("3_f1h0n")
-level = 15
-move = 23
+level = 23
+move = 525
 
 [sub_resource type="Resource" id="Resource_3n1oe"]
 script = ExtResource("3_f1h0n")
-level = 20
-move = 661
+level = 29
+move = 231
 
 [sub_resource type="Resource" id="Resource_bxlhu"]
 script = ExtResource("3_f1h0n")
-level = 25
-move = 469
+level = 31
+move = 661
 
 [sub_resource type="Resource" id="Resource_a4aot"]
 script = ExtResource("3_f1h0n")
-level = 30
+level = 37
 move = 242
 
 [sub_resource type="Resource" id="Resource_4jpea"]
 script = ExtResource("3_f1h0n")
-level = 35
-move = 34
+level = 43
+move = 359
 
 [sub_resource type="Resource" id="Resource_j6jjo"]
 script = ExtResource("3_f1h0n")
-level = 40
-move = 380
+level = 47
+move = 37
 
 [sub_resource type="Resource" id="Resource_3clob"]
 script = ExtResource("3_f1h0n")
-level = 45
-move = 359
+level = 53
+move = 380
 
 [sub_resource type="Resource" id="Resource_q78wb"]
 script = ExtResource("3_f1h0n")
-level = 50
+level = 59
 move = 484
 
 [sub_resource type="Resource" id="Resource_yvold"]
 script = ExtResource("3_f1h0n")
-level = 55
-move = 407
+level = 67
+move = 378
 
 [sub_resource type="Resource" id="Resource_gl0cr"]
 script = ExtResource("3_f1h0n")
-level = 60
-move = 562
-
-[sub_resource type="Resource" id="Resource_s1htt"]
-script = ExtResource("3_f1h0n")
-level = 65
-move = 37
-
-[sub_resource type="Resource" id="Resource_jlcs0"]
-script = ExtResource("3_f1h0n")
-level = 70
-move = 416
+level = 73
+move = 407
 
 [resource]
 script = ExtResource("4_4w251")
@@ -116,4 +122,4 @@ ability_1 = 224
 height_dm = 55
 weight_hg = 8880
 body_color = 4
-level_moves = Array[ExtResource("3_f1h0n")]([SubResource("Resource_qf3sy"), SubResource("Resource_b4u3i"), SubResource("Resource_ioo8q"), SubResource("Resource_blca6"), SubResource("Resource_0mrhg"), SubResource("Resource_0ta18"), SubResource("Resource_3n1oe"), SubResource("Resource_bxlhu"), SubResource("Resource_a4aot"), SubResource("Resource_4jpea"), SubResource("Resource_j6jjo"), SubResource("Resource_3clob"), SubResource("Resource_q78wb"), SubResource("Resource_yvold"), SubResource("Resource_gl0cr"), SubResource("Resource_s1htt"), SubResource("Resource_jlcs0")])
+level_moves = Array[ExtResource("3_f1h0n")]([SubResource("Resource_cvxou"), SubResource("Resource_4cit2"), SubResource("Resource_f1h0n"), SubResource("Resource_4w251"), SubResource("Resource_qf3sy"), SubResource("Resource_b4u3i"), SubResource("Resource_ioo8q"), SubResource("Resource_blca6"), SubResource("Resource_0mrhg"), SubResource("Resource_0ta18"), SubResource("Resource_3n1oe"), SubResource("Resource_bxlhu"), SubResource("Resource_a4aot"), SubResource("Resource_4jpea"), SubResource("Resource_j6jjo"), SubResource("Resource_3clob"), SubResource("Resource_q78wb"), SubResource("Resource_yvold"), SubResource("Resource_gl0cr")])

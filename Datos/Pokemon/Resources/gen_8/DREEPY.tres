@@ -5,27 +5,27 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_i2kha"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fbg85"]
 
-[sub_resource type="Resource" id="Resource_6dleq"]
+[sub_resource type="Resource" id="Resource_ah0gh"]
 script = ExtResource("1_ah0gh")
 method = "LEVEL"
 param = "50"
 target = 886
 
-[sub_resource type="Resource" id="Resource_jpfc6"]
-script = ExtResource("3_i2kha")
-move = 44
-
-[sub_resource type="Resource" id="Resource_8dwng"]
-script = ExtResource("3_i2kha")
-move = 98
-
-[sub_resource type="Resource" id="Resource_88g0s"]
+[sub_resource type="Resource" id="Resource_aoig7"]
 script = ExtResource("3_i2kha")
 move = 310
 
-[sub_resource type="Resource" id="Resource_gua03"]
+[sub_resource type="Resource" id="Resource_i2kha"]
 script = ExtResource("3_i2kha")
 move = 611
+
+[sub_resource type="Resource" id="Resource_fbg85"]
+script = ExtResource("3_i2kha")
+move = 98
+
+[sub_resource type="Resource" id="Resource_6dleq"]
+script = ExtResource("3_i2kha")
+move = 44
 
 [resource]
 script = ExtResource("4_fbg85")
@@ -57,6 +57,6 @@ ability_hidden = 130
 height_dm = 5
 weight_hg = 20
 body_color = 3
-level_moves = Array[ExtResource("3_i2kha")]([SubResource("Resource_jpfc6"), SubResource("Resource_8dwng"), SubResource("Resource_88g0s"), SubResource("Resource_gua03")])
+level_moves = Array[ExtResource("3_i2kha")]([SubResource("Resource_aoig7"), SubResource("Resource_i2kha"), SubResource("Resource_fbg85"), SubResource("Resource_6dleq")])
 egg_moves = Array[int]([174, 288, 109, 104, 50, 525, 389])
-evolutions = Array[ExtResource("1_ah0gh")]([SubResource("Resource_6dleq")])
+evolutions = Array[ExtResource("1_ah0gh")]([SubResource("Resource_ah0gh")])

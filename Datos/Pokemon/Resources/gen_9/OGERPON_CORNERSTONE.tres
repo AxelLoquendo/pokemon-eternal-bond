@@ -1,0 +1,125 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dvms6d67gyhk"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_jq78j"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ggjeg"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yieip"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_alhob"]
+
+[sub_resource type="Resource" id="Resource_jq78j"]
+script = ExtResource("3_yieip")
+move = 24
+
+[sub_resource type="Resource" id="Resource_ggjeg"]
+script = ExtResource("3_yieip")
+move = 68
+
+[sub_resource type="Resource" id="Resource_yieip"]
+script = ExtResource("3_yieip")
+move = 514
+
+[sub_resource type="Resource" id="Resource_alhob"]
+script = ExtResource("3_yieip")
+move = 532
+
+[sub_resource type="Resource" id="Resource_6pc88"]
+script = ExtResource("3_yieip")
+move = 22
+
+[sub_resource type="Resource" id="Resource_12fur"]
+script = ExtResource("3_yieip")
+move = 73
+
+[sub_resource type="Resource" id="Resource_qp30e"]
+script = ExtResource("3_yieip")
+move = 98
+
+[sub_resource type="Resource" id="Resource_2iw5i"]
+script = ExtResource("3_yieip")
+move = 266
+
+[sub_resource type="Resource" id="Resource_8n20c"]
+script = ExtResource("3_yieip")
+level = 6
+move = 116
+
+[sub_resource type="Resource" id="Resource_sdqou"]
+script = ExtResource("3_yieip")
+level = 12
+move = 74
+
+[sub_resource type="Resource" id="Resource_4a4g3"]
+script = ExtResource("3_yieip")
+level = 18
+move = 21
+
+[sub_resource type="Resource" id="Resource_8q1ha"]
+script = ExtResource("3_yieip")
+level = 24
+move = 490
+
+[sub_resource type="Resource" id="Resource_mg0yx"]
+script = ExtResource("3_yieip")
+level = 30
+move = 832
+
+[sub_resource type="Resource" id="Resource_a3a3l"]
+script = ExtResource("3_yieip")
+level = 36
+move = 638
+
+[sub_resource type="Resource" id="Resource_grwxs"]
+script = ExtResource("3_yieip")
+level = 42
+move = 235
+
+[sub_resource type="Resource" id="Resource_ye5tv"]
+script = ExtResource("3_yieip")
+level = 48
+move = 596
+
+[sub_resource type="Resource" id="Resource_7j6db"]
+script = ExtResource("3_yieip")
+level = 54
+move = 438
+
+[sub_resource type="Resource" id="Resource_huave"]
+script = ExtResource("3_yieip")
+level = 60
+move = 276
+
+[sub_resource type="Resource" id="Resource_ixt2r"]
+script = ExtResource("3_yieip")
+level = 66
+move = 452
+
+[resource]
+script = ExtResource("4_alhob")
+id = 1419
+display_name = "Ogerpon"
+category = "Mask"
+national_dex = 1017
+pokedex = "There are scant few reports of
+this creature being sighted.
+One short video shows it rampaging,
+and spouting pillars of flame."
+type_1 = 13
+type_2 = 6
+base_hp = 80
+base_atk = 120
+base_def = 84
+base_spa = 60
+base_spd = 96
+base_spe = 110
+ev_def = 3
+catch_rate = 5
+base_exp = 295
+base_friendship = 0
+gender_ratio = 255
+growth_rate = 5
+egg_cycles = 50
+ability_1 = 5
+item_rare = 764
+height_dm = 35
+weight_hg = 5900
+body_color = 5
+level_moves = Array[ExtResource("3_yieip")]([SubResource("Resource_jq78j"), SubResource("Resource_ggjeg"), SubResource("Resource_yieip"), SubResource("Resource_alhob"), SubResource("Resource_6pc88"), SubResource("Resource_12fur"), SubResource("Resource_qp30e"), SubResource("Resource_2iw5i"), SubResource("Resource_8n20c"), SubResource("Resource_sdqou"), SubResource("Resource_4a4g3"), SubResource("Resource_8q1ha"), SubResource("Resource_mg0yx"), SubResource("Resource_a3a3l"), SubResource("Resource_grwxs"), SubResource("Resource_ye5tv"), SubResource("Resource_7j6db"), SubResource("Resource_huave"), SubResource("Resource_ixt2r")])

@@ -5,88 +5,92 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_esovf"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_onxei"]
 
+[sub_resource type="Resource" id="Resource_3a524"]
+script = ExtResource("3_esovf")
+move = 321
+
+[sub_resource type="Resource" id="Resource_vu1u0"]
+script = ExtResource("3_esovf")
+move = 112
+
+[sub_resource type="Resource" id="Resource_esovf"]
+script = ExtResource("3_esovf")
+move = 93
+
+[sub_resource type="Resource" id="Resource_onxei"]
+script = ExtResource("3_esovf")
+level = 4
+move = 383
+
 [sub_resource type="Resource" id="Resource_51xcv"]
 script = ExtResource("3_esovf")
-move = 1
+level = 8
+move = 96
 
 [sub_resource type="Resource" id="Resource_k31wv"]
 script = ExtResource("3_esovf")
-move = 383
+level = 11
+move = 227
 
 [sub_resource type="Resource" id="Resource_6k7w8"]
 script = ExtResource("3_esovf")
-level = 4
-move = 226
+level = 15
+move = 3
 
 [sub_resource type="Resource" id="Resource_oq1re"]
 script = ExtResource("3_esovf")
-level = 8
-move = 227
+level = 18
+move = 102
 
 [sub_resource type="Resource" id="Resource_pcnhe"]
 script = ExtResource("3_esovf")
-level = 12
-move = 93
+level = 22
+move = 113
 
 [sub_resource type="Resource" id="Resource_upi8f"]
 script = ExtResource("3_esovf")
-level = 16
-move = 272
+level = 22
+move = 115
 
 [sub_resource type="Resource" id="Resource_a7qc1"]
 script = ExtResource("3_esovf")
-level = 20
-move = 182
+level = 25
+move = 60
 
 [sub_resource type="Resource" id="Resource_73uso"]
 script = ExtResource("3_esovf")
-level = 24
-move = 278
+level = 29
+move = 164
 
 [sub_resource type="Resource" id="Resource_wx641"]
 script = ExtResource("3_esovf")
-level = 28
-move = 60
+level = 32
+move = 278
 
 [sub_resource type="Resource" id="Resource_xdiya"]
 script = ExtResource("3_esovf")
-level = 32
-move = 102
+level = 36
+move = 271
 
 [sub_resource type="Resource" id="Resource_887nq"]
 script = ExtResource("3_esovf")
-level = 36
-move = 113
+level = 39
+move = 94
 
 [sub_resource type="Resource" id="Resource_aqxx8"]
 script = ExtResource("3_esovf")
-level = 36
-move = 115
+level = 43
+move = 272
 
 [sub_resource type="Resource" id="Resource_1a0p3"]
 script = ExtResource("3_esovf")
-level = 36
-move = 219
+level = 46
+move = 226
 
 [sub_resource type="Resource" id="Resource_8j0px"]
 script = ExtResource("3_esovf")
-level = 40
-move = 389
-
-[sub_resource type="Resource" id="Resource_wwr8o"]
-script = ExtResource("3_esovf")
-level = 44
-move = 605
-
-[sub_resource type="Resource" id="Resource_i8n2o"]
-script = ExtResource("3_esovf")
-level = 48
-move = 94
-
-[sub_resource type="Resource" id="Resource_6c7xv"]
-script = ExtResource("3_esovf")
-level = 52
-move = 298
+level = 50
+move = 219
 
 [resource]
 script = ExtResource("4_onxei")
@@ -99,6 +103,7 @@ it mimics the enemy's movements.
 Once mimicked, the foe cannot take
 its eyes off this Pokémon."
 type_1 = 15
+type_2 = 19
 base_hp = 20
 base_atk = 25
 base_def = 45
@@ -110,9 +115,10 @@ catch_rate = 145
 base_exp = 62
 egg_cycles = 25
 ability_1 = 43
+ability_2 = 111
 ability_hidden = 101
 height_dm = 6
 weight_hg = 130
 body_color = 9
-level_moves = Array[ExtResource("3_esovf")]([SubResource("Resource_51xcv"), SubResource("Resource_k31wv"), SubResource("Resource_6k7w8"), SubResource("Resource_oq1re"), SubResource("Resource_pcnhe"), SubResource("Resource_upi8f"), SubResource("Resource_a7qc1"), SubResource("Resource_73uso"), SubResource("Resource_wx641"), SubResource("Resource_xdiya"), SubResource("Resource_887nq"), SubResource("Resource_aqxx8"), SubResource("Resource_1a0p3"), SubResource("Resource_8j0px"), SubResource("Resource_wwr8o"), SubResource("Resource_i8n2o"), SubResource("Resource_6c7xv")])
+level_moves = Array[ExtResource("3_esovf")]([SubResource("Resource_3a524"), SubResource("Resource_vu1u0"), SubResource("Resource_esovf"), SubResource("Resource_onxei"), SubResource("Resource_51xcv"), SubResource("Resource_k31wv"), SubResource("Resource_6k7w8"), SubResource("Resource_oq1re"), SubResource("Resource_pcnhe"), SubResource("Resource_upi8f"), SubResource("Resource_a7qc1"), SubResource("Resource_73uso"), SubResource("Resource_wx641"), SubResource("Resource_xdiya"), SubResource("Resource_887nq"), SubResource("Resource_aqxx8"), SubResource("Resource_1a0p3"), SubResource("Resource_8j0px")])
 egg_moves = Array[int]([248, 95, 102, 252, 271, 109, 358, 298, 361, 204, 417, 471, 478, 196, 641])

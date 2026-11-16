@@ -5,63 +5,67 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_abvsu"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ekb00"]
 
-[sub_resource type="Resource" id="Resource_300xu"]
+[sub_resource type="Resource" id="Resource_sujd1"]
 script = ExtResource("3_abvsu")
 level = 0
 move = 705
 
-[sub_resource type="Resource" id="Resource_5gn86"]
+[sub_resource type="Resource" id="Resource_66o14"]
+script = ExtResource("3_abvsu")
+move = 705
+
+[sub_resource type="Resource" id="Resource_abvsu"]
 script = ExtResource("3_abvsu")
 move = 33
 
-[sub_resource type="Resource" id="Resource_nkgyw"]
-script = ExtResource("3_abvsu")
-move = 186
-
-[sub_resource type="Resource" id="Resource_wqqs6"]
-script = ExtResource("3_abvsu")
-move = 230
-
-[sub_resource type="Resource" id="Resource_rjvje"]
+[sub_resource type="Resource" id="Resource_ekb00"]
 script = ExtResource("3_abvsu")
 move = 597
 
-[sub_resource type="Resource" id="Resource_hm5ko"]
+[sub_resource type="Resource" id="Resource_300xu"]
+script = ExtResource("3_abvsu")
+move = 186
+
+[sub_resource type="Resource" id="Resource_5gn86"]
+script = ExtResource("3_abvsu")
+move = 230
+
+[sub_resource type="Resource" id="Resource_nkgyw"]
 script = ExtResource("3_abvsu")
 level = 15
 move = 577
 
-[sub_resource type="Resource" id="Resource_ke6jd"]
+[sub_resource type="Resource" id="Resource_wqqs6"]
 script = ExtResource("3_abvsu")
 level = 20
-move = 204
+move = 312
 
-[sub_resource type="Resource" id="Resource_wieo5"]
+[sub_resource type="Resource" id="Resource_rjvje"]
 script = ExtResource("3_abvsu")
 level = 25
 move = 213
 
-[sub_resource type="Resource" id="Resource_xay7r"]
+[sub_resource type="Resource" id="Resource_hm5ko"]
 script = ExtResource("3_abvsu")
 level = 30
 move = 151
 
-[sub_resource type="Resource" id="Resource_u5yx3"]
+[sub_resource type="Resource" id="Resource_ke6jd"]
 script = ExtResource("3_abvsu")
 level = 35
 move = 605
 
-[sub_resource type="Resource" id="Resource_x7eqs"]
+[sub_resource type="Resource" id="Resource_wieo5"]
 script = ExtResource("3_abvsu")
 level = 40
 move = 105
 
-[sub_resource type="Resource" id="Resource_x10ph"]
+[sub_resource type="Resource" id="Resource_xay7r"]
 script = ExtResource("3_abvsu")
 level = 45
 move = 581
 
-[sub_resource type="Resource" id="Resource_epv3y"]
+[sub_resource type="Resource" id="Resource_u5yx3"]
 script = ExtResource("3_abvsu")
 level = 50
 move = 494
@@ -69,7 +73,7 @@ move = 494
 [resource]
 script = ExtResource("4_ekb00")
 id = 1272
-display_name = "Alcremie Flower Ruby Cream"
+display_name = "Alcremie"
 category = "Cream"
 national_dex = 869
 pokedex = "It launches swarms of missiles,
@@ -79,5 +83,5 @@ these, and your head will swim."
 type_1 = 1
 height_dm = 3
 weight_hg = 5
-level_moves = Array[ExtResource("3_abvsu")]([SubResource("Resource_300xu"), SubResource("Resource_5gn86"), SubResource("Resource_nkgyw"), SubResource("Resource_wqqs6"), SubResource("Resource_rjvje"), SubResource("Resource_hm5ko"), SubResource("Resource_ke6jd"), SubResource("Resource_wieo5"), SubResource("Resource_xay7r"), SubResource("Resource_u5yx3"), SubResource("Resource_x7eqs"), SubResource("Resource_x10ph"), SubResource("Resource_epv3y")])
+level_moves = Array[ExtResource("3_abvsu")]([SubResource("Resource_sujd1"), SubResource("Resource_66o14"), SubResource("Resource_abvsu"), SubResource("Resource_ekb00"), SubResource("Resource_300xu"), SubResource("Resource_5gn86"), SubResource("Resource_nkgyw"), SubResource("Resource_wqqs6"), SubResource("Resource_rjvje"), SubResource("Resource_hm5ko"), SubResource("Resource_ke6jd"), SubResource("Resource_wieo5"), SubResource("Resource_xay7r"), SubResource("Resource_u5yx3")])
 form_species = Array[int]([869, 1216, 1217, 1218, 1219, 1220, 1221, 1222, 1223, 1235, 1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277, 1278, 1279, 1280, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1518])

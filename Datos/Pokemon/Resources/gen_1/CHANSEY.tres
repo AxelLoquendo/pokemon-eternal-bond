@@ -5,98 +5,48 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_eigtn"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ugwg8"]
 
-[sub_resource type="Resource" id="Resource_iq7mf"]
-script = ExtResource("3_eigtn")
-move = 204
-
-[sub_resource type="Resource" id="Resource_hatcq"]
-script = ExtResource("3_eigtn")
-move = 383
-
-[sub_resource type="Resource" id="Resource_v21mu"]
-script = ExtResource("3_eigtn")
-move = 343
-
-[sub_resource type="Resource" id="Resource_3yfqj"]
-script = ExtResource("3_eigtn")
-move = 574
-
-[sub_resource type="Resource" id="Resource_sw4ud"]
-script = ExtResource("3_eigtn")
-move = 186
-
-[sub_resource type="Resource" id="Resource_kqman"]
+[sub_resource type="Resource" id="Resource_cg1ss"]
 script = ExtResource("3_eigtn")
 move = 1
 
-[sub_resource type="Resource" id="Resource_xcpx1"]
+[sub_resource type="Resource" id="Resource_830kv"]
 script = ExtResource("3_eigtn")
-move = 111
-
-[sub_resource type="Resource" id="Resource_vt8fq"]
-script = ExtResource("3_eigtn")
-level = 4
 move = 39
 
-[sub_resource type="Resource" id="Resource_nwcuk"]
-script = ExtResource("3_eigtn")
-level = 8
-move = 497
-
-[sub_resource type="Resource" id="Resource_bx8gt"]
+[sub_resource type="Resource" id="Resource_eigtn"]
 script = ExtResource("3_eigtn")
 level = 12
-move = 719
+move = 3
 
-[sub_resource type="Resource" id="Resource_johaf"]
-script = ExtResource("3_eigtn")
-level = 16
-move = 47
-
-[sub_resource type="Resource" id="Resource_bdxrs"]
-script = ExtResource("3_eigtn")
-level = 20
-move = 374
-
-[sub_resource type="Resource" id="Resource_l0nuu"]
+[sub_resource type="Resource" id="Resource_ugwg8"]
 script = ExtResource("3_eigtn")
 level = 24
-move = 36
+move = 47
 
-[sub_resource type="Resource" id="Resource_bh6wo"]
+[sub_resource type="Resource" id="Resource_iq7mf"]
 script = ExtResource("3_eigtn")
-level = 28
-move = 505
+level = 30
+move = 45
 
-[sub_resource type="Resource" id="Resource_tkl7v"]
+[sub_resource type="Resource" id="Resource_hatcq"]
 script = ExtResource("3_eigtn")
-level = 32
-move = 270
+level = 38
+move = 107
 
-[sub_resource type="Resource" id="Resource_bg5mn"]
-script = ExtResource("3_eigtn")
-level = 36
-move = 113
-
-[sub_resource type="Resource" id="Resource_1gfcg"]
-script = ExtResource("3_eigtn")
-level = 40
-move = 38
-
-[sub_resource type="Resource" id="Resource_k54py"]
+[sub_resource type="Resource" id="Resource_v21mu"]
 script = ExtResource("3_eigtn")
 level = 44
-move = 135
+move = 111
 
-[sub_resource type="Resource" id="Resource_gp4p6"]
+[sub_resource type="Resource" id="Resource_3yfqj"]
 script = ExtResource("3_eigtn")
 level = 48
-move = 387
+move = 113
 
-[sub_resource type="Resource" id="Resource_2p083"]
+[sub_resource type="Resource" id="Resource_sw4ud"]
 script = ExtResource("3_eigtn")
-level = 52
-move = 361
+level = 54
+move = 38
 
 [resource]
 script = ExtResource("4_ugwg8")
@@ -130,5 +80,5 @@ item_common = 237
 height_dm = 11
 weight_hg = 346
 body_color = 9
-level_moves = Array[ExtResource("3_eigtn")]([SubResource("Resource_iq7mf"), SubResource("Resource_hatcq"), SubResource("Resource_v21mu"), SubResource("Resource_3yfqj"), SubResource("Resource_sw4ud"), SubResource("Resource_kqman"), SubResource("Resource_xcpx1"), SubResource("Resource_vt8fq"), SubResource("Resource_nwcuk"), SubResource("Resource_bx8gt"), SubResource("Resource_johaf"), SubResource("Resource_bdxrs"), SubResource("Resource_l0nuu"), SubResource("Resource_bh6wo"), SubResource("Resource_tkl7v"), SubResource("Resource_bg5mn"), SubResource("Resource_1gfcg"), SubResource("Resource_k54py"), SubResource("Resource_gp4p6"), SubResource("Resource_2p083")])
+level_moves = Array[ExtResource("3_eigtn")]([SubResource("Resource_cg1ss"), SubResource("Resource_830kv"), SubResource("Resource_eigtn"), SubResource("Resource_ugwg8"), SubResource("Resource_iq7mf"), SubResource("Resource_hatcq"), SubResource("Resource_v21mu"), SubResource("Resource_3yfqj"), SubResource("Resource_sw4ud")])
 egg_moves = Array[int]([217, 118, 215, 312, 68, 270, 356, 426, 363, 203, 69])

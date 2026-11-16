@@ -5,94 +5,77 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_o4cqb"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sv6jc"]
 
-[sub_resource type="Resource" id="Resource_3s3vf"]
-script = ExtResource("3_o4cqb")
-level = 0
-move = 207
-
-[sub_resource type="Resource" id="Resource_02fhy"]
-script = ExtResource("3_o4cqb")
-move = 207
-
-[sub_resource type="Resource" id="Resource_35xmi"]
+[sub_resource type="Resource" id="Resource_g7inf"]
 script = ExtResource("3_o4cqb")
 move = 252
 
-[sub_resource type="Resource" id="Resource_2bubi"]
+[sub_resource type="Resource" id="Resource_08hh4"]
 script = ExtResource("3_o4cqb")
 move = 10
 
-[sub_resource type="Resource" id="Resource_gjhkr"]
+[sub_resource type="Resource" id="Resource_o4cqb"]
 script = ExtResource("3_o4cqb")
 move = 45
 
-[sub_resource type="Resource" id="Resource_k1uuw"]
-script = ExtResource("3_o4cqb")
-move = 389
-
-[sub_resource type="Resource" id="Resource_pmcka"]
-script = ExtResource("3_o4cqb")
-move = 583
-
-[sub_resource type="Resource" id="Resource_fdcqe"]
+[sub_resource type="Resource" id="Resource_sv6jc"]
 script = ExtResource("3_o4cqb")
 level = 5
 move = 10
 
-[sub_resource type="Resource" id="Resource_gsohn"]
+[sub_resource type="Resource" id="Resource_3s3vf"]
 script = ExtResource("3_o4cqb")
 level = 8
 move = 45
 
-[sub_resource type="Resource" id="Resource_jqegd"]
+[sub_resource type="Resource" id="Resource_02fhy"]
 script = ExtResource("3_o4cqb")
 level = 13
 move = 95
 
-[sub_resource type="Resource" id="Resource_bes80"]
+[sub_resource type="Resource" id="Resource_35xmi"]
 script = ExtResource("3_o4cqb")
 level = 17
-move = 332
+move = 185
 
-[sub_resource type="Resource" id="Resource_w5k83"]
+[sub_resource type="Resource" id="Resource_2bubi"]
 script = ExtResource("3_o4cqb")
 level = 20
 move = 154
 
-[sub_resource type="Resource" id="Resource_0qu4m"]
+[sub_resource type="Resource" id="Resource_gjhkr"]
 script = ExtResource("3_o4cqb")
 level = 25
 move = 204
 
-[sub_resource type="Resource" id="Resource_regvn"]
+[sub_resource type="Resource" id="Resource_k1uuw"]
 script = ExtResource("3_o4cqb")
 level = 29
-move = 269
+move = 274
 
-[sub_resource type="Resource" id="Resource_duwyy"]
+[sub_resource type="Resource" id="Resource_pmcka"]
 script = ExtResource("3_o4cqb")
 level = 32
-move = 514
+move = 445
 
-[sub_resource type="Resource" id="Resource_sgy0v"]
+[sub_resource type="Resource" id="Resource_fdcqe"]
 script = ExtResource("3_o4cqb")
 level = 37
 move = 163
 
-[sub_resource type="Resource" id="Resource_w8ajx"]
+[sub_resource type="Resource" id="Resource_gsohn"]
+script = ExtResource("3_o4cqb")
+level = 38
+move = 207
+
+[sub_resource type="Resource" id="Resource_jqegd"]
 script = ExtResource("3_o4cqb")
 level = 45
 move = 34
 
-[sub_resource type="Resource" id="Resource_7vb76"]
+[sub_resource type="Resource" id="Resource_bes80"]
 script = ExtResource("3_o4cqb")
-level = 52
+level = 53
 move = 213
-
-[sub_resource type="Resource" id="Resource_q6rex"]
-script = ExtResource("3_o4cqb")
-level = 60
-move = 468
 
 [resource]
 script = ExtResource("4_sv6jc")
@@ -123,4 +106,4 @@ ability_hidden = 128
 height_dm = 10
 weight_hg = 438
 body_color = 7
-level_moves = Array[ExtResource("3_o4cqb")]([SubResource("Resource_3s3vf"), SubResource("Resource_02fhy"), SubResource("Resource_35xmi"), SubResource("Resource_2bubi"), SubResource("Resource_gjhkr"), SubResource("Resource_k1uuw"), SubResource("Resource_pmcka"), SubResource("Resource_fdcqe"), SubResource("Resource_gsohn"), SubResource("Resource_jqegd"), SubResource("Resource_bes80"), SubResource("Resource_w5k83"), SubResource("Resource_0qu4m"), SubResource("Resource_regvn"), SubResource("Resource_duwyy"), SubResource("Resource_sgy0v"), SubResource("Resource_w8ajx"), SubResource("Resource_7vb76"), SubResource("Resource_q6rex")])
+level_moves = Array[ExtResource("3_o4cqb")]([SubResource("Resource_g7inf"), SubResource("Resource_08hh4"), SubResource("Resource_o4cqb"), SubResource("Resource_sv6jc"), SubResource("Resource_3s3vf"), SubResource("Resource_02fhy"), SubResource("Resource_35xmi"), SubResource("Resource_2bubi"), SubResource("Resource_gjhkr"), SubResource("Resource_k1uuw"), SubResource("Resource_pmcka"), SubResource("Resource_fdcqe"), SubResource("Resource_gsohn"), SubResource("Resource_jqegd"), SubResource("Resource_bes80")])

@@ -5,95 +5,59 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ala0u"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_m6kll"]
 
+[sub_resource type="Resource" id="Resource_xgl7i"]
+script = ExtResource("3_ala0u")
+move = 55
+
+[sub_resource type="Resource" id="Resource_svl0e"]
+script = ExtResource("3_ala0u")
+level = 5
+move = 35
+
+[sub_resource type="Resource" id="Resource_ala0u"]
+script = ExtResource("3_ala0u")
+level = 10
+move = 346
+
+[sub_resource type="Resource" id="Resource_m6kll"]
+script = ExtResource("3_ala0u")
+level = 15
+move = 287
+
 [sub_resource type="Resource" id="Resource_conqk"]
 script = ExtResource("3_ala0u")
-level = 0
+level = 20
 move = 352
 
 [sub_resource type="Resource" id="Resource_dxw03"]
 script = ExtResource("3_ala0u")
-move = 33
+level = 25
+move = 239
 
 [sub_resource type="Resource" id="Resource_g6vde"]
 script = ExtResource("3_ala0u")
-move = 35
+level = 30
+move = 105
 
 [sub_resource type="Resource" id="Resource_x0k01"]
 script = ExtResource("3_ala0u")
-move = 55
+level = 35
+move = 240
 
 [sub_resource type="Resource" id="Resource_kqho2"]
 script = ExtResource("3_ala0u")
-move = 150
+level = 40
+move = 56
 
 [sub_resource type="Resource" id="Resource_3c17p"]
 script = ExtResource("3_ala0u")
-move = 175
+level = 45
+move = 213
 
 [sub_resource type="Resource" id="Resource_jqv37"]
 script = ExtResource("3_ala0u")
-level = 4
-move = 574
-
-[sub_resource type="Resource" id="Resource_ntksj"]
-script = ExtResource("3_ala0u")
-level = 8
-move = 239
-
-[sub_resource type="Resource" id="Resource_ful1q"]
-script = ExtResource("3_ala0u")
-level = 12
-move = 392
-
-[sub_resource type="Resource" id="Resource_c6hp5"]
-script = ExtResource("3_ala0u")
-level = 16
-move = 213
-
-[sub_resource type="Resource" id="Resource_sikte"]
-script = ExtResource("3_ala0u")
-level = 20
-move = 719
-
-[sub_resource type="Resource" id="Resource_jevji"]
-script = ExtResource("3_ala0u")
-level = 24
-move = 525
-
-[sub_resource type="Resource" id="Resource_j8ddf"]
-script = ExtResource("3_ala0u")
-level = 28
-move = 105
-
-[sub_resource type="Resource" id="Resource_x0yr6"]
-script = ExtResource("3_ala0u")
-level = 32
-move = 401
-
-[sub_resource type="Resource" id="Resource_xcvep"]
-script = ExtResource("3_ala0u")
-level = 36
+level = 50
 move = 219
-
-[sub_resource type="Resource" id="Resource_lj6h0"]
-script = ExtResource("3_ala0u")
-level = 40
-move = 57
-
-[sub_resource type="Resource" id="Resource_jvwcu"]
-script = ExtResource("3_ala0u")
-level = 44
-move = 240
-
-[sub_resource type="Resource" id="Resource_ku0jm"]
-script = ExtResource("3_ala0u")
-level = 48
-move = 489
-
-[sub_resource type="Resource" id="Resource_myim8"]
-script = ExtResource("3_ala0u")
-level = 52
-move = 56
 
 [resource]
 script = ExtResource("4_m6kll")
@@ -119,8 +83,9 @@ growth_rate = 1
 egg_group_1 = 2
 egg_group_2 = 14
 ability_1 = 63
+ability_2 = 172
 ability_hidden = 56
 height_dm = 62
 weight_hg = 1620
 body_color = 9
-level_moves = Array[ExtResource("3_ala0u")]([SubResource("Resource_conqk"), SubResource("Resource_dxw03"), SubResource("Resource_g6vde"), SubResource("Resource_x0k01"), SubResource("Resource_kqho2"), SubResource("Resource_3c17p"), SubResource("Resource_jqv37"), SubResource("Resource_ntksj"), SubResource("Resource_ful1q"), SubResource("Resource_c6hp5"), SubResource("Resource_sikte"), SubResource("Resource_jevji"), SubResource("Resource_j8ddf"), SubResource("Resource_x0yr6"), SubResource("Resource_xcvep"), SubResource("Resource_lj6h0"), SubResource("Resource_jvwcu"), SubResource("Resource_ku0jm"), SubResource("Resource_myim8")])
+level_moves = Array[ExtResource("3_ala0u")]([SubResource("Resource_xgl7i"), SubResource("Resource_svl0e"), SubResource("Resource_ala0u"), SubResource("Resource_m6kll"), SubResource("Resource_conqk"), SubResource("Resource_dxw03"), SubResource("Resource_g6vde"), SubResource("Resource_x0k01"), SubResource("Resource_kqho2"), SubResource("Resource_3c17p"), SubResource("Resource_jqv37")])

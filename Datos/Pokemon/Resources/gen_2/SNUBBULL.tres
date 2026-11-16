@@ -5,83 +5,54 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wdpe7"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7r2e3"]
 
-[sub_resource type="Resource" id="Resource_5noli"]
+[sub_resource type="Resource" id="Resource_nsdvg"]
 script = ExtResource("1_nsdvg")
 method = "LEVEL"
 param = "23"
 target = 210
 
-[sub_resource type="Resource" id="Resource_wtutf"]
+[sub_resource type="Resource" id="Resource_gjsrn"]
 script = ExtResource("3_wdpe7")
 move = 33
 
-[sub_resource type="Resource" id="Resource_qs67b"]
-script = ExtResource("3_wdpe7")
-move = 39
-
-[sub_resource type="Resource" id="Resource_vok40"]
-script = ExtResource("3_wdpe7")
-move = 45
-
-[sub_resource type="Resource" id="Resource_yxvnu"]
+[sub_resource type="Resource" id="Resource_wdpe7"]
 script = ExtResource("3_wdpe7")
 move = 184
 
-[sub_resource type="Resource" id="Resource_7mtal"]
+[sub_resource type="Resource" id="Resource_7r2e3"]
 script = ExtResource("3_wdpe7")
+level = 4
+move = 39
+
+[sub_resource type="Resource" id="Resource_5noli"]
+script = ExtResource("3_wdpe7")
+level = 8
 move = 204
 
-[sub_resource type="Resource" id="Resource_dyjlr"]
-script = ExtResource("3_wdpe7")
-move = 422
-
-[sub_resource type="Resource" id="Resource_ousu3"]
-script = ExtResource("3_wdpe7")
-move = 423
-
-[sub_resource type="Resource" id="Resource_bf7lo"]
-script = ExtResource("3_wdpe7")
-move = 424
-
-[sub_resource type="Resource" id="Resource_sy26k"]
-script = ExtResource("3_wdpe7")
-level = 7
-move = 44
-
-[sub_resource type="Resource" id="Resource_e5hbl"]
+[sub_resource type="Resource" id="Resource_wtutf"]
 script = ExtResource("3_wdpe7")
 level = 13
-move = 122
+move = 44
 
-[sub_resource type="Resource" id="Resource_p1kri"]
+[sub_resource type="Resource" id="Resource_qs67b"]
 script = ExtResource("3_wdpe7")
 level = 19
-move = 29
+move = 122
 
-[sub_resource type="Resource" id="Resource_osrgp"]
+[sub_resource type="Resource" id="Resource_vok40"]
 script = ExtResource("3_wdpe7")
-level = 25
+level = 26
 move = 46
 
-[sub_resource type="Resource" id="Resource_bc75x"]
+[sub_resource type="Resource" id="Resource_yxvnu"]
 script = ExtResource("3_wdpe7")
-level = 31
-move = 387
+level = 34
+move = 99
 
-[sub_resource type="Resource" id="Resource_3ifvn"]
-script = ExtResource("3_wdpe7")
-level = 37
-move = 583
-
-[sub_resource type="Resource" id="Resource_vcjbf"]
+[sub_resource type="Resource" id="Resource_7mtal"]
 script = ExtResource("3_wdpe7")
 level = 43
-move = 371
-
-[sub_resource type="Resource" id="Resource_465ee"]
-script = ExtResource("3_wdpe7")
-level = 49
-move = 242
+move = 36
 
 [resource]
 script = ExtResource("4_7r2e3")
@@ -93,7 +64,7 @@ pokedex = "By baring its fangs and making a scary
 face, it sends smaller Pokémon scurrying
 in terror. The Snubbull does seem a
 little sad at making its foes flee."
-type_1 = 1
+type_1 = 19
 base_hp = 60
 base_atk = 80
 base_def = 50
@@ -113,6 +84,6 @@ ability_hidden = 155
 height_dm = 6
 weight_hg = 78
 body_color = 9
-level_moves = Array[ExtResource("3_wdpe7")]([SubResource("Resource_wtutf"), SubResource("Resource_qs67b"), SubResource("Resource_vok40"), SubResource("Resource_yxvnu"), SubResource("Resource_7mtal"), SubResource("Resource_dyjlr"), SubResource("Resource_ousu3"), SubResource("Resource_bf7lo"), SubResource("Resource_sy26k"), SubResource("Resource_e5hbl"), SubResource("Resource_p1kri"), SubResource("Resource_osrgp"), SubResource("Resource_bc75x"), SubResource("Resource_3ifvn"), SubResource("Resource_vcjbf"), SubResource("Resource_465ee")])
+level_moves = Array[ExtResource("3_wdpe7")]([SubResource("Resource_gjsrn"), SubResource("Resource_wdpe7"), SubResource("Resource_7r2e3"), SubResource("Resource_5noli"), SubResource("Resource_wtutf"), SubResource("Resource_qs67b"), SubResource("Resource_vok40"), SubResource("Resource_yxvnu"), SubResource("Resource_7mtal")])
 egg_moves = Array[int]([118, 185, 217, 242, 215, 173, 265, 370, 423, 424, 422, 264, 38, 102, 313])
-evolutions = Array[ExtResource("1_nsdvg")]([SubResource("Resource_5noli")])
+evolutions = Array[ExtResource("1_nsdvg")]([SubResource("Resource_nsdvg")])

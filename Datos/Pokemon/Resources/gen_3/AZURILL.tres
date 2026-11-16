@@ -5,42 +5,34 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fwda4"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t7kxh"]
 
-[sub_resource type="Resource" id="Resource_krfw5"]
-script = ExtResource("3_fwda4")
-move = 39
-
-[sub_resource type="Resource" id="Resource_isuuv"]
-script = ExtResource("3_fwda4")
-move = 55
-
-[sub_resource type="Resource" id="Resource_xyoe7"]
+[sub_resource type="Resource" id="Resource_2ievx"]
 script = ExtResource("3_fwda4")
 move = 150
 
-[sub_resource type="Resource" id="Resource_lygbs"]
+[sub_resource type="Resource" id="Resource_kkvrx"]
 script = ExtResource("3_fwda4")
 level = 3
-move = 270
-
-[sub_resource type="Resource" id="Resource_s8oqy"]
-script = ExtResource("3_fwda4")
-level = 6
-move = 61
-
-[sub_resource type="Resource" id="Resource_44gh5"]
-script = ExtResource("3_fwda4")
-level = 9
 move = 204
 
-[sub_resource type="Resource" id="Resource_nbd32"]
+[sub_resource type="Resource" id="Resource_fwda4"]
 script = ExtResource("3_fwda4")
-level = 12
-move = 21
+level = 6
+move = 39
 
-[sub_resource type="Resource" id="Resource_lgsuq"]
+[sub_resource type="Resource" id="Resource_t7kxh"]
+script = ExtResource("3_fwda4")
+level = 10
+move = 145
+
+[sub_resource type="Resource" id="Resource_krfw5"]
 script = ExtResource("3_fwda4")
 level = 15
-move = 340
+move = 21
+
+[sub_resource type="Resource" id="Resource_isuuv"]
+script = ExtResource("3_fwda4")
+level = 21
+move = 55
 
 [resource]
 script = ExtResource("4_t7kxh")
@@ -53,6 +45,7 @@ is very bouncy like a rubber ball. On sunny
 days they gather at the edge of water and
 splash about for fun."
 type_1 = 1
+type_2 = 19
 base_hp = 50
 base_atk = 20
 base_def = 40
@@ -71,5 +64,5 @@ ability_hidden = 157
 height_dm = 2
 weight_hg = 20
 body_color = 1
-level_moves = Array[ExtResource("3_fwda4")]([SubResource("Resource_krfw5"), SubResource("Resource_isuuv"), SubResource("Resource_xyoe7"), SubResource("Resource_lygbs"), SubResource("Resource_s8oqy"), SubResource("Resource_44gh5"), SubResource("Resource_nbd32"), SubResource("Resource_lgsuq")])
+level_moves = Array[ExtResource("3_fwda4")]([SubResource("Resource_2ievx"), SubResource("Resource_kkvrx"), SubResource("Resource_fwda4"), SubResource("Resource_t7kxh"), SubResource("Resource_krfw5"), SubResource("Resource_isuuv")])
 egg_moves = Array[int]([227, 47, 287, 21, 321, 313, 34, 346, 487, 330, 383, 293])

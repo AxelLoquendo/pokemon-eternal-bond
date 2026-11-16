@@ -1,0 +1,87 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cllmdisswomlp"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_a8mb2"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_br2sc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_f1pmw"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3402b"]
+
+[sub_resource type="Resource" id="Resource_a8mb2"]
+script = ExtResource("3_f1pmw")
+move = 69
+
+[sub_resource type="Resource" id="Resource_br2sc"]
+script = ExtResource("3_f1pmw")
+move = 322
+
+[sub_resource type="Resource" id="Resource_f1pmw"]
+script = ExtResource("3_f1pmw")
+move = 363
+
+[sub_resource type="Resource" id="Resource_3402b"]
+script = ExtResource("3_f1pmw")
+move = 386
+
+[sub_resource type="Resource" id="Resource_25tvn"]
+script = ExtResource("3_f1pmw")
+level = 10
+move = 356
+
+[sub_resource type="Resource" id="Resource_877o5"]
+script = ExtResource("3_f1pmw")
+level = 20
+move = 414
+
+[sub_resource type="Resource" id="Resource_614mv"]
+script = ExtResource("3_f1pmw")
+level = 30
+move = 304
+
+[sub_resource type="Resource" id="Resource_k0gnb"]
+script = ExtResource("3_f1pmw")
+level = 40
+move = 245
+
+[sub_resource type="Resource" id="Resource_3f7yi"]
+script = ExtResource("3_f1pmw")
+level = 50
+move = 287
+
+[sub_resource type="Resource" id="Resource_4esf7"]
+script = ExtResource("3_f1pmw")
+level = 60
+move = 248
+
+[sub_resource type="Resource" id="Resource_3qqsn"]
+script = ExtResource("3_f1pmw")
+level = 70
+move = 105
+
+[sub_resource type="Resource" id="Resource_6eyg7"]
+script = ExtResource("3_f1pmw")
+level = 80
+move = 63
+
+[sub_resource type="Resource" id="Resource_8w7du"]
+script = ExtResource("3_f1pmw")
+level = 90
+move = 195
+
+[sub_resource type="Resource" id="Resource_r4waa"]
+script = ExtResource("3_f1pmw")
+level = 100
+move = 449
+
+[resource]
+script = ExtResource("4_3402b")
+id = 1089
+display_name = "Arceus"
+national_dex = 493
+type_1 = 19
+base_hp = 120
+base_atk = 120
+base_def = 120
+base_spa = 120
+base_spd = 120
+base_spe = 120
+ability_1 = 121
+level_moves = Array[ExtResource("3_f1pmw")]([SubResource("Resource_a8mb2"), SubResource("Resource_br2sc"), SubResource("Resource_f1pmw"), SubResource("Resource_3402b"), SubResource("Resource_25tvn"), SubResource("Resource_877o5"), SubResource("Resource_614mv"), SubResource("Resource_k0gnb"), SubResource("Resource_3f7yi"), SubResource("Resource_4esf7"), SubResource("Resource_3qqsn"), SubResource("Resource_6eyg7"), SubResource("Resource_8w7du"), SubResource("Resource_r4waa")])

@@ -5,24 +5,24 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_24a6e"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5yvqj"]
 
-[sub_resource type="Resource" id="Resource_clgoj"]
+[sub_resource type="Resource" id="Resource_yq5ea"]
 script = ExtResource("1_yq5ea")
 method = "ITEM"
 param = "ITEM_PRISM_SCALE"
 target = 350
 
-[sub_resource type="Resource" id="Resource_r0bey"]
+[sub_resource type="Resource" id="Resource_md0v0"]
 script = ExtResource("3_24a6e")
 move = 150
 
-[sub_resource type="Resource" id="Resource_25d8a"]
+[sub_resource type="Resource" id="Resource_24a6e"]
 script = ExtResource("3_24a6e")
 level = 15
 move = 33
 
-[sub_resource type="Resource" id="Resource_uudag"]
+[sub_resource type="Resource" id="Resource_5yvqj"]
 script = ExtResource("3_24a6e")
-level = 25
+level = 30
 move = 175
 
 [resource]
@@ -49,11 +49,12 @@ growth_rate = 1
 egg_group_1 = 2
 egg_group_2 = 14
 ability_1 = 33
+ability_2 = 12
 ability_hidden = 91
 height_dm = 6
 weight_hg = 74
 body_color = 5
 no_flip = true
-level_moves = Array[ExtResource("3_24a6e")]([SubResource("Resource_r0bey"), SubResource("Resource_25d8a"), SubResource("Resource_uudag")])
+level_moves = Array[ExtResource("3_24a6e")]([SubResource("Resource_md0v0"), SubResource("Resource_24a6e"), SubResource("Resource_5yvqj")])
 egg_moves = Array[int]([243, 225, 300, 95, 109, 54, 114, 321, 362, 231, 406, 445])
-evolutions = Array[ExtResource("1_yq5ea")]([SubResource("Resource_clgoj")])
+evolutions = Array[ExtResource("1_yq5ea")]([SubResource("Resource_yq5ea")])

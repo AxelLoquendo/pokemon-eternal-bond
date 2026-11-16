@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://57vw63ygpbwp"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_4ay5b"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ogiyc"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uhroa"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0dfga"]
+
+[sub_resource type="Resource" id="Resource_4ay5b"]
+script = ExtResource("3_uhroa")
+move = 400
+
+[sub_resource type="Resource" id="Resource_ogiyc"]
+script = ExtResource("3_uhroa")
+move = 272
+
+[sub_resource type="Resource" id="Resource_uhroa"]
+script = ExtResource("3_uhroa")
+move = 561
+
+[sub_resource type="Resource" id="Resource_0dfga"]
+script = ExtResource("3_uhroa")
+move = 1
+
+[sub_resource type="Resource" id="Resource_8s4cg"]
+script = ExtResource("3_uhroa")
+move = 45
+
+[sub_resource type="Resource" id="Resource_41jyo"]
+script = ExtResource("3_uhroa")
+level = 5
+move = 145
+
+[sub_resource type="Resource" id="Resource_dxgdy"]
+script = ExtResource("3_uhroa")
+level = 8
+move = 98
+
+[sub_resource type="Resource" id="Resource_muwxv"]
+script = ExtResource("3_uhroa")
+level = 10
+move = 122
+
+[sub_resource type="Resource" id="Resource_urrix"]
+script = ExtResource("3_uhroa")
+level = 14
+move = 352
+
+[sub_resource type="Resource" id="Resource_gmgju"]
+script = ExtResource("3_uhroa")
+level = 20
+move = 108
+
+[sub_resource type="Resource" id="Resource_li3cg"]
+script = ExtResource("3_uhroa")
+level = 23
+move = 425
+
+[sub_resource type="Resource" id="Resource_va8wt"]
+script = ExtResource("3_uhroa")
+level = 28
+move = 191
+
+[sub_resource type="Resource" id="Resource_ir46j"]
+script = ExtResource("3_uhroa")
+level = 33
+move = 185
+
+[sub_resource type="Resource" id="Resource_ebnly"]
+script = ExtResource("3_uhroa")
+level = 43
+move = 164
+
+[sub_resource type="Resource" id="Resource_vw6yf"]
+script = ExtResource("3_uhroa")
+level = 49
+move = 326
+
+[sub_resource type="Resource" id="Resource_vehma"]
+script = ExtResource("3_uhroa")
+level = 52
+move = 104
+
+[sub_resource type="Resource" id="Resource_5iw6o"]
+script = ExtResource("3_uhroa")
+level = 55
+move = 594
+
+[sub_resource type="Resource" id="Resource_fi22b"]
+script = ExtResource("3_uhroa")
+level = 56
+move = 114
+
+[sub_resource type="Resource" id="Resource_xne2p"]
+script = ExtResource("3_uhroa")
+level = 60
+move = 56
+
+[sub_resource type="Resource" id="Resource_2c0ur"]
+script = ExtResource("3_uhroa")
+level = 70
+move = 400
+
+[resource]
+script = ExtResource("4_0dfga")
+id = 1112
+display_name = "Greninja Bond"
+national_dex = 658
+type_1 = 1
+level_moves = Array[ExtResource("3_uhroa")]([SubResource("Resource_4ay5b"), SubResource("Resource_ogiyc"), SubResource("Resource_uhroa"), SubResource("Resource_0dfga"), SubResource("Resource_8s4cg"), SubResource("Resource_41jyo"), SubResource("Resource_dxgdy"), SubResource("Resource_muwxv"), SubResource("Resource_urrix"), SubResource("Resource_gmgju"), SubResource("Resource_li3cg"), SubResource("Resource_va8wt"), SubResource("Resource_ir46j"), SubResource("Resource_ebnly"), SubResource("Resource_vw6yf"), SubResource("Resource_vehma"), SubResource("Resource_5iw6o"), SubResource("Resource_fi22b"), SubResource("Resource_xne2p"), SubResource("Resource_2c0ur")])

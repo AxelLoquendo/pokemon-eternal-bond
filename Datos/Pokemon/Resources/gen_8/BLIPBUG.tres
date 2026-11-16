@@ -5,13 +5,13 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7ai2v"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tx3fr"]
 
-[sub_resource type="Resource" id="Resource_wbdcv"]
+[sub_resource type="Resource" id="Resource_8h6ar"]
 script = ExtResource("1_8h6ar")
 method = "LEVEL"
 param = "10"
 target = 825
 
-[sub_resource type="Resource" id="Resource_jnl10"]
+[sub_resource type="Resource" id="Resource_npndk"]
 script = ExtResource("3_7ai2v")
 move = 522
 
@@ -42,6 +42,6 @@ ability_hidden = 140
 height_dm = 4
 weight_hg = 80
 body_color = 1
-level_moves = Array[ExtResource("3_7ai2v")]([SubResource("Resource_jnl10")])
+level_moves = Array[ExtResource("3_7ai2v")]([SubResource("Resource_npndk")])
 egg_moves = Array[int]([611, 48, 564, 105])
-evolutions = Array[ExtResource("1_8h6ar")]([SubResource("Resource_wbdcv")])
+evolutions = Array[ExtResource("1_8h6ar")]([SubResource("Resource_8h6ar")])

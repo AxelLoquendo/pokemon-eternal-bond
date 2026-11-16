@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://u2g2kj4koqvq"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_eex50"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_v2c8m"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_blv5k"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_o87vv"]
+
+[sub_resource type="Resource" id="Resource_eex50"]
+script = ExtResource("3_blv5k")
+move = 33
+
+[sub_resource type="Resource" id="Resource_v2c8m"]
+script = ExtResource("3_blv5k")
+move = 182
+
+[sub_resource type="Resource" id="Resource_blv5k"]
+script = ExtResource("3_blv5k")
+level = 15
+move = 450
+
+[sub_resource type="Resource" id="Resource_o87vv"]
+script = ExtResource("3_blv5k")
+level = 20
+move = 237
+
+[sub_resource type="Resource" id="Resource_2dw1w"]
+script = ExtResource("3_blv5k")
+level = 23
+move = 93
+
+[sub_resource type="Resource" id="Resource_cvven"]
+script = ExtResource("3_blv5k")
+level = 26
+move = 16
+
+[sub_resource type="Resource" id="Resource_c0smd"]
+script = ExtResource("3_blv5k")
+level = 29
+move = 77
+
+[sub_resource type="Resource" id="Resource_ck78m"]
+script = ExtResource("3_blv5k")
+level = 32
+move = 60
+
+[sub_resource type="Resource" id="Resource_soiep"]
+script = ExtResource("3_blv5k")
+level = 35
+move = 293
+
+[sub_resource type="Resource" id="Resource_k16ul"]
+script = ExtResource("3_blv5k")
+level = 38
+move = 318
+
+[sub_resource type="Resource" id="Resource_udh8p"]
+script = ExtResource("3_blv5k")
+level = 41
+move = 403
+
+[sub_resource type="Resource" id="Resource_6u7js"]
+script = ExtResource("3_blv5k")
+level = 44
+move = 94
+
+[sub_resource type="Resource" id="Resource_pbo32"]
+script = ExtResource("3_blv5k")
+level = 47
+move = 405
+
+[resource]
+script = ExtResource("4_o87vv")
+id = 1436
+display_name = "Mothim"
+category = "Moth"
+national_dex = 414
+pokedex = "A Pokémon formed by three others.
+It constantly gathers honey from flowers
+to please Vespiquen. At night, they
+cluster to form a beehive and sleep."
+type_1 = 7
+type_2 = 3
+base_hp = 70
+base_atk = 94
+base_def = 50
+base_spa = 94
+base_spd = 50
+base_spe = 66
+ev_spe = 1
+catch_rate = 120
+base_exp = 49
+gender_ratio = 31
+growth_rate = 3
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 68
+ability_hidden = 110
+item_common = 153
+height_dm = 3
+weight_hg = 55
+body_color = 2
+level_moves = Array[ExtResource("3_blv5k")]([SubResource("Resource_eex50"), SubResource("Resource_v2c8m"), SubResource("Resource_blv5k"), SubResource("Resource_o87vv"), SubResource("Resource_2dw1w"), SubResource("Resource_cvven"), SubResource("Resource_c0smd"), SubResource("Resource_ck78m"), SubResource("Resource_soiep"), SubResource("Resource_k16ul"), SubResource("Resource_udh8p"), SubResource("Resource_6u7js"), SubResource("Resource_pbo32")])

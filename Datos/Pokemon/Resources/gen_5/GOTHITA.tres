@@ -5,76 +5,87 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3ks1g"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fbmek"]
 
-[sub_resource type="Resource" id="Resource_fguym"]
+[sub_resource type="Resource" id="Resource_qh5er"]
 script = ExtResource("1_qh5er")
 method = "LEVEL"
 param = "32"
 target = 575
 
-[sub_resource type="Resource" id="Resource_bj4vd"]
+[sub_resource type="Resource" id="Resource_tw6r5"]
 script = ExtResource("3_3ks1g")
 move = 1
 
+[sub_resource type="Resource" id="Resource_3ks1g"]
+script = ExtResource("3_3ks1g")
+level = 3
+move = 93
+
+[sub_resource type="Resource" id="Resource_fbmek"]
+script = ExtResource("3_3ks1g")
+level = 7
+move = 321
+
+[sub_resource type="Resource" id="Resource_fguym"]
+script = ExtResource("3_3ks1g")
+level = 10
+move = 313
+
+[sub_resource type="Resource" id="Resource_bj4vd"]
+script = ExtResource("3_3ks1g")
+level = 14
+move = 3
+
 [sub_resource type="Resource" id="Resource_2youj"]
 script = ExtResource("3_3ks1g")
-move = 93
+level = 16
+move = 60
 
 [sub_resource type="Resource" id="Resource_jlo0n"]
 script = ExtResource("3_3ks1g")
-level = 4
-move = 589
+level = 19
+move = 373
 
 [sub_resource type="Resource" id="Resource_2gytn"]
 script = ExtResource("3_3ks1g")
-level = 8
-move = 321
+level = 24
+move = 185
 
 [sub_resource type="Resource" id="Resource_7qmdc"]
 script = ExtResource("3_3ks1g")
-level = 12
-move = 60
+level = 25
+move = 473
 
 [sub_resource type="Resource" id="Resource_g1lyt"]
 script = ExtResource("3_3ks1g")
-level = 16
-move = 204
+level = 28
+move = 260
 
 [sub_resource type="Resource" id="Resource_p4pah"]
 script = ExtResource("3_3ks1g")
-level = 20
-move = 473
+level = 31
+move = 248
 
 [sub_resource type="Resource" id="Resource_gylx0"]
 script = ExtResource("3_3ks1g")
-level = 24
-move = 95
+level = 33
+move = 377
 
 [sub_resource type="Resource" id="Resource_h2xh3"]
 script = ExtResource("3_3ks1g")
-level = 28
-move = 313
+level = 37
+move = 94
 
 [sub_resource type="Resource" id="Resource_at8dl"]
 script = ExtResource("3_3ks1g")
-level = 33
-move = 244
+level = 40
+move = 477
 
 [sub_resource type="Resource" id="Resource_xayqs"]
 script = ExtResource("3_3ks1g")
-level = 36
-move = 94
+level = 46
+move = 204
 
 [sub_resource type="Resource" id="Resource_pss8p"]
-script = ExtResource("3_3ks1g")
-level = 40
-move = 260
-
-[sub_resource type="Resource" id="Resource_ccjxt"]
-script = ExtResource("3_3ks1g")
-level = 44
-move = 248
-
-[sub_resource type="Resource" id="Resource_rkhjw"]
 script = ExtResource("3_3ks1g")
 level = 48
 move = 478
@@ -103,10 +114,11 @@ gender_ratio = 191
 growth_rate = 3
 egg_group_1 = 8
 ability_1 = 119
+ability_2 = 172
 ability_hidden = 23
 height_dm = 4
 weight_hg = 58
 body_color = 6
-level_moves = Array[ExtResource("3_3ks1g")]([SubResource("Resource_bj4vd"), SubResource("Resource_2youj"), SubResource("Resource_jlo0n"), SubResource("Resource_2gytn"), SubResource("Resource_7qmdc"), SubResource("Resource_g1lyt"), SubResource("Resource_p4pah"), SubResource("Resource_gylx0"), SubResource("Resource_h2xh3"), SubResource("Resource_at8dl"), SubResource("Resource_xayqs"), SubResource("Resource_pss8p"), SubResource("Resource_ccjxt"), SubResource("Resource_rkhjw")])
+level_moves = Array[ExtResource("3_3ks1g")]([SubResource("Resource_tw6r5"), SubResource("Resource_3ks1g"), SubResource("Resource_fbmek"), SubResource("Resource_fguym"), SubResource("Resource_bj4vd"), SubResource("Resource_2youj"), SubResource("Resource_jlo0n"), SubResource("Resource_2gytn"), SubResource("Resource_7qmdc"), SubResource("Resource_g1lyt"), SubResource("Resource_p4pah"), SubResource("Resource_gylx0"), SubResource("Resource_h2xh3"), SubResource("Resource_at8dl"), SubResource("Resource_xayqs"), SubResource("Resource_pss8p")])
 egg_moves = Array[int]([243, 253, 357, 445, 212, 399, 505])
-evolutions = Array[ExtResource("1_qh5er")]([SubResource("Resource_fguym")])
+evolutions = Array[ExtResource("1_qh5er")]([SubResource("Resource_qh5er")])

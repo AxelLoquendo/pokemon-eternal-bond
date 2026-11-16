@@ -5,18 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ttj4x"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gt6hp"]
 
-[sub_resource type="Resource" id="Resource_j3ska"]
+[sub_resource type="Resource" id="Resource_83pkk"]
 script = ExtResource("1_83pkk")
 method = "LEVEL"
 param = "43"
 target = 790
 
-[sub_resource type="Resource" id="Resource_g3shj"]
+[sub_resource type="Resource" id="Resource_ti5l3"]
 script = ExtResource("3_ttj4x")
 move = 150
 
-[sub_resource type="Resource" id="Resource_d4mlc"]
+[sub_resource type="Resource" id="Resource_ttj4x"]
 script = ExtResource("3_ttj4x")
+level = 23
 move = 100
 
 [resource]
@@ -47,5 +48,5 @@ ability_1 = 109
 height_dm = 2
 weight_hg = 1
 body_color = 1
-level_moves = Array[ExtResource("3_ttj4x")]([SubResource("Resource_g3shj"), SubResource("Resource_d4mlc")])
-evolutions = Array[ExtResource("1_83pkk")]([SubResource("Resource_j3ska")])
+level_moves = Array[ExtResource("3_ttj4x")]([SubResource("Resource_ti5l3"), SubResource("Resource_ttj4x")])
+evolutions = Array[ExtResource("1_83pkk")]([SubResource("Resource_83pkk")])

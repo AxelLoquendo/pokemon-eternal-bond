@@ -5,73 +5,88 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_r2bg6"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_itape"]
 
-[sub_resource type="Resource" id="Resource_rc6wv"]
+[sub_resource type="Resource" id="Resource_rwiev"]
 script = ExtResource("1_rwiev")
 method = "LEVEL"
 param = "28"
 target = 733
 
-[sub_resource type="Resource" id="Resource_jy103"]
+[sub_resource type="Resource" id="Resource_5ld68"]
+script = ExtResource("3_r2bg6")
+move = 350
+
+[sub_resource type="Resource" id="Resource_r2bg6"]
+script = ExtResource("3_r2bg6")
+move = 64
+
+[sub_resource type="Resource" id="Resource_itape"]
+script = ExtResource("3_r2bg6")
+move = 45
+
+[sub_resource type="Resource" id="Resource_rc6wv"]
 script = ExtResource("3_r2bg6")
 move = 497
 
+[sub_resource type="Resource" id="Resource_jy103"]
+script = ExtResource("3_r2bg6")
+move = 249
+
 [sub_resource type="Resource" id="Resource_uj1by"]
 script = ExtResource("3_r2bg6")
+level = 3
 move = 45
 
 [sub_resource type="Resource" id="Resource_7y7yi"]
 script = ExtResource("3_r2bg6")
-move = 64
+level = 7
+move = 497
 
 [sub_resource type="Resource" id="Resource_65hcy"]
 script = ExtResource("3_r2bg6")
+level = 9
 move = 249
 
 [sub_resource type="Resource" id="Resource_dk1a4"]
 script = ExtResource("3_r2bg6")
-move = 350
-
-[sub_resource type="Resource" id="Resource_nqxcl"]
-script = ExtResource("3_r2bg6")
 level = 13
 move = 48
 
-[sub_resource type="Resource" id="Resource_r0hu6"]
+[sub_resource type="Resource" id="Resource_nqxcl"]
 script = ExtResource("3_r2bg6")
 level = 16
 move = 365
 
-[sub_resource type="Resource" id="Resource_4jjy7"]
+[sub_resource type="Resource" id="Resource_r0hu6"]
 script = ExtResource("3_r2bg6")
 level = 21
 move = 355
 
-[sub_resource type="Resource" id="Resource_0ykq1"]
+[sub_resource type="Resource" id="Resource_4jjy7"]
 script = ExtResource("3_r2bg6")
 level = 24
 move = 31
 
-[sub_resource type="Resource" id="Resource_0w576"]
+[sub_resource type="Resource" id="Resource_0ykq1"]
 script = ExtResource("3_r2bg6")
 level = 29
 move = 103
 
-[sub_resource type="Resource" id="Resource_fvptf"]
+[sub_resource type="Resource" id="Resource_0w576"]
 script = ExtResource("3_r2bg6")
 level = 32
 move = 65
 
-[sub_resource type="Resource" id="Resource_r16rc"]
+[sub_resource type="Resource" id="Resource_fvptf"]
 script = ExtResource("3_r2bg6")
 level = 37
 move = 331
 
-[sub_resource type="Resource" id="Resource_ttq66"]
+[sub_resource type="Resource" id="Resource_r16rc"]
 script = ExtResource("3_r2bg6")
 level = 40
 move = 297
 
-[sub_resource type="Resource" id="Resource_ckusa"]
+[sub_resource type="Resource" id="Resource_ttq66"]
 script = ExtResource("3_r2bg6")
 level = 45
 move = 304
@@ -106,5 +121,5 @@ item_rare = 523
 height_dm = 6
 weight_hg = 148
 body_color = 4
-level_moves = Array[ExtResource("3_r2bg6")]([SubResource("Resource_jy103"), SubResource("Resource_uj1by"), SubResource("Resource_7y7yi"), SubResource("Resource_65hcy"), SubResource("Resource_dk1a4"), SubResource("Resource_nqxcl"), SubResource("Resource_r0hu6"), SubResource("Resource_4jjy7"), SubResource("Resource_0ykq1"), SubResource("Resource_0w576"), SubResource("Resource_fvptf"), SubResource("Resource_r16rc"), SubResource("Resource_ttq66"), SubResource("Resource_ckusa")])
-evolutions = Array[ExtResource("1_rwiev")]([SubResource("Resource_rc6wv")])
+level_moves = Array[ExtResource("3_r2bg6")]([SubResource("Resource_5ld68"), SubResource("Resource_r2bg6"), SubResource("Resource_itape"), SubResource("Resource_rc6wv"), SubResource("Resource_jy103"), SubResource("Resource_uj1by"), SubResource("Resource_7y7yi"), SubResource("Resource_65hcy"), SubResource("Resource_dk1a4"), SubResource("Resource_nqxcl"), SubResource("Resource_r0hu6"), SubResource("Resource_4jjy7"), SubResource("Resource_0ykq1"), SubResource("Resource_0w576"), SubResource("Resource_fvptf"), SubResource("Resource_r16rc"), SubResource("Resource_ttq66")])
+evolutions = Array[ExtResource("1_rwiev")]([SubResource("Resource_rwiev")])

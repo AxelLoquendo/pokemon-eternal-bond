@@ -5,84 +5,60 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5iyqg"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rjoub"]
 
-[sub_resource type="Resource" id="Resource_b4o1l"]
+[sub_resource type="Resource" id="Resource_ft0l7"]
 script = ExtResource("1_ft0l7")
 method = "LEVEL"
 param = "40"
 target = 346
 
-[sub_resource type="Resource" id="Resource_nsngn"]
-script = ExtResource("3_5iyqg")
-move = 35
-
-[sub_resource type="Resource" id="Resource_ygrlb"]
+[sub_resource type="Resource" id="Resource_sn1oi"]
 script = ExtResource("3_5iyqg")
 move = 310
 
+[sub_resource type="Resource" id="Resource_5iyqg"]
+script = ExtResource("3_5iyqg")
+level = 8
+move = 132
+
+[sub_resource type="Resource" id="Resource_rjoub"]
+script = ExtResource("3_5iyqg")
+level = 15
+move = 51
+
+[sub_resource type="Resource" id="Resource_b4o1l"]
+script = ExtResource("3_5iyqg")
+level = 22
+move = 275
+
+[sub_resource type="Resource" id="Resource_nsngn"]
+script = ExtResource("3_5iyqg")
+level = 29
+move = 109
+
+[sub_resource type="Resource" id="Resource_ygrlb"]
+script = ExtResource("3_5iyqg")
+level = 36
+move = 133
+
 [sub_resource type="Resource" id="Resource_qjvth"]
 script = ExtResource("3_5iyqg")
-level = 4
-move = 51
+level = 43
+move = 246
 
 [sub_resource type="Resource" id="Resource_xfgky"]
 script = ExtResource("3_5iyqg")
-level = 8
-move = 109
+level = 50
+move = 254
 
 [sub_resource type="Resource" id="Resource_a8d0u"]
 script = ExtResource("3_5iyqg")
-level = 12
-move = 275
+level = 50
+move = 256
 
 [sub_resource type="Resource" id="Resource_gmwhh"]
 script = ExtResource("3_5iyqg")
-level = 16
-move = 246
-
-[sub_resource type="Resource" id="Resource_useup"]
-script = ExtResource("3_5iyqg")
-level = 20
-move = 72
-
-[sub_resource type="Resource" id="Resource_pfoab"]
-script = ExtResource("3_5iyqg")
-level = 24
-move = 362
-
-[sub_resource type="Resource" id="Resource_562wv"]
-script = ExtResource("3_5iyqg")
-level = 28
-move = 133
-
-[sub_resource type="Resource" id="Resource_snyep"]
-script = ExtResource("3_5iyqg")
-level = 32
-move = 380
-
-[sub_resource type="Resource" id="Resource_oxhmu"]
-script = ExtResource("3_5iyqg")
-level = 36
-move = 202
-
-[sub_resource type="Resource" id="Resource_6y361"]
-script = ExtResource("3_5iyqg")
-level = 41
-move = 254
-
-[sub_resource type="Resource" id="Resource_ov0ud"]
-script = ExtResource("3_5iyqg")
-level = 41
+level = 50
 move = 255
-
-[sub_resource type="Resource" id="Resource_w8qtk"]
-script = ExtResource("3_5iyqg")
-level = 41
-move = 256
-
-[sub_resource type="Resource" id="Resource_x7nl1"]
-script = ExtResource("3_5iyqg")
-level = 44
-move = 412
 
 [resource]
 script = ExtResource("4_rjoub")
@@ -103,7 +79,7 @@ base_spa = 61
 base_spd = 87
 base_spe = 23
 ev_spd = 1
-base_exp = 121
+base_exp = 71
 gender_ratio = 31
 growth_rate = 1
 egg_cycles = 30
@@ -114,6 +90,6 @@ item_rare = 491
 height_dm = 10
 weight_hg = 238
 body_color = 6
-level_moves = Array[ExtResource("3_5iyqg")]([SubResource("Resource_nsngn"), SubResource("Resource_ygrlb"), SubResource("Resource_qjvth"), SubResource("Resource_xfgky"), SubResource("Resource_a8d0u"), SubResource("Resource_gmwhh"), SubResource("Resource_useup"), SubResource("Resource_pfoab"), SubResource("Resource_562wv"), SubResource("Resource_snyep"), SubResource("Resource_oxhmu"), SubResource("Resource_6y361"), SubResource("Resource_ov0ud"), SubResource("Resource_w8qtk"), SubResource("Resource_x7nl1")])
+level_moves = Array[ExtResource("3_5iyqg")]([SubResource("Resource_sn1oi"), SubResource("Resource_5iyqg"), SubResource("Resource_rjoub"), SubResource("Resource_b4o1l"), SubResource("Resource_nsngn"), SubResource("Resource_ygrlb"), SubResource("Resource_qjvth"), SubResource("Resource_xfgky"), SubResource("Resource_a8d0u"), SubResource("Resource_gmwhh")])
 egg_moves = Array[int]([112, 105, 243, 378, 321, 174, 72, 203, 446])
-evolutions = Array[ExtResource("1_ft0l7")]([SubResource("Resource_b4o1l")])
+evolutions = Array[ExtResource("1_ft0l7")]([SubResource("Resource_ft0l7")])

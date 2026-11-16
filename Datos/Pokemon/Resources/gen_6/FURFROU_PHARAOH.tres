@@ -1,0 +1,97 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cixkdpcpg1mf5"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_8iky5"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ygrx8"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hjors"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1dav1"]
+
+[sub_resource type="Resource" id="Resource_8iky5"]
+script = ExtResource("3_hjors")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ygrx8"]
+script = ExtResource("3_hjors")
+move = 45
+
+[sub_resource type="Resource" id="Resource_hjors"]
+script = ExtResource("3_hjors")
+level = 5
+move = 28
+
+[sub_resource type="Resource" id="Resource_1dav1"]
+script = ExtResource("3_hjors")
+level = 9
+move = 608
+
+[sub_resource type="Resource" id="Resource_l8ear"]
+script = ExtResource("3_hjors")
+level = 12
+move = 29
+
+[sub_resource type="Resource" id="Resource_uid7p"]
+script = ExtResource("3_hjors")
+level = 15
+move = 39
+
+[sub_resource type="Resource" id="Resource_6apm4"]
+script = ExtResource("3_hjors")
+level = 22
+move = 44
+
+[sub_resource type="Resource" id="Resource_1ycua"]
+script = ExtResource("3_hjors")
+level = 27
+move = 316
+
+[sub_resource type="Resource" id="Resource_qmijk"]
+script = ExtResource("3_hjors")
+level = 33
+move = 514
+
+[sub_resource type="Resource" id="Resource_evlfk"]
+script = ExtResource("3_hjors")
+level = 35
+move = 36
+
+[sub_resource type="Resource" id="Resource_u71e7"]
+script = ExtResource("3_hjors")
+level = 38
+move = 204
+
+[sub_resource type="Resource" id="Resource_ngo4x"]
+script = ExtResource("3_hjors")
+level = 42
+move = 389
+
+[sub_resource type="Resource" id="Resource_7ndma"]
+script = ExtResource("3_hjors")
+level = 48
+move = 538
+
+[resource]
+script = ExtResource("4_1dav1")
+id = 1154
+display_name = "Furfrou"
+category = "Poodle"
+national_dex = 676
+pokedex = "It has enough psychic energy to blast
+everything within 300 feet of itself.
+The organ that emits its intense psychic
+power is sheltered by its ears."
+type_1 = 1
+base_hp = 75
+base_atk = 80
+base_def = 60
+base_spa = 65
+base_spd = 90
+base_spe = 102
+ev_spe = 1
+catch_rate = 190
+base_exp = 71
+egg_group_1 = 5
+ability_1 = 169
+height_dm = 3
+weight_hg = 35
+body_color = 7
+level_moves = Array[ExtResource("3_hjors")]([SubResource("Resource_8iky5"), SubResource("Resource_ygrx8"), SubResource("Resource_hjors"), SubResource("Resource_1dav1"), SubResource("Resource_l8ear"), SubResource("Resource_uid7p"), SubResource("Resource_6apm4"), SubResource("Resource_1ycua"), SubResource("Resource_qmijk"), SubResource("Resource_evlfk"), SubResource("Resource_u71e7"), SubResource("Resource_ngo4x"), SubResource("Resource_7ndma")])
+egg_moves = Array[int]([272, 526, 102, 445, 287])

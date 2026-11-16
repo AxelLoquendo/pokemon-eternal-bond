@@ -5,99 +5,74 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h3flv"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_frp8g"]
 
-[sub_resource type="Resource" id="Resource_1o4w5"]
+[sub_resource type="Resource" id="Resource_qqryj"]
 script = ExtResource("3_h3flv")
 level = 0
-move = 765
+move = 249
 
-[sub_resource type="Resource" id="Resource_5qp4j"]
-script = ExtResource("3_h3flv")
-move = 298
-
-[sub_resource type="Resource" id="Resource_tbh0o"]
-script = ExtResource("3_h3flv")
-move = 632
-
-[sub_resource type="Resource" id="Resource_5c6v2"]
-script = ExtResource("3_h3flv")
-move = 572
-
-[sub_resource type="Resource" id="Resource_mndkg"]
-script = ExtResource("3_h3flv")
-move = 495
-
-[sub_resource type="Resource" id="Resource_4g6ti"]
-script = ExtResource("3_h3flv")
-move = 494
-
-[sub_resource type="Resource" id="Resource_h30a1"]
-script = ExtResource("3_h3flv")
-move = 437
-
-[sub_resource type="Resource" id="Resource_uik87"]
-script = ExtResource("3_h3flv")
-move = 432
-
-[sub_resource type="Resource" id="Resource_t3hb3"]
-script = ExtResource("3_h3flv")
-move = 412
-
-[sub_resource type="Resource" id="Resource_pjia3"]
-script = ExtResource("3_h3flv")
-move = 348
-
-[sub_resource type="Resource" id="Resource_xjvi7"]
-script = ExtResource("3_h3flv")
-move = 345
-
-[sub_resource type="Resource" id="Resource_v221u"]
-script = ExtResource("3_h3flv")
-move = 25
-
-[sub_resource type="Resource" id="Resource_qk045"]
-script = ExtResource("3_h3flv")
-move = 241
-
-[sub_resource type="Resource" id="Resource_a83i7"]
-script = ExtResource("3_h3flv")
-move = 235
-
-[sub_resource type="Resource" id="Resource_ks1dt"]
-script = ExtResource("3_h3flv")
-move = 202
-
-[sub_resource type="Resource" id="Resource_2g561"]
-script = ExtResource("3_h3flv")
-move = 79
-
-[sub_resource type="Resource" id="Resource_7g3ki"]
-script = ExtResource("3_h3flv")
-move = 78
-
-[sub_resource type="Resource" id="Resource_uro5s"]
-script = ExtResource("3_h3flv")
-move = 74
-
-[sub_resource type="Resource" id="Resource_1hcld"]
-script = ExtResource("3_h3flv")
-move = 73
-
-[sub_resource type="Resource" id="Resource_xjd8g"]
-script = ExtResource("3_h3flv")
-move = 72
-
-[sub_resource type="Resource" id="Resource_nw2xy"]
+[sub_resource type="Resource" id="Resource_gb30l"]
 script = ExtResource("3_h3flv")
 move = 71
 
-[sub_resource type="Resource" id="Resource_6v08j"]
-script = ExtResource("3_h3flv")
-move = 270
-
-[sub_resource type="Resource" id="Resource_h3yk2"]
+[sub_resource type="Resource" id="Resource_h3flv"]
 script = ExtResource("3_h3flv")
 level = 5
-move = 781
+move = 633
+
+[sub_resource type="Resource" id="Resource_frp8g"]
+script = ExtResource("3_h3flv")
+level = 9
+move = 78
+
+[sub_resource type="Resource" id="Resource_1o4w5"]
+script = ExtResource("3_h3flv")
+level = 15
+move = 77
+
+[sub_resource type="Resource" id="Resource_5qp4j"]
+script = ExtResource("3_h3flv")
+level = 21
+move = 412
+
+[sub_resource type="Resource" id="Resource_tbh0o"]
+script = ExtResource("3_h3flv")
+level = 29
+move = 79
+
+[sub_resource type="Resource" id="Resource_5c6v2"]
+script = ExtResource("3_h3flv")
+level = 34
+move = 409
+
+[sub_resource type="Resource" id="Resource_mndkg"]
+script = ExtResource("3_h3flv")
+level = 37
+move = 348
+
+[sub_resource type="Resource" id="Resource_4g6ti"]
+script = ExtResource("3_h3flv")
+level = 37
+move = 105
+
+[sub_resource type="Resource" id="Resource_h30a1"]
+script = ExtResource("3_h3flv")
+level = 42
+move = 765
+
+[sub_resource type="Resource" id="Resource_uik87"]
+script = ExtResource("3_h3flv")
+level = 47
+move = 437
+
+[sub_resource type="Resource" id="Resource_t3hb3"]
+script = ExtResource("3_h3flv")
+level = 53
+move = 80
+
+[sub_resource type="Resource" id="Resource_pjia3"]
+script = ExtResource("3_h3flv")
+level = 57
+move = 370
 
 [resource]
 script = ExtResource("4_frp8g")
@@ -131,5 +106,5 @@ height_dm = 12
 weight_hg = 192
 body_color = 3
 no_flip = true
-level_moves = Array[ExtResource("3_h3flv")]([SubResource("Resource_1o4w5"), SubResource("Resource_5qp4j"), SubResource("Resource_tbh0o"), SubResource("Resource_5c6v2"), SubResource("Resource_mndkg"), SubResource("Resource_4g6ti"), SubResource("Resource_h30a1"), SubResource("Resource_uik87"), SubResource("Resource_t3hb3"), SubResource("Resource_pjia3"), SubResource("Resource_xjvi7"), SubResource("Resource_v221u"), SubResource("Resource_qk045"), SubResource("Resource_a83i7"), SubResource("Resource_ks1dt"), SubResource("Resource_2g561"), SubResource("Resource_7g3ki"), SubResource("Resource_uro5s"), SubResource("Resource_1hcld"), SubResource("Resource_xjd8g"), SubResource("Resource_nw2xy"), SubResource("Resource_6v08j"), SubResource("Resource_h3yk2")])
+level_moves = Array[ExtResource("3_h3flv")]([SubResource("Resource_qqryj"), SubResource("Resource_gb30l"), SubResource("Resource_h3flv"), SubResource("Resource_frp8g"), SubResource("Resource_1o4w5"), SubResource("Resource_5qp4j"), SubResource("Resource_tbh0o"), SubResource("Resource_5c6v2"), SubResource("Resource_mndkg"), SubResource("Resource_4g6ti"), SubResource("Resource_h30a1"), SubResource("Resource_uik87"), SubResource("Resource_t3hb3"), SubResource("Resource_pjia3")])
 form_species = Array[int]([549, 1001])

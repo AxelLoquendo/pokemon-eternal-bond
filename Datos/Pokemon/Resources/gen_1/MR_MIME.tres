@@ -5,102 +5,38 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cljix"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_vrjnq"]
 
+[sub_resource type="Resource" id="Resource_afm3r"]
+script = ExtResource("3_cljix")
+move = 93
+
+[sub_resource type="Resource" id="Resource_y1tf3"]
+script = ExtResource("3_cljix")
+move = 112
+
+[sub_resource type="Resource" id="Resource_cljix"]
+script = ExtResource("3_cljix")
+level = 15
+move = 93
+
+[sub_resource type="Resource" id="Resource_vrjnq"]
+script = ExtResource("3_cljix")
+level = 23
+move = 113
+
 [sub_resource type="Resource" id="Resource_j4uax"]
 script = ExtResource("3_cljix")
-move = 501
+level = 31
+move = 3
 
 [sub_resource type="Resource" id="Resource_fpio6"]
 script = ExtResource("3_cljix")
-move = 469
+level = 39
+move = 96
 
 [sub_resource type="Resource" id="Resource_jijp3"]
 script = ExtResource("3_cljix")
-move = 384
-
-[sub_resource type="Resource" id="Resource_366tc"]
-script = ExtResource("3_cljix")
-move = 385
-
-[sub_resource type="Resource" id="Resource_7a7pq"]
-script = ExtResource("3_cljix")
-move = 1
-
-[sub_resource type="Resource" id="Resource_gxjro"]
-script = ExtResource("3_cljix")
-move = 383
-
-[sub_resource type="Resource" id="Resource_i0xu7"]
-script = ExtResource("3_cljix")
-move = 226
-
-[sub_resource type="Resource" id="Resource_46eq1"]
-script = ExtResource("3_cljix")
-move = 227
-
-[sub_resource type="Resource" id="Resource_dhkot"]
-script = ExtResource("3_cljix")
-level = 12
-move = 93
-
-[sub_resource type="Resource" id="Resource_qbqlg"]
-script = ExtResource("3_cljix")
-level = 16
-move = 272
-
-[sub_resource type="Resource" id="Resource_djk0x"]
-script = ExtResource("3_cljix")
-level = 20
-move = 182
-
-[sub_resource type="Resource" id="Resource_besmf"]
-script = ExtResource("3_cljix")
-level = 24
-move = 278
-
-[sub_resource type="Resource" id="Resource_0ch1p"]
-script = ExtResource("3_cljix")
-level = 28
-move = 60
-
-[sub_resource type="Resource" id="Resource_eh652"]
-script = ExtResource("3_cljix")
-level = 32
-move = 102
-
-[sub_resource type="Resource" id="Resource_u24h5"]
-script = ExtResource("3_cljix")
-level = 36
-move = 113
-
-[sub_resource type="Resource" id="Resource_b7urs"]
-script = ExtResource("3_cljix")
-level = 36
-move = 115
-
-[sub_resource type="Resource" id="Resource_f7ofp"]
-script = ExtResource("3_cljix")
-level = 36
-move = 219
-
-[sub_resource type="Resource" id="Resource_e7x86"]
-script = ExtResource("3_cljix")
-level = 40
-move = 389
-
-[sub_resource type="Resource" id="Resource_ro8ba"]
-script = ExtResource("3_cljix")
-level = 44
-move = 605
-
-[sub_resource type="Resource" id="Resource_gpkrh"]
-script = ExtResource("3_cljix")
-level = 48
-move = 94
-
-[sub_resource type="Resource" id="Resource_ajp1f"]
-script = ExtResource("3_cljix")
-level = 52
-move = 298
+level = 47
+move = 164
 
 [resource]
 script = ExtResource("4_vrjnq")
@@ -113,6 +49,7 @@ convince others that something unseeable
 actually exists. Once believed, the
 imaginary object does become real."
 type_1 = 15
+type_2 = 19
 base_hp = 40
 base_atk = 45
 base_def = 65
@@ -129,6 +66,6 @@ ability_hidden = 101
 height_dm = 13
 weight_hg = 545
 body_color = 9
-level_moves = Array[ExtResource("3_cljix")]([SubResource("Resource_j4uax"), SubResource("Resource_fpio6"), SubResource("Resource_jijp3"), SubResource("Resource_366tc"), SubResource("Resource_7a7pq"), SubResource("Resource_gxjro"), SubResource("Resource_i0xu7"), SubResource("Resource_46eq1"), SubResource("Resource_dhkot"), SubResource("Resource_qbqlg"), SubResource("Resource_djk0x"), SubResource("Resource_besmf"), SubResource("Resource_0ch1p"), SubResource("Resource_eh652"), SubResource("Resource_u24h5"), SubResource("Resource_b7urs"), SubResource("Resource_f7ofp"), SubResource("Resource_e7x86"), SubResource("Resource_ro8ba"), SubResource("Resource_gpkrh"), SubResource("Resource_ajp1f")])
+level_moves = Array[ExtResource("3_cljix")]([SubResource("Resource_afm3r"), SubResource("Resource_y1tf3"), SubResource("Resource_cljix"), SubResource("Resource_vrjnq"), SubResource("Resource_j4uax"), SubResource("Resource_fpio6"), SubResource("Resource_jijp3")])
 egg_moves = Array[int]([248, 95, 102, 252, 271, 109, 358, 298, 417, 471, 478, 196, 641])
 form_species = Array[int]([122, 981])

@@ -5,90 +5,65 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mafjs"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sxfvn"]
 
-[sub_resource type="Resource" id="Resource_18giy"]
+[sub_resource type="Resource" id="Resource_nws5k"]
 script = ExtResource("3_mafjs")
 move = 45
 
+[sub_resource type="Resource" id="Resource_vygum"]
+script = ExtResource("3_mafjs")
+move = 55
+
+[sub_resource type="Resource" id="Resource_mafjs"]
+script = ExtResource("3_mafjs")
+move = 346
+
+[sub_resource type="Resource" id="Resource_sxfvn"]
+script = ExtResource("3_mafjs")
+move = 17
+
+[sub_resource type="Resource" id="Resource_18giy"]
+script = ExtResource("3_mafjs")
+level = 3
+move = 55
+
 [sub_resource type="Resource" id="Resource_rpqvm"]
 script = ExtResource("3_mafjs")
+level = 7
 move = 48
 
 [sub_resource type="Resource" id="Resource_svhpj"]
 script = ExtResource("3_mafjs")
-move = 403
+level = 13
+move = 17
 
 [sub_resource type="Resource" id="Resource_ujl08"]
 script = ExtResource("3_mafjs")
-move = 55
+level = 21
+move = 54
 
 [sub_resource type="Resource" id="Resource_7rr0e"]
 script = ExtResource("3_mafjs")
-move = 366
+level = 25
+move = 182
 
 [sub_resource type="Resource" id="Resource_w3guh"]
 script = ExtResource("3_mafjs")
-move = 97
+level = 33
+move = 254
 
 [sub_resource type="Resource" id="Resource_dctpa"]
 script = ExtResource("3_mafjs")
-move = 98
+level = 33
+move = 256
 
 [sub_resource type="Resource" id="Resource_f7aoa"]
 script = ExtResource("3_mafjs")
-move = 182
+level = 47
+move = 255
 
 [sub_resource type="Resource" id="Resource_5wsu8"]
 script = ExtResource("3_mafjs")
-move = 487
-
-[sub_resource type="Resource" id="Resource_jadcq"]
-script = ExtResource("3_mafjs")
-level = 15
-move = 17
-
-[sub_resource type="Resource" id="Resource_2oa35"]
-script = ExtResource("3_mafjs")
-level = 20
-move = 352
-
-[sub_resource type="Resource" id="Resource_vfn55"]
-script = ExtResource("3_mafjs")
-level = 28
-move = 254
-
-[sub_resource type="Resource" id="Resource_ow0gn"]
-script = ExtResource("3_mafjs")
-level = 28
-move = 255
-
-[sub_resource type="Resource" id="Resource_n78fg"]
-script = ExtResource("3_mafjs")
-level = 28
-move = 256
-
-[sub_resource type="Resource" id="Resource_fdnty"]
-script = ExtResource("3_mafjs")
-level = 34
-move = 374
-
-[sub_resource type="Resource" id="Resource_4bywq"]
-script = ExtResource("3_mafjs")
-level = 41
-move = 54
-
-[sub_resource type="Resource" id="Resource_sw0i5"]
-script = ExtResource("3_mafjs")
-level = 48
-move = 355
-
-[sub_resource type="Resource" id="Resource_8hnw0"]
-script = ExtResource("3_mafjs")
-level = 55
-move = 542
-
-[sub_resource type="Resource" id="Resource_wvw5u"]
-script = ExtResource("3_mafjs")
-level = 62
+level = 61
 move = 56
 
 [resource]
@@ -110,13 +85,14 @@ base_spa = 95
 base_spd = 70
 base_spe = 65
 ev_def = 2
-base_exp = 164
+base_exp = 154
 egg_group_1 = 2
 egg_group_2 = 4
 ability_1 = 51
+ability_2 = 2
 ability_hidden = 44
 item_common = 156
 height_dm = 12
 weight_hg = 280
 body_color = 2
-level_moves = Array[ExtResource("3_mafjs")]([SubResource("Resource_18giy"), SubResource("Resource_rpqvm"), SubResource("Resource_svhpj"), SubResource("Resource_ujl08"), SubResource("Resource_7rr0e"), SubResource("Resource_w3guh"), SubResource("Resource_dctpa"), SubResource("Resource_f7aoa"), SubResource("Resource_5wsu8"), SubResource("Resource_jadcq"), SubResource("Resource_2oa35"), SubResource("Resource_vfn55"), SubResource("Resource_ow0gn"), SubResource("Resource_n78fg"), SubResource("Resource_fdnty"), SubResource("Resource_4bywq"), SubResource("Resource_sw0i5"), SubResource("Resource_8hnw0"), SubResource("Resource_wvw5u")])
+level_moves = Array[ExtResource("3_mafjs")]([SubResource("Resource_nws5k"), SubResource("Resource_vygum"), SubResource("Resource_mafjs"), SubResource("Resource_sxfvn"), SubResource("Resource_18giy"), SubResource("Resource_rpqvm"), SubResource("Resource_svhpj"), SubResource("Resource_ujl08"), SubResource("Resource_7rr0e"), SubResource("Resource_w3guh"), SubResource("Resource_dctpa"), SubResource("Resource_f7aoa"), SubResource("Resource_5wsu8")])

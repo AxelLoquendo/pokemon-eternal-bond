@@ -5,88 +5,56 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_igwbl"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_iojfc"]
 
-[sub_resource type="Resource" id="Resource_mai5w"]
-script = ExtResource("3_igwbl")
-move = 413
-
-[sub_resource type="Resource" id="Resource_7uli3"]
-script = ExtResource("3_igwbl")
-move = 403
-
-[sub_resource type="Resource" id="Resource_ity1g"]
-script = ExtResource("3_igwbl")
-move = 365
-
-[sub_resource type="Resource" id="Resource_v08jo"]
+[sub_resource type="Resource" id="Resource_ksxto"]
 script = ExtResource("3_igwbl")
 move = 64
 
-[sub_resource type="Resource" id="Resource_067qr"]
+[sub_resource type="Resource" id="Resource_bxca2"]
 script = ExtResource("3_igwbl")
 move = 45
 
-[sub_resource type="Resource" id="Resource_pqffw"]
+[sub_resource type="Resource" id="Resource_igwbl"]
 script = ExtResource("3_igwbl")
 move = 116
 
-[sub_resource type="Resource" id="Resource_b67au"]
+[sub_resource type="Resource" id="Resource_iojfc"]
 script = ExtResource("3_igwbl")
 move = 98
 
-[sub_resource type="Resource" id="Resource_ye8fs"]
+[sub_resource type="Resource" id="Resource_mai5w"]
 script = ExtResource("3_igwbl")
-level = 5
+level = 4
 move = 116
 
-[sub_resource type="Resource" id="Resource_wpews"]
+[sub_resource type="Resource" id="Resource_7uli3"]
 script = ExtResource("3_igwbl")
-level = 9
+level = 8
 move = 98
 
-[sub_resource type="Resource" id="Resource_jsqxg"]
+[sub_resource type="Resource" id="Resource_ity1g"]
 script = ExtResource("3_igwbl")
 level = 13
 move = 17
 
-[sub_resource type="Resource" id="Resource_si5mv"]
+[sub_resource type="Resource" id="Resource_v08jo"]
 script = ExtResource("3_igwbl")
-level = 17
+level = 19
 move = 104
 
-[sub_resource type="Resource" id="Resource_ampfo"]
+[sub_resource type="Resource" id="Resource_067qr"]
 script = ExtResource("3_igwbl")
-level = 21
-move = 332
-
-[sub_resource type="Resource" id="Resource_g5vr2"]
-script = ExtResource("3_igwbl")
-level = 27
-move = 501
-
-[sub_resource type="Resource" id="Resource_xt22i"]
-script = ExtResource("3_igwbl")
-level = 33
-move = 97
-
-[sub_resource type="Resource" id="Resource_4vej0"]
-script = ExtResource("3_igwbl")
-level = 39
-move = 403
-
-[sub_resource type="Resource" id="Resource_xkymw"]
-script = ExtResource("3_igwbl")
-level = 45
+level = 28
 move = 283
 
-[sub_resource type="Resource" id="Resource_53flk"]
+[sub_resource type="Resource" id="Resource_pqffw"]
 script = ExtResource("3_igwbl")
-level = 51
-move = 413
+level = 38
+move = 332
 
-[sub_resource type="Resource" id="Resource_lpuy3"]
+[sub_resource type="Resource" id="Resource_b67au"]
 script = ExtResource("3_igwbl")
-level = 57
-move = 179
+level = 49
+move = 97
 
 [resource]
 script = ExtResource("4_iojfc")
@@ -107,7 +75,7 @@ base_spa = 75
 base_spd = 50
 base_spe = 125
 ev_spe = 2
-base_exp = 162
+base_exp = 159
 growth_rate = 3
 egg_cycles = 15
 egg_group_1 = 4
@@ -116,4 +84,4 @@ ability_hidden = 113
 height_dm = 7
 weight_hg = 198
 body_color = 1
-level_moves = Array[ExtResource("3_igwbl")]([SubResource("Resource_mai5w"), SubResource("Resource_7uli3"), SubResource("Resource_ity1g"), SubResource("Resource_v08jo"), SubResource("Resource_067qr"), SubResource("Resource_pqffw"), SubResource("Resource_b67au"), SubResource("Resource_ye8fs"), SubResource("Resource_wpews"), SubResource("Resource_jsqxg"), SubResource("Resource_si5mv"), SubResource("Resource_ampfo"), SubResource("Resource_g5vr2"), SubResource("Resource_xt22i"), SubResource("Resource_4vej0"), SubResource("Resource_xkymw"), SubResource("Resource_53flk"), SubResource("Resource_lpuy3")])
+level_moves = Array[ExtResource("3_igwbl")]([SubResource("Resource_ksxto"), SubResource("Resource_bxca2"), SubResource("Resource_igwbl"), SubResource("Resource_iojfc"), SubResource("Resource_mai5w"), SubResource("Resource_7uli3"), SubResource("Resource_ity1g"), SubResource("Resource_v08jo"), SubResource("Resource_067qr"), SubResource("Resource_pqffw"), SubResource("Resource_b67au")])

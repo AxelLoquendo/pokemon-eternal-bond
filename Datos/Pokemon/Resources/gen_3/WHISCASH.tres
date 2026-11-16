@@ -5,70 +5,68 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_83ytq"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_op2du"]
 
-[sub_resource type="Resource" id="Resource_vditi"]
-script = ExtResource("3_83ytq")
-level = 0
-move = 37
-
-[sub_resource type="Resource" id="Resource_60wt2"]
-script = ExtResource("3_83ytq")
-move = 55
-
-[sub_resource type="Resource" id="Resource_njdj1"]
-script = ExtResource("3_83ytq")
-move = 156
-
-[sub_resource type="Resource" id="Resource_6sqqp"]
-script = ExtResource("3_83ytq")
-move = 173
-
-[sub_resource type="Resource" id="Resource_ynmhl"]
-script = ExtResource("3_83ytq")
-move = 189
-
-[sub_resource type="Resource" id="Resource_40t0s"]
+[sub_resource type="Resource" id="Resource_ks57r"]
 script = ExtResource("3_83ytq")
 move = 321
 
+[sub_resource type="Resource" id="Resource_xo0u5"]
+script = ExtResource("3_83ytq")
+move = 189
+
+[sub_resource type="Resource" id="Resource_83ytq"]
+script = ExtResource("3_83ytq")
+move = 300
+
+[sub_resource type="Resource" id="Resource_op2du"]
+script = ExtResource("3_83ytq")
+move = 346
+
+[sub_resource type="Resource" id="Resource_vditi"]
+script = ExtResource("3_83ytq")
+level = 6
+move = 300
+
+[sub_resource type="Resource" id="Resource_60wt2"]
+script = ExtResource("3_83ytq")
+level = 6
+move = 346
+
+[sub_resource type="Resource" id="Resource_njdj1"]
+script = ExtResource("3_83ytq")
+level = 11
+move = 55
+
+[sub_resource type="Resource" id="Resource_6sqqp"]
+script = ExtResource("3_83ytq")
+level = 16
+move = 222
+
+[sub_resource type="Resource" id="Resource_ynmhl"]
+script = ExtResource("3_83ytq")
+level = 21
+move = 133
+
+[sub_resource type="Resource" id="Resource_40t0s"]
+script = ExtResource("3_83ytq")
+level = 26
+move = 156
+
 [sub_resource type="Resource" id="Resource_dwwyn"]
 script = ExtResource("3_83ytq")
-move = 428
+level = 26
+move = 173
 
 [sub_resource type="Resource" id="Resource_ni2f8"]
 script = ExtResource("3_83ytq")
-move = 562
+level = 36
+move = 89
 
 [sub_resource type="Resource" id="Resource_giqud"]
 script = ExtResource("3_83ytq")
-level = 12
-move = 352
-
-[sub_resource type="Resource" id="Resource_prm34"]
-script = ExtResource("3_83ytq")
-level = 18
-move = 133
-
-[sub_resource type="Resource" id="Resource_q7v4e"]
-script = ExtResource("3_83ytq")
-level = 24
-move = 401
-
-[sub_resource type="Resource" id="Resource_pi4vd"]
-script = ExtResource("3_83ytq")
-level = 33
-move = 330
-
-[sub_resource type="Resource" id="Resource_dx37m"]
-script = ExtResource("3_83ytq")
-level = 40
-move = 89
-
-[sub_resource type="Resource" id="Resource_mf78l"]
-script = ExtResource("3_83ytq")
-level = 48
+level = 46
 move = 248
 
-[sub_resource type="Resource" id="Resource_nejfw"]
+[sub_resource type="Resource" id="Resource_prm34"]
 script = ExtResource("3_83ytq")
 level = 56
 move = 90
@@ -96,8 +94,9 @@ catch_rate = 75
 base_exp = 164
 egg_group_1 = 12
 ability_1 = 12
+ability_2 = 107
 ability_hidden = 93
 height_dm = 9
 weight_hg = 236
 body_color = 1
-level_moves = Array[ExtResource("3_83ytq")]([SubResource("Resource_vditi"), SubResource("Resource_60wt2"), SubResource("Resource_njdj1"), SubResource("Resource_6sqqp"), SubResource("Resource_ynmhl"), SubResource("Resource_40t0s"), SubResource("Resource_dwwyn"), SubResource("Resource_ni2f8"), SubResource("Resource_giqud"), SubResource("Resource_prm34"), SubResource("Resource_q7v4e"), SubResource("Resource_pi4vd"), SubResource("Resource_dx37m"), SubResource("Resource_mf78l"), SubResource("Resource_nejfw")])
+level_moves = Array[ExtResource("3_83ytq")]([SubResource("Resource_ks57r"), SubResource("Resource_xo0u5"), SubResource("Resource_83ytq"), SubResource("Resource_op2du"), SubResource("Resource_vditi"), SubResource("Resource_60wt2"), SubResource("Resource_njdj1"), SubResource("Resource_6sqqp"), SubResource("Resource_ynmhl"), SubResource("Resource_40t0s"), SubResource("Resource_dwwyn"), SubResource("Resource_ni2f8"), SubResource("Resource_giqud"), SubResource("Resource_prm34")])

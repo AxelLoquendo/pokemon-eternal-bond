@@ -5,73 +5,103 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cmnw5"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cwcou"]
 
-[sub_resource type="Resource" id="Resource_isaix"]
+[sub_resource type="Resource" id="Resource_a3p6a"]
 script = ExtResource("3_cmnw5")
 level = 0
 move = 651
 
-[sub_resource type="Resource" id="Resource_uf2iv"]
+[sub_resource type="Resource" id="Resource_vixho"]
 script = ExtResource("3_cmnw5")
-move = 75
+move = 651
 
-[sub_resource type="Resource" id="Resource_qyice"]
+[sub_resource type="Resource" id="Resource_cmnw5"]
+script = ExtResource("3_cmnw5")
+move = 386
+
+[sub_resource type="Resource" id="Resource_cwcou"]
+script = ExtResource("3_cmnw5")
+move = 3
+
+[sub_resource type="Resource" id="Resource_isaix"]
 script = ExtResource("3_cmnw5")
 move = 150
 
+[sub_resource type="Resource" id="Resource_uf2iv"]
+script = ExtResource("3_cmnw5")
+move = 207
+
+[sub_resource type="Resource" id="Resource_qyice"]
+script = ExtResource("3_cmnw5")
+move = 229
+
 [sub_resource type="Resource" id="Resource_msbms"]
 script = ExtResource("3_cmnw5")
-move = 175
+move = 75
 
 [sub_resource type="Resource" id="Resource_58hw1"]
 script = ExtResource("3_cmnw5")
+level = 5
 move = 207
 
 [sub_resource type="Resource" id="Resource_n65s6"]
 script = ExtResource("3_cmnw5")
+level = 9
 move = 229
 
 [sub_resource type="Resource" id="Resource_qcvab"]
 script = ExtResource("3_cmnw5")
-move = 438
+level = 13
+move = 75
 
 [sub_resource type="Resource" id="Resource_4nnxx"]
 script = ExtResource("3_cmnw5")
-move = 589
+level = 17
+move = 230
 
 [sub_resource type="Resource" id="Resource_sogm3"]
 script = ExtResource("3_cmnw5")
-level = 16
-move = 230
+level = 21
+move = 345
 
 [sub_resource type="Resource" id="Resource_a0kfg"]
 script = ExtResource("3_cmnw5")
-level = 22
-move = 345
+level = 25
+move = 298
 
 [sub_resource type="Resource" id="Resource_bb0rk"]
 script = ExtResource("3_cmnw5")
-level = 28
+level = 29
 move = 23
 
 [sub_resource type="Resource" id="Resource_2qnnl"]
 script = ExtResource("3_cmnw5")
-level = 34
-move = 298
+level = 33
+move = 597
 
 [sub_resource type="Resource" id="Resource_v0mch"]
 script = ExtResource("3_cmnw5")
-level = 40
-move = 597
+level = 37
+move = 445
 
 [sub_resource type="Resource" id="Resource_88b0n"]
 script = ExtResource("3_cmnw5")
-level = 46
-move = 437
+level = 41
+move = 312
 
 [sub_resource type="Resource" id="Resource_uh240"]
 script = ExtResource("3_cmnw5")
-level = 58
+level = 45
+move = 437
+
+[sub_resource type="Resource" id="Resource_7ikbs"]
+script = ExtResource("3_cmnw5")
+level = 49
 move = 136
+
+[sub_resource type="Resource" id="Resource_xrgaf"]
+script = ExtResource("3_cmnw5")
+level = 53
+move = 438
 
 [resource]
 script = ExtResource("4_cwcou")
@@ -103,4 +133,4 @@ height_dm = 12
 weight_hg = 214
 body_color = 6
 no_flip = true
-level_moves = Array[ExtResource("3_cmnw5")]([SubResource("Resource_isaix"), SubResource("Resource_uf2iv"), SubResource("Resource_qyice"), SubResource("Resource_msbms"), SubResource("Resource_58hw1"), SubResource("Resource_n65s6"), SubResource("Resource_qcvab"), SubResource("Resource_4nnxx"), SubResource("Resource_sogm3"), SubResource("Resource_a0kfg"), SubResource("Resource_bb0rk"), SubResource("Resource_2qnnl"), SubResource("Resource_v0mch"), SubResource("Resource_88b0n"), SubResource("Resource_uh240")])
+level_moves = Array[ExtResource("3_cmnw5")]([SubResource("Resource_a3p6a"), SubResource("Resource_vixho"), SubResource("Resource_cmnw5"), SubResource("Resource_cwcou"), SubResource("Resource_isaix"), SubResource("Resource_uf2iv"), SubResource("Resource_qyice"), SubResource("Resource_msbms"), SubResource("Resource_58hw1"), SubResource("Resource_n65s6"), SubResource("Resource_qcvab"), SubResource("Resource_4nnxx"), SubResource("Resource_sogm3"), SubResource("Resource_a0kfg"), SubResource("Resource_bb0rk"), SubResource("Resource_2qnnl"), SubResource("Resource_v0mch"), SubResource("Resource_88b0n"), SubResource("Resource_uh240"), SubResource("Resource_7ikbs"), SubResource("Resource_xrgaf")])

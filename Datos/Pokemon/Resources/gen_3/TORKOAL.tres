@@ -5,93 +5,64 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4inya"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dhcep"]
 
-[sub_resource type="Resource" id="Resource_omjrr"]
+[sub_resource type="Resource" id="Resource_cbfcm"]
 script = ExtResource("3_4inya")
 move = 52
 
+[sub_resource type="Resource" id="Resource_r8fa6"]
+script = ExtResource("3_4inya")
+level = 4
+move = 123
+
+[sub_resource type="Resource" id="Resource_4inya"]
+script = ExtResource("3_4inya")
+level = 7
+move = 174
+
+[sub_resource type="Resource" id="Resource_dhcep"]
+script = ExtResource("3_4inya")
+level = 14
+move = 108
+
+[sub_resource type="Resource" id="Resource_omjrr"]
+script = ExtResource("3_4inya")
+level = 17
+move = 83
+
 [sub_resource type="Resource" id="Resource_0l6nh"]
 script = ExtResource("3_4inya")
-move = 123
+level = 20
+move = 34
 
 [sub_resource type="Resource" id="Resource_5i476"]
 script = ExtResource("3_4inya")
-level = 4
-move = 110
+level = 27
+move = 182
 
 [sub_resource type="Resource" id="Resource_q14ed"]
 script = ExtResource("3_4inya")
-level = 8
-move = 229
+level = 30
+move = 53
 
 [sub_resource type="Resource" id="Resource_pkwey"]
 script = ExtResource("3_4inya")
-level = 12
-move = 108
+level = 33
+move = 334
 
 [sub_resource type="Resource" id="Resource_pw6e4"]
 script = ExtResource("3_4inya")
-level = 16
-move = 499
+level = 40
+move = 133
 
 [sub_resource type="Resource" id="Resource_cgpfp"]
 script = ExtResource("3_4inya")
-level = 20
-move = 172
+level = 43
+move = 175
 
 [sub_resource type="Resource" id="Resource_lwmpv"]
 script = ExtResource("3_4inya")
-level = 24
-move = 182
-
-[sub_resource type="Resource" id="Resource_eidnh"]
-script = ExtResource("3_4inya")
-level = 28
-move = 436
-
-[sub_resource type="Resource" id="Resource_oshtt"]
-script = ExtResource("3_4inya")
-level = 32
-move = 34
-
-[sub_resource type="Resource" id="Resource_2vc86"]
-script = ExtResource("3_4inya")
-level = 36
-move = 334
-
-[sub_resource type="Resource" id="Resource_olnfr"]
-script = ExtResource("3_4inya")
-level = 40
-move = 53
-
-[sub_resource type="Resource" id="Resource_8v0vs"]
-script = ExtResource("3_4inya")
-level = 44
-move = 174
-
-[sub_resource type="Resource" id="Resource_qmfgr"]
-script = ExtResource("3_4inya")
-level = 48
+level = 46
 move = 257
-
-[sub_resource type="Resource" id="Resource_mvdtu"]
-script = ExtResource("3_4inya")
-level = 52
-move = 133
-
-[sub_resource type="Resource" id="Resource_7m8gp"]
-script = ExtResource("3_4inya")
-level = 56
-move = 517
-
-[sub_resource type="Resource" id="Resource_rwpjd"]
-script = ExtResource("3_4inya")
-level = 60
-move = 504
-
-[sub_resource type="Resource" id="Resource_rtn54"]
-script = ExtResource("3_4inya")
-level = 64
-move = 284
 
 [resource]
 script = ExtResource("4_dhcep")
@@ -115,10 +86,11 @@ catch_rate = 90
 base_exp = 165
 egg_group_1 = 5
 ability_1 = 73
+ability_2 = 70
 ability_hidden = 75
 item_rare = 426
 height_dm = 5
 weight_hg = 804
 body_color = 5
-level_moves = Array[ExtResource("3_4inya")]([SubResource("Resource_omjrr"), SubResource("Resource_0l6nh"), SubResource("Resource_5i476"), SubResource("Resource_q14ed"), SubResource("Resource_pkwey"), SubResource("Resource_pw6e4"), SubResource("Resource_cgpfp"), SubResource("Resource_lwmpv"), SubResource("Resource_eidnh"), SubResource("Resource_oshtt"), SubResource("Resource_2vc86"), SubResource("Resource_olnfr"), SubResource("Resource_8v0vs"), SubResource("Resource_qmfgr"), SubResource("Resource_mvdtu"), SubResource("Resource_7m8gp"), SubResource("Resource_rwpjd"), SubResource("Resource_rtn54")])
+level_moves = Array[ExtResource("3_4inya")]([SubResource("Resource_cbfcm"), SubResource("Resource_r8fa6"), SubResource("Resource_4inya"), SubResource("Resource_dhcep"), SubResource("Resource_omjrr"), SubResource("Resource_0l6nh"), SubResource("Resource_5i476"), SubResource("Resource_q14ed"), SubResource("Resource_pkwey"), SubResource("Resource_pw6e4"), SubResource("Resource_cgpfp"), SubResource("Resource_lwmpv")])
 egg_moves = Array[int]([284, 203, 214, 281, 90, 130, 481, 499, 276])

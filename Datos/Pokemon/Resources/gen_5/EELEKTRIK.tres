@@ -5,79 +5,79 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ptvcf"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t6u4f"]
 
-[sub_resource type="Resource" id="Resource_kmtku"]
+[sub_resource type="Resource" id="Resource_e43lt"]
 script = ExtResource("1_e43lt")
 method = "ITEM"
 param = "ITEM_THUNDER_STONE"
 target = 604
 
-[sub_resource type="Resource" id="Resource_n116x"]
-script = ExtResource("3_ptvcf")
-level = 0
-move = 242
-
-[sub_resource type="Resource" id="Resource_a4g6r"]
+[sub_resource type="Resource" id="Resource_u21hm"]
 script = ExtResource("3_ptvcf")
 move = 29
 
-[sub_resource type="Resource" id="Resource_v1rbo"]
+[sub_resource type="Resource" id="Resource_ptvcf"]
 script = ExtResource("3_ptvcf")
 move = 86
 
-[sub_resource type="Resource" id="Resource_6x3bb"]
+[sub_resource type="Resource" id="Resource_t6u4f"]
 script = ExtResource("3_ptvcf")
 move = 209
 
-[sub_resource type="Resource" id="Resource_rn0im"]
+[sub_resource type="Resource" id="Resource_kmtku"]
 script = ExtResource("3_ptvcf")
 move = 451
 
-[sub_resource type="Resource" id="Resource_aht5h"]
+[sub_resource type="Resource" id="Resource_n116x"]
 script = ExtResource("3_ptvcf")
 level = 9
 move = 20
 
-[sub_resource type="Resource" id="Resource_gwyu1"]
+[sub_resource type="Resource" id="Resource_a4g6r"]
 script = ExtResource("3_ptvcf")
 level = 19
 move = 51
 
-[sub_resource type="Resource" id="Resource_joqme"]
+[sub_resource type="Resource" id="Resource_v1rbo"]
 script = ExtResource("3_ptvcf")
 level = 29
 move = 435
 
-[sub_resource type="Resource" id="Resource_50rhq"]
+[sub_resource type="Resource" id="Resource_6x3bb"]
+script = ExtResource("3_ptvcf")
+level = 39
+move = 242
+
+[sub_resource type="Resource" id="Resource_rn0im"]
 script = ExtResource("3_ptvcf")
 level = 44
 move = 85
 
-[sub_resource type="Resource" id="Resource_lsck5"]
+[sub_resource type="Resource" id="Resource_aht5h"]
 script = ExtResource("3_ptvcf")
 level = 49
 move = 491
 
-[sub_resource type="Resource" id="Resource_2pguo"]
+[sub_resource type="Resource" id="Resource_gwyu1"]
 script = ExtResource("3_ptvcf")
 level = 54
 move = 489
 
-[sub_resource type="Resource" id="Resource_jgtba"]
+[sub_resource type="Resource" id="Resource_joqme"]
 script = ExtResource("3_ptvcf")
 level = 59
 move = 528
 
-[sub_resource type="Resource" id="Resource_63mkf"]
+[sub_resource type="Resource" id="Resource_50rhq"]
 script = ExtResource("3_ptvcf")
 level = 64
 move = 380
 
-[sub_resource type="Resource" id="Resource_88p12"]
+[sub_resource type="Resource" id="Resource_lsck5"]
 script = ExtResource("3_ptvcf")
 level = 69
 move = 192
 
-[sub_resource type="Resource" id="Resource_ybjmx"]
+[sub_resource type="Resource" id="Resource_2pguo"]
 script = ExtResource("3_ptvcf")
 level = 74
 move = 37
@@ -108,5 +108,5 @@ ability_1 = 26
 height_dm = 12
 weight_hg = 220
 body_color = 1
-level_moves = Array[ExtResource("3_ptvcf")]([SubResource("Resource_n116x"), SubResource("Resource_a4g6r"), SubResource("Resource_v1rbo"), SubResource("Resource_6x3bb"), SubResource("Resource_rn0im"), SubResource("Resource_aht5h"), SubResource("Resource_gwyu1"), SubResource("Resource_joqme"), SubResource("Resource_50rhq"), SubResource("Resource_lsck5"), SubResource("Resource_2pguo"), SubResource("Resource_jgtba"), SubResource("Resource_63mkf"), SubResource("Resource_88p12"), SubResource("Resource_ybjmx")])
-evolutions = Array[ExtResource("1_e43lt")]([SubResource("Resource_kmtku")])
+level_moves = Array[ExtResource("3_ptvcf")]([SubResource("Resource_u21hm"), SubResource("Resource_ptvcf"), SubResource("Resource_t6u4f"), SubResource("Resource_kmtku"), SubResource("Resource_n116x"), SubResource("Resource_a4g6r"), SubResource("Resource_v1rbo"), SubResource("Resource_6x3bb"), SubResource("Resource_rn0im"), SubResource("Resource_aht5h"), SubResource("Resource_gwyu1"), SubResource("Resource_joqme"), SubResource("Resource_50rhq"), SubResource("Resource_lsck5"), SubResource("Resource_2pguo")])
+evolutions = Array[ExtResource("1_e43lt")]([SubResource("Resource_e43lt")])

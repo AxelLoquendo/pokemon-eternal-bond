@@ -5,31 +5,31 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_i5vm6"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_abbfi"]
 
-[sub_resource type="Resource" id="Resource_n4clp"]
+[sub_resource type="Resource" id="Resource_7h8yq"]
 script = ExtResource("1_7h8yq")
 method = "ITEM"
 param = "ITEM_TART_APPLE"
 target = 841
 
-[sub_resource type="Resource" id="Resource_e3c3k"]
+[sub_resource type="Resource" id="Resource_hgiim"]
 script = ExtResource("1_7h8yq")
 method = "ITEM"
 param = "ITEM_SWEET_APPLE"
 target = 842
 
-[sub_resource type="Resource" id="Resource_0uh6c"]
+[sub_resource type="Resource" id="Resource_i5vm6"]
 script = ExtResource("1_7h8yq")
 method = "ITEM"
 param = "ITEM_SYRUPY_APPLE"
 target = 1408
 
-[sub_resource type="Resource" id="Resource_4bxxo"]
-script = ExtResource("3_i5vm6")
-move = 310
-
-[sub_resource type="Resource" id="Resource_x5fas"]
+[sub_resource type="Resource" id="Resource_abbfi"]
 script = ExtResource("3_i5vm6")
 move = 110
+
+[sub_resource type="Resource" id="Resource_n4clp"]
+script = ExtResource("3_i5vm6")
+move = 310
 
 [resource]
 script = ExtResource("4_abbfi")
@@ -61,6 +61,6 @@ ability_hidden = 171
 height_dm = 2
 weight_hg = 5
 body_color = 3
-level_moves = Array[ExtResource("3_i5vm6")]([SubResource("Resource_4bxxo"), SubResource("Resource_x5fas")])
+level_moves = Array[ExtResource("3_i5vm6")]([SubResource("Resource_abbfi"), SubResource("Resource_n4clp")])
 egg_moves = Array[int]([389, 205, 111, 278])
-evolutions = Array[ExtResource("1_7h8yq")]([SubResource("Resource_n4clp"), SubResource("Resource_e3c3k"), SubResource("Resource_0uh6c")])
+evolutions = Array[ExtResource("1_7h8yq")]([SubResource("Resource_7h8yq"), SubResource("Resource_hgiim"), SubResource("Resource_i5vm6")])

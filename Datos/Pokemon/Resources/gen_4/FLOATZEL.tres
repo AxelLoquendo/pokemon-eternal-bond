@@ -5,80 +5,70 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_33qk0"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tcq4k"]
 
-[sub_resource type="Resource" id="Resource_etkw8"]
+[sub_resource type="Resource" id="Resource_xg3s6"]
+script = ExtResource("3_33qk0")
+move = 423
+
+[sub_resource type="Resource" id="Resource_0er8a"]
+script = ExtResource("3_33qk0")
+move = 49
+
+[sub_resource type="Resource" id="Resource_33qk0"]
 script = ExtResource("3_33qk0")
 move = 45
 
+[sub_resource type="Resource" id="Resource_tcq4k"]
+script = ExtResource("3_33qk0")
+move = 346
+
+[sub_resource type="Resource" id="Resource_etkw8"]
+script = ExtResource("3_33qk0")
+move = 98
+
 [sub_resource type="Resource" id="Resource_pi5k3"]
 script = ExtResource("3_33qk0")
+level = 3
 move = 98
 
 [sub_resource type="Resource" id="Resource_myfb0"]
 script = ExtResource("3_33qk0")
-move = 242
+level = 6
+move = 55
 
 [sub_resource type="Resource" id="Resource_gock5"]
 script = ExtResource("3_33qk0")
-move = 423
+level = 10
+move = 228
 
 [sub_resource type="Resource" id="Resource_2npi8"]
 script = ExtResource("3_33qk0")
-move = 487
+level = 15
+move = 129
 
 [sub_resource type="Resource" id="Resource_rfy4e"]
 script = ExtResource("3_33qk0")
-level = 15
-move = 55
+level = 21
+move = 453
 
 [sub_resource type="Resource" id="Resource_3jjoc"]
 script = ExtResource("3_33qk0")
-level = 18
-move = 44
+level = 26
+move = 242
 
 [sub_resource type="Resource" id="Resource_kf3c7"]
 script = ExtResource("3_33qk0")
-level = 21
-move = 129
+level = 29
+move = 97
 
 [sub_resource type="Resource" id="Resource_kmx56"]
 script = ExtResource("3_33qk0")
-level = 24
-move = 453
+level = 39
+move = 250
 
 [sub_resource type="Resource" id="Resource_rhqgq"]
 script = ExtResource("3_33qk0")
-level = 29
-move = 458
-
-[sub_resource type="Resource" id="Resource_310hw"]
-script = ExtResource("3_33qk0")
-level = 35
-move = 250
-
-[sub_resource type="Resource" id="Resource_pjath"]
-script = ExtResource("3_33qk0")
-level = 41
-move = 664
-
-[sub_resource type="Resource" id="Resource_frmoh"]
-script = ExtResource("3_33qk0")
-level = 46
-move = 401
-
-[sub_resource type="Resource" id="Resource_0rk4r"]
-script = ExtResource("3_33qk0")
-level = 51
-move = 97
-
-[sub_resource type="Resource" id="Resource_klelw"]
-script = ExtResource("3_33qk0")
-level = 57
-move = 56
-
-[sub_resource type="Resource" id="Resource_pj48y"]
-script = ExtResource("3_33qk0")
-level = 62
-move = 762
+level = 50
+move = 13
 
 [resource]
 script = ExtResource("4_tcq4k")
@@ -107,4 +97,4 @@ ability_hidden = 41
 height_dm = 11
 weight_hg = 335
 body_color = 5
-level_moves = Array[ExtResource("3_33qk0")]([SubResource("Resource_etkw8"), SubResource("Resource_pi5k3"), SubResource("Resource_myfb0"), SubResource("Resource_gock5"), SubResource("Resource_2npi8"), SubResource("Resource_rfy4e"), SubResource("Resource_3jjoc"), SubResource("Resource_kf3c7"), SubResource("Resource_kmx56"), SubResource("Resource_rhqgq"), SubResource("Resource_310hw"), SubResource("Resource_pjath"), SubResource("Resource_frmoh"), SubResource("Resource_0rk4r"), SubResource("Resource_klelw"), SubResource("Resource_pj48y")])
+level_moves = Array[ExtResource("3_33qk0")]([SubResource("Resource_xg3s6"), SubResource("Resource_0er8a"), SubResource("Resource_33qk0"), SubResource("Resource_tcq4k"), SubResource("Resource_etkw8"), SubResource("Resource_pi5k3"), SubResource("Resource_myfb0"), SubResource("Resource_gock5"), SubResource("Resource_2npi8"), SubResource("Resource_rfy4e"), SubResource("Resource_3jjoc"), SubResource("Resource_kf3c7"), SubResource("Resource_kmx56"), SubResource("Resource_rhqgq")])

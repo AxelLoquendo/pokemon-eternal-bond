@@ -1,0 +1,63 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dw76wfal7535n"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_7e822"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_c6xsb"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_q17rj"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rl22y"]
+
+[sub_resource type="Resource" id="Resource_7e822"]
+script = ExtResource("3_q17rj")
+move = 177
+
+[sub_resource type="Resource" id="Resource_c6xsb"]
+script = ExtResource("3_q17rj")
+level = 11
+move = 219
+
+[sub_resource type="Resource" id="Resource_q17rj"]
+script = ExtResource("3_q17rj")
+level = 22
+move = 16
+
+[sub_resource type="Resource" id="Resource_rl22y"]
+script = ExtResource("3_q17rj")
+level = 33
+move = 105
+
+[sub_resource type="Resource" id="Resource_w0l7j"]
+script = ExtResource("3_q17rj")
+level = 44
+move = 56
+
+[sub_resource type="Resource" id="Resource_kw5bt"]
+script = ExtResource("3_q17rj")
+level = 55
+move = 240
+
+[sub_resource type="Resource" id="Resource_c5flo"]
+script = ExtResource("3_q17rj")
+level = 66
+move = 129
+
+[sub_resource type="Resource" id="Resource_uguah"]
+script = ExtResource("3_q17rj")
+level = 77
+move = 18
+
+[sub_resource type="Resource" id="Resource_a571i"]
+script = ExtResource("3_q17rj")
+level = 88
+move = 246
+
+[sub_resource type="Resource" id="Resource_rdm8r"]
+script = ExtResource("3_q17rj")
+level = 99
+move = 248
+
+[resource]
+script = ExtResource("4_rl22y")
+id = 1435
+display_name = "Lugia Shadow"
+national_dex = 249
+type_1 = 1
+level_moves = Array[ExtResource("3_q17rj")]([SubResource("Resource_7e822"), SubResource("Resource_c6xsb"), SubResource("Resource_q17rj"), SubResource("Resource_rl22y"), SubResource("Resource_w0l7j"), SubResource("Resource_kw5bt"), SubResource("Resource_c5flo"), SubResource("Resource_uguah"), SubResource("Resource_a571i"), SubResource("Resource_rdm8r")])

@@ -1,0 +1,92 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cfqcaktpmq3xi"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_rp6sq"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_habmy"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1upt7"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t3oob"]
+
+[sub_resource type="Resource" id="Resource_rp6sq"]
+script = ExtResource("3_1upt7")
+move = 77
+
+[sub_resource type="Resource" id="Resource_habmy"]
+script = ExtResource("3_1upt7")
+move = 78
+
+[sub_resource type="Resource" id="Resource_1upt7"]
+script = ExtResource("3_1upt7")
+move = 16
+
+[sub_resource type="Resource" id="Resource_t3oob"]
+script = ExtResource("3_1upt7")
+move = 113
+
+[sub_resource type="Resource" id="Resource_c8lly"]
+script = ExtResource("3_1upt7")
+move = 600
+
+[sub_resource type="Resource" id="Resource_cmetd"]
+script = ExtResource("3_1upt7")
+move = 79
+
+[sub_resource type="Resource" id="Resource_m34cp"]
+script = ExtResource("3_1upt7")
+level = 12
+move = 522
+
+[sub_resource type="Resource" id="Resource_4scts"]
+script = ExtResource("3_1upt7")
+level = 17
+move = 60
+
+[sub_resource type="Resource" id="Resource_u6i6c"]
+script = ExtResource("3_1upt7")
+level = 21
+move = 48
+
+[sub_resource type="Resource" id="Resource_y52rt"]
+script = ExtResource("3_1upt7")
+level = 25
+move = 577
+
+[sub_resource type="Resource" id="Resource_6wtp6"]
+script = ExtResource("3_1upt7")
+level = 31
+move = 312
+
+[sub_resource type="Resource" id="Resource_un1si"]
+script = ExtResource("3_1upt7")
+level = 35
+move = 405
+
+[sub_resource type="Resource" id="Resource_bqvci"]
+script = ExtResource("3_1upt7")
+level = 41
+move = 219
+
+[sub_resource type="Resource" id="Resource_qgpwa"]
+script = ExtResource("3_1upt7")
+level = 45
+move = 483
+
+[sub_resource type="Resource" id="Resource_dv5vv"]
+script = ExtResource("3_1upt7")
+level = 50
+move = 542
+
+[sub_resource type="Resource" id="Resource_86m45"]
+script = ExtResource("3_1upt7")
+level = 55
+move = 600
+
+[resource]
+script = ExtResource("4_t3oob")
+id = 1114
+display_name = "Vivillon"
+national_dex = 666
+pokedex = "Its pattern depends on the climate and
+topography of the land it was born in.
+This form is from snowy lands.
+It scatters toxic color scales in battle."
+type_1 = 1
+level_moves = Array[ExtResource("3_1upt7")]([SubResource("Resource_rp6sq"), SubResource("Resource_habmy"), SubResource("Resource_1upt7"), SubResource("Resource_t3oob"), SubResource("Resource_c8lly"), SubResource("Resource_cmetd"), SubResource("Resource_m34cp"), SubResource("Resource_4scts"), SubResource("Resource_u6i6c"), SubResource("Resource_y52rt"), SubResource("Resource_6wtp6"), SubResource("Resource_un1si"), SubResource("Resource_bqvci"), SubResource("Resource_qgpwa"), SubResource("Resource_dv5vv"), SubResource("Resource_86m45")])

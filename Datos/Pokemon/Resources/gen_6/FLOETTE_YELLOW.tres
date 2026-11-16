@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://cxyas50qcpqhs"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_xoy1n"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_yl7vp"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7hb35"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_866up"]
+
+[sub_resource type="Resource" id="Resource_xoy1n"]
+script = ExtResource("3_7hb35")
+move = 33
+
+[sub_resource type="Resource" id="Resource_yl7vp"]
+script = ExtResource("3_7hb35")
+move = 22
+
+[sub_resource type="Resource" id="Resource_7hb35"]
+script = ExtResource("3_7hb35")
+level = 6
+move = 584
+
+[sub_resource type="Resource" id="Resource_866up"]
+script = ExtResource("3_7hb35")
+level = 10
+move = 381
+
+[sub_resource type="Resource" id="Resource_j78gr"]
+script = ExtResource("3_7hb35")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_r82jt"]
+script = ExtResource("3_7hb35")
+level = 20
+move = 273
+
+[sub_resource type="Resource" id="Resource_8og7p"]
+script = ExtResource("3_7hb35")
+level = 25
+move = 345
+
+[sub_resource type="Resource" id="Resource_uvaky"]
+script = ExtResource("3_7hb35")
+level = 27
+move = 580
+
+[sub_resource type="Resource" id="Resource_eescv"]
+script = ExtResource("3_7hb35")
+level = 33
+move = 572
+
+[sub_resource type="Resource" id="Resource_dgbeu"]
+script = ExtResource("3_7hb35")
+level = 38
+move = 312
+
+[sub_resource type="Resource" id="Resource_5hqn3"]
+script = ExtResource("3_7hb35")
+level = 43
+move = 581
+
+[sub_resource type="Resource" id="Resource_j16gt"]
+script = ExtResource("3_7hb35")
+level = 46
+move = 585
+
+[sub_resource type="Resource" id="Resource_m4nc3"]
+script = ExtResource("3_7hb35")
+level = 51
+move = 80
+
+[sub_resource type="Resource" id="Resource_eu8h2"]
+script = ExtResource("3_7hb35")
+level = 58
+move = 76
+
+[resource]
+script = ExtResource("4_866up")
+id = 1137
+display_name = "Floette"
+national_dex = 670
+pokedex = "This Pokémon can draw forth the
+power hidden within yellow flowers.
+This power then becomes the moves
+Floette uses to protect itself."
+type_1 = 1
+level_moves = Array[ExtResource("3_7hb35")]([SubResource("Resource_xoy1n"), SubResource("Resource_yl7vp"), SubResource("Resource_7hb35"), SubResource("Resource_866up"), SubResource("Resource_j78gr"), SubResource("Resource_r82jt"), SubResource("Resource_8og7p"), SubResource("Resource_uvaky"), SubResource("Resource_eescv"), SubResource("Resource_dgbeu"), SubResource("Resource_5hqn3"), SubResource("Resource_j16gt"), SubResource("Resource_m4nc3"), SubResource("Resource_eu8h2")])

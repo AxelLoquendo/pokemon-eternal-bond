@@ -5,68 +5,60 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ev211"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rl226"]
 
-[sub_resource type="Resource" id="Resource_fhjtu"]
+[sub_resource type="Resource" id="Resource_mup1y"]
 script = ExtResource("3_ev211")
-move = 104
+move = 271
 
-[sub_resource type="Resource" id="Resource_yttkq"]
+[sub_resource type="Resource" id="Resource_0lkqq"]
 script = ExtResource("3_ev211")
 move = 310
 
+[sub_resource type="Resource" id="Resource_ev211"]
+script = ExtResource("3_ev211")
+move = 86
+
+[sub_resource type="Resource" id="Resource_rl226"]
+script = ExtResource("3_ev211")
+move = 84
+
+[sub_resource type="Resource" id="Resource_fhjtu"]
+script = ExtResource("3_ev211")
+move = 109
+
+[sub_resource type="Resource" id="Resource_yttkq"]
+script = ExtResource("3_ev211")
+level = 8
+move = 253
+
 [sub_resource type="Resource" id="Resource_u4nlu"]
 script = ExtResource("3_ev211")
-level = 5
-move = 84
+level = 15
+move = 104
 
 [sub_resource type="Resource" id="Resource_ttsjp"]
 script = ExtResource("3_ev211")
-level = 10
-move = 109
+level = 22
+move = 351
 
 [sub_resource type="Resource" id="Resource_fnlot"]
 script = ExtResource("3_ev211")
-level = 15
-move = 268
+level = 29
+move = 466
 
 [sub_resource type="Resource" id="Resource_kjjp6"]
 script = ExtResource("3_ev211")
-level = 20
-move = 486
+level = 36
+move = 164
 
 [sub_resource type="Resource" id="Resource_bw66l"]
 script = ExtResource("3_ev211")
-level = 25
-move = 86
+level = 43
+move = 268
 
 [sub_resource type="Resource" id="Resource_cosgb"]
 script = ExtResource("3_ev211")
-level = 30
-move = 351
-
-[sub_resource type="Resource" id="Resource_ie4q4"]
-script = ExtResource("3_ev211")
-level = 35
-move = 506
-
-[sub_resource type="Resource" id="Resource_mu1iw"]
-script = ExtResource("3_ev211")
-level = 40
-move = 164
-
-[sub_resource type="Resource" id="Resource_o30af"]
-script = ExtResource("3_ev211")
-level = 45
-move = 271
-
-[sub_resource type="Resource" id="Resource_fdhvv"]
-script = ExtResource("3_ev211")
 level = 50
 move = 435
-
-[sub_resource type="Resource" id="Resource_ew8oo"]
-script = ExtResource("3_ev211")
-level = 55
-move = 253
 
 [resource]
 script = ExtResource("4_rl226")
@@ -78,7 +70,8 @@ pokedex = "The first appliance developed that Rotom
 coud inspirit was the electric fan. It uses
 its power over wind in its pranks, happily
 blowing any important documents it finds."
-type_1 = 1
+type_1 = 14
+type_2 = 3
 base_hp = 50
 base_atk = 65
 base_def = 107
@@ -92,5 +85,5 @@ egg_group_1 = 11
 ability_1 = 26
 height_dm = 3
 weight_hg = 3
-level_moves = Array[ExtResource("3_ev211")]([SubResource("Resource_fhjtu"), SubResource("Resource_yttkq"), SubResource("Resource_u4nlu"), SubResource("Resource_ttsjp"), SubResource("Resource_fnlot"), SubResource("Resource_kjjp6"), SubResource("Resource_bw66l"), SubResource("Resource_cosgb"), SubResource("Resource_ie4q4"), SubResource("Resource_mu1iw"), SubResource("Resource_o30af"), SubResource("Resource_fdhvv"), SubResource("Resource_ew8oo")])
+level_moves = Array[ExtResource("3_ev211")]([SubResource("Resource_mup1y"), SubResource("Resource_0lkqq"), SubResource("Resource_ev211"), SubResource("Resource_rl226"), SubResource("Resource_fhjtu"), SubResource("Resource_yttkq"), SubResource("Resource_u4nlu"), SubResource("Resource_ttsjp"), SubResource("Resource_fnlot"), SubResource("Resource_kjjp6"), SubResource("Resource_bw66l"), SubResource("Resource_cosgb")])
 form_species = Array[int]([479, 1064, 1065, 1066, 1067, 1068])

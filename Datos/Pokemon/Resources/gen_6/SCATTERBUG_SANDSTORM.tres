@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://b3vjxau5naupo"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_kmvh4"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_712wm"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4l2i4"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jfp08"]
+
+[sub_resource type="Resource" id="Resource_kmvh4"]
+script = ExtResource("1_kmvh4")
+method = "LEVEL"
+param = "12"
+
+[sub_resource type="Resource" id="Resource_712wm"]
+script = ExtResource("3_4l2i4")
+move = 33
+
+[sub_resource type="Resource" id="Resource_4l2i4"]
+script = ExtResource("3_4l2i4")
+move = 81
+
+[sub_resource type="Resource" id="Resource_jfp08"]
+script = ExtResource("3_4l2i4")
+level = 6
+move = 78
+
+[sub_resource type="Resource" id="Resource_t0s0q"]
+script = ExtResource("3_4l2i4")
+level = 15
+move = 450
+
+[resource]
+script = ExtResource("4_jfp08")
+id = 1448
+display_name = "Scatterbug"
+category = "Scatterdust"
+national_dex = 664
+type_1 = 7
+base_hp = 38
+base_atk = 35
+base_def = 40
+base_spa = 27
+base_spd = 25
+base_spe = 35
+ev_def = 2
+catch_rate = 120
+base_exp = 75
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 19
+ability_2 = 14
+ability_hidden = 132
+height_dm = 3
+weight_hg = 84
+body_color = 4
+level_moves = Array[ExtResource("3_4l2i4")]([SubResource("Resource_712wm"), SubResource("Resource_4l2i4"), SubResource("Resource_jfp08"), SubResource("Resource_t0s0q")])
+egg_moves = Array[int]([78, 77, 476])
+evolutions = Array[ExtResource("1_kmvh4")]([SubResource("Resource_kmvh4")])
+form_species = Array[int]([665, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475])

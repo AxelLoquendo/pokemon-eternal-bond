@@ -5,88 +5,49 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cko2u"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tp3i5"]
 
-[sub_resource type="Resource" id="Resource_bwmqb"]
+[sub_resource type="Resource" id="Resource_pq22e"]
 script = ExtResource("1_pq22e")
 method = "ITEM"
 param = "ITEM_WATER_STONE"
 target = 121
 
-[sub_resource type="Resource" id="Resource_rue7c"]
+[sub_resource type="Resource" id="Resource_wus3f"]
 script = ExtResource("3_cko2u")
 move = 33
 
+[sub_resource type="Resource" id="Resource_cko2u"]
+script = ExtResource("3_cko2u")
+level = 17
+move = 55
+
+[sub_resource type="Resource" id="Resource_tp3i5"]
+script = ExtResource("3_cko2u")
+level = 22
+move = 106
+
+[sub_resource type="Resource" id="Resource_bwmqb"]
+script = ExtResource("3_cko2u")
+level = 27
+move = 105
+
+[sub_resource type="Resource" id="Resource_rue7c"]
+script = ExtResource("3_cko2u")
+level = 32
+move = 129
+
 [sub_resource type="Resource" id="Resource_c8w8i"]
 script = ExtResource("3_cko2u")
-move = 106
+level = 37
+move = 107
 
 [sub_resource type="Resource" id="Resource_roeo1"]
 script = ExtResource("3_cko2u")
-level = 4
-move = 55
+level = 42
+move = 113
 
 [sub_resource type="Resource" id="Resource_dakch"]
 script = ExtResource("3_cko2u")
-level = 8
-move = 109
-
-[sub_resource type="Resource" id="Resource_cnqym"]
-script = ExtResource("3_cko2u")
-level = 12
-move = 229
-
-[sub_resource type="Resource" id="Resource_sasit"]
-script = ExtResource("3_cko2u")
-level = 16
-move = 107
-
-[sub_resource type="Resource" id="Resource_62m8v"]
-script = ExtResource("3_cko2u")
-level = 20
-move = 129
-
-[sub_resource type="Resource" id="Resource_7w7bl"]
-script = ExtResource("3_cko2u")
-level = 24
-move = 60
-
-[sub_resource type="Resource" id="Resource_x27re"]
-script = ExtResource("3_cko2u")
-level = 28
-move = 362
-
-[sub_resource type="Resource" id="Resource_d7ijd"]
-script = ExtResource("3_cko2u")
-level = 32
-move = 113
-
-[sub_resource type="Resource" id="Resource_aisxu"]
-script = ExtResource("3_cko2u")
-level = 36
-move = 408
-
-[sub_resource type="Resource" id="Resource_pawil"]
-script = ExtResource("3_cko2u")
-level = 40
-move = 94
-
-[sub_resource type="Resource" id="Resource_m8e8n"]
-script = ExtResource("3_cko2u")
-level = 44
-move = 57
-
-[sub_resource type="Resource" id="Resource_pw2fh"]
-script = ExtResource("3_cko2u")
-level = 48
-move = 105
-
-[sub_resource type="Resource" id="Resource_uhmju"]
-script = ExtResource("3_cko2u")
-level = 52
-move = 322
-
-[sub_resource type="Resource" id="Resource_xc4o3"]
-script = ExtResource("3_cko2u")
-level = 56
+level = 47
 move = 56
 
 [resource]
@@ -121,5 +82,5 @@ height_dm = 8
 weight_hg = 345
 body_color = 5
 no_flip = true
-level_moves = Array[ExtResource("3_cko2u")]([SubResource("Resource_rue7c"), SubResource("Resource_c8w8i"), SubResource("Resource_roeo1"), SubResource("Resource_dakch"), SubResource("Resource_cnqym"), SubResource("Resource_sasit"), SubResource("Resource_62m8v"), SubResource("Resource_7w7bl"), SubResource("Resource_x27re"), SubResource("Resource_d7ijd"), SubResource("Resource_aisxu"), SubResource("Resource_pawil"), SubResource("Resource_m8e8n"), SubResource("Resource_pw2fh"), SubResource("Resource_uhmju"), SubResource("Resource_xc4o3")])
-evolutions = Array[ExtResource("1_pq22e")]([SubResource("Resource_bwmqb")])
+level_moves = Array[ExtResource("3_cko2u")]([SubResource("Resource_wus3f"), SubResource("Resource_cko2u"), SubResource("Resource_tp3i5"), SubResource("Resource_bwmqb"), SubResource("Resource_rue7c"), SubResource("Resource_c8w8i"), SubResource("Resource_roeo1"), SubResource("Resource_dakch")])
+evolutions = Array[ExtResource("1_pq22e")]([SubResource("Resource_pq22e")])

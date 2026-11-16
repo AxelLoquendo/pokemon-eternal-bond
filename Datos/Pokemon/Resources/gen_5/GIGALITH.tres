@@ -5,69 +5,85 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_me335"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r442r"]
 
+[sub_resource type="Resource" id="Resource_mi38t"]
+script = ExtResource("3_me335")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ct6sy"]
+script = ExtResource("3_me335")
+move = 106
+
+[sub_resource type="Resource" id="Resource_me335"]
+script = ExtResource("3_me335")
+move = 28
+
+[sub_resource type="Resource" id="Resource_r442r"]
+script = ExtResource("3_me335")
+move = 29
+
 [sub_resource type="Resource" id="Resource_etyoo"]
 script = ExtResource("3_me335")
-move = 408
+level = 4
+move = 106
 
 [sub_resource type="Resource" id="Resource_vkvus"]
 script = ExtResource("3_me335")
+level = 7
 move = 28
 
 [sub_resource type="Resource" id="Resource_qsrv1"]
 script = ExtResource("3_me335")
-move = 33
+level = 10
+move = 29
 
 [sub_resource type="Resource" id="Resource_afat4"]
 script = ExtResource("3_me335")
-move = 106
+level = 14
+move = 350
 
 [sub_resource type="Resource" id="Resource_tyuka"]
 script = ExtResource("3_me335")
-move = 446
-
-[sub_resource type="Resource" id="Resource_m8rjh"]
-script = ExtResource("3_me335")
-level = 12
+level = 17
 move = 189
 
-[sub_resource type="Resource" id="Resource_pjcyh"]
-script = ExtResource("3_me335")
-level = 16
-move = 479
-
-[sub_resource type="Resource" id="Resource_2mc3q"]
+[sub_resource type="Resource" id="Resource_m8rjh"]
 script = ExtResource("3_me335")
 level = 20
 move = 334
 
-[sub_resource type="Resource" id="Resource_hp6r7"]
+[sub_resource type="Resource" id="Resource_pjcyh"]
 script = ExtResource("3_me335")
-level = 24
-move = 29
+level = 23
+move = 479
 
-[sub_resource type="Resource" id="Resource_q8mu4"]
+[sub_resource type="Resource" id="Resource_2mc3q"]
+script = ExtResource("3_me335")
+level = 25
+move = 408
+
+[sub_resource type="Resource" id="Resource_hp6r7"]
 script = ExtResource("3_me335")
 level = 30
 move = 157
 
-[sub_resource type="Resource" id="Resource_ymupb"]
+[sub_resource type="Resource" id="Resource_q8mu4"]
 script = ExtResource("3_me335")
 level = 36
-move = 350
+move = 446
 
-[sub_resource type="Resource" id="Resource_n55eo"]
+[sub_resource type="Resource" id="Resource_ymupb"]
 script = ExtResource("3_me335")
 level = 42
 move = 201
 
-[sub_resource type="Resource" id="Resource_kcfgh"]
+[sub_resource type="Resource" id="Resource_n55eo"]
 script = ExtResource("3_me335")
 level = 48
 move = 444
 
-[sub_resource type="Resource" id="Resource_jgkov"]
+[sub_resource type="Resource" id="Resource_kcfgh"]
 script = ExtResource("3_me335")
-level = 54
+level = 55
 move = 153
 
 [resource]
@@ -88,15 +104,16 @@ base_spa = 60
 base_spd = 80
 base_spe = 25
 ev_atk = 3
-base_exp = 227
+base_exp = 258
 growth_rate = 3
 egg_cycles = 15
 egg_group_1 = 10
 ability_1 = 5
+ability_2 = 45
 ability_hidden = 159
 item_common = 245
 item_rare = 437
 height_dm = 17
 weight_hg = 2600
 body_color = 1
-level_moves = Array[ExtResource("3_me335")]([SubResource("Resource_etyoo"), SubResource("Resource_vkvus"), SubResource("Resource_qsrv1"), SubResource("Resource_afat4"), SubResource("Resource_tyuka"), SubResource("Resource_m8rjh"), SubResource("Resource_pjcyh"), SubResource("Resource_2mc3q"), SubResource("Resource_hp6r7"), SubResource("Resource_q8mu4"), SubResource("Resource_ymupb"), SubResource("Resource_n55eo"), SubResource("Resource_kcfgh"), SubResource("Resource_jgkov")])
+level_moves = Array[ExtResource("3_me335")]([SubResource("Resource_mi38t"), SubResource("Resource_ct6sy"), SubResource("Resource_me335"), SubResource("Resource_r442r"), SubResource("Resource_etyoo"), SubResource("Resource_vkvus"), SubResource("Resource_qsrv1"), SubResource("Resource_afat4"), SubResource("Resource_tyuka"), SubResource("Resource_m8rjh"), SubResource("Resource_pjcyh"), SubResource("Resource_2mc3q"), SubResource("Resource_hp6r7"), SubResource("Resource_q8mu4"), SubResource("Resource_ymupb"), SubResource("Resource_n55eo"), SubResource("Resource_kcfgh")])

@@ -5,42 +5,28 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uoetl"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7ksu0"]
 
-[sub_resource type="Resource" id="Resource_lj40x"]
-script = ExtResource("3_uoetl")
-move = 1
-
-[sub_resource type="Resource" id="Resource_wr4ox"]
+[sub_resource type="Resource" id="Resource_drcp3"]
 script = ExtResource("3_uoetl")
 move = 47
 
-[sub_resource type="Resource" id="Resource_1kyqr"]
+[sub_resource type="Resource" id="Resource_6baoa"]
 script = ExtResource("3_uoetl")
-move = 383
+move = 204
 
-[sub_resource type="Resource" id="Resource_nmmb2"]
+[sub_resource type="Resource" id="Resource_uoetl"]
 script = ExtResource("3_uoetl")
 level = 4
 move = 111
 
-[sub_resource type="Resource" id="Resource_r1hvi"]
+[sub_resource type="Resource" id="Resource_7ksu0"]
 script = ExtResource("3_uoetl")
-level = 8
+level = 9
+move = 1
+
+[sub_resource type="Resource" id="Resource_lj40x"]
+script = ExtResource("3_uoetl")
+level = 14
 move = 186
-
-[sub_resource type="Resource" id="Resource_8g8jy"]
-script = ExtResource("3_uoetl")
-level = 12
-move = 574
-
-[sub_resource type="Resource" id="Resource_5vdof"]
-script = ExtResource("3_uoetl")
-level = 16
-move = 50
-
-[sub_resource type="Resource" id="Resource_2g1vt"]
-script = ExtResource("3_uoetl")
-level = 20
-move = 204
 
 [resource]
 script = ExtResource("4_7ksu0")
@@ -66,10 +52,11 @@ gender_ratio = 191
 growth_rate = 4
 egg_cycles = 10
 ability_1 = 56
+ability_2 = 172
 ability_hidden = 132
 height_dm = 3
 weight_hg = 10
 body_color = 9
 no_flip = true
-level_moves = Array[ExtResource("3_uoetl")]([SubResource("Resource_lj40x"), SubResource("Resource_wr4ox"), SubResource("Resource_1kyqr"), SubResource("Resource_nmmb2"), SubResource("Resource_r1hvi"), SubResource("Resource_8g8jy"), SubResource("Resource_5vdof"), SubResource("Resource_2g1vt")])
+level_moves = Array[ExtResource("3_uoetl")]([SubResource("Resource_drcp3"), SubResource("Resource_6baoa"), SubResource("Resource_uoetl"), SubResource("Resource_7ksu0"), SubResource("Resource_lj40x")])
 egg_moves = Array[int]([195, 217, 185, 273, 313, 387, 343, 356, 214, 445, 386, 581, 505])

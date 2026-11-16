@@ -5,84 +5,84 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1m7fc"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_63avt"]
 
-[sub_resource type="Resource" id="Resource_xwc1f"]
+[sub_resource type="Resource" id="Resource_gbgnh"]
 script = ExtResource("3_1m7fc")
 level = 0
 move = 623
 
-[sub_resource type="Resource" id="Resource_x80fv"]
+[sub_resource type="Resource" id="Resource_6kqqd"]
 script = ExtResource("3_1m7fc")
 move = 623
 
-[sub_resource type="Resource" id="Resource_h265a"]
+[sub_resource type="Resource" id="Resource_1m7fc"]
 script = ExtResource("3_1m7fc")
 move = 522
 
-[sub_resource type="Resource" id="Resource_2knpf"]
+[sub_resource type="Resource" id="Resource_63avt"]
 script = ExtResource("3_1m7fc")
 move = 28
 
+[sub_resource type="Resource" id="Resource_xwc1f"]
+script = ExtResource("3_1m7fc")
+move = 210
+
+[sub_resource type="Resource" id="Resource_x80fv"]
+script = ExtResource("3_1m7fc")
+move = 249
+
+[sub_resource type="Resource" id="Resource_h265a"]
+script = ExtResource("3_1m7fc")
+level = 4
+move = 210
+
+[sub_resource type="Resource" id="Resource_2knpf"]
+script = ExtResource("3_1m7fc")
+level = 7
+move = 249
+
 [sub_resource type="Resource" id="Resource_umedp"]
 script = ExtResource("3_1m7fc")
-move = 111
+level = 10
+move = 450
 
 [sub_resource type="Resource" id="Resource_npbqu"]
 script = ExtResource("3_1m7fc")
+level = 13
 move = 180
 
 [sub_resource type="Resource" id="Resource_7vefi"]
 script = ExtResource("3_1m7fc")
-level = 4
-move = 249
+level = 16
+move = 14
 
 [sub_resource type="Resource" id="Resource_ipegn"]
 script = ExtResource("3_1m7fc")
-level = 8
-move = 210
+level = 21
+move = 163
 
 [sub_resource type="Resource" id="Resource_m1xjj"]
 script = ExtResource("3_1m7fc")
-level = 12
-move = 341
+level = 26
+move = 534
 
 [sub_resource type="Resource" id="Resource_3ocin"]
 script = ExtResource("3_1m7fc")
-level = 16
-move = 450
+level = 31
+move = 389
 
 [sub_resource type="Resource" id="Resource_tf5nh"]
 script = ExtResource("3_1m7fc")
-level = 20
+level = 36
 move = 334
 
 [sub_resource type="Resource" id="Resource_vps0h"]
 script = ExtResource("3_1m7fc")
-level = 24
-move = 389
+level = 41
+move = 42
 
 [sub_resource type="Resource" id="Resource_yppi7"]
 script = ExtResource("3_1m7fc")
-level = 28
-move = 163
-
-[sub_resource type="Resource" id="Resource_svwd8"]
-script = ExtResource("3_1m7fc")
-level = 32
-move = 534
-
-[sub_resource type="Resource" id="Resource_w0r7h"]
-script = ExtResource("3_1m7fc")
-level = 36
-move = 42
-
-[sub_resource type="Resource" id="Resource_gj874"]
-script = ExtResource("3_1m7fc")
-level = 40
-move = 14
-
-[sub_resource type="Resource" id="Resource_pg4v4"]
-script = ExtResource("3_1m7fc")
-level = 44
+level = 48
 move = 664
 
 [resource]
@@ -113,5 +113,5 @@ ability_hidden = 181
 height_dm = 23
 weight_hg = 1480
 body_color = 7
-level_moves = Array[ExtResource("3_1m7fc")]([SubResource("Resource_xwc1f"), SubResource("Resource_x80fv"), SubResource("Resource_h265a"), SubResource("Resource_2knpf"), SubResource("Resource_umedp"), SubResource("Resource_npbqu"), SubResource("Resource_7vefi"), SubResource("Resource_ipegn"), SubResource("Resource_m1xjj"), SubResource("Resource_3ocin"), SubResource("Resource_tf5nh"), SubResource("Resource_vps0h"), SubResource("Resource_yppi7"), SubResource("Resource_svwd8"), SubResource("Resource_w0r7h"), SubResource("Resource_gj874"), SubResource("Resource_pg4v4")])
+level_moves = Array[ExtResource("3_1m7fc")]([SubResource("Resource_gbgnh"), SubResource("Resource_6kqqd"), SubResource("Resource_1m7fc"), SubResource("Resource_63avt"), SubResource("Resource_xwc1f"), SubResource("Resource_x80fv"), SubResource("Resource_h265a"), SubResource("Resource_2knpf"), SubResource("Resource_umedp"), SubResource("Resource_npbqu"), SubResource("Resource_7vefi"), SubResource("Resource_ipegn"), SubResource("Resource_m1xjj"), SubResource("Resource_3ocin"), SubResource("Resource_tf5nh"), SubResource("Resource_vps0h"), SubResource("Resource_yppi7")])
 form_species = Array[int]([768, 1564])

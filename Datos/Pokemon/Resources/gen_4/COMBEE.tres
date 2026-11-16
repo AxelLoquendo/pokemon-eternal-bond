@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://d1sis5rpf8as"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_j2ewo"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_1evjg"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ryp8v"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dhime"]
+
+[sub_resource type="Resource" id="Resource_j2ewo"]
+script = ExtResource("3_ryp8v")
+move = 230
+
+[sub_resource type="Resource" id="Resource_1evjg"]
+script = ExtResource("3_ryp8v")
+move = 16
+
+[sub_resource type="Resource" id="Resource_ryp8v"]
+script = ExtResource("3_ryp8v")
+level = 13
+move = 450
+
+[resource]
+script = ExtResource("4_dhime")
+id = 415
+display_name = "Combee"
+category = "Tiny Bee"
+national_dex = 415
+type_1 = 7
+type_2 = 3
+base_hp = 30
+base_atk = 30
+base_def = 42
+base_spa = 30
+base_spd = 42
+base_spe = 70
+catch_rate = 120
+growth_rate = 3
+egg_cycles = 15
+ability_1 = 118
+ability_hidden = 55
+height_dm = 3
+weight_hg = 55
+body_color = 2
+level_moves = Array[ExtResource("3_ryp8v")]([SubResource("Resource_j2ewo"), SubResource("Resource_1evjg"), SubResource("Resource_ryp8v")])

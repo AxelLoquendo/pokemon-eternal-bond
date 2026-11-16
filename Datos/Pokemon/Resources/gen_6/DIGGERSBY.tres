@@ -5,80 +5,97 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h0tym"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4l6ls"]
 
+[sub_resource type="Resource" id="Resource_r1n0s"]
+script = ExtResource("3_h0tym")
+move = 359
+
+[sub_resource type="Resource" id="Resource_art1n"]
+script = ExtResource("3_h0tym")
+move = 563
+
+[sub_resource type="Resource" id="Resource_h0tym"]
+script = ExtResource("3_h0tym")
+move = 523
+
+[sub_resource type="Resource" id="Resource_4l6ls"]
+script = ExtResource("3_h0tym")
+move = 14
+
 [sub_resource type="Resource" id="Resource_bmb6k"]
-script = ExtResource("3_h0tym")
-move = 189
-
-[sub_resource type="Resource" id="Resource_dyvqv"]
-script = ExtResource("3_h0tym")
-move = 43
-
-[sub_resource type="Resource" id="Resource_17s4h"]
 script = ExtResource("3_h0tym")
 move = 33
 
+[sub_resource type="Resource" id="Resource_dyvqv"]
+script = ExtResource("3_h0tym")
+move = 97
+
+[sub_resource type="Resource" id="Resource_17s4h"]
+script = ExtResource("3_h0tym")
+move = 43
+
 [sub_resource type="Resource" id="Resource_8ytvn"]
 script = ExtResource("3_h0tym")
-move = 636
+level = 7
+move = 98
 
 [sub_resource type="Resource" id="Resource_bxalx"]
 script = ExtResource("3_h0tym")
-level = 9
-move = 98
+level = 13
+move = 189
 
 [sub_resource type="Resource" id="Resource_puqyq"]
 script = ExtResource("3_h0tym")
-level = 12
-move = 341
+level = 15
+move = 36
 
 [sub_resource type="Resource" id="Resource_6w8xa"]
 script = ExtResource("3_h0tym")
-level = 15
-move = 175
+level = 18
+move = 341
 
 [sub_resource type="Resource" id="Resource_mg23j"]
 script = ExtResource("3_h0tym")
-level = 18
+level = 20
 move = 24
 
 [sub_resource type="Resource" id="Resource_dwvqp"]
 script = ExtResource("3_h0tym")
-level = 23
-move = 523
+level = 26
+move = 316
 
 [sub_resource type="Resource" id="Resource_lujwl"]
 script = ExtResource("3_h0tym")
-level = 28
-move = 91
+level = 31
+move = 175
 
 [sub_resource type="Resource" id="Resource_ryx2b"]
 script = ExtResource("3_h0tym")
-level = 33
-move = 340
+level = 37
+move = 91
 
 [sub_resource type="Resource" id="Resource_v1803"]
 script = ExtResource("3_h0tym")
-level = 38
-move = 36
+level = 42
+move = 340
 
 [sub_resource type="Resource" id="Resource_xsyfe"]
 script = ExtResource("3_h0tym")
-level = 43
-move = 14
+level = 48
+move = 162
 
 [sub_resource type="Resource" id="Resource_ibbq6"]
 script = ExtResource("3_h0tym")
-level = 48
-move = 89
+level = 53
+move = 263
 
 [sub_resource type="Resource" id="Resource_endst"]
 script = ExtResource("3_h0tym")
-level = 53
-move = 162
+level = 57
+move = 89
 
 [sub_resource type="Resource" id="Resource_hjcoq"]
 script = ExtResource("3_h0tym")
-level = 58
+level = 60
 move = 359
 
 [resource]
@@ -110,4 +127,4 @@ ability_hidden = 37
 height_dm = 10
 weight_hg = 424
 body_color = 5
-level_moves = Array[ExtResource("3_h0tym")]([SubResource("Resource_bmb6k"), SubResource("Resource_dyvqv"), SubResource("Resource_17s4h"), SubResource("Resource_8ytvn"), SubResource("Resource_bxalx"), SubResource("Resource_puqyq"), SubResource("Resource_6w8xa"), SubResource("Resource_mg23j"), SubResource("Resource_dwvqp"), SubResource("Resource_lujwl"), SubResource("Resource_ryx2b"), SubResource("Resource_v1803"), SubResource("Resource_xsyfe"), SubResource("Resource_ibbq6"), SubResource("Resource_endst"), SubResource("Resource_hjcoq")])
+level_moves = Array[ExtResource("3_h0tym")]([SubResource("Resource_r1n0s"), SubResource("Resource_art1n"), SubResource("Resource_h0tym"), SubResource("Resource_4l6ls"), SubResource("Resource_bmb6k"), SubResource("Resource_dyvqv"), SubResource("Resource_17s4h"), SubResource("Resource_8ytvn"), SubResource("Resource_bxalx"), SubResource("Resource_puqyq"), SubResource("Resource_6w8xa"), SubResource("Resource_mg23j"), SubResource("Resource_dwvqp"), SubResource("Resource_lujwl"), SubResource("Resource_ryx2b"), SubResource("Resource_v1803"), SubResource("Resource_xsyfe"), SubResource("Resource_ibbq6"), SubResource("Resource_endst"), SubResource("Resource_hjcoq")])

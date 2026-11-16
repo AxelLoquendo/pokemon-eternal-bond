@@ -5,68 +5,60 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_x2od8"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_381rc"]
 
-[sub_resource type="Resource" id="Resource_3sxm2"]
+[sub_resource type="Resource" id="Resource_qjmca"]
 script = ExtResource("3_x2od8")
-move = 104
+move = 271
 
-[sub_resource type="Resource" id="Resource_0lfrc"]
+[sub_resource type="Resource" id="Resource_y8bue"]
 script = ExtResource("3_x2od8")
 move = 310
 
+[sub_resource type="Resource" id="Resource_x2od8"]
+script = ExtResource("3_x2od8")
+move = 86
+
+[sub_resource type="Resource" id="Resource_381rc"]
+script = ExtResource("3_x2od8")
+move = 84
+
+[sub_resource type="Resource" id="Resource_3sxm2"]
+script = ExtResource("3_x2od8")
+move = 109
+
+[sub_resource type="Resource" id="Resource_0lfrc"]
+script = ExtResource("3_x2od8")
+level = 8
+move = 253
+
 [sub_resource type="Resource" id="Resource_hpwl7"]
 script = ExtResource("3_x2od8")
-level = 5
-move = 84
+level = 15
+move = 104
 
 [sub_resource type="Resource" id="Resource_hmh6k"]
 script = ExtResource("3_x2od8")
-level = 10
-move = 109
+level = 22
+move = 351
 
 [sub_resource type="Resource" id="Resource_xg62e"]
 script = ExtResource("3_x2od8")
-level = 15
-move = 268
+level = 29
+move = 466
 
 [sub_resource type="Resource" id="Resource_sgqnd"]
 script = ExtResource("3_x2od8")
-level = 20
-move = 486
+level = 36
+move = 164
 
 [sub_resource type="Resource" id="Resource_f1llx"]
 script = ExtResource("3_x2od8")
-level = 25
-move = 86
+level = 43
+move = 268
 
 [sub_resource type="Resource" id="Resource_mkreq"]
 script = ExtResource("3_x2od8")
-level = 30
-move = 351
-
-[sub_resource type="Resource" id="Resource_m7cgv"]
-script = ExtResource("3_x2od8")
-level = 35
-move = 506
-
-[sub_resource type="Resource" id="Resource_ugass"]
-script = ExtResource("3_x2od8")
-level = 40
-move = 164
-
-[sub_resource type="Resource" id="Resource_wmnce"]
-script = ExtResource("3_x2od8")
-level = 45
-move = 271
-
-[sub_resource type="Resource" id="Resource_0nvv5"]
-script = ExtResource("3_x2od8")
 level = 50
 move = 435
-
-[sub_resource type="Resource" id="Resource_qj5br"]
-script = ExtResource("3_x2od8")
-level = 55
-move = 253
 
 [resource]
 script = ExtResource("4_381rc")
@@ -78,7 +70,8 @@ pokedex = "The lawn mower is an appliance that led to
 the development of the Rotom Dex. It will
 mow down grass and flowers, then swagger
 around with pride at its accomplishments."
-type_1 = 1
+type_1 = 14
+type_2 = 13
 base_hp = 50
 base_atk = 65
 base_def = 107
@@ -92,5 +85,5 @@ egg_group_1 = 11
 ability_1 = 26
 height_dm = 3
 weight_hg = 3
-level_moves = Array[ExtResource("3_x2od8")]([SubResource("Resource_3sxm2"), SubResource("Resource_0lfrc"), SubResource("Resource_hpwl7"), SubResource("Resource_hmh6k"), SubResource("Resource_xg62e"), SubResource("Resource_sgqnd"), SubResource("Resource_f1llx"), SubResource("Resource_mkreq"), SubResource("Resource_m7cgv"), SubResource("Resource_ugass"), SubResource("Resource_wmnce"), SubResource("Resource_0nvv5"), SubResource("Resource_qj5br")])
+level_moves = Array[ExtResource("3_x2od8")]([SubResource("Resource_qjmca"), SubResource("Resource_y8bue"), SubResource("Resource_x2od8"), SubResource("Resource_381rc"), SubResource("Resource_3sxm2"), SubResource("Resource_0lfrc"), SubResource("Resource_hpwl7"), SubResource("Resource_hmh6k"), SubResource("Resource_xg62e"), SubResource("Resource_sgqnd"), SubResource("Resource_f1llx"), SubResource("Resource_mkreq")])
 form_species = Array[int]([479, 1064, 1065, 1066, 1067, 1068])

@@ -5,15 +5,15 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5wfkf"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fguak"]
 
-[sub_resource type="Resource" id="Resource_bssaj"]
+[sub_resource type="Resource" id="Resource_k06pl"]
 script = ExtResource("1_k06pl")
 method = "LEVEL"
 param = "20"
 target = 375
 
-[sub_resource type="Resource" id="Resource_6irlo"]
+[sub_resource type="Resource" id="Resource_jhmrn"]
 script = ExtResource("3_5wfkf")
-move = 33
+move = 36
 
 [resource]
 script = ExtResource("4_fguak")
@@ -48,5 +48,5 @@ height_dm = 6
 weight_hg = 952
 body_color = 1
 no_flip = true
-level_moves = Array[ExtResource("3_5wfkf")]([SubResource("Resource_6irlo")])
-evolutions = Array[ExtResource("1_k06pl")]([SubResource("Resource_bssaj")])
+level_moves = Array[ExtResource("3_5wfkf")]([SubResource("Resource_jhmrn")])
+evolutions = Array[ExtResource("1_k06pl")]([SubResource("Resource_k06pl")])

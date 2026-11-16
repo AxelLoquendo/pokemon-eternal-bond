@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://deuptmwvo82e3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_ws5gs"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_ikfko"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_j1tgd"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_me31b"]
+
+[sub_resource type="Resource" id="Resource_ws5gs"]
+script = ExtResource("3_j1tgd")
+move = 33
+
+[sub_resource type="Resource" id="Resource_ikfko"]
+script = ExtResource("3_j1tgd")
+move = 22
+
+[sub_resource type="Resource" id="Resource_j1tgd"]
+script = ExtResource("3_j1tgd")
+level = 6
+move = 584
+
+[sub_resource type="Resource" id="Resource_me31b"]
+script = ExtResource("3_j1tgd")
+level = 10
+move = 381
+
+[sub_resource type="Resource" id="Resource_uvvo4"]
+script = ExtResource("3_j1tgd")
+level = 15
+move = 75
+
+[sub_resource type="Resource" id="Resource_p4l4d"]
+script = ExtResource("3_j1tgd")
+level = 20
+move = 273
+
+[sub_resource type="Resource" id="Resource_orde6"]
+script = ExtResource("3_j1tgd")
+level = 25
+move = 345
+
+[sub_resource type="Resource" id="Resource_wth6j"]
+script = ExtResource("3_j1tgd")
+level = 27
+move = 580
+
+[sub_resource type="Resource" id="Resource_xnnrm"]
+script = ExtResource("3_j1tgd")
+level = 33
+move = 572
+
+[sub_resource type="Resource" id="Resource_oovuc"]
+script = ExtResource("3_j1tgd")
+level = 38
+move = 312
+
+[sub_resource type="Resource" id="Resource_fv82b"]
+script = ExtResource("3_j1tgd")
+level = 43
+move = 581
+
+[sub_resource type="Resource" id="Resource_v74iw"]
+script = ExtResource("3_j1tgd")
+level = 46
+move = 585
+
+[sub_resource type="Resource" id="Resource_yh826"]
+script = ExtResource("3_j1tgd")
+level = 51
+move = 80
+
+[sub_resource type="Resource" id="Resource_deeuj"]
+script = ExtResource("3_j1tgd")
+level = 58
+move = 76
+
+[resource]
+script = ExtResource("4_me31b")
+id = 1140
+display_name = "Floette"
+national_dex = 670
+pokedex = "If it finds someone messing up a
+flower bed, it will attack them
+without mercy. This Floette takes
+particularly good care of white flowers."
+type_1 = 1
+level_moves = Array[ExtResource("3_j1tgd")]([SubResource("Resource_ws5gs"), SubResource("Resource_ikfko"), SubResource("Resource_j1tgd"), SubResource("Resource_me31b"), SubResource("Resource_uvvo4"), SubResource("Resource_p4l4d"), SubResource("Resource_orde6"), SubResource("Resource_wth6j"), SubResource("Resource_xnnrm"), SubResource("Resource_oovuc"), SubResource("Resource_fv82b"), SubResource("Resource_v74iw"), SubResource("Resource_yh826"), SubResource("Resource_deeuj")])

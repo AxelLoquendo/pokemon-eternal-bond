@@ -5,83 +5,94 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3wqow"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bbo2d"]
 
-[sub_resource type="Resource" id="Resource_w42ce"]
+[sub_resource type="Resource" id="Resource_ut7ao"]
 script = ExtResource("3_3wqow")
-move = 364
+move = 483
 
-[sub_resource type="Resource" id="Resource_7dq27"]
+[sub_resource type="Resource" id="Resource_4aqbw"]
+script = ExtResource("3_3wqow")
+move = 501
+
+[sub_resource type="Resource" id="Resource_3wqow"]
+script = ExtResource("3_3wqow")
+move = 67
+
+[sub_resource type="Resource" id="Resource_bbo2d"]
 script = ExtResource("3_3wqow")
 move = 229
 
+[sub_resource type="Resource" id="Resource_w42ce"]
+script = ExtResource("3_3wqow")
+move = 43
+
+[sub_resource type="Resource" id="Resource_7dq27"]
+script = ExtResource("3_3wqow")
+move = 24
+
 [sub_resource type="Resource" id="Resource_2m5s6"]
 script = ExtResource("3_3wqow")
-level = 5
-move = 43
+level = 7
+move = 129
 
 [sub_resource type="Resource" id="Resource_g0l53"]
 script = ExtResource("3_3wqow")
-level = 10
-move = 501
+level = 13
+move = 23
 
 [sub_resource type="Resource" id="Resource_h8rac"]
 script = ExtResource("3_3wqow")
-level = 15
-move = 450
+level = 19
+move = 364
 
 [sub_resource type="Resource" id="Resource_co1cn"]
 script = ExtResource("3_3wqow")
-level = 20
-move = 67
+level = 23
+move = 318
 
 [sub_resource type="Resource" id="Resource_m6eog"]
 script = ExtResource("3_3wqow")
-level = 25
-move = 24
+level = 29
+move = 340
 
 [sub_resource type="Resource" id="Resource_khayg"]
 script = ExtResource("3_3wqow")
-level = 30
-move = 167
+level = 31
+move = 26
 
 [sub_resource type="Resource" id="Resource_egrec"]
 script = ExtResource("3_3wqow")
-level = 35
-move = 23
+level = 37
+move = 97
 
 [sub_resource type="Resource" id="Resource_dyef4"]
 script = ExtResource("3_3wqow")
-level = 40
-move = 97
+level = 43
+move = 167
 
 [sub_resource type="Resource" id="Resource_rtgq2"]
 script = ExtResource("3_3wqow")
-level = 45
+level = 47
 move = 642
 
 [sub_resource type="Resource" id="Resource_ke6fk"]
 script = ExtResource("3_3wqow")
-level = 50
-move = 340
+level = 53
+move = 405
 
 [sub_resource type="Resource" id="Resource_sxrj6"]
 script = ExtResource("3_3wqow")
-level = 55
-move = 646
+level = 59
+move = 382
 
 [sub_resource type="Resource" id="Resource_pxno6"]
 script = ExtResource("3_3wqow")
-level = 60
-move = 405
+level = 67
+move = 136
 
 [sub_resource type="Resource" id="Resource_myfhv"]
 script = ExtResource("3_3wqow")
-level = 65
-move = 483
-
-[sub_resource type="Resource" id="Resource_0vxny"]
-script = ExtResource("3_3wqow")
-level = 70
-move = 136
+level = 73
+move = 646
 
 [resource]
 script = ExtResource("4_bbo2d")
@@ -111,4 +122,4 @@ ability_1 = 224
 height_dm = 18
 weight_hg = 250
 body_color = 8
-level_moves = Array[ExtResource("3_3wqow")]([SubResource("Resource_w42ce"), SubResource("Resource_7dq27"), SubResource("Resource_2m5s6"), SubResource("Resource_g0l53"), SubResource("Resource_h8rac"), SubResource("Resource_co1cn"), SubResource("Resource_m6eog"), SubResource("Resource_khayg"), SubResource("Resource_egrec"), SubResource("Resource_dyef4"), SubResource("Resource_rtgq2"), SubResource("Resource_ke6fk"), SubResource("Resource_sxrj6"), SubResource("Resource_pxno6"), SubResource("Resource_myfhv"), SubResource("Resource_0vxny")])
+level_moves = Array[ExtResource("3_3wqow")]([SubResource("Resource_ut7ao"), SubResource("Resource_4aqbw"), SubResource("Resource_3wqow"), SubResource("Resource_bbo2d"), SubResource("Resource_w42ce"), SubResource("Resource_7dq27"), SubResource("Resource_2m5s6"), SubResource("Resource_g0l53"), SubResource("Resource_h8rac"), SubResource("Resource_co1cn"), SubResource("Resource_m6eog"), SubResource("Resource_khayg"), SubResource("Resource_egrec"), SubResource("Resource_dyef4"), SubResource("Resource_rtgq2"), SubResource("Resource_ke6fk"), SubResource("Resource_sxrj6"), SubResource("Resource_pxno6"), SubResource("Resource_myfhv")])

@@ -5,69 +5,44 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yhh3c"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hmqux"]
 
-[sub_resource type="Resource" id="Resource_pyr6s"]
+[sub_resource type="Resource" id="Resource_fre6g"]
 script = ExtResource("3_yhh3c")
 move = 33
 
-[sub_resource type="Resource" id="Resource_r2gxi"]
+[sub_resource type="Resource" id="Resource_uobxd"]
 script = ExtResource("3_yhh3c")
 level = 10
 move = 55
 
-[sub_resource type="Resource" id="Resource_bbkv8"]
+[sub_resource type="Resource" id="Resource_yhh3c"]
 script = ExtResource("3_yhh3c")
 level = 10
 move = 52
 
-[sub_resource type="Resource" id="Resource_irq21"]
+[sub_resource type="Resource" id="Resource_hmqux"]
 script = ExtResource("3_yhh3c")
 level = 10
 move = 181
 
-[sub_resource type="Resource" id="Resource_jgogs"]
-script = ExtResource("3_yhh3c")
-level = 15
-move = 29
-
-[sub_resource type="Resource" id="Resource_4sic0"]
+[sub_resource type="Resource" id="Resource_pyr6s"]
 script = ExtResource("3_yhh3c")
 level = 20
 move = 240
 
-[sub_resource type="Resource" id="Resource_qlnpf"]
+[sub_resource type="Resource" id="Resource_r2gxi"]
 script = ExtResource("3_yhh3c")
 level = 20
 move = 241
 
-[sub_resource type="Resource" id="Resource_nj64x"]
+[sub_resource type="Resource" id="Resource_bbkv8"]
 script = ExtResource("3_yhh3c")
 level = 20
 move = 258
 
-[sub_resource type="Resource" id="Resource_mpf2y"]
+[sub_resource type="Resource" id="Resource_irq21"]
 script = ExtResource("3_yhh3c")
-level = 25
+level = 30
 move = 311
-
-[sub_resource type="Resource" id="Resource_2wnr2"]
-script = ExtResource("3_yhh3c")
-level = 35
-move = 56
-
-[sub_resource type="Resource" id="Resource_oqc7j"]
-script = ExtResource("3_yhh3c")
-level = 35
-move = 126
-
-[sub_resource type="Resource" id="Resource_tni3a"]
-script = ExtResource("3_yhh3c")
-level = 35
-move = 59
-
-[sub_resource type="Resource" id="Resource_55yxr"]
-script = ExtResource("3_yhh3c")
-level = 45
-move = 542
 
 [resource]
 script = ExtResource("4_hmqux")
@@ -97,6 +72,6 @@ item_rare = 427
 height_dm = 3
 weight_hg = 8
 body_color = 1
-level_moves = Array[ExtResource("3_yhh3c")]([SubResource("Resource_pyr6s"), SubResource("Resource_r2gxi"), SubResource("Resource_bbkv8"), SubResource("Resource_irq21"), SubResource("Resource_jgogs"), SubResource("Resource_4sic0"), SubResource("Resource_qlnpf"), SubResource("Resource_nj64x"), SubResource("Resource_mpf2y"), SubResource("Resource_2wnr2"), SubResource("Resource_oqc7j"), SubResource("Resource_tni3a"), SubResource("Resource_55yxr")])
+level_moves = Array[ExtResource("3_yhh3c")]([SubResource("Resource_fre6g"), SubResource("Resource_uobxd"), SubResource("Resource_yhh3c"), SubResource("Resource_hmqux"), SubResource("Resource_pyr6s"), SubResource("Resource_r2gxi"), SubResource("Resource_bbkv8"), SubResource("Resource_irq21")])
 egg_moves = Array[int]([248, 381, 50, 133, 466, 506, 499, 513, 385, 322])
 form_species = Array[int]([351, 1051, 1052, 1053])

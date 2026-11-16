@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://yd3xfvcveobw"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_bys82"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_u0nlt"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xfy8y"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hgrmq"]
+
+[sub_resource type="Resource" id="Resource_bys82"]
+script = ExtResource("3_xfy8y")
+move = 574
+
+[sub_resource type="Resource" id="Resource_u0nlt"]
+script = ExtResource("3_xfy8y")
+move = 381
+
+[sub_resource type="Resource" id="Resource_xfy8y"]
+script = ExtResource("3_xfy8y")
+move = 273
+
+[sub_resource type="Resource" id="Resource_hgrmq"]
+script = ExtResource("3_xfy8y")
+move = 345
+
+[sub_resource type="Resource" id="Resource_1hifu"]
+script = ExtResource("3_xfy8y")
+move = 579
+
+[sub_resource type="Resource" id="Resource_r822n"]
+script = ExtResource("3_xfy8y")
+move = 447
+
+[sub_resource type="Resource" id="Resource_ov7yh"]
+script = ExtResource("3_xfy8y")
+move = 580
+
+[sub_resource type="Resource" id="Resource_8q4nn"]
+script = ExtResource("3_xfy8y")
+move = 572
+
+[sub_resource type="Resource" id="Resource_smqpb"]
+script = ExtResource("3_xfy8y")
+move = 581
+
+[sub_resource type="Resource" id="Resource_dxigp"]
+script = ExtResource("3_xfy8y")
+move = 585
+
+[sub_resource type="Resource" id="Resource_1mys1"]
+script = ExtResource("3_xfy8y")
+move = 80
+
+[sub_resource type="Resource" id="Resource_7d8p5"]
+script = ExtResource("3_xfy8y")
+move = 312
+
+[resource]
+script = ExtResource("4_hgrmq")
+id = 1143
+display_name = "Florges"
+national_dex = 671
+pokedex = "In times long past, castle
+governors would lovingly raise Florges to
+care for their castles' exquisite
+gardens."
+type_1 = 1
+level_moves = Array[ExtResource("3_xfy8y")]([SubResource("Resource_bys82"), SubResource("Resource_u0nlt"), SubResource("Resource_xfy8y"), SubResource("Resource_hgrmq"), SubResource("Resource_1hifu"), SubResource("Resource_r822n"), SubResource("Resource_ov7yh"), SubResource("Resource_8q4nn"), SubResource("Resource_smqpb"), SubResource("Resource_dxigp"), SubResource("Resource_1mys1"), SubResource("Resource_7d8p5")])

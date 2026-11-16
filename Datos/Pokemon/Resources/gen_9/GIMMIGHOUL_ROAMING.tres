@@ -5,16 +5,16 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pwvsl"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r8t2r"]
 
-[sub_resource type="Resource" id="Resource_mhgdg"]
+[sub_resource type="Resource" id="Resource_3krgd"]
 script = ExtResource("1_3krgd")
 method = "IF_BAG_ITEM_COUNT"
 param = "ITEM_GIMMIGHOUL_COIN"
 
-[sub_resource type="Resource" id="Resource_47f6l"]
+[sub_resource type="Resource" id="Resource_jxn1f"]
 script = ExtResource("3_pwvsl")
 move = 310
 
-[sub_resource type="Resource" id="Resource_3phr2"]
+[sub_resource type="Resource" id="Resource_pwvsl"]
 script = ExtResource("3_pwvsl")
 move = 33
 
@@ -44,6 +44,6 @@ ability_1 = 50
 height_dm = 1
 weight_hg = 1
 body_color = 7
-level_moves = Array[ExtResource("3_pwvsl")]([SubResource("Resource_47f6l"), SubResource("Resource_3phr2")])
-evolutions = Array[ExtResource("1_3krgd")]([SubResource("Resource_mhgdg")])
+level_moves = Array[ExtResource("3_pwvsl")]([SubResource("Resource_jxn1f"), SubResource("Resource_pwvsl")])
+evolutions = Array[ExtResource("1_3krgd")]([SubResource("Resource_3krgd")])
 form_species = Array[int]([1391, 1392])

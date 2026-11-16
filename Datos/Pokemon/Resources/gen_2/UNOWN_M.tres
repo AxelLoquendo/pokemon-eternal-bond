@@ -1,0 +1,43 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dky4p5a67s3n3"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_qso2q"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_82yi2"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_s8rsh"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_28xmr"]
+
+[sub_resource type="Resource" id="Resource_qso2q"]
+script = ExtResource("1_qso2q")
+method = "LEVEL"
+param = "15"
+target = 202
+
+[sub_resource type="Resource" id="Resource_82yi2"]
+script = ExtResource("3_s8rsh")
+move = 237
+
+[resource]
+script = ExtResource("4_28xmr")
+id = 1035
+display_name = "Unown"
+category = "Symbol"
+national_dex = 201
+pokedex = "A Wynaut loves to eat sweet fruits.
+It cleverly picks fruits using its earlike
+arms. They gather in fruit gardens, drawn
+by the fragrance."
+type_1 = 15
+base_hp = 48
+base_atk = 72
+base_def = 48
+base_spa = 72
+base_spd = 48
+base_spe = 48
+ev_hp = 1
+catch_rate = 225
+base_exp = 52
+ability_1 = 26
+height_dm = 6
+weight_hg = 140
+body_color = 1
+level_moves = Array[ExtResource("3_s8rsh")]([SubResource("Resource_82yi2")])
+evolutions = Array[ExtResource("1_qso2q")]([SubResource("Resource_qso2q")])

@@ -1,0 +1,109 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://bxg0qfcd1e5vb"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_3wt1i"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_jaeky"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_olqny"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ui23i"]
+
+[sub_resource type="Resource" id="Resource_3wt1i"]
+script = ExtResource("3_olqny")
+move = 33
+
+[sub_resource type="Resource" id="Resource_jaeky"]
+script = ExtResource("3_olqny")
+level = 3
+move = 111
+
+[sub_resource type="Resource" id="Resource_olqny"]
+script = ExtResource("3_olqny")
+level = 8
+move = 205
+
+[sub_resource type="Resource" id="Resource_ui23i"]
+script = ExtResource("3_olqny")
+level = 10
+move = 109
+
+[sub_resource type="Resource" id="Resource_op44r"]
+script = ExtResource("3_olqny")
+level = 15
+move = 129
+
+[sub_resource type="Resource" id="Resource_knrks"]
+script = ExtResource("3_olqny")
+level = 17
+move = 246
+
+[sub_resource type="Resource" id="Resource_j72ki"]
+script = ExtResource("3_olqny")
+level = 22
+move = 120
+
+[sub_resource type="Resource" id="Resource_0l86s"]
+script = ExtResource("3_olqny")
+level = 24
+move = 446
+
+[sub_resource type="Resource" id="Resource_4u4yf"]
+script = ExtResource("3_olqny")
+level = 29
+move = 36
+
+[sub_resource type="Resource" id="Resource_vctc3"]
+script = ExtResource("3_olqny")
+level = 31
+move = 475
+
+[sub_resource type="Resource" id="Resource_d8idq"]
+script = ExtResource("3_olqny")
+level = 36
+move = 322
+
+[sub_resource type="Resource" id="Resource_i4jot"]
+script = ExtResource("3_olqny")
+level = 38
+move = 408
+
+[sub_resource type="Resource" id="Resource_a4s64"]
+script = ExtResource("3_olqny")
+level = 43
+move = 38
+
+[sub_resource type="Resource" id="Resource_genul"]
+script = ExtResource("3_olqny")
+level = 45
+move = 504
+
+[sub_resource type="Resource" id="Resource_bmrmk"]
+script = ExtResource("3_olqny")
+level = 50
+move = 153
+
+[resource]
+script = ExtResource("4_ui23i")
+id = 1203
+display_name = "Minior"
+category = "Meteor"
+national_dex = 774
+pokedex = "It is born asleep, and it dies asleep.
+All its movements are apparently no more
+than the results of it tossing and turning
+in its dreams."
+type_1 = 6
+type_2 = 3
+base_hp = 60
+base_atk = 100
+base_def = 60
+base_spa = 100
+base_spd = 60
+base_spe = 120
+ev_atk = 2
+base_exp = 168
+growth_rate = 5
+egg_group_1 = 5
+ability_1 = 197
+height_dm = 4
+weight_hg = 199
+body_color = 1
+level_moves = Array[ExtResource("3_olqny")]([SubResource("Resource_3wt1i"), SubResource("Resource_jaeky"), SubResource("Resource_olqny"), SubResource("Resource_ui23i"), SubResource("Resource_op44r"), SubResource("Resource_knrks"), SubResource("Resource_j72ki"), SubResource("Resource_0l86s"), SubResource("Resource_4u4yf"), SubResource("Resource_vctc3"), SubResource("Resource_d8idq"), SubResource("Resource_i4jot"), SubResource("Resource_a4s64"), SubResource("Resource_genul"), SubResource("Resource_bmrmk")])
+egg_moves = Array[int]([204, 273, 583, 47])

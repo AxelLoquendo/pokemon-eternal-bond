@@ -5,74 +5,79 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wtl6v"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tuxjy"]
 
-[sub_resource type="Resource" id="Resource_25vsp"]
-script = ExtResource("3_wtl6v")
-move = 10
-
-[sub_resource type="Resource" id="Resource_r57ff"]
-script = ExtResource("3_wtl6v")
-move = 150
-
-[sub_resource type="Resource" id="Resource_jwh0n"]
-script = ExtResource("3_wtl6v")
-move = 310
-
-[sub_resource type="Resource" id="Resource_pxx8x"]
-script = ExtResource("3_wtl6v")
-move = 383
-
-[sub_resource type="Resource" id="Resource_cvp83"]
+[sub_resource type="Resource" id="Resource_sf0rg"]
 script = ExtResource("3_wtl6v")
 move = 452
 
+[sub_resource type="Resource" id="Resource_b28ko"]
+script = ExtResource("3_wtl6v")
+move = 150
+
+[sub_resource type="Resource" id="Resource_wtl6v"]
+script = ExtResource("3_wtl6v")
+move = 10
+
+[sub_resource type="Resource" id="Resource_tuxjy"]
+script = ExtResource("3_wtl6v")
+move = 310
+
+[sub_resource type="Resource" id="Resource_25vsp"]
+script = ExtResource("3_wtl6v")
+move = 383
+
+[sub_resource type="Resource" id="Resource_r57ff"]
+script = ExtResource("3_wtl6v")
+level = 5
+move = 104
+
+[sub_resource type="Resource" id="Resource_jwh0n"]
+script = ExtResource("3_wtl6v")
+level = 10
+move = 608
+
+[sub_resource type="Resource" id="Resource_pxx8x"]
+script = ExtResource("3_wtl6v")
+level = 14
+move = 425
+
+[sub_resource type="Resource" id="Resource_cvp83"]
+script = ExtResource("3_wtl6v")
+level = 19
+move = 102
+
 [sub_resource type="Resource" id="Resource_wbc5y"]
 script = ExtResource("3_wtl6v")
-level = 6
-move = 425
+level = 23
+move = 185
 
 [sub_resource type="Resource" id="Resource_uidy0"]
 script = ExtResource("3_wtl6v")
-level = 12
-move = 104
+level = 28
+move = 204
 
 [sub_resource type="Resource" id="Resource_ntqk7"]
 script = ExtResource("3_wtl6v")
-level = 18
-move = 608
+level = 32
+move = 163
 
 [sub_resource type="Resource" id="Resource_tpthl"]
 script = ExtResource("3_wtl6v")
-level = 24
-move = 102
+level = 37
+move = 421
 
 [sub_resource type="Resource" id="Resource_x3xo1"]
 script = ExtResource("3_wtl6v")
-level = 30
+level = 41
 move = 468
 
 [sub_resource type="Resource" id="Resource_tp10s"]
 script = ExtResource("3_wtl6v")
-level = 36
-move = 163
+level = 46
+move = 583
 
 [sub_resource type="Resource" id="Resource_ifgkl"]
 script = ExtResource("3_wtl6v")
-level = 42
-move = 421
-
-[sub_resource type="Resource" id="Resource_up5by"]
-script = ExtResource("3_wtl6v")
-level = 48
-move = 204
-
-[sub_resource type="Resource" id="Resource_v4t0l"]
-script = ExtResource("3_wtl6v")
-level = 54
-move = 583
-
-[sub_resource type="Resource" id="Resource_v30ud"]
-script = ExtResource("3_wtl6v")
-level = 60
+level = 50
 move = 220
 
 [resource]
@@ -97,6 +102,6 @@ item_rare = 515
 height_dm = 2
 weight_hg = 7
 body_color = 2
-level_moves = Array[ExtResource("3_wtl6v")]([SubResource("Resource_25vsp"), SubResource("Resource_r57ff"), SubResource("Resource_jwh0n"), SubResource("Resource_pxx8x"), SubResource("Resource_cvp83"), SubResource("Resource_wbc5y"), SubResource("Resource_uidy0"), SubResource("Resource_ntqk7"), SubResource("Resource_tpthl"), SubResource("Resource_x3xo1"), SubResource("Resource_tp10s"), SubResource("Resource_ifgkl"), SubResource("Resource_up5by"), SubResource("Resource_v4t0l"), SubResource("Resource_v30ud")])
+level_moves = Array[ExtResource("3_wtl6v")]([SubResource("Resource_sf0rg"), SubResource("Resource_b28ko"), SubResource("Resource_wtl6v"), SubResource("Resource_tuxjy"), SubResource("Resource_25vsp"), SubResource("Resource_r57ff"), SubResource("Resource_jwh0n"), SubResource("Resource_pxx8x"), SubResource("Resource_cvp83"), SubResource("Resource_wbc5y"), SubResource("Resource_uidy0"), SubResource("Resource_ntqk7"), SubResource("Resource_tpthl"), SubResource("Resource_x3xo1"), SubResource("Resource_tp10s"), SubResource("Resource_ifgkl")])
 egg_moves = Array[int]([288, 194, 174, 171])
 form_species = Array[int]([778, 1206, 1481, 1523])

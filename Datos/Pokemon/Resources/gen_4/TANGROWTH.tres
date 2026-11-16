@@ -5,85 +5,93 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ua3jk"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1lh2y"]
 
+[sub_resource type="Resource" id="Resource_2bh53"]
+script = ExtResource("3_ua3jk")
+move = 275
+
+[sub_resource type="Resource" id="Resource_ss0gi"]
+script = ExtResource("3_ua3jk")
+move = 132
+
+[sub_resource type="Resource" id="Resource_ua3jk"]
+script = ExtResource("3_ua3jk")
+level = 5
+move = 79
+
+[sub_resource type="Resource" id="Resource_1lh2y"]
+script = ExtResource("3_ua3jk")
+level = 8
+move = 71
+
 [sub_resource type="Resource" id="Resource_ny6l2"]
 script = ExtResource("3_ua3jk")
-move = 335
+level = 12
+move = 74
 
 [sub_resource type="Resource" id="Resource_l67bj"]
 script = ExtResource("3_ua3jk")
-move = 71
+level = 15
+move = 77
 
 [sub_resource type="Resource" id="Resource_o1y2g"]
 script = ExtResource("3_ua3jk")
-move = 20
+level = 19
+move = 22
 
 [sub_resource type="Resource" id="Resource_ojkw3"]
 script = ExtResource("3_ua3jk")
-move = 78
+level = 22
+move = 20
 
 [sub_resource type="Resource" id="Resource_vmkst"]
 script = ExtResource("3_ua3jk")
-move = 74
+level = 26
+move = 72
 
 [sub_resource type="Resource" id="Resource_qyte3"]
 script = ExtResource("3_ua3jk")
-level = 12
-move = 72
+level = 29
+move = 78
 
 [sub_resource type="Resource" id="Resource_2lucs"]
 script = ExtResource("3_ua3jk")
-level = 16
-move = 22
+level = 33
+move = 246
 
 [sub_resource type="Resource" id="Resource_dwtla"]
 script = ExtResource("3_ua3jk")
-level = 20
-move = 77
+level = 36
+move = 282
 
 [sub_resource type="Resource" id="Resource_6exfu"]
 script = ExtResource("3_ua3jk")
-level = 24
-move = 246
+level = 40
+move = 363
 
 [sub_resource type="Resource" id="Resource_1cr1k"]
 script = ExtResource("3_ua3jk")
-level = 28
-move = 282
+level = 43
+move = 21
 
 [sub_resource type="Resource" id="Resource_ha6yu"]
 script = ExtResource("3_ua3jk")
-level = 32
-move = 202
+level = 47
+move = 321
 
 [sub_resource type="Resource" id="Resource_iy42w"]
 script = ExtResource("3_ua3jk")
-level = 36
-move = 79
+level = 50
+move = 378
 
 [sub_resource type="Resource" id="Resource_0tptn"]
 script = ExtResource("3_ua3jk")
-level = 40
-move = 21
+level = 54
+move = 438
 
 [sub_resource type="Resource" id="Resource_00f2f"]
 script = ExtResource("3_ua3jk")
-level = 44
-move = 321
-
-[sub_resource type="Resource" id="Resource_qdhfq"]
-script = ExtResource("3_ua3jk")
-level = 48
-move = 438
-
-[sub_resource type="Resource" id="Resource_gwarb"]
-script = ExtResource("3_ua3jk")
-level = 52
-move = 275
-
-[sub_resource type="Resource" id="Resource_bl8a4"]
-script = ExtResource("3_ua3jk")
-level = 56
-move = 580
+level = 57
+move = 335
 
 [resource]
 script = ExtResource("4_1lh2y")
@@ -112,4 +120,4 @@ ability_hidden = 144
 height_dm = 20
 weight_hg = 1286
 body_color = 1
-level_moves = Array[ExtResource("3_ua3jk")]([SubResource("Resource_ny6l2"), SubResource("Resource_l67bj"), SubResource("Resource_o1y2g"), SubResource("Resource_ojkw3"), SubResource("Resource_vmkst"), SubResource("Resource_qyte3"), SubResource("Resource_2lucs"), SubResource("Resource_dwtla"), SubResource("Resource_6exfu"), SubResource("Resource_1cr1k"), SubResource("Resource_ha6yu"), SubResource("Resource_iy42w"), SubResource("Resource_0tptn"), SubResource("Resource_00f2f"), SubResource("Resource_qdhfq"), SubResource("Resource_gwarb"), SubResource("Resource_bl8a4")])
+level_moves = Array[ExtResource("3_ua3jk")]([SubResource("Resource_2bh53"), SubResource("Resource_ss0gi"), SubResource("Resource_ua3jk"), SubResource("Resource_1lh2y"), SubResource("Resource_ny6l2"), SubResource("Resource_l67bj"), SubResource("Resource_o1y2g"), SubResource("Resource_ojkw3"), SubResource("Resource_vmkst"), SubResource("Resource_qyte3"), SubResource("Resource_2lucs"), SubResource("Resource_dwtla"), SubResource("Resource_6exfu"), SubResource("Resource_1cr1k"), SubResource("Resource_ha6yu"), SubResource("Resource_iy42w"), SubResource("Resource_0tptn"), SubResource("Resource_00f2f")])

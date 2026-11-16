@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="SpeciesData" format=3 uid="uid://dw51os6h46n1p"]
+
+[ext_resource type="Script" uid="uid://dewvlsve5arji" path="res://Scripts/Pokemon/evolution_data.gd" id="1_kc15v"]
+[ext_resource type="Script" uid="uid://rmlxrrhadwpc" path="res://Scripts/Pokemon/form_change_data.gd" id="2_lelie"]
+[ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6uf1c"]
+[ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4g6re"]
+
+[sub_resource type="Resource" id="Resource_kc15v"]
+script = ExtResource("1_kc15v")
+method = "LEVEL"
+param = "12"
+
+[sub_resource type="Resource" id="Resource_lelie"]
+script = ExtResource("3_6uf1c")
+move = 33
+
+[sub_resource type="Resource" id="Resource_6uf1c"]
+script = ExtResource("3_6uf1c")
+move = 81
+
+[sub_resource type="Resource" id="Resource_4g6re"]
+script = ExtResource("3_6uf1c")
+level = 6
+move = 78
+
+[sub_resource type="Resource" id="Resource_c80s3"]
+script = ExtResource("3_6uf1c")
+level = 15
+move = 450
+
+[resource]
+script = ExtResource("4_4g6re")
+id = 1441
+display_name = "Scatterbug"
+category = "Scatterdust"
+national_dex = 664
+type_1 = 7
+base_hp = 38
+base_atk = 35
+base_def = 40
+base_spa = 27
+base_spd = 25
+base_spe = 35
+ev_def = 2
+catch_rate = 120
+base_exp = 75
+egg_cycles = 15
+egg_group_1 = 3
+ability_1 = 19
+ability_2 = 14
+ability_hidden = 132
+height_dm = 3
+weight_hg = 84
+body_color = 4
+level_moves = Array[ExtResource("3_6uf1c")]([SubResource("Resource_lelie"), SubResource("Resource_6uf1c"), SubResource("Resource_4g6re"), SubResource("Resource_c80s3")])
+egg_moves = Array[int]([78, 77, 476])
+evolutions = Array[ExtResource("1_kc15v")]([SubResource("Resource_kc15v")])
+form_species = Array[int]([665, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475])

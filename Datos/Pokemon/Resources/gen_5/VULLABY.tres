@@ -5,79 +5,89 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_shedi"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t53oq"]
 
-[sub_resource type="Resource" id="Resource_0fnnn"]
+[sub_resource type="Resource" id="Resource_en6c4"]
 script = ExtResource("1_en6c4")
 method = "LEVEL"
 param = "54"
 target = 630
 
-[sub_resource type="Resource" id="Resource_b5mlt"]
+[sub_resource type="Resource" id="Resource_k2m4w"]
 script = ExtResource("3_shedi")
 move = 16
 
-[sub_resource type="Resource" id="Resource_myru6"]
+[sub_resource type="Resource" id="Resource_shedi"]
 script = ExtResource("3_shedi")
 move = 43
 
+[sub_resource type="Resource" id="Resource_t53oq"]
+script = ExtResource("3_shedi")
+level = 5
+move = 31
+
+[sub_resource type="Resource" id="Resource_0fnnn"]
+script = ExtResource("3_shedi")
+level = 10
+move = 365
+
+[sub_resource type="Resource" id="Resource_b5mlt"]
+script = ExtResource("3_shedi")
+level = 14
+move = 417
+
+[sub_resource type="Resource" id="Resource_myru6"]
+script = ExtResource("3_shedi")
+level = 19
+move = 260
+
 [sub_resource type="Resource" id="Resource_yamyi"]
 script = ExtResource("3_shedi")
-level = 6
-move = 260
+level = 23
+move = 185
 
 [sub_resource type="Resource" id="Resource_yx6hi"]
 script = ExtResource("3_shedi")
-level = 12
-move = 365
+level = 28
+move = 386
 
 [sub_resource type="Resource" id="Resource_r0x7h"]
 script = ExtResource("3_shedi")
-level = 18
-move = 366
+level = 32
+move = 432
 
 [sub_resource type="Resource" id="Resource_8v75o"]
 script = ExtResource("3_shedi")
-level = 24
-move = 282
+level = 37
+move = 366
 
 [sub_resource type="Resource" id="Resource_r2x3o"]
 script = ExtResource("3_shedi")
-level = 30
-move = 334
+level = 41
+move = 403
 
 [sub_resource type="Resource" id="Resource_uhkx2"]
 script = ExtResource("3_shedi")
-level = 36
-move = 18
+level = 46
+move = 399
 
 [sub_resource type="Resource" id="Resource_a8o2l"]
 script = ExtResource("3_shedi")
-level = 42
-move = 403
+level = 50
+move = 373
 
 [sub_resource type="Resource" id="Resource_qoxog"]
 script = ExtResource("3_shedi")
-level = 48
-move = 399
+level = 55
+move = 18
 
 [sub_resource type="Resource" id="Resource_qfxk5"]
 script = ExtResource("3_shedi")
-level = 54
-move = 417
+level = 59
+move = 413
 
 [sub_resource type="Resource" id="Resource_66vo0"]
 script = ExtResource("3_shedi")
-level = 60
-move = 432
-
-[sub_resource type="Resource" id="Resource_gk1fo"]
-script = ExtResource("3_shedi")
-level = 66
-move = 213
-
-[sub_resource type="Resource" id="Resource_cuw33"]
-script = ExtResource("3_shedi")
-level = 72
-move = 413
+level = 64
+move = 119
 
 [resource]
 script = ExtResource("4_t53oq")
@@ -110,6 +120,6 @@ ability_hidden = 133
 height_dm = 5
 weight_hg = 90
 body_color = 5
-level_moves = Array[ExtResource("3_shedi")]([SubResource("Resource_b5mlt"), SubResource("Resource_myru6"), SubResource("Resource_yamyi"), SubResource("Resource_yx6hi"), SubResource("Resource_r0x7h"), SubResource("Resource_8v75o"), SubResource("Resource_r2x3o"), SubResource("Resource_uhkx2"), SubResource("Resource_a8o2l"), SubResource("Resource_qoxog"), SubResource("Resource_qfxk5"), SubResource("Resource_66vo0"), SubResource("Resource_gk1fo"), SubResource("Resource_cuw33")])
+level_moves = Array[ExtResource("3_shedi")]([SubResource("Resource_k2m4w"), SubResource("Resource_shedi"), SubResource("Resource_t53oq"), SubResource("Resource_0fnnn"), SubResource("Resource_b5mlt"), SubResource("Resource_myru6"), SubResource("Resource_yamyi"), SubResource("Resource_yx6hi"), SubResource("Resource_r0x7h"), SubResource("Resource_8v75o"), SubResource("Resource_r2x3o"), SubResource("Resource_uhkx2"), SubResource("Resource_a8o2l"), SubResource("Resource_qoxog"), SubResource("Resource_qfxk5"), SubResource("Resource_66vo0")])
 egg_moves = Array[int]([211, 212, 355, 184, 282, 313, 492])
-evolutions = Array[ExtResource("1_en6c4")]([SubResource("Resource_0fnnn")])
+evolutions = Array[ExtResource("1_en6c4")]([SubResource("Resource_en6c4")])
