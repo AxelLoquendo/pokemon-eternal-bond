@@ -5,56 +5,56 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_v3a0w"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8jwg4"]
 
-[sub_resource type="Resource" id="Resource_aliq0"]
+[sub_resource type="Resource" id="Resource_dr7wa"]
 script = ExtResource("1_aliq0")
 method = "LEVEL"
 param = "22"
 target = 168
 
-[sub_resource type="Resource" id="Resource_3uldi"]
+[sub_resource type="Resource" id="Resource_vfcrh"]
 script = ExtResource("3_v3a0w")
 move = 40
 
-[sub_resource type="Resource" id="Resource_v3a0w"]
+[sub_resource type="Resource" id="Resource_mqoww"]
 script = ExtResource("3_v3a0w")
 move = 81
 
-[sub_resource type="Resource" id="Resource_8jwg4"]
+[sub_resource type="Resource" id="Resource_wg28r"]
 script = ExtResource("3_v3a0w")
 level = 6
 move = 184
 
-[sub_resource type="Resource" id="Resource_dr7wa"]
+[sub_resource type="Resource" id="Resource_km75e"]
 script = ExtResource("3_v3a0w")
 level = 11
 move = 132
 
-[sub_resource type="Resource" id="Resource_vfcrh"]
+[sub_resource type="Resource" id="Resource_kyuiv"]
 script = ExtResource("3_v3a0w")
 level = 17
 move = 101
 
-[sub_resource type="Resource" id="Resource_mqoww"]
+[sub_resource type="Resource" id="Resource_bwd6c"]
 script = ExtResource("3_v3a0w")
 level = 23
 move = 141
 
-[sub_resource type="Resource" id="Resource_wg28r"]
+[sub_resource type="Resource" id="Resource_bcbkd"]
 script = ExtResource("3_v3a0w")
 level = 30
 move = 154
 
-[sub_resource type="Resource" id="Resource_km75e"]
+[sub_resource type="Resource" id="Resource_80hjc"]
 script = ExtResource("3_v3a0w")
 level = 37
 move = 169
 
-[sub_resource type="Resource" id="Resource_kyuiv"]
+[sub_resource type="Resource" id="Resource_acklh"]
 script = ExtResource("3_v3a0w")
 level = 45
 move = 97
 
-[sub_resource type="Resource" id="Resource_bwd6c"]
+[sub_resource type="Resource" id="Resource_owlxu"]
 script = ExtResource("3_v3a0w")
 level = 53
 move = 94
@@ -69,6 +69,7 @@ pokedex = "The web it spins can be considered its
 second nervous system. It is said that a
 Spinarak determines its prey by the tiny
 vibrations it feels through the web."
+sprite_folder = "spinarak"
 type_1 = 7
 type_2 = 4
 base_hp = 40
@@ -89,6 +90,6 @@ ability_hidden = 97
 height_dm = 5
 weight_hg = 85
 body_color = 3
-level_moves = Array[ExtResource("3_v3a0w")]([SubResource("Resource_3uldi"), SubResource("Resource_v3a0w"), SubResource("Resource_8jwg4"), SubResource("Resource_dr7wa"), SubResource("Resource_vfcrh"), SubResource("Resource_mqoww"), SubResource("Resource_wg28r"), SubResource("Resource_km75e"), SubResource("Resource_kyuiv"), SubResource("Resource_bwd6c")])
+level_moves = Array[ExtResource("3_v3a0w")]([SubResource("Resource_vfcrh"), SubResource("Resource_mqoww"), SubResource("Resource_wg28r"), SubResource("Resource_km75e"), SubResource("Resource_kyuiv"), SubResource("Resource_bwd6c"), SubResource("Resource_bcbkd"), SubResource("Resource_80hjc"), SubResource("Resource_acklh"), SubResource("Resource_owlxu")])
 egg_moves = Array[int]([60, 50, 49, 226, 228, 324, 390, 41, 527, 476, 400, 224, 642])
-evolutions = Array[ExtResource("1_aliq0")]([SubResource("Resource_aliq0")])
+evolutions = Array[ExtResource("1_aliq0")]([SubResource("Resource_dr7wa")])

@@ -5,15 +5,15 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_st3cg"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_artd6"]
 
-[sub_resource type="Resource" id="Resource_jftp1"]
+[sub_resource type="Resource" id="Resource_13uni"]
 script = ExtResource("3_st3cg")
 move = 84
 
-[sub_resource type="Resource" id="Resource_1dltt"]
+[sub_resource type="Resource" id="Resource_ayd8f"]
 script = ExtResource("3_st3cg")
 move = 45
 
-[sub_resource type="Resource" id="Resource_st3cg"]
+[sub_resource type="Resource" id="Resource_gtf81"]
 script = ExtResource("3_st3cg")
 move = 86
 
@@ -27,6 +27,7 @@ pokedex = "If it stores too much electricity, its
 behavior turns aggressive. To avoid this,
 it occasionally discharges excess energy
 and calms itself down."
+sprite_folder = "raichu"
 type_1 = 14
 base_hp = 60
 base_atk = 90
@@ -44,5 +45,5 @@ ability_hidden = 31
 height_dm = 8
 weight_hg = 300
 body_color = 2
-level_moves = Array[ExtResource("3_st3cg")]([SubResource("Resource_jftp1"), SubResource("Resource_1dltt"), SubResource("Resource_st3cg")])
+level_moves = Array[ExtResource("3_st3cg")]([SubResource("Resource_13uni"), SubResource("Resource_ayd8f"), SubResource("Resource_gtf81")])
 form_species = Array[int]([26, 958, 1553, 1554])

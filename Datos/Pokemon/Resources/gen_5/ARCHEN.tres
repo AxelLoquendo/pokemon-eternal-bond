@@ -5,95 +5,95 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_d40bw"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_x4eae"]
 
-[sub_resource type="Resource" id="Resource_ybr0p"]
+[sub_resource type="Resource" id="Resource_by02r"]
 script = ExtResource("1_ybr0p")
 method = "LEVEL"
 param = "37"
 target = 567
 
-[sub_resource type="Resource" id="Resource_kr04a"]
+[sub_resource type="Resource" id="Resource_s8n8x"]
 script = ExtResource("3_d40bw")
 move = 98
 
-[sub_resource type="Resource" id="Resource_d40bw"]
+[sub_resource type="Resource" id="Resource_dt4he"]
 script = ExtResource("3_d40bw")
 move = 43
 
-[sub_resource type="Resource" id="Resource_x4eae"]
+[sub_resource type="Resource" id="Resource_a0m1h"]
 script = ExtResource("3_d40bw")
 move = 17
 
-[sub_resource type="Resource" id="Resource_by02r"]
+[sub_resource type="Resource" id="Resource_gv4i7"]
 script = ExtResource("3_d40bw")
 level = 5
 move = 88
 
-[sub_resource type="Resource" id="Resource_s8n8x"]
+[sub_resource type="Resource" id="Resource_isskm"]
 script = ExtResource("3_d40bw")
 level = 8
 move = 104
 
-[sub_resource type="Resource" id="Resource_dt4he"]
+[sub_resource type="Resource" id="Resource_s02nu"]
 script = ExtResource("3_d40bw")
 level = 11
 move = 184
 
-[sub_resource type="Resource" id="Resource_a0m1h"]
+[sub_resource type="Resource" id="Resource_c1mu8"]
 script = ExtResource("3_d40bw")
 level = 15
 move = 365
 
-[sub_resource type="Resource" id="Resource_gv4i7"]
+[sub_resource type="Resource" id="Resource_5wmw5"]
 script = ExtResource("3_d40bw")
 level = 18
 move = 246
 
-[sub_resource type="Resource" id="Resource_isskm"]
+[sub_resource type="Resource" id="Resource_44oad"]
 script = ExtResource("3_d40bw")
 level = 21
 move = 97
 
-[sub_resource type="Resource" id="Resource_s02nu"]
+[sub_resource type="Resource" id="Resource_cluob"]
 script = ExtResource("3_d40bw")
 level = 25
 move = 501
 
-[sub_resource type="Resource" id="Resource_c1mu8"]
+[sub_resource type="Resource" id="Resource_d562c"]
 script = ExtResource("3_d40bw")
 level = 28
 move = 512
 
-[sub_resource type="Resource" id="Resource_5wmw5"]
+[sub_resource type="Resource" id="Resource_vq12x"]
 script = ExtResource("3_d40bw")
 level = 31
 move = 225
 
-[sub_resource type="Resource" id="Resource_44oad"]
+[sub_resource type="Resource" id="Resource_s8jfb"]
 script = ExtResource("3_d40bw")
 level = 35
 move = 242
 
-[sub_resource type="Resource" id="Resource_cluob"]
+[sub_resource type="Resource" id="Resource_0urj5"]
 script = ExtResource("3_d40bw")
 level = 38
 move = 283
 
-[sub_resource type="Resource" id="Resource_d562c"]
+[sub_resource type="Resource" id="Resource_q4qsn"]
 script = ExtResource("3_d40bw")
 level = 41
 move = 369
 
-[sub_resource type="Resource" id="Resource_vq12x"]
+[sub_resource type="Resource" id="Resource_7x6ha"]
 script = ExtResource("3_d40bw")
 level = 45
 move = 157
 
-[sub_resource type="Resource" id="Resource_s8jfb"]
+[sub_resource type="Resource" id="Resource_phuec"]
 script = ExtResource("3_d40bw")
 level = 48
 move = 337
 
-[sub_resource type="Resource" id="Resource_0urj5"]
+[sub_resource type="Resource" id="Resource_vo7q1"]
 script = ExtResource("3_d40bw")
 level = 51
 move = 37
@@ -108,6 +108,7 @@ pokedex = "Said to be the ancestor of all bird
 Pokémon, Archen itself could not actually
 fly but moved by hopping from treetop
 to treetop."
+sprite_folder = "archen"
 type_1 = 6
 type_2 = 3
 base_hp = 55
@@ -126,6 +127,6 @@ ability_1 = 129
 height_dm = 5
 weight_hg = 95
 body_color = 2
-level_moves = Array[ExtResource("3_d40bw")]([SubResource("Resource_kr04a"), SubResource("Resource_d40bw"), SubResource("Resource_x4eae"), SubResource("Resource_by02r"), SubResource("Resource_s8n8x"), SubResource("Resource_dt4he"), SubResource("Resource_a0m1h"), SubResource("Resource_gv4i7"), SubResource("Resource_isskm"), SubResource("Resource_s02nu"), SubResource("Resource_c1mu8"), SubResource("Resource_5wmw5"), SubResource("Resource_44oad"), SubResource("Resource_cluob"), SubResource("Resource_d562c"), SubResource("Resource_vq12x"), SubResource("Resource_s8jfb"), SubResource("Resource_0urj5")])
+level_moves = Array[ExtResource("3_d40bw")]([SubResource("Resource_s8n8x"), SubResource("Resource_dt4he"), SubResource("Resource_a0m1h"), SubResource("Resource_gv4i7"), SubResource("Resource_isskm"), SubResource("Resource_s02nu"), SubResource("Resource_c1mu8"), SubResource("Resource_5wmw5"), SubResource("Resource_44oad"), SubResource("Resource_cluob"), SubResource("Resource_d562c"), SubResource("Resource_vq12x"), SubResource("Resource_s8jfb"), SubResource("Resource_0urj5"), SubResource("Resource_q4qsn"), SubResource("Resource_7x6ha"), SubResource("Resource_phuec"), SubResource("Resource_vo7q1")])
 egg_moves = Array[int]([211, 432, 406, 457, 282, 414, 44, 502, 415])
-evolutions = Array[ExtResource("1_ybr0p")]([SubResource("Resource_ybr0p")])
+evolutions = Array[ExtResource("1_ybr0p")]([SubResource("Resource_by02r")])

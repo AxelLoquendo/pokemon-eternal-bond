@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qvsho"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s2aqs"]
 
-[sub_resource type="Resource" id="Resource_lsu2u"]
+[sub_resource type="Resource" id="Resource_jh5nj"]
 script = ExtResource("3_qvsho")
 move = 310
 
-[sub_resource type="Resource" id="Resource_cj37d"]
+[sub_resource type="Resource" id="Resource_mkbow"]
 script = ExtResource("3_qvsho")
 move = 45
 
-[sub_resource type="Resource" id="Resource_qvsho"]
+[sub_resource type="Resource" id="Resource_m6b2r"]
 script = ExtResource("3_qvsho")
 move = 71
 
-[sub_resource type="Resource" id="Resource_s2aqs"]
+[sub_resource type="Resource" id="Resource_uixbx"]
 script = ExtResource("3_qvsho")
 move = 267
 
@@ -31,6 +31,7 @@ pokedex = "When it hears festive music, all the cells
 in its body become stimulated, and it
 begins moving in rhythm. It does not
 quail even when it faces a tough opponent."
+sprite_folder = "ludicolo"
 type_1 = 12
 type_2 = 13
 base_hp = 80
@@ -52,4 +53,4 @@ item_rare = 464
 height_dm = 15
 weight_hg = 550
 body_color = 3
-level_moves = Array[ExtResource("3_qvsho")]([SubResource("Resource_lsu2u"), SubResource("Resource_cj37d"), SubResource("Resource_qvsho"), SubResource("Resource_s2aqs")])
+level_moves = Array[ExtResource("3_qvsho")]([SubResource("Resource_jh5nj"), SubResource("Resource_mkbow"), SubResource("Resource_m6b2r"), SubResource("Resource_uixbx")])

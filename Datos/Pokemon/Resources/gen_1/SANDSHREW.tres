@@ -5,37 +5,37 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7odxm"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0l3mx"]
 
-[sub_resource type="Resource" id="Resource_6q6ab"]
+[sub_resource type="Resource" id="Resource_4f3ql"]
 script = ExtResource("1_6q6ab")
 method = "LEVEL"
 param = "22"
 target = 28
 
-[sub_resource type="Resource" id="Resource_sex7h"]
+[sub_resource type="Resource" id="Resource_44ky1"]
 script = ExtResource("3_7odxm")
 move = 10
 
-[sub_resource type="Resource" id="Resource_7odxm"]
+[sub_resource type="Resource" id="Resource_frokf"]
 script = ExtResource("3_7odxm")
 level = 10
 move = 28
 
-[sub_resource type="Resource" id="Resource_0l3mx"]
+[sub_resource type="Resource" id="Resource_m6g8i"]
 script = ExtResource("3_7odxm")
 level = 17
 move = 163
 
-[sub_resource type="Resource" id="Resource_4f3ql"]
+[sub_resource type="Resource" id="Resource_coejr"]
 script = ExtResource("3_7odxm")
 level = 24
 move = 40
 
-[sub_resource type="Resource" id="Resource_44ky1"]
+[sub_resource type="Resource" id="Resource_6qi64"]
 script = ExtResource("3_7odxm")
 level = 31
 move = 129
 
-[sub_resource type="Resource" id="Resource_frokf"]
+[sub_resource type="Resource" id="Resource_78l6c"]
 script = ExtResource("3_7odxm")
 level = 38
 move = 154
@@ -50,6 +50,7 @@ pokedex = "When it curls up in a ball, it can make any
 attack bounce off harmlessly. Its hide has
 turned tough and solid as a result of
 living in the desert."
+sprite_folder = "sandshrew"
 type_1 = 5
 base_hp = 50
 base_atk = 75
@@ -67,7 +68,7 @@ item_rare = 488
 height_dm = 6
 weight_hg = 120
 body_color = 2
-level_moves = Array[ExtResource("3_7odxm")]([SubResource("Resource_sex7h"), SubResource("Resource_7odxm"), SubResource("Resource_0l3mx"), SubResource("Resource_4f3ql"), SubResource("Resource_44ky1"), SubResource("Resource_frokf")])
+level_moves = Array[ExtResource("3_7odxm")]([SubResource("Resource_44ky1"), SubResource("Resource_frokf"), SubResource("Resource_m6g8i"), SubResource("Resource_coejr"), SubResource("Resource_6qi64"), SubResource("Resource_78l6c")])
 egg_moves = Array[int]([175, 68, 229, 232, 306, 400, 341, 203, 498, 431, 563, 468])
-evolutions = Array[ExtResource("1_6q6ab")]([SubResource("Resource_6q6ab")])
+evolutions = Array[ExtResource("1_6q6ab")]([SubResource("Resource_4f3ql")])
 form_species = Array[int]([27, 959])

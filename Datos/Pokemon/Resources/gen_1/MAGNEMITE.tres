@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_earin"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bih6x"]
 
-[sub_resource type="Resource" id="Resource_420sb"]
+[sub_resource type="Resource" id="Resource_64ixy"]
 script = ExtResource("1_420sb")
 method = "LEVEL"
 param = "30"
 target = 82
 
-[sub_resource type="Resource" id="Resource_ikyji"]
+[sub_resource type="Resource" id="Resource_igwyg"]
 script = ExtResource("3_earin")
 move = 33
 
-[sub_resource type="Resource" id="Resource_earin"]
+[sub_resource type="Resource" id="Resource_cvrjq"]
 script = ExtResource("3_earin")
 level = 21
 move = 49
 
-[sub_resource type="Resource" id="Resource_bih6x"]
+[sub_resource type="Resource" id="Resource_f6nm2"]
 script = ExtResource("3_earin")
 level = 25
 move = 84
 
-[sub_resource type="Resource" id="Resource_64ixy"]
+[sub_resource type="Resource" id="Resource_f1utl"]
 script = ExtResource("3_earin")
 level = 29
 move = 48
 
-[sub_resource type="Resource" id="Resource_igwyg"]
+[sub_resource type="Resource" id="Resource_dokcf"]
 script = ExtResource("3_earin")
 level = 35
 move = 86
 
-[sub_resource type="Resource" id="Resource_cvrjq"]
+[sub_resource type="Resource" id="Resource_c7v8l"]
 script = ExtResource("3_earin")
 level = 41
 move = 129
 
-[sub_resource type="Resource" id="Resource_f6nm2"]
+[sub_resource type="Resource" id="Resource_nngnk"]
 script = ExtResource("3_earin")
 level = 47
 move = 103
@@ -55,6 +55,7 @@ pokedex = "The units at its sides are extremely
 powerful magnets. They generate enough
 magnetism to draw in iron objects from
 over 300 feet away."
+sprite_folder = "magnemite"
 type_1 = 14
 base_hp = 25
 base_atk = 35
@@ -74,5 +75,5 @@ item_rare = 441
 height_dm = 3
 weight_hg = 60
 body_color = 7
-level_moves = Array[ExtResource("3_earin")]([SubResource("Resource_ikyji"), SubResource("Resource_earin"), SubResource("Resource_bih6x"), SubResource("Resource_64ixy"), SubResource("Resource_igwyg"), SubResource("Resource_cvrjq"), SubResource("Resource_f6nm2")])
-evolutions = Array[ExtResource("1_420sb")]([SubResource("Resource_420sb")])
+level_moves = Array[ExtResource("3_earin")]([SubResource("Resource_igwyg"), SubResource("Resource_cvrjq"), SubResource("Resource_f6nm2"), SubResource("Resource_f1utl"), SubResource("Resource_dokcf"), SubResource("Resource_c7v8l"), SubResource("Resource_nngnk")])
+evolutions = Array[ExtResource("1_420sb")]([SubResource("Resource_64ixy")])

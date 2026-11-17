@@ -5,52 +5,52 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_por2f"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_38kcs"]
 
-[sub_resource type="Resource" id="Resource_ttxam"]
+[sub_resource type="Resource" id="Resource_c1qa7"]
 script = ExtResource("1_ttxam")
 method = "NONE"
 param = "0"
 target = 1483
 
-[sub_resource type="Resource" id="Resource_ewl43"]
+[sub_resource type="Resource" id="Resource_hojed"]
 script = ExtResource("3_por2f")
 move = 45
 
-[sub_resource type="Resource" id="Resource_por2f"]
+[sub_resource type="Resource" id="Resource_6fgsn"]
 script = ExtResource("3_por2f")
 level = 10
 move = 125
 
-[sub_resource type="Resource" id="Resource_38kcs"]
+[sub_resource type="Resource" id="Resource_uctu2"]
 script = ExtResource("3_por2f")
 level = 13
 move = 39
 
-[sub_resource type="Resource" id="Resource_c1qa7"]
+[sub_resource type="Resource" id="Resource_64qjy"]
 script = ExtResource("3_por2f")
 level = 18
 move = 29
 
-[sub_resource type="Resource" id="Resource_hojed"]
+[sub_resource type="Resource" id="Resource_5ctqi"]
 script = ExtResource("3_por2f")
 level = 25
 move = 43
 
-[sub_resource type="Resource" id="Resource_6fgsn"]
+[sub_resource type="Resource" id="Resource_72mxo"]
 script = ExtResource("3_por2f")
 level = 31
 move = 116
 
-[sub_resource type="Resource" id="Resource_uctu2"]
+[sub_resource type="Resource" id="Resource_gxomd"]
 script = ExtResource("3_por2f")
 level = 38
 move = 37
 
-[sub_resource type="Resource" id="Resource_64qjy"]
+[sub_resource type="Resource" id="Resource_xrpln"]
 script = ExtResource("3_por2f")
 level = 43
 move = 155
 
-[sub_resource type="Resource" id="Resource_5ctqi"]
+[sub_resource type="Resource" id="Resource_2ynii"]
 script = ExtResource("3_por2f")
 level = 46
 move = 99
@@ -65,6 +65,7 @@ pokedex = "It pines for the mother it will never see
 again. Seeing a likeness of its mother in
 the full moon, it cries. The stains on the
 skull it wears are from its tears."
+sprite_folder = "cubone"
 type_1 = 5
 base_hp = 50
 base_atk = 50
@@ -84,6 +85,6 @@ height_dm = 4
 weight_hg = 65
 body_color = 5
 no_flip = true
-level_moves = Array[ExtResource("3_por2f")]([SubResource("Resource_ewl43"), SubResource("Resource_por2f"), SubResource("Resource_38kcs"), SubResource("Resource_c1qa7"), SubResource("Resource_hojed"), SubResource("Resource_6fgsn"), SubResource("Resource_uctu2"), SubResource("Resource_64qjy"), SubResource("Resource_5ctqi")])
+level_moves = Array[ExtResource("3_por2f")]([SubResource("Resource_hojed"), SubResource("Resource_6fgsn"), SubResource("Resource_uctu2"), SubResource("Resource_64qjy"), SubResource("Resource_5ctqi"), SubResource("Resource_72mxo"), SubResource("Resource_gxomd"), SubResource("Resource_xrpln"), SubResource("Resource_2ynii")])
 egg_moves = Array[int]([246, 187, 103, 130, 195, 24, 442, 197, 203, 498, 174])
-evolutions = Array[ExtResource("1_ttxam")]([SubResource("Resource_ttxam")])
+evolutions = Array[ExtResource("1_ttxam")]([SubResource("Resource_c1qa7")])

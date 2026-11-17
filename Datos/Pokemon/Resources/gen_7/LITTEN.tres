@@ -5,86 +5,86 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3xbtc"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kxh54"]
 
-[sub_resource type="Resource" id="Resource_omwur"]
+[sub_resource type="Resource" id="Resource_0eki1"]
 script = ExtResource("1_omwur")
 method = "LEVEL"
 param = "17"
 target = 726
 
-[sub_resource type="Resource" id="Resource_knqf7"]
+[sub_resource type="Resource" id="Resource_gkmuw"]
 script = ExtResource("3_3xbtc")
 move = 10
 
-[sub_resource type="Resource" id="Resource_3xbtc"]
+[sub_resource type="Resource" id="Resource_gxjpj"]
 script = ExtResource("3_3xbtc")
 move = 52
 
-[sub_resource type="Resource" id="Resource_kxh54"]
+[sub_resource type="Resource" id="Resource_j6up0"]
 script = ExtResource("3_3xbtc")
 level = 4
 move = 45
 
-[sub_resource type="Resource" id="Resource_0eki1"]
+[sub_resource type="Resource" id="Resource_ex5sh"]
 script = ExtResource("3_3xbtc")
 level = 8
 move = 122
 
-[sub_resource type="Resource" id="Resource_gkmuw"]
+[sub_resource type="Resource" id="Resource_dkr28"]
 script = ExtResource("3_3xbtc")
 level = 11
 move = 43
 
-[sub_resource type="Resource" id="Resource_gxjpj"]
+[sub_resource type="Resource" id="Resource_scv2y"]
 script = ExtResource("3_3xbtc")
 level = 14
 move = 424
 
-[sub_resource type="Resource" id="Resource_j6up0"]
+[sub_resource type="Resource" id="Resource_g7uvu"]
 script = ExtResource("3_3xbtc")
 level = 16
 move = 24
 
-[sub_resource type="Resource" id="Resource_ex5sh"]
+[sub_resource type="Resource" id="Resource_rwj7o"]
 script = ExtResource("3_3xbtc")
 level = 18
 move = 46
 
-[sub_resource type="Resource" id="Resource_dkr28"]
+[sub_resource type="Resource" id="Resource_reodq"]
 script = ExtResource("3_3xbtc")
 level = 22
 move = 44
 
-[sub_resource type="Resource" id="Resource_scv2y"]
+[sub_resource type="Resource" id="Resource_kqc1d"]
 script = ExtResource("3_3xbtc")
 level = 25
 move = 207
 
-[sub_resource type="Resource" id="Resource_g7uvu"]
+[sub_resource type="Resource" id="Resource_fjdhj"]
 script = ExtResource("3_3xbtc")
 level = 29
 move = 154
 
-[sub_resource type="Resource" id="Resource_rwj7o"]
+[sub_resource type="Resource" id="Resource_prdtn"]
 script = ExtResource("3_3xbtc")
 level = 32
 move = 37
 
-[sub_resource type="Resource" id="Resource_reodq"]
+[sub_resource type="Resource" id="Resource_rpmy8"]
 script = ExtResource("3_3xbtc")
 level = 36
 move = 53
 
-[sub_resource type="Resource" id="Resource_kqc1d"]
+[sub_resource type="Resource" id="Resource_bmvs5"]
 script = ExtResource("3_3xbtc")
 level = 39
 move = 184
 
-[sub_resource type="Resource" id="Resource_fjdhj"]
+[sub_resource type="Resource" id="Resource_0jfdt"]
 script = ExtResource("3_3xbtc")
 level = 43
 move = 394
 
-[sub_resource type="Resource" id="Resource_prdtn"]
+[sub_resource type="Resource" id="Resource_vb2ju"]
 script = ExtResource("3_3xbtc")
 level = 46
 move = 200
@@ -99,6 +99,7 @@ pokedex = "While grooming itself, it builds up fur
 inside its stomach. It sets the fur alight
 and spews fiery attacks, which change
 based on how it coughs."
+sprite_folder = "litten"
 type_1 = 11
 base_hp = 45
 base_atk = 65
@@ -116,6 +117,6 @@ ability_1 = 66
 ability_hidden = 22
 height_dm = 4
 weight_hg = 43
-level_moves = Array[ExtResource("3_3xbtc")]([SubResource("Resource_knqf7"), SubResource("Resource_3xbtc"), SubResource("Resource_kxh54"), SubResource("Resource_0eki1"), SubResource("Resource_gkmuw"), SubResource("Resource_gxjpj"), SubResource("Resource_j6up0"), SubResource("Resource_ex5sh"), SubResource("Resource_dkr28"), SubResource("Resource_scv2y"), SubResource("Resource_g7uvu"), SubResource("Resource_rwj7o"), SubResource("Resource_reodq"), SubResource("Resource_kqc1d"), SubResource("Resource_fjdhj"), SubResource("Resource_prdtn")])
+level_moves = Array[ExtResource("3_3xbtc")]([SubResource("Resource_gkmuw"), SubResource("Resource_gxjpj"), SubResource("Resource_j6up0"), SubResource("Resource_ex5sh"), SubResource("Resource_dkr28"), SubResource("Resource_scv2y"), SubResource("Resource_g7uvu"), SubResource("Resource_rwj7o"), SubResource("Resource_reodq"), SubResource("Resource_kqc1d"), SubResource("Resource_fjdhj"), SubResource("Resource_prdtn"), SubResource("Resource_rpmy8"), SubResource("Resource_bmvs5"), SubResource("Resource_0jfdt"), SubResource("Resource_vb2ju")])
 egg_moves = Array[int]([417, 34, 242, 252, 279, 257, 644])
-evolutions = Array[ExtResource("1_omwur")]([SubResource("Resource_omwur")])
+evolutions = Array[ExtResource("1_omwur")]([SubResource("Resource_0eki1")])

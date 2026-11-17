@@ -5,52 +5,52 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k0gwn"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_g0e5g"]
 
-[sub_resource type="Resource" id="Resource_qy3s7"]
+[sub_resource type="Resource" id="Resource_ij1qx"]
 script = ExtResource("1_qy3s7")
 method = "TRADE"
 param = "0"
 target = 76
 
-[sub_resource type="Resource" id="Resource_0uevi"]
+[sub_resource type="Resource" id="Resource_2o1x2"]
 script = ExtResource("1_qy3s7")
 method = "ITEM"
 param = "ITEM_LINKING_CORD"
 target = 76
 
-[sub_resource type="Resource" id="Resource_k0gwn"]
+[sub_resource type="Resource" id="Resource_haxl5"]
 script = ExtResource("3_k0gwn")
 move = 33
 
-[sub_resource type="Resource" id="Resource_g0e5g"]
+[sub_resource type="Resource" id="Resource_4ebnf"]
 script = ExtResource("3_k0gwn")
 move = 111
 
-[sub_resource type="Resource" id="Resource_ij1qx"]
+[sub_resource type="Resource" id="Resource_dc23k"]
 script = ExtResource("3_k0gwn")
 level = 11
 move = 111
 
-[sub_resource type="Resource" id="Resource_2o1x2"]
+[sub_resource type="Resource" id="Resource_jxtjf"]
 script = ExtResource("3_k0gwn")
 level = 16
 move = 88
 
-[sub_resource type="Resource" id="Resource_haxl5"]
+[sub_resource type="Resource" id="Resource_nos6h"]
 script = ExtResource("3_k0gwn")
 level = 21
 move = 120
 
-[sub_resource type="Resource" id="Resource_4ebnf"]
+[sub_resource type="Resource" id="Resource_yhijh"]
 script = ExtResource("3_k0gwn")
 level = 29
 move = 106
 
-[sub_resource type="Resource" id="Resource_dc23k"]
+[sub_resource type="Resource" id="Resource_a1jti"]
 script = ExtResource("3_k0gwn")
 level = 36
 move = 89
 
-[sub_resource type="Resource" id="Resource_jxtjf"]
+[sub_resource type="Resource" id="Resource_3d24m"]
 script = ExtResource("3_k0gwn")
 level = 43
 move = 153
@@ -65,6 +65,7 @@ pokedex = "They descend from mountains by tumbling
 down steep slopes. They are so brutal,
 they smash aside obstructing trees and
 massive boulders with thunderous tackles."
+sprite_folder = "graveler"
 type_1 = 6
 type_2 = 5
 base_hp = 55
@@ -86,6 +87,6 @@ item_rare = 245
 height_dm = 10
 weight_hg = 1050
 body_color = 5
-level_moves = Array[ExtResource("3_k0gwn")]([SubResource("Resource_k0gwn"), SubResource("Resource_g0e5g"), SubResource("Resource_ij1qx"), SubResource("Resource_2o1x2"), SubResource("Resource_haxl5"), SubResource("Resource_4ebnf"), SubResource("Resource_dc23k"), SubResource("Resource_jxtjf")])
-evolutions = Array[ExtResource("1_qy3s7")]([SubResource("Resource_qy3s7"), SubResource("Resource_0uevi")])
+level_moves = Array[ExtResource("3_k0gwn")]([SubResource("Resource_haxl5"), SubResource("Resource_4ebnf"), SubResource("Resource_dc23k"), SubResource("Resource_jxtjf"), SubResource("Resource_nos6h"), SubResource("Resource_yhijh"), SubResource("Resource_a1jti"), SubResource("Resource_3d24m")])
+evolutions = Array[ExtResource("1_qy3s7")]([SubResource("Resource_ij1qx"), SubResource("Resource_2o1x2")])
 form_species = Array[int]([75, 968])

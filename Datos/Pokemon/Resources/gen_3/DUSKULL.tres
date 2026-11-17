@@ -5,61 +5,61 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ajbmk"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6t7f1"]
 
-[sub_resource type="Resource" id="Resource_coxrr"]
+[sub_resource type="Resource" id="Resource_37oat"]
 script = ExtResource("1_coxrr")
 method = "LEVEL"
 param = "37"
 target = 356
 
-[sub_resource type="Resource" id="Resource_lvblc"]
+[sub_resource type="Resource" id="Resource_eu6qa"]
 script = ExtResource("3_ajbmk")
 move = 43
 
-[sub_resource type="Resource" id="Resource_ajbmk"]
+[sub_resource type="Resource" id="Resource_xoqep"]
 script = ExtResource("3_ajbmk")
 move = 101
 
-[sub_resource type="Resource" id="Resource_6t7f1"]
+[sub_resource type="Resource" id="Resource_issrr"]
 script = ExtResource("3_ajbmk")
 level = 5
 move = 50
 
-[sub_resource type="Resource" id="Resource_37oat"]
+[sub_resource type="Resource" id="Resource_kyioj"]
 script = ExtResource("3_ajbmk")
 level = 12
 move = 193
 
-[sub_resource type="Resource" id="Resource_eu6qa"]
+[sub_resource type="Resource" id="Resource_g84q6"]
 script = ExtResource("3_ajbmk")
 level = 16
 move = 310
 
-[sub_resource type="Resource" id="Resource_xoqep"]
+[sub_resource type="Resource" id="Resource_4a5bx"]
 script = ExtResource("3_ajbmk")
 level = 23
 move = 109
 
-[sub_resource type="Resource" id="Resource_issrr"]
+[sub_resource type="Resource" id="Resource_xi7yu"]
 script = ExtResource("3_ajbmk")
 level = 27
 move = 228
 
-[sub_resource type="Resource" id="Resource_kyioj"]
+[sub_resource type="Resource" id="Resource_g4lww"]
 script = ExtResource("3_ajbmk")
 level = 34
 move = 174
 
-[sub_resource type="Resource" id="Resource_g84q6"]
+[sub_resource type="Resource" id="Resource_uxpks"]
 script = ExtResource("3_ajbmk")
 level = 38
 move = 261
 
-[sub_resource type="Resource" id="Resource_4a5bx"]
+[sub_resource type="Resource" id="Resource_yyf4l"]
 script = ExtResource("3_ajbmk")
 level = 45
 move = 212
 
-[sub_resource type="Resource" id="Resource_xi7yu"]
+[sub_resource type="Resource" id="Resource_ltwt7"]
 script = ExtResource("3_ajbmk")
 level = 49
 move = 248
@@ -74,6 +74,7 @@ pokedex = "A glare from its single scarlet eye makes
 even burly grown-ups freeze in utter fear.
 It is a nocturnal Pokémon that roams
 about under the cloak of darkness."
+sprite_folder = "duskull"
 type_1 = 8
 base_hp = 20
 base_atk = 40
@@ -94,6 +95,6 @@ item_rare = 438
 height_dm = 8
 weight_hg = 150
 body_color = 4
-level_moves = Array[ExtResource("3_ajbmk")]([SubResource("Resource_lvblc"), SubResource("Resource_ajbmk"), SubResource("Resource_6t7f1"), SubResource("Resource_37oat"), SubResource("Resource_eu6qa"), SubResource("Resource_xoqep"), SubResource("Resource_issrr"), SubResource("Resource_kyioj"), SubResource("Resource_g84q6"), SubResource("Resource_4a5bx"), SubResource("Resource_xi7yu")])
+level_moves = Array[ExtResource("3_ajbmk")]([SubResource("Resource_eu6qa"), SubResource("Resource_xoqep"), SubResource("Resource_issrr"), SubResource("Resource_kyioj"), SubResource("Resource_g84q6"), SubResource("Resource_4a5bx"), SubResource("Resource_xi7yu"), SubResource("Resource_g4lww"), SubResource("Resource_uxpks"), SubResource("Resource_yyf4l"), SubResource("Resource_ltwt7")])
 egg_moves = Array[int]([286, 194, 220, 288, 262, 185, 466, 399, 285, 114])
-evolutions = Array[ExtResource("1_coxrr")]([SubResource("Resource_coxrr")])
+evolutions = Array[ExtResource("1_coxrr")]([SubResource("Resource_37oat")])

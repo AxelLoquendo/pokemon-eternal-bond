@@ -5,40 +5,40 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6kxgs"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nsw4x"]
 
-[sub_resource type="Resource" id="Resource_jkqiu"]
+[sub_resource type="Resource" id="Resource_amabp"]
 script = ExtResource("3_6kxgs")
 move = 10
 
-[sub_resource type="Resource" id="Resource_2a4f3"]
+[sub_resource type="Resource" id="Resource_lvg7c"]
 script = ExtResource("3_6kxgs")
 move = 39
 
-[sub_resource type="Resource" id="Resource_6kxgs"]
+[sub_resource type="Resource" id="Resource_qdxsg"]
 script = ExtResource("3_6kxgs")
 level = 6
 move = 28
 
-[sub_resource type="Resource" id="Resource_nsw4x"]
+[sub_resource type="Resource" id="Resource_d0xlp"]
 script = ExtResource("3_6kxgs")
 level = 12
 move = 226
 
-[sub_resource type="Resource" id="Resource_amabp"]
+[sub_resource type="Resource" id="Resource_xfl2s"]
 script = ExtResource("3_6kxgs")
 level = 19
 move = 154
 
-[sub_resource type="Resource" id="Resource_lvg7c"]
+[sub_resource type="Resource" id="Resource_58lj8"]
 script = ExtResource("3_6kxgs")
 level = 27
 move = 129
 
-[sub_resource type="Resource" id="Resource_qdxsg"]
+[sub_resource type="Resource" id="Resource_t87k1"]
 script = ExtResource("3_6kxgs")
 level = 36
 move = 103
 
-[sub_resource type="Resource" id="Resource_d0xlp"]
+[sub_resource type="Resource" id="Resource_36r7c"]
 script = ExtResource("3_6kxgs")
 level = 46
 move = 97
@@ -53,6 +53,7 @@ pokedex = "Its tail ends with a dexterous, handlike
 appendage. However, because it uses the
 tail so much, Aipom's real hands have
 become rather clumsy."
+sprite_folder = "aipom"
 type_1 = 1
 base_hp = 55
 base_atk = 70
@@ -70,5 +71,5 @@ ability_hidden = 92
 height_dm = 8
 weight_hg = 115
 body_color = 6
-level_moves = Array[ExtResource("3_6kxgs")]([SubResource("Resource_jkqiu"), SubResource("Resource_2a4f3"), SubResource("Resource_6kxgs"), SubResource("Resource_nsw4x"), SubResource("Resource_amabp"), SubResource("Resource_lvg7c"), SubResource("Resource_qdxsg"), SubResource("Resource_d0xlp")])
+level_moves = Array[ExtResource("3_6kxgs")]([SubResource("Resource_amabp"), SubResource("Resource_lvg7c"), SubResource("Resource_qdxsg"), SubResource("Resource_d0xlp"), SubResource("Resource_xfl2s"), SubResource("Resource_58lj8"), SubResource("Resource_t87k1"), SubResource("Resource_36r7c")])
 egg_moves = Array[int]([68, 103, 228, 97, 180, 21, 3, 251, 252, 343, 340, 279, 415, 501, 541])

@@ -5,25 +5,25 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h8fyn"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_a6e0x"]
 
-[sub_resource type="Resource" id="Resource_3o5tg"]
+[sub_resource type="Resource" id="Resource_jl4s4"]
 script = ExtResource("3_h8fyn")
 move = 84
 
-[sub_resource type="Resource" id="Resource_8mjel"]
+[sub_resource type="Resource" id="Resource_4r0st"]
 script = ExtResource("3_h8fyn")
 move = 204
 
-[sub_resource type="Resource" id="Resource_h8fyn"]
+[sub_resource type="Resource" id="Resource_mg5ya"]
 script = ExtResource("3_h8fyn")
 level = 6
 move = 39
 
-[sub_resource type="Resource" id="Resource_a6e0x"]
+[sub_resource type="Resource" id="Resource_lwv3b"]
 script = ExtResource("3_h8fyn")
 level = 8
 move = 86
 
-[sub_resource type="Resource" id="Resource_jl4s4"]
+[sub_resource type="Resource" id="Resource_253gq"]
 script = ExtResource("3_h8fyn")
 level = 11
 move = 186
@@ -34,6 +34,7 @@ id = 1023
 display_name = "Pichu"
 category = "Tiny Mouse"
 national_dex = 172
+sprite_folder = "pichu/spiky_eared"
 type_1 = 14
 base_hp = 20
 base_atk = 40
@@ -50,6 +51,6 @@ height_dm = 3
 weight_hg = 20
 body_color = 2
 no_flip = true
-level_moves = Array[ExtResource("3_h8fyn")]([SubResource("Resource_3o5tg"), SubResource("Resource_8mjel"), SubResource("Resource_h8fyn"), SubResource("Resource_a6e0x"), SubResource("Resource_jl4s4")])
+level_moves = Array[ExtResource("3_h8fyn")]([SubResource("Resource_jl4s4"), SubResource("Resource_4r0st"), SubResource("Resource_mg5ya"), SubResource("Resource_lwv3b"), SubResource("Resource_253gq")])
 egg_moves = Array[int]([179, 117, 217, 227, 3, 273, 268, 252, 9, 321, 175, 203, 381, 516, 574, 604])
 form_species = Array[int]([172, 1023])

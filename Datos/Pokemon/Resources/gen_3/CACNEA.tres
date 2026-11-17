@@ -5,71 +5,71 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gwx6k"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ccfpx"]
 
-[sub_resource type="Resource" id="Resource_4uv0i"]
+[sub_resource type="Resource" id="Resource_hc3mn"]
 script = ExtResource("1_4uv0i")
 method = "LEVEL"
 param = "32"
 target = 332
 
-[sub_resource type="Resource" id="Resource_0x0c0"]
+[sub_resource type="Resource" id="Resource_nt6wy"]
 script = ExtResource("3_gwx6k")
 move = 40
 
-[sub_resource type="Resource" id="Resource_gwx6k"]
+[sub_resource type="Resource" id="Resource_vimcb"]
 script = ExtResource("3_gwx6k")
 move = 43
 
-[sub_resource type="Resource" id="Resource_ccfpx"]
+[sub_resource type="Resource" id="Resource_tcbt0"]
 script = ExtResource("3_gwx6k")
 level = 5
 move = 71
 
-[sub_resource type="Resource" id="Resource_hc3mn"]
+[sub_resource type="Resource" id="Resource_7smn7"]
 script = ExtResource("3_gwx6k")
 level = 9
 move = 74
 
-[sub_resource type="Resource" id="Resource_nt6wy"]
+[sub_resource type="Resource" id="Resource_uq0ky"]
 script = ExtResource("3_gwx6k")
 level = 13
 move = 73
 
-[sub_resource type="Resource" id="Resource_vimcb"]
+[sub_resource type="Resource" id="Resource_wi1ey"]
 script = ExtResource("3_gwx6k")
 level = 17
 move = 28
 
-[sub_resource type="Resource" id="Resource_tcbt0"]
+[sub_resource type="Resource" id="Resource_5mbdj"]
 script = ExtResource("3_gwx6k")
 level = 21
 move = 42
 
-[sub_resource type="Resource" id="Resource_7smn7"]
+[sub_resource type="Resource" id="Resource_3ht6p"]
 script = ExtResource("3_gwx6k")
 level = 25
 move = 275
 
-[sub_resource type="Resource" id="Resource_uq0ky"]
+[sub_resource type="Resource" id="Resource_lx3wj"]
 script = ExtResource("3_gwx6k")
 level = 29
 move = 185
 
-[sub_resource type="Resource" id="Resource_wi1ey"]
+[sub_resource type="Resource" id="Resource_um8bt"]
 script = ExtResource("3_gwx6k")
 level = 33
 move = 191
 
-[sub_resource type="Resource" id="Resource_5mbdj"]
+[sub_resource type="Resource" id="Resource_2qp3k"]
 script = ExtResource("3_gwx6k")
 level = 37
 move = 302
 
-[sub_resource type="Resource" id="Resource_3ht6p"]
+[sub_resource type="Resource" id="Resource_oao1b"]
 script = ExtResource("3_gwx6k")
 level = 41
 move = 178
 
-[sub_resource type="Resource" id="Resource_lx3wj"]
+[sub_resource type="Resource" id="Resource_vg5ob"]
 script = ExtResource("3_gwx6k")
 level = 45
 move = 201
@@ -84,6 +84,7 @@ pokedex = "Cacnea live in deserts with virtually no
 rainfall. It battles by swinging its thick,
 spiked arms. Once a year, a yellow flower
 blooms."
+sprite_folder = "cacnea"
 type_1 = 13
 base_hp = 50
 base_atk = 85
@@ -104,6 +105,6 @@ item_rare = 489
 height_dm = 4
 weight_hg = 513
 body_color = 3
-level_moves = Array[ExtResource("3_gwx6k")]([SubResource("Resource_0x0c0"), SubResource("Resource_gwx6k"), SubResource("Resource_ccfpx"), SubResource("Resource_hc3mn"), SubResource("Resource_nt6wy"), SubResource("Resource_vimcb"), SubResource("Resource_tcbt0"), SubResource("Resource_7smn7"), SubResource("Resource_uq0ky"), SubResource("Resource_wi1ey"), SubResource("Resource_5mbdj"), SubResource("Resource_3ht6p"), SubResource("Resource_lx3wj")])
+level_moves = Array[ExtResource("3_gwx6k")]([SubResource("Resource_nt6wy"), SubResource("Resource_vimcb"), SubResource("Resource_tcbt0"), SubResource("Resource_7smn7"), SubResource("Resource_uq0ky"), SubResource("Resource_wi1ey"), SubResource("Resource_5mbdj"), SubResource("Resource_3ht6p"), SubResource("Resource_lx3wj"), SubResource("Resource_um8bt"), SubResource("Resource_2qp3k"), SubResource("Resource_oao1b"), SubResource("Resource_vg5ob")])
 egg_moves = Array[int]([320, 51, 298, 223, 68, 67, 265, 345, 402, 417, 50, 335, 388, 415, 565, 562, 563, 612])
-evolutions = Array[ExtResource("1_4uv0i")]([SubResource("Resource_4uv0i")])
+evolutions = Array[ExtResource("1_4uv0i")]([SubResource("Resource_hc3mn")])

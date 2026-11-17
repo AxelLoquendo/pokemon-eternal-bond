@@ -5,25 +5,25 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0mg3k"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_vxkr4"]
 
-[sub_resource type="Resource" id="Resource_lt5xu"]
+[sub_resource type="Resource" id="Resource_ntd5a"]
 script = ExtResource("3_0mg3k")
 move = 64
 
-[sub_resource type="Resource" id="Resource_qq7fb"]
+[sub_resource type="Resource" id="Resource_4kks2"]
 script = ExtResource("3_0mg3k")
 move = 58
 
-[sub_resource type="Resource" id="Resource_0mg3k"]
+[sub_resource type="Resource" id="Resource_xf3h8"]
 script = ExtResource("3_0mg3k")
 level = 51
 move = 59
 
-[sub_resource type="Resource" id="Resource_vxkr4"]
+[sub_resource type="Resource" id="Resource_wcd7i"]
 script = ExtResource("3_0mg3k")
 level = 55
 move = 97
 
-[sub_resource type="Resource" id="Resource_ntd5a"]
+[sub_resource type="Resource" id="Resource_pt0i2"]
 script = ExtResource("3_0mg3k")
 level = 60
 move = 54
@@ -38,6 +38,7 @@ pokedex = "Articuno is a legendary bird Pokémon that
 can control ice. The flapping of its wings
 chills the air. As a result, it is said that
 when this Pokémon flies, snow will fall."
+sprite_folder = "articuno"
 type_1 = 16
 type_2 = 3
 base_hp = 90
@@ -58,5 +59,5 @@ ability_hidden = 81
 height_dm = 17
 weight_hg = 554
 body_color = 1
-level_moves = Array[ExtResource("3_0mg3k")]([SubResource("Resource_lt5xu"), SubResource("Resource_qq7fb"), SubResource("Resource_0mg3k"), SubResource("Resource_vxkr4"), SubResource("Resource_ntd5a")])
+level_moves = Array[ExtResource("3_0mg3k")]([SubResource("Resource_ntd5a"), SubResource("Resource_4kks2"), SubResource("Resource_xf3h8"), SubResource("Resource_wcd7i"), SubResource("Resource_pt0i2")])
 form_species = Array[int]([144, 982])

@@ -5,71 +5,71 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_57b4x"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5a66c"]
 
-[sub_resource type="Resource" id="Resource_2ecei"]
+[sub_resource type="Resource" id="Resource_tojs3"]
 script = ExtResource("1_2ecei")
 method = "LEVEL"
 param = "37"
 target = 693
 
-[sub_resource type="Resource" id="Resource_vgtum"]
+[sub_resource type="Resource" id="Resource_dxcd5"]
 script = ExtResource("3_57b4x")
 move = 150
 
-[sub_resource type="Resource" id="Resource_57b4x"]
+[sub_resource type="Resource" id="Resource_4hspq"]
 script = ExtResource("3_57b4x")
 move = 55
 
-[sub_resource type="Resource" id="Resource_5a66c"]
+[sub_resource type="Resource" id="Resource_rgrs1"]
 script = ExtResource("3_57b4x")
 level = 7
 move = 346
 
-[sub_resource type="Resource" id="Resource_tojs3"]
+[sub_resource type="Resource" id="Resource_c0f8r"]
 script = ExtResource("3_57b4x")
 level = 9
 move = 11
 
-[sub_resource type="Resource" id="Resource_dxcd5"]
+[sub_resource type="Resource" id="Resource_fnbgb"]
 script = ExtResource("3_57b4x")
 level = 12
 move = 145
 
-[sub_resource type="Resource" id="Resource_4hspq"]
+[sub_resource type="Resource" id="Resource_uaqfg"]
 script = ExtResource("3_57b4x")
 level = 16
 move = 175
 
-[sub_resource type="Resource" id="Resource_rgrs1"]
+[sub_resource type="Resource" id="Resource_cd5tp"]
 script = ExtResource("3_57b4x")
 level = 20
 move = 61
 
-[sub_resource type="Resource" id="Resource_c0f8r"]
+[sub_resource type="Resource" id="Resource_o8dhw"]
 script = ExtResource("3_57b4x")
 level = 25
 move = 14
 
-[sub_resource type="Resource" id="Resource_fnbgb"]
+[sub_resource type="Resource" id="Resource_la3b3"]
 script = ExtResource("3_57b4x")
 level = 30
 move = 152
 
-[sub_resource type="Resource" id="Resource_uaqfg"]
+[sub_resource type="Resource" id="Resource_28bca"]
 script = ExtResource("3_57b4x")
 level = 34
 move = 352
 
-[sub_resource type="Resource" id="Resource_cd5tp"]
+[sub_resource type="Resource" id="Resource_q2efy"]
 script = ExtResource("3_57b4x")
 level = 39
 move = 479
 
-[sub_resource type="Resource" id="Resource_o8dhw"]
+[sub_resource type="Resource" id="Resource_gxf83"]
 script = ExtResource("3_57b4x")
 level = 43
 move = 453
 
-[sub_resource type="Resource" id="Resource_la3b3"]
+[sub_resource type="Resource" id="Resource_dxs3y"]
 script = ExtResource("3_57b4x")
 level = 48
 move = 330
@@ -84,6 +84,7 @@ pokedex = "Through controlled expulsions of internal
 gas, it can expel water like a pistol shot.
 At close distances, it can even shatter
 large rocks."
+sprite_folder = "clauncher"
 type_1 = 12
 base_hp = 50
 base_atk = 53
@@ -103,6 +104,6 @@ height_dm = 5
 weight_hg = 83
 body_color = 1
 no_flip = true
-level_moves = Array[ExtResource("3_57b4x")]([SubResource("Resource_vgtum"), SubResource("Resource_57b4x"), SubResource("Resource_5a66c"), SubResource("Resource_tojs3"), SubResource("Resource_dxcd5"), SubResource("Resource_4hspq"), SubResource("Resource_rgrs1"), SubResource("Resource_c0f8r"), SubResource("Resource_fnbgb"), SubResource("Resource_uaqfg"), SubResource("Resource_cd5tp"), SubResource("Resource_o8dhw"), SubResource("Resource_la3b3")])
+level_moves = Array[ExtResource("3_57b4x")]([SubResource("Resource_dxcd5"), SubResource("Resource_4hspq"), SubResource("Resource_rgrs1"), SubResource("Resource_c0f8r"), SubResource("Resource_fnbgb"), SubResource("Resource_uaqfg"), SubResource("Resource_cd5tp"), SubResource("Resource_o8dhw"), SubResource("Resource_la3b3"), SubResource("Resource_28bca"), SubResource("Resource_q2efy"), SubResource("Resource_gxf83"), SubResource("Resource_dxs3y")])
 egg_moves = Array[int]([453, 494, 203, 152, 270])
-evolutions = Array[ExtResource("1_2ecei")]([SubResource("Resource_2ecei")])
+evolutions = Array[ExtResource("1_2ecei")]([SubResource("Resource_tojs3")])

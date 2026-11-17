@@ -5,61 +5,61 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_opy4n"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5eib2"]
 
-[sub_resource type="Resource" id="Resource_k8hhc"]
+[sub_resource type="Resource" id="Resource_f0q06"]
 script = ExtResource("1_k8hhc")
 method = "LEVEL"
 param = "16"
 target = 256
 
-[sub_resource type="Resource" id="Resource_4k2pb"]
+[sub_resource type="Resource" id="Resource_4c6fc"]
 script = ExtResource("3_opy4n")
 move = 10
 
-[sub_resource type="Resource" id="Resource_opy4n"]
+[sub_resource type="Resource" id="Resource_2kjqw"]
 script = ExtResource("3_opy4n")
 move = 45
 
-[sub_resource type="Resource" id="Resource_5eib2"]
+[sub_resource type="Resource" id="Resource_ouk56"]
 script = ExtResource("3_opy4n")
 level = 7
 move = 116
 
-[sub_resource type="Resource" id="Resource_f0q06"]
+[sub_resource type="Resource" id="Resource_u3eff"]
 script = ExtResource("3_opy4n")
 level = 10
 move = 52
 
-[sub_resource type="Resource" id="Resource_4c6fc"]
+[sub_resource type="Resource" id="Resource_ne1i7"]
 script = ExtResource("3_opy4n")
 level = 16
 move = 64
 
-[sub_resource type="Resource" id="Resource_2kjqw"]
+[sub_resource type="Resource" id="Resource_2q4m3"]
 script = ExtResource("3_opy4n")
 level = 19
 move = 28
 
-[sub_resource type="Resource" id="Resource_ouk56"]
+[sub_resource type="Resource" id="Resource_aldnb"]
 script = ExtResource("3_opy4n")
 level = 25
 move = 83
 
-[sub_resource type="Resource" id="Resource_u3eff"]
+[sub_resource type="Resource" id="Resource_ali75"]
 script = ExtResource("3_opy4n")
 level = 28
 move = 98
 
-[sub_resource type="Resource" id="Resource_ne1i7"]
+[sub_resource type="Resource" id="Resource_ixsie"]
 script = ExtResource("3_opy4n")
 level = 34
 move = 163
 
-[sub_resource type="Resource" id="Resource_2q4m3"]
+[sub_resource type="Resource" id="Resource_ocatd"]
 script = ExtResource("3_opy4n")
 level = 37
 move = 119
 
-[sub_resource type="Resource" id="Resource_aldnb"]
+[sub_resource type="Resource" id="Resource_lmvop"]
 script = ExtResource("3_opy4n")
 level = 43
 move = 53
@@ -74,6 +74,7 @@ pokedex = "If attacked, it strikes back by spitting
 balls of fire it forms in its stomach.
 A Torchic dislikes darkness because it
 can't see its surroundings."
+sprite_folder = "torchic"
 type_1 = 11
 base_hp = 45
 base_atk = 60
@@ -90,6 +91,6 @@ ability_1 = 66
 ability_hidden = 3
 height_dm = 4
 weight_hg = 25
-level_moves = Array[ExtResource("3_opy4n")]([SubResource("Resource_4k2pb"), SubResource("Resource_opy4n"), SubResource("Resource_5eib2"), SubResource("Resource_f0q06"), SubResource("Resource_4c6fc"), SubResource("Resource_2kjqw"), SubResource("Resource_ouk56"), SubResource("Resource_u3eff"), SubResource("Resource_ne1i7"), SubResource("Resource_2q4m3"), SubResource("Resource_aldnb")])
+level_moves = Array[ExtResource("3_opy4n")]([SubResource("Resource_4c6fc"), SubResource("Resource_2kjqw"), SubResource("Resource_ouk56"), SubResource("Resource_u3eff"), SubResource("Resource_ne1i7"), SubResource("Resource_2q4m3"), SubResource("Resource_aldnb"), SubResource("Resource_ali75"), SubResource("Resource_ixsie"), SubResource("Resource_ocatd"), SubResource("Resource_lmvop")])
 egg_moves = Array[int]([68, 179, 203, 265, 306, 226, 97, 400, 387, 364, 297, 174, 481, 67])
-evolutions = Array[ExtResource("1_k8hhc")]([SubResource("Resource_k8hhc")])
+evolutions = Array[ExtResource("1_k8hhc")]([SubResource("Resource_f0q06")])

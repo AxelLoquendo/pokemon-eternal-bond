@@ -5,56 +5,56 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_egqk2"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jk3mh"]
 
-[sub_resource type="Resource" id="Resource_04r8g"]
+[sub_resource type="Resource" id="Resource_beae8"]
 script = ExtResource("1_04r8g")
 method = "LEVEL"
 param = "26"
 target = 847
 
-[sub_resource type="Resource" id="Resource_63fm1"]
+[sub_resource type="Resource" id="Resource_7dugd"]
 script = ExtResource("3_egqk2")
 move = 64
 
-[sub_resource type="Resource" id="Resource_egqk2"]
+[sub_resource type="Resource" id="Resource_b4xfj"]
 script = ExtResource("3_egqk2")
 move = 453
 
-[sub_resource type="Resource" id="Resource_jk3mh"]
+[sub_resource type="Resource" id="Resource_2yo6w"]
 script = ExtResource("3_egqk2")
 level = 6
 move = 31
 
-[sub_resource type="Resource" id="Resource_beae8"]
+[sub_resource type="Resource" id="Resource_4x75l"]
 script = ExtResource("3_egqk2")
 level = 12
 move = 44
 
-[sub_resource type="Resource" id="Resource_7dugd"]
+[sub_resource type="Resource" id="Resource_gn7w0"]
 script = ExtResource("3_egqk2")
 level = 18
 move = 97
 
-[sub_resource type="Resource" id="Resource_b4xfj"]
+[sub_resource type="Resource" id="Resource_8wjlp"]
 script = ExtResource("3_egqk2")
 level = 24
 move = 291
 
-[sub_resource type="Resource" id="Resource_2yo6w"]
+[sub_resource type="Resource" id="Resource_sp5jx"]
 script = ExtResource("3_egqk2")
 level = 30
 move = 636
 
-[sub_resource type="Resource" id="Resource_4x75l"]
+[sub_resource type="Resource" id="Resource_frsv5"]
 script = ExtResource("3_egqk2")
 level = 36
 move = 242
 
-[sub_resource type="Resource" id="Resource_gn7w0"]
+[sub_resource type="Resource" id="Resource_r8r0r"]
 script = ExtResource("3_egqk2")
 level = 42
 move = 664
 
-[sub_resource type="Resource" id="Resource_8wjlp"]
+[sub_resource type="Resource" id="Resource_aasu5"]
 script = ExtResource("3_egqk2")
 level = 48
 move = 38
@@ -69,6 +69,7 @@ pokedex = "If it sees any movement around it, this
 Pokémon charges for it straightaway,
 leading with its sharply pointed jaw.
 It's very proud of that jaw."
+sprite_folder = "arrokuda"
 type_1 = 12
 base_hp = 41
 base_atk = 63
@@ -86,6 +87,6 @@ ability_hidden = 239
 height_dm = 5
 weight_hg = 10
 body_color = 5
-level_moves = Array[ExtResource("3_egqk2")]([SubResource("Resource_63fm1"), SubResource("Resource_egqk2"), SubResource("Resource_jk3mh"), SubResource("Resource_beae8"), SubResource("Resource_7dugd"), SubResource("Resource_b4xfj"), SubResource("Resource_2yo6w"), SubResource("Resource_4x75l"), SubResource("Resource_gn7w0"), SubResource("Resource_8wjlp")])
+level_moves = Array[ExtResource("3_egqk2")]([SubResource("Resource_7dugd"), SubResource("Resource_b4xfj"), SubResource("Resource_2yo6w"), SubResource("Resource_4x75l"), SubResource("Resource_gn7w0"), SubResource("Resource_8wjlp"), SubResource("Resource_sp5jx"), SubResource("Resource_frsv5"), SubResource("Resource_r8r0r"), SubResource("Resource_aasu5")])
 egg_moves = Array[int]([37, 367, 163, 400])
-evolutions = Array[ExtResource("1_04r8g")]([SubResource("Resource_04r8g")])
+evolutions = Array[ExtResource("1_04r8g")]([SubResource("Resource_beae8")])

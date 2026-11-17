@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jamaq"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_a80ct"]
 
-[sub_resource type="Resource" id="Resource_wyii2"]
+[sub_resource type="Resource" id="Resource_lb8vm"]
 script = ExtResource("1_wyii2")
 method = "LEVEL"
 param = "30"
 target = 1003
 
-[sub_resource type="Resource" id="Resource_mqm7h"]
+[sub_resource type="Resource" id="Resource_4br5q"]
 script = ExtResource("3_jamaq")
 move = 425
 
-[sub_resource type="Resource" id="Resource_jamaq"]
+[sub_resource type="Resource" id="Resource_153rq"]
 script = ExtResource("3_jamaq")
 level = 6
 move = 555
 
-[sub_resource type="Resource" id="Resource_a80ct"]
+[sub_resource type="Resource" id="Resource_8urer"]
 script = ExtResource("3_jamaq")
 level = 11
 move = 129
 
-[sub_resource type="Resource" id="Resource_lb8vm"]
+[sub_resource type="Resource" id="Resource_kgsor"]
 script = ExtResource("3_jamaq")
 level = 18
 move = 769
 
-[sub_resource type="Resource" id="Resource_4br5q"]
+[sub_resource type="Resource" id="Resource_10x6t"]
 script = ExtResource("3_jamaq")
 level = 25
 move = 163
 
-[sub_resource type="Resource" id="Resource_153rq"]
+[sub_resource type="Resource" id="Resource_7wnvk"]
 script = ExtResource("3_jamaq")
 level = 34
 move = 421
 
-[sub_resource type="Resource" id="Resource_8urer"]
+[sub_resource type="Resource" id="Resource_aoft1"]
 script = ExtResource("3_jamaq")
 level = 43
 move = 417
@@ -55,6 +55,7 @@ pokedex = "Derives power from resentment,
 which rises as energy atop its head and
 takes on the forms of foes. In this
 way, Zorua vents lingering malice."
+sprite_folder = "zorua/hisui"
 type_1 = 1
 type_2 = 8
 base_hp = 35
@@ -74,7 +75,7 @@ ability_1 = 149
 height_dm = 7
 weight_hg = 125
 body_color = 7
-level_moves = Array[ExtResource("3_jamaq")]([SubResource("Resource_mqm7h"), SubResource("Resource_jamaq"), SubResource("Resource_a80ct"), SubResource("Resource_lb8vm"), SubResource("Resource_4br5q"), SubResource("Resource_153rq"), SubResource("Resource_8urer")])
+level_moves = Array[ExtResource("3_jamaq")]([SubResource("Resource_4br5q"), SubResource("Resource_153rq"), SubResource("Resource_8urer"), SubResource("Resource_kgsor"), SubResource("Resource_10x6t"), SubResource("Resource_7wnvk"), SubResource("Resource_aoft1")])
 egg_moves = Array[int]([197, 262, 326, 820])
-evolutions = Array[ExtResource("1_wyii2")]([SubResource("Resource_wyii2")])
+evolutions = Array[ExtResource("1_wyii2")]([SubResource("Resource_lb8vm")])
 form_species = Array[int]([570, 1002])

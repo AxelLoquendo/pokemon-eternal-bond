@@ -5,57 +5,57 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ax6u6"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_k21cj"]
 
-[sub_resource type="Resource" id="Resource_pqdsx"]
+[sub_resource type="Resource" id="Resource_nxjfq"]
 script = ExtResource("1_pqdsx")
 method = "LEVEL"
 param = "18"
 target = 188
 
-[sub_resource type="Resource" id="Resource_oxmlk"]
+[sub_resource type="Resource" id="Resource_3lo2x"]
 script = ExtResource("3_ax6u6")
 move = 150
 
-[sub_resource type="Resource" id="Resource_ax6u6"]
+[sub_resource type="Resource" id="Resource_i5g5c"]
 script = ExtResource("3_ax6u6")
 level = 5
 move = 235
 
-[sub_resource type="Resource" id="Resource_k21cj"]
+[sub_resource type="Resource" id="Resource_7sq7g"]
 script = ExtResource("3_ax6u6")
 level = 5
 move = 39
 
-[sub_resource type="Resource" id="Resource_nxjfq"]
+[sub_resource type="Resource" id="Resource_f8jl0"]
 script = ExtResource("3_ax6u6")
 level = 10
 move = 33
 
-[sub_resource type="Resource" id="Resource_3lo2x"]
+[sub_resource type="Resource" id="Resource_6r06h"]
 script = ExtResource("3_ax6u6")
 level = 13
 move = 77
 
-[sub_resource type="Resource" id="Resource_i5g5c"]
+[sub_resource type="Resource" id="Resource_843wj"]
 script = ExtResource("3_ax6u6")
 level = 15
 move = 78
 
-[sub_resource type="Resource" id="Resource_7sq7g"]
+[sub_resource type="Resource" id="Resource_qif88"]
 script = ExtResource("3_ax6u6")
 level = 17
 move = 79
 
-[sub_resource type="Resource" id="Resource_f8jl0"]
+[sub_resource type="Resource" id="Resource_q8gxi"]
 script = ExtResource("3_ax6u6")
 level = 20
 move = 73
 
-[sub_resource type="Resource" id="Resource_6r06h"]
+[sub_resource type="Resource" id="Resource_tg5gg"]
 script = ExtResource("3_ax6u6")
 level = 25
 move = 178
 
-[sub_resource type="Resource" id="Resource_843wj"]
+[sub_resource type="Resource" id="Resource_ggc7p"]
 script = ExtResource("3_ax6u6")
 level = 30
 move = 72
@@ -70,6 +70,7 @@ pokedex = "This Pokémon drifts and floats with the
 wind. If it senses the approach of strong
 winds, a Hoppip links leaves with others
 to prepare against being blown away."
+sprite_folder = "hoppip"
 type_1 = 13
 type_2 = 3
 base_hp = 35
@@ -90,6 +91,6 @@ ability_hidden = 151
 height_dm = 4
 weight_hg = 5
 body_color = 9
-level_moves = Array[ExtResource("3_ax6u6")]([SubResource("Resource_oxmlk"), SubResource("Resource_ax6u6"), SubResource("Resource_k21cj"), SubResource("Resource_nxjfq"), SubResource("Resource_3lo2x"), SubResource("Resource_i5g5c"), SubResource("Resource_7sq7g"), SubResource("Resource_f8jl0"), SubResource("Resource_6r06h"), SubResource("Resource_843wj")])
+level_moves = Array[ExtResource("3_ax6u6")]([SubResource("Resource_3lo2x"), SubResource("Resource_i5g5c"), SubResource("Resource_7sq7g"), SubResource("Resource_f8jl0"), SubResource("Resource_6r06h"), SubResource("Resource_843wj"), SubResource("Resource_qif88"), SubResource("Resource_q8gxi"), SubResource("Resource_tg5gg"), SubResource("Resource_ggc7p")])
 egg_moves = Array[int]([93, 227, 38, 133, 270, 312, 388, 538, 402, 203, 580, 631])
-evolutions = Array[ExtResource("1_pqdsx")]([SubResource("Resource_pqdsx")])
+evolutions = Array[ExtResource("1_pqdsx")]([SubResource("Resource_nxjfq")])

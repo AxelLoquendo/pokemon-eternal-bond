@@ -5,78 +5,78 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xc7xu"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cjlk4"]
 
-[sub_resource type="Resource" id="Resource_6d6x3"]
+[sub_resource type="Resource" id="Resource_akmg2"]
 script = ExtResource("3_xc7xu")
 move = 98
 
-[sub_resource type="Resource" id="Resource_qxkue"]
-script = ExtResource("3_xc7xu")
-move = 39
-
-[sub_resource type="Resource" id="Resource_xc7xu"]
-script = ExtResource("3_xc7xu")
-move = 268
-
-[sub_resource type="Resource" id="Resource_cjlk4"]
-script = ExtResource("3_xc7xu")
-move = 86
-
-[sub_resource type="Resource" id="Resource_akmg2"]
-script = ExtResource("3_xc7xu")
-level = 4
-move = 39
-
 [sub_resource type="Resource" id="Resource_i5rpk"]
 script = ExtResource("3_xc7xu")
-level = 8
-move = 268
+move = 39
 
 [sub_resource type="Resource" id="Resource_qqhfr"]
 script = ExtResource("3_xc7xu")
-level = 11
-move = 351
+move = 268
 
 [sub_resource type="Resource" id="Resource_krv3b"]
 script = ExtResource("3_xc7xu")
-level = 15
 move = 86
 
 [sub_resource type="Resource" id="Resource_itvyn"]
 script = ExtResource("3_xc7xu")
+level = 4
+move = 39
+
+[sub_resource type="Resource" id="Resource_761y2"]
+script = ExtResource("3_xc7xu")
+level = 8
+move = 268
+
+[sub_resource type="Resource" id="Resource_1pt3h"]
+script = ExtResource("3_xc7xu")
+level = 11
+move = 351
+
+[sub_resource type="Resource" id="Resource_l82oa"]
+script = ExtResource("3_xc7xu")
+level = 15
+move = 86
+
+[sub_resource type="Resource" id="Resource_jhtv4"]
+script = ExtResource("3_xc7xu")
 level = 18
 move = 488
 
-[sub_resource type="Resource" id="Resource_761y2"]
+[sub_resource type="Resource" id="Resource_m3kwe"]
 script = ExtResource("3_xc7xu")
 level = 22
 move = 228
 
-[sub_resource type="Resource" id="Resource_1pt3h"]
+[sub_resource type="Resource" id="Resource_t7dxc"]
 script = ExtResource("3_xc7xu")
 level = 25
 move = 209
 
-[sub_resource type="Resource" id="Resource_l82oa"]
+[sub_resource type="Resource" id="Resource_dp88t"]
 script = ExtResource("3_xc7xu")
 level = 31
 move = 23
 
-[sub_resource type="Resource" id="Resource_jhtv4"]
+[sub_resource type="Resource" id="Resource_2drrd"]
 script = ExtResource("3_xc7xu")
 level = 36
 move = 435
 
-[sub_resource type="Resource" id="Resource_m3kwe"]
+[sub_resource type="Resource" id="Resource_8arxv"]
 script = ExtResource("3_xc7xu")
 level = 42
 move = 97
 
-[sub_resource type="Resource" id="Resource_t7dxc"]
+[sub_resource type="Resource" id="Resource_3vs8m"]
 script = ExtResource("3_xc7xu")
 level = 47
 move = 528
 
-[sub_resource type="Resource" id="Resource_dp88t"]
+[sub_resource type="Resource" id="Resource_m6rgd"]
 script = ExtResource("3_xc7xu")
 level = 53
 move = 37
@@ -91,6 +91,7 @@ pokedex = "When Zebstrika run at full speed, the
 sound of thunder reverberates. It is
 dangerous when it's angry as it shoots
 lightning from its mane in all directions."
+sprite_folder = "zebstrika"
 type_1 = 14
 base_hp = 75
 base_atk = 100
@@ -108,4 +109,4 @@ ability_hidden = 157
 height_dm = 16
 weight_hg = 795
 body_color = 4
-level_moves = Array[ExtResource("3_xc7xu")]([SubResource("Resource_6d6x3"), SubResource("Resource_qxkue"), SubResource("Resource_xc7xu"), SubResource("Resource_cjlk4"), SubResource("Resource_akmg2"), SubResource("Resource_i5rpk"), SubResource("Resource_qqhfr"), SubResource("Resource_krv3b"), SubResource("Resource_itvyn"), SubResource("Resource_761y2"), SubResource("Resource_1pt3h"), SubResource("Resource_l82oa"), SubResource("Resource_jhtv4"), SubResource("Resource_m3kwe"), SubResource("Resource_t7dxc"), SubResource("Resource_dp88t")])
+level_moves = Array[ExtResource("3_xc7xu")]([SubResource("Resource_akmg2"), SubResource("Resource_i5rpk"), SubResource("Resource_qqhfr"), SubResource("Resource_krv3b"), SubResource("Resource_itvyn"), SubResource("Resource_761y2"), SubResource("Resource_1pt3h"), SubResource("Resource_l82oa"), SubResource("Resource_jhtv4"), SubResource("Resource_m3kwe"), SubResource("Resource_t7dxc"), SubResource("Resource_dp88t"), SubResource("Resource_2drrd"), SubResource("Resource_8arxv"), SubResource("Resource_3vs8m"), SubResource("Resource_m6rgd")])

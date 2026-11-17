@@ -5,51 +5,51 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4d4p8"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_u2f21"]
 
-[sub_resource type="Resource" id="Resource_xowq4"]
+[sub_resource type="Resource" id="Resource_3qwmf"]
 script = ExtResource("1_xowq4")
 method = "LEVEL"
 param = "27"
 target = 171
 
-[sub_resource type="Resource" id="Resource_cy3ou"]
+[sub_resource type="Resource" id="Resource_568qu"]
 script = ExtResource("3_4d4p8")
 move = 145
 
-[sub_resource type="Resource" id="Resource_4d4p8"]
+[sub_resource type="Resource" id="Resource_425kf"]
 script = ExtResource("3_4d4p8")
 move = 86
 
-[sub_resource type="Resource" id="Resource_u2f21"]
+[sub_resource type="Resource" id="Resource_5o6hv"]
 script = ExtResource("3_4d4p8")
 level = 5
 move = 48
 
-[sub_resource type="Resource" id="Resource_3qwmf"]
+[sub_resource type="Resource" id="Resource_hl3ea"]
 script = ExtResource("3_4d4p8")
 level = 13
 move = 175
 
-[sub_resource type="Resource" id="Resource_568qu"]
+[sub_resource type="Resource" id="Resource_oi4qe"]
 script = ExtResource("3_4d4p8")
 level = 17
 move = 55
 
-[sub_resource type="Resource" id="Resource_425kf"]
+[sub_resource type="Resource" id="Resource_0k8e8"]
 script = ExtResource("3_4d4p8")
 level = 25
 move = 209
 
-[sub_resource type="Resource" id="Resource_5o6hv"]
+[sub_resource type="Resource" id="Resource_pbcl1"]
 script = ExtResource("3_4d4p8")
 level = 29
 move = 109
 
-[sub_resource type="Resource" id="Resource_hl3ea"]
+[sub_resource type="Resource" id="Resource_y3rdi"]
 script = ExtResource("3_4d4p8")
 level = 37
 move = 36
 
-[sub_resource type="Resource" id="Resource_oi4qe"]
+[sub_resource type="Resource" id="Resource_15p0i"]
 script = ExtResource("3_4d4p8")
 level = 41
 move = 56
@@ -64,6 +64,7 @@ pokedex = "When it senses danger, it discharges
 positive and negative electricity from its
 two antennae. It lives in depths beyond
 sunlight's reach."
+sprite_folder = "chinchou"
 type_1 = 12
 type_2 = 14
 base_hp = 75
@@ -84,6 +85,6 @@ item_rare = 398
 height_dm = 5
 weight_hg = 120
 body_color = 1
-level_moves = Array[ExtResource("3_4d4p8")]([SubResource("Resource_cy3ou"), SubResource("Resource_4d4p8"), SubResource("Resource_u2f21"), SubResource("Resource_3qwmf"), SubResource("Resource_568qu"), SubResource("Resource_425kf"), SubResource("Resource_5o6hv"), SubResource("Resource_hl3ea"), SubResource("Resource_oi4qe")])
+level_moves = Array[ExtResource("3_4d4p8")]([SubResource("Resource_568qu"), SubResource("Resource_425kf"), SubResource("Resource_5o6hv"), SubResource("Resource_hl3ea"), SubResource("Resource_oi4qe"), SubResource("Resource_0k8e8"), SubResource("Resource_pbcl1"), SubResource("Resource_y3rdi"), SubResource("Resource_15p0i")])
 egg_moves = Array[int]([175, 103, 133, 60, 250, 97, 54, 351, 362, 352, 487])
-evolutions = Array[ExtResource("1_xowq4")]([SubResource("Resource_xowq4")])
+evolutions = Array[ExtResource("1_xowq4")]([SubResource("Resource_3qwmf")])

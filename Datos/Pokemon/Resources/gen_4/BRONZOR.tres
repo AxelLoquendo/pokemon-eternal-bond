@@ -5,71 +5,71 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_614gl"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mikv0"]
 
-[sub_resource type="Resource" id="Resource_xe5nc"]
+[sub_resource type="Resource" id="Resource_28s7c"]
 script = ExtResource("1_xe5nc")
 method = "LEVEL"
 param = "33"
 target = 437
 
-[sub_resource type="Resource" id="Resource_i35lg"]
+[sub_resource type="Resource" id="Resource_cpo80"]
 script = ExtResource("3_614gl")
 move = 33
 
-[sub_resource type="Resource" id="Resource_614gl"]
+[sub_resource type="Resource" id="Resource_ul4ey"]
 script = ExtResource("3_614gl")
 move = 93
 
-[sub_resource type="Resource" id="Resource_mikv0"]
+[sub_resource type="Resource" id="Resource_bhib8"]
 script = ExtResource("3_614gl")
 level = 7
 move = 95
 
-[sub_resource type="Resource" id="Resource_28s7c"]
+[sub_resource type="Resource" id="Resource_8bwuh"]
 script = ExtResource("3_614gl")
 level = 12
 move = 286
 
-[sub_resource type="Resource" id="Resource_cpo80"]
+[sub_resource type="Resource" id="Resource_yek7m"]
 script = ExtResource("3_614gl")
 level = 14
 move = 109
 
-[sub_resource type="Resource" id="Resource_ul4ey"]
+[sub_resource type="Resource" id="Resource_pot6q"]
 script = ExtResource("3_614gl")
 level = 19
 move = 326
 
-[sub_resource type="Resource" id="Resource_bhib8"]
+[sub_resource type="Resource" id="Resource_24n2r"]
 script = ExtResource("3_614gl")
 level = 26
 move = 334
 
-[sub_resource type="Resource" id="Resource_8bwuh"]
+[sub_resource type="Resource" id="Resource_fbxy2"]
 script = ExtResource("3_614gl")
 level = 30
 move = 219
 
-[sub_resource type="Resource" id="Resource_yek7m"]
+[sub_resource type="Resource" id="Resource_ek7vn"]
 script = ExtResource("3_614gl")
 level = 35
 move = 360
 
-[sub_resource type="Resource" id="Resource_pot6q"]
+[sub_resource type="Resource" id="Resource_v150v"]
 script = ExtResource("3_614gl")
 level = 37
 move = 248
 
-[sub_resource type="Resource" id="Resource_24n2r"]
+[sub_resource type="Resource" id="Resource_qofx3"]
 script = ExtResource("3_614gl")
 level = 41
 move = 185
 
-[sub_resource type="Resource" id="Resource_fbxy2"]
+[sub_resource type="Resource" id="Resource_cks8b"]
 script = ExtResource("3_614gl")
 level = 49
 move = 371
 
-[sub_resource type="Resource" id="Resource_ek7vn"]
+[sub_resource type="Resource" id="Resource_ttlhk"]
 script = ExtResource("3_614gl")
 level = 52
 move = 377
@@ -84,6 +84,7 @@ pokedex = "Implements shaped like it were discovered
 in ancient tombs. There are researchers
 who believe this Pokémon reflected like a
 mirror in the distant past."
+sprite_folder = "bronzor"
 type_1 = 9
 type_2 = 15
 base_hp = 57
@@ -104,5 +105,5 @@ item_rare = 441
 height_dm = 5
 weight_hg = 605
 body_color = 3
-level_moves = Array[ExtResource("3_614gl")]([SubResource("Resource_i35lg"), SubResource("Resource_614gl"), SubResource("Resource_mikv0"), SubResource("Resource_28s7c"), SubResource("Resource_cpo80"), SubResource("Resource_ul4ey"), SubResource("Resource_bhib8"), SubResource("Resource_8bwuh"), SubResource("Resource_yek7m"), SubResource("Resource_pot6q"), SubResource("Resource_24n2r"), SubResource("Resource_fbxy2"), SubResource("Resource_ek7vn")])
-evolutions = Array[ExtResource("1_xe5nc")]([SubResource("Resource_xe5nc")])
+level_moves = Array[ExtResource("3_614gl")]([SubResource("Resource_cpo80"), SubResource("Resource_ul4ey"), SubResource("Resource_bhib8"), SubResource("Resource_8bwuh"), SubResource("Resource_yek7m"), SubResource("Resource_pot6q"), SubResource("Resource_24n2r"), SubResource("Resource_fbxy2"), SubResource("Resource_ek7vn"), SubResource("Resource_v150v"), SubResource("Resource_qofx3"), SubResource("Resource_cks8b"), SubResource("Resource_ttlhk")])
+evolutions = Array[ExtResource("1_xe5nc")]([SubResource("Resource_28s7c")])

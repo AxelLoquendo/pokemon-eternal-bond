@@ -5,53 +5,53 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_e1lrx"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_iq2sr"]
 
-[sub_resource type="Resource" id="Resource_j8gkt"]
+[sub_resource type="Resource" id="Resource_pk4fk"]
 script = ExtResource("1_j8gkt")
 method = "ITEM"
 param = "ITEM_METAL_COAT"
 target = 212
 
-[sub_resource type="Resource" id="Resource_0m4kl"]
+[sub_resource type="Resource" id="Resource_5dfrn"]
 script = ExtResource("1_j8gkt")
 method = "ITEM"
 param = "ITEM_BLACK_AUGURITE"
 target = 900
 
-[sub_resource type="Resource" id="Resource_e1lrx"]
+[sub_resource type="Resource" id="Resource_rtoix"]
 script = ExtResource("3_e1lrx")
 move = 98
 
-[sub_resource type="Resource" id="Resource_iq2sr"]
+[sub_resource type="Resource" id="Resource_dtqbt"]
 script = ExtResource("3_e1lrx")
 level = 17
 move = 43
 
-[sub_resource type="Resource" id="Resource_pk4fk"]
+[sub_resource type="Resource" id="Resource_6iwk5"]
 script = ExtResource("3_e1lrx")
 level = 20
 move = 116
 
-[sub_resource type="Resource" id="Resource_5dfrn"]
+[sub_resource type="Resource" id="Resource_0bqi5"]
 script = ExtResource("3_e1lrx")
 level = 24
 move = 104
 
-[sub_resource type="Resource" id="Resource_rtoix"]
+[sub_resource type="Resource" id="Resource_ktpba"]
 script = ExtResource("3_e1lrx")
 level = 29
 move = 163
 
-[sub_resource type="Resource" id="Resource_dtqbt"]
+[sub_resource type="Resource" id="Resource_cjrky"]
 script = ExtResource("3_e1lrx")
 level = 35
 move = 14
 
-[sub_resource type="Resource" id="Resource_6iwk5"]
+[sub_resource type="Resource" id="Resource_ctd4k"]
 script = ExtResource("3_e1lrx")
 level = 42
 move = 97
 
-[sub_resource type="Resource" id="Resource_0bqi5"]
+[sub_resource type="Resource" id="Resource_2h131"]
 script = ExtResource("3_e1lrx")
 level = 50
 move = 17
@@ -66,6 +66,7 @@ pokedex = "Its blindingly fast speed adds to the
 sharpness of its twin forearm scythes.
 The scythes can slice through thick logs
 in one wicked stroke."
+sprite_folder = "scyther"
 type_1 = 7
 type_2 = 3
 base_hp = 70
@@ -84,6 +85,6 @@ ability_hidden = 80
 height_dm = 15
 weight_hg = 560
 body_color = 3
-level_moves = Array[ExtResource("3_e1lrx")]([SubResource("Resource_e1lrx"), SubResource("Resource_iq2sr"), SubResource("Resource_pk4fk"), SubResource("Resource_5dfrn"), SubResource("Resource_rtoix"), SubResource("Resource_dtqbt"), SubResource("Resource_6iwk5"), SubResource("Resource_0bqi5")])
+level_moves = Array[ExtResource("3_e1lrx")]([SubResource("Resource_rtoix"), SubResource("Resource_dtqbt"), SubResource("Resource_6iwk5"), SubResource("Resource_0bqi5"), SubResource("Resource_ktpba"), SubResource("Resource_cjrky"), SubResource("Resource_ctd4k"), SubResource("Resource_2h131")])
 egg_moves = Array[int]([68, 226, 13, 179, 203, 318, 405, 400, 432, 211, 501])
-evolutions = Array[ExtResource("1_j8gkt")]([SubResource("Resource_j8gkt"), SubResource("Resource_0m4kl")])
+evolutions = Array[ExtResource("1_j8gkt")]([SubResource("Resource_pk4fk"), SubResource("Resource_5dfrn")])

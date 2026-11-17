@@ -5,17 +5,17 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_oemi6"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ok4i0"]
 
-[sub_resource type="Resource" id="Resource_f7x6t"]
+[sub_resource type="Resource" id="Resource_4uxv5"]
 script = ExtResource("1_f7x6t")
 method = "LEVEL"
 param = "10"
 target = 269
 
-[sub_resource type="Resource" id="Resource_6mmwv"]
+[sub_resource type="Resource" id="Resource_u44no"]
 script = ExtResource("3_oemi6")
 move = 106
 
-[sub_resource type="Resource" id="Resource_oemi6"]
+[sub_resource type="Resource" id="Resource_eo445"]
 script = ExtResource("3_oemi6")
 level = 7
 move = 106
@@ -30,6 +30,7 @@ pokedex = "To avoid detection by its enemies, it hides
 motionlessly beneath large leaves and in
 the gaps of branches. It also attaches
 dead leaves to its body for camouflage."
+sprite_folder = "cascoon"
 type_1 = 7
 base_hp = 50
 base_atk = 35
@@ -47,5 +48,5 @@ height_dm = 7
 weight_hg = 115
 body_color = 6
 no_flip = true
-level_moves = Array[ExtResource("3_oemi6")]([SubResource("Resource_6mmwv"), SubResource("Resource_oemi6")])
-evolutions = Array[ExtResource("1_f7x6t")]([SubResource("Resource_f7x6t")])
+level_moves = Array[ExtResource("3_oemi6")]([SubResource("Resource_u44no"), SubResource("Resource_eo445")])
+evolutions = Array[ExtResource("1_f7x6t")]([SubResource("Resource_4uxv5")])

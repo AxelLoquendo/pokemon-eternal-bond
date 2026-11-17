@@ -5,47 +5,47 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_c0v7e"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fvyvu"]
 
-[sub_resource type="Resource" id="Resource_32lgy"]
+[sub_resource type="Resource" id="Resource_20up0"]
 script = ExtResource("1_32lgy")
 method = "LEVEL"
 param = "18"
 target = 184
 
-[sub_resource type="Resource" id="Resource_j08iw"]
+[sub_resource type="Resource" id="Resource_xs8tj"]
 script = ExtResource("3_c0v7e")
 move = 33
 
-[sub_resource type="Resource" id="Resource_c0v7e"]
+[sub_resource type="Resource" id="Resource_pulml"]
 script = ExtResource("3_c0v7e")
 level = 3
 move = 111
 
-[sub_resource type="Resource" id="Resource_fvyvu"]
+[sub_resource type="Resource" id="Resource_fvx8l"]
 script = ExtResource("3_c0v7e")
 level = 6
 move = 39
 
-[sub_resource type="Resource" id="Resource_20up0"]
+[sub_resource type="Resource" id="Resource_2s10n"]
 script = ExtResource("3_c0v7e")
 level = 10
 move = 55
 
-[sub_resource type="Resource" id="Resource_xs8tj"]
+[sub_resource type="Resource" id="Resource_55rxn"]
 script = ExtResource("3_c0v7e")
 level = 15
 move = 205
 
-[sub_resource type="Resource" id="Resource_pulml"]
+[sub_resource type="Resource" id="Resource_x1yvh"]
 script = ExtResource("3_c0v7e")
 level = 21
 move = 61
 
-[sub_resource type="Resource" id="Resource_fvx8l"]
+[sub_resource type="Resource" id="Resource_g6mub"]
 script = ExtResource("3_c0v7e")
 level = 28
 move = 38
 
-[sub_resource type="Resource" id="Resource_2s10n"]
+[sub_resource type="Resource" id="Resource_wuy6p"]
 script = ExtResource("3_c0v7e")
 level = 36
 move = 240
@@ -60,6 +60,7 @@ pokedex = "Its body is covered with water-repellent
 fur. Because of the fur, it can swim
 through water at high speed without being
 slowed by the water's resistance."
+sprite_folder = "marill"
 type_1 = 12
 type_2 = 19
 base_hp = 70
@@ -81,6 +82,6 @@ ability_hidden = 157
 height_dm = 4
 weight_hg = 85
 body_color = 1
-level_moves = Array[ExtResource("3_c0v7e")]([SubResource("Resource_j08iw"), SubResource("Resource_c0v7e"), SubResource("Resource_fvyvu"), SubResource("Resource_20up0"), SubResource("Resource_xs8tj"), SubResource("Resource_pulml"), SubResource("Resource_fvx8l"), SubResource("Resource_2s10n")])
+level_moves = Array[ExtResource("3_c0v7e")]([SubResource("Resource_xs8tj"), SubResource("Resource_pulml"), SubResource("Resource_fvx8l"), SubResource("Resource_2s10n"), SubResource("Resource_55rxn"), SubResource("Resource_x1yvh"), SubResource("Resource_g6mub"), SubResource("Resource_wuy6p")])
 egg_moves = Array[int]([217, 133, 248, 187, 195, 48, 453, 276, 287, 34, 346, 330, 293])
-evolutions = Array[ExtResource("1_32lgy")]([SubResource("Resource_32lgy")])
+evolutions = Array[ExtResource("1_32lgy")]([SubResource("Resource_20up0")])

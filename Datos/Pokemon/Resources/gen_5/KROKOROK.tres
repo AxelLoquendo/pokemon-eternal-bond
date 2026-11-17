@@ -5,99 +5,99 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_egrek"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bv6ix"]
 
-[sub_resource type="Resource" id="Resource_t4su7"]
+[sub_resource type="Resource" id="Resource_dg4yk"]
 script = ExtResource("1_t4su7")
 method = "LEVEL"
 param = "40"
 target = 553
 
-[sub_resource type="Resource" id="Resource_7kxnv"]
+[sub_resource type="Resource" id="Resource_40a0f"]
 script = ExtResource("3_egrek")
 move = 43
 
-[sub_resource type="Resource" id="Resource_egrek"]
+[sub_resource type="Resource" id="Resource_40nyc"]
 script = ExtResource("3_egrek")
 move = 99
 
-[sub_resource type="Resource" id="Resource_bv6ix"]
+[sub_resource type="Resource" id="Resource_c8tqe"]
 script = ExtResource("3_egrek")
 move = 44
 
-[sub_resource type="Resource" id="Resource_dg4yk"]
+[sub_resource type="Resource" id="Resource_4uig4"]
 script = ExtResource("3_egrek")
 move = 28
 
-[sub_resource type="Resource" id="Resource_40a0f"]
+[sub_resource type="Resource" id="Resource_g6pfw"]
 script = ExtResource("3_egrek")
 level = 4
 move = 44
 
-[sub_resource type="Resource" id="Resource_40nyc"]
+[sub_resource type="Resource" id="Resource_kxiex"]
 script = ExtResource("3_egrek")
 level = 7
 move = 28
 
-[sub_resource type="Resource" id="Resource_c8tqe"]
+[sub_resource type="Resource" id="Resource_lj5x1"]
 script = ExtResource("3_egrek")
 level = 10
 move = 259
 
-[sub_resource type="Resource" id="Resource_4uig4"]
+[sub_resource type="Resource" id="Resource_e4q5o"]
 script = ExtResource("3_egrek")
 level = 13
 move = 328
 
-[sub_resource type="Resource" id="Resource_g6pfw"]
+[sub_resource type="Resource" id="Resource_ei2ea"]
 script = ExtResource("3_egrek")
 level = 16
 move = 372
 
-[sub_resource type="Resource" id="Resource_kxiex"]
+[sub_resource type="Resource" id="Resource_ugw3x"]
 script = ExtResource("3_egrek")
 level = 19
 move = 189
 
-[sub_resource type="Resource" id="Resource_lj5x1"]
+[sub_resource type="Resource" id="Resource_g62wl"]
 script = ExtResource("3_egrek")
 level = 22
 move = 373
 
-[sub_resource type="Resource" id="Resource_e4q5o"]
+[sub_resource type="Resource" id="Resource_4j5f1"]
 script = ExtResource("3_egrek")
 level = 25
 move = 207
 
-[sub_resource type="Resource" id="Resource_ei2ea"]
+[sub_resource type="Resource" id="Resource_vqgnd"]
 script = ExtResource("3_egrek")
 level = 28
 move = 242
 
-[sub_resource type="Resource" id="Resource_ugw3x"]
+[sub_resource type="Resource" id="Resource_pme1h"]
 script = ExtResource("3_egrek")
 level = 32
 move = 91
 
-[sub_resource type="Resource" id="Resource_g62wl"]
+[sub_resource type="Resource" id="Resource_6ru1e"]
 script = ExtResource("3_egrek")
 level = 36
 move = 184
 
-[sub_resource type="Resource" id="Resource_4j5f1"]
+[sub_resource type="Resource" id="Resource_q2cmh"]
 script = ExtResource("3_egrek")
 level = 40
 move = 492
 
-[sub_resource type="Resource" id="Resource_vqgnd"]
+[sub_resource type="Resource" id="Resource_u5ien"]
 script = ExtResource("3_egrek")
 level = 44
 move = 201
 
-[sub_resource type="Resource" id="Resource_pme1h"]
+[sub_resource type="Resource" id="Resource_q8vit"]
 script = ExtResource("3_egrek")
 level = 48
 move = 89
 
-[sub_resource type="Resource" id="Resource_6ru1e"]
+[sub_resource type="Resource" id="Resource_6oqek"]
 script = ExtResource("3_egrek")
 level = 52
 move = 37
@@ -112,6 +112,7 @@ pokedex = "They move in groups of a few individuals.
 Thanks to the special membrane covering
 its eyes, it can see its surroundings
 clearly, even in the dead of night."
+sprite_folder = "krokorok"
 type_1 = 5
 type_2 = 18
 base_hp = 60
@@ -132,5 +133,5 @@ item_rare = 440
 height_dm = 10
 weight_hg = 334
 body_color = 5
-level_moves = Array[ExtResource("3_egrek")]([SubResource("Resource_7kxnv"), SubResource("Resource_egrek"), SubResource("Resource_bv6ix"), SubResource("Resource_dg4yk"), SubResource("Resource_40a0f"), SubResource("Resource_40nyc"), SubResource("Resource_c8tqe"), SubResource("Resource_4uig4"), SubResource("Resource_g6pfw"), SubResource("Resource_kxiex"), SubResource("Resource_lj5x1"), SubResource("Resource_e4q5o"), SubResource("Resource_ei2ea"), SubResource("Resource_ugw3x"), SubResource("Resource_g62wl"), SubResource("Resource_4j5f1"), SubResource("Resource_vqgnd"), SubResource("Resource_pme1h"), SubResource("Resource_6ru1e")])
-evolutions = Array[ExtResource("1_t4su7")]([SubResource("Resource_t4su7")])
+level_moves = Array[ExtResource("3_egrek")]([SubResource("Resource_40a0f"), SubResource("Resource_40nyc"), SubResource("Resource_c8tqe"), SubResource("Resource_4uig4"), SubResource("Resource_g6pfw"), SubResource("Resource_kxiex"), SubResource("Resource_lj5x1"), SubResource("Resource_e4q5o"), SubResource("Resource_ei2ea"), SubResource("Resource_ugw3x"), SubResource("Resource_g62wl"), SubResource("Resource_4j5f1"), SubResource("Resource_vqgnd"), SubResource("Resource_pme1h"), SubResource("Resource_6ru1e"), SubResource("Resource_q2cmh"), SubResource("Resource_u5ien"), SubResource("Resource_q8vit"), SubResource("Resource_6oqek")])
+evolutions = Array[ExtResource("1_t4su7")]([SubResource("Resource_dg4yk")])

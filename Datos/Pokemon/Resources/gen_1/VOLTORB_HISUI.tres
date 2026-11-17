@@ -5,47 +5,47 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2pb41"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_er5kq"]
 
-[sub_resource type="Resource" id="Resource_kektp"]
+[sub_resource type="Resource" id="Resource_dd5j3"]
 script = ExtResource("1_kektp")
 method = "ITEM"
 param = "ITEM_LEAF_STONE"
 target = 996
 
-[sub_resource type="Resource" id="Resource_qplw5"]
+[sub_resource type="Resource" id="Resource_fgmj2"]
 script = ExtResource("3_2pb41")
 move = 84
 
-[sub_resource type="Resource" id="Resource_2pb41"]
+[sub_resource type="Resource" id="Resource_c0yli"]
 script = ExtResource("3_2pb41")
 level = 5
 move = 33
 
-[sub_resource type="Resource" id="Resource_er5kq"]
+[sub_resource type="Resource" id="Resource_bmeiw"]
 script = ExtResource("3_2pb41")
 level = 9
 move = 86
 
-[sub_resource type="Resource" id="Resource_dd5j3"]
+[sub_resource type="Resource" id="Resource_afkw2"]
 script = ExtResource("3_2pb41")
 level = 15
 move = 209
 
-[sub_resource type="Resource" id="Resource_fgmj2"]
+[sub_resource type="Resource" id="Resource_wknxg"]
 script = ExtResource("3_2pb41")
 level = 21
 move = 412
 
-[sub_resource type="Resource" id="Resource_c0yli"]
+[sub_resource type="Resource" id="Resource_7xa21"]
 script = ExtResource("3_2pb41")
 level = 29
 move = 85
 
-[sub_resource type="Resource" id="Resource_bmeiw"]
+[sub_resource type="Resource" id="Resource_ro1i6"]
 script = ExtResource("3_2pb41")
 level = 37
 move = 87
 
-[sub_resource type="Resource" id="Resource_afkw2"]
+[sub_resource type="Resource" id="Resource_5tj7b"]
 script = ExtResource("3_2pb41")
 level = 47
 move = 120
@@ -60,6 +60,7 @@ pokedex = "It resembles an ancient Poké Ball design.
 When excited, it discharges the electric
 current it has stored in its belly, then
 lets out a great, uproarious laugh."
+sprite_folder = "voltorb/hisui"
 type_1 = 14
 type_2 = 13
 base_hp = 40
@@ -78,6 +79,6 @@ ability_2 = 9
 ability_hidden = 106
 height_dm = 5
 weight_hg = 130
-level_moves = Array[ExtResource("3_2pb41")]([SubResource("Resource_qplw5"), SubResource("Resource_2pb41"), SubResource("Resource_er5kq"), SubResource("Resource_dd5j3"), SubResource("Resource_fgmj2"), SubResource("Resource_c0yli"), SubResource("Resource_bmeiw"), SubResource("Resource_afkw2")])
-evolutions = Array[ExtResource("1_kektp")]([SubResource("Resource_kektp")])
+level_moves = Array[ExtResource("3_2pb41")]([SubResource("Resource_fgmj2"), SubResource("Resource_c0yli"), SubResource("Resource_bmeiw"), SubResource("Resource_afkw2"), SubResource("Resource_wknxg"), SubResource("Resource_7xa21"), SubResource("Resource_ro1i6"), SubResource("Resource_5tj7b")])
+evolutions = Array[ExtResource("1_kektp")]([SubResource("Resource_dd5j3")])
 form_species = Array[int]([100, 995])

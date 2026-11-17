@@ -5,56 +5,56 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_isqeb"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pmeog"]
 
-[sub_resource type="Resource" id="Resource_2p5uo"]
+[sub_resource type="Resource" id="Resource_ykodr"]
 script = ExtResource("3_isqeb")
 move = 10
 
-[sub_resource type="Resource" id="Resource_abhst"]
+[sub_resource type="Resource" id="Resource_sqt8v"]
 script = ExtResource("3_isqeb")
 level = 4
 move = 43
 
-[sub_resource type="Resource" id="Resource_isqeb"]
+[sub_resource type="Resource" id="Resource_drsv1"]
 script = ExtResource("3_isqeb")
 level = 7
 move = 98
 
-[sub_resource type="Resource" id="Resource_pmeog"]
+[sub_resource type="Resource" id="Resource_qj3q3"]
 script = ExtResource("3_isqeb")
 level = 10
 move = 14
 
-[sub_resource type="Resource" id="Resource_ykodr"]
+[sub_resource type="Resource" id="Resource_qdevx"]
 script = ExtResource("3_isqeb")
 level = 13
 move = 210
 
-[sub_resource type="Resource" id="Resource_sqt8v"]
+[sub_resource type="Resource" id="Resource_gxsq1"]
 script = ExtResource("3_isqeb")
 level = 19
 move = 163
 
-[sub_resource type="Resource" id="Resource_drsv1"]
+[sub_resource type="Resource" id="Resource_21kyp"]
 script = ExtResource("3_isqeb")
 level = 25
 move = 228
 
-[sub_resource type="Resource" id="Resource_qj3q3"]
+[sub_resource type="Resource" id="Resource_riqhf"]
 script = ExtResource("3_isqeb")
 level = 31
 move = 306
 
-[sub_resource type="Resource" id="Resource_qdevx"]
+[sub_resource type="Resource" id="Resource_j85vl"]
 script = ExtResource("3_isqeb")
 level = 37
 move = 269
 
-[sub_resource type="Resource" id="Resource_gxsq1"]
+[sub_resource type="Resource" id="Resource_16n2p"]
 script = ExtResource("3_isqeb")
 level = 46
 move = 197
 
-[sub_resource type="Resource" id="Resource_21kyp"]
+[sub_resource type="Resource" id="Resource_q8fpx"]
 script = ExtResource("3_isqeb")
 level = 55
 move = 206
@@ -69,6 +69,7 @@ pokedex = "When it battles, it stands on its hind legs
 and attacks with its sharply clawed
 forelegs. Its fur bristles if it encounters
 any Seviper."
+sprite_folder = "zangoose"
 type_1 = 1
 base_hp = 73
 base_atk = 115
@@ -88,5 +89,5 @@ height_dm = 13
 weight_hg = 403
 body_color = 8
 no_flip = true
-level_moves = Array[ExtResource("3_isqeb")]([SubResource("Resource_2p5uo"), SubResource("Resource_abhst"), SubResource("Resource_isqeb"), SubResource("Resource_pmeog"), SubResource("Resource_ykodr"), SubResource("Resource_sqt8v"), SubResource("Resource_drsv1"), SubResource("Resource_qj3q3"), SubResource("Resource_qdevx"), SubResource("Resource_gxsq1"), SubResource("Resource_21kyp")])
+level_moves = Array[ExtResource("3_isqeb")]([SubResource("Resource_ykodr"), SubResource("Resource_sqt8v"), SubResource("Resource_drsv1"), SubResource("Resource_qj3q3"), SubResource("Resource_qdevx"), SubResource("Resource_gxsq1"), SubResource("Resource_21kyp"), SubResource("Resource_riqhf"), SubResource("Resource_j85vl"), SubResource("Resource_16n2p"), SubResource("Resource_q8fpx")])
 egg_moves = Array[int]([175, 24, 13, 68, 174, 154, 400, 232, 458, 50, 231, 515, 364, 501, 187])

@@ -5,86 +5,86 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_biua6"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bdrth"]
 
-[sub_resource type="Resource" id="Resource_fogf6"]
+[sub_resource type="Resource" id="Resource_pw3qe"]
 script = ExtResource("1_fogf6")
 method = "LEVEL"
 param = "38"
 target = 971
 
-[sub_resource type="Resource" id="Resource_fqipa"]
+[sub_resource type="Resource" id="Resource_l0o2g"]
 script = ExtResource("3_biua6")
 move = 1
 
-[sub_resource type="Resource" id="Resource_biua6"]
+[sub_resource type="Resource" id="Resource_pxnb1"]
 script = ExtResource("3_biua6")
 move = 139
 
-[sub_resource type="Resource" id="Resource_bdrth"]
+[sub_resource type="Resource" id="Resource_7tfyk"]
 script = ExtResource("3_biua6")
 level = 4
 move = 106
 
-[sub_resource type="Resource" id="Resource_pw3qe"]
+[sub_resource type="Resource" id="Resource_si0e4"]
 script = ExtResource("3_biua6")
 level = 7
 move = 44
 
-[sub_resource type="Resource" id="Resource_l0o2g"]
+[sub_resource type="Resource" id="Resource_slrh8"]
 script = ExtResource("3_biua6")
 level = 12
 move = 50
 
-[sub_resource type="Resource" id="Resource_pxnb1"]
+[sub_resource type="Resource" id="Resource_1aocx"]
 script = ExtResource("3_biua6")
 level = 15
 move = 491
 
-[sub_resource type="Resource" id="Resource_7tfyk"]
+[sub_resource type="Resource" id="Resource_3cl2a"]
 script = ExtResource("3_biua6")
 level = 18
 move = 305
 
-[sub_resource type="Resource" id="Resource_si0e4"]
+[sub_resource type="Resource" id="Resource_s04di"]
 script = ExtResource("3_biua6")
 level = 21
 move = 107
 
-[sub_resource type="Resource" id="Resource_slrh8"]
+[sub_resource type="Resource" id="Resource_6ylrg"]
 script = ExtResource("3_biua6")
 level = 26
 move = 374
 
-[sub_resource type="Resource" id="Resource_1aocx"]
+[sub_resource type="Resource" id="Resource_wftkf"]
 script = ExtResource("3_biua6")
 level = 29
 move = 282
 
-[sub_resource type="Resource" id="Resource_3cl2a"]
+[sub_resource type="Resource" id="Resource_lxci1"]
 script = ExtResource("3_biua6")
 level = 32
 move = 242
 
-[sub_resource type="Resource" id="Resource_s04di"]
+[sub_resource type="Resource" id="Resource_0pook"]
 script = ExtResource("3_biua6")
 level = 37
 move = 103
 
-[sub_resource type="Resource" id="Resource_6ylrg"]
+[sub_resource type="Resource" id="Resource_y5rw1"]
 script = ExtResource("3_biua6")
 level = 40
 move = 441
 
-[sub_resource type="Resource" id="Resource_wftkf"]
+[sub_resource type="Resource" id="Resource_4acp4"]
 script = ExtResource("3_biua6")
 level = 43
 move = 151
 
-[sub_resource type="Resource" id="Resource_lxci1"]
+[sub_resource type="Resource" id="Resource_lpbby"]
 script = ExtResource("3_biua6")
 level = 46
 move = 562
 
-[sub_resource type="Resource" id="Resource_0pook"]
+[sub_resource type="Resource" id="Resource_7goig"]
 script = ExtResource("3_biua6")
 level = 48
 move = 262
@@ -99,6 +99,7 @@ pokedex = "There are a hundred or so of them living
 in Alola's waste-disposal site. They're all
 hard workers who eat a lot of trash. Grimer
 seems to relish any and all kinds of trash."
+sprite_folder = "grimer/alola"
 type_1 = 4
 type_2 = 18
 base_hp = 80
@@ -118,7 +119,7 @@ item_rare = 487
 height_dm = 7
 weight_hg = 420
 body_color = 3
-level_moves = Array[ExtResource("3_biua6")]([SubResource("Resource_fqipa"), SubResource("Resource_biua6"), SubResource("Resource_bdrth"), SubResource("Resource_pw3qe"), SubResource("Resource_l0o2g"), SubResource("Resource_pxnb1"), SubResource("Resource_7tfyk"), SubResource("Resource_si0e4"), SubResource("Resource_slrh8"), SubResource("Resource_1aocx"), SubResource("Resource_3cl2a"), SubResource("Resource_s04di"), SubResource("Resource_6ylrg"), SubResource("Resource_wftkf"), SubResource("Resource_lxci1"), SubResource("Resource_0pook")])
+level_moves = Array[ExtResource("3_biua6")]([SubResource("Resource_l0o2g"), SubResource("Resource_pxnb1"), SubResource("Resource_7tfyk"), SubResource("Resource_si0e4"), SubResource("Resource_slrh8"), SubResource("Resource_1aocx"), SubResource("Resource_3cl2a"), SubResource("Resource_s04di"), SubResource("Resource_6ylrg"), SubResource("Resource_wftkf"), SubResource("Resource_lxci1"), SubResource("Resource_0pook"), SubResource("Resource_y5rw1"), SubResource("Resource_4acp4"), SubResource("Resource_lpbby"), SubResource("Resource_7goig")])
 egg_moves = Array[int]([372, 499, 174, 286, 212, 612, 228, 184, 425, 180, 255, 254, 256])
-evolutions = Array[ExtResource("1_fogf6")]([SubResource("Resource_fogf6")])
+evolutions = Array[ExtResource("1_fogf6")]([SubResource("Resource_pw3qe")])
 form_species = Array[int]([88, 970])

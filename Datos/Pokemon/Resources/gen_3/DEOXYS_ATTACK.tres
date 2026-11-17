@@ -5,60 +5,60 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_48hbr"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_c5f8d"]
 
-[sub_resource type="Resource" id="Resource_581vx"]
+[sub_resource type="Resource" id="Resource_5sr0c"]
 script = ExtResource("3_48hbr")
 move = 43
 
-[sub_resource type="Resource" id="Resource_a60ne"]
+[sub_resource type="Resource" id="Resource_s1dqo"]
 script = ExtResource("3_48hbr")
 move = 35
 
-[sub_resource type="Resource" id="Resource_48hbr"]
+[sub_resource type="Resource" id="Resource_rodgj"]
 script = ExtResource("3_48hbr")
 level = 5
 move = 101
 
-[sub_resource type="Resource" id="Resource_c5f8d"]
+[sub_resource type="Resource" id="Resource_gao68"]
 script = ExtResource("3_48hbr")
 level = 10
 move = 100
 
-[sub_resource type="Resource" id="Resource_5sr0c"]
+[sub_resource type="Resource" id="Resource_x44al"]
 script = ExtResource("3_48hbr")
 level = 15
 move = 269
 
-[sub_resource type="Resource" id="Resource_s1dqo"]
+[sub_resource type="Resource" id="Resource_wmr35"]
 script = ExtResource("3_48hbr")
 level = 20
 move = 228
 
-[sub_resource type="Resource" id="Resource_rodgj"]
+[sub_resource type="Resource" id="Resource_i1xbs"]
 script = ExtResource("3_48hbr")
 level = 25
 move = 94
 
-[sub_resource type="Resource" id="Resource_gao68"]
+[sub_resource type="Resource" id="Resource_r8dln"]
 script = ExtResource("3_48hbr")
 level = 30
 move = 276
 
-[sub_resource type="Resource" id="Resource_x44al"]
+[sub_resource type="Resource" id="Resource_yhenb"]
 script = ExtResource("3_48hbr")
 level = 35
 move = 322
 
-[sub_resource type="Resource" id="Resource_wmr35"]
+[sub_resource type="Resource" id="Resource_rtug1"]
 script = ExtResource("3_48hbr")
 level = 40
 move = 192
 
-[sub_resource type="Resource" id="Resource_i1xbs"]
+[sub_resource type="Resource" id="Resource_y4plt"]
 script = ExtResource("3_48hbr")
 level = 45
 move = 354
 
-[sub_resource type="Resource" id="Resource_r8dln"]
+[sub_resource type="Resource" id="Resource_2erwx"]
 script = ExtResource("3_48hbr")
 level = 50
 move = 63
@@ -72,6 +72,7 @@ national_dex = 386
 pokedex = "This Deoxys has transformed into its
 aggressive guise. It can fool enemies
 by altering its appearance."
+sprite_folder = "deoxys/attack"
 type_1 = 15
 base_hp = 50
 base_atk = 180
@@ -89,5 +90,5 @@ egg_cycles = 120
 ability_1 = 46
 height_dm = 17
 weight_hg = 608
-level_moves = Array[ExtResource("3_48hbr")]([SubResource("Resource_581vx"), SubResource("Resource_a60ne"), SubResource("Resource_48hbr"), SubResource("Resource_c5f8d"), SubResource("Resource_5sr0c"), SubResource("Resource_s1dqo"), SubResource("Resource_rodgj"), SubResource("Resource_gao68"), SubResource("Resource_x44al"), SubResource("Resource_wmr35"), SubResource("Resource_i1xbs"), SubResource("Resource_r8dln")])
+level_moves = Array[ExtResource("3_48hbr")]([SubResource("Resource_5sr0c"), SubResource("Resource_s1dqo"), SubResource("Resource_rodgj"), SubResource("Resource_gao68"), SubResource("Resource_x44al"), SubResource("Resource_wmr35"), SubResource("Resource_i1xbs"), SubResource("Resource_r8dln"), SubResource("Resource_yhenb"), SubResource("Resource_rtug1"), SubResource("Resource_y4plt"), SubResource("Resource_2erwx")])
 form_species = Array[int]([386, 1054, 1055, 1056])

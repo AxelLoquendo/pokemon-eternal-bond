@@ -5,71 +5,71 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_u0xgp"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wyybu"]
 
-[sub_resource type="Resource" id="Resource_w7qqn"]
+[sub_resource type="Resource" id="Resource_utfhr"]
 script = ExtResource("1_w7qqn")
 method = "LEVEL"
 param = "24"
 target = 820
 
-[sub_resource type="Resource" id="Resource_3riae"]
+[sub_resource type="Resource" id="Resource_dinrr"]
 script = ExtResource("3_u0xgp")
 move = 33
 
-[sub_resource type="Resource" id="Resource_u0xgp"]
+[sub_resource type="Resource" id="Resource_pyo8x"]
 script = ExtResource("3_u0xgp")
 move = 39
 
-[sub_resource type="Resource" id="Resource_wyybu"]
+[sub_resource type="Resource" id="Resource_ri7pb"]
 script = ExtResource("3_u0xgp")
 level = 5
 move = 44
 
-[sub_resource type="Resource" id="Resource_utfhr"]
+[sub_resource type="Resource" id="Resource_0n1xe"]
 script = ExtResource("3_u0xgp")
 level = 10
 move = 693
 
-[sub_resource type="Resource" id="Resource_dinrr"]
+[sub_resource type="Resource" id="Resource_jhk5n"]
 script = ExtResource("3_u0xgp")
 level = 15
 move = 254
 
-[sub_resource type="Resource" id="Resource_pyo8x"]
+[sub_resource type="Resource" id="Resource_svcsd"]
 script = ExtResource("3_u0xgp")
 level = 15
 move = 256
 
-[sub_resource type="Resource" id="Resource_ri7pb"]
+[sub_resource type="Resource" id="Resource_6ec75"]
 script = ExtResource("3_u0xgp")
 level = 15
 move = 255
 
-[sub_resource type="Resource" id="Resource_0n1xe"]
+[sub_resource type="Resource" id="Resource_33idm"]
 script = ExtResource("3_u0xgp")
 level = 20
 move = 34
 
-[sub_resource type="Resource" id="Resource_jhk5n"]
+[sub_resource type="Resource" id="Resource_y32nh"]
 script = ExtResource("3_u0xgp")
 level = 25
 move = 156
 
-[sub_resource type="Resource" id="Resource_svcsd"]
+[sub_resource type="Resource" id="Resource_puu37"]
 script = ExtResource("3_u0xgp")
 level = 30
 move = 68
 
-[sub_resource type="Resource" id="Resource_6ec75"]
+[sub_resource type="Resource" id="Resource_btpyi"]
 script = ExtResource("3_u0xgp")
 level = 35
 move = 331
 
-[sub_resource type="Resource" id="Resource_33idm"]
+[sub_resource type="Resource" id="Resource_7rnma"]
 script = ExtResource("3_u0xgp")
 level = 40
 move = 162
 
-[sub_resource type="Resource" id="Resource_y32nh"]
+[sub_resource type="Resource" id="Resource_h7315"]
 script = ExtResource("3_u0xgp")
 level = 45
 move = 562
@@ -83,6 +83,7 @@ national_dex = 819
 pokedex = "Found throughout the Galar region, this
 Pokémon becomes uneasy if its cheeks are
 ever completely empty of berries."
+sprite_folder = "skwovet"
 type_1 = 1
 base_hp = 70
 base_atk = 55
@@ -100,6 +101,6 @@ item_rare = 520
 height_dm = 3
 weight_hg = 25
 body_color = 5
-level_moves = Array[ExtResource("3_u0xgp")]([SubResource("Resource_3riae"), SubResource("Resource_u0xgp"), SubResource("Resource_wyybu"), SubResource("Resource_utfhr"), SubResource("Resource_dinrr"), SubResource("Resource_pyo8x"), SubResource("Resource_ri7pb"), SubResource("Resource_0n1xe"), SubResource("Resource_jhk5n"), SubResource("Resource_svcsd"), SubResource("Resource_6ec75"), SubResource("Resource_33idm"), SubResource("Resource_y32nh")])
+level_moves = Array[ExtResource("3_u0xgp")]([SubResource("Resource_dinrr"), SubResource("Resource_pyo8x"), SubResource("Resource_ri7pb"), SubResource("Resource_0n1xe"), SubResource("Resource_jhk5n"), SubResource("Resource_svcsd"), SubResource("Resource_6ec75"), SubResource("Resource_33idm"), SubResource("Resource_y32nh"), SubResource("Resource_puu37"), SubResource("Resource_btpyi"), SubResource("Resource_7rnma"), SubResource("Resource_h7315")])
 egg_moves = Array[int]([205, 111, 387, 187])
-evolutions = Array[ExtResource("1_w7qqn")]([SubResource("Resource_w7qqn")])
+evolutions = Array[ExtResource("1_w7qqn")]([SubResource("Resource_utfhr")])

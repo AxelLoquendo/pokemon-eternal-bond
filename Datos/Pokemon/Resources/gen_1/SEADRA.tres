@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vvy7o"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0tqu5"]
 
-[sub_resource type="Resource" id="Resource_re2ts"]
+[sub_resource type="Resource" id="Resource_st7mh"]
 script = ExtResource("1_re2ts")
 method = "ITEM"
 param = "ITEM_DRAGON_SCALE"
 target = 230
 
-[sub_resource type="Resource" id="Resource_kkm8s"]
+[sub_resource type="Resource" id="Resource_hciyf"]
 script = ExtResource("3_vvy7o")
 move = 145
 
-[sub_resource type="Resource" id="Resource_vvy7o"]
+[sub_resource type="Resource" id="Resource_i4hja"]
 script = ExtResource("3_vvy7o")
 move = 108
 
-[sub_resource type="Resource" id="Resource_0tqu5"]
+[sub_resource type="Resource" id="Resource_ysuv4"]
 script = ExtResource("3_vvy7o")
 level = 19
 move = 108
 
-[sub_resource type="Resource" id="Resource_st7mh"]
+[sub_resource type="Resource" id="Resource_8m0o2"]
 script = ExtResource("3_vvy7o")
 level = 24
 move = 43
 
-[sub_resource type="Resource" id="Resource_hciyf"]
+[sub_resource type="Resource" id="Resource_tkakm"]
 script = ExtResource("3_vvy7o")
 level = 30
 move = 55
 
-[sub_resource type="Resource" id="Resource_i4hja"]
+[sub_resource type="Resource" id="Resource_gqf2d"]
 script = ExtResource("3_vvy7o")
 level = 41
 move = 97
 
-[sub_resource type="Resource" id="Resource_ysuv4"]
+[sub_resource type="Resource" id="Resource_lydha"]
 script = ExtResource("3_vvy7o")
 level = 52
 move = 56
@@ -54,6 +54,7 @@ pokedex = "The poisonous barbs all over its body are
 highly valued as ingredients for making
 traditional herbal medicine. It shows no
 mercy to anything approaching its nest."
+sprite_folder = "seadra"
 type_1 = 12
 base_hp = 55
 base_atk = 65
@@ -74,5 +75,5 @@ item_rare = 227
 height_dm = 12
 weight_hg = 250
 body_color = 1
-level_moves = Array[ExtResource("3_vvy7o")]([SubResource("Resource_kkm8s"), SubResource("Resource_vvy7o"), SubResource("Resource_0tqu5"), SubResource("Resource_st7mh"), SubResource("Resource_hciyf"), SubResource("Resource_i4hja"), SubResource("Resource_ysuv4")])
-evolutions = Array[ExtResource("1_re2ts")]([SubResource("Resource_re2ts")])
+level_moves = Array[ExtResource("3_vvy7o")]([SubResource("Resource_hciyf"), SubResource("Resource_i4hja"), SubResource("Resource_ysuv4"), SubResource("Resource_8m0o2"), SubResource("Resource_tkakm"), SubResource("Resource_gqf2d"), SubResource("Resource_lydha")])
+evolutions = Array[ExtResource("1_re2ts")]([SubResource("Resource_st7mh")])

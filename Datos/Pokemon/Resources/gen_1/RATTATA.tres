@@ -5,36 +5,36 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_q3ibx"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_354oc"]
 
-[sub_resource type="Resource" id="Resource_oc6gp"]
+[sub_resource type="Resource" id="Resource_5te8u"]
 script = ExtResource("1_oc6gp")
 method = "LEVEL"
 param = "20"
 target = 20
 
-[sub_resource type="Resource" id="Resource_mf7bo"]
+[sub_resource type="Resource" id="Resource_3g428"]
 script = ExtResource("3_q3ibx")
 move = 33
 
-[sub_resource type="Resource" id="Resource_q3ibx"]
+[sub_resource type="Resource" id="Resource_6d87l"]
 script = ExtResource("3_q3ibx")
 move = 39
 
-[sub_resource type="Resource" id="Resource_354oc"]
+[sub_resource type="Resource" id="Resource_tufi8"]
 script = ExtResource("3_q3ibx")
 level = 7
 move = 98
 
-[sub_resource type="Resource" id="Resource_5te8u"]
+[sub_resource type="Resource" id="Resource_8ybf8"]
 script = ExtResource("3_q3ibx")
 level = 14
 move = 158
 
-[sub_resource type="Resource" id="Resource_3g428"]
+[sub_resource type="Resource" id="Resource_a85y7"]
 script = ExtResource("3_q3ibx")
 level = 23
 move = 116
 
-[sub_resource type="Resource" id="Resource_6d87l"]
+[sub_resource type="Resource" id="Resource_q6by1"]
 script = ExtResource("3_q3ibx")
 level = 34
 move = 162
@@ -49,6 +49,7 @@ pokedex = "A Rattata is cautious in the extreme.
 Even while it is asleep, it constantly
 moves its ears and listens for danger.
 It will make its nest anywhere."
+sprite_folder = "rattata"
 type_1 = 1
 base_hp = 30
 base_atk = 56
@@ -67,7 +68,7 @@ ability_hidden = 55
 height_dm = 3
 weight_hg = 35
 body_color = 6
-level_moves = Array[ExtResource("3_q3ibx")]([SubResource("Resource_mf7bo"), SubResource("Resource_q3ibx"), SubResource("Resource_354oc"), SubResource("Resource_5te8u"), SubResource("Resource_3g428"), SubResource("Resource_6d87l")])
+level_moves = Array[ExtResource("3_q3ibx")]([SubResource("Resource_3g428"), SubResource("Resource_6d87l"), SubResource("Resource_tufi8"), SubResource("Resource_8ybf8"), SubResource("Resource_a85y7"), SubResource("Resource_q6by1")])
 egg_moves = Array[int]([103, 172, 154, 44, 68, 179, 253, 387, 382, 279, 515])
-evolutions = Array[ExtResource("1_oc6gp")]([SubResource("Resource_oc6gp")])
+evolutions = Array[ExtResource("1_oc6gp")]([SubResource("Resource_5te8u")])
 form_species = Array[int]([19, 956])

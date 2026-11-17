@@ -5,81 +5,81 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fslew"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kg1d6"]
 
-[sub_resource type="Resource" id="Resource_2kcm3"]
+[sub_resource type="Resource" id="Resource_x8617"]
 script = ExtResource("1_2kcm3")
 method = "LEVEL"
 param = "36"
 target = 395
 
-[sub_resource type="Resource" id="Resource_fldga"]
+[sub_resource type="Resource" id="Resource_cswyr"]
 script = ExtResource("3_fslew")
 move = 33
 
-[sub_resource type="Resource" id="Resource_fslew"]
+[sub_resource type="Resource" id="Resource_iuiod"]
 script = ExtResource("3_fslew")
 move = 45
 
-[sub_resource type="Resource" id="Resource_kg1d6"]
+[sub_resource type="Resource" id="Resource_ccqix"]
 script = ExtResource("3_fslew")
 level = 4
 move = 45
 
-[sub_resource type="Resource" id="Resource_x8617"]
+[sub_resource type="Resource" id="Resource_pvp1p"]
 script = ExtResource("3_fslew")
 level = 8
 move = 145
 
-[sub_resource type="Resource" id="Resource_cswyr"]
+[sub_resource type="Resource" id="Resource_cu6bg"]
 script = ExtResource("3_fslew")
 level = 11
 move = 346
 
-[sub_resource type="Resource" id="Resource_iuiod"]
+[sub_resource type="Resource" id="Resource_3w8a1"]
 script = ExtResource("3_fslew")
 level = 15
 move = 64
 
-[sub_resource type="Resource" id="Resource_ccqix"]
+[sub_resource type="Resource" id="Resource_lc65g"]
 script = ExtResource("3_fslew")
 level = 16
 move = 232
 
-[sub_resource type="Resource" id="Resource_pvp1p"]
+[sub_resource type="Resource" id="Resource_abgaf"]
 script = ExtResource("3_fslew")
 level = 19
 move = 61
 
-[sub_resource type="Resource" id="Resource_cu6bg"]
+[sub_resource type="Resource" id="Resource_hg6x8"]
 script = ExtResource("3_fslew")
 level = 24
 move = 117
 
-[sub_resource type="Resource" id="Resource_3w8a1"]
+[sub_resource type="Resource" id="Resource_mo457"]
 script = ExtResource("3_fslew")
 level = 28
 move = 31
 
-[sub_resource type="Resource" id="Resource_lc65g"]
+[sub_resource type="Resource" id="Resource_weetn"]
 script = ExtResource("3_fslew")
 level = 33
 move = 362
 
-[sub_resource type="Resource" id="Resource_abgaf"]
+[sub_resource type="Resource" id="Resource_sjv51"]
 script = ExtResource("3_fslew")
 level = 37
 move = 250
 
-[sub_resource type="Resource" id="Resource_hg6x8"]
+[sub_resource type="Resource" id="Resource_s7hj5"]
 script = ExtResource("3_fslew")
 level = 42
 move = 54
 
-[sub_resource type="Resource" id="Resource_mo457"]
+[sub_resource type="Resource" id="Resource_5yslr"]
 script = ExtResource("3_fslew")
 level = 46
 move = 65
 
-[sub_resource type="Resource" id="Resource_weetn"]
+[sub_resource type="Resource" id="Resource_xvden"]
 script = ExtResource("3_fslew")
 level = 51
 move = 56
@@ -94,6 +94,7 @@ pokedex = "Because every Prinplup considers itself
 to be the most important, they can never
 form a group. It searches for prey in
 icy seas."
+sprite_folder = "prinplup"
 type_1 = 12
 base_hp = 64
 base_atk = 66
@@ -112,5 +113,5 @@ ability_hidden = 172
 height_dm = 8
 weight_hg = 230
 body_color = 1
-level_moves = Array[ExtResource("3_fslew")]([SubResource("Resource_fldga"), SubResource("Resource_fslew"), SubResource("Resource_kg1d6"), SubResource("Resource_x8617"), SubResource("Resource_cswyr"), SubResource("Resource_iuiod"), SubResource("Resource_ccqix"), SubResource("Resource_pvp1p"), SubResource("Resource_cu6bg"), SubResource("Resource_3w8a1"), SubResource("Resource_lc65g"), SubResource("Resource_abgaf"), SubResource("Resource_hg6x8"), SubResource("Resource_mo457"), SubResource("Resource_weetn")])
-evolutions = Array[ExtResource("1_2kcm3")]([SubResource("Resource_2kcm3")])
+level_moves = Array[ExtResource("3_fslew")]([SubResource("Resource_cswyr"), SubResource("Resource_iuiod"), SubResource("Resource_ccqix"), SubResource("Resource_pvp1p"), SubResource("Resource_cu6bg"), SubResource("Resource_3w8a1"), SubResource("Resource_lc65g"), SubResource("Resource_abgaf"), SubResource("Resource_hg6x8"), SubResource("Resource_mo457"), SubResource("Resource_weetn"), SubResource("Resource_sjv51"), SubResource("Resource_s7hj5"), SubResource("Resource_5yslr"), SubResource("Resource_xvden")])
+evolutions = Array[ExtResource("1_2kcm3")]([SubResource("Resource_x8617")])

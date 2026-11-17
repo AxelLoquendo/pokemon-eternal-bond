@@ -5,57 +5,57 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jej8a"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s6dk2"]
 
-[sub_resource type="Resource" id="Resource_2wtaq"]
+[sub_resource type="Resource" id="Resource_cecwp"]
 script = ExtResource("1_2wtaq")
 method = "ITEM"
 param = "ITEM_THUNDER_STONE"
 target = 476
 
-[sub_resource type="Resource" id="Resource_miq3h"]
+[sub_resource type="Resource" id="Resource_l0a2h"]
 script = ExtResource("3_jej8a")
 move = 33
 
-[sub_resource type="Resource" id="Resource_jej8a"]
+[sub_resource type="Resource" id="Resource_qabwb"]
 script = ExtResource("3_jej8a")
 level = 7
 move = 106
 
-[sub_resource type="Resource" id="Resource_s6dk2"]
+[sub_resource type="Resource" id="Resource_1apyx"]
 script = ExtResource("3_jej8a")
 level = 13
 move = 88
 
-[sub_resource type="Resource" id="Resource_cecwp"]
+[sub_resource type="Resource" id="Resource_ihxlh"]
 script = ExtResource("3_jej8a")
 level = 16
 move = 335
 
-[sub_resource type="Resource" id="Resource_l0a2h"]
+[sub_resource type="Resource" id="Resource_oab0a"]
 script = ExtResource("3_jej8a")
 level = 22
 move = 86
 
-[sub_resource type="Resource" id="Resource_qabwb"]
+[sub_resource type="Resource" id="Resource_ctpup"]
 script = ExtResource("3_jej8a")
 level = 28
 move = 157
 
-[sub_resource type="Resource" id="Resource_1apyx"]
+[sub_resource type="Resource" id="Resource_6ge0f"]
 script = ExtResource("3_jej8a")
 level = 31
 move = 201
 
-[sub_resource type="Resource" id="Resource_ihxlh"]
+[sub_resource type="Resource" id="Resource_wnsgl"]
 script = ExtResource("3_jej8a")
 level = 37
 move = 156
 
-[sub_resource type="Resource" id="Resource_oab0a"]
+[sub_resource type="Resource" id="Resource_6oet5"]
 script = ExtResource("3_jej8a")
 level = 43
 move = 192
 
-[sub_resource type="Resource" id="Resource_ctpup"]
+[sub_resource type="Resource" id="Resource_rmuqh"]
 script = ExtResource("3_jej8a")
 level = 46
 move = 199
@@ -70,6 +70,7 @@ pokedex = "Its body emits a powerful magnetism.
 It feeds on prey that is pulled in by the
 force. Its magnetism is stronger in cold
 seasons."
+sprite_folder = "nosepass"
 type_1 = 6
 base_hp = 30
 base_atk = 45
@@ -88,6 +89,6 @@ item_rare = 428
 height_dm = 10
 weight_hg = 970
 body_color = 7
-level_moves = Array[ExtResource("3_jej8a")]([SubResource("Resource_miq3h"), SubResource("Resource_jej8a"), SubResource("Resource_s6dk2"), SubResource("Resource_cecwp"), SubResource("Resource_l0a2h"), SubResource("Resource_qabwb"), SubResource("Resource_1apyx"), SubResource("Resource_ihxlh"), SubResource("Resource_oab0a"), SubResource("Resource_ctpup")])
+level_moves = Array[ExtResource("3_jej8a")]([SubResource("Resource_l0a2h"), SubResource("Resource_qabwb"), SubResource("Resource_1apyx"), SubResource("Resource_ihxlh"), SubResource("Resource_oab0a"), SubResource("Resource_ctpup"), SubResource("Resource_6ge0f"), SubResource("Resource_wnsgl"), SubResource("Resource_6oet5"), SubResource("Resource_rmuqh")])
 egg_moves = Array[int]([222, 205, 38, 335, 446, 203, 469])
-evolutions = Array[ExtResource("1_2wtaq")]([SubResource("Resource_2wtaq")])
+evolutions = Array[ExtResource("1_2wtaq")]([SubResource("Resource_cecwp")])

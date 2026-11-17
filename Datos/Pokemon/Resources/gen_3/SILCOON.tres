@@ -5,17 +5,17 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3aofq"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qqkb5"]
 
-[sub_resource type="Resource" id="Resource_f63b2"]
+[sub_resource type="Resource" id="Resource_oswic"]
 script = ExtResource("1_f63b2")
 method = "LEVEL"
 param = "10"
 target = 267
 
-[sub_resource type="Resource" id="Resource_fb7a4"]
+[sub_resource type="Resource" id="Resource_h2ewb"]
 script = ExtResource("3_3aofq")
 move = 106
 
-[sub_resource type="Resource" id="Resource_3aofq"]
+[sub_resource type="Resource" id="Resource_yd043"]
 script = ExtResource("3_3aofq")
 level = 7
 move = 106
@@ -30,6 +30,7 @@ pokedex = "It prepares for evolution using the
 energy it stored while it was a Wurmple.
 It keeps watch over the surroundings with
 its two eyes."
+sprite_folder = "silcoon"
 type_1 = 7
 base_hp = 50
 base_atk = 35
@@ -47,5 +48,5 @@ height_dm = 6
 weight_hg = 100
 body_color = 8
 no_flip = true
-level_moves = Array[ExtResource("3_3aofq")]([SubResource("Resource_fb7a4"), SubResource("Resource_3aofq")])
-evolutions = Array[ExtResource("1_f63b2")]([SubResource("Resource_f63b2")])
+level_moves = Array[ExtResource("3_3aofq")]([SubResource("Resource_h2ewb"), SubResource("Resource_yd043")])
+evolutions = Array[ExtResource("1_f63b2")]([SubResource("Resource_oswic")])

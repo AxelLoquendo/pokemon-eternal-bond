@@ -5,40 +5,40 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4wna4"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sj03r"]
 
-[sub_resource type="Resource" id="Resource_sg5fv"]
+[sub_resource type="Resource" id="Resource_jtgsh"]
 script = ExtResource("1_sg5fv")
 method = "ITEM"
 param = "ITEM_UPGRADE"
 target = 233
 
-[sub_resource type="Resource" id="Resource_xhquw"]
+[sub_resource type="Resource" id="Resource_msu0s"]
 script = ExtResource("3_4wna4")
 move = 33
 
-[sub_resource type="Resource" id="Resource_4wna4"]
+[sub_resource type="Resource" id="Resource_bwkfv"]
 script = ExtResource("3_4wna4")
 move = 159
 
-[sub_resource type="Resource" id="Resource_sj03r"]
+[sub_resource type="Resource" id="Resource_bjp6k"]
 script = ExtResource("3_4wna4")
 move = 160
 
-[sub_resource type="Resource" id="Resource_jtgsh"]
+[sub_resource type="Resource" id="Resource_648v6"]
 script = ExtResource("3_4wna4")
 level = 23
 move = 60
 
-[sub_resource type="Resource" id="Resource_msu0s"]
+[sub_resource type="Resource" id="Resource_ad3lf"]
 script = ExtResource("3_4wna4")
 level = 28
 move = 105
 
-[sub_resource type="Resource" id="Resource_bwkfv"]
+[sub_resource type="Resource" id="Resource_k1adw"]
 script = ExtResource("3_4wna4")
 level = 35
 move = 97
 
-[sub_resource type="Resource" id="Resource_bjp6k"]
+[sub_resource type="Resource" id="Resource_6txbp"]
 script = ExtResource("3_4wna4")
 level = 42
 move = 161
@@ -53,6 +53,7 @@ pokedex = "It is capable of reverting itself entirely
 back to program data in order to enter
 cyberspace. A Porygon is copy-
 protected so it cannot be duplicated."
+sprite_folder = "porygon"
 type_1 = 1
 base_hp = 65
 base_atk = 60
@@ -70,5 +71,5 @@ ability_hidden = 148
 height_dm = 8
 weight_hg = 365
 body_color = 9
-level_moves = Array[ExtResource("3_4wna4")]([SubResource("Resource_xhquw"), SubResource("Resource_4wna4"), SubResource("Resource_sj03r"), SubResource("Resource_jtgsh"), SubResource("Resource_msu0s"), SubResource("Resource_bwkfv"), SubResource("Resource_bjp6k")])
-evolutions = Array[ExtResource("1_sg5fv")]([SubResource("Resource_sg5fv")])
+level_moves = Array[ExtResource("3_4wna4")]([SubResource("Resource_msu0s"), SubResource("Resource_bwkfv"), SubResource("Resource_bjp6k"), SubResource("Resource_648v6"), SubResource("Resource_ad3lf"), SubResource("Resource_k1adw"), SubResource("Resource_6txbp")])
+evolutions = Array[ExtResource("1_sg5fv")]([SubResource("Resource_jtgsh")])

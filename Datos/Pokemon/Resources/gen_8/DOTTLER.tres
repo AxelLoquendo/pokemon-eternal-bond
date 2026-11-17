@@ -5,40 +5,40 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dyhaa"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_2jcdj"]
 
-[sub_resource type="Resource" id="Resource_torvr"]
+[sub_resource type="Resource" id="Resource_hmwlg"]
 script = ExtResource("1_torvr")
 method = "LEVEL"
 param = "30"
 target = 826
 
-[sub_resource type="Resource" id="Resource_ylqtb"]
+[sub_resource type="Resource" id="Resource_2bwdx"]
 script = ExtResource("3_dyhaa")
 level = 0
 move = 93
-
-[sub_resource type="Resource" id="Resource_dyhaa"]
-script = ExtResource("3_dyhaa")
-level = 0
-move = 113
-
-[sub_resource type="Resource" id="Resource_2jcdj"]
-script = ExtResource("3_dyhaa")
-level = 0
-move = 115
-
-[sub_resource type="Resource" id="Resource_hmwlg"]
-script = ExtResource("3_dyhaa")
-move = 115
-
-[sub_resource type="Resource" id="Resource_2bwdx"]
-script = ExtResource("3_dyhaa")
-move = 113
 
 [sub_resource type="Resource" id="Resource_qf6j4"]
 script = ExtResource("3_dyhaa")
-move = 93
+level = 0
+move = 113
 
 [sub_resource type="Resource" id="Resource_j2ejg"]
+script = ExtResource("3_dyhaa")
+level = 0
+move = 115
+
+[sub_resource type="Resource" id="Resource_nwuoq"]
+script = ExtResource("3_dyhaa")
+move = 115
+
+[sub_resource type="Resource" id="Resource_jb55s"]
+script = ExtResource("3_dyhaa")
+move = 113
+
+[sub_resource type="Resource" id="Resource_p0i2f"]
+script = ExtResource("3_dyhaa")
+move = 93
+
+[sub_resource type="Resource" id="Resource_vp2hf"]
 script = ExtResource("3_dyhaa")
 move = 522
 
@@ -52,6 +52,7 @@ pokedex = "It barely moves, but it's still alive.
 Hiding in its shell without food or
 water seems to have awakened its
 psychic powers."
+sprite_folder = "dottler"
 type_1 = 7
 type_2 = 15
 base_hp = 50
@@ -72,5 +73,5 @@ item_rare = 452
 height_dm = 4
 weight_hg = 195
 body_color = 2
-level_moves = Array[ExtResource("3_dyhaa")]([SubResource("Resource_ylqtb"), SubResource("Resource_dyhaa"), SubResource("Resource_2jcdj"), SubResource("Resource_hmwlg"), SubResource("Resource_2bwdx"), SubResource("Resource_qf6j4"), SubResource("Resource_j2ejg")])
-evolutions = Array[ExtResource("1_torvr")]([SubResource("Resource_torvr")])
+level_moves = Array[ExtResource("3_dyhaa")]([SubResource("Resource_2bwdx"), SubResource("Resource_qf6j4"), SubResource("Resource_j2ejg"), SubResource("Resource_nwuoq"), SubResource("Resource_jb55s"), SubResource("Resource_p0i2f"), SubResource("Resource_vp2hf")])
+evolutions = Array[ExtResource("1_torvr")]([SubResource("Resource_hmwlg")])

@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_o4thi"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0tnvj"]
 
-[sub_resource type="Resource" id="Resource_wgiyb"]
+[sub_resource type="Resource" id="Resource_hpgfw"]
 script = ExtResource("1_wgiyb")
 method = "LEVEL"
 param = "18"
 target = 17
 
-[sub_resource type="Resource" id="Resource_l0q6w"]
+[sub_resource type="Resource" id="Resource_rwwg5"]
 script = ExtResource("3_o4thi")
 move = 16
 
-[sub_resource type="Resource" id="Resource_o4thi"]
+[sub_resource type="Resource" id="Resource_vpcpn"]
 script = ExtResource("3_o4thi")
 level = 5
 move = 28
 
-[sub_resource type="Resource" id="Resource_0tnvj"]
+[sub_resource type="Resource" id="Resource_8ueb5"]
 script = ExtResource("3_o4thi")
 level = 12
 move = 98
 
-[sub_resource type="Resource" id="Resource_hpgfw"]
+[sub_resource type="Resource" id="Resource_s4rb8"]
 script = ExtResource("3_o4thi")
 level = 19
 move = 18
 
-[sub_resource type="Resource" id="Resource_rwwg5"]
+[sub_resource type="Resource" id="Resource_s201h"]
 script = ExtResource("3_o4thi")
 level = 28
 move = 17
 
-[sub_resource type="Resource" id="Resource_vpcpn"]
+[sub_resource type="Resource" id="Resource_4p4fv"]
 script = ExtResource("3_o4thi")
 level = 36
 move = 97
 
-[sub_resource type="Resource" id="Resource_8ueb5"]
+[sub_resource type="Resource" id="Resource_vc3tq"]
 script = ExtResource("3_o4thi")
 level = 44
 move = 119
@@ -55,6 +55,7 @@ pokedex = "It has an extremely sharp sense of
 direction. It can unerringly return home to
 its nest, however far it may be removed
 from its familiar surroundings."
+sprite_folder = "pidgey"
 type_1 = 1
 type_2 = 3
 base_hp = 40
@@ -75,6 +76,6 @@ ability_hidden = 145
 height_dm = 3
 weight_hg = 18
 body_color = 5
-level_moves = Array[ExtResource("3_o4thi")]([SubResource("Resource_l0q6w"), SubResource("Resource_o4thi"), SubResource("Resource_0tnvj"), SubResource("Resource_hpgfw"), SubResource("Resource_rwwg5"), SubResource("Resource_vpcpn"), SubResource("Resource_8ueb5")])
+level_moves = Array[ExtResource("3_o4thi")]([SubResource("Resource_rwwg5"), SubResource("Resource_vpcpn"), SubResource("Resource_8ueb5"), SubResource("Resource_s4rb8"), SubResource("Resource_s201h"), SubResource("Resource_4p4fv"), SubResource("Resource_vc3tq")])
 egg_moves = Array[int]([228, 185, 193, 211, 314, 403, 413, 253, 432])
-evolutions = Array[ExtResource("1_wgiyb")]([SubResource("Resource_wgiyb")])
+evolutions = Array[ExtResource("1_wgiyb")]([SubResource("Resource_hpgfw")])

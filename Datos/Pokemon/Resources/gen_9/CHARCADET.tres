@@ -5,61 +5,61 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_knw46"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ngehn"]
 
-[sub_resource type="Resource" id="Resource_byvu3"]
+[sub_resource type="Resource" id="Resource_x53lx"]
 script = ExtResource("1_byvu3")
 method = "ITEM"
 param = "ITEM_AUSPICIOUS_ARMOR"
 target = 1324
 
-[sub_resource type="Resource" id="Resource_lui2v"]
+[sub_resource type="Resource" id="Resource_rg0wt"]
 script = ExtResource("1_byvu3")
 method = "ITEM"
 param = "ITEM_MALICIOUS_ARMOR"
 target = 1325
 
-[sub_resource type="Resource" id="Resource_knw46"]
+[sub_resource type="Resource" id="Resource_piplo"]
 script = ExtResource("3_knw46")
 move = 43
 
-[sub_resource type="Resource" id="Resource_ngehn"]
+[sub_resource type="Resource" id="Resource_fjli3"]
 script = ExtResource("3_knw46")
 move = 52
 
-[sub_resource type="Resource" id="Resource_x53lx"]
+[sub_resource type="Resource" id="Resource_15nnd"]
 script = ExtResource("3_knw46")
 move = 310
 
-[sub_resource type="Resource" id="Resource_rg0wt"]
+[sub_resource type="Resource" id="Resource_rqdnd"]
 script = ExtResource("3_knw46")
 level = 8
 move = 499
 
-[sub_resource type="Resource" id="Resource_piplo"]
+[sub_resource type="Resource" id="Resource_t28mj"]
 script = ExtResource("3_knw46")
 level = 12
 move = 83
 
-[sub_resource type="Resource" id="Resource_fjli3"]
+[sub_resource type="Resource" id="Resource_145j6"]
 script = ExtResource("3_knw46")
 level = 16
 move = 261
 
-[sub_resource type="Resource" id="Resource_15nnd"]
+[sub_resource type="Resource" id="Resource_rwagl"]
 script = ExtResource("3_knw46")
 level = 20
 move = 101
 
-[sub_resource type="Resource" id="Resource_rqdnd"]
+[sub_resource type="Resource" id="Resource_18sa1"]
 script = ExtResource("3_knw46")
 level = 24
 move = 488
 
-[sub_resource type="Resource" id="Resource_t28mj"]
+[sub_resource type="Resource" id="Resource_2edbw"]
 script = ExtResource("3_knw46")
 level = 28
 move = 510
 
-[sub_resource type="Resource" id="Resource_145j6"]
+[sub_resource type="Resource" id="Resource_am4hu"]
 script = ExtResource("3_knw46")
 level = 32
 move = 436
@@ -74,6 +74,7 @@ pokedex = "Burnt charcoal came to life and
 became a Pokémon. Possessing a fiery
 fighting spirit, Charcadet will
 battle even tough opponents."
+sprite_folder = "charcadet"
 type_1 = 11
 base_hp = 40
 base_atk = 50
@@ -91,6 +92,6 @@ ability_1 = 18
 ability_hidden = 49
 height_dm = 6
 weight_hg = 105
-level_moves = Array[ExtResource("3_knw46")]([SubResource("Resource_knw46"), SubResource("Resource_ngehn"), SubResource("Resource_x53lx"), SubResource("Resource_rg0wt"), SubResource("Resource_piplo"), SubResource("Resource_fjli3"), SubResource("Resource_15nnd"), SubResource("Resource_rqdnd"), SubResource("Resource_t28mj"), SubResource("Resource_145j6")])
+level_moves = Array[ExtResource("3_knw46")]([SubResource("Resource_piplo"), SubResource("Resource_fjli3"), SubResource("Resource_15nnd"), SubResource("Resource_rqdnd"), SubResource("Resource_t28mj"), SubResource("Resource_145j6"), SubResource("Resource_rwagl"), SubResource("Resource_18sa1"), SubResource("Resource_2edbw"), SubResource("Resource_am4hu")])
 egg_moves = Array[int]([194, 50, 180])
-evolutions = Array[ExtResource("1_byvu3")]([SubResource("Resource_byvu3"), SubResource("Resource_lui2v")])
+evolutions = Array[ExtResource("1_byvu3")]([SubResource("Resource_x53lx"), SubResource("Resource_rg0wt")])

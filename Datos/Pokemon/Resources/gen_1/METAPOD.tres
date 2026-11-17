@@ -5,17 +5,17 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0l3jn"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r3b7f"]
 
-[sub_resource type="Resource" id="Resource_dcpgm"]
+[sub_resource type="Resource" id="Resource_n1gak"]
 script = ExtResource("1_dcpgm")
 method = "LEVEL"
 param = "10"
 target = 12
 
-[sub_resource type="Resource" id="Resource_i2r5m"]
+[sub_resource type="Resource" id="Resource_spcnu"]
 script = ExtResource("3_0l3jn")
 move = 106
 
-[sub_resource type="Resource" id="Resource_0l3jn"]
+[sub_resource type="Resource" id="Resource_jx1b2"]
 script = ExtResource("3_0l3jn")
 level = 7
 move = 106
@@ -30,6 +30,7 @@ pokedex = "Its shell is as hard as an iron slab.
 A Metapod does not move very much
 because it is preparing its soft innards
 for evolution inside the shell."
+sprite_folder = "metapod"
 type_1 = 7
 base_hp = 50
 base_atk = 20
@@ -46,5 +47,5 @@ ability_1 = 61
 height_dm = 7
 weight_hg = 99
 body_color = 3
-level_moves = Array[ExtResource("3_0l3jn")]([SubResource("Resource_i2r5m"), SubResource("Resource_0l3jn")])
-evolutions = Array[ExtResource("1_dcpgm")]([SubResource("Resource_dcpgm")])
+level_moves = Array[ExtResource("3_0l3jn")]([SubResource("Resource_spcnu"), SubResource("Resource_jx1b2")])
+evolutions = Array[ExtResource("1_dcpgm")]([SubResource("Resource_n1gak")])

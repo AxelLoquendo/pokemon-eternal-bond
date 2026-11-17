@@ -5,76 +5,76 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1pd4y"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ie2kn"]
 
-[sub_resource type="Resource" id="Resource_axi1a"]
+[sub_resource type="Resource" id="Resource_p5h4o"]
 script = ExtResource("1_axi1a")
 method = "ITEM"
 param = "ITEM_ICE_STONE"
 target = 990
 
-[sub_resource type="Resource" id="Resource_pugba"]
+[sub_resource type="Resource" id="Resource_uynwp"]
 script = ExtResource("3_1pd4y")
 move = 181
 
-[sub_resource type="Resource" id="Resource_1pd4y"]
+[sub_resource type="Resource" id="Resource_v6bnq"]
 script = ExtResource("3_1pd4y")
 move = 33
 
-[sub_resource type="Resource" id="Resource_ie2kn"]
+[sub_resource type="Resource" id="Resource_msnof"]
 script = ExtResource("3_1pd4y")
 level = 4
 move = 269
 
-[sub_resource type="Resource" id="Resource_p5h4o"]
+[sub_resource type="Resource" id="Resource_7sruc"]
 script = ExtResource("3_1pd4y")
 level = 8
 move = 44
 
-[sub_resource type="Resource" id="Resource_uynwp"]
+[sub_resource type="Resource" id="Resource_qb0fn"]
 script = ExtResource("3_1pd4y")
 level = 12
 move = 419
 
-[sub_resource type="Resource" id="Resource_v6bnq"]
+[sub_resource type="Resource" id="Resource_y2ytq"]
 script = ExtResource("3_1pd4y")
 level = 16
 move = 526
 
-[sub_resource type="Resource" id="Resource_msnof"]
+[sub_resource type="Resource" id="Resource_iawd2"]
 script = ExtResource("3_1pd4y")
 level = 20
 move = 423
 
-[sub_resource type="Resource" id="Resource_7sruc"]
+[sub_resource type="Resource" id="Resource_scmu2"]
 script = ExtResource("3_1pd4y")
 level = 24
 move = 29
 
-[sub_resource type="Resource" id="Resource_qb0fn"]
+[sub_resource type="Resource" id="Resource_pvr1i"]
 script = ExtResource("3_1pd4y")
 level = 28
 move = 8
 
-[sub_resource type="Resource" id="Resource_y2ytq"]
+[sub_resource type="Resource" id="Resource_5yt22"]
 script = ExtResource("3_1pd4y")
 level = 32
 move = 253
 
-[sub_resource type="Resource" id="Resource_iawd2"]
+[sub_resource type="Resource" id="Resource_3wdtg"]
 script = ExtResource("3_1pd4y")
 level = 36
 move = 187
 
-[sub_resource type="Resource" id="Resource_scmu2"]
+[sub_resource type="Resource" id="Resource_ta4xq"]
 script = ExtResource("3_1pd4y")
 level = 40
 move = 59
 
-[sub_resource type="Resource" id="Resource_pvr1i"]
+[sub_resource type="Resource" id="Resource_v05ps"]
 script = ExtResource("3_1pd4y")
 level = 44
 move = 37
 
-[sub_resource type="Resource" id="Resource_5yt22"]
+[sub_resource type="Resource" id="Resource_uvbsi"]
 script = ExtResource("3_1pd4y")
 level = 48
 move = 276
@@ -89,6 +89,7 @@ pokedex = "The colder they get, the more
 energetic they are. They freeze their
 breath to make snowballs, using them
 as ammo for playful snowball fights."
+sprite_folder = "darumaka/galar"
 type_1 = 16
 base_hp = 70
 base_atk = 90
@@ -106,7 +107,7 @@ ability_hidden = 39
 height_dm = 7
 weight_hg = 400
 body_color = 8
-level_moves = Array[ExtResource("3_1pd4y")]([SubResource("Resource_pugba"), SubResource("Resource_1pd4y"), SubResource("Resource_ie2kn"), SubResource("Resource_p5h4o"), SubResource("Resource_uynwp"), SubResource("Resource_v6bnq"), SubResource("Resource_msnof"), SubResource("Resource_7sruc"), SubResource("Resource_qb0fn"), SubResource("Resource_y2ytq"), SubResource("Resource_iawd2"), SubResource("Resource_scmu2"), SubResource("Resource_pvr1i"), SubResource("Resource_5yt22")])
+level_moves = Array[ExtResource("3_1pd4y")]([SubResource("Resource_uynwp"), SubResource("Resource_v6bnq"), SubResource("Resource_msnof"), SubResource("Resource_7sruc"), SubResource("Resource_qb0fn"), SubResource("Resource_y2ytq"), SubResource("Resource_iawd2"), SubResource("Resource_scmu2"), SubResource("Resource_pvr1i"), SubResource("Resource_5yt22"), SubResource("Resource_3wdtg"), SubResource("Resource_ta4xq"), SubResource("Resource_v05ps"), SubResource("Resource_uvbsi")])
 egg_moves = Array[int]([264, 359, 36, 172, 281, 573, 510, 612])
-evolutions = Array[ExtResource("1_axi1a")]([SubResource("Resource_axi1a")])
+evolutions = Array[ExtResource("1_axi1a")]([SubResource("Resource_p5h4o")])
 form_species = Array[int]([554, 989])

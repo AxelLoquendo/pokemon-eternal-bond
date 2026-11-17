@@ -5,31 +5,31 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_645x1"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_apuug"]
 
-[sub_resource type="Resource" id="Resource_j2v8d"]
+[sub_resource type="Resource" id="Resource_gybtx"]
 script = ExtResource("3_645x1")
 move = 33
 
-[sub_resource type="Resource" id="Resource_p1cs4"]
+[sub_resource type="Resource" id="Resource_15d6l"]
 script = ExtResource("3_645x1")
 level = 20
 move = 44
 
-[sub_resource type="Resource" id="Resource_645x1"]
+[sub_resource type="Resource" id="Resource_jhrmd"]
 script = ExtResource("3_645x1")
 level = 25
 move = 82
 
-[sub_resource type="Resource" id="Resource_apuug"]
+[sub_resource type="Resource" id="Resource_r46bi"]
 script = ExtResource("3_645x1")
 level = 32
 move = 43
 
-[sub_resource type="Resource" id="Resource_gybtx"]
+[sub_resource type="Resource" id="Resource_d6g5e"]
 script = ExtResource("3_645x1")
 level = 41
 move = 56
 
-[sub_resource type="Resource" id="Resource_15d6l"]
+[sub_resource type="Resource" id="Resource_gwsrv"]
 script = ExtResource("3_645x1")
 level = 52
 move = 63
@@ -44,6 +44,7 @@ pokedex = "It is an extremely vicious and violent
 Pokémon. When humans begin to fight,
 it will appear and burn everything to the
 ground with intensely hot flames."
+sprite_folder = "gyarados"
 type_1 = 12
 type_2 = 3
 base_hp = 95
@@ -63,5 +64,5 @@ ability_hidden = 153
 height_dm = 65
 weight_hg = 2350
 body_color = 1
-level_moves = Array[ExtResource("3_645x1")]([SubResource("Resource_j2v8d"), SubResource("Resource_p1cs4"), SubResource("Resource_645x1"), SubResource("Resource_apuug"), SubResource("Resource_gybtx"), SubResource("Resource_15d6l")])
+level_moves = Array[ExtResource("3_645x1")]([SubResource("Resource_gybtx"), SubResource("Resource_15d6l"), SubResource("Resource_jhrmd"), SubResource("Resource_r46bi"), SubResource("Resource_d6g5e"), SubResource("Resource_gwsrv")])
 form_species = Array[int]([130, 917])

@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_r4oc6"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nx8u6"]
 
-[sub_resource type="Resource" id="Resource_enbe2"]
+[sub_resource type="Resource" id="Resource_nu61x"]
 script = ExtResource("1_enbe2")
 method = "LEVEL"
 param = "28"
 target = 53
 
-[sub_resource type="Resource" id="Resource_0q7ka"]
+[sub_resource type="Resource" id="Resource_hdju0"]
 script = ExtResource("3_r4oc6")
 move = 10
 
-[sub_resource type="Resource" id="Resource_r4oc6"]
+[sub_resource type="Resource" id="Resource_f34io"]
 script = ExtResource("3_r4oc6")
 move = 45
 
-[sub_resource type="Resource" id="Resource_nx8u6"]
+[sub_resource type="Resource" id="Resource_efnxf"]
 script = ExtResource("3_r4oc6")
 level = 12
 move = 44
 
-[sub_resource type="Resource" id="Resource_nu61x"]
+[sub_resource type="Resource" id="Resource_xsuo7"]
 script = ExtResource("3_r4oc6")
 level = 17
 move = 6
 
-[sub_resource type="Resource" id="Resource_hdju0"]
+[sub_resource type="Resource" id="Resource_goncu"]
 script = ExtResource("3_r4oc6")
 level = 24
 move = 103
 
-[sub_resource type="Resource" id="Resource_f34io"]
+[sub_resource type="Resource" id="Resource_giveh"]
 script = ExtResource("3_r4oc6")
 level = 33
 move = 154
 
-[sub_resource type="Resource" id="Resource_efnxf"]
+[sub_resource type="Resource" id="Resource_7qmd0"]
 script = ExtResource("3_r4oc6")
 level = 44
 move = 163
@@ -54,6 +54,7 @@ pokedex = "Meowth withdraw their sharp claws into
 their paws to silently sneak about.
 For some reason, this Pokémon loves
 shiny coins that glitter with light."
+sprite_folder = "meowth"
 type_1 = 1
 base_hp = 40
 base_atk = 45
@@ -69,7 +70,7 @@ item_rare = 462
 height_dm = 4
 weight_hg = 42
 body_color = 2
-level_moves = Array[ExtResource("3_r4oc6")]([SubResource("Resource_0q7ka"), SubResource("Resource_r4oc6"), SubResource("Resource_nx8u6"), SubResource("Resource_nu61x"), SubResource("Resource_hdju0"), SubResource("Resource_f34io"), SubResource("Resource_efnxf")])
+level_moves = Array[ExtResource("3_r4oc6")]([SubResource("Resource_hdju0"), SubResource("Resource_f34io"), SubResource("Resource_efnxf"), SubResource("Resource_xsuo7"), SubResource("Resource_goncu"), SubResource("Resource_giveh"), SubResource("Resource_7qmd0")])
 egg_moves = Array[int]([180, 204, 95, 133, 274, 316, 175, 387, 386, 39, 289, 231, 492])
-evolutions = Array[ExtResource("1_enbe2")]([SubResource("Resource_enbe2")])
+evolutions = Array[ExtResource("1_enbe2")]([SubResource("Resource_nu61x")])
 form_species = Array[int]([52, 965, 974, 1494])

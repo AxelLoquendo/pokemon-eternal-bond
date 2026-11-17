@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6refe"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r5kr5"]
 
-[sub_resource type="Resource" id="Resource_tet2i"]
+[sub_resource type="Resource" id="Resource_nte4l"]
 script = ExtResource("1_tet2i")
 method = "LEVEL"
 param = "14"
 target = 274
 
-[sub_resource type="Resource" id="Resource_5cbrm"]
+[sub_resource type="Resource" id="Resource_1mixe"]
 script = ExtResource("3_6refe")
 move = 117
 
-[sub_resource type="Resource" id="Resource_6refe"]
+[sub_resource type="Resource" id="Resource_03m5s"]
 script = ExtResource("3_6refe")
 level = 3
 move = 106
 
-[sub_resource type="Resource" id="Resource_r5kr5"]
+[sub_resource type="Resource" id="Resource_ybff1"]
 script = ExtResource("3_6refe")
 level = 7
 move = 74
 
-[sub_resource type="Resource" id="Resource_nte4l"]
+[sub_resource type="Resource" id="Resource_03ewr"]
 script = ExtResource("3_6refe")
 level = 13
 move = 267
 
-[sub_resource type="Resource" id="Resource_1mixe"]
+[sub_resource type="Resource" id="Resource_0mw6k"]
 script = ExtResource("3_6refe")
 level = 21
 move = 235
 
-[sub_resource type="Resource" id="Resource_03m5s"]
+[sub_resource type="Resource" id="Resource_jpcmx"]
 script = ExtResource("3_6refe")
 level = 31
 move = 241
 
-[sub_resource type="Resource" id="Resource_ybff1"]
+[sub_resource type="Resource" id="Resource_6140q"]
 script = ExtResource("3_6refe")
 level = 43
 move = 153
@@ -55,6 +55,7 @@ pokedex = "It hangs off branches and absorbs
 nutrients. When it finishes eating, its
 body becomes so heavy that it drops to
 the ground with a thump."
+sprite_folder = "seedot"
 type_1 = 13
 base_hp = 40
 base_atk = 40
@@ -76,6 +77,6 @@ item_rare = 480
 height_dm = 5
 weight_hg = 40
 body_color = 5
-level_moves = Array[ExtResource("3_6refe")]([SubResource("Resource_5cbrm"), SubResource("Resource_6refe"), SubResource("Resource_r5kr5"), SubResource("Resource_nte4l"), SubResource("Resource_1mixe"), SubResource("Resource_03m5s"), SubResource("Resource_ybff1")])
+level_moves = Array[ExtResource("3_6refe")]([SubResource("Resource_1mixe"), SubResource("Resource_03m5s"), SubResource("Resource_ybff1"), SubResource("Resource_03ewr"), SubResource("Resource_0mw6k"), SubResource("Resource_jpcmx"), SubResource("Resource_6140q")])
 egg_moves = Array[int]([73, 133, 98, 13, 36, 388, 417, 384, 432, 492, 251, 331, 580])
-evolutions = Array[ExtResource("1_tet2i")]([SubResource("Resource_tet2i")])
+evolutions = Array[ExtResource("1_tet2i")]([SubResource("Resource_nte4l")])

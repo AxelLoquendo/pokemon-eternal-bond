@@ -5,15 +5,15 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2d1pi"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fqehw"]
 
-[sub_resource type="Resource" id="Resource_2q4hc"]
+[sub_resource type="Resource" id="Resource_i3on6"]
 script = ExtResource("3_2d1pi")
 move = 33
 
-[sub_resource type="Resource" id="Resource_ri4lr"]
+[sub_resource type="Resource" id="Resource_u03ju"]
 script = ExtResource("3_2d1pi")
 move = 81
 
-[sub_resource type="Resource" id="Resource_2d1pi"]
+[sub_resource type="Resource" id="Resource_tvy2r"]
 script = ExtResource("3_2d1pi")
 level = 5
 move = 40
@@ -28,6 +28,7 @@ pokedex = "It sticks to tree branches and eats
 leaves. The thread it spits from its mouth,
 which becomes gooey when it touches
 air, slows the movement of its foes."
+sprite_folder = "wurmple"
 type_1 = 7
 base_hp = 45
 base_atk = 45
@@ -46,4 +47,4 @@ item_common = 516
 item_rare = 459
 height_dm = 3
 weight_hg = 36
-level_moves = Array[ExtResource("3_2d1pi")]([SubResource("Resource_2q4hc"), SubResource("Resource_ri4lr"), SubResource("Resource_2d1pi")])
+level_moves = Array[ExtResource("3_2d1pi")]([SubResource("Resource_i3on6"), SubResource("Resource_u03ju"), SubResource("Resource_tvy2r")])

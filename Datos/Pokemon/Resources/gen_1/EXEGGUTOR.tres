@@ -5,15 +5,15 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ysfrm"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_n3hre"]
 
-[sub_resource type="Resource" id="Resource_lirfe"]
+[sub_resource type="Resource" id="Resource_m6vcx"]
 script = ExtResource("3_ysfrm")
 move = 140
 
-[sub_resource type="Resource" id="Resource_gitcn"]
+[sub_resource type="Resource" id="Resource_wd3ol"]
 script = ExtResource("3_ysfrm")
 move = 95
 
-[sub_resource type="Resource" id="Resource_ysfrm"]
+[sub_resource type="Resource" id="Resource_d34lg"]
 script = ExtResource("3_ysfrm")
 level = 28
 move = 23
@@ -28,6 +28,7 @@ pokedex = "Originally from the tropics, Exeggutor's
 heads grow larger from exposure to strong
 sunlight. It is said that when the heads
 fall, they group to form an Exeggcute."
+sprite_folder = "exeggutor"
 type_1 = 13
 type_2 = 15
 base_hp = 95
@@ -46,5 +47,5 @@ height_dm = 20
 weight_hg = 1200
 body_color = 2
 no_flip = true
-level_moves = Array[ExtResource("3_ysfrm")]([SubResource("Resource_lirfe"), SubResource("Resource_gitcn"), SubResource("Resource_ysfrm")])
+level_moves = Array[ExtResource("3_ysfrm")]([SubResource("Resource_m6vcx"), SubResource("Resource_wd3ol"), SubResource("Resource_d34lg")])
 form_species = Array[int]([103, 972])

@@ -5,15 +5,15 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hwkni"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bnv1u"]
 
-[sub_resource type="Resource" id="Resource_hn3xu"]
+[sub_resource type="Resource" id="Resource_oldm8"]
 script = ExtResource("3_hwkni")
 move = 84
 
-[sub_resource type="Resource" id="Resource_uih61"]
+[sub_resource type="Resource" id="Resource_2tsr3"]
 script = ExtResource("3_hwkni")
 move = 45
 
-[sub_resource type="Resource" id="Resource_hwkni"]
+[sub_resource type="Resource" id="Resource_q3fji"]
 script = ExtResource("3_hwkni")
 move = 86
 
@@ -27,6 +27,7 @@ pokedex = "It resembles an X as it flies through
 the air with 50 million volts of
 electricity sparking from its ears and
 forked tail."
+sprite_folder = "raichu/mega_x"
 type_1 = 14
 base_hp = 60
 base_atk = 135
@@ -45,5 +46,5 @@ ability_hidden = 226
 height_dm = 12
 weight_hg = 380
 body_color = 2
-level_moves = Array[ExtResource("3_hwkni")]([SubResource("Resource_hn3xu"), SubResource("Resource_uih61"), SubResource("Resource_hwkni")])
+level_moves = Array[ExtResource("3_hwkni")]([SubResource("Resource_oldm8"), SubResource("Resource_2tsr3"), SubResource("Resource_q3fji")])
 form_species = Array[int]([26, 958, 1553, 1554])

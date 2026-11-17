@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kqk3e"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_qeoyq"]
 
-[sub_resource type="Resource" id="Resource_ojetc"]
+[sub_resource type="Resource" id="Resource_w3hp1"]
 script = ExtResource("1_ojetc")
 method = "LEVEL"
 param = "21"
 target = 44
 
-[sub_resource type="Resource" id="Resource_6y78k"]
+[sub_resource type="Resource" id="Resource_8ep0f"]
 script = ExtResource("3_kqk3e")
 move = 71
 
-[sub_resource type="Resource" id="Resource_kqk3e"]
+[sub_resource type="Resource" id="Resource_s1a83"]
 script = ExtResource("3_kqk3e")
 level = 15
 move = 77
 
-[sub_resource type="Resource" id="Resource_qeoyq"]
+[sub_resource type="Resource" id="Resource_mb0hu"]
 script = ExtResource("3_kqk3e")
 level = 17
 move = 78
 
-[sub_resource type="Resource" id="Resource_w3hp1"]
+[sub_resource type="Resource" id="Resource_bw26u"]
 script = ExtResource("3_kqk3e")
 level = 19
 move = 79
 
-[sub_resource type="Resource" id="Resource_8ep0f"]
+[sub_resource type="Resource" id="Resource_ka6vh"]
 script = ExtResource("3_kqk3e")
 level = 24
 move = 51
 
-[sub_resource type="Resource" id="Resource_s1a83"]
+[sub_resource type="Resource" id="Resource_mldsb"]
 script = ExtResource("3_kqk3e")
 level = 33
 move = 80
 
-[sub_resource type="Resource" id="Resource_mb0hu"]
+[sub_resource type="Resource" id="Resource_6jtbv"]
 script = ExtResource("3_kqk3e")
 level = 46
 move = 76
@@ -55,6 +55,7 @@ pokedex = "This Pokémon grows by absorbing moonlight.
 During the daytime, it buries itself in the
 ground, leaving only its leaves exposed to
 avoid detection by its enemies."
+sprite_folder = "oddish"
 type_1 = 13
 type_2 = 4
 base_hp = 45
@@ -74,6 +75,6 @@ item_rare = 455
 height_dm = 5
 weight_hg = 54
 body_color = 1
-level_moves = Array[ExtResource("3_kqk3e")]([SubResource("Resource_6y78k"), SubResource("Resource_kqk3e"), SubResource("Resource_qeoyq"), SubResource("Resource_w3hp1"), SubResource("Resource_8ep0f"), SubResource("Resource_s1a83"), SubResource("Resource_mb0hu")])
+level_moves = Array[ExtResource("3_kqk3e")]([SubResource("Resource_8ep0f"), SubResource("Resource_s1a83"), SubResource("Resource_mb0hu"), SubResource("Resource_bw26u"), SubResource("Resource_ka6vh"), SubResource("Resource_mldsb"), SubResource("Resource_6jtbv")])
 egg_moves = Array[int]([75, 175, 235, 204, 275, 321, 298, 290, 267, 495, 631])
-evolutions = Array[ExtResource("1_ojetc")]([SubResource("Resource_ojetc")])
+evolutions = Array[ExtResource("1_ojetc")]([SubResource("Resource_w3hp1")])

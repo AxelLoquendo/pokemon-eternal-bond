@@ -5,59 +5,59 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_csvop"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_f3cxp"]
 
-[sub_resource type="Resource" id="Resource_cx0c5"]
+[sub_resource type="Resource" id="Resource_g11v5"]
 script = ExtResource("1_cx0c5")
 method = "NONE"
 param = "0"
 target = 1424
 
-[sub_resource type="Resource" id="Resource_6fkpq"]
+[sub_resource type="Resource" id="Resource_ac2wn"]
 script = ExtResource("3_csvop")
 move = 10
 
-[sub_resource type="Resource" id="Resource_csvop"]
+[sub_resource type="Resource" id="Resource_i2ibv"]
 script = ExtResource("3_csvop")
 move = 43
 
-[sub_resource type="Resource" id="Resource_f3cxp"]
+[sub_resource type="Resource" id="Resource_e3es7"]
 script = ExtResource("3_csvop")
 move = 122
 
-[sub_resource type="Resource" id="Resource_g11v5"]
+[sub_resource type="Resource" id="Resource_38wph"]
 script = ExtResource("3_csvop")
 move = 154
 
-[sub_resource type="Resource" id="Resource_ac2wn"]
+[sub_resource type="Resource" id="Resource_wge4l"]
 script = ExtResource("3_csvop")
 level = 8
 move = 122
 
-[sub_resource type="Resource" id="Resource_i2ibv"]
+[sub_resource type="Resource" id="Resource_e6p30"]
 script = ExtResource("3_csvop")
 level = 15
 move = 154
 
-[sub_resource type="Resource" id="Resource_e3es7"]
+[sub_resource type="Resource" id="Resource_cjw8m"]
 script = ExtResource("3_csvop")
 level = 22
 move = 185
 
-[sub_resource type="Resource" id="Resource_38wph"]
+[sub_resource type="Resource" id="Resource_ucjtr"]
 script = ExtResource("3_csvop")
 level = 29
 move = 156
 
-[sub_resource type="Resource" id="Resource_wge4l"]
+[sub_resource type="Resource" id="Resource_gn3de"]
 script = ExtResource("3_csvop")
 level = 39
 move = 163
 
-[sub_resource type="Resource" id="Resource_e6p30"]
+[sub_resource type="Resource" id="Resource_f7u6j"]
 script = ExtResource("3_csvop")
 level = 49
 move = 173
 
-[sub_resource type="Resource" id="Resource_cjw8m"]
+[sub_resource type="Resource" id="Resource_8ulqk"]
 script = ExtResource("3_csvop")
 level = 59
 move = 37
@@ -72,6 +72,7 @@ pokedex = "In forests, it is said that there are many
 streams and towering trees where an
 Ursaring gathers food. It walks through
 its forest collecting food every day."
+sprite_folder = "ursaring"
 type_1 = 1
 base_hp = 90
 base_atk = 130
@@ -89,5 +90,5 @@ ability_hidden = 127
 height_dm = 18
 weight_hg = 1258
 body_color = 5
-level_moves = Array[ExtResource("3_csvop")]([SubResource("Resource_6fkpq"), SubResource("Resource_csvop"), SubResource("Resource_f3cxp"), SubResource("Resource_g11v5"), SubResource("Resource_ac2wn"), SubResource("Resource_i2ibv"), SubResource("Resource_e3es7"), SubResource("Resource_38wph"), SubResource("Resource_wge4l"), SubResource("Resource_e6p30"), SubResource("Resource_cjw8m")])
-evolutions = Array[ExtResource("1_cx0c5")]([SubResource("Resource_cx0c5")])
+level_moves = Array[ExtResource("3_csvop")]([SubResource("Resource_ac2wn"), SubResource("Resource_i2ibv"), SubResource("Resource_e3es7"), SubResource("Resource_38wph"), SubResource("Resource_wge4l"), SubResource("Resource_e6p30"), SubResource("Resource_cjw8m"), SubResource("Resource_ucjtr"), SubResource("Resource_gn3de"), SubResource("Resource_f7u6j"), SubResource("Resource_8ulqk")])
+evolutions = Array[ExtResource("1_cx0c5")]([SubResource("Resource_g11v5")])

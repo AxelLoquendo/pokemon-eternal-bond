@@ -5,15 +5,15 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_eryn0"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ld4hk"]
 
-[sub_resource type="Resource" id="Resource_1xpta"]
+[sub_resource type="Resource" id="Resource_u274h"]
 script = ExtResource("3_eryn0")
 move = 33
 
-[sub_resource type="Resource" id="Resource_seim2"]
+[sub_resource type="Resource" id="Resource_pkpoe"]
 script = ExtResource("3_eryn0")
 move = 55
 
-[sub_resource type="Resource" id="Resource_eryn0"]
+[sub_resource type="Resource" id="Resource_iiaam"]
 script = ExtResource("3_eryn0")
 move = 106
 
@@ -27,6 +27,7 @@ pokedex = "Its movements have become more
 humanlike. Whether it's simply
 trying to communicate or wants to
 supplant humanity is unclear."
+sprite_folder = "starmie/mega"
 type_1 = 12
 type_2 = 15
 base_hp = 60
@@ -49,5 +50,5 @@ item_rare = 144
 height_dm = 23
 weight_hg = 800
 body_color = 6
-level_moves = Array[ExtResource("3_eryn0")]([SubResource("Resource_1xpta"), SubResource("Resource_seim2"), SubResource("Resource_eryn0")])
+level_moves = Array[ExtResource("3_eryn0")]([SubResource("Resource_u274h"), SubResource("Resource_pkpoe"), SubResource("Resource_iiaam")])
 form_species = Array[int]([121, 1526])

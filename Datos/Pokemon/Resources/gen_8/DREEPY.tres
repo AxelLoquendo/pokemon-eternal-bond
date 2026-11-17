@@ -5,25 +5,25 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_i2kha"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fbg85"]
 
-[sub_resource type="Resource" id="Resource_ah0gh"]
+[sub_resource type="Resource" id="Resource_6dleq"]
 script = ExtResource("1_ah0gh")
 method = "LEVEL"
 param = "50"
 target = 886
 
-[sub_resource type="Resource" id="Resource_aoig7"]
+[sub_resource type="Resource" id="Resource_jpfc6"]
 script = ExtResource("3_i2kha")
 move = 310
 
-[sub_resource type="Resource" id="Resource_i2kha"]
+[sub_resource type="Resource" id="Resource_8dwng"]
 script = ExtResource("3_i2kha")
 move = 611
 
-[sub_resource type="Resource" id="Resource_fbg85"]
+[sub_resource type="Resource" id="Resource_88g0s"]
 script = ExtResource("3_i2kha")
 move = 98
 
-[sub_resource type="Resource" id="Resource_6dleq"]
+[sub_resource type="Resource" id="Resource_gua03"]
 script = ExtResource("3_i2kha")
 move = 44
 
@@ -37,6 +37,7 @@ pokedex = "After being reborn as a ghost Pokémon,
 Dreepy wanders the areas it used to
 inhabit back when it was alive in
 prehistoric seas."
+sprite_folder = "dreepy"
 type_1 = 17
 type_2 = 8
 base_hp = 28
@@ -57,6 +58,6 @@ ability_hidden = 130
 height_dm = 5
 weight_hg = 20
 body_color = 3
-level_moves = Array[ExtResource("3_i2kha")]([SubResource("Resource_aoig7"), SubResource("Resource_i2kha"), SubResource("Resource_fbg85"), SubResource("Resource_6dleq")])
+level_moves = Array[ExtResource("3_i2kha")]([SubResource("Resource_jpfc6"), SubResource("Resource_8dwng"), SubResource("Resource_88g0s"), SubResource("Resource_gua03")])
 egg_moves = Array[int]([174, 288, 109, 104, 50, 525, 389])
-evolutions = Array[ExtResource("1_ah0gh")]([SubResource("Resource_ah0gh")])
+evolutions = Array[ExtResource("1_ah0gh")]([SubResource("Resource_6dleq")])

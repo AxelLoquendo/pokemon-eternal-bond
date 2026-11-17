@@ -5,34 +5,34 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_4noij"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_46brh"]
 
-[sub_resource type="Resource" id="Resource_0ge17"]
+[sub_resource type="Resource" id="Resource_6mig5"]
 script = ExtResource("3_4noij")
 move = 29
 
-[sub_resource type="Resource" id="Resource_6fu0h"]
+[sub_resource type="Resource" id="Resource_egort"]
 script = ExtResource("3_4noij")
 move = 133
 
-[sub_resource type="Resource" id="Resource_4noij"]
+[sub_resource type="Resource" id="Resource_nqec3"]
 script = ExtResource("3_4noij")
 move = 156
 
-[sub_resource type="Resource" id="Resource_46brh"]
+[sub_resource type="Resource" id="Resource_xqp12"]
 script = ExtResource("3_4noij")
 level = 35
 move = 34
 
-[sub_resource type="Resource" id="Resource_6mig5"]
+[sub_resource type="Resource" id="Resource_65p4k"]
 script = ExtResource("3_4noij")
 level = 41
 move = 106
 
-[sub_resource type="Resource" id="Resource_egort"]
+[sub_resource type="Resource" id="Resource_hfe58"]
 script = ExtResource("3_4noij")
 level = 48
 move = 38
 
-[sub_resource type="Resource" id="Resource_nqec3"]
+[sub_resource type="Resource" id="Resource_h4bms"]
 script = ExtResource("3_4noij")
 level = 56
 move = 63
@@ -47,6 +47,7 @@ pokedex = "Snorlax's typical day consists of nothing
 more than eating and sleeping. It is such
 a docile Pokémon that there are children
 who use its big belly as a place to play."
+sprite_folder = "snorlax"
 type_1 = 1
 base_hp = 160
 base_atk = 110
@@ -69,6 +70,6 @@ item_rare = 472
 height_dm = 21
 weight_hg = 4600
 body_color = 4
-level_moves = Array[ExtResource("3_4noij")]([SubResource("Resource_0ge17"), SubResource("Resource_6fu0h"), SubResource("Resource_4noij"), SubResource("Resource_46brh"), SubResource("Resource_6mig5"), SubResource("Resource_egort"), SubResource("Resource_nqec3")])
+level_moves = Array[ExtResource("3_4noij")]([SubResource("Resource_6mig5"), SubResource("Resource_egort"), SubResource("Resource_nqec3"), SubResource("Resource_xqp12"), SubResource("Resource_65p4k"), SubResource("Resource_hfe58"), SubResource("Resource_h4bms")])
 egg_moves = Array[int]([122, 204, 38, 174, 90, 18, 228, 68, 363, 495, 562, 612])
 form_species = Array[int]([143, 1500])

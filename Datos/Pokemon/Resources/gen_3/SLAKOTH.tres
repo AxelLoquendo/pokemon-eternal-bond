@@ -5,51 +5,51 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pjtyb"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4cuyj"]
 
-[sub_resource type="Resource" id="Resource_x5vuh"]
+[sub_resource type="Resource" id="Resource_0ldkv"]
 script = ExtResource("1_x5vuh")
 method = "LEVEL"
 param = "18"
 target = 288
 
-[sub_resource type="Resource" id="Resource_krolc"]
+[sub_resource type="Resource" id="Resource_up0ny"]
 script = ExtResource("3_pjtyb")
 move = 10
 
-[sub_resource type="Resource" id="Resource_pjtyb"]
+[sub_resource type="Resource" id="Resource_gcty3"]
 script = ExtResource("3_pjtyb")
 move = 281
 
-[sub_resource type="Resource" id="Resource_4cuyj"]
+[sub_resource type="Resource" id="Resource_irqx5"]
 script = ExtResource("3_pjtyb")
 level = 7
 move = 227
 
-[sub_resource type="Resource" id="Resource_0ldkv"]
+[sub_resource type="Resource" id="Resource_c8uq6"]
 script = ExtResource("3_pjtyb")
 level = 13
 move = 303
 
-[sub_resource type="Resource" id="Resource_up0ny"]
+[sub_resource type="Resource" id="Resource_bh5j8"]
 script = ExtResource("3_pjtyb")
 level = 19
 move = 185
 
-[sub_resource type="Resource" id="Resource_gcty3"]
+[sub_resource type="Resource" id="Resource_km0ed"]
 script = ExtResource("3_pjtyb")
 level = 25
 move = 133
 
-[sub_resource type="Resource" id="Resource_irqx5"]
+[sub_resource type="Resource" id="Resource_0owoe"]
 script = ExtResource("3_pjtyb")
 level = 31
 move = 343
 
-[sub_resource type="Resource" id="Resource_c8uq6"]
+[sub_resource type="Resource" id="Resource_dhpcu"]
 script = ExtResource("3_pjtyb")
 level = 37
 move = 68
 
-[sub_resource type="Resource" id="Resource_bh5j8"]
+[sub_resource type="Resource" id="Resource_vpq1u"]
 script = ExtResource("3_pjtyb")
 level = 43
 move = 175
@@ -64,6 +64,7 @@ pokedex = "It sleeps virtually all day and night long.
 It doesn't change its nest its entire life,
 but it sometimes travels great distances
 by swimming in rivers."
+sprite_folder = "slakoth"
 type_1 = 1
 base_hp = 60
 base_atk = 60
@@ -81,6 +82,6 @@ ability_1 = 54
 height_dm = 8
 weight_hg = 240
 body_color = 5
-level_moves = Array[ExtResource("3_pjtyb")]([SubResource("Resource_krolc"), SubResource("Resource_pjtyb"), SubResource("Resource_4cuyj"), SubResource("Resource_0ldkv"), SubResource("Resource_up0ny"), SubResource("Resource_gcty3"), SubResource("Resource_irqx5"), SubResource("Resource_c8uq6"), SubResource("Resource_bh5j8")])
+level_moves = Array[ExtResource("3_pjtyb")]([SubResource("Resource_up0ny"), SubResource("Resource_gcty3"), SubResource("Resource_irqx5"), SubResource("Resource_c8uq6"), SubResource("Resource_bh5j8"), SubResource("Resource_km0ed"), SubResource("Resource_0owoe"), SubResource("Resource_dhpcu"), SubResource("Resource_vpq1u")])
 egg_moves = Array[int]([228, 163, 34, 173, 306, 174, 214, 359, 400, 495, 321])
-evolutions = Array[ExtResource("1_x5vuh")]([SubResource("Resource_x5vuh")])
+evolutions = Array[ExtResource("1_x5vuh")]([SubResource("Resource_0ldkv")])

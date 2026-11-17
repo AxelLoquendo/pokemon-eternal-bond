@@ -5,62 +5,62 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vae4t"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_18fek"]
 
-[sub_resource type="Resource" id="Resource_jkeea"]
+[sub_resource type="Resource" id="Resource_v6jlk"]
 script = ExtResource("1_jkeea")
 method = "LEVEL"
 param = "26"
 target = 310
 
-[sub_resource type="Resource" id="Resource_08aou"]
+[sub_resource type="Resource" id="Resource_fdufd"]
 script = ExtResource("3_vae4t")
 move = 33
 
-[sub_resource type="Resource" id="Resource_vae4t"]
+[sub_resource type="Resource" id="Resource_evrpm"]
 script = ExtResource("3_vae4t")
 level = 4
 move = 86
 
-[sub_resource type="Resource" id="Resource_18fek"]
+[sub_resource type="Resource" id="Resource_p6s1x"]
 script = ExtResource("3_vae4t")
 level = 9
 move = 43
 
-[sub_resource type="Resource" id="Resource_v6jlk"]
+[sub_resource type="Resource" id="Resource_8hvy4"]
 script = ExtResource("3_vae4t")
 level = 12
 move = 336
 
-[sub_resource type="Resource" id="Resource_fdufd"]
+[sub_resource type="Resource" id="Resource_81766"]
 script = ExtResource("3_vae4t")
 level = 17
 move = 98
 
-[sub_resource type="Resource" id="Resource_evrpm"]
+[sub_resource type="Resource" id="Resource_kyoyf"]
 script = ExtResource("3_vae4t")
 level = 20
 move = 209
 
-[sub_resource type="Resource" id="Resource_p6s1x"]
+[sub_resource type="Resource" id="Resource_swj04"]
 script = ExtResource("3_vae4t")
 level = 25
 move = 316
 
-[sub_resource type="Resource" id="Resource_8hvy4"]
+[sub_resource type="Resource" id="Resource_uivog"]
 script = ExtResource("3_vae4t")
 level = 28
 move = 46
 
-[sub_resource type="Resource" id="Resource_81766"]
+[sub_resource type="Resource" id="Resource_cd7vk"]
 script = ExtResource("3_vae4t")
 level = 33
 move = 44
 
-[sub_resource type="Resource" id="Resource_kyoyf"]
+[sub_resource type="Resource" id="Resource_k4hiu"]
 script = ExtResource("3_vae4t")
 level = 36
 move = 87
 
-[sub_resource type="Resource" id="Resource_swj04"]
+[sub_resource type="Resource" id="Resource_lue07"]
 script = ExtResource("3_vae4t")
 level = 41
 move = 268
@@ -75,6 +75,7 @@ pokedex = "It generates electricity using friction
 from the atmosphere. In seasons with
 especially arid air, its entire body blazes
 with violent showers of sparks."
+sprite_folder = "electrike"
 type_1 = 14
 base_hp = 40
 base_atk = 45
@@ -93,6 +94,6 @@ ability_hidden = 58
 height_dm = 6
 weight_hg = 152
 body_color = 3
-level_moves = Array[ExtResource("3_vae4t")]([SubResource("Resource_08aou"), SubResource("Resource_vae4t"), SubResource("Resource_18fek"), SubResource("Resource_v6jlk"), SubResource("Resource_fdufd"), SubResource("Resource_evrpm"), SubResource("Resource_p6s1x"), SubResource("Resource_8hvy4"), SubResource("Resource_81766"), SubResource("Resource_kyoyf"), SubResource("Resource_swj04")])
+level_moves = Array[ExtResource("3_vae4t")]([SubResource("Resource_fdufd"), SubResource("Resource_evrpm"), SubResource("Resource_p6s1x"), SubResource("Resource_8hvy4"), SubResource("Resource_81766"), SubResource("Resource_kyoyf"), SubResource("Resource_swj04"), SubResource("Resource_uivog"), SubResource("Resource_cd7vk"), SubResource("Resource_k4hiu"), SubResource("Resource_lue07")])
 egg_moves = Array[int]([242, 29, 253, 174, 129, 435, 423, 424, 422, 415, 486, 351, 481, 598])
-evolutions = Array[ExtResource("1_jkeea")]([SubResource("Resource_jkeea")])
+evolutions = Array[ExtResource("1_jkeea")]([SubResource("Resource_v6jlk")])

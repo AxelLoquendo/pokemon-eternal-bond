@@ -5,66 +5,66 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ncvq3"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_p7vhw"]
 
-[sub_resource type="Resource" id="Resource_xh203"]
+[sub_resource type="Resource" id="Resource_vut70"]
 script = ExtResource("1_xh203")
 method = "LEVEL"
 param = "20"
 target = 1371
 
-[sub_resource type="Resource" id="Resource_onedt"]
+[sub_resource type="Resource" id="Resource_hjnst"]
 script = ExtResource("3_ncvq3")
 move = 39
 
-[sub_resource type="Resource" id="Resource_ncvq3"]
+[sub_resource type="Resource" id="Resource_r8t82"]
 script = ExtResource("3_ncvq3")
 move = 341
 
-[sub_resource type="Resource" id="Resource_p7vhw"]
+[sub_resource type="Resource" id="Resource_t2k12"]
 script = ExtResource("3_ncvq3")
 level = 4
 move = 33
 
-[sub_resource type="Resource" id="Resource_vut70"]
+[sub_resource type="Resource" id="Resource_fiyb6"]
 script = ExtResource("3_ncvq3")
 level = 8
 move = 342
 
-[sub_resource type="Resource" id="Resource_hjnst"]
+[sub_resource type="Resource" id="Resource_y7pcc"]
 script = ExtResource("3_ncvq3")
 level = 12
 move = 390
 
-[sub_resource type="Resource" id="Resource_r8t82"]
+[sub_resource type="Resource" id="Resource_81as6"]
 script = ExtResource("3_ncvq3")
 level = 16
 move = 21
 
-[sub_resource type="Resource" id="Resource_t2k12"]
+[sub_resource type="Resource" id="Resource_trlhw"]
 script = ExtResource("3_ncvq3")
 level = 21
 move = 281
 
-[sub_resource type="Resource" id="Resource_fiyb6"]
+[sub_resource type="Resource" id="Resource_ml4ou"]
 script = ExtResource("3_ncvq3")
 level = 24
 move = 398
 
-[sub_resource type="Resource" id="Resource_y7pcc"]
+[sub_resource type="Resource" id="Resource_b3h02"]
 script = ExtResource("3_ncvq3")
 level = 28
 move = 482
 
-[sub_resource type="Resource" id="Resource_81as6"]
+[sub_resource type="Resource" id="Resource_e1hug"]
 script = ExtResource("3_ncvq3")
 level = 32
 move = 133
 
-[sub_resource type="Resource" id="Resource_trlhw"]
+[sub_resource type="Resource" id="Resource_fe5jx"]
 script = ExtResource("3_ncvq3")
 level = 36
 move = 92
 
-[sub_resource type="Resource" id="Resource_ml4ou"]
+[sub_resource type="Resource" id="Resource_m8hlt"]
 script = ExtResource("3_ncvq3")
 level = 40
 move = 89
@@ -79,6 +79,7 @@ pokedex = "After losing a territorial struggle,
 Wooper began living on land.
 The Pokémon changed over time, developing
 a poisonous film to protect its body."
+sprite_folder = "wooper/paldea"
 type_1 = 4
 type_2 = 5
 base_hp = 55
@@ -98,7 +99,7 @@ ability_hidden = 109
 height_dm = 4
 weight_hg = 110
 body_color = 5
-level_moves = Array[ExtResource("3_ncvq3")]([SubResource("Resource_onedt"), SubResource("Resource_ncvq3"), SubResource("Resource_p7vhw"), SubResource("Resource_vut70"), SubResource("Resource_hjnst"), SubResource("Resource_r8t82"), SubResource("Resource_t2k12"), SubResource("Resource_fiyb6"), SubResource("Resource_y7pcc"), SubResource("Resource_81as6"), SubResource("Resource_trlhw"), SubResource("Resource_ml4ou")])
+level_moves = Array[ExtResource("3_ncvq3")]([SubResource("Resource_hjnst"), SubResource("Resource_r8t82"), SubResource("Resource_t2k12"), SubResource("Resource_fiyb6"), SubResource("Resource_y7pcc"), SubResource("Resource_81as6"), SubResource("Resource_trlhw"), SubResource("Resource_ml4ou"), SubResource("Resource_b3h02"), SubResource("Resource_e1hug"), SubResource("Resource_fe5jx"), SubResource("Resource_m8hlt")])
 egg_moves = Array[int]([491, 495, 246, 68, 174, 24, 114, 54, 105, 255, 254, 256])
-evolutions = Array[ExtResource("1_xh203")]([SubResource("Resource_xh203")])
+evolutions = Array[ExtResource("1_xh203")]([SubResource("Resource_vut70")])
 form_species = Array[int]([194, 1405])

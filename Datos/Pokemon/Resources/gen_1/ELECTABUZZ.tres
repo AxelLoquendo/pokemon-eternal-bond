@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_lcvqq"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xa2oj"]
 
-[sub_resource type="Resource" id="Resource_nmtrl"]
+[sub_resource type="Resource" id="Resource_gjmbg"]
 script = ExtResource("1_nmtrl")
 method = "ITEM"
 param = "ITEM_ELECTIRIZER"
 target = 466
 
-[sub_resource type="Resource" id="Resource_0l7si"]
+[sub_resource type="Resource" id="Resource_ok3u8"]
 script = ExtResource("3_lcvqq")
 move = 98
 
-[sub_resource type="Resource" id="Resource_lcvqq"]
+[sub_resource type="Resource" id="Resource_ptkfs"]
 script = ExtResource("3_lcvqq")
 move = 43
 
-[sub_resource type="Resource" id="Resource_xa2oj"]
+[sub_resource type="Resource" id="Resource_aee1j"]
 script = ExtResource("3_lcvqq")
 level = 34
 move = 84
 
-[sub_resource type="Resource" id="Resource_gjmbg"]
+[sub_resource type="Resource" id="Resource_cl1pt"]
 script = ExtResource("3_lcvqq")
 level = 37
 move = 103
 
-[sub_resource type="Resource" id="Resource_ok3u8"]
+[sub_resource type="Resource" id="Resource_bshif"]
 script = ExtResource("3_lcvqq")
 level = 42
 move = 9
 
-[sub_resource type="Resource" id="Resource_ptkfs"]
+[sub_resource type="Resource" id="Resource_vhqb0"]
 script = ExtResource("3_lcvqq")
 level = 49
 move = 113
 
-[sub_resource type="Resource" id="Resource_aee1j"]
+[sub_resource type="Resource" id="Resource_xscxh"]
 script = ExtResource("3_lcvqq")
 level = 54
 move = 87
@@ -54,6 +54,7 @@ pokedex = "When a storm approaches, it competes with
 others to scale heights that are likely to
 be stricken by lightning. Some towns use
 Electabuzz in place of lightning rods."
+sprite_folder = "electabuzz"
 type_1 = 14
 base_hp = 65
 base_atk = 83
@@ -73,5 +74,5 @@ height_dm = 11
 weight_hg = 300
 body_color = 2
 no_flip = true
-level_moves = Array[ExtResource("3_lcvqq")]([SubResource("Resource_0l7si"), SubResource("Resource_lcvqq"), SubResource("Resource_xa2oj"), SubResource("Resource_gjmbg"), SubResource("Resource_ok3u8"), SubResource("Resource_ptkfs"), SubResource("Resource_aee1j")])
-evolutions = Array[ExtResource("1_nmtrl")]([SubResource("Resource_nmtrl")])
+level_moves = Array[ExtResource("3_lcvqq")]([SubResource("Resource_ok3u8"), SubResource("Resource_ptkfs"), SubResource("Resource_aee1j"), SubResource("Resource_cl1pt"), SubResource("Resource_bshif"), SubResource("Resource_vhqb0"), SubResource("Resource_xscxh")])
+evolutions = Array[ExtResource("1_nmtrl")]([SubResource("Resource_gjmbg")])

@@ -5,37 +5,37 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qajxk"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_a2loj"]
 
-[sub_resource type="Resource" id="Resource_n667g"]
+[sub_resource type="Resource" id="Resource_gs3g5"]
 script = ExtResource("1_n667g")
 method = "LEVEL"
 param = "33"
 target = 55
 
-[sub_resource type="Resource" id="Resource_5m00m"]
+[sub_resource type="Resource" id="Resource_fqkpb"]
 script = ExtResource("3_qajxk")
 move = 10
 
-[sub_resource type="Resource" id="Resource_qajxk"]
+[sub_resource type="Resource" id="Resource_bkyb6"]
 script = ExtResource("3_qajxk")
 level = 28
 move = 39
 
-[sub_resource type="Resource" id="Resource_a2loj"]
+[sub_resource type="Resource" id="Resource_h575j"]
 script = ExtResource("3_qajxk")
 level = 31
 move = 50
 
-[sub_resource type="Resource" id="Resource_gs3g5"]
+[sub_resource type="Resource" id="Resource_8vutr"]
 script = ExtResource("3_qajxk")
 level = 36
 move = 93
 
-[sub_resource type="Resource" id="Resource_fqkpb"]
+[sub_resource type="Resource" id="Resource_2ena3"]
 script = ExtResource("3_qajxk")
 level = 43
 move = 154
 
-[sub_resource type="Resource" id="Resource_bkyb6"]
+[sub_resource type="Resource" id="Resource_whigo"]
 script = ExtResource("3_qajxk")
 level = 52
 move = 56
@@ -50,6 +50,7 @@ pokedex = "When its headache intensifies, it starts
 using strange powers. However, it has no
 recollection of its powers, so it always
 looks befuddled and bewildered."
+sprite_folder = "psyduck"
 type_1 = 12
 base_hp = 50
 base_atk = 52
@@ -68,6 +69,6 @@ ability_hidden = 33
 height_dm = 8
 weight_hg = 196
 body_color = 2
-level_moves = Array[ExtResource("3_qajxk")]([SubResource("Resource_5m00m"), SubResource("Resource_qajxk"), SubResource("Resource_a2loj"), SubResource("Resource_gs3g5"), SubResource("Resource_fqkpb"), SubResource("Resource_bkyb6")])
+level_moves = Array[ExtResource("3_qajxk")]([SubResource("Resource_fqkpb"), SubResource("Resource_bkyb6"), SubResource("Resource_h575j"), SubResource("Resource_8vutr"), SubResource("Resource_2ena3"), SubResource("Resource_whigo")])
 egg_moves = Array[int]([95, 60, 193, 248, 238, 287, 109, 281, 426, 227, 290, 214, 485, 493, 499])
-evolutions = Array[ExtResource("1_n667g")]([SubResource("Resource_n667g")])
+evolutions = Array[ExtResource("1_n667g")]([SubResource("Resource_gs3g5")])

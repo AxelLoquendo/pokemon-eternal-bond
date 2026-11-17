@@ -5,76 +5,76 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2i36a"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_uefab"]
 
-[sub_resource type="Resource" id="Resource_fk4kg"]
+[sub_resource type="Resource" id="Resource_y1wff"]
 script = ExtResource("1_fk4kg")
 method = "LEVEL"
 param = "22"
 target = 544
 
-[sub_resource type="Resource" id="Resource_6c6wq"]
+[sub_resource type="Resource" id="Resource_fxmm2"]
 script = ExtResource("3_2i36a")
 move = 111
 
-[sub_resource type="Resource" id="Resource_2i36a"]
+[sub_resource type="Resource" id="Resource_xirpn"]
 script = ExtResource("3_2i36a")
 move = 205
 
-[sub_resource type="Resource" id="Resource_uefab"]
+[sub_resource type="Resource" id="Resource_4ro12"]
 script = ExtResource("3_2i36a")
 level = 5
 move = 40
 
-[sub_resource type="Resource" id="Resource_y1wff"]
+[sub_resource type="Resource" id="Resource_cow4t"]
 script = ExtResource("3_2i36a")
 level = 8
 move = 103
 
-[sub_resource type="Resource" id="Resource_fxmm2"]
+[sub_resource type="Resource" id="Resource_7dvhl"]
 script = ExtResource("3_2i36a")
 level = 12
 move = 228
 
-[sub_resource type="Resource" id="Resource_xirpn"]
+[sub_resource type="Resource" id="Resource_b6gra"]
 script = ExtResource("3_2i36a")
 level = 15
 move = 182
 
-[sub_resource type="Resource" id="Resource_4ro12"]
+[sub_resource type="Resource" id="Resource_aogvd"]
 script = ExtResource("3_2i36a")
 level = 19
 move = 342
 
-[sub_resource type="Resource" id="Resource_cow4t"]
+[sub_resource type="Resource" id="Resource_rernk"]
 script = ExtResource("3_2i36a")
 level = 22
 move = 450
 
-[sub_resource type="Resource" id="Resource_7dvhl"]
+[sub_resource type="Resource" id="Resource_8qnxa"]
 script = ExtResource("3_2i36a")
 level = 26
 move = 474
 
-[sub_resource type="Resource" id="Resource_b6gra"]
+[sub_resource type="Resource" id="Resource_fiurr"]
 script = ExtResource("3_2i36a")
 level = 29
 move = 97
 
-[sub_resource type="Resource" id="Resource_aogvd"]
+[sub_resource type="Resource" id="Resource_55y31"]
 script = ExtResource("3_2i36a")
 level = 33
 move = 537
 
-[sub_resource type="Resource" id="Resource_rernk"]
+[sub_resource type="Resource" id="Resource_fbnep"]
 script = ExtResource("3_2i36a")
 level = 36
 move = 92
 
-[sub_resource type="Resource" id="Resource_8qnxa"]
+[sub_resource type="Resource" id="Resource_gv5y3"]
 script = ExtResource("3_2i36a")
 level = 40
 move = 431
 
-[sub_resource type="Resource" id="Resource_fiurr"]
+[sub_resource type="Resource" id="Resource_tubfc"]
 script = ExtResource("3_2i36a")
 level = 43
 move = 38
@@ -89,6 +89,7 @@ pokedex = "Using the feelers on its head and tail,
 it picks up vibrations in the air to
 determine its prey's location and state.
 It is brutally aggressive."
+sprite_folder = "venipede"
 type_1 = 7
 type_2 = 4
 base_hp = 30
@@ -109,6 +110,6 @@ ability_hidden = 3
 item_rare = 432
 height_dm = 4
 weight_hg = 53
-level_moves = Array[ExtResource("3_2i36a")]([SubResource("Resource_6c6wq"), SubResource("Resource_2i36a"), SubResource("Resource_uefab"), SubResource("Resource_y1wff"), SubResource("Resource_fxmm2"), SubResource("Resource_xirpn"), SubResource("Resource_4ro12"), SubResource("Resource_cow4t"), SubResource("Resource_7dvhl"), SubResource("Resource_b6gra"), SubResource("Resource_aogvd"), SubResource("Resource_rernk"), SubResource("Resource_8qnxa"), SubResource("Resource_fiurr")])
+level_moves = Array[ExtResource("3_2i36a")]([SubResource("Resource_fxmm2"), SubResource("Resource_xirpn"), SubResource("Resource_4ro12"), SubResource("Resource_cow4t"), SubResource("Resource_7dvhl"), SubResource("Resource_b6gra"), SubResource("Resource_aogvd"), SubResource("Resource_rernk"), SubResource("Resource_8qnxa"), SubResource("Resource_fiurr"), SubResource("Resource_55y31"), SubResource("Resource_fbnep"), SubResource("Resource_gv5y3"), SubResource("Resource_tubfc")])
 egg_moves = Array[int]([41, 42, 390, 191, 36, 431])
-evolutions = Array[ExtResource("1_fk4kg")]([SubResource("Resource_fk4kg")])
+evolutions = Array[ExtResource("1_fk4kg")]([SubResource("Resource_y1wff")])

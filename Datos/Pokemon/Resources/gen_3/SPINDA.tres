@@ -5,56 +5,56 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nk10p"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7yk1x"]
 
-[sub_resource type="Resource" id="Resource_aetq4"]
+[sub_resource type="Resource" id="Resource_c0tt3"]
 script = ExtResource("3_nk10p")
 move = 33
 
-[sub_resource type="Resource" id="Resource_5i88e"]
+[sub_resource type="Resource" id="Resource_0oriy"]
 script = ExtResource("3_nk10p")
 level = 5
 move = 253
 
-[sub_resource type="Resource" id="Resource_nk10p"]
+[sub_resource type="Resource" id="Resource_nwk0u"]
 script = ExtResource("3_nk10p")
 level = 12
 move = 185
 
-[sub_resource type="Resource" id="Resource_7yk1x"]
+[sub_resource type="Resource" id="Resource_jhid5"]
 script = ExtResource("3_nk10p")
 level = 16
 move = 60
 
-[sub_resource type="Resource" id="Resource_c0tt3"]
+[sub_resource type="Resource" id="Resource_4iema"]
 script = ExtResource("3_nk10p")
 level = 23
 move = 95
 
-[sub_resource type="Resource" id="Resource_0oriy"]
+[sub_resource type="Resource" id="Resource_iwp60"]
 script = ExtResource("3_nk10p")
 level = 27
 move = 146
 
-[sub_resource type="Resource" id="Resource_nwk0u"]
+[sub_resource type="Resource" id="Resource_8082o"]
 script = ExtResource("3_nk10p")
 level = 34
 move = 298
 
-[sub_resource type="Resource" id="Resource_jhid5"]
+[sub_resource type="Resource" id="Resource_dkkr2"]
 script = ExtResource("3_nk10p")
 level = 38
 move = 244
 
-[sub_resource type="Resource" id="Resource_4iema"]
+[sub_resource type="Resource" id="Resource_unufu"]
 script = ExtResource("3_nk10p")
 level = 45
 move = 38
 
-[sub_resource type="Resource" id="Resource_iwp60"]
+[sub_resource type="Resource" id="Resource_y5f34"]
 script = ExtResource("3_nk10p")
 level = 49
 move = 175
 
-[sub_resource type="Resource" id="Resource_8082o"]
+[sub_resource type="Resource" id="Resource_p58aw"]
 script = ExtResource("3_nk10p")
 level = 56
 move = 37
@@ -69,6 +69,7 @@ pokedex = "It is distinguished by a pattern of
 spots that is always different. Its
 unsteady, tottering walk has the
 effect of fouling its foe's aim."
+sprite_folder = "spinda"
 type_1 = 1
 base_hp = 60
 base_atk = 60
@@ -90,5 +91,5 @@ height_dm = 11
 weight_hg = 50
 body_color = 5
 no_flip = true
-level_moves = Array[ExtResource("3_nk10p")]([SubResource("Resource_aetq4"), SubResource("Resource_5i88e"), SubResource("Resource_nk10p"), SubResource("Resource_7yk1x"), SubResource("Resource_c0tt3"), SubResource("Resource_0oriy"), SubResource("Resource_nwk0u"), SubResource("Resource_jhid5"), SubResource("Resource_4iema"), SubResource("Resource_iwp60"), SubResource("Resource_8082o")])
+level_moves = Array[ExtResource("3_nk10p")]([SubResource("Resource_c0tt3"), SubResource("Resource_0oriy"), SubResource("Resource_nwk0u"), SubResource("Resource_jhid5"), SubResource("Resource_4iema"), SubResource("Resource_iwp60"), SubResource("Resource_8082o"), SubResource("Resource_dkkr2"), SubResource("Resource_unufu"), SubResource("Resource_y5f34"), SubResource("Resource_p58aw")])
 egg_moves = Array[int]([227, 274, 50, 226, 273, 271, 265, 252, 272, 427, 313, 229, 196, 352, 375, 470, 634])

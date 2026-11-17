@@ -5,34 +5,34 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_x4d5o"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mxyb6"]
 
-[sub_resource type="Resource" id="Resource_jiksu"]
+[sub_resource type="Resource" id="Resource_hbquy"]
 script = ExtResource("3_x4d5o")
 move = 29
 
-[sub_resource type="Resource" id="Resource_qwyav"]
+[sub_resource type="Resource" id="Resource_pe4vv"]
 script = ExtResource("3_x4d5o")
 move = 133
 
-[sub_resource type="Resource" id="Resource_x4d5o"]
+[sub_resource type="Resource" id="Resource_dccdf"]
 script = ExtResource("3_x4d5o")
 move = 156
 
-[sub_resource type="Resource" id="Resource_mxyb6"]
+[sub_resource type="Resource" id="Resource_d52fx"]
 script = ExtResource("3_x4d5o")
 level = 35
 move = 34
 
-[sub_resource type="Resource" id="Resource_hbquy"]
+[sub_resource type="Resource" id="Resource_qd78g"]
 script = ExtResource("3_x4d5o")
 level = 41
 move = 106
 
-[sub_resource type="Resource" id="Resource_pe4vv"]
+[sub_resource type="Resource" id="Resource_t1j4w"]
 script = ExtResource("3_x4d5o")
 level = 48
 move = 38
 
-[sub_resource type="Resource" id="Resource_dccdf"]
+[sub_resource type="Resource" id="Resource_y1khq"]
 script = ExtResource("3_x4d5o")
 level = 56
 move = 63
@@ -47,6 +47,7 @@ pokedex = "Gigantamax energy has affected
 stray seeds and even pebbles that
 got stuck to Snorlax, making them grow
 to a huge size."
+sprite_folder = "snorlax/gmax"
 type_1 = 1
 base_hp = 160
 base_atk = 110
@@ -68,6 +69,6 @@ item_common = 472
 item_rare = 472
 height_dm = 350
 body_color = 4
-level_moves = Array[ExtResource("3_x4d5o")]([SubResource("Resource_jiksu"), SubResource("Resource_qwyav"), SubResource("Resource_x4d5o"), SubResource("Resource_mxyb6"), SubResource("Resource_hbquy"), SubResource("Resource_pe4vv"), SubResource("Resource_dccdf")])
+level_moves = Array[ExtResource("3_x4d5o")]([SubResource("Resource_hbquy"), SubResource("Resource_pe4vv"), SubResource("Resource_dccdf"), SubResource("Resource_d52fx"), SubResource("Resource_qd78g"), SubResource("Resource_t1j4w"), SubResource("Resource_y1khq")])
 egg_moves = Array[int]([122, 204, 38, 174, 90, 18, 228, 68, 363, 495, 562, 612])
 form_species = Array[int]([143, 1500])

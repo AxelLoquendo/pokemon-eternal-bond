@@ -5,75 +5,75 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_m72c4"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_2xf23"]
 
-[sub_resource type="Resource" id="Resource_fxk4o"]
+[sub_resource type="Resource" id="Resource_0xvrn"]
 script = ExtResource("1_fxk4o")
 method = "LEVEL"
 param = "36"
 target = 392
 
-[sub_resource type="Resource" id="Resource_bttya"]
+[sub_resource type="Resource" id="Resource_7m3si"]
 script = ExtResource("3_m72c4")
 move = 10
 
-[sub_resource type="Resource" id="Resource_m72c4"]
+[sub_resource type="Resource" id="Resource_sj0fc"]
 script = ExtResource("3_m72c4")
 move = 43
 
-[sub_resource type="Resource" id="Resource_2xf23"]
+[sub_resource type="Resource" id="Resource_0iceg"]
 script = ExtResource("3_m72c4")
 move = 52
 
-[sub_resource type="Resource" id="Resource_0xvrn"]
+[sub_resource type="Resource" id="Resource_8ycdq"]
 script = ExtResource("3_m72c4")
 level = 7
 move = 52
 
-[sub_resource type="Resource" id="Resource_7m3si"]
+[sub_resource type="Resource" id="Resource_s6jfa"]
 script = ExtResource("3_m72c4")
 level = 9
 move = 269
 
-[sub_resource type="Resource" id="Resource_sj0fc"]
+[sub_resource type="Resource" id="Resource_lu7uy"]
 script = ExtResource("3_m72c4")
 level = 14
 move = 183
 
-[sub_resource type="Resource" id="Resource_0iceg"]
+[sub_resource type="Resource" id="Resource_bg1qx"]
 script = ExtResource("3_m72c4")
 level = 16
 move = 154
 
-[sub_resource type="Resource" id="Resource_8ycdq"]
+[sub_resource type="Resource" id="Resource_42l4d"]
 script = ExtResource("3_m72c4")
 level = 19
 move = 172
 
-[sub_resource type="Resource" id="Resource_s6jfa"]
+[sub_resource type="Resource" id="Resource_yierg"]
 script = ExtResource("3_m72c4")
 level = 26
 move = 364
 
-[sub_resource type="Resource" id="Resource_lu7uy"]
+[sub_resource type="Resource" id="Resource_pik2h"]
 script = ExtResource("3_m72c4")
 level = 29
 move = 259
 
-[sub_resource type="Resource" id="Resource_bg1qx"]
+[sub_resource type="Resource" id="Resource_npnn6"]
 script = ExtResource("3_m72c4")
 level = 36
 move = 370
 
-[sub_resource type="Resource" id="Resource_42l4d"]
+[sub_resource type="Resource" id="Resource_jeeml"]
 script = ExtResource("3_m72c4")
 level = 39
 move = 83
 
-[sub_resource type="Resource" id="Resource_yierg"]
+[sub_resource type="Resource" id="Resource_qfhnd"]
 script = ExtResource("3_m72c4")
 level = 46
 move = 303
 
-[sub_resource type="Resource" id="Resource_pik2h"]
+[sub_resource type="Resource" id="Resource_emtgg"]
 script = ExtResource("3_m72c4")
 level = 49
 move = 394
@@ -88,6 +88,7 @@ pokedex = "It carefully controls the intensity of
 the flame on its tail, so as to keep its
 foes at an adequate distance.
 Its fiery tail is but one weapon."
+sprite_folder = "monferno"
 type_1 = 11
 type_2 = 2
 base_hp = 64
@@ -109,5 +110,5 @@ height_dm = 9
 weight_hg = 220
 body_color = 5
 no_flip = true
-level_moves = Array[ExtResource("3_m72c4")]([SubResource("Resource_bttya"), SubResource("Resource_m72c4"), SubResource("Resource_2xf23"), SubResource("Resource_0xvrn"), SubResource("Resource_7m3si"), SubResource("Resource_sj0fc"), SubResource("Resource_0iceg"), SubResource("Resource_8ycdq"), SubResource("Resource_s6jfa"), SubResource("Resource_lu7uy"), SubResource("Resource_bg1qx"), SubResource("Resource_42l4d"), SubResource("Resource_yierg"), SubResource("Resource_pik2h")])
-evolutions = Array[ExtResource("1_fxk4o")]([SubResource("Resource_fxk4o")])
+level_moves = Array[ExtResource("3_m72c4")]([SubResource("Resource_7m3si"), SubResource("Resource_sj0fc"), SubResource("Resource_0iceg"), SubResource("Resource_8ycdq"), SubResource("Resource_s6jfa"), SubResource("Resource_lu7uy"), SubResource("Resource_bg1qx"), SubResource("Resource_42l4d"), SubResource("Resource_yierg"), SubResource("Resource_pik2h"), SubResource("Resource_npnn6"), SubResource("Resource_jeeml"), SubResource("Resource_qfhnd"), SubResource("Resource_emtgg")])
+evolutions = Array[ExtResource("1_fxk4o")]([SubResource("Resource_0xvrn")])

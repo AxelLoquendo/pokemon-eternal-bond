@@ -5,33 +5,33 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h7fqw"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gxxgs"]
 
-[sub_resource type="Resource" id="Resource_g2iec"]
+[sub_resource type="Resource" id="Resource_dbqdj"]
 script = ExtResource("3_h7fqw")
 move = 79
 
-[sub_resource type="Resource" id="Resource_w0bp1"]
+[sub_resource type="Resource" id="Resource_0gxl5"]
 script = ExtResource("3_h7fqw")
 move = 78
 
-[sub_resource type="Resource" id="Resource_h7fqw"]
+[sub_resource type="Resource" id="Resource_86q0r"]
 script = ExtResource("3_h7fqw")
 move = 51
 
-[sub_resource type="Resource" id="Resource_gxxgs"]
+[sub_resource type="Resource" id="Resource_sijdi"]
 script = ExtResource("3_h7fqw")
 move = 75
 
-[sub_resource type="Resource" id="Resource_dbqdj"]
+[sub_resource type="Resource" id="Resource_xfnpn"]
 script = ExtResource("3_h7fqw")
 level = 13
 move = 35
 
-[sub_resource type="Resource" id="Resource_0gxl5"]
+[sub_resource type="Resource" id="Resource_bbit4"]
 script = ExtResource("3_h7fqw")
 level = 15
 move = 77
 
-[sub_resource type="Resource" id="Resource_86q0r"]
+[sub_resource type="Resource" id="Resource_xlbel"]
 script = ExtResource("3_h7fqw")
 level = 18
 move = 79
@@ -46,6 +46,7 @@ pokedex = "The long vine extending from its head is
 waved about as if it were a living thing to
 attract prey. When an unsuspecting victim
 approaches, it is swallowed whole."
+sprite_folder = "victreebel"
 type_1 = 13
 type_2 = 4
 base_hp = 80
@@ -63,5 +64,5 @@ height_dm = 17
 weight_hg = 155
 body_color = 3
 no_flip = true
-level_moves = Array[ExtResource("3_h7fqw")]([SubResource("Resource_g2iec"), SubResource("Resource_w0bp1"), SubResource("Resource_h7fqw"), SubResource("Resource_gxxgs"), SubResource("Resource_dbqdj"), SubResource("Resource_0gxl5"), SubResource("Resource_86q0r")])
+level_moves = Array[ExtResource("3_h7fqw")]([SubResource("Resource_dbqdj"), SubResource("Resource_0gxl5"), SubResource("Resource_86q0r"), SubResource("Resource_sijdi"), SubResource("Resource_xfnpn"), SubResource("Resource_bbit4"), SubResource("Resource_xlbel")])
 form_species = Array[int]([71, 1525])

@@ -5,57 +5,57 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5iyqg"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rjoub"]
 
-[sub_resource type="Resource" id="Resource_ft0l7"]
+[sub_resource type="Resource" id="Resource_b4o1l"]
 script = ExtResource("1_ft0l7")
 method = "LEVEL"
 param = "40"
 target = 346
 
-[sub_resource type="Resource" id="Resource_sn1oi"]
+[sub_resource type="Resource" id="Resource_nsngn"]
 script = ExtResource("3_5iyqg")
 move = 310
 
-[sub_resource type="Resource" id="Resource_5iyqg"]
+[sub_resource type="Resource" id="Resource_ygrlb"]
 script = ExtResource("3_5iyqg")
 level = 8
 move = 132
 
-[sub_resource type="Resource" id="Resource_rjoub"]
+[sub_resource type="Resource" id="Resource_qjvth"]
 script = ExtResource("3_5iyqg")
 level = 15
 move = 51
 
-[sub_resource type="Resource" id="Resource_b4o1l"]
+[sub_resource type="Resource" id="Resource_xfgky"]
 script = ExtResource("3_5iyqg")
 level = 22
 move = 275
 
-[sub_resource type="Resource" id="Resource_nsngn"]
+[sub_resource type="Resource" id="Resource_a8d0u"]
 script = ExtResource("3_5iyqg")
 level = 29
 move = 109
 
-[sub_resource type="Resource" id="Resource_ygrlb"]
+[sub_resource type="Resource" id="Resource_gmwhh"]
 script = ExtResource("3_5iyqg")
 level = 36
 move = 133
 
-[sub_resource type="Resource" id="Resource_qjvth"]
+[sub_resource type="Resource" id="Resource_useup"]
 script = ExtResource("3_5iyqg")
 level = 43
 move = 246
 
-[sub_resource type="Resource" id="Resource_xfgky"]
+[sub_resource type="Resource" id="Resource_pfoab"]
 script = ExtResource("3_5iyqg")
 level = 50
 move = 254
 
-[sub_resource type="Resource" id="Resource_a8d0u"]
+[sub_resource type="Resource" id="Resource_562wv"]
 script = ExtResource("3_5iyqg")
 level = 50
 move = 256
 
-[sub_resource type="Resource" id="Resource_gmwhh"]
+[sub_resource type="Resource" id="Resource_snyep"]
 script = ExtResource("3_5iyqg")
 level = 50
 move = 255
@@ -70,6 +70,7 @@ pokedex = "It disguises itself as seaweed by making
 its tentacles sway. Unsuspecting prey
 that come too close are swallowed whole.
 It became extinct 100 million years ago."
+sprite_folder = "lileep"
 type_1 = 6
 type_2 = 13
 base_hp = 66
@@ -90,6 +91,6 @@ item_rare = 491
 height_dm = 10
 weight_hg = 238
 body_color = 6
-level_moves = Array[ExtResource("3_5iyqg")]([SubResource("Resource_sn1oi"), SubResource("Resource_5iyqg"), SubResource("Resource_rjoub"), SubResource("Resource_b4o1l"), SubResource("Resource_nsngn"), SubResource("Resource_ygrlb"), SubResource("Resource_qjvth"), SubResource("Resource_xfgky"), SubResource("Resource_a8d0u"), SubResource("Resource_gmwhh")])
+level_moves = Array[ExtResource("3_5iyqg")]([SubResource("Resource_nsngn"), SubResource("Resource_ygrlb"), SubResource("Resource_qjvth"), SubResource("Resource_xfgky"), SubResource("Resource_a8d0u"), SubResource("Resource_gmwhh"), SubResource("Resource_useup"), SubResource("Resource_pfoab"), SubResource("Resource_562wv"), SubResource("Resource_snyep")])
 egg_moves = Array[int]([112, 105, 243, 378, 321, 174, 72, 203, 446])
-evolutions = Array[ExtResource("1_ft0l7")]([SubResource("Resource_ft0l7")])
+evolutions = Array[ExtResource("1_ft0l7")]([SubResource("Resource_b4o1l")])

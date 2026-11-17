@@ -5,46 +5,46 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6w05y"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wkkmf"]
 
-[sub_resource type="Resource" id="Resource_tpdpl"]
+[sub_resource type="Resource" id="Resource_xutfm"]
 script = ExtResource("1_tpdpl")
 method = "LEVEL"
 param = "16"
 target = 30
 
-[sub_resource type="Resource" id="Resource_5a7e8"]
+[sub_resource type="Resource" id="Resource_a2ebo"]
 script = ExtResource("3_6w05y")
 move = 45
 
-[sub_resource type="Resource" id="Resource_6w05y"]
+[sub_resource type="Resource" id="Resource_tvtsj"]
 script = ExtResource("3_6w05y")
 move = 33
 
-[sub_resource type="Resource" id="Resource_wkkmf"]
+[sub_resource type="Resource" id="Resource_qjfco"]
 script = ExtResource("3_6w05y")
 level = 8
 move = 10
 
-[sub_resource type="Resource" id="Resource_xutfm"]
+[sub_resource type="Resource" id="Resource_osfsr"]
 script = ExtResource("3_6w05y")
 level = 12
 move = 24
 
-[sub_resource type="Resource" id="Resource_a2ebo"]
+[sub_resource type="Resource" id="Resource_7s1av"]
 script = ExtResource("3_6w05y")
 level = 17
 move = 40
 
-[sub_resource type="Resource" id="Resource_tvtsj"]
+[sub_resource type="Resource" id="Resource_wsya0"]
 script = ExtResource("3_6w05y")
 level = 23
 move = 39
 
-[sub_resource type="Resource" id="Resource_qjfco"]
+[sub_resource type="Resource" id="Resource_f8kgt"]
 script = ExtResource("3_6w05y")
 level = 30
 move = 44
 
-[sub_resource type="Resource" id="Resource_osfsr"]
+[sub_resource type="Resource" id="Resource_lre10"]
 script = ExtResource("3_6w05y")
 level = 38
 move = 154
@@ -59,6 +59,7 @@ pokedex = "Its highly toxic barbs are thought to have
 developed as protection for this small-
 bodied Pokémon. When enraged, it releases
 a horrible toxin from its horn."
+sprite_folder = "nidoran_f"
 type_1 = 4
 base_hp = 55
 base_atk = 47
@@ -79,6 +80,6 @@ ability_hidden = 55
 height_dm = 4
 weight_hg = 70
 body_color = 1
-level_moves = Array[ExtResource("3_6w05y")]([SubResource("Resource_5a7e8"), SubResource("Resource_6w05y"), SubResource("Resource_wkkmf"), SubResource("Resource_xutfm"), SubResource("Resource_a2ebo"), SubResource("Resource_tvtsj"), SubResource("Resource_qjfco"), SubResource("Resource_osfsr")])
+level_moves = Array[ExtResource("3_6w05y")]([SubResource("Resource_a2ebo"), SubResource("Resource_tvtsj"), SubResource("Resource_qjfco"), SubResource("Resource_osfsr"), SubResource("Resource_7s1av"), SubResource("Resource_wsya0"), SubResource("Resource_f8kgt"), SubResource("Resource_lre10")])
 egg_moves = Array[int]([48, 50, 36, 116, 204, 68, 251, 228, 130, 231, 342, 203, 498, 599])
-evolutions = Array[ExtResource("1_tpdpl")]([SubResource("Resource_tpdpl")])
+evolutions = Array[ExtResource("1_tpdpl")]([SubResource("Resource_xutfm")])

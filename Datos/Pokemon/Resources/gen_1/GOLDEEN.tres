@@ -5,46 +5,46 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3xsaj"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kc14y"]
 
-[sub_resource type="Resource" id="Resource_r34kj"]
+[sub_resource type="Resource" id="Resource_nckxm"]
 script = ExtResource("1_r34kj")
 method = "LEVEL"
 param = "33"
 target = 119
 
-[sub_resource type="Resource" id="Resource_rdory"]
+[sub_resource type="Resource" id="Resource_cjvsy"]
 script = ExtResource("3_3xsaj")
 move = 64
 
-[sub_resource type="Resource" id="Resource_3xsaj"]
+[sub_resource type="Resource" id="Resource_2uvo2"]
 script = ExtResource("3_3xsaj")
 move = 39
 
-[sub_resource type="Resource" id="Resource_kc14y"]
+[sub_resource type="Resource" id="Resource_5bcrr"]
 script = ExtResource("3_3xsaj")
 level = 19
 move = 48
 
-[sub_resource type="Resource" id="Resource_nckxm"]
+[sub_resource type="Resource" id="Resource_7fp3u"]
 script = ExtResource("3_3xsaj")
 level = 24
 move = 30
 
-[sub_resource type="Resource" id="Resource_cjvsy"]
+[sub_resource type="Resource" id="Resource_puu22"]
 script = ExtResource("3_3xsaj")
 level = 30
 move = 31
 
-[sub_resource type="Resource" id="Resource_2uvo2"]
+[sub_resource type="Resource" id="Resource_qww6n"]
 script = ExtResource("3_3xsaj")
 level = 37
 move = 127
 
-[sub_resource type="Resource" id="Resource_5bcrr"]
+[sub_resource type="Resource" id="Resource_4rkys"]
 script = ExtResource("3_3xsaj")
 level = 45
 move = 32
 
-[sub_resource type="Resource" id="Resource_7fp3u"]
+[sub_resource type="Resource" id="Resource_sjitp"]
 script = ExtResource("3_3xsaj")
 level = 54
 move = 97
@@ -59,6 +59,7 @@ pokedex = "In the springtime, schools of Goldeen
 can be seen swimming up falls and rivers.
 It metes out staggering damage with its
 single horn."
+sprite_folder = "goldeen"
 type_1 = 12
 base_hp = 45
 base_atk = 67
@@ -76,6 +77,6 @@ ability_hidden = 31
 item_rare = 427
 height_dm = 6
 weight_hg = 150
-level_moves = Array[ExtResource("3_3xsaj")]([SubResource("Resource_rdory"), SubResource("Resource_3xsaj"), SubResource("Resource_kc14y"), SubResource("Resource_nckxm"), SubResource("Resource_cjvsy"), SubResource("Resource_2uvo2"), SubResource("Resource_5bcrr"), SubResource("Resource_7fp3u")])
+level_moves = Array[ExtResource("3_3xsaj")]([SubResource("Resource_cjvsy"), SubResource("Resource_2uvo2"), SubResource("Resource_5bcrr"), SubResource("Resource_7fp3u"), SubResource("Resource_puu22"), SubResource("Resource_qww6n"), SubResource("Resource_4rkys"), SubResource("Resource_sjitp")])
 egg_moves = Array[int]([60, 114, 56, 214, 300, 189, 401, 34, 341, 130, 324])
-evolutions = Array[ExtResource("1_r34kj")]([SubResource("Resource_r34kj")])
+evolutions = Array[ExtResource("1_r34kj")]([SubResource("Resource_nckxm")])

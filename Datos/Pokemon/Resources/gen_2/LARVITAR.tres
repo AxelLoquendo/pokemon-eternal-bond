@@ -5,56 +5,56 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1dwv0"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s0vt2"]
 
-[sub_resource type="Resource" id="Resource_baiex"]
+[sub_resource type="Resource" id="Resource_vbocv"]
 script = ExtResource("1_baiex")
 method = "LEVEL"
 param = "30"
 target = 247
 
-[sub_resource type="Resource" id="Resource_ljskn"]
+[sub_resource type="Resource" id="Resource_djc3f"]
 script = ExtResource("3_1dwv0")
 move = 44
 
-[sub_resource type="Resource" id="Resource_1dwv0"]
+[sub_resource type="Resource" id="Resource_1xb0f"]
 script = ExtResource("3_1dwv0")
 move = 43
 
-[sub_resource type="Resource" id="Resource_s0vt2"]
+[sub_resource type="Resource" id="Resource_no74b"]
 script = ExtResource("3_1dwv0")
 level = 8
 move = 201
 
-[sub_resource type="Resource" id="Resource_vbocv"]
+[sub_resource type="Resource" id="Resource_gufdj"]
 script = ExtResource("3_1dwv0")
 level = 15
 move = 103
 
-[sub_resource type="Resource" id="Resource_djc3f"]
+[sub_resource type="Resource" id="Resource_4g8rb"]
 script = ExtResource("3_1dwv0")
 level = 22
 move = 157
 
-[sub_resource type="Resource" id="Resource_1xb0f"]
+[sub_resource type="Resource" id="Resource_o6bm5"]
 script = ExtResource("3_1dwv0")
 level = 29
 move = 37
 
-[sub_resource type="Resource" id="Resource_no74b"]
+[sub_resource type="Resource" id="Resource_2c6gr"]
 script = ExtResource("3_1dwv0")
 level = 36
 move = 184
 
-[sub_resource type="Resource" id="Resource_gufdj"]
+[sub_resource type="Resource" id="Resource_kkcgy"]
 script = ExtResource("3_1dwv0")
 level = 43
 move = 242
 
-[sub_resource type="Resource" id="Resource_4g8rb"]
+[sub_resource type="Resource" id="Resource_iwlcb"]
 script = ExtResource("3_1dwv0")
 level = 50
 move = 89
 
-[sub_resource type="Resource" id="Resource_o6bm5"]
+[sub_resource type="Resource" id="Resource_tnexs"]
 script = ExtResource("3_1dwv0")
 level = 57
 move = 63
@@ -69,6 +69,7 @@ pokedex = "A Larvitar is born deep under the ground.
 It must eat its way through the soil above
 and reach the surface for it to see its
 parents' faces."
+sprite_folder = "larvitar"
 type_1 = 6
 type_2 = 5
 base_hp = 50
@@ -88,6 +89,6 @@ ability_hidden = 8
 height_dm = 6
 weight_hg = 720
 body_color = 3
-level_moves = Array[ExtResource("3_1dwv0")]([SubResource("Resource_ljskn"), SubResource("Resource_1dwv0"), SubResource("Resource_s0vt2"), SubResource("Resource_vbocv"), SubResource("Resource_djc3f"), SubResource("Resource_1xb0f"), SubResource("Resource_no74b"), SubResource("Resource_gufdj"), SubResource("Resource_4g8rb"), SubResource("Resource_o6bm5")])
+level_moves = Array[ExtResource("3_1dwv0")]([SubResource("Resource_djc3f"), SubResource("Resource_1xb0f"), SubResource("Resource_no74b"), SubResource("Resource_gufdj"), SubResource("Resource_4g8rb"), SubResource("Resource_o6bm5"), SubResource("Resource_2c6gr"), SubResource("Resource_kkcgy"), SubResource("Resource_iwlcb"), SubResource("Resource_tnexs")])
 egg_moves = Array[int]([228, 23, 200, 116, 246, 349, 174, 334, 372, 442, 446, 231])
-evolutions = Array[ExtResource("1_baiex")]([SubResource("Resource_baiex")])
+evolutions = Array[ExtResource("1_baiex")]([SubResource("Resource_vbocv")])

@@ -5,11 +5,11 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_36xh3"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8fqch"]
 
-[sub_resource type="Resource" id="Resource_qrct7"]
+[sub_resource type="Resource" id="Resource_gy2yf"]
 script = ExtResource("3_36xh3")
 move = 106
 
-[sub_resource type="Resource" id="Resource_yqmpt"]
+[sub_resource type="Resource" id="Resource_00buf"]
 script = ExtResource("3_36xh3")
 level = 9
 move = 182
@@ -19,5 +19,6 @@ script = ExtResource("4_8fqch")
 id = 665
 display_name = "Spewpa"
 national_dex = 665
+sprite_folder = "spewpa"
 type_1 = 1
-level_moves = Array[ExtResource("3_36xh3")]([SubResource("Resource_qrct7"), SubResource("Resource_yqmpt")])
+level_moves = Array[ExtResource("3_36xh3")]([SubResource("Resource_gy2yf"), SubResource("Resource_00buf")])

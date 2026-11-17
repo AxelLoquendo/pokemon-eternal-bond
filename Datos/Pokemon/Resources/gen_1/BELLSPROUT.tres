@@ -5,51 +5,51 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ldlty"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sgqip"]
 
-[sub_resource type="Resource" id="Resource_0lg11"]
+[sub_resource type="Resource" id="Resource_yh0xw"]
 script = ExtResource("1_0lg11")
 method = "LEVEL"
 param = "21"
 target = 70
 
-[sub_resource type="Resource" id="Resource_3eoj2"]
+[sub_resource type="Resource" id="Resource_0heod"]
 script = ExtResource("3_ldlty")
 move = 22
 
-[sub_resource type="Resource" id="Resource_ldlty"]
+[sub_resource type="Resource" id="Resource_xcj83"]
 script = ExtResource("3_ldlty")
 move = 74
 
-[sub_resource type="Resource" id="Resource_sgqip"]
+[sub_resource type="Resource" id="Resource_y4gep"]
 script = ExtResource("3_ldlty")
 level = 13
 move = 35
 
-[sub_resource type="Resource" id="Resource_yh0xw"]
+[sub_resource type="Resource" id="Resource_fp2um"]
 script = ExtResource("3_ldlty")
 level = 15
 move = 77
 
-[sub_resource type="Resource" id="Resource_0heod"]
+[sub_resource type="Resource" id="Resource_d7pvr"]
 script = ExtResource("3_ldlty")
 level = 18
 move = 79
 
-[sub_resource type="Resource" id="Resource_xcj83"]
+[sub_resource type="Resource" id="Resource_rbclc"]
 script = ExtResource("3_ldlty")
 level = 21
 move = 78
 
-[sub_resource type="Resource" id="Resource_y4gep"]
+[sub_resource type="Resource" id="Resource_2hrl8"]
 script = ExtResource("3_ldlty")
 level = 26
 move = 51
 
-[sub_resource type="Resource" id="Resource_fp2um"]
+[sub_resource type="Resource" id="Resource_axqf1"]
 script = ExtResource("3_ldlty")
 level = 33
 move = 75
 
-[sub_resource type="Resource" id="Resource_d7pvr"]
+[sub_resource type="Resource" id="Resource_dsvre"]
 script = ExtResource("3_ldlty")
 level = 42
 move = 21
@@ -64,6 +64,7 @@ pokedex = "A Bellsprout's thin and flexible body lets
 it bend and sway to avoid any attack,
 however strong it may be. From its mouth,
 it leaks a fluid that melts even iron."
+sprite_folder = "bellsprout"
 type_1 = 13
 type_2 = 4
 base_hp = 50
@@ -82,6 +83,6 @@ ability_hidden = 82
 height_dm = 7
 weight_hg = 40
 body_color = 3
-level_moves = Array[ExtResource("3_ldlty")]([SubResource("Resource_3eoj2"), SubResource("Resource_ldlty"), SubResource("Resource_sgqip"), SubResource("Resource_yh0xw"), SubResource("Resource_0heod"), SubResource("Resource_xcj83"), SubResource("Resource_y4gep"), SubResource("Resource_fp2um"), SubResource("Resource_d7pvr")])
+level_moves = Array[ExtResource("3_ldlty")]([SubResource("Resource_0heod"), SubResource("Resource_xcj83"), SubResource("Resource_y4gep"), SubResource("Resource_fp2um"), SubResource("Resource_d7pvr"), SubResource("Resource_rbclc"), SubResource("Resource_2hrl8"), SubResource("Resource_axqf1"), SubResource("Resource_dsvre")])
 egg_moves = Array[int]([227, 235, 141, 275, 345, 388, 321, 311, 331, 363, 202, 499, 438, 491, 562, 631])
-evolutions = Array[ExtResource("1_0lg11")]([SubResource("Resource_0lg11")])
+evolutions = Array[ExtResource("1_0lg11")]([SubResource("Resource_yh0xw")])

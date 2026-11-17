@@ -5,23 +5,23 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_55lws"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_e7t6u"]
 
-[sub_resource type="Resource" id="Resource_ni2ep"]
+[sub_resource type="Resource" id="Resource_5ymve"]
 script = ExtResource("3_55lws")
 move = 311
 
-[sub_resource type="Resource" id="Resource_rl2s2"]
+[sub_resource type="Resource" id="Resource_frysx"]
 script = ExtResource("3_55lws")
 move = 40
 
-[sub_resource type="Resource" id="Resource_55lws"]
+[sub_resource type="Resource" id="Resource_6llc6"]
 script = ExtResource("3_55lws")
 move = 72
 
-[sub_resource type="Resource" id="Resource_e7t6u"]
+[sub_resource type="Resource" id="Resource_4ibpy"]
 script = ExtResource("3_55lws")
 move = 345
 
-[sub_resource type="Resource" id="Resource_5ymve"]
+[sub_resource type="Resource" id="Resource_dwtda"]
 script = ExtResource("3_55lws")
 move = 230
 
@@ -35,6 +35,7 @@ pokedex = "Its sweet aroma attracts prey.
 With the movements of a dancer,
 it strikes with whips that are densely
 lined with poison thorns."
+sprite_folder = "roserade"
 type_1 = 13
 type_2 = 4
 base_hp = 60
@@ -57,4 +58,4 @@ height_dm = 9
 weight_hg = 145
 body_color = 3
 no_flip = true
-level_moves = Array[ExtResource("3_55lws")]([SubResource("Resource_ni2ep"), SubResource("Resource_rl2s2"), SubResource("Resource_55lws"), SubResource("Resource_e7t6u"), SubResource("Resource_5ymve")])
+level_moves = Array[ExtResource("3_55lws")]([SubResource("Resource_5ymve"), SubResource("Resource_frysx"), SubResource("Resource_6llc6"), SubResource("Resource_4ibpy"), SubResource("Resource_dwtda")])

@@ -5,76 +5,76 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_huy2j"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_edvtd"]
 
-[sub_resource type="Resource" id="Resource_fdr22"]
+[sub_resource type="Resource" id="Resource_h01mk"]
 script = ExtResource("1_fdr22")
 method = "LEVEL"
 param = "25"
 target = 536
 
-[sub_resource type="Resource" id="Resource_42m1p"]
+[sub_resource type="Resource" id="Resource_2ivnx"]
 script = ExtResource("3_huy2j")
 move = 145
 
-[sub_resource type="Resource" id="Resource_huy2j"]
+[sub_resource type="Resource" id="Resource_gri4a"]
 script = ExtResource("3_huy2j")
 move = 45
 
-[sub_resource type="Resource" id="Resource_edvtd"]
+[sub_resource type="Resource" id="Resource_ok5mu"]
 script = ExtResource("3_huy2j")
 level = 5
 move = 48
 
-[sub_resource type="Resource" id="Resource_h01mk"]
+[sub_resource type="Resource" id="Resource_gghx8"]
 script = ExtResource("3_huy2j")
 level = 9
 move = 496
 
-[sub_resource type="Resource" id="Resource_2ivnx"]
+[sub_resource type="Resource" id="Resource_lniv6"]
 script = ExtResource("3_huy2j")
 level = 12
 move = 61
 
-[sub_resource type="Resource" id="Resource_gri4a"]
+[sub_resource type="Resource" id="Resource_be4on"]
 script = ExtResource("3_huy2j")
 level = 16
 move = 341
 
-[sub_resource type="Resource" id="Resource_ok5mu"]
+[sub_resource type="Resource" id="Resource_rka3y"]
 script = ExtResource("3_huy2j")
 level = 20
 move = 392
 
-[sub_resource type="Resource" id="Resource_gghx8"]
+[sub_resource type="Resource" id="Resource_v8jg2"]
 script = ExtResource("3_huy2j")
 level = 23
 move = 253
 
-[sub_resource type="Resource" id="Resource_lniv6"]
+[sub_resource type="Resource" id="Resource_xfxmq"]
 script = ExtResource("3_huy2j")
 level = 27
 move = 330
 
-[sub_resource type="Resource" id="Resource_be4on"]
+[sub_resource type="Resource" id="Resource_dxgu8"]
 script = ExtResource("3_huy2j")
 level = 31
 move = 240
 
-[sub_resource type="Resource" id="Resource_rka3y"]
+[sub_resource type="Resource" id="Resource_jlaou"]
 script = ExtResource("3_huy2j")
 level = 34
 move = 175
 
-[sub_resource type="Resource" id="Resource_v8jg2"]
+[sub_resource type="Resource" id="Resource_ay8nx"]
 script = ExtResource("3_huy2j")
 level = 38
 move = 497
 
-[sub_resource type="Resource" id="Resource_xfxmq"]
+[sub_resource type="Resource" id="Resource_4m81q"]
 script = ExtResource("3_huy2j")
 level = 42
 move = 56
 
-[sub_resource type="Resource" id="Resource_dxgu8"]
+[sub_resource type="Resource" id="Resource_luagi"]
 script = ExtResource("3_huy2j")
 level = 45
 move = 304
@@ -89,6 +89,7 @@ pokedex = "By vibrating its cheeks, it emits sound
 waves imperceptible to humans. It uses
 the rhythm of these sounds to talk and
 warns others of danger."
+sprite_folder = "tympole"
 type_1 = 12
 base_hp = 50
 base_atk = 50
@@ -107,6 +108,6 @@ ability_hidden = 11
 height_dm = 5
 weight_hg = 45
 body_color = 1
-level_moves = Array[ExtResource("3_huy2j")]([SubResource("Resource_42m1p"), SubResource("Resource_huy2j"), SubResource("Resource_edvtd"), SubResource("Resource_h01mk"), SubResource("Resource_2ivnx"), SubResource("Resource_gri4a"), SubResource("Resource_ok5mu"), SubResource("Resource_gghx8"), SubResource("Resource_lniv6"), SubResource("Resource_be4on"), SubResource("Resource_rka3y"), SubResource("Resource_v8jg2"), SubResource("Resource_xfxmq"), SubResource("Resource_dxgu8")])
+level_moves = Array[ExtResource("3_huy2j")]([SubResource("Resource_2ivnx"), SubResource("Resource_gri4a"), SubResource("Resource_ok5mu"), SubResource("Resource_gghx8"), SubResource("Resource_lniv6"), SubResource("Resource_be4on"), SubResource("Resource_rka3y"), SubResource("Resource_v8jg2"), SubResource("Resource_xfxmq"), SubResource("Resource_dxgu8"), SubResource("Resource_jlaou"), SubResource("Resource_ay8nx"), SubResource("Resource_4m81q"), SubResource("Resource_luagi")])
 egg_moves = Array[int]([352, 287, 300, 426, 214, 173, 54, 414, 495, 599])
-evolutions = Array[ExtResource("1_fdr22")]([SubResource("Resource_fdr22")])
+evolutions = Array[ExtResource("1_fdr22")]([SubResource("Resource_h01mk")])

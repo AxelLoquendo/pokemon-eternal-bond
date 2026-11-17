@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_btfc6"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r5eh5"]
 
-[sub_resource type="Resource" id="Resource_gwga0"]
+[sub_resource type="Resource" id="Resource_yfg2d"]
 script = ExtResource("3_btfc6")
 move = 47
 
-[sub_resource type="Resource" id="Resource_yrmd5"]
+[sub_resource type="Resource" id="Resource_ne0kw"]
 script = ExtResource("3_btfc6")
 move = 50
 
-[sub_resource type="Resource" id="Resource_btfc6"]
+[sub_resource type="Resource" id="Resource_bvdqy"]
 script = ExtResource("3_btfc6")
 move = 111
 
-[sub_resource type="Resource" id="Resource_r5eh5"]
+[sub_resource type="Resource" id="Resource_u7xx4"]
 script = ExtResource("3_btfc6")
 move = 3
 
@@ -31,6 +31,7 @@ pokedex = "Its fur is the ultimate in luxuriousness.
 Sleeping alongside a Wigglytuff is simply
 divine. Its body expands seemingly without
 end when it inhales."
+sprite_folder = "wigglytuff"
 type_1 = 1
 base_hp = 140
 base_atk = 70
@@ -52,4 +53,4 @@ height_dm = 10
 weight_hg = 120
 body_color = 9
 no_flip = true
-level_moves = Array[ExtResource("3_btfc6")]([SubResource("Resource_gwga0"), SubResource("Resource_yrmd5"), SubResource("Resource_btfc6"), SubResource("Resource_r5eh5")])
+level_moves = Array[ExtResource("3_btfc6")]([SubResource("Resource_yfg2d"), SubResource("Resource_ne0kw"), SubResource("Resource_bvdqy"), SubResource("Resource_u7xx4")])

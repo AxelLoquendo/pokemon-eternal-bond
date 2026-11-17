@@ -5,69 +5,69 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_y6g7v"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ms1mh"]
 
-[sub_resource type="Resource" id="Resource_63blb"]
+[sub_resource type="Resource" id="Resource_ia2eu"]
 script = ExtResource("1_63blb")
 method = "LEVEL"
 param = "27"
 target = 189
 
-[sub_resource type="Resource" id="Resource_5hiug"]
+[sub_resource type="Resource" id="Resource_xihdk"]
 script = ExtResource("3_y6g7v")
 move = 150
 
-[sub_resource type="Resource" id="Resource_y6g7v"]
+[sub_resource type="Resource" id="Resource_hmbe8"]
 script = ExtResource("3_y6g7v")
 move = 235
 
-[sub_resource type="Resource" id="Resource_ms1mh"]
+[sub_resource type="Resource" id="Resource_h4304"]
 script = ExtResource("3_y6g7v")
 move = 39
 
-[sub_resource type="Resource" id="Resource_ia2eu"]
+[sub_resource type="Resource" id="Resource_br5cu"]
 script = ExtResource("3_y6g7v")
 move = 33
 
-[sub_resource type="Resource" id="Resource_xihdk"]
+[sub_resource type="Resource" id="Resource_3oiwr"]
 script = ExtResource("3_y6g7v")
 level = 5
 move = 235
 
-[sub_resource type="Resource" id="Resource_hmbe8"]
+[sub_resource type="Resource" id="Resource_31j3t"]
 script = ExtResource("3_y6g7v")
 level = 5
 move = 39
 
-[sub_resource type="Resource" id="Resource_h4304"]
+[sub_resource type="Resource" id="Resource_3m06o"]
 script = ExtResource("3_y6g7v")
 level = 10
 move = 33
 
-[sub_resource type="Resource" id="Resource_br5cu"]
+[sub_resource type="Resource" id="Resource_agoox"]
 script = ExtResource("3_y6g7v")
 level = 13
 move = 77
 
-[sub_resource type="Resource" id="Resource_3oiwr"]
+[sub_resource type="Resource" id="Resource_rtp2y"]
 script = ExtResource("3_y6g7v")
 level = 15
 move = 78
 
-[sub_resource type="Resource" id="Resource_31j3t"]
+[sub_resource type="Resource" id="Resource_idjfs"]
 script = ExtResource("3_y6g7v")
 level = 17
 move = 79
 
-[sub_resource type="Resource" id="Resource_3m06o"]
+[sub_resource type="Resource" id="Resource_t28ll"]
 script = ExtResource("3_y6g7v")
 level = 22
 move = 73
 
-[sub_resource type="Resource" id="Resource_agoox"]
+[sub_resource type="Resource" id="Resource_2q0g2"]
 script = ExtResource("3_y6g7v")
 level = 29
 move = 178
 
-[sub_resource type="Resource" id="Resource_rtp2y"]
+[sub_resource type="Resource" id="Resource_txpt7"]
 script = ExtResource("3_y6g7v")
 level = 36
 move = 72
@@ -82,6 +82,7 @@ pokedex = "It blossoms when the temperature rises
 above 64 degrees F. Because its flower's
 blooming changes with the temperature,
 it is sometimes used as a thermometer."
+sprite_folder = "skiploom"
 type_1 = 13
 type_2 = 3
 base_hp = 55
@@ -102,5 +103,5 @@ ability_hidden = 151
 height_dm = 6
 weight_hg = 10
 body_color = 3
-level_moves = Array[ExtResource("3_y6g7v")]([SubResource("Resource_5hiug"), SubResource("Resource_y6g7v"), SubResource("Resource_ms1mh"), SubResource("Resource_ia2eu"), SubResource("Resource_xihdk"), SubResource("Resource_hmbe8"), SubResource("Resource_h4304"), SubResource("Resource_br5cu"), SubResource("Resource_3oiwr"), SubResource("Resource_31j3t"), SubResource("Resource_3m06o"), SubResource("Resource_agoox"), SubResource("Resource_rtp2y")])
-evolutions = Array[ExtResource("1_63blb")]([SubResource("Resource_63blb")])
+level_moves = Array[ExtResource("3_y6g7v")]([SubResource("Resource_xihdk"), SubResource("Resource_hmbe8"), SubResource("Resource_h4304"), SubResource("Resource_br5cu"), SubResource("Resource_3oiwr"), SubResource("Resource_31j3t"), SubResource("Resource_3m06o"), SubResource("Resource_agoox"), SubResource("Resource_rtp2y"), SubResource("Resource_idjfs"), SubResource("Resource_t28ll"), SubResource("Resource_2q0g2"), SubResource("Resource_txpt7")])
+evolutions = Array[ExtResource("1_63blb")]([SubResource("Resource_ia2eu")])

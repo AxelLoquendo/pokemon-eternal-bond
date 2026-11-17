@@ -5,47 +5,47 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gxhdt"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sfhtv"]
 
-[sub_resource type="Resource" id="Resource_06olf"]
+[sub_resource type="Resource" id="Resource_oyqgt"]
 script = ExtResource("1_06olf")
 method = "LEVEL"
 param = "38"
 target = 219
 
-[sub_resource type="Resource" id="Resource_k105m"]
+[sub_resource type="Resource" id="Resource_dpmux"]
 script = ExtResource("3_gxhdt")
 move = 123
 
-[sub_resource type="Resource" id="Resource_gxhdt"]
+[sub_resource type="Resource" id="Resource_a35rv"]
 script = ExtResource("3_gxhdt")
 level = 8
 move = 52
 
-[sub_resource type="Resource" id="Resource_sfhtv"]
+[sub_resource type="Resource" id="Resource_dlkbi"]
 script = ExtResource("3_gxhdt")
 level = 15
 move = 88
 
-[sub_resource type="Resource" id="Resource_oyqgt"]
+[sub_resource type="Resource" id="Resource_gnvy8"]
 script = ExtResource("3_gxhdt")
 level = 22
 move = 106
 
-[sub_resource type="Resource" id="Resource_dpmux"]
+[sub_resource type="Resource" id="Resource_homgb"]
 script = ExtResource("3_gxhdt")
 level = 29
 move = 133
 
-[sub_resource type="Resource" id="Resource_a35rv"]
+[sub_resource type="Resource" id="Resource_k5alf"]
 script = ExtResource("3_gxhdt")
 level = 36
 move = 53
 
-[sub_resource type="Resource" id="Resource_dlkbi"]
+[sub_resource type="Resource" id="Resource_8ncnp"]
 script = ExtResource("3_gxhdt")
 level = 43
 move = 157
 
-[sub_resource type="Resource" id="Resource_gnvy8"]
+[sub_resource type="Resource" id="Resource_wqijr"]
 script = ExtResource("3_gxhdt")
 level = 50
 move = 34
@@ -60,6 +60,7 @@ pokedex = "It is a species of Pokémon that lives in
 volcanic areas. If its body cools, its skin
 hardens and immobilizes it. To avoid that,
 it sleeps near magma."
+sprite_folder = "slugma"
 type_1 = 11
 base_hp = 40
 base_atk = 40
@@ -76,6 +77,6 @@ ability_2 = 49
 ability_hidden = 133
 height_dm = 7
 weight_hg = 350
-level_moves = Array[ExtResource("3_gxhdt")]([SubResource("Resource_k105m"), SubResource("Resource_gxhdt"), SubResource("Resource_sfhtv"), SubResource("Resource_oyqgt"), SubResource("Resource_dpmux"), SubResource("Resource_a35rv"), SubResource("Resource_dlkbi"), SubResource("Resource_gnvy8")])
+level_moves = Array[ExtResource("3_gxhdt")]([SubResource("Resource_dpmux"), SubResource("Resource_a35rv"), SubResource("Resource_dlkbi"), SubResource("Resource_gnvy8"), SubResource("Resource_homgb"), SubResource("Resource_k5alf"), SubResource("Resource_8ncnp"), SubResource("Resource_wqijr")])
 egg_moves = Array[int]([151, 257, 174, 108, 262, 254, 255, 256, 205, 517, 414, 385])
-evolutions = Array[ExtResource("1_06olf")]([SubResource("Resource_06olf")])
+evolutions = Array[ExtResource("1_06olf")]([SubResource("Resource_oyqgt")])

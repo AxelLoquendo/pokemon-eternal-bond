@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_eup3l"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tf8nj"]
 
-[sub_resource type="Resource" id="Resource_7cxxd"]
+[sub_resource type="Resource" id="Resource_ltfn4"]
 script = ExtResource("1_7cxxd")
 method = "LEVEL"
 param = "31"
 target = 85
 
-[sub_resource type="Resource" id="Resource_mxvrd"]
+[sub_resource type="Resource" id="Resource_ybg0q"]
 script = ExtResource("3_eup3l")
 move = 64
 
-[sub_resource type="Resource" id="Resource_eup3l"]
+[sub_resource type="Resource" id="Resource_gifkk"]
 script = ExtResource("3_eup3l")
 level = 20
 move = 45
 
-[sub_resource type="Resource" id="Resource_tf8nj"]
+[sub_resource type="Resource" id="Resource_u17c2"]
 script = ExtResource("3_eup3l")
 level = 24
 move = 31
 
-[sub_resource type="Resource" id="Resource_ltfn4"]
+[sub_resource type="Resource" id="Resource_d6o6g"]
 script = ExtResource("3_eup3l")
 level = 30
 move = 65
 
-[sub_resource type="Resource" id="Resource_ybg0q"]
+[sub_resource type="Resource" id="Resource_ugpkm"]
 script = ExtResource("3_eup3l")
 level = 36
 move = 99
 
-[sub_resource type="Resource" id="Resource_gifkk"]
+[sub_resource type="Resource" id="Resource_0befi"]
 script = ExtResource("3_eup3l")
 level = 40
 move = 161
 
-[sub_resource type="Resource" id="Resource_u17c2"]
+[sub_resource type="Resource" id="Resource_6kj70"]
 script = ExtResource("3_eup3l")
 level = 44
 move = 97
@@ -55,6 +55,7 @@ pokedex = "Even while eating or sleeping, one of the
 heads remains always vigilant for any sign
 of danger. When threatened, it flees at
 over 60 miles per hour."
+sprite_folder = "doduo"
 type_1 = 1
 type_2 = 3
 base_hp = 35
@@ -74,6 +75,6 @@ item_rare = 434
 height_dm = 14
 weight_hg = 392
 body_color = 5
-level_moves = Array[ExtResource("3_eup3l")]([SubResource("Resource_mxvrd"), SubResource("Resource_eup3l"), SubResource("Resource_tf8nj"), SubResource("Resource_ltfn4"), SubResource("Resource_ybg0q"), SubResource("Resource_gifkk"), SubResource("Resource_u17c2")])
+level_moves = Array[ExtResource("3_eup3l")]([SubResource("Resource_ybg0q"), SubResource("Resource_gifkk"), SubResource("Resource_u17c2"), SubResource("Resource_d6o6g"), SubResource("Resource_ugpkm"), SubResource("Resource_0befi"), SubResource("Resource_6kj70")])
 egg_moves = Array[int]([98, 48, 114, 185, 175, 283, 119, 413, 363, 372])
-evolutions = Array[ExtResource("1_7cxxd")]([SubResource("Resource_7cxxd")])
+evolutions = Array[ExtResource("1_7cxxd")]([SubResource("Resource_ltfn4")])

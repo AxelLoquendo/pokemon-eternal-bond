@@ -5,76 +5,76 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5wdu0"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4t21n"]
 
-[sub_resource type="Resource" id="Resource_gxk7s"]
+[sub_resource type="Resource" id="Resource_vxida"]
 script = ExtResource("1_gxk7s")
 method = "LEVEL"
 param = "17"
 target = 662
 
-[sub_resource type="Resource" id="Resource_xi8lr"]
+[sub_resource type="Resource" id="Resource_hhmd2"]
 script = ExtResource("3_5wdu0")
 move = 33
 
-[sub_resource type="Resource" id="Resource_5wdu0"]
+[sub_resource type="Resource" id="Resource_2d0ao"]
 script = ExtResource("3_5wdu0")
 move = 45
 
-[sub_resource type="Resource" id="Resource_4t21n"]
+[sub_resource type="Resource" id="Resource_sl6ks"]
 script = ExtResource("3_5wdu0")
 level = 6
 move = 98
 
-[sub_resource type="Resource" id="Resource_vxida"]
+[sub_resource type="Resource" id="Resource_qbqsr"]
 script = ExtResource("3_5wdu0")
 level = 10
 move = 64
 
-[sub_resource type="Resource" id="Resource_hhmd2"]
+[sub_resource type="Resource" id="Resource_llo1o"]
 script = ExtResource("3_5wdu0")
 level = 13
 move = 97
 
-[sub_resource type="Resource" id="Resource_2d0ao"]
+[sub_resource type="Resource" id="Resource_ipirb"]
 script = ExtResource("3_5wdu0")
 level = 16
 move = 175
 
-[sub_resource type="Resource" id="Resource_sl6ks"]
+[sub_resource type="Resource" id="Resource_qhebb"]
 script = ExtResource("3_5wdu0")
 level = 21
 move = 355
 
-[sub_resource type="Resource" id="Resource_qbqsr"]
+[sub_resource type="Resource" id="Resource_n5pv6"]
 script = ExtResource("3_5wdu0")
 level = 25
 move = 13
 
-[sub_resource type="Resource" id="Resource_llo1o"]
+[sub_resource type="Resource" id="Resource_pmg0f"]
 script = ExtResource("3_5wdu0")
 level = 29
 move = 363
 
-[sub_resource type="Resource" id="Resource_ipirb"]
+[sub_resource type="Resource" id="Resource_6kvp0"]
 script = ExtResource("3_5wdu0")
 level = 34
 move = 488
 
-[sub_resource type="Resource" id="Resource_qhebb"]
+[sub_resource type="Resource" id="Resource_askdn"]
 script = ExtResource("3_5wdu0")
 level = 39
 move = 512
 
-[sub_resource type="Resource" id="Resource_n5pv6"]
+[sub_resource type="Resource" id="Resource_81lcg"]
 script = ExtResource("3_5wdu0")
 level = 41
 move = 382
 
-[sub_resource type="Resource" id="Resource_pmg0f"]
+[sub_resource type="Resource" id="Resource_mq22g"]
 script = ExtResource("3_5wdu0")
 level = 45
 move = 366
 
-[sub_resource type="Resource" id="Resource_6kvp0"]
+[sub_resource type="Resource" id="Resource_tsuii"]
 script = ExtResource("3_5wdu0")
 level = 48
 move = 211
@@ -89,6 +89,7 @@ pokedex = "This amiable Pokémon is easy to train.
 But when battle is joined, it shows its
 ferocious side. It's merciless to
 intruders that enter its territory."
+sprite_folder = "fletchling"
 type_1 = 1
 type_2 = 3
 base_hp = 45
@@ -107,6 +108,6 @@ ability_1 = 145
 ability_hidden = 177
 height_dm = 3
 weight_hg = 17
-level_moves = Array[ExtResource("3_5wdu0")]([SubResource("Resource_xi8lr"), SubResource("Resource_5wdu0"), SubResource("Resource_4t21n"), SubResource("Resource_vxida"), SubResource("Resource_hhmd2"), SubResource("Resource_2d0ao"), SubResource("Resource_sl6ks"), SubResource("Resource_qbqsr"), SubResource("Resource_llo1o"), SubResource("Resource_ipirb"), SubResource("Resource_qhebb"), SubResource("Resource_n5pv6"), SubResource("Resource_pmg0f"), SubResource("Resource_6kvp0")])
+level_moves = Array[ExtResource("3_5wdu0")]([SubResource("Resource_hhmd2"), SubResource("Resource_2d0ao"), SubResource("Resource_sl6ks"), SubResource("Resource_qbqsr"), SubResource("Resource_llo1o"), SubResource("Resource_ipirb"), SubResource("Resource_qhebb"), SubResource("Resource_n5pv6"), SubResource("Resource_pmg0f"), SubResource("Resource_6kvp0"), SubResource("Resource_askdn"), SubResource("Resource_81lcg"), SubResource("Resource_mq22g"), SubResource("Resource_tsuii")])
 egg_moves = Array[int]([366, 289, 501])
-evolutions = Array[ExtResource("1_gxk7s")]([SubResource("Resource_gxk7s")])
+evolutions = Array[ExtResource("1_gxk7s")]([SubResource("Resource_vxida")])

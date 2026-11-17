@@ -5,25 +5,25 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vexie"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_itq0l"]
 
-[sub_resource type="Resource" id="Resource_58tvm"]
+[sub_resource type="Resource" id="Resource_lpxtl"]
 script = ExtResource("1_58tvm")
 method = "LEVEL"
 param = "12"
 
-[sub_resource type="Resource" id="Resource_6kpc4"]
+[sub_resource type="Resource" id="Resource_sffwx"]
 script = ExtResource("3_vexie")
 move = 33
 
-[sub_resource type="Resource" id="Resource_vexie"]
+[sub_resource type="Resource" id="Resource_mlt85"]
 script = ExtResource("3_vexie")
 move = 81
 
-[sub_resource type="Resource" id="Resource_itq0l"]
+[sub_resource type="Resource" id="Resource_m21sh"]
 script = ExtResource("3_vexie")
 level = 6
 move = 78
 
-[sub_resource type="Resource" id="Resource_lpxtl"]
+[sub_resource type="Resource" id="Resource_ximyt"]
 script = ExtResource("3_vexie")
 level = 15
 move = 450
@@ -34,6 +34,7 @@ id = 1450
 display_name = "Scatterbug"
 category = "Scatterdust"
 national_dex = 664
+sprite_folder = "scatterbug"
 type_1 = 7
 base_hp = 38
 base_atk = 35
@@ -52,7 +53,7 @@ ability_hidden = 132
 height_dm = 3
 weight_hg = 84
 body_color = 4
-level_moves = Array[ExtResource("3_vexie")]([SubResource("Resource_6kpc4"), SubResource("Resource_vexie"), SubResource("Resource_itq0l"), SubResource("Resource_lpxtl")])
+level_moves = Array[ExtResource("3_vexie")]([SubResource("Resource_sffwx"), SubResource("Resource_mlt85"), SubResource("Resource_m21sh"), SubResource("Resource_ximyt")])
 egg_moves = Array[int]([78, 77, 476])
-evolutions = Array[ExtResource("1_58tvm")]([SubResource("Resource_58tvm")])
+evolutions = Array[ExtResource("1_58tvm")]([SubResource("Resource_lpxtl")])
 form_species = Array[int]([665, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475])

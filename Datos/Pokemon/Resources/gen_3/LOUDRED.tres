@@ -5,74 +5,74 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_l6yg1"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6wg8y"]
 
-[sub_resource type="Resource" id="Resource_5uirp"]
+[sub_resource type="Resource" id="Resource_hxext"]
 script = ExtResource("1_5uirp")
 method = "LEVEL"
 param = "40"
 target = 295
 
-[sub_resource type="Resource" id="Resource_u31xu"]
+[sub_resource type="Resource" id="Resource_1cfgo"]
 script = ExtResource("3_l6yg1")
 move = 1
 
-[sub_resource type="Resource" id="Resource_l6yg1"]
+[sub_resource type="Resource" id="Resource_f8kbg"]
 script = ExtResource("3_l6yg1")
 move = 253
 
-[sub_resource type="Resource" id="Resource_6wg8y"]
+[sub_resource type="Resource" id="Resource_uqltn"]
 script = ExtResource("3_l6yg1")
 move = 310
 
-[sub_resource type="Resource" id="Resource_hxext"]
+[sub_resource type="Resource" id="Resource_r6a4b"]
 script = ExtResource("3_l6yg1")
 move = 336
 
-[sub_resource type="Resource" id="Resource_1cfgo"]
+[sub_resource type="Resource" id="Resource_gq4g0"]
 script = ExtResource("3_l6yg1")
 level = 5
 move = 253
 
-[sub_resource type="Resource" id="Resource_f8kbg"]
+[sub_resource type="Resource" id="Resource_yjjyb"]
 script = ExtResource("3_l6yg1")
 level = 11
 move = 310
 
-[sub_resource type="Resource" id="Resource_uqltn"]
+[sub_resource type="Resource" id="Resource_cq5yw"]
 script = ExtResource("3_l6yg1")
 level = 15
 move = 336
 
-[sub_resource type="Resource" id="Resource_r6a4b"]
+[sub_resource type="Resource" id="Resource_ucgi2"]
 script = ExtResource("3_l6yg1")
 level = 23
 move = 48
 
-[sub_resource type="Resource" id="Resource_gq4g0"]
+[sub_resource type="Resource" id="Resource_lvh5o"]
 script = ExtResource("3_l6yg1")
 level = 29
 move = 23
 
-[sub_resource type="Resource" id="Resource_yjjyb"]
+[sub_resource type="Resource" id="Resource_81o24"]
 script = ExtResource("3_l6yg1")
 level = 37
 move = 103
 
-[sub_resource type="Resource" id="Resource_cq5yw"]
+[sub_resource type="Resource" id="Resource_vn6q8"]
 script = ExtResource("3_l6yg1")
 level = 43
 move = 46
 
-[sub_resource type="Resource" id="Resource_ucgi2"]
+[sub_resource type="Resource" id="Resource_yl5r7"]
 script = ExtResource("3_l6yg1")
 level = 51
 move = 156
 
-[sub_resource type="Resource" id="Resource_lvh5o"]
+[sub_resource type="Resource" id="Resource_y7cwf"]
 script = ExtResource("3_l6yg1")
 level = 51
 move = 214
 
-[sub_resource type="Resource" id="Resource_81o24"]
+[sub_resource type="Resource" id="Resource_m62w1"]
 script = ExtResource("3_l6yg1")
 level = 57
 move = 304
@@ -87,6 +87,7 @@ pokedex = "It positions the round speakers on its
 head to assail foes with ultrasonic waves
 at massive volume. It builds power by
 stomping the ground."
+sprite_folder = "loudred"
 type_1 = 1
 base_hp = 84
 base_atk = 71
@@ -105,5 +106,5 @@ ability_hidden = 113
 height_dm = 10
 weight_hg = 405
 body_color = 1
-level_moves = Array[ExtResource("3_l6yg1")]([SubResource("Resource_u31xu"), SubResource("Resource_l6yg1"), SubResource("Resource_6wg8y"), SubResource("Resource_hxext"), SubResource("Resource_1cfgo"), SubResource("Resource_f8kbg"), SubResource("Resource_uqltn"), SubResource("Resource_r6a4b"), SubResource("Resource_gq4g0"), SubResource("Resource_yjjyb"), SubResource("Resource_cq5yw"), SubResource("Resource_ucgi2"), SubResource("Resource_lvh5o"), SubResource("Resource_81o24")])
-evolutions = Array[ExtResource("1_5uirp")]([SubResource("Resource_5uirp")])
+level_moves = Array[ExtResource("3_l6yg1")]([SubResource("Resource_1cfgo"), SubResource("Resource_f8kbg"), SubResource("Resource_uqltn"), SubResource("Resource_r6a4b"), SubResource("Resource_gq4g0"), SubResource("Resource_yjjyb"), SubResource("Resource_cq5yw"), SubResource("Resource_ucgi2"), SubResource("Resource_lvh5o"), SubResource("Resource_81o24"), SubResource("Resource_vn6q8"), SubResource("Resource_yl5r7"), SubResource("Resource_y7cwf"), SubResource("Resource_m62w1")])
+evolutions = Array[ExtResource("1_5uirp")]([SubResource("Resource_hxext")])

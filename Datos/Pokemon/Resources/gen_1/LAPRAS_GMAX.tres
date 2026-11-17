@@ -5,40 +5,40 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_03bfe"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3l5pa"]
 
-[sub_resource type="Resource" id="Resource_ogkx1"]
+[sub_resource type="Resource" id="Resource_kck8x"]
 script = ExtResource("3_03bfe")
 move = 55
 
-[sub_resource type="Resource" id="Resource_ycpns"]
+[sub_resource type="Resource" id="Resource_q228s"]
 script = ExtResource("3_03bfe")
 move = 45
 
-[sub_resource type="Resource" id="Resource_03bfe"]
+[sub_resource type="Resource" id="Resource_vw131"]
 script = ExtResource("3_03bfe")
 level = 16
 move = 47
 
-[sub_resource type="Resource" id="Resource_3l5pa"]
+[sub_resource type="Resource" id="Resource_0mbd7"]
 script = ExtResource("3_03bfe")
 level = 20
 move = 54
 
-[sub_resource type="Resource" id="Resource_kck8x"]
+[sub_resource type="Resource" id="Resource_rge1y"]
 script = ExtResource("3_03bfe")
 level = 25
 move = 34
 
-[sub_resource type="Resource" id="Resource_q228s"]
+[sub_resource type="Resource" id="Resource_8kobk"]
 script = ExtResource("3_03bfe")
 level = 31
 move = 109
 
-[sub_resource type="Resource" id="Resource_vw131"]
+[sub_resource type="Resource" id="Resource_c4spb"]
 script = ExtResource("3_03bfe")
 level = 38
 move = 58
 
-[sub_resource type="Resource" id="Resource_0mbd7"]
+[sub_resource type="Resource" id="Resource_glphk"]
 script = ExtResource("3_03bfe")
 level = 46
 move = 56
@@ -53,6 +53,7 @@ pokedex = "Over 5,000 people can ride on its
 shell at once. And it's a very
 comfortable ride, without the slightest
 shaking or swaying."
+sprite_folder = "lapras/gmax"
 type_1 = 12
 type_2 = 16
 base_hp = 130
@@ -74,6 +75,6 @@ item_common = 427
 item_rare = 427
 height_dm = 240
 body_color = 1
-level_moves = Array[ExtResource("3_03bfe")]([SubResource("Resource_ogkx1"), SubResource("Resource_ycpns"), SubResource("Resource_03bfe"), SubResource("Resource_3l5pa"), SubResource("Resource_kck8x"), SubResource("Resource_q228s"), SubResource("Resource_vw131"), SubResource("Resource_0mbd7")])
+level_moves = Array[ExtResource("3_03bfe")]([SubResource("Resource_kck8x"), SubResource("Resource_q228s"), SubResource("Resource_vw131"), SubResource("Resource_0mbd7"), SubResource("Resource_rge1y"), SubResource("Resource_8kobk"), SubResource("Resource_c4spb"), SubResource("Resource_glphk")])
 egg_moves = Array[int]([193, 321, 287, 349, 174, 214, 32, 246, 250, 90, 406, 419, 248, 573])
 form_species = Array[int]([131, 1498])

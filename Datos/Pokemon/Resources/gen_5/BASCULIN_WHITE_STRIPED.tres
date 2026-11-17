@@ -5,36 +5,36 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wqgfk"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ijvef"]
 
-[sub_resource type="Resource" id="Resource_314bg"]
+[sub_resource type="Resource" id="Resource_1fpgv"]
 script = ExtResource("3_wqgfk")
 move = 33
 
-[sub_resource type="Resource" id="Resource_n1754"]
+[sub_resource type="Resource" id="Resource_yow71"]
 script = ExtResource("3_wqgfk")
 level = 6
 move = 453
 
-[sub_resource type="Resource" id="Resource_wqgfk"]
+[sub_resource type="Resource" id="Resource_1cho2"]
 script = ExtResource("3_wqgfk")
 level = 11
 move = 44
 
-[sub_resource type="Resource" id="Resource_ijvef"]
+[sub_resource type="Resource" id="Resource_jqbw0"]
 script = ExtResource("3_wqgfk")
 level = 18
 move = 428
 
-[sub_resource type="Resource" id="Resource_1fpgv"]
+[sub_resource type="Resource" id="Resource_va82v"]
 script = ExtResource("3_wqgfk")
 level = 25
 move = 242
 
-[sub_resource type="Resource" id="Resource_yow71"]
+[sub_resource type="Resource" id="Resource_djwwa"]
 script = ExtResource("3_wqgfk")
 level = 34
 move = 762
 
-[sub_resource type="Resource" id="Resource_1cho2"]
+[sub_resource type="Resource" id="Resource_ry1md"]
 script = ExtResource("3_wqgfk")
 level = 43
 move = 38
@@ -49,6 +49,7 @@ pokedex = "While this ancient form of Basculin shares
 a vast array of qualities with other forms,
 it differs in several respects, including
 demeanor, being much gentler than others."
+sprite_folder = "basculin/white_striped"
 type_1 = 12
 base_hp = 70
 base_atk = 92
@@ -68,6 +69,6 @@ item_rare = 398
 height_dm = 10
 weight_hg = 180
 body_color = 3
-level_moves = Array[ExtResource("3_wqgfk")]([SubResource("Resource_314bg"), SubResource("Resource_n1754"), SubResource("Resource_wqgfk"), SubResource("Resource_ijvef"), SubResource("Resource_1fpgv"), SubResource("Resource_yow71"), SubResource("Resource_1cho2")])
+level_moves = Array[ExtResource("3_wqgfk")]([SubResource("Resource_1fpgv"), SubResource("Resource_yow71"), SubResource("Resource_1cho2"), SubResource("Resource_jqbw0"), SubResource("Resource_va82v"), SubResource("Resource_djwwa"), SubResource("Resource_ry1md")])
 egg_moves = Array[int]([283, 782])
 form_species = Array[int]([550, 1090, 1091])

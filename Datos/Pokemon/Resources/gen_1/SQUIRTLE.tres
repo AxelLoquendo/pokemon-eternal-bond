@@ -5,46 +5,46 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0g7vj"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7fanq"]
 
-[sub_resource type="Resource" id="Resource_jtttk"]
+[sub_resource type="Resource" id="Resource_450ws"]
 script = ExtResource("1_jtttk")
 method = "LEVEL"
 param = "16"
 target = 8
 
-[sub_resource type="Resource" id="Resource_vimcv"]
+[sub_resource type="Resource" id="Resource_d5ch3"]
 script = ExtResource("3_0g7vj")
 move = 33
 
-[sub_resource type="Resource" id="Resource_0g7vj"]
+[sub_resource type="Resource" id="Resource_0mm4c"]
 script = ExtResource("3_0g7vj")
 move = 39
 
-[sub_resource type="Resource" id="Resource_7fanq"]
+[sub_resource type="Resource" id="Resource_6htdw"]
 script = ExtResource("3_0g7vj")
 level = 8
 move = 145
 
-[sub_resource type="Resource" id="Resource_450ws"]
+[sub_resource type="Resource" id="Resource_wce8i"]
 script = ExtResource("3_0g7vj")
 level = 15
 move = 55
 
-[sub_resource type="Resource" id="Resource_d5ch3"]
+[sub_resource type="Resource" id="Resource_hx466"]
 script = ExtResource("3_0g7vj")
 level = 22
 move = 44
 
-[sub_resource type="Resource" id="Resource_0mm4c"]
+[sub_resource type="Resource" id="Resource_us74u"]
 script = ExtResource("3_0g7vj")
 level = 28
 move = 110
 
-[sub_resource type="Resource" id="Resource_6htdw"]
+[sub_resource type="Resource" id="Resource_cflav"]
 script = ExtResource("3_0g7vj")
 level = 35
 move = 130
 
-[sub_resource type="Resource" id="Resource_wce8i"]
+[sub_resource type="Resource" id="Resource_gr0er"]
 script = ExtResource("3_0g7vj")
 level = 42
 move = 56
@@ -59,6 +59,7 @@ pokedex = "Its shell is not just for protection.
 Its rounded shape and the grooves on its
 surface minimize resistance in water,
 enabling Squirtle to swim at high speeds."
+sprite_folder = "squirtle"
 type_1 = 12
 base_hp = 44
 base_atk = 48
@@ -77,6 +78,6 @@ ability_hidden = 44
 height_dm = 5
 weight_hg = 90
 body_color = 1
-level_moves = Array[ExtResource("3_0g7vj")]([SubResource("Resource_vimcv"), SubResource("Resource_0g7vj"), SubResource("Resource_7fanq"), SubResource("Resource_450ws"), SubResource("Resource_d5ch3"), SubResource("Resource_0mm4c"), SubResource("Resource_6htdw"), SubResource("Resource_wce8i")])
+level_moves = Array[ExtResource("3_0g7vj")]([SubResource("Resource_d5ch3"), SubResource("Resource_0mm4c"), SubResource("Resource_6htdw"), SubResource("Resource_wce8i"), SubResource("Resource_hx466"), SubResource("Resource_us74u"), SubResource("Resource_cflav"), SubResource("Resource_gr0er")])
 egg_moves = Array[int]([243, 114, 54, 193, 175, 287, 300, 281, 330, 252, 392, 453, 323, 362, 406, 396])
-evolutions = Array[ExtResource("1_jtttk")]([SubResource("Resource_jtttk")])
+evolutions = Array[ExtResource("1_jtttk")]([SubResource("Resource_450ws")])

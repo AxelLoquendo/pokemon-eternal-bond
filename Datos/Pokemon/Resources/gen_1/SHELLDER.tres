@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5ju8a"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_aia1y"]
 
-[sub_resource type="Resource" id="Resource_gdtmi"]
+[sub_resource type="Resource" id="Resource_t5ilt"]
 script = ExtResource("1_gdtmi")
 method = "ITEM"
 param = "ITEM_WATER_STONE"
 target = 91
 
-[sub_resource type="Resource" id="Resource_0v4ot"]
+[sub_resource type="Resource" id="Resource_wuuh0"]
 script = ExtResource("3_5ju8a")
 move = 33
 
-[sub_resource type="Resource" id="Resource_5ju8a"]
+[sub_resource type="Resource" id="Resource_h2x0k"]
 script = ExtResource("3_5ju8a")
 move = 110
 
-[sub_resource type="Resource" id="Resource_aia1y"]
+[sub_resource type="Resource" id="Resource_fas1q"]
 script = ExtResource("3_5ju8a")
 level = 18
 move = 48
 
-[sub_resource type="Resource" id="Resource_t5ilt"]
+[sub_resource type="Resource" id="Resource_5ohcc"]
 script = ExtResource("3_5ju8a")
 level = 23
 move = 128
 
-[sub_resource type="Resource" id="Resource_wuuh0"]
+[sub_resource type="Resource" id="Resource_00o1c"]
 script = ExtResource("3_5ju8a")
 level = 30
 move = 62
 
-[sub_resource type="Resource" id="Resource_h2x0k"]
+[sub_resource type="Resource" id="Resource_5oo3v"]
 script = ExtResource("3_5ju8a")
 level = 39
 move = 43
 
-[sub_resource type="Resource" id="Resource_fas1q"]
+[sub_resource type="Resource" id="Resource_agpna"]
 script = ExtResource("3_5ju8a")
 level = 50
 move = 58
@@ -54,6 +54,7 @@ pokedex = "At night, it burrows a hole in the seafloor
 with its broad tongue to make a place to
 sleep. While asleep, it closes its shell,
 but leaves its tongue hanging out."
+sprite_folder = "shellder"
 type_1 = 12
 base_hp = 30
 base_atk = 65
@@ -74,6 +75,6 @@ item_rare = 141
 height_dm = 3
 weight_hg = 40
 body_color = 6
-level_moves = Array[ExtResource("3_5ju8a")]([SubResource("Resource_0v4ot"), SubResource("Resource_5ju8a"), SubResource("Resource_aia1y"), SubResource("Resource_t5ilt"), SubResource("Resource_wuuh0"), SubResource("Resource_h2x0k"), SubResource("Resource_fas1q")])
+level_moves = Array[ExtResource("3_5ju8a")]([SubResource("Resource_wuuh0"), SubResource("Resource_h2x0k"), SubResource("Resource_fas1q"), SubResource("Resource_5ohcc"), SubResource("Resource_00o1c"), SubResource("Resource_5oo3v"), SubResource("Resource_agpna")])
 egg_moves = Array[int]([61, 36, 112, 229, 103, 333, 341, 350, 352, 392, 419, 41])
-evolutions = Array[ExtResource("1_gdtmi")]([SubResource("Resource_gdtmi")])
+evolutions = Array[ExtResource("1_gdtmi")]([SubResource("Resource_t5ilt")])

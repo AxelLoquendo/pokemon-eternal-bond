@@ -5,25 +5,25 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hqmym"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_g5waw"]
 
-[sub_resource type="Resource" id="Resource_imtfd"]
+[sub_resource type="Resource" id="Resource_3p64l"]
 script = ExtResource("3_hqmym")
 move = 84
 
-[sub_resource type="Resource" id="Resource_vbirw"]
+[sub_resource type="Resource" id="Resource_2b164"]
 script = ExtResource("3_hqmym")
 move = 65
 
-[sub_resource type="Resource" id="Resource_hqmym"]
+[sub_resource type="Resource" id="Resource_xwi6r"]
 script = ExtResource("3_hqmym")
 level = 51
 move = 87
 
-[sub_resource type="Resource" id="Resource_g5waw"]
+[sub_resource type="Resource" id="Resource_er1t1"]
 script = ExtResource("3_hqmym")
 level = 55
 move = 97
 
-[sub_resource type="Resource" id="Resource_3p64l"]
+[sub_resource type="Resource" id="Resource_31vk2"]
 script = ExtResource("3_hqmym")
 level = 60
 move = 113
@@ -38,6 +38,7 @@ pokedex = "Zapdos is a legendary bird Pokémon that
 has the ability to control electricity.
 It usually lives in thunderclouds. It gains
 power if it is stricken by lightning bolts."
+sprite_folder = "zapdos"
 type_1 = 14
 type_2 = 3
 base_hp = 90
@@ -58,5 +59,5 @@ ability_hidden = 9
 height_dm = 16
 weight_hg = 526
 body_color = 2
-level_moves = Array[ExtResource("3_hqmym")]([SubResource("Resource_imtfd"), SubResource("Resource_vbirw"), SubResource("Resource_hqmym"), SubResource("Resource_g5waw"), SubResource("Resource_3p64l")])
+level_moves = Array[ExtResource("3_hqmym")]([SubResource("Resource_3p64l"), SubResource("Resource_2b164"), SubResource("Resource_xwi6r"), SubResource("Resource_er1t1"), SubResource("Resource_31vk2")])
 form_species = Array[int]([145, 983])

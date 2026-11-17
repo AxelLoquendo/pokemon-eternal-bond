@@ -5,35 +5,35 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_r6abq"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_yhjpc"]
 
-[sub_resource type="Resource" id="Resource_guut5"]
+[sub_resource type="Resource" id="Resource_ml3xk"]
 script = ExtResource("3_r6abq")
 move = 33
 
-[sub_resource type="Resource" id="Resource_v1m4a"]
+[sub_resource type="Resource" id="Resource_cc0te"]
 script = ExtResource("3_r6abq")
 move = 123
 
-[sub_resource type="Resource" id="Resource_r6abq"]
+[sub_resource type="Resource" id="Resource_7oky8"]
 script = ExtResource("3_r6abq")
 level = 32
 move = 124
 
-[sub_resource type="Resource" id="Resource_yhjpc"]
+[sub_resource type="Resource" id="Resource_3f8ht"]
 script = ExtResource("3_r6abq")
 level = 37
 move = 108
 
-[sub_resource type="Resource" id="Resource_ml3xk"]
+[sub_resource type="Resource" id="Resource_6j6fi"]
 script = ExtResource("3_r6abq")
 level = 40
 move = 120
 
-[sub_resource type="Resource" id="Resource_cc0te"]
+[sub_resource type="Resource" id="Resource_q3ut6"]
 script = ExtResource("3_r6abq")
 level = 45
 move = 114
 
-[sub_resource type="Resource" id="Resource_7oky8"]
+[sub_resource type="Resource" id="Resource_dffve"]
 script = ExtResource("3_r6abq")
 level = 48
 move = 153
@@ -48,6 +48,7 @@ pokedex = "Getting up close to a Koffing will give
 you a chance to observe, through its thin
 skin, the toxic gases swirling inside. It
 blows up at the slightest stimulation."
+sprite_folder = "koffing"
 type_1 = 4
 base_hp = 40
 base_atk = 65
@@ -66,5 +67,5 @@ item_rare = 468
 height_dm = 6
 weight_hg = 10
 body_color = 6
-level_moves = Array[ExtResource("3_r6abq")]([SubResource("Resource_guut5"), SubResource("Resource_v1m4a"), SubResource("Resource_r6abq"), SubResource("Resource_yhjpc"), SubResource("Resource_ml3xk"), SubResource("Resource_cc0te"), SubResource("Resource_7oky8")])
+level_moves = Array[ExtResource("3_r6abq")]([SubResource("Resource_ml3xk"), SubResource("Resource_cc0te"), SubResource("Resource_7oky8"), SubResource("Resource_3f8ht"), SubResource("Resource_6j6fi"), SubResource("Resource_q3ut6"), SubResource("Resource_dffve")])
 egg_moves = Array[int]([103, 149, 60, 194, 220, 288, 180, 174, 254, 256, 255, 390, 599])

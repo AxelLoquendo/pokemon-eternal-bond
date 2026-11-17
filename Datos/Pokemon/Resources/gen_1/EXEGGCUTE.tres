@@ -5,40 +5,40 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xrcnr"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_47bro"]
 
-[sub_resource type="Resource" id="Resource_vr54i"]
+[sub_resource type="Resource" id="Resource_ye5re"]
 script = ExtResource("3_xrcnr")
 move = 140
 
-[sub_resource type="Resource" id="Resource_trsqq"]
+[sub_resource type="Resource" id="Resource_xnm5q"]
 script = ExtResource("3_xrcnr")
 move = 95
 
-[sub_resource type="Resource" id="Resource_xrcnr"]
+[sub_resource type="Resource" id="Resource_ulwnv"]
 script = ExtResource("3_xrcnr")
 level = 25
 move = 115
 
-[sub_resource type="Resource" id="Resource_47bro"]
+[sub_resource type="Resource" id="Resource_oxyvv"]
 script = ExtResource("3_xrcnr")
 level = 28
 move = 73
 
-[sub_resource type="Resource" id="Resource_ye5re"]
+[sub_resource type="Resource" id="Resource_b3mf3"]
 script = ExtResource("3_xrcnr")
 level = 32
 move = 78
 
-[sub_resource type="Resource" id="Resource_xnm5q"]
+[sub_resource type="Resource" id="Resource_4dts3"]
 script = ExtResource("3_xrcnr")
 level = 37
 move = 77
 
-[sub_resource type="Resource" id="Resource_ulwnv"]
+[sub_resource type="Resource" id="Resource_weor0"]
 script = ExtResource("3_xrcnr")
 level = 42
 move = 76
 
-[sub_resource type="Resource" id="Resource_oxyvv"]
+[sub_resource type="Resource" id="Resource_afyyu"]
 script = ExtResource("3_xrcnr")
 level = 48
 move = 79
@@ -53,6 +53,7 @@ pokedex = "It consists of six eggs that care for each
 other. The eggs attract each other and
 spin around. When cracks increasingly
 appear, it is close to evolution."
+sprite_folder = "exeggcute"
 type_1 = 13
 type_2 = 15
 base_hp = 60
@@ -73,5 +74,5 @@ height_dm = 4
 weight_hg = 25
 body_color = 9
 no_flip = true
-level_moves = Array[ExtResource("3_xrcnr")]([SubResource("Resource_vr54i"), SubResource("Resource_trsqq"), SubResource("Resource_xrcnr"), SubResource("Resource_47bro"), SubResource("Resource_ye5re"), SubResource("Resource_xnm5q"), SubResource("Resource_ulwnv"), SubResource("Resource_oxyvv")])
+level_moves = Array[ExtResource("3_xrcnr")]([SubResource("Resource_ye5re"), SubResource("Resource_xnm5q"), SubResource("Resource_ulwnv"), SubResource("Resource_oxyvv"), SubResource("Resource_b3mf3"), SubResource("Resource_4dts3"), SubResource("Resource_weor0"), SubResource("Resource_afyyu")])
 egg_moves = Array[int]([235, 236, 246, 275, 174, 267, 381, 437, 384, 202, 285, 363, 335, 580])

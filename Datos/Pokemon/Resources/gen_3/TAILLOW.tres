@@ -5,51 +5,51 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_w0wbj"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_o14rn"]
 
-[sub_resource type="Resource" id="Resource_s8mbd"]
+[sub_resource type="Resource" id="Resource_klpms"]
 script = ExtResource("1_s8mbd")
 method = "LEVEL"
 param = "22"
 target = 277
 
-[sub_resource type="Resource" id="Resource_yosrv"]
+[sub_resource type="Resource" id="Resource_ew1m2"]
 script = ExtResource("3_w0wbj")
 move = 64
 
-[sub_resource type="Resource" id="Resource_w0wbj"]
+[sub_resource type="Resource" id="Resource_5dxhy"]
 script = ExtResource("3_w0wbj")
 move = 45
 
-[sub_resource type="Resource" id="Resource_o14rn"]
+[sub_resource type="Resource" id="Resource_we7x0"]
 script = ExtResource("3_w0wbj")
 level = 4
 move = 116
 
-[sub_resource type="Resource" id="Resource_klpms"]
+[sub_resource type="Resource" id="Resource_40kua"]
 script = ExtResource("3_w0wbj")
 level = 8
 move = 98
 
-[sub_resource type="Resource" id="Resource_ew1m2"]
+[sub_resource type="Resource" id="Resource_575ej"]
 script = ExtResource("3_w0wbj")
 level = 13
 move = 17
 
-[sub_resource type="Resource" id="Resource_5dxhy"]
+[sub_resource type="Resource" id="Resource_lv1ax"]
 script = ExtResource("3_w0wbj")
 level = 19
 move = 104
 
-[sub_resource type="Resource" id="Resource_we7x0"]
+[sub_resource type="Resource" id="Resource_tuipp"]
 script = ExtResource("3_w0wbj")
 level = 26
 move = 283
 
-[sub_resource type="Resource" id="Resource_40kua"]
+[sub_resource type="Resource" id="Resource_d4i4w"]
 script = ExtResource("3_w0wbj")
 level = 34
 move = 332
 
-[sub_resource type="Resource" id="Resource_575ej"]
+[sub_resource type="Resource" id="Resource_qiphj"]
 script = ExtResource("3_w0wbj")
 level = 43
 move = 97
@@ -64,6 +64,7 @@ pokedex = "Although it is small, it is very courageous.
 It will take on a larger Skarmory on an
 equal footing. However, its will weakens if
 it becomes hungry."
+sprite_folder = "taillow"
 type_1 = 1
 type_2 = 3
 base_hp = 40
@@ -83,6 +84,6 @@ ability_hidden = 113
 height_dm = 3
 weight_hg = 23
 body_color = 1
-level_moves = Array[ExtResource("3_w0wbj")]([SubResource("Resource_yosrv"), SubResource("Resource_w0wbj"), SubResource("Resource_o14rn"), SubResource("Resource_klpms"), SubResource("Resource_ew1m2"), SubResource("Resource_5dxhy"), SubResource("Resource_we7x0"), SubResource("Resource_40kua"), SubResource("Resource_575ej")])
+level_moves = Array[ExtResource("3_w0wbj")]([SubResource("Resource_ew1m2"), SubResource("Resource_5dxhy"), SubResource("Resource_we7x0"), SubResource("Resource_40kua"), SubResource("Resource_575ej"), SubResource("Resource_lv1ax"), SubResource("Resource_tuipp"), SubResource("Resource_d4i4w"), SubResource("Resource_qiphj")])
 egg_moves = Array[int]([228, 48, 287, 119, 99, 143, 18, 413, 355, 211, 432, 586, 542])
-evolutions = Array[ExtResource("1_s8mbd")]([SubResource("Resource_s8mbd")])
+evolutions = Array[ExtResource("1_s8mbd")]([SubResource("Resource_klpms")])

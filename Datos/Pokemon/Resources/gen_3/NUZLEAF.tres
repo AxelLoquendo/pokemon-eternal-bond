@@ -5,57 +5,57 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1t024"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_iejaq"]
 
-[sub_resource type="Resource" id="Resource_aeoc2"]
+[sub_resource type="Resource" id="Resource_vmvk1"]
 script = ExtResource("1_aeoc2")
 method = "ITEM"
 param = "ITEM_LEAF_STONE"
 target = 275
 
-[sub_resource type="Resource" id="Resource_6p30o"]
+[sub_resource type="Resource" id="Resource_0x8ph"]
 script = ExtResource("3_1t024")
 move = 1
 
-[sub_resource type="Resource" id="Resource_1t024"]
+[sub_resource type="Resource" id="Resource_ox8bw"]
 script = ExtResource("3_1t024")
 level = 3
 move = 106
 
-[sub_resource type="Resource" id="Resource_iejaq"]
+[sub_resource type="Resource" id="Resource_22tvv"]
 script = ExtResource("3_1t024")
 level = 7
 move = 74
 
-[sub_resource type="Resource" id="Resource_vmvk1"]
+[sub_resource type="Resource" id="Resource_o2ijf"]
 script = ExtResource("3_1t024")
 level = 13
 move = 267
 
-[sub_resource type="Resource" id="Resource_0x8ph"]
+[sub_resource type="Resource" id="Resource_awrun"]
 script = ExtResource("3_1t024")
 level = 19
 move = 252
 
-[sub_resource type="Resource" id="Resource_ox8bw"]
+[sub_resource type="Resource" id="Resource_dbx2y"]
 script = ExtResource("3_1t024")
 level = 25
 move = 259
 
-[sub_resource type="Resource" id="Resource_22tvv"]
+[sub_resource type="Resource" id="Resource_apl7f"]
 script = ExtResource("3_1t024")
 level = 31
 move = 185
 
-[sub_resource type="Resource" id="Resource_o2ijf"]
+[sub_resource type="Resource" id="Resource_wb1qj"]
 script = ExtResource("3_1t024")
 level = 37
 move = 13
 
-[sub_resource type="Resource" id="Resource_awrun"]
+[sub_resource type="Resource" id="Resource_dj8li"]
 script = ExtResource("3_1t024")
 level = 43
 move = 207
 
-[sub_resource type="Resource" id="Resource_dbx2y"]
+[sub_resource type="Resource" id="Resource_armno"]
 script = ExtResource("3_1t024")
 level = 49
 move = 326
@@ -70,6 +70,7 @@ pokedex = "A forest-dwelling Pokémon that is skilled
 at climbing trees. Its long and pointed
 nose is its weak point. It loses power if
 the nose is gripped."
+sprite_folder = "nuzleaf"
 type_1 = 13
 type_2 = 18
 base_hp = 70
@@ -92,5 +93,5 @@ item_rare = 480
 height_dm = 10
 weight_hg = 280
 body_color = 5
-level_moves = Array[ExtResource("3_1t024")]([SubResource("Resource_6p30o"), SubResource("Resource_1t024"), SubResource("Resource_iejaq"), SubResource("Resource_vmvk1"), SubResource("Resource_0x8ph"), SubResource("Resource_ox8bw"), SubResource("Resource_22tvv"), SubResource("Resource_o2ijf"), SubResource("Resource_awrun"), SubResource("Resource_dbx2y")])
-evolutions = Array[ExtResource("1_aeoc2")]([SubResource("Resource_aeoc2")])
+level_moves = Array[ExtResource("3_1t024")]([SubResource("Resource_0x8ph"), SubResource("Resource_ox8bw"), SubResource("Resource_22tvv"), SubResource("Resource_o2ijf"), SubResource("Resource_awrun"), SubResource("Resource_dbx2y"), SubResource("Resource_apl7f"), SubResource("Resource_wb1qj"), SubResource("Resource_dj8li"), SubResource("Resource_armno")])
+evolutions = Array[ExtResource("1_aeoc2")]([SubResource("Resource_vmvk1")])

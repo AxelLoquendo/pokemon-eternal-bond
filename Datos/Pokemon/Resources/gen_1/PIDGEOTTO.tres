@@ -5,46 +5,46 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_axlp8"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8kco1"]
 
-[sub_resource type="Resource" id="Resource_kq6dm"]
+[sub_resource type="Resource" id="Resource_wp67w"]
 script = ExtResource("1_kq6dm")
 method = "LEVEL"
 param = "36"
 target = 18
 
-[sub_resource type="Resource" id="Resource_dwu87"]
+[sub_resource type="Resource" id="Resource_xg7db"]
 script = ExtResource("3_axlp8")
 move = 16
 
-[sub_resource type="Resource" id="Resource_axlp8"]
+[sub_resource type="Resource" id="Resource_al4ro"]
 script = ExtResource("3_axlp8")
 move = 28
 
-[sub_resource type="Resource" id="Resource_8kco1"]
+[sub_resource type="Resource" id="Resource_hamte"]
 script = ExtResource("3_axlp8")
 level = 5
 move = 28
 
-[sub_resource type="Resource" id="Resource_wp67w"]
+[sub_resource type="Resource" id="Resource_s0b8l"]
 script = ExtResource("3_axlp8")
 level = 12
 move = 98
 
-[sub_resource type="Resource" id="Resource_xg7db"]
+[sub_resource type="Resource" id="Resource_shxup"]
 script = ExtResource("3_axlp8")
 level = 21
 move = 18
 
-[sub_resource type="Resource" id="Resource_al4ro"]
+[sub_resource type="Resource" id="Resource_0gcb6"]
 script = ExtResource("3_axlp8")
 level = 31
 move = 17
 
-[sub_resource type="Resource" id="Resource_hamte"]
+[sub_resource type="Resource" id="Resource_co5gh"]
 script = ExtResource("3_axlp8")
 level = 40
 move = 97
 
-[sub_resource type="Resource" id="Resource_s0b8l"]
+[sub_resource type="Resource" id="Resource_ns6op"]
 script = ExtResource("3_axlp8")
 level = 49
 move = 119
@@ -59,6 +59,7 @@ pokedex = "This Pokémon flies around, patrolling its
 large territory. If its living space is
 violated, it shows no mercy in thoroughly
 punishing the foe with its sharp claws."
+sprite_folder = "pidgeotto"
 type_1 = 1
 type_2 = 3
 base_hp = 63
@@ -79,5 +80,5 @@ ability_hidden = 145
 height_dm = 11
 weight_hg = 300
 body_color = 5
-level_moves = Array[ExtResource("3_axlp8")]([SubResource("Resource_dwu87"), SubResource("Resource_axlp8"), SubResource("Resource_8kco1"), SubResource("Resource_wp67w"), SubResource("Resource_xg7db"), SubResource("Resource_al4ro"), SubResource("Resource_hamte"), SubResource("Resource_s0b8l")])
-evolutions = Array[ExtResource("1_kq6dm")]([SubResource("Resource_kq6dm")])
+level_moves = Array[ExtResource("3_axlp8")]([SubResource("Resource_xg7db"), SubResource("Resource_al4ro"), SubResource("Resource_hamte"), SubResource("Resource_s0b8l"), SubResource("Resource_shxup"), SubResource("Resource_0gcb6"), SubResource("Resource_co5gh"), SubResource("Resource_ns6op")])
+evolutions = Array[ExtResource("1_kq6dm")]([SubResource("Resource_wp67w")])

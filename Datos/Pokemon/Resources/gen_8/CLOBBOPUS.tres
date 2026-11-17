@@ -5,55 +5,55 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_11t7l"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cl27y"]
 
-[sub_resource type="Resource" id="Resource_5mb28"]
+[sub_resource type="Resource" id="Resource_efeav"]
 script = ExtResource("3_11t7l")
 move = 249
 
-[sub_resource type="Resource" id="Resource_217du"]
+[sub_resource type="Resource" id="Resource_5jmtj"]
 script = ExtResource("3_11t7l")
 move = 43
 
-[sub_resource type="Resource" id="Resource_11t7l"]
+[sub_resource type="Resource" id="Resource_5jqec"]
 script = ExtResource("3_11t7l")
 level = 5
 move = 364
 
-[sub_resource type="Resource" id="Resource_cl27y"]
+[sub_resource type="Resource" id="Resource_y501d"]
 script = ExtResource("3_11t7l")
 level = 10
 move = 20
 
-[sub_resource type="Resource" id="Resource_efeav"]
+[sub_resource type="Resource" id="Resource_w0war"]
 script = ExtResource("3_11t7l")
 level = 15
 move = 197
 
-[sub_resource type="Resource" id="Resource_5jmtj"]
+[sub_resource type="Resource" id="Resource_bwjpc"]
 script = ExtResource("3_11t7l")
 level = 20
 move = 280
 
-[sub_resource type="Resource" id="Resource_5jqec"]
+[sub_resource type="Resource" id="Resource_c06bm"]
 script = ExtResource("3_11t7l")
 level = 25
 move = 339
 
-[sub_resource type="Resource" id="Resource_y501d"]
+[sub_resource type="Resource" id="Resource_lqjhp"]
 script = ExtResource("3_11t7l")
 level = 30
 move = 66
 
-[sub_resource type="Resource" id="Resource_w0war"]
+[sub_resource type="Resource" id="Resource_v8xau"]
 script = ExtResource("3_11t7l")
 level = 35
 move = 269
 
-[sub_resource type="Resource" id="Resource_bwjpc"]
+[sub_resource type="Resource" id="Resource_fljjm"]
 script = ExtResource("3_11t7l")
 level = 40
 move = 179
 
-[sub_resource type="Resource" id="Resource_c06bm"]
+[sub_resource type="Resource" id="Resource_jkfek"]
 script = ExtResource("3_11t7l")
 level = 45
 move = 276
@@ -68,6 +68,7 @@ pokedex = "It's very curious, but its means of
 investigating things is to try to punch
 them with its tentacles. The search for
 food is what brings it onto land."
+sprite_folder = "clobbopus"
 type_1 = 2
 base_hp = 50
 base_atk = 68
@@ -87,5 +88,5 @@ ability_hidden = 101
 height_dm = 6
 weight_hg = 40
 body_color = 5
-level_moves = Array[ExtResource("3_11t7l")]([SubResource("Resource_5mb28"), SubResource("Resource_217du"), SubResource("Resource_11t7l"), SubResource("Resource_cl27y"), SubResource("Resource_efeav"), SubResource("Resource_5jmtj"), SubResource("Resource_5jqec"), SubResource("Resource_y501d"), SubResource("Resource_w0war"), SubResource("Resource_bwjpc"), SubResource("Resource_c06bm")])
+level_moves = Array[ExtResource("3_11t7l")]([SubResource("Resource_efeav"), SubResource("Resource_5jmtj"), SubResource("Resource_5jqec"), SubResource("Resource_y501d"), SubResource("Resource_w0war"), SubResource("Resource_bwjpc"), SubResource("Resource_c06bm"), SubResource("Resource_lqjhp"), SubResource("Resource_v8xau"), SubResource("Resource_fljjm"), SubResource("Resource_jkfek")])
 egg_moves = Array[int]([220, 487, 389, 509, 69, 612])

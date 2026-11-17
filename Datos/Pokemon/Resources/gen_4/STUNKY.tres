@@ -5,66 +5,66 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_x6idm"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_igm8b"]
 
-[sub_resource type="Resource" id="Resource_og54t"]
+[sub_resource type="Resource" id="Resource_8yklq"]
 script = ExtResource("1_og54t")
 method = "LEVEL"
 param = "34"
 target = 435
 
-[sub_resource type="Resource" id="Resource_jwx3q"]
+[sub_resource type="Resource" id="Resource_kppvw"]
 script = ExtResource("3_x6idm")
 move = 10
 
-[sub_resource type="Resource" id="Resource_x6idm"]
+[sub_resource type="Resource" id="Resource_7eh6w"]
 script = ExtResource("3_x6idm")
 move = 116
 
-[sub_resource type="Resource" id="Resource_igm8b"]
+[sub_resource type="Resource" id="Resource_l20li"]
 script = ExtResource("3_x6idm")
 level = 4
 move = 139
 
-[sub_resource type="Resource" id="Resource_8yklq"]
+[sub_resource type="Resource" id="Resource_ebhwc"]
 script = ExtResource("3_x6idm")
 level = 7
 move = 103
 
-[sub_resource type="Resource" id="Resource_kppvw"]
+[sub_resource type="Resource" id="Resource_bydwx"]
 script = ExtResource("3_x6idm")
 level = 10
 move = 154
 
-[sub_resource type="Resource" id="Resource_7eh6w"]
+[sub_resource type="Resource" id="Resource_24nni"]
 script = ExtResource("3_x6idm")
 level = 14
 move = 108
 
-[sub_resource type="Resource" id="Resource_l20li"]
+[sub_resource type="Resource" id="Resource_vjegb"]
 script = ExtResource("3_x6idm")
 level = 18
 move = 364
 
-[sub_resource type="Resource" id="Resource_ebhwc"]
+[sub_resource type="Resource" id="Resource_bfc6u"]
 script = ExtResource("3_x6idm")
 level = 22
 move = 163
 
-[sub_resource type="Resource" id="Resource_bydwx"]
+[sub_resource type="Resource" id="Resource_0t1aw"]
 script = ExtResource("3_x6idm")
 level = 27
 move = 92
 
-[sub_resource type="Resource" id="Resource_24nni"]
+[sub_resource type="Resource" id="Resource_63vyr"]
 script = ExtResource("3_x6idm")
 level = 32
 move = 400
 
-[sub_resource type="Resource" id="Resource_vjegb"]
+[sub_resource type="Resource" id="Resource_pwnga"]
 script = ExtResource("3_x6idm")
 level = 38
 move = 262
 
-[sub_resource type="Resource" id="Resource_bfc6u"]
+[sub_resource type="Resource" id="Resource_w08r6"]
 script = ExtResource("3_x6idm")
 level = 44
 move = 153
@@ -79,6 +79,7 @@ pokedex = "It protects itself by spraying a
 nose-curling, stinky fluid from its rear
 to repel attackers. The stench lingers
 for 24 hours."
+sprite_folder = "stunky"
 type_1 = 4
 type_2 = 18
 base_hp = 63
@@ -97,6 +98,6 @@ ability_hidden = 51
 height_dm = 4
 weight_hg = 192
 body_color = 6
-level_moves = Array[ExtResource("3_x6idm")]([SubResource("Resource_jwx3q"), SubResource("Resource_x6idm"), SubResource("Resource_igm8b"), SubResource("Resource_8yklq"), SubResource("Resource_kppvw"), SubResource("Resource_7eh6w"), SubResource("Resource_l20li"), SubResource("Resource_ebhwc"), SubResource("Resource_bydwx"), SubResource("Resource_24nni"), SubResource("Resource_vjegb"), SubResource("Resource_bfc6u")])
+level_moves = Array[ExtResource("3_x6idm")]([SubResource("Resource_kppvw"), SubResource("Resource_7eh6w"), SubResource("Resource_l20li"), SubResource("Resource_ebhwc"), SubResource("Resource_bydwx"), SubResource("Resource_24nni"), SubResource("Resource_vjegb"), SubResource("Resource_bfc6u"), SubResource("Resource_0t1aw"), SubResource("Resource_63vyr"), SubResource("Resource_pwnga"), SubResource("Resource_w08r6")])
 egg_moves = Array[int]([228, 43, 123, 38, 242, 184, 310, 386, 114, 231, 492, 481, 583])
-evolutions = Array[ExtResource("1_og54t")]([SubResource("Resource_og54t")])
+evolutions = Array[ExtResource("1_og54t")]([SubResource("Resource_8yklq")])

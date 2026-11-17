@@ -5,82 +5,82 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k55xp"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_b6l5i"]
 
-[sub_resource type="Resource" id="Resource_r7kfu"]
+[sub_resource type="Resource" id="Resource_q022c"]
 script = ExtResource("1_r7kfu")
 method = "LEVEL"
 param = "35"
 target = 583
 
-[sub_resource type="Resource" id="Resource_e7p0k"]
+[sub_resource type="Resource" id="Resource_d7fiv"]
 script = ExtResource("3_k55xp")
 move = 333
 
-[sub_resource type="Resource" id="Resource_k55xp"]
+[sub_resource type="Resource" id="Resource_lfgay"]
 script = ExtResource("3_k55xp")
 level = 4
 move = 106
 
-[sub_resource type="Resource" id="Resource_b6l5i"]
+[sub_resource type="Resource" id="Resource_lqa88"]
 script = ExtResource("3_k55xp")
 level = 7
 move = 310
 
-[sub_resource type="Resource" id="Resource_q022c"]
+[sub_resource type="Resource" id="Resource_5jduy"]
 script = ExtResource("3_k55xp")
 level = 10
 move = 253
 
-[sub_resource type="Resource" id="Resource_d7fiv"]
+[sub_resource type="Resource" id="Resource_wrl0m"]
 script = ExtResource("3_k55xp")
 level = 13
 move = 196
 
-[sub_resource type="Resource" id="Resource_lfgay"]
+[sub_resource type="Resource" id="Resource_xtsps"]
 script = ExtResource("3_k55xp")
 level = 16
 move = 54
 
-[sub_resource type="Resource" id="Resource_lqa88"]
+[sub_resource type="Resource" id="Resource_gxvd3"]
 script = ExtResource("3_k55xp")
 level = 19
 move = 419
 
-[sub_resource type="Resource" id="Resource_5jduy"]
+[sub_resource type="Resource" id="Resource_ajdu1"]
 script = ExtResource("3_k55xp")
 level = 22
 move = 269
 
-[sub_resource type="Resource" id="Resource_wrl0m"]
+[sub_resource type="Resource" id="Resource_phvsw"]
 script = ExtResource("3_k55xp")
 level = 26
 move = 429
 
-[sub_resource type="Resource" id="Resource_xtsps"]
+[sub_resource type="Resource" id="Resource_byaql"]
 script = ExtResource("3_k55xp")
 level = 31
 move = 151
 
-[sub_resource type="Resource" id="Resource_gxvd3"]
+[sub_resource type="Resource" id="Resource_cy26b"]
 script = ExtResource("3_k55xp")
 level = 35
 move = 58
 
-[sub_resource type="Resource" id="Resource_ajdu1"]
+[sub_resource type="Resource" id="Resource_ogi1u"]
 script = ExtResource("3_k55xp")
 level = 40
 move = 258
 
-[sub_resource type="Resource" id="Resource_phvsw"]
+[sub_resource type="Resource" id="Resource_xw4r0"]
 script = ExtResource("3_k55xp")
 level = 44
 move = 243
 
-[sub_resource type="Resource" id="Resource_byaql"]
+[sub_resource type="Resource" id="Resource_veqkh"]
 script = ExtResource("3_k55xp")
 level = 49
 move = 59
 
-[sub_resource type="Resource" id="Resource_cy26b"]
+[sub_resource type="Resource" id="Resource_reyqq"]
 script = ExtResource("3_k55xp")
 level = 53
 move = 329
@@ -95,6 +95,7 @@ pokedex = "The temperature of their breath is -58ºF.
 They create snow crystals and make snow
 fall in the areas around them. Vanillite is
 treasured by households in warm regions."
+sprite_folder = "vanillite"
 type_1 = 16
 base_hp = 36
 base_atk = 50
@@ -114,6 +115,6 @@ item_rare = 430
 height_dm = 4
 weight_hg = 57
 body_color = 8
-level_moves = Array[ExtResource("3_k55xp")]([SubResource("Resource_e7p0k"), SubResource("Resource_k55xp"), SubResource("Resource_b6l5i"), SubResource("Resource_q022c"), SubResource("Resource_d7fiv"), SubResource("Resource_lfgay"), SubResource("Resource_lqa88"), SubResource("Resource_5jduy"), SubResource("Resource_wrl0m"), SubResource("Resource_xtsps"), SubResource("Resource_gxvd3"), SubResource("Resource_ajdu1"), SubResource("Resource_phvsw"), SubResource("Resource_byaql"), SubResource("Resource_cy26b")])
+level_moves = Array[ExtResource("3_k55xp")]([SubResource("Resource_d7fiv"), SubResource("Resource_lfgay"), SubResource("Resource_lqa88"), SubResource("Resource_5jduy"), SubResource("Resource_wrl0m"), SubResource("Resource_xtsps"), SubResource("Resource_gxvd3"), SubResource("Resource_ajdu1"), SubResource("Resource_phvsw"), SubResource("Resource_byaql"), SubResource("Resource_cy26b"), SubResource("Resource_ogi1u"), SubResource("Resource_xw4r0"), SubResource("Resource_veqkh"), SubResource("Resource_reyqq")])
 egg_moves = Array[int]([352, 363, 286, 475, 334, 393, 420, 181])
-evolutions = Array[ExtResource("1_r7kfu")]([SubResource("Resource_r7kfu")])
+evolutions = Array[ExtResource("1_r7kfu")]([SubResource("Resource_q022c")])

@@ -5,86 +5,86 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_shedi"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t53oq"]
 
-[sub_resource type="Resource" id="Resource_en6c4"]
+[sub_resource type="Resource" id="Resource_0fnnn"]
 script = ExtResource("1_en6c4")
 method = "LEVEL"
 param = "54"
 target = 630
 
-[sub_resource type="Resource" id="Resource_k2m4w"]
+[sub_resource type="Resource" id="Resource_b5mlt"]
 script = ExtResource("3_shedi")
 move = 16
 
-[sub_resource type="Resource" id="Resource_shedi"]
+[sub_resource type="Resource" id="Resource_myru6"]
 script = ExtResource("3_shedi")
 move = 43
 
-[sub_resource type="Resource" id="Resource_t53oq"]
+[sub_resource type="Resource" id="Resource_yamyi"]
 script = ExtResource("3_shedi")
 level = 5
 move = 31
 
-[sub_resource type="Resource" id="Resource_0fnnn"]
+[sub_resource type="Resource" id="Resource_yx6hi"]
 script = ExtResource("3_shedi")
 level = 10
 move = 365
 
-[sub_resource type="Resource" id="Resource_b5mlt"]
+[sub_resource type="Resource" id="Resource_r0x7h"]
 script = ExtResource("3_shedi")
 level = 14
 move = 417
 
-[sub_resource type="Resource" id="Resource_myru6"]
+[sub_resource type="Resource" id="Resource_8v75o"]
 script = ExtResource("3_shedi")
 level = 19
 move = 260
 
-[sub_resource type="Resource" id="Resource_yamyi"]
+[sub_resource type="Resource" id="Resource_r2x3o"]
 script = ExtResource("3_shedi")
 level = 23
 move = 185
 
-[sub_resource type="Resource" id="Resource_yx6hi"]
+[sub_resource type="Resource" id="Resource_uhkx2"]
 script = ExtResource("3_shedi")
 level = 28
 move = 386
 
-[sub_resource type="Resource" id="Resource_r0x7h"]
+[sub_resource type="Resource" id="Resource_a8o2l"]
 script = ExtResource("3_shedi")
 level = 32
 move = 432
 
-[sub_resource type="Resource" id="Resource_8v75o"]
+[sub_resource type="Resource" id="Resource_qoxog"]
 script = ExtResource("3_shedi")
 level = 37
 move = 366
 
-[sub_resource type="Resource" id="Resource_r2x3o"]
+[sub_resource type="Resource" id="Resource_qfxk5"]
 script = ExtResource("3_shedi")
 level = 41
 move = 403
 
-[sub_resource type="Resource" id="Resource_uhkx2"]
+[sub_resource type="Resource" id="Resource_66vo0"]
 script = ExtResource("3_shedi")
 level = 46
 move = 399
 
-[sub_resource type="Resource" id="Resource_a8o2l"]
+[sub_resource type="Resource" id="Resource_gk1fo"]
 script = ExtResource("3_shedi")
 level = 50
 move = 373
 
-[sub_resource type="Resource" id="Resource_qoxog"]
+[sub_resource type="Resource" id="Resource_cuw33"]
 script = ExtResource("3_shedi")
 level = 55
 move = 18
 
-[sub_resource type="Resource" id="Resource_qfxk5"]
+[sub_resource type="Resource" id="Resource_gmeun"]
 script = ExtResource("3_shedi")
 level = 59
 move = 413
 
-[sub_resource type="Resource" id="Resource_66vo0"]
+[sub_resource type="Resource" id="Resource_bv4y6"]
 script = ExtResource("3_shedi")
 level = 64
 move = 119
@@ -99,6 +99,7 @@ pokedex = "It can't fly yet and must wait until its
 wings have developed more. They guard
 their posteriors with bones that were
 gathered by Mandibuzz."
+sprite_folder = "vullaby"
 type_1 = 18
 type_2 = 3
 base_hp = 70
@@ -120,6 +121,6 @@ ability_hidden = 133
 height_dm = 5
 weight_hg = 90
 body_color = 5
-level_moves = Array[ExtResource("3_shedi")]([SubResource("Resource_k2m4w"), SubResource("Resource_shedi"), SubResource("Resource_t53oq"), SubResource("Resource_0fnnn"), SubResource("Resource_b5mlt"), SubResource("Resource_myru6"), SubResource("Resource_yamyi"), SubResource("Resource_yx6hi"), SubResource("Resource_r0x7h"), SubResource("Resource_8v75o"), SubResource("Resource_r2x3o"), SubResource("Resource_uhkx2"), SubResource("Resource_a8o2l"), SubResource("Resource_qoxog"), SubResource("Resource_qfxk5"), SubResource("Resource_66vo0")])
+level_moves = Array[ExtResource("3_shedi")]([SubResource("Resource_b5mlt"), SubResource("Resource_myru6"), SubResource("Resource_yamyi"), SubResource("Resource_yx6hi"), SubResource("Resource_r0x7h"), SubResource("Resource_8v75o"), SubResource("Resource_r2x3o"), SubResource("Resource_uhkx2"), SubResource("Resource_a8o2l"), SubResource("Resource_qoxog"), SubResource("Resource_qfxk5"), SubResource("Resource_66vo0"), SubResource("Resource_gk1fo"), SubResource("Resource_cuw33"), SubResource("Resource_gmeun"), SubResource("Resource_bv4y6")])
 egg_moves = Array[int]([211, 212, 355, 184, 282, 313, 492])
-evolutions = Array[ExtResource("1_en6c4")]([SubResource("Resource_en6c4")])
+evolutions = Array[ExtResource("1_en6c4")]([SubResource("Resource_0fnnn")])

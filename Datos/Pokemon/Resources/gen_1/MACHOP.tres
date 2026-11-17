@@ -5,37 +5,37 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_e0yj5"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dp8o4"]
 
-[sub_resource type="Resource" id="Resource_atmj0"]
+[sub_resource type="Resource" id="Resource_kghkf"]
 script = ExtResource("1_atmj0")
 method = "LEVEL"
 param = "28"
 target = 67
 
-[sub_resource type="Resource" id="Resource_tht3x"]
+[sub_resource type="Resource" id="Resource_77gj6"]
 script = ExtResource("3_e0yj5")
 move = 2
 
-[sub_resource type="Resource" id="Resource_e0yj5"]
+[sub_resource type="Resource" id="Resource_mjr0k"]
 script = ExtResource("3_e0yj5")
 level = 20
 move = 67
 
-[sub_resource type="Resource" id="Resource_dp8o4"]
+[sub_resource type="Resource" id="Resource_7odd1"]
 script = ExtResource("3_e0yj5")
 level = 25
 move = 43
 
-[sub_resource type="Resource" id="Resource_kghkf"]
+[sub_resource type="Resource" id="Resource_7lwnm"]
 script = ExtResource("3_e0yj5")
 level = 32
 move = 116
 
-[sub_resource type="Resource" id="Resource_77gj6"]
+[sub_resource type="Resource" id="Resource_u3ac7"]
 script = ExtResource("3_e0yj5")
 level = 39
 move = 69
 
-[sub_resource type="Resource" id="Resource_mjr0k"]
+[sub_resource type="Resource" id="Resource_vxs8y"]
 script = ExtResource("3_e0yj5")
 level = 46
 move = 66
@@ -50,6 +50,7 @@ pokedex = "It continually undertakes strenuous
 training to master all forms of martial
 arts. Its strength lets it easily hoist
 a sumo wrestler onto its shoulders."
+sprite_folder = "machop"
 type_1 = 2
 base_hp = 70
 base_atk = 80
@@ -70,6 +71,6 @@ item_rare = 469
 height_dm = 8
 weight_hg = 195
 body_color = 7
-level_moves = Array[ExtResource("3_e0yj5")]([SubResource("Resource_tht3x"), SubResource("Resource_e0yj5"), SubResource("Resource_dp8o4"), SubResource("Resource_kghkf"), SubResource("Resource_77gj6"), SubResource("Resource_mjr0k")])
+level_moves = Array[ExtResource("3_e0yj5")]([SubResource("Resource_77gj6"), SubResource("Resource_mjr0k"), SubResource("Resource_7odd1"), SubResource("Resource_7lwnm"), SubResource("Resource_u3ac7"), SubResource("Resource_vxs8y")])
 egg_moves = Array[int]([96, 27, 227, 265, 68, 370, 7, 9, 8, 418, 379, 484, 282, 321, 501])
-evolutions = Array[ExtResource("1_atmj0")]([SubResource("Resource_atmj0")])
+evolutions = Array[ExtResource("1_atmj0")]([SubResource("Resource_kghkf")])

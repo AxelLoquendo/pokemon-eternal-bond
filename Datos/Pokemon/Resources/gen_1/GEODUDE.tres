@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7mbvs"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6m0f1"]
 
-[sub_resource type="Resource" id="Resource_uo8qw"]
+[sub_resource type="Resource" id="Resource_tw4dn"]
 script = ExtResource("1_uo8qw")
 method = "LEVEL"
 param = "25"
 target = 75
 
-[sub_resource type="Resource" id="Resource_5aqtg"]
+[sub_resource type="Resource" id="Resource_xkmx7"]
 script = ExtResource("3_7mbvs")
 move = 33
 
-[sub_resource type="Resource" id="Resource_7mbvs"]
+[sub_resource type="Resource" id="Resource_vshmc"]
 script = ExtResource("3_7mbvs")
 level = 11
 move = 111
 
-[sub_resource type="Resource" id="Resource_6m0f1"]
+[sub_resource type="Resource" id="Resource_gcv8j"]
 script = ExtResource("3_7mbvs")
 level = 16
 move = 88
 
-[sub_resource type="Resource" id="Resource_tw4dn"]
+[sub_resource type="Resource" id="Resource_o8ovm"]
 script = ExtResource("3_7mbvs")
 level = 21
 move = 120
 
-[sub_resource type="Resource" id="Resource_xkmx7"]
+[sub_resource type="Resource" id="Resource_fpx62"]
 script = ExtResource("3_7mbvs")
 level = 26
 move = 106
 
-[sub_resource type="Resource" id="Resource_vshmc"]
+[sub_resource type="Resource" id="Resource_gpcat"]
 script = ExtResource("3_7mbvs")
 level = 31
 move = 89
 
-[sub_resource type="Resource" id="Resource_gcv8j"]
+[sub_resource type="Resource" id="Resource_5dbul"]
 script = ExtResource("3_7mbvs")
 level = 36
 move = 153
@@ -55,6 +55,7 @@ pokedex = "It climbs mountain paths using only the
 power of its arms. Because they look just
 like boulders lining paths, hikers may step
 on them without noticing."
+sprite_folder = "geodude"
 type_1 = 6
 type_2 = 5
 base_hp = 40
@@ -76,7 +77,7 @@ item_rare = 245
 height_dm = 4
 weight_hg = 200
 body_color = 5
-level_moves = Array[ExtResource("3_7mbvs")]([SubResource("Resource_5aqtg"), SubResource("Resource_7mbvs"), SubResource("Resource_6m0f1"), SubResource("Resource_tw4dn"), SubResource("Resource_xkmx7"), SubResource("Resource_vshmc"), SubResource("Resource_gcv8j")])
+level_moves = Array[ExtResource("3_7mbvs")]([SubResource("Resource_xkmx7"), SubResource("Resource_vshmc"), SubResource("Resource_gcv8j"), SubResource("Resource_o8ovm"), SubResource("Resource_fpx62"), SubResource("Resource_gpcat"), SubResource("Resource_5dbul")])
 egg_moves = Array[int]([5, 335, 359, 175, 174, 264, 431, 203, 475, 469])
-evolutions = Array[ExtResource("1_uo8qw")]([SubResource("Resource_uo8qw")])
+evolutions = Array[ExtResource("1_uo8qw")]([SubResource("Resource_tw4dn")])
 form_species = Array[int]([74, 967])

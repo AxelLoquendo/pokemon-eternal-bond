@@ -5,62 +5,62 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_c3p13"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_w7dc3"]
 
-[sub_resource type="Resource" id="Resource_y277v"]
+[sub_resource type="Resource" id="Resource_n3h8d"]
 script = ExtResource("1_y277v")
 method = "LEVEL"
 param = "36"
 target = 344
 
-[sub_resource type="Resource" id="Resource_bcorh"]
+[sub_resource type="Resource" id="Resource_4arvo"]
 script = ExtResource("3_c3p13")
 move = 93
 
-[sub_resource type="Resource" id="Resource_c3p13"]
+[sub_resource type="Resource" id="Resource_ipdgm"]
 script = ExtResource("3_c3p13")
 level = 3
 move = 106
 
-[sub_resource type="Resource" id="Resource_w7dc3"]
+[sub_resource type="Resource" id="Resource_w1vpu"]
 script = ExtResource("3_c3p13")
 level = 5
 move = 229
 
-[sub_resource type="Resource" id="Resource_n3h8d"]
+[sub_resource type="Resource" id="Resource_2gs8l"]
 script = ExtResource("3_c3p13")
 level = 7
 move = 189
 
-[sub_resource type="Resource" id="Resource_4arvo"]
+[sub_resource type="Resource" id="Resource_lswv1"]
 script = ExtResource("3_c3p13")
 level = 11
 move = 60
 
-[sub_resource type="Resource" id="Resource_ipdgm"]
+[sub_resource type="Resource" id="Resource_wkunq"]
 script = ExtResource("3_c3p13")
 level = 15
 move = 317
 
-[sub_resource type="Resource" id="Resource_w1vpu"]
+[sub_resource type="Resource" id="Resource_olj8a"]
 script = ExtResource("3_c3p13")
 level = 19
 move = 120
 
-[sub_resource type="Resource" id="Resource_2gs8l"]
+[sub_resource type="Resource" id="Resource_3i0oy"]
 script = ExtResource("3_c3p13")
 level = 25
 move = 246
 
-[sub_resource type="Resource" id="Resource_lswv1"]
+[sub_resource type="Resource" id="Resource_k1ief"]
 script = ExtResource("3_c3p13")
 level = 31
 move = 201
 
-[sub_resource type="Resource" id="Resource_wkunq"]
+[sub_resource type="Resource" id="Resource_m7lmd"]
 script = ExtResource("3_c3p13")
 level = 37
 move = 322
 
-[sub_resource type="Resource" id="Resource_olj8a"]
+[sub_resource type="Resource" id="Resource_f8dav"]
 script = ExtResource("3_c3p13")
 level = 45
 move = 153
@@ -75,6 +75,7 @@ pokedex = "A Baltoy moves by spinning on its single
 foot. It has been depicted in murals 
 adorning the walls of a once-bustling city
 in an ancient age."
+sprite_folder = "baltoy"
 type_1 = 5
 type_2 = 15
 base_hp = 40
@@ -93,5 +94,5 @@ item_rare = 478
 height_dm = 5
 weight_hg = 215
 body_color = 5
-level_moves = Array[ExtResource("3_c3p13")]([SubResource("Resource_bcorh"), SubResource("Resource_c3p13"), SubResource("Resource_w7dc3"), SubResource("Resource_n3h8d"), SubResource("Resource_4arvo"), SubResource("Resource_ipdgm"), SubResource("Resource_w1vpu"), SubResource("Resource_2gs8l"), SubResource("Resource_lswv1"), SubResource("Resource_wkunq"), SubResource("Resource_olj8a")])
-evolutions = Array[ExtResource("1_y277v")]([SubResource("Resource_y277v")])
+level_moves = Array[ExtResource("3_c3p13")]([SubResource("Resource_4arvo"), SubResource("Resource_ipdgm"), SubResource("Resource_w1vpu"), SubResource("Resource_2gs8l"), SubResource("Resource_lswv1"), SubResource("Resource_wkunq"), SubResource("Resource_olj8a"), SubResource("Resource_3i0oy"), SubResource("Resource_k1ief"), SubResource("Resource_m7lmd"), SubResource("Resource_f8dav")])
+evolutions = Array[ExtResource("1_y277v")]([SubResource("Resource_n3h8d")])

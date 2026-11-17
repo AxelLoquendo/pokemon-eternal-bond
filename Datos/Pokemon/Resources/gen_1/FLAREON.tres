@@ -5,58 +5,58 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ji60o"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hau7y"]
 
-[sub_resource type="Resource" id="Resource_qhah7"]
+[sub_resource type="Resource" id="Resource_c7w4g"]
 script = ExtResource("3_ji60o")
 move = 33
 
-[sub_resource type="Resource" id="Resource_m4hww"]
+[sub_resource type="Resource" id="Resource_62vcv"]
 script = ExtResource("3_ji60o")
 move = 39
 
-[sub_resource type="Resource" id="Resource_ji60o"]
-script = ExtResource("3_ji60o")
-move = 98
-
-[sub_resource type="Resource" id="Resource_hau7y"]
-script = ExtResource("3_ji60o")
-move = 52
-
-[sub_resource type="Resource" id="Resource_c7w4g"]
-script = ExtResource("3_ji60o")
-level = 8
-move = 28
-
-[sub_resource type="Resource" id="Resource_62vcv"]
-script = ExtResource("3_ji60o")
-level = 16
-move = 52
-
 [sub_resource type="Resource" id="Resource_s14lx"]
 script = ExtResource("3_ji60o")
-level = 23
 move = 98
 
 [sub_resource type="Resource" id="Resource_iuftk"]
 script = ExtResource("3_ji60o")
+move = 52
+
+[sub_resource type="Resource" id="Resource_hkufj"]
+script = ExtResource("3_ji60o")
+level = 8
+move = 28
+
+[sub_resource type="Resource" id="Resource_pc165"]
+script = ExtResource("3_ji60o")
+level = 16
+move = 52
+
+[sub_resource type="Resource" id="Resource_nv35i"]
+script = ExtResource("3_ji60o")
+level = 23
+move = 98
+
+[sub_resource type="Resource" id="Resource_tm45y"]
+script = ExtResource("3_ji60o")
 level = 30
 move = 44
 
-[sub_resource type="Resource" id="Resource_hkufj"]
+[sub_resource type="Resource" id="Resource_q7d61"]
 script = ExtResource("3_ji60o")
 level = 36
 move = 83
 
-[sub_resource type="Resource" id="Resource_pc165"]
+[sub_resource type="Resource" id="Resource_yx27n"]
 script = ExtResource("3_ji60o")
 level = 42
 move = 123
 
-[sub_resource type="Resource" id="Resource_nv35i"]
+[sub_resource type="Resource" id="Resource_mnfmb"]
 script = ExtResource("3_ji60o")
 level = 47
 move = 43
 
-[sub_resource type="Resource" id="Resource_tm45y"]
+[sub_resource type="Resource" id="Resource_1qqeb"]
 script = ExtResource("3_ji60o")
 level = 52
 move = 53
@@ -71,6 +71,7 @@ pokedex = "Flareon's fluffy fur releases heat into
 the air so that its body does not get
 excessively hot. Its body temperature can
 rise to a maximum of 1,650 degrees F."
+sprite_folder = "flareon"
 type_1 = 11
 base_hp = 65
 base_atk = 130
@@ -88,4 +89,4 @@ ability_2 = 18
 ability_hidden = 62
 height_dm = 9
 weight_hg = 250
-level_moves = Array[ExtResource("3_ji60o")]([SubResource("Resource_qhah7"), SubResource("Resource_m4hww"), SubResource("Resource_ji60o"), SubResource("Resource_hau7y"), SubResource("Resource_c7w4g"), SubResource("Resource_62vcv"), SubResource("Resource_s14lx"), SubResource("Resource_iuftk"), SubResource("Resource_hkufj"), SubResource("Resource_pc165"), SubResource("Resource_nv35i"), SubResource("Resource_tm45y")])
+level_moves = Array[ExtResource("3_ji60o")]([SubResource("Resource_c7w4g"), SubResource("Resource_62vcv"), SubResource("Resource_s14lx"), SubResource("Resource_iuftk"), SubResource("Resource_hkufj"), SubResource("Resource_pc165"), SubResource("Resource_nv35i"), SubResource("Resource_tm45y"), SubResource("Resource_q7d61"), SubResource("Resource_yx27n"), SubResource("Resource_mnfmb"), SubResource("Resource_1qqeb")])

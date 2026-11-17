@@ -5,45 +5,45 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_75b61"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r7wqn"]
 
-[sub_resource type="Resource" id="Resource_5a86s"]
+[sub_resource type="Resource" id="Resource_dl1fo"]
 script = ExtResource("3_75b61")
 move = 33
 
-[sub_resource type="Resource" id="Resource_daq55"]
+[sub_resource type="Resource" id="Resource_ketay"]
 script = ExtResource("3_75b61")
 move = 103
 
-[sub_resource type="Resource" id="Resource_75b61"]
+[sub_resource type="Resource" id="Resource_cb302"]
 script = ExtResource("3_75b61")
 level = 10
 move = 20
 
-[sub_resource type="Resource" id="Resource_r7wqn"]
+[sub_resource type="Resource" id="Resource_e4uwn"]
 script = ExtResource("3_75b61")
 level = 14
 move = 88
 
-[sub_resource type="Resource" id="Resource_dl1fo"]
+[sub_resource type="Resource" id="Resource_qac8e"]
 script = ExtResource("3_75b61")
 level = 23
 move = 106
 
-[sub_resource type="Resource" id="Resource_ketay"]
+[sub_resource type="Resource" id="Resource_iorub"]
 script = ExtResource("3_75b61")
 level = 27
 move = 99
 
-[sub_resource type="Resource" id="Resource_cb302"]
+[sub_resource type="Resource" id="Resource_byj6j"]
 script = ExtResource("3_75b61")
 level = 36
 move = 201
 
-[sub_resource type="Resource" id="Resource_e4uwn"]
+[sub_resource type="Resource" id="Resource_w86dl"]
 script = ExtResource("3_75b61")
 level = 40
 move = 21
 
-[sub_resource type="Resource" id="Resource_qac8e"]
+[sub_resource type="Resource" id="Resource_tuhei"]
 script = ExtResource("3_75b61")
 level = 49
 move = 242
@@ -58,6 +58,7 @@ pokedex = "Steelix live even further underground
 than Onix. This Pokémon is known to dig
 toward the earth's core, reaching a depth
 of over six-tenths of a mile underground."
+sprite_folder = "steelix"
 type_1 = 9
 type_2 = 5
 base_hp = 75
@@ -78,5 +79,5 @@ item_rare = 441
 height_dm = 92
 weight_hg = 4000
 body_color = 7
-level_moves = Array[ExtResource("3_75b61")]([SubResource("Resource_5a86s"), SubResource("Resource_daq55"), SubResource("Resource_75b61"), SubResource("Resource_r7wqn"), SubResource("Resource_dl1fo"), SubResource("Resource_ketay"), SubResource("Resource_cb302"), SubResource("Resource_e4uwn"), SubResource("Resource_qac8e")])
+level_moves = Array[ExtResource("3_75b61")]([SubResource("Resource_dl1fo"), SubResource("Resource_ketay"), SubResource("Resource_cb302"), SubResource("Resource_e4uwn"), SubResource("Resource_qac8e"), SubResource("Resource_iorub"), SubResource("Resource_byj6j"), SubResource("Resource_w86dl"), SubResource("Resource_tuhei")])
 form_species = Array[int]([208, 922])

@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7h716"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mjb82"]
 
-[sub_resource type="Resource" id="Resource_b66yt"]
+[sub_resource type="Resource" id="Resource_1oawy"]
 script = ExtResource("3_7h716")
 move = 47
 
-[sub_resource type="Resource" id="Resource_qrp77"]
+[sub_resource type="Resource" id="Resource_6scxc"]
 script = ExtResource("3_7h716")
 move = 3
 
-[sub_resource type="Resource" id="Resource_7h716"]
+[sub_resource type="Resource" id="Resource_cai2v"]
 script = ExtResource("3_7h716")
 move = 107
 
-[sub_resource type="Resource" id="Resource_mjb82"]
+[sub_resource type="Resource" id="Resource_sqewv"]
 script = ExtResource("3_7h716")
 move = 118
 
@@ -31,6 +31,7 @@ pokedex = "A Clefable uses its wings to skip lightly
 as if it were flying. Its bouncy step
 lets it even walk on water. On quiet,
 moonlit nights, it strolls on lakes."
+sprite_folder = "clefable"
 type_1 = 1
 base_hp = 95
 base_atk = 70
@@ -54,5 +55,5 @@ height_dm = 13
 weight_hg = 400
 body_color = 9
 no_flip = true
-level_moves = Array[ExtResource("3_7h716")]([SubResource("Resource_b66yt"), SubResource("Resource_qrp77"), SubResource("Resource_7h716"), SubResource("Resource_mjb82")])
+level_moves = Array[ExtResource("3_7h716")]([SubResource("Resource_1oawy"), SubResource("Resource_6scxc"), SubResource("Resource_cai2v"), SubResource("Resource_sqewv")])
 form_species = Array[int]([36, 1524])

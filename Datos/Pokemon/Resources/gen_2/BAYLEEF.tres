@@ -5,64 +5,64 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hg8wh"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gtpui"]
 
-[sub_resource type="Resource" id="Resource_fx0kt"]
+[sub_resource type="Resource" id="Resource_72dqd"]
 script = ExtResource("1_fx0kt")
 method = "LEVEL"
 param = "32"
 target = 154
 
-[sub_resource type="Resource" id="Resource_e4jh4"]
+[sub_resource type="Resource" id="Resource_i170q"]
 script = ExtResource("3_hg8wh")
 move = 33
 
-[sub_resource type="Resource" id="Resource_hg8wh"]
+[sub_resource type="Resource" id="Resource_taop4"]
 script = ExtResource("3_hg8wh")
 move = 45
 
-[sub_resource type="Resource" id="Resource_gtpui"]
+[sub_resource type="Resource" id="Resource_jtrgn"]
 script = ExtResource("3_hg8wh")
 move = 75
 
-[sub_resource type="Resource" id="Resource_72dqd"]
+[sub_resource type="Resource" id="Resource_hn4iw"]
 script = ExtResource("3_hg8wh")
 move = 115
 
-[sub_resource type="Resource" id="Resource_i170q"]
+[sub_resource type="Resource" id="Resource_ogwpc"]
 script = ExtResource("3_hg8wh")
 level = 8
 move = 75
 
-[sub_resource type="Resource" id="Resource_taop4"]
+[sub_resource type="Resource" id="Resource_rsli5"]
 script = ExtResource("3_hg8wh")
 level = 12
 move = 115
 
-[sub_resource type="Resource" id="Resource_jtrgn"]
+[sub_resource type="Resource" id="Resource_pyxgg"]
 script = ExtResource("3_hg8wh")
 level = 15
 move = 77
 
-[sub_resource type="Resource" id="Resource_hn4iw"]
+[sub_resource type="Resource" id="Resource_3oxtm"]
 script = ExtResource("3_hg8wh")
 level = 23
 move = 235
 
-[sub_resource type="Resource" id="Resource_ogwpc"]
+[sub_resource type="Resource" id="Resource_1q7t2"]
 script = ExtResource("3_hg8wh")
 level = 31
 move = 34
 
-[sub_resource type="Resource" id="Resource_rsli5"]
+[sub_resource type="Resource" id="Resource_hvxys"]
 script = ExtResource("3_hg8wh")
 level = 39
 move = 113
 
-[sub_resource type="Resource" id="Resource_pyxgg"]
+[sub_resource type="Resource" id="Resource_7qpv6"]
 script = ExtResource("3_hg8wh")
 level = 47
 move = 219
 
-[sub_resource type="Resource" id="Resource_3oxtm"]
+[sub_resource type="Resource" id="Resource_yc36s"]
 script = ExtResource("3_hg8wh")
 level = 55
 move = 76
@@ -77,6 +77,7 @@ pokedex = "A Bayleef's neck is ringed by curled-up
 leaves. Inside each leaf is a small tree
 shoot. The fragrance of this shoot
 makes people peppy."
+sprite_folder = "bayleef"
 type_1 = 13
 base_hp = 60
 base_atk = 62
@@ -96,5 +97,5 @@ ability_hidden = 102
 height_dm = 12
 weight_hg = 158
 body_color = 3
-level_moves = Array[ExtResource("3_hg8wh")]([SubResource("Resource_e4jh4"), SubResource("Resource_hg8wh"), SubResource("Resource_gtpui"), SubResource("Resource_72dqd"), SubResource("Resource_i170q"), SubResource("Resource_taop4"), SubResource("Resource_jtrgn"), SubResource("Resource_hn4iw"), SubResource("Resource_ogwpc"), SubResource("Resource_rsli5"), SubResource("Resource_pyxgg"), SubResource("Resource_3oxtm")])
-evolutions = Array[ExtResource("1_fx0kt")]([SubResource("Resource_fx0kt")])
+level_moves = Array[ExtResource("3_hg8wh")]([SubResource("Resource_i170q"), SubResource("Resource_taop4"), SubResource("Resource_jtrgn"), SubResource("Resource_hn4iw"), SubResource("Resource_ogwpc"), SubResource("Resource_rsli5"), SubResource("Resource_pyxgg"), SubResource("Resource_3oxtm"), SubResource("Resource_1q7t2"), SubResource("Resource_hvxys"), SubResource("Resource_7qpv6"), SubResource("Resource_yc36s")])
+evolutions = Array[ExtResource("1_fx0kt")]([SubResource("Resource_72dqd")])

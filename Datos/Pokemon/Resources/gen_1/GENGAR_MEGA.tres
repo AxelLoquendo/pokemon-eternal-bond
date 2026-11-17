@@ -5,24 +5,24 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5k0fl"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_evs55"]
 
-[sub_resource type="Resource" id="Resource_q5aw3"]
+[sub_resource type="Resource" id="Resource_7y0y2"]
 script = ExtResource("3_5k0fl")
 move = 122
 
-[sub_resource type="Resource" id="Resource_jaxt3"]
+[sub_resource type="Resource" id="Resource_twm0b"]
 script = ExtResource("3_5k0fl")
 move = 109
 
-[sub_resource type="Resource" id="Resource_5k0fl"]
+[sub_resource type="Resource" id="Resource_rk30u"]
 script = ExtResource("3_5k0fl")
 move = 101
 
-[sub_resource type="Resource" id="Resource_evs55"]
+[sub_resource type="Resource" id="Resource_b5rbl"]
 script = ExtResource("3_5k0fl")
 level = 29
 move = 95
 
-[sub_resource type="Resource" id="Resource_7y0y2"]
+[sub_resource type="Resource" id="Resource_tyrhw"]
 script = ExtResource("3_5k0fl")
 level = 38
 move = 138
@@ -37,6 +37,7 @@ pokedex = "Gengar's relationships are warped. It
 tries to take the lives of anyone and
 everyone. It will even try to curse the
 Trainer who is its master!"
+sprite_folder = "gengar/mega"
 type_1 = 8
 type_2 = 4
 base_hp = 60
@@ -55,5 +56,5 @@ ability_hidden = 23
 height_dm = 14
 weight_hg = 405
 body_color = 6
-level_moves = Array[ExtResource("3_5k0fl")]([SubResource("Resource_q5aw3"), SubResource("Resource_jaxt3"), SubResource("Resource_5k0fl"), SubResource("Resource_evs55"), SubResource("Resource_7y0y2")])
+level_moves = Array[ExtResource("3_5k0fl")]([SubResource("Resource_7y0y2"), SubResource("Resource_twm0b"), SubResource("Resource_rk30u"), SubResource("Resource_b5rbl"), SubResource("Resource_tyrhw")])
 form_species = Array[int]([94, 914, 1496])

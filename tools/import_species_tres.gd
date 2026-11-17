@@ -1,5 +1,8 @@
 @tool
 extends EditorScript
+## MIGRACIÓN opcional JSON → .tres (una vez).
+## Flujo diario: editar .tres + tools/rebuild_species_index.gd
+
 ## Convierte Datos/Pokemon/species.json → un .tres por especie + índice de paths.
 ##
 ## Uso:
@@ -212,6 +215,8 @@ func _from_dict(e: Dictionary, id: SpeciesId.Id) -> SpeciesData:
 	data.no_flip = bool(e.get("no_flip", false))
 	data.perfect_iv_count = int(e.get("perfect_iv_count", 0))
 	data.cannot_be_traded = bool(e.get("cannot_be_traded", false))
+
+	data.sprite_folder = str(e.get("sprite_folder", "")).strip_edges()
 
 	data.is_restricted_legendary = bool(e.get("is_restricted_legendary", false))
 	data.is_sub_legendary = bool(e.get("is_sub_legendary", false))

@@ -5,44 +5,44 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bxwbt"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_egx03"]
 
-[sub_resource type="Resource" id="Resource_7jk13"]
+[sub_resource type="Resource" id="Resource_0bh7e"]
 script = ExtResource("3_bxwbt")
 move = 103
 
-[sub_resource type="Resource" id="Resource_28o5g"]
+[sub_resource type="Resource" id="Resource_7eo7r"]
 script = ExtResource("3_bxwbt")
 move = 141
 
-[sub_resource type="Resource" id="Resource_bxwbt"]
+[sub_resource type="Resource" id="Resource_krse0"]
 script = ExtResource("3_bxwbt")
 move = 48
 
-[sub_resource type="Resource" id="Resource_egx03"]
+[sub_resource type="Resource" id="Resource_p7h42"]
 script = ExtResource("3_bxwbt")
 level = 6
 move = 48
 
-[sub_resource type="Resource" id="Resource_0bh7e"]
+[sub_resource type="Resource" id="Resource_p0moi"]
 script = ExtResource("3_bxwbt")
 level = 12
 move = 44
 
-[sub_resource type="Resource" id="Resource_7eo7r"]
+[sub_resource type="Resource" id="Resource_hl2q5"]
 script = ExtResource("3_bxwbt")
 level = 19
 move = 109
 
-[sub_resource type="Resource" id="Resource_krse0"]
+[sub_resource type="Resource" id="Resource_losfv"]
 script = ExtResource("3_bxwbt")
 level = 30
 move = 17
 
-[sub_resource type="Resource" id="Resource_p7h42"]
+[sub_resource type="Resource" id="Resource_imqiq"]
 script = ExtResource("3_bxwbt")
 level = 42
 move = 212
 
-[sub_resource type="Resource" id="Resource_p0moi"]
+[sub_resource type="Resource" id="Resource_qnvnr"]
 script = ExtResource("3_bxwbt")
 level = 55
 move = 114
@@ -57,6 +57,7 @@ pokedex = "Over the course of evolution, its hind legs
 turned into wings. By alternately resting
 its front and rear wings, it can fly all day
 without having to stop."
+sprite_folder = "crobat"
 type_1 = 4
 type_2 = 3
 base_hp = 85
@@ -75,4 +76,4 @@ ability_hidden = 151
 height_dm = 18
 weight_hg = 750
 body_color = 6
-level_moves = Array[ExtResource("3_bxwbt")]([SubResource("Resource_7jk13"), SubResource("Resource_28o5g"), SubResource("Resource_bxwbt"), SubResource("Resource_egx03"), SubResource("Resource_0bh7e"), SubResource("Resource_7eo7r"), SubResource("Resource_krse0"), SubResource("Resource_p7h42"), SubResource("Resource_p0moi")])
+level_moves = Array[ExtResource("3_bxwbt")]([SubResource("Resource_0bh7e"), SubResource("Resource_7eo7r"), SubResource("Resource_krse0"), SubResource("Resource_p7h42"), SubResource("Resource_p0moi"), SubResource("Resource_hl2q5"), SubResource("Resource_losfv"), SubResource("Resource_imqiq"), SubResource("Resource_qnvnr")])

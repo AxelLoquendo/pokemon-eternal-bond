@@ -5,35 +5,35 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dogcv"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bg8bn"]
 
-[sub_resource type="Resource" id="Resource_vqysx"]
+[sub_resource type="Resource" id="Resource_8yt8g"]
 script = ExtResource("3_dogcv")
 move = 43
 
-[sub_resource type="Resource" id="Resource_xm78n"]
+[sub_resource type="Resource" id="Resource_68m3b"]
 script = ExtResource("3_dogcv")
 move = 64
 
-[sub_resource type="Resource" id="Resource_dogcv"]
+[sub_resource type="Resource" id="Resource_kp3pi"]
 script = ExtResource("3_dogcv")
 level = 13
 move = 28
 
-[sub_resource type="Resource" id="Resource_bg8bn"]
+[sub_resource type="Resource" id="Resource_fc4cc"]
 script = ExtResource("3_dogcv")
 level = 19
 move = 129
 
-[sub_resource type="Resource" id="Resource_8yt8g"]
+[sub_resource type="Resource" id="Resource_xrmb5"]
 script = ExtResource("3_dogcv")
 level = 25
 move = 97
 
-[sub_resource type="Resource" id="Resource_68m3b"]
+[sub_resource type="Resource" id="Resource_66g2x"]
 script = ExtResource("3_dogcv")
 level = 37
 move = 31
 
-[sub_resource type="Resource" id="Resource_kp3pi"]
+[sub_resource type="Resource" id="Resource_2uksx"]
 script = ExtResource("3_dogcv")
 level = 49
 move = 211
@@ -48,6 +48,7 @@ pokedex = "A Pokémon that has a body and wings of
 steel. People in the past used feathers
 fallen from Skarmory to make swords and
 knives."
+sprite_folder = "skarmory"
 type_1 = 9
 type_2 = 3
 base_hp = 65
@@ -69,6 +70,6 @@ item_rare = 441
 height_dm = 17
 weight_hg = 505
 body_color = 7
-level_moves = Array[ExtResource("3_dogcv")]([SubResource("Resource_vqysx"), SubResource("Resource_xm78n"), SubResource("Resource_dogcv"), SubResource("Resource_bg8bn"), SubResource("Resource_8yt8g"), SubResource("Resource_68m3b"), SubResource("Resource_kp3pi")])
+level_moves = Array[ExtResource("3_dogcv")]([SubResource("Resource_8yt8g"), SubResource("Resource_68m3b"), SubResource("Resource_kp3pi"), SubResource("Resource_fc4cc"), SubResource("Resource_xrmb5"), SubResource("Resource_66g2x"), SubResource("Resource_2uksx")])
 egg_moves = Array[int]([65, 228, 18, 143, 174, 413, 372, 385, 446, 203])
 form_species = Array[int]([227, 1530])

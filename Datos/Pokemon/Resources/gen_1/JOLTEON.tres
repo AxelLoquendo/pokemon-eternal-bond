@@ -5,58 +5,58 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_spd67"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_35d0r"]
 
-[sub_resource type="Resource" id="Resource_i7oxn"]
+[sub_resource type="Resource" id="Resource_nf8br"]
 script = ExtResource("3_spd67")
 move = 33
 
-[sub_resource type="Resource" id="Resource_ol6t0"]
+[sub_resource type="Resource" id="Resource_k3xcn"]
 script = ExtResource("3_spd67")
 move = 39
 
-[sub_resource type="Resource" id="Resource_spd67"]
-script = ExtResource("3_spd67")
-move = 98
-
-[sub_resource type="Resource" id="Resource_35d0r"]
-script = ExtResource("3_spd67")
-move = 84
-
-[sub_resource type="Resource" id="Resource_nf8br"]
-script = ExtResource("3_spd67")
-level = 8
-move = 28
-
-[sub_resource type="Resource" id="Resource_k3xcn"]
-script = ExtResource("3_spd67")
-level = 16
-move = 84
-
 [sub_resource type="Resource" id="Resource_vegva"]
 script = ExtResource("3_spd67")
-level = 23
 move = 98
 
 [sub_resource type="Resource" id="Resource_tr2y5"]
 script = ExtResource("3_spd67")
+move = 84
+
+[sub_resource type="Resource" id="Resource_xlx4q"]
+script = ExtResource("3_spd67")
+level = 8
+move = 28
+
+[sub_resource type="Resource" id="Resource_k56he"]
+script = ExtResource("3_spd67")
+level = 16
+move = 84
+
+[sub_resource type="Resource" id="Resource_hdoc7"]
+script = ExtResource("3_spd67")
+level = 23
+move = 98
+
+[sub_resource type="Resource" id="Resource_1vsh1"]
+script = ExtResource("3_spd67")
 level = 30
 move = 24
 
-[sub_resource type="Resource" id="Resource_xlx4q"]
+[sub_resource type="Resource" id="Resource_ppmj8"]
 script = ExtResource("3_spd67")
 level = 36
 move = 42
 
-[sub_resource type="Resource" id="Resource_k56he"]
+[sub_resource type="Resource" id="Resource_sj3d0"]
 script = ExtResource("3_spd67")
 level = 42
 move = 86
 
-[sub_resource type="Resource" id="Resource_hdoc7"]
+[sub_resource type="Resource" id="Resource_qoxcd"]
 script = ExtResource("3_spd67")
 level = 47
 move = 97
 
-[sub_resource type="Resource" id="Resource_1vsh1"]
+[sub_resource type="Resource" id="Resource_ytr04"]
 script = ExtResource("3_spd67")
 level = 52
 move = 87
@@ -71,6 +71,7 @@ pokedex = "Its cells generate weak power that is
 amplified by its fur's static electricity
 to drop thunderbolts. The bristling fur is
 made of electrically charged needles."
+sprite_folder = "jolteon"
 type_1 = 14
 base_hp = 65
 base_atk = 65
@@ -89,4 +90,4 @@ ability_hidden = 95
 height_dm = 8
 weight_hg = 245
 body_color = 2
-level_moves = Array[ExtResource("3_spd67")]([SubResource("Resource_i7oxn"), SubResource("Resource_ol6t0"), SubResource("Resource_spd67"), SubResource("Resource_35d0r"), SubResource("Resource_nf8br"), SubResource("Resource_k3xcn"), SubResource("Resource_vegva"), SubResource("Resource_tr2y5"), SubResource("Resource_xlx4q"), SubResource("Resource_k56he"), SubResource("Resource_hdoc7"), SubResource("Resource_1vsh1")])
+level_moves = Array[ExtResource("3_spd67")]([SubResource("Resource_nf8br"), SubResource("Resource_k3xcn"), SubResource("Resource_vegva"), SubResource("Resource_tr2y5"), SubResource("Resource_xlx4q"), SubResource("Resource_k56he"), SubResource("Resource_hdoc7"), SubResource("Resource_1vsh1"), SubResource("Resource_ppmj8"), SubResource("Resource_sj3d0"), SubResource("Resource_qoxcd"), SubResource("Resource_ytr04")])

@@ -5,39 +5,39 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_244fr"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_h86j4"]
 
-[sub_resource type="Resource" id="Resource_3eyka"]
+[sub_resource type="Resource" id="Resource_50ov7"]
 script = ExtResource("3_244fr")
 move = 145
 
-[sub_resource type="Resource" id="Resource_g7aif"]
+[sub_resource type="Resource" id="Resource_2b3al"]
 script = ExtResource("3_244fr")
 move = 43
 
-[sub_resource type="Resource" id="Resource_244fr"]
+[sub_resource type="Resource" id="Resource_n0spp"]
 script = ExtResource("3_244fr")
 move = 11
 
-[sub_resource type="Resource" id="Resource_h86j4"]
+[sub_resource type="Resource" id="Resource_twfmh"]
 script = ExtResource("3_244fr")
 level = 20
 move = 11
 
-[sub_resource type="Resource" id="Resource_50ov7"]
+[sub_resource type="Resource" id="Resource_gcu5k"]
 script = ExtResource("3_244fr")
 level = 25
 move = 12
 
-[sub_resource type="Resource" id="Resource_2b3al"]
+[sub_resource type="Resource" id="Resource_rkbuw"]
 script = ExtResource("3_244fr")
 level = 34
 move = 23
 
-[sub_resource type="Resource" id="Resource_n0spp"]
+[sub_resource type="Resource" id="Resource_agcjj"]
 script = ExtResource("3_244fr")
 level = 42
 move = 152
 
-[sub_resource type="Resource" id="Resource_twfmh"]
+[sub_resource type="Resource" id="Resource_rj3s4"]
 script = ExtResource("3_244fr")
 level = 49
 move = 106
@@ -52,6 +52,7 @@ pokedex = "The flow of Gigantamax energy has
 spurred this Pokémon's left pincer
 to grow to an enormous size. That
 claw can pulverize anything."
+sprite_folder = "kingler/gmax"
 type_1 = 12
 base_hp = 55
 base_atk = 130
@@ -68,5 +69,5 @@ ability_2 = 75
 ability_hidden = 125
 height_dm = 190
 no_flip = true
-level_moves = Array[ExtResource("3_244fr")]([SubResource("Resource_3eyka"), SubResource("Resource_g7aif"), SubResource("Resource_244fr"), SubResource("Resource_h86j4"), SubResource("Resource_50ov7"), SubResource("Resource_2b3al"), SubResource("Resource_n0spp"), SubResource("Resource_twfmh")])
+level_moves = Array[ExtResource("3_244fr")]([SubResource("Resource_50ov7"), SubResource("Resource_2b3al"), SubResource("Resource_n0spp"), SubResource("Resource_twfmh"), SubResource("Resource_gcu5k"), SubResource("Resource_rkbuw"), SubResource("Resource_agcjj"), SubResource("Resource_rj3s4")])
 form_species = Array[int]([99, 1497])

@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jy4s4"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ucmuf"]
 
-[sub_resource type="Resource" id="Resource_wryx7"]
+[sub_resource type="Resource" id="Resource_i61nn"]
 script = ExtResource("3_jy4s4")
 move = 123
 
-[sub_resource type="Resource" id="Resource_kn42d"]
+[sub_resource type="Resource" id="Resource_434xq"]
 script = ExtResource("3_jy4s4")
 move = 109
 
-[sub_resource type="Resource" id="Resource_jy4s4"]
+[sub_resource type="Resource" id="Resource_3gymd"]
 script = ExtResource("3_jy4s4")
 move = 481
 
-[sub_resource type="Resource" id="Resource_ucmuf"]
+[sub_resource type="Resource" id="Resource_cunrx"]
 script = ExtResource("3_jy4s4")
 move = 506
 
@@ -31,6 +31,7 @@ pokedex = "One of its eyes is a window linking
 our world with the afterlife.
 This Pokémon draws in hatred and
 converts it into power."
+sprite_folder = "chandelure/mega"
 type_1 = 8
 type_2 = 11
 base_hp = 60
@@ -50,5 +51,5 @@ height_dm = 25
 weight_hg = 696
 body_color = 4
 no_flip = true
-level_moves = Array[ExtResource("3_jy4s4")]([SubResource("Resource_wryx7"), SubResource("Resource_kn42d"), SubResource("Resource_jy4s4"), SubResource("Resource_ucmuf")])
+level_moves = Array[ExtResource("3_jy4s4")]([SubResource("Resource_i61nn"), SubResource("Resource_434xq"), SubResource("Resource_3gymd"), SubResource("Resource_cunrx")])
 form_species = Array[int]([609, 1537])

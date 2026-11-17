@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ksjnc"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_i4w53"]
 
-[sub_resource type="Resource" id="Resource_hpgh1"]
+[sub_resource type="Resource" id="Resource_3x6bi"]
 script = ExtResource("3_ksjnc")
 move = 143
 
-[sub_resource type="Resource" id="Resource_dpm6l"]
+[sub_resource type="Resource" id="Resource_el2ar"]
 script = ExtResource("3_ksjnc")
 move = 245
 
-[sub_resource type="Resource" id="Resource_ksjnc"]
+[sub_resource type="Resource" id="Resource_72hem"]
 script = ExtResource("3_ksjnc")
 move = 396
 
-[sub_resource type="Resource" id="Resource_i4w53"]
+[sub_resource type="Resource" id="Resource_uftqc"]
 script = ExtResource("3_ksjnc")
 move = 403
 
@@ -31,6 +31,7 @@ pokedex = "As everyone knows, it visits peaceful
 regions, bringing them gifts of kindness
 and sweet blessings. It will never appear
 where there is strife."
+sprite_folder = "togekiss"
 type_1 = 3
 base_hp = 85
 base_atk = 50
@@ -54,4 +55,4 @@ height_dm = 15
 weight_hg = 380
 body_color = 8
 no_flip = true
-level_moves = Array[ExtResource("3_ksjnc")]([SubResource("Resource_hpgh1"), SubResource("Resource_dpm6l"), SubResource("Resource_ksjnc"), SubResource("Resource_i4w53")])
+level_moves = Array[ExtResource("3_ksjnc")]([SubResource("Resource_3x6bi"), SubResource("Resource_el2ar"), SubResource("Resource_72hem"), SubResource("Resource_uftqc")])

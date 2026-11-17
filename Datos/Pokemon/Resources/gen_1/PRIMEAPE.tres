@@ -5,63 +5,63 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7n3d6"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nhkd5"]
 
-[sub_resource type="Resource" id="Resource_7qwer"]
+[sub_resource type="Resource" id="Resource_s4qfv"]
 script = ExtResource("1_7qwer")
 method = "IF_USED_MOVE_X_TIMES"
 param = "MOVE_RAGE_FIST"
 
-[sub_resource type="Resource" id="Resource_p8r7v"]
+[sub_resource type="Resource" id="Resource_ihy52"]
 script = ExtResource("3_7n3d6")
 move = 10
 
-[sub_resource type="Resource" id="Resource_7n3d6"]
+[sub_resource type="Resource" id="Resource_v6uio"]
 script = ExtResource("3_7n3d6")
 move = 43
 
-[sub_resource type="Resource" id="Resource_nhkd5"]
+[sub_resource type="Resource" id="Resource_8cg4q"]
 script = ExtResource("3_7n3d6")
 move = 67
 
-[sub_resource type="Resource" id="Resource_s4qfv"]
+[sub_resource type="Resource" id="Resource_1kn6o"]
 script = ExtResource("3_7n3d6")
 move = 2
 
-[sub_resource type="Resource" id="Resource_ihy52"]
+[sub_resource type="Resource" id="Resource_8vjkj"]
 script = ExtResource("3_7n3d6")
 level = 9
 move = 67
 
-[sub_resource type="Resource" id="Resource_v6uio"]
+[sub_resource type="Resource" id="Resource_wp4kd"]
 script = ExtResource("3_7n3d6")
 level = 15
 move = 2
 
-[sub_resource type="Resource" id="Resource_8cg4q"]
+[sub_resource type="Resource" id="Resource_hsqrx"]
 script = ExtResource("3_7n3d6")
 level = 21
 move = 154
 
-[sub_resource type="Resource" id="Resource_1kn6o"]
+[sub_resource type="Resource" id="Resource_ked8i"]
 script = ExtResource("3_7n3d6")
 level = 27
 move = 116
 
-[sub_resource type="Resource" id="Resource_8vjkj"]
+[sub_resource type="Resource" id="Resource_jh18m"]
 script = ExtResource("3_7n3d6")
 level = 28
 move = 99
 
-[sub_resource type="Resource" id="Resource_wp4kd"]
+[sub_resource type="Resource" id="Resource_i7txv"]
 script = ExtResource("3_7n3d6")
 level = 37
 move = 69
 
-[sub_resource type="Resource" id="Resource_hsqrx"]
+[sub_resource type="Resource" id="Resource_ftvdl"]
 script = ExtResource("3_7n3d6")
 level = 45
 move = 103
 
-[sub_resource type="Resource" id="Resource_ked8i"]
+[sub_resource type="Resource" id="Resource_fg7v5"]
 script = ExtResource("3_7n3d6")
 level = 46
 move = 37
@@ -76,6 +76,7 @@ pokedex = "When it becomes furious, its blood
 circulation becomes more robust, and
 its muscles are made stronger. But it
 also becomes much less intelligent."
+sprite_folder = "primeape"
 type_1 = 2
 base_hp = 65
 base_atk = 105
@@ -94,5 +95,5 @@ height_dm = 10
 weight_hg = 320
 body_color = 5
 no_flip = true
-level_moves = Array[ExtResource("3_7n3d6")]([SubResource("Resource_p8r7v"), SubResource("Resource_7n3d6"), SubResource("Resource_nhkd5"), SubResource("Resource_s4qfv"), SubResource("Resource_ihy52"), SubResource("Resource_v6uio"), SubResource("Resource_8cg4q"), SubResource("Resource_1kn6o"), SubResource("Resource_8vjkj"), SubResource("Resource_wp4kd"), SubResource("Resource_hsqrx"), SubResource("Resource_ked8i")])
-evolutions = Array[ExtResource("1_7qwer")]([SubResource("Resource_7qwer")])
+level_moves = Array[ExtResource("3_7n3d6")]([SubResource("Resource_ihy52"), SubResource("Resource_v6uio"), SubResource("Resource_8cg4q"), SubResource("Resource_1kn6o"), SubResource("Resource_8vjkj"), SubResource("Resource_wp4kd"), SubResource("Resource_hsqrx"), SubResource("Resource_ked8i"), SubResource("Resource_jh18m"), SubResource("Resource_i7txv"), SubResource("Resource_ftvdl"), SubResource("Resource_fg7v5")])
+evolutions = Array[ExtResource("1_7qwer")]([SubResource("Resource_s4qfv")])

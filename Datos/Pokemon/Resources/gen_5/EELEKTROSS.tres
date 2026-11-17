@@ -5,23 +5,23 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_eijb8"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_jnwit"]
 
-[sub_resource type="Resource" id="Resource_jr7l7"]
+[sub_resource type="Resource" id="Resource_0d5n6"]
 script = ExtResource("3_eijb8")
 move = 306
 
-[sub_resource type="Resource" id="Resource_ntajg"]
+[sub_resource type="Resource" id="Resource_vlcjw"]
 script = ExtResource("3_eijb8")
 move = 29
 
-[sub_resource type="Resource" id="Resource_eijb8"]
+[sub_resource type="Resource" id="Resource_e0dap"]
 script = ExtResource("3_eijb8")
 move = 51
 
-[sub_resource type="Resource" id="Resource_jnwit"]
+[sub_resource type="Resource" id="Resource_qageo"]
 script = ExtResource("3_eijb8")
 move = 435
 
-[sub_resource type="Resource" id="Resource_0d5n6"]
+[sub_resource type="Resource" id="Resource_op8ir"]
 script = ExtResource("3_eijb8")
 move = 242
 
@@ -35,6 +35,7 @@ pokedex = "They crawl out of the ocean using their
 arms. They will attack prey on shore and
 immediately drag it into the ocean, with
 their sucker mouths."
+sprite_folder = "eelektross"
 type_1 = 14
 base_hp = 85
 base_atk = 115
@@ -51,5 +52,5 @@ ability_1 = 26
 height_dm = 21
 weight_hg = 805
 body_color = 1
-level_moves = Array[ExtResource("3_eijb8")]([SubResource("Resource_jr7l7"), SubResource("Resource_ntajg"), SubResource("Resource_eijb8"), SubResource("Resource_jnwit"), SubResource("Resource_0d5n6")])
+level_moves = Array[ExtResource("3_eijb8")]([SubResource("Resource_0d5n6"), SubResource("Resource_vlcjw"), SubResource("Resource_e0dap"), SubResource("Resource_qageo"), SubResource("Resource_op8ir")])
 form_species = Array[int]([604, 1536])

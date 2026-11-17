@@ -5,87 +5,87 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fdkdb"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cvh6i"]
 
-[sub_resource type="Resource" id="Resource_7cewh"]
+[sub_resource type="Resource" id="Resource_07226"]
 script = ExtResource("1_7cewh")
 method = "LEVEL"
 param = "38"
 target = 611
 
-[sub_resource type="Resource" id="Resource_7x5lf"]
+[sub_resource type="Resource" id="Resource_cw8cw"]
 script = ExtResource("3_fdkdb")
 move = 10
 
-[sub_resource type="Resource" id="Resource_fdkdb"]
+[sub_resource type="Resource" id="Resource_846on"]
 script = ExtResource("3_fdkdb")
 level = 4
 move = 43
 
-[sub_resource type="Resource" id="Resource_cvh6i"]
+[sub_resource type="Resource" id="Resource_6xcgk"]
 script = ExtResource("3_fdkdb")
 level = 7
 move = 372
 
-[sub_resource type="Resource" id="Resource_07226"]
+[sub_resource type="Resource" id="Resource_5d17f"]
 script = ExtResource("3_fdkdb")
 level = 10
 move = 82
 
-[sub_resource type="Resource" id="Resource_cw8cw"]
+[sub_resource type="Resource" id="Resource_t5sbx"]
 script = ExtResource("3_fdkdb")
 level = 13
 move = 530
 
-[sub_resource type="Resource" id="Resource_846on"]
+[sub_resource type="Resource" id="Resource_g5koj"]
 script = ExtResource("3_fdkdb")
 level = 16
 move = 184
 
-[sub_resource type="Resource" id="Resource_6xcgk"]
+[sub_resource type="Resource" id="Resource_rqww3"]
 script = ExtResource("3_fdkdb")
 level = 20
 move = 163
 
-[sub_resource type="Resource" id="Resource_5d17f"]
+[sub_resource type="Resource" id="Resource_eiuw7"]
 script = ExtResource("3_fdkdb")
 level = 24
 move = 206
 
-[sub_resource type="Resource" id="Resource_t5sbx"]
+[sub_resource type="Resource" id="Resource_nswlm"]
 script = ExtResource("3_fdkdb")
 level = 28
 move = 337
 
-[sub_resource type="Resource" id="Resource_g5koj"]
+[sub_resource type="Resource" id="Resource_jxkxq"]
 script = ExtResource("3_fdkdb")
 level = 32
 move = 349
 
-[sub_resource type="Resource" id="Resource_rqww3"]
+[sub_resource type="Resource" id="Resource_evfgc"]
 script = ExtResource("3_fdkdb")
 level = 36
 move = 269
 
-[sub_resource type="Resource" id="Resource_eiuw7"]
+[sub_resource type="Resource" id="Resource_0yqba"]
 script = ExtResource("3_fdkdb")
 level = 41
 move = 406
 
-[sub_resource type="Resource" id="Resource_nswlm"]
+[sub_resource type="Resource" id="Resource_frj0o"]
 script = ExtResource("3_fdkdb")
 level = 46
 move = 14
 
-[sub_resource type="Resource" id="Resource_jxkxq"]
+[sub_resource type="Resource" id="Resource_njw3q"]
 script = ExtResource("3_fdkdb")
 level = 51
 move = 12
 
-[sub_resource type="Resource" id="Resource_evfgc"]
+[sub_resource type="Resource" id="Resource_2xe5p"]
 script = ExtResource("3_fdkdb")
 level = 56
 move = 200
 
-[sub_resource type="Resource" id="Resource_0yqba"]
+[sub_resource type="Resource" id="Resource_k571k"]
 script = ExtResource("3_fdkdb")
 level = 61
 move = 416
@@ -100,6 +100,7 @@ pokedex = "They mark their territory by leaving
 gashes in trees with their tusks. If a
 tusk breaks, a new one grows in quickly,
 harder and sturdier than the last."
+sprite_folder = "axew"
 type_1 = 17
 base_hp = 46
 base_atk = 87
@@ -121,6 +122,6 @@ ability_hidden = 127
 height_dm = 6
 weight_hg = 180
 body_color = 3
-level_moves = Array[ExtResource("3_fdkdb")]([SubResource("Resource_7x5lf"), SubResource("Resource_fdkdb"), SubResource("Resource_cvh6i"), SubResource("Resource_07226"), SubResource("Resource_cw8cw"), SubResource("Resource_846on"), SubResource("Resource_6xcgk"), SubResource("Resource_5d17f"), SubResource("Resource_t5sbx"), SubResource("Resource_g5koj"), SubResource("Resource_rqww3"), SubResource("Resource_eiuw7"), SubResource("Resource_nswlm"), SubResource("Resource_jxkxq"), SubResource("Resource_evfgc"), SubResource("Resource_0yqba")])
+level_moves = Array[ExtResource("3_fdkdb")]([SubResource("Resource_cw8cw"), SubResource("Resource_846on"), SubResource("Resource_6xcgk"), SubResource("Resource_5d17f"), SubResource("Resource_t5sbx"), SubResource("Resource_g5koj"), SubResource("Resource_rqww3"), SubResource("Resource_eiuw7"), SubResource("Resource_nswlm"), SubResource("Resource_jxkxq"), SubResource("Resource_evfgc"), SubResource("Resource_0yqba"), SubResource("Resource_frj0o"), SubResource("Resource_njw3q"), SubResource("Resource_2xe5p"), SubResource("Resource_k571k")])
 egg_moves = Array[int]([68, 116, 179, 203, 13, 400, 283, 231, 406, 106])
-evolutions = Array[ExtResource("1_7cewh")]([SubResource("Resource_7cewh")])
+evolutions = Array[ExtResource("1_7cewh")]([SubResource("Resource_07226")])

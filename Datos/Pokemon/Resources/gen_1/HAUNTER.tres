@@ -5,36 +5,36 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0dxoy"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5f1sg"]
 
-[sub_resource type="Resource" id="Resource_tg62v"]
+[sub_resource type="Resource" id="Resource_ddolu"]
 script = ExtResource("1_tg62v")
 method = "TRADE"
 param = "0"
 target = 94
 
-[sub_resource type="Resource" id="Resource_kcl8n"]
+[sub_resource type="Resource" id="Resource_r6ddo"]
 script = ExtResource("1_tg62v")
 method = "ITEM"
 param = "ITEM_LINKING_CORD"
 target = 94
 
-[sub_resource type="Resource" id="Resource_0dxoy"]
+[sub_resource type="Resource" id="Resource_csqly"]
 script = ExtResource("3_0dxoy")
 move = 122
 
-[sub_resource type="Resource" id="Resource_5f1sg"]
+[sub_resource type="Resource" id="Resource_4ocsb"]
 script = ExtResource("3_0dxoy")
 move = 109
 
-[sub_resource type="Resource" id="Resource_ddolu"]
+[sub_resource type="Resource" id="Resource_3hh1f"]
 script = ExtResource("3_0dxoy")
 move = 101
 
-[sub_resource type="Resource" id="Resource_r6ddo"]
+[sub_resource type="Resource" id="Resource_gk5up"]
 script = ExtResource("3_0dxoy")
 level = 29
 move = 95
 
-[sub_resource type="Resource" id="Resource_csqly"]
+[sub_resource type="Resource" id="Resource_ml0xl"]
 script = ExtResource("3_0dxoy")
 level = 38
 move = 138
@@ -49,6 +49,7 @@ pokedex = "If a Haunter beckons you while it is
 floating in darkness, don't approach it.
 This Pokémon will try to lick you with its
 tongue and steal your life away."
+sprite_folder = "haunter"
 type_1 = 8
 type_2 = 4
 base_hp = 45
@@ -66,5 +67,5 @@ ability_1 = 26
 height_dm = 16
 weight_hg = 1
 body_color = 6
-level_moves = Array[ExtResource("3_0dxoy")]([SubResource("Resource_0dxoy"), SubResource("Resource_5f1sg"), SubResource("Resource_ddolu"), SubResource("Resource_r6ddo"), SubResource("Resource_csqly")])
-evolutions = Array[ExtResource("1_tg62v")]([SubResource("Resource_tg62v"), SubResource("Resource_kcl8n")])
+level_moves = Array[ExtResource("3_0dxoy")]([SubResource("Resource_csqly"), SubResource("Resource_4ocsb"), SubResource("Resource_3hh1f"), SubResource("Resource_gk5up"), SubResource("Resource_ml0xl")])
+evolutions = Array[ExtResource("1_tg62v")]([SubResource("Resource_ddolu"), SubResource("Resource_r6ddo")])

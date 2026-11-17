@@ -5,61 +5,61 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_05rwn"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xv1ck"]
 
-[sub_resource type="Resource" id="Resource_vvld5"]
+[sub_resource type="Resource" id="Resource_n4khj"]
 script = ExtResource("1_vvld5")
 method = "LEVEL"
 param = "48"
 target = 445
 
-[sub_resource type="Resource" id="Resource_autrq"]
+[sub_resource type="Resource" id="Resource_w0tfm"]
 script = ExtResource("3_05rwn")
 move = 33
 
-[sub_resource type="Resource" id="Resource_05rwn"]
+[sub_resource type="Resource" id="Resource_ka6f1"]
 script = ExtResource("3_05rwn")
 move = 28
 
-[sub_resource type="Resource" id="Resource_xv1ck"]
+[sub_resource type="Resource" id="Resource_u1xni"]
 script = ExtResource("3_05rwn")
 level = 3
 move = 28
 
-[sub_resource type="Resource" id="Resource_n4khj"]
+[sub_resource type="Resource" id="Resource_85fy1"]
 script = ExtResource("3_05rwn")
 level = 7
 move = 82
 
-[sub_resource type="Resource" id="Resource_w0tfm"]
+[sub_resource type="Resource" id="Resource_mvco2"]
 script = ExtResource("3_05rwn")
 level = 13
 move = 201
 
-[sub_resource type="Resource" id="Resource_ka6f1"]
+[sub_resource type="Resource" id="Resource_d5ooh"]
 script = ExtResource("3_05rwn")
 level = 15
 move = 36
 
-[sub_resource type="Resource" id="Resource_u1xni"]
+[sub_resource type="Resource" id="Resource_6exmb"]
 script = ExtResource("3_05rwn")
 level = 19
 move = 328
 
-[sub_resource type="Resource" id="Resource_85fy1"]
+[sub_resource type="Resource" id="Resource_e4y6g"]
 script = ExtResource("3_05rwn")
 level = 28
 move = 163
 
-[sub_resource type="Resource" id="Resource_mvco2"]
+[sub_resource type="Resource" id="Resource_sfe8v"]
 script = ExtResource("3_05rwn")
 level = 33
 move = 337
 
-[sub_resource type="Resource" id="Resource_d5ooh"]
+[sub_resource type="Resource" id="Resource_jdgd4"]
 script = ExtResource("3_05rwn")
 level = 40
 move = 91
 
-[sub_resource type="Resource" id="Resource_6exmb"]
+[sub_resource type="Resource" id="Resource_s3ti1"]
 script = ExtResource("3_05rwn")
 level = 49
 move = 407
@@ -74,6 +74,7 @@ pokedex = "Shiny objects are its passion. It can be
 found in its cave, scarcely moving,
 its gaze fixed on the jewels it's amassed
 or Carbink it has caught."
+sprite_folder = "gabite"
 type_1 = 17
 type_2 = 5
 base_hp = 68
@@ -93,5 +94,5 @@ ability_hidden = 24
 height_dm = 14
 weight_hg = 560
 body_color = 1
-level_moves = Array[ExtResource("3_05rwn")]([SubResource("Resource_autrq"), SubResource("Resource_05rwn"), SubResource("Resource_xv1ck"), SubResource("Resource_n4khj"), SubResource("Resource_w0tfm"), SubResource("Resource_ka6f1"), SubResource("Resource_u1xni"), SubResource("Resource_85fy1"), SubResource("Resource_mvco2"), SubResource("Resource_d5ooh"), SubResource("Resource_6exmb")])
-evolutions = Array[ExtResource("1_vvld5")]([SubResource("Resource_vvld5")])
+level_moves = Array[ExtResource("3_05rwn")]([SubResource("Resource_w0tfm"), SubResource("Resource_ka6f1"), SubResource("Resource_u1xni"), SubResource("Resource_85fy1"), SubResource("Resource_mvco2"), SubResource("Resource_d5ooh"), SubResource("Resource_6exmb"), SubResource("Resource_e4y6g"), SubResource("Resource_sfe8v"), SubResource("Resource_jdgd4"), SubResource("Resource_s3ti1")])
+evolutions = Array[ExtResource("1_vvld5")]([SubResource("Resource_n4khj")])

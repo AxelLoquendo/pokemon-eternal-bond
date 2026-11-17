@@ -5,65 +5,65 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_5oqeq"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dbjbw"]
 
-[sub_resource type="Resource" id="Resource_h5tqp"]
+[sub_resource type="Resource" id="Resource_4ol00"]
 script = ExtResource("1_h5tqp")
 method = "LEVEL"
 param = "32"
 target = 364
 
-[sub_resource type="Resource" id="Resource_k5sdl"]
+[sub_resource type="Resource" id="Resource_6hyfg"]
 script = ExtResource("3_5oqeq")
 move = 181
 
-[sub_resource type="Resource" id="Resource_5oqeq"]
+[sub_resource type="Resource" id="Resource_qtxh4"]
 script = ExtResource("3_5oqeq")
 move = 45
 
-[sub_resource type="Resource" id="Resource_dbjbw"]
+[sub_resource type="Resource" id="Resource_22k7u"]
 script = ExtResource("3_5oqeq")
 move = 55
 
-[sub_resource type="Resource" id="Resource_4ol00"]
+[sub_resource type="Resource" id="Resource_18r4n"]
 script = ExtResource("3_5oqeq")
 level = 7
 move = 227
 
-[sub_resource type="Resource" id="Resource_6hyfg"]
+[sub_resource type="Resource" id="Resource_7e7ov"]
 script = ExtResource("3_5oqeq")
 level = 13
 move = 301
 
-[sub_resource type="Resource" id="Resource_qtxh4"]
+[sub_resource type="Resource" id="Resource_rmews"]
 script = ExtResource("3_5oqeq")
 level = 19
 move = 34
 
-[sub_resource type="Resource" id="Resource_22k7u"]
+[sub_resource type="Resource" id="Resource_loc1t"]
 script = ExtResource("3_5oqeq")
 level = 25
 move = 62
 
-[sub_resource type="Resource" id="Resource_18r4n"]
+[sub_resource type="Resource" id="Resource_7h1xr"]
 script = ExtResource("3_5oqeq")
 level = 31
 move = 258
 
-[sub_resource type="Resource" id="Resource_7e7ov"]
+[sub_resource type="Resource" id="Resource_723ch"]
 script = ExtResource("3_5oqeq")
 level = 37
 move = 156
 
-[sub_resource type="Resource" id="Resource_rmews"]
+[sub_resource type="Resource" id="Resource_w33qk"]
 script = ExtResource("3_5oqeq")
 level = 37
 move = 173
 
-[sub_resource type="Resource" id="Resource_loc1t"]
+[sub_resource type="Resource" id="Resource_sni35"]
 script = ExtResource("3_5oqeq")
 level = 43
 move = 59
 
-[sub_resource type="Resource" id="Resource_7h1xr"]
+[sub_resource type="Resource" id="Resource_d5t17"]
 script = ExtResource("3_5oqeq")
 level = 49
 move = 329
@@ -78,6 +78,7 @@ pokedex = "It is completely covered with plushy fur.
 As a result, it never feels the cold even
 when it is rolling about on ice floes or
 diving in the sea."
+sprite_folder = "spheal"
 type_1 = 16
 type_2 = 12
 base_hp = 70
@@ -98,6 +99,6 @@ ability_hidden = 12
 height_dm = 8
 weight_hg = 395
 body_color = 1
-level_moves = Array[ExtResource("3_5oqeq")]([SubResource("Resource_k5sdl"), SubResource("Resource_5oqeq"), SubResource("Resource_dbjbw"), SubResource("Resource_4ol00"), SubResource("Resource_6hyfg"), SubResource("Resource_qtxh4"), SubResource("Resource_22k7u"), SubResource("Resource_18r4n"), SubResource("Resource_7e7ov"), SubResource("Resource_rmews"), SubResource("Resource_loc1t"), SubResource("Resource_7h1xr")])
+level_moves = Array[ExtResource("3_5oqeq")]([SubResource("Resource_6hyfg"), SubResource("Resource_qtxh4"), SubResource("Resource_22k7u"), SubResource("Resource_18r4n"), SubResource("Resource_7e7ov"), SubResource("Resource_rmews"), SubResource("Resource_loc1t"), SubResource("Resource_7h1xr"), SubResource("Resource_723ch"), SubResource("Resource_w33qk"), SubResource("Resource_sni35"), SubResource("Resource_d5t17")])
 egg_moves = Array[int]([346, 254, 256, 255, 281, 174, 90, 324, 392, 205, 214, 352, 187])
-evolutions = Array[ExtResource("1_h5tqp")]([SubResource("Resource_h5tqp")])
+evolutions = Array[ExtResource("1_h5tqp")]([SubResource("Resource_4ol00")])

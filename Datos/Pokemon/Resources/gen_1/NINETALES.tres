@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0qivb"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_70skq"]
 
-[sub_resource type="Resource" id="Resource_yoyb2"]
+[sub_resource type="Resource" id="Resource_yldaw"]
 script = ExtResource("3_0qivb")
 move = 52
 
-[sub_resource type="Resource" id="Resource_0oqr4"]
+[sub_resource type="Resource" id="Resource_n2cid"]
 script = ExtResource("3_0qivb")
 move = 39
 
-[sub_resource type="Resource" id="Resource_0qivb"]
+[sub_resource type="Resource" id="Resource_krh50"]
 script = ExtResource("3_0qivb")
 move = 98
 
-[sub_resource type="Resource" id="Resource_70skq"]
+[sub_resource type="Resource" id="Resource_noukl"]
 script = ExtResource("3_0qivb")
 move = 46
 
@@ -31,6 +31,7 @@ pokedex = "It has long been said that each of the
 nine tails embody an enchanted power.
 A long-lived Ninetales will have fur that
 shines like gold."
+sprite_folder = "ninetales"
 type_1 = 11
 base_hp = 73
 base_atk = 76
@@ -50,5 +51,5 @@ item_rare = 426
 height_dm = 11
 weight_hg = 199
 body_color = 2
-level_moves = Array[ExtResource("3_0qivb")]([SubResource("Resource_yoyb2"), SubResource("Resource_0oqr4"), SubResource("Resource_0qivb"), SubResource("Resource_70skq")])
+level_moves = Array[ExtResource("3_0qivb")]([SubResource("Resource_yldaw"), SubResource("Resource_n2cid"), SubResource("Resource_krh50"), SubResource("Resource_noukl")])
 form_species = Array[int]([38, 962])

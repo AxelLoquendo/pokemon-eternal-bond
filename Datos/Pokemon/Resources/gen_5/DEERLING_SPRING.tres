@@ -5,81 +5,81 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ba3ed"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6vwvd"]
 
-[sub_resource type="Resource" id="Resource_uwsp3"]
+[sub_resource type="Resource" id="Resource_hk7hk"]
 script = ExtResource("1_uwsp3")
 method = "LEVEL"
 param = "34"
 target = 586
 
-[sub_resource type="Resource" id="Resource_abquj"]
+[sub_resource type="Resource" id="Resource_dqqmj"]
 script = ExtResource("3_ba3ed")
 move = 33
 
-[sub_resource type="Resource" id="Resource_ba3ed"]
+[sub_resource type="Resource" id="Resource_ik0nx"]
 script = ExtResource("3_ba3ed")
 move = 293
 
-[sub_resource type="Resource" id="Resource_6vwvd"]
+[sub_resource type="Resource" id="Resource_wjs0j"]
 script = ExtResource("3_ba3ed")
 level = 4
 move = 45
 
-[sub_resource type="Resource" id="Resource_hk7hk"]
+[sub_resource type="Resource" id="Resource_xxgif"]
 script = ExtResource("3_ba3ed")
 level = 7
 move = 28
 
-[sub_resource type="Resource" id="Resource_dqqmj"]
+[sub_resource type="Resource" id="Resource_5d64a"]
 script = ExtResource("3_ba3ed")
 level = 10
 move = 24
 
-[sub_resource type="Resource" id="Resource_ik0nx"]
+[sub_resource type="Resource" id="Resource_e2bp0"]
 script = ExtResource("3_ba3ed")
 level = 13
 move = 73
 
-[sub_resource type="Resource" id="Resource_wjs0j"]
+[sub_resource type="Resource" id="Resource_iglw0"]
 script = ExtResource("3_ba3ed")
 level = 16
 move = 185
 
-[sub_resource type="Resource" id="Resource_xxgif"]
+[sub_resource type="Resource" id="Resource_h2ck7"]
 script = ExtResource("3_ba3ed")
 level = 20
 move = 36
 
-[sub_resource type="Resource" id="Resource_5d64a"]
+[sub_resource type="Resource" id="Resource_0002k"]
 script = ExtResource("3_ba3ed")
 level = 24
 move = 26
 
-[sub_resource type="Resource" id="Resource_e2bp0"]
+[sub_resource type="Resource" id="Resource_ke0gd"]
 script = ExtResource("3_ba3ed")
 level = 28
 move = 312
 
-[sub_resource type="Resource" id="Resource_iglw0"]
+[sub_resource type="Resource" id="Resource_ievvy"]
 script = ExtResource("3_ba3ed")
 level = 32
 move = 412
 
-[sub_resource type="Resource" id="Resource_h2ck7"]
+[sub_resource type="Resource" id="Resource_b0r7r"]
 script = ExtResource("3_ba3ed")
 level = 36
 move = 204
 
-[sub_resource type="Resource" id="Resource_0002k"]
+[sub_resource type="Resource" id="Resource_wvngf"]
 script = ExtResource("3_ba3ed")
 level = 41
 move = 267
 
-[sub_resource type="Resource" id="Resource_ke0gd"]
+[sub_resource type="Resource" id="Resource_e1dsu"]
 script = ExtResource("3_ba3ed")
 level = 46
 move = 38
 
-[sub_resource type="Resource" id="Resource_ievvy"]
+[sub_resource type="Resource" id="Resource_bw582"]
 script = ExtResource("3_ba3ed")
 level = 51
 move = 76
@@ -94,6 +94,7 @@ pokedex = "Deerling have different scents
 depending on the season. In early
 spring, these Pokémon give off a
 delicate, sweet, and calming scent."
+sprite_folder = "deerling"
 type_1 = 1
 type_2 = 13
 base_hp = 60
@@ -112,7 +113,7 @@ ability_hidden = 32
 height_dm = 6
 weight_hg = 195
 body_color = 9
-level_moves = Array[ExtResource("3_ba3ed")]([SubResource("Resource_abquj"), SubResource("Resource_ba3ed"), SubResource("Resource_6vwvd"), SubResource("Resource_hk7hk"), SubResource("Resource_dqqmj"), SubResource("Resource_ik0nx"), SubResource("Resource_wjs0j"), SubResource("Resource_xxgif"), SubResource("Resource_5d64a"), SubResource("Resource_e2bp0"), SubResource("Resource_iglw0"), SubResource("Resource_h2ck7"), SubResource("Resource_0002k"), SubResource("Resource_ke0gd"), SubResource("Resource_ievvy")])
+level_moves = Array[ExtResource("3_ba3ed")]([SubResource("Resource_dqqmj"), SubResource("Resource_ik0nx"), SubResource("Resource_wjs0j"), SubResource("Resource_xxgif"), SubResource("Resource_5d64a"), SubResource("Resource_e2bp0"), SubResource("Resource_iglw0"), SubResource("Resource_h2ck7"), SubResource("Resource_0002k"), SubResource("Resource_ke0gd"), SubResource("Resource_ievvy"), SubResource("Resource_b0r7r"), SubResource("Resource_wvngf"), SubResource("Resource_e1dsu"), SubResource("Resource_bw582")])
 egg_moves = Array[int]([313, 363, 235, 388, 316, 97, 214, 226, 320, 29])
-evolutions = Array[ExtResource("1_uwsp3")]([SubResource("Resource_uwsp3")])
+evolutions = Array[ExtResource("1_uwsp3")]([SubResource("Resource_hk7hk")])
 form_species = Array[int]([585, 1094, 1095, 1096])

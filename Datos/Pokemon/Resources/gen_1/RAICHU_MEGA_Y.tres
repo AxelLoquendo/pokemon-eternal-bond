@@ -5,15 +5,15 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fuym5"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pdumm"]
 
-[sub_resource type="Resource" id="Resource_awd4c"]
+[sub_resource type="Resource" id="Resource_g287a"]
 script = ExtResource("3_fuym5")
 move = 84
 
-[sub_resource type="Resource" id="Resource_ptybv"]
+[sub_resource type="Resource" id="Resource_b6qjq"]
 script = ExtResource("3_fuym5")
 move = 45
 
-[sub_resource type="Resource" id="Resource_fuym5"]
+[sub_resource type="Resource" id="Resource_b5lki"]
 script = ExtResource("3_fuym5")
 move = 86
 
@@ -27,6 +27,7 @@ pokedex = "It fires bolts of electricity from the
 tip of its tail and from the spiky tufts
 of fur growing out of its temples. This
 electricity forms the letter Y."
+sprite_folder = "raichu/mega_y"
 type_1 = 14
 base_hp = 60
 base_atk = 100
@@ -45,5 +46,5 @@ ability_hidden = 99
 height_dm = 10
 weight_hg = 260
 body_color = 2
-level_moves = Array[ExtResource("3_fuym5")]([SubResource("Resource_awd4c"), SubResource("Resource_ptybv"), SubResource("Resource_fuym5")])
+level_moves = Array[ExtResource("3_fuym5")]([SubResource("Resource_g287a"), SubResource("Resource_b6qjq"), SubResource("Resource_b5lki")])
 form_species = Array[int]([26, 958, 1553, 1554])

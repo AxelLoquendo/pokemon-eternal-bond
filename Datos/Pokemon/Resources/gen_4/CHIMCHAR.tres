@@ -5,66 +5,66 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7buam"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_h85fk"]
 
-[sub_resource type="Resource" id="Resource_0smu2"]
+[sub_resource type="Resource" id="Resource_6j15u"]
 script = ExtResource("1_0smu2")
 method = "LEVEL"
 param = "14"
 target = 391
 
-[sub_resource type="Resource" id="Resource_v3ivm"]
+[sub_resource type="Resource" id="Resource_cs5c2"]
 script = ExtResource("3_7buam")
 move = 10
 
-[sub_resource type="Resource" id="Resource_7buam"]
+[sub_resource type="Resource" id="Resource_vxflv"]
 script = ExtResource("3_7buam")
 move = 43
 
-[sub_resource type="Resource" id="Resource_h85fk"]
+[sub_resource type="Resource" id="Resource_nbopy"]
 script = ExtResource("3_7buam")
 level = 7
 move = 52
 
-[sub_resource type="Resource" id="Resource_6j15u"]
+[sub_resource type="Resource" id="Resource_ljckc"]
 script = ExtResource("3_7buam")
 level = 9
 move = 269
 
-[sub_resource type="Resource" id="Resource_cs5c2"]
+[sub_resource type="Resource" id="Resource_wx2i1"]
 script = ExtResource("3_7buam")
 level = 15
 move = 154
 
-[sub_resource type="Resource" id="Resource_vxflv"]
+[sub_resource type="Resource" id="Resource_vfg0u"]
 script = ExtResource("3_7buam")
 level = 17
 move = 172
 
-[sub_resource type="Resource" id="Resource_nbopy"]
+[sub_resource type="Resource" id="Resource_04o3t"]
 script = ExtResource("3_7buam")
 level = 23
 move = 417
 
-[sub_resource type="Resource" id="Resource_ljckc"]
+[sub_resource type="Resource" id="Resource_6waxx"]
 script = ExtResource("3_7buam")
 level = 25
 move = 259
 
-[sub_resource type="Resource" id="Resource_wx2i1"]
+[sub_resource type="Resource" id="Resource_liblt"]
 script = ExtResource("3_7buam")
 level = 31
 move = 263
 
-[sub_resource type="Resource" id="Resource_vfg0u"]
+[sub_resource type="Resource" id="Resource_qb6vy"]
 script = ExtResource("3_7buam")
 level = 33
 move = 83
 
-[sub_resource type="Resource" id="Resource_04o3t"]
+[sub_resource type="Resource" id="Resource_q17p7"]
 script = ExtResource("3_7buam")
 level = 39
 move = 303
 
-[sub_resource type="Resource" id="Resource_6waxx"]
+[sub_resource type="Resource" id="Resource_u0w2v"]
 script = ExtResource("3_7buam")
 level = 41
 move = 53
@@ -79,6 +79,7 @@ pokedex = "Its fiery rear end is fueled by gas made
 in its belly. Before going to sleep,
 Chimchar extinguish the flame on their
 tails to prevent fires."
+sprite_folder = "chimchar"
 type_1 = 11
 base_hp = 44
 base_atk = 58
@@ -98,6 +99,6 @@ height_dm = 5
 weight_hg = 62
 body_color = 5
 no_flip = true
-level_moves = Array[ExtResource("3_7buam")]([SubResource("Resource_v3ivm"), SubResource("Resource_7buam"), SubResource("Resource_h85fk"), SubResource("Resource_6j15u"), SubResource("Resource_cs5c2"), SubResource("Resource_vxflv"), SubResource("Resource_nbopy"), SubResource("Resource_ljckc"), SubResource("Resource_wx2i1"), SubResource("Resource_vfg0u"), SubResource("Resource_04o3t"), SubResource("Resource_6waxx")])
+level_moves = Array[ExtResource("3_7buam")]([SubResource("Resource_cs5c2"), SubResource("Resource_vxflv"), SubResource("Resource_nbopy"), SubResource("Resource_ljckc"), SubResource("Resource_wx2i1"), SubResource("Resource_vfg0u"), SubResource("Resource_04o3t"), SubResource("Resource_6waxx"), SubResource("Resource_liblt"), SubResource("Resource_qb6vy"), SubResource("Resource_q17p7"), SubResource("Resource_u0w2v")])
 egg_moves = Array[int]([7, 9, 24, 227, 257, 116, 270, 252, 299, 68, 274, 501, 264, 66, 612])
-evolutions = Array[ExtResource("1_0smu2")]([SubResource("Resource_0smu2")])
+evolutions = Array[ExtResource("1_0smu2")]([SubResource("Resource_6j15u")])

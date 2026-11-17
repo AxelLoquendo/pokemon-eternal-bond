@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8yvre"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_74cdi"]
 
-[sub_resource type="Resource" id="Resource_1w3ww"]
+[sub_resource type="Resource" id="Resource_7bien"]
 script = ExtResource("1_1w3ww")
 method = "LEVEL"
 param = "14"
 target = 271
 
-[sub_resource type="Resource" id="Resource_tx31y"]
+[sub_resource type="Resource" id="Resource_wdlvy"]
 script = ExtResource("3_8yvre")
 move = 310
 
-[sub_resource type="Resource" id="Resource_8yvre"]
+[sub_resource type="Resource" id="Resource_im63i"]
 script = ExtResource("3_8yvre")
 level = 3
 move = 45
 
-[sub_resource type="Resource" id="Resource_74cdi"]
+[sub_resource type="Resource" id="Resource_tdubp"]
 script = ExtResource("3_8yvre")
 level = 7
 move = 71
 
-[sub_resource type="Resource" id="Resource_7bien"]
+[sub_resource type="Resource" id="Resource_biq6n"]
 script = ExtResource("3_8yvre")
 level = 13
 move = 267
 
-[sub_resource type="Resource" id="Resource_wdlvy"]
+[sub_resource type="Resource" id="Resource_mkqva"]
 script = ExtResource("3_8yvre")
 level = 21
 move = 54
 
-[sub_resource type="Resource" id="Resource_im63i"]
+[sub_resource type="Resource" id="Resource_4siyu"]
 script = ExtResource("3_8yvre")
 level = 31
 move = 240
 
-[sub_resource type="Resource" id="Resource_tdubp"]
+[sub_resource type="Resource" id="Resource_1jjn6"]
 script = ExtResource("3_8yvre")
 level = 43
 move = 72
@@ -55,6 +55,7 @@ pokedex = "This Pokémon lives in ponds with clean
 water. It is known to ferry small Pokémon
 across ponds by carrying them on the
 broad leaf on its head."
+sprite_folder = "lotad"
 type_1 = 12
 type_2 = 13
 base_hp = 40
@@ -77,6 +78,6 @@ item_rare = 464
 height_dm = 5
 weight_hg = 26
 body_color = 3
-level_moves = Array[ExtResource("3_8yvre")]([SubResource("Resource_tx31y"), SubResource("Resource_8yvre"), SubResource("Resource_74cdi"), SubResource("Resource_7bien"), SubResource("Resource_wdlvy"), SubResource("Resource_im63i"), SubResource("Resource_tdubp")])
+level_moves = Array[ExtResource("3_8yvre")]([SubResource("Resource_wdlvy"), SubResource("Resource_im63i"), SubResource("Resource_tdubp"), SubResource("Resource_biq6n"), SubResource("Resource_mkqva"), SubResource("Resource_4siyu"), SubResource("Resource_1jjn6")])
 egg_moves = Array[int]([235, 75, 230, 73, 175, 55, 321, 68, 202, 298])
-evolutions = Array[ExtResource("1_1w3ww")]([SubResource("Resource_1w3ww")])
+evolutions = Array[ExtResource("1_1w3ww")]([SubResource("Resource_7bien")])

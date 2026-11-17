@@ -5,94 +5,94 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_o83wp"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wg4j7"]
 
-[sub_resource type="Resource" id="Resource_3uhwr"]
+[sub_resource type="Resource" id="Resource_f34nf"]
 script = ExtResource("1_3uhwr")
 method = "LEVEL"
 param = "47"
 target = 584
 
-[sub_resource type="Resource" id="Resource_cm1c4"]
+[sub_resource type="Resource" id="Resource_d5djf"]
 script = ExtResource("3_o83wp")
 move = 333
 
-[sub_resource type="Resource" id="Resource_o83wp"]
+[sub_resource type="Resource" id="Resource_uwtkh"]
 script = ExtResource("3_o83wp")
 move = 106
 
-[sub_resource type="Resource" id="Resource_wg4j7"]
+[sub_resource type="Resource" id="Resource_0ymhu"]
 script = ExtResource("3_o83wp")
 move = 310
 
-[sub_resource type="Resource" id="Resource_f34nf"]
+[sub_resource type="Resource" id="Resource_17maf"]
 script = ExtResource("3_o83wp")
 move = 253
 
-[sub_resource type="Resource" id="Resource_d5djf"]
+[sub_resource type="Resource" id="Resource_bpoas"]
 script = ExtResource("3_o83wp")
 level = 4
 move = 106
 
-[sub_resource type="Resource" id="Resource_uwtkh"]
+[sub_resource type="Resource" id="Resource_d7g88"]
 script = ExtResource("3_o83wp")
 level = 7
 move = 310
 
-[sub_resource type="Resource" id="Resource_0ymhu"]
+[sub_resource type="Resource" id="Resource_v4csa"]
 script = ExtResource("3_o83wp")
 level = 10
 move = 253
 
-[sub_resource type="Resource" id="Resource_17maf"]
+[sub_resource type="Resource" id="Resource_apgxj"]
 script = ExtResource("3_o83wp")
 level = 13
 move = 196
 
-[sub_resource type="Resource" id="Resource_bpoas"]
+[sub_resource type="Resource" id="Resource_gubvl"]
 script = ExtResource("3_o83wp")
 level = 16
 move = 54
 
-[sub_resource type="Resource" id="Resource_d7g88"]
+[sub_resource type="Resource" id="Resource_dt1lb"]
 script = ExtResource("3_o83wp")
 level = 19
 move = 419
 
-[sub_resource type="Resource" id="Resource_v4csa"]
+[sub_resource type="Resource" id="Resource_nerq6"]
 script = ExtResource("3_o83wp")
 level = 22
 move = 269
 
-[sub_resource type="Resource" id="Resource_apgxj"]
+[sub_resource type="Resource" id="Resource_t5loa"]
 script = ExtResource("3_o83wp")
 level = 26
 move = 429
 
-[sub_resource type="Resource" id="Resource_gubvl"]
+[sub_resource type="Resource" id="Resource_pa4l8"]
 script = ExtResource("3_o83wp")
 level = 31
 move = 151
 
-[sub_resource type="Resource" id="Resource_dt1lb"]
+[sub_resource type="Resource" id="Resource_8ck8d"]
 script = ExtResource("3_o83wp")
 level = 36
 move = 58
 
-[sub_resource type="Resource" id="Resource_nerq6"]
+[sub_resource type="Resource" id="Resource_p36mh"]
 script = ExtResource("3_o83wp")
 level = 42
 move = 258
 
-[sub_resource type="Resource" id="Resource_t5loa"]
+[sub_resource type="Resource" id="Resource_iqadr"]
 script = ExtResource("3_o83wp")
 level = 47
 move = 243
 
-[sub_resource type="Resource" id="Resource_pa4l8"]
+[sub_resource type="Resource" id="Resource_0isdr"]
 script = ExtResource("3_o83wp")
 level = 53
 move = 59
 
-[sub_resource type="Resource" id="Resource_8ck8d"]
+[sub_resource type="Resource" id="Resource_ql6sj"]
 script = ExtResource("3_o83wp")
 level = 58
 move = 329
@@ -107,6 +107,7 @@ pokedex = "Vanillish has existed since the Ice Age.
 It controls particles of ice, freezes its
 opponents, and then shatters them with
 a headbutt."
+sprite_folder = "vanillish"
 type_1 = 16
 base_hp = 51
 base_atk = 65
@@ -126,5 +127,5 @@ item_rare = 430
 height_dm = 11
 weight_hg = 410
 body_color = 8
-level_moves = Array[ExtResource("3_o83wp")]([SubResource("Resource_cm1c4"), SubResource("Resource_o83wp"), SubResource("Resource_wg4j7"), SubResource("Resource_f34nf"), SubResource("Resource_d5djf"), SubResource("Resource_uwtkh"), SubResource("Resource_0ymhu"), SubResource("Resource_17maf"), SubResource("Resource_bpoas"), SubResource("Resource_d7g88"), SubResource("Resource_v4csa"), SubResource("Resource_apgxj"), SubResource("Resource_gubvl"), SubResource("Resource_dt1lb"), SubResource("Resource_nerq6"), SubResource("Resource_t5loa"), SubResource("Resource_pa4l8"), SubResource("Resource_8ck8d")])
-evolutions = Array[ExtResource("1_3uhwr")]([SubResource("Resource_3uhwr")])
+level_moves = Array[ExtResource("3_o83wp")]([SubResource("Resource_d5djf"), SubResource("Resource_uwtkh"), SubResource("Resource_0ymhu"), SubResource("Resource_17maf"), SubResource("Resource_bpoas"), SubResource("Resource_d7g88"), SubResource("Resource_v4csa"), SubResource("Resource_apgxj"), SubResource("Resource_gubvl"), SubResource("Resource_dt1lb"), SubResource("Resource_nerq6"), SubResource("Resource_t5loa"), SubResource("Resource_pa4l8"), SubResource("Resource_8ck8d"), SubResource("Resource_p36mh"), SubResource("Resource_iqadr"), SubResource("Resource_0isdr"), SubResource("Resource_ql6sj")])
+evolutions = Array[ExtResource("1_3uhwr")]([SubResource("Resource_f34nf")])

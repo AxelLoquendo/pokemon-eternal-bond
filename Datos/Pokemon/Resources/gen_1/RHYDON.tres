@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hex44"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pevml"]
 
-[sub_resource type="Resource" id="Resource_hq2a1"]
+[sub_resource type="Resource" id="Resource_vkepi"]
 script = ExtResource("1_hq2a1")
 method = "ITEM"
 param = "ITEM_PROTECTOR"
 target = 464
 
-[sub_resource type="Resource" id="Resource_lygd7"]
+[sub_resource type="Resource" id="Resource_u2e02"]
 script = ExtResource("3_hex44")
 move = 30
 
-[sub_resource type="Resource" id="Resource_hex44"]
+[sub_resource type="Resource" id="Resource_2y1pg"]
 script = ExtResource("3_hex44")
 level = 30
 move = 23
 
-[sub_resource type="Resource" id="Resource_pevml"]
+[sub_resource type="Resource" id="Resource_el46b"]
 script = ExtResource("3_hex44")
 level = 35
 move = 39
 
-[sub_resource type="Resource" id="Resource_vkepi"]
+[sub_resource type="Resource" id="Resource_qgh10"]
 script = ExtResource("3_hex44")
 level = 40
 move = 31
 
-[sub_resource type="Resource" id="Resource_u2e02"]
+[sub_resource type="Resource" id="Resource_ogxtb"]
 script = ExtResource("3_hex44")
 level = 48
 move = 32
 
-[sub_resource type="Resource" id="Resource_2y1pg"]
+[sub_resource type="Resource" id="Resource_1ay4k"]
 script = ExtResource("3_hex44")
 level = 55
 move = 43
 
-[sub_resource type="Resource" id="Resource_el46b"]
+[sub_resource type="Resource" id="Resource_13nmo"]
 script = ExtResource("3_hex44")
 level = 64
 move = 36
@@ -55,6 +55,7 @@ pokedex = "Its horn, which rotates like a drill,
 destroys tall buildings with one strike.
 It stands on its hind legs, and its brain
 is well developed."
+sprite_folder = "rhydon"
 type_1 = 5
 type_2 = 6
 base_hp = 105
@@ -75,5 +76,5 @@ ability_hidden = 120
 height_dm = 19
 weight_hg = 1200
 body_color = 7
-level_moves = Array[ExtResource("3_hex44")]([SubResource("Resource_lygd7"), SubResource("Resource_hex44"), SubResource("Resource_pevml"), SubResource("Resource_vkepi"), SubResource("Resource_u2e02"), SubResource("Resource_2y1pg"), SubResource("Resource_el46b")])
-evolutions = Array[ExtResource("1_hq2a1")]([SubResource("Resource_hq2a1")])
+level_moves = Array[ExtResource("3_hex44")]([SubResource("Resource_u2e02"), SubResource("Resource_2y1pg"), SubResource("Resource_el46b"), SubResource("Resource_qgh10"), SubResource("Resource_ogxtb"), SubResource("Resource_1ay4k"), SubResource("Resource_13nmo")])
+evolutions = Array[ExtResource("1_hq2a1")]([SubResource("Resource_vkepi")])

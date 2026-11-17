@@ -5,13 +5,13 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hw1wd"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_15tco"]
 
-[sub_resource type="Resource" id="Resource_k0i21"]
+[sub_resource type="Resource" id="Resource_efffj"]
 script = ExtResource("1_k0i21")
 method = "LEVEL"
 param = "15"
 target = 202
 
-[sub_resource type="Resource" id="Resource_v4rif"]
+[sub_resource type="Resource" id="Resource_46yoj"]
 script = ExtResource("3_hw1wd")
 move = 237
 
@@ -25,6 +25,7 @@ pokedex = "A Wynaut loves to eat sweet fruits.
 It cleverly picks fruits using its earlike
 arms. They gather in fruit gardens, drawn
 by the fragrance."
+sprite_folder = "unown/question"
 type_1 = 15
 base_hp = 48
 base_atk = 72
@@ -39,5 +40,5 @@ ability_1 = 26
 height_dm = 6
 weight_hg = 140
 body_color = 1
-level_moves = Array[ExtResource("3_hw1wd")]([SubResource("Resource_v4rif")])
-evolutions = Array[ExtResource("1_k0i21")]([SubResource("Resource_k0i21")])
+level_moves = Array[ExtResource("3_hw1wd")]([SubResource("Resource_46yoj")])
+evolutions = Array[ExtResource("1_k0i21")]([SubResource("Resource_efffj")])

@@ -5,82 +5,82 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_52cli"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4unp5"]
 
-[sub_resource type="Resource" id="Resource_2ldiv"]
+[sub_resource type="Resource" id="Resource_dpbn7"]
 script = ExtResource("1_2ldiv")
 method = "ITEM"
 param = "ITEM_SHINY_STONE"
 target = 407
 
-[sub_resource type="Resource" id="Resource_2d6qg"]
+[sub_resource type="Resource" id="Resource_8q5mj"]
 script = ExtResource("3_52cli")
 move = 71
 
-[sub_resource type="Resource" id="Resource_52cli"]
+[sub_resource type="Resource" id="Resource_vg4ik"]
 script = ExtResource("3_52cli")
 level = 5
 move = 74
 
-[sub_resource type="Resource" id="Resource_4unp5"]
+[sub_resource type="Resource" id="Resource_7v4b6"]
 script = ExtResource("3_52cli")
 level = 9
 move = 40
 
-[sub_resource type="Resource" id="Resource_dpbn7"]
+[sub_resource type="Resource" id="Resource_okfw0"]
 script = ExtResource("3_52cli")
 level = 13
 move = 78
 
-[sub_resource type="Resource" id="Resource_8q5mj"]
+[sub_resource type="Resource" id="Resource_av6ky"]
 script = ExtResource("3_52cli")
 level = 17
 move = 72
 
-[sub_resource type="Resource" id="Resource_vg4ik"]
+[sub_resource type="Resource" id="Resource_ng7pi"]
 script = ExtResource("3_52cli")
 level = 21
 move = 73
 
-[sub_resource type="Resource" id="Resource_7v4b6"]
+[sub_resource type="Resource" id="Resource_fytgw"]
 script = ExtResource("3_52cli")
 level = 25
 move = 345
 
-[sub_resource type="Resource" id="Resource_okfw0"]
+[sub_resource type="Resource" id="Resource_taxtg"]
 script = ExtResource("3_52cli")
 level = 29
 move = 320
 
-[sub_resource type="Resource" id="Resource_av6ky"]
+[sub_resource type="Resource" id="Resource_mkcys"]
 script = ExtResource("3_52cli")
 level = 33
 move = 202
 
-[sub_resource type="Resource" id="Resource_ng7pi"]
+[sub_resource type="Resource" id="Resource_mjq3g"]
 script = ExtResource("3_52cli")
 level = 37
 move = 230
 
-[sub_resource type="Resource" id="Resource_fytgw"]
+[sub_resource type="Resource" id="Resource_7ty20"]
 script = ExtResource("3_52cli")
 level = 41
 move = 275
 
-[sub_resource type="Resource" id="Resource_taxtg"]
+[sub_resource type="Resource" id="Resource_d6dfa"]
 script = ExtResource("3_52cli")
 level = 45
 move = 92
 
-[sub_resource type="Resource" id="Resource_mkcys"]
+[sub_resource type="Resource" id="Resource_ps5py"]
 script = ExtResource("3_52cli")
 level = 49
 move = 80
 
-[sub_resource type="Resource" id="Resource_mjq3g"]
+[sub_resource type="Resource" id="Resource_wh3np"]
 script = ExtResource("3_52cli")
 level = 53
 move = 312
 
-[sub_resource type="Resource" id="Resource_7ty20"]
+[sub_resource type="Resource" id="Resource_fpl65"]
 script = ExtResource("3_52cli")
 level = 57
 move = 235
@@ -95,6 +95,7 @@ pokedex = "A Roselia that drinks nutritionally rich
 springwater blooms with lovely flowers.
 The fragrance of its flowers has the
 effect of making its foes careless."
+sprite_folder = "roselia"
 type_1 = 13
 type_2 = 4
 base_hp = 50
@@ -117,6 +118,6 @@ height_dm = 3
 weight_hg = 20
 body_color = 3
 no_flip = true
-level_moves = Array[ExtResource("3_52cli")]([SubResource("Resource_2d6qg"), SubResource("Resource_52cli"), SubResource("Resource_4unp5"), SubResource("Resource_dpbn7"), SubResource("Resource_8q5mj"), SubResource("Resource_vg4ik"), SubResource("Resource_7v4b6"), SubResource("Resource_okfw0"), SubResource("Resource_av6ky"), SubResource("Resource_ng7pi"), SubResource("Resource_fytgw"), SubResource("Resource_taxtg"), SubResource("Resource_mkcys"), SubResource("Resource_mjq3g"), SubResource("Resource_7ty20")])
+level_moves = Array[ExtResource("3_52cli")]([SubResource("Resource_8q5mj"), SubResource("Resource_vg4ik"), SubResource("Resource_7v4b6"), SubResource("Resource_okfw0"), SubResource("Resource_av6ky"), SubResource("Resource_ng7pi"), SubResource("Resource_fytgw"), SubResource("Resource_taxtg"), SubResource("Resource_mkcys"), SubResource("Resource_mjq3g"), SubResource("Resource_7ty20"), SubResource("Resource_d6dfa"), SubResource("Resource_ps5py"), SubResource("Resource_wh3np"), SubResource("Resource_fpl65")])
 egg_moves = Array[int]([191, 235, 42, 178, 79, 75, 170, 437, 402, 202, 363, 320, 331, 438])
-evolutions = Array[ExtResource("1_2ldiv")]([SubResource("Resource_2ldiv")])
+evolutions = Array[ExtResource("1_2ldiv")]([SubResource("Resource_dpbn7")])

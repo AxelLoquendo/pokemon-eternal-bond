@@ -5,16 +5,16 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_dsvoq"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fpft1"]
 
-[sub_resource type="Resource" id="Resource_p2tk3"]
+[sub_resource type="Resource" id="Resource_ierd5"]
 script = ExtResource("1_p2tk3")
 method = "LEVEL"
 param = "12"
 
-[sub_resource type="Resource" id="Resource_x1wdv"]
+[sub_resource type="Resource" id="Resource_ar15j"]
 script = ExtResource("3_dsvoq")
 move = 106
 
-[sub_resource type="Resource" id="Resource_dsvoq"]
+[sub_resource type="Resource" id="Resource_bm854"]
 script = ExtResource("3_dsvoq")
 level = 9
 move = 182
@@ -25,6 +25,7 @@ id = 1473
 display_name = "Spewpa"
 category = "Scatterdust"
 national_dex = 665
+sprite_folder = "spewpa"
 type_1 = 7
 base_hp = 45
 base_atk = 22
@@ -42,6 +43,6 @@ ability_hidden = 132
 height_dm = 3
 weight_hg = 84
 body_color = 4
-level_moves = Array[ExtResource("3_dsvoq")]([SubResource("Resource_x1wdv"), SubResource("Resource_dsvoq")])
-evolutions = Array[ExtResource("1_p2tk3")]([SubResource("Resource_p2tk3")])
+level_moves = Array[ExtResource("3_dsvoq")]([SubResource("Resource_ar15j"), SubResource("Resource_bm854")])
+evolutions = Array[ExtResource("1_p2tk3")]([SubResource("Resource_ierd5")])
 form_species = Array[int]([665, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475])

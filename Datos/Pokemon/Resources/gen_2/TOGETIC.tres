@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ulo60"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_f8lc0"]
 
-[sub_resource type="Resource" id="Resource_tqes3"]
+[sub_resource type="Resource" id="Resource_e8muw"]
 script = ExtResource("1_tqes3")
 method = "ITEM"
 param = "ITEM_SHINY_STONE"
 target = 468
 
-[sub_resource type="Resource" id="Resource_lvcml"]
+[sub_resource type="Resource" id="Resource_wq3lg"]
 script = ExtResource("3_ulo60")
 move = 45
 
-[sub_resource type="Resource" id="Resource_ulo60"]
+[sub_resource type="Resource" id="Resource_gsdla"]
 script = ExtResource("3_ulo60")
 move = 204
 
-[sub_resource type="Resource" id="Resource_f8lc0"]
+[sub_resource type="Resource" id="Resource_pr3cd"]
 script = ExtResource("3_ulo60")
 level = 7
 move = 118
 
-[sub_resource type="Resource" id="Resource_e8muw"]
+[sub_resource type="Resource" id="Resource_ykxe1"]
 script = ExtResource("3_ulo60")
 level = 18
 move = 186
 
-[sub_resource type="Resource" id="Resource_wq3lg"]
+[sub_resource type="Resource" id="Resource_sb1s7"]
 script = ExtResource("3_ulo60")
 level = 25
 move = 227
 
-[sub_resource type="Resource" id="Resource_gsdla"]
+[sub_resource type="Resource" id="Resource_w5g0i"]
 script = ExtResource("3_ulo60")
 level = 31
 move = 219
 
-[sub_resource type="Resource" id="Resource_pr3cd"]
+[sub_resource type="Resource" id="Resource_copu7"]
 script = ExtResource("3_ulo60")
 level = 38
 move = 38
@@ -54,6 +54,7 @@ pokedex = "It is said to be a Pokémon that brings good
 fortune. When it spots someone who is pure
 of heart, a Togetic appears and shares its
 happiness with that person."
+sprite_folder = "togetic"
 type_1 = 3
 base_hp = 55
 base_atk = 40
@@ -76,5 +77,5 @@ height_dm = 6
 weight_hg = 32
 body_color = 8
 no_flip = true
-level_moves = Array[ExtResource("3_ulo60")]([SubResource("Resource_lvcml"), SubResource("Resource_ulo60"), SubResource("Resource_f8lc0"), SubResource("Resource_e8muw"), SubResource("Resource_wq3lg"), SubResource("Resource_gsdla"), SubResource("Resource_pr3cd")])
-evolutions = Array[ExtResource("1_tqes3")]([SubResource("Resource_tqes3")])
+level_moves = Array[ExtResource("3_ulo60")]([SubResource("Resource_wq3lg"), SubResource("Resource_gsdla"), SubResource("Resource_pr3cd"), SubResource("Resource_ykxe1"), SubResource("Resource_sb1s7"), SubResource("Resource_w5g0i"), SubResource("Resource_copu7")])
+evolutions = Array[ExtResource("1_tqes3")]([SubResource("Resource_e8muw")])

@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mp7je"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7ld8i"]
 
-[sub_resource type="Resource" id="Resource_886uy"]
+[sub_resource type="Resource" id="Resource_asy7x"]
 script = ExtResource("3_mp7je")
 move = 33
 
-[sub_resource type="Resource" id="Resource_qh6ww"]
+[sub_resource type="Resource" id="Resource_t50kb"]
 script = ExtResource("3_mp7je")
 level = 10
 move = 55
 
-[sub_resource type="Resource" id="Resource_mp7je"]
+[sub_resource type="Resource" id="Resource_tlof1"]
 script = ExtResource("3_mp7je")
 level = 10
 move = 52
 
-[sub_resource type="Resource" id="Resource_7ld8i"]
+[sub_resource type="Resource" id="Resource_6knhh"]
 script = ExtResource("3_mp7je")
 level = 10
 move = 181
 
-[sub_resource type="Resource" id="Resource_asy7x"]
+[sub_resource type="Resource" id="Resource_siksk"]
 script = ExtResource("3_mp7je")
 level = 20
 move = 240
 
-[sub_resource type="Resource" id="Resource_t50kb"]
+[sub_resource type="Resource" id="Resource_xe00t"]
 script = ExtResource("3_mp7je")
 level = 20
 move = 241
 
-[sub_resource type="Resource" id="Resource_tlof1"]
+[sub_resource type="Resource" id="Resource_o020n"]
 script = ExtResource("3_mp7je")
 level = 20
 move = 258
 
-[sub_resource type="Resource" id="Resource_6knhh"]
+[sub_resource type="Resource" id="Resource_bmr35"]
 script = ExtResource("3_mp7je")
 level = 30
 move = 311
@@ -54,6 +54,7 @@ pokedex = "This is Castform's form in a hailstorm.
 In an experiment where it was placed
 in a freezer, it didn't change to this form.
 Its cold skin is as smooth as ice."
+sprite_folder = "castform/snowy"
 type_1 = 16
 base_hp = 70
 base_atk = 70
@@ -73,6 +74,6 @@ height_dm = 3
 weight_hg = 8
 body_color = 8
 no_flip = true
-level_moves = Array[ExtResource("3_mp7je")]([SubResource("Resource_886uy"), SubResource("Resource_qh6ww"), SubResource("Resource_mp7je"), SubResource("Resource_7ld8i"), SubResource("Resource_asy7x"), SubResource("Resource_t50kb"), SubResource("Resource_tlof1"), SubResource("Resource_6knhh")])
+level_moves = Array[ExtResource("3_mp7je")]([SubResource("Resource_asy7x"), SubResource("Resource_t50kb"), SubResource("Resource_tlof1"), SubResource("Resource_6knhh"), SubResource("Resource_siksk"), SubResource("Resource_xe00t"), SubResource("Resource_o020n"), SubResource("Resource_bmr35")])
 egg_moves = Array[int]([248, 381, 50, 133, 466, 506, 499, 513, 385, 322])
 form_species = Array[int]([351, 1051, 1052, 1053])

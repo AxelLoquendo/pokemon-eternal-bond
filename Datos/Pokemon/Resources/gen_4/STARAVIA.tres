@@ -5,65 +5,65 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2xlvs"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_d4o6n"]
 
-[sub_resource type="Resource" id="Resource_bh8st"]
+[sub_resource type="Resource" id="Resource_o0pg2"]
 script = ExtResource("1_bh8st")
 method = "LEVEL"
 param = "34"
 target = 398
 
-[sub_resource type="Resource" id="Resource_up0l4"]
+[sub_resource type="Resource" id="Resource_0kiil"]
 script = ExtResource("3_2xlvs")
 move = 33
 
-[sub_resource type="Resource" id="Resource_2xlvs"]
+[sub_resource type="Resource" id="Resource_ehsvm"]
 script = ExtResource("3_2xlvs")
 move = 45
 
-[sub_resource type="Resource" id="Resource_d4o6n"]
+[sub_resource type="Resource" id="Resource_c37cl"]
 script = ExtResource("3_2xlvs")
 move = 98
 
-[sub_resource type="Resource" id="Resource_o0pg2"]
+[sub_resource type="Resource" id="Resource_janil"]
 script = ExtResource("3_2xlvs")
 level = 5
 move = 98
 
-[sub_resource type="Resource" id="Resource_0kiil"]
+[sub_resource type="Resource" id="Resource_snx3m"]
 script = ExtResource("3_2xlvs")
 level = 9
 move = 17
 
-[sub_resource type="Resource" id="Resource_ehsvm"]
+[sub_resource type="Resource" id="Resource_gnf3s"]
 script = ExtResource("3_2xlvs")
 level = 13
 move = 104
 
-[sub_resource type="Resource" id="Resource_c37cl"]
+[sub_resource type="Resource" id="Resource_te3pp"]
 script = ExtResource("3_2xlvs")
 level = 18
 move = 283
 
-[sub_resource type="Resource" id="Resource_janil"]
+[sub_resource type="Resource" id="Resource_y8r8n"]
 script = ExtResource("3_2xlvs")
 level = 23
 move = 18
 
-[sub_resource type="Resource" id="Resource_snx3m"]
+[sub_resource type="Resource" id="Resource_71ijq"]
 script = ExtResource("3_2xlvs")
 level = 28
 move = 332
 
-[sub_resource type="Resource" id="Resource_gnf3s"]
+[sub_resource type="Resource" id="Resource_gown1"]
 script = ExtResource("3_2xlvs")
 level = 33
 move = 36
 
-[sub_resource type="Resource" id="Resource_te3pp"]
+[sub_resource type="Resource" id="Resource_prn5p"]
 script = ExtResource("3_2xlvs")
 level = 38
 move = 97
 
-[sub_resource type="Resource" id="Resource_y8r8n"]
+[sub_resource type="Resource" id="Resource_onlap"]
 script = ExtResource("3_2xlvs")
 level = 43
 move = 413
@@ -78,6 +78,7 @@ pokedex = "Recognizing their own weakness, they
 maintain huge flocks. Fierce scuffles
 break out between various flocks.
 When alone, a Staravia cries noisily."
+sprite_folder = "staravia"
 type_1 = 1
 type_2 = 3
 base_hp = 55
@@ -97,5 +98,5 @@ ability_hidden = 120
 height_dm = 6
 weight_hg = 155
 body_color = 5
-level_moves = Array[ExtResource("3_2xlvs")]([SubResource("Resource_up0l4"), SubResource("Resource_2xlvs"), SubResource("Resource_d4o6n"), SubResource("Resource_o0pg2"), SubResource("Resource_0kiil"), SubResource("Resource_ehsvm"), SubResource("Resource_c37cl"), SubResource("Resource_janil"), SubResource("Resource_snx3m"), SubResource("Resource_gnf3s"), SubResource("Resource_te3pp"), SubResource("Resource_y8r8n")])
-evolutions = Array[ExtResource("1_bh8st")]([SubResource("Resource_bh8st")])
+level_moves = Array[ExtResource("3_2xlvs")]([SubResource("Resource_0kiil"), SubResource("Resource_ehsvm"), SubResource("Resource_c37cl"), SubResource("Resource_janil"), SubResource("Resource_snx3m"), SubResource("Resource_gnf3s"), SubResource("Resource_te3pp"), SubResource("Resource_y8r8n"), SubResource("Resource_71ijq"), SubResource("Resource_gown1"), SubResource("Resource_prn5p"), SubResource("Resource_onlap")])
+evolutions = Array[ExtResource("1_bh8st")]([SubResource("Resource_o0pg2")])

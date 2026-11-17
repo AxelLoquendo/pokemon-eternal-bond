@@ -5,99 +5,99 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_v2qwp"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bjriw"]
 
-[sub_resource type="Resource" id="Resource_vhp8u"]
+[sub_resource type="Resource" id="Resource_l6eyd"]
 script = ExtResource("1_vhp8u")
 method = "LEVEL"
 param = "41"
 target = 576
 
-[sub_resource type="Resource" id="Resource_ci1w8"]
+[sub_resource type="Resource" id="Resource_ckngd"]
 script = ExtResource("3_v2qwp")
 move = 1
 
-[sub_resource type="Resource" id="Resource_v2qwp"]
+[sub_resource type="Resource" id="Resource_5ja31"]
 script = ExtResource("3_v2qwp")
 move = 93
 
-[sub_resource type="Resource" id="Resource_bjriw"]
+[sub_resource type="Resource" id="Resource_42bha"]
 script = ExtResource("3_v2qwp")
 move = 321
 
-[sub_resource type="Resource" id="Resource_l6eyd"]
+[sub_resource type="Resource" id="Resource_sryyg"]
 script = ExtResource("3_v2qwp")
 move = 313
 
-[sub_resource type="Resource" id="Resource_ckngd"]
+[sub_resource type="Resource" id="Resource_0lrya"]
 script = ExtResource("3_v2qwp")
 level = 3
 move = 93
 
-[sub_resource type="Resource" id="Resource_5ja31"]
+[sub_resource type="Resource" id="Resource_h315h"]
 script = ExtResource("3_v2qwp")
 level = 7
 move = 321
 
-[sub_resource type="Resource" id="Resource_42bha"]
+[sub_resource type="Resource" id="Resource_alohh"]
 script = ExtResource("3_v2qwp")
 level = 10
 move = 313
 
-[sub_resource type="Resource" id="Resource_sryyg"]
+[sub_resource type="Resource" id="Resource_0yvsy"]
 script = ExtResource("3_v2qwp")
 level = 14
 move = 3
 
-[sub_resource type="Resource" id="Resource_0lrya"]
+[sub_resource type="Resource" id="Resource_tucn6"]
 script = ExtResource("3_v2qwp")
 level = 16
 move = 60
 
-[sub_resource type="Resource" id="Resource_h315h"]
+[sub_resource type="Resource" id="Resource_a7apu"]
 script = ExtResource("3_v2qwp")
 level = 19
 move = 373
 
-[sub_resource type="Resource" id="Resource_alohh"]
+[sub_resource type="Resource" id="Resource_lk67c"]
 script = ExtResource("3_v2qwp")
 level = 24
 move = 185
 
-[sub_resource type="Resource" id="Resource_0yvsy"]
+[sub_resource type="Resource" id="Resource_d6c32"]
 script = ExtResource("3_v2qwp")
 level = 25
 move = 473
 
-[sub_resource type="Resource" id="Resource_tucn6"]
+[sub_resource type="Resource" id="Resource_rpf6v"]
 script = ExtResource("3_v2qwp")
 level = 28
 move = 260
 
-[sub_resource type="Resource" id="Resource_a7apu"]
+[sub_resource type="Resource" id="Resource_54x6f"]
 script = ExtResource("3_v2qwp")
 level = 31
 move = 248
 
-[sub_resource type="Resource" id="Resource_lk67c"]
+[sub_resource type="Resource" id="Resource_dqeti"]
 script = ExtResource("3_v2qwp")
 level = 34
 move = 377
 
-[sub_resource type="Resource" id="Resource_d6c32"]
+[sub_resource type="Resource" id="Resource_8dx4p"]
 script = ExtResource("3_v2qwp")
 level = 39
 move = 94
 
-[sub_resource type="Resource" id="Resource_rpf6v"]
+[sub_resource type="Resource" id="Resource_spama"]
 script = ExtResource("3_v2qwp")
 level = 43
 move = 477
 
-[sub_resource type="Resource" id="Resource_54x6f"]
+[sub_resource type="Resource" id="Resource_ppph5"]
 script = ExtResource("3_v2qwp")
 level = 50
 move = 204
 
-[sub_resource type="Resource" id="Resource_dqeti"]
+[sub_resource type="Resource" id="Resource_byspm"]
 script = ExtResource("3_v2qwp")
 level = 53
 move = 478
@@ -112,6 +112,7 @@ pokedex = "Starlight is the source of their power.
 They use hypnosis to control people and
 Pokémon. Tales of Gothorita leading them
 astray are told in every corner."
+sprite_folder = "gothorita"
 type_1 = 15
 base_hp = 60
 base_atk = 45
@@ -131,5 +132,5 @@ ability_hidden = 23
 height_dm = 7
 weight_hg = 180
 body_color = 6
-level_moves = Array[ExtResource("3_v2qwp")]([SubResource("Resource_ci1w8"), SubResource("Resource_v2qwp"), SubResource("Resource_bjriw"), SubResource("Resource_l6eyd"), SubResource("Resource_ckngd"), SubResource("Resource_5ja31"), SubResource("Resource_42bha"), SubResource("Resource_sryyg"), SubResource("Resource_0lrya"), SubResource("Resource_h315h"), SubResource("Resource_alohh"), SubResource("Resource_0yvsy"), SubResource("Resource_tucn6"), SubResource("Resource_a7apu"), SubResource("Resource_lk67c"), SubResource("Resource_d6c32"), SubResource("Resource_rpf6v"), SubResource("Resource_54x6f"), SubResource("Resource_dqeti")])
-evolutions = Array[ExtResource("1_vhp8u")]([SubResource("Resource_vhp8u")])
+level_moves = Array[ExtResource("3_v2qwp")]([SubResource("Resource_ckngd"), SubResource("Resource_5ja31"), SubResource("Resource_42bha"), SubResource("Resource_sryyg"), SubResource("Resource_0lrya"), SubResource("Resource_h315h"), SubResource("Resource_alohh"), SubResource("Resource_0yvsy"), SubResource("Resource_tucn6"), SubResource("Resource_a7apu"), SubResource("Resource_lk67c"), SubResource("Resource_d6c32"), SubResource("Resource_rpf6v"), SubResource("Resource_54x6f"), SubResource("Resource_dqeti"), SubResource("Resource_8dx4p"), SubResource("Resource_spama"), SubResource("Resource_ppph5"), SubResource("Resource_byspm")])
+evolutions = Array[ExtResource("1_vhp8u")]([SubResource("Resource_l6eyd")])

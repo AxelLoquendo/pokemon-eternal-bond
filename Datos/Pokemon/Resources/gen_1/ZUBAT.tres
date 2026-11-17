@@ -5,37 +5,37 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_lf7cu"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ablxt"]
 
-[sub_resource type="Resource" id="Resource_8j7p3"]
+[sub_resource type="Resource" id="Resource_2pq14"]
 script = ExtResource("1_8j7p3")
 method = "LEVEL"
 param = "22"
 target = 42
 
-[sub_resource type="Resource" id="Resource_ysw4p"]
+[sub_resource type="Resource" id="Resource_67iry"]
 script = ExtResource("3_lf7cu")
 move = 141
 
-[sub_resource type="Resource" id="Resource_lf7cu"]
+[sub_resource type="Resource" id="Resource_7nwhj"]
 script = ExtResource("3_lf7cu")
 level = 10
 move = 48
 
-[sub_resource type="Resource" id="Resource_ablxt"]
+[sub_resource type="Resource" id="Resource_3ddvp"]
 script = ExtResource("3_lf7cu")
 level = 15
 move = 44
 
-[sub_resource type="Resource" id="Resource_2pq14"]
+[sub_resource type="Resource" id="Resource_rkd0i"]
 script = ExtResource("3_lf7cu")
 level = 21
 move = 109
 
-[sub_resource type="Resource" id="Resource_67iry"]
+[sub_resource type="Resource" id="Resource_g1ruq"]
 script = ExtResource("3_lf7cu")
 level = 28
 move = 17
 
-[sub_resource type="Resource" id="Resource_7nwhj"]
+[sub_resource type="Resource" id="Resource_u52lx"]
 script = ExtResource("3_lf7cu")
 level = 36
 move = 114
@@ -50,6 +50,7 @@ pokedex = "While living in pitch-black caverns, their
 eyes gradually grew shut and deprived
 them of vision. They use ultrasonic waves
 to detect obstacles."
+sprite_folder = "zubat"
 type_1 = 4
 type_2 = 3
 base_hp = 40
@@ -68,6 +69,6 @@ ability_hidden = 151
 height_dm = 8
 weight_hg = 75
 body_color = 6
-level_moves = Array[ExtResource("3_lf7cu")]([SubResource("Resource_ysw4p"), SubResource("Resource_lf7cu"), SubResource("Resource_ablxt"), SubResource("Resource_2pq14"), SubResource("Resource_67iry"), SubResource("Resource_7nwhj")])
+level_moves = Array[ExtResource("3_lf7cu")]([SubResource("Resource_67iry"), SubResource("Resource_7nwhj"), SubResource("Resource_3ddvp"), SubResource("Resource_rkd0i"), SubResource("Resource_g1ruq"), SubResource("Resource_u52lx")])
 egg_moves = Array[int]([98, 228, 185, 16, 18, 174, 417, 95, 428, 413, 202, 211, 432, 599])
-evolutions = Array[ExtResource("1_8j7p3")]([SubResource("Resource_8j7p3")])
+evolutions = Array[ExtResource("1_8j7p3")]([SubResource("Resource_2pq14")])

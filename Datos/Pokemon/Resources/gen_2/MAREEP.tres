@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2udr5"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_t1eix"]
 
-[sub_resource type="Resource" id="Resource_ymk5y"]
+[sub_resource type="Resource" id="Resource_xpvmm"]
 script = ExtResource("1_ymk5y")
 method = "LEVEL"
 param = "15"
 target = 180
 
-[sub_resource type="Resource" id="Resource_7nogr"]
+[sub_resource type="Resource" id="Resource_h3gm8"]
 script = ExtResource("3_2udr5")
 move = 33
 
-[sub_resource type="Resource" id="Resource_2udr5"]
+[sub_resource type="Resource" id="Resource_010rf"]
 script = ExtResource("3_2udr5")
 move = 45
 
-[sub_resource type="Resource" id="Resource_t1eix"]
+[sub_resource type="Resource" id="Resource_wq4yq"]
 script = ExtResource("3_2udr5")
 level = 9
 move = 84
 
-[sub_resource type="Resource" id="Resource_xpvmm"]
+[sub_resource type="Resource" id="Resource_5ahqi"]
 script = ExtResource("3_2udr5")
 level = 16
 move = 86
 
-[sub_resource type="Resource" id="Resource_h3gm8"]
+[sub_resource type="Resource" id="Resource_7b5h6"]
 script = ExtResource("3_2udr5")
 level = 23
 move = 178
 
-[sub_resource type="Resource" id="Resource_010rf"]
+[sub_resource type="Resource" id="Resource_1hsyl"]
 script = ExtResource("3_2udr5")
 level = 30
 move = 113
 
-[sub_resource type="Resource" id="Resource_wq4yq"]
+[sub_resource type="Resource" id="Resource_5w231"]
 script = ExtResource("3_2udr5")
 level = 37
 move = 87
@@ -54,6 +54,7 @@ pokedex = "Its fluffy wool rubs together and builds
 a static charge. The more energy is
 charged, the more brightly the lightbulb
 at the tip of its tail glows."
+sprite_folder = "mareep"
 type_1 = 14
 base_hp = 55
 base_atk = 40
@@ -73,6 +74,6 @@ height_dm = 6
 weight_hg = 78
 body_color = 8
 no_flip = true
-level_moves = Array[ExtResource("3_2udr5")]([SubResource("Resource_7nogr"), SubResource("Resource_2udr5"), SubResource("Resource_t1eix"), SubResource("Resource_xpvmm"), SubResource("Resource_h3gm8"), SubResource("Resource_010rf"), SubResource("Resource_wq4yq")])
+level_moves = Array[ExtResource("3_2udr5")]([SubResource("Resource_h3gm8"), SubResource("Resource_010rf"), SubResource("Resource_wq4yq"), SubResource("Resource_5ahqi"), SubResource("Resource_7b5h6"), SubResource("Resource_1hsyl"), SubResource("Resource_5w231")])
 egg_moves = Array[int]([36, 34, 103, 316, 268, 260, 28, 231, 495, 97, 598, 604])
-evolutions = Array[ExtResource("1_ymk5y")]([SubResource("Resource_ymk5y")])
+evolutions = Array[ExtResource("1_ymk5y")]([SubResource("Resource_xpvmm")])

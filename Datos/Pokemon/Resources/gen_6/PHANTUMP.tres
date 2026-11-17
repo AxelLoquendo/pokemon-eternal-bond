@@ -5,82 +5,82 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_jiwv7"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_2p4eg"]
 
-[sub_resource type="Resource" id="Resource_ig0sq"]
+[sub_resource type="Resource" id="Resource_1usvo"]
 script = ExtResource("1_ig0sq")
 method = "TRADE"
 param = "0"
 target = 709
 
-[sub_resource type="Resource" id="Resource_kch1q"]
+[sub_resource type="Resource" id="Resource_bco80"]
 script = ExtResource("1_ig0sq")
 method = "ITEM"
 param = "ITEM_LINKING_CORD"
 target = 709
 
-[sub_resource type="Resource" id="Resource_jiwv7"]
+[sub_resource type="Resource" id="Resource_gx5lm"]
 script = ExtResource("3_jiwv7")
 move = 33
 
-[sub_resource type="Resource" id="Resource_2p4eg"]
+[sub_resource type="Resource" id="Resource_r3jh0"]
 script = ExtResource("3_jiwv7")
 move = 109
 
-[sub_resource type="Resource" id="Resource_1usvo"]
+[sub_resource type="Resource" id="Resource_i5uig"]
 script = ExtResource("3_jiwv7")
 level = 5
 move = 310
 
-[sub_resource type="Resource" id="Resource_bco80"]
+[sub_resource type="Resource" id="Resource_flx2y"]
 script = ExtResource("3_jiwv7")
 level = 8
 move = 74
 
-[sub_resource type="Resource" id="Resource_gx5lm"]
+[sub_resource type="Resource" id="Resource_4e42c"]
 script = ExtResource("3_jiwv7")
 level = 13
 move = 275
 
-[sub_resource type="Resource" id="Resource_r3jh0"]
+[sub_resource type="Resource" id="Resource_317c3"]
 script = ExtResource("3_jiwv7")
 level = 19
 move = 185
 
-[sub_resource type="Resource" id="Resource_i5uig"]
+[sub_resource type="Resource" id="Resource_s65eg"]
 script = ExtResource("3_jiwv7")
 level = 23
 move = 73
 
-[sub_resource type="Resource" id="Resource_flx2y"]
+[sub_resource type="Resource" id="Resource_4ick1"]
 script = ExtResource("3_jiwv7")
 level = 28
 move = 174
 
-[sub_resource type="Resource" id="Resource_4e42c"]
+[sub_resource type="Resource" id="Resource_jjbtt"]
 script = ExtResource("3_jiwv7")
 level = 31
 move = 261
 
-[sub_resource type="Resource" id="Resource_317c3"]
+[sub_resource type="Resource" id="Resource_2a0b8"]
 script = ExtResource("3_jiwv7")
 level = 35
 move = 571
 
-[sub_resource type="Resource" id="Resource_s65eg"]
+[sub_resource type="Resource" id="Resource_nhk2k"]
 script = ExtResource("3_jiwv7")
 level = 39
 move = 194
 
-[sub_resource type="Resource" id="Resource_4ick1"]
+[sub_resource type="Resource" id="Resource_lrt1s"]
 script = ExtResource("3_jiwv7")
 level = 45
 move = 566
 
-[sub_resource type="Resource" id="Resource_jjbtt"]
+[sub_resource type="Resource" id="Resource_soh8i"]
 script = ExtResource("3_jiwv7")
 level = 49
 move = 452
 
-[sub_resource type="Resource" id="Resource_2a0b8"]
+[sub_resource type="Resource" id="Resource_boi8l"]
 script = ExtResource("3_jiwv7")
 level = 54
 move = 532
@@ -95,6 +95,7 @@ pokedex = "According to legend, medicine to cure
 any illness can be made by plucking the
 green leaves on its head, brewing them,
 and boiling down the liquid."
+sprite_folder = "phantump"
 type_1 = 8
 type_2 = 13
 base_hp = 43
@@ -114,6 +115,6 @@ ability_hidden = 139
 height_dm = 4
 weight_hg = 70
 body_color = 5
-level_moves = Array[ExtResource("3_jiwv7")]([SubResource("Resource_jiwv7"), SubResource("Resource_2p4eg"), SubResource("Resource_1usvo"), SubResource("Resource_bco80"), SubResource("Resource_gx5lm"), SubResource("Resource_r3jh0"), SubResource("Resource_i5uig"), SubResource("Resource_flx2y"), SubResource("Resource_4e42c"), SubResource("Resource_317c3"), SubResource("Resource_s65eg"), SubResource("Resource_4ick1"), SubResource("Resource_jjbtt"), SubResource("Resource_2a0b8")])
+level_moves = Array[ExtResource("3_jiwv7")]([SubResource("Resource_gx5lm"), SubResource("Resource_r3jh0"), SubResource("Resource_i5uig"), SubResource("Resource_flx2y"), SubResource("Resource_4e42c"), SubResource("Resource_317c3"), SubResource("Resource_s65eg"), SubResource("Resource_4ick1"), SubResource("Resource_jjbtt"), SubResource("Resource_2a0b8"), SubResource("Resource_nhk2k"), SubResource("Resource_lrt1s"), SubResource("Resource_soh8i"), SubResource("Resource_boi8l")])
 egg_moves = Array[int]([288, 516, 286, 599, 612])
-evolutions = Array[ExtResource("1_ig0sq")]([SubResource("Resource_ig0sq"), SubResource("Resource_kch1q")])
+evolutions = Array[ExtResource("1_ig0sq")]([SubResource("Resource_1usvo"), SubResource("Resource_bco80")])

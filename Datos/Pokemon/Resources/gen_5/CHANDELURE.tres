@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7i5l3"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r3rwd"]
 
-[sub_resource type="Resource" id="Resource_lywcv"]
+[sub_resource type="Resource" id="Resource_u8ptc"]
 script = ExtResource("3_7i5l3")
 move = 123
 
-[sub_resource type="Resource" id="Resource_02cp2"]
+[sub_resource type="Resource" id="Resource_qytvh"]
 script = ExtResource("3_7i5l3")
 move = 109
 
-[sub_resource type="Resource" id="Resource_7i5l3"]
+[sub_resource type="Resource" id="Resource_3pl2d"]
 script = ExtResource("3_7i5l3")
 move = 481
 
-[sub_resource type="Resource" id="Resource_r3rwd"]
+[sub_resource type="Resource" id="Resource_7olkj"]
 script = ExtResource("3_7i5l3")
 move = 506
 
@@ -31,6 +31,7 @@ pokedex = "Being consumed in Chandelure's flame burns
 up the spirit, leaving the body behind.
 By waving the flames on its arms, it puts
 its foes into a hypnotic trance."
+sprite_folder = "chandelure"
 type_1 = 8
 type_2 = 11
 base_hp = 60
@@ -49,5 +50,5 @@ ability_hidden = 151
 height_dm = 10
 weight_hg = 343
 body_color = 4
-level_moves = Array[ExtResource("3_7i5l3")]([SubResource("Resource_lywcv"), SubResource("Resource_02cp2"), SubResource("Resource_7i5l3"), SubResource("Resource_r3rwd")])
+level_moves = Array[ExtResource("3_7i5l3")]([SubResource("Resource_u8ptc"), SubResource("Resource_qytvh"), SubResource("Resource_3pl2d"), SubResource("Resource_7olkj")])
 form_species = Array[int]([609, 1537])

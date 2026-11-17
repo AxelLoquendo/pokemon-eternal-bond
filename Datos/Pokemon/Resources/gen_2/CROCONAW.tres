@@ -5,55 +5,55 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2jv1w"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pprod"]
 
-[sub_resource type="Resource" id="Resource_3inm4"]
+[sub_resource type="Resource" id="Resource_geh14"]
 script = ExtResource("1_3inm4")
 method = "LEVEL"
 param = "30"
 target = 160
 
-[sub_resource type="Resource" id="Resource_2qt7m"]
+[sub_resource type="Resource" id="Resource_tnvp5"]
 script = ExtResource("3_2jv1w")
 move = 10
 
-[sub_resource type="Resource" id="Resource_2jv1w"]
+[sub_resource type="Resource" id="Resource_ujymc"]
 script = ExtResource("3_2jv1w")
 move = 43
 
-[sub_resource type="Resource" id="Resource_pprod"]
+[sub_resource type="Resource" id="Resource_uo5xe"]
 script = ExtResource("3_2jv1w")
 move = 99
 
-[sub_resource type="Resource" id="Resource_geh14"]
+[sub_resource type="Resource" id="Resource_1p0xn"]
 script = ExtResource("3_2jv1w")
 level = 7
 move = 99
 
-[sub_resource type="Resource" id="Resource_tnvp5"]
+[sub_resource type="Resource" id="Resource_u2j0f"]
 script = ExtResource("3_2jv1w")
 level = 13
 move = 55
 
-[sub_resource type="Resource" id="Resource_ujymc"]
+[sub_resource type="Resource" id="Resource_4cnmc"]
 script = ExtResource("3_2jv1w")
 level = 21
 move = 44
 
-[sub_resource type="Resource" id="Resource_uo5xe"]
+[sub_resource type="Resource" id="Resource_4vnyb"]
 script = ExtResource("3_2jv1w")
 level = 28
 move = 184
 
-[sub_resource type="Resource" id="Resource_1p0xn"]
+[sub_resource type="Resource" id="Resource_xm3t4"]
 script = ExtResource("3_2jv1w")
 level = 37
 move = 163
 
-[sub_resource type="Resource" id="Resource_u2j0f"]
+[sub_resource type="Resource" id="Resource_qs1g8"]
 script = ExtResource("3_2jv1w")
 level = 45
 move = 103
 
-[sub_resource type="Resource" id="Resource_4cnmc"]
+[sub_resource type="Resource" id="Resource_tchos"]
 script = ExtResource("3_2jv1w")
 level = 55
 move = 56
@@ -68,6 +68,7 @@ pokedex = "Once its jaws clamp down on its foe, it will
 absolutely not let go. Because the tips of
 its fangs are forked back like fishhooks,
 they become irremovably embedded."
+sprite_folder = "croconaw"
 type_1 = 12
 base_hp = 65
 base_atk = 80
@@ -88,5 +89,5 @@ height_dm = 11
 weight_hg = 250
 body_color = 1
 no_flip = true
-level_moves = Array[ExtResource("3_2jv1w")]([SubResource("Resource_2qt7m"), SubResource("Resource_2jv1w"), SubResource("Resource_pprod"), SubResource("Resource_geh14"), SubResource("Resource_tnvp5"), SubResource("Resource_ujymc"), SubResource("Resource_uo5xe"), SubResource("Resource_1p0xn"), SubResource("Resource_u2j0f"), SubResource("Resource_4cnmc")])
-evolutions = Array[ExtResource("1_3inm4")]([SubResource("Resource_3inm4")])
+level_moves = Array[ExtResource("3_2jv1w")]([SubResource("Resource_tnvp5"), SubResource("Resource_ujymc"), SubResource("Resource_uo5xe"), SubResource("Resource_1p0xn"), SubResource("Resource_u2j0f"), SubResource("Resource_4cnmc"), SubResource("Resource_4vnyb"), SubResource("Resource_xm3t4"), SubResource("Resource_qs1g8"), SubResource("Resource_tchos")])
+evolutions = Array[ExtResource("1_3inm4")]([SubResource("Resource_geh14")])

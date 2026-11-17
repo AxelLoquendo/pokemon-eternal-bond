@@ -5,74 +5,74 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_boqjg"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_nk5e5"]
 
-[sub_resource type="Resource" id="Resource_a2658"]
+[sub_resource type="Resource" id="Resource_ncdk1"]
 script = ExtResource("1_a2658")
 method = "LEVEL"
 param = "36"
 target = 257
 
-[sub_resource type="Resource" id="Resource_k1hcj"]
+[sub_resource type="Resource" id="Resource_nxn0j"]
 script = ExtResource("3_boqjg")
 move = 10
 
-[sub_resource type="Resource" id="Resource_boqjg"]
+[sub_resource type="Resource" id="Resource_lm7h1"]
 script = ExtResource("3_boqjg")
 move = 45
 
-[sub_resource type="Resource" id="Resource_nk5e5"]
+[sub_resource type="Resource" id="Resource_drl7m"]
 script = ExtResource("3_boqjg")
 move = 116
 
-[sub_resource type="Resource" id="Resource_ncdk1"]
+[sub_resource type="Resource" id="Resource_xjdil"]
 script = ExtResource("3_boqjg")
 move = 52
 
-[sub_resource type="Resource" id="Resource_nxn0j"]
+[sub_resource type="Resource" id="Resource_mv6uj"]
 script = ExtResource("3_boqjg")
 level = 7
 move = 116
 
-[sub_resource type="Resource" id="Resource_lm7h1"]
+[sub_resource type="Resource" id="Resource_m3aes"]
 script = ExtResource("3_boqjg")
 level = 13
 move = 52
 
-[sub_resource type="Resource" id="Resource_drl7m"]
+[sub_resource type="Resource" id="Resource_asuw1"]
 script = ExtResource("3_boqjg")
 level = 16
 move = 24
 
-[sub_resource type="Resource" id="Resource_xjdil"]
+[sub_resource type="Resource" id="Resource_4dqs6"]
 script = ExtResource("3_boqjg")
 level = 17
 move = 64
 
-[sub_resource type="Resource" id="Resource_mv6uj"]
+[sub_resource type="Resource" id="Resource_8x1pv"]
 script = ExtResource("3_boqjg")
 level = 21
 move = 28
 
-[sub_resource type="Resource" id="Resource_m3aes"]
+[sub_resource type="Resource" id="Resource_bvh37"]
 script = ExtResource("3_boqjg")
 level = 28
 move = 339
 
-[sub_resource type="Resource" id="Resource_asuw1"]
+[sub_resource type="Resource" id="Resource_d288h"]
 script = ExtResource("3_boqjg")
 level = 32
 move = 98
 
-[sub_resource type="Resource" id="Resource_4dqs6"]
+[sub_resource type="Resource" id="Resource_ifxv7"]
 script = ExtResource("3_boqjg")
 level = 39
 move = 163
 
-[sub_resource type="Resource" id="Resource_8x1pv"]
+[sub_resource type="Resource" id="Resource_ci64c"]
 script = ExtResource("3_boqjg")
 level = 43
 move = 119
 
-[sub_resource type="Resource" id="Resource_bvh37"]
+[sub_resource type="Resource" id="Resource_xlpox"]
 script = ExtResource("3_boqjg")
 level = 50
 move = 327
@@ -87,6 +87,7 @@ pokedex = "It lashes out with 10 kicks per second.
 Its strong fighting instinct compels it
 to keep up its offensive until the
 opponent gives up."
+sprite_folder = "combusken"
 type_1 = 11
 type_2 = 2
 base_hp = 60
@@ -105,5 +106,5 @@ ability_1 = 66
 ability_hidden = 3
 height_dm = 9
 weight_hg = 195
-level_moves = Array[ExtResource("3_boqjg")]([SubResource("Resource_k1hcj"), SubResource("Resource_boqjg"), SubResource("Resource_nk5e5"), SubResource("Resource_ncdk1"), SubResource("Resource_nxn0j"), SubResource("Resource_lm7h1"), SubResource("Resource_drl7m"), SubResource("Resource_xjdil"), SubResource("Resource_mv6uj"), SubResource("Resource_m3aes"), SubResource("Resource_asuw1"), SubResource("Resource_4dqs6"), SubResource("Resource_8x1pv"), SubResource("Resource_bvh37")])
-evolutions = Array[ExtResource("1_a2658")]([SubResource("Resource_a2658")])
+level_moves = Array[ExtResource("3_boqjg")]([SubResource("Resource_nxn0j"), SubResource("Resource_lm7h1"), SubResource("Resource_drl7m"), SubResource("Resource_xjdil"), SubResource("Resource_mv6uj"), SubResource("Resource_m3aes"), SubResource("Resource_asuw1"), SubResource("Resource_4dqs6"), SubResource("Resource_8x1pv"), SubResource("Resource_bvh37"), SubResource("Resource_d288h"), SubResource("Resource_ifxv7"), SubResource("Resource_ci64c"), SubResource("Resource_xlpox")])
+evolutions = Array[ExtResource("1_a2658")]([SubResource("Resource_ncdk1")])

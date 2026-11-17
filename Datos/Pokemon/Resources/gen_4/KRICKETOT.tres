@@ -5,21 +5,21 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_y3c4t"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_aar3t"]
 
-[sub_resource type="Resource" id="Resource_jbhd4"]
+[sub_resource type="Resource" id="Resource_5811y"]
 script = ExtResource("1_jbhd4")
 method = "LEVEL"
 param = "10"
 target = 402
 
-[sub_resource type="Resource" id="Resource_7ofh6"]
+[sub_resource type="Resource" id="Resource_3x5fi"]
 script = ExtResource("3_y3c4t")
 move = 45
 
-[sub_resource type="Resource" id="Resource_y3c4t"]
+[sub_resource type="Resource" id="Resource_qolkb"]
 script = ExtResource("3_y3c4t")
 move = 117
 
-[sub_resource type="Resource" id="Resource_aar3t"]
+[sub_resource type="Resource" id="Resource_35qsx"]
 script = ExtResource("3_y3c4t")
 level = 16
 move = 450
@@ -34,6 +34,7 @@ pokedex = "It shakes its head back to front,
 causing its antennae to hit each other
 and sound like a xylophone.
 These sounds are fall hallmarks."
+sprite_folder = "kricketot"
 type_1 = 7
 base_hp = 37
 base_atk = 25
@@ -52,5 +53,5 @@ ability_hidden = 50
 item_rare = 483
 height_dm = 3
 weight_hg = 22
-level_moves = Array[ExtResource("3_y3c4t")]([SubResource("Resource_7ofh6"), SubResource("Resource_y3c4t"), SubResource("Resource_aar3t")])
-evolutions = Array[ExtResource("1_jbhd4")]([SubResource("Resource_jbhd4")])
+level_moves = Array[ExtResource("3_y3c4t")]([SubResource("Resource_3x5fi"), SubResource("Resource_qolkb"), SubResource("Resource_35qsx")])
+evolutions = Array[ExtResource("1_jbhd4")]([SubResource("Resource_5811y")])

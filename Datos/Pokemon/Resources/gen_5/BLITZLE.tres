@@ -5,72 +5,72 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kih0n"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3wq6d"]
 
-[sub_resource type="Resource" id="Resource_xfco2"]
+[sub_resource type="Resource" id="Resource_vfsik"]
 script = ExtResource("1_xfco2")
 method = "LEVEL"
 param = "27"
 target = 523
 
-[sub_resource type="Resource" id="Resource_c0o51"]
+[sub_resource type="Resource" id="Resource_17ebt"]
 script = ExtResource("3_kih0n")
 move = 98
 
-[sub_resource type="Resource" id="Resource_kih0n"]
+[sub_resource type="Resource" id="Resource_n2lqw"]
 script = ExtResource("3_kih0n")
 level = 4
 move = 39
 
-[sub_resource type="Resource" id="Resource_3wq6d"]
+[sub_resource type="Resource" id="Resource_ts11q"]
 script = ExtResource("3_kih0n")
 level = 8
 move = 268
 
-[sub_resource type="Resource" id="Resource_vfsik"]
+[sub_resource type="Resource" id="Resource_swb3l"]
 script = ExtResource("3_kih0n")
 level = 11
 move = 351
 
-[sub_resource type="Resource" id="Resource_17ebt"]
+[sub_resource type="Resource" id="Resource_agwhe"]
 script = ExtResource("3_kih0n")
 level = 15
 move = 86
 
-[sub_resource type="Resource" id="Resource_n2lqw"]
+[sub_resource type="Resource" id="Resource_7r62d"]
 script = ExtResource("3_kih0n")
 level = 18
 move = 488
 
-[sub_resource type="Resource" id="Resource_ts11q"]
+[sub_resource type="Resource" id="Resource_ikr0m"]
 script = ExtResource("3_kih0n")
 level = 22
 move = 228
 
-[sub_resource type="Resource" id="Resource_swb3l"]
+[sub_resource type="Resource" id="Resource_7xhyp"]
 script = ExtResource("3_kih0n")
 level = 25
 move = 209
 
-[sub_resource type="Resource" id="Resource_agwhe"]
+[sub_resource type="Resource" id="Resource_35kp2"]
 script = ExtResource("3_kih0n")
 level = 29
 move = 23
 
-[sub_resource type="Resource" id="Resource_7r62d"]
+[sub_resource type="Resource" id="Resource_7onry"]
 script = ExtResource("3_kih0n")
 level = 32
 move = 435
 
-[sub_resource type="Resource" id="Resource_ikr0m"]
+[sub_resource type="Resource" id="Resource_1v84u"]
 script = ExtResource("3_kih0n")
 level = 36
 move = 97
 
-[sub_resource type="Resource" id="Resource_7xhyp"]
+[sub_resource type="Resource" id="Resource_kjij2"]
 script = ExtResource("3_kih0n")
 level = 39
 move = 528
 
-[sub_resource type="Resource" id="Resource_35kp2"]
+[sub_resource type="Resource" id="Resource_r8h4q"]
 script = ExtResource("3_kih0n")
 level = 43
 move = 37
@@ -85,6 +85,7 @@ pokedex = "Its mane shines when it discharges
 electricity. They use the frequency and
 rhythm of these flashes to communicate
 with one another."
+sprite_folder = "blitzle"
 type_1 = 14
 base_hp = 45
 base_atk = 60
@@ -102,6 +103,6 @@ ability_hidden = 157
 height_dm = 8
 weight_hg = 298
 body_color = 4
-level_moves = Array[ExtResource("3_kih0n")]([SubResource("Resource_c0o51"), SubResource("Resource_kih0n"), SubResource("Resource_3wq6d"), SubResource("Resource_vfsik"), SubResource("Resource_17ebt"), SubResource("Resource_n2lqw"), SubResource("Resource_ts11q"), SubResource("Resource_swb3l"), SubResource("Resource_agwhe"), SubResource("Resource_7r62d"), SubResource("Resource_ikr0m"), SubResource("Resource_7xhyp"), SubResource("Resource_35kp2")])
+level_moves = Array[ExtResource("3_kih0n")]([SubResource("Resource_17ebt"), SubResource("Resource_n2lqw"), SubResource("Resource_ts11q"), SubResource("Resource_swb3l"), SubResource("Resource_agwhe"), SubResource("Resource_7r62d"), SubResource("Resource_ikr0m"), SubResource("Resource_7xhyp"), SubResource("Resource_35kp2"), SubResource("Resource_7onry"), SubResource("Resource_1v84u"), SubResource("Resource_kjij2"), SubResource("Resource_r8h4q")])
 egg_moves = Array[int]([382, 36, 28, 24, 103, 99, 203, 38, 351, 289, 364])
-evolutions = Array[ExtResource("1_xfco2")]([SubResource("Resource_xfco2")])
+evolutions = Array[ExtResource("1_xfco2")]([SubResource("Resource_vfsik")])

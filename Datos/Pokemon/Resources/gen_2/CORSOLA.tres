@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ymxqc"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bgkws"]
 
-[sub_resource type="Resource" id="Resource_apm4m"]
+[sub_resource type="Resource" id="Resource_mk08w"]
 script = ExtResource("3_ymxqc")
 move = 33
 
-[sub_resource type="Resource" id="Resource_afkt7"]
+[sub_resource type="Resource" id="Resource_vm2ad"]
 script = ExtResource("3_ymxqc")
 level = 7
 move = 106
 
-[sub_resource type="Resource" id="Resource_ymxqc"]
+[sub_resource type="Resource" id="Resource_cnd2f"]
 script = ExtResource("3_ymxqc")
 level = 13
 move = 145
 
-[sub_resource type="Resource" id="Resource_bgkws"]
+[sub_resource type="Resource" id="Resource_56135"]
 script = ExtResource("3_ymxqc")
 level = 19
 move = 105
 
-[sub_resource type="Resource" id="Resource_mk08w"]
+[sub_resource type="Resource" id="Resource_b8a4k"]
 script = ExtResource("3_ymxqc")
 level = 25
 move = 61
 
-[sub_resource type="Resource" id="Resource_vm2ad"]
+[sub_resource type="Resource" id="Resource_y5131"]
 script = ExtResource("3_ymxqc")
 level = 31
 move = 131
 
-[sub_resource type="Resource" id="Resource_cnd2f"]
+[sub_resource type="Resource" id="Resource_a1sot"]
 script = ExtResource("3_ymxqc")
 level = 37
 move = 243
 
-[sub_resource type="Resource" id="Resource_56135"]
+[sub_resource type="Resource" id="Resource_ugxsv"]
 script = ExtResource("3_ymxqc")
 level = 43
 move = 246
@@ -54,6 +54,7 @@ pokedex = "Corsola live in warm southern seas.
 If the sea becomes polluted, the beautiful
 coral stalks become discolored and crumble
 away in tatters."
+sprite_folder = "corsola"
 type_1 = 12
 type_2 = 6
 base_hp = 65
@@ -77,6 +78,6 @@ item_rare = 457
 height_dm = 6
 weight_hg = 50
 body_color = 9
-level_moves = Array[ExtResource("3_ymxqc")]([SubResource("Resource_apm4m"), SubResource("Resource_afkt7"), SubResource("Resource_ymxqc"), SubResource("Resource_bgkws"), SubResource("Resource_mk08w"), SubResource("Resource_vm2ad"), SubResource("Resource_cnd2f"), SubResource("Resource_56135")])
+level_moves = Array[ExtResource("3_ymxqc")]([SubResource("Resource_mk08w"), SubResource("Resource_vm2ad"), SubResource("Resource_cnd2f"), SubResource("Resource_56135"), SubResource("Resource_b8a4k"), SubResource("Resource_y5131"), SubResource("Resource_a1sot"), SubResource("Resource_ugxsv")])
 egg_moves = Array[int]([103, 54, 133, 112, 275, 109, 333, 267, 392, 174, 117, 352, 457, 293, 664])
 form_species = Array[int]([222, 986])

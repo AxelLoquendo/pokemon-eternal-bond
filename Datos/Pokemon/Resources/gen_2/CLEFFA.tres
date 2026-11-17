@@ -5,25 +5,25 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_x68yj"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_c8ek1"]
 
-[sub_resource type="Resource" id="Resource_6rvsr"]
+[sub_resource type="Resource" id="Resource_eu1u5"]
 script = ExtResource("3_x68yj")
 move = 1
 
-[sub_resource type="Resource" id="Resource_en5qu"]
+[sub_resource type="Resource" id="Resource_0go06"]
 script = ExtResource("3_x68yj")
 move = 204
 
-[sub_resource type="Resource" id="Resource_x68yj"]
+[sub_resource type="Resource" id="Resource_k14tk"]
 script = ExtResource("3_x68yj")
 level = 4
 move = 227
 
-[sub_resource type="Resource" id="Resource_c8ek1"]
+[sub_resource type="Resource" id="Resource_afnm1"]
 script = ExtResource("3_x68yj")
 level = 8
 move = 47
 
-[sub_resource type="Resource" id="Resource_eu1u5"]
+[sub_resource type="Resource" id="Resource_hoxdh"]
 script = ExtResource("3_x68yj")
 level = 13
 move = 186
@@ -38,6 +38,7 @@ pokedex = "On nights with many shooting stars,
 Cleffa can be seen dancing in a ring.
 They dance until daybreak, when they
 quench their thirst with the morning dew."
+sprite_folder = "cleffa"
 type_1 = 1
 base_hp = 50
 base_atk = 25
@@ -60,5 +61,5 @@ height_dm = 3
 weight_hg = 30
 body_color = 9
 no_flip = true
-level_moves = Array[ExtResource("3_x68yj")]([SubResource("Resource_6rvsr"), SubResource("Resource_en5qu"), SubResource("Resource_x68yj"), SubResource("Resource_c8ek1"), SubResource("Resource_eu1u5")])
+level_moves = Array[ExtResource("3_x68yj")]([SubResource("Resource_eu1u5"), SubResource("Resource_0go06"), SubResource("Resource_k14tk"), SubResource("Resource_afnm1"), SubResource("Resource_hoxdh")])
 egg_moves = Array[int]([217, 118, 133, 187, 150, 102, 273, 313, 343, 312, 500, 321, 581, 505])

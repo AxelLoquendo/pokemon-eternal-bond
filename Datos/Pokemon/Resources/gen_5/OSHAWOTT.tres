@@ -5,82 +5,82 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_m46dl"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xyokb"]
 
-[sub_resource type="Resource" id="Resource_hibwc"]
+[sub_resource type="Resource" id="Resource_6xun3"]
 script = ExtResource("1_hibwc")
 method = "LEVEL"
 param = "17"
 target = 502
 
-[sub_resource type="Resource" id="Resource_6l1h3"]
+[sub_resource type="Resource" id="Resource_g1p3c"]
 script = ExtResource("3_m46dl")
 move = 33
 
-[sub_resource type="Resource" id="Resource_m46dl"]
+[sub_resource type="Resource" id="Resource_7lxwi"]
 script = ExtResource("3_m46dl")
 level = 5
 move = 39
 
-[sub_resource type="Resource" id="Resource_xyokb"]
+[sub_resource type="Resource" id="Resource_oksyp"]
 script = ExtResource("3_m46dl")
 level = 7
 move = 55
 
-[sub_resource type="Resource" id="Resource_6xun3"]
+[sub_resource type="Resource" id="Resource_praf3"]
 script = ExtResource("3_m46dl")
 level = 11
 move = 346
 
-[sub_resource type="Resource" id="Resource_g1p3c"]
+[sub_resource type="Resource" id="Resource_l3c3u"]
 script = ExtResource("3_m46dl")
 level = 13
 move = 116
 
-[sub_resource type="Resource" id="Resource_7lxwi"]
+[sub_resource type="Resource" id="Resource_dfgdu"]
 script = ExtResource("3_m46dl")
 level = 17
 move = 534
 
-[sub_resource type="Resource" id="Resource_oksyp"]
+[sub_resource type="Resource" id="Resource_go8ir"]
 script = ExtResource("3_m46dl")
 level = 19
 move = 210
 
-[sub_resource type="Resource" id="Resource_praf3"]
+[sub_resource type="Resource" id="Resource_4631i"]
 script = ExtResource("3_m46dl")
 level = 23
 move = 352
 
-[sub_resource type="Resource" id="Resource_l3c3u"]
+[sub_resource type="Resource" id="Resource_jjk1n"]
 script = ExtResource("3_m46dl")
 level = 25
 move = 279
 
-[sub_resource type="Resource" id="Resource_dfgdu"]
+[sub_resource type="Resource" id="Resource_8pcbp"]
 script = ExtResource("3_m46dl")
 level = 29
 move = 453
 
-[sub_resource type="Resource" id="Resource_go8ir"]
+[sub_resource type="Resource" id="Resource_0arwg"]
 script = ExtResource("3_m46dl")
 level = 31
 move = 227
 
-[sub_resource type="Resource" id="Resource_4631i"]
+[sub_resource type="Resource" id="Resource_o0xvd"]
 script = ExtResource("3_m46dl")
 level = 35
 move = 401
 
-[sub_resource type="Resource" id="Resource_jjk1n"]
+[sub_resource type="Resource" id="Resource_bq4f2"]
 script = ExtResource("3_m46dl")
 level = 37
 move = 514
 
-[sub_resource type="Resource" id="Resource_8pcbp"]
+[sub_resource type="Resource" id="Resource_t0iuq"]
 script = ExtResource("3_m46dl")
 level = 41
 move = 14
 
-[sub_resource type="Resource" id="Resource_0arwg"]
+[sub_resource type="Resource" id="Resource_kooqm"]
 script = ExtResource("3_m46dl")
 level = 43
 move = 56
@@ -95,6 +95,7 @@ pokedex = "The scalchop on its stomach isn't just
 used for battle, it can be used to break
 open hard berries as well. It is made
 from the same element as its claws."
+sprite_folder = "oshawott"
 type_1 = 12
 base_hp = 55
 base_atk = 55
@@ -112,6 +113,6 @@ ability_hidden = 75
 height_dm = 5
 weight_hg = 59
 body_color = 1
-level_moves = Array[ExtResource("3_m46dl")]([SubResource("Resource_6l1h3"), SubResource("Resource_m46dl"), SubResource("Resource_xyokb"), SubResource("Resource_6xun3"), SubResource("Resource_g1p3c"), SubResource("Resource_7lxwi"), SubResource("Resource_oksyp"), SubResource("Resource_praf3"), SubResource("Resource_l3c3u"), SubResource("Resource_dfgdu"), SubResource("Resource_go8ir"), SubResource("Resource_4631i"), SubResource("Resource_jjk1n"), SubResource("Resource_8pcbp"), SubResource("Resource_0arwg")])
+level_moves = Array[ExtResource("3_m46dl")]([SubResource("Resource_g1p3c"), SubResource("Resource_7lxwi"), SubResource("Resource_oksyp"), SubResource("Resource_praf3"), SubResource("Resource_l3c3u"), SubResource("Resource_dfgdu"), SubResource("Resource_go8ir"), SubResource("Resource_4631i"), SubResource("Resource_jjk1n"), SubResource("Resource_8pcbp"), SubResource("Resource_0arwg"), SubResource("Resource_o0xvd"), SubResource("Resource_bq4f2"), SubResource("Resource_t0iuq"), SubResource("Resource_kooqm")])
 egg_moves = Array[int]([383, 197, 403, 372, 362, 400, 376, 103, 533])
-evolutions = Array[ExtResource("1_hibwc")]([SubResource("Resource_hibwc")])
+evolutions = Array[ExtResource("1_hibwc")]([SubResource("Resource_6xun3")])

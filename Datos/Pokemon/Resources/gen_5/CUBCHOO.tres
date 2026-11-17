@@ -5,82 +5,82 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ckwll"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8y8kd"]
 
-[sub_resource type="Resource" id="Resource_3wml5"]
+[sub_resource type="Resource" id="Resource_t55lq"]
 script = ExtResource("1_3wml5")
 method = "LEVEL"
 param = "37"
 target = 614
 
-[sub_resource type="Resource" id="Resource_d8bpu"]
+[sub_resource type="Resource" id="Resource_pl0qi"]
 script = ExtResource("3_ckwll")
 move = 181
 
-[sub_resource type="Resource" id="Resource_ckwll"]
+[sub_resource type="Resource" id="Resource_uxmho"]
 script = ExtResource("3_ckwll")
 level = 5
 move = 45
 
-[sub_resource type="Resource" id="Resource_8y8kd"]
+[sub_resource type="Resource" id="Resource_hdmu7"]
 script = ExtResource("3_ckwll")
 level = 9
 move = 117
 
-[sub_resource type="Resource" id="Resource_t55lq"]
+[sub_resource type="Resource" id="Resource_33g1d"]
 script = ExtResource("3_ckwll")
 level = 13
 move = 196
 
-[sub_resource type="Resource" id="Resource_pl0qi"]
+[sub_resource type="Resource" id="Resource_agj6j"]
 script = ExtResource("3_ckwll")
 level = 17
 move = 154
 
-[sub_resource type="Resource" id="Resource_uxmho"]
+[sub_resource type="Resource" id="Resource_p21xe"]
 script = ExtResource("3_ckwll")
 level = 21
 move = 362
 
-[sub_resource type="Resource" id="Resource_hdmu7"]
+[sub_resource type="Resource" id="Resource_uwtau"]
 script = ExtResource("3_ckwll")
 level = 25
 move = 203
 
-[sub_resource type="Resource" id="Resource_33g1d"]
+[sub_resource type="Resource" id="Resource_rbyiq"]
 script = ExtResource("3_ckwll")
 level = 29
 move = 204
 
-[sub_resource type="Resource" id="Resource_agj6j"]
+[sub_resource type="Resource" id="Resource_ysneb"]
 script = ExtResource("3_ckwll")
 level = 33
 move = 163
 
-[sub_resource type="Resource" id="Resource_p21xe"]
+[sub_resource type="Resource" id="Resource_gvb2h"]
 script = ExtResource("3_ckwll")
 level = 36
 move = 175
 
-[sub_resource type="Resource" id="Resource_uwtau"]
+[sub_resource type="Resource" id="Resource_tnimc"]
 script = ExtResource("3_ckwll")
 level = 41
 move = 156
 
-[sub_resource type="Resource" id="Resource_rbyiq"]
+[sub_resource type="Resource" id="Resource_mhpet"]
 script = ExtResource("3_ckwll")
 level = 45
 move = 59
 
-[sub_resource type="Resource" id="Resource_ysneb"]
+[sub_resource type="Resource" id="Resource_iwdfe"]
 script = ExtResource("3_ckwll")
 level = 49
 move = 258
 
-[sub_resource type="Resource" id="Resource_gvb2h"]
+[sub_resource type="Resource" id="Resource_mpvb6"]
 script = ExtResource("3_ckwll")
 level = 53
 move = 37
 
-[sub_resource type="Resource" id="Resource_tnimc"]
+[sub_resource type="Resource" id="Resource_qmei0"]
 script = ExtResource("3_ckwll")
 level = 57
 move = 329
@@ -95,6 +95,7 @@ pokedex = "Its nose is always running.
 Their snot is a barometer of health.
 When healthy, their snot is sticky and
 the power of their ice moves increases."
+sprite_folder = "cubchoo"
 type_1 = 16
 base_hp = 55
 base_atk = 70
@@ -112,6 +113,6 @@ ability_hidden = 155
 height_dm = 5
 weight_hg = 85
 body_color = 8
-level_moves = Array[ExtResource("3_ckwll")]([SubResource("Resource_d8bpu"), SubResource("Resource_ckwll"), SubResource("Resource_8y8kd"), SubResource("Resource_t55lq"), SubResource("Resource_pl0qi"), SubResource("Resource_uxmho"), SubResource("Resource_hdmu7"), SubResource("Resource_33g1d"), SubResource("Resource_agj6j"), SubResource("Resource_p21xe"), SubResource("Resource_uwtau"), SubResource("Resource_rbyiq"), SubResource("Resource_ysneb"), SubResource("Resource_gvb2h"), SubResource("Resource_tnimc")])
+level_moves = Array[ExtResource("3_ckwll")]([SubResource("Resource_pl0qi"), SubResource("Resource_uxmho"), SubResource("Resource_hdmu7"), SubResource("Resource_33g1d"), SubResource("Resource_agj6j"), SubResource("Resource_p21xe"), SubResource("Resource_uwtau"), SubResource("Resource_rbyiq"), SubResource("Resource_ysneb"), SubResource("Resource_gvb2h"), SubResource("Resource_tnimc"), SubResource("Resource_mhpet"), SubResource("Resource_iwdfe"), SubResource("Resource_mpvb6"), SubResource("Resource_qmei0")])
 egg_moves = Array[int]([281, 419, 227, 8, 400, 372, 214, 264, 583])
-evolutions = Array[ExtResource("1_3wml5")]([SubResource("Resource_3wml5")])
+evolutions = Array[ExtResource("1_3wml5")]([SubResource("Resource_t55lq")])

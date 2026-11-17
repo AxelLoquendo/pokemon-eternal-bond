@@ -5,39 +5,39 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mw4fe"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dgymy"]
 
-[sub_resource type="Resource" id="Resource_jfi8m"]
+[sub_resource type="Resource" id="Resource_stui5"]
 script = ExtResource("3_mw4fe")
 move = 145
 
-[sub_resource type="Resource" id="Resource_qmpuf"]
+[sub_resource type="Resource" id="Resource_jla2m"]
 script = ExtResource("3_mw4fe")
 move = 43
 
-[sub_resource type="Resource" id="Resource_mw4fe"]
+[sub_resource type="Resource" id="Resource_uq5a1"]
 script = ExtResource("3_mw4fe")
 move = 11
 
-[sub_resource type="Resource" id="Resource_dgymy"]
+[sub_resource type="Resource" id="Resource_x3udd"]
 script = ExtResource("3_mw4fe")
 level = 20
 move = 11
 
-[sub_resource type="Resource" id="Resource_stui5"]
+[sub_resource type="Resource" id="Resource_6edsc"]
 script = ExtResource("3_mw4fe")
 level = 25
 move = 12
 
-[sub_resource type="Resource" id="Resource_jla2m"]
+[sub_resource type="Resource" id="Resource_ot78h"]
 script = ExtResource("3_mw4fe")
 level = 34
 move = 23
 
-[sub_resource type="Resource" id="Resource_uq5a1"]
+[sub_resource type="Resource" id="Resource_480cb"]
 script = ExtResource("3_mw4fe")
 level = 42
 move = 152
 
-[sub_resource type="Resource" id="Resource_x3udd"]
+[sub_resource type="Resource" id="Resource_b0ue8"]
 script = ExtResource("3_mw4fe")
 level = 49
 move = 106
@@ -52,6 +52,7 @@ pokedex = "It waves its huge, oversized claw in the
 air to communicate with others.
 But since the claw is so heavy, this
 Pokémon quickly tires."
+sprite_folder = "kingler"
 type_1 = 12
 base_hp = 55
 base_atk = 130
@@ -69,5 +70,5 @@ ability_hidden = 125
 height_dm = 13
 weight_hg = 600
 no_flip = true
-level_moves = Array[ExtResource("3_mw4fe")]([SubResource("Resource_jfi8m"), SubResource("Resource_qmpuf"), SubResource("Resource_mw4fe"), SubResource("Resource_dgymy"), SubResource("Resource_stui5"), SubResource("Resource_jla2m"), SubResource("Resource_uq5a1"), SubResource("Resource_x3udd")])
+level_moves = Array[ExtResource("3_mw4fe")]([SubResource("Resource_stui5"), SubResource("Resource_jla2m"), SubResource("Resource_uq5a1"), SubResource("Resource_x3udd"), SubResource("Resource_6edsc"), SubResource("Resource_ot78h"), SubResource("Resource_480cb"), SubResource("Resource_b0ue8")])
 form_species = Array[int]([99, 1497])

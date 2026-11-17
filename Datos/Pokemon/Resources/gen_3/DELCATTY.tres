@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ksrfu"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cjwmk"]
 
-[sub_resource type="Resource" id="Resource_gxqpv"]
+[sub_resource type="Resource" id="Resource_20aup"]
 script = ExtResource("3_ksrfu")
 move = 45
 
-[sub_resource type="Resource" id="Resource_rtx8x"]
+[sub_resource type="Resource" id="Resource_a316x"]
 script = ExtResource("3_ksrfu")
 move = 213
 
-[sub_resource type="Resource" id="Resource_ksrfu"]
+[sub_resource type="Resource" id="Resource_bg1i2"]
 script = ExtResource("3_ksrfu")
 move = 47
 
-[sub_resource type="Resource" id="Resource_cjwmk"]
+[sub_resource type="Resource" id="Resource_e5iqt"]
 script = ExtResource("3_ksrfu")
 move = 3
 
@@ -31,6 +31,7 @@ pokedex = "Rather than keeping a permanent lair,
 it habitually seeks comfortable spots and
 sleeps there. It is nocturnal and becomes
 active at dusk."
+sprite_folder = "delcatty"
 type_1 = 1
 base_hp = 70
 base_atk = 65
@@ -53,4 +54,4 @@ ability_hidden = 147
 height_dm = 11
 weight_hg = 326
 body_color = 6
-level_moves = Array[ExtResource("3_ksrfu")]([SubResource("Resource_gxqpv"), SubResource("Resource_rtx8x"), SubResource("Resource_ksrfu"), SubResource("Resource_cjwmk")])
+level_moves = Array[ExtResource("3_ksrfu")]([SubResource("Resource_20aup"), SubResource("Resource_a316x"), SubResource("Resource_bg1i2"), SubResource("Resource_e5iqt")])

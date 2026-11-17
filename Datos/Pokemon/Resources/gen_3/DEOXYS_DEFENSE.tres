@@ -5,70 +5,70 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ymle1"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_av8w8"]
 
-[sub_resource type="Resource" id="Resource_vagkh"]
+[sub_resource type="Resource" id="Resource_j1opv"]
 script = ExtResource("3_ymle1")
 move = 43
 
-[sub_resource type="Resource" id="Resource_b8h1e"]
+[sub_resource type="Resource" id="Resource_kxrkt"]
 script = ExtResource("3_ymle1")
 move = 35
 
-[sub_resource type="Resource" id="Resource_ymle1"]
+[sub_resource type="Resource" id="Resource_ehllq"]
 script = ExtResource("3_ymle1")
 level = 5
 move = 101
 
-[sub_resource type="Resource" id="Resource_av8w8"]
+[sub_resource type="Resource" id="Resource_on1d8"]
 script = ExtResource("3_ymle1")
 level = 10
 move = 100
 
-[sub_resource type="Resource" id="Resource_j1opv"]
+[sub_resource type="Resource" id="Resource_gttx5"]
 script = ExtResource("3_ymle1")
 level = 15
 move = 282
 
-[sub_resource type="Resource" id="Resource_kxrkt"]
+[sub_resource type="Resource" id="Resource_m10ws"]
 script = ExtResource("3_ymle1")
 level = 20
 move = 191
 
-[sub_resource type="Resource" id="Resource_ehllq"]
+[sub_resource type="Resource" id="Resource_h1vm8"]
 script = ExtResource("3_ymle1")
 level = 25
 move = 94
 
-[sub_resource type="Resource" id="Resource_on1d8"]
+[sub_resource type="Resource" id="Resource_pb5au"]
 script = ExtResource("3_ymle1")
 level = 30
 move = 289
 
-[sub_resource type="Resource" id="Resource_gttx5"]
+[sub_resource type="Resource" id="Resource_i3ayp"]
 script = ExtResource("3_ymle1")
 level = 35
 move = 334
 
-[sub_resource type="Resource" id="Resource_m10ws"]
+[sub_resource type="Resource" id="Resource_ytc4q"]
 script = ExtResource("3_ymle1")
 level = 35
 move = 133
 
-[sub_resource type="Resource" id="Resource_h1vm8"]
+[sub_resource type="Resource" id="Resource_l0wjj"]
 script = ExtResource("3_ymle1")
 level = 40
 move = 105
 
-[sub_resource type="Resource" id="Resource_pb5au"]
+[sub_resource type="Resource" id="Resource_4vp0j"]
 script = ExtResource("3_ymle1")
 level = 45
 move = 354
 
-[sub_resource type="Resource" id="Resource_i3ayp"]
+[sub_resource type="Resource" id="Resource_vnjcn"]
 script = ExtResource("3_ymle1")
 level = 50
 move = 68
 
-[sub_resource type="Resource" id="Resource_ytc4q"]
+[sub_resource type="Resource" id="Resource_ncaqj"]
 script = ExtResource("3_ymle1")
 level = 50
 move = 243
@@ -82,6 +82,7 @@ national_dex = 386
 pokedex = "When it changes form, an aurora
 appears. It absorbs attacks by
 altering its cellular structure."
+sprite_folder = "deoxys/defense"
 type_1 = 15
 base_hp = 50
 base_atk = 70
@@ -99,5 +100,5 @@ egg_cycles = 120
 ability_1 = 46
 height_dm = 17
 weight_hg = 608
-level_moves = Array[ExtResource("3_ymle1")]([SubResource("Resource_vagkh"), SubResource("Resource_b8h1e"), SubResource("Resource_ymle1"), SubResource("Resource_av8w8"), SubResource("Resource_j1opv"), SubResource("Resource_kxrkt"), SubResource("Resource_ehllq"), SubResource("Resource_on1d8"), SubResource("Resource_gttx5"), SubResource("Resource_m10ws"), SubResource("Resource_h1vm8"), SubResource("Resource_pb5au"), SubResource("Resource_i3ayp"), SubResource("Resource_ytc4q")])
+level_moves = Array[ExtResource("3_ymle1")]([SubResource("Resource_j1opv"), SubResource("Resource_kxrkt"), SubResource("Resource_ehllq"), SubResource("Resource_on1d8"), SubResource("Resource_gttx5"), SubResource("Resource_m10ws"), SubResource("Resource_h1vm8"), SubResource("Resource_pb5au"), SubResource("Resource_i3ayp"), SubResource("Resource_ytc4q"), SubResource("Resource_l0wjj"), SubResource("Resource_4vp0j"), SubResource("Resource_vnjcn"), SubResource("Resource_ncaqj")])
 form_species = Array[int]([386, 1054, 1055, 1056])

@@ -5,13 +5,13 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_d8ifj"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hn8q0"]
 
-[sub_resource type="Resource" id="Resource_3evr1"]
+[sub_resource type="Resource" id="Resource_ce1de"]
 script = ExtResource("1_3evr1")
 method = "LEVEL"
 param = "16"
 target = 64
 
-[sub_resource type="Resource" id="Resource_ss7sh"]
+[sub_resource type="Resource" id="Resource_shlas"]
 script = ExtResource("3_d8ifj")
 move = 100
 
@@ -25,6 +25,7 @@ pokedex = "A Pokémon that sleeps 18 hours a day.
 Observation revealed that it uses
 Teleport to change its location once
 every hour."
+sprite_folder = "abra"
 type_1 = 15
 base_hp = 25
 base_atk = 20
@@ -45,6 +46,6 @@ item_rare = 435
 height_dm = 9
 weight_hg = 195
 body_color = 5
-level_moves = Array[ExtResource("3_d8ifj")]([SubResource("Resource_ss7sh")])
+level_moves = Array[ExtResource("3_d8ifj")]([SubResource("Resource_shlas")])
 egg_moves = Array[int]([227, 112, 282, 7, 9, 8, 379, 385, 285, 470, 375, 502, 641])
-evolutions = Array[ExtResource("1_3evr1")]([SubResource("Resource_3evr1")])
+evolutions = Array[ExtResource("1_3evr1")]([SubResource("Resource_ce1de")])

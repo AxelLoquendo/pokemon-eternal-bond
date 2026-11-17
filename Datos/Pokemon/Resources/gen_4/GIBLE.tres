@@ -5,57 +5,57 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yasew"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_kyaqh"]
 
-[sub_resource type="Resource" id="Resource_wqvns"]
+[sub_resource type="Resource" id="Resource_jm3qh"]
 script = ExtResource("1_wqvns")
 method = "LEVEL"
 param = "24"
 target = 444
 
-[sub_resource type="Resource" id="Resource_pm8vt"]
+[sub_resource type="Resource" id="Resource_hmvt1"]
 script = ExtResource("3_yasew")
 move = 33
 
-[sub_resource type="Resource" id="Resource_yasew"]
+[sub_resource type="Resource" id="Resource_epglv"]
 script = ExtResource("3_yasew")
 level = 3
 move = 28
 
-[sub_resource type="Resource" id="Resource_kyaqh"]
+[sub_resource type="Resource" id="Resource_xyjhp"]
 script = ExtResource("3_yasew")
 level = 7
 move = 82
 
-[sub_resource type="Resource" id="Resource_jm3qh"]
+[sub_resource type="Resource" id="Resource_1iqlx"]
 script = ExtResource("3_yasew")
 level = 13
 move = 201
 
-[sub_resource type="Resource" id="Resource_hmvt1"]
+[sub_resource type="Resource" id="Resource_qmpd3"]
 script = ExtResource("3_yasew")
 level = 15
 move = 36
 
-[sub_resource type="Resource" id="Resource_epglv"]
+[sub_resource type="Resource" id="Resource_kl8jm"]
 script = ExtResource("3_yasew")
 level = 19
 move = 328
 
-[sub_resource type="Resource" id="Resource_xyjhp"]
+[sub_resource type="Resource" id="Resource_err2w"]
 script = ExtResource("3_yasew")
 level = 25
 move = 163
 
-[sub_resource type="Resource" id="Resource_1iqlx"]
+[sub_resource type="Resource" id="Resource_s0nnq"]
 script = ExtResource("3_yasew")
 level = 27
 move = 337
 
-[sub_resource type="Resource" id="Resource_qmpd3"]
+[sub_resource type="Resource" id="Resource_n5bmb"]
 script = ExtResource("3_yasew")
 level = 31
 move = 91
 
-[sub_resource type="Resource" id="Resource_kl8jm"]
+[sub_resource type="Resource" id="Resource_trxx6"]
 script = ExtResource("3_yasew")
 level = 37
 move = 407
@@ -70,6 +70,7 @@ pokedex = "It nests in horizontal holes warmed by
 geothermal heat. Foes who stray too
 close can expect to be pounced on
 and bitten."
+sprite_folder = "gible"
 type_1 = 17
 type_2 = 5
 base_hp = 58
@@ -89,6 +90,6 @@ ability_hidden = 24
 height_dm = 7
 weight_hg = 205
 body_color = 1
-level_moves = Array[ExtResource("3_yasew")]([SubResource("Resource_pm8vt"), SubResource("Resource_yasew"), SubResource("Resource_kyaqh"), SubResource("Resource_jm3qh"), SubResource("Resource_hmvt1"), SubResource("Resource_epglv"), SubResource("Resource_xyjhp"), SubResource("Resource_1iqlx"), SubResource("Resource_qmpd3"), SubResource("Resource_kl8jm")])
+level_moves = Array[ExtResource("3_yasew")]([SubResource("Resource_hmvt1"), SubResource("Resource_epglv"), SubResource("Resource_xyjhp"), SubResource("Resource_1iqlx"), SubResource("Resource_qmpd3"), SubResource("Resource_kl8jm"), SubResource("Resource_err2w"), SubResource("Resource_s0nnq"), SubResource("Resource_n5bmb"), SubResource("Resource_trxx6")])
 egg_moves = Array[int]([225, 200, 239, 184, 38, 37, 232, 328, 34, 442, 341, 431, 231])
-evolutions = Array[ExtResource("1_wqvns")]([SubResource("Resource_wqvns")])
+evolutions = Array[ExtResource("1_wqvns")]([SubResource("Resource_jm3qh")])

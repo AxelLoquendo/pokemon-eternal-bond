@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yry45"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ol2rq"]
 
-[sub_resource type="Resource" id="Resource_yenwm"]
+[sub_resource type="Resource" id="Resource_4nnhr"]
 script = ExtResource("3_yry45")
 move = 11
 
-[sub_resource type="Resource" id="Resource_iry18"]
+[sub_resource type="Resource" id="Resource_yfmss"]
 script = ExtResource("3_yry45")
 level = 21
 move = 20
 
-[sub_resource type="Resource" id="Resource_yry45"]
+[sub_resource type="Resource" id="Resource_dsx1g"]
 script = ExtResource("3_yry45")
 level = 25
 move = 69
 
-[sub_resource type="Resource" id="Resource_ol2rq"]
+[sub_resource type="Resource" id="Resource_gc3m7"]
 script = ExtResource("3_yry45")
 level = 30
 move = 12
 
-[sub_resource type="Resource" id="Resource_4nnhr"]
+[sub_resource type="Resource" id="Resource_gyr7p"]
 script = ExtResource("3_yry45")
 level = 36
 move = 116
 
-[sub_resource type="Resource" id="Resource_yfmss"]
+[sub_resource type="Resource" id="Resource_fksdx"]
 script = ExtResource("3_yry45")
 level = 43
 move = 106
 
-[sub_resource type="Resource" id="Resource_dsx1g"]
+[sub_resource type="Resource" id="Resource_hksat"]
 script = ExtResource("3_yry45")
 level = 49
 move = 163
 
-[sub_resource type="Resource" id="Resource_gc3m7"]
+[sub_resource type="Resource" id="Resource_5wsa8"]
 script = ExtResource("3_yry45")
 level = 54
 move = 14
@@ -54,6 +54,7 @@ pokedex = "The influence of Mega Evolution leaves it
 in a state of constant excitement.
 It pierces enemies with its two large
 horns before shredding them."
+sprite_folder = "pinsir/mega"
 type_1 = 7
 type_2 = 3
 base_hp = 65
@@ -73,6 +74,6 @@ ability_hidden = 184
 height_dm = 17
 weight_hg = 590
 body_color = 5
-level_moves = Array[ExtResource("3_yry45")]([SubResource("Resource_yenwm"), SubResource("Resource_iry18"), SubResource("Resource_yry45"), SubResource("Resource_ol2rq"), SubResource("Resource_4nnhr"), SubResource("Resource_yfmss"), SubResource("Resource_dsx1g"), SubResource("Resource_gc3m7")])
+level_moves = Array[ExtResource("3_yry45")]([SubResource("Resource_4nnhr"), SubResource("Resource_yfmss"), SubResource("Resource_dsx1g"), SubResource("Resource_gc3m7"), SubResource("Resource_gyr7p"), SubResource("Resource_fksdx"), SubResource("Resource_hksat"), SubResource("Resource_5wsa8")])
 egg_moves = Array[int]([31, 175, 185, 98, 370, 364, 382, 450, 276])
 form_species = Array[int]([127, 916])

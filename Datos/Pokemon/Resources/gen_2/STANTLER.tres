@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8cq8u"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ykm8s"]
 
-[sub_resource type="Resource" id="Resource_5u4cd"]
+[sub_resource type="Resource" id="Resource_w6wlw"]
 script = ExtResource("1_5u4cd")
 method = "IF_USED_MOVE_X_TIMES"
 param = "MOVE_PSYSHIELD_BASH"
 
-[sub_resource type="Resource" id="Resource_f7g85"]
+[sub_resource type="Resource" id="Resource_xq4ej"]
 script = ExtResource("3_8cq8u")
 move = 33
 
-[sub_resource type="Resource" id="Resource_8cq8u"]
+[sub_resource type="Resource" id="Resource_wr5pn"]
 script = ExtResource("3_8cq8u")
 level = 8
 move = 43
 
-[sub_resource type="Resource" id="Resource_ykm8s"]
+[sub_resource type="Resource" id="Resource_sfnhm"]
 script = ExtResource("3_8cq8u")
 level = 15
 move = 95
 
-[sub_resource type="Resource" id="Resource_w6wlw"]
+[sub_resource type="Resource" id="Resource_f8iel"]
 script = ExtResource("3_8cq8u")
 level = 23
 move = 23
 
-[sub_resource type="Resource" id="Resource_xq4ej"]
+[sub_resource type="Resource" id="Resource_xm1yi"]
 script = ExtResource("3_8cq8u")
 level = 31
 move = 28
 
-[sub_resource type="Resource" id="Resource_wr5pn"]
+[sub_resource type="Resource" id="Resource_2ybvg"]
 script = ExtResource("3_8cq8u")
 level = 40
 move = 36
 
-[sub_resource type="Resource" id="Resource_sfnhm"]
+[sub_resource type="Resource" id="Resource_xukmr"]
 script = ExtResource("3_8cq8u")
 level = 49
 move = 109
@@ -54,6 +54,7 @@ pokedex = "Stantler's magnificent antlers were
 once traded at high prices as works of art.
 As a result, this Pokémon was hunted
 close to extinction."
+sprite_folder = "stantler"
 type_1 = 1
 base_hp = 73
 base_atk = 95
@@ -71,6 +72,6 @@ ability_hidden = 157
 height_dm = 14
 weight_hg = 712
 body_color = 5
-level_moves = Array[ExtResource("3_8cq8u")]([SubResource("Resource_f7g85"), SubResource("Resource_8cq8u"), SubResource("Resource_ykm8s"), SubResource("Resource_w6wlw"), SubResource("Resource_xq4ej"), SubResource("Resource_wr5pn"), SubResource("Resource_sfnhm")])
+level_moves = Array[ExtResource("3_8cq8u")]([SubResource("Resource_xq4ej"), SubResource("Resource_wr5pn"), SubResource("Resource_sfnhm"), SubResource("Resource_f8iel"), SubResource("Resource_xm1yi"), SubResource("Resource_2ybvg"), SubResource("Resource_xukmr")])
 egg_moves = Array[int]([180, 50, 44, 326, 37, 24, 428, 224, 300, 99, 382])
-evolutions = Array[ExtResource("1_5u4cd")]([SubResource("Resource_5u4cd")])
+evolutions = Array[ExtResource("1_5u4cd")]([SubResource("Resource_w6wlw")])

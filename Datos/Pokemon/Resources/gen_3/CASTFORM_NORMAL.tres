@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_uxqbv"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ss4qa"]
 
-[sub_resource type="Resource" id="Resource_lrn5g"]
+[sub_resource type="Resource" id="Resource_qxwhx"]
 script = ExtResource("3_uxqbv")
 move = 33
 
-[sub_resource type="Resource" id="Resource_okogp"]
+[sub_resource type="Resource" id="Resource_dvblq"]
 script = ExtResource("3_uxqbv")
 level = 10
 move = 55
 
-[sub_resource type="Resource" id="Resource_uxqbv"]
+[sub_resource type="Resource" id="Resource_gguyb"]
 script = ExtResource("3_uxqbv")
 level = 10
 move = 52
 
-[sub_resource type="Resource" id="Resource_ss4qa"]
+[sub_resource type="Resource" id="Resource_h5ua1"]
 script = ExtResource("3_uxqbv")
 level = 10
 move = 181
 
-[sub_resource type="Resource" id="Resource_qxwhx"]
+[sub_resource type="Resource" id="Resource_k8jje"]
 script = ExtResource("3_uxqbv")
 level = 20
 move = 240
 
-[sub_resource type="Resource" id="Resource_dvblq"]
+[sub_resource type="Resource" id="Resource_xk4gh"]
 script = ExtResource("3_uxqbv")
 level = 20
 move = 241
 
-[sub_resource type="Resource" id="Resource_gguyb"]
+[sub_resource type="Resource" id="Resource_g63aj"]
 script = ExtResource("3_uxqbv")
 level = 20
 move = 258
 
-[sub_resource type="Resource" id="Resource_h5ua1"]
+[sub_resource type="Resource" id="Resource_hq3y8"]
 script = ExtResource("3_uxqbv")
 level = 30
 move = 311
@@ -54,6 +54,7 @@ pokedex = "It alters its form depending on the
 weather. Changes in the climate such as
 the temperature and humidity appear to
 affect its cellular structure."
+sprite_folder = "castform"
 type_1 = 1
 base_hp = 70
 base_atk = 70
@@ -72,6 +73,6 @@ item_rare = 427
 height_dm = 3
 weight_hg = 8
 body_color = 7
-level_moves = Array[ExtResource("3_uxqbv")]([SubResource("Resource_lrn5g"), SubResource("Resource_okogp"), SubResource("Resource_uxqbv"), SubResource("Resource_ss4qa"), SubResource("Resource_qxwhx"), SubResource("Resource_dvblq"), SubResource("Resource_gguyb"), SubResource("Resource_h5ua1")])
+level_moves = Array[ExtResource("3_uxqbv")]([SubResource("Resource_qxwhx"), SubResource("Resource_dvblq"), SubResource("Resource_gguyb"), SubResource("Resource_h5ua1"), SubResource("Resource_k8jje"), SubResource("Resource_xk4gh"), SubResource("Resource_g63aj"), SubResource("Resource_hq3y8")])
 egg_moves = Array[int]([248, 381, 50, 133, 466, 506, 499, 513, 385, 322])
 form_species = Array[int]([351, 1051, 1052, 1053])

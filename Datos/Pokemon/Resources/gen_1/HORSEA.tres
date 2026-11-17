@@ -5,37 +5,37 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_a2utv"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_1eebh"]
 
-[sub_resource type="Resource" id="Resource_dr8ri"]
+[sub_resource type="Resource" id="Resource_twpan"]
 script = ExtResource("1_dr8ri")
 method = "LEVEL"
 param = "32"
 target = 117
 
-[sub_resource type="Resource" id="Resource_r8jt5"]
+[sub_resource type="Resource" id="Resource_4e3gq"]
 script = ExtResource("3_a2utv")
 move = 145
 
-[sub_resource type="Resource" id="Resource_a2utv"]
+[sub_resource type="Resource" id="Resource_6r8kj"]
 script = ExtResource("3_a2utv")
 level = 19
 move = 108
 
-[sub_resource type="Resource" id="Resource_1eebh"]
+[sub_resource type="Resource" id="Resource_sdh7y"]
 script = ExtResource("3_a2utv")
 level = 24
 move = 43
 
-[sub_resource type="Resource" id="Resource_twpan"]
+[sub_resource type="Resource" id="Resource_bk6vs"]
 script = ExtResource("3_a2utv")
 level = 30
 move = 55
 
-[sub_resource type="Resource" id="Resource_4e3gq"]
+[sub_resource type="Resource" id="Resource_q1uyo"]
 script = ExtResource("3_a2utv")
 level = 37
 move = 97
 
-[sub_resource type="Resource" id="Resource_6r8kj"]
+[sub_resource type="Resource" id="Resource_nu3rp"]
 script = ExtResource("3_a2utv")
 level = 45
 move = 56
@@ -50,6 +50,7 @@ pokedex = "By cleverly flicking the fins on its back
 side to side, it moves in any direction
 while facing forward. It spits ink to
 escape if it senses danger."
+sprite_folder = "horsea"
 type_1 = 12
 base_hp = 30
 base_atk = 40
@@ -69,6 +70,6 @@ item_rare = 227
 height_dm = 4
 weight_hg = 80
 body_color = 1
-level_moves = Array[ExtResource("3_a2utv")]([SubResource("Resource_r8jt5"), SubResource("Resource_a2utv"), SubResource("Resource_1eebh"), SubResource("Resource_twpan"), SubResource("Resource_4e3gq"), SubResource("Resource_6r8kj")])
+level_moves = Array[ExtResource("3_a2utv")]([SubResource("Resource_4e3gq"), SubResource("Resource_6r8kj"), SubResource("Resource_sdh7y"), SubResource("Resource_bk6vs"), SubResource("Resource_q1uyo"), SubResource("Resource_nu3rp")])
 egg_moves = Array[int]([175, 62, 190, 50, 150, 82, 225, 324, 13, 330, 352, 499, 200])
-evolutions = Array[ExtResource("1_dr8ri")]([SubResource("Resource_dr8ri")])
+evolutions = Array[ExtResource("1_dr8ri")]([SubResource("Resource_twpan")])

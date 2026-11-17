@@ -5,36 +5,36 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vqx7m"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_b5qiv"]
 
-[sub_resource type="Resource" id="Resource_3x8ji"]
+[sub_resource type="Resource" id="Resource_b3go5"]
 script = ExtResource("3_vqx7m")
 move = 31
 
-[sub_resource type="Resource" id="Resource_koe05"]
+[sub_resource type="Resource" id="Resource_e0ppr"]
 script = ExtResource("3_vqx7m")
 level = 12
 move = 31
 
-[sub_resource type="Resource" id="Resource_vqx7m"]
+[sub_resource type="Resource" id="Resource_yromq"]
 script = ExtResource("3_vqx7m")
 level = 16
 move = 116
 
-[sub_resource type="Resource" id="Resource_b5qiv"]
+[sub_resource type="Resource" id="Resource_3mnom"]
 script = ExtResource("3_vqx7m")
 level = 20
 move = 41
 
-[sub_resource type="Resource" id="Resource_b3go5"]
+[sub_resource type="Resource" id="Resource_g65g0"]
 script = ExtResource("3_vqx7m")
 level = 25
 move = 99
 
-[sub_resource type="Resource" id="Resource_e0ppr"]
+[sub_resource type="Resource" id="Resource_ejqw6"]
 script = ExtResource("3_vqx7m")
 level = 30
 move = 42
 
-[sub_resource type="Resource" id="Resource_yromq"]
+[sub_resource type="Resource" id="Resource_lcwdw"]
 script = ExtResource("3_vqx7m")
 level = 35
 move = 97
@@ -49,6 +49,7 @@ pokedex = "A Beedrill is extremely territorial.
 For safety reasons, no one should ever
 approach its nest. If angered, they will
 attack in a swarm."
+sprite_folder = "beedrill"
 type_1 = 7
 type_2 = 4
 base_hp = 65
@@ -68,5 +69,5 @@ item_rare = 432
 height_dm = 10
 weight_hg = 295
 body_color = 2
-level_moves = Array[ExtResource("3_vqx7m")]([SubResource("Resource_3x8ji"), SubResource("Resource_koe05"), SubResource("Resource_vqx7m"), SubResource("Resource_b5qiv"), SubResource("Resource_b3go5"), SubResource("Resource_e0ppr"), SubResource("Resource_yromq")])
+level_moves = Array[ExtResource("3_vqx7m")]([SubResource("Resource_b3go5"), SubResource("Resource_e0ppr"), SubResource("Resource_yromq"), SubResource("Resource_3mnom"), SubResource("Resource_g65g0"), SubResource("Resource_ejqw6"), SubResource("Resource_lcwdw")])
 form_species = Array[int]([15, 910])

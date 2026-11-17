@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_me2gs"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_pve6q"]
 
-[sub_resource type="Resource" id="Resource_p4sp7"]
+[sub_resource type="Resource" id="Resource_yij2m"]
 script = ExtResource("1_p4sp7")
 method = "ITEM"
 param = "ITEM_METAL_COAT"
 target = 208
 
-[sub_resource type="Resource" id="Resource_7gokx"]
+[sub_resource type="Resource" id="Resource_8eqef"]
 script = ExtResource("3_me2gs")
 move = 33
 
-[sub_resource type="Resource" id="Resource_me2gs"]
+[sub_resource type="Resource" id="Resource_40vfl"]
 script = ExtResource("3_me2gs")
 move = 103
 
-[sub_resource type="Resource" id="Resource_pve6q"]
+[sub_resource type="Resource" id="Resource_nmgcr"]
 script = ExtResource("3_me2gs")
 level = 15
 move = 20
 
-[sub_resource type="Resource" id="Resource_yij2m"]
+[sub_resource type="Resource" id="Resource_mkqjc"]
 script = ExtResource("3_me2gs")
 level = 19
 move = 88
 
-[sub_resource type="Resource" id="Resource_8eqef"]
+[sub_resource type="Resource" id="Resource_j0qsk"]
 script = ExtResource("3_me2gs")
 level = 25
 move = 99
 
-[sub_resource type="Resource" id="Resource_40vfl"]
+[sub_resource type="Resource" id="Resource_1k54p"]
 script = ExtResource("3_me2gs")
 level = 33
 move = 21
 
-[sub_resource type="Resource" id="Resource_nmgcr"]
+[sub_resource type="Resource" id="Resource_gkew6"]
 script = ExtResource("3_me2gs")
 level = 43
 move = 106
@@ -54,6 +54,7 @@ pokedex = "There is a magnet in its brain that
 prevents an Onix from losing direction
 while tunneling. As it grows older, its body
 becomes steadily rounder and smoother."
+sprite_folder = "onix"
 type_1 = 6
 type_2 = 5
 base_hp = 35
@@ -72,6 +73,6 @@ ability_hidden = 133
 height_dm = 88
 weight_hg = 2100
 body_color = 7
-level_moves = Array[ExtResource("3_me2gs")]([SubResource("Resource_7gokx"), SubResource("Resource_me2gs"), SubResource("Resource_pve6q"), SubResource("Resource_yij2m"), SubResource("Resource_8eqef"), SubResource("Resource_40vfl"), SubResource("Resource_nmgcr")])
+level_moves = Array[ExtResource("3_me2gs")]([SubResource("Resource_8eqef"), SubResource("Resource_40vfl"), SubResource("Resource_nmgcr"), SubResource("Resource_mkqjc"), SubResource("Resource_j0qsk"), SubResource("Resource_1k54p"), SubResource("Resource_gkew6")])
 egg_moves = Array[int]([175, 335, 111, 205, 350, 431, 484, 446, 563, 469])
-evolutions = Array[ExtResource("1_p4sp7")]([SubResource("Resource_p4sp7")])
+evolutions = Array[ExtResource("1_p4sp7")]([SubResource("Resource_yij2m")])

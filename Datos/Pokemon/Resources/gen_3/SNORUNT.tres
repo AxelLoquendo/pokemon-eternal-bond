@@ -5,61 +5,61 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_b2ra7"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_s84dp"]
 
-[sub_resource type="Resource" id="Resource_qq7q2"]
+[sub_resource type="Resource" id="Resource_dba1a"]
 script = ExtResource("1_qq7q2")
 method = "LEVEL"
 param = "42"
 target = 362
 
-[sub_resource type="Resource" id="Resource_agvay"]
+[sub_resource type="Resource" id="Resource_3231y"]
 script = ExtResource("3_b2ra7")
 move = 181
 
-[sub_resource type="Resource" id="Resource_b2ra7"]
+[sub_resource type="Resource" id="Resource_pjef0"]
 script = ExtResource("3_b2ra7")
 move = 43
 
-[sub_resource type="Resource" id="Resource_s84dp"]
+[sub_resource type="Resource" id="Resource_3txl2"]
 script = ExtResource("3_b2ra7")
 level = 7
 move = 104
 
-[sub_resource type="Resource" id="Resource_dba1a"]
+[sub_resource type="Resource" id="Resource_73u2i"]
 script = ExtResource("3_b2ra7")
 level = 10
 move = 44
 
-[sub_resource type="Resource" id="Resource_3231y"]
+[sub_resource type="Resource" id="Resource_0yoel"]
 script = ExtResource("3_b2ra7")
 level = 16
 move = 196
 
-[sub_resource type="Resource" id="Resource_pjef0"]
+[sub_resource type="Resource" id="Resource_6dyw1"]
 script = ExtResource("3_b2ra7")
 level = 19
 move = 29
 
-[sub_resource type="Resource" id="Resource_3txl2"]
+[sub_resource type="Resource" id="Resource_fb8uo"]
 script = ExtResource("3_b2ra7")
 level = 25
 move = 182
 
-[sub_resource type="Resource" id="Resource_73u2i"]
+[sub_resource type="Resource" id="Resource_femmp"]
 script = ExtResource("3_b2ra7")
 level = 28
 move = 242
 
-[sub_resource type="Resource" id="Resource_0yoel"]
+[sub_resource type="Resource" id="Resource_6ql51"]
 script = ExtResource("3_b2ra7")
 level = 34
 move = 58
 
-[sub_resource type="Resource" id="Resource_6dyw1"]
+[sub_resource type="Resource" id="Resource_2wjit"]
 script = ExtResource("3_b2ra7")
 level = 37
 move = 258
 
-[sub_resource type="Resource" id="Resource_fb8uo"]
+[sub_resource type="Resource" id="Resource_cq02u"]
 script = ExtResource("3_b2ra7")
 level = 43
 move = 59
@@ -74,6 +74,7 @@ pokedex = "They tend to move about in groups of
 around five Snorunt. In snowy regions,
 it is said that when they are seen late at
 night, snowfall will arrive by morning."
+sprite_folder = "snorunt"
 type_1 = 16
 base_hp = 50
 base_atk = 50
@@ -93,6 +94,6 @@ item_rare = 458
 height_dm = 7
 weight_hg = 168
 body_color = 7
-level_moves = Array[ExtResource("3_b2ra7")]([SubResource("Resource_agvay"), SubResource("Resource_b2ra7"), SubResource("Resource_s84dp"), SubResource("Resource_dba1a"), SubResource("Resource_3231y"), SubResource("Resource_pjef0"), SubResource("Resource_3txl2"), SubResource("Resource_73u2i"), SubResource("Resource_0yoel"), SubResource("Resource_6dyw1"), SubResource("Resource_fb8uo")])
+level_moves = Array[ExtResource("3_b2ra7")]([SubResource("Resource_3231y"), SubResource("Resource_pjef0"), SubResource("Resource_3txl2"), SubResource("Resource_73u2i"), SubResource("Resource_0yoel"), SubResource("Resource_6dyw1"), SubResource("Resource_fb8uo"), SubResource("Resource_femmp"), SubResource("Resource_6ql51"), SubResource("Resource_2wjit"), SubResource("Resource_cq02u")])
 egg_moves = Array[int]([335, 191, 205, 50, 117, 311, 419, 506, 313, 415])
-evolutions = Array[ExtResource("1_qq7q2")]([SubResource("Resource_qq7q2")])
+evolutions = Array[ExtResource("1_qq7q2")]([SubResource("Resource_dba1a")])

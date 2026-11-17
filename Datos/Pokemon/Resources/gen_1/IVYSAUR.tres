@@ -5,55 +5,55 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xcn5t"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_vpicb"]
 
-[sub_resource type="Resource" id="Resource_r5ydo"]
+[sub_resource type="Resource" id="Resource_wota7"]
 script = ExtResource("1_r5ydo")
 method = "LEVEL"
 param = "32"
 target = 3
 
-[sub_resource type="Resource" id="Resource_8138n"]
+[sub_resource type="Resource" id="Resource_relyt"]
 script = ExtResource("3_xcn5t")
 move = 33
 
-[sub_resource type="Resource" id="Resource_xcn5t"]
+[sub_resource type="Resource" id="Resource_fdufn"]
 script = ExtResource("3_xcn5t")
 move = 45
 
-[sub_resource type="Resource" id="Resource_vpicb"]
+[sub_resource type="Resource" id="Resource_ggaeg"]
 script = ExtResource("3_xcn5t")
 move = 73
 
-[sub_resource type="Resource" id="Resource_wota7"]
+[sub_resource type="Resource" id="Resource_08mph"]
 script = ExtResource("3_xcn5t")
 level = 7
 move = 73
 
-[sub_resource type="Resource" id="Resource_relyt"]
+[sub_resource type="Resource" id="Resource_ej85y"]
 script = ExtResource("3_xcn5t")
 level = 13
 move = 22
 
-[sub_resource type="Resource" id="Resource_fdufn"]
+[sub_resource type="Resource" id="Resource_hshls"]
 script = ExtResource("3_xcn5t")
 level = 22
 move = 77
 
-[sub_resource type="Resource" id="Resource_ggaeg"]
+[sub_resource type="Resource" id="Resource_4mvam"]
 script = ExtResource("3_xcn5t")
 level = 30
 move = 75
 
-[sub_resource type="Resource" id="Resource_08mph"]
+[sub_resource type="Resource" id="Resource_escol"]
 script = ExtResource("3_xcn5t")
 level = 38
 move = 74
 
-[sub_resource type="Resource" id="Resource_ej85y"]
+[sub_resource type="Resource" id="Resource_fnm8l"]
 script = ExtResource("3_xcn5t")
 level = 46
 move = 79
 
-[sub_resource type="Resource" id="Resource_hshls"]
+[sub_resource type="Resource" id="Resource_6g80o"]
 script = ExtResource("3_xcn5t")
 level = 54
 move = 76
@@ -68,6 +68,7 @@ pokedex = "To support its bulb, Ivysaur's legs
 grow sturdy. If it spends more time lying in
 the sunlight, the bud will soon bloom into
 a large flower."
+sprite_folder = "ivysaur"
 type_1 = 13
 type_2 = 4
 base_hp = 60
@@ -89,5 +90,5 @@ height_dm = 10
 weight_hg = 130
 body_color = 3
 no_flip = true
-level_moves = Array[ExtResource("3_xcn5t")]([SubResource("Resource_8138n"), SubResource("Resource_xcn5t"), SubResource("Resource_vpicb"), SubResource("Resource_wota7"), SubResource("Resource_relyt"), SubResource("Resource_fdufn"), SubResource("Resource_ggaeg"), SubResource("Resource_08mph"), SubResource("Resource_ej85y"), SubResource("Resource_hshls")])
-evolutions = Array[ExtResource("1_r5ydo")]([SubResource("Resource_r5ydo")])
+level_moves = Array[ExtResource("3_xcn5t")]([SubResource("Resource_relyt"), SubResource("Resource_fdufn"), SubResource("Resource_ggaeg"), SubResource("Resource_08mph"), SubResource("Resource_ej85y"), SubResource("Resource_hshls"), SubResource("Resource_4mvam"), SubResource("Resource_escol"), SubResource("Resource_fnm8l"), SubResource("Resource_6g80o")])
+evolutions = Array[ExtResource("1_r5ydo")]([SubResource("Resource_wota7")])

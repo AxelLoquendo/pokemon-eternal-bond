@@ -5,69 +5,69 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_en6su"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xevcq"]
 
-[sub_resource type="Resource" id="Resource_ryxso"]
+[sub_resource type="Resource" id="Resource_njvbg"]
 script = ExtResource("1_ryxso")
 method = "LEVEL"
 param = "44"
 target = 365
 
-[sub_resource type="Resource" id="Resource_8u6ju"]
+[sub_resource type="Resource" id="Resource_cet4h"]
 script = ExtResource("3_en6su")
 move = 181
 
-[sub_resource type="Resource" id="Resource_en6su"]
+[sub_resource type="Resource" id="Resource_y0h8n"]
 script = ExtResource("3_en6su")
 move = 45
 
-[sub_resource type="Resource" id="Resource_xevcq"]
+[sub_resource type="Resource" id="Resource_tt7bv"]
 script = ExtResource("3_en6su")
 move = 55
 
-[sub_resource type="Resource" id="Resource_njvbg"]
+[sub_resource type="Resource" id="Resource_8vyhj"]
 script = ExtResource("3_en6su")
 move = 227
 
-[sub_resource type="Resource" id="Resource_cet4h"]
+[sub_resource type="Resource" id="Resource_70ntx"]
 script = ExtResource("3_en6su")
 level = 7
 move = 227
 
-[sub_resource type="Resource" id="Resource_y0h8n"]
+[sub_resource type="Resource" id="Resource_sgrdf"]
 script = ExtResource("3_en6su")
 level = 13
 move = 301
 
-[sub_resource type="Resource" id="Resource_tt7bv"]
+[sub_resource type="Resource" id="Resource_m2rk4"]
 script = ExtResource("3_en6su")
 level = 19
 move = 34
 
-[sub_resource type="Resource" id="Resource_8vyhj"]
+[sub_resource type="Resource" id="Resource_xvgbo"]
 script = ExtResource("3_en6su")
 level = 25
 move = 62
 
-[sub_resource type="Resource" id="Resource_70ntx"]
+[sub_resource type="Resource" id="Resource_nkkep"]
 script = ExtResource("3_en6su")
 level = 31
 move = 258
 
-[sub_resource type="Resource" id="Resource_sgrdf"]
+[sub_resource type="Resource" id="Resource_3j76i"]
 script = ExtResource("3_en6su")
 level = 39
 move = 156
 
-[sub_resource type="Resource" id="Resource_m2rk4"]
+[sub_resource type="Resource" id="Resource_a0atj"]
 script = ExtResource("3_en6su")
 level = 39
 move = 173
 
-[sub_resource type="Resource" id="Resource_xvgbo"]
+[sub_resource type="Resource" id="Resource_w61hp"]
 script = ExtResource("3_en6su")
 level = 47
 move = 59
 
-[sub_resource type="Resource" id="Resource_nkkep"]
+[sub_resource type="Resource" id="Resource_gfv4g"]
 script = ExtResource("3_en6su")
 level = 55
 move = 329
@@ -82,6 +82,7 @@ pokedex = "Sealeo live in herds on ice floes. Using its
 powerful flippers, it shatters ice.
 It dives into the sea to hunt prey five
 times a day."
+sprite_folder = "sealeo"
 type_1 = 16
 type_2 = 12
 base_hp = 90
@@ -102,5 +103,5 @@ ability_hidden = 12
 height_dm = 11
 weight_hg = 876
 body_color = 1
-level_moves = Array[ExtResource("3_en6su")]([SubResource("Resource_8u6ju"), SubResource("Resource_en6su"), SubResource("Resource_xevcq"), SubResource("Resource_njvbg"), SubResource("Resource_cet4h"), SubResource("Resource_y0h8n"), SubResource("Resource_tt7bv"), SubResource("Resource_8vyhj"), SubResource("Resource_70ntx"), SubResource("Resource_sgrdf"), SubResource("Resource_m2rk4"), SubResource("Resource_xvgbo"), SubResource("Resource_nkkep")])
-evolutions = Array[ExtResource("1_ryxso")]([SubResource("Resource_ryxso")])
+level_moves = Array[ExtResource("3_en6su")]([SubResource("Resource_cet4h"), SubResource("Resource_y0h8n"), SubResource("Resource_tt7bv"), SubResource("Resource_8vyhj"), SubResource("Resource_70ntx"), SubResource("Resource_sgrdf"), SubResource("Resource_m2rk4"), SubResource("Resource_xvgbo"), SubResource("Resource_nkkep"), SubResource("Resource_3j76i"), SubResource("Resource_a0atj"), SubResource("Resource_w61hp"), SubResource("Resource_gfv4g")])
+evolutions = Array[ExtResource("1_ryxso")]([SubResource("Resource_njvbg")])

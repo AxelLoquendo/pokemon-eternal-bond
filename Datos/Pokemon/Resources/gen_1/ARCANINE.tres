@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_etp1e"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0l2fy"]
 
-[sub_resource type="Resource" id="Resource_4kgb3"]
+[sub_resource type="Resource" id="Resource_fdqrq"]
 script = ExtResource("3_etp1e")
 move = 46
 
-[sub_resource type="Resource" id="Resource_a48ik"]
+[sub_resource type="Resource" id="Resource_qfwfe"]
 script = ExtResource("3_etp1e")
 move = 52
 
-[sub_resource type="Resource" id="Resource_etp1e"]
+[sub_resource type="Resource" id="Resource_npnk8"]
 script = ExtResource("3_etp1e")
 move = 43
 
-[sub_resource type="Resource" id="Resource_0l2fy"]
+[sub_resource type="Resource" id="Resource_2aknt"]
 script = ExtResource("3_etp1e")
 move = 36
 
@@ -31,6 +31,7 @@ pokedex = "This fleet-footed Pokémon is said to run
 over 6,200 miles in a single day and night.
 The fire that blazes wildly within its body
 is its source of power."
+sprite_folder = "arcanine"
 type_1 = 11
 base_hp = 90
 base_atk = 110
@@ -50,5 +51,5 @@ ability_hidden = 154
 height_dm = 19
 weight_hg = 1550
 body_color = 5
-level_moves = Array[ExtResource("3_etp1e")]([SubResource("Resource_4kgb3"), SubResource("Resource_a48ik"), SubResource("Resource_etp1e"), SubResource("Resource_0l2fy")])
+level_moves = Array[ExtResource("3_etp1e")]([SubResource("Resource_fdqrq"), SubResource("Resource_qfwfe"), SubResource("Resource_npnk8"), SubResource("Resource_2aknt")])
 form_species = Array[int]([59, 994])

@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pjmlf"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_esdfm"]
 
-[sub_resource type="Resource" id="Resource_mjplg"]
+[sub_resource type="Resource" id="Resource_t2gy5"]
 script = ExtResource("1_mjplg")
 method = "LEVEL"
 param = "22"
 target = 24
 
-[sub_resource type="Resource" id="Resource_66m8b"]
+[sub_resource type="Resource" id="Resource_dpb6k"]
 script = ExtResource("3_pjmlf")
 move = 35
 
-[sub_resource type="Resource" id="Resource_pjmlf"]
+[sub_resource type="Resource" id="Resource_tqhrh"]
 script = ExtResource("3_pjmlf")
 move = 43
 
-[sub_resource type="Resource" id="Resource_esdfm"]
+[sub_resource type="Resource" id="Resource_rhqcb"]
 script = ExtResource("3_pjmlf")
 level = 10
 move = 40
 
-[sub_resource type="Resource" id="Resource_t2gy5"]
+[sub_resource type="Resource" id="Resource_hsqvh"]
 script = ExtResource("3_pjmlf")
 level = 17
 move = 44
 
-[sub_resource type="Resource" id="Resource_dpb6k"]
+[sub_resource type="Resource" id="Resource_35x0q"]
 script = ExtResource("3_pjmlf")
 level = 24
 move = 137
 
-[sub_resource type="Resource" id="Resource_tqhrh"]
+[sub_resource type="Resource" id="Resource_juswd"]
 script = ExtResource("3_pjmlf")
 level = 31
 move = 103
 
-[sub_resource type="Resource" id="Resource_rhqcb"]
+[sub_resource type="Resource" id="Resource_h34rf"]
 script = ExtResource("3_pjmlf")
 level = 38
 move = 51
@@ -54,6 +54,7 @@ pokedex = "An Ekans curls itself up in a spiral while
 it rests. This position allows it to quickly
 respond to an enemy from any direction
 with a threat from its upraised head."
+sprite_folder = "ekans"
 type_1 = 4
 base_hp = 35
 base_atk = 60
@@ -72,6 +73,6 @@ ability_hidden = 127
 height_dm = 20
 weight_hg = 69
 body_color = 6
-level_moves = Array[ExtResource("3_pjmlf")]([SubResource("Resource_66m8b"), SubResource("Resource_pjmlf"), SubResource("Resource_esdfm"), SubResource("Resource_t2gy5"), SubResource("Resource_dpb6k"), SubResource("Resource_tqhrh"), SubResource("Resource_rhqcb")])
+level_moves = Array[ExtResource("3_pjmlf")]([SubResource("Resource_dpb6k"), SubResource("Resource_tqhrh"), SubResource("Resource_rhqcb"), SubResource("Resource_hsqvh"), SubResource("Resource_35x0q"), SubResource("Resource_juswd"), SubResource("Resource_h34rf")])
 egg_moves = Array[int]([228, 21, 180, 251, 305, 184, 342, 50, 415, 231, 389, 289])
-evolutions = Array[ExtResource("1_mjplg")]([SubResource("Resource_mjplg")])
+evolutions = Array[ExtResource("1_mjplg")]([SubResource("Resource_t2gy5")])

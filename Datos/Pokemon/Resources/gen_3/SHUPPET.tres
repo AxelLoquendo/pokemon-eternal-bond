@@ -5,57 +5,57 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cp6wa"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7x4w5"]
 
-[sub_resource type="Resource" id="Resource_pmcvb"]
+[sub_resource type="Resource" id="Resource_fjvbb"]
 script = ExtResource("1_pmcvb")
 method = "LEVEL"
 param = "37"
 target = 354
 
-[sub_resource type="Resource" id="Resource_qr50i"]
+[sub_resource type="Resource" id="Resource_rwcyv"]
 script = ExtResource("3_cp6wa")
 move = 282
 
-[sub_resource type="Resource" id="Resource_cp6wa"]
+[sub_resource type="Resource" id="Resource_dqtyl"]
 script = ExtResource("3_cp6wa")
 level = 8
 move = 103
 
-[sub_resource type="Resource" id="Resource_7x4w5"]
+[sub_resource type="Resource" id="Resource_bwpff"]
 script = ExtResource("3_cp6wa")
 level = 13
 move = 101
 
-[sub_resource type="Resource" id="Resource_fjvbb"]
+[sub_resource type="Resource" id="Resource_bx4km"]
 script = ExtResource("3_cp6wa")
 level = 20
 move = 174
 
-[sub_resource type="Resource" id="Resource_rwcyv"]
+[sub_resource type="Resource" id="Resource_orgds"]
 script = ExtResource("3_cp6wa")
 level = 25
 move = 180
 
-[sub_resource type="Resource" id="Resource_dqtyl"]
+[sub_resource type="Resource" id="Resource_s7n6d"]
 script = ExtResource("3_cp6wa")
 level = 32
 move = 261
 
-[sub_resource type="Resource" id="Resource_bwpff"]
+[sub_resource type="Resource" id="Resource_krxn2"]
 script = ExtResource("3_cp6wa")
 level = 37
 move = 185
 
-[sub_resource type="Resource" id="Resource_bx4km"]
+[sub_resource type="Resource" id="Resource_ar185"]
 script = ExtResource("3_cp6wa")
 level = 44
 move = 247
 
-[sub_resource type="Resource" id="Resource_orgds"]
+[sub_resource type="Resource" id="Resource_ctamt"]
 script = ExtResource("3_cp6wa")
 level = 49
 move = 289
 
-[sub_resource type="Resource" id="Resource_s7n6d"]
+[sub_resource type="Resource" id="Resource_vb3he"]
 script = ExtResource("3_cp6wa")
 level = 56
 move = 288
@@ -70,6 +70,7 @@ pokedex = "This Pokémon roams about deep in the
 night seeking such negative emotions as
 grudges and envy. It retreats to its nest
 when the sun begins to rise."
+sprite_folder = "shuppet"
 type_1 = 8
 base_hp = 44
 base_atk = 75
@@ -91,6 +92,6 @@ item_rare = 438
 height_dm = 6
 weight_hg = 23
 body_color = 4
-level_moves = Array[ExtResource("3_cp6wa")]([SubResource("Resource_qr50i"), SubResource("Resource_cp6wa"), SubResource("Resource_7x4w5"), SubResource("Resource_fjvbb"), SubResource("Resource_rwcyv"), SubResource("Resource_dqtyl"), SubResource("Resource_bwpff"), SubResource("Resource_bx4km"), SubResource("Resource_orgds"), SubResource("Resource_s7n6d")])
+level_moves = Array[ExtResource("3_cp6wa")]([SubResource("Resource_rwcyv"), SubResource("Resource_dqtyl"), SubResource("Resource_bwpff"), SubResource("Resource_bx4km"), SubResource("Resource_orgds"), SubResource("Resource_s7n6d"), SubResource("Resource_krxn2"), SubResource("Resource_ar185"), SubResource("Resource_ctamt"), SubResource("Resource_vb3he")])
 egg_moves = Array[int]([50, 194, 193, 310, 286, 228, 425, 109, 466, 441, 566])
-evolutions = Array[ExtResource("1_pmcvb")]([SubResource("Resource_pmcvb")])
+evolutions = Array[ExtResource("1_pmcvb")]([SubResource("Resource_fjvbb")])

@@ -5,72 +5,72 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ke4xh"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_j2de8"]
 
-[sub_resource type="Resource" id="Resource_2tc51"]
+[sub_resource type="Resource" id="Resource_ja3e5"]
 script = ExtResource("1_2tc51")
 method = "LEVEL"
 param = "38"
 target = 748
 
-[sub_resource type="Resource" id="Resource_wq7d0"]
+[sub_resource type="Resource" id="Resource_p84ln"]
 script = ExtResource("3_ke4xh")
 move = 40
 
-[sub_resource type="Resource" id="Resource_ke4xh"]
+[sub_resource type="Resource" id="Resource_5ur5b"]
 script = ExtResource("3_ke4xh")
 level = 5
 move = 64
 
-[sub_resource type="Resource" id="Resource_j2de8"]
+[sub_resource type="Resource" id="Resource_65daj"]
 script = ExtResource("3_ke4xh")
 level = 9
 move = 44
 
-[sub_resource type="Resource" id="Resource_ja3e5"]
+[sub_resource type="Resource" id="Resource_hdqrm"]
 script = ExtResource("3_ke4xh")
 level = 13
 move = 390
 
-[sub_resource type="Resource" id="Resource_p84ln"]
+[sub_resource type="Resource" id="Resource_g1fdh"]
 script = ExtResource("3_ke4xh")
 level = 17
 move = 469
 
-[sub_resource type="Resource" id="Resource_5ur5b"]
+[sub_resource type="Resource" id="Resource_nb2ct"]
 script = ExtResource("3_ke4xh")
 level = 21
 move = 92
 
-[sub_resource type="Resource" id="Resource_65daj"]
+[sub_resource type="Resource" id="Resource_l1488"]
 script = ExtResource("3_ke4xh")
 level = 25
 move = 474
 
-[sub_resource type="Resource" id="Resource_hdqrm"]
+[sub_resource type="Resource" id="Resource_2l6xh"]
 script = ExtResource("3_ke4xh")
 level = 29
 move = 131
 
-[sub_resource type="Resource" id="Resource_g1fdh"]
+[sub_resource type="Resource" id="Resource_c43hq"]
 script = ExtResource("3_ke4xh")
 level = 33
 move = 105
 
-[sub_resource type="Resource" id="Resource_nb2ct"]
+[sub_resource type="Resource" id="Resource_7moku"]
 script = ExtResource("3_ke4xh")
 level = 37
 move = 398
 
-[sub_resource type="Resource" id="Resource_l1488"]
+[sub_resource type="Resource" id="Resource_stysj"]
 script = ExtResource("3_ke4xh")
 level = 41
 move = 599
 
-[sub_resource type="Resource" id="Resource_2l6xh"]
+[sub_resource type="Resource" id="Resource_nq6y8"]
 script = ExtResource("3_ke4xh")
 level = 45
 move = 42
 
-[sub_resource type="Resource" id="Resource_c43hq"]
+[sub_resource type="Resource" id="Resource_dra41"]
 script = ExtResource("3_ke4xh")
 level = 49
 move = 664
@@ -85,6 +85,7 @@ pokedex = "It's found crawling on beaches and
 seafloors. The coral that grows on
 Corsola's head is as good as a five-star
 banquet to this Pokémon."
+sprite_folder = "mareanie"
 type_1 = 4
 type_2 = 12
 base_hp = 50
@@ -104,6 +105,6 @@ item_rare = 432
 height_dm = 4
 weight_hg = 80
 body_color = 1
-level_moves = Array[ExtResource("3_ke4xh")]([SubResource("Resource_wq7d0"), SubResource("Resource_ke4xh"), SubResource("Resource_j2de8"), SubResource("Resource_ja3e5"), SubResource("Resource_p84ln"), SubResource("Resource_5ur5b"), SubResource("Resource_65daj"), SubResource("Resource_hdqrm"), SubResource("Resource_g1fdh"), SubResource("Resource_nb2ct"), SubResource("Resource_l1488"), SubResource("Resource_2l6xh"), SubResource("Resource_c43hq")])
+level_moves = Array[ExtResource("3_ke4xh")]([SubResource("Resource_p84ln"), SubResource("Resource_5ur5b"), SubResource("Resource_65daj"), SubResource("Resource_hdqrm"), SubResource("Resource_g1fdh"), SubResource("Resource_nb2ct"), SubResource("Resource_l1488"), SubResource("Resource_2l6xh"), SubResource("Resource_c43hq"), SubResource("Resource_7moku"), SubResource("Resource_stysj"), SubResource("Resource_nq6y8"), SubResource("Resource_dra41")])
 egg_moves = Array[int]([254, 256, 255, 114])
-evolutions = Array[ExtResource("1_2tc51")]([SubResource("Resource_2tc51")])
+evolutions = Array[ExtResource("1_2tc51")]([SubResource("Resource_ja3e5")])

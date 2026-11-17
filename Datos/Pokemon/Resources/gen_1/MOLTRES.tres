@@ -5,25 +5,25 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vug8m"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3hcy5"]
 
-[sub_resource type="Resource" id="Resource_upm3d"]
+[sub_resource type="Resource" id="Resource_hdvxq"]
 script = ExtResource("3_vug8m")
 move = 64
 
-[sub_resource type="Resource" id="Resource_ma0j0"]
+[sub_resource type="Resource" id="Resource_temut"]
 script = ExtResource("3_vug8m")
 move = 83
 
-[sub_resource type="Resource" id="Resource_vug8m"]
+[sub_resource type="Resource" id="Resource_mglm8"]
 script = ExtResource("3_vug8m")
 level = 51
 move = 43
 
-[sub_resource type="Resource" id="Resource_3hcy5"]
+[sub_resource type="Resource" id="Resource_g4a1q"]
 script = ExtResource("3_vug8m")
 level = 55
 move = 97
 
-[sub_resource type="Resource" id="Resource_hdvxq"]
+[sub_resource type="Resource" id="Resource_m27w1"]
 script = ExtResource("3_vug8m")
 level = 60
 move = 143
@@ -38,6 +38,7 @@ pokedex = "Moltres is a legendary bird Pokémon
 that can control fire. If injured, it is said
 to dip its body in the molten magma of
 a volcano to burn and heal itself."
+sprite_folder = "moltres"
 type_1 = 11
 type_2 = 3
 base_hp = 90
@@ -58,5 +59,5 @@ ability_hidden = 49
 height_dm = 20
 weight_hg = 600
 body_color = 2
-level_moves = Array[ExtResource("3_vug8m")]([SubResource("Resource_upm3d"), SubResource("Resource_ma0j0"), SubResource("Resource_vug8m"), SubResource("Resource_3hcy5"), SubResource("Resource_hdvxq")])
+level_moves = Array[ExtResource("3_vug8m")]([SubResource("Resource_hdvxq"), SubResource("Resource_temut"), SubResource("Resource_mglm8"), SubResource("Resource_g4a1q"), SubResource("Resource_m27w1")])
 form_species = Array[int]([146, 984])

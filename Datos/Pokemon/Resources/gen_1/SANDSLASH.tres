@@ -5,35 +5,35 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pg6vc"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_i2ubn"]
 
-[sub_resource type="Resource" id="Resource_nslg5"]
+[sub_resource type="Resource" id="Resource_a12mt"]
 script = ExtResource("3_pg6vc")
 move = 10
 
-[sub_resource type="Resource" id="Resource_u0a1p"]
+[sub_resource type="Resource" id="Resource_javri"]
 script = ExtResource("3_pg6vc")
 move = 28
 
-[sub_resource type="Resource" id="Resource_pg6vc"]
+[sub_resource type="Resource" id="Resource_xr8bc"]
 script = ExtResource("3_pg6vc")
 level = 10
 move = 28
 
-[sub_resource type="Resource" id="Resource_i2ubn"]
+[sub_resource type="Resource" id="Resource_tpqm2"]
 script = ExtResource("3_pg6vc")
 level = 17
 move = 163
 
-[sub_resource type="Resource" id="Resource_a12mt"]
+[sub_resource type="Resource" id="Resource_xo315"]
 script = ExtResource("3_pg6vc")
 level = 27
 move = 40
 
-[sub_resource type="Resource" id="Resource_javri"]
+[sub_resource type="Resource" id="Resource_8stve"]
 script = ExtResource("3_pg6vc")
 level = 36
 move = 129
 
-[sub_resource type="Resource" id="Resource_xr8bc"]
+[sub_resource type="Resource" id="Resource_tb07s"]
 script = ExtResource("3_pg6vc")
 level = 47
 move = 154
@@ -48,6 +48,7 @@ pokedex = "It curls up in a ball to protect itself from
 enemy attacks. It also curls up to prevent
 heatstroke during the daytime when
 temperatures rise sharply."
+sprite_folder = "sandslash"
 type_1 = 5
 base_hp = 75
 base_atk = 100
@@ -65,5 +66,5 @@ item_rare = 488
 height_dm = 10
 weight_hg = 295
 body_color = 2
-level_moves = Array[ExtResource("3_pg6vc")]([SubResource("Resource_nslg5"), SubResource("Resource_u0a1p"), SubResource("Resource_pg6vc"), SubResource("Resource_i2ubn"), SubResource("Resource_a12mt"), SubResource("Resource_javri"), SubResource("Resource_xr8bc")])
+level_moves = Array[ExtResource("3_pg6vc")]([SubResource("Resource_a12mt"), SubResource("Resource_javri"), SubResource("Resource_xr8bc"), SubResource("Resource_tpqm2"), SubResource("Resource_xo315"), SubResource("Resource_8stve"), SubResource("Resource_tb07s")])
 form_species = Array[int]([28, 960])

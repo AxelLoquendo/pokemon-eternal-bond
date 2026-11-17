@@ -5,51 +5,51 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ckyo0"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8o6yq"]
 
-[sub_resource type="Resource" id="Resource_2mlxc"]
+[sub_resource type="Resource" id="Resource_mmoq6"]
 script = ExtResource("1_2mlxc")
 method = "LEVEL"
 param = "22"
 target = 834
 
-[sub_resource type="Resource" id="Resource_ex0ui"]
+[sub_resource type="Resource" id="Resource_ahu4i"]
 script = ExtResource("3_ckyo0")
 move = 33
 
-[sub_resource type="Resource" id="Resource_ckyo0"]
+[sub_resource type="Resource" id="Resource_uc2y8"]
 script = ExtResource("3_ckyo0")
 move = 55
 
-[sub_resource type="Resource" id="Resource_8o6yq"]
+[sub_resource type="Resource" id="Resource_ksqp2"]
 script = ExtResource("3_ckyo0")
 level = 7
 move = 44
 
-[sub_resource type="Resource" id="Resource_mmoq6"]
+[sub_resource type="Resource" id="Resource_tv218"]
 script = ExtResource("3_ckyo0")
 level = 14
 move = 182
 
-[sub_resource type="Resource" id="Resource_ahu4i"]
+[sub_resource type="Resource" id="Resource_xhrat"]
 script = ExtResource("3_ckyo0")
 level = 21
 move = 29
 
-[sub_resource type="Resource" id="Resource_uc2y8"]
+[sub_resource type="Resource" id="Resource_wucdg"]
 script = ExtResource("3_ckyo0")
 level = 28
 move = 68
 
-[sub_resource type="Resource" id="Resource_ksqp2"]
+[sub_resource type="Resource" id="Resource_o2o5e"]
 script = ExtResource("3_ckyo0")
 level = 35
 move = 692
 
-[sub_resource type="Resource" id="Resource_tv218"]
+[sub_resource type="Resource" id="Resource_2xhw7"]
 script = ExtResource("3_ckyo0")
 level = 42
 move = 664
 
-[sub_resource type="Resource" id="Resource_xhrat"]
+[sub_resource type="Resource" id="Resource_kodqc"]
 script = ExtResource("3_ckyo0")
 level = 49
 move = 34
@@ -63,6 +63,7 @@ national_dex = 833
 pokedex = "Apparently the itch of its teething
 impels it to snap its jaws at anything
 in front of it."
+sprite_folder = "chewtle"
 type_1 = 12
 base_hp = 50
 base_atk = 64
@@ -81,6 +82,6 @@ ability_hidden = 33
 height_dm = 3
 weight_hg = 85
 body_color = 3
-level_moves = Array[ExtResource("3_ckyo0")]([SubResource("Resource_ex0ui"), SubResource("Resource_ckyo0"), SubResource("Resource_8o6yq"), SubResource("Resource_mmoq6"), SubResource("Resource_ahu4i"), SubResource("Resource_uc2y8"), SubResource("Resource_ksqp2"), SubResource("Resource_tv218"), SubResource("Resource_xhrat")])
+level_moves = Array[ExtResource("3_ckyo0")]([SubResource("Resource_ahu4i"), SubResource("Resource_uc2y8"), SubResource("Resource_ksqp2"), SubResource("Resource_tv218"), SubResource("Resource_xhrat"), SubResource("Resource_wucdg"), SubResource("Resource_o2o5e"), SubResource("Resource_2xhw7"), SubResource("Resource_kodqc")])
 egg_moves = Array[int]([130, 380, 525])
-evolutions = Array[ExtResource("1_2mlxc")]([SubResource("Resource_2mlxc")])
+evolutions = Array[ExtResource("1_2mlxc")]([SubResource("Resource_mmoq6")])

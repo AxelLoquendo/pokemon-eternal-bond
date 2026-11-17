@@ -5,60 +5,60 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ftigg"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_107n7"]
 
-[sub_resource type="Resource" id="Resource_61btv"]
+[sub_resource type="Resource" id="Resource_13huq"]
 script = ExtResource("3_ftigg")
 move = 33
 
-[sub_resource type="Resource" id="Resource_c5bq0"]
+[sub_resource type="Resource" id="Resource_mvp3y"]
 script = ExtResource("3_ftigg")
 move = 74
 
-[sub_resource type="Resource" id="Resource_ftigg"]
+[sub_resource type="Resource" id="Resource_6wyws"]
 script = ExtResource("3_ftigg")
 level = 7
 move = 74
 
-[sub_resource type="Resource" id="Resource_107n7"]
+[sub_resource type="Resource" id="Resource_0sah0"]
 script = ExtResource("3_ftigg")
 level = 10
 move = 73
 
-[sub_resource type="Resource" id="Resource_13huq"]
+[sub_resource type="Resource" id="Resource_6d73b"]
 script = ExtResource("3_ftigg")
 level = 13
 move = 270
 
-[sub_resource type="Resource" id="Resource_mvp3y"]
+[sub_resource type="Resource" id="Resource_hvcdy"]
 script = ExtResource("3_ftigg")
 level = 19
 move = 345
 
-[sub_resource type="Resource" id="Resource_6wyws"]
+[sub_resource type="Resource" id="Resource_jccho"]
 script = ExtResource("3_ftigg")
 level = 22
 move = 241
 
-[sub_resource type="Resource" id="Resource_0sah0"]
+[sub_resource type="Resource" id="Resource_e8rdj"]
 script = ExtResource("3_ftigg")
 level = 25
 move = 80
 
-[sub_resource type="Resource" id="Resource_6d73b"]
+[sub_resource type="Resource" id="Resource_j2ip3"]
 script = ExtResource("3_ftigg")
 level = 30
 move = 388
 
-[sub_resource type="Resource" id="Resource_hvcdy"]
+[sub_resource type="Resource" id="Resource_uv3hf"]
 script = ExtResource("3_ftigg")
 level = 35
 move = 36
 
-[sub_resource type="Resource" id="Resource_jccho"]
+[sub_resource type="Resource" id="Resource_xvhkg"]
 script = ExtResource("3_ftigg")
 level = 43
 move = 76
 
-[sub_resource type="Resource" id="Resource_e8rdj"]
+[sub_resource type="Resource" id="Resource_i35bv"]
 script = ExtResource("3_ftigg")
 level = 48
 move = 381
@@ -73,6 +73,7 @@ pokedex = "Cherrim takes this form on sunny days.
 Its faint scent entices bug Pokémon to it.
 It immediately closes its petals and
 becomes immobile once the sun hides."
+sprite_folder = "cherrim/sunshine"
 type_1 = 13
 base_hp = 70
 base_atk = 60
@@ -90,5 +91,5 @@ item_rare = 429
 height_dm = 5
 weight_hg = 93
 body_color = 9
-level_moves = Array[ExtResource("3_ftigg")]([SubResource("Resource_61btv"), SubResource("Resource_c5bq0"), SubResource("Resource_ftigg"), SubResource("Resource_107n7"), SubResource("Resource_13huq"), SubResource("Resource_mvp3y"), SubResource("Resource_6wyws"), SubResource("Resource_0sah0"), SubResource("Resource_6d73b"), SubResource("Resource_hvcdy"), SubResource("Resource_jccho"), SubResource("Resource_e8rdj")])
+level_moves = Array[ExtResource("3_ftigg")]([SubResource("Resource_13huq"), SubResource("Resource_mvp3y"), SubResource("Resource_6wyws"), SubResource("Resource_0sah0"), SubResource("Resource_6d73b"), SubResource("Resource_hvcdy"), SubResource("Resource_jccho"), SubResource("Resource_e8rdj"), SubResource("Resource_j2ip3"), SubResource("Resource_uv3hf"), SubResource("Resource_xvhkg"), SubResource("Resource_i35bv")])
 form_species = Array[int]([421, 1061])

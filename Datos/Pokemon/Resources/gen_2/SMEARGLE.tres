@@ -5,51 +5,51 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qwgy2"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_n6lvg"]
 
-[sub_resource type="Resource" id="Resource_kykfh"]
-script = ExtResource("3_qwgy2")
-move = 166
-
-[sub_resource type="Resource" id="Resource_5lv4x"]
-script = ExtResource("3_qwgy2")
-level = 11
-move = 166
-
-[sub_resource type="Resource" id="Resource_qwgy2"]
-script = ExtResource("3_qwgy2")
-level = 21
-move = 166
-
-[sub_resource type="Resource" id="Resource_n6lvg"]
-script = ExtResource("3_qwgy2")
-level = 31
-move = 166
-
 [sub_resource type="Resource" id="Resource_8mnyj"]
 script = ExtResource("3_qwgy2")
-level = 41
 move = 166
 
 [sub_resource type="Resource" id="Resource_agwkg"]
 script = ExtResource("3_qwgy2")
-level = 51
+level = 11
 move = 166
 
 [sub_resource type="Resource" id="Resource_8iimp"]
 script = ExtResource("3_qwgy2")
-level = 61
+level = 21
 move = 166
 
 [sub_resource type="Resource" id="Resource_hbfcr"]
 script = ExtResource("3_qwgy2")
-level = 71
+level = 31
 move = 166
 
 [sub_resource type="Resource" id="Resource_lylyb"]
 script = ExtResource("3_qwgy2")
-level = 81
+level = 41
 move = 166
 
 [sub_resource type="Resource" id="Resource_tew8u"]
+script = ExtResource("3_qwgy2")
+level = 51
+move = 166
+
+[sub_resource type="Resource" id="Resource_1n8hb"]
+script = ExtResource("3_qwgy2")
+level = 61
+move = 166
+
+[sub_resource type="Resource" id="Resource_jn3jf"]
+script = ExtResource("3_qwgy2")
+level = 71
+move = 166
+
+[sub_resource type="Resource" id="Resource_06bd6"]
+script = ExtResource("3_qwgy2")
+level = 81
+move = 166
+
+[sub_resource type="Resource" id="Resource_cu4hc"]
 script = ExtResource("3_qwgy2")
 level = 91
 move = 166
@@ -64,6 +64,7 @@ pokedex = "A Smeargle marks its territory using a
 fluid that leaks out from the tip of its
 tail. About 5,000 different marks left by
 this Pokémon have been found."
+sprite_folder = "smeargle"
 type_1 = 1
 base_hp = 55
 base_atk = 20
@@ -82,4 +83,4 @@ height_dm = 12
 weight_hg = 580
 body_color = 8
 no_flip = true
-level_moves = Array[ExtResource("3_qwgy2")]([SubResource("Resource_kykfh"), SubResource("Resource_5lv4x"), SubResource("Resource_qwgy2"), SubResource("Resource_n6lvg"), SubResource("Resource_8mnyj"), SubResource("Resource_agwkg"), SubResource("Resource_8iimp"), SubResource("Resource_hbfcr"), SubResource("Resource_lylyb"), SubResource("Resource_tew8u")])
+level_moves = Array[ExtResource("3_qwgy2")]([SubResource("Resource_8mnyj"), SubResource("Resource_agwkg"), SubResource("Resource_8iimp"), SubResource("Resource_hbfcr"), SubResource("Resource_lylyb"), SubResource("Resource_tew8u"), SubResource("Resource_1n8hb"), SubResource("Resource_jn3jf"), SubResource("Resource_06bd6"), SubResource("Resource_cu4hc")])

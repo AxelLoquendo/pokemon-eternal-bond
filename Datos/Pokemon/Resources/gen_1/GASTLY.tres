@@ -5,30 +5,30 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vsyvu"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_rtpwk"]
 
-[sub_resource type="Resource" id="Resource_4eajv"]
+[sub_resource type="Resource" id="Resource_l6q6w"]
 script = ExtResource("1_4eajv")
 method = "LEVEL"
 param = "25"
 target = 93
 
-[sub_resource type="Resource" id="Resource_wb4d5"]
+[sub_resource type="Resource" id="Resource_ar6ry"]
 script = ExtResource("3_vsyvu")
 move = 122
 
-[sub_resource type="Resource" id="Resource_vsyvu"]
+[sub_resource type="Resource" id="Resource_bjjjs"]
 script = ExtResource("3_vsyvu")
 move = 109
 
-[sub_resource type="Resource" id="Resource_rtpwk"]
+[sub_resource type="Resource" id="Resource_ojtyp"]
 script = ExtResource("3_vsyvu")
 move = 101
 
-[sub_resource type="Resource" id="Resource_l6q6w"]
+[sub_resource type="Resource" id="Resource_6iwux"]
 script = ExtResource("3_vsyvu")
 level = 27
 move = 95
 
-[sub_resource type="Resource" id="Resource_ar6ry"]
+[sub_resource type="Resource" id="Resource_pye07"]
 script = ExtResource("3_vsyvu")
 level = 35
 move = 138
@@ -43,6 +43,7 @@ pokedex = "When exposed to a strong wind, a Gastly's
 gaseous body quickly dwindles away.
 They cluster under the eaves of houses
 to escape the ravages of wind."
+sprite_folder = "gastly"
 type_1 = 8
 type_2 = 4
 base_hp = 30
@@ -60,6 +61,6 @@ ability_1 = 26
 height_dm = 13
 weight_hg = 1
 body_color = 6
-level_moves = Array[ExtResource("3_vsyvu")]([SubResource("Resource_wb4d5"), SubResource("Resource_vsyvu"), SubResource("Resource_rtpwk"), SubResource("Resource_l6q6w"), SubResource("Resource_ar6ry")])
+level_moves = Array[ExtResource("3_vsyvu")]([SubResource("Resource_ar6ry"), SubResource("Resource_bjjjs"), SubResource("Resource_ojtyp"), SubResource("Resource_6iwux"), SubResource("Resource_pye07")])
 egg_moves = Array[int]([149, 195, 114, 310, 288, 7, 8, 9, 50, 184, 499, 123, 513])
-evolutions = Array[ExtResource("1_4eajv")]([SubResource("Resource_4eajv")])
+evolutions = Array[ExtResource("1_4eajv")]([SubResource("Resource_l6q6w")])

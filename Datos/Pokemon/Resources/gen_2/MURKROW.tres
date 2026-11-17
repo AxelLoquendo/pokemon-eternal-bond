@@ -5,37 +5,37 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nap63"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_yr3wb"]
 
-[sub_resource type="Resource" id="Resource_sbike"]
+[sub_resource type="Resource" id="Resource_xk2fr"]
 script = ExtResource("1_sbike")
 method = "ITEM"
 param = "ITEM_DUSK_STONE"
 target = 430
 
-[sub_resource type="Resource" id="Resource_6urvd"]
+[sub_resource type="Resource" id="Resource_o4ixi"]
 script = ExtResource("3_nap63")
 move = 64
 
-[sub_resource type="Resource" id="Resource_nap63"]
+[sub_resource type="Resource" id="Resource_3u0m0"]
 script = ExtResource("3_nap63")
 level = 11
 move = 228
 
-[sub_resource type="Resource" id="Resource_yr3wb"]
+[sub_resource type="Resource" id="Resource_sktdn"]
 script = ExtResource("3_nap63")
 level = 16
 move = 114
 
-[sub_resource type="Resource" id="Resource_xk2fr"]
+[sub_resource type="Resource" id="Resource_4vqw8"]
 script = ExtResource("3_nap63")
 level = 26
 move = 101
 
-[sub_resource type="Resource" id="Resource_o4ixi"]
+[sub_resource type="Resource" id="Resource_5hbnc"]
 script = ExtResource("3_nap63")
 level = 31
 move = 185
 
-[sub_resource type="Resource" id="Resource_3u0m0"]
+[sub_resource type="Resource" id="Resource_yrxdh"]
 script = ExtResource("3_nap63")
 level = 41
 move = 212
@@ -50,6 +50,7 @@ pokedex = "Murkrow were feared as the alleged
 bearers of ill fortune. It shows strong
 interest in anything that sparkles. It will
 even try to steal rings from women."
+sprite_folder = "murkrow"
 type_1 = 18
 type_2 = 3
 base_hp = 60
@@ -70,6 +71,6 @@ ability_hidden = 158
 height_dm = 5
 weight_hg = 21
 body_color = 4
-level_moves = Array[ExtResource("3_nap63")]([SubResource("Resource_6urvd"), SubResource("Resource_nap63"), SubResource("Resource_yr3wb"), SubResource("Resource_xk2fr"), SubResource("Resource_o4ixi"), SubResource("Resource_3u0m0")])
+level_moves = Array[ExtResource("3_nap63")]([SubResource("Resource_o4ixi"), SubResource("Resource_3u0m0"), SubResource("Resource_sktdn"), SubResource("Resource_4vqw8"), SubResource("Resource_5hbnc"), SubResource("Resource_yrxdh")])
 egg_moves = Array[int]([18, 65, 119, 17, 143, 109, 297, 195, 375, 103, 185, 413, 355, 372, 260, 386])
-evolutions = Array[ExtResource("1_sbike")]([SubResource("Resource_sbike")])
+evolutions = Array[ExtResource("1_sbike")]([SubResource("Resource_xk2fr")])

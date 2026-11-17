@@ -5,37 +5,37 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ht133"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8q3b1"]
 
-[sub_resource type="Resource" id="Resource_tb7ws"]
+[sub_resource type="Resource" id="Resource_o5x87"]
 script = ExtResource("1_tb7ws")
 method = "LEVEL"
 param = "24"
 target = 47
 
-[sub_resource type="Resource" id="Resource_hv4f7"]
+[sub_resource type="Resource" id="Resource_8l7ei"]
 script = ExtResource("3_ht133")
 move = 10
 
-[sub_resource type="Resource" id="Resource_ht133"]
+[sub_resource type="Resource" id="Resource_3b180"]
 script = ExtResource("3_ht133")
 level = 13
 move = 78
 
-[sub_resource type="Resource" id="Resource_8q3b1"]
+[sub_resource type="Resource" id="Resource_5e7jk"]
 script = ExtResource("3_ht133")
 level = 20
 move = 141
 
-[sub_resource type="Resource" id="Resource_o5x87"]
+[sub_resource type="Resource" id="Resource_fnfb3"]
 script = ExtResource("3_ht133")
 level = 27
 move = 147
 
-[sub_resource type="Resource" id="Resource_8l7ei"]
+[sub_resource type="Resource" id="Resource_js36w"]
 script = ExtResource("3_ht133")
 level = 34
 move = 163
 
-[sub_resource type="Resource" id="Resource_3b180"]
+[sub_resource type="Resource" id="Resource_7o6s7"]
 script = ExtResource("3_ht133")
 level = 41
 move = 74
@@ -50,6 +50,7 @@ pokedex = "A Paras has parasitic tochukaso
 mushrooms growing on its back. They grow
 by drawing nutrients from the host. They
 are valued as a medicine for long life."
+sprite_folder = "paras"
 type_1 = 7
 type_2 = 13
 base_hp = 35
@@ -70,6 +71,6 @@ item_common = 137
 item_rare = 138
 height_dm = 3
 weight_hg = 54
-level_moves = Array[ExtResource("3_ht133")]([SubResource("Resource_hv4f7"), SubResource("Resource_ht133"), SubResource("Resource_8q3b1"), SubResource("Resource_o5x87"), SubResource("Resource_8l7ei"), SubResource("Resource_3b180")])
+level_moves = Array[ExtResource("3_ht133")]([SubResource("Resource_8l7ei"), SubResource("Resource_3b180"), SubResource("Resource_5e7jk"), SubResource("Resource_fnfb3"), SubResource("Resource_js36w"), SubResource("Resource_7o6s7")])
 egg_moves = Array[int]([103, 68, 60, 175, 230, 228, 232, 450, 440, 97, 203, 363, 73, 469, 563, 565, 580])
-evolutions = Array[ExtResource("1_tb7ws")]([SubResource("Resource_tb7ws")])
+evolutions = Array[ExtResource("1_tb7ws")]([SubResource("Resource_o5x87")])

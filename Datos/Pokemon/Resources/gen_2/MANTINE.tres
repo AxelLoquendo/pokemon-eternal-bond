@@ -5,40 +5,40 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bg10g"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_521pw"]
 
-[sub_resource type="Resource" id="Resource_0xhci"]
+[sub_resource type="Resource" id="Resource_rnfkk"]
 script = ExtResource("3_bg10g")
 move = 33
 
-[sub_resource type="Resource" id="Resource_rfpiu"]
+[sub_resource type="Resource" id="Resource_h041p"]
 script = ExtResource("3_bg10g")
 move = 145
 
-[sub_resource type="Resource" id="Resource_bg10g"]
+[sub_resource type="Resource" id="Resource_wlvvy"]
 script = ExtResource("3_bg10g")
 level = 10
 move = 48
 
-[sub_resource type="Resource" id="Resource_521pw"]
+[sub_resource type="Resource" id="Resource_q0cua"]
 script = ExtResource("3_bg10g")
 level = 18
 move = 61
 
-[sub_resource type="Resource" id="Resource_rnfkk"]
+[sub_resource type="Resource" id="Resource_4qsap"]
 script = ExtResource("3_bg10g")
 level = 25
 move = 36
 
-[sub_resource type="Resource" id="Resource_h041p"]
+[sub_resource type="Resource" id="Resource_w2llk"]
 script = ExtResource("3_bg10g")
 level = 32
 move = 97
 
-[sub_resource type="Resource" id="Resource_wlvvy"]
+[sub_resource type="Resource" id="Resource_s8bxj"]
 script = ExtResource("3_bg10g")
 level = 40
 move = 17
 
-[sub_resource type="Resource" id="Resource_q0cua"]
+[sub_resource type="Resource" id="Resource_ynh5f"]
 script = ExtResource("3_bg10g")
 level = 49
 move = 109
@@ -53,6 +53,7 @@ pokedex = "On sunny days, schools of Mantine can be
 seen elegantly leaping over the waves.
 It is not bothered by the Remoraid that
 hitches rides."
+sprite_folder = "mantine"
 type_1 = 12
 type_2 = 3
 base_hp = 85
@@ -73,5 +74,5 @@ ability_hidden = 41
 height_dm = 21
 weight_hg = 2200
 body_color = 6
-level_moves = Array[ExtResource("3_bg10g")]([SubResource("Resource_0xhci"), SubResource("Resource_rfpiu"), SubResource("Resource_bg10g"), SubResource("Resource_521pw"), SubResource("Resource_rnfkk"), SubResource("Resource_h041p"), SubResource("Resource_wlvvy"), SubResource("Resource_q0cua")])
+level_moves = Array[ExtResource("3_bg10g")]([SubResource("Resource_rnfkk"), SubResource("Resource_h041p"), SubResource("Resource_wlvvy"), SubResource("Resource_q0cua"), SubResource("Resource_4qsap"), SubResource("Resource_w2llk"), SubResource("Resource_s8bxj"), SubResource("Resource_ynh5f")])
 egg_moves = Array[int]([239, 56, 114, 21, 300, 243, 346, 150, 469, 133])

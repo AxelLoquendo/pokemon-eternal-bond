@@ -5,48 +5,48 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_q6r7v"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_miodr"]
 
-[sub_resource type="Resource" id="Resource_s2h1h"]
+[sub_resource type="Resource" id="Resource_njqqu"]
 script = ExtResource("1_s2h1h")
 method = "LEVEL"
 param = "37"
 target = 80
 
-[sub_resource type="Resource" id="Resource_q8hsb"]
+[sub_resource type="Resource" id="Resource_4vluj"]
 script = ExtResource("1_s2h1h")
 method = "ITEM"
 param = "ITEM_KINGS_ROCK"
 target = 199
 
-[sub_resource type="Resource" id="Resource_q6r7v"]
+[sub_resource type="Resource" id="Resource_i81yb"]
 script = ExtResource("3_q6r7v")
 move = 93
 
-[sub_resource type="Resource" id="Resource_miodr"]
+[sub_resource type="Resource" id="Resource_52rn1"]
 script = ExtResource("3_q6r7v")
 level = 18
 move = 50
 
-[sub_resource type="Resource" id="Resource_njqqu"]
+[sub_resource type="Resource" id="Resource_xrv0l"]
 script = ExtResource("3_q6r7v")
 level = 22
 move = 29
 
-[sub_resource type="Resource" id="Resource_4vluj"]
+[sub_resource type="Resource" id="Resource_1f537"]
 script = ExtResource("3_q6r7v")
 level = 27
 move = 45
 
-[sub_resource type="Resource" id="Resource_i81yb"]
+[sub_resource type="Resource" id="Resource_2y3tv"]
 script = ExtResource("3_q6r7v")
 level = 33
 move = 55
 
-[sub_resource type="Resource" id="Resource_52rn1"]
+[sub_resource type="Resource" id="Resource_jcjk4"]
 script = ExtResource("3_q6r7v")
 level = 40
 move = 133
 
-[sub_resource type="Resource" id="Resource_xrv0l"]
+[sub_resource type="Resource" id="Resource_5elk7"]
 script = ExtResource("3_q6r7v")
 level = 48
 move = 94
@@ -61,6 +61,7 @@ pokedex = "It catches prey by dipping its tail in
 water at the side of a river. But it often
 forgets what it is doing and spends entire
 days just loafing at water's edge."
+sprite_folder = "slowpoke"
 type_1 = 12
 type_2 = 15
 base_hp = 90
@@ -81,7 +82,7 @@ item_rare = 485
 height_dm = 12
 weight_hg = 360
 body_color = 9
-level_moves = Array[ExtResource("3_q6r7v")]([SubResource("Resource_q6r7v"), SubResource("Resource_miodr"), SubResource("Resource_njqqu"), SubResource("Resource_4vluj"), SubResource("Resource_i81yb"), SubResource("Resource_52rn1"), SubResource("Resource_xrv0l")])
+level_moves = Array[ExtResource("3_q6r7v")]([SubResource("Resource_i81yb"), SubResource("Resource_52rn1"), SubResource("Resource_xrv0l"), SubResource("Resource_1f537"), SubResource("Resource_2y3tv"), SubResource("Resource_jcjk4"), SubResource("Resource_5elk7")])
 egg_moves = Array[int]([187, 248, 23, 300, 214, 173, 382, 335, 428, 472, 562])
-evolutions = Array[ExtResource("1_s2h1h")]([SubResource("Resource_s2h1h"), SubResource("Resource_q8hsb")])
+evolutions = Array[ExtResource("1_s2h1h")]([SubResource("Resource_njqqu"), SubResource("Resource_4vluj")])
 form_species = Array[int]([79, 977])

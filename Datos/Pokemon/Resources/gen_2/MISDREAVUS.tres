@@ -5,46 +5,46 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_nx4e5"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_o8pxv"]
 
-[sub_resource type="Resource" id="Resource_qw8r1"]
+[sub_resource type="Resource" id="Resource_h18tu"]
 script = ExtResource("1_qw8r1")
 method = "ITEM"
 param = "ITEM_DUSK_STONE"
 target = 429
 
-[sub_resource type="Resource" id="Resource_lyli1"]
+[sub_resource type="Resource" id="Resource_yt2au"]
 script = ExtResource("3_nx4e5")
 move = 45
 
-[sub_resource type="Resource" id="Resource_nx4e5"]
+[sub_resource type="Resource" id="Resource_7k51o"]
 script = ExtResource("3_nx4e5")
 move = 149
 
-[sub_resource type="Resource" id="Resource_o8pxv"]
+[sub_resource type="Resource" id="Resource_c1cud"]
 script = ExtResource("3_nx4e5")
 level = 6
 move = 180
 
-[sub_resource type="Resource" id="Resource_h18tu"]
+[sub_resource type="Resource" id="Resource_qame8"]
 script = ExtResource("3_nx4e5")
 level = 12
 move = 109
 
-[sub_resource type="Resource" id="Resource_yt2au"]
+[sub_resource type="Resource" id="Resource_vw2p3"]
 script = ExtResource("3_nx4e5")
 level = 19
 move = 212
 
-[sub_resource type="Resource" id="Resource_7k51o"]
+[sub_resource type="Resource" id="Resource_ofh1q"]
 script = ExtResource("3_nx4e5")
 level = 27
 move = 60
 
-[sub_resource type="Resource" id="Resource_c1cud"]
+[sub_resource type="Resource" id="Resource_53e37"]
 script = ExtResource("3_nx4e5")
 level = 36
 move = 220
 
-[sub_resource type="Resource" id="Resource_qame8"]
+[sub_resource type="Resource" id="Resource_p1qu0"]
 script = ExtResource("3_nx4e5")
 level = 46
 move = 195
@@ -59,6 +59,7 @@ pokedex = "A Misdreavus frightens people with a
 creepy, sobbing cry. It apparently uses
 its red spheres to absorb the fear of foes
 as its nutrition."
+sprite_folder = "misdreavus"
 type_1 = 8
 base_hp = 60
 base_atk = 60
@@ -76,6 +77,6 @@ ability_1 = 26
 height_dm = 7
 weight_hg = 10
 body_color = 7
-level_moves = Array[ExtResource("3_nx4e5")]([SubResource("Resource_lyli1"), SubResource("Resource_nx4e5"), SubResource("Resource_o8pxv"), SubResource("Resource_h18tu"), SubResource("Resource_yt2au"), SubResource("Resource_7k51o"), SubResource("Resource_c1cud"), SubResource("Resource_qame8")])
+level_moves = Array[ExtResource("3_nx4e5")]([SubResource("Resource_yt2au"), SubResource("Resource_7k51o"), SubResource("Resource_c1cud"), SubResource("Resource_qame8"), SubResource("Resource_vw2p3"), SubResource("Resource_ofh1q"), SubResource("Resource_53e37"), SubResource("Resource_p1qu0")])
 egg_moves = Array[int]([103, 194, 286, 262, 389, 425, 174, 180, 466, 417, 285, 472, 382])
-evolutions = Array[ExtResource("1_qw8r1")]([SubResource("Resource_qw8r1")])
+evolutions = Array[ExtResource("1_qw8r1")]([SubResource("Resource_h18tu")])

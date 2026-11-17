@@ -5,59 +5,59 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2a73l"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8tb5d"]
 
-[sub_resource type="Resource" id="Resource_c3qaw"]
+[sub_resource type="Resource" id="Resource_5epnh"]
 script = ExtResource("1_c3qaw")
 method = "LEVEL"
 param = "35"
 target = 818
 
-[sub_resource type="Resource" id="Resource_5c0ow"]
+[sub_resource type="Resource" id="Resource_lltce"]
 script = ExtResource("3_2a73l")
 move = 1
 
-[sub_resource type="Resource" id="Resource_2a73l"]
+[sub_resource type="Resource" id="Resource_rur2t"]
 script = ExtResource("3_2a73l")
 move = 45
 
-[sub_resource type="Resource" id="Resource_8tb5d"]
+[sub_resource type="Resource" id="Resource_0qeis"]
 script = ExtResource("3_2a73l")
 move = 55
 
-[sub_resource type="Resource" id="Resource_5epnh"]
+[sub_resource type="Resource" id="Resource_8hydm"]
 script = ExtResource("3_2a73l")
 move = 20
 
-[sub_resource type="Resource" id="Resource_lltce"]
+[sub_resource type="Resource" id="Resource_jgl0m"]
 script = ExtResource("3_2a73l")
 level = 12
 move = 352
 
-[sub_resource type="Resource" id="Resource_rur2t"]
+[sub_resource type="Resource" id="Resource_54t3e"]
 script = ExtResource("3_2a73l")
 level = 19
 move = 669
 
-[sub_resource type="Resource" id="Resource_0qeis"]
+[sub_resource type="Resource" id="Resource_uoqbq"]
 script = ExtResource("3_2a73l")
 level = 24
 move = 389
 
-[sub_resource type="Resource" id="Resource_8hydm"]
+[sub_resource type="Resource" id="Resource_sxqp0"]
 script = ExtResource("3_2a73l")
 level = 30
 move = 369
 
-[sub_resource type="Resource" id="Resource_jgl0m"]
+[sub_resource type="Resource" id="Resource_7ukmx"]
 script = ExtResource("3_2a73l")
 level = 36
 move = 664
 
-[sub_resource type="Resource" id="Resource_54t3e"]
+[sub_resource type="Resource" id="Resource_71lm4"]
 script = ExtResource("3_2a73l")
 level = 42
 move = 487
 
-[sub_resource type="Resource" id="Resource_uoqbq"]
+[sub_resource type="Resource" id="Resource_nbodl"]
 script = ExtResource("3_2a73l")
 level = 48
 move = 240
@@ -71,6 +71,7 @@ national_dex = 817
 pokedex = "A clever combatant, this Pokémon battles
 using water balloons created with
 moisture secreted from its palms."
+sprite_folder = "drizzile"
 type_1 = 12
 base_hp = 65
 base_atk = 60
@@ -89,5 +90,5 @@ ability_hidden = 97
 height_dm = 7
 weight_hg = 115
 body_color = 1
-level_moves = Array[ExtResource("3_2a73l")]([SubResource("Resource_5c0ow"), SubResource("Resource_2a73l"), SubResource("Resource_8tb5d"), SubResource("Resource_5epnh"), SubResource("Resource_lltce"), SubResource("Resource_rur2t"), SubResource("Resource_0qeis"), SubResource("Resource_8hydm"), SubResource("Resource_jgl0m"), SubResource("Resource_54t3e"), SubResource("Resource_uoqbq")])
-evolutions = Array[ExtResource("1_c3qaw")]([SubResource("Resource_c3qaw")])
+level_moves = Array[ExtResource("3_2a73l")]([SubResource("Resource_lltce"), SubResource("Resource_rur2t"), SubResource("Resource_0qeis"), SubResource("Resource_8hydm"), SubResource("Resource_jgl0m"), SubResource("Resource_54t3e"), SubResource("Resource_uoqbq"), SubResource("Resource_sxqp0"), SubResource("Resource_7ukmx"), SubResource("Resource_71lm4"), SubResource("Resource_nbodl")])
+evolutions = Array[ExtResource("1_c3qaw")]([SubResource("Resource_5epnh")])

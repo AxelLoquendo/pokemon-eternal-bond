@@ -5,57 +5,57 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_twf5l"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_c6l55"]
 
-[sub_resource type="Resource" id="Resource_do7e2"]
+[sub_resource type="Resource" id="Resource_70pm7"]
 script = ExtResource("1_do7e2")
 method = "LEVEL"
 param = "45"
 target = 376
 
-[sub_resource type="Resource" id="Resource_4v0vp"]
+[sub_resource type="Resource" id="Resource_aw6xj"]
 script = ExtResource("3_twf5l")
 move = 36
 
-[sub_resource type="Resource" id="Resource_twf5l"]
+[sub_resource type="Resource" id="Resource_f2mwu"]
 script = ExtResource("3_twf5l")
 level = 20
 move = 93
 
-[sub_resource type="Resource" id="Resource_c6l55"]
+[sub_resource type="Resource" id="Resource_fl76p"]
 script = ExtResource("3_twf5l")
 level = 20
 move = 232
 
-[sub_resource type="Resource" id="Resource_70pm7"]
+[sub_resource type="Resource" id="Resource_ms3rd"]
 script = ExtResource("3_twf5l")
 level = 26
 move = 184
 
-[sub_resource type="Resource" id="Resource_aw6xj"]
+[sub_resource type="Resource" id="Resource_0284h"]
 script = ExtResource("3_twf5l")
 level = 32
 move = 228
 
-[sub_resource type="Resource" id="Resource_f2mwu"]
+[sub_resource type="Resource" id="Resource_iioo8"]
 script = ExtResource("3_twf5l")
 level = 38
 move = 94
 
-[sub_resource type="Resource" id="Resource_fl76p"]
+[sub_resource type="Resource" id="Resource_bty74"]
 script = ExtResource("3_twf5l")
 level = 44
 move = 334
 
-[sub_resource type="Resource" id="Resource_ms3rd"]
+[sub_resource type="Resource" id="Resource_4k17s"]
 script = ExtResource("3_twf5l")
 level = 50
 move = 309
 
-[sub_resource type="Resource" id="Resource_0284h"]
+[sub_resource type="Resource" id="Resource_v6ct8"]
 script = ExtResource("3_twf5l")
 level = 56
 move = 97
 
-[sub_resource type="Resource" id="Resource_iioo8"]
+[sub_resource type="Resource" id="Resource_cka3k"]
 script = ExtResource("3_twf5l")
 level = 62
 move = 63
@@ -70,6 +70,7 @@ pokedex = "The claws tipping its arms pack the
 destructive power to tear through thick
 iron sheets as if they were silk. It flies
 at over 60 miles per hour."
+sprite_folder = "metang"
 type_1 = 9
 type_2 = 15
 base_hp = 60
@@ -92,5 +93,5 @@ item_rare = 441
 height_dm = 12
 weight_hg = 2025
 body_color = 1
-level_moves = Array[ExtResource("3_twf5l")]([SubResource("Resource_4v0vp"), SubResource("Resource_twf5l"), SubResource("Resource_c6l55"), SubResource("Resource_70pm7"), SubResource("Resource_aw6xj"), SubResource("Resource_f2mwu"), SubResource("Resource_fl76p"), SubResource("Resource_ms3rd"), SubResource("Resource_0284h"), SubResource("Resource_iioo8")])
-evolutions = Array[ExtResource("1_do7e2")]([SubResource("Resource_do7e2")])
+level_moves = Array[ExtResource("3_twf5l")]([SubResource("Resource_aw6xj"), SubResource("Resource_f2mwu"), SubResource("Resource_fl76p"), SubResource("Resource_ms3rd"), SubResource("Resource_0284h"), SubResource("Resource_iioo8"), SubResource("Resource_bty74"), SubResource("Resource_4k17s"), SubResource("Resource_v6ct8"), SubResource("Resource_cka3k")])
+evolutions = Array[ExtResource("1_do7e2")]([SubResource("Resource_70pm7")])

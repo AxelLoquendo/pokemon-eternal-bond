@@ -5,45 +5,45 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0vgv1"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_6xevl"]
 
-[sub_resource type="Resource" id="Resource_mmd0v"]
+[sub_resource type="Resource" id="Resource_m5168"]
 script = ExtResource("1_mmd0v")
 method = "LEVEL"
 param = "55"
 target = 149
 
-[sub_resource type="Resource" id="Resource_but2l"]
+[sub_resource type="Resource" id="Resource_mekki"]
 script = ExtResource("3_0vgv1")
 move = 35
 
-[sub_resource type="Resource" id="Resource_0vgv1"]
+[sub_resource type="Resource" id="Resource_isftu"]
 script = ExtResource("3_0vgv1")
 move = 43
 
-[sub_resource type="Resource" id="Resource_6xevl"]
+[sub_resource type="Resource" id="Resource_ct6xp"]
 script = ExtResource("3_0vgv1")
 move = 86
 
-[sub_resource type="Resource" id="Resource_m5168"]
+[sub_resource type="Resource" id="Resource_6358d"]
 script = ExtResource("3_0vgv1")
 level = 10
 move = 86
 
-[sub_resource type="Resource" id="Resource_mekki"]
+[sub_resource type="Resource" id="Resource_gks1p"]
 script = ExtResource("3_0vgv1")
 level = 20
 move = 97
 
-[sub_resource type="Resource" id="Resource_isftu"]
+[sub_resource type="Resource" id="Resource_xcmxi"]
 script = ExtResource("3_0vgv1")
 level = 35
 move = 21
 
-[sub_resource type="Resource" id="Resource_ct6xp"]
+[sub_resource type="Resource" id="Resource_0y3dr"]
 script = ExtResource("3_0vgv1")
 level = 45
 move = 82
 
-[sub_resource type="Resource" id="Resource_6358d"]
+[sub_resource type="Resource" id="Resource_4v5sk"]
 script = ExtResource("3_0vgv1")
 level = 55
 move = 63
@@ -58,6 +58,7 @@ pokedex = "A Dragonair stores an enormous amount of
 energy inside its body. It is said to alter
 the weather around it by loosing energy
 from the crystals on its neck and tail."
+sprite_folder = "dragonair"
 type_1 = 17
 base_hp = 61
 base_atk = 84
@@ -78,5 +79,5 @@ item_rare = 227
 height_dm = 40
 weight_hg = 165
 body_color = 1
-level_moves = Array[ExtResource("3_0vgv1")]([SubResource("Resource_but2l"), SubResource("Resource_0vgv1"), SubResource("Resource_6xevl"), SubResource("Resource_m5168"), SubResource("Resource_mekki"), SubResource("Resource_isftu"), SubResource("Resource_ct6xp"), SubResource("Resource_6358d")])
-evolutions = Array[ExtResource("1_mmd0v")]([SubResource("Resource_mmd0v")])
+level_moves = Array[ExtResource("3_0vgv1")]([SubResource("Resource_mekki"), SubResource("Resource_isftu"), SubResource("Resource_ct6xp"), SubResource("Resource_6358d"), SubResource("Resource_gks1p"), SubResource("Resource_xcmxi"), SubResource("Resource_0y3dr"), SubResource("Resource_4v5sk")])
+evolutions = Array[ExtResource("1_mmd0v")]([SubResource("Resource_m5168")])

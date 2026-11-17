@@ -12,6 +12,11 @@ const ABILITY_SLOTS: int = 3 ## [0] y [1] normales, [2] oculta
 @export var national_dex: int = 0
 @export_multiline var pokedex: String = ""
 
+@export_group("Graphics")
+## Carpeta bajo res://Graficos/Pokemon/ (ej. "bulbasaur", "furfrou/heart").
+## Cada ficha apunta a sus PNG; no hay tabla global de excepciones.
+@export var sprite_folder: String = ""
+
 @export_group("Types")
 @export var type_1: TypeId.Id = TypeId.Id.NONE
 @export var type_2: TypeId.Id = TypeId.Id.NONE

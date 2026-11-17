@@ -5,21 +5,21 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_vxety"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_yjbr7"]
 
-[sub_resource type="Resource" id="Resource_ilq6i"]
+[sub_resource type="Resource" id="Resource_k5753"]
 script = ExtResource("3_vxety")
 move = 182
 
-[sub_resource type="Resource" id="Resource_gn74c"]
+[sub_resource type="Resource" id="Resource_34tv3"]
 script = ExtResource("3_vxety")
 level = 10
 move = 33
 
-[sub_resource type="Resource" id="Resource_vxety"]
+[sub_resource type="Resource" id="Resource_mh6jq"]
 script = ExtResource("3_vxety")
 level = 15
 move = 450
 
-[sub_resource type="Resource" id="Resource_yjbr7"]
+[sub_resource type="Resource" id="Resource_yy1mq"]
 script = ExtResource("3_vxety")
 level = 20
 move = 237
@@ -34,6 +34,7 @@ pokedex = "If its cloak is even slightly damaged, it
 will immediately repair it with whatever is
 near at hand. The Pokémon within the cloak
 is scrawny and vulnerable to the cold."
+sprite_folder = "burmy"
 type_1 = 7
 base_hp = 40
 base_atk = 29
@@ -51,5 +52,5 @@ ability_hidden = 142
 height_dm = 2
 weight_hg = 34
 body_color = 3
-level_moves = Array[ExtResource("3_vxety")]([SubResource("Resource_ilq6i"), SubResource("Resource_gn74c"), SubResource("Resource_vxety"), SubResource("Resource_yjbr7")])
+level_moves = Array[ExtResource("3_vxety")]([SubResource("Resource_k5753"), SubResource("Resource_34tv3"), SubResource("Resource_mh6jq"), SubResource("Resource_yy1mq")])
 form_species = Array[int]([412, 1057, 1058])

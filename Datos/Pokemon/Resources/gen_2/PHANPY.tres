@@ -5,46 +5,46 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yacia"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_uhv62"]
 
-[sub_resource type="Resource" id="Resource_amsd3"]
+[sub_resource type="Resource" id="Resource_a07ut"]
 script = ExtResource("1_amsd3")
 method = "LEVEL"
 param = "25"
 target = 232
 
-[sub_resource type="Resource" id="Resource_kp0hf"]
+[sub_resource type="Resource" id="Resource_3kw76"]
 script = ExtResource("3_yacia")
 move = 33
 
-[sub_resource type="Resource" id="Resource_yacia"]
+[sub_resource type="Resource" id="Resource_f06jj"]
 script = ExtResource("3_yacia")
 move = 45
 
-[sub_resource type="Resource" id="Resource_uhv62"]
+[sub_resource type="Resource" id="Resource_5pfun"]
 script = ExtResource("3_yacia")
 level = 9
 move = 111
 
-[sub_resource type="Resource" id="Resource_a07ut"]
+[sub_resource type="Resource" id="Resource_6iaj1"]
 script = ExtResource("3_yacia")
 level = 17
 move = 175
 
-[sub_resource type="Resource" id="Resource_3kw76"]
+[sub_resource type="Resource" id="Resource_utbys"]
 script = ExtResource("3_yacia")
 level = 25
 move = 36
 
-[sub_resource type="Resource" id="Resource_f06jj"]
+[sub_resource type="Resource" id="Resource_y6hi5"]
 script = ExtResource("3_yacia")
 level = 33
 move = 205
 
-[sub_resource type="Resource" id="Resource_5pfun"]
+[sub_resource type="Resource" id="Resource_woulh"]
 script = ExtResource("3_yacia")
 level = 41
 move = 203
 
-[sub_resource type="Resource" id="Resource_6iaj1"]
+[sub_resource type="Resource" id="Resource_dlcar"]
 script = ExtResource("3_yacia")
 level = 49
 move = 38
@@ -59,6 +59,7 @@ pokedex = "Phanpy's big ears serve as broad fans.
 When it becomes hot, it flaps the ears
 busily to cool down. Even the young are
 very strong."
+sprite_folder = "phanpy"
 type_1 = 5
 base_hp = 90
 base_atk = 60
@@ -75,6 +76,6 @@ ability_hidden = 8
 height_dm = 5
 weight_hg = 335
 body_color = 1
-level_moves = Array[ExtResource("3_yacia")]([SubResource("Resource_kp0hf"), SubResource("Resource_yacia"), SubResource("Resource_uhv62"), SubResource("Resource_a07ut"), SubResource("Resource_3kw76"), SubResource("Resource_f06jj"), SubResource("Resource_5pfun"), SubResource("Resource_6iaj1")])
+level_moves = Array[ExtResource("3_yacia")]([SubResource("Resource_3kw76"), SubResource("Resource_f06jj"), SubResource("Resource_5pfun"), SubResource("Resource_6iaj1"), SubResource("Resource_utbys"), SubResource("Resource_y6hi5"), SubResource("Resource_woulh"), SubResource("Resource_dlcar")])
 egg_moves = Array[int]([116, 34, 246, 173, 68, 90, 283, 420, 457, 189, 484, 583, 630])
-evolutions = Array[ExtResource("1_amsd3")]([SubResource("Resource_amsd3")])
+evolutions = Array[ExtResource("1_amsd3")]([SubResource("Resource_a07ut")])

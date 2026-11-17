@@ -5,45 +5,45 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h3bjm"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_h855y"]
 
-[sub_resource type="Resource" id="Resource_0wyjo"]
+[sub_resource type="Resource" id="Resource_qbyes"]
 script = ExtResource("1_0wyjo")
 method = "LEVEL"
 param = "30"
 target = 181
 
-[sub_resource type="Resource" id="Resource_u75kv"]
+[sub_resource type="Resource" id="Resource_gouiq"]
 script = ExtResource("3_h3bjm")
 move = 33
 
-[sub_resource type="Resource" id="Resource_h3bjm"]
+[sub_resource type="Resource" id="Resource_gd440"]
 script = ExtResource("3_h3bjm")
 move = 45
 
-[sub_resource type="Resource" id="Resource_h855y"]
+[sub_resource type="Resource" id="Resource_tilce"]
 script = ExtResource("3_h3bjm")
 move = 84
 
-[sub_resource type="Resource" id="Resource_qbyes"]
+[sub_resource type="Resource" id="Resource_ihy85"]
 script = ExtResource("3_h3bjm")
 level = 9
 move = 84
 
-[sub_resource type="Resource" id="Resource_gouiq"]
+[sub_resource type="Resource" id="Resource_evix3"]
 script = ExtResource("3_h3bjm")
 level = 18
 move = 86
 
-[sub_resource type="Resource" id="Resource_gd440"]
+[sub_resource type="Resource" id="Resource_d2o8j"]
 script = ExtResource("3_h3bjm")
 level = 27
 move = 178
 
-[sub_resource type="Resource" id="Resource_tilce"]
+[sub_resource type="Resource" id="Resource_y4rv1"]
 script = ExtResource("3_h3bjm")
 level = 36
 move = 113
 
-[sub_resource type="Resource" id="Resource_ihy85"]
+[sub_resource type="Resource" id="Resource_celxd"]
 script = ExtResource("3_h3bjm")
 level = 45
 move = 87
@@ -58,6 +58,7 @@ pokedex = "Its fleece quality changes to generate
 strong static electricity with a small
 amount of wool. The bare, slick parts of its
 hide are shielded against electricity."
+sprite_folder = "flaaffy"
 type_1 = 14
 base_hp = 70
 base_atk = 55
@@ -76,5 +77,5 @@ ability_hidden = 57
 height_dm = 8
 weight_hg = 133
 body_color = 9
-level_moves = Array[ExtResource("3_h3bjm")]([SubResource("Resource_u75kv"), SubResource("Resource_h3bjm"), SubResource("Resource_h855y"), SubResource("Resource_qbyes"), SubResource("Resource_gouiq"), SubResource("Resource_gd440"), SubResource("Resource_tilce"), SubResource("Resource_ihy85")])
-evolutions = Array[ExtResource("1_0wyjo")]([SubResource("Resource_0wyjo")])
+level_moves = Array[ExtResource("3_h3bjm")]([SubResource("Resource_gouiq"), SubResource("Resource_gd440"), SubResource("Resource_tilce"), SubResource("Resource_ihy85"), SubResource("Resource_evix3"), SubResource("Resource_d2o8j"), SubResource("Resource_y4rv1"), SubResource("Resource_celxd")])
+evolutions = Array[ExtResource("1_0wyjo")]([SubResource("Resource_qbyes")])

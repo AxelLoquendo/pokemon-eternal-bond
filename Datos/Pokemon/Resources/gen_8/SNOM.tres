@@ -5,11 +5,11 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_t06y8"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_l54bb"]
 
-[sub_resource type="Resource" id="Resource_bqk2l"]
+[sub_resource type="Resource" id="Resource_3d35q"]
 script = ExtResource("3_t06y8")
 move = 181
 
-[sub_resource type="Resource" id="Resource_pdaeh"]
+[sub_resource type="Resource" id="Resource_0y8dv"]
 script = ExtResource("3_t06y8")
 move = 522
 
@@ -23,6 +23,7 @@ pokedex = "It spits out thread imbued with a frigid
 sort of energy and uses it to tie its body
 to branches, disguising itself as an
 icicle while it sleeps."
+sprite_folder = "snom"
 type_1 = 16
 type_2 = 7
 base_hp = 30
@@ -41,5 +42,5 @@ item_rare = 458
 height_dm = 3
 weight_hg = 38
 body_color = 8
-level_moves = Array[ExtResource("3_t06y8")]([SubResource("Resource_bqk2l"), SubResource("Resource_pdaeh")])
+level_moves = Array[ExtResource("3_t06y8")]([SubResource("Resource_3d35q"), SubResource("Resource_0y8dv")])
 egg_moves = Array[int]([584, 243, 450])

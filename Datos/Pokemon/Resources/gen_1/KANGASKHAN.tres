@@ -5,35 +5,35 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7vqj3"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wxyje"]
 
-[sub_resource type="Resource" id="Resource_j248b"]
+[sub_resource type="Resource" id="Resource_4gih6"]
 script = ExtResource("3_7vqj3")
 move = 4
 
-[sub_resource type="Resource" id="Resource_uylno"]
+[sub_resource type="Resource" id="Resource_d7sq8"]
 script = ExtResource("3_7vqj3")
 move = 99
 
-[sub_resource type="Resource" id="Resource_7vqj3"]
+[sub_resource type="Resource" id="Resource_heq5e"]
 script = ExtResource("3_7vqj3")
 level = 26
 move = 44
 
-[sub_resource type="Resource" id="Resource_wxyje"]
+[sub_resource type="Resource" id="Resource_17qn0"]
 script = ExtResource("3_7vqj3")
 level = 31
 move = 39
 
-[sub_resource type="Resource" id="Resource_4gih6"]
+[sub_resource type="Resource" id="Resource_5hlqh"]
 script = ExtResource("3_7vqj3")
 level = 36
 move = 5
 
-[sub_resource type="Resource" id="Resource_d7sq8"]
+[sub_resource type="Resource" id="Resource_3eiat"]
 script = ExtResource("3_7vqj3")
 level = 41
 move = 43
 
-[sub_resource type="Resource" id="Resource_heq5e"]
+[sub_resource type="Resource" id="Resource_m23c8"]
 script = ExtResource("3_7vqj3")
 level = 46
 move = 146
@@ -48,6 +48,7 @@ pokedex = "If you come across a young Kangaskhan
 playing by itself, never try to catch it.
 The baby's parent is sure to be in the area,
 and it will become violently enraged."
+sprite_folder = "kangaskhan"
 type_1 = 1
 base_hp = 105
 base_atk = 95
@@ -65,6 +66,6 @@ ability_hidden = 39
 height_dm = 22
 weight_hg = 800
 body_color = 5
-level_moves = Array[ExtResource("3_7vqj3")]([SubResource("Resource_j248b"), SubResource("Resource_uylno"), SubResource("Resource_7vqj3"), SubResource("Resource_wxyje"), SubResource("Resource_4gih6"), SubResource("Resource_d7sq8"), SubResource("Resource_heq5e")])
+level_moves = Array[ExtResource("3_7vqj3")]([SubResource("Resource_4gih6"), SubResource("Resource_d7sq8"), SubResource("Resource_heq5e"), SubResource("Resource_17qn0"), SubResource("Resource_5hlqh"), SubResource("Resource_3eiat"), SubResource("Resource_m23c8")])
 egg_moves = Array[int]([23, 193, 116, 50, 68, 306, 38, 283, 359, 264, 376, 253, 509])
 form_species = Array[int]([115, 915])

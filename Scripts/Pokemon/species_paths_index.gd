@@ -1,7 +1,8 @@
 class_name SpeciesPathsIndex
 extends Resource
 ## Índice ligero: SpeciesId → path del .tres + metadatos baratos.
-## Generado por tools/import_species_tres.gd. No contiene SpeciesData.
+## Generado por tools/rebuild_species_index.gd (escanea .tres).
+## Migración antigua: import_species_tres.gd desde JSON. No contiene SpeciesData.
 
 ## int (SpeciesId.Id) → String path "res://Datos/Pokemon/Resources/..."
 @export var paths: Dictionary = {}

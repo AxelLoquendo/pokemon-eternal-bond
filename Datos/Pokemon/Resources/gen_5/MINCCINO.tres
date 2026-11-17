@@ -5,92 +5,92 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fvvxu"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_bdn21"]
 
-[sub_resource type="Resource" id="Resource_eyfr2"]
+[sub_resource type="Resource" id="Resource_wp2na"]
 script = ExtResource("1_eyfr2")
 method = "ITEM"
 param = "ITEM_SHINY_STONE"
 target = 573
 
-[sub_resource type="Resource" id="Resource_vrldg"]
+[sub_resource type="Resource" id="Resource_33ce0"]
 script = ExtResource("3_fvvxu")
 move = 1
 
-[sub_resource type="Resource" id="Resource_fvvxu"]
+[sub_resource type="Resource" id="Resource_p8nfe"]
 script = ExtResource("3_fvvxu")
 level = 3
 move = 45
 
-[sub_resource type="Resource" id="Resource_bdn21"]
+[sub_resource type="Resource" id="Resource_46p46"]
 script = ExtResource("3_fvvxu")
 level = 7
 move = 270
 
-[sub_resource type="Resource" id="Resource_wp2na"]
+[sub_resource type="Resource" id="Resource_hc684"]
 script = ExtResource("3_fvvxu")
 level = 9
 move = 321
 
-[sub_resource type="Resource" id="Resource_33ce0"]
+[sub_resource type="Resource" id="Resource_bno42"]
 script = ExtResource("3_fvvxu")
 level = 13
 move = 3
 
-[sub_resource type="Resource" id="Resource_p8nfe"]
+[sub_resource type="Resource" id="Resource_hd2s8"]
 script = ExtResource("3_fvvxu")
 level = 15
 move = 227
 
-[sub_resource type="Resource" id="Resource_46p46"]
+[sub_resource type="Resource" id="Resource_ulkwp"]
 script = ExtResource("3_fvvxu")
 level = 19
 move = 129
 
-[sub_resource type="Resource" id="Resource_hc684"]
+[sub_resource type="Resource" id="Resource_hmej8"]
 script = ExtResource("3_fvvxu")
 level = 21
 move = 47
 
-[sub_resource type="Resource" id="Resource_bno42"]
+[sub_resource type="Resource" id="Resource_yxrdi"]
 script = ExtResource("3_fvvxu")
 level = 25
 move = 541
 
-[sub_resource type="Resource" id="Resource_hd2s8"]
+[sub_resource type="Resource" id="Resource_ulssm"]
 script = ExtResource("3_fvvxu")
 level = 27
 move = 204
 
-[sub_resource type="Resource" id="Resource_ulkwp"]
+[sub_resource type="Resource" id="Resource_4km87"]
 script = ExtResource("3_fvvxu")
 level = 31
 move = 358
 
-[sub_resource type="Resource" id="Resource_hmej8"]
+[sub_resource type="Resource" id="Resource_p3dta"]
 script = ExtResource("3_fvvxu")
 level = 33
 move = 497
 
-[sub_resource type="Resource" id="Resource_yxrdi"]
+[sub_resource type="Resource" id="Resource_oegyr"]
 script = ExtResource("3_fvvxu")
 level = 37
 move = 21
 
-[sub_resource type="Resource" id="Resource_ulssm"]
+[sub_resource type="Resource" id="Resource_b4g6s"]
 script = ExtResource("3_fvvxu")
 level = 39
 move = 445
 
-[sub_resource type="Resource" id="Resource_4km87"]
+[sub_resource type="Resource" id="Resource_v3o8d"]
 script = ExtResource("3_fvvxu")
 level = 43
 move = 304
 
-[sub_resource type="Resource" id="Resource_p3dta"]
+[sub_resource type="Resource" id="Resource_nb1gr"]
 script = ExtResource("3_fvvxu")
 level = 45
 move = 387
 
-[sub_resource type="Resource" id="Resource_oegyr"]
+[sub_resource type="Resource" id="Resource_l7ye5"]
 script = ExtResource("3_fvvxu")
 level = 49
 move = 495
@@ -105,6 +105,7 @@ pokedex = "These Pokémon prefer a tidy habitat.
 They greet one another by rubbing each
 other with their tails, which are always
 kept well groomed and clean."
+sprite_folder = "minccino"
 type_1 = 1
 base_hp = 55
 base_atk = 50
@@ -125,6 +126,6 @@ ability_hidden = 92
 height_dm = 4
 weight_hg = 58
 body_color = 7
-level_moves = Array[ExtResource("3_fvvxu")]([SubResource("Resource_vrldg"), SubResource("Resource_fvvxu"), SubResource("Resource_bdn21"), SubResource("Resource_wp2na"), SubResource("Resource_33ce0"), SubResource("Resource_p8nfe"), SubResource("Resource_46p46"), SubResource("Resource_hc684"), SubResource("Resource_bno42"), SubResource("Resource_hd2s8"), SubResource("Resource_ulkwp"), SubResource("Resource_hmej8"), SubResource("Resource_yxrdi"), SubResource("Resource_ulssm"), SubResource("Resource_4km87"), SubResource("Resource_p3dta"), SubResource("Resource_oegyr")])
+level_moves = Array[ExtResource("3_fvvxu")]([SubResource("Resource_33ce0"), SubResource("Resource_p8nfe"), SubResource("Resource_46p46"), SubResource("Resource_hc684"), SubResource("Resource_bno42"), SubResource("Resource_hd2s8"), SubResource("Resource_ulkwp"), SubResource("Resource_hmej8"), SubResource("Resource_yxrdi"), SubResource("Resource_ulssm"), SubResource("Resource_4km87"), SubResource("Resource_p3dta"), SubResource("Resource_oegyr"), SubResource("Resource_b4g6s"), SubResource("Resource_v3o8d"), SubResource("Resource_nb1gr"), SubResource("Resource_l7ye5")])
 egg_moves = Array[int]([231, 39, 401, 189, 282, 313, 214, 203, 175])
-evolutions = Array[ExtResource("1_eyfr2")]([SubResource("Resource_eyfr2")])
+evolutions = Array[ExtResource("1_eyfr2")]([SubResource("Resource_wp2na")])

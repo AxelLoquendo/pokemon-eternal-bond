@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_rjaq8"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fc6ll"]
 
-[sub_resource type="Resource" id="Resource_0t500"]
+[sub_resource type="Resource" id="Resource_17edc"]
 script = ExtResource("1_0t500")
 method = "LEVEL"
 param = "15"
 target = 162
 
-[sub_resource type="Resource" id="Resource_151ae"]
+[sub_resource type="Resource" id="Resource_gv6t0"]
 script = ExtResource("3_rjaq8")
 move = 33
 
-[sub_resource type="Resource" id="Resource_rjaq8"]
+[sub_resource type="Resource" id="Resource_puncj"]
 script = ExtResource("3_rjaq8")
 level = 5
 move = 111
 
-[sub_resource type="Resource" id="Resource_fc6ll"]
+[sub_resource type="Resource" id="Resource_ssktp"]
 script = ExtResource("3_rjaq8")
 level = 11
 move = 98
 
-[sub_resource type="Resource" id="Resource_17edc"]
+[sub_resource type="Resource" id="Resource_f1rgv"]
 script = ExtResource("3_rjaq8")
 level = 17
 move = 154
 
-[sub_resource type="Resource" id="Resource_gv6t0"]
+[sub_resource type="Resource" id="Resource_c87eq"]
 script = ExtResource("3_rjaq8")
 level = 25
 move = 21
 
-[sub_resource type="Resource" id="Resource_puncj"]
+[sub_resource type="Resource" id="Resource_plh4a"]
 script = ExtResource("3_rjaq8")
 level = 33
 move = 156
 
-[sub_resource type="Resource" id="Resource_ssktp"]
+[sub_resource type="Resource" id="Resource_et12o"]
 script = ExtResource("3_rjaq8")
 level = 41
 move = 133
@@ -55,6 +55,7 @@ pokedex = "They take turns standing guard when it
 is time to sleep. The sentry awakens the
 others if it senses danger. If one becomes
 separated, it turns sleepless with fear."
+sprite_folder = "sentret"
 type_1 = 1
 base_hp = 35
 base_atk = 46
@@ -73,6 +74,6 @@ ability_hidden = 119
 height_dm = 8
 weight_hg = 60
 body_color = 5
-level_moves = Array[ExtResource("3_rjaq8")]([SubResource("Resource_151ae"), SubResource("Resource_rjaq8"), SubResource("Resource_fc6ll"), SubResource("Resource_17edc"), SubResource("Resource_gv6t0"), SubResource("Resource_puncj"), SubResource("Resource_ssktp")])
+level_moves = Array[ExtResource("3_rjaq8")]([SubResource("Resource_gv6t0"), SubResource("Resource_puncj"), SubResource("Resource_ssktp"), SubResource("Resource_f1rgv"), SubResource("Resource_c87eq"), SubResource("Resource_plh4a"), SubResource("Resource_et12o")])
 egg_moves = Array[int]([38, 228, 163, 116, 179, 271, 274, 387, 204, 343, 363, 231, 445, 608])
-evolutions = Array[ExtResource("1_0t500")]([SubResource("Resource_0t500")])
+evolutions = Array[ExtResource("1_0t500")]([SubResource("Resource_17edc")])

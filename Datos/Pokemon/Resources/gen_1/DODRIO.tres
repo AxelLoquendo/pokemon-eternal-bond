@@ -5,44 +5,44 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_gmj1u"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_0nf0y"]
 
-[sub_resource type="Resource" id="Resource_s0n4b"]
+[sub_resource type="Resource" id="Resource_lkchk"]
 script = ExtResource("3_gmj1u")
 move = 64
 
-[sub_resource type="Resource" id="Resource_dvyr5"]
+[sub_resource type="Resource" id="Resource_k5g7w"]
 script = ExtResource("3_gmj1u")
 move = 45
 
-[sub_resource type="Resource" id="Resource_gmj1u"]
+[sub_resource type="Resource" id="Resource_we7r7"]
 script = ExtResource("3_gmj1u")
 move = 31
 
-[sub_resource type="Resource" id="Resource_0nf0y"]
+[sub_resource type="Resource" id="Resource_1w3ww"]
 script = ExtResource("3_gmj1u")
 level = 20
 move = 45
 
-[sub_resource type="Resource" id="Resource_lkchk"]
+[sub_resource type="Resource" id="Resource_3evm4"]
 script = ExtResource("3_gmj1u")
 level = 24
 move = 31
 
-[sub_resource type="Resource" id="Resource_k5g7w"]
+[sub_resource type="Resource" id="Resource_1ruyf"]
 script = ExtResource("3_gmj1u")
 level = 30
 move = 65
 
-[sub_resource type="Resource" id="Resource_we7r7"]
+[sub_resource type="Resource" id="Resource_dy4de"]
 script = ExtResource("3_gmj1u")
 level = 39
 move = 99
 
-[sub_resource type="Resource" id="Resource_1w3ww"]
+[sub_resource type="Resource" id="Resource_hg7y4"]
 script = ExtResource("3_gmj1u")
 level = 45
 move = 161
 
-[sub_resource type="Resource" id="Resource_3evm4"]
+[sub_resource type="Resource" id="Resource_wp2j8"]
 script = ExtResource("3_gmj1u")
 level = 51
 move = 97
@@ -57,6 +57,7 @@ pokedex = "A peculiar Pokémon species with three
 heads. It vigorously races across grassy
 plains even in arid seasons with little
 rainfall."
+sprite_folder = "dodrio"
 type_1 = 1
 type_2 = 3
 base_hp = 60
@@ -76,4 +77,4 @@ height_dm = 18
 weight_hg = 852
 body_color = 5
 no_flip = true
-level_moves = Array[ExtResource("3_gmj1u")]([SubResource("Resource_s0n4b"), SubResource("Resource_dvyr5"), SubResource("Resource_gmj1u"), SubResource("Resource_0nf0y"), SubResource("Resource_lkchk"), SubResource("Resource_k5g7w"), SubResource("Resource_we7r7"), SubResource("Resource_1w3ww"), SubResource("Resource_3evm4")])
+level_moves = Array[ExtResource("3_gmj1u")]([SubResource("Resource_lkchk"), SubResource("Resource_k5g7w"), SubResource("Resource_we7r7"), SubResource("Resource_1w3ww"), SubResource("Resource_3evm4"), SubResource("Resource_1ruyf"), SubResource("Resource_dy4de"), SubResource("Resource_hg7y4"), SubResource("Resource_wp2j8")])

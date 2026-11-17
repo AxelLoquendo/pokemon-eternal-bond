@@ -5,24 +5,24 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_djomb"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ahfsh"]
 
-[sub_resource type="Resource" id="Resource_w4h7c"]
+[sub_resource type="Resource" id="Resource_wbygg"]
 script = ExtResource("3_djomb")
 move = 122
 
-[sub_resource type="Resource" id="Resource_aar4r"]
+[sub_resource type="Resource" id="Resource_sqqs0"]
 script = ExtResource("3_djomb")
 move = 109
 
-[sub_resource type="Resource" id="Resource_djomb"]
+[sub_resource type="Resource" id="Resource_cygbo"]
 script = ExtResource("3_djomb")
 move = 101
 
-[sub_resource type="Resource" id="Resource_ahfsh"]
+[sub_resource type="Resource" id="Resource_4eicj"]
 script = ExtResource("3_djomb")
 level = 29
 move = 95
 
-[sub_resource type="Resource" id="Resource_wbygg"]
+[sub_resource type="Resource" id="Resource_e0lsa"]
 script = ExtResource("3_djomb")
 level = 38
 move = 138
@@ -37,6 +37,7 @@ pokedex = "Deep in the night, your shadow cast by
 a streetlight may suddenly overtake you.
 It is actually a Gengar running past
 you, pretending to be your shadow."
+sprite_folder = "gengar"
 type_1 = 8
 type_2 = 4
 base_hp = 60
@@ -50,5 +51,5 @@ egg_group_1 = 11
 height_dm = 15
 weight_hg = 405
 body_color = 6
-level_moves = Array[ExtResource("3_djomb")]([SubResource("Resource_w4h7c"), SubResource("Resource_aar4r"), SubResource("Resource_djomb"), SubResource("Resource_ahfsh"), SubResource("Resource_wbygg")])
+level_moves = Array[ExtResource("3_djomb")]([SubResource("Resource_wbygg"), SubResource("Resource_sqqs0"), SubResource("Resource_cygbo"), SubResource("Resource_4eicj"), SubResource("Resource_e0lsa")])
 form_species = Array[int]([94, 914, 1496])

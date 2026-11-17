@@ -5,67 +5,67 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qs5mr"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_sa2ye"]
 
-[sub_resource type="Resource" id="Resource_ngtq3"]
+[sub_resource type="Resource" id="Resource_ptdg0"]
 script = ExtResource("1_ngtq3")
 method = "LEVEL"
 param = "40"
 target = 321
 
-[sub_resource type="Resource" id="Resource_dpmxq"]
+[sub_resource type="Resource" id="Resource_jdu4w"]
 script = ExtResource("3_qs5mr")
 move = 150
 
-[sub_resource type="Resource" id="Resource_qs5mr"]
+[sub_resource type="Resource" id="Resource_1xuwc"]
 script = ExtResource("3_qs5mr")
 level = 5
 move = 45
 
-[sub_resource type="Resource" id="Resource_sa2ye"]
+[sub_resource type="Resource" id="Resource_rfsp4"]
 script = ExtResource("3_qs5mr")
 level = 10
 move = 55
 
-[sub_resource type="Resource" id="Resource_ptdg0"]
+[sub_resource type="Resource" id="Resource_iu5nl"]
 script = ExtResource("3_qs5mr")
 level = 14
 move = 205
 
-[sub_resource type="Resource" id="Resource_jdu4w"]
+[sub_resource type="Resource" id="Resource_82tlb"]
 script = ExtResource("3_qs5mr")
 level = 19
 move = 250
 
-[sub_resource type="Resource" id="Resource_1xuwc"]
+[sub_resource type="Resource" id="Resource_rswh8"]
 script = ExtResource("3_qs5mr")
 level = 23
 move = 310
 
-[sub_resource type="Resource" id="Resource_rfsp4"]
+[sub_resource type="Resource" id="Resource_m3j0w"]
 script = ExtResource("3_qs5mr")
 level = 28
 move = 352
 
-[sub_resource type="Resource" id="Resource_iu5nl"]
+[sub_resource type="Resource" id="Resource_c534v"]
 script = ExtResource("3_qs5mr")
 level = 32
 move = 54
 
-[sub_resource type="Resource" id="Resource_82tlb"]
+[sub_resource type="Resource" id="Resource_ke7mr"]
 script = ExtResource("3_qs5mr")
 level = 37
 move = 156
 
-[sub_resource type="Resource" id="Resource_rswh8"]
+[sub_resource type="Resource" id="Resource_nhx47"]
 script = ExtResource("3_qs5mr")
 level = 41
 move = 323
 
-[sub_resource type="Resource" id="Resource_m3j0w"]
+[sub_resource type="Resource" id="Resource_wo5j3"]
 script = ExtResource("3_qs5mr")
 level = 46
 move = 133
 
-[sub_resource type="Resource" id="Resource_c534v"]
+[sub_resource type="Resource" id="Resource_gtxwk"]
 script = ExtResource("3_qs5mr")
 level = 50
 move = 56
@@ -80,6 +80,7 @@ pokedex = "While this Pokémon usually lives in the sea,
 it can survive on land, although not too
 long. It loses vitality if its body becomes
 dried out."
+sprite_folder = "wailmer"
 type_1 = 12
 base_hp = 130
 base_atk = 70
@@ -100,6 +101,6 @@ ability_hidden = 46
 height_dm = 20
 weight_hg = 1300
 body_color = 1
-level_moves = Array[ExtResource("3_qs5mr")]([SubResource("Resource_dpmxq"), SubResource("Resource_qs5mr"), SubResource("Resource_sa2ye"), SubResource("Resource_ptdg0"), SubResource("Resource_jdu4w"), SubResource("Resource_1xuwc"), SubResource("Resource_rfsp4"), SubResource("Resource_iu5nl"), SubResource("Resource_82tlb"), SubResource("Resource_rswh8"), SubResource("Resource_m3j0w"), SubResource("Resource_c534v")])
+level_moves = Array[ExtResource("3_qs5mr")]([SubResource("Resource_jdu4w"), SubResource("Resource_1xuwc"), SubResource("Resource_rfsp4"), SubResource("Resource_iu5nl"), SubResource("Resource_82tlb"), SubResource("Resource_rswh8"), SubResource("Resource_m3j0w"), SubResource("Resource_c534v"), SubResource("Resource_ke7mr"), SubResource("Resource_nhx47"), SubResource("Resource_wo5j3"), SubResource("Resource_gtxwk")])
 egg_moves = Array[int]([38, 37, 173, 214, 174, 90, 321, 111, 34, 392, 487, 428, 499])
-evolutions = Array[ExtResource("1_ngtq3")]([SubResource("Resource_ngtq3")])
+evolutions = Array[ExtResource("1_ngtq3")]([SubResource("Resource_ptdg0")])

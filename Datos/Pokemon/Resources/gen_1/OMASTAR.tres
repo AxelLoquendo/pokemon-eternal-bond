@@ -5,34 +5,34 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_56ino"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_x1s8l"]
 
-[sub_resource type="Resource" id="Resource_gl1k4"]
+[sub_resource type="Resource" id="Resource_ruu5q"]
 script = ExtResource("3_56ino")
 move = 55
 
-[sub_resource type="Resource" id="Resource_ej1sm"]
+[sub_resource type="Resource" id="Resource_lk8nq"]
 script = ExtResource("3_56ino")
 move = 110
 
-[sub_resource type="Resource" id="Resource_56ino"]
+[sub_resource type="Resource" id="Resource_155e4"]
 script = ExtResource("3_56ino")
 move = 30
 
-[sub_resource type="Resource" id="Resource_x1s8l"]
+[sub_resource type="Resource" id="Resource_jkmim"]
 script = ExtResource("3_56ino")
 level = 34
 move = 30
 
-[sub_resource type="Resource" id="Resource_ruu5q"]
+[sub_resource type="Resource" id="Resource_7xoda"]
 script = ExtResource("3_56ino")
 level = 39
 move = 43
 
-[sub_resource type="Resource" id="Resource_lk8nq"]
+[sub_resource type="Resource" id="Resource_l2pgg"]
 script = ExtResource("3_56ino")
 level = 44
 move = 131
 
-[sub_resource type="Resource" id="Resource_155e4"]
+[sub_resource type="Resource" id="Resource_ci3l0"]
 script = ExtResource("3_56ino")
 level = 49
 move = 56
@@ -47,6 +47,7 @@ pokedex = "An Omastar uses its tentacles to capture
 its prey. It is believed to have become
 extinct because its shell grew too large,
 making its movements slow and ponderous."
+sprite_folder = "omastar"
 type_1 = 6
 type_2 = 12
 base_hp = 70
@@ -67,4 +68,4 @@ ability_hidden = 133
 height_dm = 10
 weight_hg = 350
 body_color = 1
-level_moves = Array[ExtResource("3_56ino")]([SubResource("Resource_gl1k4"), SubResource("Resource_ej1sm"), SubResource("Resource_56ino"), SubResource("Resource_x1s8l"), SubResource("Resource_ruu5q"), SubResource("Resource_lk8nq"), SubResource("Resource_155e4")])
+level_moves = Array[ExtResource("3_56ino")]([SubResource("Resource_ruu5q"), SubResource("Resource_lk8nq"), SubResource("Resource_155e4"), SubResource("Resource_jkmim"), SubResource("Resource_7xoda"), SubResource("Resource_l2pgg"), SubResource("Resource_ci3l0")])

@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7owks"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_w1l3d"]
 
-[sub_resource type="Resource" id="Resource_fw3cv"]
+[sub_resource type="Resource" id="Resource_hvu0p"]
 script = ExtResource("1_fw3cv")
 method = "LEVEL"
 param = "30"
 target = 148
 
-[sub_resource type="Resource" id="Resource_lj5bx"]
+[sub_resource type="Resource" id="Resource_dao00"]
 script = ExtResource("3_7owks")
 move = 35
 
-[sub_resource type="Resource" id="Resource_7owks"]
+[sub_resource type="Resource" id="Resource_3s60s"]
 script = ExtResource("3_7owks")
 move = 43
 
-[sub_resource type="Resource" id="Resource_w1l3d"]
+[sub_resource type="Resource" id="Resource_7i8bp"]
 script = ExtResource("3_7owks")
 level = 10
 move = 86
 
-[sub_resource type="Resource" id="Resource_hvu0p"]
+[sub_resource type="Resource" id="Resource_lx7im"]
 script = ExtResource("3_7owks")
 level = 20
 move = 97
 
-[sub_resource type="Resource" id="Resource_dao00"]
+[sub_resource type="Resource" id="Resource_bvegs"]
 script = ExtResource("3_7owks")
 level = 30
 move = 21
 
-[sub_resource type="Resource" id="Resource_3s60s"]
+[sub_resource type="Resource" id="Resource_eebtr"]
 script = ExtResource("3_7owks")
 level = 40
 move = 82
 
-[sub_resource type="Resource" id="Resource_7i8bp"]
+[sub_resource type="Resource" id="Resource_gftks"]
 script = ExtResource("3_7owks")
 level = 50
 move = 63
@@ -54,6 +54,7 @@ pokedex = "A Dratini continually molts and sloughs
 off its old skin. It does so because the
 life energy within its body steadily builds
 to reach uncontrollable levels."
+sprite_folder = "dratini"
 type_1 = 17
 base_hp = 41
 base_atk = 64
@@ -74,6 +75,6 @@ item_rare = 227
 height_dm = 18
 weight_hg = 33
 body_color = 1
-level_moves = Array[ExtResource("3_7owks")]([SubResource("Resource_lj5bx"), SubResource("Resource_7owks"), SubResource("Resource_w1l3d"), SubResource("Resource_hvu0p"), SubResource("Resource_dao00"), SubResource("Resource_3s60s"), SubResource("Resource_7i8bp")])
+level_moves = Array[ExtResource("3_7owks")]([SubResource("Resource_dao00"), SubResource("Resource_3s60s"), SubResource("Resource_7i8bp"), SubResource("Resource_lx7im"), SubResource("Resource_bvegs"), SubResource("Resource_eebtr"), SubResource("Resource_gftks")])
 egg_moves = Array[int]([54, 114, 48, 225, 349, 407, 245, 352, 453, 406, 231])
-evolutions = Array[ExtResource("1_fw3cv")]([SubResource("Resource_fw3cv")])
+evolutions = Array[ExtResource("1_fw3cv")]([SubResource("Resource_hvu0p")])

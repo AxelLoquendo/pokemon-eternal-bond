@@ -5,56 +5,56 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_55ulo"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mmcs5"]
 
-[sub_resource type="Resource" id="Resource_5h8ul"]
+[sub_resource type="Resource" id="Resource_54kil"]
 script = ExtResource("1_5h8ul")
 method = "LEVEL"
 param = "30"
 target = 124
 
-[sub_resource type="Resource" id="Resource_f0dht"]
+[sub_resource type="Resource" id="Resource_xyghm"]
 script = ExtResource("3_55ulo")
 move = 1
 
-[sub_resource type="Resource" id="Resource_55ulo"]
+[sub_resource type="Resource" id="Resource_0cewl"]
 script = ExtResource("3_55ulo")
 move = 122
 
-[sub_resource type="Resource" id="Resource_mmcs5"]
+[sub_resource type="Resource" id="Resource_gj8ct"]
 script = ExtResource("3_55ulo")
 level = 9
 move = 186
 
-[sub_resource type="Resource" id="Resource_54kil"]
+[sub_resource type="Resource" id="Resource_naywv"]
 script = ExtResource("3_55ulo")
 level = 13
 move = 181
 
-[sub_resource type="Resource" id="Resource_xyghm"]
+[sub_resource type="Resource" id="Resource_wtlkj"]
 script = ExtResource("3_55ulo")
 level = 21
 move = 93
 
-[sub_resource type="Resource" id="Resource_0cewl"]
+[sub_resource type="Resource" id="Resource_jx10m"]
 script = ExtResource("3_55ulo")
 level = 25
 move = 47
 
-[sub_resource type="Resource" id="Resource_gj8ct"]
+[sub_resource type="Resource" id="Resource_kujg2"]
 script = ExtResource("3_55ulo")
 level = 33
 move = 212
 
-[sub_resource type="Resource" id="Resource_naywv"]
+[sub_resource type="Resource" id="Resource_f4j72"]
 script = ExtResource("3_55ulo")
 level = 37
 move = 94
 
-[sub_resource type="Resource" id="Resource_wtlkj"]
+[sub_resource type="Resource" id="Resource_8u8o1"]
 script = ExtResource("3_55ulo")
 level = 45
 move = 195
 
-[sub_resource type="Resource" id="Resource_jx10m"]
+[sub_resource type="Resource" id="Resource_74clc"]
 script = ExtResource("3_55ulo")
 level = 49
 move = 59
@@ -69,6 +69,7 @@ pokedex = "It actively runs about, but also falls
 often. Whenever it falls, it will check its
 reflection on a lake's surface to make
 sure its face hasn't become dirty."
+sprite_folder = "smoochum"
 type_1 = 16
 type_2 = 15
 base_hp = 45
@@ -87,6 +88,6 @@ ability_hidden = 93
 height_dm = 4
 weight_hg = 60
 body_color = 9
-level_moves = Array[ExtResource("3_55ulo")]([SubResource("Resource_f0dht"), SubResource("Resource_55ulo"), SubResource("Resource_mmcs5"), SubResource("Resource_54kil"), SubResource("Resource_xyghm"), SubResource("Resource_0cewl"), SubResource("Resource_gj8ct"), SubResource("Resource_naywv"), SubResource("Resource_wtlkj"), SubResource("Resource_jx10m")])
+level_moves = Array[ExtResource("3_55ulo")]([SubResource("Resource_xyghm"), SubResource("Resource_0cewl"), SubResource("Resource_gj8ct"), SubResource("Resource_naywv"), SubResource("Resource_wtlkj"), SubResource("Resource_jx10m"), SubResource("Resource_kujg2"), SubResource("Resource_f4j72"), SubResource("Resource_8u8o1"), SubResource("Resource_74clc")])
 egg_moves = Array[int]([96, 252, 273, 8, 357, 417, 358, 445])
-evolutions = Array[ExtResource("1_5h8ul")]([SubResource("Resource_5h8ul")])
+evolutions = Array[ExtResource("1_5h8ul")]([SubResource("Resource_54kil")])

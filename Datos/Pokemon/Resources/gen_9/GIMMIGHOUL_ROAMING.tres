@@ -5,16 +5,16 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_pwvsl"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r8t2r"]
 
-[sub_resource type="Resource" id="Resource_3krgd"]
+[sub_resource type="Resource" id="Resource_mhgdg"]
 script = ExtResource("1_3krgd")
 method = "IF_BAG_ITEM_COUNT"
 param = "ITEM_GIMMIGHOUL_COIN"
 
-[sub_resource type="Resource" id="Resource_jxn1f"]
+[sub_resource type="Resource" id="Resource_47f6l"]
 script = ExtResource("3_pwvsl")
 move = 310
 
-[sub_resource type="Resource" id="Resource_pwvsl"]
+[sub_resource type="Resource" id="Resource_3phr2"]
 script = ExtResource("3_pwvsl")
 move = 33
 
@@ -28,6 +28,7 @@ pokedex = "It wanders around, carrying an old
 coin on its back. It survives by
 draining the life-force from humans who
 try to pick up its coin."
+sprite_folder = "gimmighoul/roaming"
 type_1 = 8
 base_hp = 45
 base_atk = 30
@@ -44,6 +45,6 @@ ability_1 = 50
 height_dm = 1
 weight_hg = 1
 body_color = 7
-level_moves = Array[ExtResource("3_pwvsl")]([SubResource("Resource_jxn1f"), SubResource("Resource_pwvsl")])
-evolutions = Array[ExtResource("1_3krgd")]([SubResource("Resource_3krgd")])
+level_moves = Array[ExtResource("3_pwvsl")]([SubResource("Resource_47f6l"), SubResource("Resource_3phr2")])
+evolutions = Array[ExtResource("1_3krgd")]([SubResource("Resource_mhgdg")])
 form_species = Array[int]([1391, 1392])

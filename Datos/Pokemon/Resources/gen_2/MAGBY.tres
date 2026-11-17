@@ -5,52 +5,52 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_iqufn"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_j2q40"]
 
-[sub_resource type="Resource" id="Resource_sbvnp"]
+[sub_resource type="Resource" id="Resource_aayv1"]
 script = ExtResource("1_sbvnp")
 method = "LEVEL"
 param = "30"
 target = 126
 
-[sub_resource type="Resource" id="Resource_jr4ct"]
+[sub_resource type="Resource" id="Resource_yrnw1"]
 script = ExtResource("3_iqufn")
 move = 52
 
-[sub_resource type="Resource" id="Resource_iqufn"]
+[sub_resource type="Resource" id="Resource_sfdpr"]
 script = ExtResource("3_iqufn")
 level = 7
 move = 43
 
-[sub_resource type="Resource" id="Resource_j2q40"]
+[sub_resource type="Resource" id="Resource_16j1j"]
 script = ExtResource("3_iqufn")
 level = 13
 move = 123
 
-[sub_resource type="Resource" id="Resource_aayv1"]
+[sub_resource type="Resource" id="Resource_xpqac"]
 script = ExtResource("3_iqufn")
 level = 19
 move = 7
 
-[sub_resource type="Resource" id="Resource_yrnw1"]
+[sub_resource type="Resource" id="Resource_kfl6j"]
 script = ExtResource("3_iqufn")
 level = 25
 move = 108
 
-[sub_resource type="Resource" id="Resource_sfdpr"]
+[sub_resource type="Resource" id="Resource_t1r11"]
 script = ExtResource("3_iqufn")
 level = 31
 move = 241
 
-[sub_resource type="Resource" id="Resource_16j1j"]
+[sub_resource type="Resource" id="Resource_hslfc"]
 script = ExtResource("3_iqufn")
 level = 37
 move = 53
 
-[sub_resource type="Resource" id="Resource_xpqac"]
+[sub_resource type="Resource" id="Resource_q3glu"]
 script = ExtResource("3_iqufn")
 level = 43
 move = 109
 
-[sub_resource type="Resource" id="Resource_kfl6j"]
+[sub_resource type="Resource" id="Resource_8u6cd"]
 script = ExtResource("3_iqufn")
 level = 49
 move = 126
@@ -65,6 +65,7 @@ pokedex = "If a Magby is spouting yellow flames from
 its mouth, it is in good health. When it is
 fatigued, black smoke will be mixed in with
 the flames."
+sprite_folder = "magby"
 type_1 = 11
 base_hp = 45
 base_atk = 75
@@ -82,6 +83,6 @@ item_rare = 231
 height_dm = 7
 weight_hg = 214
 no_flip = true
-level_moves = Array[ExtResource("3_iqufn")]([SubResource("Resource_jr4ct"), SubResource("Resource_iqufn"), SubResource("Resource_j2q40"), SubResource("Resource_aayv1"), SubResource("Resource_yrnw1"), SubResource("Resource_sfdpr"), SubResource("Resource_16j1j"), SubResource("Resource_xpqac"), SubResource("Resource_kfl6j")])
+level_moves = Array[ExtResource("3_iqufn")]([SubResource("Resource_yrnw1"), SubResource("Resource_sfdpr"), SubResource("Resource_16j1j"), SubResource("Resource_xpqac"), SubResource("Resource_kfl6j"), SubResource("Resource_t1r11"), SubResource("Resource_hslfc"), SubResource("Resource_q3glu"), SubResource("Resource_8u6cd")])
 egg_moves = Array[int]([2, 5, 112, 103, 238, 9, 183, 223, 394, 187, 231, 116, 384, 562])
-evolutions = Array[ExtResource("1_sbvnp")]([SubResource("Resource_sbvnp")])
+evolutions = Array[ExtResource("1_sbvnp")]([SubResource("Resource_aayv1")])

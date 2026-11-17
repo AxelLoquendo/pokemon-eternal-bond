@@ -5,61 +5,61 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hwair"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_a1ab7"]
 
-[sub_resource type="Resource" id="Resource_a2lpl"]
+[sub_resource type="Resource" id="Resource_udabo"]
 script = ExtResource("1_a2lpl")
 method = "LEVEL"
 param = "32"
 target = 857
 
-[sub_resource type="Resource" id="Resource_jbf68"]
+[sub_resource type="Resource" id="Resource_sxvrx"]
 script = ExtResource("3_hwair")
 move = 93
 
-[sub_resource type="Resource" id="Resource_hwair"]
+[sub_resource type="Resource" id="Resource_ienby"]
 script = ExtResource("3_hwair")
 move = 589
 
-[sub_resource type="Resource" id="Resource_a1ab7"]
+[sub_resource type="Resource" id="Resource_6thgx"]
 script = ExtResource("3_hwair")
 level = 5
 move = 719
 
-[sub_resource type="Resource" id="Resource_udabo"]
+[sub_resource type="Resource" id="Resource_8guqc"]
 script = ExtResource("3_hwair")
 level = 10
 move = 574
 
-[sub_resource type="Resource" id="Resource_sxvrx"]
+[sub_resource type="Resource" id="Resource_a1o30"]
 script = ExtResource("3_hwair")
 level = 15
 move = 312
 
-[sub_resource type="Resource" id="Resource_ienby"]
+[sub_resource type="Resource" id="Resource_pnuq6"]
 script = ExtResource("3_hwair")
 level = 20
 move = 60
 
-[sub_resource type="Resource" id="Resource_6thgx"]
+[sub_resource type="Resource" id="Resource_yd522"]
 script = ExtResource("3_hwair")
 level = 25
 move = 505
 
-[sub_resource type="Resource" id="Resource_8guqc"]
+[sub_resource type="Resource" id="Resource_gm5so"]
 script = ExtResource("3_hwair")
 level = 30
 move = 605
 
-[sub_resource type="Resource" id="Resource_a1o30"]
+[sub_resource type="Resource" id="Resource_vsrvd"]
 script = ExtResource("3_hwair")
 level = 35
 move = 347
 
-[sub_resource type="Resource" id="Resource_pnuq6"]
+[sub_resource type="Resource" id="Resource_8yqeg"]
 script = ExtResource("3_hwair")
 level = 40
 move = 94
 
-[sub_resource type="Resource" id="Resource_yd522"]
+[sub_resource type="Resource" id="Resource_o5p5i"]
 script = ExtResource("3_hwair")
 level = 45
 move = 361
@@ -74,6 +74,7 @@ pokedex = "Via the protrusion on its head, it senses
 other creatures' emotions. If you don't
 have a calm disposition, it will never
 warm up to you."
+sprite_folder = "hatenna"
 type_1 = 15
 base_hp = 42
 base_atk = 30
@@ -93,6 +94,6 @@ ability_hidden = 156
 height_dm = 4
 weight_hg = 34
 body_color = 9
-level_moves = Array[ExtResource("3_hwair")]([SubResource("Resource_jbf68"), SubResource("Resource_hwair"), SubResource("Resource_a1ab7"), SubResource("Resource_udabo"), SubResource("Resource_sxvrx"), SubResource("Resource_ienby"), SubResource("Resource_6thgx"), SubResource("Resource_8guqc"), SubResource("Resource_a1o30"), SubResource("Resource_pnuq6"), SubResource("Resource_yd522")])
+level_moves = Array[ExtResource("3_hwair")]([SubResource("Resource_sxvrx"), SubResource("Resource_ienby"), SubResource("Resource_6thgx"), SubResource("Resource_8guqc"), SubResource("Resource_a1o30"), SubResource("Resource_pnuq6"), SubResource("Resource_yd522"), SubResource("Resource_gm5so"), SubResource("Resource_vsrvd"), SubResource("Resource_8yqeg"), SubResource("Resource_o5p5i")])
 egg_moves = Array[int]([597, 609, 495, 511])
-evolutions = Array[ExtResource("1_a2lpl")]([SubResource("Resource_a2lpl")])
+evolutions = Array[ExtResource("1_a2lpl")]([SubResource("Resource_udabo")])

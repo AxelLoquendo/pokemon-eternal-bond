@@ -5,79 +5,79 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7tojd"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_fi7n2"]
 
-[sub_resource type="Resource" id="Resource_cmvqt"]
+[sub_resource type="Resource" id="Resource_j4erm"]
 script = ExtResource("1_cmvqt")
 method = "LEVEL"
 param = "50"
 target = 373
 
-[sub_resource type="Resource" id="Resource_1omyy"]
+[sub_resource type="Resource" id="Resource_lkv6b"]
 script = ExtResource("3_7tojd")
 move = 99
 
-[sub_resource type="Resource" id="Resource_7tojd"]
+[sub_resource type="Resource" id="Resource_x6kx0"]
 script = ExtResource("3_7tojd")
 move = 44
 
-[sub_resource type="Resource" id="Resource_fi7n2"]
+[sub_resource type="Resource" id="Resource_ee74b"]
 script = ExtResource("3_7tojd")
 move = 43
 
-[sub_resource type="Resource" id="Resource_j4erm"]
+[sub_resource type="Resource" id="Resource_7ifeq"]
 script = ExtResource("3_7tojd")
 move = 29
 
-[sub_resource type="Resource" id="Resource_lkv6b"]
+[sub_resource type="Resource" id="Resource_pfus6"]
 script = ExtResource("3_7tojd")
 level = 5
 move = 44
 
-[sub_resource type="Resource" id="Resource_x6kx0"]
+[sub_resource type="Resource" id="Resource_7nse2"]
 script = ExtResource("3_7tojd")
 level = 9
 move = 43
 
-[sub_resource type="Resource" id="Resource_ee74b"]
+[sub_resource type="Resource" id="Resource_kxiuc"]
 script = ExtResource("3_7tojd")
 level = 17
 move = 29
 
-[sub_resource type="Resource" id="Resource_7ifeq"]
+[sub_resource type="Resource" id="Resource_67ge6"]
 script = ExtResource("3_7tojd")
 level = 21
 move = 116
 
-[sub_resource type="Resource" id="Resource_pfus6"]
+[sub_resource type="Resource" id="Resource_igubk"]
 script = ExtResource("3_7tojd")
 level = 25
 move = 52
 
-[sub_resource type="Resource" id="Resource_7nse2"]
+[sub_resource type="Resource" id="Resource_asvrf"]
 script = ExtResource("3_7tojd")
 level = 30
 move = 182
 
-[sub_resource type="Resource" id="Resource_kxiuc"]
+[sub_resource type="Resource" id="Resource_mbdqg"]
 script = ExtResource("3_7tojd")
 level = 38
 move = 225
 
-[sub_resource type="Resource" id="Resource_67ge6"]
+[sub_resource type="Resource" id="Resource_paaa0"]
 script = ExtResource("3_7tojd")
 level = 47
 move = 184
 
-[sub_resource type="Resource" id="Resource_igubk"]
+[sub_resource type="Resource" id="Resource_o18rf"]
 script = ExtResource("3_7tojd")
 level = 56
 move = 242
 
-[sub_resource type="Resource" id="Resource_asvrf"]
+[sub_resource type="Resource" id="Resource_eqihw"]
 script = ExtResource("3_7tojd")
 level = 69
 move = 337
 
-[sub_resource type="Resource" id="Resource_mbdqg"]
+[sub_resource type="Resource" id="Resource_xyy7y"]
 script = ExtResource("3_7tojd")
 level = 78
 move = 38
@@ -92,6 +92,7 @@ pokedex = "It hardly eats while it awaits evolution.
 It becomes hardier by enduring hunger.
 Its shell peels off the instant it begins
 to evolve."
+sprite_folder = "shelgon"
 type_1 = 17
 base_hp = 65
 base_atk = 95
@@ -111,5 +112,5 @@ item_rare = 439
 height_dm = 11
 weight_hg = 1105
 body_color = 8
-level_moves = Array[ExtResource("3_7tojd")]([SubResource("Resource_1omyy"), SubResource("Resource_7tojd"), SubResource("Resource_fi7n2"), SubResource("Resource_j4erm"), SubResource("Resource_lkv6b"), SubResource("Resource_x6kx0"), SubResource("Resource_ee74b"), SubResource("Resource_7ifeq"), SubResource("Resource_pfus6"), SubResource("Resource_7nse2"), SubResource("Resource_kxiuc"), SubResource("Resource_67ge6"), SubResource("Resource_igubk"), SubResource("Resource_asvrf"), SubResource("Resource_mbdqg")])
-evolutions = Array[ExtResource("1_cmvqt")]([SubResource("Resource_cmvqt")])
+level_moves = Array[ExtResource("3_7tojd")]([SubResource("Resource_lkv6b"), SubResource("Resource_x6kx0"), SubResource("Resource_ee74b"), SubResource("Resource_7ifeq"), SubResource("Resource_pfus6"), SubResource("Resource_7nse2"), SubResource("Resource_kxiuc"), SubResource("Resource_67ge6"), SubResource("Resource_igubk"), SubResource("Resource_asvrf"), SubResource("Resource_mbdqg"), SubResource("Resource_paaa0"), SubResource("Resource_o18rf"), SubResource("Resource_eqihw"), SubResource("Resource_xyy7y")])
+evolutions = Array[ExtResource("1_cmvqt")]([SubResource("Resource_j4erm")])

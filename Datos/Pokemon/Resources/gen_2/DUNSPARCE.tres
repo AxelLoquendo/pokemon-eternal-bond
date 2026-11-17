@@ -5,36 +5,36 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_g27jh"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_236f8"]
 
-[sub_resource type="Resource" id="Resource_a20xn"]
+[sub_resource type="Resource" id="Resource_b0v6b"]
 script = ExtResource("3_g27jh")
 move = 99
 
-[sub_resource type="Resource" id="Resource_jvswm"]
+[sub_resource type="Resource" id="Resource_k0kt6"]
 script = ExtResource("3_g27jh")
 level = 5
 move = 111
 
-[sub_resource type="Resource" id="Resource_g27jh"]
+[sub_resource type="Resource" id="Resource_f6tgq"]
 script = ExtResource("3_g27jh")
 level = 13
 move = 137
 
-[sub_resource type="Resource" id="Resource_236f8"]
+[sub_resource type="Resource" id="Resource_ughjc"]
 script = ExtResource("3_g27jh")
 level = 18
 move = 180
 
-[sub_resource type="Resource" id="Resource_b0v6b"]
+[sub_resource type="Resource" id="Resource_jwfti"]
 script = ExtResource("3_g27jh")
 level = 26
 move = 228
 
-[sub_resource type="Resource" id="Resource_k0kt6"]
+[sub_resource type="Resource" id="Resource_v4jne"]
 script = ExtResource("3_g27jh")
 level = 30
 move = 103
 
-[sub_resource type="Resource" id="Resource_f6tgq"]
+[sub_resource type="Resource" id="Resource_apkbg"]
 script = ExtResource("3_g27jh")
 level = 38
 move = 36
@@ -49,6 +49,7 @@ pokedex = "Its drill-tipped tail is used to burrow into
 the ground backwards. This Pokémon is
 known to make its nest in complex shapes
 deep under the ground."
+sprite_folder = "dunsparce"
 type_1 = 1
 base_hp = 100
 base_atk = 70
@@ -66,5 +67,5 @@ ability_hidden = 155
 height_dm = 15
 weight_hg = 140
 body_color = 2
-level_moves = Array[ExtResource("3_g27jh")]([SubResource("Resource_a20xn"), SubResource("Resource_jvswm"), SubResource("Resource_g27jh"), SubResource("Resource_236f8"), SubResource("Resource_b0v6b"), SubResource("Resource_k0kt6"), SubResource("Resource_f6tgq")])
+level_moves = Array[ExtResource("3_g27jh")]([SubResource("Resource_b0v6b"), SubResource("Resource_k0kt6"), SubResource("Resource_f6tgq"), SubResource("Resource_ughjc"), SubResource("Resource_jwfti"), SubResource("Resource_v4jne"), SubResource("Resource_apkbg")])
 egg_moves = Array[int]([117, 246, 44, 29, 310, 174, 376, 277, 173, 97, 290, 214, 506])

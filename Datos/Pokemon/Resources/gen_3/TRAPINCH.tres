@@ -5,47 +5,47 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fhr3x"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_edw62"]
 
-[sub_resource type="Resource" id="Resource_dfnw8"]
+[sub_resource type="Resource" id="Resource_uv65a"]
 script = ExtResource("1_dfnw8")
 method = "LEVEL"
 param = "35"
 target = 329
 
-[sub_resource type="Resource" id="Resource_s4oos"]
+[sub_resource type="Resource" id="Resource_pdf31"]
 script = ExtResource("3_fhr3x")
 move = 44
 
-[sub_resource type="Resource" id="Resource_fhr3x"]
+[sub_resource type="Resource" id="Resource_r8okf"]
 script = ExtResource("3_fhr3x")
 level = 9
 move = 28
 
-[sub_resource type="Resource" id="Resource_edw62"]
+[sub_resource type="Resource" id="Resource_bugay"]
 script = ExtResource("3_fhr3x")
 level = 17
 move = 185
 
-[sub_resource type="Resource" id="Resource_uv65a"]
+[sub_resource type="Resource" id="Resource_lkxrh"]
 script = ExtResource("3_fhr3x")
 level = 25
 move = 328
 
-[sub_resource type="Resource" id="Resource_pdf31"]
+[sub_resource type="Resource" id="Resource_hx02b"]
 script = ExtResource("3_fhr3x")
 level = 33
 move = 242
 
-[sub_resource type="Resource" id="Resource_r8okf"]
+[sub_resource type="Resource" id="Resource_sppfb"]
 script = ExtResource("3_fhr3x")
 level = 41
 move = 91
 
-[sub_resource type="Resource" id="Resource_bugay"]
+[sub_resource type="Resource" id="Resource_jpgmm"]
 script = ExtResource("3_fhr3x")
 level = 49
 move = 201
 
-[sub_resource type="Resource" id="Resource_lkxrh"]
+[sub_resource type="Resource" id="Resource_ngw6d"]
 script = ExtResource("3_fhr3x")
 level = 57
 move = 63
@@ -60,6 +60,7 @@ pokedex = "Its big jaws crunch through boulders.
 Because its head is so big, it has a hard
 time getting back upright if it tips over
 onto its back."
+sprite_folder = "trapinch"
 type_1 = 5
 base_hp = 45
 base_atk = 100
@@ -78,6 +79,6 @@ item_rare = 433
 height_dm = 7
 weight_hg = 150
 body_color = 5
-level_moves = Array[ExtResource("3_fhr3x")]([SubResource("Resource_s4oos"), SubResource("Resource_fhr3x"), SubResource("Resource_edw62"), SubResource("Resource_uv65a"), SubResource("Resource_pdf31"), SubResource("Resource_r8okf"), SubResource("Resource_bugay"), SubResource("Resource_lkxrh")])
+level_moves = Array[ExtResource("3_fhr3x")]([SubResource("Resource_pdf31"), SubResource("Resource_r8okf"), SubResource("Resource_bugay"), SubResource("Resource_lkxrh"), SubResource("Resource_hx02b"), SubResource("Resource_sppfb"), SubResource("Resource_jpgmm"), SubResource("Resource_ngw6d")])
 egg_moves = Array[int]([116, 98, 16, 175, 210, 341, 203, 414, 450, 324])
-evolutions = Array[ExtResource("1_dfnw8")]([SubResource("Resource_dfnw8")])
+evolutions = Array[ExtResource("1_dfnw8")]([SubResource("Resource_uv65a")])

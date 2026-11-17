@@ -5,39 +5,39 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_l6pj4"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cfpgl"]
 
-[sub_resource type="Resource" id="Resource_6xa0f"]
+[sub_resource type="Resource" id="Resource_4jtfm"]
 script = ExtResource("3_l6pj4")
 move = 10
 
-[sub_resource type="Resource" id="Resource_a1pok"]
+[sub_resource type="Resource" id="Resource_q8e35"]
 script = ExtResource("3_l6pj4")
 move = 39
 
-[sub_resource type="Resource" id="Resource_l6pj4"]
+[sub_resource type="Resource" id="Resource_hcv6p"]
 script = ExtResource("3_l6pj4")
 move = 50
 
-[sub_resource type="Resource" id="Resource_cfpgl"]
+[sub_resource type="Resource" id="Resource_knomo"]
 script = ExtResource("3_l6pj4")
 level = 28
 move = 39
 
-[sub_resource type="Resource" id="Resource_4jtfm"]
+[sub_resource type="Resource" id="Resource_loh8l"]
 script = ExtResource("3_l6pj4")
 level = 31
 move = 50
 
-[sub_resource type="Resource" id="Resource_q8e35"]
+[sub_resource type="Resource" id="Resource_j6bdm"]
 script = ExtResource("3_l6pj4")
 level = 39
 move = 93
 
-[sub_resource type="Resource" id="Resource_hcv6p"]
+[sub_resource type="Resource" id="Resource_33pok"]
 script = ExtResource("3_l6pj4")
 level = 48
 move = 154
 
-[sub_resource type="Resource" id="Resource_knomo"]
+[sub_resource type="Resource" id="Resource_s8r7d"]
 script = ExtResource("3_l6pj4")
 level = 59
 move = 56
@@ -52,6 +52,7 @@ pokedex = "A Golduck is an adept swimmer.
 It sometimes joins competitive swimmers
 in training. It uses psychic powers when
 its forehead shimmers with light."
+sprite_folder = "golduck"
 type_1 = 12
 base_hp = 80
 base_atk = 82
@@ -70,4 +71,4 @@ ability_hidden = 33
 height_dm = 17
 weight_hg = 766
 body_color = 1
-level_moves = Array[ExtResource("3_l6pj4")]([SubResource("Resource_6xa0f"), SubResource("Resource_a1pok"), SubResource("Resource_l6pj4"), SubResource("Resource_cfpgl"), SubResource("Resource_4jtfm"), SubResource("Resource_q8e35"), SubResource("Resource_hcv6p"), SubResource("Resource_knomo")])
+level_moves = Array[ExtResource("3_l6pj4")]([SubResource("Resource_4jtfm"), SubResource("Resource_q8e35"), SubResource("Resource_hcv6p"), SubResource("Resource_knomo"), SubResource("Resource_loh8l"), SubResource("Resource_j6bdm"), SubResource("Resource_33pok"), SubResource("Resource_s8r7d")])

@@ -5,65 +5,65 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wb0mb"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_yl5s3"]
 
-[sub_resource type="Resource" id="Resource_kqn8j"]
+[sub_resource type="Resource" id="Resource_2ydkk"]
 script = ExtResource("3_wb0mb")
 move = 232
 
-[sub_resource type="Resource" id="Resource_ty3w8"]
+[sub_resource type="Resource" id="Resource_v7cp7"]
 script = ExtResource("3_wb0mb")
 move = 43
 
-[sub_resource type="Resource" id="Resource_wb0mb"]
+[sub_resource type="Resource" id="Resource_jbkja"]
 script = ExtResource("3_wb0mb")
 level = 6
 move = 249
 
-[sub_resource type="Resource" id="Resource_yl5s3"]
+[sub_resource type="Resource" id="Resource_20hve"]
 script = ExtResource("3_wb0mb")
 level = 12
 move = 468
 
-[sub_resource type="Resource" id="Resource_2ydkk"]
+[sub_resource type="Resource" id="Resource_bm7rd"]
 script = ExtResource("3_wb0mb")
 level = 18
 move = 319
 
-[sub_resource type="Resource" id="Resource_v7cp7"]
+[sub_resource type="Resource" id="Resource_l485f"]
 script = ExtResource("3_wb0mb")
 level = 24
 move = 712
 
-[sub_resource type="Resource" id="Resource_jbkja"]
+[sub_resource type="Resource" id="Resource_xx5gh"]
 script = ExtResource("3_wb0mb")
 level = 30
 move = 525
 
-[sub_resource type="Resource" id="Resource_20hve"]
+[sub_resource type="Resource" id="Resource_mx3rp"]
 script = ExtResource("3_wb0mb")
 level = 36
 move = 334
 
-[sub_resource type="Resource" id="Resource_bm7rd"]
+[sub_resource type="Resource" id="Resource_555wt"]
 script = ExtResource("3_wb0mb")
 level = 42
 move = 636
 
-[sub_resource type="Resource" id="Resource_l485f"]
+[sub_resource type="Resource" id="Resource_gyn2s"]
 script = ExtResource("3_wb0mb")
 level = 48
 move = 337
 
-[sub_resource type="Resource" id="Resource_xx5gh"]
+[sub_resource type="Resource" id="Resource_wekur"]
 script = ExtResource("3_wb0mb")
 level = 54
 move = 430
 
-[sub_resource type="Resource" id="Resource_mx3rp"]
+[sub_resource type="Resource" id="Resource_qsy3x"]
 script = ExtResource("3_wb0mb")
 level = 60
 move = 368
 
-[sub_resource type="Resource" id="Resource_555wt"]
+[sub_resource type="Resource" id="Resource_kd3nr"]
 script = ExtResource("3_wb0mb")
 level = 66
 move = 63
@@ -78,6 +78,7 @@ pokedex = "The hardness of its cells is
 exceptional, even among Steel types. It
 also has a body structure that's
 resistant to earthquakes."
+sprite_folder = "duraludon/gmax"
 type_1 = 9
 type_2 = 17
 base_hp = 70
@@ -96,6 +97,6 @@ ability_2 = 134
 ability_hidden = 242
 height_dm = 430
 body_color = 8
-level_moves = Array[ExtResource("3_wb0mb")]([SubResource("Resource_kqn8j"), SubResource("Resource_ty3w8"), SubResource("Resource_wb0mb"), SubResource("Resource_yl5s3"), SubResource("Resource_2ydkk"), SubResource("Resource_v7cp7"), SubResource("Resource_jbkja"), SubResource("Resource_20hve"), SubResource("Resource_bm7rd"), SubResource("Resource_l485f"), SubResource("Resource_xx5gh"), SubResource("Resource_mx3rp"), SubResource("Resource_555wt")])
+level_moves = Array[ExtResource("3_wb0mb")]([SubResource("Resource_2ydkk"), SubResource("Resource_v7cp7"), SubResource("Resource_jbkja"), SubResource("Resource_20hve"), SubResource("Resource_bm7rd"), SubResource("Resource_l485f"), SubResource("Resource_xx5gh"), SubResource("Resource_mx3rp"), SubResource("Resource_555wt"), SubResource("Resource_gyn2s"), SubResource("Resource_wekur"), SubResource("Resource_qsy3x"), SubResource("Resource_kd3nr")])
 egg_moves = Array[int]([163, 400, 243])
 form_species = Array[int]([884, 1520])

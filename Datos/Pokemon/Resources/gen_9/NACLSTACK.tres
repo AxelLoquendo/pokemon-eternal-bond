@@ -5,81 +5,81 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wcyxa"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5s2ux"]
 
-[sub_resource type="Resource" id="Resource_xa5c1"]
+[sub_resource type="Resource" id="Resource_e0r4y"]
 script = ExtResource("1_xa5c1")
 method = "LEVEL"
 param = "38"
 target = 1322
 
-[sub_resource type="Resource" id="Resource_v4pi5"]
+[sub_resource type="Resource" id="Resource_2ev78"]
 script = ExtResource("3_wcyxa")
 level = 0
 move = 792
 
-[sub_resource type="Resource" id="Resource_wcyxa"]
+[sub_resource type="Resource" id="Resource_waswp"]
 script = ExtResource("3_wcyxa")
 move = 33
 
-[sub_resource type="Resource" id="Resource_5s2ux"]
+[sub_resource type="Resource" id="Resource_tc4lf"]
 script = ExtResource("3_wcyxa")
 move = 106
 
-[sub_resource type="Resource" id="Resource_e0r4y"]
+[sub_resource type="Resource" id="Resource_lsbdk"]
 script = ExtResource("3_wcyxa")
 level = 5
 move = 88
 
-[sub_resource type="Resource" id="Resource_2ev78"]
+[sub_resource type="Resource" id="Resource_w4bd3"]
 script = ExtResource("3_wcyxa")
 level = 7
 move = 341
 
-[sub_resource type="Resource" id="Resource_waswp"]
+[sub_resource type="Resource" id="Resource_rtpfd"]
 script = ExtResource("3_wcyxa")
 level = 10
 move = 479
 
-[sub_resource type="Resource" id="Resource_tc4lf"]
+[sub_resource type="Resource" id="Resource_wawb8"]
 script = ExtResource("3_wcyxa")
 level = 13
 move = 397
 
-[sub_resource type="Resource" id="Resource_lsbdk"]
+[sub_resource type="Resource" id="Resource_wtv1h"]
 script = ExtResource("3_wcyxa")
 level = 16
 move = 29
 
-[sub_resource type="Resource" id="Resource_w4bd3"]
+[sub_resource type="Resource" id="Resource_svshr"]
 script = ExtResource("3_wcyxa")
 level = 20
 move = 334
 
-[sub_resource type="Resource" id="Resource_rtpfd"]
+[sub_resource type="Resource" id="Resource_3pfp0"]
 script = ExtResource("3_wcyxa")
 level = 30
 move = 105
 
-[sub_resource type="Resource" id="Resource_wawb8"]
+[sub_resource type="Resource" id="Resource_6yjjy"]
 script = ExtResource("3_wcyxa")
 level = 34
 move = 157
 
-[sub_resource type="Resource" id="Resource_wtv1h"]
+[sub_resource type="Resource" id="Resource_6f7lx"]
 script = ExtResource("3_wcyxa")
 level = 38
 move = 446
 
-[sub_resource type="Resource" id="Resource_svshr"]
+[sub_resource type="Resource" id="Resource_u0ru0"]
 script = ExtResource("3_wcyxa")
 level = 41
 move = 484
 
-[sub_resource type="Resource" id="Resource_3pfp0"]
+[sub_resource type="Resource" id="Resource_7wabm"]
 script = ExtResource("3_wcyxa")
 level = 45
 move = 89
 
-[sub_resource type="Resource" id="Resource_6yjjy"]
+[sub_resource type="Resource" id="Resource_lji2u"]
 script = ExtResource("3_wcyxa")
 level = 51
 move = 444
@@ -94,6 +94,7 @@ pokedex = "It compresses rock salt inside its
 body and shoots out hardened salt
 pellets with enough force to
 perforate an iron sheet."
+sprite_folder = "naclstack"
 type_1 = 6
 base_hp = 60
 base_atk = 60
@@ -112,5 +113,5 @@ ability_hidden = 29
 height_dm = 6
 weight_hg = 1050
 body_color = 5
-level_moves = Array[ExtResource("3_wcyxa")]([SubResource("Resource_v4pi5"), SubResource("Resource_wcyxa"), SubResource("Resource_5s2ux"), SubResource("Resource_e0r4y"), SubResource("Resource_2ev78"), SubResource("Resource_waswp"), SubResource("Resource_tc4lf"), SubResource("Resource_lsbdk"), SubResource("Resource_w4bd3"), SubResource("Resource_rtpfd"), SubResource("Resource_wawb8"), SubResource("Resource_wtv1h"), SubResource("Resource_svshr"), SubResource("Resource_3pfp0"), SubResource("Resource_6yjjy")])
-evolutions = Array[ExtResource("1_xa5c1")]([SubResource("Resource_xa5c1")])
+level_moves = Array[ExtResource("3_wcyxa")]([SubResource("Resource_2ev78"), SubResource("Resource_waswp"), SubResource("Resource_tc4lf"), SubResource("Resource_lsbdk"), SubResource("Resource_w4bd3"), SubResource("Resource_rtpfd"), SubResource("Resource_wawb8"), SubResource("Resource_wtv1h"), SubResource("Resource_svshr"), SubResource("Resource_3pfp0"), SubResource("Resource_6yjjy"), SubResource("Resource_6f7lx"), SubResource("Resource_u0ru0"), SubResource("Resource_7wabm"), SubResource("Resource_lji2u")])
+evolutions = Array[ExtResource("1_xa5c1")]([SubResource("Resource_e0r4y")])

@@ -5,36 +5,36 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ixhm2"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_a2331"]
 
-[sub_resource type="Resource" id="Resource_etw1x"]
+[sub_resource type="Resource" id="Resource_1sc24"]
 script = ExtResource("3_ixhm2")
 move = 98
 
-[sub_resource type="Resource" id="Resource_j12ap"]
+[sub_resource type="Resource" id="Resource_imq27"]
 script = ExtResource("3_ixhm2")
 level = 6
 move = 249
 
-[sub_resource type="Resource" id="Resource_ixhm2"]
+[sub_resource type="Resource" id="Resource_hmpip"]
 script = ExtResource("3_ixhm2")
 level = 11
 move = 129
 
-[sub_resource type="Resource" id="Resource_a2331"]
+[sub_resource type="Resource" id="Resource_x8kx1"]
 script = ExtResource("3_ixhm2")
 level = 18
 move = 163
 
-[sub_resource type="Resource" id="Resource_1sc24"]
+[sub_resource type="Resource" id="Resource_8ngb4"]
 script = ExtResource("3_ixhm2")
 level = 25
 move = 398
 
-[sub_resource type="Resource" id="Resource_imq27"]
+[sub_resource type="Resource" id="Resource_o2qsg"]
 script = ExtResource("3_ixhm2")
 level = 34
 move = 14
 
-[sub_resource type="Resource" id="Resource_hmpip"]
+[sub_resource type="Resource" id="Resource_qkjsc"]
 script = ExtResource("3_ixhm2")
 level = 43
 move = 370
@@ -49,6 +49,7 @@ pokedex = "Its sturdy, curved claws are ideal for
 traversing precipitous cliffs. From the
 tips of these claws drips a venom that
 infiltrates the nerves of any prey caught."
+sprite_folder = "sneasel/hisui"
 type_1 = 2
 type_2 = 4
 base_hp = 55
@@ -71,6 +72,6 @@ height_dm = 9
 weight_hg = 270
 body_color = 7
 no_flip = true
-level_moves = Array[ExtResource("3_ixhm2")]([SubResource("Resource_etw1x"), SubResource("Resource_j12ap"), SubResource("Resource_ixhm2"), SubResource("Resource_a2331"), SubResource("Resource_1sc24"), SubResource("Resource_imq27"), SubResource("Resource_hmpip")])
+level_moves = Array[ExtResource("3_ixhm2")]([SubResource("Resource_1sc24"), SubResource("Resource_imq27"), SubResource("Resource_hmpip"), SubResource("Resource_x8kx1"), SubResource("Resource_8ngb4"), SubResource("Resource_o2qsg"), SubResource("Resource_qkjsc")])
 egg_moves = Array[int]([68, 252, 364, 458, 400, 415, 501])
 form_species = Array[int]([215, 999])

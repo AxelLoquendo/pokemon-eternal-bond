@@ -5,68 +5,68 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_cyh1f"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gjjtm"]
 
-[sub_resource type="Resource" id="Resource_8w7q4"]
+[sub_resource type="Resource" id="Resource_v1kgy"]
 script = ExtResource("1_8w7q4")
 method = "LEVEL"
 param = "35"
 target = 812
 
-[sub_resource type="Resource" id="Resource_oxh27"]
+[sub_resource type="Resource" id="Resource_3v3gq"]
 script = ExtResource("3_cyh1f")
 level = 0
 move = 458
 
-[sub_resource type="Resource" id="Resource_cyh1f"]
+[sub_resource type="Resource" id="Resource_gi7au"]
 script = ExtResource("3_cyh1f")
 move = 458
 
-[sub_resource type="Resource" id="Resource_gjjtm"]
+[sub_resource type="Resource" id="Resource_bymbp"]
 script = ExtResource("3_cyh1f")
 move = 10
 
-[sub_resource type="Resource" id="Resource_v1kgy"]
+[sub_resource type="Resource" id="Resource_ldtc5"]
 script = ExtResource("3_cyh1f")
 move = 45
 
-[sub_resource type="Resource" id="Resource_3v3gq"]
+[sub_resource type="Resource" id="Resource_54ym8"]
 script = ExtResource("3_cyh1f")
 move = 713
 
-[sub_resource type="Resource" id="Resource_gi7au"]
+[sub_resource type="Resource" id="Resource_bmt61"]
 script = ExtResource("3_cyh1f")
 move = 269
 
-[sub_resource type="Resource" id="Resource_bymbp"]
+[sub_resource type="Resource" id="Resource_0vay7"]
 script = ExtResource("3_cyh1f")
 level = 12
 move = 75
 
-[sub_resource type="Resource" id="Resource_ldtc5"]
+[sub_resource type="Resource" id="Resource_lq3j5"]
 script = ExtResource("3_cyh1f")
 level = 19
 move = 103
 
-[sub_resource type="Resource" id="Resource_54ym8"]
+[sub_resource type="Resource" id="Resource_x3juv"]
 script = ExtResource("3_cyh1f")
 level = 24
 move = 282
 
-[sub_resource type="Resource" id="Resource_bmt61"]
+[sub_resource type="Resource" id="Resource_mhhl1"]
 script = ExtResource("3_cyh1f")
 level = 30
 move = 21
 
-[sub_resource type="Resource" id="Resource_0vay7"]
+[sub_resource type="Resource" id="Resource_2ffyp"]
 script = ExtResource("3_cyh1f")
 level = 36
 move = 253
 
-[sub_resource type="Resource" id="Resource_lq3j5"]
+[sub_resource type="Resource" id="Resource_2vsif"]
 script = ExtResource("3_cyh1f")
 level = 42
 move = 452
 
-[sub_resource type="Resource" id="Resource_x3juv"]
+[sub_resource type="Resource" id="Resource_7kunw"]
 script = ExtResource("3_cyh1f")
 level = 48
 move = 283
@@ -80,6 +80,7 @@ national_dex = 811
 pokedex = "The faster a Thwackey can beat out
 a rhythm with its two sticks, the more
 respect it wins from its peers."
+sprite_folder = "thwackey"
 type_1 = 13
 base_hp = 70
 base_atk = 85
@@ -98,5 +99,5 @@ ability_hidden = 229
 height_dm = 7
 weight_hg = 140
 body_color = 3
-level_moves = Array[ExtResource("3_cyh1f")]([SubResource("Resource_oxh27"), SubResource("Resource_cyh1f"), SubResource("Resource_gjjtm"), SubResource("Resource_v1kgy"), SubResource("Resource_3v3gq"), SubResource("Resource_gi7au"), SubResource("Resource_bymbp"), SubResource("Resource_ldtc5"), SubResource("Resource_54ym8"), SubResource("Resource_bmt61"), SubResource("Resource_0vay7"), SubResource("Resource_lq3j5"), SubResource("Resource_x3juv")])
-evolutions = Array[ExtResource("1_8w7q4")]([SubResource("Resource_8w7q4")])
+level_moves = Array[ExtResource("3_cyh1f")]([SubResource("Resource_3v3gq"), SubResource("Resource_gi7au"), SubResource("Resource_bymbp"), SubResource("Resource_ldtc5"), SubResource("Resource_54ym8"), SubResource("Resource_bmt61"), SubResource("Resource_0vay7"), SubResource("Resource_lq3j5"), SubResource("Resource_x3juv"), SubResource("Resource_mhhl1"), SubResource("Resource_2ffyp"), SubResource("Resource_2vsif"), SubResource("Resource_7kunw")])
+evolutions = Array[ExtResource("1_8w7q4")]([SubResource("Resource_v1kgy")])

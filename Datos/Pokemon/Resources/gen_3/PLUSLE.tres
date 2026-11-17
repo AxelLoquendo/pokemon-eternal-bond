@@ -5,56 +5,56 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_m62qi"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_672hk"]
 
-[sub_resource type="Resource" id="Resource_21162"]
+[sub_resource type="Resource" id="Resource_ue2hq"]
 script = ExtResource("3_m62qi")
 move = 45
 
-[sub_resource type="Resource" id="Resource_v8xrq"]
+[sub_resource type="Resource" id="Resource_lpyw3"]
 script = ExtResource("3_m62qi")
 level = 4
 move = 86
 
-[sub_resource type="Resource" id="Resource_m62qi"]
+[sub_resource type="Resource" id="Resource_652ax"]
 script = ExtResource("3_m62qi")
 level = 10
 move = 98
 
-[sub_resource type="Resource" id="Resource_672hk"]
+[sub_resource type="Resource" id="Resource_24oq4"]
 script = ExtResource("3_m62qi")
 level = 13
 move = 270
 
-[sub_resource type="Resource" id="Resource_ue2hq"]
+[sub_resource type="Resource" id="Resource_kg0r3"]
 script = ExtResource("3_m62qi")
 level = 19
 move = 209
 
-[sub_resource type="Resource" id="Resource_lpyw3"]
+[sub_resource type="Resource" id="Resource_b3kvd"]
 script = ExtResource("3_m62qi")
 level = 22
 move = 227
 
-[sub_resource type="Resource" id="Resource_652ax"]
+[sub_resource type="Resource" id="Resource_q6q31"]
 script = ExtResource("3_m62qi")
 level = 28
 move = 313
 
-[sub_resource type="Resource" id="Resource_24oq4"]
+[sub_resource type="Resource" id="Resource_vjrcr"]
 script = ExtResource("3_m62qi")
 level = 31
 move = 268
 
-[sub_resource type="Resource" id="Resource_kg0r3"]
+[sub_resource type="Resource" id="Resource_f7ulv"]
 script = ExtResource("3_m62qi")
 level = 37
 move = 87
 
-[sub_resource type="Resource" id="Resource_b3kvd"]
+[sub_resource type="Resource" id="Resource_ncehu"]
 script = ExtResource("3_m62qi")
 level = 40
 move = 226
 
-[sub_resource type="Resource" id="Resource_q6q31"]
+[sub_resource type="Resource" id="Resource_ne0m5"]
 script = ExtResource("3_m62qi")
 level = 47
 move = 97
@@ -69,6 +69,7 @@ pokedex = "It has the trait of cheering on its fellow
 Pokémon. By shorting out the electricity
 it releases from its paws, it creates
 pom-poms for cheering."
+sprite_folder = "plusle"
 type_1 = 14
 base_hp = 60
 base_atk = 50
@@ -86,5 +87,5 @@ item_rare = 456
 height_dm = 4
 weight_hg = 42
 body_color = 2
-level_moves = Array[ExtResource("3_m62qi")]([SubResource("Resource_21162"), SubResource("Resource_v8xrq"), SubResource("Resource_m62qi"), SubResource("Resource_672hk"), SubResource("Resource_ue2hq"), SubResource("Resource_lpyw3"), SubResource("Resource_652ax"), SubResource("Resource_24oq4"), SubResource("Resource_kg0r3"), SubResource("Resource_b3kvd"), SubResource("Resource_q6q31")])
+level_moves = Array[ExtResource("3_m62qi")]([SubResource("Resource_ue2hq"), SubResource("Resource_lpyw3"), SubResource("Resource_652ax"), SubResource("Resource_24oq4"), SubResource("Resource_kg0r3"), SubResource("Resource_b3kvd"), SubResource("Resource_q6q31"), SubResource("Resource_vjrcr"), SubResource("Resource_f7ulv"), SubResource("Resource_ncehu"), SubResource("Resource_ne0m5")])
 egg_moves = Array[int]([273, 47, 186, 435, 381, 204, 313, 669])

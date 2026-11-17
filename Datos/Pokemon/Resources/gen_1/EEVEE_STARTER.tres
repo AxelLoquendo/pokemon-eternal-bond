@@ -5,40 +5,40 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3x4nk"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8an0l"]
 
-[sub_resource type="Resource" id="Resource_me2x8"]
+[sub_resource type="Resource" id="Resource_fpkyd"]
 script = ExtResource("3_3x4nk")
 move = 33
 
-[sub_resource type="Resource" id="Resource_nosl2"]
+[sub_resource type="Resource" id="Resource_oq87m"]
 script = ExtResource("3_3x4nk")
 move = 39
 
-[sub_resource type="Resource" id="Resource_3x4nk"]
+[sub_resource type="Resource" id="Resource_an580"]
 script = ExtResource("3_3x4nk")
 level = 8
 move = 28
 
-[sub_resource type="Resource" id="Resource_8an0l"]
+[sub_resource type="Resource" id="Resource_hd6tm"]
 script = ExtResource("3_3x4nk")
 level = 16
 move = 45
 
-[sub_resource type="Resource" id="Resource_fpkyd"]
+[sub_resource type="Resource" id="Resource_apal6"]
 script = ExtResource("3_3x4nk")
 level = 23
 move = 98
 
-[sub_resource type="Resource" id="Resource_oq87m"]
+[sub_resource type="Resource" id="Resource_d6csc"]
 script = ExtResource("3_3x4nk")
 level = 30
 move = 44
 
-[sub_resource type="Resource" id="Resource_an580"]
+[sub_resource type="Resource" id="Resource_ms83c"]
 script = ExtResource("3_3x4nk")
 level = 36
 move = 116
 
-[sub_resource type="Resource" id="Resource_hd6tm"]
+[sub_resource type="Resource" id="Resource_nah1o"]
 script = ExtResource("3_3x4nk")
 level = 42
 move = 36
@@ -49,6 +49,7 @@ id = 1488
 display_name = "Eevee"
 category = "Evolution"
 national_dex = 133
+sprite_folder = "eevee"
 type_1 = 1
 base_hp = 65
 base_atk = 75
@@ -66,6 +67,6 @@ ability_hidden = 107
 height_dm = 3
 weight_hg = 65
 body_color = 5
-level_moves = Array[ExtResource("3_3x4nk")]([SubResource("Resource_me2x8"), SubResource("Resource_nosl2"), SubResource("Resource_3x4nk"), SubResource("Resource_8an0l"), SubResource("Resource_fpkyd"), SubResource("Resource_oq87m"), SubResource("Resource_an580"), SubResource("Resource_hd6tm")])
+level_moves = Array[ExtResource("3_3x4nk")]([SubResource("Resource_fpkyd"), SubResource("Resource_oq87m"), SubResource("Resource_an580"), SubResource("Resource_hd6tm"), SubResource("Resource_apal6"), SubResource("Resource_d6csc"), SubResource("Resource_ms83c"), SubResource("Resource_nah1o")])
 egg_moves = Array[int]([204, 175, 203, 174, 321, 273, 281, 313, 343, 197, 363, 500, 485, 445])
 form_species = Array[int]([133, 1499, 1488])

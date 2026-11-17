@@ -5,50 +5,50 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hdymb"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mg4fj"]
 
-[sub_resource type="Resource" id="Resource_6wck5"]
+[sub_resource type="Resource" id="Resource_y0ckh"]
 script = ExtResource("1_6wck5")
 method = "ITEM"
 param = "ITEM_MOON_STONE"
 target = 34
 
-[sub_resource type="Resource" id="Resource_oq08g"]
+[sub_resource type="Resource" id="Resource_uuab8"]
 script = ExtResource("3_hdymb")
 move = 43
 
-[sub_resource type="Resource" id="Resource_hdymb"]
+[sub_resource type="Resource" id="Resource_o4iug"]
 script = ExtResource("3_hdymb")
 move = 33
 
-[sub_resource type="Resource" id="Resource_mg4fj"]
+[sub_resource type="Resource" id="Resource_agrfa"]
 script = ExtResource("3_hdymb")
 move = 30
 
-[sub_resource type="Resource" id="Resource_y0ckh"]
+[sub_resource type="Resource" id="Resource_sjl6c"]
 script = ExtResource("3_hdymb")
 level = 8
 move = 30
 
-[sub_resource type="Resource" id="Resource_uuab8"]
+[sub_resource type="Resource" id="Resource_rlhe4"]
 script = ExtResource("3_hdymb")
 level = 12
 move = 24
 
-[sub_resource type="Resource" id="Resource_o4iug"]
+[sub_resource type="Resource" id="Resource_1yg8q"]
 script = ExtResource("3_hdymb")
 level = 19
 move = 40
 
-[sub_resource type="Resource" id="Resource_agrfa"]
+[sub_resource type="Resource" id="Resource_vclsw"]
 script = ExtResource("3_hdymb")
 level = 27
 move = 116
 
-[sub_resource type="Resource" id="Resource_sjl6c"]
+[sub_resource type="Resource" id="Resource_mvldv"]
 script = ExtResource("3_hdymb")
 level = 36
 move = 31
 
-[sub_resource type="Resource" id="Resource_rlhe4"]
+[sub_resource type="Resource" id="Resource_krr26"]
 script = ExtResource("3_hdymb")
 level = 46
 move = 32
@@ -63,6 +63,7 @@ pokedex = "Its horn is harder than a diamond.
 If it senses a hostile presence, all the
 barbs on its back bristle up at once, and it
 challenges the foe with all its might."
+sprite_folder = "nidorino"
 type_1 = 4
 base_hp = 61
 base_atk = 72
@@ -83,5 +84,5 @@ ability_hidden = 55
 height_dm = 9
 weight_hg = 195
 body_color = 6
-level_moves = Array[ExtResource("3_hdymb")]([SubResource("Resource_oq08g"), SubResource("Resource_hdymb"), SubResource("Resource_mg4fj"), SubResource("Resource_y0ckh"), SubResource("Resource_uuab8"), SubResource("Resource_o4iug"), SubResource("Resource_agrfa"), SubResource("Resource_sjl6c"), SubResource("Resource_rlhe4")])
-evolutions = Array[ExtResource("1_6wck5")]([SubResource("Resource_6wck5")])
+level_moves = Array[ExtResource("3_hdymb")]([SubResource("Resource_uuab8"), SubResource("Resource_o4iug"), SubResource("Resource_agrfa"), SubResource("Resource_sjl6c"), SubResource("Resource_rlhe4"), SubResource("Resource_1yg8q"), SubResource("Resource_vclsw"), SubResource("Resource_mvldv"), SubResource("Resource_krr26")])
+evolutions = Array[ExtResource("1_6wck5")]([SubResource("Resource_y0ckh")])

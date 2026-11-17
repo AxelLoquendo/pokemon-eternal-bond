@@ -5,51 +5,51 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bh8x0"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_poghb"]
 
-[sub_resource type="Resource" id="Resource_el3p3"]
+[sub_resource type="Resource" id="Resource_sjxqt"]
 script = ExtResource("1_el3p3")
 method = "LEVEL"
 param = "28"
 target = 57
 
-[sub_resource type="Resource" id="Resource_i4ltl"]
+[sub_resource type="Resource" id="Resource_2j0k2"]
 script = ExtResource("3_bh8x0")
 move = 10
 
-[sub_resource type="Resource" id="Resource_bh8x0"]
+[sub_resource type="Resource" id="Resource_sjc1g"]
 script = ExtResource("3_bh8x0")
 move = 43
 
-[sub_resource type="Resource" id="Resource_poghb"]
+[sub_resource type="Resource" id="Resource_f7giu"]
 script = ExtResource("3_bh8x0")
 level = 9
 move = 67
 
-[sub_resource type="Resource" id="Resource_sjxqt"]
+[sub_resource type="Resource" id="Resource_853pd"]
 script = ExtResource("3_bh8x0")
 level = 15
 move = 2
 
-[sub_resource type="Resource" id="Resource_2j0k2"]
+[sub_resource type="Resource" id="Resource_lhiqe"]
 script = ExtResource("3_bh8x0")
 level = 21
 move = 154
 
-[sub_resource type="Resource" id="Resource_sjc1g"]
+[sub_resource type="Resource" id="Resource_y4xwm"]
 script = ExtResource("3_bh8x0")
 level = 27
 move = 116
 
-[sub_resource type="Resource" id="Resource_f7giu"]
+[sub_resource type="Resource" id="Resource_aewkl"]
 script = ExtResource("3_bh8x0")
 level = 33
 move = 69
 
-[sub_resource type="Resource" id="Resource_853pd"]
+[sub_resource type="Resource" id="Resource_s8bji"]
 script = ExtResource("3_bh8x0")
 level = 39
 move = 37
 
-[sub_resource type="Resource" id="Resource_lhiqe"]
+[sub_resource type="Resource" id="Resource_d553g"]
 script = ExtResource("3_bh8x0")
 level = 45
 move = 103
@@ -64,6 +64,7 @@ pokedex = "When it starts shaking and its nasal
 breathing turns rough, it's a sure sign
 of anger. However, since this happens
 instantly, there is no time to flee."
+sprite_folder = "mankey"
 type_1 = 2
 base_hp = 40
 base_atk = 80
@@ -81,6 +82,6 @@ ability_hidden = 128
 height_dm = 5
 weight_hg = 280
 body_color = 5
-level_moves = Array[ExtResource("3_bh8x0")]([SubResource("Resource_i4ltl"), SubResource("Resource_bh8x0"), SubResource("Resource_poghb"), SubResource("Resource_sjxqt"), SubResource("Resource_2j0k2"), SubResource("Resource_sjc1g"), SubResource("Resource_f7giu"), SubResource("Resource_853pd"), SubResource("Resource_lhiqe")])
+level_moves = Array[ExtResource("3_bh8x0")]([SubResource("Resource_2j0k2"), SubResource("Resource_sjc1g"), SubResource("Resource_f7giu"), SubResource("Resource_853pd"), SubResource("Resource_lhiqe"), SubResource("Resource_y4xwm"), SubResource("Resource_aewkl"), SubResource("Resource_s8bji"), SubResource("Resource_d553g")])
 egg_moves = Array[int]([193, 96, 68, 179, 251, 279, 265, 370, 227, 264, 214, 400, 644])
-evolutions = Array[ExtResource("1_el3p3")]([SubResource("Resource_el3p3")])
+evolutions = Array[ExtResource("1_el3p3")]([SubResource("Resource_sjxqt")])

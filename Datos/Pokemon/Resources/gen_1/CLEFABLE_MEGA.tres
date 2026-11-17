@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_fo0ae"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_h0mr1"]
 
-[sub_resource type="Resource" id="Resource_uxcu5"]
+[sub_resource type="Resource" id="Resource_nltv3"]
 script = ExtResource("3_fo0ae")
 move = 47
 
-[sub_resource type="Resource" id="Resource_d5w4w"]
+[sub_resource type="Resource" id="Resource_6wqaq"]
 script = ExtResource("3_fo0ae")
 move = 3
 
-[sub_resource type="Resource" id="Resource_fo0ae"]
+[sub_resource type="Resource" id="Resource_mygcc"]
 script = ExtResource("3_fo0ae")
 move = 107
 
-[sub_resource type="Resource" id="Resource_h0mr1"]
+[sub_resource type="Resource" id="Resource_blj5a"]
 script = ExtResource("3_fo0ae")
 move = 118
 
@@ -30,6 +30,7 @@ national_dex = 36
 pokedex = "It flies by using the power of
 moonlight to control gravity within
 a radius of over 32 feet around it."
+sprite_folder = "clefable/mega"
 type_1 = 19
 type_2 = 3
 base_hp = 95
@@ -53,5 +54,5 @@ item_rare = 217
 height_dm = 17
 weight_hg = 423
 body_color = 9
-level_moves = Array[ExtResource("3_fo0ae")]([SubResource("Resource_uxcu5"), SubResource("Resource_d5w4w"), SubResource("Resource_fo0ae"), SubResource("Resource_h0mr1")])
+level_moves = Array[ExtResource("3_fo0ae")]([SubResource("Resource_nltv3"), SubResource("Resource_6wqaq"), SubResource("Resource_mygcc"), SubResource("Resource_blj5a")])
 form_species = Array[int]([36, 1524])

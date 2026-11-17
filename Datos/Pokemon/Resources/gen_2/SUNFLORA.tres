@@ -5,35 +5,35 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_3mhli"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_7yxb8"]
 
-[sub_resource type="Resource" id="Resource_g8e8y"]
+[sub_resource type="Resource" id="Resource_26llx"]
 script = ExtResource("3_3mhli")
 move = 71
 
-[sub_resource type="Resource" id="Resource_017ik"]
+[sub_resource type="Resource" id="Resource_u2civ"]
 script = ExtResource("3_3mhli")
 move = 1
 
-[sub_resource type="Resource" id="Resource_3mhli"]
+[sub_resource type="Resource" id="Resource_h2h83"]
 script = ExtResource("3_3mhli")
 level = 4
 move = 74
 
-[sub_resource type="Resource" id="Resource_7yxb8"]
+[sub_resource type="Resource" id="Resource_r86ni"]
 script = ExtResource("3_3mhli")
 level = 10
 move = 75
 
-[sub_resource type="Resource" id="Resource_26llx"]
+[sub_resource type="Resource" id="Resource_5fx66"]
 script = ExtResource("3_3mhli")
 level = 19
 move = 241
 
-[sub_resource type="Resource" id="Resource_u2civ"]
+[sub_resource type="Resource" id="Resource_e04v3"]
 script = ExtResource("3_3mhli")
 level = 31
 move = 80
 
-[sub_resource type="Resource" id="Resource_h2h83"]
+[sub_resource type="Resource" id="Resource_41jbo"]
 script = ExtResource("3_3mhli")
 level = 46
 move = 76
@@ -48,6 +48,7 @@ pokedex = "Sunflora convert solar energy into
 nutrition. They are highly active in the
 warm daytime but suddenly stop moving as
 soon as the sun sets."
+sprite_folder = "sunflora"
 type_1 = 13
 base_hp = 75
 base_atk = 75
@@ -66,4 +67,4 @@ ability_hidden = 48
 height_dm = 8
 weight_hg = 85
 body_color = 2
-level_moves = Array[ExtResource("3_3mhli")]([SubResource("Resource_g8e8y"), SubResource("Resource_017ik"), SubResource("Resource_3mhli"), SubResource("Resource_7yxb8"), SubResource("Resource_26llx"), SubResource("Resource_u2civ"), SubResource("Resource_h2h83")])
+level_moves = Array[ExtResource("3_3mhli")]([SubResource("Resource_26llx"), SubResource("Resource_u2civ"), SubResource("Resource_h2h83"), SubResource("Resource_r86ni"), SubResource("Resource_5fx66"), SubResource("Resource_e04v3"), SubResource("Resource_41jbo")])

@@ -5,31 +5,31 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ri2ea"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_gmp4d"]
 
-[sub_resource type="Resource" id="Resource_wf3k4"]
+[sub_resource type="Resource" id="Resource_fuwcy"]
 script = ExtResource("3_ri2ea")
 move = 33
 
-[sub_resource type="Resource" id="Resource_rqpnr"]
+[sub_resource type="Resource" id="Resource_p24g8"]
 script = ExtResource("3_ri2ea")
 level = 21
 move = 23
 
-[sub_resource type="Resource" id="Resource_ri2ea"]
+[sub_resource type="Resource" id="Resource_f3f0e"]
 script = ExtResource("3_ri2ea")
 level = 28
 move = 39
 
-[sub_resource type="Resource" id="Resource_gmp4d"]
+[sub_resource type="Resource" id="Resource_diu5o"]
 script = ExtResource("3_ri2ea")
 level = 35
 move = 43
 
-[sub_resource type="Resource" id="Resource_fuwcy"]
+[sub_resource type="Resource" id="Resource_ku6rn"]
 script = ExtResource("3_ri2ea")
 level = 44
 move = 99
 
-[sub_resource type="Resource" id="Resource_p24g8"]
+[sub_resource type="Resource" id="Resource_elt1j"]
 script = ExtResource("3_ri2ea")
 level = 51
 move = 36
@@ -44,6 +44,7 @@ pokedex = "It is not satisfied unless it is rampaging
 at all times. If there is no opponent for
 Tauros to battle, it will charge at thick
 trees and knock them down to calm itself."
+sprite_folder = "tauros"
 type_1 = 1
 base_hp = 75
 base_atk = 100
@@ -63,5 +64,5 @@ ability_hidden = 125
 height_dm = 14
 weight_hg = 884
 body_color = 5
-level_moves = Array[ExtResource("3_ri2ea")]([SubResource("Resource_wf3k4"), SubResource("Resource_rqpnr"), SubResource("Resource_ri2ea"), SubResource("Resource_gmp4d"), SubResource("Resource_fuwcy"), SubResource("Resource_p24g8")])
+level_moves = Array[ExtResource("3_ri2ea")]([SubResource("Resource_fuwcy"), SubResource("Resource_p24g8"), SubResource("Resource_f3f0e"), SubResource("Resource_diu5o"), SubResource("Resource_ku6rn"), SubResource("Resource_elt1j")])
 form_species = Array[int]([128, 1402, 1403, 1404])

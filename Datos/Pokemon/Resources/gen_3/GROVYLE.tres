@@ -5,74 +5,74 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6dob0"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_61xan"]
 
-[sub_resource type="Resource" id="Resource_imfb6"]
+[sub_resource type="Resource" id="Resource_lo7p6"]
 script = ExtResource("1_imfb6")
 method = "LEVEL"
 param = "36"
 target = 254
 
-[sub_resource type="Resource" id="Resource_s70yg"]
+[sub_resource type="Resource" id="Resource_lfoj3"]
 script = ExtResource("3_6dob0")
 move = 1
 
-[sub_resource type="Resource" id="Resource_6dob0"]
+[sub_resource type="Resource" id="Resource_xj23r"]
 script = ExtResource("3_6dob0")
 move = 43
 
-[sub_resource type="Resource" id="Resource_61xan"]
+[sub_resource type="Resource" id="Resource_7ea5m"]
 script = ExtResource("3_6dob0")
 move = 71
 
-[sub_resource type="Resource" id="Resource_lo7p6"]
+[sub_resource type="Resource" id="Resource_nit68"]
 script = ExtResource("3_6dob0")
 move = 98
 
-[sub_resource type="Resource" id="Resource_lfoj3"]
+[sub_resource type="Resource" id="Resource_xsxj7"]
 script = ExtResource("3_6dob0")
 level = 6
 move = 71
 
-[sub_resource type="Resource" id="Resource_xj23r"]
+[sub_resource type="Resource" id="Resource_v6xk0"]
 script = ExtResource("3_6dob0")
 level = 11
 move = 98
 
-[sub_resource type="Resource" id="Resource_7ea5m"]
+[sub_resource type="Resource" id="Resource_5j4j3"]
 script = ExtResource("3_6dob0")
 level = 16
 move = 210
 
-[sub_resource type="Resource" id="Resource_nit68"]
+[sub_resource type="Resource" id="Resource_5evae"]
 script = ExtResource("3_6dob0")
 level = 17
 move = 228
 
-[sub_resource type="Resource" id="Resource_xsxj7"]
+[sub_resource type="Resource" id="Resource_7at4m"]
 script = ExtResource("3_6dob0")
 level = 23
 move = 103
 
-[sub_resource type="Resource" id="Resource_v6xk0"]
+[sub_resource type="Resource" id="Resource_6oqme"]
 script = ExtResource("3_6dob0")
 level = 29
 move = 348
 
-[sub_resource type="Resource" id="Resource_5j4j3"]
+[sub_resource type="Resource" id="Resource_0qqgp"]
 script = ExtResource("3_6dob0")
 level = 35
 move = 97
 
-[sub_resource type="Resource" id="Resource_5evae"]
+[sub_resource type="Resource" id="Resource_ursab"]
 script = ExtResource("3_6dob0")
 level = 41
 move = 21
 
-[sub_resource type="Resource" id="Resource_7at4m"]
+[sub_resource type="Resource" id="Resource_gkj6x"]
 script = ExtResource("3_6dob0")
 level = 47
 move = 197
 
-[sub_resource type="Resource" id="Resource_6oqme"]
+[sub_resource type="Resource" id="Resource_vd2sr"]
 script = ExtResource("3_6dob0")
 level = 53
 move = 206
@@ -87,6 +87,7 @@ pokedex = "Leaves grow out of this Pokémon's body.
 They help obscure a Grovyle from the eyes
 of its enemies while it is in a thickly
 overgrown forest."
+sprite_folder = "grovyle"
 type_1 = 13
 base_hp = 50
 base_atk = 65
@@ -105,5 +106,5 @@ ability_hidden = 84
 height_dm = 9
 weight_hg = 216
 body_color = 3
-level_moves = Array[ExtResource("3_6dob0")]([SubResource("Resource_s70yg"), SubResource("Resource_6dob0"), SubResource("Resource_61xan"), SubResource("Resource_lo7p6"), SubResource("Resource_lfoj3"), SubResource("Resource_xj23r"), SubResource("Resource_7ea5m"), SubResource("Resource_nit68"), SubResource("Resource_xsxj7"), SubResource("Resource_v6xk0"), SubResource("Resource_5j4j3"), SubResource("Resource_5evae"), SubResource("Resource_7at4m"), SubResource("Resource_6oqme")])
-evolutions = Array[ExtResource("1_imfb6")]([SubResource("Resource_imfb6")])
+level_moves = Array[ExtResource("3_6dob0")]([SubResource("Resource_lfoj3"), SubResource("Resource_xj23r"), SubResource("Resource_7ea5m"), SubResource("Resource_nit68"), SubResource("Resource_xsxj7"), SubResource("Resource_v6xk0"), SubResource("Resource_5j4j3"), SubResource("Resource_5evae"), SubResource("Resource_7at4m"), SubResource("Resource_6oqme"), SubResource("Resource_0qqgp"), SubResource("Resource_ursab"), SubResource("Resource_gkj6x"), SubResource("Resource_vd2sr")])
+evolutions = Array[ExtResource("1_imfb6")]([SubResource("Resource_lo7p6")])

@@ -5,39 +5,39 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_mlesa"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_747f6"]
 
-[sub_resource type="Resource" id="Resource_uf32f"]
+[sub_resource type="Resource" id="Resource_vlemy"]
 script = ExtResource("3_mlesa")
 move = 10
 
-[sub_resource type="Resource" id="Resource_tkpal"]
+[sub_resource type="Resource" id="Resource_1r47r"]
 script = ExtResource("3_mlesa")
 move = 78
 
-[sub_resource type="Resource" id="Resource_mlesa"]
+[sub_resource type="Resource" id="Resource_lr513"]
 script = ExtResource("3_mlesa")
 move = 141
 
-[sub_resource type="Resource" id="Resource_747f6"]
+[sub_resource type="Resource" id="Resource_08xui"]
 script = ExtResource("3_mlesa")
 level = 13
 move = 78
 
-[sub_resource type="Resource" id="Resource_vlemy"]
+[sub_resource type="Resource" id="Resource_c4yq0"]
 script = ExtResource("3_mlesa")
 level = 20
 move = 141
 
-[sub_resource type="Resource" id="Resource_1r47r"]
+[sub_resource type="Resource" id="Resource_qw0af"]
 script = ExtResource("3_mlesa")
 level = 30
 move = 147
 
-[sub_resource type="Resource" id="Resource_lr513"]
+[sub_resource type="Resource" id="Resource_1o6nw"]
 script = ExtResource("3_mlesa")
 level = 39
 move = 163
 
-[sub_resource type="Resource" id="Resource_08xui"]
+[sub_resource type="Resource" id="Resource_1gnd2"]
 script = ExtResource("3_mlesa")
 level = 48
 move = 74
@@ -52,6 +52,7 @@ pokedex = "Parasect are known to infest the roots of
 large trees en masse and drain nutrients.
 When an infested tree dies, they move
 onto another tree all at once."
+sprite_folder = "parasect"
 type_1 = 7
 type_2 = 13
 base_hp = 60
@@ -73,4 +74,4 @@ item_common = 137
 item_rare = 138
 height_dm = 10
 weight_hg = 295
-level_moves = Array[ExtResource("3_mlesa")]([SubResource("Resource_uf32f"), SubResource("Resource_tkpal"), SubResource("Resource_mlesa"), SubResource("Resource_747f6"), SubResource("Resource_vlemy"), SubResource("Resource_1r47r"), SubResource("Resource_lr513"), SubResource("Resource_08xui")])
+level_moves = Array[ExtResource("3_mlesa")]([SubResource("Resource_vlemy"), SubResource("Resource_1r47r"), SubResource("Resource_lr513"), SubResource("Resource_08xui"), SubResource("Resource_c4yq0"), SubResource("Resource_qw0af"), SubResource("Resource_1o6nw"), SubResource("Resource_1gnd2")])

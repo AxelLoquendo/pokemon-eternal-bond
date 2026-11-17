@@ -5,31 +5,31 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_esmn1"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_50cc1"]
 
-[sub_resource type="Resource" id="Resource_eba11"]
+[sub_resource type="Resource" id="Resource_r7sav"]
 script = ExtResource("3_esmn1")
 move = 71
 
-[sub_resource type="Resource" id="Resource_j3pvo"]
+[sub_resource type="Resource" id="Resource_jsgie"]
 script = ExtResource("3_esmn1")
 level = 4
 move = 74
 
-[sub_resource type="Resource" id="Resource_esmn1"]
+[sub_resource type="Resource" id="Resource_32hip"]
 script = ExtResource("3_esmn1")
 level = 7
 move = 346
 
-[sub_resource type="Resource" id="Resource_50cc1"]
+[sub_resource type="Resource" id="Resource_cmmrv"]
 script = ExtResource("3_esmn1")
 level = 10
 move = 78
 
-[sub_resource type="Resource" id="Resource_r7sav"]
+[sub_resource type="Resource" id="Resource_6kmyw"]
 script = ExtResource("3_esmn1")
 level = 13
 move = 72
 
-[sub_resource type="Resource" id="Resource_jsgie"]
+[sub_resource type="Resource" id="Resource_ip11o"]
 script = ExtResource("3_esmn1")
 level = 16
 move = 388
@@ -44,6 +44,7 @@ pokedex = "Over the winter, it closes its bud and
 endures the cold. Sensitive to changing
 temperature, the bud is said to bloom
 when it feels the sun's warm touch."
+sprite_folder = "budew"
 type_1 = 13
 type_2 = 4
 base_hp = 40
@@ -64,5 +65,5 @@ height_dm = 2
 weight_hg = 12
 body_color = 3
 no_flip = true
-level_moves = Array[ExtResource("3_esmn1")]([SubResource("Resource_eba11"), SubResource("Resource_j3pvo"), SubResource("Resource_esmn1"), SubResource("Resource_50cc1"), SubResource("Resource_r7sav"), SubResource("Resource_jsgie")])
+level_moves = Array[ExtResource("3_esmn1")]([SubResource("Resource_r7sav"), SubResource("Resource_jsgie"), SubResource("Resource_32hip"), SubResource("Resource_cmmrv"), SubResource("Resource_6kmyw"), SubResource("Resource_ip11o")])
 egg_moves = Array[int]([191, 235, 42, 178, 79, 75, 170, 437, 326, 402, 202, 363, 320])

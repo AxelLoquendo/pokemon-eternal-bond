@@ -5,40 +5,40 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_yk0k4"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_r1bwq"]
 
-[sub_resource type="Resource" id="Resource_mk80q"]
+[sub_resource type="Resource" id="Resource_khmt3"]
 script = ExtResource("3_yk0k4")
 move = 33
 
-[sub_resource type="Resource" id="Resource_qi6xu"]
+[sub_resource type="Resource" id="Resource_a02rs"]
 script = ExtResource("3_yk0k4")
 move = 111
 
-[sub_resource type="Resource" id="Resource_yk0k4"]
+[sub_resource type="Resource" id="Resource_dri4n"]
 script = ExtResource("3_yk0k4")
 level = 11
 move = 111
 
-[sub_resource type="Resource" id="Resource_r1bwq"]
+[sub_resource type="Resource" id="Resource_qlh8r"]
 script = ExtResource("3_yk0k4")
 level = 16
 move = 88
 
-[sub_resource type="Resource" id="Resource_khmt3"]
+[sub_resource type="Resource" id="Resource_c05ks"]
 script = ExtResource("3_yk0k4")
 level = 21
 move = 120
 
-[sub_resource type="Resource" id="Resource_a02rs"]
+[sub_resource type="Resource" id="Resource_jvbqm"]
 script = ExtResource("3_yk0k4")
 level = 29
 move = 106
 
-[sub_resource type="Resource" id="Resource_dri4n"]
+[sub_resource type="Resource" id="Resource_qwuh1"]
 script = ExtResource("3_yk0k4")
 level = 36
 move = 89
 
-[sub_resource type="Resource" id="Resource_qlh8r"]
+[sub_resource type="Resource" id="Resource_glx70"]
 script = ExtResource("3_yk0k4")
 level = 43
 move = 153
@@ -53,6 +53,7 @@ pokedex = "It is said to live in volcanic craters
 on mountain peaks. Once a year, it sheds
 its hide and grows larger. The shed hide
 crumbles and returns to the soil."
+sprite_folder = "golem"
 type_1 = 6
 type_2 = 5
 base_hp = 80
@@ -73,5 +74,5 @@ item_rare = 245
 height_dm = 14
 weight_hg = 3000
 body_color = 5
-level_moves = Array[ExtResource("3_yk0k4")]([SubResource("Resource_mk80q"), SubResource("Resource_qi6xu"), SubResource("Resource_yk0k4"), SubResource("Resource_r1bwq"), SubResource("Resource_khmt3"), SubResource("Resource_a02rs"), SubResource("Resource_dri4n"), SubResource("Resource_qlh8r")])
+level_moves = Array[ExtResource("3_yk0k4")]([SubResource("Resource_khmt3"), SubResource("Resource_a02rs"), SubResource("Resource_dri4n"), SubResource("Resource_qlh8r"), SubResource("Resource_c05ks"), SubResource("Resource_jvbqm"), SubResource("Resource_qwuh1"), SubResource("Resource_glx70")])
 form_species = Array[int]([76, 969])

@@ -5,25 +5,25 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_wa5lv"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_co2jy"]
 
-[sub_resource type="Resource" id="Resource_nb8f4"]
+[sub_resource type="Resource" id="Resource_ghmyg"]
 script = ExtResource("1_nb8f4")
 method = "LEVEL"
 param = "12"
 
-[sub_resource type="Resource" id="Resource_0ipuj"]
+[sub_resource type="Resource" id="Resource_72afj"]
 script = ExtResource("3_wa5lv")
 move = 33
 
-[sub_resource type="Resource" id="Resource_wa5lv"]
+[sub_resource type="Resource" id="Resource_kaxxn"]
 script = ExtResource("3_wa5lv")
 move = 81
 
-[sub_resource type="Resource" id="Resource_co2jy"]
+[sub_resource type="Resource" id="Resource_rmjd7"]
 script = ExtResource("3_wa5lv")
 level = 6
 move = 78
 
-[sub_resource type="Resource" id="Resource_ghmyg"]
+[sub_resource type="Resource" id="Resource_thsdr"]
 script = ExtResource("3_wa5lv")
 level = 15
 move = 450
@@ -34,6 +34,7 @@ id = 1445
 display_name = "Scatterbug"
 category = "Scatterdust"
 national_dex = 664
+sprite_folder = "scatterbug"
 type_1 = 7
 base_hp = 38
 base_atk = 35
@@ -52,7 +53,7 @@ ability_hidden = 132
 height_dm = 3
 weight_hg = 84
 body_color = 4
-level_moves = Array[ExtResource("3_wa5lv")]([SubResource("Resource_0ipuj"), SubResource("Resource_wa5lv"), SubResource("Resource_co2jy"), SubResource("Resource_ghmyg")])
+level_moves = Array[ExtResource("3_wa5lv")]([SubResource("Resource_72afj"), SubResource("Resource_kaxxn"), SubResource("Resource_rmjd7"), SubResource("Resource_thsdr")])
 egg_moves = Array[int]([78, 77, 476])
-evolutions = Array[ExtResource("1_nb8f4")]([SubResource("Resource_nb8f4")])
+evolutions = Array[ExtResource("1_nb8f4")]([SubResource("Resource_ghmyg")])
 form_species = Array[int]([665, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475])

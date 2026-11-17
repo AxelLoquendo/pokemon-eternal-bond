@@ -5,66 +5,66 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ag0s5"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4icjr"]
 
-[sub_resource type="Resource" id="Resource_kdj2q"]
+[sub_resource type="Resource" id="Resource_1fm4d"]
 script = ExtResource("1_kdj2q")
 method = "ITEM"
 param = "ITEM_CRACKED_POT"
 target = 855
 
-[sub_resource type="Resource" id="Resource_fis8u"]
+[sub_resource type="Resource" id="Resource_a6t86"]
 script = ExtResource("3_ag0s5")
 move = 310
 
-[sub_resource type="Resource" id="Resource_ag0s5"]
+[sub_resource type="Resource" id="Resource_ct82l"]
 script = ExtResource("3_ag0s5")
 move = 110
 
-[sub_resource type="Resource" id="Resource_4icjr"]
+[sub_resource type="Resource" id="Resource_eeknp"]
 script = ExtResource("3_ag0s5")
 level = 6
 move = 597
 
-[sub_resource type="Resource" id="Resource_1fm4d"]
+[sub_resource type="Resource" id="Resource_kq64x"]
 script = ExtResource("3_ag0s5")
 level = 12
 move = 72
 
-[sub_resource type="Resource" id="Resource_a6t86"]
+[sub_resource type="Resource" id="Resource_sehuf"]
 script = ExtResource("3_ag0s5")
 level = 18
 move = 182
 
-[sub_resource type="Resource" id="Resource_ct82l"]
+[sub_resource type="Resource" id="Resource_ay0hc"]
 script = ExtResource("3_ag0s5")
 level = 24
 move = 389
 
-[sub_resource type="Resource" id="Resource_eeknp"]
+[sub_resource type="Resource" id="Resource_0xrs1"]
 script = ExtResource("3_ag0s5")
 level = 30
 move = 312
 
-[sub_resource type="Resource" id="Resource_kq64x"]
+[sub_resource type="Resource" id="Resource_ax6fx"]
 script = ExtResource("3_ag0s5")
 level = 36
 move = 202
 
-[sub_resource type="Resource" id="Resource_sehuf"]
+[sub_resource type="Resource" id="Resource_ddnpv"]
 script = ExtResource("3_ag0s5")
 level = 42
 move = 417
 
-[sub_resource type="Resource" id="Resource_ay0hc"]
+[sub_resource type="Resource" id="Resource_xwjme"]
 script = ExtResource("3_ag0s5")
 level = 48
 move = 247
 
-[sub_resource type="Resource" id="Resource_0xrs1"]
+[sub_resource type="Resource" id="Resource_arqgf"]
 script = ExtResource("3_ag0s5")
 level = 54
 move = 262
 
-[sub_resource type="Resource" id="Resource_ax6fx"]
+[sub_resource type="Resource" id="Resource_5slet"]
 script = ExtResource("3_ag0s5")
 level = 60
 move = 504
@@ -78,6 +78,7 @@ national_dex = 854
 pokedex = "This Pokémon is said to have been born
 when a lonely spirit possessed a cold,
 leftover cup of tea."
+sprite_folder = "sinistea"
 type_1 = 8
 base_hp = 40
 base_atk = 45
@@ -96,6 +97,6 @@ ability_hidden = 130
 height_dm = 1
 weight_hg = 2
 body_color = 6
-level_moves = Array[ExtResource("3_ag0s5")]([SubResource("Resource_fis8u"), SubResource("Resource_ag0s5"), SubResource("Resource_4icjr"), SubResource("Resource_1fm4d"), SubResource("Resource_a6t86"), SubResource("Resource_ct82l"), SubResource("Resource_eeknp"), SubResource("Resource_kq64x"), SubResource("Resource_sehuf"), SubResource("Resource_ay0hc"), SubResource("Resource_0xrs1"), SubResource("Resource_ax6fx")])
-evolutions = Array[ExtResource("1_kdj2q")]([SubResource("Resource_kdj2q")])
+level_moves = Array[ExtResource("3_ag0s5")]([SubResource("Resource_a6t86"), SubResource("Resource_ct82l"), SubResource("Resource_eeknp"), SubResource("Resource_kq64x"), SubResource("Resource_sehuf"), SubResource("Resource_ay0hc"), SubResource("Resource_0xrs1"), SubResource("Resource_ax6fx"), SubResource("Resource_ddnpv"), SubResource("Resource_xwjme"), SubResource("Resource_arqgf"), SubResource("Resource_5slet")])
+evolutions = Array[ExtResource("1_kdj2q")]([SubResource("Resource_1fm4d")])
 form_species = Array[int]([854, 1214])

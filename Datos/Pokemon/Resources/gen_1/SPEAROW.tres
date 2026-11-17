@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_seimh"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_75e8e"]
 
-[sub_resource type="Resource" id="Resource_6s3gv"]
+[sub_resource type="Resource" id="Resource_b6hce"]
 script = ExtResource("1_6s3gv")
 method = "LEVEL"
 param = "20"
 target = 22
 
-[sub_resource type="Resource" id="Resource_t0jyo"]
+[sub_resource type="Resource" id="Resource_6nqu7"]
 script = ExtResource("3_seimh")
 move = 64
 
-[sub_resource type="Resource" id="Resource_seimh"]
+[sub_resource type="Resource" id="Resource_2t2c7"]
 script = ExtResource("3_seimh")
 move = 45
 
-[sub_resource type="Resource" id="Resource_75e8e"]
+[sub_resource type="Resource" id="Resource_aol8u"]
 script = ExtResource("3_seimh")
 level = 9
 move = 43
 
-[sub_resource type="Resource" id="Resource_b6hce"]
+[sub_resource type="Resource" id="Resource_ksam4"]
 script = ExtResource("3_seimh")
 level = 15
 move = 31
 
-[sub_resource type="Resource" id="Resource_6nqu7"]
+[sub_resource type="Resource" id="Resource_imjtt"]
 script = ExtResource("3_seimh")
 level = 22
 move = 119
 
-[sub_resource type="Resource" id="Resource_2t2c7"]
+[sub_resource type="Resource" id="Resource_p5qo6"]
 script = ExtResource("3_seimh")
 level = 29
 move = 65
 
-[sub_resource type="Resource" id="Resource_aol8u"]
+[sub_resource type="Resource" id="Resource_f7j15"]
 script = ExtResource("3_seimh")
 level = 36
 move = 97
@@ -54,6 +54,7 @@ pokedex = "Its loud cry can be heard over half a mile
 away. If its high, keening cry is heard
 echoing all around, it is a sign that they
 are warning each other of danger."
+sprite_folder = "spearow"
 type_1 = 1
 type_2 = 3
 base_hp = 40
@@ -73,6 +74,6 @@ item_rare = 434
 height_dm = 3
 weight_hg = 20
 body_color = 5
-level_moves = Array[ExtResource("3_seimh")]([SubResource("Resource_t0jyo"), SubResource("Resource_seimh"), SubResource("Resource_75e8e"), SubResource("Resource_b6hce"), SubResource("Resource_6nqu7"), SubResource("Resource_2t2c7"), SubResource("Resource_aol8u")])
+level_moves = Array[ExtResource("3_seimh")]([SubResource("Resource_6nqu7"), SubResource("Resource_2t2c7"), SubResource("Resource_aol8u"), SubResource("Resource_ksam4"), SubResource("Resource_imjtt"), SubResource("Resource_p5qo6"), SubResource("Resource_f7j15")])
 egg_moves = Array[int]([185, 184, 98, 161, 310, 143, 18, 253, 297, 211, 13])
-evolutions = Array[ExtResource("1_6s3gv")]([SubResource("Resource_6s3gv")])
+evolutions = Array[ExtResource("1_6s3gv")]([SubResource("Resource_b6hce")])

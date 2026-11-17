@@ -5,51 +5,51 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7wqhk"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ldplu"]
 
-[sub_resource type="Resource" id="Resource_dbkp0"]
+[sub_resource type="Resource" id="Resource_cs4dq"]
 script = ExtResource("1_dbkp0")
 method = "TRADE"
 param = "0"
 target = 68
 
-[sub_resource type="Resource" id="Resource_bp8p6"]
+[sub_resource type="Resource" id="Resource_26xai"]
 script = ExtResource("1_dbkp0")
 method = "ITEM"
 param = "ITEM_LINKING_CORD"
 target = 68
 
-[sub_resource type="Resource" id="Resource_7wqhk"]
+[sub_resource type="Resource" id="Resource_1gj7q"]
 script = ExtResource("3_7wqhk")
 move = 2
 
-[sub_resource type="Resource" id="Resource_ldplu"]
+[sub_resource type="Resource" id="Resource_mpbqx"]
 script = ExtResource("3_7wqhk")
 move = 67
 
-[sub_resource type="Resource" id="Resource_cs4dq"]
+[sub_resource type="Resource" id="Resource_42g0e"]
 script = ExtResource("3_7wqhk")
 move = 43
 
-[sub_resource type="Resource" id="Resource_26xai"]
+[sub_resource type="Resource" id="Resource_coeou"]
 script = ExtResource("3_7wqhk")
 level = 20
 move = 67
 
-[sub_resource type="Resource" id="Resource_1gj7q"]
+[sub_resource type="Resource" id="Resource_xa5hj"]
 script = ExtResource("3_7wqhk")
 level = 25
 move = 43
 
-[sub_resource type="Resource" id="Resource_mpbqx"]
+[sub_resource type="Resource" id="Resource_mqh40"]
 script = ExtResource("3_7wqhk")
 level = 36
 move = 116
 
-[sub_resource type="Resource" id="Resource_42g0e"]
+[sub_resource type="Resource" id="Resource_n687l"]
 script = ExtResource("3_7wqhk")
 level = 44
 move = 69
 
-[sub_resource type="Resource" id="Resource_coeou"]
+[sub_resource type="Resource" id="Resource_xuj54"]
 script = ExtResource("3_7wqhk")
 level = 52
 move = 66
@@ -64,6 +64,7 @@ pokedex = "A belt is worn by a Machoke to keep its
 overwhelming power under control.
 Because it is so dangerous, no one has
 ever removed the belt."
+sprite_folder = "machoke"
 type_1 = 2
 base_hp = 80
 base_atk = 100
@@ -85,5 +86,5 @@ height_dm = 15
 weight_hg = 705
 body_color = 7
 no_flip = true
-level_moves = Array[ExtResource("3_7wqhk")]([SubResource("Resource_7wqhk"), SubResource("Resource_ldplu"), SubResource("Resource_cs4dq"), SubResource("Resource_26xai"), SubResource("Resource_1gj7q"), SubResource("Resource_mpbqx"), SubResource("Resource_42g0e"), SubResource("Resource_coeou")])
-evolutions = Array[ExtResource("1_dbkp0")]([SubResource("Resource_dbkp0"), SubResource("Resource_bp8p6")])
+level_moves = Array[ExtResource("3_7wqhk")]([SubResource("Resource_1gj7q"), SubResource("Resource_mpbqx"), SubResource("Resource_42g0e"), SubResource("Resource_coeou"), SubResource("Resource_xa5hj"), SubResource("Resource_mqh40"), SubResource("Resource_n687l"), SubResource("Resource_xuj54")])
+evolutions = Array[ExtResource("1_dbkp0")]([SubResource("Resource_cs4dq"), SubResource("Resource_26xai")])

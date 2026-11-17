@@ -5,15 +5,15 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ryp8v"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_dhime"]
 
-[sub_resource type="Resource" id="Resource_j2ewo"]
+[sub_resource type="Resource" id="Resource_7nagn"]
 script = ExtResource("3_ryp8v")
 move = 230
 
-[sub_resource type="Resource" id="Resource_1evjg"]
+[sub_resource type="Resource" id="Resource_d6ikc"]
 script = ExtResource("3_ryp8v")
 move = 16
 
-[sub_resource type="Resource" id="Resource_ryp8v"]
+[sub_resource type="Resource" id="Resource_2nqkq"]
 script = ExtResource("3_ryp8v")
 level = 13
 move = 450
@@ -24,6 +24,7 @@ id = 415
 display_name = "Combee"
 category = "Tiny Bee"
 national_dex = 415
+sprite_folder = "combee"
 type_1 = 7
 type_2 = 3
 base_hp = 30
@@ -40,4 +41,4 @@ ability_hidden = 55
 height_dm = 3
 weight_hg = 55
 body_color = 2
-level_moves = Array[ExtResource("3_ryp8v")]([SubResource("Resource_j2ewo"), SubResource("Resource_1evjg"), SubResource("Resource_ryp8v")])
+level_moves = Array[ExtResource("3_ryp8v")]([SubResource("Resource_7nagn"), SubResource("Resource_d6ikc"), SubResource("Resource_2nqkq")])

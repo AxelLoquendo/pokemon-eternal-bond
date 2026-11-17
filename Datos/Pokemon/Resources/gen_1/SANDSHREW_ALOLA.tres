@@ -5,91 +5,91 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_a0w67"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_yuo3y"]
 
-[sub_resource type="Resource" id="Resource_557bp"]
+[sub_resource type="Resource" id="Resource_kqxj7"]
 script = ExtResource("1_557bp")
 method = "ITEM"
 param = "ITEM_ICE_STONE"
 target = 960
 
-[sub_resource type="Resource" id="Resource_7kfxa"]
+[sub_resource type="Resource" id="Resource_v61ew"]
 script = ExtResource("3_a0w67")
 move = 10
 
-[sub_resource type="Resource" id="Resource_a0w67"]
+[sub_resource type="Resource" id="Resource_r3owb"]
 script = ExtResource("3_a0w67")
 move = 111
 
-[sub_resource type="Resource" id="Resource_yuo3y"]
+[sub_resource type="Resource" id="Resource_c3psp"]
 script = ExtResource("3_a0w67")
 level = 3
 move = 117
 
-[sub_resource type="Resource" id="Resource_kqxj7"]
+[sub_resource type="Resource" id="Resource_2cuel"]
 script = ExtResource("3_a0w67")
 level = 5
 move = 181
 
-[sub_resource type="Resource" id="Resource_v61ew"]
+[sub_resource type="Resource" id="Resource_g0hbs"]
 script = ExtResource("3_a0w67")
 level = 7
 move = 301
 
-[sub_resource type="Resource" id="Resource_r3owb"]
+[sub_resource type="Resource" id="Resource_em827"]
 script = ExtResource("3_a0w67")
 level = 9
 move = 229
 
-[sub_resource type="Resource" id="Resource_c3psp"]
+[sub_resource type="Resource" id="Resource_s8gup"]
 script = ExtResource("3_a0w67")
 level = 11
 move = 210
 
-[sub_resource type="Resource" id="Resource_2cuel"]
+[sub_resource type="Resource" id="Resource_jncms"]
 script = ExtResource("3_a0w67")
 level = 14
 move = 232
 
-[sub_resource type="Resource" id="Resource_g0hbs"]
+[sub_resource type="Resource" id="Resource_k33ur"]
 script = ExtResource("3_a0w67")
 level = 17
 move = 129
 
-[sub_resource type="Resource" id="Resource_em827"]
+[sub_resource type="Resource" id="Resource_bbc61"]
 script = ExtResource("3_a0w67")
 level = 20
 move = 154
 
-[sub_resource type="Resource" id="Resource_s8gup"]
+[sub_resource type="Resource" id="Resource_75wp1"]
 script = ExtResource("3_a0w67")
 level = 23
 move = 334
 
-[sub_resource type="Resource" id="Resource_jncms"]
+[sub_resource type="Resource" id="Resource_ei0x3"]
 script = ExtResource("3_a0w67")
 level = 26
 move = 163
 
-[sub_resource type="Resource" id="Resource_k33ur"]
+[sub_resource type="Resource" id="Resource_4uu8x"]
 script = ExtResource("3_a0w67")
 level = 30
 move = 442
 
-[sub_resource type="Resource" id="Resource_bbc61"]
+[sub_resource type="Resource" id="Resource_on4ei"]
 script = ExtResource("3_a0w67")
 level = 34
 move = 360
 
-[sub_resource type="Resource" id="Resource_75wp1"]
+[sub_resource type="Resource" id="Resource_u85e6"]
 script = ExtResource("3_a0w67")
 level = 38
 move = 14
 
-[sub_resource type="Resource" id="Resource_ei0x3"]
+[sub_resource type="Resource" id="Resource_qyd2o"]
 script = ExtResource("3_a0w67")
 level = 42
 move = 258
 
-[sub_resource type="Resource" id="Resource_4uu8x"]
+[sub_resource type="Resource" id="Resource_k5tkb"]
 script = ExtResource("3_a0w67")
 level = 46
 move = 59
@@ -104,6 +104,7 @@ pokedex = "Life on mountains covered with deep snow
 has granted this Pokémon a body of ice
 that's as hard as steel.
 Predators go after its soft belly."
+sprite_folder = "sandshrew/alola"
 type_1 = 16
 type_2 = 9
 base_hp = 50
@@ -122,7 +123,7 @@ item_rare = 488
 height_dm = 7
 weight_hg = 400
 body_color = 1
-level_moves = Array[ExtResource("3_a0w67")]([SubResource("Resource_7kfxa"), SubResource("Resource_a0w67"), SubResource("Resource_yuo3y"), SubResource("Resource_kqxj7"), SubResource("Resource_v61ew"), SubResource("Resource_r3owb"), SubResource("Resource_c3psp"), SubResource("Resource_2cuel"), SubResource("Resource_g0hbs"), SubResource("Resource_em827"), SubResource("Resource_s8gup"), SubResource("Resource_jncms"), SubResource("Resource_k33ur"), SubResource("Resource_bbc61"), SubResource("Resource_75wp1"), SubResource("Resource_ei0x3"), SubResource("Resource_4uu8x")])
+level_moves = Array[ExtResource("3_a0w67")]([SubResource("Resource_v61ew"), SubResource("Resource_r3owb"), SubResource("Resource_c3psp"), SubResource("Resource_2cuel"), SubResource("Resource_g0hbs"), SubResource("Resource_em827"), SubResource("Resource_s8gup"), SubResource("Resource_jncms"), SubResource("Resource_k33ur"), SubResource("Resource_bbc61"), SubResource("Resource_75wp1"), SubResource("Resource_ei0x3"), SubResource("Resource_4uu8x"), SubResource("Resource_on4ei"), SubResource("Resource_u85e6"), SubResource("Resource_qyd2o"), SubResource("Resource_k5tkb")])
 egg_moves = Array[int]([133, 498, 68, 306, 174, 203, 175, 468, 556, 333, 232, 400])
-evolutions = Array[ExtResource("1_557bp")]([SubResource("Resource_557bp")])
+evolutions = Array[ExtResource("1_557bp")]([SubResource("Resource_kqxj7")])
 form_species = Array[int]([27, 959])

@@ -5,41 +5,41 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_n3c6m"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_5otf8"]
 
-[sub_resource type="Resource" id="Resource_00e7p"]
+[sub_resource type="Resource" id="Resource_u8i3u"]
 script = ExtResource("1_00e7p")
 method = "LEVEL"
 param = "30"
 target = 101
 
-[sub_resource type="Resource" id="Resource_hkkmn"]
+[sub_resource type="Resource" id="Resource_kv4wf"]
 script = ExtResource("3_n3c6m")
 move = 33
 
-[sub_resource type="Resource" id="Resource_n3c6m"]
+[sub_resource type="Resource" id="Resource_fhqry"]
 script = ExtResource("3_n3c6m")
 move = 103
 
-[sub_resource type="Resource" id="Resource_5otf8"]
+[sub_resource type="Resource" id="Resource_nekmr"]
 script = ExtResource("3_n3c6m")
 level = 17
 move = 49
 
-[sub_resource type="Resource" id="Resource_u8i3u"]
+[sub_resource type="Resource" id="Resource_l3u1e"]
 script = ExtResource("3_n3c6m")
 level = 22
 move = 120
 
-[sub_resource type="Resource" id="Resource_kv4wf"]
+[sub_resource type="Resource" id="Resource_ltlu7"]
 script = ExtResource("3_n3c6m")
 level = 29
 move = 113
 
-[sub_resource type="Resource" id="Resource_fhqry"]
+[sub_resource type="Resource" id="Resource_hfpkh"]
 script = ExtResource("3_n3c6m")
 level = 36
 move = 129
 
-[sub_resource type="Resource" id="Resource_nekmr"]
+[sub_resource type="Resource" id="Resource_iar4e"]
 script = ExtResource("3_n3c6m")
 level = 43
 move = 153
@@ -54,6 +54,7 @@ pokedex = "It bears an uncanny and unexplained
 resemblance to a Poké Ball. Because it
 explodes at the slightest shock, even
 veteran Trainers treat it with caution."
+sprite_folder = "voltorb"
 type_1 = 14
 base_hp = 40
 base_atk = 30
@@ -71,6 +72,6 @@ ability_2 = 9
 ability_hidden = 106
 height_dm = 5
 weight_hg = 104
-level_moves = Array[ExtResource("3_n3c6m")]([SubResource("Resource_hkkmn"), SubResource("Resource_n3c6m"), SubResource("Resource_5otf8"), SubResource("Resource_u8i3u"), SubResource("Resource_kv4wf"), SubResource("Resource_fhqry"), SubResource("Resource_nekmr")])
-evolutions = Array[ExtResource("1_00e7p")]([SubResource("Resource_00e7p")])
+level_moves = Array[ExtResource("3_n3c6m")]([SubResource("Resource_kv4wf"), SubResource("Resource_fhqry"), SubResource("Resource_nekmr"), SubResource("Resource_l3u1e"), SubResource("Resource_ltlu7"), SubResource("Resource_hfpkh"), SubResource("Resource_iar4e")])
+evolutions = Array[ExtResource("1_00e7p")]([SubResource("Resource_u8i3u")])
 form_species = Array[int]([100, 995])

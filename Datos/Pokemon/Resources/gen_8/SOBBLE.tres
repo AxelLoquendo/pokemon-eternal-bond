@@ -5,61 +5,61 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xqved"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8h2h4"]
 
-[sub_resource type="Resource" id="Resource_nudgb"]
+[sub_resource type="Resource" id="Resource_6asjq"]
 script = ExtResource("1_nudgb")
 method = "LEVEL"
 param = "16"
 target = 817
 
-[sub_resource type="Resource" id="Resource_n06bp"]
+[sub_resource type="Resource" id="Resource_2v8cp"]
 script = ExtResource("3_xqved")
 move = 1
 
-[sub_resource type="Resource" id="Resource_xqved"]
+[sub_resource type="Resource" id="Resource_36b78"]
 script = ExtResource("3_xqved")
 move = 45
 
-[sub_resource type="Resource" id="Resource_8h2h4"]
+[sub_resource type="Resource" id="Resource_8i4ut"]
 script = ExtResource("3_xqved")
 level = 6
 move = 55
 
-[sub_resource type="Resource" id="Resource_6asjq"]
+[sub_resource type="Resource" id="Resource_jgfwj"]
 script = ExtResource("3_xqved")
 level = 8
 move = 20
 
-[sub_resource type="Resource" id="Resource_2v8cp"]
+[sub_resource type="Resource" id="Resource_v6rq0"]
 script = ExtResource("3_xqved")
 level = 12
 move = 352
 
-[sub_resource type="Resource" id="Resource_36b78"]
+[sub_resource type="Resource" id="Resource_xg7fj"]
 script = ExtResource("3_xqved")
 level = 17
 move = 669
 
-[sub_resource type="Resource" id="Resource_8i4ut"]
+[sub_resource type="Resource" id="Resource_q876r"]
 script = ExtResource("3_xqved")
 level = 20
 move = 389
 
-[sub_resource type="Resource" id="Resource_jgfwj"]
+[sub_resource type="Resource" id="Resource_35fj4"]
 script = ExtResource("3_xqved")
 level = 24
 move = 369
 
-[sub_resource type="Resource" id="Resource_v6rq0"]
+[sub_resource type="Resource" id="Resource_0mpq7"]
 script = ExtResource("3_xqved")
 level = 28
 move = 664
 
-[sub_resource type="Resource" id="Resource_xg7fj"]
+[sub_resource type="Resource" id="Resource_mspm8"]
 script = ExtResource("3_xqved")
 level = 32
 move = 487
 
-[sub_resource type="Resource" id="Resource_q876r"]
+[sub_resource type="Resource" id="Resource_7165y"]
 script = ExtResource("3_xqved")
 level = 36
 move = 240
@@ -74,6 +74,7 @@ pokedex = "When scared, this Pokémon cries.
 Its tears pack the chemical punch of 100
 onions, and attackers won't be
 able to resist weeping."
+sprite_folder = "sobble"
 type_1 = 12
 base_hp = 50
 base_atk = 40
@@ -93,6 +94,6 @@ ability_hidden = 97
 height_dm = 3
 weight_hg = 40
 body_color = 1
-level_moves = Array[ExtResource("3_xqved")]([SubResource("Resource_n06bp"), SubResource("Resource_xqved"), SubResource("Resource_8h2h4"), SubResource("Resource_6asjq"), SubResource("Resource_2v8cp"), SubResource("Resource_36b78"), SubResource("Resource_8i4ut"), SubResource("Resource_jgfwj"), SubResource("Resource_v6rq0"), SubResource("Resource_xg7fj"), SubResource("Resource_q876r")])
+level_moves = Array[ExtResource("3_xqved")]([SubResource("Resource_2v8cp"), SubResource("Resource_36b78"), SubResource("Resource_8i4ut"), SubResource("Resource_jgfwj"), SubResource("Resource_v6rq0"), SubResource("Resource_xg7fj"), SubResource("Resource_q876r"), SubResource("Resource_35fj4"), SubResource("Resource_0mpq7"), SubResource("Resource_mspm8"), SubResource("Resource_7165y")])
 egg_moves = Array[int]([453, 104, 392, 54, 114, 420, 565])
-evolutions = Array[ExtResource("1_nudgb")]([SubResource("Resource_nudgb")])
+evolutions = Array[ExtResource("1_nudgb")]([SubResource("Resource_6asjq")])

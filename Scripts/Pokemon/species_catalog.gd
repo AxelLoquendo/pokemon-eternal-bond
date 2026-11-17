@@ -166,3 +166,9 @@ func _load_index() -> void:
 	_index = null
 	_loaded = true
 	_loading = false
+
+func get_sprite_folder(id: SpeciesId.Id) -> String:
+	var data: SpeciesData = get_data(id)
+	if data == null:
+		return ""
+	return str(data.sprite_folder).strip_edges()

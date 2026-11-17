@@ -5,87 +5,87 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_xudoa"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_v86sh"]
 
-[sub_resource type="Resource" id="Resource_ygvuf"]
+[sub_resource type="Resource" id="Resource_giyw8"]
 script = ExtResource("1_ygvuf")
 method = "ITEM"
 param = "ITEM_SUN_STONE"
 target = 547
 
-[sub_resource type="Resource" id="Resource_x422y"]
+[sub_resource type="Resource" id="Resource_ts4pk"]
 script = ExtResource("3_xudoa")
 move = 71
 
-[sub_resource type="Resource" id="Resource_xudoa"]
+[sub_resource type="Resource" id="Resource_b78a1"]
 script = ExtResource("3_xudoa")
 level = 4
 move = 74
 
-[sub_resource type="Resource" id="Resource_v86sh"]
+[sub_resource type="Resource" id="Resource_oui5g"]
 script = ExtResource("3_xudoa")
 level = 8
 move = 73
 
-[sub_resource type="Resource" id="Resource_giyw8"]
+[sub_resource type="Resource" id="Resource_2alu2"]
 script = ExtResource("3_xudoa")
 level = 10
 move = 78
 
-[sub_resource type="Resource" id="Resource_ts4pk"]
+[sub_resource type="Resource" id="Resource_rx6wx"]
 script = ExtResource("3_xudoa")
 level = 13
 move = 72
 
-[sub_resource type="Resource" id="Resource_b78a1"]
+[sub_resource type="Resource" id="Resource_46vlt"]
 script = ExtResource("3_xudoa")
 level = 17
 move = 178
 
-[sub_resource type="Resource" id="Resource_oui5g"]
+[sub_resource type="Resource" id="Resource_1ac1q"]
 script = ExtResource("3_xudoa")
 level = 19
 move = 75
 
-[sub_resource type="Resource" id="Resource_2alu2"]
+[sub_resource type="Resource" id="Resource_u48si"]
 script = ExtResource("3_xudoa")
 level = 22
 move = 77
 
-[sub_resource type="Resource" id="Resource_rx6wx"]
+[sub_resource type="Resource" id="Resource_fksop"]
 script = ExtResource("3_xudoa")
 level = 26
 move = 202
 
-[sub_resource type="Resource" id="Resource_46vlt"]
+[sub_resource type="Resource" id="Resource_o0rvs"]
 script = ExtResource("3_xudoa")
 level = 28
 move = 204
 
-[sub_resource type="Resource" id="Resource_1ac1q"]
+[sub_resource type="Resource" id="Resource_4ukw8"]
 script = ExtResource("3_xudoa")
 level = 31
 move = 270
 
-[sub_resource type="Resource" id="Resource_u48si"]
+[sub_resource type="Resource" id="Resource_jmtcm"]
 script = ExtResource("3_xudoa")
 level = 35
 move = 412
 
-[sub_resource type="Resource" id="Resource_fksop"]
+[sub_resource type="Resource" id="Resource_35sjj"]
 script = ExtResource("3_xudoa")
 level = 37
 move = 538
 
-[sub_resource type="Resource" id="Resource_o0rvs"]
+[sub_resource type="Resource" id="Resource_l50qu"]
 script = ExtResource("3_xudoa")
 level = 40
 move = 241
 
-[sub_resource type="Resource" id="Resource_4ukw8"]
+[sub_resource type="Resource" id="Resource_dj2od"]
 script = ExtResource("3_xudoa")
 level = 44
 move = 283
 
-[sub_resource type="Resource" id="Resource_jmtcm"]
+[sub_resource type="Resource" id="Resource_s4ox8"]
 script = ExtResource("3_xudoa")
 level = 46
 move = 76
@@ -100,6 +100,7 @@ pokedex = "When it finds others of its kind, they all
 stick together. When enough of them
 have collected, the mass resembles a
 cumulonimbus cloud."
+sprite_folder = "cottonee"
 type_1 = 13
 base_hp = 40
 base_atk = 27
@@ -119,6 +120,6 @@ item_rare = 455
 height_dm = 3
 weight_hg = 6
 body_color = 3
-level_moves = Array[ExtResource("3_xudoa")]([SubResource("Resource_x422y"), SubResource("Resource_xudoa"), SubResource("Resource_v86sh"), SubResource("Resource_giyw8"), SubResource("Resource_ts4pk"), SubResource("Resource_b78a1"), SubResource("Resource_oui5g"), SubResource("Resource_2alu2"), SubResource("Resource_rx6wx"), SubResource("Resource_46vlt"), SubResource("Resource_1ac1q"), SubResource("Resource_u48si"), SubResource("Resource_fksop"), SubResource("Resource_o0rvs"), SubResource("Resource_4ukw8"), SubResource("Resource_jmtcm")])
+level_moves = Array[ExtResource("3_xudoa")]([SubResource("Resource_ts4pk"), SubResource("Resource_b78a1"), SubResource("Resource_oui5g"), SubResource("Resource_2alu2"), SubResource("Resource_rx6wx"), SubResource("Resource_46vlt"), SubResource("Resource_1ac1q"), SubResource("Resource_u48si"), SubResource("Resource_fksop"), SubResource("Resource_o0rvs"), SubResource("Resource_4ukw8"), SubResource("Resource_jmtcm"), SubResource("Resource_35sjj"), SubResource("Resource_l50qu"), SubResource("Resource_dj2od"), SubResource("Resource_s4ox8")])
 egg_moves = Array[int]([363, 227, 321, 313, 320, 262, 251, 415, 388, 445, 581])
-evolutions = Array[ExtResource("1_ygvuf")]([SubResource("Resource_ygvuf")])
+evolutions = Array[ExtResource("1_ygvuf")]([SubResource("Resource_giyw8")])

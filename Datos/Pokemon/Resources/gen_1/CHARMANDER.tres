@@ -5,46 +5,46 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hjmp1"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_8p65x"]
 
-[sub_resource type="Resource" id="Resource_743ty"]
+[sub_resource type="Resource" id="Resource_jb2tm"]
 script = ExtResource("1_743ty")
 method = "LEVEL"
 param = "16"
 target = 5
 
-[sub_resource type="Resource" id="Resource_t8wwc"]
+[sub_resource type="Resource" id="Resource_1ysv1"]
 script = ExtResource("3_hjmp1")
 move = 10
 
-[sub_resource type="Resource" id="Resource_hjmp1"]
+[sub_resource type="Resource" id="Resource_0532i"]
 script = ExtResource("3_hjmp1")
 move = 45
 
-[sub_resource type="Resource" id="Resource_8p65x"]
+[sub_resource type="Resource" id="Resource_pu1n6"]
 script = ExtResource("3_hjmp1")
 level = 9
 move = 52
 
-[sub_resource type="Resource" id="Resource_jb2tm"]
+[sub_resource type="Resource" id="Resource_262cu"]
 script = ExtResource("3_hjmp1")
 level = 15
 move = 43
 
-[sub_resource type="Resource" id="Resource_1ysv1"]
+[sub_resource type="Resource" id="Resource_ip3eb"]
 script = ExtResource("3_hjmp1")
 level = 22
 move = 99
 
-[sub_resource type="Resource" id="Resource_0532i"]
+[sub_resource type="Resource" id="Resource_x4ey1"]
 script = ExtResource("3_hjmp1")
 level = 30
 move = 163
 
-[sub_resource type="Resource" id="Resource_pu1n6"]
+[sub_resource type="Resource" id="Resource_83ls1"]
 script = ExtResource("3_hjmp1")
 level = 38
 move = 53
 
-[sub_resource type="Resource" id="Resource_262cu"]
+[sub_resource type="Resource" id="Resource_ymqli"]
 script = ExtResource("3_hjmp1")
 level = 46
 move = 83
@@ -59,6 +59,7 @@ pokedex = "The flame that burns at the tip of its
 tail is an indication of its emotions.
 The flame wavers when Charmander is
 happy, and blazes when it is enraged."
+sprite_folder = "charmander"
 type_1 = 11
 base_hp = 39
 base_atk = 52
@@ -76,6 +77,6 @@ ability_1 = 66
 ability_hidden = 94
 height_dm = 6
 weight_hg = 85
-level_moves = Array[ExtResource("3_hjmp1")]([SubResource("Resource_t8wwc"), SubResource("Resource_hjmp1"), SubResource("Resource_8p65x"), SubResource("Resource_jb2tm"), SubResource("Resource_1ysv1"), SubResource("Resource_0532i"), SubResource("Resource_pu1n6"), SubResource("Resource_262cu")])
+level_moves = Array[ExtResource("3_hjmp1")]([SubResource("Resource_1ysv1"), SubResource("Resource_0532i"), SubResource("Resource_pu1n6"), SubResource("Resource_262cu"), SubResource("Resource_ip3eb"), SubResource("Resource_x4ey1"), SubResource("Resource_83ls1"), SubResource("Resource_ymqli")])
 egg_moves = Array[int]([187, 246, 44, 200, 251, 349, 242, 407, 232, 394, 68, 406, 264, 314])
-evolutions = Array[ExtResource("1_743ty")]([SubResource("Resource_743ty")])
+evolutions = Array[ExtResource("1_743ty")]([SubResource("Resource_jb2tm")])

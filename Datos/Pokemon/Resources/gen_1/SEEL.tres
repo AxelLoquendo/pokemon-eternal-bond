@@ -5,37 +5,37 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_0mep5"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_djl5l"]
 
-[sub_resource type="Resource" id="Resource_usqst"]
+[sub_resource type="Resource" id="Resource_i3pco"]
 script = ExtResource("1_usqst")
 method = "LEVEL"
 param = "34"
 target = 87
 
-[sub_resource type="Resource" id="Resource_h0gir"]
+[sub_resource type="Resource" id="Resource_3hvad"]
 script = ExtResource("3_0mep5")
 move = 29
 
-[sub_resource type="Resource" id="Resource_0mep5"]
+[sub_resource type="Resource" id="Resource_vn2kl"]
 script = ExtResource("3_0mep5")
 level = 30
 move = 45
 
-[sub_resource type="Resource" id="Resource_djl5l"]
+[sub_resource type="Resource" id="Resource_5c3l7"]
 script = ExtResource("3_0mep5")
 level = 35
 move = 62
 
-[sub_resource type="Resource" id="Resource_i3pco"]
+[sub_resource type="Resource" id="Resource_357i6"]
 script = ExtResource("3_0mep5")
 level = 40
 move = 156
 
-[sub_resource type="Resource" id="Resource_3hvad"]
+[sub_resource type="Resource" id="Resource_fdlcw"]
 script = ExtResource("3_0mep5")
 level = 45
 move = 36
 
-[sub_resource type="Resource" id="Resource_vn2kl"]
+[sub_resource type="Resource" id="Resource_r8v8t"]
 script = ExtResource("3_0mep5")
 level = 50
 move = 58
@@ -50,6 +50,7 @@ pokedex = "Seel hunt for prey in frigid, ice-covered
 seas. When it needs to breathe, it punches
 a hole through the ice with the sharply
 protruding section of its head."
+sprite_folder = "seel"
 type_1 = 12
 base_hp = 65
 base_atk = 45
@@ -68,6 +69,6 @@ ability_hidden = 115
 height_dm = 11
 weight_hg = 900
 body_color = 8
-level_moves = Array[ExtResource("3_0mep5")]([SubResource("Resource_h0gir"), SubResource("Resource_0mep5"), SubResource("Resource_djl5l"), SubResource("Resource_i3pco"), SubResource("Resource_3hvad"), SubResource("Resource_vn2kl")])
+level_moves = Array[ExtResource("3_0mep5")]([SubResource("Resource_3hvad"), SubResource("Resource_vn2kl"), SubResource("Resource_5c3l7"), SubResource("Resource_357i6"), SubResource("Resource_fdlcw"), SubResource("Resource_r8v8t")])
 egg_moves = Array[int]([122, 195, 50, 32, 21, 227, 252, 333, 324, 254, 256, 255, 352, 231, 214, 562, 494])
-evolutions = Array[ExtResource("1_usqst")]([SubResource("Resource_usqst")])
+evolutions = Array[ExtResource("1_usqst")]([SubResource("Resource_i3pco")])

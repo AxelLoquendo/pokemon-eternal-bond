@@ -5,17 +5,17 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_h887o"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ke521"]
 
-[sub_resource type="Resource" id="Resource_hibrc"]
+[sub_resource type="Resource" id="Resource_m11lv"]
 script = ExtResource("1_hibrc")
 method = "LEVEL"
 param = "7"
 target = 14
 
-[sub_resource type="Resource" id="Resource_q6vfr"]
+[sub_resource type="Resource" id="Resource_a2hxs"]
 script = ExtResource("3_h887o")
 move = 40
 
-[sub_resource type="Resource" id="Resource_h887o"]
+[sub_resource type="Resource" id="Resource_qmu6q"]
 script = ExtResource("3_h887o")
 move = 81
 
@@ -29,6 +29,7 @@ pokedex = "A Weedle has an extremely acute sense
 of smell. It distinguishes its favorite
 kinds of leaves from those it dislikes by
 sniffing with its big red nose."
+sprite_folder = "weedle"
 type_1 = 7
 type_2 = 4
 base_hp = 40
@@ -47,5 +48,5 @@ ability_hidden = 50
 height_dm = 3
 weight_hg = 32
 body_color = 5
-level_moves = Array[ExtResource("3_h887o")]([SubResource("Resource_q6vfr"), SubResource("Resource_h887o")])
-evolutions = Array[ExtResource("1_hibrc")]([SubResource("Resource_hibrc")])
+level_moves = Array[ExtResource("3_h887o")]([SubResource("Resource_a2hxs"), SubResource("Resource_qmu6q")])
+evolutions = Array[ExtResource("1_hibrc")]([SubResource("Resource_m11lv")])

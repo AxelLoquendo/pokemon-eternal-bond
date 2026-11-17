@@ -5,46 +5,46 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k43ig"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_yoqd5"]
 
-[sub_resource type="Resource" id="Resource_fx0iv"]
+[sub_resource type="Resource" id="Resource_lnqeq"]
 script = ExtResource("3_k43ig")
 move = 84
 
-[sub_resource type="Resource" id="Resource_asc6t"]
+[sub_resource type="Resource" id="Resource_i4kvq"]
 script = ExtResource("3_k43ig")
 level = 5
 move = 33
 
-[sub_resource type="Resource" id="Resource_k43ig"]
+[sub_resource type="Resource" id="Resource_02ix3"]
 script = ExtResource("3_k43ig")
 level = 9
 move = 86
 
-[sub_resource type="Resource" id="Resource_yoqd5"]
+[sub_resource type="Resource" id="Resource_s4wdv"]
 script = ExtResource("3_k43ig")
 level = 15
 move = 209
 
-[sub_resource type="Resource" id="Resource_lnqeq"]
+[sub_resource type="Resource" id="Resource_vd8es"]
 script = ExtResource("3_k43ig")
 level = 21
 move = 412
 
-[sub_resource type="Resource" id="Resource_i4kvq"]
+[sub_resource type="Resource" id="Resource_fonb8"]
 script = ExtResource("3_k43ig")
 level = 29
 move = 85
 
-[sub_resource type="Resource" id="Resource_02ix3"]
+[sub_resource type="Resource" id="Resource_0xuqb"]
 script = ExtResource("3_k43ig")
 level = 37
 move = 87
 
-[sub_resource type="Resource" id="Resource_s4wdv"]
+[sub_resource type="Resource" id="Resource_a81po"]
 script = ExtResource("3_k43ig")
 level = 47
 move = 763
 
-[sub_resource type="Resource" id="Resource_vd8es"]
+[sub_resource type="Resource" id="Resource_tqw6c"]
 script = ExtResource("3_k43ig")
 level = 47
 move = 120
@@ -59,6 +59,7 @@ pokedex = "The tissue on the surface of its body is
 similar in composition to an Apricorn.
 When irritated, it lets loose an electric
 current equal to 20 lightning bolts."
+sprite_folder = "electrode/hisui"
 type_1 = 14
 type_2 = 13
 base_hp = 60
@@ -77,5 +78,5 @@ ability_2 = 9
 ability_hidden = 106
 height_dm = 12
 weight_hg = 710
-level_moves = Array[ExtResource("3_k43ig")]([SubResource("Resource_fx0iv"), SubResource("Resource_asc6t"), SubResource("Resource_k43ig"), SubResource("Resource_yoqd5"), SubResource("Resource_lnqeq"), SubResource("Resource_i4kvq"), SubResource("Resource_02ix3"), SubResource("Resource_s4wdv"), SubResource("Resource_vd8es")])
+level_moves = Array[ExtResource("3_k43ig")]([SubResource("Resource_lnqeq"), SubResource("Resource_i4kvq"), SubResource("Resource_02ix3"), SubResource("Resource_s4wdv"), SubResource("Resource_vd8es"), SubResource("Resource_fonb8"), SubResource("Resource_0xuqb"), SubResource("Resource_a81po"), SubResource("Resource_tqw6c")])
 form_species = Array[int]([101, 996])

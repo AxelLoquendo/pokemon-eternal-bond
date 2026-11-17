@@ -5,31 +5,31 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k14nx"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_lovj6"]
 
-[sub_resource type="Resource" id="Resource_yfhkm"]
+[sub_resource type="Resource" id="Resource_gg106"]
 script = ExtResource("3_k14nx")
 move = 33
 
-[sub_resource type="Resource" id="Resource_ybffe"]
+[sub_resource type="Resource" id="Resource_fs48e"]
 script = ExtResource("3_k14nx")
 level = 20
 move = 44
 
-[sub_resource type="Resource" id="Resource_k14nx"]
+[sub_resource type="Resource" id="Resource_0n6c0"]
 script = ExtResource("3_k14nx")
 level = 25
 move = 82
 
-[sub_resource type="Resource" id="Resource_lovj6"]
+[sub_resource type="Resource" id="Resource_mkit7"]
 script = ExtResource("3_k14nx")
 level = 32
 move = 43
 
-[sub_resource type="Resource" id="Resource_gg106"]
+[sub_resource type="Resource" id="Resource_4l4bu"]
 script = ExtResource("3_k14nx")
 level = 41
 move = 56
 
-[sub_resource type="Resource" id="Resource_fs48e"]
+[sub_resource type="Resource" id="Resource_jlb5k"]
 script = ExtResource("3_k14nx")
 level = 52
 move = 63
@@ -44,6 +44,7 @@ pokedex = "Although it obeys its instinctive drive to
 destroy everything within its reach, it
 will respond to orders from a Trainer it
 truly trusts."
+sprite_folder = "gyarados/mega"
 type_1 = 12
 type_2 = 18
 base_hp = 95
@@ -64,5 +65,5 @@ ability_hidden = 104
 height_dm = 65
 weight_hg = 3050
 body_color = 1
-level_moves = Array[ExtResource("3_k14nx")]([SubResource("Resource_yfhkm"), SubResource("Resource_ybffe"), SubResource("Resource_k14nx"), SubResource("Resource_lovj6"), SubResource("Resource_gg106"), SubResource("Resource_fs48e")])
+level_moves = Array[ExtResource("3_k14nx")]([SubResource("Resource_gg106"), SubResource("Resource_fs48e"), SubResource("Resource_0n6c0"), SubResource("Resource_mkit7"), SubResource("Resource_4l4bu"), SubResource("Resource_jlb5k")])
 form_species = Array[int]([130, 917])

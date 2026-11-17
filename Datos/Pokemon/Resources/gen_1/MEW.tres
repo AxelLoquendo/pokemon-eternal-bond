@@ -5,26 +5,26 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_r0ude"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4h65v"]
 
-[sub_resource type="Resource" id="Resource_dopqi"]
+[sub_resource type="Resource" id="Resource_l2vju"]
 script = ExtResource("3_r0ude")
 move = 1
 
-[sub_resource type="Resource" id="Resource_40lw3"]
+[sub_resource type="Resource" id="Resource_6cqyb"]
 script = ExtResource("3_r0ude")
 level = 10
 move = 144
 
-[sub_resource type="Resource" id="Resource_r0ude"]
+[sub_resource type="Resource" id="Resource_qlxdr"]
 script = ExtResource("3_r0ude")
 level = 20
 move = 5
 
-[sub_resource type="Resource" id="Resource_4h65v"]
+[sub_resource type="Resource" id="Resource_o7jxp"]
 script = ExtResource("3_r0ude")
 level = 30
 move = 118
 
-[sub_resource type="Resource" id="Resource_l2vju"]
+[sub_resource type="Resource" id="Resource_w05sj"]
 script = ExtResource("3_r0ude")
 level = 40
 move = 94
@@ -39,6 +39,7 @@ pokedex = "A Mew is said to possess the genes of all
 Pokémon. It is capable of making itself
 invisible at will, so it entirely avoids
 notice even if it approaches people."
+sprite_folder = "mew"
 type_1 = 15
 base_hp = 100
 base_atk = 100
@@ -58,4 +59,4 @@ item_rare = 522
 height_dm = 4
 weight_hg = 40
 body_color = 9
-level_moves = Array[ExtResource("3_r0ude")]([SubResource("Resource_dopqi"), SubResource("Resource_40lw3"), SubResource("Resource_r0ude"), SubResource("Resource_4h65v"), SubResource("Resource_l2vju")])
+level_moves = Array[ExtResource("3_r0ude")]([SubResource("Resource_l2vju"), SubResource("Resource_6cqyb"), SubResource("Resource_qlxdr"), SubResource("Resource_o7jxp"), SubResource("Resource_w05sj")])

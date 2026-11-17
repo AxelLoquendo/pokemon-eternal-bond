@@ -5,23 +5,23 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_tcma0"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_tthmp"]
 
-[sub_resource type="Resource" id="Resource_tkpja"]
+[sub_resource type="Resource" id="Resource_wtlm7"]
 script = ExtResource("3_tcma0")
 move = 110
 
-[sub_resource type="Resource" id="Resource_ku6o3"]
+[sub_resource type="Resource" id="Resource_cydbd"]
 script = ExtResource("3_tcma0")
 move = 48
 
-[sub_resource type="Resource" id="Resource_tcma0"]
+[sub_resource type="Resource" id="Resource_iu10t"]
 script = ExtResource("3_tcma0")
 move = 128
 
-[sub_resource type="Resource" id="Resource_tthmp"]
+[sub_resource type="Resource" id="Resource_ojgcg"]
 script = ExtResource("3_tcma0")
 move = 62
 
-[sub_resource type="Resource" id="Resource_wtlm7"]
+[sub_resource type="Resource" id="Resource_yh7w3"]
 script = ExtResource("3_tcma0")
 level = 50
 move = 131
@@ -36,6 +36,7 @@ pokedex = "It swims in the sea by swallowing water,
 then jetting it out toward the rear.
 The Cloyster shoots spikes from its
 shell using the same system."
+sprite_folder = "cloyster"
 type_1 = 12
 type_2 = 16
 base_hp = 50
@@ -57,4 +58,4 @@ item_rare = 141
 height_dm = 15
 weight_hg = 1325
 body_color = 6
-level_moves = Array[ExtResource("3_tcma0")]([SubResource("Resource_tkpja"), SubResource("Resource_ku6o3"), SubResource("Resource_tcma0"), SubResource("Resource_tthmp"), SubResource("Resource_wtlm7")])
+level_moves = Array[ExtResource("3_tcma0")]([SubResource("Resource_wtlm7"), SubResource("Resource_cydbd"), SubResource("Resource_iu10t"), SubResource("Resource_ojgcg"), SubResource("Resource_yh7w3")])

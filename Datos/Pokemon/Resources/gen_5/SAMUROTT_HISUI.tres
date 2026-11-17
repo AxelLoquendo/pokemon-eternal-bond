@@ -5,51 +5,51 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_1pogh"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4g5k3"]
 
-[sub_resource type="Resource" id="Resource_p03qy"]
+[sub_resource type="Resource" id="Resource_efus2"]
 script = ExtResource("3_1pogh")
 level = 0
 move = 400
 
-[sub_resource type="Resource" id="Resource_6lo34"]
+[sub_resource type="Resource" id="Resource_xujtu"]
 script = ExtResource("3_1pogh")
 move = 33
 
-[sub_resource type="Resource" id="Resource_1pogh"]
+[sub_resource type="Resource" id="Resource_u8x0w"]
 script = ExtResource("3_1pogh")
 level = 6
 move = 453
 
-[sub_resource type="Resource" id="Resource_4g5k3"]
+[sub_resource type="Resource" id="Resource_lyvtr"]
 script = ExtResource("3_1pogh")
 level = 11
 move = 14
 
-[sub_resource type="Resource" id="Resource_efus2"]
+[sub_resource type="Resource" id="Resource_jfh7k"]
 script = ExtResource("3_1pogh")
 level = 18
 move = 352
 
-[sub_resource type="Resource" id="Resource_xujtu"]
+[sub_resource type="Resource" id="Resource_5hhyw"]
 script = ExtResource("3_1pogh")
 level = 21
 move = 773
 
-[sub_resource type="Resource" id="Resource_u8x0w"]
+[sub_resource type="Resource" id="Resource_rhplf"]
 script = ExtResource("3_1pogh")
 level = 25
 move = 163
 
-[sub_resource type="Resource" id="Resource_lyvtr"]
+[sub_resource type="Resource" id="Resource_r18sw"]
 script = ExtResource("3_1pogh")
 level = 34
 move = 401
 
-[sub_resource type="Resource" id="Resource_jfh7k"]
+[sub_resource type="Resource" id="Resource_s41j0"]
 script = ExtResource("3_1pogh")
 level = 40
 move = 399
 
-[sub_resource type="Resource" id="Resource_5hhyw"]
+[sub_resource type="Resource" id="Resource_2cq01"]
 script = ExtResource("3_1pogh")
 level = 43
 move = 56
@@ -64,6 +64,7 @@ pokedex = "Hard of heart and deft of blade,
 this rare form of Samurott is a
 product of the Pokémon's evolution in the
 region of Hisui."
+sprite_folder = "samurott/hisui"
 type_1 = 12
 type_2 = 18
 base_hp = 90
@@ -82,5 +83,5 @@ ability_hidden = 292
 height_dm = 15
 weight_hg = 582
 body_color = 1
-level_moves = Array[ExtResource("3_1pogh")]([SubResource("Resource_p03qy"), SubResource("Resource_6lo34"), SubResource("Resource_1pogh"), SubResource("Resource_4g5k3"), SubResource("Resource_efus2"), SubResource("Resource_xujtu"), SubResource("Resource_u8x0w"), SubResource("Resource_lyvtr"), SubResource("Resource_jfh7k"), SubResource("Resource_5hhyw")])
+level_moves = Array[ExtResource("3_1pogh")]([SubResource("Resource_efus2"), SubResource("Resource_xujtu"), SubResource("Resource_u8x0w"), SubResource("Resource_lyvtr"), SubResource("Resource_jfh7k"), SubResource("Resource_5hhyw"), SubResource("Resource_rhplf"), SubResource("Resource_r18sw"), SubResource("Resource_s41j0"), SubResource("Resource_2cq01")])
 form_species = Array[int]([503, 1000])

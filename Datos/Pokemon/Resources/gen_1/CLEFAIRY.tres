@@ -5,46 +5,46 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ojv02"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_ujd60"]
 
-[sub_resource type="Resource" id="Resource_uaikq"]
+[sub_resource type="Resource" id="Resource_wqu2h"]
 script = ExtResource("1_uaikq")
 method = "ITEM"
 param = "ITEM_MOON_STONE"
 target = 36
 
-[sub_resource type="Resource" id="Resource_rn2hq"]
+[sub_resource type="Resource" id="Resource_4fhej"]
 script = ExtResource("3_ojv02")
 move = 1
 
-[sub_resource type="Resource" id="Resource_ojv02"]
+[sub_resource type="Resource" id="Resource_2s0lx"]
 script = ExtResource("3_ojv02")
 move = 45
 
-[sub_resource type="Resource" id="Resource_ujd60"]
+[sub_resource type="Resource" id="Resource_e4pe2"]
 script = ExtResource("3_ojv02")
 level = 13
 move = 47
 
-[sub_resource type="Resource" id="Resource_wqu2h"]
+[sub_resource type="Resource" id="Resource_xk3r0"]
 script = ExtResource("3_ojv02")
 level = 18
 move = 3
 
-[sub_resource type="Resource" id="Resource_4fhej"]
+[sub_resource type="Resource" id="Resource_wjc2g"]
 script = ExtResource("3_ojv02")
 level = 24
 move = 107
 
-[sub_resource type="Resource" id="Resource_2s0lx"]
+[sub_resource type="Resource" id="Resource_rbi8e"]
 script = ExtResource("3_ojv02")
 level = 31
 move = 118
 
-[sub_resource type="Resource" id="Resource_e4pe2"]
+[sub_resource type="Resource" id="Resource_jy43b"]
 script = ExtResource("3_ojv02")
 level = 39
 move = 111
 
-[sub_resource type="Resource" id="Resource_xk3r0"]
+[sub_resource type="Resource" id="Resource_lbbam"]
 script = ExtResource("3_ojv02")
 level = 48
 move = 113
@@ -59,6 +59,7 @@ pokedex = "On every night of a full moon, they come
 out to play. When dawn arrives, the tired
 Clefairy go to sleep nestled up against
 each other in deep and quiet mountains."
+sprite_folder = "clefairy"
 type_1 = 1
 base_hp = 70
 base_atk = 45
@@ -82,5 +83,5 @@ height_dm = 6
 weight_hg = 75
 body_color = 9
 no_flip = true
-level_moves = Array[ExtResource("3_ojv02")]([SubResource("Resource_rn2hq"), SubResource("Resource_ojv02"), SubResource("Resource_ujd60"), SubResource("Resource_wqu2h"), SubResource("Resource_4fhej"), SubResource("Resource_2s0lx"), SubResource("Resource_e4pe2"), SubResource("Resource_xk3r0")])
-evolutions = Array[ExtResource("1_uaikq")]([SubResource("Resource_uaikq")])
+level_moves = Array[ExtResource("3_ojv02")]([SubResource("Resource_4fhej"), SubResource("Resource_2s0lx"), SubResource("Resource_e4pe2"), SubResource("Resource_xk3r0"), SubResource("Resource_wjc2g"), SubResource("Resource_rbi8e"), SubResource("Resource_jy43b"), SubResource("Resource_lbbam")])
+evolutions = Array[ExtResource("1_uaikq")]([SubResource("Resource_wqu2h")])

@@ -5,19 +5,19 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_2m5n3"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_mbsi0"]
 
-[sub_resource type="Resource" id="Resource_s6w60"]
+[sub_resource type="Resource" id="Resource_qiuw3"]
 script = ExtResource("3_2m5n3")
 move = 43
 
-[sub_resource type="Resource" id="Resource_hfbhw"]
+[sub_resource type="Resource" id="Resource_i2g5m"]
 script = ExtResource("3_2m5n3")
 move = 122
 
-[sub_resource type="Resource" id="Resource_2m5n3"]
+[sub_resource type="Resource" id="Resource_18ouj"]
 script = ExtResource("3_2m5n3")
 move = 154
 
-[sub_resource type="Resource" id="Resource_mbsi0"]
+[sub_resource type="Resource" id="Resource_56yrq"]
 script = ExtResource("3_2m5n3")
 move = 402
 
@@ -31,6 +31,7 @@ pokedex = "Ill tempered, it attacks enemies by
 swinging its barbed tail around wildly.
 The leaf growing on its head is
 very bitter."
+sprite_folder = "simisage"
 type_1 = 13
 base_hp = 75
 base_atk = 98
@@ -48,4 +49,4 @@ ability_hidden = 65
 height_dm = 11
 weight_hg = 305
 body_color = 3
-level_moves = Array[ExtResource("3_2m5n3")]([SubResource("Resource_s6w60"), SubResource("Resource_hfbhw"), SubResource("Resource_2m5n3"), SubResource("Resource_mbsi0")])
+level_moves = Array[ExtResource("3_2m5n3")]([SubResource("Resource_qiuw3"), SubResource("Resource_i2g5m"), SubResource("Resource_18ouj"), SubResource("Resource_56yrq")])

@@ -5,36 +5,36 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_hos5g"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_xm1at"]
 
-[sub_resource type="Resource" id="Resource_4eupf"]
+[sub_resource type="Resource" id="Resource_61v32"]
 script = ExtResource("1_4eupf")
 method = "LEVEL"
 param = "40"
 target = 141
 
-[sub_resource type="Resource" id="Resource_48p77"]
+[sub_resource type="Resource" id="Resource_2lxjb"]
 script = ExtResource("3_hos5g")
 move = 10
 
-[sub_resource type="Resource" id="Resource_hos5g"]
+[sub_resource type="Resource" id="Resource_cf4d5"]
 script = ExtResource("3_hos5g")
 move = 106
 
-[sub_resource type="Resource" id="Resource_xm1at"]
+[sub_resource type="Resource" id="Resource_i4bcl"]
 script = ExtResource("3_hos5g")
 level = 34
 move = 71
 
-[sub_resource type="Resource" id="Resource_61v32"]
+[sub_resource type="Resource" id="Resource_re1x7"]
 script = ExtResource("3_hos5g")
 level = 39
 move = 163
 
-[sub_resource type="Resource" id="Resource_2lxjb"]
+[sub_resource type="Resource" id="Resource_xbriq"]
 script = ExtResource("3_hos5g")
 level = 44
 move = 43
 
-[sub_resource type="Resource" id="Resource_cf4d5"]
+[sub_resource type="Resource" id="Resource_cac1x"]
 script = ExtResource("3_hos5g")
 level = 49
 move = 56
@@ -49,6 +49,7 @@ pokedex = "It is a Pokémon that has been regenerated
 from a fossil. However, in rare cases, living
 examples have been discovered. Kabuto
 have not changed for 300 million years."
+sprite_folder = "kabuto"
 type_1 = 6
 type_2 = 12
 base_hp = 30
@@ -69,6 +70,6 @@ ability_hidden = 133
 height_dm = 5
 weight_hg = 115
 body_color = 5
-level_moves = Array[ExtResource("3_hos5g")]([SubResource("Resource_48p77"), SubResource("Resource_hos5g"), SubResource("Resource_xm1at"), SubResource("Resource_61v32"), SubResource("Resource_2lxjb"), SubResource("Resource_cf4d5")])
+level_moves = Array[ExtResource("3_hos5g")]([SubResource("Resource_2lxjb"), SubResource("Resource_cf4d5"), SubResource("Resource_i4bcl"), SubResource("Resource_re1x7"), SubResource("Resource_xbriq"), SubResource("Resource_cac1x")])
 egg_moves = Array[int]([61, 62, 229, 175, 282, 109, 341, 196, 103, 202, 193, 36])
-evolutions = Array[ExtResource("1_4eupf")]([SubResource("Resource_4eupf")])
+evolutions = Array[ExtResource("1_4eupf")]([SubResource("Resource_61v32")])

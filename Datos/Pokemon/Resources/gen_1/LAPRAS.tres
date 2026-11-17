@@ -5,40 +5,40 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_w8pnl"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4fcax"]
 
-[sub_resource type="Resource" id="Resource_xn3qf"]
+[sub_resource type="Resource" id="Resource_2iqbh"]
 script = ExtResource("3_w8pnl")
 move = 55
 
-[sub_resource type="Resource" id="Resource_yeuv2"]
+[sub_resource type="Resource" id="Resource_v0y3j"]
 script = ExtResource("3_w8pnl")
 move = 45
 
-[sub_resource type="Resource" id="Resource_w8pnl"]
+[sub_resource type="Resource" id="Resource_uqgdl"]
 script = ExtResource("3_w8pnl")
 level = 16
 move = 47
 
-[sub_resource type="Resource" id="Resource_4fcax"]
+[sub_resource type="Resource" id="Resource_ir7ul"]
 script = ExtResource("3_w8pnl")
 level = 20
 move = 54
 
-[sub_resource type="Resource" id="Resource_2iqbh"]
+[sub_resource type="Resource" id="Resource_lfdo1"]
 script = ExtResource("3_w8pnl")
 level = 25
 move = 34
 
-[sub_resource type="Resource" id="Resource_v0y3j"]
+[sub_resource type="Resource" id="Resource_8weq2"]
 script = ExtResource("3_w8pnl")
 level = 31
 move = 109
 
-[sub_resource type="Resource" id="Resource_uqgdl"]
+[sub_resource type="Resource" id="Resource_c7hkw"]
 script = ExtResource("3_w8pnl")
 level = 38
 move = 58
 
-[sub_resource type="Resource" id="Resource_ir7ul"]
+[sub_resource type="Resource" id="Resource_fkqfr"]
 script = ExtResource("3_w8pnl")
 level = 46
 move = 56
@@ -53,6 +53,7 @@ pokedex = "People have driven Lapras almost to the
 point of extinction. In the evenings,
 it is said to sing plaintively as it seeks
 what few others of its kind still remain."
+sprite_folder = "lapras"
 type_1 = 12
 type_2 = 16
 base_hp = 130
@@ -75,6 +76,6 @@ item_rare = 427
 height_dm = 25
 weight_hg = 2200
 body_color = 1
-level_moves = Array[ExtResource("3_w8pnl")]([SubResource("Resource_xn3qf"), SubResource("Resource_yeuv2"), SubResource("Resource_w8pnl"), SubResource("Resource_4fcax"), SubResource("Resource_2iqbh"), SubResource("Resource_v0y3j"), SubResource("Resource_uqgdl"), SubResource("Resource_ir7ul")])
+level_moves = Array[ExtResource("3_w8pnl")]([SubResource("Resource_2iqbh"), SubResource("Resource_v0y3j"), SubResource("Resource_uqgdl"), SubResource("Resource_ir7ul"), SubResource("Resource_lfdo1"), SubResource("Resource_8weq2"), SubResource("Resource_c7hkw"), SubResource("Resource_fkqfr")])
 egg_moves = Array[int]([193, 321, 287, 349, 174, 214, 32, 246, 250, 90, 406, 419, 248, 573])
 form_species = Array[int]([131, 1498])

@@ -5,13 +5,13 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_kbijy"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_cghlq"]
 
-[sub_resource type="Resource" id="Resource_rrwoe"]
+[sub_resource type="Resource" id="Resource_nfxu0"]
 script = ExtResource("1_rrwoe")
 method = "LEVEL"
 param = "10"
 target = 15
 
-[sub_resource type="Resource" id="Resource_cq5y5"]
+[sub_resource type="Resource" id="Resource_r88f3"]
 script = ExtResource("3_kbijy")
 move = 106
 
@@ -25,6 +25,7 @@ pokedex = "It remains virtually immobile while it
 clings to a tree. However, on the inside,
 it busily prepares for evolution. This is
 evident from how hot its shell becomes."
+sprite_folder = "kakuna"
 type_1 = 7
 type_2 = 4
 base_hp = 45
@@ -42,5 +43,5 @@ ability_1 = 61
 height_dm = 6
 weight_hg = 100
 body_color = 2
-level_moves = Array[ExtResource("3_kbijy")]([SubResource("Resource_cq5y5")])
-evolutions = Array[ExtResource("1_rrwoe")]([SubResource("Resource_rrwoe")])
+level_moves = Array[ExtResource("3_kbijy")]([SubResource("Resource_r88f3")])
+evolutions = Array[ExtResource("1_rrwoe")]([SubResource("Resource_nfxu0")])

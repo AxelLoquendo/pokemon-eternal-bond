@@ -5,81 +5,81 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_6acbg"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_4gdde"]
 
-[sub_resource type="Resource" id="Resource_11wgr"]
+[sub_resource type="Resource" id="Resource_nod6d"]
 script = ExtResource("1_11wgr")
 method = "LEVEL"
 param = "26"
 target = 1312
 
-[sub_resource type="Resource" id="Resource_wva41"]
+[sub_resource type="Resource" id="Resource_sp03o"]
 script = ExtResource("3_6acbg")
 move = 33
 
-[sub_resource type="Resource" id="Resource_6acbg"]
+[sub_resource type="Resource" id="Resource_seica"]
 script = ExtResource("3_6acbg")
 move = 45
 
-[sub_resource type="Resource" id="Resource_4gdde"]
+[sub_resource type="Resource" id="Resource_c55t2"]
 script = ExtResource("3_6acbg")
 level = 3
 move = 122
 
-[sub_resource type="Resource" id="Resource_nod6d"]
+[sub_resource type="Resource" id="Resource_eyxke"]
 script = ExtResource("3_6acbg")
 level = 6
 move = 39
 
-[sub_resource type="Resource" id="Resource_sp03o"]
+[sub_resource type="Resource" id="Resource_na12a"]
 script = ExtResource("3_6acbg")
 level = 8
 move = 343
 
-[sub_resource type="Resource" id="Resource_seica"]
+[sub_resource type="Resource" id="Resource_ujaft"]
 script = ExtResource("3_6acbg")
 level = 11
 move = 44
 
-[sub_resource type="Resource" id="Resource_c55t2"]
+[sub_resource type="Resource" id="Resource_wyfqx"]
 script = ExtResource("3_6acbg")
 level = 15
 move = 608
 
-[sub_resource type="Resource" id="Resource_eyxke"]
+[sub_resource type="Resource" id="Resource_lb6lf"]
 script = ExtResource("3_6acbg")
 level = 18
 move = 583
 
-[sub_resource type="Resource" id="Resource_na12a"]
+[sub_resource type="Resource" id="Resource_cfyh6"]
 script = ExtResource("3_6acbg")
 level = 22
 move = 526
 
-[sub_resource type="Resource" id="Resource_ujaft"]
+[sub_resource type="Resource" id="Resource_rammk"]
 script = ExtResource("3_6acbg")
 level = 26
 move = 226
 
-[sub_resource type="Resource" id="Resource_wyfqx"]
+[sub_resource type="Resource" id="Resource_euj2y"]
 script = ExtResource("3_6acbg")
 level = 30
 move = 46
 
-[sub_resource type="Resource" id="Resource_lb6lf"]
+[sub_resource type="Resource" id="Resource_ka442"]
 script = ExtResource("3_6acbg")
 level = 33
 move = 38
 
-[sub_resource type="Resource" id="Resource_cfyh6"]
+[sub_resource type="Resource" id="Resource_j3vlp"]
 script = ExtResource("3_6acbg")
 level = 36
 move = 204
 
-[sub_resource type="Resource" id="Resource_rammk"]
+[sub_resource type="Resource" id="Resource_pkfm7"]
 script = ExtResource("3_6acbg")
 level = 40
 move = 242
 
-[sub_resource type="Resource" id="Resource_euj2y"]
+[sub_resource type="Resource" id="Resource_lt2ng"]
 script = ExtResource("3_6acbg")
 level = 45
 move = 387
@@ -94,6 +94,7 @@ pokedex = "This Pokémon is smooth and moist
 to the touch. Yeast in Fidough's
 breath induces fermentation in the
 Pokémon's vicinity."
+sprite_folder = "fidough"
 type_1 = 19
 base_hp = 37
 base_atk = 55
@@ -112,6 +113,6 @@ ability_hidden = 103
 height_dm = 3
 weight_hg = 109
 body_color = 2
-level_moves = Array[ExtResource("3_6acbg")]([SubResource("Resource_wva41"), SubResource("Resource_6acbg"), SubResource("Resource_4gdde"), SubResource("Resource_nod6d"), SubResource("Resource_sp03o"), SubResource("Resource_seica"), SubResource("Resource_c55t2"), SubResource("Resource_eyxke"), SubResource("Resource_na12a"), SubResource("Resource_ujaft"), SubResource("Resource_wyfqx"), SubResource("Resource_lb6lf"), SubResource("Resource_cfyh6"), SubResource("Resource_rammk"), SubResource("Resource_euj2y")])
+level_moves = Array[ExtResource("3_6acbg")]([SubResource("Resource_sp03o"), SubResource("Resource_seica"), SubResource("Resource_c55t2"), SubResource("Resource_eyxke"), SubResource("Resource_na12a"), SubResource("Resource_ujaft"), SubResource("Resource_wyfqx"), SubResource("Resource_lb6lf"), SubResource("Resource_cfyh6"), SubResource("Resource_rammk"), SubResource("Resource_euj2y"), SubResource("Resource_ka442"), SubResource("Resource_j3vlp"), SubResource("Resource_pkfm7"), SubResource("Resource_lt2ng")])
 egg_moves = Array[int]([383, 336, 230, 273, 281])
-evolutions = Array[ExtResource("1_11wgr")]([SubResource("Resource_11wgr")])
+evolutions = Array[ExtResource("1_11wgr")]([SubResource("Resource_nod6d")])

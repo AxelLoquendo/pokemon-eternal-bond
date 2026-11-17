@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_8wpb6"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wuy7m"]
 
-[sub_resource type="Resource" id="Resource_o5s6h"]
+[sub_resource type="Resource" id="Resource_3ronk"]
 script = ExtResource("1_o5s6h")
 method = "LEVEL"
 param = "25"
 target = 61
 
-[sub_resource type="Resource" id="Resource_hce7d"]
+[sub_resource type="Resource" id="Resource_lj0cu"]
 script = ExtResource("3_8wpb6")
 move = 145
 
-[sub_resource type="Resource" id="Resource_8wpb6"]
+[sub_resource type="Resource" id="Resource_6pgm6"]
 script = ExtResource("3_8wpb6")
 level = 16
 move = 95
 
-[sub_resource type="Resource" id="Resource_wuy7m"]
+[sub_resource type="Resource" id="Resource_xfopp"]
 script = ExtResource("3_8wpb6")
 level = 19
 move = 55
 
-[sub_resource type="Resource" id="Resource_3ronk"]
+[sub_resource type="Resource" id="Resource_ny0gk"]
 script = ExtResource("3_8wpb6")
 level = 25
 move = 3
 
-[sub_resource type="Resource" id="Resource_lj0cu"]
+[sub_resource type="Resource" id="Resource_tdc1h"]
 script = ExtResource("3_8wpb6")
 level = 31
 move = 34
 
-[sub_resource type="Resource" id="Resource_6pgm6"]
+[sub_resource type="Resource" id="Resource_lxtac"]
 script = ExtResource("3_8wpb6")
 level = 38
 move = 133
 
-[sub_resource type="Resource" id="Resource_xfopp"]
+[sub_resource type="Resource" id="Resource_5ic7x"]
 script = ExtResource("3_8wpb6")
 level = 45
 move = 56
@@ -55,6 +55,7 @@ pokedex = "It is possible to see this Pokémon's spiral
 innards right through its thin skin.
 However, the skin is also very flexible.
 Even sharp fangs bounce right off it."
+sprite_folder = "poliwag"
 type_1 = 12
 base_hp = 40
 base_atk = 50
@@ -74,6 +75,6 @@ height_dm = 6
 weight_hg = 124
 body_color = 1
 no_flip = true
-level_moves = Array[ExtResource("3_8wpb6")]([SubResource("Resource_hce7d"), SubResource("Resource_8wpb6"), SubResource("Resource_wuy7m"), SubResource("Resource_3ronk"), SubResource("Resource_lj0cu"), SubResource("Resource_6pgm6"), SubResource("Resource_xfopp")])
+level_moves = Array[ExtResource("3_8wpb6")]([SubResource("Resource_lj0cu"), SubResource("Resource_6pgm6"), SubResource("Resource_xfopp"), SubResource("Resource_ny0gk"), SubResource("Resource_tdc1h"), SubResource("Resource_lxtac"), SubResource("Resource_5ic7x")])
 egg_moves = Array[int]([54, 150, 61, 114, 170, 346, 301, 341, 287, 283, 227, 203, 352])
-evolutions = Array[ExtResource("1_o5s6h")]([SubResource("Resource_o5s6h")])
+evolutions = Array[ExtResource("1_o5s6h")]([SubResource("Resource_3ronk")])

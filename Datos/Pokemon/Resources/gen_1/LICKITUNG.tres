@@ -5,35 +5,35 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_48pga"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_y12g1"]
 
-[sub_resource type="Resource" id="Resource_bcvcd"]
+[sub_resource type="Resource" id="Resource_tkew0"]
 script = ExtResource("3_48pga")
 move = 35
 
-[sub_resource type="Resource" id="Resource_i8f1u"]
+[sub_resource type="Resource" id="Resource_pkc2h"]
 script = ExtResource("3_48pga")
 move = 48
 
-[sub_resource type="Resource" id="Resource_48pga"]
+[sub_resource type="Resource" id="Resource_voou1"]
 script = ExtResource("3_48pga")
 level = 7
 move = 23
 
-[sub_resource type="Resource" id="Resource_y12g1"]
+[sub_resource type="Resource" id="Resource_36q4m"]
 script = ExtResource("3_48pga")
 level = 15
 move = 50
 
-[sub_resource type="Resource" id="Resource_tkew0"]
+[sub_resource type="Resource" id="Resource_wo4of"]
 script = ExtResource("3_48pga")
 level = 23
 move = 111
 
-[sub_resource type="Resource" id="Resource_pkc2h"]
+[sub_resource type="Resource" id="Resource_0p53t"]
 script = ExtResource("3_48pga")
 level = 31
 move = 21
 
-[sub_resource type="Resource" id="Resource_voou1"]
+[sub_resource type="Resource" id="Resource_2405n"]
 script = ExtResource("3_48pga")
 level = 39
 move = 103
@@ -48,6 +48,7 @@ pokedex = "Whenever it sees something unfamiliar,
 it always licks the object because it
 memorizes things by texture and taste.
 It is somewhat put off by sour things."
+sprite_folder = "lickitung"
 type_1 = 1
 base_hp = 90
 base_atk = 55
@@ -65,5 +66,5 @@ item_rare = 485
 height_dm = 12
 weight_hg = 655
 body_color = 9
-level_moves = Array[ExtResource("3_48pga")]([SubResource("Resource_bcvcd"), SubResource("Resource_i8f1u"), SubResource("Resource_48pga"), SubResource("Resource_y12g1"), SubResource("Resource_tkew0"), SubResource("Resource_pkc2h"), SubResource("Resource_voou1")])
+level_moves = Array[ExtResource("3_48pga")]([SubResource("Resource_tkew0"), SubResource("Resource_pkc2h"), SubResource("Resource_voou1"), SubResource("Resource_36q4m"), SubResource("Resource_wo4of"), SubResource("Resource_0p53t"), SubResource("Resource_2405n")])
 egg_moves = Array[int]([187, 222, 34, 174, 265, 214, 173, 133, 359, 330, 428, 562, 37])

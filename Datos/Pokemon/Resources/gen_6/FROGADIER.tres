@@ -5,76 +5,76 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_aq78g"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_wg7oc"]
 
-[sub_resource type="Resource" id="Resource_p1f12"]
+[sub_resource type="Resource" id="Resource_g6r5x"]
 script = ExtResource("1_p1f12")
 method = "LEVEL"
 param = "36"
 target = 658
 
-[sub_resource type="Resource" id="Resource_31ecu"]
+[sub_resource type="Resource" id="Resource_dp75x"]
 script = ExtResource("3_aq78g")
 move = 1
 
-[sub_resource type="Resource" id="Resource_aq78g"]
+[sub_resource type="Resource" id="Resource_xixl5"]
 script = ExtResource("3_aq78g")
 move = 45
 
-[sub_resource type="Resource" id="Resource_wg7oc"]
+[sub_resource type="Resource" id="Resource_4davn"]
 script = ExtResource("3_aq78g")
 level = 5
 move = 145
 
-[sub_resource type="Resource" id="Resource_g6r5x"]
+[sub_resource type="Resource" id="Resource_6l76c"]
 script = ExtResource("3_aq78g")
 level = 8
 move = 98
 
-[sub_resource type="Resource" id="Resource_dp75x"]
+[sub_resource type="Resource" id="Resource_abyho"]
 script = ExtResource("3_aq78g")
 level = 10
 move = 122
 
-[sub_resource type="Resource" id="Resource_xixl5"]
+[sub_resource type="Resource" id="Resource_v2qb8"]
 script = ExtResource("3_aq78g")
 level = 14
 move = 352
 
-[sub_resource type="Resource" id="Resource_4davn"]
+[sub_resource type="Resource" id="Resource_dp53y"]
 script = ExtResource("3_aq78g")
 level = 20
 move = 108
 
-[sub_resource type="Resource" id="Resource_6l76c"]
+[sub_resource type="Resource" id="Resource_ohas0"]
 script = ExtResource("3_aq78g")
 level = 23
 move = 496
 
-[sub_resource type="Resource" id="Resource_abyho"]
+[sub_resource type="Resource" id="Resource_kvxdw"]
 script = ExtResource("3_aq78g")
 level = 28
 move = 374
 
-[sub_resource type="Resource" id="Resource_v2qb8"]
+[sub_resource type="Resource" id="Resource_0s5rg"]
 script = ExtResource("3_aq78g")
 level = 33
 move = 479
 
-[sub_resource type="Resource" id="Resource_dp53y"]
+[sub_resource type="Resource" id="Resource_1t2ir"]
 script = ExtResource("3_aq78g")
 level = 38
 move = 164
 
-[sub_resource type="Resource" id="Resource_ohas0"]
+[sub_resource type="Resource" id="Resource_jriu3"]
 script = ExtResource("3_aq78g")
 level = 44
 move = 340
 
-[sub_resource type="Resource" id="Resource_kvxdw"]
+[sub_resource type="Resource" id="Resource_4j2t7"]
 script = ExtResource("3_aq78g")
 level = 48
 move = 104
 
-[sub_resource type="Resource" id="Resource_0s5rg"]
+[sub_resource type="Resource" id="Resource_kp3vg"]
 script = ExtResource("3_aq78g")
 level = 55
 move = 56
@@ -89,6 +89,7 @@ pokedex = "It can throw bubble-covered pebbles with
 precise control, hitting empty cans up to
 a hundred feet away. Frogadier's swiftness
 is unparalleled."
+sprite_folder = "frogadier"
 type_1 = 12
 base_hp = 54
 base_atk = 63
@@ -106,5 +107,5 @@ ability_hidden = 168
 height_dm = 6
 weight_hg = 109
 body_color = 1
-level_moves = Array[ExtResource("3_aq78g")]([SubResource("Resource_31ecu"), SubResource("Resource_aq78g"), SubResource("Resource_wg7oc"), SubResource("Resource_g6r5x"), SubResource("Resource_dp75x"), SubResource("Resource_xixl5"), SubResource("Resource_4davn"), SubResource("Resource_6l76c"), SubResource("Resource_abyho"), SubResource("Resource_v2qb8"), SubResource("Resource_dp53y"), SubResource("Resource_ohas0"), SubResource("Resource_kvxdw"), SubResource("Resource_0s5rg")])
-evolutions = Array[ExtResource("1_p1f12")]([SubResource("Resource_p1f12")])
+level_moves = Array[ExtResource("3_aq78g")]([SubResource("Resource_dp75x"), SubResource("Resource_xixl5"), SubResource("Resource_4davn"), SubResource("Resource_6l76c"), SubResource("Resource_abyho"), SubResource("Resource_v2qb8"), SubResource("Resource_dp53y"), SubResource("Resource_ohas0"), SubResource("Resource_kvxdw"), SubResource("Resource_0s5rg"), SubResource("Resource_1t2ir"), SubResource("Resource_jriu3"), SubResource("Resource_4j2t7"), SubResource("Resource_kp3vg")])
+evolutions = Array[ExtResource("1_p1f12")]([SubResource("Resource_g6r5x")])

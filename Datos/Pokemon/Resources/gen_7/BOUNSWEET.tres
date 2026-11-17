@@ -5,52 +5,52 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_7vmls"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hrwj2"]
 
-[sub_resource type="Resource" id="Resource_l2byk"]
+[sub_resource type="Resource" id="Resource_imfkt"]
 script = ExtResource("1_l2byk")
 method = "LEVEL"
 param = "18"
 target = 762
 
-[sub_resource type="Resource" id="Resource_h1kle"]
+[sub_resource type="Resource" id="Resource_26n0k"]
 script = ExtResource("3_7vmls")
 move = 150
 
-[sub_resource type="Resource" id="Resource_7vmls"]
+[sub_resource type="Resource" id="Resource_74pot"]
 script = ExtResource("3_7vmls")
 level = 5
 move = 589
 
-[sub_resource type="Resource" id="Resource_hrwj2"]
+[sub_resource type="Resource" id="Resource_x40o7"]
 script = ExtResource("3_7vmls")
 level = 9
 move = 229
 
-[sub_resource type="Resource" id="Resource_imfkt"]
+[sub_resource type="Resource" id="Resource_qa7c2"]
 script = ExtResource("3_7vmls")
 level = 13
 move = 75
 
-[sub_resource type="Resource" id="Resource_26n0k"]
+[sub_resource type="Resource" id="Resource_nwrwy"]
 script = ExtResource("3_7vmls")
 level = 17
 move = 230
 
-[sub_resource type="Resource" id="Resource_74pot"]
+[sub_resource type="Resource" id="Resource_m0cwy"]
 script = ExtResource("3_7vmls")
 level = 21
 move = 345
 
-[sub_resource type="Resource" id="Resource_x40o7"]
+[sub_resource type="Resource" id="Resource_vpv3o"]
 script = ExtResource("3_7vmls")
 level = 25
 move = 298
 
-[sub_resource type="Resource" id="Resource_qa7c2"]
+[sub_resource type="Resource" id="Resource_v34l0"]
 script = ExtResource("3_7vmls")
 level = 29
 move = 175
 
-[sub_resource type="Resource" id="Resource_nwrwy"]
+[sub_resource type="Resource" id="Resource_721t5"]
 script = ExtResource("3_7vmls")
 level = 33
 move = 597
@@ -65,6 +65,7 @@ pokedex = "A delectable aroma pours from its body.
 Bounsweet's sweat can be watered down
 into a juice with just the right amount
 of sweetness."
+sprite_folder = "bounsweet"
 type_1 = 13
 base_hp = 42
 base_atk = 30
@@ -85,6 +86,6 @@ item_rare = 454
 height_dm = 3
 weight_hg = 32
 body_color = 6
-level_moves = Array[ExtResource("3_7vmls")]([SubResource("Resource_h1kle"), SubResource("Resource_7vmls"), SubResource("Resource_hrwj2"), SubResource("Resource_imfkt"), SubResource("Resource_26n0k"), SubResource("Resource_74pot"), SubResource("Resource_x40o7"), SubResource("Resource_qa7c2"), SubResource("Resource_nwrwy")])
+level_moves = Array[ExtResource("3_7vmls")]([SubResource("Resource_26n0k"), SubResource("Resource_74pot"), SubResource("Resource_x40o7"), SubResource("Resource_qa7c2"), SubResource("Resource_nwrwy"), SubResource("Resource_m0cwy"), SubResource("Resource_vpv3o"), SubResource("Resource_v34l0"), SubResource("Resource_721t5")])
 egg_moves = Array[int]([320, 235, 583, 364, 204, 367])
-evolutions = Array[ExtResource("1_l2byk")]([SubResource("Resource_l2byk")])
+evolutions = Array[ExtResource("1_l2byk")]([SubResource("Resource_imfkt")])

@@ -5,28 +5,28 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_ruvol"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_h1sfw"]
 
-[sub_resource type="Resource" id="Resource_8a2tl"]
+[sub_resource type="Resource" id="Resource_rw200"]
 script = ExtResource("3_ruvol")
 move = 55
 
-[sub_resource type="Resource" id="Resource_o88lh"]
+[sub_resource type="Resource" id="Resource_3s6pc"]
 script = ExtResource("3_ruvol")
 move = 95
 
-[sub_resource type="Resource" id="Resource_ruvol"]
+[sub_resource type="Resource" id="Resource_42eq6"]
 script = ExtResource("3_ruvol")
 move = 3
 
-[sub_resource type="Resource" id="Resource_h1sfw"]
+[sub_resource type="Resource" id="Resource_l1lpu"]
 script = ExtResource("3_ruvol")
 move = 195
 
-[sub_resource type="Resource" id="Resource_rw200"]
+[sub_resource type="Resource" id="Resource_gq01u"]
 script = ExtResource("3_ruvol")
 level = 35
 move = 195
 
-[sub_resource type="Resource" id="Resource_3s6pc"]
+[sub_resource type="Resource" id="Resource_kds7w"]
 script = ExtResource("3_ruvol")
 level = 51
 move = 207
@@ -41,6 +41,7 @@ pokedex = "The curled hair on its head proves its
 status as a king. It is said that the
 longer and curlier the hair, the more
 respect it earns from its peers."
+sprite_folder = "politoed"
 type_1 = 12
 base_hp = 90
 base_atk = 75
@@ -60,4 +61,4 @@ height_dm = 11
 weight_hg = 339
 body_color = 3
 no_flip = true
-level_moves = Array[ExtResource("3_ruvol")]([SubResource("Resource_8a2tl"), SubResource("Resource_o88lh"), SubResource("Resource_ruvol"), SubResource("Resource_h1sfw"), SubResource("Resource_rw200"), SubResource("Resource_3s6pc")])
+level_moves = Array[ExtResource("3_ruvol")]([SubResource("Resource_rw200"), SubResource("Resource_3s6pc"), SubResource("Resource_42eq6"), SubResource("Resource_l1lpu"), SubResource("Resource_gq01u"), SubResource("Resource_kds7w")])

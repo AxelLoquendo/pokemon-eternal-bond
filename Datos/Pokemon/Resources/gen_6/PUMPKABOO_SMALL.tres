@@ -5,76 +5,76 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_k7ulk"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_piuji"]
 
-[sub_resource type="Resource" id="Resource_400r7"]
+[sub_resource type="Resource" id="Resource_irjow"]
 script = ExtResource("1_400r7")
 method = "TRADE"
 param = "0"
 target = 1160
 
-[sub_resource type="Resource" id="Resource_6k3yb"]
+[sub_resource type="Resource" id="Resource_3txyw"]
 script = ExtResource("1_400r7")
 method = "ITEM"
 param = "ITEM_LINKING_CORD"
 target = 1160
 
-[sub_resource type="Resource" id="Resource_k7ulk"]
+[sub_resource type="Resource" id="Resource_vl14s"]
 script = ExtResource("3_k7ulk")
 move = 271
 
-[sub_resource type="Resource" id="Resource_piuji"]
+[sub_resource type="Resource" id="Resource_2nw5w"]
 script = ExtResource("3_k7ulk")
 move = 310
 
-[sub_resource type="Resource" id="Resource_irjow"]
+[sub_resource type="Resource" id="Resource_ulk16"]
 script = ExtResource("3_k7ulk")
 move = 109
 
-[sub_resource type="Resource" id="Resource_3txyw"]
+[sub_resource type="Resource" id="Resource_a136p"]
 script = ExtResource("3_k7ulk")
 level = 4
 move = 184
 
-[sub_resource type="Resource" id="Resource_vl14s"]
+[sub_resource type="Resource" id="Resource_iujqf"]
 script = ExtResource("3_k7ulk")
 level = 11
 move = 388
 
-[sub_resource type="Resource" id="Resource_2nw5w"]
+[sub_resource type="Resource" id="Resource_ecfem"]
 script = ExtResource("3_k7ulk")
 level = 16
 move = 75
 
-[sub_resource type="Resource" id="Resource_ulk16"]
+[sub_resource type="Resource" id="Resource_xsj0q"]
 script = ExtResource("3_k7ulk")
 level = 20
 move = 73
 
-[sub_resource type="Resource" id="Resource_a136p"]
+[sub_resource type="Resource" id="Resource_t7o8l"]
 script = ExtResource("3_k7ulk")
 level = 23
 move = 567
 
-[sub_resource type="Resource" id="Resource_iujqf"]
+[sub_resource type="Resource" id="Resource_n30qs"]
 script = ExtResource("3_k7ulk")
 level = 26
 move = 331
 
-[sub_resource type="Resource" id="Resource_ecfem"]
+[sub_resource type="Resource" id="Resource_j7y63"]
 script = ExtResource("3_k7ulk")
 level = 30
 move = 425
 
-[sub_resource type="Resource" id="Resource_xsj0q"]
+[sub_resource type="Resource" id="Resource_qbkow"]
 script = ExtResource("3_k7ulk")
 level = 36
 move = 247
 
-[sub_resource type="Resource" id="Resource_t7o8l"]
+[sub_resource type="Resource" id="Resource_23g2m"]
 script = ExtResource("3_k7ulk")
 level = 42
 move = 220
 
-[sub_resource type="Resource" id="Resource_n30qs"]
+[sub_resource type="Resource" id="Resource_p5oct"]
 script = ExtResource("3_k7ulk")
 level = 48
 move = 402
@@ -88,6 +88,7 @@ national_dex = 710
 pokedex = "When taking spirits to the
 afterlife, small Pumpkaboo prefer the
 spirits of children to those of adults."
+sprite_folder = "pumpkaboo/small"
 type_1 = 8
 type_2 = 13
 base_hp = 44
@@ -106,7 +107,7 @@ ability_hidden = 15
 height_dm = 3
 weight_hg = 35
 body_color = 5
-level_moves = Array[ExtResource("3_k7ulk")]([SubResource("Resource_k7ulk"), SubResource("Resource_piuji"), SubResource("Resource_irjow"), SubResource("Resource_3txyw"), SubResource("Resource_vl14s"), SubResource("Resource_2nw5w"), SubResource("Resource_ulk16"), SubResource("Resource_a136p"), SubResource("Resource_iujqf"), SubResource("Resource_ecfem"), SubResource("Resource_xsj0q"), SubResource("Resource_t7o8l"), SubResource("Resource_n30qs")])
+level_moves = Array[ExtResource("3_k7ulk")]([SubResource("Resource_vl14s"), SubResource("Resource_2nw5w"), SubResource("Resource_ulk16"), SubResource("Resource_a136p"), SubResource("Resource_iujqf"), SubResource("Resource_ecfem"), SubResource("Resource_xsj0q"), SubResource("Resource_t7o8l"), SubResource("Resource_n30qs"), SubResource("Resource_j7y63"), SubResource("Resource_qbkow"), SubResource("Resource_23g2m"), SubResource("Resource_p5oct")])
 egg_moves = Array[int]([50, 516, 194, 174])
-evolutions = Array[ExtResource("1_400r7")]([SubResource("Resource_400r7"), SubResource("Resource_6k3yb")])
+evolutions = Array[ExtResource("1_400r7")]([SubResource("Resource_irjow"), SubResource("Resource_3txyw")])
 form_species = Array[int]([710, 1157, 1158, 1159])

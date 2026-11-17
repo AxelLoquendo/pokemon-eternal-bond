@@ -5,55 +5,55 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_bolp0"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_hcjqg"]
 
-[sub_resource type="Resource" id="Resource_isk1c"]
+[sub_resource type="Resource" id="Resource_cfju6"]
 script = ExtResource("3_bolp0")
 move = 84
 
-[sub_resource type="Resource" id="Resource_fgis4"]
+[sub_resource type="Resource" id="Resource_4npq2"]
 script = ExtResource("3_bolp0")
 move = 45
 
-[sub_resource type="Resource" id="Resource_bolp0"]
+[sub_resource type="Resource" id="Resource_u56st"]
 script = ExtResource("3_bolp0")
 level = 6
 move = 39
 
-[sub_resource type="Resource" id="Resource_hcjqg"]
+[sub_resource type="Resource" id="Resource_5kafw"]
 script = ExtResource("3_bolp0")
 level = 8
 move = 86
 
-[sub_resource type="Resource" id="Resource_cfju6"]
+[sub_resource type="Resource" id="Resource_wd2w8"]
 script = ExtResource("3_bolp0")
 level = 11
 move = 98
 
-[sub_resource type="Resource" id="Resource_4npq2"]
+[sub_resource type="Resource" id="Resource_2wf5d"]
 script = ExtResource("3_bolp0")
 level = 15
 move = 104
 
-[sub_resource type="Resource" id="Resource_u56st"]
+[sub_resource type="Resource" id="Resource_qng5v"]
 script = ExtResource("3_bolp0")
 level = 20
 move = 21
 
-[sub_resource type="Resource" id="Resource_5kafw"]
+[sub_resource type="Resource" id="Resource_halm6"]
 script = ExtResource("3_bolp0")
 level = 26
 move = 85
 
-[sub_resource type="Resource" id="Resource_wd2w8"]
+[sub_resource type="Resource" id="Resource_oos61"]
 script = ExtResource("3_bolp0")
 level = 33
 move = 97
 
-[sub_resource type="Resource" id="Resource_2wf5d"]
+[sub_resource type="Resource" id="Resource_6hluy"]
 script = ExtResource("3_bolp0")
 level = 41
 move = 87
 
-[sub_resource type="Resource" id="Resource_qng5v"]
+[sub_resource type="Resource" id="Resource_qutdi"]
 script = ExtResource("3_bolp0")
 level = 50
 move = 113
@@ -64,6 +64,7 @@ id = 1010
 display_name = "Pikachu"
 category = "Mouse"
 national_dex = 25
+sprite_folder = "pikachu/rock_star"
 type_1 = 14
 base_hp = 35
 base_atk = 55
@@ -81,5 +82,5 @@ item_rare = 392
 height_dm = 4
 weight_hg = 60
 body_color = 2
-level_moves = Array[ExtResource("3_bolp0")]([SubResource("Resource_isk1c"), SubResource("Resource_fgis4"), SubResource("Resource_bolp0"), SubResource("Resource_hcjqg"), SubResource("Resource_cfju6"), SubResource("Resource_4npq2"), SubResource("Resource_u56st"), SubResource("Resource_5kafw"), SubResource("Resource_wd2w8"), SubResource("Resource_2wf5d"), SubResource("Resource_qng5v")])
+level_moves = Array[ExtResource("3_bolp0")]([SubResource("Resource_cfju6"), SubResource("Resource_4npq2"), SubResource("Resource_u56st"), SubResource("Resource_5kafw"), SubResource("Resource_wd2w8"), SubResource("Resource_2wf5d"), SubResource("Resource_qng5v"), SubResource("Resource_halm6"), SubResource("Resource_oos61"), SubResource("Resource_6hluy"), SubResource("Resource_qutdi")])
 form_species = Array[int]([25, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1493, 1487])

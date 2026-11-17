@@ -5,42 +5,42 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_srfwc"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_50bik"]
 
-[sub_resource type="Resource" id="Resource_l6igw"]
+[sub_resource type="Resource" id="Resource_dht6c"]
 script = ExtResource("1_l6igw")
 method = "LEVEL"
 param = "40"
 target = 78
 
-[sub_resource type="Resource" id="Resource_jv4wt"]
+[sub_resource type="Resource" id="Resource_bgdaj"]
 script = ExtResource("3_srfwc")
 move = 52
 
-[sub_resource type="Resource" id="Resource_srfwc"]
+[sub_resource type="Resource" id="Resource_5vmob"]
 script = ExtResource("3_srfwc")
 level = 30
 move = 39
 
-[sub_resource type="Resource" id="Resource_50bik"]
+[sub_resource type="Resource" id="Resource_ii7rp"]
 script = ExtResource("3_srfwc")
 level = 32
 move = 23
 
-[sub_resource type="Resource" id="Resource_dht6c"]
+[sub_resource type="Resource" id="Resource_iqb8n"]
 script = ExtResource("3_srfwc")
 level = 35
 move = 45
 
-[sub_resource type="Resource" id="Resource_bgdaj"]
+[sub_resource type="Resource" id="Resource_7r6st"]
 script = ExtResource("3_srfwc")
 level = 39
 move = 83
 
-[sub_resource type="Resource" id="Resource_5vmob"]
+[sub_resource type="Resource" id="Resource_jqp5r"]
 script = ExtResource("3_srfwc")
 level = 43
 move = 36
 
-[sub_resource type="Resource" id="Resource_ii7rp"]
+[sub_resource type="Resource" id="Resource_5oyvd"]
 script = ExtResource("3_srfwc")
 level = 48
 move = 97
@@ -55,6 +55,7 @@ pokedex = "A Ponyta is very weak at birth. It can
 barely stand up. Its legs become stronger
 as it stumbles and falls while trying to
 keep up with its parent."
+sprite_folder = "ponyta"
 type_1 = 11
 base_hp = 50
 base_atk = 85
@@ -72,7 +73,7 @@ ability_hidden = 49
 height_dm = 10
 weight_hg = 300
 body_color = 2
-level_moves = Array[ExtResource("3_srfwc")]([SubResource("Resource_jv4wt"), SubResource("Resource_srfwc"), SubResource("Resource_50bik"), SubResource("Resource_dht6c"), SubResource("Resource_bgdaj"), SubResource("Resource_5vmob"), SubResource("Resource_ii7rp")])
+level_moves = Array[ExtResource("3_srfwc")]([SubResource("Resource_bgdaj"), SubResource("Resource_5vmob"), SubResource("Resource_ii7rp"), SubResource("Resource_iqb8n"), SubResource("Resource_7r6st"), SubResource("Resource_jqp5r"), SubResource("Resource_5oyvd")])
 egg_moves = Array[int]([172, 37, 24, 95, 204, 38, 32, 234, 67, 445, 502, 630])
-evolutions = Array[ExtResource("1_l6igw")]([SubResource("Resource_l6igw")])
+evolutions = Array[ExtResource("1_l6igw")]([SubResource("Resource_dht6c")])
 form_species = Array[int]([77, 975])

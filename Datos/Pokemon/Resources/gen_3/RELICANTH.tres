@@ -5,55 +5,55 @@
 [ext_resource type="Script" uid="uid://520uibefo7nc" path="res://Scripts/Pokemon/level_up_move.gd" id="3_qyhw2"]
 [ext_resource type="Script" uid="uid://nye4e00q1njo" path="res://Scripts/Pokemon/species_data.gd" id="4_3qlo5"]
 
-[sub_resource type="Resource" id="Resource_mjcsk"]
+[sub_resource type="Resource" id="Resource_k16k5"]
 script = ExtResource("3_qyhw2")
 move = 106
 
-[sub_resource type="Resource" id="Resource_yukps"]
+[sub_resource type="Resource" id="Resource_g63gh"]
 script = ExtResource("3_qyhw2")
 move = 33
 
-[sub_resource type="Resource" id="Resource_qyhw2"]
+[sub_resource type="Resource" id="Resource_t24f6"]
 script = ExtResource("3_qyhw2")
 level = 8
 move = 55
 
-[sub_resource type="Resource" id="Resource_3qlo5"]
+[sub_resource type="Resource" id="Resource_8ogs3"]
 script = ExtResource("3_qyhw2")
 level = 15
 move = 317
 
-[sub_resource type="Resource" id="Resource_k16k5"]
+[sub_resource type="Resource" id="Resource_kh10p"]
 script = ExtResource("3_qyhw2")
 level = 22
 move = 281
 
-[sub_resource type="Resource" id="Resource_g63gh"]
+[sub_resource type="Resource" id="Resource_0d4hd"]
 script = ExtResource("3_qyhw2")
 level = 29
 move = 36
 
-[sub_resource type="Resource" id="Resource_t24f6"]
+[sub_resource type="Resource" id="Resource_5cmnk"]
 script = ExtResource("3_qyhw2")
 level = 36
 move = 300
 
-[sub_resource type="Resource" id="Resource_8ogs3"]
+[sub_resource type="Resource" id="Resource_1urdj"]
 script = ExtResource("3_qyhw2")
 level = 43
 move = 246
 
-[sub_resource type="Resource" id="Resource_kh10p"]
+[sub_resource type="Resource" id="Resource_d8g2n"]
 script = ExtResource("3_qyhw2")
 level = 50
 move = 156
 
-[sub_resource type="Resource" id="Resource_0d4hd"]
+[sub_resource type="Resource" id="Resource_xv6tt"]
 script = ExtResource("3_qyhw2")
 level = 57
 move = 38
 
-[sub_resource type="Resource" id="Resource_5cmnk"]
+[sub_resource type="Resource" id="Resource_gnh4k"]
 script = ExtResource("3_qyhw2")
 level = 64
 move = 56
@@ -68,6 +68,7 @@ pokedex = "A Pokémon that was once believed to have
 been extinct. The species has not changed
 its form for 100 million years. It walks on
 the seafloor using its pectoral fins."
+sprite_folder = "relicanth"
 type_1 = 12
 type_2 = 6
 base_hp = 100
@@ -92,5 +93,5 @@ item_rare = 398
 height_dm = 10
 weight_hg = 234
 body_color = 7
-level_moves = Array[ExtResource("3_qyhw2")]([SubResource("Resource_mjcsk"), SubResource("Resource_yukps"), SubResource("Resource_qyhw2"), SubResource("Resource_3qlo5"), SubResource("Resource_k16k5"), SubResource("Resource_g63gh"), SubResource("Resource_t24f6"), SubResource("Resource_8ogs3"), SubResource("Resource_kh10p"), SubResource("Resource_0d4hd"), SubResource("Resource_5cmnk")])
+level_moves = Array[ExtResource("3_qyhw2")]([SubResource("Resource_k16k5"), SubResource("Resource_g63gh"), SubResource("Resource_t24f6"), SubResource("Resource_8ogs3"), SubResource("Resource_kh10p"), SubResource("Resource_0d4hd"), SubResource("Resource_5cmnk"), SubResource("Resource_1urdj"), SubResource("Resource_d8g2n"), SubResource("Resource_xv6tt"), SubResource("Resource_gnh4k")])
 egg_moves = Array[int]([222, 130, 346, 133, 214, 401, 173, 189, 330, 341, 362, 428])
