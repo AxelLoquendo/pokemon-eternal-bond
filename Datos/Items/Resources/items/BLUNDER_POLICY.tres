@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dpe7j2yfmw6yg"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_0lwqq"]
+
+[resource]
+script = ExtResource("1_0lwqq")
+id = 511
+display_name = "Blunder Policy"
+description = "Sharply ups speed
+if a move misses
+due to accuracy."
+price = 30000
+icon_name = "blunder_policy"
+hold_effect = "BLUNDER_POLICY"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 80

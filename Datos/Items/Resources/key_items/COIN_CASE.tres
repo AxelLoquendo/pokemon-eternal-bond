@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ddkbydhv6t0ay"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_qwgkb"]
+
+[resource]
+script = ExtResource("1_qwgkb")
+id = 718
+display_name = "Coin Case"
+description = "A case that holds
+up to 9,999 Coins."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "coin_case"
+field_use = "ItemUseOutOfBattle_CoinCase"
+sort_type = "ITEM_USE_BAG_MENU"

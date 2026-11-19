@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bmt8xkkm6tjvv"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_ki3lp"]
+
+[resource]
+script = ExtResource("1_ki3lp")
+id = 752
+display_name = "Silph Scope"
+description = "Silph Co's scope
+makes unseeable
+Pokémon visible."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "silph_scope"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"

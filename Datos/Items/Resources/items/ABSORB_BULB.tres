@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b4kb0fwat1w7y"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_ld5s7"]
+
+[resource]
+script = ExtResource("1_ld5s7")
+id = 455
+display_name = "Absorb Bulb"
+description = "Ups Sp. Atk if the
+holder is hurt by
+a Water-type move."
+price = 5000
+icon_name = "absorb_bulb"
+hold_effect = "ABSORB_BULB"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

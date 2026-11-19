@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://caosa0vnhbj4i"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_aqhpr"]
+
+[resource]
+script = ExtResource("1_aqhpr")
+id = 507
+display_name = "Protective Pads"
+description = "Protects from
+effects triggered
+by making contact."
+price = 15000
+icon_name = "protective_pads"
+hold_effect = "PROTECTIVE_PADS"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

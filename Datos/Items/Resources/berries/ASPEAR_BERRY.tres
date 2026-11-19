@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d1vnkjgf75mls"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_3kgbw"]
+
+[resource]
+script = ExtResource("1_3kgbw")
+id = 518
+display_name = "Aspear Berry"
+description = "A held item that
+heals frostbite
+defrosts Pokémon
+in battle."
+pocket = 5
+price = 80
+icon_name = "aspear_berry"
+hold_effect = "CURE_FRZ"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 10

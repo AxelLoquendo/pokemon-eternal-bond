@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bpauoqpcsjwt4"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_k2kp4"]
+
+[resource]
+script = ExtResource("1_k2kp4")
+id = 521
+display_name = "Persim Berry"
+description = "A held item that
+heals confusion
+in battle."
+pocket = 5
+price = 80
+icon_name = "persim_berry"
+hold_effect = "CURE_CONFUSION"
+field_use = "ItemUseOutOfBattle_CannotUse"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 10

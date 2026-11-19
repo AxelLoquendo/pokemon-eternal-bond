@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://rmniyr8x1q4f"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_cjauy"]
+
+[resource]
+script = ExtResource("1_cjauy")
+id = 700
+display_name = "N-Solarizer"
+description = "Fuses or separates
+Necrozma and
+Solgaleo."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "necrozma_fuser"
+field_use = "ItemUseOutOfBattle_Fusion"
+sort_type = "ITEM_USE_PARTY_MENU"

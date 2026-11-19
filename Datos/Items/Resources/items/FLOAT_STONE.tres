@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b1yosgaa5ffcq"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_ldy6s"]
+
+[resource]
+script = ExtResource("1_ldy6s")
+id = 495
+display_name = "Float Stone"
+description = "A light stone that
+reduces the weight
+of the holder."
+price = 10000
+icon_name = "float_stone"
+hold_effect = "FLOAT_STONE"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

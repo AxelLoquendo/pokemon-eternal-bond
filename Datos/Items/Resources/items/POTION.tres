@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b3jbdwg47ufvt"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_1qi3h"]
+
+[resource]
+script = ExtResource("1_1qi3h")
+id = 28
+display_name = "Potion"
+description = "Restores the HP of
+a Pokémon by
+20 points."
+price = 200
+icon_name = "potion"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

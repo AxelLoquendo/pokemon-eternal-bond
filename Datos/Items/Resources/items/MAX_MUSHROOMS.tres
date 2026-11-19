@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dijjyoqwbi058"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_c1hio"]
+
+[resource]
+script = ExtResource("1_c1hio")
+id = 132
+display_name = "Max Mushrooms"
+description = "Mushrooms that
+raise all stats
+during one battle."
+price = 8000
+icon_name = "max_mushrooms"
+field_use = "ItemUseOutOfBattle_CannotUse"
+battle_use = "EFFECT_ITEM_INCREASE_ALL_STATS"
+sort_type = "B_X_ITEMS_CROSSUSE"
+fling_power = 30

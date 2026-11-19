@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://glpw6mcbmkrf"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_3lmu4"]
+
+[resource]
+script = ExtResource("1_3lmu4")
+id = 504
+display_name = "Safety Goggles"
+description = "Protects from
+weather damage,
+powder and spores."
+price = 20000
+icon_name = "safety_goggles"
+hold_effect = "SAFETY_GOGGLES"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 80

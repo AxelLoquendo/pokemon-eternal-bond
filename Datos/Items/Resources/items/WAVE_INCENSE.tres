@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dvtfxdpbfcdg7"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_gsso4"]
+
+[resource]
+script = ExtResource("1_gsso4")
+id = 409
+display_name = "Wave Incense"
+description = "A held item that
+raises the power of
+Water-type moves."
+price = 2000
+icon_name = "wave_incense"
+hold_effect = "TYPE_POWER"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

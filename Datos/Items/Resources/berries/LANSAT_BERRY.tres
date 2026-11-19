@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://uevnxiu6etwm"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_on6sl"]
+
+[resource]
+script = ExtResource("1_on6sl")
+id = 572
+display_name = "Lansat Berry"
+description = "A held item that
+ups the critical-
+hit rate in a pinch."
+pocket = 5
+price = 80
+icon_name = "lansat_berry"
+hold_effect = "CRITICAL_UP"
+hold_effect_param = 4
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

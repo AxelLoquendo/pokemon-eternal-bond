@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b8afe6iqy6atj"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_q6yml"]
+
+[resource]
+script = ExtResource("1_q6yml")
+id = 750
+display_name = "Card Key"
+description = "A card-type door
+key used in Silph
+Co's office."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "card_key"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"

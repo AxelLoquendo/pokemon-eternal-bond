@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dw6esxa8nehvr"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_uaqgp"]
+
+[resource]
+script = ExtResource("1_uaqgp")
+id = 55
+display_name = "Sweet Heart"
+description = "A sweet chocolate
+that restores HP
+by 20 points."
+price = 3000
+icon_name = "sweet_heart"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

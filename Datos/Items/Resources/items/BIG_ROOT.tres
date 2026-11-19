@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://diet8k8n35hgh"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_i1syb"]
+
+[resource]
+script = ExtResource("1_i1syb")
+id = 491
+display_name = "Big Root"
+description = "Boosts the amount
+of HP restored from
+HP-stealing moves."
+price = 10000
+icon_name = "big_root"
+hold_effect = "BIG_ROOT"
+hold_effect_param = 30
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

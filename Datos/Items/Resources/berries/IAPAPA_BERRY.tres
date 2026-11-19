@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cj0jboto2c111"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_s1djy"]
+
+[resource]
+script = ExtResource("1_s1djy")
+id = 528
+display_name = "Iapapa Berry"
+description = "Restores HP, but
+confuses if the
+flavor is hated."
+pocket = 5
+price = 80
+icon_name = "iapapa_berry"
+hold_effect = "CONFUSE_FLAVOR"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

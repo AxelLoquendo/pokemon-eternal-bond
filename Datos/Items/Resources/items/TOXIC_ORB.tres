@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dyk01unksc1ns"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_exe1c"]
+
+[resource]
+script = ExtResource("1_exe1c")
+id = 446
+display_name = "Toxic Orb"
+description = "A bizarre orb that
+badly poisons the
+holder in battle."
+price = 15000
+icon_name = "toxic_orb"
+hold_effect = "TOXIC_ORB"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c01kkbohknfv2"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_px7pr"]
+
+[resource]
+script = ExtResource("1_px7pr")
+id = 561
+display_name = "Charti Berry"
+description = "Weakens one
+supereffective
+Rock-type move."
+pocket = 5
+price = 80
+icon_name = "charti_berry"
+hold_effect = "RESIST_BERRY"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

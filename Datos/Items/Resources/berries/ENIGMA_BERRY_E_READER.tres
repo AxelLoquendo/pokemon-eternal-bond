@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ba1pfw1sjbvag"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_xpsdg"]
+
+[resource]
+script = ExtResource("1_xpsdg")
+id = 581
+display_name = "Enigma Berry"
+description = "Pokéblock ingredient.
+Plant in loamy soil
+to grow a mystery."
+pocket = 5
+price = 80
+icon_name = "enigma_berry"
+field_use = "ItemUseOutOfBattle_EnigmaBerry"
+battle_use = "EFFECT_ITEM_ENIGMA_BERRY_EREADER"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

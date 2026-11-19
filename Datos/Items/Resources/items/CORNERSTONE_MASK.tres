@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b3sy65o31k716"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_y0emb"]
+
+[resource]
+script = ExtResource("1_y0emb")
+id = 803
+display_name = "Cornerstone Mask"
+description = "Allows Ogerpon to
+wield the Rock
+type in battle."
+icon_name = "cornerstone_mask"
+hold_effect = "OGERPON_MASK"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://do2taqeuawun3"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_b87l2"]
+
+[resource]
+script = ExtResource("1_b87l2")
+id = 45
+display_name = "Burn Heal"
+description = "Heals Pokémon
+of a burn."
+price = 200
+icon_name = "status_heal"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

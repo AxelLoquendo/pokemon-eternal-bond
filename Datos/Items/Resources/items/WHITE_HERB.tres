@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bmu4myylincee"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_42pis"]
+
+[resource]
+script = ExtResource("1_42pis")
+id = 460
+display_name = "White Herb"
+description = "A held item that
+restores any
+lowered stat once."
+price = 20000
+icon_name = "in_battle_herb"
+hold_effect = "WHITE_HERB"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

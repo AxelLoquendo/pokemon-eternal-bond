@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://qf64vppiw65e"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_0lkyt"]
+
+[resource]
+script = ExtResource("1_0lkyt")
+id = 412
+display_name = "Pure Incense"
+description = "A held item that
+helps repel wild
+Pokémon."
+price = 6000
+icon_name = "pure_incense"
+hold_effect = "REPEL"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

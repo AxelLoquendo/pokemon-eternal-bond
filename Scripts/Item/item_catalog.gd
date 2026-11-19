@@ -1,11 +1,17 @@
 extends Node
-## Catálogo de ítems: índice crudo + ItemData bajo demanda.
+## Catálogo de ítems — mismo patrón que SpeciesCatalog.
+##
+## Arranque: solo carga item_paths.res (id → path).
+## get_item(id): carga el .tres bajo demanda y cachea.
+##
+## Flujo diario: editar .tres → tools/rebuild_items_index.gd si creas/borras.
+## Migración: tools/import_items_tres.gd desde items.json (una vez).
 
-const PATH: String = "res://Datos/Items/items.json"
+const INDEX_PATH: String = "res://Datos/Items/item_paths.res"
+const ICONS_ROOT: String = "res://Graficos/Items/icons/"
 
-var _raw: Dictionary = {}
-var _cache: Dictionary = {}
-var _ids: Array = []
+var _cache: Dictionary = {} ## ItemId → ItemData
+var _index: ItemPathsIndex = null
 var _loaded: bool = false
 
 
@@ -16,7 +22,7 @@ func _ready() -> void:
 func warm_index() -> void:
 	if _loaded:
 		return
-	_build_index()
+	_load_index()
 
 
 func is_ready() -> bool:
@@ -25,14 +31,29 @@ func is_ready() -> bool:
 
 func count() -> int:
 	_ensure()
-	return _ids.size()
+	if _index == null:
+		return 0
+	return _index.entry_count
+
+
+func all_ids() -> Array:
+	_ensure()
+	if _index == null:
+		return []
+	var out: Array = []
+	out.resize(_index.ids.size())
+	for i: int in _index.ids.size():
+		out[i] = _index.ids[i] as ItemId.Id
+	return out
 
 
 func has_item(id: ItemId.Id) -> bool:
 	if id == ItemId.Id.NONE:
 		return false
+	if _cache.has(id):
+		return true
 	_ensure()
-	return _cache.has(id) or _raw.has(id)
+	return _index != null and _index.has_id(int(id))
 
 
 func get_item(id: ItemId.Id) -> ItemData:
@@ -41,11 +62,20 @@ func get_item(id: ItemId.Id) -> ItemData:
 	if _cache.has(id):
 		return _cache[id] as ItemData
 	_ensure()
-	if not _raw.has(id):
+	if _index == null:
 		return null
-	var data: ItemData = _from_dict(_raw[id] as Dictionary)
-	_raw.erase(id)
-	if data != null and data.is_valid():
+	var path: String = _index.path_for(int(id))
+	if path.is_empty():
+		return null
+	if not ResourceLoader.exists(path):
+		push_warning("ItemCatalog: falta %s (id %s)" % [path, ItemId.to_token(id)])
+		return null
+	var res: Resource = ResourceLoader.load(path, "", ResourceLoader.CACHE_MODE_REUSE)
+	if res == null or not (res is ItemData):
+		push_warning("ItemCatalog: recurso inválido %s" % path)
+		return null
+	var data: ItemData = res as ItemData
+	if data.is_valid():
 		_cache[id] = data
 		return data
 	return null
@@ -57,11 +87,24 @@ func get_display_name(id: ItemId.Id) -> String:
 	if _cache.has(id):
 		return (_cache[id] as ItemData).display_name
 	_ensure()
-	if _raw.has(id):
-		var n: String = str((_raw[id] as Dictionary).get("display_name", ""))
-		if not n.is_empty():
-			return n
+	if _index != null and _index.display_names.has(int(id)):
+		return str(_index.display_names[int(id)])
 	return ItemId.to_token(id)
+
+
+func get_icon(id: ItemId.Id) -> Texture2D:
+	var data: ItemData = get_item(id)
+	var name: String = ""
+	if data != null:
+		name = data.resolved_icon_name()
+	else:
+		name = ItemId.to_token(id).to_lower()
+	if name.is_empty():
+		return null
+	var path: String = ICONS_ROOT + name + ".png"
+	if not ResourceLoader.exists(path):
+		return null
+	return load(path) as Texture2D
 
 
 func stack_limit(id: ItemId.Id) -> int:
@@ -75,78 +118,33 @@ func clear_cache() -> void:
 	_cache.clear()
 
 
+func reload() -> void:
+	_cache.clear()
+	_index = null
+	_loaded = false
+	warm_index()
+
+
 func _ensure() -> void:
 	if not _loaded:
-		_build_index()
+		_load_index()
 
 
-func _build_index() -> void:
-	_raw.clear()
-	_ids.clear()
-	if not FileAccess.file_exists(PATH):
-		push_error("ItemCatalog: no existe %s" % PATH)
+func _load_index() -> void:
+	if not ResourceLoader.exists(INDEX_PATH):
+		push_error(
+			"ItemCatalog: no existe %s. Ejecuta tools/import_items_tres.gd o rebuild_items_index.gd"
+			% INDEX_PATH
+		)
+		_index = null
 		_loaded = true
 		return
-	var text: String = FileAccess.get_file_as_string(PATH)
-	var parsed: Variant = JSON.parse_string(text)
-	text = ""
-	if typeof(parsed) != TYPE_ARRAY:
-		push_error("ItemCatalog: JSON inválido")
+	var res: Resource = load(INDEX_PATH)
+	if res is ItemPathsIndex:
+		_index = res as ItemPathsIndex
 		_loaded = true
+		print("ItemCatalog: índice %d ítems (%s)" % [_index.entry_count, INDEX_PATH])
 		return
-	for entry: Variant in parsed:
-		if typeof(entry) != TYPE_DICTIONARY:
-			continue
-		var d: Dictionary = entry
-		var iid: ItemId.Id = ItemId.from_token(str(d.get("id", "")))
-		if iid == ItemId.Id.NONE:
-			continue
-		_raw[iid] = d
-		_ids.append(iid)
+	push_error("ItemCatalog: %s no es ItemPathsIndex" % INDEX_PATH)
+	_index = null
 	_loaded = true
-	print("ItemCatalog: índice %d ítems (lazy)" % _ids.size())
-
-
-func _from_dict(e: Dictionary) -> ItemData:
-	var id: ItemId.Id = ItemId.from_token(str(e.get("id", "")))
-	if id == ItemId.Id.NONE:
-		return null
-	var data := ItemData.new()
-	data.id = id
-	data.display_name = str(e.get("display_name", ""))
-	data.description = str(e.get("description", ""))
-	data.pocket = _pocket(str(e.get("pocket", "ITEMS")))
-	data.price = int(e.get("price", 0))
-	data.important = bool(e.get("important", false))
-	data.hold_effect = str(e.get("hold_effect", ""))
-	data.hold_effect_param = int(e.get("hold_effect_param", 0))
-	data.field_use = str(e.get("field_use", ""))
-	data.battle_use = str(e.get("battle_use", ""))
-	data.sort_type = str(e.get("sort_type", ""))
-	data.fling_power = int(e.get("fling_power", 0))
-	data.tm_move = MoveId.from_token(str(e.get("tm_move", "")))
-	if data.pocket == ItemPocket.Id.KEY_ITEMS or data.important:
-		data.stack_limit = 1
-	else:
-		data.stack_limit = 999
-	return data
-
-
-func _pocket(token: String) -> ItemPocket.Id:
-	match token:
-		"MEDICINE":
-			return ItemPocket.Id.MEDICINE
-		"BALLS":
-			return ItemPocket.Id.BALLS
-		"BATTLE":
-			return ItemPocket.Id.BATTLE
-		"BERRIES":
-			return ItemPocket.Id.BERRIES
-		"KEY_ITEMS":
-			return ItemPocket.Id.KEY_ITEMS
-		"TMS":
-			return ItemPocket.Id.TMS
-		"NONE":
-			return ItemPocket.Id.NONE
-		_:
-			return ItemPocket.Id.ITEMS

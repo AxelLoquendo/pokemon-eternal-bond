@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cs26dwcuxey2h"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_yyqbe"]
+
+[resource]
+script = ExtResource("1_yyqbe")
+id = 526
+display_name = "Mago Berry"
+description = "Restores HP, but
+confuses if the
+flavor is hated."
+pocket = 5
+price = 80
+icon_name = "mago_berry"
+hold_effect = "CONFUSE_FLAVOR"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

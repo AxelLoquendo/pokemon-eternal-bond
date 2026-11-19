@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b1pxs373pkyh6"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_1yfd6"]
+
+[resource]
+script = ExtResource("1_1yfd6")
+id = 751
+display_name = "Lift Key"
+description = "An elevator key
+used in Team
+Rocket's Hideout."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "lift_key"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"

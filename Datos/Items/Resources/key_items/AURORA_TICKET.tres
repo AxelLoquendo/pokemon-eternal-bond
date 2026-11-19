@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cexnxi4a27qap"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_g1frf"]
+
+[resource]
+script = ExtResource("1_g1frf")
+id = 730
+display_name = "Aurora Ticket"
+description = "A ticket required
+to board the ship
+to Birth Island."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "aurora_ticket"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"

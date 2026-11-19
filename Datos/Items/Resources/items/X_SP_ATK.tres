@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bvvasj7dkg3rr"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_52shq"]
+
+[resource]
+script = ExtResource("1_52shq")
+id = 123
+display_name = "X Sp. Atk"
+description = "Sharply raises the
+Sp. Atk stat
+during one battle."
+price = 1000
+icon_name = "battle_stat_item"
+field_use = "ItemUseOutOfBattle_CannotUse"
+battle_use = "EFFECT_ITEM_INCREASE_STAT"
+sort_type = "B_X_ITEMS_CROSSUSE"
+fling_power = 30

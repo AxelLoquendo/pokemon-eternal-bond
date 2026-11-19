@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cle2xc4oslcox"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_dhcvh"]
+
+[resource]
+script = ExtResource("1_dhcvh")
+id = 49
+display_name = "Ether"
+description = "Restores the PP
+of a selected move
+by 10."
+price = 1200
+icon_name = "ether"
+hold_effect_param = 10
+field_use = "ItemUseOutOfBattle_PPRecovery"
+battle_use = "EFFECT_ITEM_RESTORE_PP"
+sort_type = "ITEM_USE_PARTY_MENU_MOVES"
+fling_power = 30

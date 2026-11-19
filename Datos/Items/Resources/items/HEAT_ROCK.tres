@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://5w4u0gd6hm34"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_0hshd"]
+
+[resource]
+script = ExtResource("1_0hshd")
+id = 448
+display_name = "Heat Rock"
+description = "Extends harsh
+sunlight when the
+holder summons it."
+price = 8000
+icon_name = "heat_rock"
+hold_effect = "HEAT_ROCK"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 60

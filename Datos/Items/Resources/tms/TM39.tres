@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bk1dn1l23f8gd"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_uk8mn"]
+
+[resource]
+script = ExtResource("1_uk8mn")
+id = 620
+display_name = "TM39"
+description = "Stops the foe from
+moving with rocks.
+May lower Speed."
+pocket = 7
+price = 3000
+stack_limit = 1
+important = true
+icon_name = "tm_rock_tomb"
+field_use = "ItemUseOutOfBattle_TMHM"
+sort_type = "ITEM_USE_PARTY_MENU"
+tm_move = 317

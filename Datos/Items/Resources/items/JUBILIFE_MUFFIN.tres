@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ds7jxvqd5fj28"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_va2xh"]
+
+[resource]
+script = ExtResource("1_va2xh")
+id = 816
+display_name = "Jubilife Muffin"
+description = "A local specialty
+that heals all
+status problems."
+price = 250
+icon_name = "jubilife_muffin"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

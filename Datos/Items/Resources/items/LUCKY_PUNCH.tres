@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://xct4isrqranc"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_4qawk"]
+
+[resource]
+script = ExtResource("1_4qawk")
+id = 395
+display_name = "Lucky Punch"
+description = "A held item that
+raises Chansey's
+critical-hit rate."
+price = 1000
+icon_name = "lucky_punch"
+hold_effect = "LUCKY_PUNCH"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 40

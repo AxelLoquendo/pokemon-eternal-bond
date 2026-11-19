@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://i5iga6n5yp3t"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_u1qx0"]
+
+[resource]
+script = ExtResource("1_u1qx0")
+id = 769
+display_name = "Mirror Herb"
+description = "Mirrors a foe's
+stat increases,
+but only once."
+price = 30000
+icon_name = "mirror_herb"
+hold_effect = "MIRROR_HERB"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

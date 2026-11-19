@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://h3qtnkivgtks"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_4lkr1"]
+
+[resource]
+script = ExtResource("1_4lkr1")
+id = 426
+display_name = "Charcoal"
+description = "A held item that
+raises the power of
+Fire-type moves."
+price = 3000
+icon_name = "charcoal"
+hold_effect = "TYPE_POWER"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

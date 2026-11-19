@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c4vns6k851fqa"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_m0n48"]
+
+[resource]
+script = ExtResource("1_m0n48")
+id = 798
+display_name = "Berserk Gene"
+description = "Sharply raises
+Attack, but causes
+lasting confusion."
+price = 20
+icon_name = "berserk_gene"
+hold_effect = "BERSERK_GENE"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

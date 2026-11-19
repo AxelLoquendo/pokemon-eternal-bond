@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c0nfc7spd01ms"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_8evds"]
+
+[resource]
+script = ExtResource("1_8evds")
+id = 512
+display_name = "Room Service"
+description = "Lowers the holder's
+Speed when Trick
+Room takes effect."
+price = 20000
+icon_name = "room_service"
+hold_effect = "ROOM_SERVICE"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 100

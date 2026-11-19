@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://sfa315ev03du"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_vet1s"]
+
+[resource]
+script = ExtResource("1_vet1s")
+id = 403
+display_name = "Griseous Orb"
+description = "Boosts Giratina's
+Dragon- and Ghost-
+type moves."
+icon_name = "griseous_orb"
+hold_effect = "GRISEOUS_ORB"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 60

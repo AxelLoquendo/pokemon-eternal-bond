@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://hig1mxq6dgh2"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_8gqa1"]
+
+[resource]
+script = ExtResource("1_8gqa1")
+id = 424
+display_name = "Power Anklet"
+description = "Promotes Speed
+gain, but cuts
+Speed in battle."
+price = 10000
+icon_name = "power_anklet"
+hold_effect = "POWER_ITEM"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 70

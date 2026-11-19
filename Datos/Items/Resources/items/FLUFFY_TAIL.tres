@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cc30uuko4k2qi"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_qxsal"]
+
+[resource]
+script = ExtResource("1_qxsal")
+id = 130
+display_name = "Fluffy Tail"
+description = "Use to flee from
+any battle with
+a wild Pokémon."
+price = 100
+icon_name = "fluffy_tail"
+field_use = "ItemUseOutOfBattle_CannotUse"
+battle_use = "EFFECT_ITEM_ESCAPE"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://rciodg51mu3n"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_bmdn3"]
+
+[resource]
+script = ExtResource("1_bmdn3")
+id = 758
+display_name = "Ability Shield"
+description = "Guards the holder
+from having its
+Ability changed."
+price = 20000
+icon_name = "ability_shield"
+hold_effect = "ABILITY_SHIELD"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

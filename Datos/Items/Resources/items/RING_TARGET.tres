@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d3vps6h3s3uyj"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_1edea"]
+
+[resource]
+script = ExtResource("1_1edea")
+id = 499
+display_name = "Ring Target"
+description = "Moves that have no
+effect due to type
+will hit the holder."
+price = 10000
+icon_name = "ring_target"
+hold_effect = "RING_TARGET"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

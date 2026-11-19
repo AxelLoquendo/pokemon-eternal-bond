@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://1ld4kx7uqveg"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_yn0m1"]
+
+[resource]
+script = ExtResource("1_yn0m1")
+id = 522
+display_name = "Lum Berry"
+description = "A held item that
+heals any status
+problem in battle."
+pocket = 5
+price = 80
+icon_name = "lum_berry"
+hold_effect = "CURE_STATUS"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 10

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d15sq8xo18n7t"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_q264c"]
+
+[resource]
+script = ExtResource("1_q264c")
+id = 463
+display_name = "Soothe Bell"
+description = "A held item that
+calms spirits and
+fosters friendship."
+price = 5000
+icon_name = "soothe_bell"
+hold_effect = "FRIENDSHIP_UP"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

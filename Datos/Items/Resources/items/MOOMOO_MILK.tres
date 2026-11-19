@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bbu6omuu636wo"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_qq4pe"]
+
+[resource]
+script = ExtResource("1_qq4pe")
+id = 38
+display_name = "Moomoo Milk"
+description = "A nutritious milk
+that restores HP
+by 100 points."
+price = 600
+icon_name = "moomoo_milk"
+hold_effect_param = 100
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

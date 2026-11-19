@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cyv0j6opo0sjl"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_k4onf"]
+
+[resource]
+script = ExtResource("1_k4onf")
+id = 480
+display_name = "Power Herb"
+description = "Allows immediate
+use of a move that
+requires charging."
+price = 30000
+icon_name = "power_herb"
+hold_effect = "POWER_HERB"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

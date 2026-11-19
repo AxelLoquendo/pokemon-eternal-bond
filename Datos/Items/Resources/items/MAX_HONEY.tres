@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://xqd3nsfanlf1"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_0y0py"]
+
+[resource]
+script = ExtResource("1_0y0py")
+id = 56
+display_name = "Max Honey"
+description = "Revives a fainted
+Pokémon with all
+its HP."
+price = 8000
+icon_name = "max_honey"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_REVIVE"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

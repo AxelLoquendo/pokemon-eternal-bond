@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dumr7iha7xrkd"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_pms5e"]
+
+[resource]
+script = ExtResource("1_pms5e")
+id = 468
+display_name = "Smoke Ball"
+description = "A held item that
+assures fleeing
+from wild Pokémon."
+price = 15000
+icon_name = "smoke_ball"
+hold_effect = "CAN_ALWAYS_RUN"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

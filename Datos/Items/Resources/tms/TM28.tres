@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://03kp8shggjbh"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_cck8i"]
+
+[resource]
+script = ExtResource("1_cck8i")
+id = 609
+display_name = "TM28"
+description = "Digs underground
+the 1st turn, then
+strikes next turn."
+pocket = 7
+price = 2000
+stack_limit = 1
+important = true
+icon_name = "tm_dig"
+field_use = "ItemUseOutOfBattle_TMHM"
+sort_type = "ITEM_USE_PARTY_MENU"
+tm_move = 91

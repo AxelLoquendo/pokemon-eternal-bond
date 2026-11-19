@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://coplw6pi0276u"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_uljbm"]
+
+[resource]
+script = ExtResource("1_uljbm")
+id = 560
+display_name = "Tanga Berry"
+description = "Weakens one
+supereffective
+Bug-type move."
+pocket = 5
+price = 80
+icon_name = "tanga_berry"
+hold_effect = "RESIST_BERRY"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

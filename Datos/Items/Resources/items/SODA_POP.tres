@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cnchhfgcej6ru"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_l64d3"]
+
+[resource]
+script = ExtResource("1_l64d3")
+id = 36
+display_name = "Soda Pop"
+description = "A fizzy soda drink
+that restores HP
+by 50 points."
+price = 300
+icon_name = "soda_pop"
+hold_effect_param = 50
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

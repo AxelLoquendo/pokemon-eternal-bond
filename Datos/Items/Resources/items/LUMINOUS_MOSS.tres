@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c877xdh1c50xq"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_gu3b4"]
+
+[resource]
+script = ExtResource("1_gu3b4")
+id = 457
+display_name = "Luminous Moss"
+description = "Ups Sp. Def if the
+holder is hurt by
+a Water-type move."
+price = 5000
+icon_name = "luminous_moss"
+hold_effect = "LUMINOUS_MOSS"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b6uylbnbp0ej3"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_jkl8r"]
+
+[resource]
+script = ExtResource("1_jkl8r")
+id = 53
+display_name = "Berry Juice"
+description = "A 100% pure juice
+that restores HP
+by 20 points."
+price = 100
+icon_name = "berry_juice"
+hold_effect = "RESTORE_HP"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

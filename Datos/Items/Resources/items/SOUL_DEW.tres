@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://smkdq4jrtt3p"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_vnekx"]
+
+[resource]
+script = ExtResource("1_vnekx")
+id = 400
+display_name = "Soul Dew"
+description = "Boosts Latios or
+Latias' Psychic- &
+Dragon-type moves."
+icon_name = "soul_dew"
+hold_effect = "SOUL_DEW"
+hold_effect_param = 7
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

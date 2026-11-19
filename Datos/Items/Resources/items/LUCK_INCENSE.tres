@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d2ns1p3nsq2ns"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_bdy1v"]
+
+[resource]
+script = ExtResource("1_bdy1v")
+id = 411
+display_name = "Luck Incense"
+description = "Doubles money in
+battle if the
+holder takes part."
+price = 11000
+icon_name = "luck_incense"
+hold_effect = "DOUBLE_PRIZE"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

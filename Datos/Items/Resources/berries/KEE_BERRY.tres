@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://522ipy4rm38i"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_seifg"]
+
+[resource]
+script = ExtResource("1_seifg")
+id = 579
+display_name = "Kee Berry"
+description = "If hit by a physical
+move, it raises the
+holder's Defense."
+pocket = 5
+price = 80
+icon_name = "kee_berry"
+hold_effect = "KEE_BERRY"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

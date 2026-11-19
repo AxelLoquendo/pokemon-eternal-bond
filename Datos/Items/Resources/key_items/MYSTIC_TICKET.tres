@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bjpb0pv48ilyc"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_0fxjp"]
+
+[resource]
+script = ExtResource("1_0fxjp")
+id = 729
+display_name = "Mystic Ticket"
+description = "A ticket required
+to board the ship
+to Navel Rock."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "mystic_ticket"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"

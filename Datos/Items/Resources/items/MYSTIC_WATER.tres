@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dh4bl8tqgjpu"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_psafu"]
+
+[resource]
+script = ExtResource("1_psafu")
+id = 427
+display_name = "Mystic Water"
+description = "A held item that
+raises the power of
+Water-type moves."
+icon_name = "mystic_water"
+hold_effect = "TYPE_POWER"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

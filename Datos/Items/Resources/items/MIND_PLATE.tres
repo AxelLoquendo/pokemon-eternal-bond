@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b7lj66xmphgkj"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_q52qn"]
+
+[resource]
+script = ExtResource("1_q52qn")
+id = 259
+display_name = "Mind Plate"
+description = "A held item that
+boosts Psychic-
+type moves."
+price = 1000
+icon_name = "plate"
+hold_effect = "PLATE"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 90

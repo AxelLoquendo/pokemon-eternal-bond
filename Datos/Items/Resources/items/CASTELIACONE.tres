@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://kb31lywm6f1w"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_11ouo"]
+
+[resource]
+script = ExtResource("1_11ouo")
+id = 61
+display_name = "Casteliacone"
+description = "A local specialty
+that heals all
+status problems."
+price = 350
+icon_name = "casteliacone"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bbc2e54sn7evr"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_h0bh5"]
+
+[resource]
+script = ExtResource("1_h0bh5")
+id = 721
+display_name = "Poké Radar"
+description = "A tool that can
+search out Pokémon
+hiding in grass."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "poke_radar"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cr02uoxr4yunc"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_xsbud"]
+
+[resource]
+script = ExtResource("1_xsbud")
+id = 109
+display_name = "Blue Flute"
+description = "A glass flute that
+awakens sleeping
+Pokémon."
+price = 20
+icon_name = "flute"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

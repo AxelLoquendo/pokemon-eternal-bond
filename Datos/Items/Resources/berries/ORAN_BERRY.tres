@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bjk7cogrqi1s7"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_o47ef"]
+
+[resource]
+script = ExtResource("1_o47ef")
+id = 520
+display_name = "Oran Berry"
+description = "A held item that
+restores 10 HP in
+battle."
+pocket = 5
+price = 80
+icon_name = "oran_berry"
+hold_effect = "RESTORE_HP"
+hold_effect_param = 10
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 10

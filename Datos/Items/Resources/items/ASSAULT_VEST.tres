@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cjubla0mbdu6b"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_23tul"]
+
+[resource]
+script = ExtResource("1_23tul")
+id = 503
+display_name = "Assault Vest"
+description = "Boosts Sp. Def, but
+prevents the use
+of status moves."
+price = 50000
+icon_name = "assault_vest"
+hold_effect = "ASSAULT_VEST"
+hold_effect_param = 50
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 80

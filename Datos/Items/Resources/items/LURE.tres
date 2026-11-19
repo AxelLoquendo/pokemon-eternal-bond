@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d163k0buty4i0"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_tjs3x"]
+
+[resource]
+script = ExtResource("1_tjs3x")
+id = 117
+display_name = "Lure"
+description = "Makes Pokémon more
+likely to appear
+for 100 steps."
+price = 400
+icon_name = "lure"
+hold_effect_param = 100
+field_use = "ItemUseOutOfBattle_Lure"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

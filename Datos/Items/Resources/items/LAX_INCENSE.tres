@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bi72x6ni2rxke"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_jbn3y"]
+
+[resource]
+script = ExtResource("1_jbn3y")
+id = 405
+display_name = "Lax Incense"
+description = "A held item that
+cuts the
+foe's accuracy."
+price = 5000
+icon_name = "lax_incense"
+hold_effect = "EVASION_UP"
+hold_effect_param = 10
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

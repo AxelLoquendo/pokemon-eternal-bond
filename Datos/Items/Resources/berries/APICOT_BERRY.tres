@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c7ubnkk12o4x2"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_x6k01"]
+
+[resource]
+script = ExtResource("1_x6k01")
+id = 571
+display_name = "Apicot Berry"
+description = "A held item that
+raises Sp. Def in
+a pinch."
+pocket = 5
+price = 80
+icon_name = "apicot_berry"
+hold_effect = "SP_DEFENSE_UP"
+hold_effect_param = 4
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

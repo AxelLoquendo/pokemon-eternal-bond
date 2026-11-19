@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bckd0v5ehpgej"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_rn1od"]
+
+[resource]
+script = ExtResource("1_rn1od")
+id = 573
+display_name = "Starf Berry"
+description = "A held item that
+sharply raises a
+stat in a pinch."
+pocket = 5
+price = 80
+icon_name = "starf_berry"
+hold_effect = "RANDOM_STAT_UP"
+hold_effect_param = 4
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

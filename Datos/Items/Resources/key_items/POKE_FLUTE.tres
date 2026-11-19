@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://sl0ct8wkdl12"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_krjsl"]
+
+[resource]
+script = ExtResource("1_krjsl")
+id = 724
+display_name = "Poké Flute"
+description = "A sweet-sounding
+flute that awakens
+Pokémon."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "poke_flute"
+field_use = "ItemUseOutOfBattle_PokeFlute"
+battle_use = "EFFECT_ITEM_USE_POKE_FLUTE"
+sort_type = "ITEM_USE_BAG_MENU"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bcl1j3br0t8h7"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_vsrvc"]
+
+[resource]
+script = ExtResource("1_vsrvc")
+id = 461
+display_name = "Exp. Share"
+description = "A held item that
+gets Exp. Points
+from battles."
+price = 1
+icon_name = "exp_share"
+hold_effect = "EXP_SHARE"
+field_use = "ItemUseOutOfBattle_ExpShare"
+sort_type = "ITEM_USE_FIELD"
+fling_power = 30

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cyxrhy2cdou0y"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_dbwmi"]
+
+[resource]
+script = ExtResource("1_dbwmi")
+id = 568
+display_name = "Ganlon Berry"
+description = "A held item that
+raises Defense in
+a pinch."
+pocket = 5
+price = 80
+icon_name = "ganlon_berry"
+hold_effect = "DEFENSE_UP"
+hold_effect_param = 4
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

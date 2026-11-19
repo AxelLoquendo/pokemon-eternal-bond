@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://lwwcjtckmj0d"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_swdqt"]
+
+[resource]
+script = ExtResource("1_swdqt")
+id = 469
+display_name = "Focus Band"
+description = "A held item that
+occasionally
+prevents fainting."
+price = 10000
+icon_name = "focus_band"
+hold_effect = "FOCUS_BAND"
+hold_effect_param = 10
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c654bkrilde5w"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_vox12"]
+
+[resource]
+script = ExtResource("1_vox12")
+id = 525
+display_name = "Wiki Berry"
+description = "Restores HP, but
+confuses if the
+flavor is hated."
+pocket = 5
+price = 80
+icon_name = "wiki_berry"
+hold_effect = "CONFUSE_FLAVOR"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://blwhwetxujd40"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_gews2"]
+
+[resource]
+script = ExtResource("1_gews2")
+id = 124
+display_name = "X Sp. Def"
+description = "Sharply raises the
+Sp. Def stat
+during one battle."
+price = 2000
+icon_name = "battle_stat_item"
+field_use = "ItemUseOutOfBattle_CannotUse"
+battle_use = "EFFECT_ITEM_INCREASE_STAT"
+sort_type = "B_X_ITEMS_CROSSUSE"
+fling_power = 30

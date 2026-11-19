@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cvnkvvwxy2ap6"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_77a4g"]
+
+[resource]
+script = ExtResource("1_77a4g")
+id = 443
+display_name = "Choice Specs"
+description = "Boosts Sp. Atk,
+but permits
+only one move."
+price = 100000
+icon_name = "choice_specs"
+hold_effect = "CHOICE_SPECS"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

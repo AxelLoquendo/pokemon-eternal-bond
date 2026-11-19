@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cqr378oocpay2"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_ur4x2"]
+
+[resource]
+script = ExtResource("1_ur4x2")
+id = 715
+display_name = "TM Case"
+description = "A convenient case
+that holds TMs and
+HMs."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "tm_case"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"

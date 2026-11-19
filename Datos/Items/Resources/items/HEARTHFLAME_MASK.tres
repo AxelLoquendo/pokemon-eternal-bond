@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://drey5g8vpek1j"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_rukie"]
+
+[resource]
+script = ExtResource("1_rukie")
+id = 805
+display_name = "Hearthflame Mask"
+description = "Allows Ogerpon to
+wield the Fire
+type in battle."
+icon_name = "hearthflame_mask"
+hold_effect = "OGERPON_MASK"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d2pam4vhmitem"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_5hup7"]
+
+[resource]
+script = ExtResource("1_5hup7")
+id = 129
+display_name = "Poké Doll"
+description = "Use to flee from
+any battle with
+a wild Pokémon."
+price = 300
+icon_name = "poke_doll"
+field_use = "ItemUseOutOfBattle_CannotUse"
+battle_use = "EFFECT_ITEM_ESCAPE"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

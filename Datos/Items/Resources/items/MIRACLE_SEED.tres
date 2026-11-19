@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://clqsaxo5umtm7"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_y5byf"]
+
+[resource]
+script = ExtResource("1_y5byf")
+id = 429
+display_name = "Miracle Seed"
+description = "A held item that
+raises the power of
+Grass-type moves."
+icon_name = "miracle_seed"
+hold_effect = "TYPE_POWER"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

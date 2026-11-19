@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ts7cpx2wfa0f"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_n4ghf"]
+
+[resource]
+script = ExtResource("1_n4ghf")
+id = 462
+display_name = "Quick Claw"
+description = "A held item that
+occasionally allows
+the first strike."
+price = 8000
+icon_name = "quick_claw"
+hold_effect = "QUICK_CLAW"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 80

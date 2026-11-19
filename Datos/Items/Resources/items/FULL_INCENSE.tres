@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://v7d7sqmp8oe8"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_yscv0"]
+
+[resource]
+script = ExtResource("1_yscv0")
+id = 408
+display_name = "Full Incense"
+description = "An item that makes
+the holder move
+slower than usual."
+price = 5000
+icon_name = "full_incense"
+hold_effect = "LAGGING_TAIL"
+hold_effect_param = 5
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

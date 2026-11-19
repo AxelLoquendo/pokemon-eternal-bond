@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bt0w0qjhv5j3p"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_ou5l6"]
+
+[resource]
+script = ExtResource("1_ou5l6")
+id = 65
+display_name = "HP Up"
+description = "Raises the base HP
+of one Pokémon."
+price = 10000
+icon_name = "hp_up"
+field_use = "ItemUseOutOfBattle_Medicine"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

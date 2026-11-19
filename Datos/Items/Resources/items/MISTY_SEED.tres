@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bx4o4cwab3unp"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_s7fii"]
+
+[resource]
+script = ExtResource("1_s7fii")
+id = 453
+display_name = "Misty Seed"
+description = "Raises Sp. Def on
+Misty Terrain,
+but only once."
+price = 20000
+icon_name = "terrain_seed"
+hold_effect = "TERRAIN_SEED"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

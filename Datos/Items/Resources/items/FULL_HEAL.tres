@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://wvee0ugln5v1"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_8qlee"]
+
+[resource]
+script = ExtResource("1_8qlee")
+id = 48
+display_name = "Full Heal"
+description = "Heals all the
+status problems of
+one Pokémon."
+price = 400
+icon_name = "full_heal"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

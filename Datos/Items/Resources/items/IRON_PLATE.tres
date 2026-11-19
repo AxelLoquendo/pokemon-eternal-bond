@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cmdwxum11mf33"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_oxeyf"]
+
+[resource]
+script = ExtResource("1_oxeyf")
+id = 265
+display_name = "Iron Plate"
+description = "A held item that
+raises the power of
+Steel-type moves."
+price = 1000
+icon_name = "plate"
+hold_effect = "PLATE"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 90

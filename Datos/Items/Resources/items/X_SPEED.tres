@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://buyypek58p3cj"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_ub5uh"]
+
+[resource]
+script = ExtResource("1_ub5uh")
+id = 125
+display_name = "X Speed"
+description = "Sharply raises the
+Speed stat
+during one battle."
+price = 1000
+icon_name = "battle_stat_item"
+field_use = "ItemUseOutOfBattle_CannotUse"
+battle_use = "EFFECT_ITEM_INCREASE_STAT"
+sort_type = "B_X_ITEMS_CROSSUSE"
+fling_power = 30

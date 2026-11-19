@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://da062j03lcbb4"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_cap87"]
+
+[resource]
+script = ExtResource("1_cap87")
+id = 459
+display_name = "Bright Powder"
+description = "A held item that
+casts a glare to
+reduce accuracy."
+price = 30000
+icon_name = "bright_powder"
+hold_effect = "EVASION_UP"
+hold_effect_param = 10
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

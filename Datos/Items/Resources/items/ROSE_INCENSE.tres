@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://datnxes05vso1"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_86u7i"]
+
+[resource]
+script = ExtResource("1_86u7i")
+id = 410
+display_name = "Rose Incense"
+description = "A held item that
+raises the power of
+Grass-type moves."
+price = 2000
+icon_name = "rose_incense"
+hold_effect = "TYPE_POWER"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

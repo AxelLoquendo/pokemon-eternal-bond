@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://o7bkkb55y3la"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_wbyq6"]
+
+[resource]
+script = ExtResource("1_wbyq6")
+id = 120
+display_name = "Escape Rope"
+description = "Use to escape
+instantly from a
+cave or a dungeon."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "escape_rope"
+field_use = "ItemUseOutOfBattle_EscapeRope"
+sort_type = "ITEM_USE_FIELD"
+fling_power = 30

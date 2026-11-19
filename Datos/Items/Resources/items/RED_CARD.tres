@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b03ptj8lka582"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_7f64c"]
+
+[resource]
+script = ExtResource("1_7f64c")
+id = 498
+display_name = "Red Card"
+description = "Foes that hit the
+holder are removed
+from the battle."
+price = 3000
+icon_name = "red_card"
+hold_effect = "RED_CARD"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

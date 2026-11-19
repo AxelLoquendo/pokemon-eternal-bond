@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://vpwwweh771j0"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_1dmk4"]
+
+[resource]
+script = ExtResource("1_1dmk4")
+id = 762
+display_name = "Loaded Dice"
+description = "The holder's
+multistrike moves
+hit more times."
+price = 20000
+icon_name = "loaded_dice"
+hold_effect = "LOADED_DICE"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

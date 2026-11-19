@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dp6bc4on0yu8c"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_hfqf3"]
+
+[resource]
+script = ExtResource("1_hfqf3")
+id = 46
+display_name = "Ice Heal"
+description = "Heals Pokémon
+of frostbite."
+price = 200
+icon_name = "status_heal"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ddkrniea44hne"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_st7f0"]
+
+[resource]
+script = ExtResource("1_st7f0")
+id = 62
+display_name = "Lumiose Galette"
+description = "A local specialty
+that heals all
+status problems."
+price = 350
+icon_name = "lumiose_galette"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dywaqwefih3vj"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_jhqhh"]
+
+[resource]
+script = ExtResource("1_jhqhh")
+id = 817
+display_name = "Remedy"
+description = "A bitter powder
+that restores HP
+by 20 points."
+price = 150
+icon_name = "remedy"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

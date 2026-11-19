@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dyk6ovg3bayvc"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_huvmt"]
+
+[resource]
+script = ExtResource("1_huvmt")
+id = 497
+display_name = "Air Balloon"
+description = "Makes the holder
+float, but bursts
+if hit by an attack."
+price = 15000
+icon_name = "air_balloon"
+hold_effect = "AIR_BALLOON"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

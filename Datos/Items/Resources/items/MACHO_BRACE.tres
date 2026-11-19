@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dvrfuhu1d73wq"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_j73di"]
+
+[resource]
+script = ExtResource("1_j73di")
+id = 418
+display_name = "Macho Brace"
+description = "Promotes growth,
+but reduces
+Speed in battle."
+price = 3000
+icon_name = "macho_brace"
+hold_effect = "MACHO_BRACE"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 60

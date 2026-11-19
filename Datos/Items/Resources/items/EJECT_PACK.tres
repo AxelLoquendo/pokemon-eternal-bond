@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://qu8dmg4h0rgo"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_8nhks"]
+
+[resource]
+script = ExtResource("1_8nhks")
+id = 509
+display_name = "Eject Pack"
+description = "If the holder's
+stats are lowered,
+it'll be switched."
+price = 30000
+icon_name = "eject_pack"
+hold_effect = "EJECT_PACK"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 50

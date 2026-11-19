@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://565r7gtqnpb7"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_bg6lj"]
+
+[resource]
+script = ExtResource("1_bg6lj")
+id = 438
+display_name = "Spell Tag"
+description = "A held item that
+raises the power of
+Ghost-type moves."
+icon_name = "spell_tag"
+hold_effect = "TYPE_POWER"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

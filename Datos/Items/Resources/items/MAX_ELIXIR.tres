@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bw2t7or00dhvt"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_vroi7"]
+
+[resource]
+script = ExtResource("1_vroi7")
+id = 52
+display_name = "Max Elixir"
+description = "Fully restores the
+PP of a Pokémon's
+moves."
+price = 4500
+icon_name = "ether"
+hold_effect_param = 255
+field_use = "ItemUseOutOfBattle_PPRecovery"
+battle_use = "EFFECT_ITEM_RESTORE_PP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://8ghcalw5snlk"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_d0ops"]
+
+[resource]
+script = ExtResource("1_d0ops")
+id = 12
+display_name = "Quick Ball"
+description = "A Ball that works
+better at the
+start of a battle."
+pocket = 3
+price = 1000
+icon_name = "quick_ball"
+battle_use = "EFFECT_ITEM_THROW_BALL"
+sort_type = "ITEM_USE_BAG_MENU"

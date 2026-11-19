@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bbohnu84dhgxm"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_xxwsl"]
+
+[resource]
+script = ExtResource("1_xxwsl")
+id = 63
+display_name = "Shalour Sable"
+description = "A local specialty
+that heals all
+status problems."
+price = 350
+icon_name = "shalour_sable"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

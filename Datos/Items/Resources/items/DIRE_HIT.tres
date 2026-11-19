@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bgn538p7iouy7"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_t30jn"]
+
+[resource]
+script = ExtResource("1_t30jn")
+id = 127
+display_name = "Dire Hit"
+description = "Raises the
+critical-hit ratio
+during one battle."
+price = 1000
+icon_name = "battle_stat_item"
+field_use = "ItemUseOutOfBattle_CannotUse"
+battle_use = "EFFECT_ITEM_SET_FOCUS_ENERGY"
+sort_type = "B_X_ITEMS_CROSSUSE"
+fling_power = 30

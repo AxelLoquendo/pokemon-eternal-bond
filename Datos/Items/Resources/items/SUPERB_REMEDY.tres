@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://oxb2n8d6acjp"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_vv3fo"]
+
+[resource]
+script = ExtResource("1_vv3fo")
+id = 819
+display_name = "Superb Remedy"
+description = "A bitter powder
+that restores HP
+by 120 points."
+price = 750
+icon_name = "superb_remedy"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

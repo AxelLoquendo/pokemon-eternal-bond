@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cp37nghtowsh3"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_0774y"]
+
+[resource]
+script = ExtResource("1_0774y")
+id = 466
+display_name = "Amulet Coin"
+description = "Doubles money in
+battle if the
+holder takes part."
+price = 30000
+icon_name = "amulet_coin"
+hold_effect = "DOUBLE_PRIZE"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

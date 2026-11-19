@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bhjqfbm087ri7"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_07k0t"]
+
+[resource]
+script = ExtResource("1_07k0t")
+id = 494
+display_name = "Eviolite"
+description = "Ups the defensive
+stats of Pokémon
+that can evolve."
+price = 50000
+icon_name = "eviolite"
+hold_effect = "EVIOLITE"
+hold_effect_param = 50
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 40

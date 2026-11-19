@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://buqe48s2l2kdh"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_b5fuk"]
+
+[resource]
+script = ExtResource("1_b5fuk")
+id = 500
+display_name = "Binding Band"
+description = "Boosts the power
+of the holder's
+binding moves."
+price = 20000
+icon_name = "binding_band"
+hold_effect = "BINDING_BAND"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

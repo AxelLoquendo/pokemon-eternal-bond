@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dt7vq3pq0wyfo"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_7m0k0"]
+
+[resource]
+script = ExtResource("1_7m0k0")
+id = 40
+display_name = "Energy Root"
+description = "A bitter root
+that restores HP
+by 120 points."
+price = 1200
+icon_name = "energy_root"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

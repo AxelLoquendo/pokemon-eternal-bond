@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bgdiqkvaawqn0"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_0tk11"]
+
+[resource]
+script = ExtResource("1_0tk11")
+id = 487
+display_name = "Black Sludge"
+description = "Gradually restores
+Poison-types' HP.
+Damages all others."
+price = 10000
+icon_name = "black_sludge"
+hold_effect = "BLACK_SLUDGE"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

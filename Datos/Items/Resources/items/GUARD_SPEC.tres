@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://by01w3n5pknjk"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_ql0og"]
+
+[resource]
+script = ExtResource("1_ql0og")
+id = 128
+display_name = "Guard Spec."
+description = "Prevents stat
+lowering when
+used in battle."
+price = 1500
+icon_name = "battle_stat_item"
+field_use = "ItemUseOutOfBattle_CannotUse"
+battle_use = "EFFECT_ITEM_SET_MIST"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

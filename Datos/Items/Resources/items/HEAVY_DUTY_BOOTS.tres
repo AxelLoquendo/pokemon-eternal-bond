@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bpb8imqukv2ve"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_kmo1t"]
+
+[resource]
+script = ExtResource("1_kmo1t")
+id = 510
+display_name = "Heavy-Duty Boots"
+description = "Protects from the
+effects of traps
+set on the field."
+price = 20000
+icon_name = "heavy_duty_boots"
+hold_effect = "HEAVY_DUTY_BOOTS"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 80

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d2yed3lcvnxg7"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_rtkks"]
+
+[resource]
+script = ExtResource("1_rtkks")
+id = 764
+display_name = "Booster Energy"
+description = "Ups the strength
+of Pokémon with
+certain Abilities."
+icon_name = "booster_energy"
+hold_effect = "BOOSTER_ENERGY"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

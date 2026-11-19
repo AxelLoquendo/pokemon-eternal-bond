@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://csdnfakgidpcb"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_5mixs"]
+
+[resource]
+script = ExtResource("1_5mixs")
+id = 444
+display_name = "Choice Scarf"
+description = "Boosts Speed,
+but permits
+only one move."
+price = 100000
+icon_name = "choice_scarf"
+hold_effect = "CHOICE_SCARF"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

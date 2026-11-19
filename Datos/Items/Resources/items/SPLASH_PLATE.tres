@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cp7w8ljarx3d2"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_p83tp"]
+
+[resource]
+script = ExtResource("1_p83tp")
+id = 251
+display_name = "Splash Plate"
+description = "A held item that
+raises the power of
+Water-type moves."
+price = 1000
+icon_name = "plate"
+hold_effect = "PLATE"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 90

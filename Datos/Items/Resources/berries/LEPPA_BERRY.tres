@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bkku2ewuamtvy"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_siq5b"]
+
+[resource]
+script = ExtResource("1_siq5b")
+id = 519
+display_name = "Leppa Berry"
+description = "A held item that
+restores 10 PP in
+battle."
+pocket = 5
+price = 80
+icon_name = "leppa_berry"
+hold_effect = "RESTORE_PP"
+hold_effect_param = 10
+field_use = "ItemUseOutOfBattle_PPRecovery"
+battle_use = "EFFECT_ITEM_RESTORE_PP"
+sort_type = "ITEM_USE_PARTY_MENU_MOVES"
+fling_power = 10

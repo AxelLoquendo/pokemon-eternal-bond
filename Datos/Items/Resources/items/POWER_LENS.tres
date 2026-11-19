@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dn8bvkaonpddm"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_rv3uv"]
+
+[resource]
+script = ExtResource("1_rv3uv")
+id = 422
+display_name = "Power Lens"
+description = "Promotes Sp. Atk
+gain, but cuts
+Speed in battle."
+price = 10000
+icon_name = "power_lens"
+hold_effect = "POWER_ITEM"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 70

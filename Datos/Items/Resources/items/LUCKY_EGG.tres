@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dyhlvpetd18du"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_kg0yx"]
+
+[resource]
+script = ExtResource("1_kg0yx")
+id = 470
+display_name = "Lucky Egg"
+description = "A held item that
+boosts Exp. Points
+earned in battle."
+price = 10000
+icon_name = "lucky_egg"
+hold_effect = "LUCKY_EGG"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

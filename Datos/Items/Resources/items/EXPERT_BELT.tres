@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dhh1whr570nn5"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_51fr7"]
+
+[resource]
+script = ExtResource("1_51fr7")
+id = 477
+display_name = "Expert Belt"
+description = "A well-worn belt
+that boosts super
+effective moves."
+price = 30000
+icon_name = "expert_belt"
+hold_effect = "EXPERT_BELT"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

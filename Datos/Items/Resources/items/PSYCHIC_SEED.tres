@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://slj8fmljbw1n"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_txpbn"]
+
+[resource]
+script = ExtResource("1_txpbn")
+id = 452
+display_name = "Psychic Seed"
+description = "Raises Sp. Def on
+Psychic Terrain,
+but only once."
+price = 20000
+icon_name = "terrain_seed"
+hold_effect = "TERRAIN_SEED"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

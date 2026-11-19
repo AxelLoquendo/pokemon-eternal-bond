@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dn4gsb4im0fbl"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_ar1fl"]
+
+[resource]
+script = ExtResource("1_ar1fl")
+id = 761
+display_name = "Covert Cloak"
+description = "Conceals the
+holder from
+additional effects."
+price = 20000
+icon_name = "covert_cloak"
+hold_effect = "COVERT_CLOAK"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

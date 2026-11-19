@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://fvor57m8j04o"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_g5ego"]
+
+[resource]
+script = ExtResource("1_g5ego")
+id = 254
+display_name = "Icicle Plate"
+description = "A held item that
+raises the power of
+Ice-type moves."
+price = 1000
+icon_name = "plate"
+hold_effect = "PLATE"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 90

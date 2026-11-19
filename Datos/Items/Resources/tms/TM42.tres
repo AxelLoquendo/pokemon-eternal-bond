@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cdm7xsw8u267f"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_wh0ap"]
+
+[resource]
+script = ExtResource("1_wh0ap")
+id = 623
+display_name = "TM42"
+description = "Boosts power when
+poisoned, burned,
+or paralyzed."
+pocket = 7
+price = 3000
+stack_limit = 1
+important = true
+icon_name = "tm_facade"
+field_use = "ItemUseOutOfBattle_TMHM"
+sort_type = "ITEM_USE_PARTY_MENU"
+tm_move = 263

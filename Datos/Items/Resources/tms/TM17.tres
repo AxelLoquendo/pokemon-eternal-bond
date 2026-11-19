@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dh5ck6o5kyawc"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_cqhwh"]
+
+[resource]
+script = ExtResource("1_cqhwh")
+id = 598
+display_name = "TM17"
+description = "Negates all damage,
+but may fail if used
+in succession."
+pocket = 7
+price = 3000
+stack_limit = 1
+important = true
+icon_name = "tm_protect"
+field_use = "ItemUseOutOfBattle_TMHM"
+sort_type = "ITEM_USE_PARTY_MENU"
+tm_move = 182

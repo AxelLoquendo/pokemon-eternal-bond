@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c7n26s6osdda6"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_0fwbt"]
+
+[resource]
+script = ExtResource("1_0fwbt")
+id = 58
+display_name = "Rage Candy Bar"
+description = "A local specialty
+that heals all
+status problems."
+price = 350
+icon_name = "rage_candy_bar"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

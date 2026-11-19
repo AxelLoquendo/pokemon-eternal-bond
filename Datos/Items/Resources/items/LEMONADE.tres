@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bq6rkroimky4v"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_7nsbd"]
+
+[resource]
+script = ExtResource("1_7nsbd")
+id = 37
+display_name = "Lemonade"
+description = "A very sweet drink
+that restores HP
+by 70 points."
+price = 400
+icon_name = "lemonade"
+hold_effect_param = 70
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

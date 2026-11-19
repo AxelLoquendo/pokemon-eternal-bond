@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cn646rp88tqk5"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_7i31a"]
+
+[resource]
+script = ExtResource("1_7i31a")
+id = 396
+display_name = "Metal Powder"
+description = "A held item that
+boosts Ditto's
+Defense."
+price = 1000
+icon_name = "ditto_powder"
+hold_effect = "METAL_POWDER"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

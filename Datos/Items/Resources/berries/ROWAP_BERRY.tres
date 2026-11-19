@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d4n177u7e1681"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_ipfcx"]
+
+[resource]
+script = ExtResource("1_ipfcx")
+id = 578
+display_name = "Rowap Berry"
+description = "If hit by a special
+move, the foe will
+also take damage."
+pocket = 5
+price = 80
+icon_name = "rowap_berry"
+hold_effect = "ROWAP_BERRY"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

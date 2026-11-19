@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bxycjqrqbad87"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_yevyk"]
+
+[resource]
+script = ExtResource("1_yevyk")
+id = 490
+display_name = "Shed Shell"
+description = "Enables the holder
+to switch out
+without fail."
+price = 20000
+icon_name = "shed_shell"
+hold_effect = "SHED_SHELL"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b17voucr0femo"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_jlamg"]
+
+[resource]
+script = ExtResource("1_jlamg")
+id = 392
+display_name = "Light Ball"
+description = "A held item that
+boosts the Atk and
+Sp. Atk of Pikachu."
+price = 1000
+icon_name = "light_ball"
+hold_effect = "LIGHT_BALL"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

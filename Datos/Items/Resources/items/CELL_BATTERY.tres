@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bud34em6rulji"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_6n881"]
+
+[resource]
+script = ExtResource("1_6n881")
+id = 456
+display_name = "Cell Battery"
+description = "Ups Attack if the
+holder is hurt by
+an Electric move."
+price = 5000
+icon_name = "cell_battery"
+hold_effect = "CELL_BATTERY"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

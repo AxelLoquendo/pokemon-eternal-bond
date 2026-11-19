@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b0m2rsnpcwfi5"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_2dl77"]
+
+[resource]
+script = ExtResource("1_2dl77")
+id = 397
+display_name = "Quick Powder"
+description = "A held item that
+boosts Ditto's
+Speed."
+price = 1000
+icon_name = "ditto_powder"
+hold_effect = "QUICK_POWDER"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

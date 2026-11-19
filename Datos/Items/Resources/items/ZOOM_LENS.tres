@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://c54byth7g8ogg"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_mgmvo"]
+
+[resource]
+script = ExtResource("1_mgmvo")
+id = 482
+display_name = "Zoom Lens"
+description = "Boosts accuracy if
+the holder moves
+after the foe."
+price = 10000
+icon_name = "zoom_lens"
+hold_effect = "ZOOM_LENS"
+hold_effect_param = 20
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

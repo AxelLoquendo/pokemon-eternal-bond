@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dt7ehg2enwk0m"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_8uvre"]
+
+[resource]
+script = ExtResource("1_8uvre")
+id = 245
+display_name = "Everstone"
+description = "A wondrous hold
+item that prevents
+evolution."
+price = 3000
+icon_name = "everstone"
+hold_effect = "PREVENT_EVOLVE"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

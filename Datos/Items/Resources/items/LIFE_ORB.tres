@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ckhq3raafl1w"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_oecpp"]
+
+[resource]
+script = ExtResource("1_oecpp")
+id = 479
+display_name = "Life Orb"
+description = "Boosts moves, but
+cuts HP when the
+holder lands hits."
+price = 50000
+icon_name = "life_orb"
+hold_effect = "LIFE_ORB"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

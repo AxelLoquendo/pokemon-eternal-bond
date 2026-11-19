@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://cofrsiotwm1kh"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_g7vaf"]
+
+[resource]
+script = ExtResource("1_g7vaf")
+id = 472
+display_name = "Leftovers"
+description = "A held item that
+gradually restores
+HP in battle."
+price = 20000
+icon_name = "leftovers"
+hold_effect = "LEFTOVERS"
+hold_effect_param = 10
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

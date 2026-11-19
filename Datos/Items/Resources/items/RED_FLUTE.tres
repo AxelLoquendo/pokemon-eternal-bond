@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://basvmeiy807vc"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_dwf2i"]
+
+[resource]
+script = ExtResource("1_dwf2i")
+id = 111
+display_name = "Red Flute"
+description = "A glass flute that
+snaps Pokémon
+out of attraction."
+price = 20
+icon_name = "flute"
+field_use = "ItemUseOutOfBattle_CannotUse"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bar7l577ojavo"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_k30yd"]
+
+[resource]
+script = ExtResource("1_k30yd")
+id = 570
+display_name = "Petaya Berry"
+description = "A held item that
+raises Sp. Atk in
+a pinch."
+pocket = 5
+price = 80
+icon_name = "petaya_berry"
+hold_effect = "SP_ATTACK_UP"
+hold_effect_param = 4
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

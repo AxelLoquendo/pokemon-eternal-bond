@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://d2oosaa0da2c8"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_hj8se"]
+
+[resource]
+script = ExtResource("1_hj8se")
+id = 727
+display_name = "S.S. Ticket"
+description = "The ticket required
+for sailing on a
+ferry."
+pocket = 6
+stack_limit = 1
+important = true
+icon_name = "ss_ticket"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"

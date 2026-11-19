@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://da3k435no4y42"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_78ekl"]
+
+[resource]
+script = ExtResource("1_78ekl")
+id = 523
+display_name = "Sitrus Berry"
+description = "A held item that
+restores a little
+HP in battle."
+pocket = 5
+price = 80
+icon_name = "sitrus_berry"
+hold_effect = "RESTORE_PCT_HP"
+hold_effect_param = 25
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_RESTORE_HP"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 10

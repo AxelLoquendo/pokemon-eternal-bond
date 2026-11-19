@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dfunuijnrpv8o"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_0qtuv"]
+
+[resource]
+script = ExtResource("1_0qtuv")
+id = 421
+display_name = "Power Belt"
+description = "Promotes Defense
+gain, but cuts
+Speed in battle."
+price = 10000
+icon_name = "power_belt"
+hold_effect = "POWER_ITEM"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 70

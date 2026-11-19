@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://vuf1yvahhdms"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_6waof"]
+
+[resource]
+script = ExtResource("1_6waof")
+id = 514
+display_name = "Cheri Berry"
+description = "A held item that
+heals paralysis
+in battle."
+pocket = 5
+price = 80
+icon_name = "cheri_berry"
+hold_effect = "CURE_PAR"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 10

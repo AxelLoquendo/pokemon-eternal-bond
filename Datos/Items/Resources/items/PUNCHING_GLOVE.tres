@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://bivfsdqxfw0g5"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_o2rws"]
+
+[resource]
+script = ExtResource("1_o2rws")
+id = 760
+display_name = "Punching Glove"
+description = "Boosts punching
+moves and prevents
+contact with foes."
+price = 15000
+icon_name = "punching_glove"
+hold_effect = "PUNCHING_GLOVE"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

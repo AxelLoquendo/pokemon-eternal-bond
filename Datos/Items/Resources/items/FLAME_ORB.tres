@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b5ecsqwkx6trq"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_gwgkm"]
+
+[resource]
+script = ExtResource("1_gwgkm")
+id = 445
+display_name = "Flame Orb"
+description = "A bizarre orb that
+burns the
+holder in battle."
+price = 15000
+icon_name = "flame_orb"
+hold_effect = "FLAME_ORB"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

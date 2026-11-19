@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://ctujaiqn27cib"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_muwe7"]
+
+[resource]
+script = ExtResource("1_muwe7")
+id = 475
+display_name = "Muscle Band"
+description = "A headband that
+slightly boosts
+physical moves."
+price = 8000
+icon_name = "muscle_band"
+hold_effect = "MUSCLE_BAND"
+hold_effect_param = 10
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

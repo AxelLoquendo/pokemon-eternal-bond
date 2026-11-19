@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://br20ws87kvsks"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_37b3m"]
+
+[resource]
+script = ExtResource("1_37b3m")
+id = 64
+display_name = "Big Malasada"
+description = "A local specialty
+that heals all
+status problems."
+price = 350
+icon_name = "big_malasada"
+field_use = "ItemUseOutOfBattle_Medicine"
+battle_use = "EFFECT_ITEM_CURE_STATUS"
+sort_type = "ITEM_USE_PARTY_MENU"
+fling_power = 30

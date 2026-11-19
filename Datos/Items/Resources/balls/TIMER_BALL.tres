@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://rlitelbeo2eo"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_55to6"]
+
+[resource]
+script = ExtResource("1_55to6")
+id = 11
+display_name = "Timer Ball"
+description = "A Ball that gains
+power in battles
+taking many turns."
+pocket = 3
+price = 1000
+icon_name = "timer_ball"
+battle_use = "EFFECT_ITEM_THROW_BALL"
+sort_type = "ITEM_USE_BAG_MENU"

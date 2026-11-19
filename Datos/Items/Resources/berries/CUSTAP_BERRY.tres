@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dmvcpk8xb6j3"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_kbxs6"]
+
+[resource]
+script = ExtResource("1_kbxs6")
+id = 576
+display_name = "Custap Berry"
+description = "The holder gets
+to move first just
+once in a pinch."
+pocket = 5
+price = 80
+icon_name = "custap_berry"
+hold_effect = "CUSTAP_BERRY"
+hold_effect_param = 4
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 10

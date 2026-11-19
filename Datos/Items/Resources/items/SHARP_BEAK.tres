@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://5mpaq1o4jm3a"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_loerh"]
+
+[resource]
+script = ExtResource("1_loerh")
+id = 434
+display_name = "Sharp Beak"
+description = "A held item that
+raises the power of
+Flying-type moves."
+icon_name = "sharp_beak"
+hold_effect = "TYPE_POWER"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 50

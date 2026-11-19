@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://dt237wqgas8ev"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_w6f02"]
+
+[resource]
+script = ExtResource("1_w6f02")
+id = 501
+display_name = "Eject Button"
+description = "If the holder is
+hit, it will be
+switched out."
+price = 30000
+icon_name = "eject_button"
+hold_effect = "EJECT_BUTTON"
+field_use = "ItemUseOutOfBattle_CannotUse"
+sort_type = "ITEM_USE_BAG_MENU"
+fling_power = 30

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://b4gnnt080jj7b"]
+
+[ext_resource type="Script" uid="uid://r3unwm2dpyhp" path="res://Scripts/Item/item_data.gd" id="1_slj4l"]
+
+[resource]
+script = ExtResource("1_slj4l")
+id = 465
+display_name = "King's Rock"
+description = "A held item that
+may cause flinching
+when the foe is hit."
+price = 10000
+icon_name = "kings_rock"
+hold_effect = "FLINCH"
+hold_effect_param = 10
+field_use = "EVO_HELD_ITEM_FIELD_FUNC"
+sort_type = "EVO_HELD_ITEM_TYPE"
+fling_power = 30
