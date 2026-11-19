@@ -3452,7 +3452,7 @@ const _SPRITE_FOLDER: Dictionary = {
 	Id.MURKROW: "murkrow",
 	Id.SLOWKING: "slowking",
 	Id.MISDREAVUS: "misdreavus",
-	Id.UNOWN: "wynaut",
+	Id.UNOWN: "unown",
 	Id.WOBBUFFET: "wobbuffet",
 	Id.GIRAFARIG: "girafarig",
 	Id.PINECO: "pineco",

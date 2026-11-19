@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://b0op4s50oigg" path="res://Graficos/UI/Naming/bg_2.png" id="1_wppye"]
 [ext_resource type="Texture2D" uid="uid://b1gp7oq0d8ty" path="res://Graficos/UI/Main_Menu/icon_shadow.png" id="2_pcwvh"]
 [ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="3_gt06x"]
-[ext_resource type="Texture2D" uid="uid://yl450kdkkl00" path="res://Graficos/Pokemon/Icons/BULBASAUR.png" id="3_l1gmm"]
+[ext_resource type="Texture2D" uid="uid://4mu0qgeyd4x3" path="res://Graficos/Pokemon/bulbasaur/icon.png" id="3_l1gmm"]
 [ext_resource type="Texture2D" uid="uid://cg0fvuuc136f7" path="res://Graficos/Object_Event/shadow/shadow_medium.png" id="4_jc11r"]
 [ext_resource type="SpriteFrames" uid="uid://bowqeghbvmpy1" path="res://Datos/Overworld/Object_Event/Player_Animated.tres" id="5_ao628"]
 
@@ -30,14 +30,16 @@ texture = ExtResource("1_wppye")
 visible = false
 
 [node name="Shadow" type="Sprite2D" parent="Mon" unique_id=1153271074]
+modulate = Color(1, 1, 1, 0.6)
 position = Vector2(70, 40)
 scale = Vector2(2, 2)
 texture = ExtResource("2_pcwvh")
 
 [node name="Sprite2D" type="Sprite2D" parent="Mon" unique_id=1371570141]
 position = Vector2(70, 40)
+scale = Vector2(2, 2)
 texture = ExtResource("3_l1gmm")
-hframes = 2
+vframes = 2
 
 [node name="Character" type="Node2D" parent="." unique_id=507016801]
 

@@ -125,17 +125,11 @@ func reload() -> void:
 
 
 func _wait_ready() -> void:
+	## Nunca bloquear el hilo principal con delay.
+	## Si aún no está listo, carga de forma síncrona una sola vez.
 	if _loaded:
 		return
-	if not _loading:
-		_load_index()
-		return
-	var spins: int = 0
-	while _loading and not _loaded and spins < 1000:
-		OS.delay_msec(1)
-		spins += 1
-	if not _loaded:
-		_load_index()
+	_load_index()
 
 
 func _load_index() -> void:
