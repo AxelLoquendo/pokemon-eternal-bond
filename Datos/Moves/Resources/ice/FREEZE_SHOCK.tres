@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cnof8xpfhs6e4"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_u4ip3"]
+
+[resource]
+script = ExtResource("1_u4ip3")
+id = 553
+display_name = "Freeze Shock"
+description = "A powerful 2-turn move that
+may paralyze the foe."
+type = 16
+category = 1
+power = 140
+accuracy = 90
+effect = "EFFECT_TWO_TURNS_ATTACK"
+extra_flags = PackedStringArray("metronomeBanned")

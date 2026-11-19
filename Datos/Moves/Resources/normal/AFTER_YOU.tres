@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://duncsb0ohm3fg"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_7id1t"]
+
+[resource]
+script = ExtResource("1_7id1t")
+id = 495
+display_name = "After You"
+description = "Helps out the target, letting
+it move next."
+type = 1
+category = 3
+accuracy = 0
+pp = 15
+effect = "EFFECT_AFTER_YOU"
+ignores_protect = true
+ignores_substitute = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPD_UP_1"

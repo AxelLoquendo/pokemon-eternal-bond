@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cqs5ok2dwd256"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_ft06s"]
+
+[resource]
+script = ExtResource("1_ft06s")
+id = 57
+display_name = "Surf"
+description = "Creates a huge wave, then
+crashes it on all others."
+type = 12
+category = 2
+power = 90
+pp = 15
+target = "B_UPDATED_MOVE_DATA >= GEN_4 ? FOES_AND_ALLY : BOTH"
+extra_flags = PackedStringArray()

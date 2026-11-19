@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cig8l4urojuc5"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_gekhw"]
+
+[resource]
+script = ExtResource("1_gekhw")
+id = 364
+display_name = "Feint"
+description = "Hits a protecting foe
+and lifts those effects."
+type = 1
+category = 1
+power = 30
+pp = 10
+priority = 2
+ignores_protect = true
+extra_flags = PackedStringArray("metronomeBanned", "copycatBanned", "assistBanned")

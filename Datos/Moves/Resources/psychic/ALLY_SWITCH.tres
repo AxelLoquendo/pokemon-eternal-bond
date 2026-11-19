@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bpk7bpqowfx0i"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_h4gqb"]
+
+[resource]
+script = ExtResource("1_h4gqb")
+id = 502
+display_name = "Ally Switch"
+description = "The user switches places
+with its partner."
+type = 15
+category = 3
+accuracy = 0
+pp = 15
+priority = 2
+target = "USER"
+effect = "EFFECT_ALLY_SWITCH"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPD_UP_2"

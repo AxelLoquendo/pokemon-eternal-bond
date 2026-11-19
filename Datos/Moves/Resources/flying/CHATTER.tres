@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://m7c7r7p3ndn7"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_8pkot"]
+
+[resource]
+script = ExtResource("1_8pkot")
+id = 448
+display_name = "Chatter"
+description = "Attacks with a sound wave
+that causes confusion."
+type = 3
+category = 2
+power = 65
+pp = 20
+sound = true
+ignores_substitute = true
+extra_flags = PackedStringArray("metronomeBanned", "copycatBanned", "assistBanned", "sketchBanned")

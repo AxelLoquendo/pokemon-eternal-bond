@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://djrmckcncu2b8"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_qd4ve"]
+
+[resource]
+script = ExtResource("1_qd4ve")
+id = 820
+display_name = "Comeuppance"
+description = "Retaliates against the foe
+that last damaged the user."
+type = 18
+category = 1
+power = 1
+pp = 10
+target = "DEPENDS"
+effect = "EFFECT_REFLECT_DAMAGE"
+makes_contact = true
+extra_flags = PackedStringArray("metronomeBanned", "meFirstBanned")

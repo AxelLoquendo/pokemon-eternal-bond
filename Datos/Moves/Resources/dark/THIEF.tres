@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://3721w2jwiook"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_liru4"]
+
+[resource]
+script = ExtResource("1_liru4")
+id = 168
+display_name = "Thief"
+description = "While attacking, it
+steals the foe's held item."
+type = 18
+category = 1
+power = 60
+pp = 25
+effect = "EFFECT_STEAL_ITEM"
+makes_contact = true
+extra_flags = PackedStringArray("metronomeBanned", "meFirstBanned", "copycatBanned", "assistBanned")

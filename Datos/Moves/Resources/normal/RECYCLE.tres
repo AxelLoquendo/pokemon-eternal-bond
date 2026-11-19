@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://3d5s6wg50m4o"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_4wd4w"]
+
+[resource]
+script = ExtResource("1_4wd4w")
+id = 278
+display_name = "Recycle"
+description = "Recycles a used item for
+one more use."
+type = 1
+category = 3
+accuracy = 0
+pp = 10
+target = "USER"
+effect = "EFFECT_RECYCLE"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPD_UP_2"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://b20lax05dja6w"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_p28o2"]
+
+[resource]
+script = ExtResource("1_p28o2")
+id = 720
+display_name = "Obstruct"
+description = "Protects itself, harshly
+lowering Defense on contact."
+type = 18
+category = 3
+priority = 4
+target = "USER"
+effect = "EFFECT_PROTECT"
+ignores_protect = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned")

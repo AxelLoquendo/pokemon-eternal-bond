@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bc62b8fp6jc85"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_j7ena"]
+
+[resource]
+script = ExtResource("1_j7ena")
+id = 475
+display_name = "Autotomize"
+description = "Sheds additional weight to
+sharply raise Speed."
+type = 9
+category = 3
+accuracy = 0
+pp = 15
+target = "USER"
+effect = "EFFECT_AUTOTOMIZE"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_RESET_STATS"

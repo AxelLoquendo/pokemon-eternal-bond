@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://ddgi8fef4cro4"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_c40qd"]
+
+[resource]
+script = ExtResource("1_c40qd")
+id = 678
+display_name = "Floaty Fall"
+description = "Floats in air and dives at
+angle. May cause flinching."
+type = 3
+category = 1
+power = 90
+accuracy = 95
+pp = 15
+makes_contact = true
+extra_flags = PackedStringArray("metronomeBanned")

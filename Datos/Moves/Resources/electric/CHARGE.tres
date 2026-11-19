@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://dqkw8y7d4i0so"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_mijtf"]
+
+[resource]
+script = ExtResource("1_mijtf")
+id = 268
+display_name = "Charge"
+description = "Charges power to boost the
+Electric move used next turn."
+type = 14
+category = 3
+accuracy = 0
+pp = 20
+target = "USER"
+effect = "EFFECT_CHARGE"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPDEF_UP_1"

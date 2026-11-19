@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://xmeuvnjo8744"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_gpsmp"]
+
+[resource]
+script = ExtResource("1_gpsmp")
+id = 621
+display_name = "Hyperspace Fury"
+description = "Ignores protection, but
+lowers the user's Defense."
+type = 18
+category = 1
+power = 100
+accuracy = 0
+effect = "EFFECT_HYPERSPACE_FURY"
+ignores_protect = true
+ignores_substitute = true
+extra_flags = PackedStringArray("metronomeBanned", "sketchBanned")

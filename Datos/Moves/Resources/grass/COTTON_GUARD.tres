@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cwu25ko6v8nuf"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_an1wm"]
+
+[resource]
+script = ExtResource("1_an1wm")
+id = 538
+display_name = "Cotton Guard"
+description = "Wraps its body in cotton.
+Drastically raises Defense."
+type = 13
+category = 3
+accuracy = 0
+pp = 10
+target = "USER"
+effect = "EFFECT_STAT_CHANGE"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_RESET_STATS"

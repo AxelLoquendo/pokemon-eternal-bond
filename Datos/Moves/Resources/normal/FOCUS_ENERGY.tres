@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://px78xjtnsi6o"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_p462r"]
+
+[resource]
+script = ExtResource("1_p462r")
+id = 116
+display_name = "Focus Energy"
+description = "Focuses power to raise the
+critical-hit ratio."
+type = 1
+category = 3
+accuracy = 0
+pp = 30
+target = "USER"
+effect = "EFFECT_FOCUS_ENERGY"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_ACC_UP_1"

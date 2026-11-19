@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://dmnnk5b6gkkaj"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_d5m7o"]
+
+[resource]
+script = ExtResource("1_d5m7o")
+id = 501
+display_name = "Quick Guard"
+description = "Evades priority attacks
+for one turn."
+type = 2
+category = 3
+accuracy = 0
+pp = 15
+priority = 3
+target = "USER"
+effect = "EFFECT_PROTECT"
+ignores_protect = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned")
+z_effect = "Z_EFFECT_DEF_UP_1"

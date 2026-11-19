@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cwqelnalq6wyq"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_fppai"]
+
+[resource]
+script = ExtResource("1_fppai")
+id = 178
+display_name = "Cotton Spore"
+description = "Spores cling to the foes,"
+type = 13
+category = 3
+pp = 40
+target = "B_UPDATED_MOVE_DATA >= GEN_6 ? BOTH : SELECTED"
+effect = "EFFECT_STAT_CHANGE"
+powder = true
+extra_flags = PackedStringArray()
+z_effect = "Z_EFFECT_RESET_STATS"

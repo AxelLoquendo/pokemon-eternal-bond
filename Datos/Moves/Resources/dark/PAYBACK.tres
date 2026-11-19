@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://ds5ltjui6rg2i"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_xl52w"]
+
+[resource]
+script = ExtResource("1_xl52w")
+id = 371
+display_name = "Payback"
+description = "An attack that gains power
+if the user moves last."
+type = 18
+category = 1
+power = 50
+pp = 10
+effect = "EFFECT_PAYBACK"
+makes_contact = true
+extra_flags = PackedStringArray()

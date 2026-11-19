@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://vrnjoo5p3l0b"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_sir86"]
+
+[resource]
+script = ExtResource("1_sir86")
+id = 509
+display_name = "Circle Throw"
+description = "The foe is thrown to switch
+it out or end wild battles."
+type = 2
+category = 1
+power = 60
+accuracy = 90
+pp = 10
+priority = -6
+effect = "EFFECT_HIT_SWITCH_TARGET"
+makes_contact = true
+extra_flags = PackedStringArray("copycatBanned", "assistBanned")

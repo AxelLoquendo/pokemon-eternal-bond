@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cvouj8p7ytc4e"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_hnge0"]
+
+[resource]
+script = ExtResource("1_hnge0")
+id = 194
+display_name = "Destiny Bond"
+description = "If the user faints, the foe
+is also made to faint."
+type = 8
+category = 3
+accuracy = 0
+target = "USER"
+effect = "EFFECT_DESTINY_BOND"
+ignores_protect = true
+ignores_substitute = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned", "copycatBanned", "assistBanned")
+z_effect = "Z_EFFECT_FOLLOW_ME"

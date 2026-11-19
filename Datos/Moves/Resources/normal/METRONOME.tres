@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://2x07b502bh43"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_d6hoa"]
+
+[resource]
+script = ExtResource("1_d6hoa")
+id = 118
+display_name = "Metronome"
+description = "Waggles a finger to use any
+Pokémon move at random."
+type = 1
+category = 3
+accuracy = 0
+pp = 10
+target = "DEPENDS"
+effect = "EFFECT_METRONOME"
+ignores_protect = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned", "copycatBanned", "assistBanned")

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://dl12wv03fkt0"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_nas6r"]
+
+[resource]
+script = ExtResource("1_nas6r")
+id = 275
+display_name = "Ingrain"
+description = "Lays roots that restore HP.
+The user can't switch out."
+type = 13
+category = 3
+accuracy = 0
+pp = 20
+target = "USER"
+effect = "EFFECT_INGRAIN"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPDEF_UP_1"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://4oq0pnyysnbu"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_udaq6"]
+
+[resource]
+script = ExtResource("1_udaq6")
+id = 13
+display_name = "Razor Wind"
+description = "A 2-turn move that strikes
+the foe on the 2nd turn."
+type = 1
+category = 2
+power = 80
+pp = 10
+target = "BOTH"
+effect = "EFFECT_TWO_TURNS_ATTACK"
+extra_flags = PackedStringArray()

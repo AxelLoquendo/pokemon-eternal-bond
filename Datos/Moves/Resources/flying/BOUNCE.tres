@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://67j544yt435v"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_gl7d5"]
+
+[resource]
+script = ExtResource("1_gl7d5")
+id = 340
+display_name = "Bounce"
+description = "Bounces up, then down the
+next turn. May paralyze."
+type = 3
+category = 1
+power = 85
+accuracy = 85
+effect = "EFFECT_SEMI_INVULNERABLE"
+makes_contact = true
+extra_flags = PackedStringArray("assistBanned")

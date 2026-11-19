@@ -1,14 +1,17 @@
 class_name MoveData
 extends Resource
+## Ficha de un movimiento. Fuente de verdad = este .tres.
 
+@export_group("Identity")
 @export var id: MoveId.Id = MoveId.Id.NONE
 @export var display_name: String = ""
 @export_multiline var description: String = ""
 
+@export_group("Battle")
 @export var type: TypeId.Id = TypeId.Id.NONE
 @export var category: MoveCategory.Id = MoveCategory.Id.NONE
 @export var power: int = 0
-@export var accuracy: int = 100 ## 0 = nunca falla
+@export var accuracy: int = 100 ## 0 = nunca falla / accuracy bypass según motor
 @export var pp: int = 5
 @export var priority: int = 0
 @export var target: String = "SELECTED"
@@ -17,6 +20,7 @@ extends Resource
 @export var critical_stage: int = 0
 @export var recoil: int = 0
 
+@export_group("Flags")
 @export var makes_contact: bool = false
 @export var ignores_protect: bool = false
 @export var sound: bool = false
@@ -31,13 +35,15 @@ extends Resource
 @export var healing: bool = false
 @export var ignores_substitute: bool = false
 
-## Flags que no merecen un bool propio: "metronomeBanned", "mirrorMoveBanned"…
+@export_group("Extra")
+## Flags sin bool propio: "metronomeBanned", "mirrorMoveBanned"…
 @export var extra_flags: PackedStringArray = PackedStringArray()
 @export var z_effect: String = ""
 
 
 func is_valid() -> bool:
 	return id != MoveId.Id.NONE and not display_name.is_empty()
+
 
 func is_damaging() -> bool:
 	return category == MoveCategory.Id.PHYSICAL or category == MoveCategory.Id.SPECIAL

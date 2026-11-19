@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://b030qn1bm4cp6"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_o6kpj"]
+
+[resource]
+script = ExtResource("1_o6kpj")
+id = 464
+display_name = "Dark Void"
+description = "Drags the foes into total
+darkness, inducing Sleep."
+type = 18
+category = 3
+accuracy = 50
+pp = 10
+target = "BOTH"
+effect = "EFFECT_DARK_VOID"
+extra_flags = PackedStringArray("sketchBanned")
+z_effect = "Z_EFFECT_RESET_STATS"

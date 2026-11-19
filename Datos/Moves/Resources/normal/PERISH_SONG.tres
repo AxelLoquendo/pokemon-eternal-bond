@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://p8psisnes0lm"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_14xek"]
+
+[resource]
+script = ExtResource("1_14xek")
+id = 195
+display_name = "Perish Song"
+description = "Any Pokémon hearing this
+song faints in 3 turns."
+type = 1
+category = 3
+accuracy = 0
+target = "ALL_BATTLERS"
+effect = "EFFECT_PERISH_SONG"
+ignores_protect = true
+sound = true
+ignores_substitute = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_RESET_STATS"

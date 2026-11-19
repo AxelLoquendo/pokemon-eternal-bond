@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bgped185tqvu7"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_xa43e"]
+
+[resource]
+script = ExtResource("1_xa43e")
+id = 639
+display_name = "Pollen Puff"
+description = "Explodes on a foe, but
+restores ally's HP."
+type = 7
+category = 2
+power = 90
+pp = 15
+effect = "EFFECT_HIT_ENEMY_HEAL_ALLY"
+ballistic = true
+extra_flags = PackedStringArray()

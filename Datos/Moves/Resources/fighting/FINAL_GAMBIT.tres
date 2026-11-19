@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://c5jueqqe08rg5"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_652s3"]
+
+[resource]
+script = ExtResource("1_652s3")
+id = 515
+display_name = "Final Gambit"
+description = "The user faints to damage
+the foe equal to its HP."
+type = 2
+category = 2
+power = 1
+effect = "EFFECT_FINAL_GAMBIT"
+extra_flags = PackedStringArray("mirrorMoveBanned")

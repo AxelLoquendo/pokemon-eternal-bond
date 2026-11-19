@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://dpxpa1je1li3y"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_5qp5k"]
+
+[resource]
+script = ExtResource("1_5qp5k")
+id = 392
+display_name = "Aqua Ring"
+description = "Forms a veil of water
+that restores HP."
+type = 12
+category = 3
+accuracy = 0
+pp = 20
+target = "USER"
+effect = "EFFECT_AQUA_RING"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_DEF_UP_1"

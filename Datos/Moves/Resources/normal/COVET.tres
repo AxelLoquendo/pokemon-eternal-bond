@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://dhxtjerkv6mg5"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_31me7"]
+
+[resource]
+script = ExtResource("1_31me7")
+id = 343
+display_name = "Covet"
+description = "Cutely begs to obtain an
+item held by the foe."
+type = 1
+category = 1
+power = 60
+pp = 25
+effect = "EFFECT_STEAL_ITEM"
+makes_contact = true
+extra_flags = PackedStringArray("metronomeBanned", "meFirstBanned", "copycatBanned", "assistBanned")

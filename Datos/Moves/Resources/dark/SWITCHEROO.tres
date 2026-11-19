@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cfqk4s483vw3u"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_5yxmp"]
+
+[resource]
+script = ExtResource("1_5yxmp")
+id = 415
+display_name = "Switcheroo"
+description = "Swaps items with the foe
+faster than the eye can see."
+type = 18
+category = 3
+pp = 10
+effect = "EFFECT_TRICK"
+extra_flags = PackedStringArray("metronomeBanned", "copycatBanned", "assistBanned")
+z_effect = "Z_EFFECT_SPD_UP_2"

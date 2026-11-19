@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://wdctn2galmwy"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_i1xop"]
+
+[resource]
+script = ExtResource("1_i1xop")
+id = 590
+display_name = "Confide"
+description = "Shares a secret with the
+foe, lowering Sp. Atk."
+type = 1
+category = 3
+accuracy = 0
+pp = 20
+effect = "EFFECT_STAT_CHANGE"
+ignores_protect = true
+sound = true
+ignores_substitute = true
+extra_flags = PackedStringArray()
+z_effect = "Z_EFFECT_SPDEF_UP_1"

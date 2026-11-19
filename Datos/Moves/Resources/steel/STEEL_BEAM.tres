@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://d4a1tcipqnrfy"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_smfjd"]
+
+[resource]
+script = ExtResource("1_smfjd")
+id = 724
+display_name = "Steel Beam"
+description = "Fires a beam of steel from
+its body. It hurts the user."
+type = 9
+category = 2
+power = 140
+accuracy = 95
+effect = "EFFECT_MAX_HP_50_RECOIL"
+extra_flags = PackedStringArray("metronomeBanned")

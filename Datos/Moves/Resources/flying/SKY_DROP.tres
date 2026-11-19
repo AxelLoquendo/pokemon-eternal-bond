@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://i6oloncqnpaq"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_gsxgx"]
+
+[resource]
+script = ExtResource("1_gsxgx")
+id = 507
+display_name = "Sky Drop"
+description = "Takes the foe into the sky
+then drops it the next turn."
+type = 3
+category = 1
+power = 60
+pp = 10
+effect = "EFFECT_SKY_DROP"
+makes_contact = true
+extra_flags = PackedStringArray("assistBanned")

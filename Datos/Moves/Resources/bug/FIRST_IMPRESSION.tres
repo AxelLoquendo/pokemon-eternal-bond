@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bwu4ffu6xhiai"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_ust66"]
+
+[resource]
+script = ExtResource("1_ust66")
+id = 623
+display_name = "First Impression"
+description = "Hits hard and first.
+Only works first turn."
+type = 7
+category = 1
+power = 100
+pp = 10
+priority = 2
+effect = "EFFECT_FIRST_TURN_ONLY"
+makes_contact = true
+extra_flags = PackedStringArray()

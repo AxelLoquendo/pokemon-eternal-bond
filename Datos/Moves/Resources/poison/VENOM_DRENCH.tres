@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://c1ocn03lsuxj8"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_66fke"]
+
+[resource]
+script = ExtResource("1_66fke")
+id = 599
+display_name = "Venom Drench"
+description = "Lowers the Attack, Sp. Atk
+and Speed of poisoned foes."
+type = 4
+category = 3
+pp = 20
+target = "BOTH"
+effect = "EFFECT_STAT_CHANGE_ON_STATUS"
+extra_flags = PackedStringArray()
+z_effect = "Z_EFFECT_DEF_UP_1"

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://be3vpcfw1by8t"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_0gw54"]
+
+[resource]
+script = ExtResource("1_0gw54")
+id = 646
+display_name = "Speed Swap"
+description = "Swaps user's Speed with
+the target's."
+type = 15
+category = 3
+accuracy = 0
+pp = 10
+effect = "EFFECT_SPEED_SWAP"
+ignores_substitute = true
+extra_flags = PackedStringArray()
+z_effect = "Z_EFFECT_SPD_UP_1"

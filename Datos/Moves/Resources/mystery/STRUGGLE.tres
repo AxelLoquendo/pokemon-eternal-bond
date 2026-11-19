@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cvcqc3y83623t"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_v8l0k"]
+
+[resource]
+script = ExtResource("1_v8l0k")
+id = 165
+display_name = "Struggle"
+description = "Used only if all PP are gone.
+Also hurts the user a little."
+type = 10
+category = 1
+power = 50
+accuracy = 0
+pp = 1
+effect = "B_UPDATED_MOVE_DATA >= GEN_4 ? EFFECT_STRUGGLE : EFFECT_RECOIL"
+makes_contact = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned", "meFirstBanned", "copycatBanned", "assistBanned", "sketchBanned")

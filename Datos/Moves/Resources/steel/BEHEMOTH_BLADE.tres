@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bv3ji081ax3mu"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_7wyhh"]
+
+[resource]
+script = ExtResource("1_7wyhh")
+id = 709
+display_name = "Behemoth Blade"
+description = "Strikes as a sword. Deals 2x
+damage to a Dynamaxed foe."
+type = 9
+category = 1
+power = 100
+effect = "EFFECT_DYNAMAX_DOUBLE_DMG"
+makes_contact = true
+slicing = true
+extra_flags = PackedStringArray("metronomeBanned", "copycatBanned")

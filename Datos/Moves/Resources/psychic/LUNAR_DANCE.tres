@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bc45k8fft4twd"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_qtvjq"]
+
+[resource]
+script = ExtResource("1_qtvjq")
+id = 461
+display_name = "Lunar Dance"
+description = "Faints to heal the HP, PP, and
+status of the next Pokémon."
+type = 15
+category = 3
+accuracy = 0
+pp = 10
+target = "USER"
+effect = "EFFECT_LUNAR_DANCE"
+ignores_protect = true
+dance = true
+healing = true
+extra_flags = PackedStringArray("mirrorMoveBanned")

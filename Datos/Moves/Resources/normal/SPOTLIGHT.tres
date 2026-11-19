@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://o5vj8pvlxnnl"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_5y6t3"]
+
+[resource]
+script = ExtResource("1_5y6t3")
+id = 634
+display_name = "Spotlight"
+description = "Makes the foe attack the
+spotlighted Pokémon."
+type = 1
+category = 3
+accuracy = 0
+pp = 15
+priority = 3
+effect = "EFFECT_FOLLOW_ME"
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned", "copycatBanned", "assistBanned")
+z_effect = "Z_EFFECT_SPDEF_UP_1"

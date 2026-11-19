@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://okivwehs7wte"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_ihdxp"]
+
+[resource]
+script = ExtResource("1_ihdxp")
+id = 780
+display_name = "Silk Trap"
+description = "Protects itself, lowering
+Speed on contact."
+type = 7
+category = 3
+accuracy = 0
+pp = 10
+priority = 4
+target = "USER"
+effect = "EFFECT_PROTECT"
+ignores_protect = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned")

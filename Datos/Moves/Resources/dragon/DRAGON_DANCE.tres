@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://gn4ojtduppdf"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_hdsb8"]
+
+[resource]
+script = ExtResource("1_hdsb8")
+id = 349
+display_name = "Dragon Dance"
+description = "A mystical dance that
+raises Attack and Speed."
+type = 17
+category = 3
+accuracy = 0
+pp = 20
+target = "USER"
+effect = "EFFECT_STAT_CHANGE"
+ignores_protect = true
+dance = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_RESET_STATS"

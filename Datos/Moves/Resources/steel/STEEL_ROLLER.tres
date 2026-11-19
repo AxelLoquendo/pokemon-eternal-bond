@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://drdk76i7kqhjh"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_sdvmu"]
+
+[resource]
+script = ExtResource("1_sdvmu")
+id = 726
+display_name = "Steel Roller"
+description = "Destroys terrain. Fails if
+ground isn't terrain."
+type = 9
+category = 1
+power = 130
+effect = "EFFECT_STEEL_ROLLER"
+makes_contact = true
+extra_flags = PackedStringArray()

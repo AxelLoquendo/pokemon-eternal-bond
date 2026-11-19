@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://dkgb1gqjgj70p"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_v046s"]
+
+[resource]
+script = ExtResource("1_v046s")
+id = 320
+display_name = "Grass Whistle"
+description = "Lulls the foe into sleep
+with a pleasant melody."
+type = 13
+category = 3
+accuracy = 55
+pp = 15
+effect = "EFFECT_NON_VOLATILE_STATUS"
+sound = true
+ignores_substitute = true
+extra_flags = PackedStringArray()
+z_effect = "Z_EFFECT_SPD_UP_1"

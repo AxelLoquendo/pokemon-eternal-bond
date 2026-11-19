@@ -1,11 +1,16 @@
 extends Node
-## Catálogo de movimientos: índice crudo + MoveData bajo demanda.
+## Catálogo de movimientos — lazy .tres (sin JSON en runtime).
+##
+## Arranque: move_paths.res
+## get_move(id): carga el .tres y cachea.
+##
+## Migración: tools/import_moves_tres.gd
+## Diario: editar .tres + tools/rebuild_moves_index.gd
 
-const PATH: String = "res://Datos/Moves/moves.json"
+const INDEX_PATH: String = "res://Datos/Moves/move_paths.res"
 
-var _raw: Dictionary = {}
 var _cache: Dictionary = {}
-var _ids: Array = []
+var _index: MovePathsIndex = null
 var _loaded: bool = false
 
 
@@ -16,7 +21,7 @@ func _ready() -> void:
 func warm_index() -> void:
 	if _loaded:
 		return
-	_build_index()
+	_load_index()
 
 
 func is_ready() -> bool:
@@ -25,14 +30,29 @@ func is_ready() -> bool:
 
 func count() -> int:
 	_ensure()
-	return _ids.size()
+	if _index == null:
+		return 0
+	return _index.entry_count
+
+
+func all_ids() -> Array:
+	_ensure()
+	if _index == null:
+		return []
+	var out: Array = []
+	out.resize(_index.ids.size())
+	for i: int in _index.ids.size():
+		out[i] = _index.ids[i] as MoveId.Id
+	return out
 
 
 func has_move(id: MoveId.Id) -> bool:
 	if id == MoveId.Id.NONE:
 		return false
+	if _cache.has(id):
+		return true
 	_ensure()
-	return _cache.has(id) or _raw.has(id)
+	return _index != null and _index.has_id(int(id))
 
 
 func get_move(id: MoveId.Id) -> MoveData:
@@ -41,11 +61,20 @@ func get_move(id: MoveId.Id) -> MoveData:
 	if _cache.has(id):
 		return _cache[id] as MoveData
 	_ensure()
-	if not _raw.has(id):
+	if _index == null:
 		return null
-	var data: MoveData = _from_dict(_raw[id] as Dictionary)
-	_raw.erase(id)
-	if data != null and data.is_valid():
+	var path: String = _index.path_for(int(id))
+	if path.is_empty():
+		return null
+	if not ResourceLoader.exists(path):
+		push_warning("MoveCatalog: falta %s (id %s)" % [path, MoveId.to_token(id)])
+		return null
+	var res: Resource = ResourceLoader.load(path, "", ResourceLoader.CACHE_MODE_REUSE)
+	if res == null or not (res is MoveData):
+		push_warning("MoveCatalog: recurso inválido %s" % path)
+		return null
+	var data: MoveData = res as MoveData
+	if data.is_valid():
 		_cache[id] = data
 		return data
 	return null
@@ -57,10 +86,8 @@ func get_display_name(id: MoveId.Id) -> String:
 	if _cache.has(id):
 		return (_cache[id] as MoveData).display_name
 	_ensure()
-	if _raw.has(id):
-		var n: String = str((_raw[id] as Dictionary).get("display_name", ""))
-		if not n.is_empty():
-			return n
+	if _index != null and _index.display_names.has(int(id)):
+		return str(_index.display_names[int(id)])
 	return MoveId.to_token(id)
 
 
@@ -68,84 +95,33 @@ func clear_cache() -> void:
 	_cache.clear()
 
 
+func reload() -> void:
+	_cache.clear()
+	_index = null
+	_loaded = false
+	warm_index()
+
+
 func _ensure() -> void:
 	if not _loaded:
-		_build_index()
+		_load_index()
 
 
-func _build_index() -> void:
-	_raw.clear()
-	_ids.clear()
-	if not FileAccess.file_exists(PATH):
-		push_error("MoveCatalog: no existe %s" % PATH)
+func _load_index() -> void:
+	if not ResourceLoader.exists(INDEX_PATH):
+		push_error(
+			"MoveCatalog: no existe %s. Ejecuta tools/import_moves_tres.gd o rebuild_moves_index.gd"
+			% INDEX_PATH
+		)
+		_index = null
 		_loaded = true
 		return
-	var text: String = FileAccess.get_file_as_string(PATH)
-	var parsed: Variant = JSON.parse_string(text)
-	text = ""
-	if typeof(parsed) != TYPE_ARRAY:
-		push_error("MoveCatalog: JSON inválido")
+	var res: Resource = load(INDEX_PATH)
+	if res is MovePathsIndex:
+		_index = res as MovePathsIndex
 		_loaded = true
+		print("MoveCatalog: índice %d moves (%s)" % [_index.entry_count, INDEX_PATH])
 		return
-	for entry: Variant in parsed:
-		if typeof(entry) != TYPE_DICTIONARY:
-			continue
-		var d: Dictionary = entry
-		var mid: MoveId.Id = MoveId.from_token(str(d.get("id", "")))
-		if mid == MoveId.Id.NONE:
-			continue
-		_raw[mid] = d
-		_ids.append(mid)
+	push_error("MoveCatalog: %s no es MovePathsIndex" % INDEX_PATH)
+	_index = null
 	_loaded = true
-	print("MoveCatalog: índice %d movimientos (lazy)" % _ids.size())
-
-
-func _from_dict(e: Dictionary) -> MoveData:
-	var id: MoveId.Id = MoveId.from_token(str(e.get("id", "")))
-	if id == MoveId.Id.NONE:
-		return null
-	var data := MoveData.new()
-	data.id = id
-	data.display_name = str(e.get("display_name", ""))
-	data.description = str(e.get("description", ""))
-	data.type = TypeId.from_token(str(e.get("type", "NORMAL")))
-	data.category = _category(str(e.get("category", "STATUS")))
-	data.power = int(e.get("power", 0))
-	data.accuracy = int(e.get("accuracy", 100))
-	data.pp = int(e.get("pp", 5))
-	data.priority = int(e.get("priority", 0))
-	data.target = str(e.get("target", "TARGET_SELECTED")).replace("TARGET_", "")
-	data.effect = str(e.get("effect", "EFFECT_HIT"))
-	data.strike_count = int(e.get("strike_count", 1))
-	data.critical_stage = int(e.get("critical_stage", 0))
-	data.recoil = int(e.get("recoil", 0))
-	data.makes_contact = bool(e.get("makes_contact", false))
-	data.ignores_protect = bool(e.get("ignores_protect", false))
-	data.sound = bool(e.get("sound", false))
-	data.punch = bool(e.get("punch", false))
-	data.bite = bool(e.get("bite", false))
-	data.pulse = bool(e.get("pulse", false))
-	data.ballistic = bool(e.get("ballistic", false))
-	data.powder = bool(e.get("powder", false))
-	data.slicing = bool(e.get("slicing", false))
-	data.wind = bool(e.get("wind", false))
-	data.dance = bool(e.get("dance", false))
-	data.healing = bool(e.get("healing", false))
-	data.ignores_substitute = bool(e.get("ignores_substitute", false))
-	data.z_effect = str(e.get("z_effect", ""))
-	data.extra_flags = PackedStringArray()
-	for f: Variant in e.get("extra_flags", []):
-		data.extra_flags.append(str(f))
-	return data
-
-
-func _category(token: String) -> MoveCategory.Id:
-	match token:
-		"PHYSICAL":
-			return MoveCategory.Id.PHYSICAL
-		"SPECIAL":
-			return MoveCategory.Id.SPECIAL
-		"STATUS":
-			return MoveCategory.Id.STATUS
-		_:
-			return MoveCategory.Id.NONE

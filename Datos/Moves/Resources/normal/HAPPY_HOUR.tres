@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://ejl5n8ox54rp"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_0qae6"]
+
+[resource]
+script = ExtResource("1_0qae6")
+id = 603
+display_name = "Happy Hour"
+description = "Doubles the amount of
+Prize Money received."
+type = 1
+category = 3
+accuracy = 0
+pp = 30
+target = "USER"
+effect = "EFFECT_HAPPY_HOUR"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_ALL_STATS_UP_1"

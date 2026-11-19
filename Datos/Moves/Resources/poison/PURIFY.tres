@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://ch5dd56f7b0eq"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_bokib"]
+
+[resource]
+script = ExtResource("1_bokib")
+id = 648
+display_name = "Purify"
+description = "Cures the foe's status
+to restore HP."
+type = 4
+category = 3
+accuracy = 0
+effect = "EFFECT_PURIFY"
+healing = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_ALL_STATS_UP_1"

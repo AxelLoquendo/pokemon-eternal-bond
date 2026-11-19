@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://d1dfdqr1l5x7h"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_lsbjk"]
+
+[resource]
+script = ExtResource("1_lsbjk")
+id = 191
+display_name = "Spikes"
+description = "Sets spikes that hurt a 
+foe switching in."
+type = 5
+category = 3
+accuracy = 0
+pp = 20
+target = "OPPONENTS_FIELD"
+effect = "EFFECT_SPIKES"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_DEF_UP_1"

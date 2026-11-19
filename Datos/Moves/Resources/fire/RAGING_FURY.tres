@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cg6is5ddcpy5e"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_wcgwg"]
+
+[resource]
+script = ExtResource("1_wcgwg")
+id = 761
+display_name = "Raging Fury"
+description = "A rampage of 2 to 3 turns
+that confuses the user."
+type = 11
+category = 1
+power = 120
+pp = 10
+target = "RANDOM"
+extra_flags = PackedStringArray("metronomeBanned")

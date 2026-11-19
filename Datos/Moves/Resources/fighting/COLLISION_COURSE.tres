@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://b2c7e4tjido7"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_33csv"]
+
+[resource]
+script = ExtResource("1_33csv")
+id = 804
+display_name = "Collision Course"
+description = "Prehistoric explosion that's
+stronger if super effective."
+type = 2
+category = 1
+power = 100
+effect = "EFFECT_COLLISION_COURSE"
+makes_contact = true
+extra_flags = PackedStringArray("metronomeBanned")

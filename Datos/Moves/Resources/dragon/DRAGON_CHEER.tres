@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://chb4k7pg1h15f"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_arp37"]
+
+[resource]
+script = ExtResource("1_arp37")
+id = 841
+display_name = "Dragon Cheer"
+description = "Raises allies' critical-hit
+ratio, sharply if Dragons."
+type = 17
+category = 3
+accuracy = 0
+pp = 15
+target = "ALLY"
+effect = "EFFECT_DRAGON_CHEER"
+sound = true
+ignores_substitute = true
+extra_flags = PackedStringArray()

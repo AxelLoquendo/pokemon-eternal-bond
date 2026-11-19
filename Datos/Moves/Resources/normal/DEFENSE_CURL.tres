@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://ke6ovw1kqq5c"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_w4gdg"]
+
+[resource]
+script = ExtResource("1_w4gdg")
+id = 111
+display_name = "Defense Curl"
+description = "Curls up to conceal weak
+spots and raise Defense."
+type = 1
+category = 3
+accuracy = 0
+pp = 40
+target = "USER"
+effect = "EFFECT_DEFENSE_CURL"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_ACC_UP_1"

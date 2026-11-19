@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://br2icgde2a5g7"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_cuy7q"]
+
+[resource]
+script = ExtResource("1_cuy7q")
+id = 323
+display_name = "Water Spout"
+description = "Inflicts more damage if the
+user's HP is high."
+type = 12
+category = 2
+power = 150
+target = "BOTH"
+effect = "EFFECT_POWER_BASED_ON_USER_HP"
+extra_flags = PackedStringArray()

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bosdbd3p8vsyf"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_rxtkk"]
+
+[resource]
+script = ExtResource("1_rxtkk")
+id = 173
+display_name = "Snore"
+description = "A loud move that can be used
+only while asleep. May flinch."
+type = 1
+category = 2
+power = 50
+pp = 15
+effect = "EFFECT_SNORE"
+sound = true
+ignores_substitute = true
+extra_flags = PackedStringArray("metronomeBanned")

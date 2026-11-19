@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://7l645uprrjbm"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_or2vx"]
+
+[resource]
+script = ExtResource("1_or2vx")
+id = 807
+display_name = "Chilly Reception"
+description = "Bad joke summons hailstorm.
+The user also switches out."
+type = 16
+category = 3
+accuracy = 0
+pp = 10
+target = "FIELD"
+effect = "EFFECT_WEATHER_AND_SWITCH"
+ignores_protect = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPD_UP_1"

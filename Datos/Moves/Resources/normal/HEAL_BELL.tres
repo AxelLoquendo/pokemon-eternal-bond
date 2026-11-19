@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://77kckp5btoay"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_bxxxk"]
+
+[resource]
+script = ExtResource("1_bxxxk")
+id = 215
+display_name = "Heal Bell"
+description = "Chimes soothingly to heal
+the party's status problems."
+type = 1
+category = 3
+accuracy = 0
+target = "USER_AND_ALLY"
+effect = "EFFECT_HEAL_BELL"
+ignores_protect = true
+sound = true
+ignores_substitute = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_RECOVER_HP"

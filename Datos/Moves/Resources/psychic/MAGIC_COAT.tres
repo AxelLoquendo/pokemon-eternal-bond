@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://br38wde1mlmux"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_ftr3y"]
+
+[resource]
+script = ExtResource("1_ftr3y")
+id = 277
+display_name = "Magic Coat"
+description = "Reflects special effects
+back to the attacker."
+type = 15
+category = 3
+accuracy = 0
+pp = 15
+priority = 4
+target = "DEPENDS"
+effect = "EFFECT_MAGIC_COAT"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPDEF_UP_2"

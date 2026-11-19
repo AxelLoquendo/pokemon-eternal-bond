@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bukimj2g4kiv6"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_mmlur"]
+
+[resource]
+script = ExtResource("1_mmlur")
+id = 417
+display_name = "Nasty Plot"
+description = "Thinks bad thoughts to
+sharply raise Sp. Atk."
+type = 18
+category = 3
+accuracy = 0
+pp = 20
+target = "USER"
+effect = "EFFECT_STAT_CHANGE"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_RESET_STATS"

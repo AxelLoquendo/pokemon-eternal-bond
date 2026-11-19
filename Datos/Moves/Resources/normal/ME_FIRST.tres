@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cy2xngqb1jves"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_v5eim"]
+
+[resource]
+script = ExtResource("1_v5eim")
+id = 382
+display_name = "Me First"
+description = "Executes the foe's attack
+with greater power."
+type = 1
+category = 3
+accuracy = 0
+pp = 20
+target = "OPPONENT"
+effect = "EFFECT_ME_FIRST"
+ignores_substitute = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned", "meFirstBanned", "copycatBanned", "assistBanned")
+z_effect = "Z_EFFECT_SPD_UP_2"

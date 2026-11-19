@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://c307gygjffxw3"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_cjg1g"]
+
+[resource]
+script = ExtResource("1_cjg1g")
+id = 525
+display_name = "Dragon Tail"
+description = "Knocks away foe to switch
+it out or end wild battles."
+type = 17
+category = 1
+power = 60
+accuracy = 90
+pp = 10
+priority = -6
+effect = "EFFECT_HIT_SWITCH_TARGET"
+makes_contact = true
+extra_flags = PackedStringArray("copycatBanned", "assistBanned")

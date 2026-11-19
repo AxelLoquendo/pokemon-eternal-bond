@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://iakwk2k7o1jb"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_5b5na"]
+
+[resource]
+script = ExtResource("1_5b5na")
+id = 269
+display_name = "Taunt"
+description = "The foe can use only attack
+moves for 3 turns."
+type = 18
+category = 3
+pp = 20
+effect = "EFFECT_TAUNT"
+ignores_substitute = true
+extra_flags = PackedStringArray()
+z_effect = "Z_EFFECT_ATK_UP_1"

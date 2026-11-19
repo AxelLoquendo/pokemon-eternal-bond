@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://caoeasu0nfcae"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_mi2ko"]
+
+[resource]
+script = ExtResource("1_mi2ko")
+id = 377
+display_name = "Heal Block"
+description = "Prevents the foes from
+recovering HP for 5 turns."
+type = 15
+category = 3
+pp = 15
+target = "BOTH"
+effect = "EFFECT_HEAL_BLOCK"
+extra_flags = PackedStringArray()
+z_effect = "Z_EFFECT_SPATK_UP_2"

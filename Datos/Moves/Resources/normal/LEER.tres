@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cy6i5ufl1jyuo"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_bc5ve"]
+
+[resource]
+script = ExtResource("1_bc5ve")
+id = 43
+display_name = "Leer"
+description = "Frightens the foes with a
+leer to lower Defense."
+type = 1
+category = 3
+pp = 30
+target = "BOTH"
+effect = "EFFECT_STAT_CHANGE"
+extra_flags = PackedStringArray()
+z_effect = "Z_EFFECT_ATK_UP_1"

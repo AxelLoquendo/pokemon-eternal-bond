@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://djdvrpuqopqnj"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_xmlnh"]
+
+[resource]
+script = ExtResource("1_xmlnh")
+id = 652
+display_name = "Instruct"
+description = "Orders the target to use
+its last move again."
+type = 15
+category = 3
+accuracy = 0
+pp = 15
+effect = "EFFECT_INSTRUCT"
+ignores_substitute = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPATK_UP_1"

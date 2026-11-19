@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bx8j2p8dkt0hv"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_kudua"]
+
+[resource]
+script = ExtResource("1_kudua")
+id = 563
+display_name = "Rototiller"
+description = "Ups the Attack and Sp. Atk
+of Grass-type Pokémon."
+type = 5
+category = 3
+accuracy = 0
+pp = 10
+target = "ALL_BATTLERS"
+effect = "EFFECT_ROTOTILLER"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_ATK_UP_1"

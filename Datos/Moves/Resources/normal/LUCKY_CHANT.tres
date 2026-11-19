@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://six548monwc2"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_57t4a"]
+
+[resource]
+script = ExtResource("1_57t4a")
+id = 381
+display_name = "Lucky Chant"
+description = "Prevents the foe from
+landing critical hits."
+type = 1
+category = 3
+accuracy = 0
+pp = 30
+target = "USER"
+effect = "EFFECT_LUCKY_CHANT"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_EVSN_UP_1"

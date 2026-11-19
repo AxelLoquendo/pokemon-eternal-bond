@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://ckdsjri0i881v"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_kkqtg"]
+
+[resource]
+script = ExtResource("1_kkqtg")
+id = 716
+display_name = "Grav Apple"
+description = "Drops an apple from above.
+Lowers the foe's Defense."
+type = 13
+category = 1
+power = 90
+pp = 10
+effect = "EFFECT_GRAV_APPLE"
+extra_flags = PackedStringArray("metronomeBanned")

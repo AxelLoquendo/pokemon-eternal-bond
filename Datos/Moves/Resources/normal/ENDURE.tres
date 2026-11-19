@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://c5p12tb2gtsvv"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_xnunu"]
+
+[resource]
+script = ExtResource("1_xnunu")
+id = 203
+display_name = "Endure"
+description = "Endures any attack for
+1 turn, leaving at least 1 HP."
+type = 1
+category = 3
+accuracy = 0
+pp = 10
+priority = 2
+target = "USER"
+effect = "EFFECT_ENDURE"
+ignores_protect = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned", "copycatBanned", "assistBanned")
+z_effect = "Z_EFFECT_RESET_STATS"

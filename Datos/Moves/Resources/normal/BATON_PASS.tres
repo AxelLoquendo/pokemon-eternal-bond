@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://dj1db66bhcr8f"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_ic8bu"]
+
+[resource]
+script = ExtResource("1_ic8bu")
+id = 226
+display_name = "Baton Pass"
+description = "Switches out the user while
+keeping effects in play."
+type = 1
+category = 3
+accuracy = 0
+pp = 40
+target = "USER"
+effect = "EFFECT_BATON_PASS"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_RESET_STATS"

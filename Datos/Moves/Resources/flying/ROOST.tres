@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://b3f2tym2sh257"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_82a4u"]
+
+[resource]
+script = ExtResource("1_82a4u")
+id = 355
+display_name = "Roost"
+description = "Restores the user's HP by
+half of its max HP."
+type = 3
+category = 3
+accuracy = 0
+target = "USER"
+effect = "EFFECT_ROOST"
+ignores_protect = true
+healing = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_RESET_STATS"

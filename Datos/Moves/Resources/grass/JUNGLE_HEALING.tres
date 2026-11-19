@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://xhddvhebnyl2"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_6l1u0"]
+
+[resource]
+script = ExtResource("1_6l1u0")
+id = 744
+display_name = "Jungle Healing"
+description = "Heals HP and status of
+itself and allies in battle."
+type = 13
+category = 3
+accuracy = 0
+pp = 10
+target = "USER"
+effect = "EFFECT_JUNGLE_HEALING"
+ignores_protect = true
+healing = true
+ignores_substitute = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned")

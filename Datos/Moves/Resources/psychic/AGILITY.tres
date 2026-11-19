@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://b57b0aubs3pen"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_g4olp"]
+
+[resource]
+script = ExtResource("1_g4olp")
+id = 97
+display_name = "Agility"
+description = "Relaxes the body to sharply
+raise Speed."
+type = 15
+category = 3
+accuracy = 0
+pp = 30
+target = "USER"
+effect = "EFFECT_STAT_CHANGE"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_RESET_STATS"

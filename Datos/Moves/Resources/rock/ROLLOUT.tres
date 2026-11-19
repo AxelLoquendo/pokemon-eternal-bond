@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://b1olgqdswtqka"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_t8iyu"]
+
+[resource]
+script = ExtResource("1_t8iyu")
+id = 205
+display_name = "Rollout"
+description = "An attack lasting 5 turns
+with rising intensity."
+type = 6
+category = 1
+power = 30
+accuracy = 90
+pp = 20
+effect = "EFFECT_ROLLOUT"
+makes_contact = true
+extra_flags = PackedStringArray()

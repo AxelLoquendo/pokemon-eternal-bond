@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://dfv42qkn0123p"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_qcbv2"]
+
+[resource]
+script = ExtResource("1_qcbv2")
+id = 578
+display_name = "Crafty Shield"
+description = "Evades status moves for
+one turn."
+type = 19
+category = 3
+accuracy = 0
+pp = 10
+priority = 3
+target = "USER"
+effect = "EFFECT_PROTECT"
+ignores_protect = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPDEF_UP_1"

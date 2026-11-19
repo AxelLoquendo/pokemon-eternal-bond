@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://chclwqcydwg1i"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_43mrc"]
+
+[resource]
+script = ExtResource("1_43mrc")
+id = 284
+display_name = "Eruption"
+description = "The higher the user's HP,
+the more damage caused."
+type = 11
+category = 2
+power = 150
+target = "BOTH"
+effect = "EFFECT_POWER_BASED_ON_USER_HP"
+extra_flags = PackedStringArray()

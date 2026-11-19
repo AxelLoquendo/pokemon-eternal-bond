@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cukftdadatpiv"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_eqi4e"]
+
+[resource]
+script = ExtResource("1_eqi4e")
+id = 252
+display_name = "Fake Out"
+description = "A 1st-turn only, 1st-strike
+move that causes flinching."
+type = 1
+category = 1
+power = 40
+pp = 10
+priority = 3
+effect = "EFFECT_FIRST_TURN_ONLY"
+makes_contact = true
+extra_flags = PackedStringArray()

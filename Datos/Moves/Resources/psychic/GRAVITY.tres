@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bweqbfkpa0lu"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_33hpv"]
+
+[resource]
+script = ExtResource("1_33hpv")
+id = 356
+display_name = "Gravity"
+description = "Gravity is intensified
+negating levitation."
+type = 15
+category = 3
+accuracy = 0
+target = "FIELD"
+effect = "EFFECT_GRAVITY"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPATK_UP_1"

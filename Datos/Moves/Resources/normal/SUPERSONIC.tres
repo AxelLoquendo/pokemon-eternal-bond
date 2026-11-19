@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cc0loeg4eirso"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_i4m6e"]
+
+[resource]
+script = ExtResource("1_i4m6e")
+id = 48
+display_name = "Supersonic"
+description = "Emits bizarre sound waves
+that confuse the foe."
+type = 1
+category = 3
+accuracy = 55
+pp = 20
+effect = "EFFECT_CONFUSE"
+sound = true
+ignores_substitute = true
+extra_flags = PackedStringArray()
+z_effect = "Z_EFFECT_SPD_UP_1"

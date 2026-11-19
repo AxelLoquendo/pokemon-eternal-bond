@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://25kghlxja6u4"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_biobs"]
+
+[resource]
+script = ExtResource("1_biobs")
+id = 803
+display_name = "Ruination"
+description = "Summons a ruinous disaster
+and cuts half the foe's HP."
+type = 18
+category = 2
+power = 1
+accuracy = 90
+pp = 10
+effect = "EFFECT_FIXED_PERCENT_DAMAGE"
+extra_flags = PackedStringArray("metronomeBanned")

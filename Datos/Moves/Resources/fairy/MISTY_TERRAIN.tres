@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://bmqjai65tukvb"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_jaqwt"]
+
+[resource]
+script = ExtResource("1_jaqwt")
+id = 581
+display_name = "Misty Terrain"
+description = "Covers the ground with mist
+for 5 turns. Blocks status."
+type = 19
+category = 3
+accuracy = 0
+pp = 10
+target = "FIELD"
+effect = "EFFECT_TERRAIN"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_SPDEF_UP_1"

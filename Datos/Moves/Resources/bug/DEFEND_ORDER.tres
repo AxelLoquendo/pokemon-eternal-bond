@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://d3u8dckehhwen"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_ry1t5"]
+
+[resource]
+script = ExtResource("1_ry1t5")
+id = 455
+display_name = "Defend Order"
+description = "Raises Defense and Sp. Def
+with a living shield."
+type = 7
+category = 3
+accuracy = 0
+pp = 10
+target = "USER"
+effect = "EFFECT_STAT_CHANGE"
+ignores_protect = true
+extra_flags = PackedStringArray("mirrorMoveBanned")
+z_effect = "Z_EFFECT_DEF_UP_1"

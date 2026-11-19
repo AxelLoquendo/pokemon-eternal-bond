@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://cpdf8ftjg4um8"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_5sjin"]
+
+[resource]
+script = ExtResource("1_5sjin")
+id = 791
+display_name = "Revival Blessing"
+description = "Revives a fainted party
+member and heals half its HP."
+type = 1
+category = 3
+accuracy = 0
+pp = 1
+target = "USER"
+effect = "EFFECT_REVIVAL_BLESSING"
+ignores_protect = true
+healing = true
+extra_flags = PackedStringArray("metronomeBanned", "mirrorMoveBanned", "sketchBanned")

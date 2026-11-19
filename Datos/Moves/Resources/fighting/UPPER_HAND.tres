@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="MoveData" format=3 uid="uid://r5k6cygeyt13"]
+
+[ext_resource type="Script" uid="uid://274ae2k6fgdi" path="res://Scripts/Moves/move_data.gd" id="1_c1g8t"]
+
+[resource]
+script = ExtResource("1_c1g8t")
+id = 846
+display_name = "Upper Hand"
+description = "Makes the target flinch if
+readying a priority move."
+type = 2
+category = 1
+power = 65
+pp = 15
+priority = 3
+effect = "EFFECT_UPPER_HAND"
+makes_contact = true
+extra_flags = PackedStringArray()
