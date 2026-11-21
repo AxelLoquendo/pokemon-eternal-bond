@@ -1,11 +1,14 @@
 class_name AbilityData
 extends Resource
+## Ficha de una habilidad. Fuente de verdad = este .tres.
 
+@export_group("Identity")
 @export var id: AbilityId.Id = AbilityId.Id.NONE
 @export var display_name: String = ""
 @export_multiline var description: String = ""
 @export var ai_rating: int = 0
 
+@export_group("Restrictions")
 @export var cant_be_copied: bool = false
 @export var cant_be_swapped: bool = false
 @export var cant_be_traced: bool = false
