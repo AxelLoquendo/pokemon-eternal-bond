@@ -160,7 +160,9 @@ func _play_cry() -> void:
 
 
 func _play_ui(id: SFXGame.SoundEffectID) -> void:
-	if MusicManager:
+	if MusicManager == null:
+		return
+	if MusicManager.has_method("reproducir_se"):
 		MusicManager.reproducir_se(id)
 
 

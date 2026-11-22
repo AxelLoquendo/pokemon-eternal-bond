@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://dtc03qytwlqcr" path="res://Graficos/Status/sleep.png" id="6_qiceh"]
 [ext_resource type="PackedScene" uid="uid://bmslqd3dhnx2m" path="res://Escenas/UI/Summary_Screen/skills_page.tscn" id="9_s6t85"]
 [ext_resource type="PackedScene" uid="uid://cxoa3bqrmdhwe" path="res://Escenas/UI/Summary_Screen/evs_ivs_page.tscn" id="10_7r8qk"]
+[ext_resource type="PackedScene" uid="uid://c0hwqmg3ujkse" path="res://Escenas/UI/Summary_Screen/move_page.tscn" id="11_58vj3"]
 [ext_resource type="Script" uid="uid://bedpjl64ufoq8" path="res://Scripts/UI/Summary_Screen/summary_screen.gd" id="script_summary"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_htemk"]
@@ -82,4 +83,7 @@ texture = ExtResource("6_qiceh")
 visible = false
 
 [node name="Evs_Ivs_Page" parent="." unique_id=707107241 instance=ExtResource("10_7r8qk")]
+visible = false
+
+[node name="Move_Page" parent="." unique_id=1887700094 instance=ExtResource("11_58vj3")]
 visible = false

@@ -59,12 +59,15 @@ func bind(mon: PokemonInstance) -> void:
 	# Held item
 	var item: ItemData = mon.held_item_data()
 	if _item_name:
+		var item_txt: String = "—"
 		if item != null:
-			_item_name.text = item.display_name
+			item_txt = item.display_name
 		elif mon.held_item != ItemId.Id.NONE:
-			_item_name.text = ItemId.to_token(mon.held_item)
+			item_txt = ItemId.to_token(mon.held_item)
+		if _item_name.has_method("set_compressed_text"):
+			_item_name.call("set_compressed_text", item_txt)
 		else:
-			_item_name.text = "—"
+			_item_name.text = item_txt
 	if _item_icon:
 		if ItemCatalog and mon.held_item != ItemId.Id.NONE:
 			_item_icon.texture = ItemCatalog.get_icon(mon.held_item)

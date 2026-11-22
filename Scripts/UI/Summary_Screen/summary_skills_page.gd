@@ -14,7 +14,7 @@ const TYPE_DIR: String = "res://Graficos/Types/"
 @onready var _spe: Label = $Skills_Box/Speed_Number
 @onready var _exp_points: Label = $Skills_Box/Exp_Point
 @onready var _exp_next: Label = $Skills_Box/Exp_Next
-@onready var _hidden_power: Sprite2D = $Skills_Hidden_Power/Hidden_Power
+@onready var _hidden_power: Sprite2D = get_node_or_null("Skills_Hidden_Power/Hidden_Power") as Sprite2D
 
 var _hp_full_scale_x: float = 1.0
 var _exp_full_scale_x: float = 1.0
@@ -59,8 +59,9 @@ func bind(mon: PokemonInstance) -> void:
 	_cache_bar_bases()
 	mon.recalculate_stats()
 
-	# Poder oculto = tipo calculado por IVs (NO el type_1 de la especie)
-	_set_type_sprite(_hidden_power, mon.hidden_power_type())
+	# Poder oculto = tipo por IVs (no el tipo de la especie)
+	if _hidden_power != null and mon.has_method("hidden_power_type"):
+		_set_type_sprite(_hidden_power, mon.hidden_power_type())
 
 	if _hp_num:
 		_hp_num.text = "%d/%d" % [mon.hp, mon.max_hp]

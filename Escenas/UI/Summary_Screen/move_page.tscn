@@ -1,0 +1,169 @@
+[gd_scene format=3 uid="uid://c0hwqmg3ujkse"]
+
+[ext_resource type="Texture2D" uid="uid://b8g1ucd7c141p" path="res://Graficos/UI/Summary_Screen/Move_Page/move_page.png" id="1_4owxe"]
+[ext_resource type="Script" uid="uid://dta4aohmwf8sh" path="res://Scripts/UI/Summary_Screen/summary_move_page.gd" id="1_fpjer"]
+[ext_resource type="Texture2D" uid="uid://bn8lxm2xukaod" path="res://Graficos/UI/Summary_Screen/Move_Page/move_box.png" id="2_fpjer"]
+[ext_resource type="Texture2D" uid="uid://digbwtw42dn24" path="res://Graficos/UI/Summary_Screen/Move_Page/move_physical_box.png" id="3_13fcy"]
+[ext_resource type="Texture2D" uid="uid://dcvra3whvalvg" path="res://Graficos/UI/Summary_Screen/Move_Page/move_box_normal.png" id="4_heu84"]
+[ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="5_n0ews"]
+[ext_resource type="Texture2D" uid="uid://33shugjberxs" path="res://Graficos/Types/normal.png" id="6_6xdo6"]
+[ext_resource type="Texture2D" uid="uid://c52ff5r1eiswb" path="res://Graficos/Pokemon/arceus/icon.png" id="7_8hug6"]
+[ext_resource type="Texture2D" uid="uid://jr2gwp03xaim" path="res://Graficos/UI/Summary_Screen/Move_Page/move_cursor.png" id="7_13fcy"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_htemk"]
+font = ExtResource("5_n0ews")
+font_size = 24
+shadow_size = 0
+shadow_color = Color(0.5019608, 0.47058824, 0.4392157, 1)
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="LabelSettings" id="LabelSettings_i1orn"]
+line_spacing = 4.5
+font = ExtResource("5_n0ews")
+font_size = 24
+font_color = Color(0.2509804, 0.2509804, 0.2509804, 1)
+shadow_size = 0
+shadow_color = Color(0.6901961, 0.6901961, 0.6901961, 1)
+shadow_offset = Vector2(0, 2)
+
+[node name="Move_Page" type="Node2D" unique_id=1887700094]
+script = ExtResource("1_fpjer")
+
+[node name="Page_Name" type="Sprite2D" parent="." unique_id=1503677837]
+position = Vector2(240, 16)
+texture = ExtResource("1_4owxe")
+
+[node name="Move_Box" type="Sprite2D" parent="." unique_id=1871912750]
+position = Vector2(288, 176)
+texture = ExtResource("2_fpjer")
+
+[node name="Slot_1" type="Node2D" parent="Move_Box" unique_id=1109825882]
+position = Vector2(-288, -176)
+
+[node name="Category" type="Sprite2D" parent="Move_Box/Slot_1" unique_id=43964970]
+position = Vector2(272, 49)
+texture = ExtResource("3_13fcy")
+
+[node name="Move_Type" type="Sprite2D" parent="Move_Box/Slot_1" unique_id=2028275401]
+position = Vector2(384, 49)
+texture = ExtResource("4_heu84")
+
+[node name="Move_Name" type="Label" parent="Move_Box/Slot_1/Move_Type" unique_id=1087671134]
+offset_left = -78.0
+offset_top = -17.0
+offset_right = 92.0
+offset_bottom = 9.0
+text = "Placaje"
+label_settings = SubResource("LabelSettings_htemk")
+horizontal_alignment = 1
+
+[node name="Slot_2" type="Node2D" parent="Move_Box" unique_id=1535196883]
+position = Vector2(-288, -144)
+
+[node name="Category" type="Sprite2D" parent="Move_Box/Slot_2" unique_id=1483392302]
+position = Vector2(272, 49)
+texture = ExtResource("3_13fcy")
+
+[node name="Move_Type" type="Sprite2D" parent="Move_Box/Slot_2" unique_id=1370803986]
+position = Vector2(384, 49)
+texture = ExtResource("4_heu84")
+
+[node name="Move_Name" type="Label" parent="Move_Box/Slot_2/Move_Type" unique_id=960400519]
+offset_left = -78.0
+offset_top = -17.0
+offset_right = 92.0
+offset_bottom = 9.0
+text = "Placaje"
+label_settings = SubResource("LabelSettings_htemk")
+horizontal_alignment = 1
+
+[node name="Slot_3" type="Node2D" parent="Move_Box" unique_id=1496314034]
+position = Vector2(-288, -112)
+
+[node name="Category" type="Sprite2D" parent="Move_Box/Slot_3" unique_id=2090722185]
+position = Vector2(272, 49)
+texture = ExtResource("3_13fcy")
+
+[node name="Move_Type" type="Sprite2D" parent="Move_Box/Slot_3" unique_id=1767691233]
+position = Vector2(384, 49)
+texture = ExtResource("4_heu84")
+
+[node name="Move_Name" type="Label" parent="Move_Box/Slot_3/Move_Type" unique_id=383482311]
+offset_left = -78.0
+offset_top = -17.0
+offset_right = 92.0
+offset_bottom = 9.0
+text = "Placaje"
+label_settings = SubResource("LabelSettings_htemk")
+horizontal_alignment = 1
+
+[node name="Slot_4" type="Node2D" parent="Move_Box" unique_id=320998848]
+position = Vector2(-288, -80)
+
+[node name="Category" type="Sprite2D" parent="Move_Box/Slot_4" unique_id=390868300]
+position = Vector2(272, 49)
+texture = ExtResource("3_13fcy")
+
+[node name="Move_Type" type="Sprite2D" parent="Move_Box/Slot_4" unique_id=1056097607]
+position = Vector2(384, 49)
+texture = ExtResource("4_heu84")
+
+[node name="Move_Name" type="Label" parent="Move_Box/Slot_4/Move_Type" unique_id=1630426398]
+offset_left = -78.0
+offset_top = -17.0
+offset_right = 92.0
+offset_bottom = 9.0
+text = "Placaje"
+label_settings = SubResource("LabelSettings_htemk")
+horizontal_alignment = 1
+
+[node name="Cursor_Move" type="Sprite2D" parent="Move_Box" unique_id=1967574749]
+visible = false
+position = Vector2(71, -127)
+texture = ExtResource("7_13fcy")
+
+[node name="Power_Number" type="Label" parent="Move_Box" unique_id=571353298]
+offset_left = 14.0
+offset_top = -16.0
+offset_right = 60.0
+offset_bottom = 10.0
+text = "000"
+label_settings = SubResource("LabelSettings_i1orn")
+horizontal_alignment = 1
+
+[node name="Accuracy_Number" type="Label" parent="Move_Box" unique_id=2116761048]
+offset_left = 14.0
+offset_top = 16.0
+offset_right = 60.0
+offset_bottom = 42.0
+text = "000"
+label_settings = SubResource("LabelSettings_i1orn")
+horizontal_alignment = 1
+
+[node name="Type" type="Sprite2D" parent="Move_Box" unique_id=1152138308]
+position = Vector2(156, 1)
+texture = ExtResource("6_6xdo6")
+
+[node name="Category_Name" type="Label" parent="Move_Box" unique_id=1123153320]
+offset_left = 124.0
+offset_top = 16.0
+offset_right = 188.0
+offset_bottom = 42.0
+text = "Esp."
+label_settings = SubResource("LabelSettings_i1orn")
+horizontal_alignment = 1
+
+[node name="Move_Description" type="Label" parent="Move_Box" unique_id=1422022880]
+offset_left = -90.0
+offset_top = 48.0
+offset_right = 188.0
+offset_bottom = 144.0
+text = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+label_settings = SubResource("LabelSettings_i1orn")
+autowrap_mode = 3
+
+[node name="Mon_Icon" type="Sprite2D" parent="Move_Box" unique_id=1488879823]
+position = Vector2(-130, 106)
+scale = Vector2(2, 2)
+texture = ExtResource("7_8hug6")
+vframes = 2
