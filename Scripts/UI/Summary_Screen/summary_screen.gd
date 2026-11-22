@@ -6,7 +6,7 @@ extends CanvasLayer
 
 const BALL_ICON_DIR: String = "res://Graficos/UI/Summary_Screen/"
 const STATUS_DIR: String = "res://Graficos/Status/"
-const PAGE_COUNT: int = 3
+const PAGE_COUNT: int = 4
 
 @onready var _name_lbl: Label = $Entity/Box/Mon_Name
 @onready var _lvl_lbl: Label = $Entity/Box/Lvl_Number
@@ -17,6 +17,7 @@ const PAGE_COUNT: int = 3
 @onready var _info_page: Node = $InfoPage
 @onready var _skills_page: Node = $Skills_Page
 @onready var _evs_page: Node = $Evs_Ivs_Page
+@onready var _move_page: Node = $Move_Page
 
 var player_data: PlayerData = null
 var party_index: int = 0
@@ -60,13 +61,20 @@ func _unhandled_input(event: InputEvent) -> void:
 		_change_page(1)
 		get_viewport().set_input_as_handled()
 		return
-	# Party: Up/Down
 	if event.is_action_pressed("Up"):
-		_bind_party_index(party_index - 1)
+		if page_index == 3 and _move_page and _move_page.has_method("select_delta"):
+			_move_page.select_delta(-1)
+			_play_ui(SFXGame.SoundEffectID.SE_GUI_SEL_CURSOR)
+		else:
+			_bind_party_index(party_index - 1)
 		get_viewport().set_input_as_handled()
 		return
 	if event.is_action_pressed("Down"):
-		_bind_party_index(party_index + 1)
+		if page_index == 3 and _move_page and _move_page.has_method("select_delta"):
+			_move_page.select_delta(1)
+			_play_ui(SFXGame.SoundEffectID.SE_GUI_SEL_CURSOR)
+		else:
+			_bind_party_index(party_index + 1)
 		get_viewport().set_input_as_handled()
 		return
 	# Cerrar: B
@@ -94,6 +102,8 @@ func _set_page(idx: int) -> void:
 		_skills_page.visible = page_index == 1
 	if _evs_page:
 		_evs_page.visible = page_index == 2
+	if _move_page:
+		_move_page.visible = page_index == 3
 
 
 func _bind_party_index(index: int) -> void:
@@ -151,6 +161,8 @@ func _apply_pages(m: PokemonInstance) -> void:
 		_skills_page.bind(m)
 	if _evs_page and _evs_page.has_method("bind"):
 		_evs_page.bind(m)
+	if _move_page and _move_page.has_method("bind"):
+		_move_page.bind(m)
 
 
 func _play_cry() -> void:
