@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://d4hqoolqvs3b2" path="res://Graficos/UI/Summary_Screen/overlay_hp.png" id="3_7mptk"]
 [ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="4_sagcu"]
 [ext_resource type="Texture2D" uid="uid://dr2ux56r88oqh" path="res://Graficos/UI/Summary_Screen/overlay_exp.png" id="5_l0mpm"]
+[ext_resource type="Script" uid="uid://btphdiltuo0dw" path="res://Scripts/UI/Summary_Screen/summary_skills_page.gd" id="script_skills_page"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_dxukx"]
 font = ExtResource("4_sagcu")
@@ -15,6 +16,7 @@ shadow_color = Color(0.6901961, 0.6901961, 0.6901961, 1)
 shadow_offset = Vector2(0, 2)
 
 [node name="Skills_Page" type="Node2D" unique_id=455144054]
+script = ExtResource("script_skills_page")
 
 [node name="Page_Name" type="Sprite2D" parent="." unique_id=1611806864]
 position = Vector2(240, 16)

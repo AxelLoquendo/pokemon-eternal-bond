@@ -17,6 +17,12 @@ const STATUS_DIR: String = "res://Graficos/Status/"
 @onready var _ball: Sprite2D = $Entity/Ball
 @onready var _status: Sprite2D = $Entity/Status
 @onready var _info_page: Node = $InfoPage
+@onready var _skills_page: Node = $Skills_Page
+@onready var _evs_page: Node = $Evs_Ivs_Page
+
+## 0 = Info, 1 = Skills, 2 = IVs/EVs
+var page_index: int = 0
+
 
 var player_data: PlayerData = null
 var party_index: int = 0
@@ -54,6 +60,12 @@ func _unhandled_input(event: InputEvent) -> void:
 	if key >= KEY_1 and key <= KEY_6:
 		_bind_party_index(int(key) - int(KEY_1))
 		get_viewport().set_input_as_handled()
+	elif key == KEY_LEFT or key == KEY_A:
+		_set_page(page_index - 1)
+		get_viewport().set_input_as_handled()
+	elif key == KEY_RIGHT or key == KEY_D:
+		_set_page(page_index + 1)
+		get_viewport().set_input_as_handled()
 	elif key == KEY_ESCAPE or key == KEY_X:
 		# Solo si se abrió encima de otra escena
 		if get_tree().current_scene != self and get_parent() != null:
@@ -63,7 +75,7 @@ func _unhandled_input(event: InputEvent) -> void:
 
 func _seed_debug_party() -> void:
 	## Un mon de prueba para abrir la escena sola.
-	var m: PokemonInstance = PokemonInstance.create(SpeciesId.Id.TERAPAGOS_STELLAR, 36, true, true)
+	var m: PokemonInstance = PokemonInstance.create(SpeciesId.Id.VENUSAUR, 36, true, true)
 	if m == null:
 		m = PokemonInstance.create(SpeciesId.Id.BULBASAUR, 16, true, true)
 	if m == null:
@@ -128,6 +140,11 @@ func _apply_mon(m: PokemonInstance) -> void:
 
 	if _info_page and _info_page.has_method("bind"):
 		_info_page.bind(m)
+	if _skills_page and _skills_page.has_method("bind"):
+		_skills_page.bind(m)
+	if _evs_page and _evs_page.has_method("bind"):
+		_evs_page.bind(m)
+	_set_page(page_index)
 
 
 func _gender_symbol(g: PokemonEnums.Gender) -> String:
@@ -186,3 +203,13 @@ func _status_texture(status: String) -> Texture2D:
 	if ResourceLoader.exists(path):
 		return load(path) as Texture2D
 	return null
+
+
+func _set_page(idx: int) -> void:
+	page_index = posmod(idx, 3)
+	if _info_page:
+		_info_page.visible = page_index == 0
+	if _skills_page:
+		_skills_page.visible = page_index == 1
+	if _evs_page:
+		_evs_page.visible = page_index == 2

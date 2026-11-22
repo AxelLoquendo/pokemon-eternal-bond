@@ -474,9 +474,51 @@ static func create(
 	if with_moves:
 		mon.apply_level_up_moves_up_to_level()
 
+	# EXP acumulada mínima del nivel actual (growth de la especie)
+	mon.exp_points = _exp_total_for_level(mon)
 	mon.recalculate_stats()
 	mon.hp = mon.max_hp
 	return mon
+
+
+
+static func _exp_total_for_level(mon: PokemonInstance) -> int:
+	var growth: PokemonEnums.Growth = PokemonEnums.Growth.MEDIUM_FAST
+	if SpeciesCatalog:
+		var data: SpeciesData = SpeciesCatalog.get_data(mon.species_id)
+		if data != null:
+			growth = data.growth_rate
+	return _exp_at_level_static(growth, mon.level)
+
+
+static func _exp_at_level_static(growth: PokemonEnums.Growth, level: int) -> int:
+	level = clampi(level, 1, 100)
+	var n: float = float(level)
+	match growth:
+		PokemonEnums.Growth.MEDIUM_FAST:
+			return int(n * n * n)
+		PokemonEnums.Growth.FAST:
+			return int(4.0 * n * n * n / 5.0)
+		PokemonEnums.Growth.SLOW:
+			return int(5.0 * n * n * n / 4.0)
+		PokemonEnums.Growth.MEDIUM_SLOW:
+			return int((6.0 / 5.0) * n * n * n - 15.0 * n * n + 100.0 * n - 140.0)
+		PokemonEnums.Growth.ERRATIC:
+			if level < 50:
+				return int(n * n * n * (100.0 - n) / 50.0)
+			if level < 68:
+				return int(n * n * n * (150.0 - n) / 100.0)
+			if level < 98:
+				return int(n * n * n * ((1911.0 - 10.0 * n) / 3.0) / 500.0)
+			return int(n * n * n * (160.0 - n) / 100.0)
+		PokemonEnums.Growth.FLUCTUATING:
+			if level < 15:
+				return int(n * n * n * ((n + 1.0) / 3.0 + 24.0) / 50.0)
+			if level < 36:
+				return int(n * n * n * (n + 14.0) / 50.0)
+			return int(n * n * n * ((n / 2.0) + 32.0) / 50.0)
+		_:
+			return int(n * n * n)
 
 
 static func _roll_gender(ratio: int) -> PokemonEnums.Gender:

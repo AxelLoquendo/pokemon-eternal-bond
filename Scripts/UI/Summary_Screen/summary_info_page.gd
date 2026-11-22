@@ -6,7 +6,7 @@ const TERA_DIR: String = "res://Graficos/Types/Tera/"
 
 @onready var _dex: Label = $Info_Box/Dex_Number
 @onready var _species_name: Label = $Info_Box/Specie_Name
-@onready var _tera: Sprite2D = $Info_Box/Tera if has_node("Info_Box/Tera") else null
+@onready var _tera: Sprite2D = $Info_Box/Tera_Type if has_node("Info_Box/Tera_Type") else null
 @onready var _type1: Sprite2D = $Info_Box/Type_1
 @onready var _type2: Sprite2D = $Info_Box/Type_2
 @onready var _ot: Label = $Info_Box/OT_Name
@@ -38,11 +38,14 @@ func bind(mon: PokemonInstance) -> void:
 		_set_type_sprite(_type1, TypeId.Id.NONE)
 		_set_type_sprite(_type2, TypeId.Id.NONE)
 
-	# Tera icon
+	# Tera icon (nodo: Info_Box/Tera_Type)
 	if _tera:
 		var tt: TypeId.Id = mon.tera_type
-		if tt == TypeId.Id.NONE and data:
-			tt = data.type_1
+		if tt == TypeId.Id.NONE and data != null:
+			if data.force_tera_type != TypeId.Id.NONE:
+				tt = data.force_tera_type
+			else:
+				tt = data.type_1
 		_tera.texture = _type_tex(tt, true)
 		_tera.visible = _tera.texture != null
 
