@@ -1,0 +1,196 @@
+[gd_scene format=3 uid="uid://cxoa3bqrmdhwe"]
+
+[ext_resource type="Texture2D" uid="uid://djvnxemf1mv45" path="res://Graficos/UI/Summary_Screen/Ivs_Evs_Page/ivs_evs_page.png" id="1_1man0"]
+[ext_resource type="Texture2D" uid="uid://b8qvf40erpn8a" path="res://Graficos/UI/Summary_Screen/Ivs_Evs_Page/ivs_evs_box.png" id="2_i8onl"]
+[ext_resource type="Texture2D" uid="uid://b8iluaetbhtun" path="res://Graficos/UI/Summary_Screen/Ivs_Evs_Page/ivs_evs_box_nature.png" id="3_2o6df"]
+[ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="3_i8onl"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_2o6df"]
+font = ExtResource("3_i8onl")
+font_size = 24
+font_color = Color(0.2509804, 0.2509804, 0.2509804, 1)
+shadow_size = 0
+shadow_color = Color(0.6901961, 0.6901961, 0.6901961, 1)
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="LabelSettings" id="LabelSettings_i8onl"]
+font = ExtResource("3_i8onl")
+font_size = 24
+font_color = Color(0.29803923, 0.5254902, 1, 1)
+shadow_size = 0
+shadow_color = Color(0.29803923, 0.5254902, 1, 0.4509804)
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="LabelSettings" id="LabelSettings_2ye0a"]
+font = ExtResource("3_i8onl")
+font_size = 24
+font_color = Color(0.95686275, 0, 0.13725491, 1)
+shadow_size = 0
+shadow_color = Color(0.95686275, 0, 0.13725491, 0.3764706)
+shadow_offset = Vector2(0, 2)
+
+[node name="Evs_Ivs_Page" type="Node2D" unique_id=707107241]
+
+[node name="Name_Page" type="Sprite2D" parent="." unique_id=1377557494]
+position = Vector2(240, 16)
+texture = ExtResource("1_1man0")
+
+[node name="Evs_Ivs_Box" type="Sprite2D" parent="." unique_id=1988640597]
+position = Vector2(359, 145)
+texture = ExtResource("2_i8onl")
+
+[node name="Hp_IV" type="Label" parent="Evs_Ivs_Box" unique_id=2030816904]
+offset_left = -11.0
+offset_top = -113.0
+offset_right = 47.0
+offset_bottom = -87.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Hp_EV" type="Label" parent="Evs_Ivs_Box" unique_id=286695177]
+offset_left = 53.0
+offset_top = -113.0
+offset_right = 117.0
+offset_bottom = -87.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Attack_IV" type="Label" parent="Evs_Ivs_Box" unique_id=73031329]
+offset_left = -11.0
+offset_top = -81.0
+offset_right = 47.0
+offset_bottom = -55.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Attack_EV" type="Label" parent="Evs_Ivs_Box" unique_id=1601592894]
+offset_left = 53.0
+offset_top = -81.0
+offset_right = 117.0
+offset_bottom = -55.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Defense_IV" type="Label" parent="Evs_Ivs_Box" unique_id=214935715]
+offset_left = -11.0
+offset_top = -49.0
+offset_right = 47.0
+offset_bottom = -23.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Defense_EV" type="Label" parent="Evs_Ivs_Box" unique_id=1159168356]
+offset_left = 53.0
+offset_top = -49.0
+offset_right = 117.0
+offset_bottom = -23.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Sp_At_IV" type="Label" parent="Evs_Ivs_Box" unique_id=898811342]
+offset_left = -11.0
+offset_top = -17.0
+offset_right = 47.0
+offset_bottom = 9.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Sp_At_EV" type="Label" parent="Evs_Ivs_Box" unique_id=1115501804]
+offset_left = 53.0
+offset_top = -17.0
+offset_right = 117.0
+offset_bottom = 9.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Sp_Def_IV" type="Label" parent="Evs_Ivs_Box" unique_id=1146516294]
+offset_left = -11.0
+offset_top = 15.0
+offset_right = 47.0
+offset_bottom = 41.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Sp_Def_EV" type="Label" parent="Evs_Ivs_Box" unique_id=469962669]
+offset_left = 53.0
+offset_top = 15.0
+offset_right = 117.0
+offset_bottom = 41.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Speed_IV" type="Label" parent="Evs_Ivs_Box" unique_id=2006994011]
+offset_left = -11.0
+offset_top = 47.0
+offset_right = 47.0
+offset_bottom = 73.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Speed_EV" type="Label" parent="Evs_Ivs_Box" unique_id=1834294637]
+offset_left = 53.0
+offset_top = 47.0
+offset_right = 117.0
+offset_bottom = 73.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Total_IV" type="Label" parent="Evs_Ivs_Box" unique_id=1690405523]
+offset_left = -11.0
+offset_top = 79.0
+offset_right = 47.0
+offset_bottom = 105.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Total_EV" type="Label" parent="Evs_Ivs_Box" unique_id=504285062]
+offset_left = 53.0
+offset_top = 79.0
+offset_right = 117.0
+offset_bottom = 105.0
+text = "00"
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Nature_Box" type="Sprite2D" parent="." unique_id=405674118]
+position = Vector2(240, 280)
+texture = ExtResource("3_2o6df")
+
+[node name="Nature_Name" type="Label" parent="Nature_Box" unique_id=518270107]
+offset_left = -119.0
+offset_top = -18.0
+offset_right = 1.0
+offset_bottom = 8.0
+text = "Descuidada "
+label_settings = SubResource("LabelSettings_2o6df")
+horizontal_alignment = 1
+
+[node name="Skill_Name" type="Label" parent="Nature_Box" unique_id=403549045]
+offset_left = -3.0
+offset_top = -18.0
+offset_right = 117.0
+offset_bottom = 8.0
+text = "Defensa: ++"
+label_settings = SubResource("LabelSettings_i8onl")
+
+[node name="Skill_Name2" type="Label" parent="Nature_Box" unique_id=1427149134]
+offset_left = 119.0
+offset_top = -18.0
+offset_right = 239.0
+offset_bottom = 8.0
+text = "Defensa: --"
+label_settings = SubResource("LabelSettings_2ye0a")
+horizontal_alignment = 2

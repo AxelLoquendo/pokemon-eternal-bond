@@ -1,4 +1,5 @@
 [gd_scene format=3 uid="uid://c6hn8gmq2pnho"]
+[ext_resource type="Script" path="res://Scripts/UI/Summary_Screen/summary_info_page.gd" id="script_info"]
 
 [ext_resource type="Texture2D" uid="uid://cuovnhktjuq76" path="res://Graficos/UI/Summary_Screen/Info_Page/info_page.png" id="1_3bj8w"]
 [ext_resource type="Texture2D" uid="uid://b2cc13ohxkvga" path="res://Graficos/UI/Summary_Screen/Info_Page/info_box.png" id="2_ujk1q"]
@@ -33,6 +34,7 @@ shadow_color = Color(0.16862746, 0.24313726, 0.34901962, 1)
 shadow_offset = Vector2(0, 2)
 
 [node name="InfoPage" type="Node2D" unique_id=188852886]
+script = ExtResource("script_info")
 
 [node name="Page_Name" type="Sprite2D" parent="." unique_id=1364425144]
 position = Vector2(240, 16)

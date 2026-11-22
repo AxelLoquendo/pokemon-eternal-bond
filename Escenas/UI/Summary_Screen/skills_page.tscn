@@ -1,0 +1,106 @@
+[gd_scene format=3 uid="uid://bmslqd3dhnx2m"]
+
+[ext_resource type="Texture2D" uid="uid://bfsy8533v5r2l" path="res://Graficos/UI/Summary_Screen/Skills_Page/skills_page.png" id="1_nha0k"]
+[ext_resource type="Texture2D" uid="uid://cci1fyagopyns" path="res://Graficos/UI/Summary_Screen/Skills_Page/skills_box.png" id="2_fodso"]
+[ext_resource type="Texture2D" uid="uid://d4hqoolqvs3b2" path="res://Graficos/UI/Summary_Screen/overlay_hp.png" id="3_7mptk"]
+[ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="4_sagcu"]
+[ext_resource type="Texture2D" uid="uid://dr2ux56r88oqh" path="res://Graficos/UI/Summary_Screen/overlay_exp.png" id="5_l0mpm"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_dxukx"]
+font = ExtResource("4_sagcu")
+font_size = 24
+font_color = Color(0.2509804, 0.2509804, 0.2509804, 1)
+shadow_size = 0
+shadow_color = Color(0.6901961, 0.6901961, 0.6901961, 1)
+shadow_offset = Vector2(0, 2)
+
+[node name="Skills_Page" type="Node2D" unique_id=455144054]
+
+[node name="Page_Name" type="Sprite2D" parent="." unique_id=1611806864]
+position = Vector2(240, 16)
+texture = ExtResource("1_nha0k")
+
+[node name="Skills_Box" type="Sprite2D" parent="." unique_id=109237805]
+position = Vector2(359, 160)
+texture = ExtResource("2_fodso")
+
+[node name="Hp_Bar" type="Sprite2D" parent="Skills_Box" unique_id=1221446344]
+position = Vector2(-35, -111)
+texture = ExtResource("3_7mptk")
+vframes = 3
+
+[node name="HP_Number" type="Label" parent="Skills_Box" unique_id=2097382570]
+offset_left = 19.0
+offset_top = -128.0
+offset_right = 117.0
+offset_bottom = -102.0
+text = "000/000"
+label_settings = SubResource("LabelSettings_dxukx")
+horizontal_alignment = 2
+
+[node name="Exp_Bar" type="Sprite2D" parent="Skills_Box" unique_id=924219907]
+position = Vector2(-34.999996, 111)
+scale = Vector2(0.75000006, 1)
+texture = ExtResource("5_l0mpm")
+
+[node name="Attack_Number" type="Label" parent="Skills_Box" unique_id=1858880738]
+offset_left = -9.0
+offset_top = -96.0
+offset_right = 117.0
+offset_bottom = -70.0
+text = "000"
+label_settings = SubResource("LabelSettings_dxukx")
+horizontal_alignment = 1
+
+[node name="Defense_Number" type="Label" parent="Skills_Box" unique_id=221069864]
+offset_left = -9.0
+offset_top = -64.0
+offset_right = 117.0
+offset_bottom = -38.0
+text = "000"
+label_settings = SubResource("LabelSettings_dxukx")
+horizontal_alignment = 1
+
+[node name="Sp_At_Number" type="Label" parent="Skills_Box" unique_id=557778527]
+offset_left = -9.0
+offset_top = -32.0
+offset_right = 117.0
+offset_bottom = -6.0
+text = "000"
+label_settings = SubResource("LabelSettings_dxukx")
+horizontal_alignment = 1
+
+[node name="Sp_Def_Number" type="Label" parent="Skills_Box" unique_id=87121443]
+offset_left = -9.0
+offset_right = 117.0
+offset_bottom = 26.0
+text = "000"
+label_settings = SubResource("LabelSettings_dxukx")
+horizontal_alignment = 1
+
+[node name="Speed_Number" type="Label" parent="Skills_Box" unique_id=734619008]
+offset_left = -9.0
+offset_top = 32.0
+offset_right = 117.0
+offset_bottom = 58.0
+text = "000"
+label_settings = SubResource("LabelSettings_dxukx")
+horizontal_alignment = 1
+
+[node name="Exp_Point" type="Label" parent="Skills_Box" unique_id=697355972]
+offset_left = -9.0
+offset_top = 64.0
+offset_right = 117.0
+offset_bottom = 90.0
+text = "000.000.000"
+label_settings = SubResource("LabelSettings_dxukx")
+horizontal_alignment = 1
+
+[node name="Exp_Next" type="Label" parent="Skills_Box" unique_id=257068867]
+offset_left = -7.0
+offset_top = 94.0
+offset_right = 119.0
+offset_bottom = 120.0
+text = "00000000"
+label_settings = SubResource("LabelSettings_dxukx")
+horizontal_alignment = 2

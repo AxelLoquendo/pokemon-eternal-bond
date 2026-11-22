@@ -7,6 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://d35o4ceddddni" path="res://Graficos/Pokemon/charizard/mega_x/front.png" id="4_qiceh"]
 [ext_resource type="Texture2D" uid="uid://bihqni07mf5cn" path="res://Graficos/UI/Summary_Screen/icon_ball_POKEBALL.png" id="5_qiceh"]
 [ext_resource type="Texture2D" uid="uid://dtc03qytwlqcr" path="res://Graficos/Status/sleep.png" id="6_qiceh"]
+[ext_resource type="PackedScene" uid="uid://bmslqd3dhnx2m" path="res://Escenas/UI/Summary_Screen/skills_page.tscn" id="9_s6t85"]
+[ext_resource type="Script" uid="uid://bedpjl64ufoq8" path="res://Scripts/UI/Summary_Screen/summary_screen.gd" id="script_summary"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_htemk"]
 font = ExtResource("4_6rapq")
@@ -24,6 +26,7 @@ shadow_color = Color(0.6901961, 0.6901961, 0.6901961, 1)
 shadow_offset = Vector2(0, 2)
 
 [node name="Summary_Screen" type="CanvasLayer" unique_id=1982688830]
+script = ExtResource("script_summary")
 
 [node name="BG" type="Sprite2D" parent="." unique_id=1019750900]
 position = Vector2(240, 160)
@@ -73,3 +76,6 @@ position = Vector2(183, 88)
 texture = ExtResource("6_qiceh")
 
 [node name="InfoPage" parent="." unique_id=188852886 instance=ExtResource("4_f8l68")]
+
+[node name="Skills_Page" parent="." unique_id=455144054 instance=ExtResource("9_s6t85")]
+visible = false
