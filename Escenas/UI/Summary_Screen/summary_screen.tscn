@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://bihqni07mf5cn" path="res://Graficos/UI/Summary_Screen/icon_ball_POKEBALL.png" id="5_qiceh"]
 [ext_resource type="Texture2D" uid="uid://dtc03qytwlqcr" path="res://Graficos/Status/sleep.png" id="6_qiceh"]
 [ext_resource type="PackedScene" uid="uid://bmslqd3dhnx2m" path="res://Escenas/UI/Summary_Screen/skills_page.tscn" id="9_s6t85"]
+[ext_resource type="PackedScene" uid="uid://cxoa3bqrmdhwe" path="res://Escenas/UI/Summary_Screen/evs_ivs_page.tscn" id="10_7r8qk"]
 [ext_resource type="Script" uid="uid://bedpjl64ufoq8" path="res://Scripts/UI/Summary_Screen/summary_screen.gd" id="script_summary"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_htemk"]
@@ -78,4 +79,7 @@ texture = ExtResource("6_qiceh")
 [node name="InfoPage" parent="." unique_id=188852886 instance=ExtResource("4_f8l68")]
 
 [node name="Skills_Page" parent="." unique_id=455144054 instance=ExtResource("9_s6t85")]
+visible = false
+
+[node name="Evs_Ivs_Page" parent="." unique_id=707107241 instance=ExtResource("10_7r8qk")]
 visible = false
