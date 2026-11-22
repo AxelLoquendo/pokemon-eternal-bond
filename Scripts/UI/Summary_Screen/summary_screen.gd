@@ -61,8 +61,10 @@ func _unhandled_input(event: InputEvent) -> void:
 		_change_page(1)
 		get_viewport().set_input_as_handled()
 		return
+	var on_moves: bool = page_index == 3 and _move_page != null
+	var moves_active: bool = on_moves and _move_page.has_method("is_active") and _move_page.is_active()
 	if event.is_action_pressed("Up"):
-		if page_index == 3 and _move_page and _move_page.has_method("select_delta"):
+		if moves_active:
 			_move_page.select_delta(-1)
 			_play_ui(SFXGame.SoundEffectID.SE_GUI_SEL_CURSOR)
 		else:
@@ -70,26 +72,35 @@ func _unhandled_input(event: InputEvent) -> void:
 		get_viewport().set_input_as_handled()
 		return
 	if event.is_action_pressed("Down"):
-		if page_index == 3 and _move_page and _move_page.has_method("select_delta"):
+		if moves_active:
 			_move_page.select_delta(1)
 			_play_ui(SFXGame.SoundEffectID.SE_GUI_SEL_CURSOR)
 		else:
 			_bind_party_index(party_index + 1)
 		get_viewport().set_input_as_handled()
 		return
-	# Cerrar: B
 	if event.is_action_pressed("buttonB"):
+		if on_moves and _move_page.has_method("cancel") and _move_page.cancel():
+			_play_ui(SFXGame.SoundEffectID.SE_GUI_SEL_CANCEL)
+			get_viewport().set_input_as_handled()
+			return
 		_close_summary()
 		get_viewport().set_input_as_handled()
 		return
-	# Grito de nuevo: A
 	if event.is_action_pressed("buttonA"):
+		if on_moves and _move_page.has_method("confirm"):
+			_move_page.confirm()
+			_play_ui(SFXGame.SoundEffectID.SE_GUI_SEL_DECISION)
+			get_viewport().set_input_as_handled()
+			return
 		_play_cry()
 		get_viewport().set_input_as_handled()
 		return
 
 
 func _change_page(delta: int) -> void:
+	if _move_page and _move_page.has_method("exit_mode"):
+		_move_page.exit_mode()
 	_set_page(page_index + delta)
 	_play_ui(SFXGame.SoundEffectID.SE_GUI_SUMMARY_CHANGE_PAGE)
 

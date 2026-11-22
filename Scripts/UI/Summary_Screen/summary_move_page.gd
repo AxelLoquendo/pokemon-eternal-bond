@@ -52,15 +52,98 @@ const TYPE_FILE: Dictionary = {
 
 var _mon: PokemonInstance = null
 var _selected: int = 0
+## Cursor activo solo tras buttonA. _held >= 0 = movimiento marcado para intercambiar.
+var _active: bool = false
+var _held: int = -1
+var _cursor_held: Sprite2D = null
+var _icon_t: float = 0.0
+const ICON_FRAME_TIME: float = 0.35
+const CURSOR_SELECTED: String = "res://Graficos/UI/Summary_Screen/Move_Page/move_cursor_selected.png"
+
+func _ready() -> void:
+	if _cursor:
+		_cursor.visible = false
+		_cursor_held = Sprite2D.new()
+		_cursor_held.name = "Cursor_Move_Selected"
+		_cursor_held.centered = _cursor.centered
+		_cursor_held.z_index = _cursor.z_index - 1
+		_cursor_held.visible = false
+		if ResourceLoader.exists(CURSOR_SELECTED):
+			_cursor_held.texture = load(CURSOR_SELECTED)
+		_cursor.get_parent().add_child(_cursor_held)
+
+func _process(delta: float) -> void:
+	if _mon_icon == null or not is_visible_in_tree():
+		return
+	if _mon_icon.texture == null or _mon_icon.vframes < 2:
+		return
+	_icon_t += delta
+	if _icon_t < ICON_FRAME_TIME:
+		return
+	_icon_t = 0.0
+	_mon_icon.frame = (_mon_icon.frame + 1) % _mon_icon.vframes
+
+func is_active() -> bool:
+	return _active
+
+## buttonA. true si la página consumió la pulsación.
+func confirm() -> bool:
+	if _mon == null or move_count() <= 0:
+		return true
+	if not _active:
+		_active = true
+		_held = -1
+		_hide_held()
+		select_slot(_first_filled())
+		return true
+	if _held < 0:
+		_held = _selected
+		_place_held()
+		return true
+	if _held == _selected:
+		_held = -1
+		_hide_held()
+		return true
+	_swap_slots(_held, _selected)
+	_held = -1
+	_hide_held()
+	_refresh_slots()
+	select_slot(_selected)
+	return true
+
+## buttonB. true si no hay que cerrar el summary.
+func cancel() -> bool:
+	if _held >= 0:
+		_held = -1
+		_hide_held()
+		return true
+	if _active:
+		_active = false
+		if _cursor:
+			_cursor.visible = false
+		return true
+	return false
+
+func exit_mode() -> void:
+	_active = false
+	_held = -1
+	_hide_held()
+	if _cursor:
+		_cursor.visible = false
+
 
 
 func bind(mon: PokemonInstance) -> void:
 	_mon = mon
 	_selected = 0
+	exit_mode()
 	_refresh_slots()
 	if _mon_icon and mon != null:
 		_mon_icon.texture = mon.icon_texture()
-	select_slot(_first_filled())
+		_mon_icon.vframes = 2
+		_mon_icon.frame = 0
+	# Detalle del primer movimiento, sin cursor hasta buttonA.
+	_show_detail(_first_filled())
 
 
 func move_count() -> int:
@@ -81,7 +164,10 @@ func select_slot(index: int) -> void:
 		_clear_detail()
 		return
 	_selected = _wrap_to_filled(index)
-	_place_cursor()
+	if _active:
+		_place_cursor()
+	elif _cursor:
+		_cursor.visible = false
 	_show_detail(_selected)
 
 
@@ -153,6 +239,47 @@ func _clear_detail() -> void:
 		_category_name.text = ""
 	if _description:
 		_description.text = ""
+
+
+func _place_held() -> void:
+	if _cursor_held == null:
+		return
+	if _held < 0 or _held >= _slots.size():
+		_cursor_held.visible = false
+		return
+	_cursor_held.visible = true
+	_cursor_held.position = _slots[_held].position
+
+
+func _hide_held() -> void:
+	if _cursor_held:
+		_cursor_held.visible = false
+
+
+func _swap_slots(a: int, b: int) -> void:
+	if _mon == null or a == b:
+		return
+	_swap_moves(_mon.moves, a, b)
+	_swap_ints(_mon.move_pp, a, b)
+	_swap_ints(_mon.move_pp_ups, a, b)
+
+
+func _swap_moves(arr: Array[MoveId.Id], a: int, b: int) -> void:
+	var need: int = maxi(a, b)
+	while arr.size() <= need:
+		arr.append(MoveId.Id.NONE)
+	var tmp: MoveId.Id = arr[a]
+	arr[a] = arr[b]
+	arr[b] = tmp
+
+
+func _swap_ints(arr: Array[int], a: int, b: int) -> void:
+	var need: int = maxi(a, b)
+	while arr.size() <= need:
+		arr.append(0)
+	var tmp: int = arr[a]
+	arr[a] = arr[b]
+	arr[b] = tmp
 
 
 func _place_cursor() -> void:
