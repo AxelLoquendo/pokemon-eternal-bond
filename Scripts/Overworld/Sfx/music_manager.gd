@@ -122,7 +122,13 @@ func _on_me_finished() -> void:
 
 func reproducir_se(id: SFXGame.SoundEffectID) -> void:
 	var ruta: String = SFXGame.sound_effect_path(id)
-	if not SFXGame.path_exists(ruta):
+	reproducir_se_ruta(ruta)
+
+
+func reproducir_se_ruta(ruta: String) -> void:
+	if ruta.is_empty():
+		return
+	if not ResourceLoader.exists(ruta):
 		return
 	var stream: AudioStream = load(ruta) as AudioStream
 	if stream == null:

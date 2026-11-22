@@ -5,6 +5,8 @@
 [ext_resource type="Texture2D" uid="uid://d4hqoolqvs3b2" path="res://Graficos/UI/Summary_Screen/overlay_hp.png" id="3_7mptk"]
 [ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="4_sagcu"]
 [ext_resource type="Texture2D" uid="uid://dr2ux56r88oqh" path="res://Graficos/UI/Summary_Screen/overlay_exp.png" id="5_l0mpm"]
+[ext_resource type="Texture2D" uid="uid://bno3u1lr1ik76" path="res://Graficos/UI/Summary_Screen/Skills_Page/skills_hidden_power.png" id="7_sagcu"]
+[ext_resource type="Texture2D" uid="uid://33shugjberxs" path="res://Graficos/Types/normal.png" id="8_l0mpm"]
 [ext_resource type="Script" uid="uid://btphdiltuo0dw" path="res://Scripts/UI/Summary_Screen/summary_skills_page.gd" id="script_skills_page"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_dxukx"]
@@ -106,3 +108,11 @@ offset_bottom = 120.0
 text = "00000000"
 label_settings = SubResource("LabelSettings_dxukx")
 horizontal_alignment = 2
+
+[node name="Skills_Hidden_Power" type="Sprite2D" parent="." unique_id=1005888440]
+position = Vector2(118, 271)
+texture = ExtResource("7_sagcu")
+
+[node name="Hidden_Power" type="Sprite2D" parent="Skills_Hidden_Power" unique_id=2072775867]
+position = Vector2(54, 0)
+texture = ExtResource("8_l0mpm")

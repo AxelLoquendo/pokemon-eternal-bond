@@ -531,3 +531,66 @@ static func _roll_gender(ratio: int) -> PokemonEnums.Gender:
 	if randi() % 256 < ratio:
 		return PokemonEnums.Gender.FEMALE
 	return PokemonEnums.Gender.MALE
+
+#----------------------
+# Poder Oculto
+#----------------------
+const HIDDEN_POWER_TYPES: Array[TypeId.Id] = [
+	TypeId.Id.FIGHTING,
+	TypeId.Id.FLYING,
+	TypeId.Id.POISON,
+	TypeId.Id.GROUND,
+	TypeId.Id.ROCK,
+	TypeId.Id.BUG,
+	TypeId.Id.GHOST,
+	TypeId.Id.STEEL,
+	TypeId.Id.FIRE,
+	TypeId.Id.WATER,
+	TypeId.Id.GRASS,
+	TypeId.Id.ELECTRIC,
+	TypeId.Id.PSYCHIC,
+	TypeId.Id.ICE,
+	TypeId.Id.DRAGON,
+	TypeId.Id.DARK,
+]
+
+## Tipo de Poder oculto a partir de los IVs (paridad de cada stat).
+func hidden_power_type() -> TypeId.Id:
+	# Orden oficial de bits: HP, Atk, Def, Spe, SpA, SpD
+	var bits: Array[int] = [
+		_iv_for(PokemonEnums.Stat.HP) % 2,
+		_iv_for(PokemonEnums.Stat.ATK) % 2,
+		_iv_for(PokemonEnums.Stat.DEF) % 2,
+		_iv_for(PokemonEnums.Stat.SPE) % 2,
+		_iv_for(PokemonEnums.Stat.SPA) % 2,
+		_iv_for(PokemonEnums.Stat.SPD) % 2,
+	]
+	var sum: int = 0
+	var mul: int = 1
+	for b: int in bits:
+		sum += b * mul
+		mul *= 2
+	# floor(sum * 15 / 63) → 0..15
+	var idx: int = int(floor(float(sum) * 15.0 / 63.0))
+	idx = clampi(idx, 0, HIDDEN_POWER_TYPES.size() - 1)
+	return HIDDEN_POWER_TYPES[idx]
+
+
+## Potencia gen 3–5 (30–70). En gen 6+ el juego fija 60; devolvemos ambas opciones.
+func hidden_power_power(gen6_plus: bool = true) -> int:
+	if gen6_plus:
+		return 60
+	var bits: Array[int] = [
+		int(_iv_for(PokemonEnums.Stat.HP) / 2) % 2,
+		int(_iv_for(PokemonEnums.Stat.ATK) / 2) % 2,
+		int(_iv_for(PokemonEnums.Stat.DEF) / 2) % 2,
+		int(_iv_for(PokemonEnums.Stat.SPE) / 2) % 2,
+		int(_iv_for(PokemonEnums.Stat.SPA) / 2) % 2,
+		int(_iv_for(PokemonEnums.Stat.SPD) / 2) % 2,
+	]
+	var sum: int = 0
+	var mul: int = 1
+	for b: int in bits:
+		sum += b * mul
+		mul *= 2
+	return int(floor(float(sum) * 40.0 / 63.0)) + 30

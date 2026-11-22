@@ -1,14 +1,12 @@
 extends CanvasLayer
-## Summary — página Info ligada a un PokemonInstance del party.
-##
-## Uso:
-##   SummaryScreen.open_from_party(player_data, index)
-##   o ejecutar esta escena: crea un mon debug en un PlayerData local y lo muestra.
-##
-## Controles (debug): 1..6 cambia slot del party si hay varios.
+## Controlador del Summary.
+## - Input: acciones del proyecto (Left/Right/Up/Down/buttonA/B/L/R…)
+## - Orquesta páginas (vista) y audio
+## - No calcula stats ni parsea datos de especie (eso es PokemonInstance / catálogos)
 
 const BALL_ICON_DIR: String = "res://Graficos/UI/Summary_Screen/"
 const STATUS_DIR: String = "res://Graficos/Status/"
+const PAGE_COUNT: int = 3
 
 @onready var _name_lbl: Label = $Entity/Box/Mon_Name
 @onready var _lvl_lbl: Label = $Entity/Box/Lvl_Number
@@ -20,12 +18,9 @@ const STATUS_DIR: String = "res://Graficos/Status/"
 @onready var _skills_page: Node = $Skills_Page
 @onready var _evs_page: Node = $Evs_Ivs_Page
 
-## 0 = Info, 1 = Skills, 2 = IVs/EVs
-var page_index: int = 0
-
-
 var player_data: PlayerData = null
 var party_index: int = 0
+var page_index: int = 0
 var mon: PokemonInstance = null
 
 
@@ -42,7 +37,6 @@ static func open_from_party(tree: SceneTree, pd: PlayerData, index: int = 0) -> 
 
 
 func _ready() -> void:
-	# Esperar un frame a catálogos autoload
 	await get_tree().process_frame
 	if SpeciesCatalog and SpeciesCatalog.has_method("warm_index"):
 		SpeciesCatalog.warm_index()
@@ -51,60 +45,75 @@ func _ready() -> void:
 	if player_data.party.is_empty():
 		_seed_debug_party()
 	_bind_party_index(party_index)
+	_play_ui(SFXGame.SoundEffectID.SE_GUI_MENU_OPEN)
 
 
 func _unhandled_input(event: InputEvent) -> void:
-	if not (event is InputEventKey and event.pressed and not event.echo):
+	if event.is_echo():
 		return
-	var key: Key = event.keycode
-	if key >= KEY_1 and key <= KEY_6:
-		_bind_party_index(int(key) - int(KEY_1))
+	# Páginas: L/R o Left/Right
+	if event.is_action_pressed("buttonL") or event.is_action_pressed("Left"):
+		_change_page(-1)
 		get_viewport().set_input_as_handled()
-	elif key == KEY_LEFT or key == KEY_A:
-		_set_page(page_index - 1)
+		return
+	if event.is_action_pressed("buttonR") or event.is_action_pressed("Right"):
+		_change_page(1)
 		get_viewport().set_input_as_handled()
-	elif key == KEY_RIGHT or key == KEY_D:
-		_set_page(page_index + 1)
+		return
+	# Party: Up/Down
+	if event.is_action_pressed("Up"):
+		_bind_party_index(party_index - 1)
 		get_viewport().set_input_as_handled()
-	elif key == KEY_ESCAPE or key == KEY_X:
-		# Solo si se abrió encima de otra escena
-		if get_tree().current_scene != self and get_parent() != null:
-			queue_free()
-			get_viewport().set_input_as_handled()
+		return
+	if event.is_action_pressed("Down"):
+		_bind_party_index(party_index + 1)
+		get_viewport().set_input_as_handled()
+		return
+	# Cerrar: B
+	if event.is_action_pressed("buttonB"):
+		_close_summary()
+		get_viewport().set_input_as_handled()
+		return
+	# Grito de nuevo: A
+	if event.is_action_pressed("buttonA"):
+		_play_cry()
+		get_viewport().set_input_as_handled()
+		return
 
 
-func _seed_debug_party() -> void:
-	## Un mon de prueba para abrir la escena sola.
-	var m: PokemonInstance = PokemonInstance.create(SpeciesId.Id.VENUSAUR, 36, true, true)
-	if m == null:
-		m = PokemonInstance.create(SpeciesId.Id.BULBASAUR, 16, true, true)
-	if m == null:
-		push_error("Summary: no se pudo crear mon debug")
-		return
-	m.ot_name = "Axel"
-	m.met_location = "Prado Natal"
-	m.met_level = 5
-	m.ball = ItemId.Id.POKE_BALL
-	# Ítem held opcional si existe en catálogo
-	if ItemCatalog and ItemCatalog.has_item(ItemId.Id.LEFTOVERS):
-		m.held_item = ItemId.Id.LEFTOVERS
-	m.resolve_ability_from_species()
-	m.recalculate_stats()
-	m.hp = m.max_hp
-	player_data.add_pokemon(m)
-	print("Summary debug: party[0] = ", m.display_name(), " Nv", m.level)
+func _change_page(delta: int) -> void:
+	_set_page(page_index + delta)
+	_play_ui(SFXGame.SoundEffectID.SE_GUI_SUMMARY_CHANGE_PAGE)
+
+
+func _set_page(idx: int) -> void:
+	page_index = posmod(idx, PAGE_COUNT)
+	if _info_page:
+		_info_page.visible = page_index == 0
+	if _skills_page:
+		_skills_page.visible = page_index == 1
+	if _evs_page:
+		_evs_page.visible = page_index == 2
 
 
 func _bind_party_index(index: int) -> void:
 	if player_data == null or player_data.party.is_empty():
 		push_warning("Summary: party vacío")
 		return
-	party_index = clampi(index, 0, player_data.party.size() - 1)
+	var next: int = posmod(index, player_data.party.size())
+	var changed: bool = next != party_index or mon == null
+	party_index = next
 	mon = player_data.get_pokemon(party_index)
-	_apply_mon(mon)
+	_apply_header(mon)
+	_apply_pages(mon)
+	_set_page(page_index)
+	if changed:
+		_play_ui(SFXGame.SoundEffectID.SE_GUI_PARTY_SWITCH)
+		_play_cry()
 
 
-func _apply_mon(m: PokemonInstance) -> void:
+func _apply_header(m: PokemonInstance) -> void:
+	## Solo presentación del bloque izquierdo (nombre / sprite / ball).
 	if m == null:
 		return
 	if _name_lbl:
@@ -113,39 +122,76 @@ func _apply_mon(m: PokemonInstance) -> void:
 		_lvl_lbl.text = str(m.level)
 	if _gender_lbl:
 		_gender_lbl.text = _gender_symbol(m.gender)
-		# LabelSettings.font_color pisa modulate: hay que tocar el settings.
 		var col: Color = _gender_color(m.gender)
 		_gender_lbl.modulate = Color.WHITE
 		if _gender_lbl.label_settings != null:
 			var ls: LabelSettings = _gender_lbl.label_settings.duplicate()
 			ls.font_color = col
-			# sombra suave del mismo tono
 			ls.shadow_color = Color(col.r, col.g, col.b, 0.45)
 			_gender_lbl.label_settings = ls
-		else:
-			_gender_lbl.modulate = col
-
 	if _mon_sprite:
 		var tex: Texture2D = m.front_texture(m.is_shiny)
 		if tex != null:
 			_mon_sprite.texture = tex
-
 	if _ball:
 		_ball.texture = _ball_texture(m.ball)
-
 	if _status:
 		var st: Texture2D = _status_texture(m.status)
 		_status.texture = st
 		_status.visible = st != null
 
+
+func _apply_pages(m: PokemonInstance) -> void:
+	## Las páginas solo muestran; el mon ya trae datos/cálculos.
+	if m == null:
+		return
 	if _info_page and _info_page.has_method("bind"):
 		_info_page.bind(m)
 	if _skills_page and _skills_page.has_method("bind"):
 		_skills_page.bind(m)
 	if _evs_page and _evs_page.has_method("bind"):
 		_evs_page.bind(m)
-	_set_page(page_index)
 
+
+func _play_cry() -> void:
+	if mon == null:
+		return
+	PokemonCry.play(mon.species_id)
+
+
+func _play_ui(id: SFXGame.SoundEffectID) -> void:
+	if MusicManager:
+		MusicManager.reproducir_se(id)
+
+
+func _close_summary() -> void:
+	_play_ui(SFXGame.SoundEffectID.SE_GUI_MENU_CLOSE)
+	if get_tree().current_scene != self and get_parent() != null:
+		queue_free()
+
+
+func _seed_debug_party() -> void:
+	var m: Array[PokemonInstance] = [
+		PokemonInstance.create(SpeciesId.Id.VENUSAUR, 36, true, true),
+		PokemonInstance.create(SpeciesId.Id.WYRDEER, 40, true, true),
+		PokemonInstance.create(SpeciesId.Id.QUAQUAVAL, 36, true, true),
+		PokemonInstance.create(SpeciesId.Id.TREECKO, 5, true, true),
+		]
+	for i: int in range(m.size()):
+		if m[i] == null:
+			m[i] = PokemonInstance.create(SpeciesId.Id.BULBASAUR, 16, true, true)
+		if m[i] == null:
+			return
+		m[i].ot_name = "Axel"
+		m[i].met_location = "Prado Natal"
+		m[i].met_level = 5
+		m[i].ball = ItemId.Id.POKE_BALL
+		if ItemCatalog and ItemCatalog.has_item(ItemId.Id.LEFTOVERS):
+			m[i].held_item = ItemId.Id.LEFTOVERS
+		m[i].resolve_ability_from_species()
+		m[i].recalculate_stats()
+		m[i].hp = m[i].max_hp
+		player_data.add_pokemon(m[i])
 
 func _gender_symbol(g: PokemonEnums.Gender) -> String:
 	match g:
@@ -174,7 +220,6 @@ func _ball_texture(id: ItemId.Id) -> Texture2D:
 	var path: String = BALL_ICON_DIR + "icon_ball_%s.png" % token
 	if ResourceLoader.exists(path):
 		return load(path) as Texture2D
-	# fallback
 	path = BALL_ICON_DIR + "icon_ball_POKEBALL.png"
 	if ResourceLoader.exists(path):
 		return load(path) as Texture2D
@@ -185,7 +230,6 @@ func _status_texture(status: String) -> Texture2D:
 	if status.is_empty() or status == "FNT":
 		return null
 	var key: String = status.to_lower()
-	# aliases
 	match key:
 		"psn":
 			key = "poison"
@@ -203,13 +247,3 @@ func _status_texture(status: String) -> Texture2D:
 	if ResourceLoader.exists(path):
 		return load(path) as Texture2D
 	return null
-
-
-func _set_page(idx: int) -> void:
-	page_index = posmod(idx, 3)
-	if _info_page:
-		_info_page.visible = page_index == 0
-	if _skills_page:
-		_skills_page.visible = page_index == 1
-	if _evs_page:
-		_evs_page.visible = page_index == 2
