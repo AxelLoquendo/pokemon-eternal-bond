@@ -1,0 +1,141 @@
+[gd_scene format=3 uid="uid://c6hn8gmq2pnho"]
+
+[ext_resource type="Texture2D" uid="uid://cuovnhktjuq76" path="res://Graficos/UI/Summary_Screen/Info_Page/info_page.png" id="1_3bj8w"]
+[ext_resource type="Texture2D" uid="uid://b2cc13ohxkvga" path="res://Graficos/UI/Summary_Screen/Info_Page/info_box.png" id="2_ujk1q"]
+[ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="3_3bj8w"]
+[ext_resource type="Texture2D" uid="uid://dl8v8w742ofnq" path="res://Graficos/Items/icons/charizardite_x.png" id="3_7e2xg"]
+[ext_resource type="Texture2D" uid="uid://bb4nf6opromkk" path="res://Graficos/Types/Tera/fire.png" id="4_ujk1q"]
+[ext_resource type="Texture2D" uid="uid://ceb8du8o3eg5g" path="res://Graficos/Types/fire.png" id="5_s88g5"]
+[ext_resource type="Texture2D" uid="uid://cbtwdgfw6rx7w" path="res://Graficos/Types/dragon.png" id="6_xlkh3"]
+[ext_resource type="Script" uid="uid://c87gahu5hjc7r" path="res://Scripts/Core/compressed.gd" id="7_xlkh3"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ujk1q"]
+font = ExtResource("3_3bj8w")
+font_size = 24
+font_color = Color(0.2509804, 0.2509804, 0.2509804, 1)
+shadow_size = 0
+shadow_color = Color(0.6901961, 0.6901961, 0.6901961, 1)
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="LabelSettings" id="LabelSettings_s88g5"]
+font = ExtResource("3_3bj8w")
+font_size = 24
+font_color = Color(0.2509804, 0.5019608, 0.84313726, 1)
+shadow_size = 0
+shadow_color = Color(0.2509804, 0.5019608, 0.84313726, 0.5294118)
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="LabelSettings" id="LabelSettings_xlkh3"]
+font = ExtResource("3_3bj8w")
+font_size = 24
+shadow_size = 0
+shadow_color = Color(0.16862746, 0.24313726, 0.34901962, 1)
+shadow_offset = Vector2(0, 2)
+
+[node name="InfoPage" type="Node2D" unique_id=188852886]
+
+[node name="Page_Name" type="Sprite2D" parent="." unique_id=1364425144]
+position = Vector2(240, 16)
+texture = ExtResource("1_3bj8w")
+
+[node name="Info_Box" type="Sprite2D" parent="." unique_id=1714800544]
+position = Vector2(240, 176)
+texture = ExtResource("2_ujk1q")
+
+[node name="Dex_Number" type="Label" parent="Info_Box" unique_id=370482423]
+offset_left = 110.0
+offset_top = -144.0
+offset_right = 232.0
+offset_bottom = -118.0
+text = "0001"
+label_settings = SubResource("LabelSettings_ujk1q")
+horizontal_alignment = 1
+
+[node name="Specie_Name" type="Label" parent="Info_Box" unique_id=1899899747]
+offset_left = 108.0
+offset_top = -112.0
+offset_right = 238.0
+offset_bottom = -86.0
+text = "Charizard"
+label_settings = SubResource("LabelSettings_ujk1q")
+horizontal_alignment = 1
+
+[node name="Tera_Type" type="Sprite2D" parent="Info_Box" unique_id=1004385833]
+position = Vector2(88, -63)
+texture = ExtResource("4_ujk1q")
+
+[node name="Type_1" type="Sprite2D" parent="Info_Box" unique_id=1474166495]
+position = Vector2(140, -63)
+texture = ExtResource("5_s88g5")
+
+[node name="Type_2" type="Sprite2D" parent="Info_Box" unique_id=1851182778]
+position = Vector2(205, -63)
+texture = ExtResource("6_xlkh3")
+
+[node name="OT_Name" type="Label" parent="Info_Box" unique_id=305014281]
+offset_left = 108.0
+offset_top = -48.0
+offset_right = 238.0
+offset_bottom = -22.0
+text = "Axel"
+label_settings = SubResource("LabelSettings_s88g5")
+horizontal_alignment = 1
+
+[node name="Id_Number" type="Label" parent="Info_Box" unique_id=391529082]
+offset_left = 108.0
+offset_top = -16.0
+offset_right = 238.0
+offset_bottom = 10.0
+text = "000000"
+label_settings = SubResource("LabelSettings_ujk1q")
+horizontal_alignment = 1
+
+[node name="Item_Name" type="Label" parent="Info_Box" unique_id=637587340]
+offset_left = 108.0
+offset_top = 16.0
+offset_right = 236.0
+offset_bottom = 42.0
+text = "Charizarite X"
+label_settings = SubResource("LabelSettings_ujk1q")
+horizontal_alignment = 1
+script = ExtResource("7_xlkh3")
+max_width = 95.0
+
+[node name="Origin_Lv" type="Label" parent="Info_Box" unique_id=959429485]
+offset_left = 106.0
+offset_top = 48.0
+offset_right = 236.0
+offset_bottom = 74.0
+text = "Lv. 5"
+label_settings = SubResource("LabelSettings_ujk1q")
+horizontal_alignment = 2
+
+[node name="Origin_Lugar" type="Label" parent="Info_Box" unique_id=853329939]
+offset_left = 4.0
+offset_top = 78.0
+offset_right = 234.0
+offset_bottom = 104.0
+text = "De Prado Natal"
+label_settings = SubResource("LabelSettings_ujk1q")
+
+[node name="Ability_Name" type="Label" parent="Info_Box" unique_id=2129952754]
+offset_left = -213.0
+offset_top = 78.0
+offset_right = -44.0
+offset_bottom = 104.0
+text = "Tenacidad"
+label_settings = SubResource("LabelSettings_xlkh3")
+horizontal_alignment = 1
+
+[node name="Specie_Name2" type="Label" parent="Info_Box" unique_id=165731161]
+offset_left = -214.0
+offset_top = 112.0
+offset_right = 236.0
+offset_bottom = 138.0
+text = "Sube ataque especial si baja estadística."
+label_settings = SubResource("LabelSettings_ujk1q")
+
+[node name="Item_Icon" type="Sprite2D" parent="." unique_id=1582924304]
+position = Vector2(212, 208)
+scale = Vector2(2, 2)
+texture = ExtResource("3_7e2xg")

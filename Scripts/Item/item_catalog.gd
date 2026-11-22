@@ -8,7 +8,8 @@ extends Node
 ## Migración: tools/import_items_tres.gd desde items.json (una vez).
 
 const INDEX_PATH: String = "res://Datos/Items/item_paths.res"
-const ICONS_ROOT: String = "res://Graficos/Items/icons/"
+const ICONS_ROOT: String = "res://Graficos/Items/Icons/"
+const ICONS_ROOT_ALT: String = "res://Graficos/Items/icons/"
 
 var _cache: Dictionary = {} ## ItemId → ItemData
 var _index: ItemPathsIndex = null
@@ -94,17 +95,28 @@ func get_display_name(id: ItemId.Id) -> String:
 
 func get_icon(id: ItemId.Id) -> Texture2D:
 	var data: ItemData = get_item(id)
-	var name: String = ""
+	var names: PackedStringArray = PackedStringArray()
 	if data != null:
-		name = data.resolved_icon_name()
-	else:
-		name = ItemId.to_token(id).to_lower()
-	if name.is_empty():
-		return null
-	var path: String = ICONS_ROOT + name + ".png"
-	if not ResourceLoader.exists(path):
-		return null
-	return load(path) as Texture2D
+		var n: String = data.resolved_icon_name()
+		if not n.is_empty():
+			names.append(n)
+	var token: String = ItemId.to_token(id).to_lower()
+	if not token.is_empty() and token not in names:
+		names.append(token)
+	# Fallbacks MT/MO del expansion (iconos genéricos tm.png / hm.png)
+	if token.begins_with("tm") or (data != null and data.pocket == ItemPocket.Id.TMS and data.tm_move != MoveId.Id.NONE):
+		if token.begins_with("hm"):
+			names.append("hm")
+		else:
+			names.append("tm")
+	if token.begins_with("hm"):
+		names.append("hm")
+	for root_path: String in [ICONS_ROOT, ICONS_ROOT_ALT]:
+		for n2: String in names:
+			var path: String = root_path + n2 + ".png"
+			if ResourceLoader.exists(path):
+				return load(path) as Texture2D
+	return null
 
 
 func stack_limit(id: ItemId.Id) -> int:

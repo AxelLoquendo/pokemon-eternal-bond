@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://cv2n51aq1adh3"]
+
+[ext_resource type="Texture2D" uid="uid://3twvl1h3okf5" path="res://Graficos/UI/Summary_Screen/bg.png" id="1_2ckmb"]
+[ext_resource type="Texture2D" uid="uid://cycl1ysmbdsgb" path="res://Graficos/UI/Summary_Screen/detail_box.png" id="2_f8l68"]
+[ext_resource type="FontFile" uid="uid://bpkh1ceii3bkx" path="res://Font/power green.ttf" id="4_6rapq"]
+[ext_resource type="PackedScene" uid="uid://c6hn8gmq2pnho" path="res://Escenas/UI/Summary_Screen/info_page.tscn" id="4_f8l68"]
+[ext_resource type="Texture2D" uid="uid://d35o4ceddddni" path="res://Graficos/Pokemon/charizard/mega_x/front.png" id="4_qiceh"]
+[ext_resource type="Texture2D" uid="uid://bihqni07mf5cn" path="res://Graficos/UI/Summary_Screen/icon_ball_POKEBALL.png" id="5_qiceh"]
+[ext_resource type="Texture2D" uid="uid://dtc03qytwlqcr" path="res://Graficos/Status/sleep.png" id="6_qiceh"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_htemk"]
+font = ExtResource("4_6rapq")
+font_size = 24
+shadow_size = 0
+shadow_color = Color(0.16862746, 0.24313726, 0.34901962, 1)
+shadow_offset = Vector2(0, 2)
+
+[sub_resource type="LabelSettings" id="LabelSettings_14cdr"]
+font = ExtResource("4_6rapq")
+font_size = 24
+font_color = Color(0.2509804, 0.2509804, 0.2509804, 1)
+shadow_size = 0
+shadow_color = Color(0.6901961, 0.6901961, 0.6901961, 1)
+shadow_offset = Vector2(0, 2)
+
+[node name="Summary_Screen" type="CanvasLayer" unique_id=1982688830]
+
+[node name="BG" type="Sprite2D" parent="." unique_id=1019750900]
+position = Vector2(240, 160)
+texture = ExtResource("1_2ckmb")
+
+[node name="Entity" type="Node2D" parent="." unique_id=1740213955]
+
+[node name="Box" type="Sprite2D" parent="Entity" unique_id=482440018]
+position = Vector2(119, 141)
+texture = ExtResource("2_f8l68")
+
+[node name="Mon_Name" type="Label" parent="Entity/Box" unique_id=1135774535]
+offset_left = -86.0
+offset_top = -107.0
+offset_right = 14.0
+offset_bottom = -81.0
+text = "Charizard"
+label_settings = SubResource("LabelSettings_htemk")
+
+[node name="Lvl_Number" type="Label" parent="Entity/Box" unique_id=622065729]
+offset_left = -87.0
+offset_top = -73.0
+offset_right = -47.0
+offset_bottom = -47.0
+text = "100"
+label_settings = SubResource("LabelSettings_14cdr")
+
+[node name="Gender" type="Label" parent="Entity/Box" unique_id=2035304945]
+offset_left = 91.0
+offset_top = -73.0
+offset_right = 103.0
+offset_bottom = -45.0
+text = "♂"
+label_settings = SubResource("LabelSettings_14cdr")
+
+[node name="Mon" type="Sprite2D" parent="Entity" unique_id=1956032434]
+position = Vector2(90, 173)
+scale = Vector2(2, 2)
+texture = ExtResource("4_qiceh")
+
+[node name="Ball" type="Sprite2D" parent="Entity" unique_id=1784429071]
+position = Vector2(17, 49)
+texture = ExtResource("5_qiceh")
+
+[node name="Status" type="Sprite2D" parent="Entity" unique_id=775525420]
+position = Vector2(183, 88)
+texture = ExtResource("6_qiceh")
+
+[node name="InfoPage" parent="." unique_id=188852886 instance=ExtResource("4_f8l68")]

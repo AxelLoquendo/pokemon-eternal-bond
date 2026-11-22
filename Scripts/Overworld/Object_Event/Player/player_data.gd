@@ -97,3 +97,28 @@ func heal_party() -> void:
 	for p: PokemonInstance in party:
 		if p != null:
 			p.heal_full()
+
+
+
+## Enseña la MT/MO al miembro del equipo. Consume 1 ítem si no es importante/key.
+## replace_slot: si moveset lleno, índice a reemplazar; -1 = solo si hay hueco.
+func use_tm_on(party_index: int, item_id: ItemId.Id, replace_slot: int = -1) -> Dictionary:
+	var result: Dictionary = {"ok": false, "reason": "unknown"}
+	var mon: PokemonInstance = get_pokemon(party_index)
+	if mon == null:
+		result.reason = "no_pokemon"
+		return result
+	if not has_item(item_id):
+		result.reason = "no_item"
+		return result
+	result = mon.learn_from_item(item_id, replace_slot)
+	if not result.get("ok", false):
+		return result
+	var data: ItemData = ItemCatalog.get_item(item_id) if ItemCatalog else null
+	# MTs reutilizables si important (como expansion I_REUSABLE_TMS)
+	var consume: bool = true
+	if data != null and (data.important or data.pocket == ItemPocket.Id.KEY_ITEMS):
+		consume = false
+	if consume:
+		remove_item(item_id, 1)
+	return result

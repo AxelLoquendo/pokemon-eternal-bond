@@ -291,6 +291,138 @@ func apply_level_up_moves_up_to_level() -> void:
 	set_moves(learned)
 
 
+
+# ---------------------------------------------------------------------------
+# Habilidad / moves / gráficos (API lista para UI y combate)
+# ---------------------------------------------------------------------------
+
+func ability_data() -> AbilityData:
+	if AbilityCatalog == null:
+		return null
+	if ability_id == AbilityId.Id.NONE:
+		resolve_ability_from_species()
+	return AbilityCatalog.get_ability(ability_id)
+
+
+func ability_name() -> String:
+	var ad: AbilityData = ability_data()
+	if ad != null and not ad.display_name.is_empty():
+		return ad.display_name
+	if ability_id != AbilityId.Id.NONE:
+		return AbilityId.to_token(ability_id)
+	return ""
+
+
+func move_data_at(slot: int) -> MoveData:
+	if slot < 0 or slot >= moves.size():
+		return null
+	if MoveCatalog == null:
+		return null
+	return MoveCatalog.get_move(moves[slot])
+
+
+func knows_move(mid: MoveId.Id) -> bool:
+	return mid != MoveId.Id.NONE and moves.has(mid)
+
+
+## Enseña un movimiento. Si no hay hueco libre, reemplaza `replace_slot` (0..3).
+## Devuelve true si quedó aprendido.
+func teach_move(mid: MoveId.Id, replace_slot: int = -1) -> bool:
+	if mid == MoveId.Id.NONE:
+		return false
+	if knows_move(mid):
+		return false
+	if moves.size() < MOVE_SLOTS:
+		moves.append(mid)
+		move_pp.append(_base_pp(mid))
+		move_pp_ups.append(0)
+		return true
+	if replace_slot < 0 or replace_slot >= MOVE_SLOTS:
+		return false
+	# Asegurar tamaño
+	while moves.size() < MOVE_SLOTS:
+		moves.append(MoveId.Id.NONE)
+		move_pp.append(0)
+		move_pp_ups.append(0)
+	moves[replace_slot] = mid
+	move_pp[replace_slot] = _base_pp(mid)
+	if replace_slot < move_pp_ups.size():
+		move_pp_ups[replace_slot] = 0
+	else:
+		move_pp_ups.append(0)
+	return true
+
+
+## True si la especie lista el movimiento en level-up / egg / tutor.
+func can_learn_naturally(mid: MoveId.Id) -> bool:
+	if mid == MoveId.Id.NONE:
+		return false
+	var data: SpeciesData = species()
+	if data == null:
+		return false
+	for entry: LevelUpMove in data.level_moves:
+		if entry != null and entry.move == mid:
+			return true
+	if data.egg_moves.has(mid):
+		return true
+	if data.tutor_moves.has(mid):
+		return true
+	return false
+
+
+## Usa una MT/MO del catálogo de ítems. No consume el ítem (eso es PlayerData).
+## replace_slot: si el moveset está lleno y es >= 0, sustituye ese slot.
+func learn_from_item(item_id: ItemId.Id, replace_slot: int = -1) -> Dictionary:
+	## { ok: bool, reason: String, move: MoveId }
+	var result: Dictionary = {"ok": false, "reason": "", "move": MoveId.Id.NONE}
+	if ItemCatalog == null:
+		result.reason = "no_item_catalog"
+		return result
+	var item: ItemData = ItemCatalog.get_item(item_id)
+	if item == null:
+		result.reason = "item_missing"
+		return result
+	var mid: MoveId.Id = item.tm_move
+	if mid == MoveId.Id.NONE:
+		result.reason = "not_a_tm"
+		return result
+	result.move = mid
+	if knows_move(mid):
+		result.reason = "already_knows"
+		return result
+	if teach_move(mid, replace_slot):
+		result.ok = true
+		result.reason = "learned"
+		return result
+	result.reason = "moveset_full"
+	return result
+
+
+func front_texture(shiny: bool = false) -> Texture2D:
+	if PokemonSprites == null:
+		return null
+	return PokemonSprites.get_front(species_id, shiny, gender == PokemonEnums.Gender.FEMALE)
+
+
+func back_texture(shiny: bool = false) -> Texture2D:
+	if PokemonSprites == null:
+		return null
+	return PokemonSprites.get_back(species_id, shiny, gender == PokemonEnums.Gender.FEMALE)
+
+
+func icon_texture() -> Texture2D:
+	if PokemonSprites == null:
+		return null
+	return PokemonSprites.get_icon(species_id)
+
+
+func held_item_data() -> ItemData:
+	if held_item == ItemId.Id.NONE or ItemCatalog == null:
+		return null
+	return ItemCatalog.get_item(held_item)
+
+
+
 # ---------------------------------------------------------------------------
 # Factory
 # ---------------------------------------------------------------------------
