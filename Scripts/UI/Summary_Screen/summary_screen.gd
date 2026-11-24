@@ -18,6 +18,7 @@ const PAGE_COUNT: int = 4
 @onready var _skills_page: Node = $Skills_Page
 @onready var _evs_page: Node = $Evs_Ivs_Page
 @onready var _move_page: Node = $Move_Page
+@onready var bg_lluvia: AnimationPlayer = $BG/BG_Lluvia
 
 var player_data: PlayerData = null
 var party_index: int = 0
@@ -38,6 +39,7 @@ static func open_from_party(tree: SceneTree, pd: PlayerData, index: int = 0) -> 
 
 
 func _ready() -> void:
+	bg_lluvia.play("Lluvia_BG")
 	await get_tree().process_frame
 	if SpeciesCatalog and SpeciesCatalog.has_method("warm_index"):
 		SpeciesCatalog.warm_index()
@@ -190,6 +192,7 @@ func _play_ui(id: SFXGame.SoundEffectID) -> void:
 
 
 func _close_summary() -> void:
+	bg_lluvia.stop()
 	_play_ui(SFXGame.SoundEffectID.SE_GUI_MENU_CLOSE)
 	if get_tree().current_scene != self and get_parent() != null:
 		queue_free()
@@ -200,7 +203,9 @@ func _seed_debug_party() -> void:
 		PokemonInstance.create(SpeciesId.Id.VENUSAUR, 36, true, true),
 		PokemonInstance.create(SpeciesId.Id.WYRDEER, 40, true, true),
 		PokemonInstance.create(SpeciesId.Id.QUAQUAVAL, 36, true, true),
-		PokemonInstance.create(SpeciesId.Id.TREECKO, 5, true, true),
+		PokemonInstance.create(SpeciesId.Id.EELEKTROSS_MEGA, 65, true, true),
+		PokemonInstance.create(SpeciesId.Id.PALAFIN_HERO, 55, true, true),
+		PokemonInstance.create(SpeciesId.Id.DURALUDON_GMAX, 42, true, true),
 		]
 	for i: int in range(m.size()):
 		if m[i] == null:
