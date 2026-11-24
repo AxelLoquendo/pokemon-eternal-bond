@@ -64,14 +64,18 @@ const CURSOR_SELECTED: String = "res://Graficos/UI/Summary_Screen/Move_Page/move
 func _ready() -> void:
 	if _cursor:
 		_cursor.visible = false
-		_cursor_held = Sprite2D.new()
-		_cursor_held.name = "Cursor_Move_Selected"
-		_cursor_held.centered = _cursor.centered
-		_cursor_held.z_index = _cursor.z_index - 1
-		_cursor_held.visible = false
+	# Preferir el nodo de la escena; si no, crear uno.
+	if _cursor_select == null and _cursor != null:
+		_cursor_select = Sprite2D.new()
+		_cursor_select.name = "Cursor_Move_Select"
+		_cursor_select.centered = _cursor.centered
+		_cursor_select.z_index = _cursor.z_index - 1
 		if ResourceLoader.exists(CURSOR_SELECTED):
-			_cursor_held.texture = load(CURSOR_SELECTED)
-		_cursor.get_parent().add_child(_cursor_held)
+			_cursor_select.texture = load(CURSOR_SELECTED)
+		_cursor.get_parent().add_child(_cursor_select)
+	_cursor_held = _cursor_select
+	if _cursor_held:
+		_cursor_held.visible = false
 
 func _process(delta: float) -> void:
 	if _mon_icon == null or not is_visible_in_tree():
@@ -243,21 +247,25 @@ func _clear_detail() -> void:
 
 
 func _place_held() -> void:
-	if _cursor_held == null:
+	var mark: Sprite2D = _cursor_select if _cursor_select else _cursor_held
+	if mark == null:
 		return
 	if _held < 0 or _held >= _slots.size():
-		_cursor_held.visible = false
+		mark.visible = false
 		return
-	# Misma posición visual que el cursor activo al marcar el movimiento.
+	# Misma posición que el cursor activo al marcar.
 	if _cursor:
-		_cursor_held.position = _cursor.position
+		mark.position = _cursor.position
 	else:
-		_cursor_held.position = _slots[_held].position
-	_cursor_held.visible = true
+		mark.position = _slots[_held].position
+	mark.visible = true
+	mark.z_index = (_cursor.z_index - 1) if _cursor else 0
 
 
 func _hide_held() -> void:
-	if _cursor_held:
+	if _cursor_select:
+		_cursor_select.visible = false
+	if _cursor_held and _cursor_held != _cursor_select:
 		_cursor_held.visible = false
 
 

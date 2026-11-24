@@ -42,12 +42,13 @@ static func open_from_party(tree: SceneTree, pd: PlayerData, index: int = 0) -> 
 func _ready() -> void:
 	bg_lluvia.play("Lluvia_BG")
 	await get_tree().process_frame
-	if SpeciesCatalog and SpeciesCatalog.has_method("warm_index"):
-		SpeciesCatalog.warm_index()
+	_warm_catalogs()
 	if player_data == null:
 		player_data = PlayerData.new()
 	#if player_data.party.is_empty():
 	#	_seed_debug_party()
+	_apply_gender_skins()
+	_preload_party_species()
 	_bind_party_index(party_index)
 	_play_ui(SFXGame.SoundEffectID.SE_GUI_MENU_OPEN)
 
@@ -55,12 +56,19 @@ func _ready() -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if event.is_echo():
 		return
-	# Páginas: L/R o Left/Right
+	# Páginas: L/R o Left/Right (bloqueado si el cursor de moves está activo)
+	var moves_locked: bool = page_index == 3 and _move_page != null and _move_page.has_method("is_active") and _move_page.is_active()
 	if event.is_action_pressed("buttonL") or event.is_action_pressed("Left"):
+		if moves_locked:
+			get_viewport().set_input_as_handled()
+			return
 		_change_page(-1)
 		get_viewport().set_input_as_handled()
 		return
 	if event.is_action_pressed("buttonR") or event.is_action_pressed("Right"):
+		if moves_locked:
+			get_viewport().set_input_as_handled()
+			return
 		_change_page(1)
 		get_viewport().set_input_as_handled()
 		return
@@ -278,3 +286,49 @@ func _status_texture(status: String) -> Texture2D:
 	if ResourceLoader.exists(path):
 		return load(path) as Texture2D
 	return null
+
+
+func _warm_catalogs() -> void:
+	if SpeciesCatalog and SpeciesCatalog.has_method("warm_index"):
+		SpeciesCatalog.warm_index()
+	if MoveCatalog and MoveCatalog.has_method("warm_index"):
+		MoveCatalog.warm_index()
+	if ItemCatalog and ItemCatalog.has_method("warm_index"):
+		ItemCatalog.warm_index()
+	if AbilityCatalog and AbilityCatalog.has_method("warm_index"):
+		AbilityCatalog.warm_index()
+
+
+func _preload_party_species() -> void:
+	if player_data == null or SpeciesCatalog == null:
+		return
+	if not SpeciesCatalog.has_method("preload_ids"):
+		return
+	var ids: Array = []
+	for p: PokemonInstance in player_data.party:
+		if p != null:
+			ids.append(p.species_id)
+	SpeciesCatalog.preload_ids(ids)
+
+
+func _apply_gender_skins() -> void:
+	var box: Sprite2D = get_node_or_null("Entity/Box") as Sprite2D
+	if box:
+		var tex: Texture2D = SummaryGenderSkins.load_tex(SummaryGenderSkins.detail_box_path())
+		if tex:
+			box.texture = tex
+	_set_page_sprite($InfoPage, "Page_Name", SummaryGenderSkins.info_page_name_path())
+	_set_page_sprite($Skills_Page, "Page_Name", SummaryGenderSkins.skills_page_name_path())
+	_set_page_sprite($Skills_Page, "Skills_Box", SummaryGenderSkins.skills_box_path())
+	_set_page_sprite($Move_Page, "Page_Name", SummaryGenderSkins.move_page_name_path())
+
+
+func _set_page_sprite(page: Node, node_name: String, path: String) -> void:
+	if page == null:
+		return
+	var spr: Sprite2D = page.get_node_or_null(node_name) as Sprite2D
+	if spr == null:
+		return
+	var tex: Texture2D = SummaryGenderSkins.load_tex(path)
+	if tex:
+		spr.texture = tex
