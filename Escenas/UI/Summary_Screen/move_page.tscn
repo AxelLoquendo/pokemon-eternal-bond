@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://33shugjberxs" path="res://Graficos/Types/normal.png" id="6_6xdo6"]
 [ext_resource type="Texture2D" uid="uid://c52ff5r1eiswb" path="res://Graficos/Pokemon/arceus/icon.png" id="7_8hug6"]
 [ext_resource type="Texture2D" uid="uid://jr2gwp03xaim" path="res://Graficos/UI/Summary_Screen/Move_Page/move_cursor.png" id="7_13fcy"]
+[ext_resource type="Texture2D" uid="uid://cm5bh21yfxy2q" path="res://Graficos/UI/Summary_Screen/Move_Page/move_cursor_selected.png" id="7_heu84"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_htemk"]
 font = ExtResource("5_n0ews")
@@ -117,8 +118,11 @@ text = "Placaje"
 label_settings = SubResource("LabelSettings_htemk")
 horizontal_alignment = 1
 
+[node name="Cursor_Move_Select" type="Sprite2D" parent="Move_Box" unique_id=1582306775]
+position = Vector2(142, -254)
+texture = ExtResource("7_heu84")
+
 [node name="Cursor_Move" type="Sprite2D" parent="Move_Box" unique_id=1967574749]
-visible = false
 position = Vector2(71, -127)
 texture = ExtResource("7_13fcy")
 

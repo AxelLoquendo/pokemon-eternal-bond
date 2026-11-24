@@ -26,16 +26,17 @@ var page_index: int = 0
 var mon: PokemonInstance = null
 
 
-static func open_from_party(tree: SceneTree, pd: PlayerData, index: int = 0) -> void:
+static func open_from_party(tree: SceneTree, pd: PlayerData, index: int = 0) -> CanvasLayer:
 	var path: String = "res://Escenas/UI/Summary_Screen/summary_screen.tscn"
 	var packed: PackedScene = load(path) as PackedScene
 	if packed == null:
 		push_error("Summary: no se pudo cargar %s" % path)
-		return
+		return null
 	var scn: CanvasLayer = packed.instantiate() as CanvasLayer
 	scn.set("player_data", pd)
 	scn.set("party_index", index)
 	tree.root.add_child(scn)
+	return scn
 
 
 func _ready() -> void:
@@ -45,8 +46,8 @@ func _ready() -> void:
 		SpeciesCatalog.warm_index()
 	if player_data == null:
 		player_data = PlayerData.new()
-	if player_data.party.is_empty():
-		_seed_debug_party()
+	#if player_data.party.is_empty():
+	#	_seed_debug_party()
 	_bind_party_index(party_index)
 	_play_ui(SFXGame.SoundEffectID.SE_GUI_MENU_OPEN)
 

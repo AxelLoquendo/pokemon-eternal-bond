@@ -12,6 +12,8 @@ func execute(context: ScriptExecutionContext) -> bool:
 			return _save_game(context)
 		ScriptSpecials.Id.HEAL_PARTY:
 			return _heal_party(context)
+		ScriptSpecials.Id.DEBUG_MENU:
+			return _open_debug_menu(context)
 		_:
 			push_warning("specials: no implementado %s" % special_id)
 			return true
@@ -63,5 +65,21 @@ func _heal_party(_context: ScriptExecutionContext) -> bool:
 	return true
 
 
+func _open_debug_menu(_context: ScriptExecutionContext) -> bool:
+	var tree: SceneTree = Engine.get_main_loop() as SceneTree
+	if tree == null:
+		return true
+	var session: Node = tree.get_first_node_in_group(&"game_session")
+	if session == null:
+		return true
+	if session.has_method("_ensure_debug_menu"):
+		session.call("_ensure_debug_menu")
+	var dbg: Node = session.get_node_or_null("DebugMenu")
+	if dbg and dbg.has_method("open_menu"):
+		dbg.call("open_menu")
+	return true
+
+
 func get_display_text() -> String:
+
 	return "specials %s" % ScriptSpecials.Id.keys()[special_id]

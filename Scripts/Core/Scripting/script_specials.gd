@@ -5,7 +5,8 @@ class_name ScriptSpecials
 enum Id {
 	NONE = 0,
 	SAVE_GAME,
-	HEAL_PARTY,       # stub hasta que exista party
+	HEAL_PARTY,
+	DEBUG_MENU,
 	# Más adelante: STRENGTH_ON, SURF_START, etc.
 }
 

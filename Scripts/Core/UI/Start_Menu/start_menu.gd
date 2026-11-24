@@ -126,12 +126,32 @@ func _refresh() -> void:
 
 func _confirm() -> void:
 	match _index as Option:
-		Option.POKEDEX, Option.POKEMON, Option.BAG, Option.PROFILE, Option.OPTIONS:
+		Option.POKEMON:
+			_se(SFXGame.SoundEffectID.SE_GUI_SEL_DECISION)
+			_open_party()
+		Option.POKEDEX, Option.BAG, Option.PROFILE, Option.OPTIONS:
 			_se(SFXGame.SoundEffectID.SE_GUI_SEL_BUZZER)
 			_stub(["Pokédex", "Pokémon", "Mochila", "Perfil", "", "Opciones"][_index])
 		Option.SAVE:
 			_se(SFXGame.SoundEffectID.SE_GUI_SEL_DECISION)
 			await _save_flow()
+
+
+func _open_party() -> void:
+	var pd: PlayerData = BagService.player_data_from_tree(get_tree())
+	# Ocultar start; party lo vuelve a mostrar al cerrar.
+	visible = false
+	var party_script: Script = load("res://Escenas/UI/Party_Menu/party_menu.gd") as Script
+	# Preferir API estática del menú
+	var packed: PackedScene = load("res://Escenas/UI/Party_Menu/party_menu.tscn") as PackedScene
+	if packed == null:
+		visible = true
+		_se(SFXGame.SoundEffectID.SE_GUI_SEL_BUZZER)
+		return
+	var scn: CanvasLayer = packed.instantiate() as CanvasLayer
+	scn.set("player_data", pd)
+	scn.set("_return_start", self)
+	get_tree().root.add_child(scn)
 
 
 func _stub(label: String) -> void:

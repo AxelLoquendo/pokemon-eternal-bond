@@ -9,6 +9,7 @@ extends Node2D
 
 var play_seconds: float = 0.0
 var _start_menu: CanvasLayer = null
+var _debug_menu: Node = null
 var _signpost: CanvasLayer = null
 
 
@@ -71,9 +72,17 @@ func _process(delta: float) -> void:
 
 
 func _unhandled_input(event: InputEvent) -> void:
+	if MessageService and MessageService.has_method("is_active") and MessageService.is_active():
+		return
+	if _debug_menu != null and is_instance_valid(_debug_menu) and _debug_menu.has_method("is_busy") and _debug_menu.is_busy():
+		return
+	if event.is_action_pressed("buttonSelect"):
+		_ensure_debug_menu()
+		if _debug_menu and _debug_menu.has_method("open_menu"):
+			_debug_menu.open_menu()
+		get_viewport().set_input_as_handled()
+		return
 	if event.is_action_pressed("buttonStart"):
-		if MessageService and MessageService.has_method("is_active") and MessageService.is_active():
-			return
 		_ensure_start_menu()
 		if _start_menu and _start_menu.has_method("is_open") and not _start_menu.is_open():
 			_start_menu.open_menu(self)
@@ -171,3 +180,15 @@ func _ensure_day_night_overlay() -> void:
 	var o := DayNightOverlay.new()
 	o.name = "DayNightOverlay"
 	add_child(o)
+
+func _ensure_debug_menu() -> void:
+	if _debug_menu != null and is_instance_valid(_debug_menu):
+		return
+	var script: Script = load("res://Scripts/Core/Debug/debug_menu.gd") as Script
+	if script == null:
+		push_error("GameSession: no se pudo cargar debug_menu.gd")
+		return
+	_debug_menu = Node.new()
+	_debug_menu.set_script(script)
+	_debug_menu.name = "DebugMenu"
+	add_child(_debug_menu)

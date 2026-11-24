@@ -247,8 +247,12 @@ func _place_held() -> void:
 	if _held < 0 or _held >= _slots.size():
 		_cursor_held.visible = false
 		return
+	# Misma posición visual que el cursor activo al marcar el movimiento.
+	if _cursor:
+		_cursor_held.position = _cursor.position
+	else:
+		_cursor_held.position = _slots[_held].position
 	_cursor_held.visible = true
-	_cursor_held.position = _slots[_held].position
 
 
 func _hide_held() -> void:
