@@ -43,6 +43,7 @@ const TYPE_FILE: Dictionary = {
 	$Move_Box/Slot_4,
 ]
 @onready var _cursor: Sprite2D = $Move_Box/Cursor_Move
+@onready var _cursor_select: Sprite2D = $Move_Box/Cursor_Move_Select
 @onready var _power: Label = $Move_Box/Power_Number
 @onready var _accuracy: Label = $Move_Box/Accuracy_Number
 @onready var _type_icon: Sprite2D = $Move_Box/Type
