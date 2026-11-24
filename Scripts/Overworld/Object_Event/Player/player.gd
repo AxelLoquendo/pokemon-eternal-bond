@@ -5,9 +5,14 @@ extends Node2D
 const TILE_SIZE: float = 16.0
 
 @export var character: PlayerData:
+	get:
+		return _character
 	set(value):
-		character = value
-		_update_visuals()
+		_character = value
+		if not Engine.is_editor_hint():
+			_update_visuals()
+
+var _character: PlayerData = null
 
 @onready var shadow_sprite: Sprite2D = $ShadowSprite
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D

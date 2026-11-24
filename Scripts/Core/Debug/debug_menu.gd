@@ -57,11 +57,11 @@ func _party_menu() -> void:
 	match MessageService.get_last_choice():
 		0:
 			_set_team(_team_starters())
-			MessageService.show_texts(["Party: 3 starters Nv.5."])
+			MessageService.show_texts(["Party starters: %d mons." % _party_count()])
 			await MessageService.message_finished
 		1:
 			_set_team(_team_test_six())
-			MessageService.show_texts(["Party: equipo de prueba (6)."])
+			MessageService.show_texts(["Party prueba: %d mons." % _party_count()])
 			await MessageService.message_finished
 		2:
 			await _add_one_menu()
@@ -93,14 +93,23 @@ func _add_one_menu() -> void:
 		return
 	var ok: bool = _add_one(map[choice] as SpeciesId.Id, 20)
 	if ok:
-		MessageService.show_texts(["Añadido al party."])
+		var pd2: PlayerData = _player_data()
+		var n: int = pd2.party_count() if pd2 else 0
+		MessageService.show_texts(["Añadido. Party: %d/6." % n])
 	else:
-		MessageService.show_texts(["No se pudo añadir (party lleno o error)."])
+		var pd2: PlayerData = _player_data()
+		if pd2 == null:
+			MessageService.show_texts(["Error: no hay PlayerData en el Player."])
+		elif pd2.party_is_full():
+			MessageService.show_texts(["Party lleno (6/6)."])
+		else:
+			MessageService.show_texts(["Error al crear el Pokémon (revisa consola)."])
 	await MessageService.message_finished
 
 
 func _player_data() -> PlayerData:
-	return BagService.player_data_from_tree(get_tree())
+	# ensure: si character era null, crea uno y lo asigna al Player.
+	return BagService.ensure_player_data(get_tree())
 
 
 func _ot() -> String:
@@ -140,11 +149,19 @@ func _set_team(entries: Array) -> void:
 func _add_one(species: SpeciesId.Id, level: int) -> bool:
 	var pd: PlayerData = _player_data()
 	if pd == null:
+		push_warning("DebugMenu._add_one: PlayerData null")
+		return false
+	if pd.party_is_full():
+		push_warning("DebugMenu._add_one: party lleno (%d)" % pd.party_count())
 		return false
 	var mon: PokemonInstance = _make_mon(species, level)
 	if mon == null:
+		push_warning("DebugMenu._add_one: create() devolvió null para %s" % species)
 		return false
-	return pd.add_pokemon(mon)
+	var ok: bool = pd.add_pokemon(mon)
+	if not ok:
+		push_warning("DebugMenu._add_one: add_pokemon falló")
+	return ok
 
 
 func _clear_party() -> void:
@@ -183,3 +200,8 @@ func _team_test_six() -> Array:
 		[SpeciesId.Id.LUCARIO, 40],
 		[SpeciesId.Id.GARCHOMP, 50],
 	]
+
+
+func _party_count() -> int:
+	var pd: PlayerData = _player_data()
+	return pd.party_count() if pd else 0
